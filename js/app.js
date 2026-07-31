@@ -65,6 +65,12 @@ function app() {
 
     // ─── Initialization ───
     async init() {
+      // Test persistence
+      Storage.testPersistence();
+
+      // Run migration if needed
+      Storage.migrate();
+
       // Load settings
       var settings = Storage.getSettings();
       this.theme = settings.theme || 'dark';
