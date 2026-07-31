@@ -34,6 +34,7 @@ function app() {
     // Quiz state
     quizActive: false,
     quizFinished: false,
+    quizSubmitted: false,     // true = all answered, user clicked "Submit Quiz"
     quizQuestions: [],
     quizIndex: 0,
     quizScore: 0,
@@ -42,6 +43,13 @@ function app() {
     selectedOption: null,
     fillInAnswer: '',
     conjugationAnswer: '',
+    quizPillars: ['grammar', 'vocabulary', 'verbs', 'pronunciation'],
+    lastQuizResult: null,   // [{score, total, date}] — previous attempt history for this stage
+    quizPillarBreakdown: null, // [{pillar, name, emoji, score, total}]
+    pillarScoreMap: null,    // { pillar: score } — tracked during quiz for per-pillar breakdown
+    previousAnswers: [],     // [{question, userAnswer, correct, correctAnswer}] — per-question answer log
+    currentQuestionAnswer: null, // track current question's answer for summary
+    currentQuestionCorrect: null, // track current question's correctness
 
     // Drag and drop state
     dragItem: null,
@@ -89,6 +97,24 @@ function app() {
         if (this.matrixAnswers[key] && this.matrixAnswers[key].trim() !== '') filled++;
       }
       return filled;
+    },
+    get estimatedQuizLength() {
+      if (!this.stageData || this.quizPillars.length === 0) return 0;
+      var count = 0;
+      var self = this;
+      this.quizPillars.forEach(function(p) {
+        if (self.stageData[p] && Array.isArray(self.stageData[p])) count += self.stageData[p].length;
+      });
+      return count;
+    },
+    get quizCompletionEmoji() {
+      var ratio = this.quizQuestions.length > 0 ? this.quizScore / this.quizQuestions.length : 0;
+      if (ratio >= 1) return '🏆';
+      if (ratio >= 0.8) return '🌟';
+      if (ratio >= 0.6) return '👏';
+      if (ratio >= 0.4) return '💪';
+      if (ratio > 0) return '🤔';
+      return '📚';
     },
 
     // ─── Initialization ───
@@ -292,7 +318,17 @@ function app() {
     get canStartQuiz() {
       if (!this.stageData) return false;
       var pillars = ['grammar', 'vocabulary', 'verbs', 'pronunciation'];
-      return pillars.some(function(p) { return this.stageData[p] && this.stageData[p].length > 0; }.bind(this));
+      return pillars.some(function(p) { 
+        if (this.stageData[p] && this.stageData[p].length > 0) return true;
+      }.bind(this));
+    },
+
+    selectAllPillars: function() {
+      this.quizPillars = ['grammar', 'vocabulary', 'verbs', 'pronunciation'];
+    },
+
+    deselectAllPillars: function() {
+      this.quizPillars = [];
     },
 
     get vocabularyCards() {
@@ -437,40 +473,39 @@ function app() {
       if (!this.stageData) return;
 
       this.quizQuestions = [];
-      var pillars = ['grammar', 'vocabulary', 'verbs', 'pronunciation'];
       var self = this;
+      var selectedPillars = this.quizPillars.length > 0 ? this.quizPillars : ['grammar', 'vocabulary', 'verbs', 'pronunciation'];
 
-      pillars.forEach(function(pillar) {
+      selectedPillars.forEach(function(pillar) {
         var items = self.stageData[pillar];
         if (!items) return;
         items.forEach(function(item, index) {
           var q = Object.assign({}, item, { pillar: pillar, index: index });
 
-          // For matching exercises, set up pairs and shuffled right items
+          // For matching exercises, store pairs and shuffled right items on the question object
           if (item.type === 'matching' && item.pairs) {
-            self.matchPairs = item.pairs;
-            self.matchRightItems = item.pairs.map(function(p) { return p.source; });
+            q.matchPairs = item.pairs;
+            q.matchRightItems = item.pairs.map(function(p) { return p.source; });
             // Shuffle right items
-            self.matchRightOriginalIndex = item.pairs.map(function(_, i) { return i; });
-            for (var s = self.matchRightOriginalIndex.length - 1; s > 0; s--) {
+            q.matchRightOriginalIndex = item.pairs.map(function(_, i) { return i; });
+            for (var s = q.matchRightOriginalIndex.length - 1; s > 0; s--) {
               var r = Math.floor(Math.random() * (s + 1));
-              var tmp = self.matchRightOriginalIndex[s];
-              self.matchRightOriginalIndex[s] = self.matchRightOriginalIndex[r];
-              self.matchRightOriginalIndex[r] = tmp;
+              var tmp = q.matchRightOriginalIndex[s];
+              q.matchRightOriginalIndex[s] = q.matchRightOriginalIndex[r];
+              q.matchRightOriginalIndex[r] = tmp;
             }
-            // Reorder rightItems according to shuffled index
             var originalPairs = item.pairs;
-            self.matchRightItems = self.matchRightOriginalIndex.map(function(origIdx) {
+            q.matchRightItems = q.matchRightOriginalIndex.map(function(origIdx) {
               return originalPairs[origIdx].source;
             });
-            // Reset matching state
-            self.matchSelections = [];
-            self.matchRightMatched = [];
-            self.selectedLeft = null;
-            self.selectedRight = null;
-            self.userMatchAnswers = null;
-            self.matchResults = null;
-            self.matchAttempts = 0;
+            // Reset matching state for this question
+            q._matchSelections = [];
+            q._matchRightMatched = [];
+            q._selectedLeft = null;
+            q._selectedRight = null;
+            q._userMatchAnswers = null;
+            q._matchResults = null;
+            q._matchAttempts = 0;
           }
 
           // For conjugation-matrix exercises, look up verb data
@@ -481,6 +516,11 @@ function app() {
             if (verbObj) {
               q.verbData = verbObj;
             }
+            // Initialize matrix state on question
+            q._matrixAnswers = {};
+            q._matrixCorrectAnswers = null;
+            q._matrixResults = null;
+            q._matrixCorrectCount = 0;
           }
 
           self.quizQuestions.push(q);
@@ -488,38 +528,26 @@ function app() {
       });
 
       if (this.quizQuestions.length === 0) {
-        alert('No exercises available for this stage yet.');
+        alert('No exercises available for the selected pillars yet.');
         return;
       }
 
       this.quizQuestions = this.shuffleArray(this.quizQuestions);
+
       this.quizIndex = 0;
       this.quizScore = 0;
       this.quizActive = true;
       this.quizFinished = false;
+      this.quizSubmitted = false;
       this.quizAnswered = false;
       this.quizFeedback = null;
       this.selectedOption = null;
       this.fillInAnswer = '';
       this.conjugationAnswer = '';
-
-      // Initialize matching state
-      this.matchPairs = [];
-      this.matchRightItems = [];
-      this.matchRightOriginalIndex = [];
-      this.matchSelections = [];
-      this.matchRightMatched = [];
-      this.selectedLeft = null;
-      this.selectedRight = null;
-      this.userMatchAnswers = null;
-      this.matchResults = null;
-      this.matchAttempts = 0;
-
-      // Initialize conjugation matrix state
-      this.matrixAnswers = {};
-      this.matrixCorrectAnswers = null;
-      this.matrixResults = null;
-      this.matrixCorrectCount = 0;
+      this.previousAnswers = [];
+      this.currentQuestionAnswer = null;
+      this.currentQuestionCorrect = null;
+      this.pillarScoreMap = {};
     },
 
     shuffleArray: function(array) {
@@ -539,9 +567,31 @@ function app() {
       var question = this.quizQuestions[this.quizIndex];
       var correct = this.checkAnswer(answer, question);
 
+      // Track per-question answer for summary
+      this.previousAnswers[this.quizIndex] = {
+        question: question.question || '',
+        userAnswer: this.formatAnswerForSummary(answer, question),
+        correct: correct,
+        correctAnswer: this.formatCorrectAnswerForSummary(question),
+        pillar: question.pillar
+      };
+
+      // Track current question's answer
+      this.currentQuestionAnswer = this.formatAnswerForSummary(answer, question);
+      this.currentQuestionCorrect = correct;
+
+      // Track per-pillar score
+      if (question && question.pillar) {
+        if (!this.pillarScoreMap[question.pillar]) {
+          this.pillarScoreMap[question.pillar] = 0;
+        }
+        if (correct) this.pillarScoreMap[question.pillar]++;
+      }
+
       if (correct) {
         this.quizScore++;
-        Storage.addXP(10);
+        var xpEarned = Storage.calculateXP(1);
+        Storage.addXP(xpEarned);
         this.xp = Storage.getXP();
         this.quizFeedback = { correct: true, explanation: question.explanation || 'Correct!' };
       } else {
@@ -552,6 +602,22 @@ function app() {
       }
 
       this.quizAnswered = true;
+    },
+
+    formatAnswerForSummary: function(answer, question) {
+      if (question && question.type === 'multiple-choice') {
+        if (question.options && question.options[answer]) return question.options[answer];
+        return 'Option ' + (answer + 1);
+      }
+      return String(answer);
+    },
+
+    formatCorrectAnswerForSummary: function(question) {
+      if (question && question.type === 'multiple-choice') {
+        if (question.options && question.options[question.correct]) return question.options[question.correct];
+        return '—';
+      }
+      return question.correct || '—';
     },
 
     checkAnswer: function(userAnswer, question) {
@@ -579,31 +645,146 @@ function app() {
     },
 
     nextQuestion: function() {
+      // Save current question's answer state before moving on
+      if (!this.quizAnswered) {
+        // If user clicks Next without answering, record unanswered
+        this.previousAnswers[this.quizIndex] = {
+          question: this.quizQuestions[this.quizIndex].question || '',
+          userAnswer: '(skipped)',
+          correct: false,
+          correctAnswer: this.formatCorrectAnswerForSummary(this.quizQuestions[this.quizIndex]),
+          pillar: this.quizQuestions[this.quizIndex].pillar
+        };
+      }
+
       this.quizIndex++;
       this.quizAnswered = false;
       this.quizFeedback = null;
       this.fillInAnswer = '';
       this.conjugationAnswer = '';
       this.selectedOption = null;
-      // Clear per-type state
-      this.matchPairs = [];
-      this.matchRightItems = [];
-      this.matchRightOriginalIndex = [];
-      this.matchSelections = [];
-      this.matchRightMatched = [];
-      this.selectedLeft = null;
-      this.selectedRight = null;
-      this.userMatchAnswers = null;
-      this.matchResults = null;
-      this.matchAttempts = 0;
-      this.matrixAnswers = {};
-      this.matrixCorrectAnswers = null;
-      this.matrixResults = null;
-      this.matrixCorrectCount = 0;
 
-      if (this.quizIndex >= this.quizQuestions.length) {
-        this.finishQuiz();
+      // Load per-question matching/matrix data for the new question
+      var q = this.quizQuestions[this.quizIndex];
+      if (q) {
+        if (q.matchPairs) {
+          this.matchPairs = q.matchPairs;
+          this.matchRightItems = q.matchRightItems;
+          this.matchRightOriginalIndex = q.matchRightOriginalIndex;
+          this.matchSelections = q._matchSelections || [];
+          this.matchRightMatched = q._matchRightMatched || [];
+          this.selectedLeft = q._selectedLeft || null;
+          this.selectedRight = q._selectedRight || null;
+          this.userMatchAnswers = q._userMatchAnswers || null;
+          this.matchResults = q._matchResults || null;
+          this.matchAttempts = q._matchAttempts || 0;
+        }
+        if (q.verbData) {
+          this.matrixAnswers = q._matrixAnswers || {};
+          this.matrixCorrectAnswers = q._matrixCorrectAnswers || null;
+          this.matrixResults = q._matrixResults || null;
+          this.matrixCorrectCount = q._matrixCorrectCount || 0;
+        }
       }
+
+      this.currentQuestionAnswer = null;
+      this.currentQuestionCorrect = null;
+    },
+
+    prevQuestion: function() {
+      if (this.quizIndex <= 0) return;
+      this.quizIndex--;
+      this.quizAnswered = false;
+      this.quizFeedback = null;
+      this.fillInAnswer = '';
+      this.conjugationAnswer = '';
+      this.selectedOption = null;
+
+      // Load per-question matching/matrix data for the previous question
+      var q = this.quizQuestions[this.quizIndex];
+      if (q) {
+        if (q.matchPairs) {
+          this.matchPairs = q.matchPairs;
+          this.matchRightItems = q.matchRightItems;
+          this.matchRightOriginalIndex = q.matchRightOriginalIndex;
+          this.matchSelections = q._matchSelections || [];
+          this.matchRightMatched = q._matchRightMatched || [];
+          this.selectedLeft = q._selectedLeft || null;
+          this.selectedRight = q._selectedRight || null;
+          this.userMatchAnswers = q._userMatchAnswers || null;
+          this.matchResults = q._matchResults || null;
+          this.matchAttempts = q._matchAttempts || 0;
+        }
+        if (q.verbData) {
+          this.matrixAnswers = q._matrixAnswers || {};
+          this.matrixCorrectAnswers = q._matrixCorrectAnswers || null;
+          this.matrixResults = q._matrixResults || null;
+          this.matrixCorrectCount = q._matrixCorrectCount || 0;
+        }
+      }
+
+      this.currentQuestionAnswer = null;
+      this.currentQuestionCorrect = null;
+    },
+
+    // Submit quiz — show summary of all answers
+    submitQuiz: function() {
+      // First answer the last question if not yet answered
+      if (!this.quizAnswered && this.quizIndex < this.quizQuestions.length) {
+        this.finalizeCurrentAnswer();
+      }
+      this.quizSubmitted = true;
+    },
+
+    // Helper: finalize the current unanswered question
+    finalizeCurrentAnswer: function() {
+      var question = this.quizQuestions[this.quizIndex];
+      if (!question) return;
+
+      var correct = false;
+      var userAnswer = '(skipped)';
+
+      if (question.type === 'multiple-choice' && this.selectedOption !== null) {
+        correct = this.checkAnswer(this.selectedOption, question);
+        userAnswer = this.formatAnswerForSummary(this.selectedOption, question);
+      } else if (question.type === 'fill-in-blank' && this.fillInAnswer.trim() !== '') {
+        correct = this.checkAnswer(this.fillInAnswer, question);
+        userAnswer = this.formatAnswerForSummary(this.fillInAnswer, question);
+      } else if (question.type === 'conjugation' && this.conjugationAnswer.trim() !== '') {
+        correct = this.checkAnswer(this.conjugationAnswer, question);
+        userAnswer = this.formatAnswerForSummary(this.conjugationAnswer, question);
+      } else if (question.type === 'matching') {
+        // Matching was already scored in submitMatching
+        correct = this.matchResults ? this.matchResults.filter(function(r) { return r; }).length === this.matchPairs.length : false;
+        userAnswer = this.formatAnswerForSummary('matching', question);
+      } else if (question.type === 'conjugation-matrix') {
+        // Matrix was already scored in submitConjugationMatrix
+        correct = this.matrixCorrectCount === this.matrixTotalCells;
+        userAnswer = this.formatAnswerForSummary(this.matrixCorrectCount + '/' + this.matrixTotalCells, question);
+      }
+
+      // Track this question
+      this.previousAnswers[this.quizIndex] = {
+        question: question.question || '',
+        userAnswer: userAnswer,
+        correct: correct,
+        correctAnswer: this.formatCorrectAnswerForSummary(question),
+        pillar: question.pillar
+      };
+
+      if (correct) this.quizScore++;
+      this.quizAnswered = true;
+    },
+
+    // Finalize the quiz — calculate XP, save progress, show results
+    finalSubmitQuiz: function() {
+      this.quizSubmitted = false;
+      this.finishQuiz();
+    },
+
+    // Cancel submit — go back to answering
+    cancelSubmit: function() {
+      this.quizSubmitted = false;
     },
 
     // ─── Quiz Handlers: Multiple Choice ───
@@ -670,6 +851,17 @@ function app() {
         this.userMatchAnswers = [];
       }
       this.userMatchAnswers[pairIndex] = this.matchRightItems[rightIdx];
+
+      // Save state back to question object
+      var q = this.quizQuestions[this.quizIndex];
+      if (q) {
+        q._matchSelections = this.matchSelections;
+        q._matchRightMatched = this.matchRightMatched;
+        q._selectedLeft = this.selectedLeft;
+        q._selectedRight = this.selectedRight;
+        q._userMatchAnswers = this.userMatchAnswers;
+        q._matchAttempts = this.matchAttempts;
+      }
     },
 
     submitMatching: function() {
@@ -687,11 +879,27 @@ function app() {
         return this.matchSelections[i] && this.matchSelections[i].correct;
       }.bind(this));
 
+      // Save results to question object
+      var q = this.quizQuestions[this.quizIndex];
+      if (q) {
+        q._matchResults = this.matchResults;
+      }
+
       // Score: each correct pair = 1 point
       var correctCount = this.matchResults.filter(function(r) { return r; }).length;
       this.quizScore = correctCount;
-      Storage.addXP(correctCount * 10);
+      var xpEarned = Storage.calculateXP(correctCount);
+      Storage.addXP(xpEarned);
       this.xp = Storage.getXP();
+
+      // Track per-pillar score (matching is under its pillar)
+      var question = this.quizQuestions[this.quizIndex];
+      if (question && question.pillar) {
+        if (!this.pillarScoreMap[question.pillar]) {
+          this.pillarScoreMap[question.pillar] = 0;
+        }
+        this.pillarScoreMap[question.pillar] = correctCount;
+      }
 
       if (correctCount === this.matchPairs.length) {
         this.quizFeedback = { correct: true, explanation: 'Perfect! All pairs matched correctly.' };
@@ -745,8 +953,27 @@ function app() {
       this.matrixCorrectCount = correctCount;
       var totalCells = this.matrixTotalCells;
       this.quizScore = correctCount;
-      Storage.addXP(correctCount * 5); // 5 XP per correct cell (matrix is harder)
+      var xpEarned = Storage.calculateXP(correctCount); // 5→10 base, streak bonus applies on top
+      Storage.addXP(xpEarned);
       this.xp = Storage.getXP();
+
+      // Save results to question object
+      var q = this.quizQuestions[this.quizIndex];
+      if (q) {
+        q._matrixAnswers = this.matrixAnswers;
+        q._matrixCorrectAnswers = this.matrixCorrectAnswers;
+        q._matrixResults = this.matrixResults;
+        q._matrixCorrectCount = this.matrixCorrectCount;
+      }
+
+      // Track per-pillar score
+      var question = this.quizQuestions[this.quizIndex];
+      if (question && question.pillar) {
+        if (!this.pillarScoreMap[question.pillar]) {
+          this.pillarScoreMap[question.pillar] = 0;
+        }
+        this.pillarScoreMap[question.pillar] = correctCount;
+      }
 
       if (correctCount === totalCells) {
         this.quizFeedback = { correct: true, explanation: 'Perfect! All cells correct.' };
@@ -764,6 +991,7 @@ function app() {
     resetQuizView: function() {
       this.quizActive = false;
       this.quizFinished = false;
+      this.quizSubmitted = false;
       this.quizQuestions = [];
       this.quizIndex = 0;
       this.quizScore = 0;
@@ -786,20 +1014,76 @@ function app() {
       this.matrixCorrectAnswers = null;
       this.matrixResults = null;
       this.matrixCorrectCount = 0;
+      this.pillarScoreMap = null;
+      this.quizPillarBreakdown = null;
+      this.lastQuizResult = this.lastQuizResult; // keep attempt history
+      this.previousAnswers = [];
+      this.currentQuestionAnswer = null;
+      this.currentQuestionCorrect = null;
     },
 
     finishQuiz: function() {
       this.quizActive = false;
       this.quizFinished = true;
 
+      // Build per-pillar breakdown from actual tracked scores
+      var pillarBreakdown = [];
+      var pillarNames = {
+        grammar: { name: 'Grammar', emoji: '📖' },
+        vocabulary: { name: 'Vocabulary', emoji: '🗣️' },
+        verbs: { name: 'Verbs & Drills', emoji: '⚡' },
+        pronunciation: { name: 'Pronunciation', emoji: '🔊' }
+      };
+      var pillarTotals = {};
+      var self = this;
+
+      // Count questions per pillar
+      this.quizQuestions.forEach(function(q) {
+        if (!pillarTotals[q.pillar]) pillarTotals[q.pillar] = 0;
+        pillarTotals[q.pillar]++;
+      });
+
+      // Build breakdown with actual scores
+      Object.keys(pillarTotals).forEach(function(pk) {
+        pillarBreakdown.push({
+          pillar: pk,
+          name: pillarNames[pk] ? pillarNames[pk].name : pk,
+          emoji: pillarNames[pk] ? pillarNames[pk].emoji : '',
+          score: this.pillarScoreMap ? (this.pillarScoreMap[pk] || 0) : 0,
+          total: pillarTotals[pk]
+        });
+      }.bind(this));
+
+      this.quizPillarBreakdown = pillarBreakdown;
+
+      // Save to progress storage
       if (this.currentStage) {
-        // stageId is already in the correct format (a1-1, a2-3, etc.)
         var pillar = this.quizQuestions[0] ? this.quizQuestions[0].pillar : 'grammar';
         Storage.saveProgress(this.currentStage, pillar, this.quizScore, this.quizQuestions.length);
       }
 
       Storage.recordActivity();
-      alert('Quiz complete!\n\nScore: ' + this.quizScore + '/' + this.quizQuestions.length + '\nXP earned: +' + (this.quizScore * 10));
+
+      // Track quiz attempt for retry comparison
+      this.trackQuizAttempt(this.quizScore, this.quizQuestions.length);
+
+      // Don't use alert — the results screen shows everything
+      console.log('Quiz complete! Score: ' + this.quizScore + '/' + this.quizQuestions.length + ', XP: +' + (this.quizScore * 10 + Storage.getStreakBonus(this.quizScore)));
+    },
+
+    trackQuizAttempt: function(score, total) {
+      var attempts = this.lastQuizResult || [];
+      var now = new Date();
+      var dateStr = now.toLocaleDateString('en-US', { month: 'short', day: 'numeric' });
+      attempts.push({ score: score, total: total, date: dateStr });
+      // Keep only last 5 attempts
+      if (attempts.length > 5) attempts = attempts.slice(-5);
+      this.lastQuizResult = attempts;
+    },
+
+    retryQuiz: function() {
+      // Keep the same pillar selections but reshuffle questions
+      this.startQuiz();
     },
 
     // ─── Settings ───
@@ -856,6 +1140,24 @@ function app() {
     getProgress: function(levelId, stageId) {
       // stageId is already in the correct format (a1-1, a2-3, etc.)
       return Storage.getStageProgress(stageId);
+    },
+
+    // Get stage-level progress (average of all pillars)
+    getStageProgress: function(levelId, stageId) {
+      return Storage.getStageProgress(stageId);
+    },
+
+    // Get per-pillar completion percentage
+    getPillarProgress: function(stageId, pillar) {
+      var progress = Storage.load('progress', {});
+      if (!progress[stageId] || !progress[stageId][pillar]) return 0;
+      var data = progress[stageId][pillar];
+      return data.total > 0 ? Math.round((data.score / data.total) * 100) : 0;
+    },
+
+    // Get streak multiplier (returns numeric multiplier: 1, 1.5, or 2)
+    getStreakMultiplier: function() {
+      return Storage.getStreakMultiplier();
     }
   };
 }

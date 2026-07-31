@@ -63,7 +63,11 @@
       <h1 class="text-xl font-bold text-primary">🇪🇸 LingoLearn</h1>
     </div>
     <div class="flex-none">
-      <div class="badge badge-primary badge-outline mr-2" x-text="xp"></div>
+      <div class="flex items-center gap-1">
+        <div class="badge badge-primary badge-outline" x-text="xp"></div>
+        <div class="badge badge-warning badge-outline badge-sm" x-show="streak > 0" x-text="'🔥' + streak"></div>
+        <div class="badge badge-info badge-outline badge-sm" x-show="getStreakMultiplier() > 1" x-text="getStreakMultiplier() + '×'"></div>
+      </div>
     </div>
   </div>
 
@@ -85,7 +89,7 @@
           <select class="select select-bordered select-sm w-full" 
                   x-model="currentLocale"
                   @change="switchLocale(currentLocale)">
-            <template x-for="locale in registry" :key="locale.code">
+            <template x-for="locale in registry.locales" :key="locale.code">
               <option :value="locale.code" :disabled="!locale.active" x-text="locale.name"></option>
             </template>
           </select>
@@ -105,13 +109,27 @@
             <div x-show="level.id === expandedLevel" class="ml-4 mt-1 overflow-hidden transition-[max-height] duration-300 ease-in-out"
                  :style="level.id === expandedLevel ? 'max-height: 500px;' : 'max-height: 0;'">
               <template x-for="stage in level.stages" :key="stage.id">
-                <button @click="navigateTo(level.id, stage.id, 'grammar')"
-                        :class="isStageActive(level.id, stage.id) ? 'btn-primary' : 'btn-ghost'"
-                        class="btn btn-sm w-full justify-start text-sm mb-1">
-                  <span x-text="stage.name"></span>
-                  <span class="text-xs opacity-60 ml-auto" x-show="currentLevel && currentStage && getProgress(currentLevel, currentStage) > 0"
-                        x-text="getProgress(currentLevel, currentStage) + '%'"></span>
-                </button>
+                <div>
+                  <button @click="navigateTo(level.id, stage.id, 'grammar')"
+                          :class="isStageActive(level.id, stage.id) ? 'btn-primary' : 'btn-ghost'"
+                          class="btn btn-sm w-full justify-start text-sm mb-1">
+                    <span x-text="stage.name"></span>
+                    <span class="text-xs opacity-60 ml-auto" x-show="isStageActive(level.id, stage.id) && getStageProgress(level.id, stage.id) > 0"
+                          x-text="getStageProgress(level.id, stage.id) + '%'"></span>
+                  </button>
+                  <!-- Pillar-level progress breakdown for active stage -->
+                  <div x-show="isStageActive(level.id, stage.id) && stageData" class="ml-4 mt-1 space-y-1 text-xs opacity-70">
+                    <template x-for="pillar in ['grammar', 'vocabulary', 'verbs', 'pronunciation']" :key="pillar">
+                      <div class="flex items-center gap-1">
+                        <span x-text="pillar.charAt(0).toUpperCase() + pillar.slice(1, 2) + ':'"></span>
+                        <progress class="progress progress-xs flex-1 h-1"
+                                  :value="getPillarProgress(stage.id, pillar)"
+                                  max="100"></progress>
+                        <span x-text="getPillarProgress(stage.id, pillar) + '%'"></span>
+                      </div>
+                    </template>
+                  </div>
+                </div>
               </template>
             </div>
           </div>
@@ -154,7 +172,11 @@
                 <p class="text-sm opacity-70 mt-1" x-text="stageDescription"></p>
               </div>
               <div class="text-right">
-                <div class="text-3xl font-bold text-accent" x-text="xp"></div>
+                <div class="flex items-center gap-2">
+                  <div class="text-3xl font-bold text-accent" x-text="xp"></div>
+                  <div class="badge badge-warning badge-sm" x-show="streak > 0" x-text="'🔥' + streak"></div>
+                  <div class="badge badge-info badge-sm" x-show="getStreakMultiplier() > 1" x-text="getStreakMultiplier() + '×'"></div>
+                </div>
                 <div class="text-xs opacity-70">XP</div>
               </div>
             </div>
@@ -171,7 +193,7 @@
         </div>
 
         <!-- Pillar Tabs -->
-        <div role="tablist" class="tabs tabs-boxed mb-6">
+        <div x-show="!quizActive && !quizFinished" role="tablist" class="tabs tabs-boxed mb-6">
           <a role="tab" 
              :class="isPillarActive('grammar') ? 'tab-active' : ''"
              @click="currentPillar = 'grammar'"
@@ -191,64 +213,65 @@
         </div>
 
         <!-- Pillar Content -->
-        <div class="card bg-base-100 shadow-md">
+        <div x-show="!quizActive && !quizFinished" class="card bg-base-100 shadow-md">
           <div class="card-body p-6">
-                
-            <!-- Grammar Pillar -->
-            <div x-show="currentPillar === 'grammar'" class="pillar-content">
-              <h3 class="text-xl font-bold mb-4">Grammar</h3>
-              <div class="prose max-w-none" x-html="pillarContent.grammar">
-                <!-- Dynamic content will be injected here -->
-                <p class="opacity-70">Loading content...</p>
-              </div>
-            </div>
-
-            <!-- Vocabulary Pillar -->
-            <div x-show="currentPillar === 'vocabulary'" class="pillar-content">
-              <h3 class="text-xl font-bold mb-4">Vocabulary</h3>
-              <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
-                <template x-for="word in vocabularyCards" :key="word.id">
-                  <div class="card bg-base-200 shadow-sm">
-                    <div class="card-body p-4">
-                      <div class="flex justify-between items-center">
-                        <span class="text-lg font-bold" x-text="word.target"></span>
-                        <span class="badge badge-sm" x-text="word.gender"></span>
-                      </div>
-                      <p class="opacity-70" x-text="word.source"></p>
-                    </div>
+                <!-- Grammar Pillar -->
+                <div x-show="currentPillar === 'grammar'" class="pillar-content">
+                  <h3 class="text-xl font-bold mb-4">Grammar</h3>
+                  <div class="prose max-w-none" x-html="pillarContent.grammar">
+                    <!-- Dynamic content will be injected here -->
+                    <p class="opacity-70">Loading content...</p>
                   </div>
-                </template>
-              </div>
-            </div>
+                </div>
 
-            <!-- Verbs Pillar -->
-            <div x-show="currentPillar === 'verbs'" class="pillar-content">
-              <h3 class="text-xl font-bold mb-4">Verbs & Drills</h3>
-              <p class="opacity-70">Verb conjugation tables and practice drills will appear here.</p>
-            </div>
+                <!-- Vocabulary Pillar -->
+                <div x-show="currentPillar === 'vocabulary'" class="pillar-content">
+                  <h3 class="text-xl font-bold mb-4">Vocabulary</h3>
+                  <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                    <template x-for="word in vocabularyCards" :key="word.id">
+                      <div class="card bg-base-200 shadow-sm">
+                        <div class="card-body p-4">
+                          <div class="flex justify-between items-center">
+                            <span class="text-lg font-bold" x-text="word.target"></span>
+                            <span class="badge badge-sm" x-text="word.gender"></span>
+                          </div>
+                          <p class="opacity-70" x-text="word.source"></p>
+                        </div>
+                      </div>
+                    </template>
+                  </div>
+                </div>
 
-            <!-- Pronunciation Pillar -->
-            <div x-show="currentPillar === 'pronunciation'" class="pillar-content">
-              <h3 class="text-xl font-bold mb-4">Pronunciation & Spelling</h3>
-              <p class="opacity-70">Phonetic guides, stress rules, and listening exercises will appear here.</p>
-            </div>
+                <!-- Verbs Pillar -->
+                <div x-show="currentPillar === 'verbs'" class="pillar-content">
+                  <h3 class="text-xl font-bold mb-4">Verbs & Drills</h3>
+                  <p class="opacity-70">Verb conjugation tables and practice drills will appear here.</p>
+                </div>
 
-            <!-- ─── Quiz View (shown when quizActive) ─── -->
-            <div x-show="quizActive" x-cloak class="space-y-6">
+                <!-- Pronunciation Pillar -->
+                <div x-show="currentPillar === 'pronunciation'" class="pillar-content">
+                  <h3 class="text-xl font-bold mb-4">Pronunciation & Spelling</h3>
+                  <p class="opacity-70">Phonetic guides, stress rules, and listening exercises will appear here.</p>
+                </div>
+          </div>
+        </div>
+
+        <!-- ─── Quiz View (shown when quizActive) ─── -->
+        <div x-show="quizActive" class="space-y-6">
               <!-- Quiz Header -->
-              <div class="flex items-center justify-between mb-2">
+              <div x-show="!quizSubmitted" class="flex items-center justify-between mb-2">
                 <span class="text-sm font-medium opacity-70">Question <span x-text="quizIndex + 1"></span> of <span x-text="quizQuestions.length"></span></span>
                 <span class="text-sm font-bold text-primary"><span x-text="quizScore"></span> pts</span>
               </div>
-              <progress class="progress progress-primary w-full mb-4" 
+              <progress x-show="!quizSubmitted" class="progress progress-primary w-full mb-4" 
                         :value="((quizIndex + 1) / quizQuestions.length) * 100" 
                         max="100"></progress>
 
               <!-- Question -->
-              <div class="text-lg font-medium" x-text="quizQuestions[quizIndex]?.question"></div>
+              <div x-show="!quizSubmitted" class="text-lg font-medium" x-text="quizQuestions[quizIndex]?.question"></div>
 
               <!-- Multiple Choice -->
-              <div x-show="quizQuestions[quizIndex]?.type === 'multiple-choice'" class="space-y-2">
+              <div x-show="!quizSubmitted && quizQuestions[quizIndex]?.type === 'multiple-choice'" class="space-y-2">
                 <template x-for="(option, index) in quizQuestions[quizIndex]?.options" :key="index">
                   <button class="btn btn-outline w-full justify-start" 
                           :class="{ 'btn-success text-white': quizAnswered && index === quizQuestions[quizIndex].correct,
@@ -262,7 +285,7 @@
               </div>
 
               <!-- Fill-in-Blank -->
-              <div x-show="quizQuestions[quizIndex]?.type === 'fill-in-blank'" class="space-y-3">
+              <div x-show="!quizSubmitted && quizQuestions[quizIndex]?.type === 'fill-in-blank'" class="space-y-3">
                 <input type="text" x-model="fillInAnswer" 
                        @keyup.enter="submitFillIn()"
                        class="input input-bordered input-primary w-full text-lg" 
@@ -271,7 +294,7 @@
               </div>
 
               <!-- Conjugation (single cell) -->
-              <div x-show="quizQuestions[quizIndex]?.type === 'conjugation'" class="space-y-3">
+              <div x-show="!quizSubmitted && quizQuestions[quizIndex]?.type === 'conjugation'" class="space-y-3">
                 <p class="opacity-70">Conjugate <strong x-text="quizQuestions[quizIndex]?.verb"></strong> in the <strong x-text="quizQuestions[quizIndex]?.tense"></strong> tense:</p>
                 <input type="text" x-model="conjugationAnswer" 
                        @keyup.enter="submitConjugation()"
@@ -281,7 +304,7 @@
               </div>
 
               <!-- Matching / Drag-and-Drop -->
-              <div x-show="quizQuestions[quizIndex]?.type === 'matching'" class="space-y-4" x-cloak>
+              <div x-show="!quizSubmitted && quizQuestions[quizIndex]?.type === 'matching'" class="space-y-4" x-cloak>
                 <p class="text-sm opacity-70">Click an item on the left, then click its match on the right.</p>
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
                   <!-- Left column (targets) -->
@@ -333,7 +356,7 @@
               </div>
 
               <!-- Conjugation Matrix -->
-              <div x-show="quizQuestions[quizIndex]?.type === 'conjugation-matrix'" class="space-y-4" x-cloak>
+              <div x-show="!quizSubmitted && quizQuestions[quizIndex]?.type === 'conjugation-matrix'" class="space-y-4" x-cloak>
                 <p class="opacity-70">Fill in the full conjugation table for <strong x-text="quizQuestions[quizIndex]?.verb"></strong>:</p>
                 <div class="overflow-x-auto">
                   <table class="table table-sm w-full">
@@ -387,7 +410,7 @@
               </div>
 
               <!-- Feedback (general, for single-answer types) -->
-              <div x-show="quizFeedback" 
+              <div x-show="!quizSubmitted && quizFeedback" 
                    class="alert" 
                    :class="quizFeedback.correct ? 'alert-success' : 'alert-error'">
                 <svg xmlns="http://www.w3.org/2000/svg" class="stroke-current shrink-0 h-6 w-6" fill="none" viewBox="0 0 24 24">
@@ -401,7 +424,7 @@
               </div>
 
               <!-- Action Buttons -->
-              <div x-show="!quizAnswered" class="flex gap-2">
+              <div x-show="!quizSubmitted && !quizAnswered" class="flex gap-2">
                 <button x-show="quizQuestions[quizIndex]?.type === 'fill-in-blank'" @click="submitFillIn()" class="btn btn-primary flex-1">Submit</button>
                 <button x-show="quizQuestions[quizIndex]?.type === 'conjugation'" @click="submitConjugation()" class="btn btn-primary flex-1">Submit</button>
                 <button x-show="quizQuestions[quizIndex]?.type === 'multiple-choice'" class="btn btn-primary flex-1" @click="submitMultipleChoice()">Submit</button>
@@ -410,30 +433,174 @@
               </div>
 
               <!-- Per-type attempt info -->
-              <div x-show="quizQuestions[quizIndex]?.type === 'matching' && !quizAnswered" class="text-sm opacity-70">
+              <div x-show="!quizSubmitted && quizQuestions[quizIndex]?.type === 'matching' && !quizAnswered" class="text-sm opacity-70">
                 Matches selected: <span x-text="matchPairs.filter((p, i) => matchSelections[i] !== undefined).length"></span> / <span x-text="matchPairs.length"></span>
               </div>
-              <div x-show="quizQuestions[quizIndex]?.type === 'conjugation-matrix' && !quizAnswered" class="text-sm opacity-70">
+              <div x-show="!quizSubmitted && quizQuestions[quizIndex]?.type === 'conjugation-matrix' && !quizAnswered" class="text-sm opacity-70">
                 Cells filled: <span x-text="matrixFilledCount"></span> / <span x-text="matrixTotalCells"></span>
               </div>
 
-              <!-- Next Question -->
-              <button x-show="quizAnswered" @click="nextQuestion()" class="btn btn-primary w-full">Next Question →</button>
+              <!-- Navigation Buttons -->
+              <div x-show="quizAnswered" class="flex gap-2">
+                <button x-show="quizIndex > 0 && !quizSubmitted" @click="prevQuestion()" class="btn btn-outline flex-1">← Previous</button>
+                <button x-show="!quizSubmitted && quizIndex < quizQuestions.length - 1" @click="nextQuestion()" class="btn btn-primary flex-1">Next Question →</button>
+                <button x-show="!quizSubmitted && quizIndex === quizQuestions.length - 1" @click="submitQuiz()" class="btn btn-success flex-1">✓ Submit Quiz</button>
+              </div>
+
+              <!-- Quiz Summary (shown after submit, before results) -->
+              <div x-show="quizSubmitted" class="space-y-4">
+                <h3 class="text-xl font-bold text-center">Quiz Summary</h3>
+                <div class="bg-base-200 rounded-lg p-4 max-w-2xl mx-auto space-y-3">
+                  <template x-for="(q, i) in quizQuestions" :key="'summary-' + i">
+                    <div class="flex items-start gap-3 py-2 border-b border-base-300 last:border-0">
+                      <span class="font-mono font-bold text-sm w-6 shrink-0" x-text="i + 1"></span>
+                      <div class="flex-1 min-w-0">
+                        <p class="text-sm" x-text="q.question"></p>
+                        <div class="flex items-center gap-2 mt-1 text-xs">
+                          <span x-show="q.userAnswer !== undefined" :class="q.correct ? 'text-success' : 'text-error'">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-3 w-3 inline" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                              <path x-show="q.correct" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                              <path x-show="!q.correct" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 14l2-2m0 0l2-2m-2 2l-2-2m2 2l2 2m7-2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                            </svg>
+                            <span x-text="q.userAnswer"></span>
+                          </span>
+                          <span x-show="!q.correct && q.correctAnswer" class="text-success">→ <span x-text="q.correctAnswer"></span></span>
+                        </div>
+                      </div>
+                    </div>
+                  </template>
+                </div>
+                <div class="flex gap-2 justify-center">
+                  <button class="btn btn-success" @click="finalSubmitQuiz()">✓ Finalize & See Results</button>
+                  <button class="btn btn-outline" @click="cancelSubmit()">← Continue Quiz</button>
+                </div>
+              </div>
+
+              <!-- Finalize progress bar -->
+              <div x-show="quizSubmitted" class="text-center mt-4">
+                <div class="text-2xl font-bold text-primary">
+                  <span x-text="quizScore"></span> / <span x-text="quizQuestions.length"></span>
+                </div>
+                <p class="text-sm opacity-70 mt-1">
+                  <template x-if="quizScore > 0">
+                    <span>XP earned: +<span x-text="quizScore * 10 * getStreakMultiplier()"></span> (with 🔥<span x-text="streak"></span> streak)</span>
+                  </template>
+                  <template x-if="quizScore === 0">
+                    <span>No points earned this time. Keep practicing!</span>
+                  </template>
+                </p>
+              </div>
             </div>
 
-            <!-- ─── Quiz End Screen ─── -->
-            <div x-show="!quizActive && quizQuestions.length > 0 && quizFinished" x-cloak class="text-center space-y-4 py-8">
-              <div class="text-6xl mb-4">🎉</div>
+        <!-- ─── Quiz End Screen ─── -->
+        <div x-show="!quizActive && quizFinished" class="text-center space-y-6 py-8">
+              <div class="text-6xl mb-2" x-text="quizCompletionEmoji"></div>
               <h3 class="text-2xl font-bold">Quiz Complete!</h3>
-              <p class="text-3xl font-bold text-primary"><span x-text="quizScore"></span> / <span x-text="quizQuestions.length"></span></p>
-              <p class="opacity-70">XP earned: +<span x-text="quizScore * 10"></span></p>
-              <button class="btn btn-primary" @click="resetQuizView()">Practice Again</button>
+              
+              <!-- Score Display -->
+              <div class="text-5xl font-bold text-primary">
+                <span x-text="quizScore"></span> / <span x-text="quizQuestions.length"></span>
+              </div>
+              
+              <!-- Percentage bar -->
+              <div class="max-w-md mx-auto">
+                <progress class="progress progress-primary w-full" 
+                          :value="(quizScore / quizQuestions.length) * 100" max="100"></progress>
+                <p class="text-sm font-medium mt-1" 
+                   :class="(quizScore / quizQuestions.length) >= 0.8 ? 'text-success' : (quizScore / quizQuestions.length) >= 0.5 ? 'text-warning' : 'text-error'">
+                  <span x-text="Math.round((quizScore / quizQuestions.length) * 100)"></span>%
+                </p>
+              </div>
+              
+              <!-- XP Breakdown -->
+              <div class="bg-base-200 rounded-lg p-4 max-w-md mx-auto text-left space-y-1 text-sm">
+                <h4 class="font-bold mb-2">XP Breakdown</h4>
+                <p>Base: <span class="font-bold text-accent">+<span x-text="quizScore * 10"></span></span> (correct × 10)</p>
+                <template x-if="quizScore > 0 && streak > 0">
+                  <p>Streak Bonus: <span class="font-bold text-accent">+<span x-text="quizScore * 10 * (getStreakMultiplier() - 1)"></span></span> (🔥<span x-text="streak"></span> days × <span x-text="getStreakMultiplier()"></span>×)</p>
+                </template>
+                <p class="font-bold text-accent text-base">Total: +<span x-text="quizScore > 0 ? Math.round(quizScore * 10 * getStreakMultiplier()) : 0"></span></p>
+              </div>
+              
+              <!-- Previous Score Comparison -->
+              <div x-show="lastQuizResult && lastQuizResult.length > 0" class="bg-base-200 rounded-lg p-4 max-w-md mx-auto text-left space-y-2">
+                <h4 class="font-bold text-sm uppercase tracking-wide opacity-60">Previous Attempts</h4>
+                <template x-for="(attempt, i) in lastQuizResult" :key="'attempt-' + i">
+                  <div class="flex items-center justify-between text-sm">
+                    <span class="opacity-70">Attempt <span x-text="i + 1"></span> — <span x-text="attempt.score"></span>/<span x-text="attempt.total"></span> (<span x-text="attempt.date"></span>)</span>
+                    <span :class="attempt.score === quizScore && i === (lastQuizResult.length - 1) ? 'text-success font-bold' : 'font-bold'" x-text="attempt.score + '/' + attempt.total"></span>
+                  </div>
+                </template>
+                <p x-show="lastQuizResult.length > 0" class="text-xs opacity-60 mt-2">
+                  <template x-if="lastQuizResult.length > 0 && lastQuizResult[lastQuizResult.length - 1].score === quizScore">
+                    <span>Same score as last time! 🤝</span>
+                  </template>
+                  <template x-if="lastQuizResult.length > 0 && lastQuizResult[lastQuizResult.length - 1].score < quizScore">
+                    <span>Improved by <span x-text="quizScore - lastQuizResult[lastQuizResult.length - 1].score"></span>! 📈</span>
+                  </template>
+                  <template x-if="lastQuizResult.length > 0 && lastQuizResult[lastQuizResult.length - 1].score > quizScore">
+                    <span>Last time was better. Try again! 💪</span>
+                  </template>
+                </p>
+              </div>
+              
+              <!-- Per-Pillar Breakdown -->
+              <div x-show="quizPillarBreakdown && quizPillarBreakdown.length > 0" class="bg-base-200 rounded-lg p-4 max-w-md mx-auto text-left">
+                <h4 class="font-bold text-sm uppercase tracking-wide opacity-60 mb-2">By Pillar</h4>
+                <template x-for="pillar in quizPillarBreakdown" :key="pillar.pillar">
+                  <div class="flex items-center gap-2 mb-1">
+                    <span class="text-xs w-24" x-text="pillar.emoji + ' ' + pillar.name"></span>
+                    <progress class="progress flex-1 h-2" :value="(pillar.score / pillar.total) * 100" max="100"
+                              :class="(pillar.score / pillar.total) >= 0.8 ? 'progress-success' : (pillar.score / pillar.total) >= 0.5 ? 'progress-warning' : 'progress-error'"></progress>
+                    <span class="text-xs font-mono w-12 text-right" x-text="pillar.score + '/' + pillar.total"></span>
+                  </div>
+                </template>
+              </div>
+              
+              <div class="flex gap-2 justify-center">
+                <button class="btn btn-primary" @click="retryQuiz()">🔄 Practice Again</button>
+                <button class="btn btn-ghost" @click="resetQuizView()">← Back to Stage</button>
+              </div>
+            </div>
+
+            <!-- Pillar Selection for Quiz -->
+            <div x-show="!quizActive && !quizFinished" x-cloak class="space-y-4">
+              <h3 class="text-lg font-bold">Select Pillars for Quiz</h3>
+              <div class="grid grid-cols-2 gap-3">
+                <label class="flex items-center gap-3 cursor-pointer">
+                  <input type="checkbox" class="checkbox checkbox-primary checkbox-sm" x-model="quizPillars" value="grammar" />
+                  <span>📖 Grammar</span>
+                </label>
+                <label class="flex items-center gap-3 cursor-pointer">
+                  <input type="checkbox" class="checkbox checkbox-primary checkbox-sm" x-model="quizPillars" value="vocabulary" />
+                  <span>🗣️ Vocabulary</span>
+                </label>
+                <label class="flex items-center gap-3 cursor-pointer">
+                  <input type="checkbox" class="checkbox checkbox-primary checkbox-sm" x-model="quizPillars" value="verbs" />
+                  <span>⚡ Verbs &amp; Drills</span>
+                </label>
+                <label class="flex items-center gap-3 cursor-pointer">
+                  <input type="checkbox" class="checkbox checkbox-primary checkbox-sm" x-model="quizPillars" value="pronunciation" />
+                  <span>🔊 Pronunciation</span>
+                </label>
+              </div>
+              <div class="flex gap-2">
+                <button class="btn btn-outline btn-sm" @click="selectAllPillars()">Select All</button>
+                <button class="btn btn-outline btn-sm" @click="deselectAllPillars()">Deselect All</button>
+              </div>
+              <p class="text-sm opacity-70">
+                <span x-show="quizPillars.length === 0">Select at least one pillar to start the quiz.</span>
+                <span x-show="quizPillars.length > 0">
+                  <span x-text="quizPillars.length"></span> pillar(s) selected.
+                  <span x-show="estimatedQuizLength > 0">Est. <span x-text="estimatedQuizLength"></span> questions.</span>
+                </span>
+              </p>
             </div>
 
             <!-- Start Quiz Button -->
             <div class="divider"></div>
             <button class="btn btn-primary w-full" 
-                    :disabled="!canStartQuiz"
+                    :disabled="!canStartQuiz || quizPillars.length === 0"
                     @click="startQuiz()">
               <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z" />
@@ -468,7 +635,7 @@
           <select class="select select-bordered w-full" 
                   x-model="currentLocale"
                   @change="switchLocale(currentLocale)">
-            <template x-for="locale in registry" :key="locale.code">
+            <template x-for="locale in registry.locales" :key="locale.code">
               <option :value="locale.code" :disabled="!locale.active" x-text="locale.name"></option>
             </template>
           </select>
@@ -524,8 +691,8 @@
   <!-- Hidden file input for import -->
   <input type="file" id="importFile" accept=".json" class="hidden" @change="handleImport($event)">
 
-  <script src="js/storage.js?v=6"></script>
-  <script src="js/app.js?v=7"></script>
+  <script src="js/storage.js?v=7"></script>
+  <script src="js/app.js?v=10"></script>
   <script>
     if ('serviceWorker' in navigator) {
       window.addEventListener('load', () => {
