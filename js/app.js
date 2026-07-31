@@ -51,9 +51,24 @@ function app() {
     conjugationVerb: null,
     conjugationCells: {},
 
-    // Matching state
-    matchLeft: null,
-    matchRight: null,
+    // Matching exercise state
+    matchPairs: [],           // [{target, source}]
+    matchRightItems: [],      // shuffled source strings
+    matchRightOriginalIndex: [], // maps right items back to pair index
+    matchSelections: [],      // { [pairIndex]: { leftIdx, rightIdx, correct } }
+    matchRightMatched: [],    // [pairIndex] | true|false — did this right item get matched correctly?
+    selectedLeft: null,
+    selectedRight: null,
+    userMatchAnswers: null,   // [source_string] per pair — the user's choices
+    matchResults: null,       // [boolean] per pair — did they match correctly?
+    matchAttempts: 0,
+
+    // Conjugation Matrix exercise state
+    matrixPronouns: ['yo', 'tú', 'él/ella/usted', 'nosotros', 'vosotros', 'ellos/ellas/ustedes'],
+    matrixAnswers: {},        // { "0-0": "soy", "0-1": "era", ... }
+    matrixCorrectAnswers: null, // { "0-0": "soy", ... }
+    matrixResults: null,      // { "0-0": true, ... }
+    matrixCorrectCount: 0,
 
     // Loading state
     pillarContent: {
@@ -61,6 +76,19 @@ function app() {
       vocabulary: [],
       verbs: '',
       pronunciation: ''
+    },
+
+    // ─── Computed Helpers ───
+    get matrixTotalCells() {
+      if (!this.quizQuestions[this.quizIndex]) return 0;
+      return this.matrixPronouns.length * (this.quizQuestions[this.quizIndex].tenses || []).length;
+    },
+    get matrixFilledCount() {
+      var filled = 0;
+      for (var key in this.matrixAnswers) {
+        if (this.matrixAnswers[key] && this.matrixAnswers[key].trim() !== '') filled++;
+      }
+      return filled;
     },
 
     // ─── Initialization ───
@@ -166,7 +194,7 @@ function app() {
       this.currentPillar = pillar;
       this.sidebarOpen = false;
 
-      window.location.hash = '/' + this.currentLocale + '/' + levelId + '/' + stageId + '/' + pillar;
+      window.location.hash = '/' + this.currentLocale + '/' + this.currentLevel + '/' + this.currentStage + '/' + this.currentPillar;
 
       this.loadStageData(levelId, stageId);
     },
@@ -416,9 +444,46 @@ function app() {
         var items = self.stageData[pillar];
         if (!items) return;
         items.forEach(function(item, index) {
-          if (item.type === 'exercise') {
-            self.quizQuestions.push(Object.assign({}, item, { pillar: pillar, index: index }));
+          var q = Object.assign({}, item, { pillar: pillar, index: index });
+
+          // For matching exercises, set up pairs and shuffled right items
+          if (item.type === 'matching' && item.pairs) {
+            self.matchPairs = item.pairs;
+            self.matchRightItems = item.pairs.map(function(p) { return p.source; });
+            // Shuffle right items
+            self.matchRightOriginalIndex = item.pairs.map(function(_, i) { return i; });
+            for (var s = self.matchRightOriginalIndex.length - 1; s > 0; s--) {
+              var r = Math.floor(Math.random() * (s + 1));
+              var tmp = self.matchRightOriginalIndex[s];
+              self.matchRightOriginalIndex[s] = self.matchRightOriginalIndex[r];
+              self.matchRightOriginalIndex[r] = tmp;
+            }
+            // Reorder rightItems according to shuffled index
+            var originalPairs = item.pairs;
+            self.matchRightItems = self.matchRightOriginalIndex.map(function(origIdx) {
+              return originalPairs[origIdx].source;
+            });
+            // Reset matching state
+            self.matchSelections = [];
+            self.matchRightMatched = [];
+            self.selectedLeft = null;
+            self.selectedRight = null;
+            self.userMatchAnswers = null;
+            self.matchResults = null;
+            self.matchAttempts = 0;
           }
+
+          // For conjugation-matrix exercises, look up verb data
+          if (item.type === 'conjugation-matrix' && item.verb && self.stageData.verbs) {
+            var verbObj = self.stageData.verbs.find(function(v) {
+              return v.infinitive.toLowerCase() === item.verb.toLowerCase();
+            });
+            if (verbObj) {
+              q.verbData = verbObj;
+            }
+          }
+
+          self.quizQuestions.push(q);
         });
       });
 
@@ -437,6 +502,24 @@ function app() {
       this.selectedOption = null;
       this.fillInAnswer = '';
       this.conjugationAnswer = '';
+
+      // Initialize matching state
+      this.matchPairs = [];
+      this.matchRightItems = [];
+      this.matchRightOriginalIndex = [];
+      this.matchSelections = [];
+      this.matchRightMatched = [];
+      this.selectedLeft = null;
+      this.selectedRight = null;
+      this.userMatchAnswers = null;
+      this.matchResults = null;
+      this.matchAttempts = 0;
+
+      // Initialize conjugation matrix state
+      this.matrixAnswers = {};
+      this.matrixCorrectAnswers = null;
+      this.matrixResults = null;
+      this.matrixCorrectCount = 0;
     },
 
     shuffleArray: function(array) {
@@ -502,13 +585,28 @@ function app() {
       this.fillInAnswer = '';
       this.conjugationAnswer = '';
       this.selectedOption = null;
+      // Clear per-type state
+      this.matchPairs = [];
+      this.matchRightItems = [];
+      this.matchRightOriginalIndex = [];
+      this.matchSelections = [];
+      this.matchRightMatched = [];
+      this.selectedLeft = null;
+      this.selectedRight = null;
+      this.userMatchAnswers = null;
+      this.matchResults = null;
+      this.matchAttempts = 0;
+      this.matrixAnswers = {};
+      this.matrixCorrectAnswers = null;
+      this.matrixResults = null;
+      this.matrixCorrectCount = 0;
 
       if (this.quizIndex >= this.quizQuestions.length) {
         this.finishQuiz();
       }
     },
 
-    // ─── Quiz Handlers ───
+    // ─── Quiz Handlers: Multiple Choice ───
 
     selectOption: function(index) {
       if (this.quizAnswered) return;
@@ -521,16 +619,146 @@ function app() {
       }
     },
 
+    // ─── Quiz Handlers: Fill-in-Blank ───
+
     submitFillIn: function() {
       if (!this.quizAnswered && this.fillInAnswer.trim() !== '') {
         this.submitAnswer(this.fillInAnswer);
       }
     },
 
+    // ─── Quiz Handlers: Conjugation (single) ───
+
     submitConjugation: function() {
       if (!this.quizAnswered && this.conjugationAnswer.trim() !== '') {
         this.submitAnswer(this.conjugationAnswer);
       }
+    },
+
+    // ─── Quiz Handlers: Matching / Drag-and-Drop ───
+
+    selectMatchLeft: function(index) {
+      if (this.quizAnswered) return;
+      if (this.matchSelections[index] !== undefined) return; // already matched
+      this.selectedLeft = index;
+      this.selectedRight = null;
+    },
+
+    selectMatchRight: function(index) {
+      if (this.quizAnswered) return;
+      if (this.selectedLeft === null) return; // must select left first
+      this.matchAttempts++;
+
+      var pairIndex = this.selectedLeft;
+      var rightIdx = index;
+
+      // Check if this right item is the correct match
+      var correct = this.matchRightOriginalIndex[rightIdx] === pairIndex;
+
+      this.matchSelections[pairIndex] = {
+        leftIdx: pairIndex,
+        rightIdx: rightIdx,
+        correct: correct
+      };
+      this.matchRightMatched[rightIdx] = correct;
+      this.matchRightItems[rightIdx] = this.matchRightItems[rightIdx]; // trigger re-render
+      this.selectedLeft = null;
+      this.selectedRight = null;
+
+      // Track user answers
+      if (!this.userMatchAnswers) {
+        this.userMatchAnswers = [];
+      }
+      this.userMatchAnswers[pairIndex] = this.matchRightItems[rightIdx];
+    },
+
+    submitMatching: function() {
+      if (this.quizAnswered) return;
+
+      // Count matched pairs
+      var matchedCount = this.matchSelections.filter(function(s) { return s !== undefined; }).length;
+      if (matchedCount < this.matchPairs.length) {
+        alert('Please match all pairs before submitting.');
+        return;
+      }
+
+      // Compute results
+      this.matchResults = this.matchPairs.map(function(_, i) {
+        return this.matchSelections[i] && this.matchSelections[i].correct;
+      }.bind(this));
+
+      // Score: each correct pair = 1 point
+      var correctCount = this.matchResults.filter(function(r) { return r; }).length;
+      this.quizScore = correctCount;
+      Storage.addXP(correctCount * 10);
+      this.xp = Storage.getXP();
+
+      if (correctCount === this.matchPairs.length) {
+        this.quizFeedback = { correct: true, explanation: 'Perfect! All pairs matched correctly.' };
+      } else if (correctCount > 0) {
+        this.quizFeedback = { correct: false, explanation: correctCount + '/' + this.matchPairs.length + ' pairs matched correctly.' };
+      } else {
+        this.quizFeedback = { correct: false, explanation: 'None matched correctly. Check the results below.' };
+      }
+
+      this.quizAnswered = true;
+    },
+
+    // ─── Quiz Handlers: Conjugation Matrix ───
+
+    submitConjugationMatrix: function() {
+      if (this.quizAnswered) return;
+
+      var question = this.quizQuestions[this.quizIndex];
+      if (!question || !question.verbData) return;
+
+      var tenses = question.tenses || [];
+      var verbData = question.verbData;
+
+      // Build correct answers map: "pIdx-tIdx" → correct form
+      this.matrixCorrectAnswers = {};
+      tenses.forEach(function(tense, tIdx) {
+        var forms = verbData.conjugations[tense];
+        if (!forms) return;
+        this.matrixPronouns.forEach(function(pronoun, pIdx) {
+          var key = pIdx + '-' + tIdx;
+          this.matrixCorrectAnswers[key] = forms[pronoun] || '\u2014';
+        }.bind(this));
+      }.bind(this));
+
+      // Evaluate each cell
+      this.matrixResults = {};
+      var correctCount = 0;
+      tenses.forEach(function(tense, tIdx) {
+        var forms = verbData.conjugations[tense];
+        if (!forms) return;
+        this.matrixPronouns.forEach(function(pronoun, pIdx) {
+          var key = pIdx + '-' + tIdx;
+          var userAnswer = (this.matrixAnswers[key] || '').trim().toLowerCase();
+          var correctAnswer = (forms[pronoun] || '').trim().toLowerCase();
+          var isCorrect = userAnswer === correctAnswer && userAnswer !== '';
+          this.matrixResults[key] = isCorrect;
+          if (isCorrect) correctCount++;
+        }.bind(this));
+      }.bind(this));
+
+      this.matrixCorrectCount = correctCount;
+      var totalCells = this.matrixTotalCells;
+      this.quizScore = correctCount;
+      Storage.addXP(correctCount * 5); // 5 XP per correct cell (matrix is harder)
+      this.xp = Storage.getXP();
+
+      if (correctCount === totalCells) {
+        this.quizFeedback = { correct: true, explanation: 'Perfect! All cells correct.' };
+      } else if (correctCount > totalCells * 0.75) {
+        this.quizFeedback = { correct: false, explanation: correctCount + '/' + totalCells + ' correct — great effort!' };
+      } else if (correctCount > totalCells * 0.5) {
+        this.quizFeedback = { correct: false, explanation: 'Halfway there. ' + correctCount + '/' + totalCells + ' correct.' };
+      } else {
+        this.quizFeedback = { correct: false, explanation: 'Keep practicing conjugations. ' + correctCount + '/' + totalCells + ' correct.' };
+      }
+
+      this.quizAnswered = true;
     },
 
     resetQuizView: function() {
@@ -544,6 +772,20 @@ function app() {
       this.selectedOption = null;
       this.fillInAnswer = '';
       this.conjugationAnswer = '';
+      this.matchPairs = [];
+      this.matchRightItems = [];
+      this.matchRightOriginalIndex = [];
+      this.matchSelections = [];
+      this.matchRightMatched = [];
+      this.selectedLeft = null;
+      this.selectedRight = null;
+      this.userMatchAnswers = null;
+      this.matchResults = null;
+      this.matchAttempts = 0;
+      this.matrixAnswers = {};
+      this.matrixCorrectAnswers = null;
+      this.matrixResults = null;
+      this.matrixCorrectCount = 0;
     },
 
     finishQuiz: function() {

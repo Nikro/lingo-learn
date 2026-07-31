@@ -29,6 +29,25 @@
       to { opacity: 1; transform: translateY(0); }
     }
     .tab-active { background-color: var(--fallback-bc, oklch(var(--bc) / 0.1)); color: inherit; }
+    /* Quiz visual feedback animations */
+    @keyframes shake {
+      0%, 100% { transform: translateX(0); }
+      20% { transform: translateX(-6px); }
+      40% { transform: translateX(6px); }
+      60% { transform: translateX(-4px); }
+      80% { transform: translateX(4px); }
+    }
+    @keyframes pop {
+      0% { transform: scale(1); }
+      50% { transform: scale(1.08); }
+      100% { transform: scale(1); }
+    }
+    .feedback-shake { animation: shake 0.4s ease; }
+    .feedback-pop { animation: pop 0.3s ease; }
+    .match-correct { border-color: #22c55e !important; background-color: #dcfce7 !important; }
+    .match-wrong { border-color: #ef4444 !important; background-color: #fee2e2 !important; }
+    .matrix-cell-correct { border-color: #22c55e !important; background-color: #dcfce7 !important; }
+    .matrix-cell-wrong { border-color: #ef4444 !important; background-color: #fee2e2 !important; }
   </style>
 </head>
 <body class="bg-base-200 min-h-screen" x-data="app()" x-init="init()">
@@ -103,7 +122,7 @@
       <div class="p-4 border-t border-base-300">
         <button @click="settingsOpen = true" class="btn btn-ghost btn-sm w-full justify-start">
           <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z" />
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94 1.543.826 3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z" />
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
           </svg>
           Settings
@@ -251,7 +270,7 @@
                        :disabled="quizAnswered" />
               </div>
 
-              <!-- Conjugation -->
+              <!-- Conjugation (single cell) -->
               <div x-show="quizQuestions[quizIndex]?.type === 'conjugation'" class="space-y-3">
                 <p class="opacity-70">Conjugate <strong x-text="quizQuestions[quizIndex]?.verb"></strong> in the <strong x-text="quizQuestions[quizIndex]?.tense"></strong> tense:</p>
                 <input type="text" x-model="conjugationAnswer" 
@@ -261,7 +280,113 @@
                        :disabled="quizAnswered" />
               </div>
 
-              <!-- Feedback -->
+              <!-- Matching / Drag-and-Drop -->
+              <div x-show="quizQuestions[quizIndex]?.type === 'matching'" class="space-y-4" x-cloak>
+                <p class="text-sm opacity-70">Click an item on the left, then click its match on the right.</p>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                  <!-- Left column (targets) -->
+                  <div class="space-y-2">
+                    <h4 class="font-semibold text-sm opacity-60 uppercase tracking-wide mb-2">Match the pairs</h4>
+                    <template x-for="(pair, index) in matchPairs" :key="'left-' + index">
+                      <button class="btn btn-outline w-full justify-start text-left"
+                              :class="selectedLeft === index ? 'btn-primary' : ''"
+                              :disabled="quizAnswered"
+                              @click="selectMatchLeft(index)">
+                        <span class="font-bold" x-text="pair.target"></span>
+                        <span x-show="matchSelections[index] !== undefined" class="ml-2">
+                          <svg v-if="matchSelections[index]" xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-success" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" /></svg>
+                          <svg v-else xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-error" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" /></svg>
+                        </span>
+                      </button>
+                    </template>
+                  </div>
+                  <!-- Right column (shuffled sources) -->
+                  <div class="space-y-2">
+                    <h4 class="font-semibold text-sm opacity-60 uppercase tracking-wide mb-2">Options</h4>
+                    <template x-for="(item, index) in matchRightItems" :key="'right-' + index">
+                      <button class="btn btn-outline w-full justify-start text-left"
+                              :class="selectedRight === index ? 'btn-secondary' : ''"
+                              :disabled="quizAnswered"
+                              @click="selectMatchRight(index)">
+                        <span x-text="item"></span>
+                        <span x-show="matchRightMatched[index] !== undefined" class="ml-2">
+                          <svg v-if="matchRightMatched[index]" xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-success" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" /></svg>
+                          <svg v-else xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-error" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 14l2-2m0 0l2-2m-2 2l-2-2m2 2l2 2m7-2a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+                        </span>
+                      </button>
+                    </template>
+                  </div>
+                </div>
+                <!-- Match results summary -->
+                <div x-show="quizAnswered && matchResults" class="mt-4 p-4 bg-base-200 rounded-lg">
+                  <template x-for="(result, i) in matchResults" :key="'result-' + i">
+                    <div class="flex items-center gap-2 mb-1">
+                      <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" :class="result ? 'text-success' : 'text-error'" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path x-show="result" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                        <path x-show="!result" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 14l2-2m0 0l2-2m-2 2l-2-2m2 2l2 2m7-2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                      </svg>
+                      <span x-show="result"><strong x-text="matchPairs[i].target"></strong> ↔ <strong x-text="matchPairs[i].source"></strong></span>
+                      <span x-show="!result" class="text-error"><strong x-text="matchPairs[i].target"></strong> ↔ <span x-text="userMatchAnswers[i] ?? '—'"></span> <span class="opacity-60">(should be <span x-text="matchPairs[i].source"></span>)</span></span>
+                    </div>
+                  </template>
+                </div>
+              </div>
+
+              <!-- Conjugation Matrix -->
+              <div x-show="quizQuestions[quizIndex]?.type === 'conjugation-matrix'" class="space-y-4" x-cloak>
+                <p class="opacity-70">Fill in the full conjugation table for <strong x-text="quizQuestions[quizIndex]?.verb"></strong>:</p>
+                <div class="overflow-x-auto">
+                  <table class="table table-sm w-full">
+                    <thead>
+                      <tr>
+                        <th>Pronoun</th>
+                        <template x-for="tense in quizQuestions[quizIndex]?.tenses" :key="tense">
+                          <th x-text="tense"></th>
+                        </template>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <template x-for="(pronoun, pIdx) in matrixPronouns" :key="'p-' + pIdx">
+                        <tr>
+                          <td class="font-medium" x-text="pronoun"></td>
+                          <template x-for="(tense, tIdx) in quizQuestions[quizIndex]?.tenses" :key="'t-' + pIdx + '-' + tIdx">
+                            <td>
+                              <input type="text" 
+                                     :value="matrixAnswers[pIdx + '-' + tIdx] || ''"
+                                     @input="matrixAnswers[pIdx + '-' + tIdx] = $event.target.value"
+                                     :disabled="quizAnswered"
+                                     class="input input-bordered input-sm w-full"
+                                     :class="{ 'matrix-cell-correct': quizAnswered && matrixResults && matrixResults[pIdx + '-' + tIdx], 'matrix-cell-wrong': quizAnswered && matrixResults && !matrixResults[pIdx + '-' + tIdx] }" />
+                            </td>
+                          </template>
+                        </tr>
+                      </template>
+                    </tbody>
+                  </table>
+                </div>
+                <!-- Matrix score summary -->
+                <div x-show="quizAnswered && matrixResults" class="mt-4 p-4 bg-base-200 rounded-lg">
+                  <h4 class="font-bold mb-2">Conjugation Results</h4>
+                  <div class="text-lg font-bold" :class="matrixCorrectCount === matrixTotalCells ? 'text-success' : 'text-warning'">
+                    <span x-text="matrixCorrectCount"></span> / <span x-text="matrixTotalCells"></span> cells correct
+                  </div>
+                  <template x-for="(correct, key) in matrixResults" :key="'mr-' + key">
+                    <div class="flex items-center gap-2 text-sm mt-1">
+                      <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" :class="correct ? 'text-success' : 'text-error'" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path x-show="correct" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                        <path x-show="!correct" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 14l2-2m0 0l2-2m-2 2l-2-2m2 2l2 2m7-2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                      </svg>
+                      <span x-text="matrixPronouns[key.split('-')[0]] + ' ' + quizQuestions[quizIndex].tenses[key.split('-')[1]]"></span>
+                      <span :class="correct ? 'text-success' : 'text-error'">
+                        <span x-show="correct" x-text="matrixAnswers[key]"></span>
+                        <span x-show="!correct">your: <span x-text="matrixAnswers[key] || '—'"></span> → correct: <span x-text="matrixCorrectAnswers ? matrixCorrectAnswers[key] : '—'"></span></span>
+                      </span>
+                    </div>
+                  </template>
+                </div>
+              </div>
+
+              <!-- Feedback (general, for single-answer types) -->
               <div x-show="quizFeedback" 
                    class="alert" 
                    :class="quizFeedback.correct ? 'alert-success' : 'alert-error'">
@@ -280,7 +405,19 @@
                 <button x-show="quizQuestions[quizIndex]?.type === 'fill-in-blank'" @click="submitFillIn()" class="btn btn-primary flex-1">Submit</button>
                 <button x-show="quizQuestions[quizIndex]?.type === 'conjugation'" @click="submitConjugation()" class="btn btn-primary flex-1">Submit</button>
                 <button x-show="quizQuestions[quizIndex]?.type === 'multiple-choice'" class="btn btn-primary flex-1" @click="submitMultipleChoice()">Submit</button>
+                <button x-show="quizQuestions[quizIndex]?.type === 'matching'" class="btn btn-primary flex-1" @click="submitMatching()">Submit Matches</button>
+                <button x-show="quizQuestions[quizIndex]?.type === 'conjugation-matrix'" class="btn btn-primary flex-1" @click="submitConjugationMatrix()">Submit All Cells</button>
               </div>
+
+              <!-- Per-type attempt info -->
+              <div x-show="quizQuestions[quizIndex]?.type === 'matching' && !quizAnswered" class="text-sm opacity-70">
+                Matches selected: <span x-text="matchPairs.filter((p, i) => matchSelections[i] !== undefined).length"></span> / <span x-text="matchPairs.length"></span>
+              </div>
+              <div x-show="quizQuestions[quizIndex]?.type === 'conjugation-matrix' && !quizAnswered" class="text-sm opacity-70">
+                Cells filled: <span x-text="matrixFilledCount"></span> / <span x-text="matrixTotalCells"></span>
+              </div>
+
+              <!-- Next Question -->
               <button x-show="quizAnswered" @click="nextQuestion()" class="btn btn-primary w-full">Next Question →</button>
             </div>
 
@@ -388,7 +525,7 @@
   <input type="file" id="importFile" accept=".json" class="hidden" @change="handleImport($event)">
 
   <script src="js/storage.js?v=6"></script>
-  <script src="js/app.js?v=6"></script>
+  <script src="js/app.js?v=7"></script>
   <script>
     if ('serviceWorker' in navigator) {
       window.addEventListener('load', () => {

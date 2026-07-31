@@ -185,6 +185,25 @@
       "options": ["What is your name?", "Where are you from?", "How are you?", "How old are you?"],
       "correct": 2,
       "explanation": "'¿Cómo estás?' literally means 'How are you?' — it's informal. For formal, use '¿Cómo está?'"
+    },
+    {
+      "type": "matching",
+      "question": "Match each Spanish greeting with its English meaning:",
+      "pairs": [
+        { "target": "hola", "source": "hello" },
+        { "target": "buenos días", "source": "good morning" },
+        { "target": "buenas noches", "source": "good evening/night" },
+        { "target": "adiós", "source": "goodbye" },
+        { "target": "mucho gusto", "source": "nice to meet you" }
+      ],
+      "explanation": "These are essential greetings for introducing yourself in Spanish."
+    },
+    {
+      "type": "conjugation-matrix",
+      "question": "Complete the full present tense conjugation table for SER:",
+      "verb": "SER",
+      "tenses": ["present"],
+      "explanation": "SER means 'to be' for permanent characteristics. Practice all six forms."
     }
   ]
 }
