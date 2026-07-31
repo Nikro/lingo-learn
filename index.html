@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Spanish Learning App</title>
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.14/dist/full.min.css" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.14.3/dist/cdn.min.js"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            primary: '#6366f1',
+            secondary: '#8b5cf6',
+            accent: '#f59e0b',
+          }
+        }
+      }
+    }
+  </script>
+  <style>
+    [x-cloak] { display: none !important; }
+    .sidebar-transition { transition: transform 0.3s ease; }
+  </style>
+</head>
+<body class="bg-base-200 min-h-screen" x-data="app()" x-init="init()">
+
+  <!-- Mobile Header -->
+  <div class="lg:hidden navbar bg-base-100 shadow-md sticky top-0 z-40">
+    <div class="flex-none">
+      <button @click="sidebarOpen = !sidebarOpen" class="btn btn-square btn-ghost">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" class="inline-block w-5 h-5 stroke-current"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path></svg>
+      </button>
+    </div>
+    <div class="flex-1">
+      <h1 class="text-xl font-bold text-primary">🇪🇸 LingoLearn</h1>
+    </div>
+    <div class="flex-none">
+      <div class="badge badge-primary badge-outline mr-2" x-text="xp"></div>
+    </div>
+  </div>
+
+  <div class="flex h-screen overflow-hidden">
+
+    <!-- Sidebar -->
+    <aside :class="sidebarOpen ? 'translate-x-0' : '-translate-x-full lg:translate-x-0'"
+           class="sidebar-transition fixed lg:relative inset-y-0 left-0 z-50 w-72 bg-base-100 shadow-xl flex flex-col lg:z-0">
+      <!-- Sidebar Header -->
+      <div class="p-4 border-b border-base-300">
+        <div class="flex items-center justify-between mb-3">
+          <h1 class="text-xl font-bold text-primary">🇪🇸 LingoLearn</h1>
+          <button @click="sidebarOpen = false" class="lg:hidden btn btn-ghost btn-sm btn-square">✕</button>
+        </div>
+        
+        <!-- Locale Switcher -->
+        <div class="form-control">
+          <label class="label"><span class="label-text text-xs opacity-70">Language Pair</span></label>
+          <select class="select select-bordered select-sm w-full" 
+                  x-model="currentLocale"
+                  @change="switchLocale(currentLocale)">
+            <template x-for="locale in registry" :key="locale.code">
+              <option :value="locale.code" :disabled="!locale.active" x-text="locale.name"></option>
+            </template>
+          </select>
+        </div>
+      </div>
+
+      <!-- Levels & Stages -->
+      <div class="flex-1 overflow-y-auto p-4">
+        <template x-for="level in appLevels" :key="level.id">
+          <div class="mb-2">
+            <button @click="toggleLevel(level.id)" 
+                    class="btn btn-ghost btn-sm w-full justify-between text-base font-semibold">
+              <span x-text="level.name"></span>
+              <span x-text="level.id === expandedLevel ? '▾' : '▸'"></span>
+            </button>
+            
+            <div x-show="level.id === expandedLevel" x-collapse class="ml-4 mt-1">
+              <template x-for="stage in level.stages" :key="stage.id">
+                <button @click="navigateTo(level.id, stage.id, 'grammar')"
+                        :class="currentLevel === level.id && currentStage === stage.id ? 'btn-primary' : 'btn-ghost'"
+                        class="btn btn-sm w-full justify-start text-sm mb-1">
+                  <span x-text="stage.name"></span>
+                  <span class="text-xs opacity-60 ml-auto" x-show="currentLevel && currentStage && getProgress(currentLevel, currentStage) > 0"
+                        x-text="getProgress(currentLevel, currentStage) + '%'"></span>
+                </button>
+              </template>
+            </div>
+          </div>
+        </template>
+      </div>
+
+      <!-- Settings Button -->
+      <div class="p-4 border-t border-base-300">
+        <button @click="settingsOpen = true" class="btn btn-ghost btn-sm w-full justify-start">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z" />
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+          </svg>
+          Settings
+        </button>
+      </div>
+    </aside>
+
+    <!-- Overlay for mobile -->
+    <div x-show="sidebarOpen" @click="sidebarOpen = false" 
+         class="fixed inset-0 bg-black/50 z-40 lg:hidden" x-cloak></div>
+
+    <!-- Main Content -->
+    <main class="flex-1 overflow-y-auto p-4 lg:p-8">
+      
+      <!-- Loading State -->
+      <div x-show="loading" class="flex items-center justify-center h-64">
+        <span class="loading loading-spinner loading-lg text-primary"></span>
+      </div>
+
+      <!-- Stage View -->
+      <div x-show="!loading && currentStage" class="max-w-4xl mx-auto">
+        
+        <!-- Stage Header -->
+        <div class="card bg-base-100 shadow-md mb-6">
+          <div class="card-body p-6">
+            <div class="flex justify-between items-start mb-4">
+              <div>
+                <h2 class="text-2xl font-bold" x-text="stageTitle"></h2>
+                <p class="text-sm opacity-70 mt-1" x-text="stageDescription"></p>
+              </div>
+              <div class="text-right">
+                <div class="text-3xl font-bold text-accent" x-text="xp"></div>
+                <div class="text-xs opacity-70">XP</div>
+              </div>
+            </div>
+            
+            <!-- Progress Bar -->
+            <div class="flex items-center gap-3">
+              <span class="text-sm font-medium">Progress</span>
+              <progress class="progress progress-primary flex-1" 
+                        :value="getProgress(currentLevel || '', currentStage || '')" 
+                        max="100"></progress>
+              <span class="text-sm font-medium" x-text="getProgress(currentLevel || '', currentStage || '') + '%'"></span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Pillar Tabs -->
+        <div role="tablist" class="tabs tabs-boxed mb-6">
+          <a role="tab" 
+             :class="currentPillar === 'grammar' ? 'tab-active' : ''"
+             @click="currentPillar = 'grammar'"
+             class="tab">📖 Grammar</a>
+          <a role="tab" 
+             :class="currentPillar === 'vocabulary' ? 'tab-active' : ''"
+             @click="currentPillar = 'vocabulary'"
+             class="tab">🗣️ Vocabulary</a>
+          <a role="tab" 
+             :class="currentPillar === 'verbs' ? 'tab-active' : ''"
+             @click="currentPillar = 'verbs'"
+             class="tab">⚡ Verbs & Drills</a>
+          <a role="tab" 
+             :class="currentPillar === 'pronunciation' ? 'tab-active' : ''"
+             @click="currentPillar = 'pronunciation'"
+             class="tab">🔊 Pronunciation</a>
+        </div>
+
+        <!-- Pillar Content -->
+        <div class="card bg-base-100 shadow-md">
+          <div class="card-body p-6">
+            
+            <!-- Grammar Pillar -->
+            <div x-show="currentPillar === 'grammar'">
+              <h3 class="text-xl font-bold mb-4">Grammar</h3>
+              <div class="prose max-w-none" x-html="pillarContent.grammar">
+                <!-- Dynamic content will be injected here -->
+                <p class="opacity-70">Loading content...</p>
+              </div>
+            </div>
+
+            <!-- Vocabulary Pillar -->
+            <div x-show="currentPillar === 'vocabulary'">
+              <h3 class="text-xl font-bold mb-4">Vocabulary</h3>
+              <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                <template x-for="word in vocabularyCards" :key="word.id">
+                  <div class="card bg-base-200 shadow-sm">
+                    <div class="card-body p-4">
+                      <div class="flex justify-between items-center">
+                        <span class="text-lg font-bold" x-text="word.target"></span>
+                        <span class="badge badge-sm" x-text="word.gender"></span>
+                      </div>
+                      <p class="opacity-70" x-text="word.source"></p>
+                    </div>
+                  </div>
+                </template>
+              </div>
+            </div>
+
+            <!-- Verbs Pillar -->
+            <div x-show="currentPillar === 'verbs'">
+              <h3 class="text-xl font-bold mb-4">Verbs & Drills</h3>
+              <p class="opacity-70">Verb conjugation tables and practice drills will appear here.</p>
+            </div>
+
+            <!-- Pronunciation Pillar -->
+            <div x-show="currentPillar === 'pronunciation'">
+              <h3 class="text-xl font-bold mb-4">Pronunciation & Spelling</h3>
+              <p class="opacity-70">Phonetic guides, stress rules, and listening exercises will appear here.</p>
+            </div>
+
+            <!-- Start Quiz Button -->
+            <div class="divider"></div>
+            <button class="btn btn-primary w-full" 
+                    :disabled="!canStartQuiz"
+                    @click="startQuiz()">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z" />
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+              </svg>
+              Start Quiz
+            </button>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Empty State (no stage selected) -->
+      <div x-show="!loading && !currentStage" class="flex flex-col items-center justify-center h-64 text-center">
+        <div class="text-6xl mb-4">📚</div>
+        <h2 class="text-2xl font-bold mb-2">Welcome to LingoLearn</h2>
+        <p class="opacity-70 max-w-md">Select a stage from the sidebar to begin your Spanish learning journey.</p>
+      </div>
+
+    </main>
+  </div>
+
+  <!-- Settings Modal -->
+  <dialog class="modal" x-show="settingsOpen" x-cloak>
+    <div class="modal-box w-11/12 max-w-2xl">
+      <h3 class="text-lg font-bold mb-4">Settings</h3>
+      
+      <div class="space-y-4">
+        <!-- Locale Switcher -->
+        <div class="form-control">
+          <label class="label"><span class="label-text font-semibold">Language Pair</span></label>
+          <select class="select select-bordered w-full" 
+                  x-model="currentLocale"
+                  @change="switchLocale(currentLocale)">
+            <template x-for="locale in registry" :key="locale.code">
+              <option :value="locale.code" :disabled="!locale.active" x-text="locale.name"></option>
+            </template>
+          </select>
+        </div>
+
+        <!-- Aid Language -->
+        <div class="form-control">
+          <label class="label"><span class="label-text font-semibold">Aid Language (Comparative)</span></label>
+          <select class="select select-bordered w-full" 
+                  x-model="Storage.getSettings().aidLanguage"
+                  @change="saveSettings()">
+            <template x-for="lang in registry.aid_languages" :key="lang.code">
+              <option :value="lang.code" x-text="lang.name"></option>
+            </template>
+          </select>
+        </div>
+
+        <!-- Theme -->
+        <div class="form-control">
+          <label class="label"><span class="label-text font-semibold">Theme</span></label>
+          <div class="flex gap-2">
+            <button @click="setTheme('dark')" :class="theme === 'dark' ? 'btn-primary' : 'btn-outline'" class="btn btn-sm">Dark</button>
+            <button @click="setTheme('light')" :class="theme === 'light' ? 'btn-primary' : 'btn-outline'" class="btn btn-sm">Light</button>
+          </div>
+        </div>
+
+        <!-- Data Management -->
+        <div class="divider"></div>
+        <div class="grid grid-cols-2 gap-4">
+          <button class="btn btn-outline btn-sm" @click="exportProgress()">
+            Export Progress
+          </button>
+          <button class="btn btn-outline btn-sm" @click="importProgress()">
+            Import Progress
+          </button>
+          <button class="btn btn-error btn-outline btn-sm col-span-2" @click="resetProgress()">
+            Reset All Progress
+          </button>
+        </div>
+      </div>
+
+      <div class="modal-action">
+        <form method="dialog">
+          <button class="btn" @click="settingsOpen = false">Close</button>
+        </form>
+      </div>
+    </div>
+    <form method="dialog" class="modal-backdrop">
+      <button>close</button>
+    </form>
+  </dialog>
+
+  <!-- Hidden file input for import -->
+  <input type="file" id="importFile" accept=".json" class="hidden" @change="handleImport($event)">
+
+  <script src="js/storage.js?v=2"></script>
+  <script src="js/app.js?v=2"></script>
+  <script>
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', () => {
+        navigator.serviceWorker.register('/sw.js')
+          .then(reg => console.log('SW registered:', reg.scope))
+          .catch(err => console.error('SW registration failed:', err));
+      });
+    }
+  </script>
+</body>
+</html>

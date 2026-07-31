@@ -1,0 +1,190 @@
+{
+  "id": "a1-1",
+  "title": "Stage A1.1 — Greetings & Introductions",
+  "description": "Learn to greet people, introduce yourself, and understand basic Spanish sounds.",
+  "grammar": [
+    {
+      "title": "Articles: el, la, los, las",
+      "content": "Spanish has definite articles that agree in gender and number with the noun they modify. Think of them like 'the' in English, but they change based on whether the noun is masculine or feminine, singular or plural.",
+      "table": {
+        "headers": ["", "Singular", "Plural"],
+        "rows": [
+          ["Masculine", "el", "los"],
+          ["Feminine", "la", "las"]
+        ]
+      },
+      "examples": ["el libro (the book)", "la casa (the house)", "los gatos (the cats)", "las flores (the flowers)"],
+      "aid_note": "Like Italian 'il/la/i/le' or French 'le/la/les/les' — gender matters!"
+    },
+    {
+      "title": "Gender of Nouns",
+      "content": "Most Spanish nouns are either masculine or feminine. As a general rule: nouns ending in -o are usually masculine, and nouns ending in -a are usually feminine. But there are plenty of exceptions!",
+      "table": {
+        "headers": ["Masculine", "Feminine"],
+        "rows": [
+          ["el hombre (man)", "la mujer (woman)"],
+          ["el niño (boy)", "la niña (girl)"],
+          ["el perro (dog)", "la gata (female cat)"]
+        ]
+      },
+      "aid_note": "Romanian also has grammatical gender (masculine, feminine, neuter) — similar concept!"
+    },
+    {
+      "title": "Introduction to SER",
+      "content": "SER is one of two Spanish verbs meaning 'to be.' It's used for permanent characteristics: identity, profession, origin, time, and essential qualities. This is a regular -ER verb.",
+      "table": {
+        "headers": ["Pronoun", "SER"],
+        "rows": [
+          ["yo", "soy"],
+          ["tú", "eres"],
+          ["él/ella/usted", "es"],
+          ["nosotros", "somos"],
+          ["vosotros", "sois"],
+          ["ellos/ellas/ustedes", "son"]
+        ]
+      },
+      "examples": ["Soy Sergiu. (I am Sergiu.)", "Eres inteligente. (You are intelligent.)", "Soy de España. (I am from Spain.)"],
+      "aid_note": "Romanian 'a fi' (sunt, ești, este...) is the equivalent 'to be' verb, but SER is more restricted in use than 'a fi'."
+    }
+  ],
+  "vocabulary": [
+    { "id": 1, "target": "hola", "source": "hello", "gender": "—", "type": "greeting" },
+    { "id": 2, "target": "adiós", "source": "goodbye", "gender": "—", "type": "greeting" },
+    { "id": 3, "target": "buenos días", "source": "good morning", "gender": "—", "type": "greeting" },
+    { "id": 4, "target": "buenas tardes", "source": "good afternoon", "gender": "—", "type": "greeting" },
+    { "id": 5, "target": "buenas noches", "source": "good evening/night", "gender": "—", "type": "greeting" },
+    { "id": 6, "target": "por favor", "source": "please", "gender": "—", "type": "polite" },
+    { "id": 7, "target": "gracias", "source": "thank you", "gender": "—", "type": "polite" },
+    { "id": 8, "target": "de nada", "source": "you're welcome", "gender": "—", "type": "polite" },
+    { "id": 9, "target": "me llamo", "source": "my name is", "gender": "—", "type": "intro" },
+    { "id": 10, "target": "¿Cómo te llamas?", "source": "What is your name?", "gender": "—", "type": "intro" },
+    { "id": 11, "target": "mucho gusto", "source": "nice to meet you", "gender": "—", "type": "intro" },
+    { "id": 12, "target": "¿Cómo estás?", "source": "How are you?", "gender": "—", "type": "intro" },
+    { "id": 13, "target": "bien", "source": "well/good", "gender": "—", "type": "feeling" },
+    { "id": 14, "target": "mal", "source": "bad", "gender": "—", "type": "feeling" },
+    { "id": 15, "target": "hombre", "source": "man", "gender": "m.", "type": "noun" },
+    { "id": 16, "target": "mujer", "source": "woman", "gender": "f.", "type": "noun" },
+    { "id": 17, "target": "niño", "source": "boy", "gender": "m.", "type": "noun" },
+    { "id": 18, "target": "niña", "source": "girl", "gender": "f.", "type": "noun" },
+    { "id": 19, "target": "España", "source": "Spain", "gender": "f.", "type": "noun" },
+    { "id": 20, "target": "libro", "source": "book", "gender": "m.", "type": "noun" }
+  ],
+  "verbs": [
+    {
+      "infinitive": "SER",
+      "translation": "to be (permanent)",
+      "conjugations": {
+        "present": {
+          "yo": "soy",
+          "tú": "eres",
+          "el/ella/usted": "es",
+          "nosotros": "somos",
+          "vosotros": "sois",
+          "ellos/ellas/ustedes": "son"
+        },
+        "imperfect": {
+          "yo": "era",
+          "tú": "eras",
+          "el/ella/usted": "era",
+          "nosotros": "éramos",
+          "vosotros": "erais",
+          "ellos/ellas/ustedes": "eran"
+        }
+      }
+    }
+  ],
+  "pronunciation": [
+    {
+      "title": "The Five Vowels",
+      "content": "Spanish vowels are always pronounced the same way, unlike English where 'a' can sound like many different things. Master these five sounds and you'll be ahead of most beginners.",
+      "examples": [
+        { "target": "a", "source": "like 'a' in 'father'" },
+        { "target": "e", "source": "like 'e' in 'bet'" },
+        { "target": "i", "source": "like 'ee' in 'see'" },
+        { "target": "o", "source": "like 'o' in 'more'" },
+        { "target": "u", "source": "like 'oo' in 'boot'" }
+      ]
+    },
+    {
+      "title": "Special Sounds",
+      "content": "Spanish has a few sounds that don't exist in English. The most important ones for beginners are the rolled 'r' and the 'ñ'.",
+      "examples": [
+        { "target": "rr", "source": "rolled R: perro (dog)" },
+        { "target": "ñ", "source": "ny sound: niño (boy)" },
+        { "target": "ll", "source": "y/j sound: llamo (I call)" },
+        { "target": "j", "source": "hard H: hombre (man)" },
+        { "target": "g (before e/i)", "source": "hard H: gente (people)" }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "exercise",
+      "question": "What is the masculine singular definite article in Spanish?",
+      "options": ["la", "el", "los", "las"],
+      "correct": 1,
+      "explanation": "'El' is the masculine singular definite article (like 'the' for masculine nouns)."
+    },
+    {
+      "type": "exercise",
+      "question": "Which verb form of SER means 'I am'?",
+      "options": ["eres", "es", "soy", "somos"],
+      "correct": 2,
+      "explanation": "'Soy' is the first-person singular (yo) form of SER."
+    },
+    {
+      "type": "exercise",
+      "question": "Translate: 'good morning' → Spanish",
+      "options": ["buenas noches", "buenas tardes", "buenos días", "hola"],
+      "correct": 2,
+      "explanation": "'Buenos días' means good morning."
+    },
+    {
+      "type": "exercise",
+      "question": "What gender is the noun 'la casa'?",
+      "options": ["Masculine", "Feminine", "Neuter", "Both"],
+      "correct": 1,
+      "explanation": "'La' is the feminine definite article, so 'casa' is feminine."
+    },
+    {
+      "type": "exercise",
+      "question": "Complete: 'Yo ___ de España.' (I am from Spain.)",
+      "options": ["eres", "es", "soy", "son"],
+      "correct": 2,
+      "explanation": "'Soy' is the correct form for 'yo' with SER."
+    },
+    {
+      "type": "exercise",
+      "question": "How do you say 'thank you' in Spanish?",
+      "options": ["por favor", "adiós", "gracias", "de nada"],
+      "correct": 2,
+      "explanation": "'Gracias' means thank you."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Write the plural of 'el libro': el ____",
+      "correct": "libros",
+      "explanation": "Masculine singular nouns ending in a consonant add '-s' to make the plural: el libro → los libros."
+    },
+    {
+      "type": "exercise",
+      "question": "The Spanish vowel 'e' is pronounced like:",
+      "options": ["the 'a' in 'cat'", "the 'e' in 'bet'", "the 'i' in 'see'", "the 'o' in 'go'"],
+      "correct": 1,
+      "explanation": "Spanish 'e' is always pronounced like the 'e' in 'bet' — short and crisp."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: 'Me ____ Pablo.' (My name is Pablo.)",
+      "correct": "llamo",
+      "explanation": "'Me llamo' is the standard way to say 'my name is' in Spanish."
+    },
+    {
+      "type": "exercise",
+      "question": "What does '¿Cómo estás?' mean?",
+      "options": ["What is your name?", "Where are you from?", "How are you?", "How old are you?"],
+      "correct": 2,
+      "explanation": "'¿Cómo estás?' literally means 'How are you?' — it's informal. For formal, use '¿Cómo está?'"
+    }
+  ]
+}

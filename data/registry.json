@@ -1,0 +1,53 @@
+{
+  "locales": [
+    {
+      "code": "en-es",
+      "name": "English → Spanish",
+      "source": "English",
+      "target": "Spanish",
+      "active": true
+    },
+    {
+      "code": "ro-es",
+      "name": "Romanian → Spanish",
+      "source": "Romanian",
+      "target": "Spanish",
+      "active": false
+    },
+    {
+      "code": "ro-en",
+      "name": "Romanian → English",
+      "source": "Romanian",
+      "target": "English",
+      "active": false
+    },
+    {
+      "code": "ro-ru",
+      "name": "Romanian → Russian",
+      "source": "Romanian",
+      "target": "Russian",
+      "active": false
+    },
+    {
+      "code": "fr-es",
+      "name": "French → Spanish",
+      "source": "French",
+      "target": "Spanish",
+      "active": false
+    },
+    {
+      "code": "it-es",
+      "name": "Italian → Spanish",
+      "source": "Italian",
+      "target": "Spanish",
+      "active": false
+    }
+  ],
+  "aid_languages": [
+    { "code": "none", "name": "None" },
+    { "code": "ro", "name": "Romanian" },
+    { "code": "it", "name": "Italian" },
+    { "code": "fr", "name": "French" },
+    { "code": "pt", "name": "Portuguese" }
+  ]
+}
