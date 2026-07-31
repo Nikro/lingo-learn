@@ -87,7 +87,7 @@
                  :style="level.id === expandedLevel ? 'max-height: 500px;' : 'max-height: 0;'">
               <template x-for="stage in level.stages" :key="stage.id">
                 <button @click="navigateTo(level.id, stage.id, 'grammar')"
-                        :class="currentLevel === level.id && currentStage === stage.id ? 'btn-primary' : 'btn-ghost'"
+                        :class="isStageActive(level.id, stage.id) ? 'btn-primary' : 'btn-ghost'"
                         class="btn btn-sm w-full justify-start text-sm mb-1">
                   <span x-text="stage.name"></span>
                   <span class="text-xs opacity-60 ml-auto" x-show="currentLevel && currentStage && getProgress(currentLevel, currentStage) > 0"
@@ -154,20 +154,20 @@
         <!-- Pillar Tabs -->
         <div role="tablist" class="tabs tabs-boxed mb-6">
           <a role="tab" 
-             :class="currentPillar === 'grammar' ? 'tab-active' : ''"
-             @click="currentPillar = 'grammar'"
+             :class="isPillarActive('grammar') ? 'tab-active' : ''"
+             @click="currentPillar = 'grammar'; if(currentStage) navigateTo(currentLevel, currentStage, 'grammar')"
              class="tab">📖 Grammar</a>
           <a role="tab" 
-             :class="currentPillar === 'vocabulary' ? 'tab-active' : ''"
-             @click="currentPillar = 'vocabulary'"
+             :class="isPillarActive('vocabulary') ? 'tab-active' : ''"
+             @click="currentPillar = 'vocabulary'; if(currentStage) navigateTo(currentLevel, currentStage, 'vocabulary')"
              class="tab">🗣️ Vocabulary</a>
           <a role="tab" 
-             :class="currentPillar === 'verbs' ? 'tab-active' : ''"
-             @click="currentPillar = 'verbs'"
+             :class="isPillarActive('verbs') ? 'tab-active' : ''"
+             @click="currentPillar = 'verbs'; if(currentStage) navigateTo(currentLevel, currentStage, 'verbs')"
              class="tab">⚡ Verbs & Drills</a>
           <a role="tab" 
-             :class="currentPillar === 'pronunciation' ? 'tab-active' : ''"
-             @click="currentPillar = 'pronunciation'"
+             :class="isPillarActive('pronunciation') ? 'tab-active' : ''"
+             @click="currentPillar = 'pronunciation'; if(currentStage) navigateTo(currentLevel, currentStage, 'pronunciation')"
              class="tab">🔊 Pronunciation</a>
         </div>
 

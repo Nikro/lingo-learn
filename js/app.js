@@ -180,11 +180,58 @@ function app() {
       if (parts.length >= 3) this.currentStage = parts[2];
       if (parts.length >= 4) this.currentPillar = parts[3];
 
-      if (this.currentLevel) this.expandedLevel = this.currentLevel;
-
-      if (this.currentLevel && this.currentStage) {
-        this.loadStageData(this.currentLevel, this.currentStage);
+      // Validate level and stage against known app levels
+      if (this.currentLevel) {
+        var levelExists = this.appLevels.some(function(l) { return l.id === this.currentLevel; }.bind(this));
+        if (!levelExists) {
+          // Invalid level — redirect to home for this locale
+          window.location.hash = '/' + this.currentLocale;
+          return;
+        }
+        this.expandedLevel = this.currentLevel;
       }
+
+      // Validate stage against the selected level
+      if (this.currentLevel && this.currentStage) {
+        var currentLevelObj = this.appLevels.find(function(l) { return l.id === this.currentLevel; }.bind(this));
+        if (!currentLevelObj) {
+          window.location.hash = '/' + this.currentLocale;
+          return;
+        }
+        var stageExists = currentLevelObj.stages.some(function(s) { return s.id === this.currentStage; }.bind(this));
+        if (!stageExists) {
+          // Invalid stage — redirect to the first stage of the level
+          window.location.hash = '/' + this.currentLocale + '/' + this.currentLevel + '/' + currentLevelObj.stages[0].id + '/' + this.currentPillar;
+          return;
+        }
+
+        this.loadStageData(this.currentLevel, this.currentStage);
+      } else if (this.currentLevel && !this.currentStage) {
+        // Level selected but no stage — default to first stage
+        var firstStage = this.appLevels.find(function(l) { return l.id === this.currentLevel; }.bind(this));
+        if (firstStage && firstStage.stages.length > 0) {
+          window.location.hash = '/' + this.currentLocale + '/' + this.currentLevel + '/' + firstStage.stages[0].id + '/' + this.currentPillar;
+          return;
+        }
+      }
+    },
+
+    // Get the current route string for display
+    get currentRoute() {
+      if (!this.currentLocale) return '';
+      if (!this.currentStage) return '/' + this.currentLocale;
+      if (!this.currentPillar) return '/' + this.currentLocale + '/' + this.currentLevel + '/' + this.currentStage;
+      return '/' + this.currentLocale + '/' + this.currentLevel + '/' + this.currentStage + '/' + this.currentPillar;
+    },
+
+    // Check if sidebar item should be highlighted as active
+    isStageActive(levelId, stageId) {
+      return this.currentLevel === levelId && this.currentStage === stageId;
+    },
+
+    // Check if a pillar tab is active (for hash routing via tab clicks)
+    isPillarActive(pillar) {
+      return this.currentPillar === pillar;
     },
 
     // ─── Rendering ───
