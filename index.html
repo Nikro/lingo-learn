@@ -261,8 +261,8 @@
         <!-- Aid Language -->
         <div class="form-control">
           <label class="label"><span class="label-text font-semibold">Aid Language (Comparative)</span></label>
-          <select class="select select-bordered w-full" 
-                  x-model="Storage.getSettings().aidLanguage"
+          <select class="select select-bordered w-full"
+                  x-model="aidLanguage"
                   @change="saveSettings()">
             <template x-for="lang in registry.aid_languages" :key="lang.code">
               <option :value="lang.code" x-text="lang.name"></option>
@@ -308,8 +308,8 @@
   <!-- Hidden file input for import -->
   <input type="file" id="importFile" accept=".json" class="hidden" @change="handleImport($event)">
 
-  <script src="js/storage.js?v=4"></script>
-  <script src="js/app.js?v=4"></script>
+  <script src="js/storage.js?v=5"></script>
+  <script src="js/app.js?v=5"></script>
   <script>
     if ('serviceWorker' in navigator) {
       window.addEventListener('load', () => {

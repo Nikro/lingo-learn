@@ -27,6 +27,7 @@ function app() {
     // UI
     expandedLevel: null,
     theme: 'dark',
+    aidLanguage: 'none',
     xp: 0,
     streak: 0,
 
@@ -66,6 +67,7 @@ function app() {
       var settings = Storage.getSettings();
       this.theme = settings.theme || 'dark';
       this.updateTheme(this.theme);
+      this.aidLanguage = settings.aidLanguage || 'none';
 
       // Load locale
       this.currentLocale = Storage.getLocale() || 'en-es';
@@ -545,6 +547,20 @@ function app() {
     },
 
     // ─── Settings ───
+    setTheme: function(theme) {
+      this.theme = theme;
+      document.documentElement.setAttribute('data-theme', theme);
+      var s = Storage.getSettings();
+      s.theme = theme;
+      Storage.saveSettings(s);
+    },
+
+    saveSettings: function() {
+      var s = Storage.getSettings();
+      s.aidLanguage = this.aidLanguage;
+      Storage.saveSettings(s);
+    },
+
     resetProgress: function() {
       if (confirm('Are you sure you want to reset all progress? This cannot be undone.')) {
         Storage.resetProgress();
