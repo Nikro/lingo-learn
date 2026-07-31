@@ -33,11 +33,13 @@ function app() {
 
     // Quiz state
     quizActive: false,
+    quizFinished: false,
     quizQuestions: [],
     quizIndex: 0,
     quizScore: 0,
     quizAnswered: false,
     quizFeedback: null,
+    selectedOption: null,
     fillInAnswer: '',
     conjugationAnswer: '',
 
@@ -360,8 +362,10 @@ function app() {
       this.quizIndex = 0;
       this.quizScore = 0;
       this.quizActive = true;
+      this.quizFinished = false;
       this.quizAnswered = false;
       this.quizFeedback = null;
+      this.selectedOption = null;
       this.fillInAnswer = '';
       this.conjugationAnswer = '';
     },
@@ -428,14 +432,54 @@ function app() {
       this.quizFeedback = null;
       this.fillInAnswer = '';
       this.conjugationAnswer = '';
+      this.selectedOption = null;
 
       if (this.quizIndex >= this.quizQuestions.length) {
         this.finishQuiz();
       }
     },
 
+    // ─── Quiz Handlers ───
+
+    selectOption: function(index) {
+      if (this.quizAnswered) return;
+      this.selectedOption = index;
+    },
+
+    submitMultipleChoice: function() {
+      if (!this.quizAnswered && this.selectedOption !== null) {
+        this.submitAnswer(this.selectedOption);
+      }
+    },
+
+    submitFillIn: function() {
+      if (!this.quizAnswered && this.fillInAnswer.trim() !== '') {
+        this.submitAnswer(this.fillInAnswer);
+      }
+    },
+
+    submitConjugation: function() {
+      if (!this.quizAnswered && this.conjugationAnswer.trim() !== '') {
+        this.submitAnswer(this.conjugationAnswer);
+      }
+    },
+
+    resetQuizView: function() {
+      this.quizActive = false;
+      this.quizFinished = false;
+      this.quizQuestions = [];
+      this.quizIndex = 0;
+      this.quizScore = 0;
+      this.quizAnswered = false;
+      this.quizFeedback = null;
+      this.selectedOption = null;
+      this.fillInAnswer = '';
+      this.conjugationAnswer = '';
+    },
+
     finishQuiz: function() {
       this.quizActive = false;
+      this.quizFinished = true;
 
       if (this.currentStage) {
         // stageId is already in the correct format (a1-1, a2-3, etc.)
@@ -445,105 +489,6 @@ function app() {
 
       Storage.recordActivity();
       alert('Quiz complete!\n\nScore: ' + this.quizScore + '/' + this.quizQuestions.length + '\nXP earned: +' + (this.quizScore * 10));
-    },
-
-    renderQuizQuestion: function() {
-      if (!this.quizActive) return '';
-
-      var question = this.quizQuestions[this.quizIndex];
-      var total = this.quizQuestions.length;
-      var progress = ((this.quizIndex + 1) / total) * 100;
-
-      var html = '';
-      html += '<div class="mb-4 flex items-center justify-between">';
-      html += '<span class="text-sm opacity-70">Question ' + (this.quizIndex + 1) + ' of ' + total + '</span>';
-      html += '<span class="text-sm font-bold">Score: ' + this.quizScore + '</span>';
-      html += '</div>';
-      html += '<progress class="progress progress-primary w-full mb-4" value="' + progress + '" max="100"></progress>';
-      html += '<div class="text-lg font-medium mb-6">' + question.question + '</div>';
-
-      switch (question.type) {
-        case 'multiple-choice':
-          html += this.renderMultipleChoice(question);
-          break;
-        case 'fill-in-blank':
-          html += this.renderFillInBlank(question);
-          break;
-        case 'conjugation':
-          html += this.renderConjugationExercise(question);
-          break;
-        default:
-          html += '<p class="opacity-70">Exercise type not yet implemented.</p>';
-      }
-
-      // Feedback
-      if (this.quizFeedback) {
-        html += '<div class="alert ' + (this.quizFeedback.correct ? 'alert-success' : 'alert-error') + ' mt-4">';
-        html += '<svg xmlns="http://www.w3.org/2000/svg" class="stroke-current shrink-0 h-6 w-6" fill="none" viewBox="0 0 24 24">';
-        if (this.quizFeedback.correct) {
-          html += '<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />';
-        } else {
-          html += '<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 14l2-2m0 0l2-2m-2 2l-2-2m2 2l2 2m7-2a9 9 0 11-18 0 9 9 0 0118 0z" />';
-        }
-        html += '</svg>';
-        html += '<div>';
-        html += '<p class="font-bold">' + (this.quizFeedback.correct ? 'Correct!' : 'Not quite...') + '</p>';
-        html += '<p class="text-sm">' + this.quizFeedback.explanation + '</p>';
-        html += '</div>';
-        html += '</div>';
-      }
-
-      return html;
-    },
-
-    renderMultipleChoice: function(question) {
-      if (!question.options) return '';
-
-      var html = '<div class="mt-4 space-y-2">';
-      var self = this;
-      question.options.forEach(function(option, index) {
-        var letter = String.fromCharCode(65 + index);
-        html += '<button class="btn btn-outline w-full justify-start" @click="submitAnswer(\'' + option.replace(/'/g, "\\'") + '\')">';
-        html += '<span class="font-mono font-bold w-6">' + letter + '.</span>';
-        html += '<span>' + option + '</span>';
-        html += '</button>';
-      });
-      html += '</div>';
-
-      if (this.quizAnswered) {
-        html += '<button class="btn btn-primary mt-4" @click="nextQuestion()">Next Question \u2192</button>';
-      }
-
-      return html;
-    },
-
-    renderFillInBlank: function(question) {
-      var html = '<div class="space-y-4 mt-4">';
-      html += '<input type="text" x-model="fillInAnswer" @keyup.enter="submitAnswer(fillInAnswer)" class="input input-bordered input-primary w-full" placeholder="Type your answer..." />';
-
-      if (!this.quizAnswered) {
-        html += '<button class="btn btn-primary" @click="submitAnswer(fillInAnswer)">Submit</button>';
-      } else {
-        html += '<button class="btn btn-primary" @click="nextQuestion()">Next Question \u2192</button>';
-      }
-
-      html += '</div>';
-      return html;
-    },
-
-    renderConjugationExercise: function(question) {
-      var html = '<div class="space-y-4 mt-4">';
-      html += '<p class="opacity-70">Conjugate <strong>' + (question.verb || 'the verb') + '</strong> in the <strong>' + (question.tense || 'present') + '</strong> tense:</p>';
-      html += '<input type="text" x-model="conjugationAnswer" @keyup.enter="submitAnswer(conjugationAnswer)" class="input input-bordered input-primary w-full" placeholder="Type the conjugation..." />';
-
-      if (!this.quizAnswered) {
-        html += '<button class="btn btn-primary" @click="submitAnswer(conjugationAnswer)">Submit</button>';
-      } else {
-        html += '<button class="btn btn-primary" @click="nextQuestion()">Next Question \u2192</button>';
-      }
-
-      html += '</div>';
-      return html;
     },
 
     // ─── Settings ───

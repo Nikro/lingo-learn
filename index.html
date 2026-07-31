@@ -214,6 +214,85 @@
               <p class="opacity-70">Phonetic guides, stress rules, and listening exercises will appear here.</p>
             </div>
 
+            <!-- ─── Quiz View (shown when quizActive) ─── -->
+            <div x-show="quizActive" x-cloak class="space-y-6">
+              <!-- Quiz Header -->
+              <div class="flex items-center justify-between mb-2">
+                <span class="text-sm font-medium opacity-70">Question <span x-text="quizIndex + 1"></span> of <span x-text="quizQuestions.length"></span></span>
+                <span class="text-sm font-bold text-primary"><span x-text="quizScore"></span> pts</span>
+              </div>
+              <progress class="progress progress-primary w-full mb-4" 
+                        :value="((quizIndex + 1) / quizQuestions.length) * 100" 
+                        max="100"></progress>
+
+              <!-- Question -->
+              <div class="text-lg font-medium" x-text="quizQuestions[quizIndex]?.question"></div>
+
+              <!-- Multiple Choice -->
+              <div x-show="quizQuestions[quizIndex]?.type === 'multiple-choice'" class="space-y-2">
+                <template x-for="(option, index) in quizQuestions[quizIndex]?.options" :key="index">
+                  <button class="btn btn-outline w-full justify-start" 
+                          :class="{ 'btn-success text-white': quizAnswered && index === quizQuestions[quizIndex].correct,
+                                   'btn-error text-white': quizAnswered && index !== quizQuestions[quizIndex].correct && selectedOption === index }"
+                          :disabled="quizAnswered"
+                          @click="selectOption(index)">
+                    <span class="font-mono font-bold w-6"><span x-text="String.fromCharCode(65 + index)"></span>.</span>
+                    <span x-text="option"></span>
+                  </button>
+                </template>
+              </div>
+
+              <!-- Fill-in-Blank -->
+              <div x-show="quizQuestions[quizIndex]?.type === 'fill-in-blank'" class="space-y-3">
+                <input type="text" x-model="fillInAnswer" 
+                       @keyup.enter="submitFillIn()"
+                       class="input input-bordered input-primary w-full text-lg" 
+                       placeholder="Type your answer..." 
+                       :disabled="quizAnswered" />
+              </div>
+
+              <!-- Conjugation -->
+              <div x-show="quizQuestions[quizIndex]?.type === 'conjugation'" class="space-y-3">
+                <p class="opacity-70">Conjugate <strong x-text="quizQuestions[quizIndex]?.verb"></strong> in the <strong x-text="quizQuestions[quizIndex]?.tense"></strong> tense:</p>
+                <input type="text" x-model="conjugationAnswer" 
+                       @keyup.enter="submitConjugation()"
+                       class="input input-bordered input-primary w-full text-lg" 
+                       placeholder="Type the conjugation..." 
+                       :disabled="quizAnswered" />
+              </div>
+
+              <!-- Feedback -->
+              <div x-show="quizFeedback" 
+                   class="alert" 
+                   :class="quizFeedback.correct ? 'alert-success' : 'alert-error'">
+                <svg xmlns="http://www.w3.org/2000/svg" class="stroke-current shrink-0 h-6 w-6" fill="none" viewBox="0 0 24 24">
+                  <path x-show="quizFeedback.correct" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                  <path x-show="!quizFeedback.correct" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 14l2-2m0 0l2-2m-2 2l-2-2m2 2l2 2m7-2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                </svg>
+                <div>
+                  <p class="font-bold"><span x-text="quizFeedback.correct ? 'Correct!' : 'Not quite...'"></span></p>
+                  <p class="text-sm" x-text="quizFeedback.explanation"></p>
+                </div>
+              </div>
+
+              <!-- Action Buttons -->
+              <div x-show="!quizAnswered" class="flex gap-2">
+                <button x-show="quizQuestions[quizIndex]?.type === 'fill-in-blank'" @click="submitFillIn()" class="btn btn-primary flex-1">Submit</button>
+                <button x-show="quizQuestions[quizIndex]?.type === 'conjugation'" @click="submitConjugation()" class="btn btn-primary flex-1">Submit</button>
+                <button x-show="quizQuestions[quizIndex]?.type === 'multiple-choice'" class="btn btn-primary flex-1" @click="submitMultipleChoice()">Submit</button>
+              </div>
+              <button x-show="quizAnswered" @click="nextQuestion()" class="btn btn-primary w-full">Next Question →</button>
+            </div>
+
+            <!-- ─── Quiz End Screen ─── -->
+            <div x-show="!quizActive && quizQuestions.length > 0 && quizFinished" x-cloak class="text-center space-y-4 py-8">
+              <div class="text-6xl mb-4">🎉</div>
+              <h3 class="text-2xl font-bold">Quiz Complete!</h3>
+              <p class="text-3xl font-bold text-primary"><span x-text="quizScore"></span> / <span x-text="quizQuestions.length"></span></p>
+              <p class="opacity-70">XP earned: +<span x-text="quizScore * 10"></span></p>
+              <button class="btn btn-primary" @click="resetQuizView()">Practice Again</button>
+            </div>
+
             <!-- Start Quiz Button -->
             <div class="divider"></div>
             <button class="btn btn-primary w-full" 
@@ -308,8 +387,8 @@
   <!-- Hidden file input for import -->
   <input type="file" id="importFile" accept=".json" class="hidden" @change="handleImport($event)">
 
-  <script src="js/storage.js?v=5"></script>
-  <script src="js/app.js?v=5"></script>
+  <script src="js/storage.js?v=6"></script>
+  <script src="js/app.js?v=6"></script>
   <script>
     if ('serviceWorker' in navigator) {
       window.addEventListener('load', () => {
