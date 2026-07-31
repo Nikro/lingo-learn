@@ -1,0 +1,173 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Spanish Learning App — Stage Data Schema",
+  "description": "Schema for stage-level curriculum content. Each JSON file in data/{locale}/ represents one stage (e.g., a1-1.json = A1.1).",
+  "type": "object",
+  "required": ["id", "title", "description", "grammar", "vocabulary", "verbs", "pronunciation", "exercises"],
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "Stage identifier in kebab-case: a1-1, a1-2, b1-3, etc.",
+      "pattern": "^[a-z]\\d-\\d+$"
+    },
+    "title": {
+      "type": "string",
+      "description": "Display title, e.g. 'Stage A1.1 — Greetings & Introductions'"
+    },
+    "description": {
+      "type": "string",
+      "description": "Brief description of what the stage covers"
+    },
+    "grammar": {
+      "type": "array",
+      "description": "Grammar lessons for this stage",
+      "items": {
+        "type": "object",
+        "required": ["title"],
+        "properties": {
+          "title": { "type": "string", "description": "Lesson title" },
+          "content": { "type": "string", "description": "Explanation text" },
+          "table": {
+            "type": "object",
+            "required": ["headers", "rows"],
+            "properties": {
+              "headers": { "type": "array", "items": { "type": "string" } },
+              "rows": { "type": "array", "items": { "type": "array", "items": { "type": "string" } } }
+            }
+          },
+          "examples": {
+            "type": "array",
+            "items": { "type": "string" }
+          },
+          "aid_note": {
+            "type": "string",
+            "description": "Language-aid hint for learners (e.g. comparing to Romanian/Italian)"
+          }
+        }
+      }
+    },
+    "vocabulary": {
+      "type": "array",
+      "description": "Vocabulary items for this stage",
+      "items": {
+        "type": "object",
+        "required": ["id", "target", "source"],
+        "properties": {
+          "id": { "type": "integer", "description": "Unique identifier" },
+          "target": { "type": "string", "description": "Target language word/phrase" },
+          "source": { "type": "string", "description": "Source language translation" },
+          "gender": {
+            "type": "string",
+            "description": "Grammatical gender marker: 'm.', 'f.', '—' if not applicable"
+          },
+          "type": {
+            "type": "string",
+            "enum": ["greeting", "polite", "intro", "feeling", "noun", "adjective", "verb", "adverb", "preposition", "other"],
+            "description": "Semantic category of the word"
+          }
+        }
+      }
+    },
+    "verbs": {
+      "type": "array",
+      "description": "Verb entries with conjugation tables",
+      "items": {
+        "type": "object",
+        "required": ["infinitive", "translation", "conjugations"],
+        "properties": {
+          "infinitive": { "type": "string", "description": "Verb in infinitive form" },
+          "translation": { "type": "string", "description": "English translation" },
+          "conjugations": {
+            "type": "object",
+            "description": "Map of tense names to conjugation maps",
+            "additionalProperties": {
+              "type": "object",
+              "properties": {
+                "yo": { "type": "string" },
+                "tú": { "type": "string" },
+                "el/ella/usted": { "type": "string" },
+                "nosotros": { "type": "string" },
+                "vosotros": { "type": "string" },
+                "ellos/ellas/ustedes": { "type": "string" }
+              }
+            }
+          }
+        }
+      }
+    },
+    "pronunciation": {
+      "type": "array",
+      "description": "Pronunciation lessons",
+      "items": {
+        "type": "object",
+        "required": ["title"],
+        "properties": {
+          "title": { "type": "string", "description": "Lesson title" },
+          "content": { "type": "string", "description": "Explanation text" },
+          "examples": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": ["target", "source"],
+              "properties": {
+                "target": { "type": "string", "description": "Sound/letter/phoneme" },
+                "source": { "type": "string", "description": "English equivalent or example" }
+              }
+            }
+          }
+        }
+      }
+    },
+    "exercises": {
+      "type": "array",
+      "description": "Interactive exercises",
+      "items": {
+        "type": "object",
+        "required": ["type", "question", "correct", "explanation"],
+        "properties": {
+          "type": {
+            "type": "string",
+            "enum": ["exercise", "fill-in-blank", "conjugation", "drag-drop", "matching"],
+            "description": "Exercise type: 'exercise' for multiple-choice, others for specific types"
+          },
+          "question": { "type": "string", "description": "The question or prompt" },
+          "correct": {
+            "description": "Correct answer — index for multiple-choice, string for fill-in-blank/conjugation"
+          },
+          "explanation": { "type": "string", "description": "Explanation shown after answering" },
+          "options": {
+            "type": "array",
+            "items": { "type": "string" },
+            "description": "Multiple-choice options (only for type 'exercise')"
+          },
+          "pairs": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": ["target", "source"],
+              "properties": {
+                "target": { "type": "string" },
+                "source": { "type": "string" }
+              }
+            },
+            "description": "Matching pairs (only for type 'matching')"
+          }
+        }
+      }
+    }
+  },
+  "additionalProperties": false,
+  "definitions": {
+    "conjugationTable": {
+      "type": "object",
+      "properties": {
+        "yo": { "type": "string" },
+        "tú": { "type": "string" },
+        "él/ella/usted": { "type": "string" },
+        "nosotros": { "type": "string" },
+        "vosotros": { "type": "string" },
+        "ellos/ellas/ustedes": { "type": "string" }
+      }
+    }
+  }
+}
