@@ -180,12 +180,15 @@ function app() {
       if (parts.length >= 3) this.currentStage = parts[2];
       if (parts.length >= 4) this.currentPillar = parts[3];
 
-      // Validate level and stage against known app levels
+      // Validate level against known app levels
       if (this.currentLevel) {
         var levelExists = this.appLevels.some(function(l) { return l.id === this.currentLevel; }.bind(this));
         if (!levelExists) {
-          // Invalid level — redirect to home for this locale
-          window.location.hash = '/' + this.currentLocale;
+          // Invalid level — reset state, show welcome
+          this.currentLevel = null;
+          this.currentStage = null;
+          this.expandedLevel = null;
+          this.stageData = null;
           return;
         }
         this.expandedLevel = this.currentLevel;
@@ -195,13 +198,18 @@ function app() {
       if (this.currentLevel && this.currentStage) {
         var currentLevelObj = this.appLevels.find(function(l) { return l.id === this.currentLevel; }.bind(this));
         if (!currentLevelObj) {
-          window.location.hash = '/' + this.currentLocale;
+          this.currentLevel = null;
+          this.currentStage = null;
+          this.expandedLevel = null;
           return;
         }
         var stageExists = currentLevelObj.stages.some(function(s) { return s.id === this.currentStage; }.bind(this));
         if (!stageExists) {
-          // Invalid stage — redirect to the first stage of the level
-          window.location.hash = '/' + this.currentLocale + '/' + this.currentLevel + '/' + currentLevelObj.stages[0].id + '/' + this.currentPillar;
+          // Invalid stage — reset state, show welcome
+          this.currentLevel = null;
+          this.currentStage = null;
+          this.expandedLevel = null;
+          this.stageData = null;
           return;
         }
 
@@ -210,8 +218,8 @@ function app() {
         // Level selected but no stage — default to first stage
         var firstStage = this.appLevels.find(function(l) { return l.id === this.currentLevel; }.bind(this));
         if (firstStage && firstStage.stages.length > 0) {
-          window.location.hash = '/' + this.currentLocale + '/' + this.currentLevel + '/' + firstStage.stages[0].id + '/' + this.currentPillar;
-          return;
+          this.currentStage = firstStage.stages[0].id;
+          this.loadStageData(this.currentLevel, this.currentStage);
         }
       }
     },
@@ -232,6 +240,14 @@ function app() {
     // Check if a pillar tab is active (for hash routing via tab clicks)
     isPillarActive(pillar) {
       return this.currentPillar === pillar;
+    },
+
+    // Set pillar and update hash
+    setPillar(pillar) {
+      this.currentPillar = pillar;
+      if (this.currentStage) {
+        window.location.hash = '/' + this.currentLocale + '/' + this.currentLevel + '/' + this.currentStage + '/' + pillar;
+      }
     },
 
     // ─── Rendering ───
