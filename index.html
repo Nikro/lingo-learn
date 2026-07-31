@@ -23,6 +23,12 @@
   <style>
     [x-cloak] { display: none !important; }
     .sidebar-transition { transition: transform 0.3s ease; }
+    .pillar-content { animation: pillarFadeIn 0.3s ease-in-out; }
+    @keyframes pillarFadeIn {
+      from { opacity: 0; transform: translateY(8px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    .tab-active { background-color: var(--fallback-bc, oklch(var(--bc) / 0.1)); color: inherit; }
   </style>
 </head>
 <body class="bg-base-200 min-h-screen" x-data="app()" x-init="init()">
@@ -168,9 +174,9 @@
         <!-- Pillar Content -->
         <div class="card bg-base-100 shadow-md">
           <div class="card-body p-6">
-            
+                
             <!-- Grammar Pillar -->
-            <div x-show="currentPillar === 'grammar'">
+            <div x-show="currentPillar === 'grammar'" class="pillar-content">
               <h3 class="text-xl font-bold mb-4">Grammar</h3>
               <div class="prose max-w-none" x-html="pillarContent.grammar">
                 <!-- Dynamic content will be injected here -->
@@ -179,7 +185,7 @@
             </div>
 
             <!-- Vocabulary Pillar -->
-            <div x-show="currentPillar === 'vocabulary'">
+            <div x-show="currentPillar === 'vocabulary'" class="pillar-content">
               <h3 class="text-xl font-bold mb-4">Vocabulary</h3>
               <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
                 <template x-for="word in vocabularyCards" :key="word.id">
@@ -197,13 +203,13 @@
             </div>
 
             <!-- Verbs Pillar -->
-            <div x-show="currentPillar === 'verbs'">
+            <div x-show="currentPillar === 'verbs'" class="pillar-content">
               <h3 class="text-xl font-bold mb-4">Verbs & Drills</h3>
               <p class="opacity-70">Verb conjugation tables and practice drills will appear here.</p>
             </div>
 
             <!-- Pronunciation Pillar -->
-            <div x-show="currentPillar === 'pronunciation'">
+            <div x-show="currentPillar === 'pronunciation'" class="pillar-content">
               <h3 class="text-xl font-bold mb-4">Pronunciation & Spelling</h3>
               <p class="opacity-70">Phonetic guides, stress rules, and listening exercises will appear here.</p>
             </div>
@@ -302,8 +308,8 @@
   <!-- Hidden file input for import -->
   <input type="file" id="importFile" accept=".json" class="hidden" @change="handleImport($event)">
 
-  <script src="js/storage.js?v=3"></script>
-  <script src="js/app.js?v=3"></script>
+  <script src="js/storage.js?v=4"></script>
+  <script src="js/app.js?v=4"></script>
   <script>
     if ('serviceWorker' in navigator) {
       window.addEventListener('load', () => {
