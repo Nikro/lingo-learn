@@ -77,7 +77,8 @@
               <span x-text="level.id === expandedLevel ? '▾' : '▸'"></span>
             </button>
             
-            <div x-show="level.id === expandedLevel" x-collapse class="ml-4 mt-1">
+            <div x-show="level.id === expandedLevel" class="ml-4 mt-1 overflow-hidden transition-[max-height] duration-300 ease-in-out"
+                 :style="level.id === expandedLevel ? 'max-height: 500px;' : 'max-height: 0;'">
               <template x-for="stage in level.stages" :key="stage.id">
                 <button @click="navigateTo(level.id, stage.id, 'grammar')"
                         :class="currentLevel === level.id && currentStage === stage.id ? 'btn-primary' : 'btn-ghost'"
@@ -301,8 +302,8 @@
   <!-- Hidden file input for import -->
   <input type="file" id="importFile" accept=".json" class="hidden" @change="handleImport($event)">
 
-  <script src="js/storage.js?v=2"></script>
-  <script src="js/app.js?v=2"></script>
+  <script src="js/storage.js?v=3"></script>
+  <script src="js/app.js?v=3"></script>
   <script>
     if ('serviceWorker' in navigator) {
       window.addEventListener('load', () => {

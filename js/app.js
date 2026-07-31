@@ -8,10 +8,10 @@ function app() {
     registry: [],
     aidLanguages: [],
     appLevels: [
-      { id: 'A1', name: 'A1 — Beginner', stages: [{ id: '1.1', name: 'A1.1 — Greetings' }, { id: '1.2', name: 'A1.2 — Numbers & Colors' }, { id: '1.3', name: 'A1.3 — Family' }] },
-      { id: 'A2', name: 'A2 — Elementary', stages: [{ id: '2.1', name: 'A2.1 — Daily Life' }, { id: '2.2', name: 'A2.2 — Shopping' }, { id: '2.3', name: 'A2.3 — Food & Drink' }] },
-      { id: 'B1', name: 'B1 — Intermediate', stages: [{ id: '3.1', name: 'B1.1 — Travel' }, { id: '3.2', name: 'B1.2 — Work' }, { id: '3.3', name: 'B1.3 — Opinions' }] },
-      { id: 'B2', name: 'B2 — Upper Intermediate', stages: [{ id: '4.1', name: 'B2.1 — Culture' }, { id: '4.2', name: 'B2.2 — Society' }, { id: '4.3', name: 'B2.3 — Abstract' }] }
+      { id: 'A1', name: 'A1 — Beginner', stages: [{ id: 'a1-1', name: 'A1.1 — Greetings' }, { id: 'a1-2', name: 'A1.2 — Numbers & Colors' }, { id: 'a1-3', name: 'A1.3 — Family' }] },
+      { id: 'A2', name: 'A2 — Elementary', stages: [{ id: 'a2-1', name: 'A2.1 — Daily Life' }, { id: 'a2-2', name: 'A2.2 — Shopping' }, { id: 'a2-3', name: 'A2.3 — Food & Drink' }] },
+      { id: 'B1', name: 'B1 — Intermediate', stages: [{ id: 'b1-1', name: 'B1.1 — Travel' }, { id: 'b1-2', name: 'B1.2 — Work' }, { id: 'b1-3', name: 'B1.3 — Opinions' }] },
+      { id: 'B2', name: 'B2 — Upper Intermediate', stages: [{ id: 'b2-1', name: 'B2.1 — Culture' }, { id: 'b2-2', name: 'B2.2 — Society' }, { id: 'b2-3', name: 'B2.3 — Abstract' }] }
     ],
 
     // Current navigation
@@ -101,11 +101,13 @@ function app() {
     async loadRegistry() {
       try {
         var response = await fetch('data/registry.json');
-        this.registry = await response.json();
-        this.aidLanguages = this.registry.aid_languages;
+        var data = await response.json();
+        this.registry = data;
+        this.aidLanguages = data.aid_languages || [];
       } catch (e) {
         console.error('Failed to load registry:', e);
         this.registry = { locales: [], aid_languages: [] };
+        this.aidLanguages = [];
       }
     },
 
@@ -122,11 +124,8 @@ function app() {
     async loadStageData(levelId, stageId) {
       this.loading = true;
       try {
-        // Build filename like: a1-1.json, a1-2.json, b1-1.json, etc.
-        var levelNum = levelId.toLowerCase();
-        var stageNum = stageId.split('.')[0];
-        var fileName = levelNum + '-' + stageNum;
-        var response = await fetch('data/' + this.currentLocale + '/' + fileName + '.json');
+        // stageId is already in filename format (a1-1, a2-3, b1-2, etc.)
+        var response = await fetch('data/' + this.currentLocale + '/' + stageId + '.json');
         this.stageData = await response.json();
         this.renderPillar();
       } catch (e) {
@@ -436,10 +435,10 @@ function app() {
     finishQuiz: function() {
       this.quizActive = false;
 
-      if (this.currentLevel && this.currentStage) {
+      if (this.currentStage) {
+        // stageId is already in the correct format (a1-1, a2-3, etc.)
         var pillar = this.quizQuestions[0] ? this.quizQuestions[0].pillar : 'grammar';
-        var stageKey = this.currentLevel.replace('.', '-') + '-' + this.currentStage.replace('.', '-');
-        Storage.saveProgress(stageKey, pillar, this.quizScore, this.quizQuestions.length);
+        Storage.saveProgress(this.currentStage, pillar, this.quizScore, this.quizQuestions.length);
       }
 
       Storage.recordActivity();
@@ -583,8 +582,8 @@ function app() {
 
     // ─── Helpers ───
     getProgress: function(levelId, stageId) {
-      var stageKey = levelId.replace('.', '-') + '-' + stageId.replace('.', '-');
-      return Storage.getStageProgress(stageKey);
+      // stageId is already in the correct format (a1-1, a2-3, etc.)
+      return Storage.getStageProgress(stageId);
     }
   };
 }
