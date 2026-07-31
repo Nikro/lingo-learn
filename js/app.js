@@ -1161,3 +1161,27 @@ function app() {
     }
   };
 }
+// Expose globally
+window.app = app;
+
+// ─── Service Worker Update Detection ───
+(function() {
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.addEventListener('controllerchange', function() {
+      console.log('Service Worker updated — reloading...');
+      window.location.reload();
+    });
+
+    // Periodic check for SW updates (every 24 hours)
+    setInterval(function() {
+      navigator.serviceWorker.getRegistration().then(function(reg) {
+        if (reg && reg.active && reg.active.state !== 'activating') {
+          if (reg.waiting) {
+            reg.waiting.postMessage({ type: 'SKIP_WAITING' });
+            console.log('New SW available — notified to skip waiting');
+          }
+        }
+      });
+    }, 24 * 60 * 60 * 1000);
+  }
+})();

@@ -1,11 +1,15 @@
 // LingoLearn Service Worker
-const CACHE_NAME = 'lingolearn-v2';
+const CACHE_NAME = 'lingolearn-v3';
 const STATIC_ASSETS = [
   '/',
   '/index.html',
   '/manifest.json',
   '/js/storage.js',
-  '/js/app.js'
+  '/js/app.js',
+  '/data/registry.json',
+  '/data/schema.json',
+  '/data/validate.js',
+  '/data/en-es/a1-1.json'
 ];
 
 // Install — cache static assets
