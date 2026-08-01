@@ -1,6 +1,6 @@
 {
   "id": "a1-1",
-  "title": "Stage A1.1 — Greetings & Introductions",
+  "title": "Stage A1.1 - Greetings & Introductions",
   "description": "Learn to greet people, introduce yourself, and understand basic Spanish sounds.",
   "grammar": [
     {
@@ -14,7 +14,7 @@
         ]
       },
       "examples": ["el libro (the book)", "la casa (the house)", "los gatos (the cats)", "las flores (the flowers)"],
-      "aid_note": "Like Italian 'il/la/i/le' or French 'le/la/les/les' — gender matters!"
+      "aid_note": "Like Italian 'il/la/i/le' or French 'le/la/les/les' - gender matters!"
     },
     {
       "title": "Gender of Nouns",
@@ -27,7 +27,22 @@
           ["el perro (dog)", "la gata (female cat)"]
         ]
       },
-      "aid_note": "Romanian also has grammatical gender (masculine, feminine, neuter) — similar concept!"
+      "aid_note": "Romanian also has grammatical gender (masculine, feminine, neuter) - similar concept!"
+    },
+    {
+      "title": "Making Plurals",
+      "content": "To make Spanish nouns plural, follow these simple rules:\n- Nouns ending in a vowel: add -s (libro -> libros)\n- Nouns ending in a consonant: add -es (ciudad -> ciudades)\n- Nouns ending in -z: change to -ces (luz -> luces)\n- Nouns ending in -on: add -es but keep the accent on the same syllable (camion -> camiones)",
+      "table": {
+        "headers": ["Singular", "Plural", "Rule"],
+        "rows": [
+          ["el libro", "los libros", "vowel + s"],
+          ["la ciudad", "las ciudades", "consonant + es"],
+          ["la luz", "las luces", "z -> ces"],
+          ["el camión", "los camiones", "consonant + es (accent shifts)"]
+        ]
+      },
+      "examples": ["un gato / dos gatos", "una mano / dos manos", "el lápiz / los lápices"],
+      "aid_note": "This is very similar to English -s/-es plurals, but the article must also change: el gato -> los gatos."
     },
     {
       "title": "Introduction to SER",
@@ -44,7 +59,24 @@
         ]
       },
       "examples": ["Soy Sergiu. (I am Sergiu.)", "Eres inteligente. (You are intelligent.)", "Soy de España. (I am from Spain.)"],
-      "aid_note": "Romanian 'a fi' (sunt, ești, este...) is the equivalent 'to be' verb, but SER is more restricted in use than 'a fi'."
+      "aid_note": "Romanian 'a fi' (sunt, esti, este...) is the equivalent 'to be' verb, but SER is more restricted in use than 'a fi'."
+    },
+    {
+      "title": "Introduction to ESTAR",
+      "content": "ESTAR is the second verb meaning 'to be.' It's used for temporary states: emotions, locations, and conditions. Think of ESTAR as 'to be (right now, in this state).' This is a regular -AR verb with a stem change.",
+      "table": {
+        "headers": ["Pronoun", "ESTAR"],
+        "rows": [
+          ["yo", "estoy"],
+          ["tú", "estas"],
+          ["él/ella/usted", "está"],
+          ["nosotros", "estamos"],
+          ["vosotros", "estáis"],
+          ["ellos/ellas/ustedes", "están"]
+        ]
+      },
+      "examples": ["Estoy bien. (I am well.)", "¿Dónde estás? (Where are you?)", "Está cansado. (He/She is tired.)"],
+      "aid_note": "The key difference: SER = who you are (permanent), ESTAR = how you are (temporary). 'Soy feliz' (I'm a happy person) vs 'Estoy feliz' (I'm happy right now)."
     }
   ],
   "vocabulary": [
@@ -67,7 +99,42 @@
     { "id": 17, "target": "niño", "source": "boy", "gender": "m.", "type": "noun" },
     { "id": 18, "target": "niña", "source": "girl", "gender": "f.", "type": "noun" },
     { "id": 19, "target": "España", "source": "Spain", "gender": "f.", "type": "noun" },
-    { "id": 20, "target": "libro", "source": "book", "gender": "m.", "type": "noun" }
+    { "id": 20, "target": "libro", "source": "book", "gender": "m.", "type": "noun" },
+    { "id": 21, "target": "uno", "source": "one", "gender": "—", "type": "number" },
+    { "id": 22, "target": "dos", "source": "two", "gender": "—", "type": "number" },
+    { "id": 23, "target": "tres", "source": "three", "gender": "—", "type": "number" },
+    { "id": 24, "target": "cuatro", "source": "four", "gender": "—", "type": "number" },
+    { "id": 25, "target": "cinco", "source": "five", "gender": "—", "type": "number" },
+    { "id": 26, "target": "seis", "source": "six", "gender": "—", "type": "number" },
+    { "id": 27, "target": "siete", "source": "seven", "gender": "—", "type": "number" },
+    { "id": 28, "target": "ocho", "source": "eight", "gender": "—", "type": "number" },
+    { "id": 29, "target": "nueve", "source": "nine", "gender": "—", "type": "number" },
+    { "id": 30, "target": "diez", "source": "ten", "gender": "—", "type": "number" },
+    { "id": 31, "target": "padre", "source": "father", "gender": "m.", "type": "family" },
+    { "id": 32, "target": "madre", "source": "mother", "gender": "f.", "type": "family" },
+    { "id": 33, "target": "hermano", "source": "brother", "gender": "m.", "type": "family" },
+    { "id": 34, "target": "hermana", "source": "sister", "gender": "f.", "type": "family" },
+    { "id": 35, "target": "familia", "source": "family", "gender": "f.", "type": "family" },
+    { "id": 36, "target": "abuelo", "source": "grandfather", "gender": "m.", "type": "family" },
+    { "id": 37, "target": "abuela", "source": "grandmother", "gender": "f.", "type": "family" },
+    { "id": 38, "target": "hijo", "source": "son", "gender": "m.", "type": "family" },
+    { "id": 39, "target": "hija", "source": "daughter", "gender": "f.", "type": "family" },
+    { "id": 40, "target": "marido", "source": "husband", "gender": "m.", "type": "family" },
+    { "id": 41, "target": "esposa", "source": "wife", "gender": "f.", "type": "family" },
+    { "id": 42, "target": "rojo", "source": "red", "gender": "m.", "type": "color" },
+    { "id": 43, "target": "azul", "source": "blue", "gender": "—", "type": "color" },
+    { "id": 44, "target": "verde", "source": "green", "gender": "—", "type": "color" },
+    { "id": 45, "target": "amarillo", "source": "yellow", "gender": "m.", "type": "color" },
+    { "id": 46, "target": "blanco", "source": "white", "gender": "m.", "type": "color" },
+    { "id": 47, "target": "negro", "source": "black", "gender": "m.", "type": "color" },
+    { "id": 48, "target": "gris", "source": "gray", "gender": "—", "type": "color" },
+    { "id": 49, "target": "naranja", "source": "orange", "gender": "—", "type": "color" },
+    { "id": 50, "target": "rosa", "source": "pink", "gender": "—", "type": "color" },
+    { "id": 51, "target": "casa", "source": "house", "gender": "f.", "type": "noun" },
+    { "id": 52, "target": "perro", "source": "dog", "gender": "m.", "type": "noun" },
+    { "id": 53, "target": "gato", "source": "cat", "gender": "m.", "type": "noun" },
+    { "id": 54, "target": "agua", "source": "water", "gender": "f.", "type": "noun" },
+    { "id": 55, "target": "tiempo", "source": "time/weather", "gender": "m.", "type": "noun" }
   ],
   "verbs": [
     {
@@ -77,7 +144,7 @@
         "present": {
           "yo": "soy",
           "tú": "eres",
-          "el/ella/usted": "es",
+          "él/ella/usted": "es",
           "nosotros": "somos",
           "vosotros": "sois",
           "ellos/ellas/ustedes": "son"
@@ -85,32 +152,145 @@
         "imperfect": {
           "yo": "era",
           "tú": "eras",
-          "el/ella/usted": "era",
+          "él/ella/usted": "era",
           "nosotros": "éramos",
           "vosotros": "erais",
           "ellos/ellas/ustedes": "eran"
+        }
+      }
+    },
+    {
+      "infinitive": "ESTAR",
+      "translation": "to be (temporary/location)",
+      "conjugations": {
+        "present": {
+          "yo": "estoy",
+          "tú": "estas",
+          "él/ella/usted": "está",
+          "nosotros": "estamos",
+          "vosotros": "estáis",
+          "ellos/ellas/ustedes": "están"
+        },
+        "imperfect": {
+          "yo": "estaba",
+          "tú": "estabas",
+          "él/ella/usted": "estaba",
+          "nosotros": "estábamos",
+          "vosotros": "estabais",
+          "ellos/ellas/ustedes": "estaban"
+        }
+      }
+    },
+    {
+      "infinitive": "HABLAR",
+      "translation": "to speak",
+      "conjugations": {
+        "present": {
+          "yo": "hablo",
+          "tú": "hablas",
+          "él/ella/usted": "habla",
+          "nosotros": "hablamos",
+          "vosotros": "habláis",
+          "ellos/ellas/ustedes": "hablan"
+        },
+        "imperfect": {
+          "yo": "hablaba",
+          "tú": "hablabas",
+          "él/ella/usted": "hablaba",
+          "nosotros": "hablábamos",
+          "vosotros": "hablabais",
+          "ellos/ellas/ustedes": "hablaban"
+        }
+      }
+    },
+    {
+      "infinitive": "COMER",
+      "translation": "to eat",
+      "conjugations": {
+        "present": {
+          "yo": "como",
+          "tú": "comes",
+          "él/ella/usted": "come",
+          "nosotros": "comemos",
+          "vosotros": "coméis",
+          "ellos/ellas/ustedes": "comen"
+        },
+        "imperfect": {
+          "yo": "comía",
+          "tú": "comías",
+          "él/ella/usted": "comía",
+          "nosotros": "comíamos",
+          "vosotros": "comíais",
+          "ellos/ellas/ustedes": "comían"
         }
       }
     }
   ],
   "pronunciation": [
     {
+      "title": "The Alphabet",
+      "content": "Spanish uses the same 26 letters as English, but pronunciation is far more consistent. The key difference is the addition of 'n' (eñe), which is considered a separate letter in Spanish. Two letters that often surprise learners: 'll' (elle) and 'rr' (erre).",
+      "examples": [
+        { "target": "a", "source": "ah" },
+        { "target": "b", "source": "beh" },
+        { "target": "c", "source": "ceh" },
+        { "target": "d", "source": "deh" },
+        { "target": "e", "source": "eh" },
+        { "target": "f", "source": "efe" },
+        { "target": "g", "source": "jeh" },
+        { "target": "h", "source": "hache (silent in Spanish words)" },
+        { "target": "i", "source": "ee" },
+        { "target": "j", "source": "jeh" },
+        { "target": "k", "source": "ca (rare, used in loanwords)" },
+        { "target": "l", "source": "ele" },
+        { "target": "ll", "source": "ey-ey or ye" },
+        { "target": "m", "source": "eme" },
+        { "target": "n", "source": "ene" },
+        { "target": "ñ", "source": "eñe (ny sound, like in canyon)" },
+        { "target": "o", "source": "oh" },
+        { "target": "p", "source": "peh" },
+        { "target": "q", "source": "cu" },
+        { "target": "r", "source": "ere" },
+        { "target": "rr", "source": "erre doble (rolled R)" },
+        { "target": "s", "source": "ese" },
+        { "target": "t", "source": "teh" },
+        { "target": "u", "source": "uu" },
+        { "target": "v", "source": "uve" },
+        { "target": "w", "source": "doble ve (double V)" },
+        { "target": "x", "source": "equis" },
+        { "target": "y", "source": "i griega (Greek I)" },
+        { "target": "z", "source": "zeta" }
+      ],
+      "aid_note": "Remember: 'h' is always silent in Spanish. Hola sounds like 'ola'."
+    },
+    {
       "title": "The Five Vowels",
       "content": "Spanish vowels are always pronounced the same way, unlike English where 'a' can sound like many different things. Master these five sounds and you'll be ahead of most beginners.",
       "examples": [
-        { "target": "a", "source": "like 'a' in 'father'" },
-        { "target": "e", "source": "like 'e' in 'bet'" },
-        { "target": "i", "source": "like 'ee' in 'see'" },
-        { "target": "o", "source": "like 'o' in 'more'" },
-        { "target": "u", "source": "like 'oo' in 'boot'" }
+        { "target": "a", "source": "like 'a' in father" },
+        { "target": "e", "source": "like 'e' in bet" },
+        { "target": "i", "source": "like 'ee' in see" },
+        { "target": "o", "source": "like 'o' in more" },
+        { "target": "u", "source": "like 'oo' in boot" }
       ]
     },
     {
+      "title": "Stress and Accent Marks",
+      "content": "Spanish words have one stressed syllable. By default:\n- Words ending in a vowel, -n, or -s: stress falls on the SECOND-TO-LAST syllable\n- Words ending in a consonant (not -n or -s): stress falls on the LAST syllable\nAn accent mark overrides these rules - it shows which syllable to stress.\n\nExamples:\n- 'casa' -> ca-SA (ends in vowel, stress on 2nd-to-last)\n- 'cantar' -> CAN-tar (ends in consonant, stress on last)\n- 'telefono' -> te-LE-fo-no (accent mark overrides - stress on E)\n- 'difícil' -> di-FI-cil (ends in consonant but accent overrides)",
+      "examples": [
+        { "target": "mamá", "source": "ma-MA (accent on last, overrides rule)" },
+        { "target": "fácil", "source": "FA-cil (accent overrides)" },
+        { "target": "joven", "source": "JO-ven (ends in -n, stress on 2nd-to-last)" },
+        { "target": "reloj", "source": "re-LOJ (ends in -j, stress on last)" }
+      ],
+      "aid_note": "Accent marks aren't just decoration - they change pronunciation AND sometimes meaning! 'si' (if) vs 'sí' (yes)."
+    },
+    {
       "title": "Special Sounds",
-      "content": "Spanish has a few sounds that don't exist in English. The most important ones for beginners are the rolled 'r' and the 'ñ'.",
+      "content": "Spanish has a few sounds that don't exist in English. The most important ones for beginners are the rolled 'r', the 'n', and the soft 'j/g'.",
       "examples": [
         { "target": "rr", "source": "rolled R: perro (dog)" },
-        { "target": "ñ", "source": "ny sound: niño (boy)" },
+        { "target": "n", "source": "ny sound: niño (boy)" },
         { "target": "ll", "source": "y/j sound: llamo (I call)" },
         { "target": "j", "source": "hard H: hombre (man)" },
         { "target": "g (before e/i)", "source": "hard H: gente (people)" }
@@ -118,92 +298,50 @@
     }
   ],
   "exercises": [
-    {
-      "type": "exercise",
-      "question": "What is the masculine singular definite article in Spanish?",
-      "options": ["la", "el", "los", "las"],
-      "correct": 1,
-      "explanation": "'El' is the masculine singular definite article (like 'the' for masculine nouns)."
-    },
-    {
-      "type": "exercise",
-      "question": "Which verb form of SER means 'I am'?",
-      "options": ["eres", "es", "soy", "somos"],
-      "correct": 2,
-      "explanation": "'Soy' is the first-person singular (yo) form of SER."
-    },
-    {
-      "type": "exercise",
-      "question": "Translate: 'good morning' → Spanish",
-      "options": ["buenas noches", "buenas tardes", "buenos días", "hola"],
-      "correct": 2,
-      "explanation": "'Buenos días' means good morning."
-    },
-    {
-      "type": "exercise",
-      "question": "What gender is the noun 'la casa'?",
-      "options": ["Masculine", "Feminine", "Neuter", "Both"],
-      "correct": 1,
-      "explanation": "'La' is the feminine definite article, so 'casa' is feminine."
-    },
-    {
-      "type": "exercise",
-      "question": "Complete: 'Yo ___ de España.' (I am from Spain.)",
-      "options": ["eres", "es", "soy", "son"],
-      "correct": 2,
-      "explanation": "'Soy' is the correct form for 'yo' with SER."
-    },
-    {
-      "type": "exercise",
-      "question": "How do you say 'thank you' in Spanish?",
-      "options": ["por favor", "adiós", "gracias", "de nada"],
-      "correct": 2,
-      "explanation": "'Gracias' means thank you."
-    },
-    {
-      "type": "fill-in-blank",
-      "question": "Write the plural of 'el libro': el ____",
-      "correct": "libros",
-      "explanation": "Masculine singular nouns ending in a consonant add '-s' to make the plural: el libro → los libros."
-    },
-    {
-      "type": "exercise",
-      "question": "The Spanish vowel 'e' is pronounced like:",
-      "options": ["the 'a' in 'cat'", "the 'e' in 'bet'", "the 'i' in 'see'", "the 'o' in 'go'"],
-      "correct": 1,
-      "explanation": "Spanish 'e' is always pronounced like the 'e' in 'bet' — short and crisp."
-    },
-    {
-      "type": "fill-in-blank",
-      "question": "Complete: 'Me ____ Pablo.' (My name is Pablo.)",
-      "correct": "llamo",
-      "explanation": "'Me llamo' is the standard way to say 'my name is' in Spanish."
-    },
-    {
-      "type": "exercise",
-      "question": "What does '¿Cómo estás?' mean?",
-      "options": ["What is your name?", "Where are you from?", "How are you?", "How old are you?"],
-      "correct": 2,
-      "explanation": "'¿Cómo estás?' literally means 'How are you?' — it's informal. For formal, use '¿Cómo está?'"
-    },
-    {
-      "type": "matching",
-      "question": "Match each Spanish greeting with its English meaning:",
-      "pairs": [
+    { "type": "exercise", "question": "What is the masculine singular definite article in Spanish?", "options": ["la", "el", "los", "las"], "correct": 1, "explanation": "'El' is the masculine singular definite article (like 'the' for masculine nouns)." },
+    { "type": "exercise", "question": "Which verb form of SER means 'I am'?", "options": ["eres", "es", "soy", "somos"], "correct": 2, "explanation": "'Soy' is the first-person singular (yo) form of SER." },
+    { "type": "exercise", "question": "Translate: 'good morning' to Spanish", "options": ["buenas noches", "buenas tardes", "buenos días", "hola"], "correct": 2, "explanation": "'Buenos días' means good morning." },
+    { "type": "exercise", "question": "What gender is the noun 'la casa'?", "options": ["Masculine", "Feminine", "Neuter", "Both"], "correct": 1, "explanation": "'La' is the feminine definite article, so 'casa' is feminine." },
+    { "type": "exercise", "question": "Complete: 'Yo ___ de Espana.' (I am from Spain.)", "options": ["eres", "es", "soy", "son"], "correct": 2, "explanation": "'Soy' is the correct form for 'yo' with SER." },
+    { "type": "exercise", "question": "How do you say 'thank you' in Spanish?", "options": ["por favor", "adios", "gracias", "de nada"], "correct": 2, "explanation": "'Gracias' means thank you." },
+    { "type": "fill-in-blank", "question": "Write the plural of 'el libro': el ____", "correct": "libros", "explanation": "Masculine singular nouns ending in a vowel add -s: el libro -> los libros." },
+    { "type": "exercise", "question": "The Spanish vowel 'e' is pronounced like:", "options": ["the 'a' in 'cat'", "the 'e' in 'bet'", "the 'i' in 'see'", "the 'o' in 'go'"], "correct": 1, "explanation": "Spanish 'e' is always pronounced like the 'e' in 'bet' - short and crisp." },
+    { "type": "fill-in-blank", "question": "Complete: 'Me ____ Pablo.' (My name is Pablo.)", "correct": "llamo", "explanation": "'Me llamo' is the standard way to say 'my name is' in Spanish." },
+    { "type": "exercise", "question": "What does 'Como estas?' mean?", "options": ["What is your name?", "Where are you from?", "How are you?", "How old are you?"], "correct": 2, "explanation": "'Como estas?' literally means 'How are you?' - it's informal. For formal, use 'Como esta?'" },
+    { "type": "matching", "question": "Match each Spanish greeting with its English meaning:", "pairs": [
         { "target": "hola", "source": "hello" },
-        { "target": "buenos días", "source": "good morning" },
+        { "target": "buenos dias", "source": "good morning" },
         { "target": "buenas noches", "source": "good evening/night" },
-        { "target": "adiós", "source": "goodbye" },
+        { "target": "adios", "source": "goodbye" },
         { "target": "mucho gusto", "source": "nice to meet you" }
       ],
       "explanation": "These are essential greetings for introducing yourself in Spanish."
     },
-    {
-      "type": "conjugation-matrix",
-      "question": "Complete the full present tense conjugation table for SER:",
-      "verb": "SER",
-      "tenses": ["present"],
-      "explanation": "SER means 'to be' for permanent characteristics. Practice all six forms."
-    }
+    { "type": "conjugation-matrix", "question": "Complete the full present tense conjugation table for SER:", "verb": "SER", "tenses": ["present"], "explanation": "SER means 'to be' for permanent characteristics. Practice all six forms." },
+    { "type": "exercise", "question": "What is the feminine plural definite article?", "options": ["el", "los", "la", "las"], "correct": 3, "explanation": "'Las' is the feminine plural definite article, used before feminine plural nouns." },
+    { "type": "exercise", "question": "What does ESTAR express that SER does not?", "options": ["Identity", "Profession", "Location", "Nationality"], "correct": 2, "explanation": "ESTAR is used for temporary states and locations. SER is for permanent identity." },
+    { "type": "exercise", "question": "What is the English meaning of 'madre'?", "options": ["Sister", "Mother", "Daughter", "Wife"], "correct": 1, "explanation": "'Madre' means mother. It's a feminine noun." },
+    { "type": "exercise", "question": "How do you say 'blue' in Spanish?", "options": ["verde", "rojo", "azul", "negro"], "correct": 2, "explanation": "'Azul' means blue. It's one of the few color words that doesn't change for gender." },
+    { "type": "fill-in-blank", "question": "Write the plural of 'la ciudad': las ____", "correct": "ciudades", "explanation": "Nouns ending in a consonant add -es to make the plural: la ciudad -> las ciudades." },
+    { "type": "fill-in-blank", "question": "Complete: 'Yo ____ (estar) en casa.' (I am at home.)", "correct": "estoy", "explanation": "'Estoy' is the yo form of ESTAR. Location uses ESTAR, not SER." },
+    { "type": "exercise", "question": "What number is 'siete' in English?", "options": ["Four", "Six", "Seven", "Eight"], "correct": 2, "explanation": "'Siete' means seven." },
+    { "type": "exercise", "question": "Which word means 'green' in Spanish?", "options": ["rojo", "azul", "verde", "amarillo"], "correct": 2, "explanation": "'Verde' means green." },
+    { "type": "fill-in-blank", "question": "Complete: 'Tu ____ (hablar) español.' (You speak Spanish.)", "correct": "hablas", "explanation": "'Hablas' is the tu form of HABLAR." },
+    { "type": "exercise", "question": "In the word 'telefono', which syllable is stressed?", "options": ["te", "le", "fo", "no"], "correct": 1, "explanation": "The accent mark shows 'le' is stressed. Without it, the default would be 'TE-le-fo-no'." },
+    { "type": "matching", "question": "Match the family members:", "pairs": [
+        { "target": "padre", "source": "father" },
+        { "target": "madre", "source": "mother" },
+        { "target": "hermano", "source": "brother" },
+        { "target": "hermana", "source": "sister" },
+        { "target": "abuelo", "source": "grandfather" }
+      ],
+      "explanation": "These are essential family vocabulary words for introducing yourself and your loved ones."
+    },
+    { "type": "conjugation-matrix", "question": "Complete the full present tense conjugation table for ESTAR:", "verb": "ESTAR", "tenses": ["present"], "explanation": "ESTAR means 'to be' for temporary states and locations. Practice all six forms." },
+    { "type": "fill-in-blank", "question": "What is the plural of 'el lapiz'? Write it: ____ lapices", "correct": "los", "explanation": "Nouns ending in -z change to -ces in plural. Article must also match: el lapiz -> los lapices." },
+    { "type": "exercise", "question": "What does 'no' mean in Spanish?", "options": ["Yes", "No", "Maybe", "Please"], "correct": 1, "explanation": "'No' means no. Simple but essential!" },
+    { "type": "exercise", "question": "Which of these is a correct Spanish vowel sound?", "options": ["The 'a' in 'cat'", "The 'e' in 'bet'", "The 'o' in 'bone'", "The 'u' in 'blue'"], "correct": 1, "explanation": "Spanish 'e' is always a clean short vowel, like the 'e' in 'bet'. English vowels vary - Spanish vowels don't." },
+    { "type": "fill-in-blank", "question": "Complete: 'Nosotros ____ (comer) pan.' (We eat bread.)", "correct": "comemos", "explanation": "'Comemos' is the nosotros form of COMER." },
+    { "type": "exercise", "question": "What color is 'rojo'?", "options": ["Blue", "Green", "Red", "Black"], "correct": 2, "explanation": "'Rojo' means red. It changes to 'roja' for feminine nouns: 'la manzana roja' (the red apple)." }
   ]
 }

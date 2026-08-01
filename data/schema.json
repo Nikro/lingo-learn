@@ -62,7 +62,7 @@
           },
           "type": {
             "type": "string",
-            "enum": ["greeting", "polite", "intro", "feeling", "noun", "adjective", "verb", "adverb", "preposition", "other"],
+            "enum": ["greeting", "polite", "intro", "feeling", "noun", "adjective", "verb", "adverb", "preposition", "number", "family", "color", "other"],
             "description": "Semantic category of the word"
           }
         }
@@ -123,11 +123,11 @@
       "description": "Interactive exercises",
       "items": {
         "type": "object",
-        "required": ["type", "question", "correct", "explanation"],
+        "required": ["type", "question", "explanation"],
         "properties": {
           "type": {
             "type": "string",
-            "enum": ["exercise", "fill-in-blank", "conjugation", "drag-drop", "matching"],
+            "enum": ["exercise", "fill-in-blank", "conjugation", "conjugation-matrix", "drag-drop", "matching"],
             "description": "Exercise type: 'exercise' for multiple-choice, others for specific types"
           },
           "question": { "type": "string", "description": "The question or prompt" },
