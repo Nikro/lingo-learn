@@ -1,5 +1,5 @@
 // LingoLearn Service Worker
-const CACHE_NAME = 'lingolearn-v4';
+const CACHE_NAME = 'lingolearn-v5';
 const STATIC_ASSETS = [
   '/',
   '/index.html',
@@ -41,8 +41,8 @@ self.addEventListener('fetch', (event) => {
   const isJS = event.request.url.endsWith('.js');
   const isHTML = event.request.headers.get('accept').includes('text/html');
 
-  if (isJS) {
-    // Network-first for JS files to get updates immediately
+  if (isJS || isHTML) {
+    // Network-first for JS and HTML to get updates immediately
     event.respondWith(
       fetch(event.request).then((response) => {
         if (!response || response.status !== 200) return response;
