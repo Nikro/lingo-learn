@@ -766,16 +766,17 @@
   <!-- Hidden file input for import -->
   <input type="file" id="importFile" accept=".json" class="hidden" @change="handleImport($event)">
 
-  <script src="js/storage.js?v=9"></script>
-  <script src="js/app.js?v=12"></script>
+  <script src="js/storage.js?v=11"></script>
+  <script src="js/app.js?v=14"></script>
   <script>
-    if ('serviceWorker' in navigator) {
-      window.addEventListener('load', () => {
-        navigator.serviceWorker.register('/sw.js')
-          .then(reg => console.log('SW registered:', reg.scope))
-          .catch(err => console.error('SW registration failed:', err));
-      });
-    }
+    // Service Worker disabled for dev to prevent stale caching issues
+    // if ('serviceWorker' in navigator) {
+    //   window.addEventListener('load', () => {
+    //     navigator.serviceWorker.register('/sw.js')
+    //       .then(reg => console.log('SW registered:', reg.scope))
+    //       .catch(err => console.error('SW registration failed:', err));
+    //   });
+    // }
   </script>
 </body>
 </html>
