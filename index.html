@@ -113,7 +113,7 @@
             </button>
             
             <div x-show="level.id === expandedLevel" class="ml-4 mt-1 overflow-hidden transition-[max-height] duration-300 ease-in-out"
-                 :style="level.id === expandedLevel ? 'max-height: 500px;' : 'max-height: 0;'">
+                 :style="level.id === expandedLevel ? 'max-height: 1000px;' : 'max-height: 0;'">
               <template x-for="stage in level.stages" :key="stage.id">
                 <div>
                   <button @click="navigateTo(level.id, stage.id, 'grammar')"
@@ -123,6 +123,12 @@
                     <span class="text-xs opacity-60 ml-auto" x-show="isStageActive(level.id, stage.id) && getStageProgress(level.id, stage.id) > 0"
                           x-text="getStageProgress(level.id, stage.id) + '%'"></span>
                   </button>
+                  <!-- Sections under stage -->
+                  <div x-show="stage.sections && stage.sections.length > 0" class="ml-4 mt-1 space-y-1">
+                    <template x-for="(section, sIdx) in stage.sections" :key="section">
+                      <div class="text-xs opacity-60 pl-2 border-l-2 border-base-300 py-0.5" x-text="section"></div>
+                    </template>
+                  </div>
                   <!-- Pillar-level progress breakdown for active stage -->
                   <div x-show="isStageActive(level.id, stage.id) && stageData" class="ml-4 mt-1 space-y-1 text-xs opacity-70">
                     <template x-for="pillar in ['grammar', 'vocabulary', 'verbs', 'pronunciation']" :key="pillar">
@@ -379,12 +385,12 @@
                   <!-- Left column (targets) -->
                   <div class="space-y-2">
                     <h4 class="font-semibold text-sm opacity-60 uppercase tracking-wide mb-2">Match the pairs</h4>
-                    <template x-for="(pair, index) in matchPairs" :key="'left-' + index">
+                    <template x-for="(pair, index) in (matchPairs || [])" :key="'left-' + index">
                       <button class="btn btn-outline w-full justify-start text-left"
                               :class="selectedLeft === index ? 'btn-primary' : ''"
                               :disabled="quizAnswered"
                               @click="selectMatchLeft(index)">
-                        <span class="font-bold" x-text="pair.target"></span>
+                        <span class="font-bold" x-text="pair?.target"></span>
                         <span x-show="matchSelections[index] !== undefined" class="ml-2">
                           <svg v-if="matchSelections[index]" xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-success" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" /></svg>
                           <svg v-else xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-error" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" /></svg>
@@ -395,7 +401,7 @@
                   <!-- Right column (shuffled sources) -->
                   <div class="space-y-2">
                     <h4 class="font-semibold text-sm opacity-60 uppercase tracking-wide mb-2">Options</h4>
-                    <template x-for="(item, index) in matchRightItems" :key="'right-' + index">
+                    <template x-for="(item, index) in (matchRightItems || [])" :key="'right-' + index">
                       <button class="btn btn-outline w-full justify-start text-left"
                               :class="selectedRight === index ? 'btn-secondary' : ''"
                               :disabled="quizAnswered"
@@ -411,14 +417,14 @@
                 </div>
                 <!-- Match results summary -->
                 <div x-show="quizAnswered && matchResults" class="mt-4 p-4 bg-base-200 rounded-lg">
-                  <template x-for="(result, i) in matchResults" :key="'result-' + i">
+                  <template x-for="(result, i) in (matchResults || [])" :key="'result-' + i">
                     <div class="flex items-center gap-2 mb-1">
                       <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" :class="result ? 'text-success' : 'text-error'" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                         <path x-show="result" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
                         <path x-show="!result" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 14l2-2m0 0l2-2m-2 2l-2-2m2 2l2 2m7-2a9 9 0 11-18 0 9 9 0 0118 0z" />
                       </svg>
-                      <span x-show="result"><strong x-text="matchPairs[i].target"></strong> ↔ <strong x-text="matchPairs[i].source"></strong></span>
-                      <span x-show="!result" class="text-error"><strong x-text="matchPairs[i].target"></strong> ↔ <span x-text="userMatchAnswers[i] ?? '—'"></span> <span class="opacity-60">(should be <span x-text="matchPairs[i].source"></span>)</span></span>
+                      <span x-show="result"><strong x-text="matchPairs?.[i]?.target"></strong> ↔ <strong x-text="matchPairs?.[i]?.source"></strong></span>
+                      <span x-show="!result" class="text-error"><strong x-text="matchPairs?.[i]?.target"></strong> ↔ <span x-text="userMatchAnswers?.[i] ?? '—'"></span> <span class="opacity-60">(should be <span x-text="matchPairs?.[i]?.source"></span>)</span></span>
                     </div>
                   </template>
                 </div>
@@ -468,7 +474,7 @@
                         <path x-show="correct" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
                         <path x-show="!correct" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 14l2-2m0 0l2-2m-2 2l-2-2m2 2l2 2m7-2a9 9 0 11-18 0 9 9 0 0118 0z" />
                       </svg>
-                      <span x-text="matrixPronouns[String(key).split('-')[0]] + ' ' + quizQuestions[quizIndex].tenses[String(key).split('-')[1]]"></span>
+                      <span x-text="matrixPronouns[String(key).split('-')[0]] + ' ' + (quizQuestions[quizIndex]?.tenses || [])[String(key).split('-')[1]]"></span>
                       <span :class="correct ? 'text-success' : 'text-error'">
                         <span x-show="correct" x-text="matrixAnswers[key]"></span>
                         <span x-show="!correct">your: <span x-text="matrixAnswers[key] || '—'"></span> → correct: <span x-text="matrixCorrectAnswers ? matrixCorrectAnswers[key] : '—'"></span></span>
@@ -481,14 +487,14 @@
               <!-- Feedback (general, for single-answer types) -->
               <div x-show="!quizSubmitted && quizFeedback" 
                    class="alert" 
-                   :class="quizFeedback.correct ? 'alert-success' : 'alert-error'">
+                   :class="quizFeedback?.correct ? 'alert-success' : 'alert-error'">
                 <svg xmlns="http://www.w3.org/2000/svg" class="stroke-current shrink-0 h-6 w-6" fill="none" viewBox="0 0 24 24">
-                  <path x-show="quizFeedback.correct" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
-                  <path x-show="!quizFeedback.correct" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 14l2-2m0 0l2-2m-2 2l-2-2m2 2l2 2m7-2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                  <path x-show="quizFeedback?.correct" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                  <path x-show="!quizFeedback?.correct" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 14l2-2m0 0l2-2m-2 2l-2-2m2 2l2 2m7-2a9 9 0 11-18 0 9 9 0 0118 0z" />
                 </svg>
                 <div>
-                  <p class="font-bold"><span x-text="quizFeedback.correct ? 'Correct!' : 'Not quite...'"></span></p>
-                  <p class="text-sm" x-text="quizFeedback.explanation"></p>
+                  <p class="font-bold"><span x-text="quizFeedback?.correct ? 'Correct!' : 'Not quite...'"></span></p>
+                  <p class="text-sm" x-text="quizFeedback?.explanation"></p>
                 </div>
               </div>
 
@@ -592,22 +598,22 @@
               </div>
               
               <!-- Previous Score Comparison -->
-              <div x-show="lastQuizResult && lastQuizResult.length > 0" class="bg-base-200 rounded-lg p-4 max-w-md mx-auto text-left space-y-2">
+              <div x-show="lastQuizResult?.length > 0" class="bg-base-200 rounded-lg p-4 max-w-md mx-auto text-left space-y-2">
                 <h4 class="font-bold text-sm uppercase tracking-wide opacity-60">Previous Attempts</h4>
                 <template x-for="(attempt, i) in lastQuizResult" :key="'attempt-' + i">
                   <div class="flex items-center justify-between text-sm">
                     <span class="opacity-70">Attempt <span x-text="i + 1"></span> — <span x-text="attempt.score"></span>/<span x-text="attempt.total"></span> (<span x-text="attempt.date"></span>)</span>
-                    <span :class="attempt.score === quizScore && i === (lastQuizResult.length - 1) ? 'text-success font-bold' : 'font-bold'" x-text="attempt.score + '/' + attempt.total"></span>
+                    <span :class="attempt.score === quizScore && i === (lastQuizResult?.length - 1) ? 'text-success font-bold' : 'font-bold'" x-text="attempt.score + '/' + attempt.total"></span>
                   </div>
                 </template>
-                <p x-show="lastQuizResult.length > 0" class="text-xs opacity-60 mt-2">
-                  <template x-if="lastQuizResult.length > 0 && lastQuizResult[lastQuizResult.length - 1].score === quizScore">
+                <p class="text-xs opacity-60 mt-2">
+                  <template x-if="lastQuizResult?.length > 0 && lastQuizResult[lastQuizResult.length - 1].score === quizScore">
                     <span>Same score as last time! 🤝</span>
                   </template>
-                  <template x-if="lastQuizResult.length > 0 && lastQuizResult[lastQuizResult.length - 1].score < quizScore">
+                  <template x-if="lastQuizResult?.length > 0 && lastQuizResult[lastQuizResult.length - 1].score < quizScore">
                     <span>Improved by <span x-text="quizScore - lastQuizResult[lastQuizResult.length - 1].score"></span>! 📈</span>
                   </template>
-                  <template x-if="lastQuizResult.length > 0 && lastQuizResult[lastQuizResult.length - 1].score > quizScore">
+                  <template x-if="lastQuizResult?.length > 0 && lastQuizResult[lastQuizResult.length - 1].score > quizScore">
                     <span>Last time was better. Try again! 💪</span>
                   </template>
                 </p>
