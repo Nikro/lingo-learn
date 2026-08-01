@@ -88,6 +88,28 @@ const Storage = {
     return this.load('xp', 0);
   },
   
+  // Get streak multiplier: 1x for 0-2, 1.5x for 3-6, 2x for 7+
+  getStreakMultiplier() {
+    const streak = this.getStreak();
+    if (streak >= 7) return 2;
+    if (streak >= 3) return 1.5;
+    return 1;
+  },
+  
+  // Calculate XP for a number of correct answers, accounting for streak
+  calculateXP(correctCount) {
+    const base = correctCount * 10; // 10 XP per correct answer
+    const multiplier = this.getStreakMultiplier();
+    return Math.round(base * multiplier);
+  },
+
+  // Get streak bonus amount (just the bonus portion)
+  getStreakBonus(correctCount) {
+    const base = correctCount * 10;
+    const total = this.calculateXP(correctCount);
+    return total - base;
+  },
+  
   // ─── Streak ───
   
   recordActivity() {

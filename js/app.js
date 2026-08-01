@@ -55,6 +55,10 @@ function app() {
     dragItem: null,
     dropTarget: null,
 
+    // ─── Install Prompt ───
+    deferredPrompt: null,
+    isInstalled: false,
+
     // Conjugation state
     conjugationVerb: null,
     conjugationCells: {},
@@ -150,6 +154,29 @@ function app() {
       // Record daily activity
       Storage.recordActivity();
 
+      // ─── Install Prompt ───
+      // Check if previously installed
+      this.isInstalled = Storage.getSettings().pwaInstalled || false;
+
+      // Listen for beforeinstallprompt
+      window.addEventListener('beforeinstallprompt', (e) => {
+        // Prevent the mini-infobar from appearing on mobile
+        e.preventDefault();
+        // Store the event so we can trigger the install prompt later
+        this.deferredPrompt = e;
+        console.log('beforeinstallprompt event fired');
+      });
+
+      // Listen for app installed event
+      window.addEventListener('appinstalled', () => {
+        this.isInstalled = true;
+        this.deferredPrompt = null;
+        var s = Storage.getSettings();
+        s.pwaInstalled = true;
+        Storage.saveSettings(s);
+        console.log('LingoLearn PWA installed');
+      });
+
       this.loading = false;
     },
 
@@ -159,6 +186,32 @@ function app() {
       var s = Storage.getSettings();
       s.theme = theme;
       Storage.saveSettings(s);
+    },
+
+    // ─── Install Prompt Handler ───
+    async handleInstall() {
+      if (!this.deferredPrompt) return;
+
+      // Show the native install prompt
+      this.deferredPrompt.prompt();
+
+      // Wait for the user to respond to the prompt
+      try {
+        var choiceResult = await this.deferredPrompt.userChoice;
+        if (choiceResult.outcome === 'accepted') {
+          console.log('User accepted the install prompt');
+        } else {
+          console.log('User dismissed the install prompt');
+        }
+        // Clear the deferred prompt
+        this.deferredPrompt = null;
+      } catch (err) {
+        console.error('Install prompt error:', err);
+      }
+    },
+
+    get canInstallApp() {
+      return !this.isInstalled && this.deferredPrompt !== null;
     },
 
     // ─── Data Loading ───
