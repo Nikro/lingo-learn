@@ -1,86 +1,69 @@
-# Spanish Learning App
+# LingoLearn — Spanish Learning App
 
-A single-page, offline-first web application for learning Spanish — structured around the CEFR levels (A1, A2, B1, B2) and organized into stages with grammar, vocabulary, verb conjugation, and pronunciation exercises.
+A gamified Spanish learning app built with **Alpine.js**, **Tailwind CSS**, and **DaisyUI**. Fully client-side, PWA-ready, and works offline.
 
 ## Features
 
-- **Progressive curriculum**: A1 → A2 → B1 → B2, each level with expandable stages
-- **Multiple exercise types**: multiple choice, fill-in-the-blank, conjugation drills
-- **Progress tracking**: XP, streaks, and stage completion saved to localStorage
-- **Offline-first**: Works without a network connection (PWA with service worker)
-- **Responsive**: Adapts to mobile, tablet, and desktop screens
-- **Settings**: Theme toggle, locale selection, import/export progress data
+- **Multi-level curriculum**: A1 → A2 → B1 → B2
+- **5 exercise types**: Multiple choice, fill-in-blank, conjugation, matching, translation
+- **Progress tracking**: XP, streaks, completion percentages
+- **PWA**: Installable on mobile/desktop with offline support
+- **Responsive**: Works on phones, tablets, and desktops
+- **Multi-language**: Data-driven locale system (en-es ready, extensible)
 
-## Tech Stack
+## Quick Start
 
-- **Frontend**: Vanilla HTML5 + CSS3 + JavaScript (ES6+)
-- **Styling**: DaisyUI + Tailwind CSS (via CDN)
-- **Reactivity**: Alpine.js (via CDN)
-- **PWA**: Service Worker + manifest.json for installability
-- **Storage**: localStorage for progress and settings persistence
-- **Routing**: Hash-based client-side routing
+### Local Development
+```bash
+# Serve locally (no build step needed)
+python3 -m http.server 8765
+# Open http://localhost:8765
+```
+
+### GitHub Pages Deployment
+1. Create a new GitHub repo: `Nikro/spanish-learning-app`
+2. Add a GitHub PAT: `export GH_TOKEN=ghp_...`
+3. Clone and push:
+   ```bash
+   git clone git@github-bippy-brains:Nikro/spanish-learning-app.git
+   cd spanish-learning-app
+   # Copy all files from this repo
+   git add -A && git commit -m "Initial commit" && git push origin main
+   ```
+4. Go to **Settings → Pages → Source: main branch, / (root)**
+5. Your app will be live at: `https://nikro.github.io/spanish-learning-app/`
 
 ## Project Structure
 
 ```
 spanish-app/
-├── index.html          # Main application shell
+├── index.html          # Main app shell (Alpine.js + DaisyUI)
 ├── manifest.json       # PWA manifest
-├── sw.js               # Service worker
+├── sw.js              # Service worker (offline support)
 ├── css/
-│   └── custom.css      # Custom styles on top of Tailwind/DaisyUI
 ├── js/
-│   ├── app.js          # Main application logic, router, exercise engine
-│   └── storage.js      # localStorage persistence layer
+│   ├── app.js         # Main application logic
+│   └── storage.js     # localStorage persistence
 ├── data/
-│   ├── registry.json   # Stage/level registry
-│   └── en-es/          # Content organized by locale & level
-│       └── a1-1.json   # A1.1: Greetings & Introductions
-├── PLAN.md             # Development plan
-├── SOURCES.md          # References and source materials
-├── TASKS.md            # Task tracking
-└── .gitignore
+│   ├── registry.json  # Locale/language registry
+│   ├── schema.json    # Data schema definition
+│   └── en-es/
+│       └── a1-1.json  # A1.1: Greetings & Introductions
+└── README.md
 ```
 
-## Usage
+## Tech Stack
 
-Open `index.html` in any modern browser. No build step or server required — this is a fully static app.
+- **Frontend**: Vanilla HTML/CSS/JS + Alpine.js (no build step)
+- **Styling**: Tailwind CSS + DaisyUI (via CDN)
+- **PWA**: Service Worker + manifest.json
+- **Routing**: Hash-based (`#grammar`, `#vocabulary`, etc.)
+- **Storage**: localStorage (progress, settings, XP)
 
-For best experience on mobile, use the "Add to Home Screen" prompt to install as a PWA.
+## Adding New Content
 
-## Development
-
-1. Clone this repository
-2. Open `index.html` in your browser (or serve with any static file server)
-3. Edit content in `data/` to add new lessons or stages
-4. Modify `css/custom.css` for styling changes
-5. Add new exercise types in `js/app.js`
-
-## Deployment
-
-The app is designed to be deployed as static files on any hosting service:
-- GitHub Pages (recommended for development)
-- Netlify / Vercel
-- Any web server (Apache, Nginx, etc.)
-
-## Data Format
-
-Lesson content is stored as JSON files in `data/<locale>/`. Each file follows the schema defined in the project:
-
-```json
-{
-  "level": "A1",
-  "stage": "1",
-  "title": "Greetings & Introductions",
-  "grammar": [...],
-  "vocabulary": [...],
-  "verbs": [...],
-  "exercises": [...]
-}
-```
-
-See `PLAN.md` for the full data schema specification.
+Add content by creating JSON files in `data/<locale>/` following the schema in `data/schema.json`. The app auto-registers new stages via `data/registry.json`.
 
 ## License
 
-Private project — all rights reserved.
+MIT
