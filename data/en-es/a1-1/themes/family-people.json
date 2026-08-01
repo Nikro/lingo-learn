@@ -1,0 +1,108 @@
+{
+  "id": "family-people",
+  "title": "Family & People",
+  "description": "Talk about your family members, describe people, and use possessive adjectives.",
+  "vocabulary": [
+    {
+      "id": 1,
+      "target": "madre",
+      "source": "mother",
+      "gender": "f",
+      "type": "family"
+    },
+    {
+      "id": 2,
+      "target": "padre",
+      "source": "father",
+      "gender": "m",
+      "type": "family"
+    },
+    {
+      "id": 3,
+      "target": "hermano",
+      "source": "brother",
+      "gender": "m",
+      "type": "family"
+    },
+    {
+      "id": 4,
+      "target": "hermana",
+      "source": "sister",
+      "gender": "f",
+      "type": "family"
+    },
+    {
+      "id": 5,
+      "target": "esposo",
+      "source": "husband",
+      "gender": "m",
+      "type": "family"
+    },
+    {
+      "id": 6,
+      "target": "esposa",
+      "source": "wife",
+      "gender": "f",
+      "type": "family"
+    },
+    {
+      "id": 7,
+      "target": "amigo",
+      "source": "friend (m)",
+      "gender": "m",
+      "type": "family"
+    },
+    {
+      "id": 8,
+      "target": "amiga",
+      "source": "friend (f)",
+      "gender": "f",
+      "type": "family"
+    },
+    {
+      "id": 9,
+      "target": "hijo",
+      "source": "son",
+      "gender": "m",
+      "type": "family"
+    },
+    {
+      "id": 10,
+      "target": "hija",
+      "source": "daughter",
+      "gender": "f",
+      "type": "family"
+    }
+  ],
+  "grammar": [
+    {
+      "title": "Possessive Adjectives (my, your, his/her)",
+      "content": "Possessive adjectives agree with the noun they modify, not the owner.\n\nmi/mis = my\ntu/tus = your (informal)\nsu/sus = his/her/your (formal)/their",
+      "examples": [
+        "Mi madre es alta. (My mother is tall.)",
+        "Tu hermano es joven. (Your brother is young.)",
+        "Su amigo es inteligente. (His friend is intelligent.)"
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "multiple-choice",
+      "question": "What does 'madre' mean?",
+      "options": [
+        "Father",
+        "Mother",
+        "Sister",
+        "Brother"
+      ],
+      "correct": 1,
+      "explanation": "'Madre' means mother."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: '___ hermano es joven.' (Your brother is young.)",
+      "correct": "Tu",
+      "explanation": "'Tu' means your (informal)."
+    }
+  ]
+}

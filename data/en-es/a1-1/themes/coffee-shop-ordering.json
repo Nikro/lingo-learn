@@ -1,0 +1,108 @@
+{
+  "id": "coffee-shop-ordering",
+  "title": "Coffee Shop & Ordering",
+  "description": "Order food and drinks, ask for the bill, and learn numbers in context.",
+  "vocabulary": [
+    {
+      "id": 1,
+      "target": "una taza de caf\u00e9",
+      "source": "a cup of coffee",
+      "gender": "f",
+      "type": "food"
+    },
+    {
+      "id": 2,
+      "target": "un zumo de naranja",
+      "source": "orange juice",
+      "gender": "m",
+      "type": "food"
+    },
+    {
+      "id": 3,
+      "target": "una tostada",
+      "source": "toast",
+      "gender": "f",
+      "type": "food"
+    },
+    {
+      "id": 4,
+      "target": "la cuenta, por favor",
+      "source": "the bill, please",
+      "gender": "f",
+      "type": "phrase"
+    },
+    {
+      "id": 5,
+      "target": "\u00bfCu\u00e1nto cuesta?",
+      "source": "How much does it cost?",
+      "gender": "\u2014",
+      "type": "question"
+    },
+    {
+      "id": 6,
+      "target": "dos caf\u00e9s",
+      "source": "two coffees",
+      "gender": "m",
+      "type": "food"
+    },
+    {
+      "id": 7,
+      "target": "agua",
+      "source": "water",
+      "gender": "f",
+      "type": "drink"
+    },
+    {
+      "id": 8,
+      "target": "pan",
+      "source": "bread",
+      "gender": "m",
+      "type": "food"
+    },
+    {
+      "id": 9,
+      "target": "huevos",
+      "source": "eggs",
+      "gender": "m",
+      "type": "food"
+    },
+    {
+      "id": 10,
+      "target": "manzana",
+      "source": "apple",
+      "gender": "f",
+      "type": "food"
+    }
+  ],
+  "grammar": [
+    {
+      "title": "Singular & Plural Nouns",
+      "content": "Most nouns form the plural by adding -s (if ending in a vowel) or -es (if ending in a consonant).\n\nSingular: el caf\u00e9 \u2192 Plural: los caf\u00e9s\nSingular: el pan \u2192 Plural: los panes\n\nArticles: el/la (the), un/una (a)",
+      "examples": [
+        "Un caf\u00e9, por favor. (A coffee, please.)",
+        "Dos caf\u00e9s, por favor. (Two coffees, please.)",
+        "La cuenta, por favor. (The bill, please.)"
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "multiple-choice",
+      "question": "What does 'la cuenta, por favor' mean?",
+      "options": [
+        "The menu, please",
+        "The bill, please",
+        "The coffee, please",
+        "The water, please"
+      ],
+      "correct": 1,
+      "explanation": "'La cuenta' means the bill."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: '___ caf\u00e9, por favor.' (A coffee, please.)",
+      "correct": "Un",
+      "explanation": "'Un' is the masculine singular article."
+    }
+  ]
+}

@@ -41,6 +41,10 @@ function app() {
     // ═══════════════════════════════════════════
     
     stageData: null,           // Full stage data object (grammar, vocabulary, verbs, pronunciation)
+
+    currentTheme: null,         // Active theme within the current stage
+    themeData: null,            // Full theme data object (vocab, grammar, exercises)
+    themeView: null,            // null | 'themes' | 'theme-detail' — controls theme navigation view
     levelData: [],             // Data for the current level (not currently used)
 
     expandedLevel: null,       // Currently expanded CEFR level in sidebar (null = all collapsed)
@@ -309,6 +313,26 @@ function app() {
           this.loading = false;
           return;
         }
+        // Check if this stage has a themes directory (granular theme-based curriculum)
+        var themesDir = 'data/' + this.currentLocale + '/' + stageId + '/themes';
+        try {
+          var manifestFile = stageId + '.json';
+          var themesResponse = await fetch(themesDir + '/' + manifestFile);
+          if (themesResponse.ok) {
+            var manifest = await themesResponse.json();
+            if (manifest && manifest.themes) {
+              // Stage has theme-based curriculum — show themes view
+              this.themeView = 'themes';
+              this.stageThemes = manifest.themes;
+              this.stageTitle = manifest.title || this.stageData.title;
+              this.stageDescription = manifest.description || this.stageData.description;
+              this.loading = false;
+              return;
+            }
+          }
+        } catch(e) {
+          // No themes found or manifest invalid — fall through to pillar view
+        }
         this.renderPillar();
       } catch (e) {
         console.error('Failed to load stage data:', e);
@@ -433,6 +457,141 @@ function app() {
         this.renderPillar();
       }
     },
+    // ═══════════════════════════════════════════
+    // ─── Theme Navigation ───
+    // ═══════════════════════════════════════════
+    
+    // Navigate into themes view for the current stage
+    enterThemes() {
+      this.themeView = 'themes';
+      this.currentTheme = null;
+      this.themeData = null;
+    },
+    
+    // Load a specific theme's data and show its content
+    async loadTheme(themeId) {
+      this.loading = true;
+      this.themeView = 'theme-detail';
+      this.currentTheme = themeId;
+      try {
+        var response = await fetch('data/' + this.currentLocale + '/' + this.currentStage + '/themes/' + themeId + '.json');
+        if (!response.ok) throw new Error('HTTP ' + response.status);
+        this.themeData = await response.json();
+        this.currentPillar = 'vocabulary'; // Default to vocabulary pillar for theme detail
+        this.renderThemePillar();
+      } catch (e) {
+        console.error('Failed to load theme data:', e);
+        this.dataError = true;
+        this.loading = false;
+        return;
+      }
+      this.loading = false;
+    },
+    
+    // Exit theme detail and return to themes view
+    exitTheme() {
+      this.themeView = 'themes';
+      this.currentTheme = null;
+      this.themeData = null;
+      this.currentPillar = 'grammar';
+    },
+    
+    // Exit theme navigation entirely and return to stage pillars
+    exitThemes() {
+      this.themeView = null;
+      this.currentTheme = null;
+      this.themeData = null;
+      this.renderPillar();
+    },
+    
+    // Render the themes grid view
+    renderThemes: function() {
+      if (!this.stageThemes || this.stageThemes.length === 0) {
+        return '<p class="opacity-70">No themes available for this stage.</p>';
+      }
+      
+      var html = '<div class="grid grid-cols-1 md:grid-cols-2 gap-4">';
+      this.stageThemes.forEach(function(theme) {
+        html += '<div class="card bg-base-200 shadow-sm hover:shadow-md transition-shadow cursor-pointer" ';
+        html += '@click="loadTheme(\'' + theme.id + '\')">';
+        html += '<div class="card-body p-4">';
+        html += '<h4 class="font-bold text-lg">' + theme.title + '</h4>';
+        if (theme.description) {
+          html += '<p class="text-sm opacity-70">' + theme.description + '</p>';
+        }
+        html += '<div class="flex items-center gap-2 mt-2 text-xs opacity-60">';
+        html += '<span>📖 ' + (theme.sections || []).length + ' sections</span>';
+        html += '<span>⏱ ' + (theme.estimatedHours || '?') + 'h</span>';
+        html += '</div>';
+        html += '</div></div>';
+      });
+      html += '</div>';
+      return html;
+    },
+    
+    // Render theme pillar content (vocabulary, grammar, exercises)
+    renderThemePillar: function() {
+      if (!this.themeData) return;
+      
+      switch (this.currentPillar) {
+        case 'vocabulary':
+          this.pillarContent.vocabulary = this.themeData.vocabulary || [];
+          break;
+        case 'grammar':
+          this.pillarContent.grammar = this.renderThemeGrammar();
+          break;
+        case 'verbs':
+          this.pillarContent.verbs = this.renderThemeExercises();
+          break;
+        case 'pronunciation':
+          this.pillarContent.pronunciation = this.renderThemeExercises();
+          break;
+      }
+    },
+    
+    // Render theme grammar content
+    renderThemeGrammar: function() {
+      if (!this.themeData.grammar || this.themeData.grammar.length === 0) {
+        return '<p class="opacity-70">Grammar content loading...</p>';
+      }
+      
+      var html = '<div class="space-y-4">';
+      this.themeData.grammar.forEach(function(item, i) {
+        html += '<div class="bg-base-200 rounded-lg p-4">';
+        html += '<h4 class="font-bold mb-2">' + (i + 1) + '. ' + item.title + '</h4>';
+        if (item.content) html += '<p class="mb-2 whitespace-pre-wrap">' + item.content + '</p>';
+        if (item.examples) {
+          html += '<div class="mt-2"><strong>Examples:</strong><ul class="list-disc ml-4">';
+          item.examples.forEach(function(e) { html += '<li>' + e + '</li>'; });
+          html += '</ul></div>';
+        }
+        html += '</div>';
+      });
+      html += '</div>';
+      return html;
+    },
+    
+    // Render theme exercises
+    renderThemeExercises: function() {
+      if (!this.themeData.exercises || this.themeData.exercises.length === 0) {
+        return '<p class="opacity-70">Exercises loading...</p>';
+      }
+      
+      var html = '<div class="space-y-4">';
+      this.themeData.exercises.forEach(function(exercise, i) {
+        html += '<div class="bg-base-200 rounded-lg p-4">';
+        html += '<h4 class="font-bold mb-2">Exercise ' + (i + 1) + ': ' + exercise.type + '</h4>';
+        html += '<p class="mb-2">' + exercise.question + '</p>';
+        if (exercise.explanation) {
+          html += '<p class="text-sm opacity-70">' + exercise.explanation + '</p>';
+        }
+        html += '</div>';
+      });
+      html += '</div>';
+      return html;
+    },
+    
+
 
     // ═══════════════════════════════════════════
     // ─── Rendering ───

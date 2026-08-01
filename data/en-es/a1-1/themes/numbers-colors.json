@@ -1,0 +1,108 @@
+{
+  "id": "numbers-colors",
+  "title": "Numbers & Colors",
+  "description": "Count from 0 to 100, learn colors, and describe objects by their quantity and appearance.",
+  "vocabulary": [
+    {
+      "id": 1,
+      "target": "uno, dos, tres",
+      "source": "one, two, three",
+      "gender": "\u2014",
+      "type": "number"
+    },
+    {
+      "id": 2,
+      "target": "cuatro, cinco",
+      "source": "four, five",
+      "gender": "\u2014",
+      "type": "number"
+    },
+    {
+      "id": 3,
+      "target": "seis, siete",
+      "source": "six, seven",
+      "gender": "\u2014",
+      "type": "number"
+    },
+    {
+      "id": 4,
+      "target": "ocho, nueve, diez",
+      "source": "eight, nine, ten",
+      "gender": "\u2014",
+      "type": "number"
+    },
+    {
+      "id": 5,
+      "target": "cero",
+      "source": "zero",
+      "gender": "\u2014",
+      "type": "number"
+    },
+    {
+      "id": 6,
+      "target": "rojo",
+      "source": "red",
+      "gender": "m",
+      "type": "color"
+    },
+    {
+      "id": 7,
+      "target": "azul",
+      "source": "blue",
+      "gender": "m",
+      "type": "color"
+    },
+    {
+      "id": 8,
+      "target": "verde",
+      "source": "green",
+      "gender": "m/f",
+      "type": "color"
+    },
+    {
+      "id": 9,
+      "target": "negro",
+      "source": "black",
+      "gender": "m",
+      "type": "color"
+    },
+    {
+      "id": 10,
+      "target": "blanco",
+      "source": "white",
+      "gender": "m",
+      "type": "color"
+    }
+  ],
+  "grammar": [
+    {
+      "title": "Gender Agreement: Adjectives Match Nouns",
+      "content": "In Spanish, adjectives change to match the gender of the noun they describe.\n\nMasculine: -o (el libro rojo)\nFeminine: -a (la casa roja)\nInvariable: -e (el coche verde / la mesa verde)\n\nPlural: add -s or -es (rojos, rojas)",
+      "examples": [
+        "El coche es rojo. (The car is red.)",
+        "La casa es blanca. (The house is white.)",
+        "Los libros son verdes. (The books are green.)"
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "multiple-choice",
+      "question": "What color is 'azul'?",
+      "options": [
+        "Red",
+        "Green",
+        "Blue",
+        "Black"
+      ],
+      "correct": 2,
+      "explanation": "'Azul' means blue."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: 'El coche es ___. (The car is red.)",
+      "correct": "rojo",
+      "explanation": "'Rojo' agrees in gender (masculine) with 'coche'."
+    }
+  ]
+}

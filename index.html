@@ -261,8 +261,72 @@
           </div>
         </div>
 
+
+        <!-- Themes View — shown when stage has granular theme curriculum -->
+        <div x-show="themeView === 'themes'" class="space-y-4">
+          <div class="flex items-center gap-2 mb-4">
+            <button @click="exitThemes()" class="btn btn-ghost btn-sm">← Back to Stage</button>
+            <h2 class="text-xl font-bold" x-text="stageTitle"></h2>
+          </div>
+          <p class="text-sm opacity-70 mb-6" x-text="stageDescription"></p>
+          <div x-html="renderThemes()"></div>
+        </div>
+
+        <!-- Theme Detail View — shown when a specific theme is selected -->
+        <div x-show="themeView === 'theme-detail'" x-cloak class="space-y-4">
+          <div class="flex items-center gap-2 mb-4">
+            <button @click="exitTheme()" class="btn btn-ghost btn-sm">← Back to Themes</button>
+            <h2 class="text-xl font-bold" x-text="currentTheme"></h2>
+          </div>
+          <p class="text-sm opacity-70 mb-4" x-show="themeData && themeData.description" x-text="themeData.description"></p>
+
+          <!-- Theme Pillar Tabs -->
+          <div role="tablist" class="tabs tabs-boxed mb-4">
+            <a role="tab" :class="isPillarActive('vocabulary') ? 'tab-active' : ''" @click="setPillar('vocabulary')" class="tab">🗣️ Vocabulary</a>
+            <a role="tab" :class="isPillarActive('grammar') ? 'tab-active' : ''" @click="setPillar('grammar')" class="tab">📖 Grammar</a>
+            <a role="tab" :class="isPillarActive('verbs') ? 'tab-active' : ''" @click="setPillar('verbs')" class="tab">📝 Exercises</a>
+          </div>
+
+          <!-- Theme Pillar Content -->
+          <div class="card bg-base-100 shadow-md">
+            <div class="card-body p-6">
+              <!-- Vocabulary Pillar -->
+              <div x-show="currentPillar === 'vocabulary'" class="pillar-content">
+                <h3 class="text-xl font-bold mb-4">Vocabulary</h3>
+                <p class="text-sm opacity-60 mb-4">Tap a card to reveal the English translation.</p>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                  <template x-for="word in themeData?.vocabulary || []" :key="word.id">
+                    <div class="card bg-base-200 shadow-sm cursor-pointer" @click="word.revealed = !word.revealed">
+                      <div class="card-body p-4">
+                        <div class="flex justify-between items-center mb-2">
+                          <span class="text-lg font-bold" x-text="word.target"></span>
+                          <span class="badge badge-sm" x-text="word.gender"></span>
+                        </div>
+                        <div x-show="word.revealed" class="text-sm opacity-80 transition-all" x-text="word.source"></div>
+                        <div x-show="!word.revealed" class="text-xs opacity-40 italic">tap to reveal</div>
+                      </div>
+                    </div>
+                  </template>
+                </div>
+              </div>
+
+              <!-- Grammar Pillar -->
+              <div x-show="currentPillar === 'grammar'" class="pillar-content">
+                <h3 class="text-xl font-bold mb-4">Grammar</h3>
+                <div class="prose max-w-none" x-html="pillarContent.grammar"></div>
+              </div>
+
+              <!-- Exercises Pillar -->
+              <div x-show="currentPillar === 'verbs'" class="pillar-content">
+                <h3 class="text-xl font-bold mb-4">Exercises</h3>
+                <div class="prose max-w-none" x-html="pillarContent.verbs"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
         <!-- Pillar Tabs -->
-        <div x-show="!quizActive && !quizFinished" role="tablist" class="tabs tabs-boxed mb-6">
+        <div x-show="!quizActive && !quizFinished && themeView !== 'themes' && themeView !== 'theme-detail'" role="tablist" class="tabs tabs-boxed mb-6">
           <a role="tab" 
              :class="isPillarActive('grammar') ? 'tab-active' : ''"
              @click="setPillar('grammar')"
@@ -282,7 +346,7 @@
         </div>
 
         <!-- Pillar Content -->
-        <div x-show="!quizActive && !quizFinished" class="card bg-base-100 shadow-md">
+        <div x-show="!quizActive && !quizFinished && themeView !== 'themes' && themeView !== 'theme-detail'" class="card bg-base-100 shadow-md">
           <div class="card-body p-6">
                 <!-- Grammar Pillar -->
                 <div x-show="currentPillar === 'grammar'" class="pillar-content">

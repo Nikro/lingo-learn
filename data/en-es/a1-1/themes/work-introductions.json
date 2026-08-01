@@ -1,0 +1,108 @@
+{
+  "id": "work-introductions",
+  "title": "Work & Introductions",
+  "description": "Talk about your job, workplace, and professional background.",
+  "vocabulary": [
+    {
+      "id": 1,
+      "target": "trabajo",
+      "source": "work/job",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 2,
+      "target": "oficina",
+      "source": "office",
+      "gender": "f",
+      "type": "place"
+    },
+    {
+      "id": 3,
+      "target": "colega",
+      "source": "colleague",
+      "gender": "m/f",
+      "type": "person"
+    },
+    {
+      "id": 4,
+      "target": "jefe",
+      "source": "boss",
+      "gender": "m",
+      "type": "person"
+    },
+    {
+      "id": 5,
+      "target": "empresa",
+      "source": "company",
+      "gender": "f",
+      "type": "place"
+    },
+    {
+      "id": 6,
+      "target": "proyecto",
+      "source": "project",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 7,
+      "target": "reuni\u00f3n",
+      "source": "meeting",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 8,
+      "target": "correo electr\u00f3nico",
+      "source": "email",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 9,
+      "target": "informe",
+      "source": "report",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 10,
+      "target": "cliente",
+      "source": "client",
+      "gender": "m",
+      "type": "person"
+    }
+  ],
+  "grammar": [
+    {
+      "title": "Trabajar & Estar en (to work, to be at)",
+      "content": "Trabajar is a regular -ar verb. Estar is used for location and temporary states.\n\nTrabajar: yo trabajo, t\u00fa trabajas, \u00e9l trabaja...\nEstar: yo estoy, t\u00fa est\u00e1s, \u00e9l est\u00e1...\n\nUse 'en' with estar for location: estar en la oficina",
+      "examples": [
+        "Trabajo en una empresa de tecnolog\u00eda. (I work at a tech company.)",
+        "Estoy en la oficina. (I am at the office.)",
+        "Mi jefe es simp\u00e1tico. (My boss is nice.)"
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "multiple-choice",
+      "question": "What does 'empresa' mean?",
+      "options": [
+        "Office",
+        "Project",
+        "Company",
+        "Meeting"
+      ],
+      "correct": 2,
+      "explanation": "'Empresa' means company."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: 'Yo ___ en una oficina.' (I work in an office.)",
+      "correct": "trabajo",
+      "explanation": "'Trabajar' conjugated for 'yo': trabajo."
+    }
+  ]
+}

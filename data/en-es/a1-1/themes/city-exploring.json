@@ -1,0 +1,108 @@
+{
+  "id": "city-exploring",
+  "title": "City & Directions",
+  "description": "Navigate a city, ask for directions, and describe places.",
+  "vocabulary": [
+    {
+      "id": 1,
+      "target": "izquierda",
+      "source": "left",
+      "gender": "f",
+      "type": "direction"
+    },
+    {
+      "id": 2,
+      "target": "derecha",
+      "source": "right",
+      "gender": "f",
+      "type": "direction"
+    },
+    {
+      "id": 3,
+      "target": "directo",
+      "source": "straight",
+      "gender": "m",
+      "type": "direction"
+    },
+    {
+      "id": 4,
+      "target": "calle",
+      "source": "street",
+      "gender": "f",
+      "type": "place"
+    },
+    {
+      "id": 5,
+      "target": "plaza",
+      "source": "square",
+      "gender": "f",
+      "type": "place"
+    },
+    {
+      "id": 6,
+      "target": "iglesia",
+      "source": "church",
+      "gender": "f",
+      "type": "place"
+    },
+    {
+      "id": 7,
+      "target": "parque",
+      "source": "park",
+      "gender": "m",
+      "type": "place"
+    },
+    {
+      "id": 8,
+      "target": "restaurante",
+      "source": "restaurant",
+      "gender": "m",
+      "type": "place"
+    },
+    {
+      "id": 9,
+      "target": "hotel",
+      "source": "hotel",
+      "gender": "m",
+      "type": "place"
+    },
+    {
+      "id": 10,
+      "target": "supermercado",
+      "source": "supermarket",
+      "gender": "m",
+      "type": "place"
+    }
+  ],
+  "grammar": [
+    {
+      "title": "Hay (There is/are) & Prepositions",
+      "content": "Use 'hay' to say there is/there are. It doesn't change.\n\nHay un parque. (There is a park.)\nHay muchas tiendas. (There are many shops.)\n\nPrepositions: en (in), cerca de (near), lejos de (far from), al lado de (next to)",
+      "examples": [
+        "Hay un hotel cerca. (There is a hotel nearby.)",
+        "\u00bfD\u00f3nde est\u00e1 el parque? (Where is the park?)",
+        "Est\u00e1 al lado de la iglesia. (It's next to the church.)"
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "multiple-choice",
+      "question": "What does 'hay' mean?",
+      "options": [
+        "Go to",
+        "There is/are",
+        "I see",
+        "It is"
+      ],
+      "correct": 1,
+      "explanation": "'Hay' means there is or there are."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: '\u00bfD\u00f3nde ___ el parque?' (Where is the park?)",
+      "correct": "est\u00e1",
+      "explanation": "'Estar' is used for location: \u00bfD\u00f3nde est\u00e1...?"
+    }
+  ]
+}

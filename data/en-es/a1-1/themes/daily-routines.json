@@ -1,0 +1,108 @@
+{
+  "id": "daily-routines",
+  "title": "Daily Routines",
+  "description": "Describe your daily schedule, learn reflexive verbs, and tell time.",
+  "vocabulary": [
+    {
+      "id": 1,
+      "target": "despertarse",
+      "source": "to wake up",
+      "gender": "\u2014",
+      "type": "verb"
+    },
+    {
+      "id": 2,
+      "target": "levantarse",
+      "source": "to get up",
+      "gender": "\u2014",
+      "type": "verb"
+    },
+    {
+      "id": 3,
+      "target": "ducharse",
+      "source": "to shower",
+      "gender": "\u2014",
+      "type": "verb"
+    },
+    {
+      "id": 4,
+      "target": "desayunar",
+      "source": "to have breakfast",
+      "gender": "\u2014",
+      "type": "verb"
+    },
+    {
+      "id": 5,
+      "target": "ir al trabajo",
+      "source": "to go to work",
+      "gender": "\u2014",
+      "type": "phrase"
+    },
+    {
+      "id": 6,
+      "target": "cenar",
+      "source": "to have dinner",
+      "gender": "\u2014",
+      "type": "verb"
+    },
+    {
+      "id": 7,
+      "target": "dormir",
+      "source": "to sleep",
+      "gender": "\u2014",
+      "type": "verb"
+    },
+    {
+      "id": 8,
+      "target": "por la ma\u00f1ana",
+      "source": "in the morning",
+      "gender": "\u2014",
+      "type": "time"
+    },
+    {
+      "id": 9,
+      "target": "por la tarde",
+      "source": "in the afternoon",
+      "gender": "\u2014",
+      "type": "time"
+    },
+    {
+      "id": 10,
+      "target": "por la noche",
+      "source": "at night",
+      "gender": "\u2014",
+      "type": "time"
+    }
+  ],
+  "grammar": [
+    {
+      "title": "Reflexive Verbs - Daily Actions",
+      "content": "Reflexive verbs indicate the subject does the action to themselves. They use reflexive pronouns.\n\nPronouns: me, te, se, nos, os, se\n\nExample: despertarse (to wake up)\n- Me despierto (I wake up)\n- Te despiertas (You wake up)\n- Se despierta (He/she wakes up)",
+      "examples": [
+        "Me despierto a las siete. (I wake up at seven.)",
+        "Ella se ducha por la ma\u00f1ana. (She showers in the morning.)",
+        "Nos levantamos tarde. (We get up late.)"
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "multiple-choice",
+      "question": "What does 'despertarse' mean?",
+      "options": [
+        "To sleep",
+        "To wake up",
+        "To eat",
+        "To go"
+      ],
+      "correct": 1,
+      "explanation": "'Despertarse' is a reflexive verb meaning to wake up."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: 'Yo me ____ a las siete.' (I wake up at seven.)",
+      "correct": "despierto",
+      "explanation": "Conjugate 'despertarse' for 'yo': me despierto."
+    }
+  ]
+}

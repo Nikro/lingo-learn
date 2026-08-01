@@ -1,0 +1,108 @@
+{
+  "id": "tourist-essentials",
+  "title": "Tourist Essentials",
+  "description": "Book hotels, ask for help, and handle common tourist situations.",
+  "vocabulary": [
+    {
+      "id": 1,
+      "target": "reservar",
+      "source": "to book",
+      "gender": "\u2014",
+      "type": "verb"
+    },
+    {
+      "id": 2,
+      "target": "habitaci\u00f3n",
+      "source": "room",
+      "gender": "f",
+      "type": "place"
+    },
+    {
+      "id": 3,
+      "target": "pasaporte",
+      "source": "passport",
+      "gender": "m",
+      "type": "document"
+    },
+    {
+      "id": 4,
+      "target": "billete",
+      "source": "ticket",
+      "gender": "m",
+      "type": "document"
+    },
+    {
+      "id": 5,
+      "target": "ayuda",
+      "source": "help",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 6,
+      "target": "\u00bfD\u00f3nde puedo...?",
+      "source": "Where can I...?",
+      "gender": "\u2014",
+      "type": "question"
+    },
+    {
+      "id": 7,
+      "target": "necesito",
+      "source": "I need",
+      "gender": "\u2014",
+      "type": "phrase"
+    },
+    {
+      "id": 8,
+      "target": "no entiendo",
+      "source": "I don't understand",
+      "gender": "\u2014",
+      "type": "phrase"
+    },
+    {
+      "id": 9,
+      "target": "\u00bfHabla ingl\u00e9s?",
+      "source": "Do you speak English?",
+      "gender": "\u2014",
+      "type": "question"
+    },
+    {
+      "id": 10,
+      "target": "gracias",
+      "source": "thank you",
+      "gender": "\u2014",
+      "type": "phrase"
+    }
+  ],
+  "grammar": [
+    {
+      "title": "Necesitar & Poder (to need, to be able to)",
+      "content": "Necesitar (to need) and poder (to be able to) are regular -ar and -er verbs.\n\nNecesitar: yo necesito, t\u00fa necesitas, \u00e9l necesita...\nPoder: yo puedo, t\u00fa puedes, \u00e9l puede... (stem-changing o\u2192ue)",
+      "examples": [
+        "Necesito un taxi. (I need a taxi.)",
+        "\u00bfPuedo reservar una habitaci\u00f3n? (Can I book a room?)",
+        "No entiendo. (I don't understand.)"
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "multiple-choice",
+      "question": "What does 'no entiendo' mean?",
+      "options": [
+        "I don't like",
+        "I don't understand",
+        "I don't know",
+        "I don't want"
+      ],
+      "correct": 1,
+      "explanation": "'No entiendo' means I don't understand."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: '___ reservar una habitaci\u00f3n.' (I need to book a room.)",
+      "correct": "Necesito",
+      "explanation": "'Necesitar' conjugated for 'yo': necesito."
+    }
+  ]
+}

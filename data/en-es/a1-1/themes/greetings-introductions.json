@@ -1,0 +1,132 @@
+{
+  "id": "greetings-introductions",
+  "title": "Greetings & Introductions",
+  "description": "Learn how to greet people, introduce yourself, and handle basic social interactions in Spanish.",
+  "vocabulary": [
+    {
+      "id": 1,
+      "target": "hola",
+      "source": "hello",
+      "gender": "\u2014",
+      "type": "greeting"
+    },
+    {
+      "id": 2,
+      "target": "buenos d\u00edas",
+      "source": "good morning",
+      "gender": "\u2014",
+      "type": "greeting"
+    },
+    {
+      "id": 3,
+      "target": "buenas tardes",
+      "source": "good afternoon",
+      "gender": "\u2014",
+      "type": "greeting"
+    },
+    {
+      "id": 4,
+      "target": "buenas noches",
+      "source": "good evening/night",
+      "gender": "\u2014",
+      "type": "greeting"
+    },
+    {
+      "id": 5,
+      "target": "adi\u00f3s",
+      "source": "goodbye",
+      "gender": "\u2014",
+      "type": "greeting"
+    },
+    {
+      "id": 6,
+      "target": "me llamo...",
+      "source": "my name is...",
+      "gender": "\u2014",
+      "type": "introduction"
+    },
+    {
+      "id": 7,
+      "target": "\u00bfC\u00f3mo te llamas?",
+      "source": "What is your name?",
+      "gender": "\u2014",
+      "type": "question"
+    },
+    {
+      "id": 8,
+      "target": "mucho gusto",
+      "source": "nice to meet you",
+      "gender": "\u2014",
+      "type": "phrase"
+    },
+    {
+      "id": 9,
+      "target": "igualmente",
+      "source": "likewise",
+      "gender": "\u2014",
+      "type": "response"
+    },
+    {
+      "id": 10,
+      "target": "\u00bfC\u00f3mo est\u00e1s?",
+      "source": "How are you?",
+      "gender": "\u2014",
+      "type": "question"
+    }
+  ],
+  "grammar": [
+    {
+      "title": "Ser (to be) - Name & Identity",
+      "content": "Use SER to introduce yourself. 'Yo soy...' means 'I am...' for names and identity.\n\nConjugation of SER:\n- yo soy (I am)\n- t\u00fa eres (you are, informal)\n- \u00e9l/ella es (he/she is)\n- nosotros somos (we are)\n- vosotros sois (you all, Spain)\n- ellos son (they are)",
+      "examples": [
+        "Yo soy Sergiu. (I am Sergiu.)",
+        "Ella es Nicoleta. (She is Nicoleta.)",
+        "Nosotros somos amigos. (We are friends.)"
+      ]
+    },
+    {
+      "title": "Asking & Responding to How Someone Is",
+      "content": "To ask how someone is doing:\n- \u00bfC\u00f3mo est\u00e1s? (How are you? - informal)\n- \u00bfC\u00f3mo est\u00e1 usted? (How are you? - formal)\n\nCommon responses:\n- Estoy bien (I'm fine)\n- Estoy mal (I'm bad)\n- M\u00e1s o menos (So-so)\n- Perfecto (Perfect)",
+      "examples": [
+        "\u00bfC\u00f3mo est\u00e1s? (How are you?)",
+        "Estoy bien, gracias. (I'm fine, thanks.)",
+        "\u00bfY t\u00fa? (And you?)"
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "multiple-choice",
+      "question": "What does 'buenos d\u00edas' mean?",
+      "options": [
+        "Good night",
+        "Good morning",
+        "Good afternoon",
+        "Goodbye"
+      ],
+      "correct": 1,
+      "explanation": "'Buenos d\u00edas' literally means 'good days' but is used for 'good morning'."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: 'Yo ____ Sergiu.' (I am Sergiu.)",
+      "correct": "soy",
+      "explanation": "Use 'soy' (yo form of SER) to introduce yourself."
+    },
+    {
+      "type": "matching",
+      "question": "Match the greetings:",
+      "pairs": [
+        {
+          "target": "hola",
+          "source": "hello"
+        },
+        {
+          "target": "adi\u00f3s",
+          "source": "goodbye"
+        }
+      ],
+      "explanation": "These are the basic greetings you'll use every day."
+    }
+  ]
+}
