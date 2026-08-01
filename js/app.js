@@ -503,7 +503,7 @@ function app() {
       this.stageData.grammar.forEach(function(item, i) {
         html += '<div class="bg-base-200 rounded-lg p-4">';
         html += '<h4 class="font-bold mb-2">' + (i + 1) + '. ' + item.title + '</h4>';
-        if (item.content) html += '<p class="mb-2">' + item.content + '</p>';
+        if (item.content) html += '<p class="mb-2 whitespace-pre-wrap">' + item.content + '</p>';
         if (item.table) html += self.renderTable(item.table);
         if (item.examples) {
           html += '<div class="mt-2"><strong>Examples:</strong><ul class="list-disc ml-4">';
@@ -595,7 +595,7 @@ function app() {
       this.stageData.pronunciation.forEach(function(item) {
         html += '<div class="bg-base-200 rounded-lg p-4">';
         html += '<h4 class="font-bold mb-2">' + item.title + '</h4>';
-        if (item.content) html += '<p class="mb-2">' + item.content + '</p>';
+        if (item.content) html += '<p class="mb-2 whitespace-pre-wrap">' + item.content + '</p>';
         if (item.examples) {
           html += '<div class="grid grid-cols-2 gap-2 mt-2">';
           item.examples.forEach(function(e) {

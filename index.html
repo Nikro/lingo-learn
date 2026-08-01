@@ -320,13 +320,17 @@
                 <!-- Verbs Pillar -->
                 <div x-show="currentPillar === 'verbs'" class="pillar-content">
                   <h3 class="text-xl font-bold mb-4">Verbs & Drills</h3>
-                  <p class="opacity-70">Verb conjugation tables and practice drills will appear here.</p>
+                  <div class="prose max-w-none" x-html="pillarContent.verbs">
+                    <p class="opacity-70">Loading verbs...</p>
+                  </div>
                 </div>
 
                 <!-- Pronunciation Pillar -->
                 <div x-show="currentPillar === 'pronunciation'" class="pillar-content">
                   <h3 class="text-xl font-bold mb-4">Pronunciation & Spelling</h3>
-                  <p class="opacity-70">Phonetic guides, stress rules, and listening exercises will appear here.</p>
+                  <div class="prose max-w-none" x-html="pillarContent.pronunciation">
+                    <p class="opacity-70">Loading pronunciation...</p>
+                  </div>
                 </div>
           </div>
         </div>
@@ -766,8 +770,8 @@
   <!-- Hidden file input for import -->
   <input type="file" id="importFile" accept=".json" class="hidden" @change="handleImport($event)">
 
-  <script src="js/storage.js?v=11"></script>
-  <script src="js/app.js?v=14"></script>
+  <script src="js/storage.js?v=12"></script>
+  <script src="js/app.js?v=15"></script>
   <script>
     // Service Worker disabled for dev to prevent stale caching issues
     // if ('serviceWorker' in navigator) {
