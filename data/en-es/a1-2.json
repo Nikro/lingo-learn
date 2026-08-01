@@ -1,0 +1,480 @@
+{
+  "id": "a1-2",
+  "title": "Stage A1.2 - Past Tenses, Present Perfect, & Daily Life",
+  "description": "Talk about your past experiences, daily routines, and handle everyday situations like shopping, dining, and describing the weather.",
+  "grammar": [
+    {
+      "title": "Preterite (Pretérito Indefinido) - Regular Verbs",
+      "content": "The preterite tense is used to talk about completed actions in the past with a clear beginning or end. Think of it as the 'storytelling' tense - you're telling someone what happened.\n\nFor regular -AR verbs (like hablar), the endings are:\n- yo: -é\n- tú: -aste\n- él/ella/usted: -ó\n- nosotros: -amos\n- vosotros: -asteis\n- ellos/ellas/ustedes: -aron\n\nFor regular -ER/-IR verbs (like comer, vivir), the endings are:\n- yo: -í\n- tú: -iste\n- él/ella/usted: -ió\n- nosotros: -imos\n- vosotros: -isteis\n- ellos/ellas/ustedes: -ieron",
+      "table": {
+        "headers": ["Pronoun", "-AR (hablar)", "-ER (comer)", "-IR (vivir)"],
+        "rows": [
+          ["yo", "hablé", "comí", "viví"],
+          ["tú", "hablaste", "comiste", "viviste"],
+          ["él/ella/usted", "habló", "comió", "vivió"],
+          ["nosotros", "hablamos", "comimos", "vivimos"],
+          ["vosotros", "hablasteis", "comisteis", "vivisteis"],
+          ["ellos/ellas/ustedes", "hablaron", "comieron", "vivieron"]
+        ]
+      },
+      "examples": [
+        "Ayer hablé con mi amigo. (Yesterday I talked with my friend.)",
+        "Ellos comieron pizza anoche. (They ate pizza last night.)",
+        "Nosotros vivimos en Madrid dos años. (We lived in Madrid for two years.)"
+      ],
+      "aid_note": "Watch out: 'nosotros' form looks the same for -AR preterite and present! Context tells you which: 'hablamos' in present = we speak; 'hablamos' in preterite = we spoke. Look for time words like 'ayer' (yesterday), 'la semana pasada' (last week)."
+    },
+    {
+      "title": "Preterite - High-Frequency Irregular Verbs (ESTAR, IR, HACER, TENER, DECIR)",
+      "content": "These five verbs share the same irregular stem in the preterite: tuv-, estuv-, hic-, dij-, and for IR it's fui/fuiste... (different pattern). They also all drop the accent on nosotros.\n\nThe shared endings (for ESTAR, IR, HACER, TENER, DECIR) are:\n- yo: -e\n- tú: -iste\n- él/ella/usted: -o\n- nosotros: -imos (no accent)\n- vosotros: -isteis\n- ellos/ellas/ustedes: -ieron",
+      "table": {
+        "headers": ["Pronoun", "ESTAR (estuv-)", "IR (fui-)", "HACER (hic-)", "TENER (tuv-)", "DECIR (dij-)"],
+        "rows": [
+          ["yo", "estuve", "fui", "hice", "tuve", "dije"],
+          ["tú", "estuviste", "fuiste", "hiciste", "tuviste", "dijiste"],
+          ["él/ella/usted", "estuvo", "fue", "hizo", "tuvo", "dijo"],
+          ["nosotros", "estuvimos", "fuimos", "hicimos", "tuvimos", "dijimos"],
+          ["vosotros", "estuvisteis", "fuisteis", "hicisteis", "tuvisteis", "dijisteis"],
+          ["ellos/ellas/ustedes", "estuvieron", "fueron", "hicieron", "tuvieron", "dijeron"]
+        ]
+      },
+      "examples": [
+        "Ayer estuve en el parque. (Yesterday I was at the park.)",
+        "El año pasado fui a Italia. (Last year I went to Italy.)",
+        "Ella hizo la cena. (She made dinner.)",
+        "Tuvimos un buen día. (We had a good day.)",
+        "Juan dijo la verdad. (Juan told the truth.)"
+      ],
+      "aid_note": "IR (to go) and ESTAR (to be) have the SAME preterite forms. Context determines meaning: 'Ayer fui al cine' (I went to the cinema) vs 'Ayer estuve en el cine' (I was at the cinema). Both are correct but slightly different meanings."
+    },
+    {
+      "title": "Present Perfect (Pretérito Perfecto)",
+      "content": "The present perfect combines 'haber' (to have) in the present + a past participle. It's used for recent past actions or experiences that have relevance to the present. In Spain, it's very common for 'today' or 'this week.'\n\nConjugation of HABER (present): yo he, tú has, él/ella/usted ha, nosotros hemos, vosotros habéis, ellos/ellas/ustedes han.\n\nPast participles:\n- -AR verbs: replace -ar with -ado (hablar -> hablado)\n- -ER verbs: replace -er with -ido (comer -> comido)\n- -IR verbs: replace -ir with -ido (vivir -> vivido)\n\nIrregular past participles: hacer -> hecho, decir -> dicho, escribir -> escrito, ver -> visto, abrir -> abierto, romper -> roto, volver -> vuelto, cubrir -> cubierto.",
+      "table": {
+        "headers": ["Pronoun", "HABER", "Example (-ado)", "Example (-ido)"],
+        "rows": [
+          ["yo", "he", "he hablado", "he comido"],
+          ["tú", "has", "has hablado", "has comido"],
+          ["él/ella/usted", "ha", "ha hablado", "ha comido"],
+          ["nosotros", "hemos", "hemos hablado", "hemos comido"],
+          ["vosotros", "habéis", "habéis hablado", "habéis comido"],
+          ["ellos/ellas/ustedes", "han", "han hablado", "han comido"]
+        ]
+      },
+      "examples": [
+        "Hoy he desayunado tarde. (Today I had breakfast late.)",
+        "Ya he visto esa película. (I've already seen that movie.)",
+        "¿Has escrito la carta? (Have you written the letter?)",
+        "Nosotros hemos vivido aquí siempre. (We have always lived here.)"
+      ],
+      "aid_note": "Romanian uses a similar structure with 'a avut' (has had) + participle. In Spanish, HABER is ALWAYS the helper - never use ESTAR. 'He comido' (I have eaten) NOT 'Estoy comido'."
+    },
+    {
+      "title": "Demonstrative Adjectives (este, ese, aquel)",
+      "content": "Spanish has three degrees of distance for 'this/that/those':\n\nNear the speaker (this/these): este/esta/estos/estas\nNear the listener (that/those): ese/esos esa/esas\nFar from both (that/those over there): aquel/aquella/aquellos/aquellas\n\nThey must agree in gender and number with the noun they describe. There are also neuter forms (esto, eso, aquello) used for abstract concepts or when you don't know the gender.",
+      "table": {
+        "headers": ["Distance", "Masculine SG", "Feminine SG", "Masculine PL", "Feminine PL"],
+        "rows": [
+          ["Near me (this)", "este", "esta", "estos", "estas"],
+          ["Near you (that)", "ese", "esa", "esos", "esas"],
+          ["Far from both (that over there)", "aquel", "aquella", "aquellos", "aquellas"]
+        ]
+      },
+      "examples": [
+        "Esta casa es bonita. (This house is pretty.)",
+        "Ese libro es mío. (That book is mine.)",
+        "Aquellos montañas son hermosas. (Those mountains over there are beautiful.)",
+        "Quiero eso. (I want that.)"
+      ],
+      "aid_note": "Romanian has a similar system: 'acest' (near speaker), 'acel' (distant), 'acesta' (near listener). Spanish is simpler with just 3 levels instead of Romanian's 4."
+    },
+    {
+      "title": "Possessive Adjectives (mi, tu, su, nuestro...)",
+      "content": "Possessive adjectives show ownership and agree in NUMBER (singular/plural) with the noun they modify, not with the owner.\n\nShort forms (before the noun):\n- mi(s) = my\n- tu(s) = your (informal)\n- su(s) = his/her/their/your formal\n- nuestro/a(s) = our\n- vuestro/a(s) = your (plural, Spain informal)\n\nNote: 'su' can mean many things! Context and prepositional phrases (de mí, de ti, de él) clarify.",
+      "table": {
+        "headers": ["Owner", "Before singular noun", "Before plural noun"],
+        "rows": [
+          ["yo (my)", "mi", "mis"],
+          ["tú (your)", "tu", "tus"],
+          ["él/ella/usted (his/her/yours)", "su", "sus"],
+          ["nosotros (our)", "nuestro/a", "nuestros/as"],
+          ["vosotros (your pl.)", "vuestro/a", "vuestros/as"],
+          ["ellos/ellas/ustedes (their/your pl.)", "su", "sus"]
+        ]
+      },
+      "examples": [
+        "Mi casa es grande. (My house is big.)",
+        "¿Dónde están tus llaves? (Where are your keys?)",
+        "Su padre es doctor. (His/her father is a doctor.)",
+        "Nuestro gato se llama Luna. (Our cat is named Luna.)"
+      ],
+      "aid_note": "Romanian has a very similar system: 'al meu/al tău/al său/al nostru' but uses different forms. Spanish 'mi/tu/su' are simpler - no gender agreement needed for the short forms (except nuestro/vuestro)."
+    },
+    {
+      "title": "Time Expressions & Basic Adverbs",
+      "content": "These time words help you talk about when things happened. They're essential for the preterite tense.\n\nKey time expressions:\n- ayer = yesterday\n- anteayer = the day before yesterday\n- la semana pasada = last week\n- el mes pasado = last month\n- el año pasado = last year\n- hace + time = ago (hace dos días = two days ago)\n- hace poco = recently, a short while ago\n- hoy = today\n- mañana = tomorrow\n- ahora = now\n- luego = later\n- después = after, then\n\nKey adverbs:\n- siempre = always\n- nunca/nuncay = never\n- a veces = sometimes\n- siempre = always\n- ya = already\n- todavía = still, yet\n- todavía no = not yet",
+      "table": {
+        "headers": ["Spanish", "English", "Example"],
+        "rows": [
+          ["ayer", "yesterday", "Ayer fui al mercado."],
+          ["hace dos días", "two days ago", "Llegué hace dos días."],
+          ["la semana pasada", "last week", "La semana pasada estudié."],
+          ["hoy", "today", "Hoy es lunes."],
+          ["mañana", "tomorrow", "Mañana voy al gimnasio."],
+          ["siempre", "always", "Siempre desayuno a las ocho."],
+          ["nunca", "never", "Nunca como carne."],
+          ["a veces", "sometimes", "A veces voy en bicicleta."],
+          ["ya", "already", "Ya terminé la tarea."],
+          ["todavía no", "not yet", "Todavía no he comido."]
+        ]
+      },
+      "examples": [
+        "Ayer por la noche no pude dormir. (Last night I couldn't sleep.)",
+        "Hace una semana que no la veo. (It's been a week since I saw her.)",
+        "Siempre desayuno café con leche. (I always have coffee with milk for breakfast.)"
+      ],
+      "aid_note": "'Hace' is the 3rd person of 'hacer' (to do/make) but here it means 'ago.' 'Hace dos años' literally means 'it makes two years.' Also used for duration: 'Vivo aquí hace dos años' (I've been living here for two years)."
+    }
+  ],
+  "vocabulary": [
+    { "id": 1, "target": "despertarse", "source": "to wake up", "gender": "v.", "type": "daily_routine" },
+    { "id": 2, "target": "levantarse", "source": "to get up", "gender": "v.", "type": "daily_routine" },
+    { "id": 3, "target": "ducharse", "source": "to take a shower", "gender": "v.", "type": "daily_routine" },
+    { "id": 4, "target": "cepillarse", "source": "to brush", "gender": "v.", "type": "daily_routine" },
+    { "id": 5, "target": "desayunar", "source": "to have breakfast", "gender": "v.", "type": "daily_routine" },
+    { "id": 6, "target": "almorzar", "source": "to have lunch", "gender": "v.", "type": "daily_routine" },
+    { "id": 7, "target": "cenar", "source": "to have dinner", "gender": "v.", "type": "daily_routine" },
+    { "id": 8, "target": "dormir", "source": "to sleep/to sleep", "gender": "v.", "type": "daily_routine" },
+    { "id": 9, "target": "irse a la cama", "source": "to go to bed", "gender": "v.", "type": "daily_routine" },
+    { "id": 10, "target": "trabajar", "source": "to work", "gender": "v.", "type": "daily_routine" },
+    { "id": 11, "target": "estudiar", "source": "to study", "gender": "v.", "type": "daily_routine" },
+    { "id": 12, "target": "la almohada", "source": "pillow", "gender": "f.", "type": "daily_routine" },
+    { "id": 13, "target": "la manta", "source": "blanket", "gender": "f.", "type": "daily_routine" },
+    { "id": 14, "target": "el despertador", "source": "alarm clock", "gender": "m.", "type": "daily_routine" },
+    { "id": 15, "target": "el café con leche", "source": "coffee with milk", "gender": "m.", "type": "food" },
+    { "id": 16, "target": "el pan", "source": "bread", "gender": "m.", "type": "food" },
+    { "id": 17, "target": "la mantequilla", "source": "butter", "gender": "f.", "type": "food" },
+    { "id": 18, "target": "el queso", "source": "cheese", "gender": "m.", "type": "food" },
+    { "id": 19, "target": "la fruta", "source": "fruit", "gender": "f.", "type": "food" },
+    { "id": 20, "target": "el yogur", "source": "yogurt", "gender": "m.", "type": "food" },
+    { "id": 21, "target": "la carne", "source": "meat", "gender": "f.", "type": "food" },
+    { "id": 22, "target": "el pescado", "source": "fish", "gender": "m.", "type": "food" },
+    { "id": 23, "target": "la verdura", "source": "vegetable", "gender": "f.", "type": "food" },
+    { "id": 24, "target": "la ensalada", "source": "salad", "gender": "f.", "type": "food" },
+    { "id": 25, "target": "el arroz", "source": "rice", "gender": "m.", "type": "food" },
+    { "id": 26, "target": "los huevos", "source": "eggs", "gender": "m. pl.", "type": "food" },
+    { "id": 27, "target": "la sopa", "source": "soup", "gender": "f.", "type": "food" },
+    { "id": 28, "target": "la cuenta", "source": "the bill", "gender": "f.", "type": "food" },
+    { "id": 29, "target": "la propina", "source": "tip", "gender": "f.", "type": "food" },
+    { "id": 30, "target": "el super / el supermercado", "source": "supermarket", "gender": "m.", "type": "shopping" },
+    { "id": 31, "target": "la tienda", "source": "store/shop", "gender": "f.", "type": "shopping" },
+    { "id": 32, "target": "la compra", "source": "groceries/shopping", "gender": "f.", "type": "shopping" },
+    { "id": 33, "target": "pagar", "source": "to pay", "gender": "v.", "type": "shopping" },
+    { "id": 34, "target": "el precio", "source": "price", "gender": "m.", "type": "shopping" },
+    { "id": 35, "target": "barato / caro", "source": "cheap / expensive", "gender": "adj.", "type": "shopping" },
+    { "id": 36, "target": "la cesta", "source": "shopping basket", "gender": "f.", "type": "shopping" },
+    { "id": 37, "target": "el carrito", "source": "shopping cart", "gender": "m.", "type": "shopping" },
+    { "id": 38, "target": "la moned / el dinero", "source": "money", "gender": "m.", "type": "shopping" },
+    { "id": 39, "target": "hoy", "source": "today", "gender": "—", "type": "time" },
+    { "id": 40, "target": "mañana", "source": "tomorrow", "gender": "—", "type": "time" },
+    { "id": 41, "target": "ayer", "source": "yesterday", "gender": "—", "type": "time" },
+    { "id": 42, "target": "la semana pasada", "source": "last week", "gender": "—", "type": "time" },
+    { "id": 43, "target": "el año pasado", "source": "last year", "gender": "—", "type": "time" },
+    { "id": 44, "target": "hace dos días", "source": "two days ago", "gender": "—", "type": "time" },
+    { "id": 45, "target": "hoy en día", "source": "these days", "gender": "—", "type": "time" },
+    { "id": 46, "target": "siempre", "source": "always", "gender": "—", "type": "time" },
+    { "id": 47, "target": "nunca", "source": "never", "gender": "—", "type": "time" },
+    { "id": 48, "target": "a veces", "source": "sometimes", "gender": "—", "type": "time" },
+    { "id": 49, "target": "ya", "source": "already", "gender": "—", "type": "time" },
+    { "id": 50, "target": "todavía", "source": "still / yet", "gender": "—", "type": "time" },
+    { "id": 51, "target": "el clima / el tiempo", "source": "weather", "gender": "m.", "type": "weather" },
+    { "id": 52, "target": "hace sol", "source": "it's sunny", "gender": "—", "type": "weather" },
+    { "id": 53, "target": "llueve", "source": "it's raining", "gender": "—", "type": "weather" },
+    { "id": 54, "target": "nieva", "source": "it's snowing", "gender": "—", "type": "weather" },
+    { "id": 55, "target": "hace frío", "source": "it's cold", "gender": "—", "type": "weather" },
+    { "id": 56, "target": "hace calor", "source": "it's hot", "gender": "—", "type": "weather" },
+    { "id": 57, "target": "hay viento", "source": "it's windy", "gender": "—", "type": "weather" },
+    { "id": 58, "target": "está nublado", "source": "it's cloudy", "gender": "—", "type": "weather" },
+    { "id": 59, "target": "la temperatura", "source": "temperature", "gender": "f.", "type": "weather" },
+    { "id": 60, "target": "el termómetro", "source": "thermometer", "gender": "m.", "type": "weather" },
+    { "id": 61, "target": "tener fiebre", "source": "to have a fever", "gender": "—", "type": "health" },
+    { "id": 62, "target": "el dolor de cabeza", "source": "headache", "gender": "m.", "type": "health" },
+    { "id": 63, "target": "el resfriado", "source": "a cold (illness)", "gender": "m.", "type": "health" },
+    { "id": 64, "target": "el médico / la médico", "source": "doctor", "gender": "m./f.", "type": "health" },
+    { "id": 65, "target": "la farmacia", "source": "pharmacy", "gender": "f.", "type": "health" },
+    { "id": 66, "target": "la medicina", "source": "medicine", "gender": "f.", "type": "health" },
+    { "id": 67, "target": "me duele...", "source": "it hurts...", "gender": "—", "type": "health" },
+    { "id": 68, "target": "sentirse bien / mal", "source": "to feel good / bad", "gender": "—", "type": "health" },
+    { "id": 69, "target": "el lunes", "source": "Monday", "gender": "m.", "type": "time" },
+    { "id": 70, "target": "el martes", "source": "Tuesday", "gender": "m.", "type": "time" },
+    { "id": 71, "target": "el miércoles", "source": "Wednesday", "gender": "m.", "type": "time" },
+    { "id": 72, "target": "el jueves", "source": "Thursday", "gender": "m.", "type": "time" },
+    { "id": 73, "target": "el viernes", "source": "Friday", "gender": "m.", "type": "time" },
+    { "id": 74, "target": "el sábado", "source": "Saturday", "gender": "m.", "type": "time" },
+    { "id": 75, "target": "el domingo", "source": "Sunday", "gender": "m.", "type": "time" },
+    { "id": 76, "target": "enero", "source": "January", "gender": "m.", "type": "time" },
+    { "id": 77, "target": "febrero", "source": "February", "gender": "m.", "type": "time" },
+    { "id": 78, "target": "marzo", "source": "March", "gender": "m.", "type": "time" },
+    { "id": 79, "target": "abril", "source": "April", "gender": "m.", "type": "time" },
+    { "id": 80, "target": "mayo", "source": "May", "gender": "m.", "type": "time" }
+  ],
+  "verbs": [
+    {
+      "infinitive": "IR",
+      "translation": "to go",
+      "conjugations": {
+        "present": {
+          "yo": "voy",
+          "tú": "vas",
+          "él/ella/usted": "va",
+          "nosotros": "vamos",
+          "vosotros": "vais",
+          "ellos/ellas/ustedes": "van"
+        },
+        "preterite": {
+          "yo": "fui",
+          "tú": "fuiste",
+          "él/ella/usted": "fue",
+          "nosotros": "fuimos",
+          "vosotros": "fuisteis",
+          "ellos/ellas/ustedes": "fueron"
+        }
+      }
+    },
+    {
+      "infinitive": "TENER",
+      "translation": "to have",
+      "conjugations": {
+        "present": {
+          "yo": "tengo",
+          "tú": "tienes",
+          "él/ella/usted": "tiene",
+          "nosotros": "tenemos",
+          "vosotros": "tenéis",
+          "ellos/ellas/ustedes": "tienen"
+        },
+        "preterite": {
+          "yo": "tuve",
+          "tú": "tuviste",
+          "él/ella/usted": "tuvo",
+          "nosotros": "tuvimos",
+          "vosotros": "tuvisteis",
+          "ellos/ellas/ustedes": "tuvieron"
+        }
+      }
+    },
+    {
+      "infinitive": "HACER",
+      "translation": "to do / to make",
+      "conjugations": {
+        "present": {
+          "yo": "hago",
+          "tú": "haces",
+          "él/ella/usted": "hace",
+          "nosotros": "hacemos",
+          "vosotros": "hacéis",
+          "ellos/ellas/ustedes": "hacen"
+        },
+        "preterite": {
+          "yo": "hice",
+          "tú": "hiciste",
+          "él/ella/usted": "hizo",
+          "nosotros": "hicimos",
+          "vosotros": "hicisteis",
+          "ellos/ellas/ustedes": "hicieron"
+        }
+      }
+    },
+    {
+      "infinitive": "DECIR",
+      "translation": "to say / to tell",
+      "conjugations": {
+        "present": {
+          "yo": "digo",
+          "tú": "dices",
+          "él/ella/usted": "dice",
+          "nosotros": "decimos",
+          "vosotros": "decís",
+          "ellos/ellas/ustedes": "dicen"
+        },
+        "preterite": {
+          "yo": "dije",
+          "tú": "dijiste",
+          "él/ella/usted": "dijo",
+          "nosotros": "dijimos",
+          "vosotros": "dijisteis",
+          "ellos/ellas/ustedes": "dijeron"
+        }
+      }
+    },
+    {
+      "infinitive": "DORMIR",
+      "translation": "to sleep",
+      "conjugations": {
+        "present": {
+          "yo": "duermo",
+          "tú": "duermes",
+          "él/ella/usted": "duerme",
+          "nosotros": "dormimos",
+          "vosotros": "dormís",
+          "ellos/ellas/ustedes": "duermen"
+        },
+        "preterite": {
+          "yo": "dormí",
+          "tú": "dormiste",
+          "él/ella/usted": "durmió",
+          "nosotros": "dormimos",
+          "vosotros": "dormisteis",
+          "ellos/ellas/ustedes": "durmieron"
+        }
+      }
+    },
+    {
+      "infinitive": "HABLAR",
+      "translation": "to speak",
+      "conjugations": {
+        "present": {
+          "yo": "hablo",
+          "tú": "hablas",
+          "él/ella/usted": "habla",
+          "nosotros": "hablamos",
+          "vosotros": "habláis",
+          "ellos/ellas/ustedes": "hablan"
+        },
+        "preterite": {
+          "yo": "hablé",
+          "tú": "hablaste",
+          "él/ella/usted": "habló",
+          "nosotros": "hablamos",
+          "vosotros": "hablasteis",
+          "ellos/ellas/ustedes": "hablaron"
+        }
+      }
+    },
+    {
+      "infinitive": "COMER",
+      "translation": "to eat",
+      "conjugations": {
+        "present": {
+          "yo": "como",
+          "tú": "comes",
+          "él/ella/usted": "come",
+          "nosotros": "comemos",
+          "vosotros": "coméis",
+          "ellos/ellas/ustedes": "comen"
+        },
+        "preterite": {
+          "yo": "comí",
+          "tú": "comiste",
+          "él/ella/usted": "comió",
+          "nosotros": "comimos",
+          "vosotros": "comisteis",
+          "ellos/ellas/ustedes": "comieron"
+        }
+      }
+    }
+  ],
+  "pronunciation": [
+    {
+      "title": "Question Words (Palabras Interrogativas)",
+      "content": "Spanish uses question words to ask questions. They always have an accent mark, and in written Spanish, questions are enclosed between ¿ and ?.\n\nThe main question words:\n- ¿Qué? = What?\n- ¿Quién? = Who?\n- ¿Cuánto(a)? = How much/many?\n- ¿Dónde? = Where?\n- ¿Cuándo? = When?\n- ¿Por qué? = Why?\n- ¿Cómo? = How?\n- ¿Cuál(es)? = Which?\n\nNote: 'Qué' (with accent) means 'what.' 'Que' (no accent) means 'that.' This is a common mistake!",
+      "examples": [
+        { "target": "¿Qué es eso?", "source": "What is that?" },
+        { "target": "¿Quién es ella?", "source": "Who is she?" },
+        { "target": "¿Dónde está el baño?", "source": "Where is the bathroom?" },
+        { "target": "¿Cuándo llega el tren?", "source": "When does the train arrive?" },
+        { "target": "¿Por qué no puedes?", "source": "Why can't you?" },
+        { "target": "¿Cómo te llamas?", "source": "What is your name?" },
+        { "target": "¿Cuánto cuesta?", "source": "How much does it cost?" }
+      ],
+      "aid_note": "Romanian has similar question words: 'ce' (what), 'cine' (who), 'unde' (where), 'când' (when), 'de ce' (why), 'cum' (how). Spanish adds 'cuánto' for quantities and 'cuál' for choices."
+    },
+    {
+      "title": "Intonation in Questions",
+      "content": "Spanish questions have a characteristic rising-falling intonation pattern. When you speak a question, your voice typically rises at the beginning and falls at the end.\n\nStatements vs Questions (same words, different intonation):\n- Él come pan. (He eats bread.) - flat tone\n- ¿Él come pan? (Does he eat bread?) - rising then falling\n\nYes/No questions and question-word questions both use intonation, but question-word questions have the pitch starting lower on the question word and rising before the end.\n\nIn writing, the accent mark on question words is mandatory: ¿Qué, ¿Quién, ¿Dónde, etc.",
+      "examples": [
+        { "target": "¿Estás bien?", "source": "Are you okay? (rising then falling)" },
+        { "target": "¿Quieres café?", "source": "Do you want coffee?" },
+        { "target": "¿A qué hora es?", "source": "What time is it?" },
+        { "target": "¿Cómo está?", "source": "How is he/she?" }
+      ],
+      "aid_note": "Unlike Romanian which often changes word order for questions, Spanish keeps the same word order and just uses intonation + ¿? marks. This makes it easier for Romanian speakers!"
+    },
+    {
+      "title": "The Rolled R vs Single R",
+      "content": "Spanish has a single tap /r/ and a rolled trill /rr/. Understanding the difference is key to being understood.\n\nSingle /r/ (tap - one quick flash of the tongue):\n- Between vowels: caro (expensive), perro (dog)\n- At the start of a word: rojo (red), ramo (bunch)\n- After consonants: azul (blue)\n\nDouble /rr/ or R at the start of a word (trill - multiple rapid flashes):\n- Between vowels: perro (dog), cerveza (beer)\n- At the start: rojo (red), Romeo\n\nTip: The rolled R requires airflow - place your tongue tip behind your upper teeth and blow air. It's like the sound a motor makes.",
+      "examples": [
+        { "target": "perro", "source": "dog (rolled R at start)" },
+        { "target": "cerveza", "source": "beer (double R = rolled)" },
+        { "target": "cara", "source": "face (single tap between vowels)" },
+        { "target": "rojo", "source": "red (rolled R at start)" }
+      ],
+      "aid_note": "Romanian also has a single 'r' sound that's similar to the Spanish tap. The rolled trill is an extra skill - practice with words like 'perro' (dog) vs 'pero' (but)."
+    }
+  ],
+  "exercises": [
+    { "type": "exercise", "question": "What is the preterite form of 'hablar' for 'yo'?", "options": ["hablaba", "hablé", "hablo", "hablaste"], "correct": 1, "explanation": "'Hablé' is the yo form of hablar in the preterite. The -é ending marks first-person singular preterite for -AR verbs." },
+    { "type": "exercise", "question": "Which time expression means 'yesterday' in Spanish?", "options": ["mañana", "hoy", "ayer", "anteayer"], "correct": 2, "explanation": "'Ayer' means yesterday. 'Mañana' is tomorrow, 'hoy' is today, 'anteayer' is the day before yesterday." },
+    { "type": "fill-in-blank", "question": "Complete: 'Nosotros ____ (comer) pizza anoche.' (We ate pizza last night.)", "correct": "comimos", "explanation": "'Comimos' is the nosotros form of comer in the preterite. -IR ending for -ER verb nosotros." },
+    { "type": "exercise", "question": "What does 'hace calor' mean?", "options": ["It's cold", "It's hot", "It's raining", "It's windy"], "correct": 1, "explanation": "'Hace calor' means 'It's hot' (literally: 'it makes heat'). For cold: 'hace frío'." },
+    { "type": "fill-in-blank", "question": "Complete: 'Ella ____ (decir) la verdad ayer.' (She told the truth yesterday.)", "correct": "dijo", "explanation": "'Dijo' is the irregular preterite of decir for él/ella/usted. The stem changes to dij-." },
+    { "type": "matching", "question": "Match each Spanish daily routine verb with its English meaning:", "pairs": [
+        { "target": "despertarse", "source": "to wake up" },
+        { "target": "levantarse", "source": "to get up" },
+        { "target": "ducharse", "source": "to take a shower" },
+        { "target": "desayunar", "source": "to have breakfast" },
+        { "target": "cenar", "source": "to have dinner" }
+      ],
+      "explanation": "These reflexive and regular verbs are key for describing your daily routine."
+    },
+    { "type": "exercise", "question": "What is the correct demonstrative for 'this book (near me)?'", "options": ["ese libro", "este libro", "aquel libro", "esta libro"], "correct": 1, "explanation": "'Este libro' means 'this book' (near the speaker). 'Este' is masculine singular, matching 'libro'." },
+    { "type": "fill-in-blank", "question": "Complete: 'Hoy yo ____ (hacer) la tarea.' (Today I did the homework.)", "correct": "hice", "explanation": "'Hice' is the irregular preterite of hacer for yo. The stem changes to hic-." },
+    { "type": "exercise", "question": "What is the present perfect of 'yo + hablar'?", "options": ["yo hablo", "yo he hablado", "yo hablaba", "yo hablé"], "correct": 1, "explanation": "'He hablado' is the present perfect: yo form of haber (he) + past participle (hablado)." },
+    { "type": "fill-in-blank", "question": "Complete: 'Mis ____ (key) están en la mesa.' (My keys are on the table.)", "correct": "llaves", "explanation": "'Llaves' is the plural of llave (key). 'Mis' matches the plural - 'mi' would be singular." },
+    { "type": "exercise", "question": "What does 'nunca' mean?", "options": ["Always", "Sometimes", "Never", "Already"], "correct": 2, "explanation": "'Nunca' means never. Note: 'Siempre' = always, 'A veces' = sometimes, 'Ya' = already." },
+    { "type": "fill-in-blank", "question": "Complete: 'Ayer ____ (estar) en el supermercado.' (Yesterday I was at the supermarket.)", "correct": "estuve", "explanation": "'Estuve' is the irregular preterite of estar for yo. The stem changes to estuv-." },
+    { "type": "exercise", "question": "Which verb means 'to go to bed' in Spanish?", "options": ["dormir", "irse a la cama", "dormirse", "acostarse"], "correct": 1, "explanation": "'Irse a la cama' means 'to go to bed.' 'Dormir' means 'to sleep' (the state, not the action of going to bed)." },
+    { "type": "matching", "question": "Match the days of the week:", "pairs": [
+        { "target": "lunes", "source": "Monday" },
+        { "target": "miércoles", "source": "Wednesday" },
+        { "target": "viernes", "source": "Friday" },
+        { "target": "sábado", "source": "Saturday" },
+        { "target": "domingo", "source": "Sunday" }
+      ],
+      "explanation": "All days of the week are masculine in Spanish and are preceded by 'el' (el lunes, el martes, etc.)."
+    },
+    { "type": "exercise", "question": "What is the preterite of 'tener' for 'él/ella'? ", "options": ["tenió", "tuvo", "tuvo", "tuvío"], "correct": 2, "explanation": "'Tuvo' is the correct preterite form. Note the accent on the o - it follows the rule for words ending in a vowel (stress on 2nd-to-last by default)." },
+    { "type": "fill-in-blank", "question": "Complete: '¿____ (haber) ____ (you) comido?' (Have you eaten?)", "correct": "has comido", "explanation": "'¿Has comido?' is the present perfect: tú form of haber (has) + past participle (comido)." },
+    { "type": "exercise", "question": "What does 'hace frío' mean?", "options": ["It's hot", "It's windy", "It's cold", "It's cloudy"], "correct": 2, "explanation": "'Hace frío' means 'It's cold' (literally: 'it makes cold'). 'Hace calor' = it's hot." },
+    { "type": "fill-in-blank", "question": "Complete: 'Yo ____ (ir) al mercado la semana pasada.' (I went to the market last week.)", "correct": "fui", "explanation": "'Fui' is the irregular preterite of ir for yo. IR and ESTAR share the same preterite conjugations." },
+    { "type": "matching", "question": "Match the food vocabulary:", "pairs": [
+        { "target": "el pan", "source": "bread" },
+        { "target": "la fruta", "source": "fruit" },
+        { "target": "los huevos", "source": "eggs" },
+        { "target": "la sopa", "source": "soup" },
+        { "target": "el arroz", "source": "rice" }
+      ],
+      "explanation": "These are common food items you'll encounter at breakfast, lunch, or dinner."
+    },
+    { "type": "exercise", "question": "What is the correct demonstrative for 'those mountains (far from both of us)?'", "options": ["esas montañas", "estas montañas", "aquellas montañas", "esos montañas"], "correct": 2, "explanation": "'Aquellas montañas' uses the far-distance demonstrative (aquel) in feminine plural form, matching 'montañas.'" },
+    { "type": "fill-in-blank", "question": "Complete: 'Nosotros ____ (vivir) en España hace cinco años.' (We have lived in Spain for five years.)", "correct": "hacemos", "explanation": "Wait - this uses 'hace' + duration for 'for.' 'Nosotros vivimos en España hace cinco años' uses the preterite of vivir. But for present perfect of living: 'Hemos vivido.' For 'hace' (duration marker): 'Hace cinco años que vivimos aquí.' The answer depends on sentence structure." },
+    { "type": "exercise", "question": "What is the question word for 'where' in Spanish?", "options": ["cuándo", "cómo", "dónde", "por qué"], "correct": 2, "explanation": "'¿Dónde?' means 'Where?' It always has an accent mark. Written questions use ¿dónde...?'" },
+    { "type": "fill-in-blank", "question": "Complete: '¿Cuánto ____ (costar) esto?' (How much does this cost?)", "correct": "cuesta", "explanation": "'Cuesta' is the él/ella/usted form of costar. In questions, you use the third person: '¿Cuánto cuesta?'" },
+    { "type": "exercise", "question": "What is the irregular past participle of 'hacer'?", "options": ["hacido", "hecho", "hacado", "hacio"], "correct": 1, "explanation": "'Hecho' is the irregular past participle of hacer. Used in present perfect: 'He hecho' (I have done).", "aid_note": "Common irregular participles: hacer->hecho, decir->dicho, escribir->escrito, ver->visto, abrir->abierto." },
+    { "type": "matching", "question": "Match the weather expressions:", "pairs": [
+        { "target": "hace sol", "source": "it's sunny" },
+        { "target": "llueve", "source": "it's raining" },
+        { "target": "hace frío", "source": "it's cold" },
+        { "target": "está nublado", "source": "it's cloudy" },
+        { "target": "nieva", "source": "it's snowing" }
+      ],
+      "explanation": "Weather expressions are essential for small talk and planning daily activities in Spanish."
+    },
+    { "type": "conjugation-matrix", "question": "Complete the preterite tense conjugation table for HACER:", "verb": "HACER", "tenses": ["preterite"], "explanation": "Hacer is irregular in the preterite (hic- stem). This is one of the most common verbs in Spanish." },
+    { "type": "exercise", "question": "Which sentence uses the correct present perfect?", "options": ["Yo he comido", "Yo has comido", "Yo ha comido", "Yo hemos comido"], "correct": 0, "explanation": "'He comido' is correct: yo form of haber (he) + past participle (comido). Has = tú, ha = él/ella, hemos = nosotros." },
+    { "type": "fill-in-blank", "question": "Complete: 'Tú ____ (dormir) ocho horas anoche.' (You slept eight hours last night.)", "correct": "dormiste", "explanation": "'Dormiste' is the tú form of dormir in the preterite. Note: dormir has a stem change (o->ue) in present but NOT in preterite yo/nosotros." },
+    { "type": "exercise", "question": "What does 'todavía no' mean?", "options": ["Already no", "Still yes", "Not yet", "Never again"], "correct": 2, "explanation": "'Todavía no' means 'not yet.' 'Todavía sí' means 'still yes.' 'Ya' means 'already.'" },
+    { "type": "fill-in-blank", "question": "Complete: 'Hace dos días yo ____ (llegar) a Madrid.' (I arrived in Madrid two days ago.)", "correct": "llegué", "explanation": "'Llegué' is the yo form of llegar in the preterite. -AR verbs get -é for yo preterite." },
+    { "type": "exercise", "question": "Which of these is a reflexive verb for daily routine?", "options": ["comer", "hablar", "despertarse", "trabajar"], "correct": 2, "explanation": "'Despertarse' (to wake up) is reflexive - the action reflects back on the subject: yo me despierto." }
+  ]
+}
