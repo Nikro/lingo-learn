@@ -5,6 +5,7 @@ function app() {
     loading: true,
     sidebarOpen: false,
     settingsOpen: false,
+    dataError: false,
     registry: [],
     aidLanguages: [],
     appLevels: [
@@ -240,10 +241,17 @@ function app() {
 
     async loadStageData(levelId, stageId) {
       this.loading = true;
+      this.dataError = false;
       try {
         // stageId is already in filename format (a1-1, a2-3, b1-2, etc.)
         var response = await fetch('data/' + this.currentLocale + '/' + stageId + '.json');
+        if (!response.ok) throw new Error('HTTP ' + response.status);
         this.stageData = await response.json();
+        if (!this.stageData || Object.keys(this.stageData).length === 0) {
+          this.dataError = true;
+          this.loading = false;
+          return;
+        }
         this.renderPillar();
       } catch (e) {
         console.error('Failed to load stage data:', e);
@@ -256,9 +264,9 @@ function app() {
           verbs: [],
           pronunciation: []
         };
-        this.renderPillar();
+        this.dataError = true;
+        this.loading = false;
       }
-      this.loading = false;
     },
 
     // ─── Navigation ───
@@ -641,17 +649,37 @@ function app() {
         if (correct) this.pillarScoreMap[question.pillar]++;
       }
 
+      var oldXP = this.xp;
+
       if (correct) {
         this.quizScore++;
         var xpEarned = Storage.calculateXP(1);
         Storage.addXP(xpEarned);
         this.xp = Storage.getXP();
+        // Animate XP counter
+        this.animateXP(oldXP, this.xp);
         this.quizFeedback = { correct: true, explanation: question.explanation || 'Correct!' };
+        // Add pop animation to feedback
+        setTimeout(() => {
+          var fbEl = document.querySelector('[x-show="quizFeedback"]');
+          if (fbEl) {
+            fbEl.classList.add('feedback-pop');
+            setTimeout(() => fbEl.classList.remove('feedback-pop'), 300);
+          }
+        }, 50);
       } else {
         this.quizFeedback = {
           correct: false,
           explanation: question.explanation || ('The correct answer is: ' + this.getCorrectAnswer(question))
         };
+        // Shake animation for wrong answer
+        setTimeout(() => {
+          var qEl = document.querySelector('[x-text*="quizQuestions[quizIndex]"]');
+          if (qEl) {
+            qEl.classList.add('feedback-shake');
+            setTimeout(() => qEl.classList.remove('feedback-shake'), 400);
+          }
+        }, 50);
       }
 
       this.quizAnswered = true;
@@ -942,8 +970,10 @@ function app() {
       var correctCount = this.matchResults.filter(function(r) { return r; }).length;
       this.quizScore = correctCount;
       var xpEarned = Storage.calculateXP(correctCount);
+      var oldXP = this.xp;
       Storage.addXP(xpEarned);
       this.xp = Storage.getXP();
+      this.animateXP(oldXP, this.xp);
 
       // Track per-pillar score (matching is under its pillar)
       var question = this.quizQuestions[this.quizIndex];
@@ -1007,8 +1037,10 @@ function app() {
       var totalCells = this.matrixTotalCells;
       this.quizScore = correctCount;
       var xpEarned = Storage.calculateXP(correctCount); // 5→10 base, streak bonus applies on top
+      var oldXP = this.xp;
       Storage.addXP(xpEarned);
       this.xp = Storage.getXP();
+      this.animateXP(oldXP, this.xp);
 
       // Save results to question object
       var q = this.quizQuestions[this.quizIndex];
@@ -1120,6 +1152,14 @@ function app() {
       // Track quiz attempt for retry comparison
       this.trackQuizAttempt(this.quizScore, this.quizQuestions.length);
 
+      // Confetti for great performance
+      var ratio = this.quizQuestions.length > 0 ? this.quizScore / this.quizQuestions.length : 0;
+      if (ratio >= 0.8) {
+        this.spawnConfetti(40);
+      } else if (ratio >= 0.5) {
+        this.spawnConfetti(15);
+      }
+
       // Don't use alert — the results screen shows everything
       console.log('Quiz complete! Score: ' + this.quizScore + '/' + this.quizQuestions.length + ', XP: +' + (this.quizScore * 10 + Storage.getStreakBonus(this.quizScore)));
     },
@@ -1211,6 +1251,72 @@ function app() {
     // Get streak multiplier (returns numeric multiplier: 1, 1.5, or 2)
     getStreakMultiplier: function() {
       return Storage.getStreakMultiplier();
+    },
+
+    // ── UI Polish: Utility Functions ──
+
+    // XP count-up animation
+    animateXP: function(from, to) {
+      var duration = 400;
+      var start = performance.now();
+      var el = document.querySelector('[x-text*="xp"]');
+      if (!el) return;
+      var self = this;
+      (function tick(now) {
+        var elapsed = now - start;
+        var progress = Math.min(elapsed / duration, 1);
+        // Ease out cubic
+        var eased = 1 - Math.pow(1 - progress, 3);
+        var current = Math.round(from + (to - from) * eased);
+        // Find the XP display element and update it
+        var xpElements = document.querySelectorAll('[x-text="xp"]');
+        for (var i = 0; i < xpElements.length; i++) {
+          xpElements[i].textContent = current;
+        }
+        if (progress < 1) {
+          requestAnimationFrame(tick);
+        } else {
+          // Pulse animation
+          var xpBadge = document.querySelector('.badge-primary');
+          if (xpBadge) {
+            xpBadge.classList.add('xp-animate');
+            setTimeout(function() { xpBadge.classList.remove('xp-animate'); }, 400);
+          }
+        }
+      })(start);
+    },
+
+    // Confetti particle effect
+    spawnConfetti: function(count) {
+      count = count || 30;
+      var colors = ['#6366f1', '#f59e0b', '#22c55e', '#ef4444', '#8b5cf6', '#06b6d4', '#ec4899'];
+      for (var i = 0; i < count; i++) {
+        (function(idx) {
+          setTimeout(function() {
+            var particle = document.createElement('div');
+            particle.className = 'confetti';
+            particle.style.left = (Math.random() * 100) + 'vw';
+            particle.style.top = (Math.random() * 30 - 5) + 'vh';
+            particle.style.backgroundColor = colors[Math.floor(Math.random() * colors.length)];
+            particle.style.width = (4 + Math.random() * 6) + 'px';
+            particle.style.height = (4 + Math.random() * 6) + 'px';
+            particle.style.animationDuration = (1 + Math.random() * 1) + 's';
+            document.body.appendChild(particle);
+            setTimeout(function() {
+              if (particle.parentNode) particle.parentNode.removeChild(particle);
+            }, 2500);
+          }, idx * 30);
+        })(i);
+      }
+    },
+
+    // Smooth progress bar animation via Alpine expression
+    // (DaisyUI progress bars animate natively via CSS transition on the value attribute)
+
+    // Trigger skeleton → content transition
+    setSkeletonLoading: function(isLoading) {
+      this.loading = isLoading;
+      this.dataError = false;
     }
   };
 }
