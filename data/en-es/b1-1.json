@@ -1,0 +1,831 @@
+{
+  "id": "b1-1",
+  "title": "Stage B1.1 - Advanced Subjunctive & Complex Narratives",
+  "description": "Master the imperfect subjunctive, passive constructions, relative pronouns, and advanced connectors. Transition from basic narratives to complex, nuanced Spanish.",
+  "grammar": [
+    {
+      "title": "Imperfect Subjunctive (Pretérito Imperfecto de Subjuntivo)",
+      "content": "The imperfect subjunctive expresses hypothetical actions, wishes, or conditions in the past — the subjunctive counterpart of the imperfect indicative. There are two valid sets of endings (-ra and -se) that are interchangeable in meaning; the -ra forms are more common in speech. To form it, start from the 3rd-person plural preterite (ellos/ellas/Uds.), drop the -ron ending, and add -ra or -se endings.\n\nConjugation pattern:\n- They walked = ellos caminaron → raíz: camin-\n- caminara / caminase\n\nThis tense is essential for conditional sentences (\"If I had known...\") and reported speech.",
+      "table": {
+        "headers": ["Pronoun", "-ra endings", "-se endings"],
+        "rows": [
+          ["yo", "hablara / hablase", "comiera / comiese", "viviera / viviese"],
+          ["tú", "hablaras / hablases", "comieras / comieses", "vivieras / vivieses"],
+          ["él/ella/usted", "hablara / hablase", "comiera / comiese", "viviera / viviese"],
+          ["nosotros", "habláramos / hablásemos", "comiéramos / comiésemos", "viviéramos / viviésemos"],
+          ["vosotros", "hablarais / hablaseis", "comierais / comieseis", "vivierais / vivieseis"],
+          ["ellos/ellas/ustedes", "hablaran / hablasen", "comieran / comiesen", "vivieran / viviesen"]
+        ]
+      },
+      "examples": [
+        "Si tuviera dinero, viajaría por Sudamérica. (If I had money, I would travel through South America.)",
+        "Espero que vinieras a la fiesta. (I hope you came to the party.)",
+        "Quería que nos explicaras la regla. (I wanted you to explain the rule to us.)"
+      ],
+      "aid_note": "Romanian Conjunctiv (subjunctive) also has imperfect/hypothetical forms — similar concept. The Spanish -ra form actually derives from the Latin pluperfect indicative, which is fascinating historically. In Romanian, 'aș vorbi' (I would speak) is closer to Spanish conditional, but the subjunctive trigger structures are analogous."
+    },
+    {
+      "title": "Subjunctive vs Indicative in Complex Clauses",
+      "content": "At B1 level, you need to understand when subordinate clauses require the subjunctive vs. the indicative. This depends on the MAIN clause expressing certainty (indicative) vs. doubt, desire, emotion, or possibility (subjunctive).\n\nKey trigger categories:\n- **Wants/Desires:** querer que, desear que, pedir que → subjunctive\n- **Emotions:** alegrarse de que, temer que, sentir que → subjunctive\n- **Doubt/Denial:** dudar que, no creer que, negar que → subjunctive\n- **Certainty/Reality:** creer que, es cierto que, es verdad que → indicative\n- **Temporal clauses (future reference):** cuando + subjunctive (for actions not yet realized)\n\nRule of thumb: If the main clause expresses something subjective (desire, doubt, emotion), the subordinate clause needs subjunctive.",
+      "table": {
+        "headers": ["Main Clause Verb", "Meaning", "Mood in Subordinate"],
+        "rows": [
+          ["creer que", "to believe that", "indicative"],
+          ["no creer que", "to not believe that", "subjunctive"],
+          ["es cierto que", "it's certain that", "indicative"],
+          ["es posible que", "it's possible that", "subjunctive"],
+          ["quiero que", "I want that", "subjunctive"],
+          ["sé que", "I know that", "indicative"],
+          ["temo que", "I fear that", "subjunctive"],
+          ["es verdad que", "it's true that", "indicative"]
+        ]
+      },
+      "examples": [
+        "Creo que ella viene mañana. (I believe she's coming tomorrow.) — indicative because 'creer' = certainty",
+        "No creo que ella venga mañana. (I don't believe she's coming tomorrow.) — subjunctive because doubt",
+        "Espero que tengas razón. (I hope you're right.) — subjunctive because 'esperar' = desire",
+        "Es posible que llueva. (It's possible it will rain.) — subjunctive because 'es posible que' = possibility"
+      ],
+      "aid_note": "This is a major hurdle for Romanian speakers too. Romanian also distinguishes indicative and conjunctiv (subjunctive) based on the main clause verb. The pattern 'crede că (+indicativ)' vs 'nu cred că (+conjunctiv)' mirrors Spanish exactly: 'creer que (+indicativo)' vs 'no creer que (+subjuntivo)'. Use this parallel to your advantage!"
+    },
+    {
+      "title": "Passive Voice (Voz Pasiva: Ser + Participio)",
+      "content": "The passive voice in Spanish is formed with SER + past participle (which agrees in gender/number with the subject). Unlike English, Spanish uses the passive voice less frequently — the 'se' construction is often preferred. However, the passive is common in formal writing, news, and academic contexts.\n\nFormula: Subject + SER (conjugated) + Past Participle + (por + agent)\n\nThe past participle MUST agree in gender and number with the subject.\n\nRegular participles:\n- -ar → -ado (hablar → hablado)\n- -er → -ido (comer → comido)\n- -ir → -ido (vivir → vivido)\n\nIrregular participles (must memorize): hecho, dicho, escrito, visto, roto, puesto, abierto, muerto, resuelto, descubierto.",
+      "table": {
+        "headers": ["Active Voice", "Passive Voice", "Note"],
+        "rows": [
+          ["El gobierno aprobó la ley.", "La ley fue aprobada por el gobierno.", "feminine singular: aprobada"],
+          ["Los obreros construyeron el puente.", "El puente fue construido por los obreros.", "masculine singular: construido"],
+          ["Alguien robó mis llaves.", "Mis llaves fueron robadas.", "feminine plural: robadas"],
+          ["El escritor escribió el libro.", "El libro fue escrito por el escritor.", "irregular participle: escrito"]
+        ]
+      },
+      "examples": [
+        "La catedral fue construida en el siglo XII. (The cathedral was built in the 12th century.)",
+        "El informe será publicado mañana. (The report will be published tomorrow.)",
+        "El contrato debe ser firmado antes del viernes. (The contract must be signed before Friday.)",
+        "Muchas obras fueron destruidas durante la guerra. (Many works were destroyed during the war.)"
+      ],
+      "aid_note": "Romanian also has a passive voice (passivul) formed with 'a fi' + past participle — very similar pattern. However, Romanian uses it more frequently in speech. In Spanish, prefer 'se' constructions in everyday conversation: 'Se venden casas' instead of 'Las casas son vendidas'."
+    },
+    {
+      "title": "Se Passive (Pasiva Refleja)",
+      "content": "The 'se passive' (also called 'impersonal se' with passive meaning) is the MOST COMMON way to express passive ideas in everyday Spanish. It's used when the agent is unknown or unimportant.\n\nFormula: se + verb (3rd person singular/plural) + subject\n\nThe verb agrees in number with the subject that follows it. This is the go-to construction for signs, advertisements, and general statements.\n\n- Singular subject → verb in singular: Se vende la casa\n- Plural subject → verb in plural: Se venden casas\n\nCommon situations:\n- Real estate signs: Se vende / Se alquila\n- Store announcements: Se aceptan devoluciones\n- General rules: Se dice que… (It is said that…)",
+      "table": {
+        "headers": ["Sentence", "Type", "Note"],
+        "rows": [
+          ["Se vende el apartamento.", "Passive se + singular subject", "The apartment is for sale"],
+          ["Se alquilan habitaciones.", "Passive se + plural subject", "Rooms are for rent"],
+          ["Se necesita personal.", "Impersonal (no subject)", "Staff is needed (no subject to agree with)"],
+          ["Se dice que va a llover.", "Impersonal + clause", "It is said that it's going to rain"]
+        ]
+      },
+      "examples": [
+        "Se busca profesor de español. (Spanish teacher wanted.)",
+        "Se celebran las fiestas en agosto. (The celebrations take place in August.)",
+        "Aquí se come muy bien. (One eats very well here / The food is very good here.)",
+        "Se estima que el problema se resolverá pronto. (It is estimated that the problem will be resolved soon.)"
+      ],
+      "aid_note": "Romanian uses 'se' extensively too (passivul reflexiv): 'Se vinde casa', 'Se caută angajați' — the structure is nearly identical. If you know Romanian se-passive, you already know Spanish se-passive!"
+    },
+    {
+      "title": "Relative Pronouns (Pronombres Relativos)",
+      "content": "Relative pronouns connect clauses and add information about a noun. At B1, you need to master the full range beyond just 'que'.\n\nKey relative pronouns:\n- **que** — most common, refers to people or things (the one that/who)\n- **el cual / la cual / los cuales / las cuales** — more formal, can follow prepositions, clarifies ambiguity\n- **cuyo / cuya / cuyos / cuyas** — possessive relative ('whose'), agrees with the THING possessed, not the person\n- **donde** — place ('where')\n- **cual** — used after prepositions in formal contexts\n- **lo que / lo cual** — refers to an entire preceding idea (not just a noun)\n\nUsage notes:\n- 'Cuyo' is used less frequently in speech but essential for formal writing\n- 'El cual' is preferred after prepositions with more than 2 syllables (con, según, tras, etc.)\n- 'Lo que' = 'the thing that' — it cannot refer to a specific noun",
+      "table": {
+        "headers": ["Pronoun", "Usage", "Example"],
+        "rows": [
+          ["que", "General (people/things)", "El libro que leí es bueno"],
+          ["el cual / la cual", "Formal, after prepositions", "La ciudad, en la cual nací, es pequeña"],
+          ["cuyo / cuya", "Possessive (whose)", "El artista cuyo trabajo exponemos"],
+          ["donde", "Place", "La casa donde crecí"],
+          ["lo que / lo cual", "Refers to whole idea", "No vino, lo cual me sorprendió"]
+        ]
+      },
+      "examples": [
+        "El profesor, cuyo libro leíste, es muy reconocido. (The professor, whose book you read, is very well-known.)",
+        "La empresa en la cual trabajo cerrará. (The company in which I work will close.)",
+        "Eso fue lo que me dijo. (That's what he told me.)",
+        "El parque donde jugábamos de niños ha desaparecido. (The park where we played as children has disappeared.)",
+        "Me dio los documentos, los cuales revisé con cuidado. (He gave me the documents, which I reviewed carefully.)"
+      ],
+      "aid_note": "Romanian has very similar relative pronouns: 'care' (that/who), 'al cual' (to whom), 'cărui/căruia' (whose). The Romanian 'al cărui' is the direct equivalent of 'cuyo'. The prepositional use of 'el cual' mirrors Romanian 'la care', 'în care', etc."
+    },
+    {
+      "title": "Advanced Connectors (Conectores Avanzados)",
+      "content": "Advanced connectors (discourse markers) allow you to link ideas cohesively and express logical relationships. These are essential for B1-level fluency and formal writing.\n\nCategories:\n\n**Contrast / Opposition:**\n- sin embargo = however (stronger than 'pero')\n- no obstante = nevertheless (formal)\n- a pesar de (que) = despite (that)\n- aunque = although/even though\n- por el contrario = on the contrary\n\n**Cause / Reason:**\n- porque / pues / ya que = because\n- debido a (que) = due to (that)\n- por lo tanto / por eso = therefore\n- en consecuencia = consequently\n\n**Addition:**\n- además = furthermore/in addition\n- asimismo = likewise\n- también = also\n\n**Clarification / Example:**\n- es decir = that is / in other words\n- es decir que = which means\n- por ejemplo = for example\n- en particular = in particular\n\n**Conclusion:**\n- en resumen = in summary\n- en conclusión = in conclusion\n- finalmente = finally\n- en definitiva = ultimately",
+      "table": {
+        "headers": ["Connector", "Function", "Example"],
+        "rows": [
+          ["sin embargo", "contrast", "Estudié mucho; sin embargo, reprobé."],
+          ["a pesar de que", "concession", "Fuimos a pesar de que llovía."],
+          ["por lo tanto", "conclusion", "No tenía dinero, por lo tanto no compré."],
+          ["debido a", "cause", "El vuelo se canceló debido a la tormenta."],
+          ["además", "addition", "Es inteligente; además, es amable."],
+          ["en conclusión", "summary", "En conclusión, recomiendo este libro."],
+          ["aun cuando", "concession", "Iré aun cuando esté cansado."],
+          ["por consiguiente", "consequence", "Llovió todo el día; por consiguiente, no salimos."]
+        ]
+      },
+      "examples": [
+        "El proyecto es ambicioso; sin embargo, tiene grandes ventajas. (The project is ambitious; however, it has great advantages.)",
+        "A pesar de que hace frío, vamos a caminar. (Even though it's cold, we're going for a walk.)",
+        "No estudió para el examen; por lo tanto, suspendió. (He didn't study for the exam; therefore, he failed.)",
+        "Debido a la crisis económica, muchos cerraron sus negocios. (Due to the economic crisis, many closed their businesses.)",
+        "Además de hablar español, también habla inglés y francés. (In addition to speaking Spanish, he also speaks English and French.)"
+      ],
+      "aid_note": "Romanian has very similar discourse markers: 'însă' = sin embargo, 'în schimb' = por el contrario, 'prin urmare' = por lo tanto, 'de asemenea' = además, 'cu toate că' = a pesar de que. The mapping is almost one-to-one — use Romanian connectors as a mental bridge."
+    }
+  ],
+  "vocabulary": [
+    { "id": 1, "target": "la libertad", "source": "freedom", "gender": "f.", "type": "other" },
+    { "id": 2, "target": "la justicia", "source": "justice", "gender": "f.", "type": "other" },
+    { "id": 3, "target": "el medio ambiente", "source": "environment", "gender": "m.", "type": "other" },
+    { "id": 4, "target": "la igualdad", "source": "equality", "gender": "f.", "type": "other" },
+    { "id": 5, "target": "la democracia", "source": "democracy", "gender": "f.", "type": "other" },
+    { "id": 6, "target": "el derecho", "source": "right / law", "gender": "m.", "type": "other" },
+    { "id": 7, "target": "el deber", "source": "duty", "gender": "m.", "type": "other" },
+    { "id": 8, "target": "la desigualdad", "source": "inequality", "gender": "f.", "type": "other" },
+    { "id": 9, "target": "la corrupción", "source": "corruption", "gender": "f.", "type": "other" },
+    { "id": 10, "target": "la economía", "source": "economy", "gender": "f.", "type": "other" },
+    { "id": 11, "target": "la inflación", "source": "inflation", "gender": "f.", "type": "other" },
+    { "id": 12, "target": "el desempleo", "source": "unemployment", "gender": "m.", "type": "other" },
+    { "id": 13, "target": "el salario", "source": "salary / wage", "gender": "m.", "type": "other" },
+    { "id": 14, "target": "el presupuesto", "source": "budget", "gender": "m.", "type": "other" },
+    { "id": 15, "target": "la recaudación de impuestos", "source": "tax collection", "gender": "f.", "type": "other" },
+    { "id": 16, "target": "la deuda pública", "source": "public debt", "gender": "f.", "type": "other" },
+    { "id": 17, "target": "el crecimiento económico", "source": "economic growth", "gender": "m.", "type": "other" },
+    { "id": 18, "target": "la recesión", "source": "recession", "gender": "f.", "type": "other" },
+    { "id": 19, "target": "el billete / el boleto", "source": "ticket / bill", "gender": "m.", "type": "other" },
+    { "id": 20, "target": "el equipaje", "source": "luggage", "gender": "m.", "type": "other" },
+    { "id": 21, "target": "la frontera", "source": "border", "gender": "f.", "type": "other" },
+    { "id": 22, "target": "la aduana", "source": "customs", "gender": "f.", "type": "other" },
+    { "id": 23, "target": "la escala", "source": "layover", "gender": "f.", "type": "other" },
+    { "id": 24, "target": "el visado", "source": "visa", "gender": "m.", "type": "other" },
+    { "id": 25, "target": "el pasaporte", "source": "passport", "gender": "m.", "type": "other" },
+    { "id": 26, "target": "el check-in", "source": "check-in", "gender": "m.", "type": "other" },
+    { "id": 27, "target": "la tarjeta de embarque", "source": "boarding pass", "gender": "f.", "type": "other" },
+    { "id": 28, "target": "retrasar", "source": "to delay", "gender": "—", "type": "verb" },
+    { "id": 29, "target": "cancelar un vuelo", "source": "to cancel a flight", "gender": "—", "type": "verb" },
+    { "id": 30, "target": "hacer el check-in", "source": "to check in", "gender": "—", "type": "verb" },
+    { "id": 31, "target": "el síntoma", "source": "symptom", "gender": "m.", "type": "other" },
+    { "id": 32, "target": "el diagnóstico", "source": "diagnosis", "gender": "m.", "type": "other" },
+    { "id": 33, "target": "la receta", "source": "prescription", "gender": "f.", "type": "other" },
+    { "id": 34, "target": "el tratamiento", "source": "treatment", "gender": "m.", "type": "other" },
+    { "id": 35, "target": "la dolencia", "source": "ailment", "gender": "f.", "type": "other" },
+    { "id": 36, "target": "la urgencia", "source": "emergency", "gender": "f.", "type": "other" },
+    { "id": 37, "target": "la alergia", "source": "allergy", "gender": "f.", "type": "other" },
+    { "id": 38, "target": "el dolor de cabeza", "source": "headache", "gender": "m.", "type": "other" },
+    { "id": 39, "target": "tener fiebre", "source": "to have a fever", "gender": "—", "type": "verb" },
+    { "id": 40, "target": "reponerse", "source": "to recover", "gender": "—", "type": "verb" },
+    { "id": 41, "target": "la música clásica", "source": "classical music", "gender": "f.", "type": "other" },
+    { "id": 42, "target": "la escultura", "source": "sculpture", "gender": "f.", "type": "other" },
+    { "id": 43, "target": "la pintura", "source": "painting", "gender": "f.", "type": "other" },
+    { "id": 44, "target": "el museo", "source": "museum", "gender": "m.", "type": "other" },
+    { "id": 45, "target": "la galería", "source": "gallery", "gender": "f.", "type": "other" },
+    { "id": 46, "target": "el teatro", "source": "theater", "gender": "m.", "type": "other" },
+    { "id": 47, "target": "la novela", "source": "novel", "gender": "f.", "type": "other" },
+    { "id": 48, "target": "el poema", "source": "poem", "gender": "m.", "type": "other" },
+    { "id": 49, "target": "exponer", "source": "to exhibit / expose", "gender": "—", "type": "verb" },
+    { "id": 50, "target": "representar", "source": "to perform / represent", "gender": "—", "type": "verb" },
+    { "id": 51, "target": "el político", "source": "politician", "gender": "m.", "type": "other" },
+    { "id": 52, "target": "la elección", "source": "election", "gender": "f.", "type": "other" },
+    { "id": 53, "target": "votar", "source": "to vote", "gender": "—", "type": "verb" },
+    { "id": 54, "target": "el candidato", "source": "candidate", "gender": "m.", "type": "other" },
+    { "id": 55, "target": "la campaña electoral", "source": "election campaign", "gender": "f.", "type": "other" },
+    { "id": 56, "target": "la legislación", "source": "legislation", "gender": "f.", "type": "other" },
+    { "id": 57, "target": "aprobar una ley", "source": "to pass a law", "gender": "—", "type": "verb" },
+    { "id": 58, "target": "la Constitución", "source": "Constitution", "gender": "f.", "type": "other" },
+    { "id": 59, "target": "el consenso", "source": "consensus", "gender": "m.", "type": "other" },
+    { "id": 60, "target": "la opinión pública", "source": "public opinion", "gender": "f.", "type": "other" },
+    { "id": 61, "target": "el desarrollo sostenible", "source": "sustainable development", "gender": "m.", "type": "other" },
+    { "id": 62, "target": "la contaminación", "source": "pollution", "gender": "f.", "type": "other" },
+    { "id": 63, "target": "el cambio climático", "source": "climate change", "gender": "m.", "type": "other" },
+    { "id": 64, "target": "la energía renovable", "source": "renewable energy", "gender": "f.", "type": "other" },
+    { "id": 65, "target": "el reciclaje", "source": "recycling", "gender": "m.", "type": "other" },
+    { "id": 66, "target": "la biodiversidad", "source": "biodiversity", "gender": "f.", "type": "other" },
+    { "id": 67, "target": "proteger", "source": "to protect", "gender": "—", "type": "verb" },
+    { "id": 68, "target": "contaminar", "source": "to pollute", "gender": "—", "type": "verb" },
+    { "id": 69, "target": "la vivienda", "source": "housing", "gender": "f.", "type": "other" },
+    { "id": 70, "target": "el empleo", "source": "employment / job", "gender": "m.", "type": "other" },
+    { "id": 71, "target": "la inmigración", "source": "immigration", "gender": "f.", "type": "other" },
+    { "id": 72, "target": "la educación pública", "source": "public education", "gender": "f.", "type": "other" },
+    { "id": 73, "target": "la salud pública", "source": "public health", "gender": "f.", "type": "other" },
+    { "id": 74, "target": "el bienestar social", "source": "social welfare", "gender": "m.", "type": "other" },
+    { "id": 75, "target": "la seguridad social", "source": "social security", "gender": "f.", "type": "other" },
+    { "id": 76, "target": "el bienestar", "source": "well-being", "gender": "m.", "type": "other" },
+    { "id": 77, "target": "el conflicto", "source": "conflict", "gender": "m.", "type": "other" },
+    { "id": 78, "target": "la paz", "source": "peace", "gender": "f.", "type": "other" },
+    { "id": 79, "target": "el acuerdo", "source": "agreement / deal", "gender": "m.", "type": "other" },
+    { "id": 80, "target": "la protesta", "source": "protest", "gender": "f.", "type": "other" },
+    { "id": 81, "target": "manifestar", "source": "to protest", "gender": "—", "type": "verb" },
+    { "id": 82, "target": "el arte moderno", "source": "modern art", "gender": "m.", "type": "other" },
+    { "id": 83, "target": "el cine", "source": "cinema", "gender": "m.", "type": "other" },
+    { "id": 84, "target": "la novela gráfica", "source": "graphic novel", "gender": "f.", "type": "other" },
+    { "id": 85, "target": "la danza", "source": "dance", "gender": "f.", "type": "other" },
+    { "id": 86, "target": "la fotografía", "source": "photography", "gender": "f.", "type": "other" },
+    { "id": 87, "target": "el documental", "source": "documentary", "gender": "m.", "type": "other" },
+    { "id": 88, "target": "criticar", "source": "to criticize / to review", "gender": "—", "type": "verb" },
+    { "id": 89, "target": "el hospital", "source": "hospital", "gender": "m.", "type": "other" },
+    { "id": 90, "target": "la clínica", "source": "clinic", "gender": "f.", "type": "other" },
+    { "id": 91, "target": "el farmacéutico / la farmacia", "source": "pharmacist / pharmacy", "gender": "m./f.", "type": "other" },
+    { "id": 92, "target": "recuperarse de una enfermedad", "source": "to recover from an illness", "gender": "—", "type": "verb" },
+    { "id": 93, "target": "el seguro médico", "source": "health insurance", "gender": "m.", "type": "other" },
+    { "id": 94, "target": "la operación", "source": "surgery", "gender": "f.", "type": "other" },
+    { "id": 95, "target": "la gripe", "source": "the flu", "gender": "f.", "type": "other" },
+    { "id": 96, "target": "el resfriado", "source": "a cold", "gender": "m.", "type": "other" },
+    { "id": 97, "target": "el médico", "source": "doctor", "gender": "m.", "type": "other" },
+    { "id": 98, "target": "la enfermera", "source": "nurse", "gender": "f.", "type": "other" },
+    { "id": 99, "target": "el turismo sostenible", "source": "sustainable tourism", "gender": "m.", "type": "other" },
+    { "id": 100, "target": "la mochilera", "source": "backpacker", "gender": "f.", "type": "other" }
+  ],
+  "verbs": [
+    {
+      "infinitive": "TENER",
+      "translation": "to have",
+      "conjugations": {
+        "present": {
+          "yo": "tengo",
+          "tú": "tienes",
+          "él/ella/usted": "tiene",
+          "nosotros": "tenemos",
+          "vosotros": "tenéis",
+          "ellos/ellas/ustedes": "tienen"
+        },
+        "imperfect_subjunctive_ra": {
+          "yo": "tuviera",
+          "tú": "tuvieras",
+          "él/ella/usted": "tuviera",
+          "nosotros": "tuviéramos",
+          "vosotros": "tuvierais",
+          "ellos/ellas/ustedes": "tuvieran"
+        },
+        "imperfect_subjunctive_se": {
+          "yo": "tuviese",
+          "tú": "tuvieses",
+          "él/ella/usted": "tuviese",
+          "nosotros": "tuviésemos",
+          "vosotros": "tuvieseis",
+          "ellos/ellas/ustedes": "tuviesen"
+        },
+        "preterite": {
+          "yo": "tuve",
+          "tú": "tuviste",
+          "él/ella/usted": "tuvo",
+          "nosotros": "tuvimos",
+          "vosotros": "tuvisteis",
+          "ellos/ellas/ustedes": "tuvieron"
+        }
+      }
+    },
+    {
+      "infinitive": "SER",
+      "translation": "to be (permanent)",
+      "conjugations": {
+        "present": {
+          "yo": "soy",
+          "tú": "eres",
+          "él/ella/usted": "es",
+          "nosotros": "somos",
+          "vosotros": "sois",
+          "ellos/ellas/ustedes": "son"
+        },
+        "imperfect_subjunctive_ra": {
+          "yo": "fuera",
+          "tú": "fueras",
+          "él/ella/usted": "fuera",
+          "nosotros": "fuéramos",
+          "vosotros": "fuerais",
+          "ellos/ellas/ustedes": "fueran"
+        },
+        "imperfect_subjunctive_se": {
+          "yo": "fuese",
+          "tú": "fueses",
+          "él/ella/usted": "fuese",
+          "nosotros": "fuésemos",
+          "vosotros": "fueseis",
+          "ellos/ellas/ustedes": "fuesen"
+        },
+        "preterite": {
+          "yo": "fui",
+          "tú": "fuiste",
+          "él/ella/usted": "fue",
+          "nosotros": "fuimos",
+          "vosotros": "fuisteis",
+          "ellos/ellas/ustedes": "fueron"
+        }
+      }
+    },
+    {
+      "infinitive": "ESTAR",
+      "translation": "to be (temporary/location)",
+      "conjugations": {
+        "present": {
+          "yo": "estoy",
+          "tú": "estás",
+          "él/ella/usted": "está",
+          "nosotros": "estamos",
+          "vosotros": "estáis",
+          "ellos/ellas/ustedes": "están"
+        },
+        "imperfect_subjunctive_ra": {
+          "yo": "estuviera",
+          "tú": "estuvieras",
+          "él/ella/usted": "estuviera",
+          "nosotros": "estuviéramos",
+          "vosotros": "estuvierais",
+          "ellos/ellas/ustedes": "estuvieran"
+        },
+        "imperfect_subjunctive_se": {
+          "yo": "estuviese",
+          "tú": "estuvieses",
+          "él/ella/usted": "estuviese",
+          "nosotros": "estuviésemos",
+          "vosotros": "estuvieseis",
+          "ellos/ellas/ustedes": "estuviesen"
+        },
+        "preterite": {
+          "yo": "estuve",
+          "tú": "estuviste",
+          "él/ella/usted": "estuvo",
+          "nosotros": "estuvimos",
+          "vosotros": "estuvisteis",
+          "ellos/ellas/ustedes": "estuvieron"
+        }
+      }
+    },
+    {
+      "infinitive": "IR",
+      "translation": "to go",
+      "conjugations": {
+        "present": {
+          "yo": "voy",
+          "tú": "vas",
+          "él/ella/usted": "va",
+          "nosotros": "vamos",
+          "vosotros": "vais",
+          "ellos/ellas/ustedes": "van"
+        },
+        "imperfect_subjunctive_ra": {
+          "yo": "fuera",
+          "tú": "fueras",
+          "él/ella/usted": "fuera",
+          "nosotros": "fuéramos",
+          "vosotros": "fuerais",
+          "ellos/ellas/ustedes": "fueran"
+        },
+        "imperfect_subjunctive_se": {
+          "yo": "fuese",
+          "tú": "fueses",
+          "él/ella/usted": "fuese",
+          "nosotros": "fuésemos",
+          "vosotros": "fueseis",
+          "ellos/ellas/ustedes": "fuesen"
+        },
+        "preterite": {
+          "yo": "fui",
+          "tú": "fuiste",
+          "él/ella/usted": "fue",
+          "nosotros": "fuimos",
+          "vosotros": "fuisteis",
+          "ellos/ellas/ustedes": "fueron"
+        }
+      }
+    },
+    {
+      "infinitive": "PREFERIR",
+      "translation": "to prefer",
+      "conjugations": {
+        "present": {
+          "yo": "prefiero",
+          "tú": "prefieres",
+          "él/ella/usted": "prefiere",
+          "nosotros": "preferimos",
+          "vosotros": "preferís",
+          "ellos/ellas/ustedes": "prefieren"
+        },
+        "imperfect_subjunctive_ra": {
+          "yo": "preferira",
+          "tú": "preferiras",
+          "él/ella/usted": "preferira",
+          "nosotros": "preferiráramos",
+          "vosotros": "preferiráis",
+          "ellos/ellas/ustedes": "preferiran"
+        },
+        "imperfect_subjunctive_se": {
+          "yo": "prefiriese",
+          "tú": "prefirieses",
+          "él/ella/usted": "prefiriese",
+          "nosotros": "prefiriésemos",
+          "vosotros": "prefiriéseis",
+          "ellos/ellas/ustedes": "prefiriesen"
+        },
+        "preterite": {
+          "yo": "prefirió",
+          "tú": "prefirió",
+          "él/ella/usted": "prefirió",
+          "nosotros": "prefirieron",
+          "vosotros": "prefirieron",
+          "ellos/ellas/ustedes": "prefirieron"
+        }
+      }
+    },
+    {
+      "infinitive": "CONSEGUIR",
+      "translation": "to obtain / to manage",
+      "conjugations": {
+        "present": {
+          "yo": "consigo",
+          "tú": "consigues",
+          "él/ella/usted": "consigue",
+          "nosotros": "conseguimos",
+          "vosotros": "conseguís",
+          "ellos/ellas/ustedes": "consiguen"
+        },
+        "imperfect_subjunctive_ra": {
+          "yo": "consiguiera",
+          "tú": "consiguieras",
+          "él/ella/usted": "consiguiera",
+          "nosotros": "consiguiéramos",
+          "vosotros": "consiguierais",
+          "ellos/ellas/ustedes": "consiguieran"
+        },
+        "imperfect_subjunctive_se": {
+          "yo": "consiguiese",
+          "tú": "consiguieses",
+          "él/ella/usted": "consiguiese",
+          "nosotros": "consiguiésemos",
+          "vosotros": "consiguieseis",
+          "ellos/ellas/ustedes": "consiguiesen"
+        },
+        "preterite": {
+          "yo": "consiguió",
+          "tú": "consiguiste",
+          "él/ella/usted": "consiguió",
+          "nosotros": "conseguimos",
+          "vosotros": "conseguisteis",
+          "ellos/ellas/ustedes": "consiguieron"
+        }
+      }
+    },
+    {
+      "infinitive": "ENTENDER",
+      "translation": "to understand",
+      "conjugations": {
+        "present": {
+          "yo": "entiendo",
+          "tú": "entiendes",
+          "él/ella/usted": "entiende",
+          "nosotros": "entendemos",
+          "vosotros": "entendéis",
+          "ellos/ellas/ustedes": "entienden"
+        },
+        "imperfect_subjunctive_ra": {
+          "yo": "entendiera",
+          "tú": "entendieras",
+          "él/ella/usted": "entendiera",
+          "nosotros": "entendiéramos",
+          "vosotros": "entenderais",
+          "ellos/ellas/ustedes": "entendieran"
+        },
+        "imperfect_subjunctive_se": {
+          "yo": "entendiese",
+          "tú": "entendieses",
+          "él/ella/usted": "entendiese",
+          "nosotros": "entiésemos",
+          "vosotros": "entendieseis",
+          "ellos/ellas/ustedes": "entendiesen"
+        },
+        "preterite": {
+          "yo": "entendió",
+          "tú": "entendiste",
+          "él/ella/usted": "entendió",
+          "nosotros": "entendimos",
+          "vosotros": "entendisteis",
+          "ellos/ellas/ustedes": "entendieron"
+        }
+      }
+    }
+  ],
+  "pronunciation": [
+    {
+      "title": "Stress Patterns in Complex Words",
+      "content": "At B1 level, you'll encounter longer, multi-syllabic words with complex stress patterns. Remember the rules:\n- Words ending in a vowel, -n, or -s: stress on the second-to-last syllable (unless an accent mark says otherwise)\n- Words ending in a consonant (not -n or -s): stress on the last syllable\n- An accent mark (´) overrides any rule — it marks the stressed syllable\n\nB1 words often have 3+ syllables, so identifying stress is important for both reading and speaking.",
+      "examples": [
+        { "target": "democracia", "source": "de-mo-CRA-cia (ends in -a, default stress on 2nd-to-last: CRA)" },
+        { "target": "economía", "source": "e-co-nó-MÍ-a (accent on Í overrides: default would be 'eco-NOMI-a')"},
+        { "target": "contaminación", "source": "con-ta-mi-na-CIÓN (ends in -n, but accent on ÓN overrides)" },
+        { "target": "diagnóstico", "source": "di-ag-NÓs-ti-co (accent on Ó overrides)" },
+        { "target": "reciclaje", "source": "re-ci-CLAJE (ends in -e, default stress on 2nd-to-last: CLAJ)" }
+      ],
+      "aid_note": "Romanian stress patterns are similar — most words are stressed on the penultimate syllable by default. The Spanish accent mark system is more explicit and systematic, which actually makes Spanish easier to pronounce consistently than Romanian!"
+    },
+    {
+      "title": "The Trilled R and Soft Sounds at B1 Level",
+      "content": "At B1, you'll encounter words with multiple consecutive R's and combinations that challenge learners. The key is distinguishing:\n\n- Single R (intervocalic): soft, almost like a tapped R (pero, caro)\n- Double RR or word-initial R: trilled/rolled R (perro, rojo, Rusia)\n- R after a consonant (bl, pl, tr, etc.): tapped but stronger (blanco, blanco)\n\nThe rolled R is one of the most distinctive features of Spanish pronunciation and takes practice to master.",
+      "examples": [
+        { "target": "pero", "source": "soft r (but) — single R between vowels" },
+        { "target": "perro", "source": "rolled R (dog) — double RR" },
+        { "target": "rojo", "source": "rolled R at start of word" },
+        { "target": "blanco", "source": "tapped R after L" },
+        { "target": "trabajo", "source": "tapped R after consonant cluster" }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "fill-in-blank",
+      "question": "Complete with the imperfect subjunctive (-ra) of TENER: Si yo ____ más tiempo, viajaría más.",
+      "correct": "tuviera",
+      "explanation": "From the preterite 'ellos tuvieron' → remove -ron → 'tuvie-' → add -ra endings. 'Si yo tuviera más tiempo' = If I had more time."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete with the imperfect subjunctive (-se) of SER: Ella quería que yo ____ más paciente.",
+      "correct": "fuese",
+      "explanation": "From the preterite 'ellos fueron' → remove -ron → 'fue-' → add -se endings. 'Fuese' is the alternative (more formal) imperfect subjunctive form."
+    },
+    {
+      "type": "exercise",
+      "question": "Which sentence uses the imperfect subjunctive correctly?",
+      "options": [
+        "Si yo tenia dinero, viajaría.",
+        "Si yo tuviera dinero, viajaría.",
+        "Si yo tuve dinero, viajaría.",
+        "Si yo tengo dinero, viajaría."
+      ],
+      "correct": 1,
+      "explanation": "Hypothetical 'if' clauses in the past require the imperfect subjunctive: 'Si yo tuviera dinero, viajaría.' The -ra form is the standard for hypotheticals."
+    },
+    {
+      "type": "exercise",
+      "question": "Choose the correct mood: 'Dudo que ella ____ (venir) mañana.'",
+      "options": ["viene", "venga", "viniera", "vendrá"],
+      "correct": 1,
+      "explanation": "'Dudo que' (I doubt that) triggers the subjunctive. 'Venga' is the present subjunctive of venir. Note: this is present subjunctive, not imperfect — the action is about the future."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete with the correct mood (indicative or subjunctive): 'Creo que ella ____ (venir) mañana.'",
+      "correct": "viene",
+      "explanation": "'Creo que' (I believe that) expresses certainty, so it takes the indicative: 'Creo que ella viene mañana.'"
+    },
+    {
+      "type": "exercise",
+      "question": "Choose the correct sentence with the passive voice:",
+      "options": [
+        "La ley aprobó por el gobierno.",
+        "La ley fue aprobada por el gobierno.",
+        "La ley es aprobada por el gobierno.",
+        "La ley ha aprobado por el gobierno."
+      ],
+      "correct": 1,
+      "explanation": "Passive voice = ser + past participle. The past participle must agree: 'la ley' is feminine singular → 'aprobada'. 'Fue aprobada' = was approved."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete the passive voice: 'El puente fue ____ por los obreros.' (constructed)",
+      "correct": "construido",
+      "explanation": "Passive voice: fue + participio. 'Construir → construido'. The subject 'el puente' is masculine singular, matching 'construido'."
+    },
+    {
+      "type": "exercise",
+      "question": "Which construction is the 'se passive' (pasiva refleja)?",
+      "options": [
+        "La casa es vendida por el agente.",
+        "Se vende la casa.",
+        "El agente vende la casa.",
+        "La casa está vendida."
+      ],
+      "correct": 1,
+      "explanation": "'Se vende la casa' is the pasiva refleja. The verb agrees with the subject 'la casa' (singular). This is the most common way to say things are sold/bought/rented in Spanish."
+    },
+    {
+      "type": "exercise",
+      "question": "Choose the correct 'se passive': 'Se ____ apartamentos en esta calle.' (sell)",
+      "options": ["vende", "venden", "vendieron", "vendía"],
+      "correct": 1,
+      "explanation": "'Apartamentos' is plural, so the verb must be plural: 'Se venden apartamentos.' The verb always agrees with the subject in se-passive constructions."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete with the correct relative pronoun: 'El artista ____ cuadro expusimos es famoso.'",
+      "correct": "cuyo",
+      "explanation": "'Cuyo' is the possessive relative pronoun ('whose'). It agrees with 'cuadro' (masc. singular), not with 'artista'. 'El artista cuyo cuadro...' = The artist whose painting..."
+    },
+    {
+      "type": "exercise",
+      "question": "Which relative pronoun refers to a complete idea, not just a noun?",
+      "options": ["el cual", "lo que", "cuyo", "donde"],
+      "correct": 1,
+      "explanation": "'Lo que' (or 'lo cual') refers to an entire preceding clause/idea: 'No vino, lo cual me sorprendió' = 'He didn't come, which surprised me.'"
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete with the correct connector: 'Estudié mucho; ____ , reprobé el examen.' (however)",
+      "correct": "sin embargo",
+      "explanation": "'Sin embargo' means 'however' — a strong contrast connector. It's more formal and emphatic than 'pero'."
+    },
+    {
+      "type": "exercise",
+      "question": "Choose the correct connector: '____ de que llovía, fuimos a caminar.' (Despite)",
+      "options": ["A pesar", "Por lo tanto", "Debido a", "Además"],
+      "correct": 0,
+      "explanation": "'A pesar de que' = 'Despite the fact that' or 'Even though'. It introduces a concession/contrast."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete with the correct connector: 'No tenía dinero; ____ , no compré el libro.' (therefore)",
+      "correct": "por lo tanto",
+      "explanation": "'Por lo tanto' means 'therefore' or 'consequently'. It indicates a logical conclusion based on the previous statement."
+    },
+    {
+      "type": "exercise",
+      "question": "What does 'debido a' mean in context?",
+      "options": ["Despite", "Because of", "Therefore", "In addition"],
+      "correct": 1,
+      "explanation": "'Debido a' = 'due to' or 'because of'. It introduces a cause or reason: 'Debido a la lluvia, cancelamos el picnic.' (Due to the rain, we canceled the picnic.)"
+    },
+    {
+      "type": "conjugation-matrix",
+      "question": "Conjugate TENER in the imperfect subjunctive (-ra form):",
+      "verb": "TENER",
+      "tenses": ["imperfect_subjunctive_ra"],
+      "explanation": "TENER is irregular in the preterite (tuvieron), which is the stem source for the imperfect subjunctive. From 'tuvieron' → 'tuvie-' + endings."
+    },
+    {
+      "type": "conjugation-matrix",
+      "question": "Conjugate SER in the imperfect subjunctive (-ra form):",
+      "verb": "SER",
+      "tenses": ["imperfect_subjunctive_ra"],
+      "explanation": "SER is highly irregular. The preterite 'fueron' gives us the stem 'fue-' for the imperfect subjunctive."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete with the imperfect subjunctive of ESTAR (-ra form): Era necesario que ellos ____ (estar) disponibles.",
+      "correct": "estuvieran",
+      "explanation": "From preterite 'estuvieron' → 'estuvie-' + '-ran' = 'estuvieran'. 'Era necesario que ellos estuvieran disponibles' = It was necessary that they be available."
+    },
+    {
+      "type": "exercise",
+      "question": "Choose the correct passive form: 'El informe ____ (deber / ser) publicado hoy.'",
+      "options": ["debe ser publicado", "debe publicado", "debe siendo publicado", "debe estar publicado"],
+      "correct": 0,
+      "explanation": "'Debe ser publicado' = must be published. Modal verb + ser + past participle in passive constructions. The participle agrees with 'informe' (masc. sing.)."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete with the correct relative pronoun: 'La ciudad ____ nací es muy bonita.'",
+      "correct": "donde",
+      "explanation": "'Donde' = 'where' (place). 'La ciudad donde nací' = The city where I was born. It functions as a relative adverb of place."
+    },
+    {
+      "type": "exercise",
+      "question": "Which connector shows ADDITION?",
+      "options": ["sin embargo", "por lo tanto", "además", "debido a"],
+      "correct": 2,
+      "explanation": "'Además' means 'furthermore' or 'in addition'. It adds information to what was just said."
+    },
+    {
+      "type": "exercise",
+      "question": "Translate: 'The museum was built in the 19th century.'",
+      "options": [
+        "El museo construyó en el siglo XIX.",
+        "El museo fue construido en el siglo XIX.",
+        "El museo está construido en el siglo XIX.",
+        "Se construyó el museo en el siglo XIX."
+      ],
+      "correct": 1,
+      "explanation": "Passive voice: fue (3rd person singular of ser in preterite) + construido (past participle agreeing with 'el museo', masc. sing.)."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: 'Es importante que tú ____ (estudiar) más.'",
+      "correct": "estudies",
+      "explanation": "'Es importante que' expresses a subjective evaluation, triggering the subjunctive. 'Estudies' = present subjunctive of estudiar for 'tú'."
+    },
+    {
+      "type": "exercise",
+      "question": "Choose the correct 'se passive': 'En esta tienda se ____ ropa.' (sell)",
+      "options": ["vende", "venden", "vendía", "vendrán"],
+      "correct": 0,
+      "explanation": "'Ropa' is treated as a singular mass noun (like 'water' or 'furniture' in English): 'Se vende ropa' = Clothes are sold here. Singular verb because 'ropa' is singular."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete with the correct form: 'No creo que ellos ____ (saber) la verdad.'",
+      "correct": "sepan",
+      "explanation": "'No creo que' (I don't believe that) triggers subjunctive. 'Sepan' = present subjunctive of saber for 'ellos/ellas/ustedes'."
+    },
+    {
+      "type": "matching",
+      "question": "Match the connector with its function:",
+      "pairs": [
+        { "target": "sin embargo", "source": "contrast" },
+        { "target": "por lo tanto", "source": "conclusion" },
+        { "target": "además", "source": "addition" },
+        { "target": "debido a", "source": "cause" },
+        { "target": "a pesar de que", "source": "concession" }
+      ],
+      "explanation": "These are the core B1 connectors. 'Sin embargo' contrasts, 'por lo tanto' concludes, 'además' adds, 'debido a' gives a cause, and 'a pesar de que' concedes."
+    },
+    {
+      "type": "exercise",
+      "question": "Which sentence uses 'cuyo' correctly?",
+      "options": [
+        "El escritor cuyo libros son famosos vive aquí.",
+        "El escritor cuyos libros son famosos vive aquí.",
+        "El escritor cuyo libro son famosos vive aquí.",
+        "El escritor cuyos libro son famosos vive aquí."
+      ],
+      "correct": 1,
+      "explanation": "'Cuyos' agrees in gender and number with the THING possessed ('libros' = masc. plural), not with the owner ('escritor' = masc. singular). This is the most common error with 'cuyo'."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete the passive voice with the correct participle: 'Las casas fueron ____ durante el terremoto.' (destroy)",
+      "correct": "destruidas",
+      "explanation": "Passive: fueron + participio. 'Destruir → destruido'. Agrees with 'las casas' (feminine plural): 'destruidas'. 'Las casas fueron destruidas' = The houses were destroyed."
+    },
+    {
+      "type": "exercise",
+      "question": "Choose the correct sentence (subjunctive vs indicative):",
+      "options": [
+        "Es cierto que ella viene.",
+        "Es cierto que ella venga.",
+        "Es posible que ella viene.",
+        "Es seguro que ella venga."
+      ],
+      "correct": 0,
+      "explanation": "'Es cierto que' (it's certain that) = certainty = indicative: 'viene'. 'Es posible que' = possibility = subjunctive: 'venga'. 'Es seguro que' = certainty = indicative. So only option 0 is correct."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete with the imperfect subjunctive of IR (-ra form): Si ____ (ir) a España, conocería a mucha gente.",
+      "correct": "fuera",
+      "explanation": "IR shares the same preterite stem as SER (fueron → fue-). Imperfect subjunctive (-ra): 'fuera' for yo/él/ella/usted. 'Si fuera a España, conocería a mucha gente' = If I went to Spain, I would meet many people."
+    },
+    {
+      "type": "exercise",
+      "question": "What is the English meaning of 'el medio ambiente'?",
+      "options": ["The weather", "The landscape", "The natural environment", "The climate"],
+      "correct": 2,
+      "explanation": "'El medio ambiente' specifically refers to the natural environment — nature, ecology, the physical world we live in. It's not the same as 'el clima' (weather)."
+    },
+    {
+      "type": "exercise",
+      "question": "Which of these is NOT a B1-level vocabulary category for this stage?",
+      "options": [
+        "Abstract concepts (freedom, justice)",
+        "Basic numbers and colors",
+        "Politics and economy basics",
+        "Arts and culture"
+      ],
+      "correct": 1,
+      "explanation": "Basic numbers and colors were covered in A1.1. B1.1 introduces abstract concepts, politics/economy, arts/culture, advanced travel, and complex health scenarios — all significantly more advanced."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete with the correct relative pronoun: 'El problema ____ debemos resolver es complejo.'",
+      "correct": "que",
+      "explanation": "'Que' is the most common relative pronoun and is perfectly correct here. 'El problema que debemos resolver' = The problem that we must solve."
+    },
+    {
+      "type": "exercise",
+      "question": "Choose the best connector: 'El proyecto es costoso; ____ , traerá grandes beneficios.'",
+      "options": ["por lo tanto", "sin embargo", "además", "debido a"],
+      "correct": 1,
+      "explanation": "'Sin embargo' (however) is the best fit — it contrasts the cost with the anticipated benefits. The two clauses express opposing ideas."
+    },
+    {
+      "type": "conjugation-matrix",
+      "question": "Conjugate ESTAR in the imperfect subjunctive (-ra form):",
+      "verb": "ESTAR",
+      "tenses": ["imperfect_subjunctive_ra"],
+      "explanation": "ESTAR is irregular in the preterite (estuvieron), which provides the stem 'estuvie-' for the imperfect subjunctive. This is essential for hypothetical past scenarios."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: 'Nosotros queríamos que tú ____ (poder) venir a la fiesta.'",
+      "correct": "pudieras",
+      "explanation": "'Queríamos que' expresses a past desire → imperfect subjunctive. Poder is irregular in the preterite (pudieron) → 'pudie-' + '-ras' = 'pudieras'. 'Nosotros queríamos que tú pudieras venir' = We wanted you to be able to come."
+    },
+    {
+      "type": "exercise",
+      "question": "Which sentence has the correct stress on 'economía'?",
+      "options": [
+        "Eco-nomía",
+        "Eco-no-mía",
+        "Eco-nó-mi-a",
+        "Ec-o-no-mí-a"
+      ],
+      "correct": 2,
+      "explanation": "'Economía' = e-co-NÓ-mi-a. The accent mark on Ó shows the stress is on 'nó', overriding the default rule (it ends in -a, so default would be 2nd-to-last syllable)."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: '____ de la crisis, muchos perdieron sus trabajos.' (Despite)",
+      "correct": "A pesar",
+      "explanation": "'A pesar de' = despite. 'A pesar de la crisis, muchos perdieron sus trabajos' = Despite the crisis, many lost their jobs."
+    }
+  ]
+}
