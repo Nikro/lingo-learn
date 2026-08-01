@@ -333,7 +333,7 @@
                 <span class="text-sm font-bold text-primary"><span x-text="quizScore"></span> pts</span>
               </div>
               <progress x-show="!quizSubmitted" class="progress progress-primary w-full mb-4" 
-                        :value="((quizIndex + 1) / quizQuestions.length) * 100" 
+                        :value="quizQuestions.length > 0 ? ((quizIndex + 1) / quizQuestions.length) * 100 : 0" 
                         max="100"></progress>
 
               <!-- Question -->
@@ -468,7 +468,7 @@
                         <path x-show="correct" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
                         <path x-show="!correct" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 14l2-2m0 0l2-2m-2 2l-2-2m2 2l2 2m7-2a9 9 0 11-18 0 9 9 0 0118 0z" />
                       </svg>
-                      <span x-text="matrixPronouns[key.split('-')[0]] + ' ' + quizQuestions[quizIndex].tenses[key.split('-')[1]]"></span>
+                      <span x-text="matrixPronouns[String(key).split('-')[0]] + ' ' + quizQuestions[quizIndex].tenses[String(key).split('-')[1]]"></span>
                       <span :class="correct ? 'text-success' : 'text-error'">
                         <span x-show="correct" x-text="matrixAnswers[key]"></span>
                         <span x-show="!correct">your: <span x-text="matrixAnswers[key] || '—'"></span> → correct: <span x-text="matrixCorrectAnswers ? matrixCorrectAnswers[key] : '—'"></span></span>
@@ -574,10 +574,10 @@
               <!-- Percentage bar -->
               <div class="max-w-md mx-auto">
                 <progress class="progress progress-primary w-full" 
-                          :value="(quizScore / quizQuestions.length) * 100" max="100"></progress>
+                          :value="quizQuestions.length > 0 ? (quizScore / quizQuestions.length) * 100 : 0" max="100"></progress>
                 <p class="text-sm font-medium mt-1" 
-                   :class="(quizScore / quizQuestions.length) >= 0.8 ? 'text-success' : (quizScore / quizQuestions.length) >= 0.5 ? 'text-warning' : 'text-error'">
-                  <span x-text="Math.round((quizScore / quizQuestions.length) * 100)"></span>%
+                   :class="quizQuestions.length > 0 ? ((quizScore / quizQuestions.length) >= 0.8 ? 'text-success' : (quizScore / quizQuestions.length) >= 0.5 ? 'text-warning' : 'text-error') : 'text-warning'">
+                  <span x-text="quizQuestions.length > 0 ? Math.round((quizScore / quizQuestions.length) * 100) : 0"></span>%
                 </p>
               </div>
               
@@ -619,8 +619,8 @@
                 <template x-for="pillar in quizPillarBreakdown" :key="pillar.pillar">
                   <div class="flex items-center gap-2 mb-1">
                     <span class="text-xs w-24" x-text="pillar.emoji + ' ' + pillar.name"></span>
-                    <progress class="progress flex-1 h-2" :value="(pillar.score / pillar.total) * 100" max="100"
-                              :class="(pillar.score / pillar.total) >= 0.8 ? 'progress-success' : (pillar.score / pillar.total) >= 0.5 ? 'progress-warning' : 'progress-error'"></progress>
+                    <progress class="progress flex-1 h-2" :value="(pillar.total && pillar.total > 0) ? (pillar.score / pillar.total) * 100 : 0" max="100">
+                              :class="(pillar.total && pillar.total > 0) ? ((pillar.score / pillar.total) >= 0.8 ? 'progress-success' : (pillar.score / pillar.total) >= 0.5 ? 'progress-warning' : 'progress-error') : 'progress-warning'"></progress>
                     <span class="text-xs font-mono w-12 text-right" x-text="pillar.score + '/' + pillar.total"></span>
                   </div>
                 </template>

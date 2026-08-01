@@ -1,5 +1,5 @@
 // LingoLearn Service Worker
-const CACHE_NAME = 'lingolearn-v3';
+const CACHE_NAME = 'lingolearn-v4';
 const STATIC_ASSETS = [
   '/',
   '/index.html',
@@ -36,28 +36,48 @@ self.addEventListener('activate', (event) => {
   self.clients.claim();
 });
 
-// Fetch — serve from cache, fall back to network
+// Fetch — network first for JS, cache first for HTML
 self.addEventListener('fetch', (event) => {
-  event.respondWith(
-    caches.match(event.request).then((cached) => {
-      if (cached) return cached;
-      return fetch(event.request).then((response) => {
-        if (!response || response.status !== 200 || response.type !== 'basic') {
-          return response;
-        }
+  const isJS = event.request.url.endsWith('.js');
+  const isHTML = event.request.headers.get('accept').includes('text/html');
+
+  if (isJS) {
+    // Network-first for JS files to get updates immediately
+    event.respondWith(
+      fetch(event.request).then((response) => {
+        if (!response || response.status !== 200) return response;
         var responseToCache = response.clone();
         caches.open(CACHE_NAME).then((cache) => {
           cache.put(event.request, responseToCache);
         });
         return response;
       }).catch(() => {
-        // Offline fallback
-        if (event.request.headers.get('accept').includes('text/html')) {
-          return caches.match('/index.html');
-        }
-      });
-    })
-  );
+        return caches.match(event.request);
+      })
+    );
+  } else {
+    // Cache-first for HTML and other assets
+    event.respondWith(
+      caches.match(event.request).then((cached) => {
+        if (cached) return cached;
+        return fetch(event.request).then((response) => {
+          if (!response || response.status !== 200 || response.type !== 'basic') {
+            return response;
+          }
+          var responseToCache = response.clone();
+          caches.open(CACHE_NAME).then((cache) => {
+            cache.put(event.request, responseToCache);
+          });
+          return response;
+        }).catch(() => {
+          // Offline fallback
+          if (isHTML) {
+            return caches.match('/index.html');
+          }
+        });
+      })
+    );
+  }
 });
 
 // Handle messages from the app

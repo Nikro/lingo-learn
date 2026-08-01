@@ -1,13 +1,23 @@
 // LingoLearn — Main Application
+// ═══════════════════════════════════════════════════════════
+// ─── Application Structure ───
+// This file contains the main Alpine.js component for the LingoLearn app.
+// It is wrapped in `function app()` and exposed as `window.app`.
+// ═══════════════════════════════════════════════════════════
+
 function app() {
   return {
-    // ─── State ───
-    loading: true,
-    sidebarOpen: false,
-    settingsOpen: false,
-    dataError: false,
-    registry: [],
-    aidLanguages: [],
+    // ═══════════════════════════════════════════
+    // ─── State: Global UI ───
+    // ═══════════════════════════════════════════
+    
+    // Global UI state
+    loading: true,           // Overall loading indicator (true during init & data fetch)
+    sidebarOpen: false,      // Whether the sidebar is expanded (mobile)
+    settingsOpen: false,     // Whether the settings modal is visible
+    dataError: false,        // True when stage data fails to load
+    registry: [],            // Locale registry (levels, stages, pillar ordering)
+    aidLanguages: [],        // Available aid language options from the registry
     appLevels: [
       { id: 'A1', name: 'A1 — Beginner', stages: [{ id: 'a1-1', name: 'A1.1 — Greetings' }, { id: 'a1-2', name: 'A1.2 — Numbers & Colors' }, { id: 'a1-3', name: 'A1.3 — Family' }] },
       { id: 'A2', name: 'A2 — Elementary', stages: [{ id: 'a2-1', name: 'A2.1 — Daily Life' }, { id: 'a2-2', name: 'A2.2 — Shopping' }, { id: 'a2-3', name: 'A2.3 — Food & Drink' }] },
@@ -15,87 +25,113 @@ function app() {
       { id: 'B2', name: 'B2 — Upper Intermediate', stages: [{ id: 'b2-1', name: 'B2.1 — Culture' }, { id: 'b2-2', name: 'B2.2 — Society' }, { id: 'b2-3', name: 'B2.3 — Abstract' }] }
     ],
 
-    // Current navigation
-    currentLocale: 'en-es',
-    currentLevel: null,
-    currentStage: null,
-    currentPillar: 'grammar',
+    // ═══════════════════════════════════════════
+    // ─── State: Current Navigation ───
+    // Current navigation state (parsed from URL hash)
+    // ═══════════════════════════════════════════
+    
+    currentLocale: 'en-es',      // Active locale code (e.g., 'en-es')
+    currentLevel: null,          // Active CEFR level (e.g., 'A1', 'B2')
+    currentStage: null,          // Active stage (e.g., 'a1-1', 'b2-3')
+    currentPillar: 'grammar',    // Active content pillar: grammar | vocabulary | verbs | pronunciation
 
-    // Stage data
-    stageData: null,
-    levelData: [],
+    // ═══════════════════════════════════════════
+    // ─── State: Stage & UI ───
+    // Stage data (fetched from JSON) and UI state
+    // ═══════════════════════════════════════════
+    
+    stageData: null,           // Full stage data object (grammar, vocabulary, verbs, pronunciation)
+    levelData: [],             // Data for the current level (not currently used)
 
-    // UI
-    expandedLevel: null,
-    theme: 'dark',
-    aidLanguage: 'none',
-    xp: 0,
-    streak: 0,
+    expandedLevel: null,       // Currently expanded CEFR level in sidebar (null = all collapsed)
+    theme: 'dark',             // Active DaisyUI theme name
+    aidLanguage: 'none',       // Aid language setting: none | english | spanish | bilingual
+    xp: 0,                     // Total experience points earned (persisted to localStorage)
+    streak: 0,                 // Current daily learning streak (days in a row)
 
-    // Quiz state
-    quizActive: false,
-    quizFinished: false,
-    quizSubmitted: false,     // true = all answered, user clicked "Submit Quiz"
-    quizQuestions: [],
-    quizIndex: 0,
-    quizScore: 0,
-    quizAnswered: false,
-    quizFeedback: null,
-    selectedOption: null,
-    fillInAnswer: '',
-    conjugationAnswer: '',
-    quizPillars: ['grammar', 'vocabulary', 'verbs', 'pronunciation'],
-    lastQuizResult: null,   // [{score, total, date}] — previous attempt history for this stage
-    quizPillarBreakdown: null, // [{pillar, name, emoji, score, total}]
-    pillarScoreMap: null,    // { pillar: score } — tracked during quiz for per-pillar breakdown
-    previousAnswers: [],     // [{question, userAnswer, correct, correctAnswer}] — per-question answer log
-    currentQuestionAnswer: null, // track current question's answer for summary
-    currentQuestionCorrect: null, // track current question's correctness
+    // ═══════════════════════════════════════════
+    // ─── State: Quiz Lifecycle ───
+    // ═══════════════════════════════════════════
+    
+    quizActive: false,       // True while a quiz is in progress
+    quizFinished: false,     // True when the quiz is complete (results shown)
+    quizSubmitted: false,    // True = user has clicked "Submit Quiz" on the last question
+    quizQuestions: [],       // Array of exercise objects for the current quiz
+    quizIndex: 0,            // Current question index (0-based)
+    quizScore: 0,            // Total correct answers in current quiz
+    quizAnswered: false,     // True after user answers the current question (waiting for feedback)
+    quizFeedback: null,      // Feedback message for the current question
 
-    // Drag and drop state
-    dragItem: null,
-    dropTarget: null,
+    // Per-question answer inputs (reset each time quiz starts)
+    selectedOption: null,    // Index of selected option (multiple choice)
+    fillInAnswer: '',        // User's text input (fill-in-the-blank)
+    conjugationAnswer: '',   // User's conjugation input
 
-    // ─── Install Prompt ───
-    deferredPrompt: null,
-    isInstalled: false,
+    // Quiz configuration
+    quizPillars: ['grammar', 'vocabulary', 'verbs', 'pronunciation'], // Which pillars to include
+    lastQuizResult: null,    // Previous attempt history: [{score, total, date}]
+    quizPillarBreakdown: null, // Per-pillar breakdown: [{pillar, name, emoji, score, total}]
+    pillarScoreMap: null,    // { pillar: score } — tracked during quiz for per-pillar stats
+    previousAnswers: [],     // [{question, userAnswer, correct, correctAnswer}] — answer log
+    currentQuestionAnswer: null, // Current question's user answer (for summary)
+    currentQuestionCorrect: null, // Current question's correctness boolean
 
-    // Conjugation state
-    conjugationVerb: null,
-    conjugationCells: {},
+    // ═══════════════════════════════════════════
+    // ─── State: Drag and Drop ───
+    dragItem: null,        // Currently dragged item index (for drag-drop exercises)
+    dropTarget: null,       // Drop target index
 
-    // Matching exercise state
-    matchPairs: [],           // [{target, source}]
-    matchRightItems: [],      // shuffled source strings
-    matchRightOriginalIndex: [], // maps right items back to pair index
-    matchSelections: [],      // { [pairIndex]: { leftIdx, rightIdx, correct } }
-    matchRightMatched: [],    // [pairIndex] | true|false — did this right item get matched correctly?
-    selectedLeft: null,
-    selectedRight: null,
-    userMatchAnswers: null,   // [source_string] per pair — the user's choices
-    matchResults: null,       // [boolean] per pair — did they match correctly?
-    matchAttempts: 0,
+    // ═══════════════════════════════════════════
+    // ─── State: Install Prompt ───
+    deferredPrompt: null,   // Captured beforeinstallprompt event (null if not available)
+    isInstalled: false,     // Whether the app has been installed as a PWA
 
-    // Conjugation Matrix exercise state
+    // ═══════════════════════════════════════════
+    // ─── State: Conjugation ───
+    conjugationVerb: null,       // Verb object being conjugated (for single-cell exercises)
+    conjugationCells: {},        // { "tense-pronoun": "form" } — user's conjugation answers
+
+    // ═══════════════════════════════════════════
+    // ─── State: Matching Exercise ───
+    matchPairs: [],                    // [{target, source}] — correct pairs
+    matchRightItems: [],               // Shuffled source strings for the right column
+    matchRightOriginalIndex: [],       // Maps right-column items back to pair index
+    matchSelections: [],               // { [pairIndex]: { leftIdx, rightIdx, correct } }
+    matchRightMatched: [],             // [pairIndex] → true|false — did this right item match?
+    selectedLeft: null,                // Currently selected left-item index
+    selectedRight: null,               // Currently selected right-item index
+    userMatchAnswers: null,            // [source_string] per pair — user's choices
+    matchResults: null,                // [boolean] per pair — correctness per pair
+    matchAttempts: 0,                  // Total match attempts (for scoring)
+
+    // ═══════════════════════════════════════════
+    // ─── State: Conjugation Matrix ───
     matrixPronouns: ['yo', 'tú', 'él/ella/usted', 'nosotros', 'vosotros', 'ellos/ellas/ustedes'],
-    matrixAnswers: {},        // { "0-0": "soy", "0-1": "era", ... }
-    matrixCorrectAnswers: null, // { "0-0": "soy", ... }
-    matrixResults: null,      // { "0-0": true, ... }
-    matrixCorrectCount: 0,
+    matrixAnswers: {},             // { "0-0": "soy", "0-1": "era", ... } — user's input
+    matrixCorrectAnswers: null,    // { "0-0": "soy", ... } — expected answers
+    matrixResults: null,           // { "0-0": true, ... } — correctness per cell
+    matrixCorrectCount: 0,         // Number of correctly filled cells
 
-    // Loading state
+    // ═══════════════════════════════════════════
+    // ─── State: Loading ───
     pillarContent: {
-      grammar: '',
-      vocabulary: [],
-      verbs: '',
-      pronunciation: ''
+      grammar: '',          // Rendered HTML for the grammar pillar view
+      vocabulary: [],       // Array of vocabulary card objects
+      verbs: '',            // Rendered HTML for the verbs pillar view
+      pronunciation: ''     // Rendered HTML for the pronunciation pillar view
     },
 
+    // ═══════════════════════════════════════════
     // ─── Computed Helpers ───
+    // ═══════════════════════════════════════════
+    
+    // Total number of cells in the conjugation matrix grid
+    // (pronoun count × tense count for the current question)
     get matrixTotalCells() {
       if (!this.quizQuestions[this.quizIndex]) return 0;
       return this.matrixPronouns.length * (this.quizQuestions[this.quizIndex].tenses || []).length;
     },
+    // Count of non-empty cells the user has filled in
     get matrixFilledCount() {
       var filled = 0;
       for (var key in this.matrixAnswers) {
@@ -103,6 +139,7 @@ function app() {
       }
       return filled;
     },
+    // Estimated number of questions in a quiz across all selected pillars
     get estimatedQuizLength() {
       if (!this.stageData || this.quizPillars.length === 0) return 0;
       var count = 0;
@@ -112,6 +149,7 @@ function app() {
       });
       return count;
     },
+    // Emoji feedback based on quiz performance ratio (score / total questions)
     get quizCompletionEmoji() {
       var ratio = this.quizQuestions.length > 0 ? this.quizScore / this.quizQuestions.length : 0;
       if (ratio >= 1) return '🏆';
@@ -122,7 +160,12 @@ function app() {
       return '📚';
     },
 
+    // ═══════════════════════════════════════════
     // ─── Initialization ───
+    // ═══════════════════════════════════════════
+    
+    // Called once after Alpine.js has loaded the component. Sets up routing,
+    // locale detection, service worker registration, and PWA install detection.
     async init() {
       // Test persistence
       Storage.testPersistence();
@@ -155,11 +198,14 @@ function app() {
       // Record daily activity
       Storage.recordActivity();
 
-      // ─── Install Prompt ───
+      // ═══════════════════════════════════════════
+      // ─── Install Prompt Setup ───
+      // ═══════════════════════════════════════════
+      
       // Check if previously installed
       this.isInstalled = Storage.getSettings().pwaInstalled || false;
 
-      // Listen for beforeinstallprompt
+      // Listen for beforeinstallprompt event (captures the native install trigger)
       window.addEventListener('beforeinstallprompt', (e) => {
         // Prevent the mini-infobar from appearing on mobile
         e.preventDefault();
@@ -168,7 +214,7 @@ function app() {
         console.log('beforeinstallprompt event fired');
       });
 
-      // Listen for app installed event
+      // Listen for app installed event (fires after successful install)
       window.addEventListener('appinstalled', () => {
         this.isInstalled = true;
         this.deferredPrompt = null;
@@ -181,6 +227,7 @@ function app() {
       this.loading = false;
     },
 
+    // Apply a DaisyUI theme to the document root and persist to settings
     updateTheme(theme) {
       this.theme = theme;
       document.documentElement.setAttribute('data-theme', theme);
@@ -189,7 +236,8 @@ function app() {
       Storage.saveSettings(s);
     },
 
-    // ─── Install Prompt Handler ───
+    // Called when the user taps the "Install" button. Triggers the browser's
+    // native install prompt (via the captured beforeinstallprompt event).
     async handleInstall() {
       if (!this.deferredPrompt) return;
 
@@ -211,11 +259,17 @@ function app() {
       }
     },
 
+    // Computed: returns true if the app can be installed as a PWA
     get canInstallApp() {
       return !this.isInstalled && this.deferredPrompt !== null;
     },
 
+    // ═══════════════════════════════════════════
     // ─── Data Loading ───
+    // ═══════════════════════════════════════════
+    
+    // Fetch and cache the locale registry from data/registry.json.
+    // Called during init; called again after a locale switch.
     async loadRegistry() {
       try {
         var response = await fetch('data/registry.json');
@@ -229,6 +283,7 @@ function app() {
       }
     },
 
+    // Switch the active locale and reset navigation to the locale root
     switchLocale(locale) {
       this.currentLocale = locale;
       Storage.setLocale(locale);
@@ -239,6 +294,8 @@ function app() {
       window.location.hash = '/' + locale;
     },
 
+    // Fetch stage data from the locale-specific JSON file and render the current pillar.
+    // stageId is in filename format (a1-1, a2-3, b1-2, etc.)
     async loadStageData(levelId, stageId) {
       this.loading = true;
       this.dataError = false;
@@ -269,11 +326,17 @@ function app() {
       }
     },
 
+    // ═══════════════════════════════════════════
     // ─── Navigation ───
+    // ═══════════════════════════════════════════
+    
+    // Toggle expansion of a CEFR level in the sidebar (A1, A2, B1, B2)
     toggleLevel(levelId) {
       this.expandedLevel = this.expandedLevel === levelId ? null : levelId;
     },
 
+    // Navigate to a specific level/stage/pillar:
+    // update state, set hash URL, close sidebar, load stage data
     navigateTo(levelId, stageId, pillar) {
       pillar = pillar || 'grammar';
       this.currentLevel = levelId;
@@ -286,6 +349,8 @@ function app() {
       this.loadStageData(levelId, stageId);
     },
 
+    // Parse URL hash into route parameters (locale, level, stage, pillar).
+    // Validates each level against the loaded registry; invalid entries reset to welcome.
     parseRoute() {
       var hash = window.location.hash.slice(1) || '/' + this.currentLocale;
       var parts = hash.split('/').filter(function(b) { return b; });
@@ -339,7 +404,7 @@ function app() {
       }
     },
 
-    // Get the current route string for display
+    // Get the current route string for display in breadcrumbs
     get currentRoute() {
       if (!this.currentLocale) return '';
       if (!this.currentStage) return '/' + this.currentLocale;
@@ -347,7 +412,7 @@ function app() {
       return '/' + this.currentLocale + '/' + this.currentLevel + '/' + this.currentStage + '/' + this.currentPillar;
     },
 
-    // Check if sidebar item should be highlighted as active
+    // Check if a sidebar item should be highlighted as active
     isStageActive(levelId, stageId) {
       return this.currentLevel === levelId && this.currentStage === stageId;
     },
@@ -357,7 +422,7 @@ function app() {
       return this.currentPillar === pillar;
     },
 
-    // Set pillar and update hash
+    // Set pillar and update the hash URL
     setPillar(pillar) {
       this.currentPillar = pillar;
       if (this.currentStage) {
@@ -365,17 +430,25 @@ function app() {
       }
     },
 
+    // ═══════════════════════════════════════════
     // ─── Rendering ───
+    // ═══════════════════════════════════════════
+    
+    // Getters for stage display info
+    
+    // Returns the stage title for display in the header
     get stageTitle() {
       if (!this.stageData) return 'Loading...';
       return this.stageData.title || 'Stage ' + this.currentStage;
     },
 
+    // Returns the stage description for display under the title
     get stageDescription() {
       if (!this.stageData) return '';
       return this.stageData.description || '';
     },
 
+    // Returns true if at least one pillar has content (enables "Start Quiz" button)
     get canStartQuiz() {
       if (!this.stageData) return false;
       var pillars = ['grammar', 'vocabulary', 'verbs', 'pronunciation'];
@@ -392,11 +465,13 @@ function app() {
       this.quizPillars = [];
     },
 
+    // Getter for vocabulary card data (for template rendering)
     get vocabularyCards() {
       if (!this.stageData || !this.stageData.vocabulary) return [];
       return this.stageData.vocabulary;
     },
 
+    // Dispatch rendering to the appropriate pillar-specific renderer
     renderPillar: function() {
       if (!this.stageData) return;
 
@@ -416,6 +491,8 @@ function app() {
       }
     },
 
+    // Render the Grammar pillar: loops over grammar items, building HTML with
+    // title, content, optional tables, examples, and aid notes
     renderGrammar: function() {
       if (!this.stageData.grammar || this.stageData.grammar.length === 0) {
         return '<p class="opacity-70">Grammar content loading...</p>';
@@ -445,6 +522,7 @@ function app() {
       return html;
     },
 
+    // Render a simple HTML table from headers + rows array (used by grammar items)
     renderTable: function(table) {
       if (!table || !table.headers || !table.rows) return '';
 
@@ -461,6 +539,8 @@ function app() {
       return html;
     },
 
+    // Render the Verbs pillar: loops over verb objects, showing infinitive +
+    // translation and a full conjugation table for each
     renderVerbs: function() {
       if (!this.stageData.verbs || this.stageData.verbs.length === 0) {
         return '<p class="opacity-70">Verb drills loading...</p>';
@@ -478,6 +558,7 @@ function app() {
       return html;
     },
 
+        // Render a conjugation table for a single verb: pronouns × tenses matrix
     renderConjugation: function(verb) {
       if (!verb.conjugations) return '<p>No conjugations available.</p>';
 
@@ -502,6 +583,8 @@ function app() {
       return html;
     },
 
+        // Render the Pronunciation pillar: loops over pronunciation items with
+    // title, content, and paired examples (Spanish ↔ English)
     renderPronunciation: function() {
       if (!this.stageData.pronunciation || this.stageData.pronunciation.length === 0) {
         return '<p class="opacity-70">Pronunciation content loading...</p>';
@@ -529,7 +612,13 @@ function app() {
       return html;
     },
 
+    // ═══════════════════════════════════════════
     // ─── Quiz ───
+    // ═══════════════════════════════════════════
+    
+    // Start a quiz: collect exercises from selected pillars, shuffle them,
+    // initialize question-specific state for matching/matrix exercises,
+    // and begin the quiz loop.
     startQuiz: function() {
       if (!this.stageData) return;
 
@@ -621,7 +710,13 @@ function app() {
       }
       return shuffled;
     },
-
+    // ═══════════════════════════════════════════
+    // ─── Quiz: Submit Answer ───
+    // ═══════════════════════════════════════════
+    
+    // Submit the current answer, evaluate correctness, and advance to the next question.
+    // Called after the user answers a multiple-choice, fill-in-blank, or conjugation
+    // exercise. Tracks the answer, computes score, shows feedback, and advances.
     submitAnswer: function(answer) {
       if (this.quizAnswered) return;
 
@@ -1256,6 +1351,8 @@ function app() {
     // ── UI Polish: Utility Functions ──
 
     // XP count-up animation
+        // Animate XP gain with a floating "+N" display.
+    // Uses CSS transitions for a smooth visual effect.
     animateXP: function(from, to) {
       var duration = 400;
       var start = performance.now();
@@ -1314,6 +1411,8 @@ function app() {
     // (DaisyUI progress bars animate natively via CSS transition on the value attribute)
 
     // Trigger skeleton → content transition
+        // Toggle skeleton loading placeholders.
+    // Sets the loading state and clears data errors.
     setSkeletonLoading: function(isLoading) {
       this.loading = isLoading;
       this.dataError = false;
