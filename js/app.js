@@ -428,6 +428,10 @@ function app() {
       if (this.currentStage) {
         window.location.hash = '/' + this.currentLocale + '/' + this.currentLevel + '/' + this.currentStage + '/' + pillar;
       }
+      // Re-render pillar content if stage data is already loaded
+      if (this.stageData) {
+        this.renderPillar();
+      }
     },
 
     // ═══════════════════════════════════════════
