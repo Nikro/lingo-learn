@@ -19,10 +19,10 @@ function app() {
     registry: [],            // Locale registry (levels, stages, pillar ordering)
     aidLanguages: [],        // Available aid language options from the registry
     appLevels: [
-      { id: 'A1', name: 'A1 — Beginner', stages: [{ id: 'a1-1', name: 'A1.1 — Greetings' }, { id: 'a1-2', name: 'A1.2 — Numbers & Colors' }, { id: 'a1-3', name: 'A1.3 — Family' }] },
-      { id: 'A2', name: 'A2 — Elementary', stages: [{ id: 'a2-1', name: 'A2.1 — Daily Life' }, { id: 'a2-2', name: 'A2.2 — Shopping' }, { id: 'a2-3', name: 'A2.3 — Food & Drink' }] },
-      { id: 'B1', name: 'B1 — Intermediate', stages: [{ id: 'b1-1', name: 'B1.1 — Travel' }, { id: 'b1-2', name: 'B1.2 — Work' }, { id: 'b1-3', name: 'B1.3 — Opinions' }] },
-      { id: 'B2', name: 'B2 — Upper Intermediate', stages: [{ id: 'b2-1', name: 'B2.1 — Culture' }, { id: 'b2-2', name: 'B2.2 — Society' }, { id: 'b2-3', name: 'B2.3 — Abstract' }] }
+      { id: 'A1', name: 'A1 — Beginner', stages: [{ id: 'a1-1', name: 'A1.1 — Greetings', sections: ['Greetings', 'Numbers', 'Colors', 'Family'] }, { id: 'a1-2', name: 'A1.2 — Daily Life', sections: ['Daily Routines', 'Time & Days', 'Weather'] }] },
+      { id: 'A2', name: 'A2 — Elementary', stages: [{ id: 'a2-1', name: 'A2.1 — Shopping & Food', sections: ['Shopping', 'Food & Drink'] }, { id: 'a2-2', name: 'A2.2 — Travel & Health', sections: ['Travel', 'Health'] }] },
+      { id: 'B1', name: 'B1 — Intermediate', stages: [{ id: 'b1-1', name: 'B1 — Work & Opinions', sections: ['Work', 'Opinions'] }] },
+      { id: 'B2', name: 'B2 — Upper Intermediate', stages: [{ id: 'b2-1', name: 'B2 — Society & Abstract', sections: ['Society', 'Abstract'] }] }
     ],
 
     // ═══════════════════════════════════════════
