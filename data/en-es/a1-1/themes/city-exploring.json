@@ -1,108 +1,984 @@
 {
   "id": "city-exploring",
   "title": "City & Directions",
-  "description": "Navigate a city, ask for directions, and describe places.",
+  "description": "Navigate any Spanish-speaking city: ask for and give directions, describe places, talk about neighborhoods, and understand maps and signage.",
   "vocabulary": [
     {
       "id": 1,
-      "target": "izquierda",
-      "source": "left",
-      "gender": "f",
-      "type": "direction"
-    },
-    {
-      "id": 2,
-      "target": "derecha",
-      "source": "right",
-      "gender": "f",
-      "type": "direction"
-    },
-    {
-      "id": 3,
-      "target": "directo",
-      "source": "straight",
-      "gender": "m",
-      "type": "direction"
-    },
-    {
-      "id": 4,
       "target": "calle",
       "source": "street",
       "gender": "f",
       "type": "place"
     },
     {
-      "id": 5,
+      "id": 2,
+      "target": "avenida",
+      "source": "avenue",
+      "gender": "f",
+      "type": "place"
+    },
+    {
+      "id": 3,
       "target": "plaza",
-      "source": "square",
+      "source": "square/plaza",
+      "gender": "f",
+      "type": "place"
+    },
+    {
+      "id": 4,
+      "target": "esquina",
+      "source": "corner",
+      "gender": "f",
+      "type": "place"
+    },
+    {
+      "id": 5,
+      "target": "parada",
+      "source": "stop",
       "gender": "f",
       "type": "place"
     },
     {
       "id": 6,
+      "target": "estaci\u00f3n",
+      "source": "station",
+      "gender": "f",
+      "type": "place"
+    },
+    {
+      "id": 7,
+      "target": "parada de autob\u00fas",
+      "source": "bus stop",
+      "gender": "f",
+      "type": "place"
+    },
+    {
+      "id": 8,
+      "target": "parada de metro",
+      "source": "metro stop",
+      "gender": "f",
+      "type": "place"
+    },
+    {
+      "id": 9,
+      "target": "parada de taxi",
+      "source": "taxi stand",
+      "gender": "f",
+      "type": "place"
+    },
+    {
+      "id": 10,
+      "target": "cochera",
+      "source": "parking garage",
+      "gender": "f",
+      "type": "place"
+    },
+    {
+      "id": 11,
+      "target": "hospital",
+      "source": "hospital",
+      "gender": "m",
+      "type": "place"
+    },
+    {
+      "id": 12,
+      "target": "farmacia",
+      "source": "pharmacy",
+      "gender": "f",
+      "type": "place"
+    },
+    {
+      "id": 13,
+      "target": "banco",
+      "source": "bank",
+      "gender": "m",
+      "type": "place"
+    },
+    {
+      "id": 14,
       "target": "iglesia",
       "source": "church",
       "gender": "f",
       "type": "place"
     },
     {
-      "id": 7,
+      "id": 15,
+      "target": "catedral",
+      "source": "cathedral",
+      "gender": "f",
+      "type": "place"
+    },
+    {
+      "id": 16,
+      "target": "museo",
+      "source": "museum",
+      "gender": "m",
+      "type": "place"
+    },
+    {
+      "id": 17,
+      "target": "biblioteca",
+      "source": "library",
+      "gender": "f",
+      "type": "place"
+    },
+    {
+      "id": 18,
       "target": "parque",
       "source": "park",
       "gender": "m",
       "type": "place"
     },
     {
-      "id": 8,
-      "target": "restaurante",
-      "source": "restaurant",
+      "id": 19,
+      "target": "jard\u00edn",
+      "source": "garden",
       "gender": "m",
       "type": "place"
     },
     {
-      "id": 9,
+      "id": 20,
+      "target": "mercado",
+      "source": "market",
+      "gender": "m",
+      "type": "place"
+    },
+    {
+      "id": 21,
+      "target": "supermercado",
+      "source": "supermarket",
+      "gender": "m",
+      "type": "place"
+    },
+    {
+      "id": 22,
+      "target": "tienda",
+      "source": "store",
+      "gender": "f",
+      "type": "place"
+    },
+    {
+      "id": 23,
+      "target": "almac\u00e9n",
+      "source": "department store",
+      "gender": "m",
+      "type": "place"
+    },
+    {
+      "id": 24,
       "target": "hotel",
       "source": "hotel",
       "gender": "m",
       "type": "place"
     },
     {
-      "id": 10,
-      "target": "supermercado",
-      "source": "supermarket",
+      "id": 25,
+      "target": "restaurante",
+      "source": "restaurant",
       "gender": "m",
+      "type": "place"
+    },
+    {
+      "id": 26,
+      "target": "cafeter\u00eda",
+      "source": "coffee shop",
+      "gender": "f",
+      "type": "place"
+    },
+    {
+      "id": 27,
+      "target": "estaci\u00f3n de bomberos",
+      "source": "fire station",
+      "gender": "f",
+      "type": "place"
+    },
+    {
+      "id": 28,
+      "target": "comisar\u00eda de polic\u00eda",
+      "source": "police station",
+      "gender": "f",
+      "type": "place"
+    },
+    {
+      "id": 29,
+      "target": "aeropuerto",
+      "source": "airport",
+      "gender": "m",
+      "type": "place"
+    },
+    {
+      "id": 30,
+      "target": "estaci\u00f3n de tren",
+      "source": "train station",
+      "gender": "f",
+      "type": "place"
+    },
+    {
+      "id": 31,
+      "target": "puerto",
+      "source": "port/harbor",
+      "gender": "m",
+      "type": "place"
+    },
+    {
+      "id": 32,
+      "target": "playa",
+      "source": "beach",
+      "gender": "f",
+      "type": "place"
+    },
+    {
+      "id": 33,
+      "target": "monta\u00f1a",
+      "source": "mountain",
+      "gender": "f",
+      "type": "place"
+    },
+    {
+      "id": 34,
+      "target": "r\u00edo",
+      "source": "river",
+      "gender": "m",
+      "type": "place"
+    },
+    {
+      "id": 35,
+      "target": "puente",
+      "source": "bridge",
+      "gender": "m",
+      "type": "place"
+    },
+    {
+      "id": 36,
+      "target": "calle principal",
+      "source": "main street",
+      "gender": "f",
+      "type": "place"
+    },
+    {
+      "id": 37,
+      "target": "centro",
+      "source": "city center",
+      "gender": "m",
+      "type": "place"
+    },
+    {
+      "id": 38,
+      "target": "barrio",
+      "source": "neighborhood",
+      "gender": "m",
+      "type": "place"
+    },
+    {
+      "id": 39,
+      "target": "ciudad",
+      "source": "city",
+      "gender": "f",
+      "type": "place"
+    },
+    {
+      "id": 40,
+      "target": "pa\u00eds",
+      "source": "country",
+      "gender": "m",
+      "type": "place"
+    },
+    {
+      "id": 41,
+      "target": "\u00bfD\u00f3nde est\u00e1...?",
+      "source": "Where is...?",
+      "gender": "\u2014",
+      "type": "question"
+    },
+    {
+      "id": 42,
+      "target": "\u00bfC\u00f3mo llego a...?",
+      "source": "How do I get to...?",
+      "gender": "\u2014",
+      "type": "question"
+    },
+    {
+      "id": 43,
+      "target": "\u00bfA qu\u00e9 distancia est\u00e1...?",
+      "source": "How far is...?",
+      "gender": "\u2014",
+      "type": "question"
+    },
+    {
+      "id": 44,
+      "target": "\u00bfEst\u00e1 cerca?",
+      "source": "Is it nearby?",
+      "gender": "\u2014",
+      "type": "question"
+    },
+    {
+      "id": 45,
+      "target": "\u00bfEst\u00e1 lejos?",
+      "source": "Is it far?",
+      "gender": "\u2014",
+      "type": "question"
+    },
+    {
+      "id": 46,
+      "target": "\u00bfPuede indicarme...?",
+      "source": "Can you show me...?",
+      "gender": "\u2014",
+      "type": "question"
+    },
+    {
+      "id": 47,
+      "target": "\u00bfPuede ayudarme?",
+      "source": "Can you help me?",
+      "gender": "\u2014",
+      "type": "question"
+    },
+    {
+      "id": 48,
+      "target": "\u00bfEst\u00e1 por aqu\u00ed cerca?",
+      "source": "Is it nearby here?",
+      "gender": "\u2014",
+      "type": "question"
+    },
+    {
+      "id": 49,
+      "target": "derecha",
+      "source": "right",
+      "gender": "f",
+      "type": "direction"
+    },
+    {
+      "id": 50,
+      "target": "izquierda",
+      "source": "left",
+      "gender": "f",
+      "type": "direction"
+    },
+    {
+      "id": 51,
+      "target": "derecho",
+      "source": "straight ahead",
+      "gender": "m",
+      "type": "direction"
+    },
+    {
+      "id": 52,
+      "target": "adelante",
+      "source": "forward/ahead",
+      "gender": "\u2014",
+      "type": "direction"
+    },
+    {
+      "id": 53,
+      "target": "atr\u00e1s",
+      "source": "back/backwards",
+      "gender": "\u2014",
+      "type": "direction"
+    },
+    {
+      "id": 54,
+      "target": "arriba",
+      "source": "up/above",
+      "gender": "\u2014",
+      "type": "direction"
+    },
+    {
+      "id": 55,
+      "target": "abajo",
+      "source": "down/below",
+      "gender": "\u2014",
+      "type": "direction"
+    },
+    {
+      "id": 56,
+      "target": "girar a la derecha",
+      "source": "turn right",
+      "gender": "\u2014",
+      "type": "phrase"
+    },
+    {
+      "id": 57,
+      "target": "girar a la izquierda",
+      "source": "turn left",
+      "gender": "\u2014",
+      "type": "phrase"
+    },
+    {
+      "id": 58,
+      "target": "seguir derecho",
+      "source": "go straight",
+      "gender": "\u2014",
+      "type": "phrase"
+    },
+    {
+      "id": 59,
+      "target": "doblar a la derecha",
+      "source": "take a right",
+      "gender": "\u2014",
+      "type": "phrase"
+    },
+    {
+      "id": 60,
+      "target": "doblar a la izquierda",
+      "source": "take a left",
+      "gender": "\u2014",
+      "type": "phrase"
+    },
+    {
+      "id": 61,
+      "target": "continu\u00e1",
+      "source": "continue",
+      "gender": "\u2014",
+      "type": "phrase"
+    },
+    {
+      "id": 62,
+      "target": "est\u00e1 al final de la calle",
+      "source": "it's at the end of the street",
+      "gender": "\u2014",
+      "type": "phrase"
+    },
+    {
+      "id": 63,
+      "target": "est\u00e1 junto a...",
+      "source": "it's next to...",
+      "gender": "\u2014",
+      "type": "phrase"
+    },
+    {
+      "id": 64,
+      "target": "est\u00e1 enfrente de...",
+      "source": "it's across from...",
+      "gender": "\u2014",
+      "type": "phrase"
+    },
+    {
+      "id": 65,
+      "target": "est\u00e1 detr\u00e1s de...",
+      "source": "it's behind...",
+      "gender": "\u2014",
+      "type": "phrase"
+    },
+    {
+      "id": 66,
+      "target": "est\u00e1 entre...",
+      "source": "it's between...",
+      "gender": "\u2014",
+      "type": "phrase"
+    },
+    {
+      "id": 67,
+      "target": "est\u00e1 frente a la...",
+      "source": "it's in front of the...",
+      "gender": "\u2014",
+      "type": "phrase"
+    },
+    {
+      "id": 68,
+      "target": "est\u00e1 al lado de",
+      "source": "it's next to",
+      "gender": "\u2014",
+      "type": "phrase"
+    },
+    {
+      "id": 69,
+      "target": "est\u00e1 cruzando la calle",
+      "source": "it's across the street",
+      "gender": "\u2014",
+      "type": "phrase"
+    },
+    {
+      "id": 70,
+      "target": "est\u00e1 a dos cuadras",
+      "source": "it's two blocks away",
+      "gender": "\u2014",
+      "type": "phrase"
+    },
+    {
+      "id": 71,
+      "target": "est\u00e1 a cinco minutos",
+      "source": "it's five minutes away",
+      "gender": "\u2014",
+      "type": "phrase"
+    },
+    {
+      "id": 72,
+      "target": "est\u00e1 lejos",
+      "source": "it's far",
+      "gender": "\u2014",
+      "type": "phrase"
+    },
+    {
+      "id": 73,
+      "target": "est\u00e1 cerca",
+      "source": "it's close",
+      "gender": "\u2014",
+      "type": "phrase"
+    },
+    {
+      "id": 74,
+      "target": "sigue esta calle",
+      "source": "follow this street",
+      "gender": "\u2014",
+      "type": "phrase"
+    },
+    {
+      "id": 75,
+      "target": "toma la primera a la derecha",
+      "source": "take the first one on the right",
+      "gender": "\u2014",
+      "type": "phrase"
+    },
+    {
+      "id": 76,
+      "target": "sigue todo recto",
+      "source": "keep going straight",
+      "gender": "\u2014",
+      "type": "phrase"
+    },
+    {
+      "id": 77,
+      "target": "autob\u00fas",
+      "source": "bus",
+      "gender": "m",
+      "type": "transport"
+    },
+    {
+      "id": 78,
+      "target": "metro",
+      "source": "subway/metro",
+      "gender": "m",
+      "type": "transport"
+    },
+    {
+      "id": 79,
+      "target": "taxi",
+      "source": "taxi",
+      "gender": "m",
+      "type": "transport"
+    },
+    {
+      "id": 80,
+      "target": "bicicleta",
+      "source": "bicycle",
+      "gender": "f",
+      "type": "transport"
+    },
+    {
+      "id": 81,
+      "target": "coche",
+      "source": "car",
+      "gender": "m",
+      "type": "transport"
+    },
+    {
+      "id": 82,
+      "target": "tren",
+      "source": "train",
+      "gender": "m",
+      "type": "transport"
+    },
+    {
+      "id": 83,
+      "target": "motocicleta",
+      "source": "motorcycle",
+      "gender": "f",
+      "type": "transport"
+    },
+    {
+      "id": 84,
+      "target": "tranv\u00eda",
+      "source": "tram/tramway",
+      "gender": "m",
+      "type": "transport"
+    },
+    {
+      "id": 85,
+      "target": "troleb\u00fas",
+      "source": "trolleybus",
+      "gender": "m",
+      "type": "transport"
+    },
+    {
+      "id": 86,
+      "target": "funicular",
+      "source": "funicular",
+      "gender": "m",
+      "type": "transport"
+    },
+    {
+      "id": 87,
+      "target": "caminar",
+      "source": "to walk",
+      "gender": "\u2014",
+      "type": "verb"
+    },
+    {
+      "id": 88,
+      "target": "caminar cinco minutos",
+      "source": "walk for five minutes",
+      "gender": "\u2014",
+      "type": "phrase"
+    },
+    {
+      "id": 89,
+      "target": "caminar diez minutos",
+      "source": "walk for ten minutes",
+      "gender": "\u2014",
+      "type": "phrase"
+    },
+    {
+      "id": 90,
+      "target": "ir a pie",
+      "source": "go on foot",
+      "gender": "\u2014",
+      "type": "phrase"
+    },
+    {
+      "id": 91,
+      "target": "en coche",
+      "source": "by car",
+      "gender": "\u2014",
+      "type": "phrase"
+    },
+    {
+      "id": 92,
+      "target": "en autob\u00fas",
+      "source": "by bus",
+      "gender": "\u2014",
+      "type": "phrase"
+    },
+    {
+      "id": 93,
+      "target": "en metro",
+      "source": "by metro",
+      "gender": "\u2014",
+      "type": "phrase"
+    },
+    {
+      "id": 94,
+      "target": "en taxi",
+      "source": "by taxi",
+      "gender": "\u2014",
+      "type": "phrase"
+    },
+    {
+      "id": 95,
+      "target": "en bicicleta",
+      "source": "by bicycle",
+      "gender": "\u2014",
+      "type": "phrase"
+    },
+    {
+      "id": 96,
+      "target": "en tren",
+      "source": "by train",
+      "gender": "\u2014",
+      "type": "phrase"
+    },
+    {
+      "id": 97,
+      "target": "en avi\u00f3n",
+      "source": "by airplane",
+      "gender": "\u2014",
+      "type": "phrase"
+    },
+    {
+      "id": 98,
+      "target": "en barco",
+      "source": "by boat",
+      "gender": "\u2014",
+      "type": "phrase"
+    },
+    {
+      "id": 99,
+      "target": "a dos cuadras",
+      "source": "two blocks away",
+      "gender": "\u2014",
+      "type": "phrase"
+    },
+    {
+      "id": 100,
+      "target": "a la vuelta de la esquina",
+      "source": "around the corner",
+      "gender": "\u2014",
+      "type": "phrase"
+    },
+    {
+      "id": 101,
+      "target": "a la derecha",
+      "source": "on the right",
+      "gender": "\u2014",
+      "type": "phrase"
+    },
+    {
+      "id": 102,
+      "target": "a la izquierda",
+      "source": "on the left",
+      "gender": "\u2014",
+      "type": "phrase"
+    },
+    {
+      "id": 103,
+      "target": "en el centro",
+      "source": "in the center",
+      "gender": "\u2014",
+      "type": "phrase"
+    },
+    {
+      "id": 104,
+      "target": "fuera del centro",
+      "source": "outside the center",
+      "gender": "\u2014",
+      "type": "phrase"
+    },
+    {
+      "id": 105,
+      "target": "cerca",
+      "source": "nearby/close",
+      "gender": "\u2014",
+      "type": "adverb"
+    },
+    {
+      "id": 106,
+      "target": "lejos",
+      "source": "far away",
+      "gender": "\u2014",
+      "type": "adverb"
+    },
+    {
+      "id": 107,
+      "target": "aqu\u00ed",
+      "source": "here",
+      "gender": "\u2014",
+      "type": "adverb"
+    },
+    {
+      "id": 108,
+      "target": "all\u00ed",
+      "source": "there",
+      "gender": "\u2014",
+      "type": "adverb"
+    },
+    {
+      "id": 109,
+      "target": "ah\u00ed",
+      "source": "there (not far)",
+      "gender": "\u2014",
+      "type": "adverb"
+    },
+    {
+      "id": 110,
+      "target": "encima",
+      "source": "on top of/above",
+      "gender": "\u2014",
+      "type": "adverb"
+    },
+    {
+      "id": 111,
+      "target": "debajo",
+      "source": "underneath/below",
+      "gender": "\u2014",
+      "type": "adverb"
+    },
+    {
+      "id": 112,
+      "target": "al lado",
+      "source": "next to",
+      "gender": "\u2014",
+      "type": "adverb"
+    },
+    {
+      "id": 113,
+      "target": "alrededor",
+      "source": "around",
+      "gender": "\u2014",
+      "type": "adverb"
+    },
+    {
+      "id": 114,
+      "target": "enfrente",
+      "source": "in front",
+      "gender": "\u2014",
+      "type": "adverb"
+    },
+    {
+      "id": 115,
+      "target": "detr\u00e1s",
+      "source": "behind",
+      "gender": "\u2014",
+      "type": "adverb"
+    },
+    {
+      "id": 116,
+      "target": "arriba",
+      "source": "upstairs/above",
+      "gender": "\u2014",
+      "type": "adverb"
+    },
+    {
+      "id": 117,
+      "target": "abajo",
+      "source": "downstairs/below",
+      "gender": "\u2014",
+      "type": "adverb"
+    },
+    {
+      "id": 118,
+      "target": "primera calle a la derecha",
+      "source": "first street on the right",
+      "gender": "f",
+      "type": "phrase"
+    },
+    {
+      "id": 119,
+      "target": "segunda calle a la izquierda",
+      "source": "second street on the left",
+      "gender": "f",
+      "type": "phrase"
+    },
+    {
+      "id": 120,
+      "target": "tercera calle a la derecha",
+      "source": "third street on the right",
+      "gender": "f",
+      "type": "phrase"
+    },
+    {
+      "id": 121,
+      "target": "mapa",
+      "source": "map",
+      "gender": "m",
+      "type": "object"
+    },
+    {
+      "id": 122,
+      "target": "gu\u00eda tur\u00edstico",
+      "source": "tourist guide",
+      "gender": "m",
+      "type": "object"
+    },
+    {
+      "id": 123,
+      "target": "se\u00f1al",
+      "source": "sign",
+      "gender": "f",
+      "type": "object"
+    },
+    {
+      "id": 124,
+      "target": "cartel",
+      "source": "sign/poster",
+      "gender": "m",
+      "type": "object"
+    },
+    {
+      "id": 125,
+      "target": "direcci\u00f3n",
+      "source": "direction/address",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 126,
+      "target": "n\u00famero de calle",
+      "source": "street number",
+      "gender": "m",
+      "type": "phrase"
+    },
+    {
+      "id": 127,
+      "target": "callejero",
+      "source": "street directory",
+      "gender": "m",
+      "type": "object"
+    },
+    {
+      "id": 128,
+      "target": "zona peatonal",
+      "source": "pedestrian zone",
+      "gender": "f",
+      "type": "place"
+    },
+    {
+      "id": 129,
+      "target": "calle peatonal",
+      "source": "pedestrian street",
+      "gender": "f",
+      "type": "place"
+    },
+    {
+      "id": 130,
+      "target": "zona residencial",
+      "source": "residential area",
+      "gender": "f",
       "type": "place"
     }
   ],
   "grammar": [
     {
-      "title": "Hay (There is/are) & Prepositions",
-      "content": "Use 'hay' to say there is/there are. It doesn't change.\n\nHay un parque. (There is a park.)\nHay muchas tiendas. (There are many shops.)\n\nPrepositions: en (in), cerca de (near), lejos de (far from), al lado de (next to)",
+      "title": "Prepositions of Place \u2014 En, A, De",
+      "content": "Spanish prepositions of place are essential for directions.\n\nEN = in, on, at (location)\n- El banco est\u00e1 EN la calle Mayor. (The bank is ON Mayor Street.)\n- Vivo EN Madrid. (I live IN Madrid.)\n\nA = to, at, near (direction/destination)\n- Voy A la estaci\u00f3n. (I'm going TO the station.)\n- Est\u00e1 A dos cuadras. (It's TWO blocks away.)\n\nDE = from, of (origin)\n- Soy DE Valencia. (I'm FROM Valencia.)\n- El museo ES DE esta ciudad. (The museum IS OF this city.)\n\nNear/Far:\n- cerca de (near)\n- lejos de (far from)\n- al lado de (next to)\n- entre (between)\n- enfrente de (in front of)\n- detr\u00e1s de (behind)",
       "examples": [
-        "Hay un hotel cerca. (There is a hotel nearby.)",
-        "\u00bfD\u00f3nde est\u00e1 el parque? (Where is the park?)",
-        "Est\u00e1 al lado de la iglesia. (It's next to the church.)"
+        "El hospital est\u00e1 en la calle Principal. (The hospital is on Main Street.)\nVoy a la estaci\u00f3n de metro. (I'm going to the metro station.)\n\u00bfEst\u00e1 lejos de aqu\u00ed? (Is it far from here?)",
+        "El parque est\u00e1 entre el banco y la iglesia. (The park is between the bank and the church.)"
+      ]
+    },
+    {
+      "title": "Imperative (Command) Form \u2014 Giving Directions",
+      "content": "To give directions, you use the imperative (command) form.\n\nInformal (t\u00fa): Remove -r, add -a (AR verbs) or -e (ER/IR verbs)\n- Girar \u2192 GIRA a la derecha (Turn right)\n- Doblar \u2192 DOBLA a la izquierda (Turn left)\n- Seguir \u2192 SIGUE derecho (Go straight)\n\nFormal (usted): Add -e (AR verbs) or -a (ER/IR verbs)\n- Girar \u2192 GIRE a la derecha\n- Doblar \u2192 DOBLE a la izquierda\n\nCommon directional commands:\n- Siga derecho. (Go straight ahead \u2014 formal)\n- Gire a la derecha. (Turn right \u2014 formal)\n- Tome la primera calle. (Take the first street.)\n- Continue todo recto. (Keep going straight.)",
+      "examples": [
+        "Gira a la derecha en la esquina. (Turn right at the corner.)\nSiga todo recto hasta el sem\u00e1foro. (Go straight ahead to the traffic light.)\nDoble a la izquierda en la plaza. (Turn left at the square.)"
+      ]
+    }
+  ],
+  "pronunciation": [
+    {
+      "title": "The \u00d1 \u2014 Spanish's Signature Sound",
+      "content": "'\u00d1' is a separate letter in the Spanish alphabet (comes after N). It sounds like the 'ny' in 'canyon' or 'onion'.\n\nCommon words with \u00f1:\n- ma\u00f1ana (mah-NYAH-neh) \u2014 tomorrow\n- espa\u00f1ol (es-pah-NYOL) \u2014 Spanish\n- a\u00f1o (AH-nyoh) \u2014 year\n- ni\u00f1o (NYOH-noh) \u2014 boy/child\n- ma\u00f1ana (mah-NYA) \u2014 tomorrow\n- ca\u00f1a (KAH-nyah) \u2014 straw/tall drink\n\nThis is a sound that doesn't exist in English \u2014 practice the 'ny' sound carefully.",
+      "examples": [
+        "espa\u00f1ol (es-pah-NYOL)\nma\u00f1ana (mah-NYAH-neh)\nni\u00f1o (NYOH-noh)",
+        "a\u00f1o (AH-nyoh)",
+        "se\u00f1or (seh-NYOR)",
+        "se\u00f1orita (seh-nyoh-REE-tah)"
       ]
     }
   ],
   "exercises": [
     {
       "type": "multiple-choice",
-      "question": "What does 'hay' mean?",
+      "question": "What does '\u00bfD\u00f3nde est\u00e1 el banco?' mean?",
       "options": [
-        "Go to",
-        "There is/are",
-        "I see",
-        "It is"
+        "When is the bank open?",
+        "Where is the bank?",
+        "How much is the bank?",
+        "Is the bank nearby?"
       ],
       "correct": 1,
-      "explanation": "'Hay' means there is or there are."
+      "explanation": "'\u00bfD\u00f3nde est\u00e1...?' = 'Where is...?'"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "How do you say 'Turn left' in Spanish?",
+      "options": [
+        "Siga derecho",
+        "Gire a la derecha",
+        "Gire a la izquierda",
+        "Siga a la izquierda"
+      ],
+      "correct": 2,
+      "explanation": "'Gire a la izquierda' = Turn left (formal)."
     },
     {
       "type": "fill-in-blank",
-      "question": "Complete: '\u00bfD\u00f3nde ___ el parque?' (Where is the park?)",
-      "correct": "est\u00e1",
-      "explanation": "'Estar' is used for location: \u00bfD\u00f3nde est\u00e1...?"
+      "question": "Complete: 'El museo est\u00e1 ___ la calle Principal.' (The museum is on Main Street.)",
+      "correct": "en",
+      "explanation": "'En' = on/in (location)."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: 'Est\u00e1 a cinco ___.' (It's five blocks away.)",
+      "correct": "cuadras",
+      "explanation": "'Cuadras' = blocks (city blocks)."
     }
   ]
 }

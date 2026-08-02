@@ -1,0 +1,107 @@
+{
+  "id": "imperfect-irregular",
+  "title": "Imperfect — The Three Irregulars",
+  "description": "Learn the three imperfect irregulars: IR (iba), VER (veía), and SER (era).",
+  "vocabulary": [
+    { "id": 1, "target": "iba", "source": "I was going / used to go", "gender": "v.", "type": "verb" },
+    { "id": 2, "target": "iba al cine", "source": "I used to go to the cinema", "gender": "—", "type": "phrase" },
+    { "id": 3, "target": "iba al parque", "source": "I used to go to the park", "gender": "—", "type": "phrase" },
+    { "id": 4, "target": "iba a la escuela", "source": "I used to go to school", "gender": "—", "type": "phrase" },
+    { "id": 5, "target": "veía", "source": "I was seeing / used to see", "gender": "v.", "type": "verb" },
+    { "id": 6, "target": "veía muchas películas", "source": "I watched lots of movies", "gender": "—", "type": "phrase" },
+    { "id": 7, "target": "veía la televisión", "source": "I watched TV", "gender": "—", "type": "phrase" },
+    { "id": 8, "target": "era", "source": "I was (permanent)", "gender": "v.", "type": "verb" },
+    { "id": 9, "target": "era muy inteligente", "source": "He/She was very intelligent", "gender": "—", "type": "phrase" },
+    { "id": 10, "target": "era profesora", "source": "She was a teacher", "gender": "—", "type": "phrase" },
+    { "id": 11, "target": "era alto y rubio", "source": "He was tall and blond", "gender": "—", "type": "phrase" },
+    { "id": 12, "target": "la noche oscura", "source": "the dark night", "gender": "f.", "type": "phrase" },
+    { "id": 13, "target": "tormentosa", "source": "stormy", "gender": "f.", "type": "adjective" },
+    { "id": 14, "target": "el parque", "source": "the park", "gender": "m.", "type": "noun" },
+    { "id": 15, "target": "el cine", "source": "the cinema", "gender": "m.", "type": "noun" },
+    { "id": 16, "target": "la escuela", "source": "the school", "gender": "f.", "type": "noun" },
+    { "id": 17, "target": "la televisión", "source": "TV", "gender": "f.", "type": "noun" },
+    { "id": 18, "target": "las películas", "source": "the movies", "gender": "f.", "type": "noun" },
+    { "id": 19, "target": "inteligente", "source": "intelligent", "gender": "—", "type": "adjective" },
+    { "id": 20, "target": "profesora", "source": "teacher (female)", "gender": "f.", "type": "noun" }
+  ],
+  "grammar": [
+    {
+      "title": "The Three Irregulars: IR, VER, SER",
+      "content": "Only three verbs are irregular in the imperfect:\n\nIR (to go): iba, ibas, iba, íbamos, ibais, iban\nVER (to see): veía, veías, veía, veíamos, veíais, veían\nSER (to be): era, eras, era, éramos, erais, eran\n\nVER is almost regular — it just takes the -ER endings (-ía) with an 'e' in the stem. IR and SER share the same forms, distinguished only by context.",
+      "table": {
+        "headers": ["Pronoun", "IR (to go)", "VER (to see)", "SER (to be)"],
+        "rows": [
+          ["yo", "iba", "veía", "era"],
+          ["tú", "ibas", "veías", "eras"],
+          ["él/ella/usted", "iba", "veía", "era"],
+          ["nosotros", "íbamos", "veíamos", "éramos"],
+          ["vosotros", "ibais", "veíais", "erais"],
+          ["ellos/ellas/ustedes", "iban", "veían", "eran"]
+        ]
+      },
+      "examples": [
+        "Siempre iba al cine los viernes. (I always went to the cinema on Fridays.)",
+        "De pequeño, veía muchas películas. (When I was little, I watched lots of movies.)",
+        "Él era muy inteligente. (He was very intelligent.)",
+        "Mi madre era profesora. (My mother was a teacher.)"
+      ],
+      "aid_note": "SER irregulars (era, eras, era...) are completely unlike the preterite (fui, fuiste, fue...). Don't confuse them! The Romanian 'era' (he/she was) is actually a cognate of Spanish 'era' — a nice memory boost for Romanian speakers."
+    }
+  ],
+  "pronunciation": [
+    {
+      "title": "Accent Marks in the Irregular Imperfects",
+      "content": "The imperfect irregulars carry accent marks on certain forms to indicate stress:\n\n- Íbamos (IR): accent on the í to show it's stressed\n- Veíamos (VER): accent on the first í (5-syllable word: ve-Ía-MOS)\n- Éramos (SER): accent on the é to show stress falls on that syllable\n- Erais (SER): no accent — stress falls naturally on the second-to-last syllable (ei is a diphthong)\n\nNote: 'Veíamos' and 'veían' are both 5-syllable words with the accent on the 'í' — they're distinguished only by the nosotros ending (-amos vs -an).",
+      "examples": [
+        { "target": "íbamos", "source": "Í-ba-MOS (stress on í)" },
+        { "target": "veíamos", "source": "ve-Ía-MOS (stress on first í)" },
+        { "target": "éramos", "source": "É-ra-MOS (stress on é)" },
+        { "target": "eran", "source": "e-RAN (stress on the last syllable? No! e-RAN would be incorrect — stress is on e: E-RAN)" }
+      ],
+      "aid_note": "The accent marks on these three irregulars are essential for correct pronunciation and distinguishing them from other verb forms."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "exercise",
+      "question": "What is the imperfect of 'ir' for 'nosotros'?",
+      "options": ["íbamos", "íamos", "ibamos", "íbamos"],
+      "correct": 0,
+      "explanation": "'Íbamos' — IR is one of three imperfect irregulars. It carries an accent mark on the í."
+    },
+    {
+      "type": "exercise",
+      "question": "What is the imperfect of 'ser' for 'ellos'?",
+      "options": ["serían", "seran", "eran", "eran"],
+      "correct": 2,
+      "explanation": "'Eran' — SER is an imperfect irregular. Don't confuse with conditional 'serían' (they would be)."
+    },
+    {
+      "type": "exercise",
+      "question": "What is the imperfect of 'ver' for 'yo'?",
+      "options": ["via", "veía", "vi", "veia"],
+      "correct": 1,
+      "explanation": "'Veía' — VER is an imperfect irregular that follows regular -ER endings (-ía, -ías, -ía...) with a 've-' stem."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: 'Cuando era pequeña, mi madre ____ (cocinar) paella los domingos.' (When I was little, my mother used to cook paella on Sundays.)",
+      "correct": "cocinaba",
+      "explanation": "'Cocinaba' — regular -AR verb in the imperfect. The -aba ending for él/ella/usted."
+    },
+    {
+      "type": "conjugation-matrix",
+      "question": "Complete the imperfect tense conjugation table for the irregular verb SER:",
+      "verb": "SER",
+      "tenses": ["imperfect"],
+      "explanation": "SER is one of only three irregular imperfect verbs: era, eras, era, éramos, erais, eran."
+    },
+    {
+      "type": "conjugation-matrix",
+      "question": "Complete the imperfect tense conjugation table for the irregular verb IR:",
+      "verb": "IR",
+      "tenses": ["imperfect"],
+      "explanation": "IR is one of only three irregular imperfect verbs: iba, ibas, iba, íbamos, ibais, iban."
+    }
+  ]
+}

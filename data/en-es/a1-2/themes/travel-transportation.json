@@ -1,0 +1,302 @@
+{
+  "id": "travel-transportation",
+  "level": "a1-2",
+  "title": "Travel & Transportation",
+  "description": "Learn to talk about transportation, book tickets, navigate airports and stations, handle travel situations, and communicate about itineraries and accommodations.",
+  "vocabulary": [
+    {"id": 1, "target": "viaje", "source": "trip/journey", "gender": "m", "type": "noun"},
+    {"id": 2, "target": "vuelo", "source": "flight", "gender": "m", "type": "noun"},
+    {"id": 3, "target": "billete", "source": "ticket", "gender": "m", "type": "noun"},
+    {"id": 4, "target": "boleto", "source": "ticket (LatAm)", "gender": "m", "type": "noun"},
+    {"id": 5, "target": "pasaporte", "source": "passport", "gender": "m", "type": "noun"},
+    {"id": 6, "target": "visado", "source": "visa", "gender": "m", "type": "noun"},
+    {"id": 7, "target": "maleta", "source": "suitcase", "gender": "f", "type": "noun"},
+    {"id": 8, "target": "equipaje", "source": "luggage", "gender": "m", "type": "noun"},
+    {"id": 9, "target": "mochila", "source": "backpack", "gender": "f", "type": "noun"},
+    {"id": 10, "target": "bolso", "source": "bag", "gender": "m", "type": "noun"},
+    {"id": 11, "target": "avión", "source": "airplane", "gender": "m", "type": "transport"},
+    {"id": 12, "target": "tren", "source": "train", "gender": "m", "type": "transport"},
+    {"id": 13, "target": "autobús", "source": "bus", "gender": "m", "type": "transport"},
+    {"id": 14, "target": "metro", "source": "subway", "gender": "m", "type": "transport"},
+    {"id": 15, "target": "taxi", "source": "taxi", "gender": "m", "type": "transport"},
+    {"id": 16, "target": "coche", "source": "car", "gender": "m", "type": "transport"},
+    {"id": 17, "target": "bicicleta", "source": "bicycle", "gender": "f", "type": "transport"},
+    {"id": 18, "target": "barco", "source": "boat", "gender": "m", "type": "transport"},
+    {"id": 19, "target": "barco de vapor", "source": "steamship", "gender": "m", "type": "transport"},
+    {"id": 20, "target": "autobús interurbano", "source": "highway bus", "gender": "m", "type": "transport"},
+    {"id": 21, "target": "aeropuerto", "source": "airport", "gender": "m", "type": "place"},
+    {"id": 22, "target": "estación de tren", "source": "train station", "gender": "f", "type": "place"},
+    {"id": 23, "target": "estación de autobuses", "source": "bus station", "gender": "f", "type": "place"},
+    {"id": 24, "target": "puerto", "source": "port", "gender": "m", "type": "place"},
+    {"id": 25, "target": "andén", "source": "platform", "gender": "m", "type": "place"},
+    {"id": 26, "target": "terminal", "source": "terminal", "gender": "f", "type": "place"},
+    {"id": 27, "target": "mostrador de facturación", "source": "check-in desk", "gender": "m", "type": "place"},
+    {"id": 28, "target": "control de seguridad", "source": "security check", "gender": "m", "type": "place"},
+    {"id": 29, "target": "puerta de embarque", "source": "boarding gate", "gender": "f", "type": "place"},
+    {"id": 30, "target": "salida", "source": "exit / departure", "gender": "f", "type": "place"},
+    {"id": 31, "target": "llegada", "source": "arrival", "gender": "f", "type": "place"},
+    {"id": 32, "target": "piso", "source": "floor", "gender": "m", "type": "place"},
+    {"id": 33, "target": "ascensor", "source": "elevator", "gender": "m", "type": "place"},
+    {"id": 34, "target": "escalera", "source": "stairs", "gender": "f", "type": "place"},
+    {"id": 35, "target": "escalera mecánica", "source": "escalator", "gender": "f", "type": "place"},
+    {"id": 36, "target": "hotel", "source": "hotel", "gender": "m", "type": "place"},
+    {"id": 37, "target": "hostal", "source": "hostel", "gender": "m", "type": "place"},
+    {"id": 38, "target": "camping", "source": "camping site", "gender": "m", "type": "place"},
+    {"id": 39, "target": "alquiler de coches", "source": "car rental", "gender": "m", "type": "place"},
+    {"id": 40, "target": "oficina de turismo", "source": "tourist office", "gender": "f", "type": "place"},
+    {"id": 41, "target": "reservar", "source": "to reserve/book", "gender": "m", "type": "verb"},
+    {"id": 42, "target": "facturar", "source": "to check in (luggage)", "gender": "m", "type": "verb"},
+    {"id": 43, "target": "embarcar", "source": "to board", "gender": "m", "type": "verb"},
+    {"id": 44, "target": "despegar", "source": "to take off", "gender": "m", "type": "verb"},
+    {"id": 45, "target": "aterrizar", "source": "to land", "gender": "m", "type": "verb"},
+    {"id": 46, "target": "salir", "source": "to leave / depart", "gender": "m", "type": "verb"},
+    {"id": 47, "target": "llegar", "source": "to arrive", "gender": "m", "type": "verb"},
+    {"id": 48, "target": "viajar", "source": "to travel", "gender": "m", "type": "verb"},
+    {"id": 49, "target": "transbordar", "source": "to transfer", "gender": "m", "type": "verb"},
+    {"id": 50, "target": "cancelar", "source": "to cancel", "gender": "m", "type": "verb"},
+    {"id": 51, "target": "demora", "source": "delay", "gender": "f", "type": "noun"},
+    {"id": 52, "target": "retraso", "source": "delay", "gender": "m", "type": "noun"},
+    {"id": 53, "target": "tarde", "source": "late", "gender": "f", "type": "adjective"},
+    {"id": 54, "target": "temprano", "source": "early", "gender": "m", "type": "adjective"},
+    {"id": 55, "target": "puente aéreo", "source": "jet bridge", "gender": "m", "type": "noun"},
+    {"id": 56, "target": "asiento", "source": "seat", "gender": "m", "type": "noun"},
+    {"id": 57, "target": "ventanilla", "source": "window seat", "gender": "f", "type": "noun"},
+    {"id": 58, "target": "pasillo", "source": "aisle seat", "gender": "m", "type": "noun"},
+    {"id": 59, "target": "cinturón de seguridad", "source": "safety belt", "gender": "m", "type": "noun"},
+    {"id": 60, "target": "maleta de mano", "source": "carry-on", "gender": "f", "type": "noun"},
+    {"id": 61, "target": "equipaje facturado", "source": "checked luggage", "gender": "m", "type": "noun"},
+    {"id": 62, "target": "peso", "source": "weight", "gender": "m", "type": "noun"},
+    {"id": 63, "target": "tamaño", "source": "size", "gender": "m", "type": "noun"},
+    {"id": 64, "target": "tarifa", "source": "fare", "gender": "f", "type": "noun"},
+    {"id": 65, "target": "descuento", "source": "discount", "gender": "m", "type": "noun"},
+    {"id": 66, "target": "oferta", "source": "sale / deal", "gender": "f", "type": "noun"},
+    {"id": 67, "target": "reserva", "source": "reservation", "gender": "f", "type": "noun"},
+    {"id": 68, "target": "confirmación", "source": "confirmation", "gender": "f", "type": "noun"},
+    {"id": 69, "target": "itinerario", "source": "itinerary", "gender": "m", "type": "noun"},
+    {"id": 70, "target": "destino", "source": "destination", "gender": "m", "type": "noun"},
+    {"id": 71, "target": "origen", "source": "origin / departure point", "gender": "m", "type": "noun"},
+    {"id": 72, "target": "escala", "source": "stopover / layover", "gender": "f", "type": "noun"},
+    {"id": 73, "target": "conexión", "source": "connection", "gender": "f", "type": "noun"},
+    {"id": 74, "target": "hora", "source": "hour / time", "gender": "f", "type": "noun"},
+    {"id": 75, "target": "minuto", "source": "minute", "gender": "m", "type": "noun"},
+    {"id": 76, "target": "día", "source": "day", "gender": "m", "type": "noun"},
+    {"id": 77, "target": "mes", "source": "month", "gender": "m", "type": "noun"},
+    {"id": 78, "target": "año", "source": "year", "gender": "m", "type": "noun"},
+    {"id": 79, "target": "semana", "source": "week", "gender": "f", "type": "noun"},
+    {"id": 80, "target": "tarjeta de embarque", "source": "boarding pass", "gender": "f", "type": "noun"},
+    {"id": 81, "target": "identificación", "source": "identification", "gender": "f", "type": "noun"},
+    {"id": 82, "target": "documento", "source": "document", "gender": "m", "type": "noun"},
+    {"id": 83, "target": "mapa", "source": "map", "gender": "m", "type": "noun"},
+    {"id": 84, "target": "guía turística", "source": "tourist guide", "gender": "f", "type": "noun"},
+    {"id": 85, "target": "souvenir", "source": "souvenir", "gender": "m", "type": "noun"},
+    {"id": 86, "target": "recuerdo", "source": "memory / souvenir", "gender": "m", "type": "noun"},
+    {"id": 87, "target": "cámara", "source": "camera", "gender": "f", "type": "noun"},
+    {"id": 88, "target": "cargador", "source": "charger", "gender": "m", "type": "noun"},
+    {"id": 89, "target": "adaptador", "source": "adapter (plug)", "gender": "m", "type": "noun"},
+    {"id": 90, "target": "enchufe", "source": "plug / outlet", "gender": "m", "type": "noun"},
+    {"id": 91, "target": "cable", "source": "cable", "gender": "m", "type": "noun"},
+    {"id": 92, "target": "batería", "source": "battery", "gender": "f", "type": "noun"},
+    {"id": 93, "target": "cargador portátil", "source": "power bank", "gender": "m", "type": "noun"},
+    {"id": 94, "target": "calle", "source": "street", "gender": "f", "type": "place"},
+    {"id": 95, "target": "avenida", "source": "avenue", "gender": "f", "type": "place"},
+    {"id": 96, "target": "parada de autobús", "source": "bus stop", "gender": "f", "type": "place"},
+    {"id": 97, "target": "cruzamiento", "source": "intersection", "gender": "m", "type": "place"},
+    {"id": 98, "target": "rotonda", "source": "roundabout", "gender": "f", "type": "place"},
+    {"id": 99, "target": "semaforo", "source": "traffic light", "gender": "m", "type": "place"},
+    {"id": 100, "target": "semáforo", "source": "traffic light", "gender": "m", "type": "place"}
+  ],
+  "grammar": [
+    {
+      "title": "Ir — To Go (Present Tense)",
+      "content": "Ir is an irregular verb meaning 'to go'. It is one of the most important verbs for travel.\n\nConjugation:\nYo voy (I go)\nTú vas (You go — informal)\nÉl/Ella/Usted va (He/She/You formal goes)\nNosotros/Nosotras vamos (We go)\nVosotros/Vosotras vais (You all go — Spain)\nEllos/Ellas/Ustedes van (They/You all go)\n\nUse with 'a + place':\nVoy a Madrid. (I'm going to Madrid.)\nVas a Barcelona. (You're going to Barcelona.)\nVa a la playa. (He/She is going to the beach.)\nVamos al hotel. (We're going to the hotel.)\nVan a la estación. (They're going to the station.)\n\nNOTE: 'Ir a + infinitive' = 'Going to [do something]'\nVoy a viajar. (I'm going to travel.)\nVamos a reservar. (We're going to book.)",
+      "examples": [
+        "Voy a Madrid. (I'm going to Madrid.)\nVas a Barcelona. (You're going to Barcelona.)\nVa a Valencia. (He/She is going to Valencia.)\nVamos al hotel. (We're going to the hotel.)\nVan a la playa. (They're going to the beach.)",
+        "Voy a viajar mañana. (I'm going to travel tomorrow.)\nVamos a reservar un vuelo. (We're going to book a flight.)\nVa a visitar a sus amigos. (He/She is going to visit friends.)"
+      ]
+    },
+    {
+      "title": "Llegar y Salir — To Arrive and To Leave",
+      "content": "Llegar (to arrive) and Salir (to leave) are essential travel verbs.\n\nLlegar conjugation:\nYo llego (I arrive)\nTú llegas (You arrive)\nÉl/Ella/Usted llega (He/She arrives)\nNosotros llegamos (We arrive)\nEllos llegan (They arrive)\n\nSalir conjugation:\nYo salgo (I leave)\nTú sales (You leave)\nÉl/Ella/Usted sale (He/She leaves)\nNosotros salimos (We leave)\nEllos salen (They leave)\n\nPrepositions:\nLlegar a + place = arrive at/in + place\nSalir de + place = leave + place\n\nEjemplos:\n¿Cuándo llegamos a Sevilla? (When do we arrive in Seville?)\nSalgo del hotel a las ocho. (I leave the hotel at eight.)\n¿Cuándo sale el tren? (When does the train leave?)\n¿Cuándo llega el vuelo? (When does the flight arrive?)",
+      "examples": [
+        "Llegamos a Madrid a las diez. (We arrive in Madrid at ten.)\nLlegas tarde. (You arrive late.)\n¿Cuándo llega el avión? (When does the airplane arrive?)\nSale del aeropuerto a las nueve. (It leaves the airport at nine.)\nSalgo de casa temprano. (I leave home early.)",
+        "¿Cuándo llegamos al hotel? (When do we arrive at the hotel?)\nSalgo de la estación a las seis. (I leave the station at six.)\n¿Cuándo sale el autobús? (When does the bus leave?)\nLlegamos a la terminal a las once. (We arrive at the terminal at eleven.)"
+      ]
+    },
+    {
+      "title": "Querer and Poder — Want and Can",
+      "content": "Querer (to want) and Poder (can/to be able to) are modal verbs used constantly when traveling.\n\nQuerer conjugation:\nYo quiero (I want)\nTú quieres (You want)\nÉl/Ella/Usted quiere (He/She wants)\nNosotros queremos (We want)\nEllos quieren (They want)\n\nPoder conjugation:\nYo puedo (I can)\nTú puedes (You can)\nÉl/Ella/Usted puede (He/She can)\nNosotros podemos (We can)\nEllos pueden (They can)\n\nUseful travel phrases:\nQuiero un billete. (I want a ticket.)\n¿Puedo pagar con tarjeta? (Can I pay by card?)\nQuiero una habitación. (I want a room.)\n¿Puede ayudarme? (Can you help me?)\nQueremos ir a la playa. (We want to go to the beach.)\nPuedo hablar un poco de español. (I can speak a little Spanish.)",
+      "examples": [
+        "Quiero un billete a Barcelona. (I want a ticket to Barcelona.)\n¿Puedo pagar con tarjeta? (Can I pay by card?)\nQuiero reservar una mesa. (I want to reserve a table.)\n¿Puede darme información? (Can you give me information?)\nQueremos alquilar un coche. (We want to rent a car.)\nPuedo esperar aquí. (I can wait here.)"
+      ]
+    },
+    {
+      "title": "Ser vs Estar — Location",
+      "content": "Ser and Estar both translate to 'to be' in English, but for location you use ESTAR.\n\nEstar conjugation:\nYo estoy (I am)\nTú estás (You are)\nÉl/Ella/Usted está (He/She is)\nNosotros estamos (We are)\nEllos están (They are)\n\nUse Estar for location:\n¿Dónde está la estación? (Where is the station?)\nEl hotel está cerca. (The hotel is near.)\nEstamos en el aeropuerto. (We are at the airport.)\nLa parada está lejos. (The stop is far.)\n\nEstá a cinco minutos. (It is five minutes away.)\n\nNOTE: 'Estar a + time' = it is [time] away\nEstar cerca = to be near\nEstar lejos = to be far",
+      "examples": [
+        "¿Dónde está el baño? (Where is the bathroom?)\nEl aeropuerto está lejos. (The airport is far.)\n¿Dónde está la puerta de embarque? (Where is the boarding gate?)\nEstamos en la terminal tres. (We are in terminal three.)\nLa playa está cerca del hotel. (The beach is near the hotel.)",
+        "Está a diez minutos. (It is ten minutes away.)\n¿Está cerca? (Is it near?)\nNo, está lejos. (No, it is far.)\nEstá al lado de la estación. (It is next to the station.)"
+      ]
+    }
+  ],
+  "expressions": [
+    {
+      "title": "At the Airport — Essential Phrases",
+      "content": "Check-in:\nQuiero facturar esta maleta. (I want to check in this suitcase.)\n¿Cuánto pesa el equipaje? (How much does the luggage weigh?)\nQuiero facturar dos maletas. (I want to check in two suitcases.)\n\nSecurity:\n¿Dónde es el control de seguridad? (Where is the security check?)\nTengo que sacar los líquidos. (I have to take out the liquids.)\nQuito el cinturón de seguridad. (I take off my seat belt.)\n\nBoarding:\n¿Dónde está la puerta de embarque? (Where is the boarding gate?)\n¿Cuándo es el embarque? (When is boarding?)\n¿En qué andén sale el tren? (Which platform does the train leave from?)\n\nArrival:\n¿Dónde es la recogida de equipaje? (Where is baggage claim?)\n¿Dónde es la salida? (Where is the exit?)\n¿Dónde puedo tomar un taxi? (Where can I take a taxi?)\n\nDelays and problems:\n¿Cuánto es el retraso? (How long is the delay?)\nEl vuelo está cancelado. (The flight is cancelled.)\n¿Cuándo sale el siguiente vuelo? (When does the next flight leave?)\nPerdón, ¿puede repetirlo? (Excuse me, can you repeat that?)",
+      "examples": [
+        "Quiero facturar esta maleta. (I want to check in this suitcase.)\n¿Cuánto pesa el equipaje? (How much does the luggage weigh?)\n¿Dónde está la puerta de embarque? (Where is the boarding gate?)\n¿Cuándo es el embarque? (When is boarding?)\n¿Dónde es la recogida de equipaje? (Where is baggage claim?)",
+        "El vuelo está retrasado. (The flight is delayed.)\n¿Cuándo sale el siguiente vuelo? (When does the next flight leave?)\nPerdón, ¿puede repetirlo? (Excuse me, can you repeat that?)\n¿Dónde puedo tomar un taxi? (Where can I take a taxi?)"
+      ]
+    },
+    {
+      "title": "Booking and Reservations",
+      "content": "Reserving a hotel:\nQuiero reservar una habitación. (I want to reserve a room.)\n¿Cuánto cuesta la habitación? (How much does the room cost?)\nTengo una reserva. (I have a reservation.)\n¿A nombre de quién es la reserva? (Whose name is the reservation under?)\n\nReserving transport:\nQuiero reservar un billete de tren. (I want to reserve a train ticket.)\n¿Cuándo sale el tren? (When does the train leave?)\n¿Cuándo llega el autobús? (When does the bus arrive?)\nQuiero un billete de ida y vuelta. (I want a round-trip ticket.)\nQuiero un billete de solo ida. (I want a one-way ticket.)\n\nMaking changes:\nPuedo cambiar mi reserva? (Can I change my reservation?)\nQuiero cancelar la reserva. (I want to cancel the reservation.)\n¿Puedo cambiar la fecha? (Can I change the date?)\n¿Cuánto cuesta el cambio? (How much does the change cost?)\n\nChecking in:\nTengo una reserva a nombre de... (I have a reservation under the name...)\n¿El desayuno está incluido? (Is breakfast included?)\n¿Tiene WiFi gratis? (Do you have free WiFi?)\n¿A qué hora es el desayuno? (What time is breakfast?)",
+      "examples": [
+        "Quiero reservar una habitación doble. (I want to reserve a double room.)\n¿Cuánto cuesta la habitación por noche? (How much does the room cost per night?)\nTengo una reserva a nombre de Smith. (I have a reservation under the name Smith.)\n¿El desayuno está incluido? (Is breakfast included?)",
+        "Quiero un billete de ida y vuelta. (I want a round-trip ticket.)\n¿A qué hora sale el tren? (What time does the train leave?)\n¿Puedo cambiar la fecha? (Can I change the date?)\n¿Cuánto cuesta el cambio? (How much does the change cost?)\n¿Tiene WiFi gratis? (Do you have free WiFi?)\n¿A qué hora es el desayuno? (What time is breakfast?)"
+      ]
+    },
+    {
+      "title": "Asking for Directions",
+      "content": "Asking for directions:\n¿Dónde está...? (Where is...?)\n¿Cómo llego a...? (How do I get to...?)\n¿Está lejos? (Is it far?)\n¿Está cerca? (Is it near?)\n\nCommon places:\n¿Dónde está la estación de tren? (Where is the train station?)\n¿Dónde está el aeropuerto? (Where is the airport?)\n¿Dónde está la playa? (Where is the beach?)\n¿Dónde hay un restaurante? (Is there a restaurant nearby?)\n\nDirection words:\na la derecha (to the right)\na la izquierda (to the left)\nrecto / todo recto (straight ahead)\nal lado de (next to)\nenfrente de (in front of)\nal fondo (at the end)\n\nExamples:\nGire a la derecha. (Turn right.)\nVaya todo recto. (Go straight ahead.)\nEstá al lado de la estación. (It is next to the station.)\nEstá enfrente del hotel. (It is in front of the hotel.)\nSiga todo recto hasta el final. (Keep going straight to the end.)\nGire a la izquierda en la esquina. (Turn left at the corner.)",
+      "examples": [
+        "¿Dónde está la estación de metro? (Where is the subway station?)\n¿Cómo llego al aeropuerto? (How do I get to the airport?)\n¿Está lejos? (Is it far?)\nNo, está cerca. (No, it is near.)\nGire a la derecha. (Turn right.)\nVaya todo recto. (Go straight ahead.)"
+      ]
+    }
+  ],
+  "pronunciation": [
+    {
+      "title": "Travel Vocabulary Pronunciation Guide",
+      "content": "Key travel words with pronunciation:\n\navión = ah-vee-ONE (airplane)\ntren = tren (train)\nautobús = ah-toh-BOOS (bus)\naeropuerto = eh-reh-pwar-TOH (airport)\nestación = eh-stah-see-OWN (station)\nmaleta = mah-LEH-tah (suitcase)\nequipaje = eh-kee-PAH-heh (luggage)\npasaporte = pah-sah-por-TEH (passport)\nbillete = bee-YEH-teh (ticket)\nvuelo = BWEH-loh (flight)\nreservar = reh-ser-BAHR (to reserve)\nembarcar = em-bahr-KAR (to board)\ndespegar = dehs-peh-GAR (to take off)\naterrizar = ah-teh-ree-SAR (to land)\nllegar = yeh-GAR (to arrive)\nsalir = sah-LEER (to leave)\nviajar = bee-ah-HAR (to travel)\nplataforma / andén = ahn-DEHN (platform)\npuerta de embarque = PWER-tah deh em-bahr-KEH (boarding gate)\nmostrador = mos-trah-DOHR (counter)\nmaleta de mano = mah-LEH-tah deh MAH-noh (carry-on)\nretraso = reh-TRAH-soh (delay)\ncancelado = kah-nseh-LAH-doh (cancelled)\nhora = OH-rah (time/hour)",
+      "examples": [
+        "avión = ah-vee-ONE\nautobús = ah-toh-BOOS\naeropuerto = eh-reh-pwar-TOH\nmaleta = mah-LEH-tah\npasaporte = pah-sah-por-TEH\nbillete = bee-YEH-teh\nvuelo = BWEH-loh\nreservar = reh-ser-BAHR\nembarcar = em-bahr-KAR\nllegar = yeh-GAR\nsalir = sah-LEER\nviajar = bee-ah-HAR\nplataforma = ahn-DEHN\nretraso = reh-TRAH-soh"
+      ]
+    },
+    {
+      "title": "Spanish Vowel Sounds for Travelers",
+      "content": "Spanish has 5 vowel sounds that are always the same:\n\nA = ah (like 'fAther')\nE = eh (like 'thEn')\nI = ee (like 'sEe')\nO = oh (like 'sO')\nU = oo (like 'flOOt')\n\nTravel words with clear vowels:\nmaleta = mah-LEH-tah (all vowels clear)\ntren = tren (e = eh)\navión = ah-vee-ONE (ó = oh)\nhotel = oh-TEL (o = oh, e = eh)\naeropuerto = eh-reh-pwar-TOH (all vowels clear)\nbus = boos (u = oo)\nmetro = meh-TROH (e = eh, o = oh)\nhotel = oh-TEL (o = oh, e = eh)\n\nNOTE: Spanish vowels are short and crisp — never drawled out like English vowels.",
+      "examples": [
+        "a = ah → maleta (mah-LEH-tah)\ne = eh → tren (tren)\ni = ee → avión (ah-vee-ONE)\no = oh → hotel (oh-TEL)\nu = oo → bus (boos)"
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "multiple-choice",
+      "question": "What is 'airport' in Spanish?",
+      "options": ["estación", "aeropuerto", "puerto", "terminal"],
+      "correct": 1,
+      "explanation": "Aeropuerto = airport. Estación = station. Puerto = port. Terminal = terminal."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "How do you say 'I'm going to Madrid' in Spanish?",
+      "options": ["Voy a Madrid", "Vengo de Madrid", "Llego a Madrid", "Viajo a Madrid"],
+      "correct": 0,
+      "explanation": "Voy a Madrid = I'm going to Madrid. Vengo de Madrid = I'm coming from Madrid. Llego a Madrid = I arrive in Madrid."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What does 'reservar' mean?",
+      "options": ["to book", "to cancel", "to arrive", "to leave"],
+      "correct": 0,
+      "explanation": "Reservar = to book/reserve. Cancelar = to cancel. Llegar = to arrive. Salir = to leave."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What is 'suitcase' in Spanish?",
+      "options": ["maleta", "mochila", "bolso", "equipaje"],
+      "correct": 0,
+      "explanation": "Maleta = suitcase. Mochila = backpack. Bolso = bag. Equipaje = luggage."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: ___ un billete. (I want to book a ticket.)",
+      "correct": "Quiero reservar",
+      "explanation": "Quiero reservar un billete = I want to book a ticket."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: El tren está ___. (The train is delayed.)",
+      "correct": "retrasado",
+      "explanation": "El tren está retrasado = The train is delayed."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: ¿Dónde está la ___? (Where is the boarding gate?)",
+      "correct": "puerta de embarque",
+      "explanation": "¿Dónde está la puerta de embarque? = Where is the boarding gate?"
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: Vengo ___. (I'm coming from.)",
+      "correct": "de",
+      "explanation": "Vengo de = I'm coming from. Vengo de Madrid = I'm coming from Madrid."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What is 'train station' in Spanish?",
+      "options": ["aeropuerto", "estación de tren", "puerto", "parada"],
+      "correct": 1,
+      "explanation": "Estación de tren = train station. Aeropuerto = airport. Puerto = port. Parada = stop."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "How do you say 'round-trip ticket' in Spanish?",
+      "options": ["billete de solo ida", "billete de ida y vuelta", "billete de ida", "billete de vuelta"],
+      "correct": 1,
+      "explanation": "Billete de ida y vuelta = round-trip ticket. Billete de solo ida = one-way ticket."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What does 'cancelar' mean?",
+      "options": ["to book", "to cancel", "to arrive", "to leave"],
+      "correct": 1,
+      "explanation": "Cancelar = to cancel. Reservar = to book. Llegar = to arrive. Salir = to leave."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: Quiero una habitación con ___ (I want a room with a window).",
+      "correct": "ventanilla",
+      "explanation": "Una habitación con ventanilla = A room with a window. Ventanilla = window seat / window."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Which verb means 'to arrive' in Spanish?",
+      "options": ["salir", "viajar", "llegar", "ir"],
+      "correct": 2,
+      "explanation": "Llegar = to arrive. Salir = to leave. Viajar = to travel. Ir = to go."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: Gire a la ___. (Turn right.)",
+      "correct": "derecha",
+      "explanation": "Gire a la derecha = Turn right. Gire a la izquierda = Turn left."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What does 'maleta de mano' mean?",
+      "options": ["checked luggage", "carry-on", "suitcase", "backpack"],
+      "correct": 1,
+      "explanation": "Maleta de mano = carry-on luggage. Equipaje facturado = checked luggage."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: ¿Puedo pagar con ___? (Can I pay by card?)",
+      "correct": "tarjeta",
+      "explanation": "¿Puedo pagar con tarjeta? = Can I pay by card?"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What is 'boarding pass' in Spanish?",
+      "options": ["tarjeta de embarque", "pasaporte", "billete", "reserva"],
+      "correct": 0,
+      "explanation": "Tarjeta de embarque = boarding pass. Pasaporte = passport. Billete = ticket."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: El vuelo está ___. (The flight is cancelled.)",
+      "correct": "cancelado",
+      "explanation": "El vuelo está cancelado = The flight is cancelled."
+    }
+  ]
+}

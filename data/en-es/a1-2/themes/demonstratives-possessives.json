@@ -1,0 +1,137 @@
+{
+  "id": "demonstratives-possessives",
+  "title": "Demonstratives and Possessives",
+  "description": "Learn to point things out and show ownership — este/ese/aquel and mi/tu/su.",
+  "vocabulary": [
+    { "id": 1, "target": "este", "source": "this (near me)", "gender": "m.", "type": "demonstrative" },
+    { "id": 2, "target": "esta", "source": "this (near me)", "gender": "f.", "type": "demonstrative" },
+    { "id": 3, "target": "estos", "source": "these (near me)", "gender": "m.", "type": "demonstrative" },
+    { "id": 4, "target": "estas", "source": "these (near me)", "gender": "f.", "type": "demonstrative" },
+    { "id": 5, "target": "ese", "source": "that (near you)", "gender": "m.", "type": "demonstrative" },
+    { "id": 6, "target": "esa", "source": "that (near you)", "gender": "f.", "type": "demonstrative" },
+    { "id": 7, "target": "esos", "source": "those (near you)", "gender": "m.", "type": "demonstrative" },
+    { "id": 8, "target": "esas", "source": "those (near you)", "gender": "f.", "type": "demonstrative" },
+    { "id": 9, "target": "aquel", "source": "that (far from both)", "gender": "m.", "type": "demonstrative" },
+    { "id": 10, "target": "aquella", "source": "that (far from both)", "gender": "f.", "type": "demonstrative" },
+    { "id": 11, "target": "aquellos", "source": "those (far from both)", "gender": "m.", "type": "demonstrative" },
+    { "id": 12, "target": "aquellas", "source": "those (far from both)", "gender": "f.", "type": "demonstrative" },
+    { "id": 13, "target": "mi", "source": "my", "gender": "—", "type": "possessive" },
+    { "id": 14, "target": "tu", "source": "your (informal)", "gender": "—", "type": "possessive" },
+    { "id": 15, "target": "su", "source": "his/her/your formal their", "gender": "—", "type": "possessive" },
+    { "id": 16, "target": "nuestro", "source": "our (m.)", "gender": "m.", "type": "possessive" },
+    { "id": 17, "target": "nuestra", "source": "our (f.)", "gender": "f.", "type": "possessive" },
+    { "id": 18, "target": "vuestro", "source": "your all (Spain, m.)", "gender": "m.", "type": "possessive" },
+    { "id": 19, "target": "vuestra", "source": "your all (Spain, f.)", "gender": "f.", "type": "possessive" },
+    { "id": 20, "target": "ese libro", "source": "that book", "gender": "m.", "type": "phrase" },
+    { "id": 21, "target": "esta casa", "source": "this house", "gender": "f.", "type": "phrase" },
+    { "id": 22, "target": "aquel día", "source": "that day (far)", "gender": "m.", "type": "phrase" },
+    { "id": 23, "target": "mi casa", "source": "my house", "gender": "f.", "type": "phrase" },
+    { "id": 24, "target": "tu amigo", "source": "your friend (informal)", "gender": "m.", "type": "phrase" },
+    { "id": 25, "target": "su coche", "source": "his/her/your car", "gender": "m.", "type": "phrase" },
+    { "id": 26, "target": "nuestro hogar", "source": "our home", "gender": "m.", "type": "phrase" },
+    { "id": 27, "target": "aquello", "source": "that (thing, unspecified)", "gender": "n.", "type": "demonstrative" },
+    { "id": 28, "target": "aquello", "source": "that thing (abstract)", "gender": "n.", "type": "demonstrative" },
+    { "id": 29, "target": "cerca", "source": "near / close", "gender": "—", "type": "adverb" },
+    { "id": 30, "target": "lejos", "source": "far / far away", "gender": "—", "type": "adverb" }
+  ],
+  "grammar": [
+    {
+      "title": "Demonstrative Adjectives — este, ese, aquel",
+      "content": "Demonstrative adjectives point to things based on distance from the speaker:\n\n- ESTE/ESTA (this/these): near the speaker (this book, this house)\n- ESE/ESA (that/those): near the listener (that book, that house)\n- AQUEL/AQUELLA (that/those over there): far from both speaker and listener (that book over there)\n\nThey agree in gender (masculine/feminine) and number (singular/plural) with the noun they modify.\n\nNote: In formal writing, demonstratives above the noun should carry an accent mark (éste, ése, aquél) to avoid ambiguity, though the RAE now considers this optional and often unnecessary in practice.",
+      "table": {
+        "headers": ["Distance", "Masculine", "Feminine", "Plural Masc.", "Plural Fem."],
+        "rows": [
+          ["Near speaker (this)", "este", "esta", "estos", "estas"],
+          ["Near listener (that)", "ese", "esa", "esos", "esas"],
+          ["Far from both (that over there)", "aquel", "aquella", "aquellos", "aquellas"]
+        ]
+      },
+      "examples": [
+        "Este libro es interesante. (This book is interesting.)",
+        "Esta casa es grande. (This house is big.)",
+        "¿Puedes pasar ese libro? (Can you pass that book? [near you])",
+        "Esa mujer es mi tía. (That woman is my aunt.)",
+        "Aquellos edificios son antiguos. (Those buildings over there are old.)",
+        "Aquella montaña es muy alta. (That mountain far away is very tall.)"
+      ],
+      "aid_note": "Romanian has similar demonstratives: ăsta (this), ăla (that), ăla dincolo (that over there). The Spanish system is more precise with gender agreement. Think of este as 'ăsta', ese as 'ăla', and aquel as 'ăla dincolo'."
+    },
+    {
+      "title": "Possessive Adjectives — mi, tu, su, nuestro, vuestro",
+      "content": "Possessive adjectives show ownership. They must agree in gender and number with the thing possessed (not the owner):\n\nShort forms (most common, placed before the noun):\n- mi/mis (my) — no gender agreement\n- tu/tus (your informal) — no gender agreement\n- su/sus (his/her/your formal/their) — no gender agreement\n- nuestro/nuestra/nuestros/nuestras (our) — agrees with the noun\n- vuestro/vuestra/vuestros/vuestras (your all, Spain) — agrees with the noun\n\nThe long forms exist too (placed AFTER the noun) and are used for emphasis or ambiguity:\nel mío/la mía (mine), el tuyo/la tuya (yours), el suyo/la suya (his/hers/yours/theirs), nuestro/a (ours), vuestro/a (yours all).\n\nNote: 'su/sus' is ambiguous — it can mean his, her, your (formal), or their. Use 'de él/de ella/de usted/de ellos' to clarify.",
+      "table": {
+        "headers": ["Owner", "Short Form (m.)", "Short Form (f.)", "Long Form (m.)", "Long Form (f.)"],
+        "rows": [
+          ["mi (my)", "mi casa", "mis casas", "la casa mía", "las casas mías"],
+          ["tu (your, informal)", "tu libro", "tus libros", "el libro tuyo", "los libros tuyos"],
+          ["su (his/her/your formal/their)", "su coche", "sus coches", "el coche suyo", "los coches suyos"],
+          ["nuestro (our)", "nuestro hijo", "nuestra hija", "el hijo nuestro", "la hija nuestra"],
+          ["vuestro (your all, Spain)", "vuestro libro", "vuestra casa", "el libro vuestro", "la casa vuestra"]
+        ]
+      },
+      "examples": [
+        "Mi gato se llama Lulú. (My cat is named Lulú.)",
+        "Tu amigo es muy divertido. (Your friend is very funny.)",
+        "¿Dónde está su casa? (Where is his/her/your house?)",
+        "Nuestra familia es grande. (Our family is big.)",
+        "Ese libro es mío. (That book is mine.)",
+        "La mochila de ella es roja. (Her backpack is red.)"
+      ],
+      "aid_note": "This is where Romanian is your friend: 'casa mea' (my house), 'casa ta' (your house), 'casa lui' (his house). Spanish mi casa is like Romanian casa mea but placed before the noun. The long form el libro tuyo is closer to the Romanian structure."
+    }
+  ],
+  "pronunciation": [],
+  "exercises": [
+    {
+      "type": "exercise",
+      "question": "Which demonstrative means 'this' (near the speaker)?",
+      "options": ["ese", "aquel", "este", "aquel"],
+      "correct": 2,
+      "explanation": "'Este' means 'this' — it refers to something near the speaker."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: '____ (that near you) libro es interesante.'",
+      "correct": "Ese",
+      "explanation": "'Ese' means 'that' — near the listener. 'Ese libro' = 'that book (near you)'."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: '____ (my) perro se llama Max.'",
+      "correct": "Mi",
+      "explanation": "'Mi' means 'my' — it doesn't change for gender. 'Mi perro' = 'my dog'."
+    },
+    {
+      "type": "exercise",
+      "question": "What is the feminine plural of 'ese'?",
+      "options": ["esas", "esos", "aquellas", "estas"],
+      "correct": 0,
+      "explanation": "'Esas' is the feminine plural of 'ese'. That (those) near you, feminine."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: '____ (our) casa es muy bonita.'",
+      "correct": "Nuestra",
+      "explanation": "'Nuestra' is the feminine form of 'nuestro' because 'casa' is feminine. 'Nuestra casa' = 'our house'."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: 'Aquella ____ (house) es muy grande.'",
+      "correct": "casa",
+      "explanation": "'Casa' is feminine, so 'aquella casa' = 'that house far away'."
+    },
+    {
+      "type": "exercise",
+      "question": "Which possessive form agrees in gender with the noun?",
+      "options": ["mi", "tu", "su", "nuestro"],
+      "correct": 3,
+      "explanation": "'Nuestro' changes to nuestra/nuestros/nuestras to match the noun's gender and number. Mi, tu, and su don't change."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: 'Ese coche es ____ (his).' (That car is his.)",
+      "correct": "suyo",
+      "explanation": "'Suyo' is the long-form possessive meaning 'his/hers/yours/theirs'. 'Ese coche es suyo' = 'That car is his (not mine)'."
+    }
+  ]
+}

@@ -1,0 +1,156 @@
+{
+  "id": "science-technology",
+  "title": "Science & Research Terminology",
+  "description": "Scientific vocabulary, research methods, and academic terminology.",
+  "vocabulary": [
+    { "id": 1, "target": "la ciencia", "source": "science", "gender": "f.", "type": "noun" },
+    { "id": 2, "target": "el experimento", "source": "experiment", "gender": "m.", "type": "noun" },
+    { "id": 3, "target": "la hipótesis", "source": "hypothesis", "gender": "f.", "type": "noun" },
+    { "id": 4, "target": "la variable", "source": "variable", "gender": "f.", "type": "noun" },
+    { "id": 5, "target": "el control", "source": "control", "gender": "m.", "type": "noun" },
+    { "id": 6, "target": "la muestra", "source": "sample", "gender": "f.", "type": "noun" },
+    { "id": 7, "target": "el resultado", "source": "result", "gender": "m.", "type": "noun" },
+    { "id": 8, "target": "el dato", "source": "data point", "gender": "m.", "type": "noun" },
+    { "id": 9, "target": "la evidencia", "source": "evidence", "gender": "f.", "type": "noun" },
+    { "id": 10, "target": "la conclusión", "source": "conclusion", "gender": "f.", "type": "noun" },
+    { "id": 11, "target": "la teoría", "source": "theory", "gender": "f.", "type": "noun" },
+    { "id": 12, "target": "la ley científica", "source": "scientific law", "gender": "f.", "type": "noun" },
+    { "id": 13, "target": "el descubrimiento", "source": "discovery", "gender": "m.", "type": "noun" },
+    { "id": 14, "target": "la innovación", "source": "innovation", "gender": "f.", "type": "noun" },
+    { "id": 15, "target": "la tecnología", "source": "technology", "gender": "f.", "type": "noun" },
+    { "id": 16, "target": "el método científico", "source": "scientific method", "gender": "m.", "type": "noun" },
+    { "id": 17, "target": "la observación", "source": "observation", "gender": "f.", "type": "noun" },
+    { "id": 18, "target": "la medición", "source": "measurement", "gender": "f.", "type": "noun" },
+    { "id": 19, "target": "el análisis", "source": "analysis", "gender": "m.", "type": "noun" },
+    { "id": 20, "target": "la correlación", "source": "correlation", "gender": "f.", "type": "noun" },
+    { "id": 21, "target": "la causalidad", "source": "causality", "gender": "f.", "type": "noun" },
+    { "id": 22, "target": "la reproducibilidad", "source": "reproducibility", "gender": "f.", "type": "noun" },
+    { "id": 23, "target": "la validez", "source": "validity", "gender": "f.", "type": "noun" },
+    { "id": 24, "target": "la fiabilidad", "source": "reliability", "gender": "f.", "type": "noun" },
+    { "id": 25, "target": "el sesgo", "source": "bias", "gender": "m.", "type": "noun" },
+    { "id": 26, "target": "la estadística", "source": "statistics", "gender": "f.", "type": "noun" },
+    { "id": 27, "target": "el porcentaje", "source": "percentage", "gender": "m.", "type": "noun" },
+    { "id": 28, "target": "el promedio", "source": "average / mean", "gender": "m.", "type": "noun" },
+    { "id": 29, "target": "la desviación estándar", "source": "standard deviation", "gender": "f.", "type": "noun" },
+    { "id": 30, "target": "la muestra aleatoria", "source": "random sample", "gender": "f.", "type": "noun" },
+    { "id": 31, "target": "la muestra representativa", "source": "representative sample", "gender": "f.", "type": "noun" },
+    { "id": 32, "target": "la replicación", "source": "replication", "gender": "f.", "type": "noun" },
+    { "id": 33, "target": "el laboratorio", "source": "laboratory", "gender": "m.", "type": "noun" },
+    { "id": 34, "target": "el instrumento", "source": "instrument", "gender": "m.", "type": "noun" },
+    { "id": 35, "target": "el protocolo", "source": "protocol", "gender": "m.", "type": "noun" },
+    { "id": 36, "target": "validar", "source": "to validate", "gender": "v.", "type": "verb" },
+    { "id": 37, "target": "hipotetizar", "source": "to hypothesize", "gender": "v.", "type": "verb" },
+    { "id": 38, "target": "medir", "source": "to measure", "gender": "v.", "type": "verb" },
+    { "id": 39, "target": "reproducir", "source": "to reproduce", "gender": "v.", "type": "verb" },
+    { "id": 40, "target": "generalizar", "source": "to generalize", "gender": "v.", "type": "verb" }
+  ],
+  "grammar": [
+    {
+      "title": "Describing Scientific Relationships",
+      "content": "Scientific discourse uses specific structures to describe relationships between variables.\n\nCorrelation structures:\n- Está correlacionado con... (is correlated with...)\n- Hay una correlación entre... y... (there is a correlation between... and...)\n- A mayor... mayor... (the more... the more...)\n\nCausation structures:\n- Produce / genera / provoca (produces / generates / causes)\n- Da lugar a (gives rise to)\n- Conduce a (leads to)\n- Es la causa de (is the cause of)\n\nQuantitative language:\n- En un X por ciento de los casos... (In X percent of cases...)\n- El promedio es de... (The average is...)\n- La desviación estándar es de... (The standard deviation is...)\n- Los datos son significativos (The data is significant)",
+      "examples": [
+        "Existe una correlación entre el consumo de azúcar y las enfermedades dentales.",
+        "A mayor nivel educativo, mayor acceso a la información.",
+        "La deforestación provoca la pérdida de biodiversidad.",
+        "El promedio de satisfacción fue del 78%, con una desviación estándar de 12%."
+      ],
+      "aid_note": "Romanian: 'Este corelat cu...', 'Există o corelație între...', 'A mai mult... cu atât mai mult...' — parallel structures."
+    },
+    {
+      "title": "Passive & Se Constructions in Science",
+      "content": "Scientific writing uses passive voice and impersonal constructions to maintain objectivity.\n\nPassive with ser:\n- Los datos fueron recolectados durante tres meses.\n- El experimento fue diseñado siguiendo el protocolo.\n- Los resultados fueron publicados en una revista.\n\nSe passive:\n- Se observó un aumento en las temperaturas.\n- Se ha demostrado que el tratamiento es efectivo.\n- Se recomienda una muestra más amplia.\n\nImpersonal se with infinitives:\n- Se dice que... (It is said that...)\n- Se cree que... (It is believed that...)\n- Se sabe que... (It is known that...)",
+      "examples": [
+        "Se ha demostrado que la vacunación previene enfermedades.",
+        "Los datos fueron recolectados de 500 participantes durante seis meses.",
+        "Se cree que el cambio climático afecta a todos los ecosistemas.",
+        "Se recomienda una muestra más amplia para validar los resultados."
+      ],
+      "aid_note": "Romanian scientific passive: 'Datele au fost colectate...', 'S-a demonstrat că...', 'Se recomandă...' — structurally parallel."
+    }
+  ],
+  "pronunciation": [
+    {
+      "title": "Scientific Terms — Stress & Syllables",
+      "content": "Scientific vocabulary has predictable stress patterns.\n\nEsdrújulas (stress on antepenultimate):\n- hipótesis (i-PO-te-sis), estadística (es-ta-tis-TI-ka), metodología (me-to-do-lo-GÍ-ah)\n\nGraves with -ción:\n- correlación (ko-re-la-TEE-on), causalidad (kaus-a-li-DAD), reproducibilidad (re-pro-du-ci-bi-li-DAD)\n\nWords ending in -sis are always stressed on the antepenultimate syllable:\nanálisis, síntesis, hipótesis, catálisis, crisis.\n\nPractice: 'El análisis estadístico revela una correlación significativa.'",
+      "examples": [
+        { "target": "hipótesis", "source": "i-PO-te-sis (esdrújula)" },
+        { "target": "estadística", "source": "es-ta-tis-TI-ka (esdrújula)" },
+        { "target": "análisis", "source": "a-NA-li-sis (esdrújula, -sis ending)" }
+      ],
+      "aid_note": "Romanian: 'ipoteză', 'statistică', 'analiză' — stress patterns differ; Spanish -sis words are always esdrújulas."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "matching",
+      "question": "Match the scientific terms:",
+      "pairs": [
+        { "target": "la hipótesis", "source": "hypothesis" },
+        { "target": "la correlación", "source": "correlation" },
+        { "target": "la validez", "source": "validity" },
+        { "target": "el sesgo", "source": "bias" }
+      ],
+      "explanation": "These terms are essential for scientific discourse."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: 'Se ha _____ (demostrar) que el tratamiento es efectivo.'",
+      "correct": "demostrado",
+      "explanation": "'Se ha demostrado' uses the passive se + present perfect to state established findings."
+    },
+    {
+      "type": "exercise",
+      "question": "What does 'el sesgo' mean in research context?",
+      "options": [
+        "A statistical measure",
+        "Bias / systematic error",
+        "A research method",
+        "A data format"
+      ],
+      "correct": 1,
+      "explanation": "'El sesgo' = bias — a systematic error that can skew research results."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: 'A mayor nivel educativo, _____ acceso a la información.'",
+      "correct": "mayor",
+      "explanation": "'A mayor X, mayor Y' = 'The more X, the more Y' — a standard correlational structure."
+    },
+    {
+      "type": "exercise",
+      "question": "Which is the correct pronunciation of 'análisis'?",
+      "options": [
+        "a-nal-ISIS",
+        "a-NA-li-sis",
+        "AN-a-li-sis",
+        "a-na-LI-sis"
+      ],
+      "correct": 1,
+      "explanation": "'Análisis' is an esdrújula word: a-NA-li-sis, stress on -NA-."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: 'Los datos fueron _____ (recolectar) durante tres meses.'",
+      "correct": "recolectados",
+      "explanation": "Passive voice: fueron + past participle. 'Recolectados' agrees in gender/number with 'datos' (masc. pl.)."
+    },
+    {
+      "type": "exercise",
+      "question": "What does 'la replicación' mean?",
+      "options": [
+        "Replication of results",
+        "Repetition of an experiment",
+        "Both — repeating a study to verify results",
+        "A statistical tool"
+      ],
+      "correct": 2,
+      "explanation": "'La replicación' = replication — repeating a study to verify or challenge results."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: 'Se _____ (decir) que la investigación necesita más fondos.'",
+      "correct": "dice",
+      "explanation": "'Se dice que...' = 'It is said that...' — impersonal se construction."
+    }
+  ]
+}

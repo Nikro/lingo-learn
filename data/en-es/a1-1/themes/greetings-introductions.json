@@ -1,132 +1,1017 @@
 {
   "id": "greetings-introductions",
+  "level": "a1-1",
   "title": "Greetings & Introductions",
-  "description": "Learn how to greet people, introduce yourself, and handle basic social interactions in Spanish.",
+  "description": "Master the essentials of greeting people, introducing yourself, and handling basic social interactions in Spanish. Learn formal and informal expressions, time-based greetings, and how to ask about someone's well-being.",
   "vocabulary": [
     {
       "id": 1,
       "target": "hola",
       "source": "hello",
-      "gender": "\u2014",
-      "type": "greeting"
+      "gender": "—",
+      "type": "expression"
     },
     {
       "id": 2,
-      "target": "buenos d\u00edas",
+      "target": "buenos días",
       "source": "good morning",
-      "gender": "\u2014",
-      "type": "greeting"
+      "gender": "—",
+      "type": "expression"
     },
     {
       "id": 3,
       "target": "buenas tardes",
-      "source": "good afternoon",
-      "gender": "\u2014",
-      "type": "greeting"
+      "source": "good afternoon/evening",
+      "gender": "—",
+      "type": "expression"
     },
     {
       "id": 4,
       "target": "buenas noches",
-      "source": "good evening/night",
-      "gender": "\u2014",
-      "type": "greeting"
+      "source": "good night",
+      "gender": "—",
+      "type": "expression"
     },
     {
       "id": 5,
-      "target": "adi\u00f3s",
+      "target": "adiós",
       "source": "goodbye",
-      "gender": "\u2014",
-      "type": "greeting"
+      "gender": "—",
+      "type": "expression"
     },
     {
       "id": 6,
-      "target": "me llamo...",
-      "source": "my name is...",
-      "gender": "\u2014",
-      "type": "introduction"
+      "target": "hasta luego",
+      "source": "see you later",
+      "gender": "—",
+      "type": "expression"
     },
     {
       "id": 7,
-      "target": "\u00bfC\u00f3mo te llamas?",
-      "source": "What is your name?",
-      "gender": "\u2014",
-      "type": "question"
+      "target": "hasta mañana",
+      "source": "see you tomorrow",
+      "gender": "—",
+      "type": "expression"
     },
     {
       "id": 8,
-      "target": "mucho gusto",
-      "source": "nice to meet you",
-      "gender": "\u2014",
-      "type": "phrase"
+      "target": "hasta pronto",
+      "source": "see you soon",
+      "gender": "—",
+      "type": "expression"
     },
     {
       "id": 9,
-      "target": "igualmente",
-      "source": "likewise",
-      "gender": "\u2014",
-      "type": "response"
+      "target": "hasta siempre",
+      "source": "farewell/see you always",
+      "gender": "—",
+      "type": "expression"
     },
     {
       "id": 10,
-      "target": "\u00bfC\u00f3mo est\u00e1s?",
-      "source": "How are you?",
-      "gender": "\u2014",
-      "type": "question"
+      "target": "qué tal",
+      "source": "what's up/how's it going",
+      "gender": "—",
+      "type": "expression"
+    },
+    {
+      "id": 11,
+      "target": "¿cómo estás?",
+      "source": "how are you? (informal)",
+      "gender": "—",
+      "type": "expression"
+    },
+    {
+      "id": 12,
+      "target": "¿cómo está usted?",
+      "source": "how are you? (formal)",
+      "gender": "—",
+      "type": "expression"
+    },
+    {
+      "id": 13,
+      "target": "¿cómo te llamas?",
+      "source": "what's your name? (informal)",
+      "gender": "—",
+      "type": "expression"
+    },
+    {
+      "id": 14,
+      "target": "¿cómo se llama usted?",
+      "source": "what's your name? (formal)",
+      "gender": "—",
+      "type": "expression"
+    },
+    {
+      "id": 15,
+      "target": "me llamo",
+      "source": "my name is",
+      "gender": "—",
+      "type": "expression"
+    },
+    {
+      "id": 16,
+      "target": "llámame",
+      "source": "call me",
+      "gender": "—",
+      "type": "expression"
+    },
+    {
+      "id": 17,
+      "target": "encantado",
+      "source": "delighted (m)",
+      "gender": "m",
+      "type": "expression"
+    },
+    {
+      "id": 18,
+      "target": "encantada",
+      "source": "delighted (f)",
+      "gender": "f",
+      "type": "expression"
+    },
+    {
+      "id": 19,
+      "target": "mucho gusto",
+      "source": "nice to meet you",
+      "gender": "—",
+      "type": "expression"
+    },
+    {
+      "id": 20,
+      "target": "igualmente",
+      "source": "likewise",
+      "gender": "—",
+      "type": "expression"
+    },
+    {
+      "id": 21,
+      "target": "¿qué tal estás?",
+      "source": "how are you doing?",
+      "gender": "—",
+      "type": "expression"
+    },
+    {
+      "id": 22,
+      "target": "¿cómo te va?",
+      "source": "how's it going?",
+      "gender": "—",
+      "type": "expression"
+    },
+    {
+      "id": 23,
+      "target": "¿todo bien?",
+      "source": "everything good?",
+      "gender": "—",
+      "type": "expression"
+    },
+    {
+      "id": 24,
+      "target": "bien",
+      "source": "good/fine",
+      "gender": "—",
+      "type": "adverb"
+    },
+    {
+      "id": 25,
+      "target": "mal",
+      "source": "bad",
+      "gender": "—",
+      "type": "adverb"
+    },
+    {
+      "id": 26,
+      "target": "regular",
+      "source": "so-so/okay",
+      "gender": "—",
+      "type": "adjective"
+    },
+    {
+      "id": 27,
+      "target": "fantástico",
+      "source": "fantastic",
+      "gender": "m",
+      "type": "adjective"
+    },
+    {
+      "id": 28,
+      "target": "fantástica",
+      "source": "fantastic (f)",
+      "gender": "f",
+      "type": "adjective"
+    },
+    {
+      "id": 29,
+      "target": "genial",
+      "source": "great/cool",
+      "gender": "—",
+      "type": "adjective"
+    },
+    {
+      "id": 30,
+      "target": "estoy bien",
+      "source": "I'm fine",
+      "gender": "—",
+      "type": "expression"
+    },
+    {
+      "id": 31,
+      "target": "estoy mal",
+      "source": "I'm bad/not well",
+      "gender": "—",
+      "type": "expression"
+    },
+    {
+      "id": 32,
+      "target": "estoy bien gracias",
+      "source": "I'm fine thanks",
+      "gender": "—",
+      "type": "expression"
+    },
+    {
+      "id": 33,
+      "target": "y tú?",
+      "source": "and you?",
+      "gender": "—",
+      "type": "expression"
+    },
+    {
+      "id": 34,
+      "target": "y usted?",
+      "source": "and you? (formal)",
+      "gender": "—",
+      "type": "expression"
+    },
+    {
+      "id": 35,
+      "target": "soy",
+      "source": "I am (identity)",
+      "gender": "—",
+      "type": "verb"
+    },
+    {
+      "id": 36,
+      "target": "me llamo",
+      "source": "I call myself/my name is",
+      "gender": "—",
+      "type": "verb"
+    },
+    {
+      "id": 37,
+      "target": "nombre",
+      "source": "name",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 38,
+      "target": "apellido",
+      "source": "last name/surname",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 39,
+      "target": "primer nombre",
+      "source": "first name",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 40,
+      "target": "segundo nombre",
+      "source": "second name",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 41,
+      "target": "nacionalidad",
+      "source": "nationality",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 42,
+      "target": "país",
+      "source": "country",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 43,
+      "target": "ciudad",
+      "source": "city",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 44,
+      "target": "provincia",
+      "source": "province",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 45,
+      "target": "de dónde eres?",
+      "source": "where are you from? (informal)",
+      "gender": "—",
+      "type": "expression"
+    },
+    {
+      "id": 46,
+      "target": "de dónde es usted?",
+      "source": "where are you from? (formal)",
+      "gender": "—",
+      "type": "expression"
+    },
+    {
+      "id": 47,
+      "target": "soy de",
+      "source": "I am from",
+      "gender": "—",
+      "type": "expression"
+    },
+    {
+      "id": 48,
+      "target": "vivo en",
+      "source": "I live in",
+      "gender": "—",
+      "type": "expression"
+    },
+    {
+      "id": 49,
+      "target": "trabajo como",
+      "source": "I work as",
+      "gender": "—",
+      "type": "expression"
+    },
+    {
+      "id": 50,
+      "target": "estudio",
+      "source": "I study",
+      "gender": "—",
+      "type": "verb"
+    },
+    {
+      "id": 51,
+      "target": "amigo",
+      "source": "friend (m)",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 52,
+      "target": "amiga",
+      "source": "friend (f)",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 53,
+      "target": "compañero",
+      "source": "classmate/coworker",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 54,
+      "target": "compañera",
+      "source": "classmate/coworker (f)",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 55,
+      "target": "conocido",
+      "source": "acquaintance",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 56,
+      "target": "conocida",
+      "source": "acquaintance (f)",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 57,
+      "target": "conoce",
+      "source": "you know (formal)",
+      "gender": "—",
+      "type": "verb"
+    },
+    {
+      "id": 58,
+      "target": "¿señor?",
+      "source": "mr./sir",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 59,
+      "target": "señora",
+      "source": "mrs./madam",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 60,
+      "target": "señorita",
+      "source": "miss/ms.",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 61,
+      "target": "por favor",
+      "source": "please",
+      "gender": "—",
+      "type": "expression"
+    },
+    {
+      "id": 62,
+      "target": "gracias",
+      "source": "thank you",
+      "gender": "—",
+      "type": "expression"
+    },
+    {
+      "id": 63,
+      "target": "muchas gracias",
+      "source": "thank you very much",
+      "gender": "—",
+      "type": "expression"
+    },
+    {
+      "id": 64,
+      "target": "de nada",
+      "source": "you're welcome",
+      "gender": "—",
+      "type": "expression"
+    },
+    {
+      "id": 65,
+      "target": "perdón",
+      "source": "excuse me/sorry",
+      "gender": "—",
+      "type": "expression"
+    },
+    {
+      "id": 66,
+      "target": "disculpe",
+      "source": "excuse me (formal)",
+      "gender": "—",
+      "type": "expression"
+    },
+    {
+      "id": 67,
+      "target": "lo siento",
+      "source": "I'm sorry",
+      "gender": "—",
+      "type": "expression"
+    },
+    {
+      "id": 68,
+      "target": "buen provecho",
+      "source": "enjoy your meal",
+      "gender": "—",
+      "type": "expression"
+    },
+    {
+      "id": 69,
+      "target": "que tal día",
+      "source": "what a day",
+      "gender": "—",
+      "type": "expression"
+    },
+    {
+      "id": 70,
+      "target": "qué alegría",
+      "source": "what joy/so glad",
+      "gender": "—",
+      "type": "expression"
+    },
+    {
+      "id": 71,
+      "target": "buen día",
+      "source": "good day",
+      "gender": "m",
+      "type": "expression"
+    },
+    {
+      "id": 72,
+      "target": "hasta la vista",
+      "source": "see you (literally)",
+      "gender": "—",
+      "type": "expression"
+    },
+    {
+      "id": 73,
+      "target": "nos vemos",
+      "source": "see you",
+      "gender": "—",
+      "type": "expression"
+    },
+    {
+      "id": 74,
+      "target": "chao",
+      "source": "bye (informal)",
+      "gender": "—",
+      "type": "expression"
+    },
+    {
+      "id": 75,
+      "target": "tchau",
+      "source": "bye (regional)",
+      "gender": "—",
+      "type": "expression"
+    },
+    {
+      "id": 76,
+      "target": "qué bueno verte",
+      "source": "good to see you",
+      "gender": "—",
+      "type": "expression"
+    },
+    {
+      "id": 77,
+      "target": "mucho tiempo sin verte",
+      "source": "long time no see",
+      "gender": "—",
+      "type": "expression"
+    },
+    {
+      "id": 78,
+      "target": "¿cómo ha estado?",
+      "source": "how have you been? (formal)",
+      "gender": "—",
+      "type": "expression"
+    },
+    {
+      "id": 79,
+      "target": "¿cómo ha ido?",
+      "source": "how has it gone?",
+      "gender": "—",
+      "type": "expression"
+    },
+    {
+      "id": 80,
+      "target": "todo bien aquí",
+      "source": "everything good here",
+      "gender": "—",
+      "type": "expression"
+    },
+    {
+      "id": 81,
+      "target": "mi familia",
+      "source": "my family",
+      "gender": "—",
+      "type": "noun"
+    },
+    {
+      "id": 82,
+      "target": "padre",
+      "source": "father",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 83,
+      "target": "madre",
+      "source": "mother",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 84,
+      "target": "hermano",
+      "source": "brother",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 85,
+      "target": "hermana",
+      "source": "sister",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 86,
+      "target": "marido",
+      "source": "husband",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 87,
+      "target": "esposa",
+      "source": "wife",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 88,
+      "target": "pareja",
+      "source": "partner/spouse",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 89,
+      "target": "novio",
+      "source": "boyfriend",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 90,
+      "target": "novia",
+      "source": "girlfriend",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 91,
+      "target": "hijo",
+      "source": "son",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 92,
+      "target": "hija",
+      "source": "daughter",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 93,
+      "target": "abuelo",
+      "source": "grandfather",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 94,
+      "target": "abuela",
+      "source": "grandmother",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 95,
+      "target": "tío",
+      "source": "uncle",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 96,
+      "target": "tía",
+      "source": "aunt",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 97,
+      "target": "primo",
+      "source": "cousin (m)",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 98,
+      "target": "prima",
+      "source": "cousin (f)",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 99,
+      "target": "vecino",
+      "source": "neighbor (m)",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 100,
+      "target": "vecina",
+      "source": "neighbor (f)",
+      "gender": "f",
+      "type": "noun"
     }
   ],
   "grammar": [
     {
-      "title": "Ser (to be) - Name & Identity",
-      "content": "Use SER to introduce yourself. 'Yo soy...' means 'I am...' for names and identity.\n\nConjugation of SER:\n- yo soy (I am)\n- t\u00fa eres (you are, informal)\n- \u00e9l/ella es (he/she is)\n- nosotros somos (we are)\n- vosotros sois (you all, Spain)\n- ellos son (they are)",
+      "title": "Ser — Identity, Origin, Profession",
+      "content": "Use SER to express who you are, where you're from, and what you do.\n\nConjugation: yo soy, tú eres, él/ella es, nosotros somos, vosotros sois, ellos son\n\n- Soy [name]. (I'm [name].)\n- Soy de [country/city]. (I'm from [country/city].)\n- Soy [profession]. (I'm a [profession].)\n- Es [name]. (He/She is [name].)\n\nNO article before profession:\n- Soy ingeniero. (NOT Soy el ingeniero)\n- Ella es médica.\n\nWith adjectives, you DO use the article:\n- Es un buen médico. (He's a good doctor.)\n- Soy una persona feliz. (I'm a happy person.)",
       "examples": [
-        "Yo soy Sergiu. (I am Sergiu.)",
-        "Ella es Nicoleta. (She is Nicoleta.)",
-        "Nosotros somos amigos. (We are friends.)"
+        "Soy Sergiu. (I'm Sergiu.)\nSoy de Valencia. (I'm from Valencia.)\nSoy ingeniero. (I'm an engineer.)\nElla es médica. (She's a doctor.)\nNosotros somos estudiantes. (We're students.)",
+        "Él es de España. (He's from Spain.)\nSoy programador. (I'm a programmer.)\nElla es mi esposa. (She's my wife.)"
       ]
     },
     {
-      "title": "Asking & Responding to How Someone Is",
-      "content": "To ask how someone is doing:\n- \u00bfC\u00f3mo est\u00e1s? (How are you? - informal)\n- \u00bfC\u00f3mo est\u00e1 usted? (How are you? - formal)\n\nCommon responses:\n- Estoy bien (I'm fine)\n- Estoy mal (I'm bad)\n- M\u00e1s o menos (So-so)\n- Perfecto (Perfect)",
+      "title": "Estar — Current State/Condition",
+      "content": "Use ESTAR to express how you're feeling RIGHT NOW (temporary state).\n\nConjugation: yo estoy, tú estás, él/ella está, nosotros estamos, vosotros estáis, ellos están\n\n- ¿Cómo estás? (How are you?)\n- Estoy bien. (I'm fine.)\n- Estoy cansado/a. (I'm tired.)\n- Estoy feliz/triste. (I'm happy/sad.)\n\nSER vs ESTAR:\n- Soy feliz = I'm a happy person (identity)\n- Estoy feliz = I'm happy right now (current state)\n\nEstar + adjective must match gender:\n- Estoy cansado (m) / cansada (f)\n- Estoy aburrido (m) / aburrida (f)",
       "examples": [
-        "\u00bfC\u00f3mo est\u00e1s? (How are you?)",
-        "Estoy bien, gracias. (I'm fine, thanks.)",
-        "\u00bfY t\u00fa? (And you?)"
+        "¿Cómo estás? — Estoy bien. (How are you? — I'm fine.)\nEstoy cansado. (I'm tired.)\nElla está feliz. (She's happy.)\nEstamos bien, gracias. (We're fine, thanks.)",
+        "Estoy aburrido. (I'm bored.)\n¿Cómo está usted? — Estoy bien, gracias. (How are you? — I'm fine, thanks.)"
+      ]
+    },
+    {
+      "title": "Present Tense: -AR Verbs (Regular)",
+      "content": "Regular -AR verbs follow this pattern:\n\nRemove -AR, add endings: -o, -as, -a, -amos, -áis, -an\n\nExample: HABlar (to speak)\n- yo hablo (I speak)\n- tú hablas (you speak informal)\n- él/ella habla (he/she speaks)\n- nosotros hablamos (we speak)\n- vosotros habláis (you speak plural, Spain)\n- ellos hablan (they speak)\n\nCommon -AR verbs:\n- hablar (to speak)\n- llamar (to call)\n- trabajar (to work)\n- estudiar (to study)\n- caminar (to walk)\n- visitar (to visit)\n- necesitar (to need)\n- querer (to want — stem-changing e→ie)",
+      "examples": [
+        "Hablo español. (I speak Spanish.)\nTú hablas inglés. (You speak English.)\n¿Hablas francés? (Do you speak French?)\nNosotros hablamos inglés. (We speak English.)\nElla trabaja aquí. (She works here.)\nYo estudio español. (I study Spanish.)",
+        "¿Cómo te llamas? — Me llamo Ana. (What's your name? — My name is Ana.)\nElla necesita ayuda. (She needs help.)\nNosotros visitamos museos. (We visit museums.)"
+      ]
+    },
+    {
+      "title": "Present Tense: -ER Verbs (Regular)",
+      "content": "Regular -ER verbs follow this pattern:\n\nRemove -ER, add endings: -o, -es, -e, -emos, -éis, -en\n\nExample: COMER (to eat)\n- yo como (I eat)\n- tú comes (you eat)\n- él/ella come (he/she eats)\n- nosotros comemos (we eat)\n- vosotros coméis (you eat plural, Spain)\n- ellos comen (they eat)\n\nCommon -ER verbs:\n- comer (to eat)\n- leer (to read)\n- correr (to run)\n- conocer (to know/meet)\n- poner (to put — irregular yo form)\n- tener (to have — irregular)\n- venir (to come — irregular)\n\nConocer + person = to meet for the first time\n- Conozco a María. (I met Maria.)\nConocer + thing = to be familiar with\n- Conozco Madrid. (I know Madrid.)",
+      "examples": [
+        "Como paella. (I eat paella.)\nTú lees libros. (You read books.)\nElla come arroz. (She eats rice.)\nNosotros comemos juntos. (We eat together.)\nConozco a tu amigo. (I know your friend.)",
+        "Leo mucho. (I read a lot.)\nCorro todos los días. (I run every day.)\nConozco esta ciudad. (I know this city.)"
+      ]
+    },
+    {
+      "title": "Present Tense: -IR Verbs (Regular)",
+      "content": "Regular -IR verbs follow this pattern:\n\nRemove -IR, add endings: -o, -es, -e, -imos, -ís, -en\n\nExample: VIVIR (to live)\n- yo vivo (I live)\n- tú vives (you live)\n- él/ella vive (he/she lives)\n- nosotros vivimos (we live)\n- vosotros vivís (you live plural, Spain)\n- ellos viven (they live)\n\nCommon -IR verbs:\n- vivir (to live)\n- escribir (to write)\n- abrir (to open)\n- decidir (to decide)\n- salir (to leave/go out — yo form: salgo)\n- pedir (to ask for — stem-changing e→i)\n- dormir (to sleep — stem-changing o→ue)\n- servir (to serve — stem-changing e→ie)",
+      "examples": [
+        "Vivo en Valencia. (I live in Valencia.)\nTú vives aquí. (You live here.)\nElla vive en Madrid. (She lives in Madrid.)\nNosotros vivimos juntos. (We live together.)\nEscribo cartas. (I write letters.)\nAbro la puerta. (I open the door.)",
+        "Salgo temprano. (I leave early.)\nPedimos agua. (We ask for water.)\nDuermo ocho horas. (I sleep eight hours.)"
+      ]
+    },
+    {
+      "title": "Gender Agreement for Nationalities",
+      "content": "Spanish nationalities change form for gender:\n\nMasculine: -o → Femenine: -a\n- español/española (Spanish)\n- americano/americana (American)\n- inglés/inglesa (English)\n- francés/francesa (French)\n- alemán/alemana (German)\n\nSome nationalities are invariable (same for both genders):\n- japonés/japonesa (Japanese — but has -a form)\n- chino/china (Chinese — but has -a form)\n- portugués/portuguesa (Portuguese — but has -a form)\n\nINVARIAIBLE (same form):\n- catalán/catalana (Catalan — has -a)\n- italiano/italiana (Italian — has -a)\n- brasileño/brasileña (Brazilian — has -a)\n\nActually, MOST have both forms. Invariable ones:\n- árabe (Arab)\n- turco/turca (Turkish — has -a)\n- neerlandés/neerlandesa (Dutch)\n\nThe rule: if it ends in -o, change to -a for feminine.",
+      "examples": [
+        "Soy español. (I'm Spanish — male speaker)\nSoy española. (I'm Spanish — female speaker)\nÉl es americano. (He's American.)\nElla es americana. (She's American.)\nSoy inglés. (I'm English — male speaker)\nElla es inglesa. (She's English — female speaker)",
+        "Ellos son españoles. (They're Spanish — mixed or male group)\nEllas son españolas. (They're Spanish — all female)\n¿De dónde eres? — Soy de Valencia."
+      ]
+    }
+  ],
+  "pronunciation": [
+    {
+      "title": "Spanish Vowels — Always Consistent",
+      "content": "Spanish has 5 vowel sounds, and they NEVER change. Unlike English where 'a' can be 'ay' (cake) or 'ah' (cat), Spanish vowels are always the same:\n\nA = ah (like in 'father')\nE = eh (like in 'bed')\nI = ee (like in 'see')\nO = oh (like in 'go')\nU = oo (like in 'food')\n\nExamples:\n- hola = OH-lah (always 'oh')\n- casa = KAH-sah (always 'ah')\n- mesa = MEH-sah (always 'eh')\n- vida = BEE-dah (always 'ee')\n- luna = LOO-nah (always 'oo')\n\nThis makes Spanish pronunciation much easier than English!",
+      "examples": [
+        "hola = OH-lah\nbuenos días = BWEH-nohs DEE-ahs\nbuenas tardes = BWEH-nahs TAR-dehs\ngracias = GRAH-see-ahs\nadiós = ah-DEE-ohs"
+      ]
+    },
+    {
+      "title": "The Spanish 'J' — Like English 'H'",
+      "content": "The letter J in Spanish is pronounced like a strong English 'H' (but more guttural):\n\n- jó = HOH (like 'hoe')\n- jar = HAHr (like 'harp' without the p)\n- ja = HAH (like 'ha')\n- je = HEH (like 'hey' without y)\n- ji = HEE (like 'he')\n- jo = HOH (like 'ho')\n- ju = HOO (like 'who')\n\nExamples:\n- gracias = GRAH-see-ahs (the 'j' in gracias is soft)\n- jaja = HA-hah (laughter)\n- junio = HOO-nee-oh (June)\n- japonés = hah-poh-NEHS (Japanese)\n- juego = HWEH-goh (game/play)\n\nNote: The 'j' is stronger than English 'h' — it comes from deeper in the throat.",
+      "examples": [
+        "gracias = GRAH-see-ahs (soft j)\njaja = HA-hah (laughter)\njunio = HOO-nee-oh (June)\njuego = HWEH-goh (game)\njoven = HO-vehn (young person)"
+      ]
+    },
+    {
+      "title": "The Spanish 'Ñ' — Like 'NY' in Canyon",
+      "content": "The letter Ñ represents a sound that doesn't exist in English, but you know it:\n\nIt's like the 'ny' sound in 'canyon', 'onion', or 'million'.\n\n- niño = NYEH-nah (boy)\n- mañana = mah-NYAH-nah (tomorrow/morning)\n- año = AH-nyoh (year)\n- cañón = kah-NYOH (canyon)\n- señora = seh-NYOH-rah (madam)\n\nTo make the sound:\n1. Put your tongue flat against the roof of your mouth (like for 'n')\n2. Push air through the sides\n3. It sounds like 'ny' in 'can-ny-on'\n\nPractice:\n- niño (boy) = NYEH-nah\n- mañana (tomorrow) = mah-NYAH-nah",
+      "examples": [
+        "niño = NYEH-nah (boy)\nmañana = mah-NYAH-nah (tomorrow)\naño = AH-nyoh (year)\nseñora = seh-NYOH-rah (madam)\ncañón = kah-NYOH (canyon)"
       ]
     }
   ],
   "exercises": [
     {
       "type": "multiple-choice",
-      "question": "What does 'buenos d\u00edas' mean?",
+      "question": "How do you say 'Hello' in Spanish?",
       "options": [
-        "Good night",
-        "Good morning",
-        "Good afternoon",
-        "Goodbye"
+        "Adiós",
+        "Hola",
+        "Gracias",
+        "Buenas noches"
       ],
       "correct": 1,
-      "explanation": "'Buenos d\u00edas' literally means 'good days' but is used for 'good morning'."
+      "explanation": "'Hola' = Hello. 'Adiós' = Goodbye. 'Gracias' = Thank you. 'Buenas noches' = Good night."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What does '¿Cómo estás?' mean?",
+      "options": [
+        "What's your name?",
+        "How are you?",
+        "Where are you from?",
+        "How old are you?"
+      ],
+      "correct": 1,
+      "explanation": "'¿Cómo estás?' = How are you? (informal). '¿Cómo te llamas?' = What's your name?"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Which verb do you use to say 'I am' (identity)?",
+      "options": [
+        "Estar",
+        "Ser",
+        "Tener",
+        "Hacer"
+      ],
+      "correct": 1,
+      "explanation": "Use SER for identity: 'Soy Sergiu.' Use ESTAR for temporary states: 'Estoy cansado.'"
     },
     {
       "type": "fill-in-blank",
-      "question": "Complete: 'Yo ____ Sergiu.' (I am Sergiu.)",
-      "correct": "soy",
-      "explanation": "Use 'soy' (yo form of SER) to introduce yourself."
+      "question": "Complete: '___ de Valencia.' (I'm from Valencia.)",
+      "correct": "Soy",
+      "explanation": "Use SER + de: 'Soy de Valencia.' = I'm from Valencia."
     },
     {
-      "type": "matching",
-      "question": "Match the greetings:",
-      "pairs": [
-        {
-          "target": "hola",
-          "source": "hello"
-        },
-        {
-          "target": "adi\u00f3s",
-          "source": "goodbye"
-        }
+      "type": "fill-in-blank",
+      "question": "Complete: 'Me ___ Ana.' (My name is Ana.)",
+      "correct": "llamo",
+      "explanation": "'Me llamo' = My name is. Literally 'I call myself.'"
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: '___ bien, gracias.' (I'm fine, thanks.)",
+      "correct": "Estoy",
+      "explanation": "Use ESTAR for current state: 'Estoy bien.' = I'm fine."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "How do you say 'Good morning' in Spanish?",
+      "options": [
+        "Buenas tardes",
+        "Buenas noches",
+        "Buenos días",
+        "Hola"
       ],
-      "explanation": "These are the basic greetings you'll use every day."
+      "correct": 2,
+      "explanation": "'Buenos días' = Good morning. 'Buenas tardes' = Good afternoon. 'Buenas noches' = Good evening/night."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What does 'mucho gusto' mean?",
+      "options": [
+        "Thank you very much",
+        "Nice to meet you",
+        "See you later",
+        "Good morning"
+      ],
+      "correct": 1,
+      "explanation": "'Mucho gusto' = Nice to meet you. Used when meeting someone for the first time."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: '¿De dónde ___?' (Where are you from?)",
+      "correct": "eres",
+      "explanation": "'¿De dónde eres?' = Where are you from? (informal). Use 'es' for formal: '¿De dónde es usted?'"
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: 'Hablo ___.' (I speak Spanish.)",
+      "correct": "español",
+      "explanation": "'Hablo español.' = I speak Spanish. HABlar conjugation: yo hablo, tú hablas, él habla..."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Which is the formal way to ask someone's name?",
+      "options": [
+        "¿Cómo te llamas?",
+        "¿Cómo se llama usted?",
+        "¿Qué tal?",
+        "¿Cómo estás?"
+      ],
+      "correct": 1,
+      "explanation": "'¿Cómo se llama usted?' is formal. '¿Cómo te llamas?' is informal."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: '___ encantado de conocerte.' (Nice to meet you — male speaker)",
+      "correct": "Estoy",
+      "explanation": "Use ESTAR: 'Estoy encantado de conocerte.' = I'm delighted to meet you. (Male speaker uses 'encantado')."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What does 'de nada' mean?",
+      "options": [
+        "Nothing",
+        "You're welcome",
+        "Excuse me",
+        "Goodbye"
+      ],
+      "correct": 1,
+      "explanation": "'De nada' = You're welcome. Used as a response to 'gracias' (thank you)."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: '___ mucho gusto.' (Nice to meet you)",
+      "correct": "Mucho",
+      "explanation": "'Mucho gusto' = Nice to meet you. A common expression when meeting someone new."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "How do you say 'See you tomorrow' in Spanish?",
+      "options": [
+        "Hasta luego",
+        "Hasta pronto",
+        "Hasta mañana",
+        "Adiós"
+      ],
+      "correct": 2,
+      "explanation": "'Hasta mañana' = See you tomorrow. 'Hasta luego' = See you later. 'Hasta pronto' = See you soon."
+    },
+    {
+      "type": "translation",
+      "source": "Hello, my name is Sergiu.",
+      "target": "Hola, me llamo Sergiu.",
+      "explanation": "'Hello' = Hola. 'My name is' = Me llamo. Combine: 'Hola, me llamo [name].'"
+    },
+    {
+      "type": "translation",
+      "source": "Good morning, how are you?",
+      "target": "Buenos días, ¿cómo estás?",
+      "explanation": "'Good morning' = Buenos días. 'How are you?' (informal) = ¿Cómo estás?"
+    },
+    {
+      "type": "translation",
+      "source": "I'm fine, thank you. And you?",
+      "target": "Estoy bien, gracias. ¿Y tú?",
+      "explanation": "'I'm fine' = Estoy bien. 'Thank you' = Gracias. 'And you?' (informal) = ¿Y tú?"
+    },
+    {
+      "type": "translation",
+      "source": "Nice to meet you.",
+      "target": "Mucho gusto.",
+      "explanation": "'Nice to meet you' = Mucho gusto. A standard expression when meeting someone new."
+    },
+    {
+      "type": "translation",
+      "source": "I am from Spain. I live in Valencia.",
+      "target": "Soy de España. Vivo en Valencia.",
+      "explanation": "'I am from' = Soy de. 'I live in' = Vivo en. Use SER for origin: 'Soy de [place].'"
+    },
+    {
+      "type": "translation",
+      "source": "See you later!",
+      "target": "¡Hasta luego!",
+      "explanation": "'See you later' = Hasta luego. A common farewell among friends."
+    },
+    {
+      "type": "translation",
+      "source": "Excuse me, what is your name?",
+      "target": "Disculpe, ¿cómo se llama usted?",
+      "explanation": "'Excuse me' (formal) = Disculpe. 'What is your name?' (formal) = ¿Cómo se llama usted?"
+    },
+    {
+      "type": "translation",
+      "source": "I'm tired but happy.",
+      "target": "Estoy cansado pero feliz.",
+      "explanation": "'I'm tired' = Estoy cansado. 'But' = pero. 'Happy' = feliz. Use ESTAR for temporary states."
+    },
+    {
+      "type": "translation",
+      "source": "Good night, sleep well.",
+      "target": "Buenas noches, duerme bien.",
+      "explanation": "'Good night' = Buenas noches. 'Sleep well' = Duerme bien (informal command)."
+    },
+    {
+      "type": "translation",
+      "source": "My father is a doctor and my mother is a teacher.",
+      "target": "Mi padre es un médico y mi madre es una profesora.",
+      "explanation": "'My father' = Mi padre. 'is a doctor' = es un médico. 'and' = y. 'is a teacher' = es una profesora. Use SER for professions."
+    },
+    {
+      "type": "translation",
+      "source": "Where are you from? I am from Moldova.",
+      "target": "¿De dónde eres? Soy de Moldova.",
+      "explanation": "'Where are you from?' = ¿De dónde eres? (informal). 'I am from' = Soy de."
+    },
+    {
+      "type": "translation",
+      "source": "Thank you very much, you're welcome!",
+      "target": "Muchas gracias, ¡de nada!",
+      "explanation": "'Thank you very much' = Muchas gracias. 'You're welcome' = De nada."
+    },
+    {
+      "type": "translation",
+      "source": "Goodbye, see you tomorrow!",
+      "target": "Adiós, ¡hasta mañana!",
+      "explanation": "'Goodbye' = Adiós. 'See you tomorrow' = Hasta mañana."
+    },
+    {
+      "type": "translation",
+      "source": "I speak Spanish and English.",
+      "target": "Hablo español e inglés.",
+      "explanation": "'I speak' = Hablo. Note: 'and' becomes 'e' before words starting with 'i' (instead of 'y'): 'español e inglés.'"
+    },
+    {
+      "type": "translation",
+      "source": "How has it been? Everything is good here.",
+      "target": "¿Cómo ha ido? Todo bien aquí.",
+      "explanation": "'How has it been?' = ¿Cómo ha ido? 'Everything is good' = Todo bien. 'Here' = aquí."
+    },
+    {
+      "type": "translation",
+      "source": "I work as a programmer. I study Spanish.",
+      "target": "Trabajo como programador. Estudio español.",
+      "explanation": "'I work as' = Trabajo como. 'I study' = Estudio. Both use present tense conjugation."
     }
   ]
 }

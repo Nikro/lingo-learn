@@ -1,491 +1,110 @@
 {
-  "id": "a2-1",
-  "title": "Stage A2.1 — Imperfect, Reflexives, & Basic Subjunctive",
-  "description": "Describe past habits and ongoing situations, talk about daily routines, make comparisons, and express wishes and commands using basic subjunctive. This stage introduces the imperfect tense alongside the preterite from A1.2.",
-  "grammar": [
+  "stage_id": "a2-1",
+  "title": "A2.1 — Imperfect, Reflexives, & Basic Subjunctive",
+  "description": "Describe past habits and ongoing situations, talk about daily routines, make comparisons, and express wishes and commands using basic subjunctive.",
+  "estimated_weeks": 6,
+  "themes": [
     {
-      "title": "Imperfect Tense (Pretérito Imperfecto) — Regular Verbs",
-      "content": "The imperfect describes past actions that were ongoing, habitual, or used for background descriptions. Unlike the preterite (A1.2), the imperfect doesn't show when something started or ended — it's the 'story-telling' tense used for setting scenes and describing repeated past actions.\\n\\nFor regular -AR verbs (like hablar), the endings are:\\n- yo: -aba\\n- tú: -abas\\n- él/ella/usted: -aba\\n- nosotros: -ábamos\\n- vosotros: -abais\\n- ellos/ellas/ustedes: -aban\\n\\nFor regular -ER/-IR verbs (like comer, vivir), the endings are:\\n- yo: -ía\\n- tú: -ías\\n- él/ella/usted: -ía\\n- nosotros: -íamos\\n- vosotros: -íais\\n- ellos/ellas/ustedes: -ían",
-      "table": {
-        "headers": ["Pronoun", "-AR (hablar)", "-ER (comer)", "-IR (vivir)"],
-        "rows": [
-          ["yo", "hablaba", "comía", "vivía"],
-          ["tú", "hablabas", "comías", "vivías"],
-          ["él/ella/usted", "hablaba", "comía", "vivía"],
-          ["nosotros", "hablábamos", "comíamos", "vivíamos"],
-          ["vosotros", "hablabais", "comíais", "vivíais"],
-          ["ellos/ellas/ustedes", "hablaban", "comían", "vivían"]
-        ]
-      },
-      "examples": [
-        "De niño, jugaba en el parque todos los días. (As a child, I played in the park every day.)",
-        "Cuando éramos jóvenes, vivíamos en Barcelona. (When we were young, we lived in Barcelona.)",
-        "Mi abuela siempre cocinaba paella los domingos. (My grandmother always cooked paella on Sundays.)",
-        "A las ocho comía con mi familia. (At eight I used to eat with my family.)"
-      ],
-      "aid_note": "Romanian imperfect endings (-am, -ai, -a, -am, -aţi, -au) are similar in function to Spanish -aba/-ía. Both describe ongoing or habitual past actions. The Spanish -aba ending is especially close to Romanian -am/-au in feeling: 'I was doing'."
+      "id": "past-experiences-stories",
+      "title": "Past Experiences & Stories",
+      "description": "Tell stories and describe past experiences using the preterite and imperfect tenses, with narrative connectors and time markers.",
+      "estimated_hours": 8
     },
     {
-      "title": "Imperfect — The Three Irregulars (IR, VER, SER)",
-      "content": "Only three verbs are irregular in the imperfect, and they're among the most common in Spanish:\\n\\nIR (to go): iba, ibas, iba, íbamos, ibais, iban\\nVER (to see): veía, veías, veía, veíamos, veíais, veían\\nSER (to be): era, eras, era, éramos, erais, eran\\n\\nVER is almost regular — it just takes the -ER endings (-ía) with an 'e' in the stem. IR and SER share the same forms, distinguished only by context.",
-      "table": {
-        "headers": ["Pronoun", "IR (to go)", "VER (to see)", "SER (to be)"],
-        "rows": [
-          ["yo", "iba", "veía", "era"],
-          ["tú", "ibas", "veías", "eras"],
-          ["él/ella/usted", "iba", "veía", "era"],
-          ["nosotros", "íbamos", "veíamos", "éramos"],
-          ["vosotros", "ibais", "veíais", "erais"],
-          ["ellos/ellas/ustedes", "iban", "veían", "eran"]
-        ]
-      },
-      "examples": [
-        "Siempre iba al cine los viernes. (I always went to the cinema on Fridays.)",
-        "De pequeño, veía muchas películas. (When I was little, I watched lots of movies.)",
-        "Él era muy inteligente. (He was very intelligent.)",
-        "Mi madre era profesora. (My mother was a teacher.)"
-      ],
-      "aid_note": "SER irregulars (era, eras, era...) are completely unlike the preterite (fui, fuiste, fue...). Don't confuse them! The Romanian 'era' (he/she was) is actually a cognate of Spanish 'era' — a nice memory boost for Romanian speakers."
+      "id": "imperfect-regular",
+      "title": "Imperfect — Regular Verbs",
+      "description": "Master regular imperfect conjugations for -AR, -ER, and -IR verbs to describe ongoing and habitual past actions.",
+      "estimated_hours": 5
     },
     {
-      "title": "Imperfect vs. Preterite: When to Use Which",
-      "content": "This is the key decision point for A2.1 learners. The preterite (from A1.2) and imperfect both describe the past, but differently:\\n\\nUse IMPERFECT for:\\n- Habitual/repeated actions: 'De niño, nadaba todos los días.' (As a kid, I swam every day.)\\n- Ongoing background descriptions: 'Era una noche oscura y tormentosa.' (It was a dark and stormy night.)\\n- Age, time, weather in the past: 'Tenía 20 años. Eran las tres. Llovía.' (I was 20. It was three o'clock. It was raining.)\\n- Feelings and emotions in the past: 'Era feliz. Estaba cansado.' (I was happy. I was tired.)\\n\\nUse PRETERITE for:\\n- Completed actions with a start/end: 'Ayer hablé con mi jefe.' (Yesterday I talked with my boss.)\\n- A series of completed actions: 'Me levanté, me duché y salí.' (I got up, showered, and left.)\\n- One-time specific past events: 'El año pasado fui a Italia.' (Last year I went to Italy.)\\n\\nBoth tenses can appear in the same sentence: 'Mientras llovía (imperfect), yo leía (imperfect) un libro. De repente, sonó el teléfono (preterite).' (While it was raining, I was reading a book. Suddenly, the phone rang.)",
-      "table": {
-        "headers": ["Context", "Imperfect", "Preterite"],
-        "rows": [
-          ["Repeated past action", "Cada verano viajábamos a Italia.", "Ayer viajamos a Italia."],
-          ["Background description", "Era alto y rubio.", "Fue alto y rubio (described him as such)"],
-          ["Specific time reference", "Solía llamar a las ocho.", "Llamó a las ocho."],
-          ["Age in the past", "Tenía 25 años.", "Tuve 25 años en 2020."],
-          ["Weather in the past", "Hacía sol.", "Hizo sol ayer."],
-          ["Interrupting action", "Mientras comía…", "De repente, sonó el teléfono."]
-        ]
-      },
-      "examples": [
-        "Cuando era niño, jugaba al fútbol. Todos los días. (When I was a child, I used to play soccer. Every day.)",
-        "Ayer jugué al fútbol. Ganamos 3-0. (Yesterday I played soccer. We won 3-0.)",
-        "Mientras ella cocinaba, él lavó los platos. (While she was cooking, he washed the dishes.)"
-      ],
-      "aid_note": "Romanian also distinguishes between imperfect and aorist/preterite, but the distinction is less strictly taught in modern usage. The key intuition: imperfect = 'used to do / was doing', preterite = 'did (once, completed)'. In Romanian: 'făceam' (imperfect) vs 'făcei' (aorist/preterite)."
+      "id": "imperfect-irregular",
+      "title": "Imperfect — The Three Irregulars",
+      "description": "Learn the three imperfect irregulars: IR (iba), VER (veía), and SER (era).",
+      "estimated_hours": 3
     },
     {
-      "title": "Reflexive Verbs in the Imperfect (Daily Routines in the Past)",
-      "content": "Combine reflexive pronouns (me, te, se, nos, os, se) with imperfect conjugations to describe past daily routines. Reflexive pronouns stay BEFORE the conjugated verb (or attached to the infinitive when using a compound verb form).\\n\\nReflexive pronouns:\\n- me (myself)\\n- te (yourself, informal)\\n- se (himself/herself/itself/yourselves formal)\\n- nos (ourselves)\\n- os (yourselves, Spain informal)\\n- se (themselves/yourselves formal)\\n\\nExample: 'Me despertaba a las siete.' (I used to wake up at seven.)",
-      "table": {
-        "headers": ["Pronoun", "Despertarse", "Levantarse", "Ducharse"],
-        "rows": [
-          ["yo", "me despertaba", "me levantaba", "me duchaba"],
-          ["tú", "te despertabas", "te levantabas", "te duchabas"],
-          ["él/ella/usted", "se despertaba", "se levantaba", "se duchaba"],
-          ["nosotros", "nos despertábamos", "nos levantábamos", "nos duchábamos"],
-          ["vosotros", "os despertabais", "os levantabais", "os duchabais"],
-          ["ellos/ellas/ustedes", "se despertaban", "se levantaban", "se duchaban"]
-        ]
-      },
-      "examples": [
-        "Me despertaba a las seis de la mañana todos los días. (I used to wake up at six every day.)",
-        "Ellos se duchaban después de entrenar. (They used to shower after training.)",
-        "Nosotros nos acostábamos tarde los fines de semana. (We used to go to bed late on weekends.)",
-        "¿Te afeitabas por la mañana o por la noche? (Did you shave in the morning or at night?)"
-      ],
-      "aid_note": "Romanian reflexive verbs also use pronouns (mă, te, se, ne, vă, se) before the verb: 'mă trezeam' = 'me despertaba'. The structure is the same — just swap the verb conjugation."
+      "id": "imperfect-vs-preterite",
+      "title": "Imperfect vs. Preterite",
+      "description": "Understand when to use the imperfect versus the preterite — the key decision point for Spanish past tenses.",
+      "estimated_hours": 5
     },
     {
-      "title": "Comparatives and Superlatives (Comparativos y Superlativos)",
-      "content": "Compare people, things, and ideas using comparatives and superlatives.\\n\\nComparative (more/less/as... as):\\n- más... que = more... than\\n- menos... que = less... than\\n- tan... como = as... as\\n\\nSuperlative (the most/the least):\\n- el/la más... = the most...\\n- el/la menos... = the least...\\n\\nIrregular comparatives:\\n- bueno → mejor (better than)\\n- malo → peor (worse than)\\n- grande → mayor (older/greater than)\\n- pequeño → menor (younger/lesser than)\\n\\nFor age comparisons, mayor/menor are used instead of más/menos grande/pequeño when referring to age.",
-      "table": {
-        "headers": ["Type", "Formula", "Example"],
-        "rows": [
-          ["More than", "más + adjective + que", "Madrid es más grande que Sevilla."],
-          ["Less than", "menos + adjective + que", "Este libro es menos interesante que aquel."],
-          ["As... as", "tan + adjective + como", "Ella es tan inteligente como su hermano."],
-          ["The most", "el/la más + adjective + (de)", "Él es el más alto de la clase."],
-          ["The least", "el/la menos + adjective + (de)", "Esta película es la menos divertida."]
-        ]
-      },
-      "examples": [
-        "Mi casa es más bonita que la tuya. (My house is prettier than yours.)",
-        "Ese examen fue más difícil que el anterior. (That exam was harder than the previous one.)",
-        "Mi hermano es mayor que yo. (My brother is older than me.)",
-        "Ella es la más inteligente de todos. (She is the smartest of all.)"
-      ],
-      "aid_note": "Romanian comparatives follow the same pattern: 'mai bun' (better), 'mai frumos' (prettier), 'cel mai' (the most). Spanish 'más que' ≈ Romanian 'mai ... decât'. The irregulars (mejor, peor) are similar to Romanian 'mai bun' and 'mai rău'."
+      "id": "imperfect-reflexives",
+      "title": "Reflexives in the Imperfect",
+      "description": "Describe past daily routines using reflexive verbs in the imperfect tense.",
+      "estimated_hours": 4
     },
     {
-      "title": "Basic Subjunctive in Fixed Expressions",
-      "content": "The subjunctive (subjuntivo) is a mood used to express wishes, doubts, emotions, and hypothetical situations. At A2.1, you'll mainly encounter it in fixed expressions — set phrases where the subjunctive is mandatory:\\n\\nWishes and blessings:\\n- ¡Que tengas un buen día! = Have a good day!\\n- ¡Que te vaya bien! = Good luck! (literally: may it go well for you)\\n- ¡Que descanses! = Rest well!\\n\\nWith querer/esperar + que (when the subject changes):\\n- Quiero que seas feliz. = I want you to be happy.\\n- Espero que llueva. = I hope it rains.\\n\\nCommon fixed expressions:\\n- Ojalá (que)... = I hope that... / God willing...\\n- Es importante que... = It's important that...\\n- Mejor que... = Better if...\\n\\nThe present subjunctive yo form is built by taking the yo present indicative form and switching the ending: -o → -e for -AR, -o → -a for -ER/-IR:\\n- hablar → hablo → hable\\n- comer → como → coma\\n- vivir → vivo → viva",
-      "table": {
-        "headers": ["Infinitive", "Yo Present Indicative", "Present Subjunctive Yo"],
-        "rows": [
-          ["hablar", "hablo", "hable"],
-          ["comer", "como", "coma"],
-          ["vivir", "vivo", "viva"],
-          ["tener", "tengo", "tenga"],
-          ["estar", "estoy", "esté"],
-          ["ir", "voy", "vaya"]
-        ]
-      },
-      "examples": [
-        "¡Que tengas un excelente día! (Have an excellent day!)\\nOjalá llueva mañana. (I hope it rains tomorrow.)\\nQuiero que tú vengas a mi fiesta. (I want you to come to my party.)\\nEspero que esté bien. (I hope he/she is okay.)"
-      ],
-      "aid_note": "Romanian uses a similar 'optative' mood for wishes: 'Să ai o zi bună!' = '¡Que tengas un buen día!' The 'să' particle marks the subjunctive optative. This makes the Spanish subjunctive much more natural for Romanian speakers than for English speakers, whose language doesn't have a subjunctive mood in everyday speech."
+      "id": "comparatives-superlatives",
+      "title": "Comparatives and Superlatives",
+      "description": "Compare people, things, and ideas using más/menos/tan and el/la más/el/la menos.",
+      "estimated_hours": 4
     },
     {
-      "title": "Direct and Indirect Object Pronouns (Introduction)",
-      "content": "Object pronouns replace nouns to avoid repetition. There are two types:\\n\\nDirect Object Pronouns (replaces the DIRECT object — the person/thing directly affected by the verb):\\n- me (me)\\n- te (you, informal)\\n- lo/la (him/her/it — masculine/feminine)\\n- nos (us)\\n- los/las (them — masculine/feminine)\\n- les (them — formal, Spain)\\n\\nIndirect Object Pronouns (replaces the INDIRECT object — the person FOR WHOM the action is done):\\n- me (to/for me)\\n- te (to/for you, informal)\\n- le (to/for him/her/you formal)\\n- nos (to/for us)\\n- les (to/for them/you formal plural)\\n- os (to/for you plural, Spain informal)\\n\\nPronoun placement: BEFORE the conjugated verb, or attached to the END of an infinitive/gerund.\\n\\nExample: 'Veo la película' → 'La veo.' (I see the movie → I see it.)\\n'Le doy el libro a María' → 'Le doy el libro.' (I give the book to María → I give her the book.)",
-      "table": {
-        "headers": ["Pronoun", "Type", "English", "Example"],
-        "rows": [
-          ["me", "Direct & Indirect", "me / to me", "Me veo. / Me da el libro."],
-          ["te", "Direct & Indirect", "you / to you", "Te veo. / Te da el libro."],
-          ["lo/la", "Direct", "him/her/it", "Lo veo. / La veo."],
-          ["nos", "Direct & Indirect", "us / to us", "Nos vemos. / Nos da el libro."],
-          ["los/las", "Direct", "them (m/f)", "Los veo. / Las veo."],
-          ["le/les", "Indirect", "to him/her/them", "Le doy el libro."],
-          ["os", "Direct & Indirect", "you all (Spain)", "Os veo. / Os da el libro."]
-        ]
-      },
-      "examples": [
-        "¿Ves a tu hermano? — Sí, lo veo. (Do you see your brother? — Yes, I see him.)",
-        "María me llama cada día. (María calls me every day.)",
-        "Le di un regalo a mi madre. (I gave a gift to my mother.)",
-        "¿Puedes ayudarme? (Can you help me?)"
-      ],
-      "aid_note": "Romanian has a similar system: 'mă/te/îl/îi/ne/vă/îi' for object pronouns. The Spanish lo/la distinction (masculine/feminine) is similar to Romanian îl/îi. Romanian speakers should find object pronouns much easier than English speakers."
+      "id": "basic-subjunctive",
+      "title": "Basic Subjunctive",
+      "description": "Use the present subjunctive in fixed expressions: wishes, hopes, and Ojalá.",
+      "estimated_hours": 4
+    },
+    {
+      "id": "object-pronouns",
+      "title": "Object Pronouns",
+      "description": "Learn direct and indirect object pronouns (me, te, lo, la, le, nos, los, las, les).",
+      "estimated_hours": 5
+    },
+    {
+      "id": "ser-estar",
+      "title": "Ser vs. Estar",
+      "description": "Distinguish between ser and estar — identity/characteristics versus location/state.",
+      "estimated_hours": 5
+    },
+    {
+      "id": "reflexive-verbs",
+      "title": "Reflexive Verbs",
+      "description": "Master reflexive pronouns and verbs for daily routines and body care.",
+      "estimated_hours": 4
+    },
+    {
+      "id": "preterite-regular-irregular",
+      "title": "Preterite Tense Regular and Irregular",
+      "description": "Learn to conjugate regular and irregular verbs in the preterite tense for completed past actions.",
+      "estimated_hours": 6
+    },
+    {
+      "id": "preterite-imperfect",
+      "title": "Preterite vs. Imperfect Practice",
+      "description": "Practice choosing between the preterite and imperfect in context.",
+      "estimated_hours": 5
+    },
+    {
+      "id": "por-para-usage",
+      "title": "Por vs. Para",
+      "description": "Master the distinction between por and para for reasons, destinations, and purposes.",
+      "estimated_hours": 4
+    },
+    {
+      "id": "indefinite-expressions",
+      "title": "Indefinite Expressions",
+      "description": "Use alguien, algo, nadie, nada, siempre, nunca, etc. for general references.",
+      "estimated_hours": 4
+    },
+    {
+      "id": "affirmative-negative",
+      "title": "Affirmative and Negative Commands",
+      "description": "Form affirmative and negative tú/vosotros/usted commands.",
+      "estimated_hours": 4
+    },
+    {
+      "id": "hace-que-expressions",
+      "title": "Hace + Time & Que + Subjunctive",
+      "description": "Express duration with 'hace' and 'hace que' structures.",
+      "estimated_hours": 3
+    },
+    {
+      "id": "relationships-social-life",
+      "title": "Relationships & Social Life",
+      "description": "Talk about friendships, dating, family dynamics, social events, and interpersonal relationships in Spanish.",
+      "estimated_hours": 6
     }
-  ],
-  "vocabulary": [
-    {"id": 1, "target": "la profesión", "source": "the profession", "type": "noun", "gender": "f."},
-    {"id": 2, "target": "el médico", "source": "the doctor", "type": "noun", "gender": "m."},
-    {"id": 3, "target": "la enfermera", "source": "the nurse", "type": "noun", "gender": "f."},
-    {"id": 4, "target": "el profesor", "source": "the teacher", "type": "noun", "gender": "m."},
-    {"id": 5, "target": "el ingeniero", "source": "the engineer", "type": "noun", "gender": "m."},
-    {"id": 6, "target": "la abogada", "source": "the female lawyer", "type": "noun", "gender": "f."},
-    {"id": 7, "target": "el camarero", "source": "the waiter", "type": "noun", "gender": "m."},
-    {"id": 8, "target": "la camarera", "source": "the waitress", "type": "noun", "gender": "f."},
-    {"id": 9, "target": "el chef", "source": "the chef", "type": "noun", "gender": "m."},
-    {"id": 10, "target": "el pintor", "source": "the painter", "type": "noun", "gender": "m."},
-    {"id": 11, "target": "la escritora", "source": "the writer", "type": "noun", "gender": "f."},
-    {"id": 12, "target": "el taxista", "source": "the taxi driver", "type": "noun", "gender": "m."},
-    {"id": 13, "target": "trabajar", "source": "to work", "type": "verb"},
-    {"id": 14, "target": "el sueldo", "source": "the salary", "type": "noun", "gender": "m."},
-    {"id": 15, "target": "la oficina", "source": "the office", "type": "noun", "gender": "f."},
-    {"id": 16, "target": "la casa", "source": "the house", "type": "noun", "gender": "f."},
-    {"id": 17, "target": "el apartamento", "source": "the apartment", "type": "noun", "gender": "m."},
-    {"id": 18, "target": "el sofá", "source": "the sofa", "type": "noun", "gender": "m."},
-    {"id": 19, "target": "la mesa", "source": "the table", "type": "noun", "gender": "f."},
-    {"id": 20, "target": "la silla", "source": "the chair", "type": "noun", "gender": "f."},
-    {"id": 21, "target": "la cama", "source": "the bed", "type": "noun", "gender": "f."},
-    {"id": 22, "target": "el armario", "source": "the wardrobe/closet", "type": "noun", "gender": "m."},
-    {"id": 23, "target": "el escritorio", "source": "the desk", "type": "noun", "gender": "m."},
-    {"id": 24, "target": "la lámpara", "source": "the lamp", "type": "noun", "gender": "f."},
-    {"id": 25, "target": "el espejo", "source": "the mirror", "type": "noun", "gender": "m."},
-    {"id": 26, "target": "la alfombra", "source": "the rug/carpet", "type": "noun", "gender": "f."},
-    {"id": 27, "target": "el cuadro", "source": "the painting", "type": "noun", "gender": "m."},
-    {"id": 28, "target": "el cuarto de baño", "source": "the bathroom", "type": "noun", "gender": "m."},
-    {"id": 29, "target": "la cocina", "source": "the kitchen", "type": "noun", "gender": "f."},
-    {"id": 30, "target": "el dormitorio", "source": "the bedroom", "type": "noun", "gender": "m."},
-    {"id": 31, "target": "la ropa", "source": "the clothing", "type": "noun", "gender": "f."},
-    {"id": 32, "target": "la camisa", "source": "the shirt", "type": "noun", "gender": "f."},
-    {"id": 33, "target": "los pantalones", "source": "the pants", "type": "noun", "gender": "m."},
-    {"id": 34, "target": "el vestido", "source": "the dress", "type": "noun", "gender": "m."},
-    {"id": 35, "target": "las zapatillas", "source": "the sneakers", "type": "noun", "gender": "f."},
-    {"id": 36, "target": "el abrigo", "source": "the coat", "type": "noun", "gender": "m."},
-    {"id": 37, "target": "los zapatos", "source": "the shoes", "type": "noun", "gender": "m."},
-    {"id": 38, "target": "la chaqueta", "source": "the jacket", "type": "noun", "gender": "f."},
-    {"id": 39, "target": "el sombrero", "source": "the hat", "type": "noun", "gender": "m."},
-    {"id": 40, "target": "la bufanda", "source": "the scarf", "type": "noun", "gender": "f."},
-    {"id": 41, "target": "la experiencia", "source": "the experience", "type": "noun", "gender": "f."},
-    {"id": 42, "target": "el viaje", "source": "the trip", "type": "noun", "gender": "m."},
-    {"id": 43, "target": "el aeropuerto", "source": "the airport", "type": "noun", "gender": "m."},
-    {"id": 44, "target": "el hotel", "source": "the hotel", "type": "noun", "gender": "m."},
-    {"id": 45, "target": "la playa", "source": "the beach", "type": "noun", "gender": "f."},
-    {"id": 46, "target": "el museo", "source": "the museum", "type": "noun", "gender": "m."},
-    {"id": 47, "target": "la ciudad", "source": "the city", "type": "noun", "gender": "f."},
-    {"id": 48, "target": "el país", "source": "the country", "type": "noun", "gender": "m."},
-    {"id": 49, "target": "viajar", "source": "to travel", "type": "verb"},
-    {"id": 50, "target": "el aeropuerto", "source": "the airport", "type": "noun", "gender": "m."},
-    {"id": 51, "target": "la maleta", "source": "the suitcase", "type": "noun", "gender": "f."},
-    {"id": 52, "target": "el pasaporte", "source": "the passport", "type": "noun", "gender": "m."},
-    {"id": 53, "target": "feliz", "source": "happy", "type": "adjective"},
-    {"id": 54, "target": "triste", "source": "sad", "type": "adjective"},
-    {"id": 55, "target": "enfadado/a", "source": "angry", "type": "adjective"},
-    {"id": 56, "target": "cansado/a", "source": "tired", "type": "adjective"},
-    {"id": 57, "target": "asustado/a", "source": "scared", "type": "adjective"},
-    {"id": 58, "target": "sorprendido/a", "source": "surprised", "type": "adjective"},
-    {"id": 59, "target": "preocupado/a", "source": "worried", "type": "adjective"},
-    {"id": 60, "target": "emocionado/a", "source": "excited", "type": "adjective"},
-    {"id": 61, "target": "aburrido/a", "source": "bored", "type": "adjective"},
-    {"id": 62, "target": "nervioso/a", "source": "nervous", "type": "adjective"},
-    {"id": 63, "target": "orgulloso/a", "source": "proud", "type": "adjective"},
-    {"id": 64, "target": "satisfecho/a", "source": "satisfied", "type": "adjective"},
-    {"id": 65, "target": "enamorarse", "source": "to fall in love", "type": "verb"},
-    {"id": 66, "target": "sentir", "source": "to feel", "type": "verb"},
-    {"id": 67, "target": "alegrarse", "source": "to be happy / to be glad", "type": "verb"},
-    {"id": 68, "target": "preocuparse", "source": "to worry", "type": "verb"},
-    {"id": 69, "target": "asustarse", "source": "to get scared", "type": "verb"},
-    {"id": 70, "target": "divertirse", "source": "to have fun", "type": "verb"},
-    {"id": 71, "target": "más alto", "source": "taller / higher", "type": "adjective"},
-    {"id": 72, "target": "más bajo", "source": "shorter / lower", "type": "adjective"},
-    {"id": 73, "target": "mejor", "source": "better", "type": "adjective"},
-    {"id": 74, "target": "peor", "source": "worse", "type": "adjective"},
-    {"id": 75, "target": "más barato", "source": "cheaper", "type": "adjective"},
-    {"id": 76, "target": "más caro", "source": "more expensive", "type": "adjective"},
-    {"id": 77, "target": "más grande", "source": "bigger", "type": "adjective"},
-    {"id": 78, "target": "más pequeño", "source": "smaller", "type": "adjective"},
-    {"id": 79, "target": "mejor que", "source": "better than", "type": "adjective"},
-    {"id": 80, "target": "el más interesante", "source": "the most interesting", "type": "adjective"},
-    {"id": 81, "target": "tristemente", "source": "sadly", "type": "adverb"},
-    {"id": 82, "target": "felizmente", "source": "happily", "type": "adverb"},
-    {"id": 83, "target": "rápidamente", "source": "quickly", "type": "adverb"},
-    {"id": 84, "target": "lentamente", "source": "slowly", "type": "adverb"},
-    {"id": 85, "target": "siempre", "source": "always", "type": "adverb"},
-    {"id": 86, "target": "a menudo", "source": "often", "type": "adverb"},
-    {"id": 87, "target": "frecuentemente", "source": "frequently", "type": "adverb"},
-    {"id": 88, "target": "de vez en cuando", "source": "once in a while", "type": "adverb"},
-    {"id": 89, "target": "nunca", "source": "never", "type": "adverb"},
-    {"id": 90, "target": "antes", "source": "before / earlier", "type": "adverb"}
-  ],
-  "verbs": [
-    {
-      "infinitive": "TENER",
-      "translation": "to have",
-      "conjugations": {
-        "imperfect": {
-          "yo": "tenía",
-          "tú": "tenías",
-          "él/ella/usted": "tenía",
-          "nosotros": "teníamos",
-          "vosotros": "teníais",
-          "ellos/ellas/ustedes": "tenían"
-        }
-      }
-    },
-    {
-      "infinitive": "PENSAR",
-      "translation": "to think",
-      "conjugations": {
-        "imperfect": {
-          "yo": "pensaba",
-          "tú": "pensabas",
-          "él/ella/usted": "pensaba",
-          "nosotros": "pensábamos",
-          "vosotros": "pensabais",
-          "ellos/ellas/ustedes": "pensaban"
-        }
-      }
-    },
-    {
-      "infinitive": "PODER",
-      "translation": "to be able to / can",
-      "conjugations": {
-        "imperfect": {
-          "yo": "podía",
-          "tú": "podías",
-          "él/ella/usted": "podía",
-          "nosotros": "podíamos",
-          "vosotros": "podíais",
-          "ellos/ellas/ustedes": "podían"
-        }
-      }
-    },
-    {
-      "infinitive": "QUERER",
-      "translation": "to want / to love",
-      "conjugations": {
-        "imperfect": {
-          "yo": "quería",
-          "tú": "querías",
-          "él/ella/usted": "quería",
-          "nosotros": "queríamos",
-          "vosotros": "queríais",
-          "ellos/ellas/ustedes": "querían"
-        }
-      }
-    },
-    {
-      "infinitive": "DEBER",
-      "translation": "to ought to / must / should",
-      "conjugations": {
-        "imperfect": {
-          "yo": "debía",
-          "tú": "debías",
-          "él/ella/usted": "debía",
-          "nosotros": "debíamos",
-          "vosotros": "debíais",
-          "ellos/ellas/ustedes": "debían"
-        }
-      }
-    },
-    {
-      "infinitive": "IR",
-      "translation": "to go",
-      "conjugations": {
-        "imperfect": {
-          "yo": "iba",
-          "tú": "ibas",
-          "él/ella/usted": "iba",
-          "nosotros": "íbamos",
-          "vosotros": "ibais",
-          "ellos/ellas/ustedes": "iban"
-        }
-      }
-    },
-    {
-      "infinitive": "VENIR",
-      "translation": "to come",
-      "conjugations": {
-        "imperfect": {
-          "yo": "venía",
-          "tú": "venías",
-          "él/ella/usted": "venía",
-          "nosotros": "veníamos",
-          "vosotros": "veníais",
-          "ellos/ellas/ustedes": "venían"
-        }
-      }
-    },
-    {
-      "infinitive": "SER",
-      "translation": "to be (permanent)",
-      "conjugations": {
-        "imperfect": {
-          "yo": "era",
-          "tú": "eras",
-          "él/ella/usted": "era",
-          "nosotros": "éramos",
-          "vosotros": "erais",
-          "ellos/ellas/ustedes": "eran"
-        }
-      }
-    },
-    {
-      "infinitive": "VER",
-      "translation": "to see",
-      "conjugations": {
-        "imperfect": {
-          "yo": "veía",
-          "tú": "veías",
-          "él/ella/usted": "veía",
-          "nosotros": "veíamos",
-          "vosotros": "veíais",
-          "ellos/ellas/ustedes": "veían"
-        }
-      }
-    },
-    {
-      "infinitive": "HABITAR",
-      "translation": "to live / to inhabit",
-      "conjugations": {
-        "imperfect": {
-          "yo": "habitaba",
-          "tú": "habitabas",
-          "él/ella/usted": "habitaba",
-          "nosotros": "habitábamos",
-          "vosotros": "habitabais",
-          "ellos/ellas/ustedes": "habitaban"
-        }
-      }
-    },
-    {
-      "infinitive": "TRABAJAR",
-      "translation": "to work",
-      "conjugations": {
-        "imperfect": {
-          "yo": "trabajaba",
-          "tú": "trabajabas",
-          "él/ella/usted": "trabajaba",
-          "nosotros": "trabajábamos",
-          "vosotros": "trabajabais",
-          "ellos/ellas/ustedes": "trabajaban"
-        }
-      }
-    },
-    {
-      "infinitive": "ESTUDIAR",
-      "translation": "to study",
-      "conjugations": {
-        "imperfect": {
-          "yo": "estudiaba",
-          "tú": "estudiabas",
-          "él/ella/usted": "estudiaba",
-          "nosotros": "estudiábamos",
-          "vosotros": "estudiabais",
-          "ellos/ellas/ustedes": "estudiaban"
-        }
-      }
-    }
-  ],
-  "pronunciation": [
-    {
-      "title": "Stress Patterns with Imperfect Endings",
-      "content": "The imperfect endings all carry the stress on a predictable syllable:\\n\\n-AR verbs (-aba, -abas, -aba, -ábamos, -abais, -aban): stress is always on the -a- of the ending. 'HablaBA', 'hablaBAs', 'hablaBA', 'hablaBAMOS' (wait — actually: hablÁbamos has the stress on the first 'a' of the ending), hablÁBais, hablABan.\\n\\n-ER/-IR verbs (-ía, -ías, -ía, -íamos, -íais, -ían): stress is always on the í. 'ComÍA', 'comÍAS', 'comÍA', 'comÍAMOS', 'comÍAIS', 'comÍAN'.\\n\\nAll imperfect endings are naturally stressed on their first syllable. Remember the accent on nosotros: hablÁbamos, comÍamos (the accent mark on the 'a' and 'í' shows where the stress falls).",
-      "examples": [
-        {"target": "hablábamos", "source": "stress on the Á: ha-BLA-ba-MOS"},
-        {"target": "comíamos", "source": "stress on the Í: co-MÍa-MOS"},
-        {"target": "íbamos", "source": "stress on the Í: Í-ba-MOS"},
-        {"target": "veíamos", "source": "stress on the first Í: ve-Ía-MOS"}
-      ],
-      "aid_note": "Romanian stress is more flexible and often falls on the last syllable. Spanish imperfect endings are very regular — the stress always hits the ending syllable, never the stem. This makes them easier to pronounce than Romanian imperfect forms."
-    },
-    {
-      "title": "The Vowel Sound in Imperfect Endings",
-      "content": "The imperfect endings contain only two vowel sounds, both of which are simple and consistent:\\n\\n-AR verbs: the 'a' in all endings (-aba, -abas, -aba, -ábamos, -abais, -aban) is the same clear 'a' sound, like the 'a' in 'father.'\\n-ER/-IR verbs: the 'í' contains the stressed 'i' vowel sound, like the 'ee' in 'see' but shorter and crisper.\\n\\nImportant: Spanish 'i' and 'e' are never diphthongs. They are pure, single vowel sounds. 'Comía' is pronounced 'ko-MEE-ah' (three distinct syllables), NOT 'ko-MEE-ya' or 'ko-MEE-uh' as English speakers might assume.",
-      "examples": [
-        {"target": "comía", "source": "ko-MEE-ah (not 'komee-ya')"},
-        {"target": "hablabas", "source": "a-bla-BAS"},
-        {"target": "vivían", "source": "bi-BEE-an"},
-        {"target": "veíamos", "source": "be-EH-ee-a-mos (5 syllables, each vowel distinct)"}
-      ],
-      "aid_note": "Romanian also has pure vowel sounds (ă, â, î, â, e, i, o, u) — no diphthongs like English 'ay' or 'ow'. Spanish speakers of Romanian will find this aspect very natural. The key difference: Spanish 'e' is more open (like 'bed') while Romanian 'e' is slightly more closed."
-    }
-  ],
-  "exercises": [
-    {"type": "exercise", "question": "What does the imperfect tense describe?", "options": ["Completed actions with a clear end", "Habitual or ongoing past actions", "Future plans", "Commands and requests"], "correct": 1, "explanation": "The imperfect describes habitual or ongoing past actions — things that 'used to happen' or 'were happening' without a defined endpoint."},
-    {"type": "exercise", "question": "Which ending is the imperfect 'yo' form for -AR verbs?", "options": ["-í", "-aba", "-ía", "-é"], "correct": 1, "explanation": "-AR verbs take -aba in the yo imperfect form: hablaba, trabajaba, estudiaba."},
-    {"type": "fill-in-blank", "question": "Complete: 'De niño, yo ____ (jugarse) en el parque todos los días.' (As a child, I used to play in the park every day.)", "correct": "me jugaba", "explanation": "'Me jugaba' — the reflexive pronoun 'me' + imperfect 'jugaba' of 'jugar.' The reflexive is needed for the sense of 'playing (oneself)' in this context."},
-    {"type": "exercise", "question": "What is the imperfect of 'ir' for 'nosotros'?", "options": ["íbamos", "íamos", "ibamos", "ibíamos"], "correct": 0, "explanation": "'Íbamos' — IR is one of three imperfect irregulars. It carries an accent mark on the í to show the stress."},
-    {"type": "exercise", "question": "What is the imperfect of 'ser' for 'ellos'?", "options": ["serían", "seran", "eran", "eran"], "correct": 2, "explanation": "'Eran' — SER is an imperfect irregular: era, eras, era, éramos, erais, eran. Don't confuse with the conditional 'serían' (they would be)."},
-    {"type": "fill-in-blank", "question": "Complete: 'Cuando era pequeña, mi madre ____ (cocinar) paella los domingos.' (When I was little, my mother used to cook paella on Sundays.)", "correct": "cocinaba", "explanation": "'Cocinaba' — regular -AR verb in the imperfect. The -aba ending for él/ella/usted."},
-    {"type": "exercise", "question": "Which sentence uses the imperfect correctly?", "options": ["Ayer jugué al fútbol.", "De niño, jugaba al fútbol todos los días.", "El año pasado jugué al fútbol.", "Hoy juego al fútbol."], "correct": 1, "explanation": "'De niño, jugaba al fútbol todos los días' uses the imperfect for a habitual past action. The other sentences use preterite or present."},
-    {"type": "exercise", "question": "What is the imperfect of 'ver' for 'yo'?", "options": ["via", "veía", "vi", "veia"], "correct": 1, "explanation": "'Veía' — VER is an imperfect irregular that follows the regular -ER endings (-ía, -ías, -ía...) but with a 've-' stem."},
-    {"type": "fill-in-blank", "question": "Complete: 'Nosotros ____ (vestirse) todos los días a las siete.' (We used to get dressed every day at seven.)", "correct": "nos vestíamos", "explanation": "'Nos vestíamos' — reflexive 'nos' + imperfect of vestirse. The -ir verb takes the -ía ending for nosotros: vestíamos."},
-    {"type": "matching", "question": "Match each profession with its Spanish translation:", "pairs": [
-        {"target": "el médico", "source": "the doctor"},
-        {"target": "la enfermera", "source": "the nurse"},
-        {"target": "el ingeniero", "source": "the engineer"},
-        {"target": "la abogada", "source": "the female lawyer"},
-        {"target": "el camarero", "source": "the waiter"}
-      ],
-      "explanation": "These are common professions you'll need when describing people's work. Note gender agreement: la enfermera (feminine), la abogada (feminine)."},
-    {"type": "fill-in-blank", "question": "Complete: 'La casa ____ (ser) muy grande y ____ (tener) un jardín hermoso.' (The house was very big and had a beautiful garden.)", "correct": "era tenía", "explanation": "'Era tenía' — SER and TENER in the imperfect. 'Era' (was) for description, 'tenía' (had) for possession."},
-    {"type": "exercise", "question": "Which word means 'taller' in Spanish (comparative)?", "options": ["menos alto", "más alto", "tan alto como", "alto"], "correct": 1, "explanation": "'Más alto' means taller (more tall). The structure is 'más + adjective + que': 'Él es más alto que yo.'"},
-    {"type": "fill-in-blank", "question": "Complete: 'Este libro es ____ interesante que aquel.' (This book is more interesting than that one.)", "correct": "más", "explanation": "'Más interesante' — the comparative structure 'más + adjective + que.'"},
-    {"type": "exercise", "question": "What is the irregular comparative of 'bueno'?", "options": ["más bueno", "bueno", "mejor", "bueno mejor"], "correct": 2, "explanation": "'Mejor' is the irregular comparative of bueno (better). 'Más bueno' is sometimes used colloquially but 'mejor' is correct."},
-    {"type": "exercise", "question": "Which of these uses the subjunctive correctly?", "options": ["Quiero que tú vienes.", "Ojalá llueva mañana.", "Espero que tú comes.", "Quiero que tú comes."], "correct": 1, "explanation": "'Ojalá llueva mañana' uses the subjunctive correctly. 'Ojalá' always triggers the subjunctive. 'Viene' → 'vengas' in subjunctive."},
-    {"type": "fill-in-blank", "question": "Complete: '¡Que tengas ____ día!' (Have a ____ day!) — subjunctive wish for someone.", "correct": "bueno", "explanation": "'¡Que tengas un buen día!' uses the subjunctive 'tengas' (from tener) after 'que.' For wishes, use the subjunctive: que + subjunctive."},
-    {"type": "exercise", "question": "What does the direct object pronoun 'lo' replace?", "options": ["A feminine singular noun", "A masculine singular noun", "An indirect object", "A plural noun"], "correct": 1, "explanation": "'Lo' replaces a masculine singular direct object: 'Veo el libro → Lo veo.' 'La' would replace a feminine one."},
-    {"type": "fill-in-blank", "question": "Complete: '¿Ves a Juan? — Sí, ____ veo cada día.' (Do you see Juan? — Yes, I see him every day.)", "correct": "lo", "explanation": "'Lo' replaces 'Juan' (masculine singular direct object). The pronoun goes before the conjugated verb."},
-    {"type": "matching", "question": "Match each emotion with its Spanish translation:", "pairs": [
-        {"target": "feliz", "source": "happy"},
-        {"target": "triste", "source": "sad"},
-        {"target": "cansado/a", "source": "tired"},
-        {"target": "enfadado/a", "source": "angry"},
-        {"target": "asustado/a", "source": "scared"}
-      ],
-      "explanation": "These emotions are essential for describing how people felt in the past (using imperfect of estar + past participle: estaba cansado, estaba triste)."},
-    {"type": "matching", "question": "Match each piece of furniture with its Spanish translation:", "pairs": [
-        {"target": "el sofá", "source": "the sofa"},
-        {"target": "la silla", "source": "the chair"},
-        {"target": "la cama", "source": "the bed"},
-        {"target": "el armario", "source": "the wardrobe"},
-        {"target": "el espejo", "source": "the mirror"}
-      ],
-      "explanation": "These furniture items are commonly used when describing houses and daily routines."},
-    {"type": "conjugation-matrix", "question": "Complete the imperfect tense conjugation table for the regular -AR verb HABLAR:", "verb": "HABLAR", "tenses": ["imperfect"], "explanation": "The imperfect of hablar follows the regular -AR pattern: hablaba, hablabas, hablaba, hablábamos, hablabais, hablaban."},
-    {"type": "conjugation-matrix", "question": "Complete the imperfect tense conjugation table for the irregular verb SER:", "verb": "SER", "tenses": ["imperfect"], "explanation": "SER is one of only three irregular imperfect verbs: era, eras, era, éramos, erais, eran."},
-    {"type": "conjugation-matrix", "question": "Complete the imperfect tense conjugation table for the irregular verb IR:", "verb": "IR", "tenses": ["imperfect"], "explanation": "IR is one of only three irregular imperfect verbs: iba, ibas, iba, íbamos, ibais, iban. Note the accent on íbamos."},
-    {"type": "fill-in-blank", "question": "Complete: 'De niño, ____ (deber) estudiar mucho pero ____ (querer) jugar.' (As a child, I had to study a lot but I wanted to play.)", "correct": "debía quería", "explanation": "'Debía quería' — both verbs in the imperfect. 'Debía' shows past obligation (I had to), 'quería' shows past desire (I wanted to). Both are imperfect because they describe repeated past states."},
-    {"type": "exercise", "question": "Which verb form is the subjunctive of 'tener' (yo)?", "options": ["tengo", "tuviera", "tenga", "tenía"], "correct": 2, "explanation": "'Tenga' is the present subjunctive yo form: take the yo indicative (tengo), drop the -o, add -a for -ER verbs: tenga."}
   ]
 }

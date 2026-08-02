@@ -1,0 +1,91 @@
+{
+  "id": "professional-spanish",
+  "title": "Professional & Business Spanish Vocabulary",
+  "description": "Core vocabulary for workplace communication, job applications, meetings, and professional correspondence.",
+  "vocabulary": [
+    { "id": 1, "target": "currículum vitae", "source": "CV / resume", "gender": "m.", "type": "noun" },
+    { "id": 2, "target": "candidatura", "source": "job application", "gender": "f.", "type": "noun" },
+    { "id": 3, "target": "entrevista de trabajo", "source": "job interview", "gender": "f.", "type": "noun" },
+    { "id": 4, "target": "oferta de empleo", "source": "job offer", "gender": "f.", "type": "noun" },
+    { "id": 5, "target": "despedido/a", "source": "fired / dismissed", "gender": "m./f.", "type": "adjective" },
+    { "id": 6, "target": "dimisión", "source": "resignation", "gender": "f.", "type": "noun" },
+    { "id": 7, "target": "nómina", "source": "payslip", "gender": "f.", "type": "noun" },
+    { "id": 8, "target": "contrato indefinido", "source": "permanent contract", "gender": "m.", "type": "noun" },
+    { "id": 9, "target": "contrato temporal", "source": "temporary contract", "gender": "m.", "type": "noun" },
+    { "id": 10, "target": "periodo de prueba", "source": "probationary period", "gender": "m.", "type": "noun" },
+    { "id": 11, "target": "ascenso", "source": "promotion", "gender": "m.", "type": "noun" },
+    { "id": 12, "target": "sueldo / salario", "source": "salary / wage", "gender": "m.", "type": "noun" },
+    { "id": 13, "target": "la reunión", "source": "meeting", "gender": "f.", "type": "noun" },
+    { "id": 14, "target": "el informe", "source": "report", "gender": "m.", "type": "noun" },
+    { "id": 15, "target": "el presupuesto", "source": "budget", "gender": "m.", "type": "noun" },
+    { "id": 16, "target": "los beneficios", "source": "profits / benefits", "gender": "m.pl.", "type": "noun" },
+    { "id": 17, "target": "las pérdidas", "source": "losses", "gender": "f.pl.", "type": "noun" },
+    { "id": 18, "target": "la cuota de mercado", "source": "market share", "gender": "f.", "type": "noun" },
+    { "id": 19, "target": "la competencia", "source": "competition", "gender": "f.", "type": "noun" },
+    { "id": 20, "target": "el cliente", "source": "client / customer", "gender": "m.", "type": "noun" },
+    { "id": 21, "target": "el jefe / la jefa", "source": "boss / manager", "gender": "m./f.", "type": "noun" },
+    { "id": 22, "target": "el colega / el compañero", "source": "colleague", "gender": "m.", "type": "noun" },
+    { "id": 23, "target": "la beca", "source": "scholarship", "gender": "f.", "type": "noun" },
+    { "id": 24, "target": "la tesis", "source": "thesis", "gender": "f.", "type": "noun" },
+    { "id": 25, "target": "el artículo científico", "source": "scientific paper", "gender": "m.", "type": "noun" },
+    { "id": 26, "target": "hipótesis", "source": "hypothesis", "gender": "f.", "type": "noun" },
+    { "id": 27, "target": "el máster / el posgrado", "source": "master's degree / postgraduate", "gender": "m.", "type": "noun" },
+    { "id": 28, "target": "la investigación", "source": "research", "gender": "f.", "type": "noun" },
+    { "id": 29, "target": "estimado/a Sr./Sra.", "source": "Dear Mr./Ms.", "gender": "—", "type": "phrase" },
+    { "id": 30, "target": "atentamente", "source": "sincerely (formal closing)", "gender": "—", "type": "adverb" },
+    { "id": 31, "target": "le escribo para...", "source": "I am writing to...", "gender": "—", "type": "phrase" },
+    { "id": 32, "target": "queda a su disposición", "source": "I remain at your disposal", "gender": "—", "type": "phrase" },
+    { "id": 33, "target": "agradeciendo de antemano", "source": "thanking you in advance", "gender": "—", "type": "phrase" },
+    { "id": 34, "target": "en respuesta a su correo", "source": "in response to your email", "gender": "—", "type": "phrase" },
+    { "id": 35, "target": "el sueldo fijo", "source": "fixed salary", "gender": "m.", "type": "phrase" },
+    { "id": 36, "target": "los ingresos", "source": "revenue / income", "gender": "m.pl.", "type": "noun" },
+    { "id": 37, "target": "la reunión de equipo", "source": "team meeting", "gender": "f.", "type": "phrase" },
+    { "id": 38, "target": "ocupar el puesto vacante", "source": "to fill the vacant position", "gender": "—", "type": "phrase" },
+    { "id": 39, "target": "enviar mi candidatura", "source": "to send my application", "gender": "—", "type": "phrase" },
+    { "id": 40, "target": "solicitar información", "source": "to request information", "gender": "—", "type": "phrase" }
+  ],
+  "grammar": [],
+  "pronunciation": [],
+  "exercises": [
+    {
+      "type": "exercise",
+      "question": "What does 'currículum vitae' mean in English?",
+      "options": ["Curriculum", "CV / resume", "Study plan", "Course schedule"],
+      "correct": 1,
+      "explanation": "'Currículum vitae' (often abbreviated as CV) = 'resume' — a document summarizing your work experience and qualifications."
+    },
+    {
+      "type": "exercise",
+      "question": "What does 'contrato indefinido' mean?",
+      "options": ["Temporary contract", "Permanent contract", "Trial contract", "Part-time contract"],
+      "correct": 1,
+      "explanation": "'Contrato indefinido' = permanent contract — no fixed end date, as opposed to 'contrato temporal' (temporary contract)."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: 'Acabo de enviar mi ____ para el puesto de analista.' (I just sent my application for the analyst position.)",
+      "correct": "candidatura",
+      "explanation": "'Candidatura' = job application. 'Enviar mi candidatura' = to send my application."
+    },
+    {
+      "type": "exercise",
+      "question": "What does 'periodo de prueba' mean?",
+      "options": ["Trial period / probationary period", "Testing time", "Evaluation period", "Training period"],
+      "correct": 0,
+      "explanation": "'Periodo de prueba' = probationary period — the initial period of employment where both parties evaluate the fit."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: '____ (Sincerely), [Nombre]' — formal closing in a professional email.",
+      "correct": "Atentamente",
+      "explanation": "'Atentamente' = 'Sincerely' — the standard formal closing for professional emails and letters in Spanish."
+    },
+    {
+      "type": "exercise",
+      "question": "What does 'la cuota de mercado' mean?",
+      "options": ["Market rate", "Market share", "Market price", "Market size"],
+      "correct": 1,
+      "explanation": "'Cuota de mercado' = market share — the percentage of a market controlled by a particular company or product."
+    }
+  ]
+}

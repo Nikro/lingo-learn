@@ -1,0 +1,218 @@
+{
+  "id": "relative-pronouns",
+  "level": "a2-2",
+  "title": "Relative Pronouns",
+  "description": "Learn to use relative pronouns (que, quien, el cual, donde, cuyo) to connect ideas in Spanish.",
+  "vocabulary": [
+    {"id": 1, "target": "que", "source": "that/which/who", "gender": "pron", "type": "relative"},
+    {"id": 2, "target": "quien", "source": "who", "gender": "pron", "type": "relative"},
+    {"id": 3, "target": "quienes", "source": "who (pl)", "gender": "pron", "type": "relative"},
+    {"id": 4, "target": "el cual", "source": "which (m)", "gender": "pron", "type": "relative"},
+    {"id": 5, "target": "la cual", "source": "which (f)", "gender": "pron", "type": "relative"},
+    {"id": 6, "target": "los cuales", "source": "which (m pl)", "gender": "pron", "type": "relative"},
+    {"id": 7, "target": "las cuales", "source": "which (f pl)", "gender": "pron", "type": "relative"},
+    {"id": 8, "target": "donde", "source": "where", "gender": "adv", "type": "relative"},
+    {"id": 9, "target": "cuyo", "source": "whose (m)", "gender": "adj", "type": "relative"},
+    {"id": 10, "target": "cuya", "source": "whose (f)", "gender": "adj", "type": "relative"},
+    {"id": 11, "target": "cuyos", "source": "whose (m pl)", "gender": "adj", "type": "relative"},
+    {"id": 12, "target": "cuyas", "source": "whose (f pl)", "gender": "adj", "type": "relative"},
+    {"id": 13, "target": "el hombre", "source": "the man", "gender": "m", "type": "noun"},
+    {"id": 14, "target": "la mujer", "source": "the woman", "gender": "f", "type": "noun"},
+    {"id": 15, "target": "el nino", "source": "the boy", "gender": "m", "type": "noun"},
+    {"id": 16, "target": "la nina", "source": "the girl", "gender": "f", "type": "noun"},
+    {"id": 17, "target": "el libro", "source": "the book", "gender": "m", "type": "noun"},
+    {"id": 18, "target": "la casa", "source": "the house", "gender": "f", "type": "noun"},
+    {"id": 19, "target": "el coche", "source": "the car", "gender": "m", "type": "noun"},
+    {"id": 20, "target": "la ciudad", "source": "the city", "gender": "f", "type": "noun"},
+    {"id": 21, "target": "el tiempo", "source": "the time/weather", "gender": "m", "type": "noun"},
+    {"id": 22, "target": "el dinero", "source": "the money", "gender": "m", "type": "noun"},
+    {"id": 23, "target": "el trabajo", "source": "the work", "gender": "m", "type": "noun"},
+    {"id": 24, "target": "la vida", "source": "the life", "gender": "f", "type": "noun"},
+    {"id": 25, "target": "el mundo", "source": "the world", "gender": "m", "type": "noun"},
+    {"id": 26, "target": "el pais", "source": "the country", "gender": "m", "type": "noun"},
+    {"id": 27, "target": "la empresa", "source": "the company", "gender": "f", "type": "noun"},
+    {"id": 28, "target": "el amigo", "source": "the friend", "gender": "m", "type": "noun"},
+    {"id": 29, "target": "la amiga", "source": "the friend (f)", "gender": "f", "type": "noun"},
+    {"id": 30, "target": "el profesor", "source": "the professor", "gender": "m", "type": "noun"},
+    {"id": 31, "target": "la profesora", "source": "the professor (f)", "gender": "f", "type": "noun"},
+    {"id": 32, "target": "el estudiante", "source": "the student", "gender": "m", "type": "noun"},
+    {"id": 33, "target": "la estudiante", "source": "the student (f)", "gender": "f", "type": "noun"},
+    {"id": 34, "target": "el medico", "source": "the doctor", "gender": "m", "type": "noun"},
+    {"id": 35, "target": "la medica", "source": "the doctor (f)", "gender": "f", "type": "noun"},
+    {"id": 36, "target": "el padre", "source": "the father", "gender": "m", "type": "noun"},
+    {"id": 37, "target": "la madre", "source": "the mother", "gender": "f", "type": "noun"},
+    {"id": 38, "target": "el hijo", "source": "the son", "gender": "m", "type": "noun"},
+    {"id": 39, "target": "la hija", "source": "the daughter", "gender": "f", "type": "noun"},
+    {"id": 40, "target": "el hermano", "source": "the brother", "gender": "m", "type": "noun"},
+    {"id": 41, "target": "la hermana", "source": "the sister", "gender": "f", "type": "noun"},
+    {"id": 42, "target": "el ano", "source": "the year", "gender": "m", "type": "noun"},
+    {"id": 43, "target": "el dia", "source": "the day", "gender": "m", "type": "noun"},
+    {"id": 44, "target": "la noche", "source": "the night", "gender": "f", "type": "noun"},
+    {"id": 45, "target": "la manana", "source": "the morning", "gender": "f", "type": "noun"},
+    {"id": 46, "target": "la tarde", "source": "the afternoon", "gender": "f", "type": "noun"},
+    {"id": 47, "target": "la vez", "source": "the time", "gender": "f", "type": "noun"},
+    {"id": 48, "target": "el momento", "source": "the moment", "gender": "m", "type": "noun"},
+    {"id": 49, "target": "la razon", "source": "the reason", "gender": "f", "type": "noun"},
+    {"id": 50, "target": "el problema", "source": "the problem", "gender": "m", "type": "noun"},
+    {"id": 51, "target": "la solucion", "source": "the solution", "gender": "f", "type": "noun"},
+    {"id": 52, "target": "la idea", "source": "the idea", "gender": "f", "type": "noun"},
+    {"id": 53, "target": "el hecho", "source": "the fact", "gender": "m", "type": "noun"},
+    {"id": 54, "target": "la cosa", "source": "the thing", "gender": "f", "type": "noun"},
+    {"id": 55, "target": "todo", "source": "all", "gender": "adj", "type": "indefinite"},
+    {"id": 56, "target": "mucho", "source": "much", "gender": "adj", "type": "quantity"},
+    {"id": 57, "target": "poco", "source": "little", "gender": "adj", "type": "quantity"},
+    {"id": 58, "target": "bueno", "source": "good", "gender": "adj", "type": "adjective"},
+    {"id": 59, "target": "malo", "source": "bad", "gender": "adj", "type": "adjective"},
+    {"id": 60, "target": "grande", "source": "big", "gender": "adj", "type": "adjective"},
+    {"id": 61, "target": "pequeno", "source": "small", "gender": "adj", "type": "adjective"},
+    {"id": 62, "target": "nuevo", "source": "new", "gender": "adj", "type": "adjective"},
+    {"id": 63, "target": "viejo", "source": "old", "gender": "adj", "type": "adjective"},
+    {"id": 64, "target": "primero", "source": "first", "gender": "adj", "type": "ordinal"},
+    {"id": 65, "target": "ultimo", "source": "last", "gender": "adj", "type": "ordinal"},
+    {"id": 66, "target": "mismo", "source": "same", "gender": "adj", "type": "indefinite"},
+    {"id": 67, "target": "otro", "source": "other", "gender": "adj", "type": "indefinite"},
+    {"id": 68, "target": "alguno", "source": "some", "gender": "adj", "type": "indefinite"},
+    {"id": 69, "target": "ninguno", "source": "none", "gender": "adj", "type": "indefinite"},
+    {"id": 70, "target": "quien", "source": "who", "gender": "pron", "type": "interrogative"},
+    {"id": 71, "target": "que", "source": "what", "gender": "pron", "type": "interrogative"},
+    {"id": 72, "target": "cual", "source": "which", "gender": "pron", "type": "interrogative"},
+    {"id": 73, "target": "donde", "source": "where", "gender": "adv", "type": "interrogative"},
+    {"id": 74, "target": "como", "source": "how", "gender": "adv", "type": "interrogative"},
+    {"id": 75, "target": "cuando", "source": "when", "gender": "adv", "type": "interrogative"},
+    {"id": 76, "target": "porque", "source": "because", "gender": "conj", "type": "conjunction"},
+    {"id": 77, "target": "aunque", "source": "although", "gender": "conj", "type": "conjunction"},
+    {"id": 78, "target": "pero", "source": "but", "gender": "conj", "type": "conjunction"},
+    {"id": 79, "target": "si", "source": "if", "gender": "conj", "type": "conjunction"},
+    {"id": 80, "target": "para", "source": "for/in order to", "gender": "prep", "type": "preposition"},
+    {"id": 81, "target": "por", "source": "for/through", "gender": "prep", "type": "preposition"},
+    {"id": 82, "target": "con", "source": "with", "gender": "prep", "type": "preposition"},
+    {"id": 83, "target": "sin", "source": "without", "gender": "prep", "type": "preposition"},
+    {"id": 84, "target": "de", "source": "of/from", "gender": "prep", "type": "preposition"},
+    {"id": 85, "target": "en", "source": "in/on", "gender": "prep", "type": "preposition"},
+    {"id": 86, "target": "a", "source": "to/at", "gender": "prep", "type": "preposition"},
+    {"id": 87, "target": "sobre", "source": "on/about", "gender": "prep", "type": "preposition"},
+    {"id": 88, "target": "entre", "source": "between", "gender": "prep", "type": "preposition"},
+    {"id": 89, "target": "desde", "source": "since/from", "gender": "prep", "type": "preposition"},
+    {"id": 90, "target": "hasta", "source": "until/to", "gender": "prep", "type": "preposition"},
+    {"id": 91, "target": "hacia", "source": "towards", "gender": "prep", "type": "preposition"},
+    {"id": 92, "target": "contra", "source": "against", "gender": "prep", "type": "preposition"},
+    {"id": 93, "target": "ante", "source": "before/in front of", "gender": "prep", "type": "preposition"},
+    {"id": 94, "target": "bajo", "source": "under", "gender": "prep", "type": "preposition"},
+    {"id": 95, "target": "durante", "source": "during", "gender": "prep", "type": "preposition"},
+    {"id": 96, "target": "mediante", "source": "through", "gender": "prep", "type": "preposition"},
+    {"id": 97, "target": "excepto", "source": "except", "gender": "prep", "type": "preposition"},
+    {"id": 98, "target": "salvo", "source": "except", "gender": "prep", "type": "preposition"},
+    {"id": 99, "target": "segun", "source": "according to", "gender": "prep", "type": "preposition"},
+    {"id": 100, "target": "traves de", "source": "through", "gender": "prep", "type": "preposition"}
+  ],
+  "grammar": [
+    {
+      "title": "Que — The Most Common Relative Pronoun",
+      "content": "QUE is the most versatile relative pronoun in Spanish:\n\n1. For people and things:\nEl hombre que trabaja aqui. (The man who works here.)\nEl libro que lei. (The book that I read.)\n\n2. After prepositions (people or things):\nLa persona con que hablaste. (The person with whom you spoke.)\nLa ciudad en que vivo. (The city in which I live.)\n\n3. In superlative constructions:\nEl mejor libro que he ledo. (The best book that I have read.)\n\n4. After 'todo':\nTodo lo que se. (Everything that I know.)\n\nNote: In everyday Spanish, 'que' is used even after prepositions in informal speech:\nLa persona con que hable → more formal: La persona con la cual hable\n\nDONDE is often used instead of 'en que' or 'a que':\nLa ciudad donde naci. (The city where I was born.) = La ciudad en que naci.\n\nNEVER use 'que' after 'de' for possession. Use 'cuyo' instead:\nEl padre de Maria → The father of Maria\nThe man whose son... → El hombre cuyo hijo...",
+      "examples": [
+        "La casa que compre es grande. (The house that I bought is big.)",
+        "El estudiante con que hable es mi amigo. (The student with whom I spoke is my friend.)",
+        "Todo lo que quiero es tiempo. (Everything that I want is time.)",
+        "La ciudad donde creci fue Mexico. (The city where I grew up was Mexico.)"
+      ]
+    },
+    {
+      "title": "Quien/Quienes — For People Only",
+      "content": "QUIEN/QUIENES is used ONLY for people, especially:\n\n1. After prepositions:\nLa persona con quien hable. (The person with whom I spoke.)\nEl profesor a quien恭恭敬敬. (The professor to whom I spoke.)\n\n2. In non-restrictive clauses (with commas):\nMi padre, quien es medico, vive aqui. (My father, who is a doctor, lives here.)\n\n3. In indirect questions:\nNo se quien es. (I don't know who it is.)\n\nCONTRAST with 'que':\n\nRESTRICTIVE (essential info, no comma):\nEl alumno que estudia mucho passed. (The student who studies a lot passed.) → identifies which student\n\nNON-RESTRICTIVE (extra info, with comma):\nMi hermano, que estudia mucho, passed. (My brother, who studies a lot, passed.) → additional info about known person\n\nQUIENES is the plural form:\nLos estudiantes, quienes vienen de Mexico, son amables. (The students, who come from Mexico, are nice.)",
+      "examples": [
+        "La mujer con quien baile es mi profesora. (The woman with whom I danced is my teacher.)",
+        "Mi madre, quien vive en Madrid, viene manana. (My mother, who lives in Madrid, is coming tomorrow.)",
+        "No se a quien preguntar. (I don't know who to ask.)",
+        "Los autores, quienes vinieron de Espana, firmaron libros. (The authors, who came from Spain, signed books.)"
+      ]
+    },
+    {
+      "title": "Cuyo — Possessive Relative Pronoun",
+      "content": "CUYO indicates possession and agrees with the thing possessed:\n\nCuyo (m sing) / Cuya (f sing) / Cuyos (m pl) / Cuyas (f pl)\n\nTranslation: whose / of which\n\nEl hombre cuya casa compre. (The man whose house I bought.)\n→ casa is feminine, so 'cuya' agrees\n\nLa mujer cuyo hijo es doctor. (The woman whose son is a doctor.)\n→ hijo is masculine, so 'cuyo' stays masculine\n\nLas ninas cuyas tarefas revise. (The girls whose homework I checked.)\n→ tarefas is feminine plural, so 'cuyas'\n\nWord order: Cuyo comes BEFORE the noun it modifies:\nEl hombre de quien/cuyo libro → correct: El hombre cuyo libro...\n\nEJEMPLOS:\nEl escritor cuya novela lei. (The writer whose novel I read.)\nLa familia en cuya casa nos quedamos. (The family in whose house we stayed.)\nLos estudiantes cuyos proyectos presentamos. (The students whose projects we presented.)",
+      "examples": [
+        "El hombre cuyo coche compraste es mi vecino. (The man whose car you bought is my neighbor.)",
+        "La chica cuya fotografia vi es famous. (The girl whose photograph I saw is famous.)",
+        "Los profesores cuyos metodos admiramos vinieron. (The professors whose methods we admire came.)",
+        "No recuerdo el nombre del autor cuyo libro perd. (I don't remember the name of the author whose book I lost.)"
+      ]
+    }
+  ],
+  "pronunciation": [
+    {
+      "title": "Relative Pronoun Pronunciation",
+      "content": "que = keh\nquien = kyehn\nquienes = KYEHN-ehs\n\nel cual = ehl kwahl\nla cual = lah kwahl\nlos cuales = lohs KWAH-lehs\nlas cuales = lahs KWAH-lehs\n\ndonde = DOHN-deh\ncuyo = KOO-yoh\ncuya = KOO-yah\n\nque vs quien:\n- 'que' is unstressed, short\n- 'quien' has stress on the end\n\ncuyo sounds like 'coo-yoh', not 'kwyo'\n\ndonde sounds like 'dohn-deh', not 'don-day'",
+      "examples": [
+        "que = keh (short, unstressed)\nquien = kyehn (stressed)",
+        "el cual = ehl kwahl\nla cual = lah kwahl",
+        "donde = DOHN-deh\ncuyo = KOO-yoh"
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "multiple-choice",
+      "question": "Which is correct for 'The man who works here'?",
+      "options": ["El hombre quien trabaja aqui", "El hombre que trabaja aqui", "El hombre cual trabaja aqui", "El hombre quien trabaja aqui"],
+      "correct": 1,
+      "explanation": "'Que' is used for both people and things. 'El hombre que trabaja aqui' = The man who works here."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: 'Todo lo ___ se es esto. (Everything that I know is this.)'",
+      "correct": "que",
+      "explanation": "After 'todo lo que', use 'que'. 'Todo lo que se' = Everything that I know."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Which is correct for 'The city where I live'?",
+      "options": ["La ciudad que vivo", "La ciudad donde vivo", "La ciudad cual vivo", "La ciudad quien vivo"],
+      "correct": 1,
+      "explanation": "'Donde' is used for locations. 'La ciudad donde vivo' = The city where I live."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: 'La persona con ___ hable es mi amiga. (The person with whom I spoke is my friend.)'",
+      "correct": "quien",
+      "explanation": "After prepositions for people, use 'quien'. 'Con quien' = with whom."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Which is the possessive relative pronoun?",
+      "options": ["que", "quien", "cuyo", "donde"],
+      "correct": 2,
+      "explanation": "'Cuyo' means 'whose' and indicates possession. It agrees with the noun it modifies."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: 'El hombre ___ hijo estudio aqui. (The man whose son studied here.)'",
+      "correct": "cuyo",
+      "explanation": "Cuyo = whose (possessive). 'El hombre cuyo hijo' = The man whose son."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Which is correct: 'My father, who lives in Madrid'?",
+      "options": ["Mi padre que vive en Madrid", "Mi padre, quien vive en Madrid", "Mi padre cual vive en Madrid", "Mi padre quien vive en Madrid"],
+      "correct": 1,
+      "explanation": "Non-restrictive clause (with comma) for a person: use 'quien'. 'Mi padre, quien vive en Madrid'."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: 'La autora ___ novela gan6 el premio. (The author whose novel won the prize.)'",
+      "correct": "cuya",
+      "explanation": "Cuya agrees with 'novela' (feminine). 'La autora cuya novela' = The author whose novel."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Which relative pronoun is used after prepositions for things?",
+      "options": ["que", "quien", "el cual", "donde"],
+      "correct": 2,
+      "explanation": "'El cual' (and its forms) is used after prepositions, especially in formal Spanish. 'Que' can also be used informally."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: 'Los estudiantes ___ proyectos presentamos fueron表扬. (The students whose projects we presented were praised.)'",
+      "correct": "cuyos",
+      "explanation": "Cuyos agrees with 'proyectos' (masculine plural). 'Los estudiantes cuyos proyectos' = The students whose projects."
+    }
+  ]
+}

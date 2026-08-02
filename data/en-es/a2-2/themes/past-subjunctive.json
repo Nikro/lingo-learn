@@ -1,0 +1,219 @@
+{
+  "id": "past-subjunctive",
+  "level": "a2-2",
+  "title": "Past Subjunctive",
+  "description": "Master the imperfect subjunctive (past subjunctive) for unreal or hypothetical situations in the past.",
+  "vocabulary": [
+    {"id": 1, "target": "hablara", "source": "I spoke (subj)", "gender": "v", "type": "verb"},
+    {"id": 2, "target": "hablase", "source": "I spoke (subj)", "gender": "v", "type": "verb"},
+    {"id": 3, "target": "comiera", "source": "I ate (subj)", "gender": "v", "type": "verb"},
+    {"id": 4, "target": "comiese", "source": "I ate (subj)", "gender": "v", "type": "verb"},
+    {"id": 5, "target": "viviera", "source": "I lived (subj)", "gender": "v", "type": "verb"},
+    {"id": 6, "target": "viviese", "source": "I lived (subj)", "gender": "v", "type": "verb"},
+    {"id": 7, "target": "fuera", "source": "I was (subj)", "gender": "v", "type": "verb"},
+    {"id": 8, "target": "fuese", "source": "I was (subj)", "gender": "v", "type": "verb"},
+    {"id": 9, "target": "tuviera", "source": "I had (subj)", "gender": "v", "type": "verb"},
+    {"id": 10, "target": "quisiera", "source": "I wanted (subj)", "gender": "v", "type": "verb"},
+    {"id": 11, "target": "si", "source": "if", "gender": "conj", "type": "conjunction"},
+    {"id": 12, "target": "yo", "source": "I", "gender": "pron", "type": "pronoun"},
+    {"id": 13, "target": "tu", "source": "you", "gender": "pron", "type": "pronoun"},
+    {"id": 14, "target": "el", "source": "he", "gender": "pron", "type": "pronoun"},
+    {"id": 15, "target": "ella", "source": "she", "gender": "pron", "type": "pronoun"},
+    {"id": 16, "target": "nosotros", "source": "we", "gender": "pron", "type": "pronoun"},
+    {"id": 17, "target": "ellos", "source": "they", "gender": "pron", "type": "pronoun"},
+    {"id": 18, "target": "ellas", "source": "they (f)", "gender": "pron", "type": "pronoun"},
+    {"id": 19, "target": "ayer", "source": "yesterday", "gender": "adv", "type": "time"},
+    {"id": 20, "target": "anoche", "source": "last night", "gender": "adv", "type": "time"},
+    {"id": 21, "target": "la semana pasada", "source": "last week", "gender": "f", "type": "time"},
+    {"id": 22, "target": "el mes pasado", "source": "last month", "gender": "m", "type": "time"},
+    {"id": 23, "target": "el ano pasado", "source": "last year", "gender": "m", "type": "time"},
+    {"id": 24, "target": "cuando", "source": "when", "gender": "conj", "type": "conjunction"},
+    {"id": 25, "target": "antes de que", "source": "before", "gender": "conj", "type": "conjunction"},
+    {"id": 26, "target": "despues de que", "source": "after", "gender": "conj", "type": "conjunction"},
+    {"id": 27, "target": "para que", "source": "so that", "gender": "conj", "type": "conjunction"},
+    {"id": 28, "target": "sin que", "source": "without", "gender": "conj", "type": "conjunction"},
+    {"id": 29, "target": "en caso de que", "source": "in case", "gender": "conj", "type": "conjunction"},
+    {"id": 30, "target": "aunque", "source": "although", "gender": "conj", "type": "conjunction"},
+    {"id": 31, "target": "como si", "source": "as if", "gender": "conj", "type": "conjunction"},
+    {"id": 32, "target": "el hombre", "source": "the man", "gender": "m", "type": "noun"},
+    {"id": 33, "target": "la mujer", "source": "the woman", "gender": "f", "type": "noun"},
+    {"id": 34, "target": "el nino", "source": "the boy", "gender": "m", "type": "noun"},
+    {"id": 35, "target": "la nina", "source": "the girl", "gender": "f", "type": "noun"},
+    {"id": 36, "target": "el tiempo", "source": "the time/weather", "gender": "m", "type": "noun"},
+    {"id": 37, "target": "el dinero", "source": "the money", "gender": "m", "type": "noun"},
+    {"id": 38, "target": "la casa", "source": "the house", "gender": "f", "type": "noun"},
+    {"id": 39, "target": "el trabajo", "source": "the work", "gender": "m", "type": "noun"},
+    {"id": 40, "target": "la vida", "source": "the life", "gender": "f", "type": "noun"},
+    {"id": 41, "target": "el mundo", "source": "the world", "gender": "m", "type": "noun"},
+    {"id": 42, "target": "el pais", "source": "the country", "gender": "m", "type": "noun"},
+    {"id": 43, "target": "la ciudad", "source": "the city", "gender": "f", "type": "noun"},
+    {"id": 44, "target": "el ano", "source": "the year", "gender": "m", "type": "noun"},
+    {"id": 45, "target": "el dia", "source": "the day", "gender": "m", "type": "noun"},
+    {"id": 46, "target": "la noche", "source": "the night", "gender": "f", "type": "noun"},
+    {"id": 47, "target": "la manana", "source": "the morning", "gender": "f", "type": "noun"},
+    {"id": 48, "target": "ahora", "source": "now", "gender": "adv", "type": "time"},
+    {"id": 49, "target": "hoy", "source": "today", "gender": "adv", "type": "time"},
+    {"id": 50, "target": "siempre", "source": "always", "gender": "adv", "type": "time"},
+    {"id": 51, "target": "nunca", "source": "never", "gender": "adv", "type": "time"},
+    {"id": 52, "target": "aqui", "source": "here", "gender": "adv", "type": "adverb"},
+    {"id": 53, "target": "alli", "source": "there", "gender": "adv", "type": "adverb"},
+    {"id": 54, "target": "bien", "source": "well", "gender": "adv", "type": "adverb"},
+    {"id": 55, "target": "mal", "source": "badly", "gender": "adv", "type": "adverb"},
+    {"id": 56, "target": "muy", "source": "very", "gender": "adv", "type": "adverb"},
+    {"id": 57, "target": "tambien", "source": "also", "gender": "adv", "type": "adverb"},
+    {"id": 58, "target": "no", "source": "no/not", "gender": "adv", "type": "adverb"},
+    {"id": 59, "target": "mas", "source": "more", "gender": "adv", "type": "quantity"},
+    {"id": 60, "target": "menos", "source": "less", "gender": "adv", "type": "quantity"},
+    {"id": 61, "target": "mucho", "source": "much", "gender": "adj", "type": "quantity"},
+    {"id": 62, "target": "poco", "source": "little", "gender": "adj", "type": "quantity"},
+    {"id": 63, "target": "todo", "source": "all", "gender": "adj", "type": "indefinite"},
+    {"id": 64, "target": "nada", "source": "nothing", "gender": "pron", "type": "indefinite"},
+    {"id": 65, "target": "alguien", "source": "someone", "gender": "pron", "type": "indefinite"},
+    {"id": 66, "target": "nadie", "source": "no one", "gender": "pron", "type": "indefinite"},
+    {"id": 67, "target": "bueno", "source": "good", "gender": "adj", "type": "adjective"},
+    {"id": 68, "target": "malo", "source": "bad", "gender": "adj", "type": "adjective"},
+    {"id": 69, "target": "grande", "source": "big", "gender": "adj", "type": "adjective"},
+    {"id": 70, "target": "pequeno", "source": "small", "gender": "adj", "type": "adjective"},
+    {"id": 71, "target": "rico", "source": "rich/delicious", "gender": "adj", "type": "adjective"},
+    {"id": 72, "target": "pobre", "source": "poor", "gender": "adj", "type": "adjective"},
+    {"id": 73, "target": "feliz", "source": "happy", "gender": "adj", "type": "adjective"},
+    {"id": 74, "target": "triste", "source": "sad", "gender": "adj", "type": "adjective"},
+    {"id": 75, "target": "inteligente", "source": "intelligent", "gender": "adj", "type": "adjective"},
+    {"id": 76, "target": "trabajar", "source": "to work", "gender": "v", "type": "verb"},
+    {"id": 77, "target": "estudiar", "source": "to study", "gender": "v", "type": "verb"},
+    {"id": 78, "target": "vivir", "source": "to live", "gender": "v", "type": "verb"},
+    {"id": 79, "target": "comer", "source": "to eat", "gender": "v", "type": "verb"},
+    {"id": 80, "target": "beber", "source": "to drink", "gender": "v", "type": "verb"},
+    {"id": 81, "target": "ir", "source": "to go", "gender": "v", "type": "verb"},
+    {"id": 82, "target": "venir", "source": "to come", "gender": "v", "type": "verb"},
+    {"id": 83, "target": "tener", "source": "to have", "gender": "v", "type": "verb"},
+    {"id": 84, "target": "hacer", "source": "to do", "gender": "v", "type": "verb"},
+    {"id": 85, "target": "poder", "source": "to be able", "gender": "v", "type": "verb"},
+    {"id": 86, "target": "querer", "source": "to want", "gender": "v", "type": "verb"},
+    {"id": 87, "target": "saber", "source": "to know", "gender": "v", "type": "verb"},
+    {"id": 88, "target": "decir", "source": "to say", "gender": "v", "type": "verb"},
+    {"id": 89, "target": "ver", "source": "to see", "gender": "v", "type": "verb"},
+    {"id": 90, "target": "dar", "source": "to give", "gender": "v", "type": "verb"},
+    {"id": 91, "target": "llamar", "source": "to call", "gender": "v", "type": "verb"},
+    {"id": 92, "target": "hablar", "source": "to speak", "gender": "v", "type": "verb"},
+    {"id": 93, "target": "escribir", "source": "to write", "gender": "v", "type": "verb"},
+    {"id": 94, "target": "leer", "source": "to read", "gender": "v", "type": "verb"},
+    {"id": 95, "target": "comprar", "source": "to buy", "gender": "v", "type": "verb"},
+    {"id": 96, "target": "vender", "source": "to sell", "gender": "v", "type": "verb"},
+    {"id": 97, "target": "necesitar", "source": "to need", "gender": "v", "type": "verb"},
+    {"id": 98, "target": "preferir", "source": "to prefer", "gender": "v", "type": "verb"},
+    {"id": 99, "target": "conseguir", "source": "to get", "gender": "v", "type": "verb"},
+    {"id": 100, "target": "llegar", "source": "to arrive", "gender": "v", "type": "verb"}
+  ],
+  "grammar": [
+    {
+      "title": "Past Subjunctive Formation",
+      "content": "Past Subjunctive (Imperfect Subjunctive) has two acceptable forms:\n\n-ra form and -se form (both are correct and interchangeable)\n\nFORMATION: Take 3rd person plural of preterite, remove -ron, add endings:\n\n-RA ENDINGS:\nhablara, hablaras, hablara, hablramos, hablarais, hablaran\ncomiera, comieras, comiera, comieramos, comierais, comieran\nviviera, vivieras, viviera, vivieramos, vivierais, vivieran\n\n-SE ENDINGS (more formal/literary):\nhablase, hablases, hablase, hablacemos, hablaseis, hablasen\n\nIrregulars:\nSer → fuera/fulse\nIr → fuera/fulse (same as ser)\nTener → tuviera/tuviese\nHacer → hiciera/hiciese\nVenir → viniera/viniese\nPoder → pudiera/pudiese\nQuerer → quisiera/quisisese\nSaber → supiera/supiese\nDecir → dijera/dijese\n\nExamples:\nSi tuviera dinero, compraria una casa. (If I had money, I would buy a house.)\nQuieren que vinieras a la fiesta. (They want you to come to the party.)",
+      "examples": [
+        "Si tuviera tiempo, estudiara mas. (If I had time, I would study more.)",
+        "Ojalia el hubiera llegado a tiempo. (I wish he had arrived on time.)",
+        "No crei que supieras la respuesta. (I didn't think you knew the answer.)",
+        "Esperaba que hicieras la tarea. (I was hoping you would do the homework.)"
+      ]
+    },
+    {
+      "title": "Uses of Past Subjunctive",
+      "content": "Past subjunctive is used in the SAME situations as present subjunctive, but for PAST or HYPOTHETICAL meanings:\n\n1. AFTER PAST MAIN VERBS expressing will/wish/emotion:\nQuise que vinieras. (I wanted you to come.)\nMe alegro de que hayas llegado. (I'm glad you have arrived.) — present perfect subjunctive\n\n2. SI CLAUSES for unreal/hypothetical conditions:\nSi yo fuera rico, viajaria. (If I were rich, I would travel.)\nSi ella supiera, te ayudaria. (If she knew, she would help you.)\n\n3. HYPOTHETICAL STATEMENTS:\nYo que tu, lo hiciera. (I in your place, I would do it.)\nComo si fuera verdad. (As if it were true.)\n\n4. AFTER IMPERSONAL EXPRESSIONS in past:\nEra importante que estudiaras. (It was important that you study.)\n\nNote: Both -ra and -se forms are acceptable. In everyday speech, -ra is more common in Spain, while -se is considered more formal.",
+      "examples": [
+        "Si yo supiera la respuesta, te la diria. (If I knew the answer, I would tell you.)",
+        "Si el hubiera venido, le hubiera dicho la verdad. (If he had come, I would have told him the truth.)",
+        "Me gustaria que vinieras a visitarnos. (I would like you to come visit us.)",
+        "Era necesario que llegaras temprano. (It was necessary that you arrive early.)"
+      ]
+    },
+    {
+      "title": "Si Clauses with Past Subjunctive",
+      "content": "SI + Past Subjunctive = unreal/hypothetical condition in present or future\n\nPRESENT UNREAL:\nSi yo tuviera dinero, compraria un coche. (If I had money [but I don't], I would buy a car.)\n\nFUTURE UNREAL:\nSi yo ganara la loteria, viajaria por el mundo. (If I were to win the lottery, I would travel the world.)\n\nPAST UNREAL (would have):\nSi yo hubiera estudiado, habria aprobado. (If I had studied, I would have passed.)\n\nAlternative past unreal with -ra:\nSi yo hubiera estudiado, hubiera aprobado. (Both clauses with past perfect subjunctive)\n\nIMPORTANT: After SI expressing HYPOTHESIS, NEVER use conditional or future in the si clause:\n\nINCORRECT: Si yo tendre dinero...\nCORRECT: Si yo tuviera dinero...\n\nCONTRAST with real conditions:\nREAL: Si estudio, aprobare. (If I study, I will pass.) — possible\nUNREAL: Si estudiara, aprobaria. (If I were to study, I would pass.) — hypothetical",
+      "examples": [
+        "Si lloviera mañana, no saldriamos. (If it rained tomorrow, we wouldn't go out.)",
+        "Si tuvieras el numero, me llamarias. (If you had the number, you would call me.)",
+        "Si hubiera sabido, te hubiera avisado. (If I had known, I would have warned you.)",
+        "Si pudiera, te ayudaria con gusto. (If I could, I would help you gladly.)"
+      ]
+    }
+  ],
+  "pronunciation": [
+    {
+      "title": "Past Subjunctive Pronunciation",
+      "content": "Past subjunctive endings:\n\n-ra form:\n-ara, -aras, -ara, -aramos, -arais, -aran\n-iera, -ieras, -iera, -ieramos, -ierais, -ieran\n\n-se form:\n-ase, -ases, -ase, -asemos, -aseis, -asen\n-iese, -ieses, -iese, -iesemos, -iesesis, -iesen\n\nKey features:\n- Stress falls on the syllable BEFORE the ending\n- 'iera' and 'iese' both sound like 'yeh-rah'\n- 'hubiera' = oo-BYEH-rah\n- 'fuera' = FWEH-rah\n- 'quisiera' = kee-SYEH-rah\n\nExamples:\nhablara = ah-BLAH-rah\ncomiera = koh-MYEH-rah\nviviera = bee-BYEH-rah\n\nCompare with present subjunctive:\nhablar → hable (AH-bleh) vs. hablara (ah-BLAH-rah)\ncomer → coma (KOH-mah) vs. comiera (koh-MYEH-rah)",
+      "examples": [
+        "hablara = ah-BLAH-rah (stress on second syllable)",
+        "comiera = koh-MYEH-rah (stress on 'myeh')",
+        "tuviera = too-BYEH-rah (sounds like 'too-be-yeah-rah')",
+        "quisiera = kee-SYEH-rah (sounds like 'kee-see-eh-rah')"
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "multiple-choice",
+      "question": "What is the past subjunctive of 'hablar' for 'yo' (-ra form)?",
+      "options": ["hablaba", "hablara", "hablare", "hablaria"],
+      "correct": 1,
+      "explanation": "Hablara = I spoke (past subjunctive). Take 'hablaron' (they spoke), remove -ron, add -a."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: 'Si yo ___ dinero, compraria un coche. (If I had money, I would buy a car.)'",
+      "correct": "tuviera",
+      "explanation": "Tuviera = I had (past subjunctive of tener). 'Si yo tuviera' = If I had."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Which is correct for 'I wish she had come'?",
+      "options": ["Ojalia ella viene", "Ojalia ella viniera", "Ojalia ella viene", "Ojalia ella vendria"],
+      "correct": 1,
+      "explanation": "'Ojalia ella viniera' = I wish she had come (past subjunctive). 'Ojalia' expresses a wish."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: 'Era importante que tu ___ la tarea. (It was important that you do the homework.)'",
+      "correct": "hicieras",
+      "explanation": "Hicieras = you do (past subjunctive of hacer). After 'era importante que', use subjunctive."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Which is correct for 'If I were rich, I would travel'?",
+      "options": ["Si soy rico, viajaria", "Si fuera rico, viajaria", "Si seria rico, viajaria", "Si fui rico, viajaria"],
+      "correct": 1,
+      "explanation": "'Si fuera rico, viajaria' uses past subjunctive 'fuera' after 'si' for unreal present condition."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: 'No crei que el ___ la respuesta. (I didn't think he knew the answer.)'",
+      "correct": "supiera",
+      "explanation": "Supiera = he knew (past subjunctive of saber). After 'no crei que', use subjunctive."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Which sentence uses past subjunctive correctly?",
+      "options": ["Quise que el viene", "Quise que el viniera", "Quiero que el viene", "Quiero que el viniera"],
+      "correct": 1,
+      "explanation": "'Quise que el viniera' uses past subjunctive 'viniera' after past tense 'quise'."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: 'Como si ___ verdad. (As if it were true.)'",
+      "correct": "fuera",
+      "explanation": "Fuera = it was (past subjunctive of ser). 'Como si fuera verdad' = As if it were true."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What is the -ra form of past subjunctive for 'ser/ir'?",
+      "options": ["era", "fue", "fuera", "seria"],
+      "correct": 2,
+      "explanation": "Fuera = I was/went (past subjunctive of ser/ir). Both verbs share the same subjunctive forms."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: 'Si ella lo ___ (preterite), me habria enterado. (If she had told me, I would have found out.)'",
+      "correct": "hubiera dicho",
+      "explanation": "Hubiera dicho = she had said (past perfect subjunctive). This structure expresses unreal past condition."
+    }
+  ]
+}

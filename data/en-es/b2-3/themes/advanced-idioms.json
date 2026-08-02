@@ -1,0 +1,163 @@
+{
+  "id": "advanced-idioms",
+  "title": "Advanced Idioms & Figurative Language",
+  "description": "B2-level idiomatic expressions, metaphors, and figurative language for natural, expressive communication.",
+  "vocabulary": [
+    { "id": 1, "target": "costar un ojo de la cara", "source": "to cost an arm and a leg", "gender": "—", "type": "idiom" },
+    { "id": 2, "target": "echar leña al fuego", "source": "to add fuel to the fire", "gender": "—", "type": "idiom" },
+    { "id": 3, "target": "meter el pie", "source": "to make a mistake / slip up", "gender": "—", "type": "idiom" },
+    { "id": 4, "target": "salir con la pata atrás", "source": "to come out on the short end", "gender": "—", "type": "idiom" },
+    { "id": 5, "target": "ponerse las pilas", "source": "to step up / get moving", "gender": "—", "type": "idiom" },
+    { "id": 6, "target": "llevarse las manos a la cabeza", "source": "to throw one's hands to one's head (in disbelief)", "gender": "—", "type": "idiom" },
+    { "id": 7, "target": "irse de las manos", "source": "to get out of hand", "gender": "—", "type": "idiom" },
+    { "id": 8, "target": "coger el toro por los cuernos", "source": "to take the bull by the horns", "gender": "—", "type": "idiom" },
+    { "id": 9, "target": "tener la última palabra", "source": "to have the last word", "gender": "—", "type": "idiom" },
+    { "id": 10, "target": "dar en el clavo", "source": "to hit the nail on the head", "gender": "—", "type": "idiom" },
+    { "id": 11, "target": "ir a la deriva", "source": "to drift / go nowhere", "gender": "—", "type": "idiom" },
+    { "id": 12, "target": "estar en la calle de la amargura", "source": "to be at the end of one's rope", "gender": "—", "type": "idiom" },
+    { "id": 13, "target": "hacer la vista gorda", "source": "to turn a blind eye", "gender": "—", "type": "idiom" },
+    { "id": 14, "target": "romper el hielo", "source": "to break the ice", "gender": "—", "type": "idiom" },
+    { "id": 15, "target": "perder el norte", "source": "to lose one's bearings", "gender": "—", "type": "idiom" },
+    { "id": 16, "target": "meter la pata", "source": "to mess up", "gender": "—", "type": "idiom" },
+    { "id": 17, "target": "estar en la mira", "source": "to be in the crosshairs / under scrutiny", "gender": "—", "type": "idiom" },
+    { "id": 18, "target": "sacar a relucir", "source": "to bring up / air", "gender": "—", "type": "idiom" },
+    { "id": 19, "target": "ponerse las cosas fáciles", "source": "to make things easy (for someone)", "gender": "—", "type": "idiom" },
+    { "id": 20, "target": "ir con pies de plomo", "source": "to tread carefully", "gender": "—", "type": "idiom" },
+    { "id": 21, "target": "caer en la cuenta", "source": "to realize", "gender": "—", "type": "idiom" },
+    { "id": 22, "target": "dar una mano", "source": "to lend a hand / help", "gender": "—", "type": "idiom" },
+    { "id": 23, "target": "tirar la toalla", "source": "to throw in the towel / give up", "gender": "—", "type": "idiom" },
+    { "id": 24, "target": "volver a la carga", "source": "to get back at it / renew effort", "gender": "—", "type": "idiom" },
+    { "id": 25, "target": "ponerse la camiseta", "source": "to give one's all / be fully committed", "gender": "—", "type": "idiom" },
+    { "id": 26, "target": "estar en la cuerda floja", "source": "to be on a tightrope / in a precarious situation", "gender": "—", "type": "idiom" },
+    { "id": 27, "target": "tener mucho carajo", "source": "to have a lot of energy / be lively", "gender": "—", "type": "idiom" },
+    { "id": 28, "target": "irse por los cerros de Úbeda", "source": "to go off on a tangent", "gender": "—", "type": "idiom" },
+    { "id": 29, "target": "meter el gato en el tarro", "source": "to let the cat out of the bag", "gender": "—", "type": "idiom" },
+    { "id": 30, "target": "no hay dos sin cuatro", "source": "there's no smoke without fire", "gender": "—", "type": "idiom" },
+    { "id": 31, "target": "a buen paso se llega lejos", "source": "slow and steady wins the race", "gender": "—", "type": "idiom" },
+    { "id": 32, "target": "donde hubo fuego, ceniza queda", "source": "where there's fire, ashes remain (old habits die hard)", "gender": "—", "type": "idiom" },
+    { "id": 33, "target": "la culpa es del pescado", "source": "the fish is always to blame (scapegoating)", "gender": "—", "type": "idiom" },
+    { "id": 34, "target": "ni fu ni fa", "source": "so-so / neither one way nor another", "gender": "—", "type": "idiom" },
+    { "id": 35, "target": "en serio y en broma", "source": "seriously and jokingly", "gender": "—", "type": "idiom" },
+    { "id": 36, "target": "a primera vista", "source": "at first sight", "gender": "—", "type": "idiom" },
+    { "id": 37, "target": "a partir de ahora", "source": "from now on", "gender": "—", "type": "idiom" },
+    { "id": 38, "target": "por las buenas o por las malas", "source": "by fair means or foul", "gender": "—", "type": "idiom" },
+    { "id": 39, "target": "de mala gana", "source": "reluctantly", "gender": "—", "type": "idiom" },
+    { "id": 40, "target": "con los ojos bien abiertos", "source": "with eyes wide open", "gender": "—", "type": "idiom" }
+  ],
+  "grammar": [
+    {
+      "title": "Metaphorical Language in Spanish",
+      "content": "Spanish uses rich metaphorical language that often differs from English metaphors. Understanding these helps with natural comprehension.\n\nCommon metaphorical patterns:\n- Body parts as actions: 'meter el pie' (step with foot = make mistake), 'dar en el clavo' (hit the nail = be precise)\n- Animals: 'coger el toro por los cuernos' (take bull by horns = face a problem directly)\n- Water: 'irse a la deriva' (go adrift = make no progress)\n- Fire: 'echar leña al fuego' (add wood to fire = make a situation worse)\n- Construction: 'romper el hielo' (break ice = start a conversation)\n\nKey differences from English:\n- 'Irse de las manos' (go out of hands = get out of hand) — similar to English\n- 'Tirar la toalla' (throw the towel) — same as English 'throw in the towel'\n- 'Estar en la cuerda floja' (be on the tightrope) — same as English 'on a tightrope'\n\nExamples:\n- 'Si sigues criticándolo, estás echando leña al fuego.'\n- 'Cuando me equivoqué, metí el pie.'\n- 'Hay que coger el toro por los cuernos y tomar una decisión.'",
+      "examples": [
+        "Si sigues preguntando, solo estás echando leña al fuego.",
+        "Cada vez que intento explicarle, meto el pie.",
+        "El proyecto se ha ido de las manos. Necesitamos poner orden.",
+        "No hay dos sin cuatro: si todos murmuraban, debe haber algo detrás."
+      ],
+      "aid_note": "Romanian metaphors are similar but not identical: 'a pune ulei în foc' (add oil to fire = add fuel to fire), 'a da cu piciorul' (kick with foot = make a mistake). The animal metaphor 'a prinde taurul de coarne' matches 'coger el toro por los cuernos' perfectly."
+    },
+    {
+      "title": "Idiomatic Expressions with Reflexive Verbs",
+      "content": "Many Spanish idioms use reflexive verbs, which makes them tricky for learners. These are fixed expressions that cannot be translated literally.\n\nKey idiomatic reflexive patterns:\n- Ponerse + noun/adjective: 'ponerse las pilas' (step up), 'ponerse la camiseta' (give one's all)\n- Meterse + preposition: 'meterse en problemas' (get into trouble)\n- Caerse + preposition: 'caerse de risa' (fall laughing = laugh a lot)\n- Llevarse + noun: 'llevarse las manos a la cabeza' (throw hands to head in disbelief)\n- Tirarse + preposition: 'tirarse a la piscina' (jump in the pool = take a risk)\n\nUsage:\n- 'Tienes que ponerte las pilas si quieres aprobar.'\n- 'Cuando recibió la noticia, se llevó las manos a la cabeza.'\n- 'Si no estudias, te vas a meter en problemas.'\n- 'El proyecto se fue de las manos y tuvimos que cancelarlo.'",
+      "examples": [
+        "Tiene que ponerse las pilas: no ha estudiado nada y el examen es mañana.",
+        "Se llevó las manos a la cabeza cuando vio la cuenta.",
+        "El debate se fue de las manos y tuvimos que pararlo.",
+        "Si sigues así, vas a tirar la toalla antes de tiempo."
+      ],
+      "aid_note": "Romanian reflexive idioms: 'a-și da cu piciorul' (kick with foot), 'a-și pune în gând' (put in mind). The reflexive construction is similar, but the specific idioms differ."
+    }
+  ],
+  "pronunciation": [
+    {
+      "title": "Idioms — Stress & Flow",
+      "content": "Idiomatic expressions in Spanish need natural flow and rhythm to sound authentic.\n\nKey pronunciation tips:\n- Link words smoothly: 'echar-le-ña-al-fue-go' (not e-char le nya al fue-go)\n- Reduce unstressed vowels: 'poner-se-las-pi-las' sounds like 'po-nar-las-pi-las'\n- Emphasize the action verb: 'ECHAR leña al fuego' not 'echar LE-ña al fue-go'\n\nIdiom pronunciation practice:\n- 'Cada vez que meto el pie, me arrepiento.'\n- 'Hay que coger el toro por los cuernos y actuar.'\n- 'Si no pones las pilas, vas a tirar la toalla.'\n- 'Cuando cayó en la cuenta, ya era tarde.'\n\nTip: Spanish idioms flow as single rhythmic units. Don't pause between words unless there's a comma or conjunction. The stress should fall naturally on the content words.",
+      "examples": [
+        { "target": "coger el toro por los cuernos", "source": "ko-HER el TO-ro por los CUER-nos" },
+        { "target": "ponerse las pilas", "source": "po-NAR-se las PI-las" },
+        { "target": "tirar la toalla", "source": "ti-RAR la to-YA-ya" }
+      ],
+      "aid_note": "Romanian idioms have similar rhythm but different stress patterns. Spanish flows more smoothly due to syllable-timed rhythm, while Romanian is more stress-timed."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "exercise",
+      "question": "What does 'costar un ojo de la cara' mean?",
+      "options": [
+        "To be very valuable",
+        "To cost an arm and a leg",
+        "To be worth looking at",
+        "To be priceless"
+      ],
+      "correct": 1,
+      "explanation": "'Costar un ojo de la cara' = to cost an arm and a leg — very expensive."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: 'Si sigues criticándolo, estás _____ _____ al fuego.' (If you keep criticizing, you're adding fuel to the fire.)",
+      "correct": "echando leña",
+      "explanation": "'Echar leña al fuego' = to add fuel to the fire. The gerund form is 'echando'."
+    },
+    {
+      "type": "matching",
+      "question": "Match the idiom to its meaning:",
+      "pairs": [
+        { "target": "coger el toro por los cuernos", "source": "to face a problem directly" },
+        { "target": "meter el pie", "source": "to make a mistake" },
+        { "target": "tirar la toalla", "source": "to give up" },
+        { "target": "romper el hielo", "source": "to break the ice" },
+        { "target": "caer en la cuenta", "source": "to realize" }
+      ],
+      "explanation": "These idioms are essential for natural Spanish communication."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: 'Tienes que _____ _____ las pilas si quieres aprobar.'",
+      "correct": "ponerse",
+      "explanation": "'Ponerse las pilas' = to step up / get moving. The reflexive pronoun 'se' becomes 'te' with 'tú'."
+    },
+    {
+      "type": "exercise",
+      "question": "What does 'ni fu ni fa' mean?",
+      "options": [
+        "Neither this nor that (so-so)",
+        "Not funny, not funny",
+        "Neither here nor there",
+        "Not fast, not slow"
+      ],
+      "correct": 0,
+      "explanation": "'Ni fu ni fa' = so-so / neither one way nor another. Used to express indifference or mediocrity."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: 'Cuando _____ en la cuenta, ya era tarde.' (When he realized, it was too late.)",
+      "correct": "cayó",
+      "explanation": "'Caer en la cuenta' = to realize. 'Cuando cayó en la cuenta' = When he realized."
+    },
+    {
+      "type": "exercise",
+      "question": "What does 'irse por los cerros de Úbeda' mean?",
+      "options": [
+        "To go for a hike",
+        "To go off on a tangent",
+        "To get lost",
+        "To travel to Spain"
+      ],
+      "correct": 1,
+      "explanation": "'Irse por los cerros de Úbeda' = to go off on a tangent. Úbeda is a town in Spain; the idiom refers to wandering away from the topic."
+    },
+    {
+      "type": "exercise",
+      "question": "What does 'a buen paso se llega lejos' mean?",
+      "options": [
+        "Fast and steady wins the race",
+        "Slow and steady wins the race",
+        "Good steps go far",
+        "Walk slowly, travel far"
+      ],
+      "correct": 1,
+      "explanation": "'A buen paso se llega lejos' = slow and steady wins the race. Taking a good, steady pace leads to lasting results."
+    }
+  ]
+}

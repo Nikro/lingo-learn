@@ -1,0 +1,116 @@
+{
+  "id": "relative-pronouns",
+  "title": "Relative Pronouns (Pronombres Relativos)",
+  "description": "Master the full range of relative pronouns: que, el cual, cuyo, donde, lo que/lo cual.",
+  "vocabulary": [
+    { "id": 1, "target": "el libro que leí", "source": "the book I read", "gender": "—", "type": "phrase" },
+    { "id": 2, "target": "la ciudad donde nací", "source": "the city where I was born", "gender": "—", "type": "phrase" },
+    { "id": 3, "target": "el artista cuyo trabajo", "source": "the artist whose work", "gender": "—", "type": "phrase" },
+    { "id": 4, "target": "la empresa en la cual", "source": "the company in which", "gender": "—", "type": "phrase" },
+    { "id": 5, "target": "lo que me dijo", "source": "what he told me", "gender": "—", "type": "phrase" },
+    { "id": 6, "target": "el parque", "source": "the park", "gender": "m.", "type": "noun" },
+    { "id": 7, "target": "los libros", "source": "the books", "gender": "m.", "type": "noun" },
+    { "id": 8, "target": "la verdad", "source": "the truth", "gender": "f.", "type": "noun" },
+    { "id": 9, "target": "el problema", "source": "the problem", "gender": "m.", "type": "noun" },
+    { "id": 10, "target": "la casa", "source": "the house", "gender": "f.", "type": "noun" },
+    { "id": 11, "target": "el niño", "source": "the child", "gender": "m.", "type": "noun" },
+    { "id": 12, "target": "el documento", "source": "the document", "gender": "m.", "type": "noun" },
+    { "id": 13, "target": "el escritor", "source": "the writer", "gender": "m.", "type": "noun" },
+    { "id": 14, "target": "los cuales", "source": "which (masc. pl.)", "gender": "—", "type": "pronoun" },
+    { "id": 15, "target": "las cuales", "source": "which (fem. pl.)", "gender": "—", "type": "pronoun" },
+    { "id": 16, "target": "cuyo / cuya", "source": "whose", "gender": "—", "type": "pronoun" },
+    { "id": 17, "target": "el cual", "source": "which (formal)", "gender": "m.", "type": "pronoun" },
+    { "id": 18, "target": "donde", "source": "where", "gender": "—", "type": "pronoun" },
+    { "id": 19, "target": "lo que", "source": "what / that which", "gender": "—", "type": "pronoun" },
+    { "id": 20, "target": "lo cual", "source": "which (referring to whole idea)", "gender": "—", "type": "pronoun" },
+    { "id": 21, "target": "que", "source": "that / which / who", "gender": "—", "type": "pronoun" },
+    { "id": 22, "target": "el profesor", "source": "the professor", "gender": "m.", "type": "noun" },
+    { "id": 23, "target": "la obra", "source": "the work / play", "gender": "f.", "type": "noun" },
+    { "id": 24, "target": "jugar", "source": "to play", "gender": "v.", "type": "verb" },
+    { "id": 25, "target": "de niños", "source": "as children", "gender": "—", "type": "phrase" },
+    { "id": 26, "target": "desaparecer", "source": "to disappear", "gender": "v.", "type": "verb" },
+    { "id": 27, "target": "nacer", "source": "to be born", "gender": "v.", "type": "verb" },
+    { "id": 28, "target": "trabajar", "source": "to work", "gender": "v.", "type": "verb" },
+    { "id": 29, "target": "leer", "source": "to read", "gender": "v.", "type": "verb" },
+    { "id": 30, "target": "decir", "source": "to say / to tell", "gender": "v.", "type": "verb" }
+  ],
+  "grammar": [
+    {
+      "title": "Relative Pronouns (Pronombres Relativos)",
+      "content": "Relative pronouns connect clauses and add information about a noun. At B1, you need to master the full range beyond just 'que'.\n\nKey relative pronouns:\n\n- **que** — most common, refers to people or things (the one that/who)\n- **el cual / la cual / los cuales / las cuales** — more formal, can follow prepositions, clarifies ambiguity\n- **cuyo / cuya / cuyos / cuyas** — possessive relative ('whose'), agrees with the THING possessed, not the person\n- **donde** — place ('where')\n- **lo que / lo cual** — refers to an entire preceding idea (not just a noun)\n\nUsage notes:\n- 'Cuyo' is used less frequently in speech but essential for formal writing\n- 'El cual' is preferred after prepositions with more than 2 syllables (con, según, tras, etc.)\n- 'Lo que' = 'the thing that' — it cannot refer to a specific noun",
+      "table": {
+        "headers": ["Pronoun", "Usage", "Example"],
+        "rows": [
+          ["que", "General (people/things)", "El libro que leí es bueno"],
+          ["el cual / la cual", "Formal, after prepositions", "La ciudad, en la cual nací, es pequeña"],
+          ["cuyo / cuya", "Possessive (whose)", "El artista cuyo trabajo exponemos"],
+          ["donde", "Place", "La casa donde crecí"],
+          ["lo que / lo cual", "Refers to whole idea", "No vino, lo cual me sorprendió"]
+        ]
+      },
+      "examples": [
+        "El profesor, cuyo libro leíste, es muy reconocido. (The professor, whose book you read, is very well-known.)",
+        "La empresa en la cual trabajo cerrará. (The company in which I work will close.)",
+        "Eso fue lo que me dijo. (That's what he told me.)",
+        "El parque donde jugábamos de niños ha desaparecido. (The park where we played as children has disappeared.)",
+        "Me dio los documentos, los cuales revisé con cuidado. (He gave me the documents, which I reviewed carefully.)"
+      ],
+      "aid_note": "Romanian has very similar relative pronouns: 'care' (that/who), 'al cual' (to whom), 'cărui/căruia' (whose). The Romanian 'al cărui' is the direct equivalent of 'cuyo'. The prepositional use of 'el cual' mirrors Romanian 'la care', 'în care', etc."
+    }
+  ],
+  "pronunciation": [
+    {
+      "title": "Stress in Relative Pronouns",
+      "content": "Relative pronouns are mostly unstressed or lightly stressed:\n- que: 'keh' — always unstressed, attaches to the preceding word\n- cuyo/cuya/cuyos/cuyas: 'KOO-yo/KOO-yah/KOO-yos/KOO-yahs' — stress on the first syllable\n- donde: 'DON-de' — stress on the first syllable (by default, ends in -e)\n- el cual / la cual: 'el KUAL / la KUAL' — stress on the second syllable\n- lo que: 'loh-keh' — both lightly stressed\n- lo cual: 'loh-KUAL' — stress on 'kual'\n\nThe accent marks in 'cuyo/cuya/cuyos/cuyas' are NOT present — these are naturally stressed on the first syllable because they end in -o/-a/-os/-as (default: 2nd-to-last).\n\nNote: 'quién' (who) and 'cuál' (which) have accent marks because they are interrogative/exclamatory relative pronouns, not declarative ones.",
+      "examples": [
+        { "target": "cuyo", "source": "KOO-yo (stress on first syllable)" },
+        { "target": "donde", "source": "DON-de (stress on first syllable)" },
+        { "target": "el cual", "source": "el KUAL (stress on cual)" },
+        { "target": "lo cual", "source": "loh KUAL (stress on cual)" },
+        { "target": "que", "source": "keh (unstressed)" }
+      ],
+      "aid_note": "Romanian relative pronouns are similarly unstressed: 'care', 'cărui'. The Spanish 'cuyo' is phonetically simpler than Romanian 'cărui'."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "fill-in-blank",
+      "question": "Complete with the correct relative pronoun: 'El artista ____ cuadro expusimos es famoso.'",
+      "correct": "cuyo",
+      "explanation": "'Cuyo' is the possessive relative pronoun ('whose'). It agrees with 'cuadro' (masc. singular), not with 'artista'."
+    },
+    {
+      "type": "exercise",
+      "question": "Which relative pronoun refers to a complete idea, not just a noun?",
+      "options": ["el cual", "lo que", "cuyo", "donde"],
+      "correct": 1,
+      "explanation": "'Lo que' (or 'lo cual') refers to an entire preceding clause/idea: 'No vino, lo cual me sorprendió'."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete with the correct relative pronoun: 'La ciudad ____ nací es muy bonita.'",
+      "correct": "donde",
+      "explanation": "'Donde' = 'where' (place). 'La ciudad donde nací' = The city where I was born."
+    },
+    {
+      "type": "exercise",
+      "question": "Which sentence uses 'cuyo' correctly?",
+      "options": ["El escritor cuyo libros son famosos vive aquí.", "El escritor cuyos libros son famosos vive aquí.", "El escritor cuyo libro son famosos vive aquí.", "El escritor cuyos libro son famosos vive aquí."],
+      "correct": 1,
+      "explanation": "'Cuyos' agrees in gender and number with the THING possessed ('libros' = masc. plural), not with the owner ('escritor')."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete with the correct relative pronoun: 'El problema ____ debemos resolver es complejo.'",
+      "correct": "que",
+      "explanation": "'Que' is the most common relative pronoun and is perfectly correct here: 'El problema que debemos resolver' = The problem that we must solve."
+    },
+    {
+      "type": "exercise",
+      "question": "Which relative pronoun is most formal and can follow prepositions?",
+      "options": ["que", "cuyo", "el cual", "donde"],
+      "correct": 2,
+      "explanation": "'El cual / la cual / los cuales / las cuales' is the formal relative pronoun, preferred after prepositions."
+    }
+  ]
+}

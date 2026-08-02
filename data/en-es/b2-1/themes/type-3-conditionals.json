@@ -1,0 +1,114 @@
+{
+  "id": "type-3-conditionals",
+  "title": "Type 3 Conditionals — Si + Pluperfect Subjunctive + Conditional Perfect",
+  "description": "Express hypothetical situations in the past that did NOT happen — regrets, missed opportunities, and alternate histories.",
+  "vocabulary": [
+    { "id": 1, "target": "si hubiera sabido", "source": "if I had known", "gender": "—", "type": "phrase" },
+    { "id": 2, "target": "habría preparado algo", "source": "I would have prepared something", "gender": "—", "type": "phrase" },
+    { "id": 3, "target": "si no hubiera llovido", "source": "if it hadn't rained", "gender": "—", "type": "phrase" },
+    { "id": 4, "target": "habríamos ido a la playa", "source": "we would have gone to the beach", "gender": "—", "type": "phrase" },
+    { "id": 5, "target": "habría aprobado el examen", "source": "I would have passed the exam", "gender": "—", "type": "phrase" },
+    { "id": 6, "target": "habríamos salido antes", "source": "we would have left earlier", "gender": "—", "type": "phrase" },
+    { "id": 7, "target": "no nos habríamos perdido el tren", "source": "we wouldn't have missed the train", "gender": "—", "type": "phrase" },
+    { "id": 8, "target": "habría venido si hubiera sabido", "source": "I would have come if I had known", "gender": "—", "type": "phrase" },
+    { "id": 9, "target": "habría pasado si no nos hubiéramos conocido", "source": "what would have happened if we hadn't met", "gender": "—", "type": "phrase" },
+    { "id": 10, "target": "me habría encantado", "source": "I would have loved", "gender": "—", "type": "phrase" },
+    { "id": 11, "target": "habías aceptado el trabajo", "source": "you had accepted the job", "gender": "—", "type": "phrase" },
+    { "id": 12, "target": "venir", "source": "to come", "gender": "v.", "type": "verb" },
+    { "id": 13, "target": "preparar", "source": "to prepare", "gender": "v.", "type": "verb" },
+    { "id": 14, "target": "llover", "source": "to rain", "gender": "v.", "type": "verb" },
+    { "id": 15, "target": "ir a la playa", "source": "to go to the beach", "gender": "—", "type": "phrase" },
+    { "id": 16, "target": "aprobar", "source": "to pass (a test)", "gender": "v.", "type": "verb" },
+    { "id": 17, "target": "salir", "source": "to leave / to go out", "gender": "v.", "type": "verb" },
+    { "id": 18, "target": "perder el tren", "source": "to miss the train", "gender": "—", "type": "phrase" },
+    { "id": 19, "target": "venir", "source": "to come", "gender": "v.", "type": "verb" },
+    { "id": 20, "target": "saber", "source": "to know (facts)", "gender": "v.", "type": "verb" },
+    { "id": 21, "target": "conocer", "source": "to meet / to get to know", "gender": "v.", "type": "verb" },
+    { "id": 22, "target": "encantar", "source": "to love / to delight", "gender": "v.", "type": "verb" },
+    { "id": 23, "target": "aceptar", "source": "to accept", "gender": "v.", "type": "verb" },
+    { "id": 24, "target": "estudiar", "source": "to study", "gender": "v.", "type": "verb" },
+    { "id": 25, "target": "haber", "source": "to have (auxiliary)", "gender": "v.", "type": "verb" },
+    { "id": 26, "target": "estar", "source": "to be (temporary)", "gender": "v.", "type": "verb" },
+    { "id": 27, "target": "tener", "source": "to have", "gender": "v.", "type": "verb" },
+    { "id": 28, "target": "ser", "source": "to be (permanent)", "gender": "v.", "type": "verb" },
+    { "id": 29, "target": "ir", "source": "to go", "gender": "v.", "type": "verb" },
+    { "id": 30, "target": "hacer", "source": "to do / to make", "gender": "v.", "type": "verb" }
+  ],
+  "grammar": [
+    {
+      "title": "Type 3 Conditionals — Si + Pluperfect Subjunctive + Conditional Perfect",
+      "content": "Type 3 conditionals express hypothetical situations in the PAST that did NOT happen — regrets, missed opportunities, and alternate histories. This is the most emotionally loaded conditional form in Spanish.\n\nStructure: Si + [pluperfect subjunctive = hubiera/hubiese + past participle], [conditional perfect = habría/habrías/... + past participle]\n\nThe pluperfect subjunctive is formed from the imperfect subjunctive of HABER + the past participle of the main verb.\nThe conditional perfect uses the conditional of HABER + the past participle.\n\nUses:\n- Expressing regret: Si hubiera estudiado más, habría aprobado el examen\n- Describing missed opportunities: Si hubiéramos salido antes, no nos habríamos perdido el tren\n- Speculating about the past: ¿Qué habría pasado si no nos hubiéramos conocido?\n\n⚠️ CRITICAL ERROR TO AVOID: Never put the conditional perfect after 'si'. 'Si habría sabido' is grammatically incorrect. The correct form is 'Si hubiera sabido'.",
+      "table": {
+        "headers": ["Clause", "Form", "Example"],
+        "rows": [
+          ["Condition (after 'si')", "Hubiera + participio", "Si hubiera sabido…"],
+          ["Result", "Habría + participio", "…habría venido"],
+          ["Full sentence", "Si + hubiera + PP, habría + PP", "Si hubiera llovido, habría quedado en casa"],
+          ["Reversed (no comma)", "Habría + PP si + hubiera + PP", "Habría venido si hubiera sabido que estabas"]
+        ]
+      },
+      "examples": [
+        "Si hubiera sabido que venías, habría preparado algo. (If I had known you were coming, I would have prepared something.)",
+        "Si no hubiera llovido, habríamos ido a la playa. (If it hadn't rained, we would have gone to the beach.)",
+        "¿Qué habría pasado si hubieras aceptado el trabajo? (What would have happened if you had accepted the job?)",
+        "Me habría encantado haber visto la obra de teatro. (I would have loved to have seen the play.)",
+        "Si hubiéramos salido antes, no nos habríamos perdido el vuelo. (If we had left earlier, we wouldn't have missed the flight.)"
+      ],
+      "aid_note": "Romanian Type 3: 'Dacă aș fi știut, aș fi venit' — the mapping is: 'dacă' = 'si', 'aș fi știut' = pluperfect subjunctive equivalent, 'aș fi venit' = conditional perfect. The Romanian 'să fi + participiu' and Spanish 'hubiera + participio' serve the same hypothetical past function."
+    }
+  ],
+  "pronunciation": [
+    {
+      "title": "Stress in Compound Conditionals",
+      "content": "Compound conditional forms have two stressed syllables:\n\n- hubiera sabido (oo-BYE-ra sa-BÍ-do) — stress on 'bie' and 'bi'\n- habría venido (ah-BRÍ-a be-NÍ-do) — stress on 'rí' and 'ni'\n- hubiéramos salido (oo-BYE-ra-mos sa-LÍ-do) — stress on 'ye' and 'li'\n\nThe 'hubiera' forms are always stressed on the 'ie': hu-BIE-ra\nThe 'habría' forms are always stressed on the 'rí': ha-BRÍ-a\n\nWhen both forms appear in the same sentence:\n'Si hubiera sabido, habría venido.' = si oo-BYE-ra sa-BÍ-do, ah-BRÍ-a be-NÍ-do\n\nCritical: Spanish 'hubiera' is pronounced 'oo-BYE-ra' (3 syllables), NOT 'oo-BEE-rah' as English speakers might assume. The 'ie' is a diphthong but the 'ra' at the end is a separate syllable.",
+      "examples": [
+        { "target": "hubiera sabido", "source": "oo-BYE-ra sa-BÍ-do (4 syllables)" },
+        { "target": "habría venido", "source": "ah-BRÍ-a be-NÍ-do (5 syllables)" },
+        { "target": "hubiéramos salido", "source": "oo-BYE-ra-mos sa-LÍ-do (6 syllables)" },
+        { "target": "hubieras aceptado", "source": "oo-BYE-raz ah-sep-TA-do (6 syllables)" }
+      ],
+      "aid_note": "Romanian 'aș fi știut' (aSH fi SHTIOOT) and 'aș fi venit' (aSH fi be-NIT) use two words where Spanish uses 'hubiera + participio'. The Romanian version is shorter in syllables but carries the same stress pattern."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "exercise",
+      "question": "Which sentence correctly uses Type 3 conditional structure?",
+      "options": ["Si habría sabido, habría venido.", "Si hubiera sabido, habría venido.", "Si he sabido, he venido.", "Si supe, vine."],
+      "correct": 1,
+      "explanation": "Type 3 conditionals: Si + hubiera + participio, habría + participio. 'Si hubiera sabido, habría venido.' Never use the conditional after 'si'."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: 'Si ____ (you) ____ (know), ____ (you) ____ (have come).' (If you had known, you would have come.)",
+      "correct": "hubieras sabido habrías venido",
+      "explanation": "'Hubieras sabido' — pluperfect subjunctive. 'Habrías venido' — conditional perfect."
+    },
+    {
+      "type": "exercise",
+      "question": "What is the pluperfect subjunctive of 'haber' for 'yo'?",
+      "options": ["había habido", "hubiera habido", "hubiese habido", "hubiera habido"],
+      "correct": 0,
+      "explanation": "'Hubiera habido' is the pluperfect subjunctive of haber (yo form). Both 'hubiera habido' and 'hubiese habido' are correct — the -ra and -se forms are interchangeable."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: 'Si ____ (we) ____ (have) más tiempo, ____ (we) ____ (would have traveled) más.' (If we had had more time, we would have traveled more.)",
+      "correct": "hubiéramos tenido habríamos viajado",
+      "explanation": "'Hubiéramos tenido' — pluperfect subjunctive of tener. 'Habríamos viajado' — conditional perfect of viajar."
+    },
+    {
+      "type": "exercise",
+      "question": "What does 'me habría encantado' mean?",
+      "options": ["I would love", "I would have loved", "I loved", "I will have loved"],
+      "correct": 1,
+      "explanation": "'Me habría encantado' = 'I would have loved' — conditional perfect of encantar. Used to express a missed opportunity: 'Me habría encantado verte.'"
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete the reversed Type 3 conditional: '____ (we) ____ (would have missed) el tren si ____ (we) ____ (had left) antes.'",
+      "correct": "no nos habríamos perdido hubiéramos salido",
+      "explanation": "'No nos habríamos perdido el tren si hubiéramos salido antes.' Reversed order (no comma needed). Conditional perfect + si + pluperfect subjunctive."
+    }
+  ]
+}

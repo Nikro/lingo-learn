@@ -1,0 +1,97 @@
+{
+  "id": "imperfect-vs-preterite",
+  "title": "Imperfect vs. Preterite",
+  "description": "Understand when to use the imperfect versus the preterite — the key decision point for Spanish past tenses.",
+  "vocabulary": [
+    { "id": 1, "target": "mientras", "source": "while", "gender": "—", "type": "conjunction" },
+    { "id": 2, "target": "de repente", "source": "suddenly", "gender": "—", "type": "adverb" },
+    { "id": 3, "target": "ayer", "source": "yesterday", "gender": "—", "type": "time" },
+    { "id": 4, "target": "la semana pasada", "source": "last week", "gender": "—", "type": "time" },
+    { "id": 5, "target": "cada verano", "source": "every summer", "gender": "—", "type": "time" },
+    { "id": 6, "target": "solía", "source": "used to (formal)", "gender": "v.", "type": "verb" },
+    { "id": 7, "target": "una vez", "source": "once / one time", "gender": "—", "type": "time" },
+    { "id": 8, "target": "el año pasado", "source": "last year", "gender": "m.", "type": "time" },
+    { "id": 9, "target": "en ese momento", "source": "at that moment", "gender": "—", "type": "time" },
+    { "id": 10, "target": "hacía sol", "source": "it was sunny", "gender": "—", "type": "phrase" },
+    { "id": 11, "target": "llovía", "source": "it was raining", "gender": "v.", "type": "verb" },
+    { "id": 12, "target": "sonó el teléfono", "source": "the phone rang", "gender": "—", "type": "phrase" },
+    { "id": 13, "target": "tenía 20 años", "source": "I was 20 years old", "gender": "—", "type": "phrase" },
+    { "id": 14, "target": "eran las tres", "source": "it was three o'clock", "gender": "—", "type": "phrase" },
+    { "id": 15, "target": "era feliz", "source": "I was happy", "gender": "—", "type": "phrase" },
+    { "id": 16, "target": "estaba cansado", "source": "I was tired", "gender": "—", "type": "phrase" },
+    { "id": 17, "target": "estaba lloviendo", "source": "it was raining", "gender": "—", "type": "phrase" },
+    { "id": 18, "target": "estudiaba", "source": "I was studying / used to study", "gender": "v.", "type": "verb" },
+    { "id": 19, "target": "trabajaba", "source": "I was working / used to work", "gender": "v.", "type": "verb" },
+    { "id": 20, "target": "viajábamos", "source": "we used to travel", "gender": "v.", "type": "verb" }
+  ],
+  "grammar": [
+    {
+      "title": "Imperfect vs. Preterite: When to Use Which",
+      "content": "This is the key decision point for A2.1 learners. The preterite (from A1.2) and imperfect both describe the past, but differently.\n\nUse IMPERFECT for:\n- Habitual/repeated actions: 'De niño, nadaba todos los días.' (As a kid, I swam every day.)\n- Ongoing background descriptions: 'Era una noche oscura y tormentosa.' (It was a dark and stormy night.)\n- Age, time, weather in the past: 'Tenía 20 años. Eran las tres. Llovía.' (I was 20. It was three o'clock. It was raining.)\n- Feelings and emotions in the past: 'Era feliz. Estaba cansado.' (I was happy. I was tired.)\n\nUse PRETERITE for:\n- Completed actions with a start/end: 'Ayer hablé con mi jefe.' (Yesterday I talked with my boss.)\n- A series of completed actions: 'Me levanté, me duché y salí.' (I got up, showered, and left.)\n- One-time specific past events: 'El año pasado fui a Italia.' (Last year I went to Italy.)",
+      "table": {
+        "headers": ["Context", "Imperfect", "Preterite"],
+        "rows": [
+          ["Repeated past action", "Cada verano viajábamos a Italia.", "Ayer viajamos a Italia."],
+          ["Background description", "Era alto y rubio.", "Fue alto y rubio (described him as such)"],
+          ["Specific time reference", "Solía llamar a las ocho.", "Llamó a las ocho."],
+          ["Age in the past", "Tenía 25 años.", "Tuve 25 años en 2020."],
+          ["Weather in the past", "Hacía sol.", "Hizo sol ayer."],
+          ["Interrupting action", "Mientras comía…", "De repente, sonó el teléfono."]
+        ]
+      },
+      "examples": [
+        "Cuando era niño, jugaba al fútbol. Todos los días. (When I was a child, I used to play soccer. Every day.)",
+        "Ayer jugué al fútbol. Ganamos 3-0. (Yesterday I played soccer. We won 3-0.)",
+        "Mientras ella cocinaba, él lavó los platos. (While she was cooking, he washed the dishes.)"
+      ],
+      "aid_note": "Romanian also distinguishes between imperfect and aorist/preterite, but the distinction is less strictly taught in modern usage. The key intuition: imperfect = 'used to do / was doing', preterite = 'did (once, completed)'. In Romanian: 'făceam' (imperfect) vs 'făcei' (aorist/preterite)."
+    }
+  ],
+  "pronunciation": [],
+  "exercises": [
+    {
+      "type": "exercise",
+      "question": "Which tense would you use for a repeated past action?",
+      "options": ["Preterite", "Imperfect", "Future", "Conditional"],
+      "correct": 1,
+      "explanation": "The imperfect is used for repeated/habitual past actions: 'Cada verano viajábamos a Italia.'"
+    },
+    {
+      "type": "exercise",
+      "question": "Which tense would you use for a one-time completed action?",
+      "options": ["Imperfect", "Preterite", "Present perfect", "Conditional"],
+      "correct": 1,
+      "explanation": "The preterite is used for completed actions: 'Ayer viajamos a Italia.'"
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: 'De niño, yo ____ (leer) muchos libros.' (As a child, I used to read many books.)",
+      "correct": "leía",
+      "explanation": "'Leía' — imperfect for a repeated/habitual childhood action."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: 'Ayer ____ (yo) ____ (ir) al cine.' (Yesterday I went to the cinema.)",
+      "correct": "fui",
+      "explanation": "'Fui' — preterite of ir for a one-time completed action."
+    },
+    {
+      "type": "exercise",
+      "question": "Which sentence pairs the imperfect and preterite correctly?",
+      "options": [
+        "Mientras llovía, sonó el teléfono.",
+        "Mientras llovía, estaba sonando el teléfono.",
+        "Llovía, mientras sonó el teléfono.",
+        "Llovía, sonaba el teléfono."
+      ],
+      "correct": 0,
+      "explanation": "'Mientras llovía (imperfect/background), sonó el teléfono (preterite/interrupting action).' This is the classic imperfect + preterite combination."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: 'Eran las ____ (three). ____ (It was) una noche oscura.'",
+      "correct": "tres Hacía",
+      "explanation": "'Eran las tres' (time uses imperfect of ser) and 'Hacía' (weather description uses imperfect of hacer). Both are background descriptions."
+    }
+  ]
+}

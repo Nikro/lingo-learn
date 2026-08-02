@@ -1,0 +1,116 @@
+{
+  "id": "future-regular",
+  "title": "Simple Future — Regular Conjugation",
+  "description": "Add future endings to the full infinitive to express actions that will happen.",
+  "vocabulary": [
+    { "id": 1, "target": "el futuro", "source": "the future", "gender": "m.", "type": "noun" },
+    { "id": 2, "target": "el plan", "source": "the plan", "gender": "m.", "type": "noun" },
+    { "id": 3, "target": "el sueño", "source": "the dream", "gender": "m.", "type": "noun" },
+    { "id": 4, "target": "la previsión", "source": "the forecast", "gender": "f.", "type": "noun" },
+    { "id": 5, "target": "el medio ambiente", "source": "the environment", "gender": "m.", "type": "noun" },
+    { "id": 6, "target": "el planeta", "source": "the planet", "gender": "m.", "type": "noun" },
+    { "id": 7, "target": "la contaminación", "source": "pollution", "gender": "f.", "type": "noun" },
+    { "id": 8, "target": "el reciclaje", "source": "recycling", "gender": "m.", "type": "noun" },
+    { "id": 9, "target": "la energía solar", "source": "solar energy", "gender": "f.", "type": "noun" },
+    { "id": 10, "target": "el cambio climático", "source": "climate change", "gender": "m.", "type": "noun" },
+    { "id": 11, "target": "viajar", "source": "to travel", "gender": "v.", "type": "verb" },
+    { "id": 12, "target": "comprar", "source": "to buy", "gender": "v.", "type": "verb" },
+    { "id": 13, "target": "vivir", "source": "to live", "gender": "v.", "type": "verb" },
+    { "id": 14, "target": "estudiar", "source": "to study", "gender": "v.", "type": "verb" },
+    { "id": 15, "target": "trabajar", "source": "to work", "gender": "v.", "type": "verb" },
+    { "id": 16, "target": "llover", "source": "to rain", "gender": "v.", "type": "verb" },
+    { "id": 17, "target": "proteger", "source": "to protect", "gender": "v.", "type": "verb" },
+    { "id": 18, "target": "reciclar", "source": "to recycle", "gender": "v.", "type": "verb" },
+    { "id": 19, "target": "enviar", "source": "to send", "gender": "v.", "type": "verb" },
+    { "id": 20, "target": "recibir", "source": "to receive", "gender": "v.", "type": "verb" },
+    { "id": 21, "target": "mañana", "source": "tomorrow", "gender": "—", "type": "time" },
+    { "id": 22, "target": "pronto", "source": "soon", "gender": "—", "type": "time" },
+    { "id": 23, "target": "después", "source": "later / after", "gender": "—", "type": "time" },
+    { "id": 24, "target": "dentro de...", "source": "within... (time)", "gender": "—", "type": "time" },
+    { "id": 25, "target": "en un futuro", "source": "in the future", "gender": "—", "type": "time" },
+    { "id": 26, "target": "el año que viene", "source": "next year", "gender": "—", "type": "time" },
+    { "id": 27, "target": "el próximo año", "source": "next year", "gender": "m.", "type": "time" },
+    { "id": 28, "target": "la semana próxima", "source": "next week", "gender": "f.", "type": "time" },
+    { "id": 29, "target": "posiblemente", "source": "possibly", "gender": "—", "type": "adverb" },
+    { "id": 30, "target": "probablemente", "source": "probably", "gender": "—", "type": "adverb" }
+  ],
+  "grammar": [
+    {
+      "title": "Simple Future (Futuro Simple) — Regular Conjugation",
+      "content": "The future tense expresses actions that will happen, predictions, and promises. Unlike English, Spanish future tense keeps the FULL infinitive as the stem and adds the endings directly — so -AR, -ER, and -IR verbs share the same set of endings.\n\nFuture endings (add to the full infinitive):\n- yo: -é\n- tú: -ás\n- él/ella/usted: -á\n- nosotros: -emos\n- vosotros: -éis\n- ellos/ellas/ustedes: -án\n\nExamples:\n- hablar → hablaré, hablarás, hablará, hablaremos, hablaréis, hablarán\n- comer → comeré, comerás, comerá, comeremos, comeréis, comerán\n- vivir → viviré, vivirás, vivirá, viviremos, viviréis, vivirán",
+      "table": {
+        "headers": ["Pronoun", "-AR (hablar)", "-ER (comer)", "-IR (vivir)"],
+        "rows": [
+          ["yo", "hablaré", "comeré", "viviré"],
+          ["tú", "hablarás", "comerás", "vivirás"],
+          ["él/ella/usted", "hablará", "comerá", "vivirá"],
+          ["nosotros", "hablaremos", "comeremos", "viviremos"],
+          ["vosotros", "hablaréis", "comeréis", "viviréis"],
+          ["ellos/ellas/ustedes", "hablarán", "comerán", "vivirán"]
+        ]
+      },
+      "examples": [
+        "El año que viene viajaré a España. (Next year I will travel to Spain.)",
+        "Mañana compraré pan en la panadería. (Tomorrow I will buy bread at the bakery.)",
+        "Creo que lloverá mañana. (I think it will rain tomorrow.)",
+        "¿Vivirás aquí mucho tiempo? (Will you live here for a long time?)"
+      ],
+      "aid_note": "Romanian future is built with 'voi/vi/va/vom/veti/va' + infinitive: 'voi vorbi' (I will speak). Spanish is actually simpler — you just add one set of endings to the infinitive, no separate helper verb needed. The Spanish future is one word where Romanian needs two."
+    }
+  ],
+  "pronunciation": [
+    {
+      "title": "Stress in Future Endings",
+      "content": "Future tense endings all carry the stress on the ending itself:\n- yo: -é (always accented)\n- tú: -ás (always accented)\n- él/ella/usted: -á (always accented)\n- nosotros: -emos (no accent — stress on the second-to-last syllable)\n- vosotros: -éis (always accented)\n- ellos/ellas/ustedes: -án (always accented)\n\nThe nosotros form has no accent because the stress naturally falls on the second-to-last syllable, which is the default rule.",
+      "examples": [
+        { "target": "hablaré", "source": "ha-blar-É (stress on ending)" },
+        { "target": "comerás", "source": "co-me-RÁS (stress on ending)" },
+        { "target": "viviremos", "source": "vi-vi-re-MOS (stress on second-to-last, no accent)" },
+        { "target": "hablarán", "source": "ha-blar-ÁN (stress on ending)" }
+      ],
+      "aid_note": "Romanian future and conditional both place stress on the ending particle. Spanish conjugations naturally place stress on the ending too, so the rhythmic feel is similar."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "exercise",
+      "question": "What is the future form of 'hablar' for 'yo'?",
+      "options": ["hablaré", "hablará", "hablo", "hablarías"],
+      "correct": 0,
+      "explanation": "'Hablaré' is the yo form of hablar in the future tense. The ending -é marks first-person singular future."
+    },
+    {
+      "type": "exercise",
+      "question": "Which ending is the future 'tú' form?",
+      "options": ["-é", "-ás", "-á", "-án"],
+      "correct": 1,
+      "explanation": "'-ás' is the tú ending in the future tense: hablarás, comerás, vivirás."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: 'El año que viene yo ____ (viajar) a México.' (Next year I will travel to Mexico.)",
+      "correct": "viajaré",
+      "explanation": "'Viajaré' — add -é (yo future ending) to the infinitive viajar."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: 'Mañana compraré ____ (bread) en la panadería.'",
+      "correct": "pan",
+      "explanation": "'Pan' = bread. 'Mañana compraré pan' = Tomorrow I will buy bread."
+    },
+    {
+      "type": "conjugation-matrix",
+      "question": "Complete the future tense conjugation table for the regular verb VIVIR:",
+      "verb": "VIVIR",
+      "tenses": ["future"],
+      "explanation": "Future tense adds endings directly to the full infinitive: viviré, vivirás, vivirá, viviremos, viviréis, vivirán."
+    },
+    {
+      "type": "exercise",
+      "question": "Which sentence uses the future tense correctly?",
+      "options": ["Ayer iré al cine.", "Mañana iré al cine.", "Iría al cine ayer.", "Hoy iré al cine mañana."],
+      "correct": 1,
+      "explanation": "'Mañana iré al cine' correctly uses the future tense with a future time marker (mañana = tomorrow)."
+    }
+  ]
+}

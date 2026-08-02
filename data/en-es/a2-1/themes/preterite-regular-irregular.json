@@ -1,0 +1,217 @@
+{
+  "id": "preterite-regular-irregular",
+  "level": "a2-1",
+  "title": "Preterite Tense Regular and Irregular",
+  "description": "Learn to conjugate regular and irregular verbs in the preterite tense for completed past actions.",
+  "vocabulary": [
+    {"id": 1, "target": "hablar", "source": "to speak", "gender": "v", "type": "verb"},
+    {"id": 2, "target": "comer", "source": "to eat", "gender": "v", "type": "verb"},
+    {"id": 3, "target": "vivir", "source": "to live", "gender": "v", "type": "verb"},
+    {"id": 4, "target": "trabajar", "source": "to work", "gender": "v", "type": "verb"},
+    {"id": 5, "target": "estudiar", "source": "to study", "gender": "v", "type": "verb"},
+    {"id": 6, "target": "comprar", "source": "to buy", "gender": "v", "type": "verb"},
+    {"id": 7, "target": "vender", "source": "to sell", "gender": "v", "type": "verb"},
+    {"id": 8, "target": "caminar", "source": "to walk", "gender": "v", "type": "verb"},
+    {"id": 9, "target": "cantar", "source": "to sing", "gender": "v", "type": "verb"},
+    {"id": 10, "target": "bailar", "source": "to dance", "gender": "v", "type": "verb"},
+    {"id": 11, "target": "necesitar", "source": "to need", "gender": "v", "type": "verb"},
+    {"id": 12, "target": "querer", "source": "to want", "gender": "v", "type": "verb"},
+    {"id": 13, "target": "poder", "source": "to be able", "gender": "v", "type": "verb"},
+    {"id": 14, "target": "saber", "source": "to know", "gender": "v", "type": "verb"},
+    {"id": 15, "target": "conocer", "source": "to know", "gender": "v", "type": "verb"},
+    {"id": 16, "target": "traer", "source": "to bring", "gender": "v", "type": "verb"},
+    {"id": 17, "target": "hacer", "source": "to do/make", "gender": "v", "type": "verb"},
+    {"id": 18, "target": "ir", "source": "to go", "gender": "v", "type": "verb"},
+    {"id": 19, "target": "ser", "source": "to be", "gender": "v", "type": "verb"},
+    {"id": 20, "target": "estar", "source": "to be", "gender": "v", "type": "verb"},
+    {"id": 21, "target": "tener", "source": "to have", "gender": "v", "type": "verb"},
+    {"id": 22, "target": "venir", "source": "to come", "gender": "v", "type": "verb"},
+    {"id": 23, "target": "decir", "source": "to say", "gender": "v", "type": "verb"},
+    {"id": 24, "target": "ver", "source": "to see", "gender": "v", "type": "verb"},
+    {"id": 25, "target": "dar", "source": "to give", "gender": "v", "type": "verb"},
+    {"id": 26, "target": "ayer", "source": "yesterday", "gender": "adv", "type": "time"},
+    {"id": 27, "target": "anoche", "source": "last night", "gender": "adv", "type": "time"},
+    {"id": 28, "target": "la semana pasada", "source": "last week", "gender": "f", "type": "time"},
+    {"id": 29, "target": "el mes pasado", "source": "last month", "gender": "m", "type": "time"},
+    {"id": 30, "target": "el ano pasado", "source": "last year", "gender": "m", "type": "time"},
+    {"id": 31, "target": "hace dos dias", "source": "two days ago", "gender": "m", "type": "time"},
+    {"id": 32, "target": "el lunes", "source": "Monday", "gender": "m", "type": "day"},
+    {"id": 33, "target": "el martes", "source": "Tuesday", "gender": "m", "type": "day"},
+    {"id": 34, "target": "el miercoles", "source": "Wednesday", "gender": "m", "type": "day"},
+    {"id": 35, "target": "el jueves", "source": "Thursday", "gender": "m", "type": "day"},
+    {"id": 36, "target": "el viernes", "source": "Friday", "gender": "m", "type": "day"},
+    {"id": 37, "target": "el sabado", "source": "Saturday", "gender": "m", "type": "day"},
+    {"id": 38, "target": "el domingo", "source": "Sunday", "gender": "m", "type": "day"},
+    {"id": 39, "target": "primero", "source": "first", "gender": "adj", "type": "ordinal"},
+    {"id": 40, "target": "despues", "source": "after", "gender": "adv", "type": "time"},
+    {"id": 41, "target": "luego", "source": "then/later", "gender": "adv", "type": "time"},
+    {"id": 42, "target": "finalmente", "source": "finally", "gender": "adv", "type": "time"},
+    {"id": 43, "target": "por fin", "source": "finally", "gender": "m", "type": "phrase"},
+    {"id": 44, "target": "de repente", "source": "suddenly", "gender": "adv", "type": "time"},
+    {"id": 45, "target": "el viaje", "source": "the trip", "gender": "m", "type": "noun"},
+    {"id": 46, "target": "la fiesta", "source": "the party", "gender": "f", "type": "noun"},
+    {"id": 47, "target": "el trabajo", "source": "the work", "gender": "m", "type": "noun"},
+    {"id": 48, "target": "la comida", "source": "the meal/food", "gender": "f", "type": "noun"},
+    {"id": 49, "target": "la cena", "source": "the dinner", "gender": "f", "type": "noun"},
+    {"id": 50, "target": "el desayuno", "source": "the breakfast", "gender": "m", "type": "noun"},
+    {"id": 51, "target": "el libro", "source": "the book", "gender": "m", "type": "noun"},
+    {"id": 52, "target": "la carta", "source": "the letter", "gender": "f", "type": "noun"},
+    {"id": 53, "target": "el mensaje", "source": "the message", "gender": "m", "type": "noun"},
+    {"id": 54, "target": "la llamada", "source": "the call", "gender": "f", "type": "noun"},
+    {"id": 55, "target": "el examen", "source": "the exam", "gender": "m", "type": "noun"},
+    {"id": 56, "target": "la fiesta de cumpleanos", "source": "the birthday party", "gender": "f", "type": "noun"},
+    {"id": 57, "target": "la reunion", "source": "the meeting", "gender": "f", "type": "noun"},
+    {"id": 58, "target": "la conferencia", "source": "the lecture", "gender": "f", "type": "noun"},
+    {"id": 59, "target": "el partido", "source": "the game/match", "gender": "m", "type": "noun"},
+    {"id": 60, "target": "el concierto", "source": "the concert", "gender": "m", "type": "noun"},
+    {"id": 61, "target": "el accidente", "source": "the accident", "gender": "m", "type": "noun"},
+    {"id": 62, "target": "la historia", "source": "the story", "gender": "f", "type": "noun"},
+    {"id": 63, "target": "el dinero", "source": "the money", "gender": "m", "type": "noun"},
+    {"id": 64, "target": "la casa", "source": "the house", "gender": "f", "type": "noun"},
+    {"id": 65, "target": "el coche", "source": "the car", "gender": "m", "type": "noun"},
+    {"id": 66, "target": "la ciudad", "source": "the city", "gender": "f", "type": "noun"},
+    {"id": 67, "target": "el pais", "source": "the country", "gender": "m", "type": "noun"},
+    {"id": 68, "target": "la frontera", "source": "the border", "gender": "f", "type": "noun"},
+    {"id": 69, "target": "el aeropuerto", "source": "the airport", "gender": "m", "type": "noun"},
+    {"id": 70, "target": "la estacion", "source": "the station", "gender": "f", "type": "noun"},
+    {"id": 71, "target": "el hotel", "source": "the hotel", "gender": "m", "type": "noun"},
+    {"id": 72, "target": "el restaurante", "source": "the restaurant", "gender": "m", "type": "noun"},
+    {"id": 73, "target": "el museo", "source": "the museum", "gender": "m", "type": "noun"},
+    {"id": 74, "target": "la playa", "source": "the beach", "gender": "f", "type": "noun"},
+    {"id": 75, "target": "la montana", "source": "the mountain", "gender": "f", "type": "noun"},
+    {"id": 76, "target": "el campo", "source": "the countryside", "gender": "m", "type": "noun"},
+    {"id": 77, "target": "el cine", "source": "the cinema", "gender": "m", "type": "noun"},
+    {"id": 78, "target": "el teatro", "source": "the theater", "gender": "m", "type": "noun"},
+    {"id": 79, "target": "la tienda", "source": "the store", "gender": "f", "type": "noun"},
+    {"id": 80, "target": "el supermercado", "source": "the supermarket", "gender": "m", "type": "noun"},
+    {"id": 81, "target": "el banco", "source": "the bank", "gender": "m", "type": "noun"},
+    {"id": 82, "target": "la oficina", "source": "the office", "gender": "f", "type": "noun"},
+    {"id": 83, "target": "la escuela", "source": "the school", "gender": "f", "type": "noun"},
+    {"id": 84, "target": "la biblioteca", "source": "the library", "gender": "f", "type": "noun"},
+    {"id": 85, "target": "el hospital", "source": "the hospital", "gender": "m", "type": "noun"},
+    {"id": 86, "target": "la farmacia", "source": "the pharmacy", "gender": "f", "type": "noun"},
+    {"id": 87, "target": "la iglesia", "source": "the church", "gender": "f", "type": "noun"},
+    {"id": 88, "target": "el parque", "source": "the park", "gender": "m", "type": "noun"},
+    {"id": 89, "target": "el jardin", "source": "the garden", "gender": "m", "type": "noun"},
+    {"id": 90, "target": "la plaza", "source": "the square/plaza", "gender": "f", "type": "noun"},
+    {"id": 91, "target": "la calle", "source": "the street", "gender": "f", "type": "noun"},
+    {"id": 92, "target": "la avenida", "source": "the avenue", "gender": "f", "type": "noun"},
+    {"id": 93, "target": "el puente", "source": "the bridge", "gender": "m", "type": "noun"},
+    {"id": 94, "target": "el rio", "source": "the river", "gender": "m", "type": "noun"},
+    {"id": 95, "target": "el lago", "source": "the lake", "gender": "m", "type": "noun"},
+    {"id": 96, "target": "el mar", "source": "the sea", "gender": "m", "type": "noun"},
+    {"id": 97, "target": "el oceano", "source": "the ocean", "gender": "m", "type": "noun"},
+    {"id": 98, "target": "la isla", "source": "the island", "gender": "f", "type": "noun"},
+    {"id": 99, "target": "el bosque", "source": "the forest", "gender": "m", "type": "noun"},
+    {"id": 100, "target": "el desierto", "source": "the desert", "gender": "m", "type": "noun"}
+  ],
+  "grammar": [
+    {
+      "title": "Regular Preterite Conjugations",
+      "content": "Regular preterite forms:\n\n-AR verbs: -e, -aste, -o, -amos, -asteis, -aron\n\nHablar:\nHablE (I spoke)\nHablamos (We spoke)\n\n-er/-IR verbs: -i, -iste, -io, -imos, -isteis, -ieron\n\nComer:\nComI (I ate)\nComiste (You ate)\nComIO (He/She ate)\nComimos (We ate)\nComisteis (You all ate)\nComieron (They ate)",
+      "examples": [
+        "Ayer hable con Maria. (Yesterday I spoke with Maria.)",
+        "La semana pasada comi en ese restaurante. (Last week I ate at that restaurant.)",
+        "Ellos vivieron en Barcelona por dos anos. (They lived in Barcelona for two years.)"
+      ]
+    },
+    {
+      "title": "Irregular Preterite Verbs",
+      "content": "Irregular preterite verbs (no accent marks on endings):\n\nSer/Ir: fui, fuiste, fue, fuimos, fuisteis, fueron\n\nTener: tube, tuviste, tuvo, tuvimos, tuvisteis, tuvieron\n\nHacer: hice, hiciste, hizo, hicimos, hicisteis, hicieron\n\nVenir: vine, viniste, vino, vinimos, vinisteis, vinieron\n\nPoder: pude, pudiste, pudo, pudimos, pudisteis, pudieron\n\nQuerer: quise, quisiste, quiso, quisimos, quisisteis, quisieron\n\nSaber: supe, supiste, supo, supimos, supisteis, supieron\n\nDecir: dije, dijiste, dijo, dijimos, dijisteis, dijeron",
+      "examples": [
+        "Fui al cine ayer. (I went to the cinema yesterday.)",
+        "Tuve un buen dia. (I had a good day.)",
+        "Hice la tarea. (I did the homework.)",
+        "Vino a la fiesta. (He/She came to the party.)"
+      ]
+    },
+    {
+      "title": "Uses of Preterite",
+      "content": "When to use preterite:\n\n1. COMPLETED actions in the past:\nAyer compre un libro. (Yesterday I bought a book.)\n\n2. Specific NUMBER of times:\nTe llame tres veces. (I called you three times.)\n\n3. BEGINNING or END of action:\nEmpezo a llover. (It started to rain.)\nTermino el examen. (He finished the exam.)\n\n4. Sequence of completed actions:\nMe leve, me duche, vesti y sali. (I got up, showered, got dressed and left.)\n\n5. Specific time or date:\nNaci en 1995. (I was born in 1995.)",
+      "examples": [
+        "Ayer compre un libro nuevo. (Yesterday I bought a new book.)",
+        "La semana pasada visite a mis padres. (Last week I visited my parents.)",
+        "Naci en Madrid en 1990. (I was born in Madrid in 1990.)",
+        "Primero llegue, despues comi, luego me fui. (First I arrived, then I ate, later I left.)"
+      ]
+    }
+  ],
+  "pronunciation": [
+    {
+      "title": "Preterite Pronunciation",
+      "content": "Regular preterite endings:\n\n-AR: -e (eh), -aste (ahs-teh), -o (oh), -amos (ah-mohs), -asteis (ahs-tays), -aron (ah-rohn)\n\n-er/-IR: -i (ee), -iste (ees-teh), -io (ee-oh), -imos (ee-mohs), -isteis (ees-tays), -ieron (ee-eh-rohn)\n\nIrregulars (all without accents):\n\nfui (fwee)\nfue (fweh)\ntube (toobeh)\nhice (eeseh)\nvine (veeneh)\ndije (deehmeh)",
+      "examples": [
+        "hable = ah-BLEH (sounds like 'bleh')\ncomi = koh-MEE (sounds like 'me')",
+        "fue = fweh (like 'foo-eh')\ntube = TOO-beh (sounds like 'toob')",
+        "vine = BEE-neh\ndije = DEE-heh"
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "multiple-choice",
+      "question": "What is the preterite of 'hablar' for 'yo'?",
+      "options": ["hablaba", "hablE", "hablo", "hablare"],
+      "correct": 1,
+      "explanation": "Preterite yo of hablar is 'hablE' (accent on E). Imperfect would be 'hablaba'."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: 'Ayer ___ al supermercado. (Yesterday I went to the supermarket.)'",
+      "correct": "fui",
+      "explanation": "Fui = I went (preterite of ir). This is the same as ser in preterite."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Which is the preterite of 'tener'?",
+      "options": ["tenia", "tengo", "tube", "tendre"],
+      "correct": 2,
+      "explanation": "Tube = I had (preterite). Tenia = I had (imperfect). Tengo = I have (present)."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: 'La semana pasada ___ la tarea. (Last week I did the homework.)'",
+      "correct": "hice",
+      "explanation": "Hice = I did (preterite of hacer). 'La semana pasada' indicates a completed past action."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Which is correct for 'They lived in Madrid'?",
+      "options": ["Ellos vivian en Madrid", "Ellos vivieron en Madrid", "Ellos vivir en Madrid", "Ellos viven en Madrid"],
+      "correct": 1,
+      "explanation": "Vivieron = they lived (preterite). Vivian = they lived (imperfect)."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: '___ tres libros la semana pasada. (I bought three books last week.)'",
+      "correct": "Compre",
+      "explanation": "Compre = I bought (preterite of comprar). Preterite is used for specific number of items."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What is the preterite of 'ser' for 'ella'?",
+      "options": ["era", "fue", "es", "sera"],
+      "correct": 1,
+      "explanation": "Fue = she/he was (preterite of ser). Era = was (imperfect)."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: 'Yo le ___ la verdad. (I told her the truth.)'",
+      "correct": "dije",
+      "explanation": "Dije = I said/told (preterite of decir). Note the 'j' in the stem."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Which is correct: 'I came, I saw, I conquered'?",
+      "options": ["Vine, via, venci", "Venia, veia,vencia", "Vine, vi, venci", "Vengo, veo, venzo"],
+      "correct": 2,
+      "explanation": "Vine, vi, venci = I came, I saw, I conquered (famous Caesar quote). Preterite throughout."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: 'Cuando ___ tu? (When were you born?)'",
+      "correct": "naciste",
+      "explanation": "Naciste = you were born (preterite of nacer). 'Cuando naciste' = When were you born?"
+    }
+  ]
+}

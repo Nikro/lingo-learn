@@ -1,0 +1,1462 @@
+{
+  "id": "clothing-appearance",
+  "level": "a1-1",
+  "title": "Clothing & Appearance",
+  "description": "Learn to describe what people are wearing, talk about physical appearance, express size and age, and identify clothing items and accessories in Spanish.",
+  "vocabulary": [
+    {
+      "id": 1,
+      "target": "la camisa",
+      "source": "shirt",
+      "gender": "f",
+      "type": "clothing"
+    },
+    {
+      "id": 2,
+      "target": "la camiseta",
+      "source": "t-shirt",
+      "gender": "f",
+      "type": "clothing"
+    },
+    {
+      "id": 3,
+      "target": "los pantalones",
+      "source": "pants/trousers",
+      "gender": "m",
+      "type": "clothing"
+    },
+    {
+      "id": 4,
+      "target": "el pantalón",
+      "source": "trouser (singular)",
+      "gender": "m",
+      "type": "clothing"
+    },
+    {
+      "id": 5,
+      "target": "el vestido",
+      "source": "dress",
+      "gender": "m",
+      "type": "clothing"
+    },
+    {
+      "id": 6,
+      "target": "la falda",
+      "source": "skirt",
+      "gender": "f",
+      "type": "clothing"
+    },
+    {
+      "id": 7,
+      "target": "las faldas",
+      "source": "skirts",
+      "gender": "f",
+      "type": "clothing"
+    },
+    {
+      "id": 8,
+      "target": "los zapatos",
+      "source": "shoes",
+      "gender": "m",
+      "type": "clothing"
+    },
+    {
+      "id": 9,
+      "target": "el zapato",
+      "source": "shoe",
+      "gender": "m",
+      "type": "clothing"
+    },
+    {
+      "id": 10,
+      "target": "las sandalias",
+      "source": "sandals",
+      "gender": "f",
+      "type": "clothing"
+    },
+    {
+      "id": 11,
+      "target": "las botas",
+      "source": "boots",
+      "gender": "f",
+      "type": "clothing"
+    },
+    {
+      "id": 12,
+      "target": "las zapatillas",
+      "source": "sneakers/trainers",
+      "gender": "f",
+      "type": "clothing"
+    },
+    {
+      "id": 13,
+      "target": "las medias",
+      "source": "socks/tights",
+      "gender": "f",
+      "type": "clothing"
+    },
+    {
+      "id": 14,
+      "target": "el calcetín",
+      "source": "sock",
+      "gender": "m",
+      "type": "clothing"
+    },
+    {
+      "id": 15,
+      "target": "los calcetines",
+      "source": "socks",
+      "gender": "m",
+      "type": "clothing"
+    },
+    {
+      "id": 16,
+      "target": "la chaqueta",
+      "source": "jacket",
+      "gender": "f",
+      "type": "clothing"
+    },
+    {
+      "id": 17,
+      "target": "el abrigo",
+      "source": "coat",
+      "gender": "m",
+      "type": "clothing"
+    },
+    {
+      "id": 18,
+      "target": "el suéter",
+      "source": "sweater",
+      "gender": "m",
+      "type": "clothing"
+    },
+    {
+      "id": 19,
+      "target": "la sudadera",
+      "source": "hoodie/sweatshirt",
+      "gender": "f",
+      "type": "clothing"
+    },
+    {
+      "id": 20,
+      "target": "los shorts",
+      "source": "shorts",
+      "gender": "m",
+      "type": "clothing"
+    },
+    {
+      "id": 21,
+      "target": "la bufanda",
+      "source": "scarf",
+      "gender": "f",
+      "type": "accessories"
+    },
+    {
+      "id": 22,
+      "target": "los guantes",
+      "source": "gloves",
+      "gender": "m",
+      "type": "accessories"
+    },
+    {
+      "id": 23,
+      "target": "el sombrero",
+      "source": "hat",
+      "gender": "m",
+      "type": "accessories"
+    },
+    {
+      "id": 24,
+      "target": "la gorra",
+      "source": "cap",
+      "gender": "f",
+      "type": "accessories"
+    },
+    {
+      "id": 25,
+      "target": "las gafas",
+      "source": "glasses/sunglasses",
+      "gender": "f",
+      "type": "accessories"
+    },
+    {
+      "id": 26,
+      "target": "la corbata",
+      "source": "tie",
+      "gender": "f",
+      "type": "accessories"
+    },
+    {
+      "id": 27,
+      "target": "el cinturón",
+      "source": "belt",
+      "gender": "m",
+      "type": "accessories"
+    },
+    {
+      "id": 28,
+      "target": "el bolso",
+      "source": "bag/purse",
+      "gender": "m",
+      "type": "accessories"
+    },
+    {
+      "id": 29,
+      "target": "la cartera",
+      "source": "wallet/purse",
+      "gender": "f",
+      "type": "accessories"
+    },
+    {
+      "id": 30,
+      "target": "los pendientes",
+      "source": "earrings",
+      "gender": "m",
+      "type": "accessories"
+    },
+    {
+      "id": 31,
+      "target": "el anillo",
+      "source": "ring",
+      "gender": "m",
+      "type": "accessories"
+    },
+    {
+      "id": 32,
+      "target": "el collar",
+      "source": "necklace",
+      "gender": "m",
+      "type": "accessories"
+    },
+    {
+      "id": 33,
+      "target": "el pijama",
+      "source": "pajamas",
+      "gender": "m",
+      "type": "clothing"
+    },
+    {
+      "id": 34,
+      "target": "la ropa interior",
+      "source": "underwear",
+      "gender": "f",
+      "type": "clothing"
+    },
+    {
+      "id": 35,
+      "target": "la camiseta deportiva",
+      "source": "sports shirt",
+      "gender": "f",
+      "type": "clothing"
+    },
+    {
+      "id": 36,
+      "target": "el bañador",
+      "source": "swimsuit (m)",
+      "gender": "m",
+      "type": "clothing"
+    },
+    {
+      "id": 37,
+      "target": "el bikini",
+      "source": "bikini",
+      "gender": "m",
+      "type": "clothing"
+    },
+    {
+      "id": 38,
+      "target": "el chubasquero",
+      "source": "raincoat",
+      "gender": "m",
+      "type": "clothing"
+    },
+    {
+      "id": 39,
+      "target": "los pantalones cortos",
+      "source": "shorts",
+      "gender": "m",
+      "type": "clothing"
+    },
+    {
+      "id": 40,
+      "target": "la chaqueta de lluvia",
+      "source": "rain jacket",
+      "gender": "f",
+      "type": "clothing"
+    },
+    {
+      "id": 41,
+      "target": "el pelo",
+      "source": "hair",
+      "gender": "m",
+      "type": "body"
+    },
+    {
+      "id": 42,
+      "target": "los ojos",
+      "source": "eyes",
+      "gender": "m",
+      "type": "body"
+    },
+    {
+      "id": 43,
+      "target": "la nariz",
+      "source": "nose",
+      "gender": "f",
+      "type": "body"
+    },
+    {
+      "id": 44,
+      "target": "la boca",
+      "source": "mouth",
+      "gender": "f",
+      "type": "body"
+    },
+    {
+      "id": 45,
+      "target": "las orejas",
+      "source": "ears",
+      "gender": "f",
+      "type": "body"
+    },
+    {
+      "id": 46,
+      "target": "la barbilla",
+      "source": "chin",
+      "gender": "f",
+      "type": "body"
+    },
+    {
+      "id": 47,
+      "target": "la frente",
+      "source": "forehead",
+      "gender": "f",
+      "type": "body"
+    },
+    {
+      "id": 48,
+      "target": "el cuello",
+      "source": "neck",
+      "gender": "m",
+      "type": "body"
+    },
+    {
+      "id": 49,
+      "target": "las manos",
+      "source": "hands",
+      "gender": "f",
+      "type": "body"
+    },
+    {
+      "id": 50,
+      "target": "las piernas",
+      "source": "legs",
+      "gender": "f",
+      "type": "body"
+    },
+    {
+      "id": 51,
+      "target": "los brazos",
+      "source": "arms",
+      "gender": "m",
+      "type": "body"
+    },
+    {
+      "id": 52,
+      "target": "la cara",
+      "source": "face",
+      "gender": "f",
+      "type": "body"
+    },
+    {
+      "id": 53,
+      "target": "la cabeza",
+      "source": "head",
+      "gender": "f",
+      "type": "body"
+    },
+    {
+      "id": 54,
+      "target": "los dientes",
+      "source": "teeth",
+      "gender": "m",
+      "type": "body"
+    },
+    {
+      "id": 55,
+      "target": "la barba",
+      "source": "beard",
+      "gender": "f",
+      "type": "body"
+    },
+    {
+      "id": 56,
+      "target": "el bigote",
+      "source": "moustache",
+      "gender": "m",
+      "type": "body"
+    },
+    {
+      "id": 57,
+      "target": "el pecho",
+      "source": "chest",
+      "gender": "m",
+      "type": "body"
+    },
+    {
+      "id": 58,
+      "target": "los hombros",
+      "source": "shoulders",
+      "gender": "m",
+      "type": "body"
+    },
+    {
+      "id": 59,
+      "target": "la cintura",
+      "source": "waist",
+      "gender": "f",
+      "type": "body"
+    },
+    {
+      "id": 60,
+      "target": "las rodillas",
+      "source": "knees",
+      "gender": "f",
+      "type": "body"
+    },
+    {
+      "id": 61,
+      "target": "alto",
+      "source": "tall",
+      "gender": "m",
+      "type": "adjective"
+    },
+    {
+      "id": 62,
+      "target": "bajo",
+      "source": "short (height)",
+      "gender": "m",
+      "type": "adjective"
+    },
+    {
+      "id": 63,
+      "target": "gordo/a",
+      "source": "fat/chubby",
+      "gender": "m/f",
+      "type": "adjective"
+    },
+    {
+      "id": 64,
+      "target": "delgado/a",
+      "source": "thin/slender",
+      "gender": "m/f",
+      "type": "adjective"
+    },
+    {
+      "id": 65,
+      "target": "fuerte",
+      "source": "strong",
+      "gender": "m",
+      "type": "adjective"
+    },
+    {
+      "id": 66,
+      "target": "joven",
+      "source": "young",
+      "gender": "m",
+      "type": "adjective"
+    },
+    {
+      "id": 67,
+      "target": "viejo/a",
+      "source": "old",
+      "gender": "m/f",
+      "type": "adjective"
+    },
+    {
+      "id": 68,
+      "target": "bonito/a",
+      "source": "pretty/nice",
+      "gender": "m/f",
+      "type": "adjective"
+    },
+    {
+      "id": 69,
+      "target": "guapo/a",
+      "source": "handsome/beautiful",
+      "gender": "m/f",
+      "type": "adjective"
+    },
+    {
+      "id": 70,
+      "target": "rubio/a",
+      "source": "blonde",
+      "gender": "m/f",
+      "type": "adjective"
+    },
+    {
+      "id": 71,
+      "target": "moreno/a",
+      "source": "dark-haired/dark",
+      "gender": "m/f",
+      "type": "adjective"
+    },
+    {
+      "id": 72,
+      "target": "castaño/a",
+      "source": "brown-haired",
+      "gender": "m/f",
+      "type": "adjective"
+    },
+    {
+      "id": 73,
+      "target": "pelirrojo/a",
+      "source": "red-haired",
+      "gender": "m/f",
+      "type": "adjective"
+    },
+    {
+      "id": 74,
+      "target": "calvo/a",
+      "source": "bald",
+      "gender": "m/f",
+      "type": "adjective"
+    },
+    {
+      "id": 75,
+      "target": "alto/a",
+      "source": "tall",
+      "gender": "m/f",
+      "type": "adjective"
+    },
+    {
+      "id": 76,
+      "target": "bajo/a",
+      "source": "short",
+      "gender": "m/f",
+      "type": "adjective"
+    },
+    {
+      "id": 77,
+      "target": "grande",
+      "source": "big/large",
+      "gender": "m",
+      "type": "adjective"
+    },
+    {
+      "id": 78,
+      "target": "pequeño/a",
+      "source": "small",
+      "gender": "m/f",
+      "type": "adjective"
+    },
+    {
+      "id": 79,
+      "target": "largo/a",
+      "source": "long",
+      "gender": "m/f",
+      "type": "adjective"
+    },
+    {
+      "id": 80,
+      "target": "corto/a",
+      "source": "short (length)",
+      "gender": "m/f",
+      "type": "adjective"
+    },
+    {
+      "id": 81,
+      "target": "negro/a",
+      "source": "black",
+      "gender": "m/f",
+      "type": "color"
+    },
+    {
+      "id": 82,
+      "target": "blanco/a",
+      "source": "white",
+      "gender": "m/f",
+      "type": "color"
+    },
+    {
+      "id": 83,
+      "target": "rojo/a",
+      "source": "red",
+      "gender": "m/f",
+      "type": "color"
+    },
+    {
+      "id": 84,
+      "target": "azul",
+      "source": "blue",
+      "gender": "m",
+      "type": "color"
+    },
+    {
+      "id": 85,
+      "target": "verde",
+      "source": "green",
+      "gender": "m",
+      "type": "color"
+    },
+    {
+      "id": 86,
+      "target": "amarillo/a",
+      "source": "yellow",
+      "gender": "m/f",
+      "type": "color"
+    },
+    {
+      "id": 87,
+      "target": "rosa",
+      "source": "pink",
+      "gender": "m",
+      "type": "color"
+    },
+    {
+      "id": 88,
+      "target": "gris",
+      "source": "grey",
+      "gender": "m",
+      "type": "color"
+    },
+    {
+      "id": 89,
+      "target": "marrón",
+      "source": "brown",
+      "gender": "m",
+      "type": "color"
+    },
+    {
+      "id": 90,
+      "target": "naranja",
+      "source": "orange",
+      "gender": "m",
+      "type": "color"
+    },
+    {
+      "id": 91,
+      "target": "la talla",
+      "source": "size (clothing)",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 92,
+      "target": "la S",
+      "source": "size S (small)",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 93,
+      "target": "la M",
+      "source": "size M (medium)",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 94,
+      "target": "la L",
+      "source": "size L (large)",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 95,
+      "target": "el botón",
+      "source": "button",
+      "gender": "m",
+      "type": "clothing"
+    },
+    {
+      "id": 96,
+      "target": "la cremallera",
+      "source": "zipper",
+      "gender": "f",
+      "type": "clothing"
+    },
+    {
+      "id": 97,
+      "target": "el bolsillo",
+      "source": "pocket",
+      "gender": "m",
+      "type": "clothing"
+    },
+    {
+      "id": 98,
+      "target": "la manga",
+      "source": "sleeve",
+      "gender": "f",
+      "type": "clothing"
+    },
+    {
+      "id": 99,
+      "target": "el cuello (de ropa)",
+      "source": "collar/neckline",
+      "gender": "m",
+      "type": "clothing"
+    },
+    {
+      "id": 100,
+      "target": "la tela",
+      "source": "fabric",
+      "gender": "f",
+      "type": "noun"
+    }
+  ],
+  "grammar": [
+    {
+      "title": "Ser + Adjetivo - Describing Permanent Characteristics",
+      "content": "The verb SER is used to describe inherent, permanent characteristics of people and things. With appearance, we use 'ser' + adjective.\n\nConjugation of SER:\nYo soy = I am\nTú eres = You are (informal)\nÉl/Ella/Usted es = He/She/You(formal) is\nNosotros/as somos = We are\nVosotros/as sois = You(all) are (Spain)\nEllos/Ellas/Ustedes son = They/You(all) are\n\nAppearance patterns:\nÉl es alto. = He is tall.\nElla es baja. = She is short.\nElla es rubia. = She is blonde.\nÉl es moreno. = He is dark-haired.\nElla es guapa. = She is beautiful.\nEllos son jóvenes. = They are young.\nNosotros somos delgados. = We are thin.\n\nAgreement: Adjectives must agree in gender and number with the subject.\nSingular: alto/a, bajo/a, rubio/a, moreno/a, guapo/a, delgado/a\nPlural: altos/as, bajos/as, rubios/as, morenos/as, guapos/as, delgados/as\n\nElla es alta y delgada. = She is tall and thin.\nEllos son altos y morenos. = They are tall and dark-haired.\nEllas son bajas y rubias. = They are short and blonde.\n\nNote: 'Ser' is used for permanent characteristics like height, hair color, and general build. For temporary states (tired, sick), use 'estar' instead.",
+      "examples": [
+        "Mi madre es alta. (My mother is tall.)\nMi padre es bajo. (My father is short.)\nElla es rubia y guapa. (She is blonde and beautiful.)\nÉl es moreno y delgado. (He is dark-haired and thin.)\nNosotros somos jóvenes. (We are young.)\nElla es vieja. (She is old.)\nTú eres alto. (You are tall.)\nEllos son delgados. (They are thin.)",
+        "La chica es guapa y joven. (The girl is pretty and young.)\nEl hombre es alto y fuerte. (The man is tall and strong.)\nMi hermana es baja y delgada. (My sister is short and thin.)\nEl niño es pequeño y rubio. (The boy is small and blonde.)\nLas mujeres son altas. (The women are tall.)\nLos hombres son bajos. (The men are short.)"
+      ]
+    },
+    {
+      "title": "Estar + Adjetivo - Describing Temporary States and Wearing Clothes",
+      "content": "The verb ESTAR serves two important functions here:\n\n1) Describing temporary physical states:\nEstar cansado/a = to be tired\nEstar enfermo/a = to be sick\nEstar aburrido/a = to be bored\nEstar feliz/triste = to be happy/sad\n\nElla está cansada. = She is tired.\nNosotros estamos felices. = We are happy.\nÉl está enfermo. = He is sick.\n\n2) Describing what someone is currently WEARING (estar + vestido/a):\nEstar = to be\nVestido/a = dressed/wearing clothes\n\nElla está vestida. = She is dressed.\nÉl está vestido de negro. = He is dressed in black.\nEllas están vestidas con un vestido rojo. = They are wearing a red dress.\n\nCombined structure for 'to be wearing':\nEstar + vestido/a + con + [clothing item]\n\nÉl está vestido con una camisa blanca. = He is wearing a white shirt.\nElla está vestida con un vestido negro. = She is wearing a black dress.\nNosotros estamos vestidos con pantalones y camiseta. = We are wearing pants and a t-shirt.",
+      "examples": [
+        "Ella está cansada hoy. (She is tired today.)\nNosotros estamos contentos. (We are happy.)\nÉl está enfermo. (He is sick.)\nEllas están aburridas. (They are bored.)\nElla está vestida con una falda roja. (She is wearing a red skirt.)\nÉl está vestido con un abrigo marrón. (He is wearing a brown coat.)\nNosotros estamos vestidos con ropa deportiva. (We are wearing sportswear.)\n¿Cómo estás vestido hoy? (How are you dressed today?)"
+      ]
+    },
+    {
+      "title": "Tener + Años - Expressing Age",
+      "content": "In Spanish, age is expressed with the verb TENER (to have), not SER (to be). Literally 'to have X years'.\n\nConjugation of TENER:\nYo tengo = I have\nTú tienes = You have (informal)\nÉl/Ella/Usted tiene = He/She/You(formal) has\nNosotros/as tenemos = We have\nVosotros/as tenéis = You(all) have (Spain)\nEllos/Ellas/Ustedes tienen = They/You(all) have\n\nAge expressions:\nTengo 25 años. = I am 25 years old.\nElla tiene 30 años. = She is 30 years old.\n¿Cuántos años tienes? = How old are you?\nTú tienes 18 años. = You are 18 years old.\nNosotros tenemos 40 años. = We are 40 years old.\n¿Cuántos años tiene él? = How old is he?\n\nAsking about age:\n¿Cuántos años tienes? (informal)\n¿Cuántos años tiene usted? (formal)\n¿Cuántos años tiene? (he/she formal)\n\nAge categories:\nNiño/a = child\nJoven = young person\nAdulto/a = adult\nPersona mayor = elderly person\n\nNota: You cannot use 'ser' for age! 'Él es 25 años' is WRONG. Always use 'tener'.",
+      "examples": [
+        "Tengo 20 años. (I am 20 years old.)\nElla tiene 25 años. (She is 25 years old.)\nTú tienes 30 años. (You are 30 years old.)\n¿Cuántos años tienes? - Tengo 18 años. (How old are you? - I am 18 years old.)\nNosotros tenemos 35 años. (We are 35 years old.)\nÉl tiene 60 años. (He is 60 years old.)\n¿Cuántos años tiene ella? - Tiene 45 años. (How old is she? - She is 45 years old.)\nMi madre tiene 50 años. (My mother is 50 years old.)"
+      ]
+    },
+    {
+      "title": "Llevar - Wearing / Carrying (Alternative to Estar + Vestido)",
+      "content": "The verb LLEVAR can also express what someone is wearing or carrying.\n\nConjugation of LLEVAR:\nYo llevo = I wear/carry\nTú llevas = You wear/carry (informal)\nÉl/Ella/Usted lleva = He/She/You(formal) wears/carries\nNosotros/as llevamos = We wear/carry\nVosotros/as lleváis = You(all) wear/carry (Spain)\nEllos/Ellas/Ustedes llevan = They/You(all) wear/carry\n\nLlevar + clothing item = to be wearing\n\nYo llevo una camisa blanca. = I am wearing a white shirt.\nTú llevas pantalones negros. = You are wearing black pants.\nElla lleva un vestido rojo. = She is wearing a red dress.\nÉl lleva una chaqueta azul. = He is wearing a blue jacket.\nNosotros llevamos zapatos marrones. = We are wearing brown shoes.\nEllos llevan sombrero y bufanda. = They are wearing a hat and scarf.\n\nLlevar vs. Estar vestido:\nEstar vestido con = more formal way to say 'dressed in'\nLlevar + item = more natural, everyday way to say 'wearing'\n\nLlevar also means 'to carry/to take', so context is important.\nElla lleva un bolso grande. = She is carrying a big bag.\nElla lleva un bolso grande = She is wearing a big bag (purse).",
+      "examples": [
+        "Llevo una camiseta roja. (I am wearing a red t-shirt.)\nLlevas una corbata. (You are wearing a tie.)\nElla lleva un vestido largo. (She is wearing a long dress.)\nÉl lleva unos guantes. (He is wearing gloves.)\nNosotros llevamos botas. (We are wearing boots.)\nLlevan una chaqueta y un sombrero. (They are wearing a jacket and a hat.)\n¿Qué llevas puesto hoy? (What are you wearing today?)\nLlevo los pantalones negros. (I am wearing the black pants.)"
+      ]
+    },
+    {
+      "title": "Los Artículos y los Sustantivos Plurales - Articles and Plurals",
+      "content": "Spanish nouns have gender (masculine/feminine) and number (singular/plural). This is essential for clothing vocabulary.\n\nDefinite articles:\nel = the (m. singular)\nla = the (f. singular)\nlos = the (m. plural)\nlas = the (f. plural)\n\nIndefinite articles:\nun = a/an (m. singular)\nuna = a/an (f. singular)\nunos = some (m. plural)\nunas = some (f. plural)\n\nClothing nouns by gender:\nMasculine: el pantalón, el abrigo, el suéter, el sombrero, el zapato, el calcetín, el cinturón, el bolso, el pijama, el botón, el cuello, el bolsillo, el chubasquero, el bañador, el bigote, el pecho, el pelo\nFeminine: la camisa, la camiseta, la falda, la chaqueta, la bufanda, la gorra, la corbata, la media, la sandalia, la zapatilla, la ropa interior, la chaqueta, la tela, la cremallera, la manga, la talla, la barba, la cara, la cabeza, la frente, la cintura, la rodilla, la nariz, la boca, las orejas\n\nImportant: Many clothing items are ALWAYS plural:\nlos pantalones (pants)\nlos zapatos (shoes)\nlas sandalias (sandals)\nlas botas (boots)\nlos guantes (gloves)\nlos calcetines (socks)\nlas medias (socks/tights)\nlos pendientes (earrings)\nlas manos (hands)\nlas piernas (legs)\nlos ojos (eyes)\nlas rodillas (knees)\nlos brazos (arms)\n\nPlural formation:\nWord ending in consonant: add -es\nun zapato -> los zapatos\nun calcetín -> los calcetines\nun bolso -> los bolsos\n\nWord ending in vowel: add -s\nla camisa -> las camisas\nel botón -> los botones\nla falda -> las faldas\n\nWord ending in -z: change to -ces\nel lápiz -> los lápices (not clothing but same rule)",
+      "examples": [
+        "el abrigo -> los abrigos (the coat -> the coats)\nla camisa -> las camisas (the shirt -> the shirts)\nuna falda -> unas faldas (a skirt -> some skirts)\nunos guantes -> las botas (some gloves -> the boots)\nla ropa interior (underwear - always singular)\nlos pantalones cortos (shorts - always plural)\nla camisa blanca (the white shirt - adjective after noun)\nlos zapatos negros (the black shoes - adjective after noun)\nun vestido rojo (a red dress)\nuna chaqueta verde (a green jacket)"
+      ]
+    },
+    {
+      "title": "Adjetivos Demostrativos - This/That Clothing Items",
+      "content": "Demonstrative adjectives point to specific items and must agree in gender and number with the noun they modify.\n\nNear the speaker (this/these):\neste/esta = this (m/f singular)\nestos/estas = these (m/f plural)\n\nMedium distance (that/those):\neso -> ese/esa = that (m/f singular)\nesos/esas = those (m/f plural)\n\nFar from both (that over there/those over there):\naquel/aquella = that over there (m/f singular)\naquellos/aquellas = those over there (m/f plural)\n\nWith clothing:\nEsta camisa es roja. = This shirt is red.\nEstos pantalones son negros. = These pants are black.\nEse vestido es bonito. = That dress is pretty.\nEsas botas son nuevas. = Those boots are new.\nEste abrigo es muy caro. = This coat is very expensive.\nEsa falda es larga. = That skirt is long.\n\nNota: In everyday Spanish, 'ese/esa' is often used for both 'that' and 'this' depending on context. The 'aquel' forms are less common.\n\nDemonstrative pronouns (without the noun):\nEste = this one (m.)\nEsa = that one (f.)\nEstos = these ones (m. pl.)\nEsas = those ones (f. pl.)\n\n¿Quieres este vestido? - Sí, quiero ese. (Do you want this dress? - Yes, I want that one.)\n¿De quién son estos zapatos? - Son míos. (Whose shoes are these? - They are mine.)",
+      "examples": [
+        "Esta falda es nueva. (This skirt is new.)\nEse sombrero es viejo. (That hat is old.)\nEstas sandalias son grandes. (These sandals are big.)\nEsas gafas son bonitas. (Those glasses are pretty.)\nEste zapato no me queda. (This shoe doesn't fit me.)\n¿Te gusta esa camisa? - Sí, me gusta esa camisa. (Do you like that shirt? - Yes, I like that shirt.)\nQuiero estos guantes. (I want these gloves.)\n¿Cuánto cuesta esa chaqueta? (How much is that jacket?)"
+      ]
+    }
+  ],
+  "pronunciation": [
+    {
+      "title": "Clothing Vocabulary - Basic Pronunciation",
+      "content": "Core clothing vocabulary pronunciations:\n\ncamisa = kah-MEE-sah (shirt)\ncamiseta = kah-mee-SEH-tah (t-shirt)\npantalones = pahn-tah-LOH-nes (pants)\nvestido = beh-SEE-doh (dress)\nfalda = FAHL-dah (skirt)\nzapatos = sah-PAH-tos (shoes)\nchaqueta = chah-KET-ah (jacket)\nabrigo = ah-BREE-goh (coat)\nsuéter = SWEH-ter (sweater)\nsandalias = sahn-DAL-ee-ahs (sandals)\nbotas = BOH-tahs (boots)\nzapatillas = zah-pah-TEE-yahs (sneakers)\nbufanda = boo-FAHN-dah (scarf)\nguantes = GWAHN-tes (gloves)\nsombrero = sohm-BREH-roh (hat)\ngorra = GOH-rah (cap)\ncorbata = kor-BAH-tah (tie)\ncinturón = seen-too-ROHN (belt)\npantalón = pahn-tah-LOHN (trouser)\ncalcetín = kal-say-TEEN (sock)",
+      "examples": [
+        "camisa = kah-MEE-sah\ncamiseta = kah-mee-SEH-tah\npantalones = pahn-tah-LOH-nes\nvestido = beh-SEE-doh\nfalda = FAHL-dah\nzapatos = sah-PAH-tos\nchaqueta = chah-KET-ah\nabrigo = ah-BREE-goh\nsuéter = SWEH-ter\nbufanda = boo-FAHN-dah\nguantes = GWAHN-tes\nsombrero = sohm-BREH-roh\ncorbata = kor-BAH-tah\ncinturón = seen-too-ROHN\nsandalias = sahn-DAL-ee-ahs\nbotas = BOH-tahs"
+      ]
+    },
+    {
+      "title": "Appearance and Body - Pronunciation",
+      "content": "Appearance and body part pronunciations:\n\nrubio/a = ROO-bee-oh/ah (blonde)\nmoreno/a = moh-REH-noh/ah (dark-haired)\ncastaño/a = kahl-TAH-nyoh/ah (brown-haired)\npelirrojo/a = peh-lee-ROH-hoh/ah (red-haired)\ncalvo/a = KAHL-boh/ah (bald)\nalto/a = AL-toh/ah (tall)\nbajo/a = BAH-hoh/ah (short)\nbonito/a = boh-NEE-toh/ah (pretty)\nguapo/a = GWAH-poh/ah (handsome)\ndelgado/a = del-GAH-doh/ah (thin)\ngordo/a = GOHR-doh/ah (fat)\nfuerte = FWER-teh (strong)\njoven = joh-VEN (young)\nviejo/a = VYEH-hoh/ah (old)\npelo = PEH-loh (hair)\nojos = OH-hos (eyes)\nnariz = nah-REEZ (nose)\ncara = KAH-rah (face)\ncabeza = kah-BEH-sah (head)\nbarba = BAHR-bah (beard)\nbigote = bee-GOH-teh (moustache)",
+      "examples": [
+        "rubio = ROO-bee-oh\nmoreno = moh-REH-noh\ncastaño = kahl-TAH-nyoh\npelirrojo = peh-lee-ROH-hoh\ncalvo = KAHL-boh\nalto = AL-toh\nbajo = BAH-hoh\nbonito = boh-NEE-toh\nguapo = GWAH-poh\ndelgado = del-GAH-doh\ngordo = GOHR-doh\nfuerte = FWER-teh\njoven = joh-VEN\nviejo = VYEH-hoh\npelo = PEH-loh\nojos = OH-hos"
+      ]
+    },
+    {
+      "title": "Colors and Sizes - Pronunciation",
+      "content": "Colors and clothing sizes pronunciations:\n\nnegro/a = NEH-groh/ah (black)\nblanco/a = BLAHN-koh/ah (white)\nrojo/a = ROH-hoh/ah (red)\nazul = ah-TOOL (blue)\nverde = VEHR-deh (green)\namarillo/a = ah-mah-REE-yoh/ah (yellow)\nnaranja = nah-RAHN-hah (orange)\ngris = GREE (grey)\nmarrón = mah-RON (brown)\nrosa = ROH-sah (pink)\ntalla = TAH-yah (size)\nlargo/a = LAHR-goh/ah (long)\ncorto/a = KOHR-toh/ah (short - length)\ngrande = GRAHN-deh (big)\npequeño/a = peh-KEH-nyoh/ah (small)\nbotón = boh-TOHN (button)\ncremallera = kre-mah-YEH-rah (zipper)\nbolsillo = bol-SEE-yoh (pocket)\nmanga = MAHN-gah (sleeve)\ntela = TEH-lah (fabric)",
+      "examples": [
+        "negro = NEH-groh\nblanco = BLAHN-koh\nrojo = ROH-hoh\nazul = ah-TOOL\nverde = VEHR-deh\namarillo = ah-mah-REE-yoh\nnaranja = nah-RAHN-hah\ngris = GREE\nmarrón = mah-RON\nrosa = ROH-sah\ntalla = TAH-yah\ngrande = GRAHN-deh\npequeño = peh-KEH-nyoh\nlargo = LAHR-goh\ncorto = KOHR-toh\nbotón = boh-TOHN\ncremallera = kre-mah-YEH-rah\nbolsillo = bol-SEE-yoh\nmanga = MAHN-gah\ntela = TEH-lah"
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "multiple-choice",
+      "question": "What is 'shirt' in Spanish?",
+      "options": [
+        "el zapato",
+        "la camisa",
+        "el vestido",
+        "la falda"
+      ],
+      "correct": 1,
+      "explanation": "'La camisa' = shirt. 'El zapato' = shoe. 'El vestido' = dress. 'La falda' = skirt."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What is 'dress' in Spanish?",
+      "options": [
+        "el pantalón",
+        "la chaqueta",
+        "el vestido",
+        "la falda"
+      ],
+      "correct": 2,
+      "explanation": "'El vestido' = dress. 'El pantalón' = trousers. 'La chaqueta' = jacket. 'La falda' = skirt."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What is 'skirt' in Spanish?",
+      "options": [
+        "el vestido",
+        "la falda",
+        "la camisa",
+        "los shorts"
+      ],
+      "correct": 1,
+      "explanation": "'La falda' = skirt. 'El vestido' = dress. 'La camisa' = shirt. 'Los shorts' = shorts."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What is 'shoes' in Spanish?",
+      "options": [
+        "las botas",
+        "los calcetines",
+        "los zapatos",
+        "las sandalias"
+      ],
+      "correct": 2,
+      "explanation": "'Los zapatos' = shoes. 'Las botas' = boots. 'Los calcetines' = socks. 'Las sandalias' = sandals."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What is 'jacket' in Spanish?",
+      "options": [
+        "el abrigo",
+        "la chaqueta",
+        "el suéter",
+        "la sudadera"
+      ],
+      "correct": 1,
+      "explanation": "'La chaqueta' = jacket. 'El abrigo' = coat. 'El suéter' = sweater. 'La sudadera' = hoodie."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What is 'coat' in Spanish?",
+      "options": [
+        "la chaqueta",
+        "el abrigo",
+        "el suéter",
+        "la sudadera"
+      ],
+      "correct": 1,
+      "explanation": "'El abrigo' = coat. 'La chaqueta' = jacket. 'El suéter' = sweater. 'La sudadera' = hoodie."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What is 'hat' in Spanish?",
+      "options": [
+        "la gorra",
+        "el sombrero",
+        "la bufanda",
+        "los guantes"
+      ],
+      "correct": 1,
+      "explanation": "'El sombrero' = hat. 'La gorra' = cap. 'La bufanda' = scarf. 'Los guantes' = gloves."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What is 'scarf' in Spanish?",
+      "options": [
+        "los guantes",
+        "la bufanda",
+        "el sombrero",
+        "la corbata"
+      ],
+      "correct": 1,
+      "explanation": "'La bufanda' = scarf. 'Los guantes' = gloves. 'El sombrero' = hat. 'La corbata' = tie."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What is 'gloves' in Spanish?",
+      "options": [
+        "la bufanda",
+        "los guantes",
+        "el cinturón",
+        "los pendientes"
+      ],
+      "correct": 1,
+      "explanation": "'Los guantes' = gloves. 'La bufanda' = scarf. 'El cinturón' = belt. 'Los pendientes' = earrings."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What is 'tie' in Spanish?",
+      "options": [
+        "el cinturón",
+        "los guantes",
+        "la corbata",
+        "la bufanda"
+      ],
+      "correct": 2,
+      "explanation": "'La corbata' = tie. 'El cinturón' = belt. 'Los guantes' = gloves. 'La bufanda' = scarf."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What is 'belt' in Spanish?",
+      "options": [
+        "la corbata",
+        "el cinturón",
+        "el bolso",
+        "los guantes"
+      ],
+      "correct": 1,
+      "explanation": "'El cinturón' = belt. 'La corbata' = tie. 'El bolso' = bag. 'Los guantes' = gloves."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What is 'boots' in Spanish?",
+      "options": [
+        "los zapatos",
+        "las botas",
+        "las sandalias",
+        "las zapatillas"
+      ],
+      "correct": 1,
+      "explanation": "'Las botas' = boots. 'Los zapatos' = shoes. 'Las sandalias' = sandals. 'Las zapatillas' = sneakers."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What is 'socks' in Spanish?",
+      "options": [
+        "las medias",
+        "los calcetines",
+        "los zapatos",
+        "las botas"
+      ],
+      "correct": 1,
+      "explanation": "'Los calcetines' = socks. 'Las medias' = tights/socks. 'Los zapatos' = shoes. 'Las botas' = boots."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What is 'sweater' in Spanish?",
+      "options": [
+        "la chaqueta",
+        "el suéter",
+        "el abrigo",
+        "la sudadera"
+      ],
+      "correct": 1,
+      "explanation": "'El suéter' = sweater. 'La chaqueta' = jacket. 'El abrigo' = coat. 'La sudadera' = hoodie."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What is 't-shirt' in Spanish?",
+      "options": [
+        "la camisa",
+        "la camiseta",
+        "el polo",
+        "el suéter"
+      ],
+      "correct": 1,
+      "explanation": "'La camiseta' = t-shirt. 'La camisa' = shirt (formal). 'El polo' = polo shirt. 'El suéter' = sweater."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What is 'blonde' in Spanish?",
+      "options": [
+        "moreno/a",
+        "castaño/a",
+        "rubio/a",
+        "pelirrojo/a"
+      ],
+      "correct": 2,
+      "explanation": "'Rubio/a' = blonde. 'Moreno/a' = dark-haired. 'Castaño/a' = brown-haired. 'Pelirrojo/a' = red-haired."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What is 'dark-haired' in Spanish?",
+      "options": [
+        "rubio/a",
+        "moreno/a",
+        "castaño/a",
+        "calvo/a"
+      ],
+      "correct": 1,
+      "explanation": "'Moreno/a' = dark-haired. 'Rubio/a' = blonde. 'Castaño/a' = brown-haired. 'Calvo/a' = bald."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What is 'bald' in Spanish?",
+      "options": [
+        "rubio/a",
+        "moreno/a",
+        "pelirrojo/a",
+        "calvo/a"
+      ],
+      "correct": 3,
+      "explanation": "'Calvo/a' = bald. 'Rubio/a' = blonde. 'Moreno/a' = dark-haired. 'Pelirrojo/a' = red-haired."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What is 'tall' in Spanish?",
+      "options": [
+        "bajo/a",
+        "alto/a",
+        "grande",
+        "pequeño/a"
+      ],
+      "correct": 1,
+      "explanation": "'Alto/a' = tall. 'Bajo/a' = short. 'Grande' = big. 'Pequeño/a' = small."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What is 'short' (height) in Spanish?",
+      "options": [
+        "alto/a",
+        "largo/a",
+        "bajo/a",
+        "corto/a"
+      ],
+      "correct": 2,
+      "explanation": "'Bajo/a' = short (height). 'Alto/a' = tall. 'Largo/a' = long. 'Corto/a' = short (length)."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What is 'thin' in Spanish?",
+      "options": [
+        "fuerte",
+        "delgado/a",
+        "gordo/a",
+        "alto/a"
+      ],
+      "correct": 1,
+      "explanation": "'Delgado/a' = thin. 'Fuerte' = strong. 'Gordo/a' = fat. 'Alto/a' = tall."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What is 'black' in Spanish?",
+      "options": [
+        "rojo/a",
+        "azul",
+        "negro/a",
+        "verde"
+      ],
+      "correct": 2,
+      "explanation": "'Negro/a' = black. 'Rojo/a' = red. 'Azul' = blue. 'Verde' = green."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What is 'blue' in Spanish?",
+      "options": [
+        "rojo/a",
+        "verde",
+        "azul",
+        "negro/a"
+      ],
+      "correct": 2,
+      "explanation": "'Azul' = blue. 'Rojo/a' = red. 'Verde' = green. 'Negro/a' = black."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What is 'green' in Spanish?",
+      "options": [
+        "azul",
+        "amarillo/a",
+        "verde",
+        "rosa"
+      ],
+      "correct": 2,
+      "explanation": "'Verde' = green. 'Azul' = blue. 'Amarillo/a' = yellow. 'Rosa' = pink."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What is 'brown' in Spanish?",
+      "options": [
+        "gris",
+        "marrón",
+        "naranja",
+        "rosa"
+      ],
+      "correct": 1,
+      "explanation": "'Marrón' = brown. 'Gris' = grey. 'Naranja' = orange. 'Rosa' = pink."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: 'Ella ___ alta y guapa.' (She is tall and pretty.)",
+      "options": [
+        "es",
+        "está",
+        "tiene",
+        "lleva"
+      ],
+      "correct": 0,
+      "explanation": "Use 'ser' (es) for permanent characteristics like height and beauty. 'Ella es alta y guapa.'"
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: '___ 25 años.' (I am 25 years old.)",
+      "options": [
+        "Tengo",
+        "Soy",
+        "Estoy",
+        "Llevo"
+      ],
+      "correct": 0,
+      "explanation": "In Spanish, age uses 'tener' (to have). 'Tengo 25 años' literally means 'I have 25 years.'"
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: 'Ella ___ una camisa roja.' (She is wearing a red shirt.)",
+      "options": [
+        "es",
+        "está",
+        "tiene",
+        "lleva"
+      ],
+      "correct": 3,
+      "explanation": "'Llevar' is used for what someone is wearing. 'Ella lleva una camisa roja.'"
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: 'Los pantalones son ___.' (The pants are black.)",
+      "options": [
+        "negro",
+        "negra",
+        "negros",
+        "negras"
+      ],
+      "correct": 2,
+      "explanation": "'Pantalones' is masculine plural, so the adjective must be 'negros' (m. pl.)."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: '___ camisa es blanca.' (This shirt is white.)",
+      "options": [
+        "Este",
+        "Esta",
+        "Estos",
+        "Estas"
+      ],
+      "correct": 1,
+      "explanation": "'Camisa' is feminine singular, so use 'Esta'. 'Esta camisa es blanca.'"
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: '___ sombrero es grande.' (That hat is big.)",
+      "options": [
+        "Ese",
+        "Esa",
+        "Esos",
+        "Esas"
+      ],
+      "correct": 0,
+      "explanation": "'Sombrero' is masculine singular, so use 'Ese'. 'Ese sombrero es grande.'"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What is 'hair' in Spanish?",
+      "options": [
+        "la cara",
+        "el pelo",
+        "la cabeza",
+        "los ojos"
+      ],
+      "correct": 1,
+      "explanation": "'El pelo' = hair. 'La cara' = face. 'La cabeza' = head. 'Los ojos' = eyes."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What is 'nose' in Spanish?",
+      "options": [
+        "la boca",
+        "la nariz",
+        "los ojos",
+        "las orejas"
+      ],
+      "correct": 1,
+      "explanation": "'La nariz' = nose. 'La boca' = mouth. 'Los ojos' = eyes. 'Las orejas' = ears."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What is 'beard' in Spanish?",
+      "options": [
+        "el bigote",
+        "la barba",
+        "la frente",
+        "la barbilla"
+      ],
+      "correct": 1,
+      "explanation": "'La barba' = beard. 'El bigote' = moustache. 'La frente' = forehead. 'La barbilla' = chin."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What is 'moustache' in Spanish?",
+      "options": [
+        "la barba",
+        "la frente",
+        "el bigote",
+        "la barbilla"
+      ],
+      "correct": 2,
+      "explanation": "'El bigote' = moustache. 'La barba' = beard. 'La frente' = forehead. 'La barbilla' = chin."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What is 'zipper' in Spanish?",
+      "options": [
+        "el botón",
+        "la cremallera",
+        "el bolsillo",
+        "la manga"
+      ],
+      "correct": 1,
+      "explanation": "'La cremallera' = zipper. 'El botón' = button. 'El bolsillo' = pocket. 'La manga' = sleeve."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What is 'fabric' in Spanish?",
+      "options": [
+        "la talla",
+        "la tela",
+        "el cuello",
+        "el bolsillo"
+      ],
+      "correct": 1,
+      "explanation": "'La tela' = fabric. 'La talla' = size. 'El cuello' = collar. 'El bolsillo' = pocket."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What is 'size' (clothing) in Spanish?",
+      "options": [
+        "la tela",
+        "el botón",
+        "la talla",
+        "la manga"
+      ],
+      "correct": 2,
+      "explanation": "'La talla' = size. 'La tela' = fabric. 'El botón' = button. 'La manga' = sleeve."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What is 'pocket' in Spanish?",
+      "options": [
+        "el bolsillo",
+        "el botón",
+        "la manga",
+        "el cuello"
+      ],
+      "correct": 0,
+      "explanation": "'El bolsillo' = pocket. 'El botón' = button. 'La manga' = sleeve. 'El cuello' = collar."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What is 'sleeve' in Spanish?",
+      "options": [
+        "el bolsillo",
+        "el botón",
+        "la manga",
+        "la cremallera"
+      ],
+      "correct": 2,
+      "explanation": "'La manga' = sleeve. 'El bolsillo' = pocket. 'El botón' = button. 'La cremallera' = zipper."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What is 'collar' (clothing) in Spanish?",
+      "options": [
+        "el cuello (de ropa)",
+        "el cuello (cabeza)",
+        "la manga",
+        "la tela"
+      ],
+      "correct": 0,
+      "explanation": "'El cuello (de ropa)' = collar/neckline. 'El cuello (cabeza)' = neck (body part)."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What is 'shorts' in Spanish?",
+      "options": [
+        "los pantalones",
+        "los pantalones cortos",
+        "las faldas",
+        "los shorts"
+      ],
+      "correct": 1,
+      "explanation": "'Los pantalones cortos' = shorts (most common). 'Los shorts' = also used (from English)."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What is 'swimsuit' in Spanish?",
+      "options": [
+        "el pijama",
+        "el bañador",
+        "la ropa interior",
+        "la falda"
+      ],
+      "correct": 1,
+      "explanation": "'El bañador' = swimsuit. 'El pijama' = pajamas. 'La ropa interior' = underwear. 'La falda' = skirt."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What is 'raincoat' in Spanish?",
+      "options": [
+        "la chaqueta",
+        "el chubasquero",
+        "el abrigo",
+        "el suéter"
+      ],
+      "correct": 1,
+      "explanation": "'El chubasquero' = raincoat. 'La chaqueta' = jacket. 'El abrigo' = coat. 'El suéter' = sweater."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: 'Él tiene ___ años.' (He is 30 years old.)",
+      "options": [
+        "treinta",
+        "treintá",
+        "treinto",
+        "treintaño"
+      ],
+      "correct": 0,
+      "explanation": "'Treinta' = 30. 'Él tiene treinta años.'"
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: 'Ella es ___ y ___.' (She is blonde and beautiful.)",
+      "options": [
+        "rubia / guapa",
+        "rubio / guapo",
+        "rubia / guapo",
+        "rubio / guapa"
+      ],
+      "correct": 0,
+      "explanation": "Both adjectives must agree with 'ella' (feminine): 'rubia' and 'guapa'. 'Ella es rubia y guapa.'"
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: '___ guantes son nuevos.' (These gloves are new.)",
+      "options": [
+        "Este",
+        "Esta",
+        "Estos",
+        "Estas"
+      ],
+      "correct": 2,
+      "explanation": "'Guantes' is masculine plural, so use 'Estos'. 'Estos guantes son nuevos.'"
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: '¿Cuántos ___ tienes?' (How old are you?)",
+      "options": [
+        "veces",
+        "años",
+        "tiempos",
+        "días"
+      ],
+      "correct": 1,
+      "explanation": "'¿Cuántos años tienes?' = How old are you? Literally: 'How many years do you have?'"
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: '___ camisa es azul.' (This shirt is blue.)",
+      "options": [
+        "Este",
+        "Esta",
+        "Estos",
+        "Estas"
+      ],
+      "correct": 1,
+      "explanation": "'Camisa' is feminine singular, so use 'Esta'. 'Esta camisa es azul.'"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Which is correct for 'She is wearing a dress'?",
+      "options": [
+        "Ella es un vestido.",
+        "Ella lleva un vestido.",
+        "Ella tiene un vestido.",
+        "Ella es vestido."
+      ],
+      "correct": 1,
+      "explanation": "'Llevar' is used for what someone is wearing. 'Ella lleva un vestido.' 'Ser' (es) cannot be used with clothing items."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Which clothing item is always plural in Spanish?",
+      "options": [
+        "el abrigo",
+        "la camisa",
+        "los pantalones",
+        "el sombrero"
+      ],
+      "correct": 2,
+      "explanation": "'Los pantalones' is always plural (like in English). 'El abrigo', 'la camisa', and 'el sombrero' are singular."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What does 'guapo/a' mean in Spanish?",
+      "options": [
+        "tall",
+        "thin",
+        "handsome/beautiful",
+        "old"
+      ],
+      "correct": 2,
+      "explanation": "'Guapo/a' = handsome (m.) / beautiful (f.). 'Alto/a' = tall. 'Delgado/a' = thin. 'Viejo/a' = old."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What is 'eyebrows' in Spanish?",
+      "options": [
+        "los ojos",
+        "las cejas",
+        "las pestañas",
+        "la nariz"
+      ],
+      "correct": 1,
+      "explanation": "'Las cejas' = eyebrows. 'Los ojos' = eyes. 'Las pestañas' = eyelashes. 'La nariz' = nose."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What is 'eyelashes' in Spanish?",
+      "options": [
+        "las cejas",
+        "los ojos",
+        "las pestañas",
+        "la frente"
+      ],
+      "correct": 2,
+      "explanation": "'Las pestañas' = eyelashes. 'Las cejas' = eyebrows. 'Los ojos' = eyes. 'La frente' = forehead."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: 'Yo ___ una chaqueta negra.' (I am wearing a black jacket.)",
+      "options": [
+        "soy",
+        "estoy",
+        "llevo",
+        "tengo"
+      ],
+      "correct": 2,
+      "explanation": "'Llevar' is used for wearing clothes. 'Yo llevo una chaqueta negra.'"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What is 'the shoes' (plural article + shoes)?",
+      "options": [
+        "la zapato",
+        "los zapatos",
+        "el zapatos",
+        "las zapatos"
+      ],
+      "correct": 1,
+      "explanation": "'Zapatos' is masculine plural. Los + zapatos = los zapatos."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What is 'the skirt'?",
+      "options": [
+        "el falda",
+        "la falda",
+        "los faldas",
+        "las falda"
+      ],
+      "correct": 1,
+      "explanation": "'Falda' is feminine singular. La + falda = la falda."
+    }
+  ]
+}

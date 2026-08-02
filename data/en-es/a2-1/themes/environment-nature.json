@@ -1,0 +1,300 @@
+{
+  "id": "environment-nature",
+  "level": "a2-1",
+  "title": "Environment & Nature",
+  "description": "Talk about nature, weather, seasons, environmental issues, and conservation using the imperfect for past descriptions, reflexive verbs for nature activities, and basic subjunctive for expressing environmental concerns.",
+  "vocabulary": [
+    {"id": 1, "target": "el medio ambiente", "source": "the environment", "gender": "m", "type": "noun"},
+    {"id": 2, "target": "la naturaleza", "source": "nature", "gender": "f", "type": "noun"},
+    {"id": 3, "target": "el clima", "source": "the climate", "gender": "m", "type": "noun"},
+    {"id": 4, "target": "la temperatura", "source": "the temperature", "gender": "f", "type": "noun"},
+    {"id": 5, "target": "la estación", "source": "the season", "gender": "f", "type": "noun"},
+    {"id": 6, "target": "la primavera", "source": "spring", "gender": "f", "type": "noun"},
+    {"id": 7, "target": "el verano", "source": "summer", "gender": "m", "type": "noun"},
+    {"id": 8, "target": "el otoño", "source": "autumn / fall", "gender": "m", "type": "noun"},
+    {"id": 9, "target": "el invierno", "source": "winter", "gender": "m", "type": "noun"},
+    {"id": 10, "target": "la temperatura", "source": "the temperature", "gender": "f", "type": "noun"},
+    {"id": 11, "target": "hacer calor", "source": "to be hot (weather)", "gender": "—", "type": "phrase"},
+    {"id": 12, "target": "hacer frío", "source": "to be cold (weather)", "gender": "—", "type": "phrase"},
+    {"id": 13, "target": "lluvioso", "source": "rainy", "gender": "adj", "type": "adj"},
+    {"id": 14, "target": "soleado", "source": "sunny", "gender": "adj", "type": "adj"},
+    {"id": 15, "target": "nublado", "source": "cloudy", "gender": "adj", "type": "adj"},
+    {"id": 16, "target": "ventoso", "source": "windy", "gender": "adj", "type": "adj"},
+    {"id": 17, "target": "nevar", "source": "to snow", "gender": "v", "type": "verb"},
+    {"id": 18, "target": "llover", "source": "to rain", "gender": "v", "type": "verb"},
+    {"id": 19, "target": "granizar", "source": "to hail", "gender": "v", "type": "verb"},
+    {"id": 20, "target": "tronar", "source": "to thunder", "gender": "v", "type": "verb"},
+    {"id": 21, "target": "relampaguear", "source": "to lightning", "gender": "v", "type": "verb"},
+    {"id": 22, "target": "la lluvia", "source": "the rain", "gender": "f", "type": "noun"},
+    {"id": 23, "target": "la nieve", "source": "the snow", "gender": "f", "type": "noun"},
+    {"id": 24, "target": "el granizo", "source": "the hail", "gender": "m", "type": "noun"},
+    {"id": 25, "target": "el rayo", "source": "the lightning bolt", "gender": "m", "type": "noun"},
+    {"id": 26, "target": "el trueno", "source": "the thunder", "gender": "m", "type": "noun"},
+    {"id": 27, "target": "el arcoíris", "source": "the rainbow", "gender": "m", "type": "noun"},
+    {"id": 28, "target": "la tormenta", "source": "the storm", "gender": "f", "type": "noun"},
+    {"id": 29, "target": "el huracán", "source": "the hurricane", "gender": "m", "type": "noun"},
+    {"id": 30, "target": "el terremoto", "source": "the earthquake", "gender": "m", "type": "noun"},
+    {"id": 31, "target": "el tsunami", "source": "the tsunami", "gender": "m", "type": "noun"},
+    {"id": 32, "target": "la sequía", "source": "the drought", "gender": "f", "type": "noun"},
+    {"id": 33, "target": "la inundación", "source": "the flood", "gender": "f", "type": "noun"},
+    {"id": 34, "target": "la contaminación", "source": "pollution", "gender": "f", "type": "noun"},
+    {"id": 35, "target": "el contaminante", "source": "the pollutant", "gender": "m", "type": "noun"},
+    {"id": 36, "target": "el reciclaje", "source": "recycling", "gender": "m", "type": "noun"},
+    {"id": 37, "target": "la basura", "source": "garbage / trash", "gender": "f", "type": "noun"},
+    {"id": 38, "target": "el plástico", "source": "plastic", "gender": "m", "type": "noun"},
+    {"id": 39, "target": "el vidrio", "source": "glass", "gender": "m", "type": "noun"},
+    {"id": 40, "target": "el papel", "source": "paper", "gender": "m", "type": "noun"},
+    {"id": 41, "target": "reducir", "source": "to reduce", "gender": "v", "type": "verb"},
+    {"id": 42, "target": "reciclar", "source": "to recycle", "gender": "v", "type": "verb"},
+    {"id": 43, "target": "reutilizar", "source": "to reuse", "gender": "v", "type": "verb"},
+    {"id": 44, "target": "proteger", "source": "to protect", "gender": "v", "type": "verb"},
+    {"id": 45, "target": "cuidar", "source": "to take care of", "gender": "v", "type": "verb"},
+    {"id": 46, "target": "salvar", "source": "to save (an animal/environment)", "gender": "v", "type": "verb"},
+    {"id": 47, "target": "contaminar", "source": "to pollute", "gender": "v", "type": "verb"},
+    {"id": 48, "target": "destruir", "source": "to destroy", "gender": "v", "type": "verb"},
+    {"id": 49, "target": "cortar (árboles)", "source": "to cut down (trees)", "gender": "v", "type": "phrase"},
+    {"id": 50, "target": "plantar", "source": "to plant", "gender": "v", "type": "verb"},
+    {"id": 51, "target": "la energía solar", "source": "solar energy", "gender": "f", "type": "noun"},
+    {"id": 52, "target": "la energía eólica", "source": "wind energy", "gender": "f", "type": "noun"},
+    {"id": 53, "target": "la energía renovable", "source": "renewable energy", "gender": "f", "type": "noun"},
+    {"id": 54, "target": "el gas natural", "source": "natural gas", "gender": "m", "type": "noun"},
+    {"id": 55, "target": "el petróleo", "source": "petroleum / oil", "gender": "m", "type": "noun"},
+    {"id": 56, "target": "el gas de efecto invernadero", "source": "greenhouse gas", "gender": "m", "type": "noun"},
+    {"id": 57, "target": "el calentamiento global", "source": "global warming", "gender": "m", "type": "noun"},
+    {"id": 58, "target": "el cambio climático", "source": "climate change", "gender": "m", "type": "noun"},
+    {"id": 59, "target": "el agujero de la capa de ozono", "source": "the ozone hole", "gender": "m", "type": "noun"},
+    {"id": 60, "target": "el río", "source": "the river", "gender": "m", "type": "noun"},
+    {"id": 61, "target": "el lago", "source": "the lake", "gender": "m", "type": "noun"},
+    {"id": 62, "target": "el mar", "source": "the sea", "gender": "m", "type": "noun"},
+    {"id": 63, "target": "el océano", "source": "the ocean", "gender": "m", "type": "noun"},
+    {"id": 64, "target": "la costa", "source": "the coast / shoreline", "gender": "f", "type": "noun"},
+    {"id": 65, "target": "la montaña", "source": "the mountain", "gender": "f", "type": "noun"},
+    {"id": 66, "target": "el bosque", "source": "the forest", "gender": "m", "type": "noun"},
+    {"id": 67, "target": "la selva", "source": "the jungle", "gender": "f", "type": "noun"},
+    {"id": 68, "target": "el desierto", "source": "the desert", "gender": "m", "type": "noun"},
+    {"id": 69, "target": "el prado", "source": "the meadow / field", "gender": "m", "type": "noun"},
+    {"id": 70, "target": "la playa", "source": "the beach", "gender": "f", "type": "noun"},
+    {"id": 71, "target": "el árbol", "source": "the tree", "gender": "m", "type": "noun"},
+    {"id": 72, "target": "la planta", "source": "the plant", "gender": "f", "type": "noun"},
+    {"id": 73, "target": "la flor", "source": "the flower", "gender": "f", "type": "noun"},
+    {"id": 74, "target": "el animal", "source": "the animal", "gender": "m", "type": "noun"},
+    {"id": 75, "target": "la planta", "source": "the plant", "gender": "f", "type": "noun"},
+    {"id": 76, "target": "en peligro de extinción", "source": "endangered", "gender": "adj", "type": "adj"},
+    {"id": 77, "target": "extinto/a", "source": "extinct", "gender": "adj", "type": "adj"},
+    {"id": 78, "target": "en peligro", "source": "in danger", "gender": "adj", "type": "adj"},
+    {"id": 79, "target": "natural", "source": "natural", "gender": "adj", "type": "adj"},
+    {"id": 80, "target": "artificial", "source": "artificial", "gender": "adj", "type": "adj"},
+    {"id": 81, "target": "limpio/a", "source": "clean", "gender": "adj", "type": "adj"},
+    {"id": 82, "target": "sucio/a", "source": "dirty", "gender": "adj", "type": "adj"},
+    {"id": 83, "target": "peligroso/a", "source": "dangerous", "gender": "adj", "type": "adj"},
+    {"id": 84, "target": "prohibido/a", "source": "forbidden / prohibited", "gender": "adj", "type": "adj"},
+    {"id": 85, "target": "necesario/a", "source": "necessary", "gender": "adj", "type": "adj"},
+    {"id": 86, "target": "importante", "source": "important", "gender": "adj", "type": "adj"},
+    {"id": 87, "target": "grave", "source": "serious / severe", "gender": "adj", "type": "adj"},
+    {"id": 88, "target": "preocupante", "source": "concerning / worrying", "gender": "adj", "type": "adj"},
+    {"id": 89, "target": "el parque natural", "source": "the nature park", "gender": "m", "type": "noun"},
+    {"id": 90, "target": "la reserva natural", "source": "the nature reserve", "gender": "f", "type": "noun"},
+    {"id": 91, "target": "la fauna", "source": "the wildlife / fauna", "gender": "f", "type": "noun"},
+    {"id": 92, "target": "la flora", "source": "the flora / plant life", "gender": "f", "type": "noun"},
+    {"id": 93, "target": "el ecosistema", "source": "the ecosystem", "gender": "m", "type": "noun"},
+    {"id": 94, "target": "caminar por la naturaleza", "source": "to hike through nature", "gender": "—", "type": "phrase"},
+    {"id": 95, "target": "acampar", "source": "to camp", "gender": "v", "type": "verb"},
+    {"id": 96, "target": "observar la naturaleza", "source": "to observe nature", "gender": "—", "type": "phrase"},
+    {"id": 97, "target": "hacer senderismo", "source": "to go hiking", "gender": "—", "type": "phrase"},
+    {"id": 98, "target": "pasear por el campo", "source": "to walk through the countryside", "gender": "—", "type": "phrase"},
+    {"id": 99, "target": "el cambio climático", "source": "climate change", "gender": "m", "type": "noun"},
+    {"id": 100, "target": "proteger la naturaleza", "source": "to protect nature", "gender": "—", "type": "phrase"}
+  ],
+  "grammar": [
+    {
+      "title": "Imperfect Tense — Describing Past Weather and Nature",
+      "content": "The imperfect is essential for describing what the weather was like in the past, setting the scene, and talking about past habits related to nature.\n\nImperfect conjugations:\n\n-AR verbs (caminar, plantar):\nYo caminaba, tú caminabas, él/ella caminaba, nosotros caminábamos, vosotros caminabais, ellos caminaban\n-ER verbs (lllover → llover): llover is regular\n-IR verbs (nevar): Yo nevaba, tú nevabas, él/ella nevaba, nosotros nevábamos, vosotros nevabais, ellos nevaban\n\nSpecial: The verb llover (to rain) in imperfect\n- Yo llovía — but in practice, impersonal: Llovía (It was raining)\n\nImpersonal weather expressions in imperfect (always 3rd person singular):\n- Hacía sol (The sun was shining)\n- Hacía calor (It was hot)\n- Hacía frío (It was cold)\n- Hacía viento (It was windy)\n- Hacía buen/mal tiempo (The weather was good/bad)\n- Llovía (It was raining)\n- Nevaba (It was snowing)\n- Había niebla (There was fog)\n- Había nubes (There were clouds)\n\nUse the imperfect for:\n- Describing past weather: Ayer hacía mucho frío. (Yesterday it was very cold.)\n- Setting the scene in a story: Era un día nublado y hacía viento. (It was a cloudy day and it was windy.)\n- Repeated/habitual weather patterns: En mi país, en invierno siempre nevaba. (In my country, it always snowed in winter.)\n\nExamples:\n- Cuando era niño, en verano siempre hacía calor. (When I was a child, it was always hot in summer.)\n- Ayer por la mañana hacía sol, pero por la tarde llovía. (Yesterday morning it was sunny, but in the afternoon it was raining.)\n- En las montañas, en invierno siempre nevaba mucho. (In the mountains, it always snowed a lot in winter.)",
+      "examples": [
+        "Cuando era niño, en verano siempre hacía sol y hacíamos excursiones. (When I was a child, it was always sunny in summer and we went on outings.)",
+        "Ayer llovía todo el día. (Yesterday it rained all day.)",
+        "En otoño, hacía viento y las hojas caían de los árboles. (In autumn, it was windy and the leaves fell from the trees.)",
+        "En mi ciudad, en invierno siempre hacía frío. (In my city, it was always cold in winter.)"
+      ],
+      "aid_note": "Romanian uses the imperfect ('mergeam', 'plouam') for repeated past actions, similar to Spanish. The key difference is Spanish uses the imperfect much more broadly — for descriptions, atmosphere, and setting scenes. For Romanian speakers: HACÍA (impersonal weather) has no direct Romanian equivalent; Romanian uses 'era' (era cald, era frig). Think of Spanish HACÍA for weather as Romanian ERA + context. Both llovía and nevaba are regular — similar to Romanian 'plouam' / 'ningea'."
+    },
+    {
+      "title": "Reflexive Verbs — Nature Activities and Daily Routines",
+      "content": "Reflexive verbs are used for activities done to oneself, including daily routines and nature-related activities.\n\nFormation: reflexive pronoun + conjugated verb\nMe (I) - Te (you informal) - Se (he/she/you formal)\nNos (we) - Os (you all — Spain) - Se (they/you all)\n\nCommon nature and activity reflexive verbs:\n- levantarse (to get up) — Me levanto temprano para caminar.\n- acostarse (to go to bed) — Me acuesto tarde cuando hago senderismo.\n- divertirse (to have fun) — Nos divertimos en la playa. (e→ie stem change)\n- relajarse (to relax) — Me relajo en el bosque.\n- preparar (se) (to prepare oneself) — Nos preparamos para la excursión.\n- bañarse (to swim / bathe) — Se baña en el lago.\n- descalzarse (to take off one's shoes) — Me descalzo en la playa.\n\nStem-changing reflexive verbs:\n- e → ie: divertirse (me divierto, te diviertes, se divierte, nos divertimos)\n- o → ue: acostarse (me acuesto, te acuestas, se acuesta, nos acostamos)\n\nPosition of reflexive pronouns:\n1. Before conjugated verb: Me levanto temprano.\n2. Attached to infinitive: Voy a bañarme.\n3. Attached to gerund: Estoy relajándome.\n\nExamples:\n- Los domingos nos levantamos temprano para acampar. (On Sundays we get up early to camp.)\n- Me gusta bañarme en el río cuando hace calor. (I like to swim in the river when it's hot.)\n- En vacaciones nos divertimos mucho en la playa. (On vacation we have a lot of fun at the beach.)\n- Se bañó en el lago ayer. (He/she swam in the lake yesterday.)",
+      "examples": [
+        "Los sábados me levanto temprano para hacer senderismo. (On Saturdays I get up early to go hiking.)",
+        "Nos divertimos mucho en el parque natural. (We have a lot of fun at the nature park.)",
+        "Mi familia se acuesta tarde en verano. (My family goes to bed late in summer.)",
+        "¿Te relajas en la playa? (Do you relax at the beach?)",
+        "Ellos se bañaron en el mar ayer. (They swam in the sea yesterday.)"
+      ],
+      "aid_note": "Romanian reflexive verbs use the particle 'se' attached to the verb: 'mă trezesc' (I wake up), 'ne distram' (we have fun). This is very similar to Spanish. The key differences: 1) Spanish can attach the reflexive pronoun to infinitives and gerunds (me levanto = voy a levantarme), which Romanian doesn't do the same way. 2) Spanish reflexive verbs often have stem changes (divertirse: e→ie). The concept is the same — actions done to oneself. For Romanian speakers: divertirse = 'ne distram', bañarse = 'ne scăldăm', levantarse = 'ne trezim'."
+    },
+    {
+      "title": "Direct & Indirect Object Pronouns — Talking About Environmental Actions",
+      "content": "Object pronouns replace nouns to avoid repetition. This is essential when discussing environmental actions and practices.\n\nDirect Object Pronouns (replaces the thing being acted upon):\n- lo / la (him / her / it — masculine / feminine)\n- los / las (them — masculine / feminine)\n\nIndirect Object Pronouns (replaces the person receiving the action):\n- me (to me)\n- te (to you — informal)\n- le (to him / her / you formal)\n- nos (to us)\n- les (to them / you all)\n\nWhere they go:\n1. Before conjugated verb: Lo protejo. (I protect it.)\n2. Attached to infinitive: Voy a reciclarlo. (I'm going to recycle it.)\n3. Attached to gerund: Estoy reciclándolo. (I'm recycling it.)\n\nKey examples with environment:\n- ¿Reciclamos el papel? Sí, lo reciclamos. (Do we recycle paper? Yes, we recycle it.)\n- No contaminamos el río. (We don't pollute the river.)\n- Le damos el agua a los niños. (We give the water to the children.)\n- Les damos comida a los animales. (We give food to the animals.)\n- Protejo la naturaleza porque es importante. (I protect nature because it's important.)\n- La protejo todos los días. (I protect it every day.)\n\nLo/La → Los/Las agreement:\n- El plástico lo tiramos al contenedor. (We throw the plastic in the bin.) — 'el plástico' → 'lo'\n- Las botellas las reciclamos. (We recycle the bottles.) — 'las botellas' → 'las'\n\nDouble object pronouns (indirect + direct):\n- Le lo → Se lo (when both are 3rd person)\n- Les lo → Se lo\nExample: Le doy el libro → Se lo doy. (I give him the book → I give it to him.)\nEnvironmental example: Le damos agua a las plantas → Se la damos. (We give water to the plants → We give it to them.)",
+      "examples": [
+        "¿Reciclamos el vidrio? Sí, lo reciclamos todos los días. (Do we recycle glass? Yes, we recycle it every day.)",
+        "No contaminamos el océano. (We don't pollute the ocean.)",
+        "Les protegemos la fauna. (We protect the wildlife for them.)",
+        "Le damos agua a las plantas. Se la damos todos los días. (We give water to the plants. We give it to them every day.)",
+        "Protejo la reserva natural porque es importante. La protejo todos los años. (I protect the nature reserve because it's important. I protect it every year.)"
+      ],
+      "aid_note": "Romanian also has object pronouns (îl/îi, le, îi), but the placement is similar to Spanish — before the verb. The key difference is Spanish uses 'lo/la/los/las' which agree in gender and number, while Romanian uses 'îl/îi' (masc.) and 'o/le' (fem.). Spanish double object pronouns merge 'le lo' → 'se lo', which is a unique Spanish feature. For Romanian speakers: remember that Spanish object pronouns are placed BEFORE the conjugated verb, similar to Romanian (îl protej = lo protejo), but can attach to infinitives (protejarlo), which Romanian doesn't do."
+    },
+    {
+      "title": "Basic Subjunctive — Expressing Environmental Hopes and Concerns",
+      "content": "The present subjunctive is used to express wishes, hopes, doubts, and concerns — all very relevant when discussing environmental issues.\n\nPresent subjunctive formation:\n- -AR verbs: take -ER endings → hablar → hable, hables, hable, hablemos, habléis, hablen\n- -ER verbs: take -AR endings → llover → llovía → llueva, lluevas, llueva, lluviamos, lluveis, lluevan\n- -IR verbs: take -AR endings → nevar → nevamos → nevemos (stem change e→ie: nieva → nieve)\n\nIrregular present subjunctive:\n- ser: sea, seas, sea, seamos, seáis, sean\n- estar: esté, estés, esté, estemos, estéis, estén\n- tener: tenga, tengas, tenga, tengamos, tengáis, tengan\n- ir: vaya, vayas, vaya, vayamos, vayáis, vayan\n- poder: pueda, puedas, pueda, podamos, podáis, puedan\n- hacer: haga, hagás, haga, hagamos, hagáis, hagan\n- saber: sepa, sepas, sepa, sepamos, sepáis, sepan\n\nTriggers for subjunctive:\n- Ojalá (que) + subjunctive: Ojalá que no llueva. (Hopefully it doesn't rain.)\n- Esperar que + subjunctive: Espero que protejamos la naturaleza. (I hope we protect nature.)\n- Querer que + subjunctive: Quiero que reciclen más. (I want them to recycle more.)\n- Necesitar que + subjunctive: Necesito que limpien el río. (I need them to clean the river.)\n- Es importante que + subjunctive: Es importante que cuidemos el medio ambiente. (It's important that we take care of the environment.)\n- Es necesario que + subjunctive: Es necesario que reduzcan la contaminación. (It's necessary that they reduce pollution.)\n- Me preocupa que + subjunctive: Me preocupa que el clima cambie. (I'm worried that the climate is changing.)\n\nEnvironmental subjunctive examples:\n- Ojalá que no se acabe el agua. (I hope water doesn't run out.)\n- Espero que llueva mañana. (I hope it rains tomorrow.)\n- Es necesario que protejamos el bosque. (It's necessary that we protect the forest.)\n- Quiero que reciclen el plástico. (I want them to recycle the plastic.)\n- Me preocupa que las plantas se sequen. (I'm worried that the plants are drying up.)",
+      "examples": [
+        "Ojalá que no haga tanto calor este verano. (I hope it's not so hot this summer.)",
+        "Esperamos que protejan el medio ambiente. (We hope they protect the environment.)",
+        "Es importante que limpiemos la playa. (It's important that we clean the beach.)",
+        "Quiero que reduzcan la contaminación. (I want them to reduce pollution.)",
+        "Me preocupa que los animales estén en peligro. (I'm worried that the animals are in danger.)",
+        "Necesitamos que todos reciclen más. (We need everyone to recycle more.)"
+      ],
+      "aid_note": "Romanian uses the subjunctive less frequently than Spanish. The closest Romanian equivalent is 'să' + present tense: 'Sper să plouă' (I hope it rains), 'E important să protejăm' (It's important to protect). The Spanish subjunctive works similarly but is grammatically mandatory after many expressions that Romanian would use with 'să.' For Romanian speakers: the subjunctive in Spanish is often triggered by expressions like 'esperar que,' 'querer que,' 'es importante que' — these all correspond to Romanian 'să' constructions. The key insight is: whenever you'd use 'să' in Romanian after a main clause, check if you need subjunctive in Spanish."
+    }
+  ],
+  "pronunciation": {
+    "title": "Environment & Nature Pronunciation — Weather and Scientific Vocabulary",
+    "content": "Pronouncing environmental and weather vocabulary clearly helps you discuss important topics naturally.\n\nKey pronunciation patterns:\n\n1. Trailing '-ción' and '-sión' (stress on the 's' sound):\n   - la contaminación = lah-kon-tah-mee-nah-SEE-ohn\n   - la situación = sah-woo-ah-SEE-ohn\n   - la nación = nah-SEE-ohn\n   - la presión = preh-SEE-ohn\n   Note: '-ción' sounds like 'see-OHN' (soft s + i + on)\n\n2. Trailing '-miento' (stress on 'mien'):\n   - el movimiento = meh-vee-MYEN-toh\n   - el pensamiento = pen-see-MAHEN-toh\n\n3. 'ñ' (ny sound):\n   - el año = AH-nyoh\n   - la montaña = mohn-TAH-nyah\n   - la nieve = NEE-beh\n\n4. 'll' (y sound in most regions):\n   - la lluvia = YOO-ah\n   - el río = REE-oh\n\n5. Stress on final '-ma' (Greek loans):\n   - el clima = KLEE-mah\n   - el sistema = see-STEM-ah\n\n6. Stress on final '-na' (Greek loans):\n   - la naturaleza = nah-toh-RAH-see-ah\n   - la energía = en-er-HEE-ah\n\n7. Silent 'h':\n   - el huracán = oo-rah-KAHN (first 'h' is silent)\n   - la hierba = YER-bah\n\n8. Double 'rr' (rolled 'r'):\n   - el río = REE-oh (single r)\n   - el carro = KAR-roh\n\n9. 'qu' before 'e/i' (hard k sound):\n   - el plástico = plás-TEE-koh\n   - la sequía = seh-KEE-ah\n\n10. 'g' before 'e/i' (soft g, like harsh 'h'):\n    - el gas = gahs\n    - el gigante = hee-GAHN-teh\n    - la energía = en-er-GEE-ah\n\nCommon nature words — pronunciation guide:\n- clima = KLEE-mah (stress on 'KLEE')\n- naturaleza = nah-toh-RAH-see-ah (stress on 'RAH')\n- montaña = mohn-TAH-nyah (stress on 'TAH')\n- tormenta = tor-MEN-tah (stress on 'MEN')\n- invierno = een-BYER-noh (stress on 'BYER')\n- verano = bair-AH-noh (stress on 'BAH')\n- verano = bair-AH-noh (stress on 'BAH')\n- calor = kah-LOOR (stress on 'LOOR')\n- frío = free-oh (stress on 'free')\n- llueve = YOO-beh (the 'll' = 'y', stress on 'YOO')\n- nieve = NEE-beh (stress on 'NEE')\n- reciclaje = rek-see-KLA-heh (stress on 'KLA')\n- plástico = plás-TEE-koh (stress on 'PLAS')\n- contaminación = kon-tah-mee-nah-see-OHN (stress on 'see-OHN')\n- temperatura = tem-peh-RAH-tah (stress on 'RAH')\n- ecosistema = e-koh-see-STEM-ah (stress on 'STEM')\n- fauna = FAH-nah (stress on 'FAH')\n- flora = FLOR-ah (stress on 'FLOR')"
+  },
+  "exercises": [
+    {
+      "type": "multiple-choice",
+      "question": "Which sentence correctly uses the imperfect to describe past weather?",
+      "options": ["Ayer hizo mucho calor.", "Ayer hacía mucho calor.", "Ayer hace mucho calor.", "Ayer haré mucho calor."],
+      "correct": 1,
+      "explanation": "'Hacía' is the imperfect of 'hacer,' used for descriptions in the past. 'Ayer hacía mucho calor' = Yesterday it was very hot. 'Hizo' (preterite) would be for a completed event, not a description."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What does 'Ojalá que no llueva' mean?",
+      "options": ["It will surely rain.", "Hopefully it doesn't rain.", "It rained yesterday.", "I don't want rain."],
+      "correct": 1,
+      "explanation": "'Ojalá (que)' + subjunctive expresses hope. 'Ojalá que no llueva' = 'Hopefully it doesn't rain.' The subjunctive 'llueva' (from llover) is required after 'ojalá.'"
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete with the correct imperfect form: 'Cuando era niño, en verano siempre ___ (hacer) sol.'",
+      "correct": "hacía",
+      "explanation": "'Hacía' is the imperfect of 'hacer' — 'When I was a child, it was always sunny in summer.' The imperfect is used for habitual past descriptions."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Which reflexive verb means 'to swim / bathe'?",
+      "options": ["divertirse", "bañarse", "levantarse", "relajarse"],
+      "correct": 1,
+      "explanation": "'Bañarse' means 'to swim / bathe.' 'Divertirse' = to have fun, 'levantarse' = to get up, 'relajarse' = to relax."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete with the correct direct object pronoun: '¿Reciclamos el plástico? Sí, ___ reciclamos.'",
+      "correct": "lo",
+      "explanation": "'El plástico' is masculine singular, so the direct object pronoun is 'lo.' 'Sí, lo reciclamos' = Yes, we recycle it."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Which word means 'pollution' in Spanish?",
+      "options": ["la naturaleza", "la contaminación", "el reciclaje", "la temperatura"],
+      "correct": 1,
+      "explanation": "'La contaminación' means 'pollution.' 'La naturaleza' = nature, 'el reciclaje' = recycling, 'la temperatura' = temperature."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete with the correct subjunctive: 'Es importante que ___ (cuidar) la naturaleza.'",
+      "correct": "cuidemos",
+      "explanation": "'Es importante que' triggers the subjunctive. 'Cuidar' (AR verb) in subjunctive nosotros form: 'cuidemos.' 'Es importante que cuidemos la naturaleza' = It's important that we take care of nature."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What does 'La lluvia' mean?",
+      "options": ["The snow", "The rain", "The fog", "The storm"],
+      "correct": 1,
+      "explanation": "'La lluvia' means 'the rain.' 'La nieve' = snow, 'la niebla' = fog, 'la tormenta' = storm."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete with the correct indirect object pronoun: '___ damos agua a los animales.' (We give water to the animals.)",
+      "correct": "Les",
+      "explanation": "'Les' is the third-person plural indirect object pronoun — 'to them.' 'Les damos agua a los animales' = We give water to the animals. (Note: 'les' can also be replaced by 'se' in double pronoun constructions: 'Se la damos.') "
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Which of these is a renewable energy source?",
+      "options": ["el petróleo", "el gas natural", "la energía solar", "el carbón"],
+      "correct": 2,
+      "explanation": "'La energía solar' = solar energy, which is renewable. 'El petróleo' (oil), 'el gas natural' (natural gas), and 'el carbón' (coal) are fossil fuels and not renewable."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete with the correct subjunctive of 'estar': 'Me preocupa que los animales ___ (estar) en peligro.'",
+      "correct": "estén",
+      "explanation": "'Me preocupa que' triggers the subjunctive. 'Estar' in subjunctive ellos/ellas form: 'estén.' 'Me preocupa que los animales estén en peligro' = I'm worried that the animals are in danger."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Which expression means 'to be cold (weather)' in Spanish?",
+      "options": ["tiene frío", "hace frío", "está frío", "es frío"],
+      "correct": 1,
+      "explanation": "'Hace frío' is the impersonal expression for 'It is cold (weather).' 'Tiene frío' = He/she is cold (feeling cold), 'está frío' = it is cold (a thing), 'es frío' = it is cold (inherent quality)."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: 'En invierno, en las montañas siempre ___ (nevar).'",
+      "correct": "nevaba",
+      "explanation": "'Nevar' (to snow) is an AR verb. In the imperfect: 'nevaba' (he/she/it was snowing). 'En invierno, en las montañas siempre nevaba' = In winter, it always snowed in the mountains."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What does 'en peligro de extinción' mean?",
+      "options": ["in danger of extinction", "in danger of growth", "in danger of death", "in danger of change"],
+      "correct": 0,
+      "explanation": "'En peligro de extinción' means 'endangered / in danger of extinction.' 'Extinción' = extinction. This phrase describes animals or plants at risk of disappearing forever."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete with the correct reflexive pronoun: 'Nos ___ (preparar) para la excursión al bosque.'",
+      "correct": "preparamos",
+      "explanation": "'Prepararse' = to prepare oneself. 'Nos preparamos para la excursión al bosque' = We prepare ourselves for the hike to the forest. 'Nos' is the reflexive pronoun for 'nosotros.'"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Which sentence correctly uses a direct object pronoun?",
+      "options": [
+        "Protejo el bosque porque me gusta.",
+        "Lo protejo porque es importante.",
+        "Protejo lo porque es importante.",
+        "Lo protejo porque le gusta."
+      ],
+      "correct": 1,
+      "explanation": "'Lo protejo porque es importante' = I protect it because it's important. 'Lo' replaces a masculine singular direct object (el bosque, el río, etc.). 'Lo' goes before the conjugated verb."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete with the correct subjunctive of 'tener': 'Es necesario que nosotros ___ (tener) cuidado con el medio ambiente.'",
+      "correct": "tengamos",
+      "explanation": "'Es necesario que' triggers the subjunctive. 'Tener' is irregular in the subjunctive. Nosotros form: 'tengamos.' 'Es necesario que tengamos cuidado con el medio ambiente' = It's necessary that we be careful with the environment."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What does 'el calentamiento global' mean?",
+      "options": ["The cooling effect", "Global warming", "The greenhouse effect", "Climate change"],
+      "correct": 1,
+      "explanation": "'El calentamiento global' means 'global warming.' 'Calentamiento' comes from 'calentar' (to heat up). 'El cambio climático' = climate change (related but distinct concept)."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete with the correct form: 'Llovía todo el día pero ahora ___ (hacer) sol.'",
+      "correct": "hace",
+      "explanation": "The first part uses imperfect 'llovía' (past), but 'ahora' (now) requires the present: 'hace.' 'Pero ahora hace sol' = but now it's sunny."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What does 'hacer senderismo' mean?",
+      "options": ["to go skiing", "to go hiking", "to go swimming", "to go camping"],
+      "correct": 1,
+      "explanation": "'Hacer senderismo' means 'to go hiking.' Senderismo comes from 'sendero' (path/trail). 'Acampar' = to camp, 'nadar' = to swim, 'esquiar' = to ski."
+    }
+  ]
+}

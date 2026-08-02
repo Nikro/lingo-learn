@@ -1,0 +1,361 @@
+{
+  "id": "social-interactions",
+  "level": "a1-2",
+  "title": "Social Interactions",
+  "description": "Learn to greet, introduce yourself, show politeness, express feelings, and handle common social situations in Spanish.",
+  "vocabulary": [
+    {"id": 1, "target": "hola", "source": "hello/hi", "gender": "m", "type": "expression"},
+    {"id": 2, "target": "buenos días", "source": "good morning", "gender": "m", "type": "expression"},
+    {"id": 3, "target": "buenas tardes", "source": "good afternoon", "gender": "f", "type": "expression"},
+    {"id": 4, "target": "buenas noches", "source": "good evening/night", "gender": "f", "type": "expression"},
+    {"id": 5, "target": "adiós", "source": "goodbye", "gender": "m", "type": "expression"},
+    {"id": 6, "target": "hasta luego", "source": "see you later", "gender": "m", "type": "expression"},
+    {"id": 7, "target": "hasta mañana", "source": "see you tomorrow", "gender": "m", "type": "expression"},
+    {"id": 8, "target": "hasta pronto", "source": "see you soon", "gender": "m", "type": "expression"},
+    {"id": 9, "target": "hasta siempre", "source": "see you always", "gender": "m", "type": "expression"},
+    {"id": 10, "target": "buenas noches", "source": "good night (farewell)", "gender": "f", "type": "expression"},
+    {"id": 11, "target": "por favor", "source": "please", "gender": "m", "type": "expression"},
+    {"id": 12, "target": "gracias", "source": "thank you", "gender": "m", "type": "expression"},
+    {"id": 13, "target": "muchas gracias", "source": "thank you very much", "gender": "m", "type": "expression"},
+    {"id": 14, "target": "de nada", "source": "you're welcome", "gender": "m", "type": "expression"},
+    {"id": 15, "target": "perdón", "source": "sorry/pardon", "gender": "m", "type": "expression"},
+    {"id": 16, "target": "disculpe", "source": "excuse me (formal)", "gender": "m", "type": "expression"},
+    {"id": 17, "target": "disculpa", "source": "excuse me (informal)", "gender": "m", "type": "expression"},
+    {"id": 18, "target": "lo siento", "source": "I'm sorry", "gender": "m", "type": "expression"},
+    {"id": 19, "target": "¿cómo estás?", "source": "how are you? (informal)", "gender": "m", "type": "expression"},
+    {"id": 20, "target": "¿cómo está usted?", "source": "how are you? (formal)", "gender": "m", "type": "expression"},
+    {"id": 21, "target": "¿cómo te llamas?", "source": "what's your name? (informal)", "gender": "m", "type": "expression"},
+    {"id": 22, "target": "¿cómo se llama usted?", "source": "what's your name? (formal)", "gender": "m", "type": "expression"},
+    {"id": 23, "target": "encantado/a", "source": "nice to meet you (m/f)", "gender": "m", "type": "expression"},
+    {"id": 24, "target": "mucho gusto", "source": "nice to meet you", "gender": "m", "type": "expression"},
+    {"id": 25, "target": "bien", "source": "well/fine", "gender": "m", "type": "adverb"},
+    {"id": 26, "target": "mal", "source": "badly", "gender": "m", "type": "adverb"},
+    {"id": 27, "target": "más o menos", "source": "so-so/so-so", "gender": "m", "type": "expression"},
+    {"id": 28, "target": "genial", "source": "great/awesome", "gender": "m", "type": "adjective"},
+    {"id": 29, "target": "fantástico", "source": "fantastic", "gender": "m", "type": "adjective"},
+    {"id": 30, "target": "cansado/a", "source": "tired", "gender": "m", "type": "adjective"},
+    {"id": 31, "target": "amigo", "source": "friend (m)", "gender": "m", "type": "noun"},
+    {"id": 32, "target": "amiga", "source": "friend (f)", "gender": "f", "type": "noun"},
+    {"id": 33, "target": "compañero", "source": "companion/colleague (m)", "gender": "m", "type": "noun"},
+    {"id": 34, "target": "compañera", "source": "companion/colleague (f)", "gender": "f", "type": "noun"},
+    {"id": 35, "target": "conocido/a", "source": "acquaintance", "gender": "m", "type": "noun"},
+    {"id": 36, "target": "vecino", "source": "neighbor (m)", "gender": "m", "type": "noun"},
+    {"id": 37, "target": "vecina", "source": "neighbor (f)", "gender": "f", "type": "noun"},
+    {"id": 38, "target": "familia", "source": "family", "gender": "f", "type": "noun"},
+    {"id": 39, "target": "pareja", "source": "partner/spouse", "gender": "m/f", "type": "noun"},
+    {"id": 40, "target": "padre", "source": "father", "gender": "m", "type": "noun"},
+    {"id": 41, "target": "madre", "source": "mother", "gender": "f", "type": "noun"},
+    {"id": 42, "target": "hermano", "source": "brother", "gender": "m", "type": "noun"},
+    {"id": 43, "target": "hermana", "source": "sister", "gender": "f", "type": "noun"},
+    {"id": 44, "target": "niño/a", "source": "child/boy/girl", "gender": "m", "type": "noun"},
+    {"id": 45, "target": "persona", "source": "person", "gender": "m/f", "type": "noun"},
+    {"id": 46, "target": "gente", "source": "people", "gender": "f", "type": "noun"},
+    {"id": 47, "target": "señor", "source": "mr./sir", "gender": "m", "type": "noun"},
+    {"id": 48, "target": "señora", "source": "mrs./madam", "gender": "f", "type": "noun"},
+    {"id": 49, "target": "señorita", "source": "miss/mrsgo", "gender": "f", "type": "noun"},
+    {"id": 50, "target": "favor", "source": "favor", "gender": "m", "type": "noun"},
+    {"id": 51, "target": "saludo", "source": "greeting", "gender": "m", "type": "noun"},
+    {"id": 52, "target": "cariño", "source": "affection", "gender": "m", "type": "noun"},
+    {"id": 53, "target": "respeto", "source": "respect", "gender": "m", "type": "noun"},
+    {"id": 54, "target": "simpatía", "source": "friendliness/kindness", "gender": "f", "type": "noun"},
+    {"id": 55, "target": "vergüenza", "source": "embarrassment/shyness", "gender": "f", "type": "noun"},
+    {"id": 56, "target": "gustar", "source": "to like", "gender": "m", "type": "verb"},
+    {"id": 57, "target": "encantar", "source": "to love/adore", "gender": "m", "type": "verb"},
+    {"id": 58, "target": "parecer", "source": "to seem/appear", "gender": "m", "type": "verb"},
+    {"id": 59, "target": "llamar", "source": "to call/name", "gender": "m", "type": "verb"},
+    {"id": 60, "target": "conocer", "source": "to know (a person/place)", "gender": "m", "type": "verb"},
+    {"id": 61, "target": "saludar", "source": "to greet", "gender": "m", "type": "verb"},
+    {"id": 62, "target": "presentar", "source": "to introduce", "gender": "m", "type": "verb"},
+    {"id": 63, "target": "invitar", "source": "to invite", "gender": "m", "type": "verb"},
+    {"id": 64, "target": "visitar", "source": "to visit", "gender": "m", "type": "verb"},
+    {"id": 65, "target": "hablar", "source": "to speak/talk", "gender": "m", "type": "verb"},
+    {"id": 66, "target": "escuchar", "source": "to listen", "gender": "m", "type": "verb"},
+    {"id": 67, "target": "mirar", "source": "to look at/watch", "gender": "m", "type": "verb"},
+    {"id": 68, "target": "esperar", "source": "to wait/expect", "gender": "m", "type": "verb"},
+    {"id": 69, "target": "recordar", "source": "to remember", "gender": "m", "type": "verb"},
+    {"id": 70, "target": "olvidar", "source": "to forget", "gender": "m", "type": "verb"},
+    {"id": 71, "target": "aprender", "source": "to learn", "gender": "m", "type": "verb"},
+    {"id": 72, "target": "entender", "source": "to understand", "gender": "m", "type": "verb"},
+    {"id": 73, "target": "querer", "source": "to want/love", "gender": "m", "type": "verb"},
+    {"id": 74, "target": "necesitar", "source": "to need", "gender": "m", "type": "verb"},
+    {"id": 75, "target": "agradecer", "source": "to thank/grateful", "gender": "m", "type": "verb"},
+    {"id": 76, "target": "pedir", "source": "to ask for/request", "gender": "m", "type": "verb"},
+    {"id": 77, "target": "amable", "source": "kind/nice", "gender": "m", "type": "adjective"},
+    {"id": 78, "target": "simpático/a", "source": "nice/friendly (m/f)", "gender": "m", "type": "adjective"},
+    {"id": 79, "target": "educado/a", "source": "polite (m/f)", "gender": "m", "type": "adjective"},
+    {"id": 80, "target": "cariñoso/a", "source": "affectionate (m/f)", "gender": "m", "type": "adjective"},
+    {"id": 81, "target": "respetuoso/a", "source": "respectful (m/f)", "gender": "m", "type": "adjective"},
+    {"id": 82, "target": "tímido/a", "source": "shy (m/f)", "gender": "m", "type": "adjective"},
+    {"id": 83, "target": "contento/a", "source": "happy (m/f)", "gender": "m", "type": "adjective"},
+    {"id": 84, "target": "triste", "source": "sad", "gender": "m", "type": "adjective"},
+    {"id": 85, "target": "rudo/a", "source": "rude (m/f)", "gender": "m", "type": "adjective"},
+    {"id": 86, "target": "nervioso/a", "source": "nervous (m/f)", "gender": "m", "type": "adjective"},
+    {"id": 87, "target": "aquí", "source": "here", "gender": "m", "type": "adverb"},
+    {"id": 88, "target": "allí/allá", "source": "there", "gender": "m", "type": "adverb"},
+    {"id": 89, "target": "ahora", "source": "now", "gender": "m", "type": "adverb"},
+    {"id": 90, "target": "después", "source": "after/afterwards", "gender": "m", "type": "adverb"},
+    {"id": 91, "target": "también", "source": "also/too", "gender": "m", "type": "adverb"},
+    {"id": 92, "target": "sí", "source": "yes", "gender": "m", "type": "adverb"},
+    {"id": 93, "target": "no", "source": "no/not", "gender": "m", "type": "adverb"},
+    {"id": 94, "target": "claramente", "source": "clearly", "gender": "m", "type": "adverb"},
+    {"id": 95, "target": "siempre", "source": "always", "gender": "m", "type": "adverb"},
+    {"id": 96, "target": "nunca", "source": "never", "gender": "m", "type": "adverb"},
+    {"id": 97, "target": "alguna vez", "source": "ever/once", "gender": "f", "type": "phrase"},
+    {"id": 98, "target": "una vez", "source": "once", "gender": "f", "type": "phrase"},
+    {"id": 99, "target": "otra vez", "source": "again", "gender": "f", "type": "phrase"},
+    {"id": 100, "target": "por favor", "source": "please", "gender": "m", "type": "phrase"}
+  ],
+  "grammar": [
+    {
+      "title": "Ser + adjetivo — To Be (describing personality/appearance)",
+      "content": "Use SER to describe personality traits and permanent qualities. This is how you say someone IS a certain way.\\n\\nConjugation:\\nYo soy (I am)\\nTú eres (You are — informal)\\nÉl/Ella/Usted es (He/She/You formal is)\\nNosotros/Nosotras somos (We are)\\nVosotros/Vosotras sois (You all are — Spain)\\nEllos/Ellas/Ustedes son (They/You all are)\\n\\nPersonality traits:\\nSoy amable. (I'm kind.)\\nEres simpático. (You're nice.)\\nEs educada. (She's polite.)\\nSomos cariñosos. (We're affectionate.)\\nSon respetuosos. (They're respectful.)\\n\\nAgreeing in gender/number:\\nSoy tímida. (I'm shy — female speaker)\\nEres tímido. (You're shy — male listener)\\nSomos tímidas. (We're shy — all female group)\\nSon simpáticos. (They're nice — mixed/male group)\\n\\nAsking about personality:\\n¿Eres simpático? (Are you nice?)\\n¿Es amable? (Is he/she kind?)\\n¿Sois educados? (Are you polite — Spain?)\\n\\nEjemplos:\\nSoy una persona amable y educada. (I'm a kind and polite person.)\\nMi hermana es muy simpática. (My sister is very nice.)\\nMis amigos son divertidos y cariñosos. (My friends are fun and affectionate.)",
+      "examples": [
+        "¿Eres tímido? (Are you shy?)\\nSí, soy un poco tímido. (Yes, I'm a bit shy.)\\n¿Eres educada? (Are you polite?)\\nNo, soy un poco rudo. (No, I'm a bit rude.)",
+        "Soy amable y simpático. (I'm kind and nice.)\\nÉl es muy respetuoso. (He's very respectful.)\\n¿Es cariñosa? (Is she affectionate?)\\nSí, es muy cariñosa. (Yes, she's very affectionate.)",
+        "Somos muy contentos. (We're very happy.)\\nSon nerviosos antes del examen. (They're nervous before the exam.)\\n¿Por qué es tan triste? (Why is he/she so sad?)"
+      ]
+    },
+    {
+      "title": "Estar + de/por/para + sentimiento — To Be (temporarily feeling)",
+      "content": "Use ESTAR for temporary emotional states. Unlike SER (permanent traits), ESTAR describes how you feel RIGHT NOW.\\n\\nConjugation:\\nYo estoy (I am)\\nTú estás (You are — informal)\\nÉl/Ella/Usted está (He/She/You formal is)\\nNosotros/Nosotras estamos (We are)\\nVosotros/Vosotras estáis (You all are — Spain)\\nEllos/Ellas/Ustedes están (They/You all are)\\n\\nTemporary feelings:\\nEstoy contento/a. (I'm happy.)\\nEstás triste. (You're sad.)\\nEstá nervioso/a. (He/She's nervous.)\\nEstamos cansados/as. (We're tired.)\\nEstán contentos/as. (They're happy.)\\n\\nCommon feeling expressions:\\nEstoy bien. (I'm fine.)\\nEstoy mal. (I'm not well.)\\nEstoy cansado/a. (I'm tired.)\\nEstoy aburrido/a. (I'm bored.)\\nEstoy emocionado/a. (I'm excited.)\\nEstoy sorprendido/a. (I'm surprised.)\\n\\nNOTE: SER = who you are. ESTAR = how you feel right now.\\nSoy tímido. (I'm a shy person — permanent trait.)\\nEstoy tímido hoy. (I'm feeling shy today — temporary.)\\n\\nEjemplos:\\n¿Cómo estás? (How are you?)\\nEstoy muy bien, gracias. (I'm very well, thanks.)\\nEstoy un poco cansado. (I'm a bit tired.)\\n¿Por qué estás triste? (Why are you sad?)",
+      "examples": [
+        "¿Cómo estás hoy? (How are you today?)\\nEstoy muy bien. (I'm very well.)\\n¿Y tú? (And you?)\\nEstoy genial. (I'm great.)",
+        "Estoy muy cansado/a. (I'm very tired.)\\nEstás un poco triste. (You're a bit sad.)\\n¿Por qué estás nervioso? (Why are you nervous?)\\nEstoy emocionado por la fiesta. (I'm excited about the party.)",
+        "No estoy bien. (I'm not well.)\\n¿Qué pasa? (What's happening?)\\nEstoy aburrido. (I'm bored.)\\n¡Qué sorpresa! (What a surprise!)"
+      ]
+    },
+    {
+      "title": "Gustar / Encantar — To Like / To Love",
+      "content": "GUSTAR is used differently than English 'to like.' It literally means 'to be pleasing to.' The thing liked is the SUBJECT, and the person is the INDIRECT OBJECT.\\n\\nHow gustar works:\\nMe gusta (I like / it pleases me)\\nTe gusta (You like / it pleases you)\\nLe gusta (He/She likes / it pleases him/her)\\nNos gusta (We like / it pleases us)\\nOs gusta (You all like — Spain)\\nLes gusta (They like / it pleases them)\\n\\nSingular thing (one thing):\\nMe gusta el café. (I like coffee.)\\nTe gusta la música. (You like music.)\\nLe gusta el cine. (He/She likes movies.)\\n\\nPlural things (more than one):\\nMe gustan los libros. (I like books.)\\nTe gustan las películas. (You like movies.)\\nLe gustan los animales. (He/She likes animals.)\\n\\nENCANTAR (to love/be delighted) — same structure:\\nMe encanta el chocolate. (I love chocolate.)\\nTe encantan las flores. (You love flowers.)\\nNos encanta viajar. (We love to travel.)\\n\\nGustar + infinitive (always singular):\\nMe gusta bailar. (I like to dance.)\\nTe gusta leer. (You like to read.)\\nNos gusta cocinar. (We like to cook.)\\n\\nEjemplos:\\n¿Te gusta el español? (Do you like Spanish?)\\nSí, me encanta. (Yes, I love it.)\\n¿Les gusta la playa? (Do they like the beach?)\\nNo, les gusta la montaña. (No, they like the mountains.)",
+      "examples": [
+        "Me gusta este restaurante. (I like this restaurant.)\\n¿Te gusta esta canción? (Do you like this song?)\\nSí, me encanta. (Yes, I love it.)\\nMe gustan estas fotos. (I like these photos.)",
+        "¿Te gusta bailar? (Do you like to dance?)\\nSí, me encanta bailar. (Yes, I love to dance.)\\n¿A ti te gusta cocinar? (Do you like to cook?)\\nNo, me gusta leer. (No, I like to read.)",
+        "Me gusta tu casa. (I like your house.)\\nMe encantan tus zapatos. (I love your shoes.)\\n¿Les gusta el fútbol? (Do they like soccer?)\\nSí, les encanta el fútbol."
+      ]
+    },
+    {
+      "title": "Presentar / Presentarse — To Introduce Yourself",
+      "content": "Presentar means to introduce. When you introduce YOURSELF, it's reflexive: presentarse (to introduce oneself).\\n\\nPresentar (to introduce someone):\\nYo presento (I introduce)\\nTú presentas (You introduce)\\nÉl/Ella presenta (He/She introduces)\\nNosotros presentamos (We introduce)\\nEllos presentan (They introduce)\\n\\nPresentarse (to introduce oneself):\\nMe presento. (I introduce myself.)\\nTe presentas. (You introduce yourself.)\\nSe presenta. (He/She introduces themselves.)\\nSe llama... (His/her name is...)\\n\\nIntroducing yourself:\\nMe llamo... (My name is...)\\nSoy... (I am...)\\nSoy de... (I'm from...)\\nTengo... años. (I'm... years old.)\\nSoy... de profesión. (I'm a... by profession.)\\n\\nIntroducing others:\\nTe presento a mi amigo. (Let me introduce you to my friend.)\\nÉl se llama Carlos. (His name is Carlos.)\\nElla es mi hermana. (She's my sister.)\\n\\nPolite introductions:\\nBuenos días. Me llamo Ana. (Good morning. My name is Ana.)\\nMucho gusto. (Nice to meet you.)\\nEncantada. (Nice to meet you — female speaker.)\\nIgualmente. (Likewise.)\\n\\nEjemplos:\\nHola. ¿Cómo te llamas? (Hello. What's your name?)\\nMe llamo Pedro. ¿Y tú? (My name is Pedro. And you?)\\nMe llamo María. Mucho gusto. (My name is Maria. Nice to meet you.)\\nEncantado. Yo soy Pedro. (Nice to meet you too. I'm Pedro.)",
+      "examples": [
+        "Me llamo Laura. (My name is Laura.)\\n¿Y cómo te llamas? (And what's your name?)\\nMe llamo Roberto. Mucho gusto. (My name is Roberto. Nice to meet you.)\\nEncantado, Laura. (Nice to meet you, Laura.)",
+        "Te presento a mi hermano. (Let me introduce you to my brother.)\\nÉl se llama Javier. (His name is Javier.)\\nEncantado, Javier. (Nice to meet you, Javier.)\\nIgualmente, me llamo Ana. (Likewise, my name is Ana.)",
+        "¿De dónde eres? (Where are you from?)\\nSoy de Buenos Aires. (I'm from Buenos Aires.)\\n¿Y tú? (And you?)\\nSoy de Bogotá. (I'm from Bogotá.)"
+      ]
+    }
+  ],
+  "expressions": [
+    {
+      "title": "Greetings — Saludos (Morning to Night)",
+      "content": "Spanish has time-specific greetings. Use the right one for the time of day.\\n\\nGood morning — Use until about noon:\\nBuenos días. (Good morning.)\\n¡Buenos días! ¿Cómo estás? (Good morning! How are you?)\\nBuenos días, señora. (Good morning, ma'am.)\\n¡Buenos días, familia! (Good morning, family!)\\nBuenos días, buenos días. (Good morning, good morning — casual repetition.)\\n\\nGood afternoon — Use from about 12pm to sunset:\\nBuenas tardes. (Good afternoon.)\\nBuenas tardes, señor. (Good afternoon, sir.)\\nBuenas tardes a todos. (Good afternoon everyone.)\\nBuenas tardes, vecino. (Good afternoon, neighbor.)\\n\\nGood evening/night — Use from sunset onward:\\nBuenas noches. (Good evening/night.)\\nBuenas noches, buenas noches. (Good night, good night.)\\n¡Buenas noches! Descansa. (Good night! Rest.)\\nBuenas noches, hasta mañana. (Good night, see you tomorrow.)\\n\\nFormal greetings (with señor/señora):\\nBuenos días, señor García. (Good morning, Mr. García.)\\nBuenas tardes, señora Martínez. (Good afternoon, Mrs. Martínez.)\\nBuenas noches, doctor López. (Good evening, Doctor López.)\\n\\nEjemplos:\\n¡Buenos días! ¿Cómo está usted? (Good morning! How are you — formal?)\\nBuenos días, muy bien, gracias. (Good morning, very well, thanks.)\\nBuenas tardes. ¿Qué tal? (Good afternoon. How's it going?)\\nBuenas noches. ¡Hasta mañana! (Good night. See you tomorrow!)",
+      "examples": [
+        "¡Buenos días! (Good morning!)\\n¡Buenos días! ¿Cómo estás? (Good morning! How are you?)\\nBuenos días, estoy bien, gracias. (Good morning, I'm fine, thanks.)\\n¿Y tú? (And you?)",
+        "Buenas tardes, vecina. (Good afternoon, neighbor.)\\nBuenas tardes, ¿cómo está usted? (Good afternoon, how are you — formal?)\\nMuy bien, gracias. (Very well, thanks.)\\nBuenas tardes a todos. (Good afternoon everyone.)",
+        "Buenas noches, buenas noches. (Good night, good night.)\\nBuenas noches, hasta mañana. (Good night, see you tomorrow.)\\nBuenas noches, dulces sueños. (Good night, sweet dreams.)\\nBuenas noches, mi amor. (Good night, my love.)"
+      ]
+    },
+    {
+      "title": "Politeness — Cortesía (Please, Sorry, Thank You)",
+      "content": "Spanish social interactions rely heavily on politeness expressions. Knowing these is essential for respectful communication.\\n\\nPlease:\\nPor favor. (Please.)\\nDame el agua, por favor. (Give me water, please.)\\n¿Puedo tener un minuto, por favor? (Can I have a minute, please?)\\nPor favor, habla más despacio. (Please, speak more slowly.)\\n¿Me pasas la sal, por favor? (Can you pass me the salt, please?)\\n\\nThank you:\\nGracias. (Thank you.)\\nMuchas gracias. (Thank you very much.)\\nMil gracias. (A thousand thanks — very grateful.)\\nGracias por todo. (Thanks for everything.)\\nSe lo agradezco. (I appreciate it — formal.)\\n¡Muchas gracias! (Thank you so much!)\\n\\nYou're welcome:\\nDe nada. (You're welcome.)\\nDe nada, fue un placer. (You're welcome, it was a pleasure.)\\nNo hay de qué. (Don't mention it.)\\n¡Con mucho gusto! (With pleasure! — friendly response.)\\n\\nSorry / Excuse me:\\nPerdón. (Sorry/Pardon.)\\nDisculpe. (Excuse me — formal.)\\nDisculpa. (Excuse me — informal.)\\nLo siento mucho. (I'm very sorry.)\\nPerdóname, por favor. (Forgive me, please.)\\nNo pasa nada. (It's okay/No problem — response to an apology.)\\nNo te preocupes. (Don't worry.)\\n\\nEjemplos:\\n¿Puedo pasar, por favor? (Can I pass, please?)\\nPor supuesto, adelante. (Of course, go ahead.)\\n¡Gracias! — De nada. (Thank you! — You're welcome.)\\nLo siento, llegué tarde. — No pasa nada. (I'm sorry, I'm late. — It's okay.)",
+      "examples": [
+        "¿Me puede ayudar, por favor? (Can you help me, please?)\\nClaro que sí. (Of course.)\\nMuchas gracias por su ayuda. (Thank you very much for your help.)\\nDe nada. (You're welcome.)",
+        "Perdón, ¿dónde está la estación? (Sorry, where is the station?)\\nDisculpe, ¿puede decirme la hora? (Excuse me, can you tell me the time?)\\nLo siento, no sé. (I'm sorry, I don't know.)\\nNo se preocupe. (Don't worry.)",
+        "¡Muchas gracias! — De nada, fue un placer. (Thank you! — You're welcome, it was a pleasure.)\\nMil gracias — No hay de qué. (A thousand thanks — Don't mention it.)\\nLo siento mucho — Perdóname, por favor. (I'm very sorry — Forgive me, please.)"
+      ]
+    },
+    {
+      "title": "Introductions and Social Opening — Presentaciones",
+      "content": "How to start a social conversation and introduce yourself or others in Spanish.\\n\\nStarting a conversation:\\nHola, ¿cómo estás? (Hello, how are you?)\\nHola, ¿qué tal? (Hello, how's it going?)\\n¡Hola! ¿Todo bien? (Hello! Everything good?)\\nBuenos días, ¿cómo te va? (Good morning, how's it going?)\\n¿Qué cuentas? (What's new?)\\n\\nAsking someone's name:\\n¿Cómo te llamas? (What's your name? — informal)\\n¿Cómo se llama usted? (What's your name? — formal)\\n¿Cuál es tu nombre? (What's your name? — informal)\\n¿Y tú? / ¿Y usted? (And you?)\\n\\nGiving your name:\\nMe llamo... (My name is...)\\nSoy... (I'm...)\\nSoy Ana, encantada. (I'm Ana, nice to meet you.)\\n¿Encantado? ¿Encantada? (Nice to meet you?)\\n\\nResponding to introductions:\\nEncantado/a. (Nice to meet you.)\\nMucho gusto. (Nice to meet you.)\\nIgualmente. (Likewise.)\\nIgualmente, ¿de dónde eres? (Likewise, where are you from?)\\n\\nAsking about origin:\\n¿De dónde eres? (Where are you from? — informal)\\n¿De dónde es usted? (Where are you from? — formal)\\nSoy de... (I'm from...)\\n¿Y tú? / ¿Y usted? (And you?)\\n\\nIntroducing someone to another person:\\nTe presento a mi amigo Pedro. (Let me introduce you to my friend Pedro.)\\nPedro, esta es mi amiga Ana. (Pedro, this is my friend Ana.)\\nConoce a mi hermano. (Meet my brother.)\\n\\nEjemplos:\\nHola. ¿Cómo te llamas? (Hello. What's your name?)\\nMe llamo Carlos. ¿Y tú? (My name is Carlos. And you?)\\nMe llamo Ana. Mucho gusto. (My name is Ana. Nice to meet you.)\\nEncantado, Ana. Yo soy Carlos. (Nice to meet you too, Ana. I'm Carlos.)",
+      "examples": [
+        "Hola, ¿qué tal? (Hello, how's it going?)\\nHola, bien. ¿Y tú? (Hello, fine. And you?)\\n¿Cómo te llamas? (What's your name?)\\nMe llamo María. Mucho gusto. (My name is Maria. Nice to meet you.)",
+        "¿De dónde eres? (Where are you from?)\\nSoy de México. (I'm from Mexico.)\\n¿Y tú? (And you?)\\nSoy de España. (I'm from Spain.)",
+        "Te presento a mi hermana. (Let me introduce you to my sister.)\\nEncantado de conocerte. (Nice to meet you.)\\nIgualmente. ¿De dónde eres? (Likewise. Where are you from?)\\nSoy de Madrid. (I'm from Madrid.)"
+      ]
+    }
+  ],
+  "pronunciation": [
+    {
+      "title": "Social Vocabulary Pronunciation Guide",
+      "content": "Key social vocabulary with pronunciation:\\n\\nhola = OH-lah (hello)\\nbuenos días = BWEH-nos DEE-ahs (good morning)\\nbuenas tardes = BWEH-nas TAR-dehs (good afternoon)\\nbuenas noches = BWEH-nas NO-ches (good evening/night)\\nadiós = ah-DYOS (goodbye)\\nhasta luego = AH-stah LWEH-ghoh (see you later)\\nhasta mañana = ah-STAH mah-NYAH-nah (see you tomorrow)\\npor favor = pohr fah-BOR (please)\\ngracias = GRAH-see-ahs (thank you)\\nmuchas gracias = MOO-chahs GRAH-see-ahs (thank you very much)\\nde nada = deh NAH-dah (you're welcome)\\nperdón = peh-RDON (sorry)\\ndisculpe = dees-KOOL-peh (excuse me — formal)\\ndisculpa = dees-KOOL-pah (excuse me — informal)\\nlo siento =loh SYEN-toh (I'm sorry)\\nencantado/a = en-kahn-TAH-doh/dah (nice to meet you)\\namigo = ah-MEE-goh (friend m)\\namiga = ah-MEE-gah (friend f)\\nvecino = beh-SEE-noh (neighbor m)\\nvecina = beh-SEE-nah (neighbor f)\\nfamilia = fah-MEE-lyah (family)\\npersona = peh-SON-ah (person)\\ngente = GEN-teh (people)\\nseñor = seh-NYOR (sir)\\nseñora = seh-NYOH-rah (madam)\\nencantada = en-kahn-TAH-dah (nice to meet you — female)\\nmucho gusto = MOO-choh GOOS-toh (nice to meet you)\\nmás o menos = más oh MEN-os (so-so)\\ncansado = kahns-DAH-doh (tired m)\\ncontento = koohn-TEN-toh (happy m)",
+      "examples": [
+        "hola = OH-lah\\nbuenos días = BWEH-nos DEE-ahs\\nadiós = ah-DYOS\\ngracias = GRAH-see-ahs\\npor favor = pohr fah-BOR",
+        "amigo = ah-MEE-goh\\namiga = ah-MEE-gah\\nfamilia = fah-MEE-lyah\\nseñor = seh-NYOR\\nseñora = seh-NYOH-rah",
+        "cansado = kahns-DAH-doh\\ncontento = koohn-TEN-toh\\nperdón = peh-RDON\\nencantado = en-kahn-TAH-doh\\nmucho gusto = MOO-choh GOOS-toh"
+      ]
+    },
+    {
+      "title": "Spanish Sounds Relevant to Social Vocabulary",
+      "content": "Key pronunciation patterns for social interaction words:\\n\\nVowels — always consistent:\\nA = ah (like 'fAther')\\nE = eh (like 'thEn')\\nI = ee (like 'sEe')\\nO = oh (like 'sO')\\nU = oo (like 'flOOt')\\n\\nÑ = ny sound (like 'canyON'):\\nvecina = beh-SEE-nyah\\nmañana = mah-NYAH-nah\\nseñor = seh-NYOR\\nseñora = seh-NYOH-rah\\n\\nJ = soft 'h' sound (like 'h' in 'hat'):\\n¿Cómo está usted? — 'J' doesn't appear here, but:\\njoven = HOH-ven (young)\\njefe = HEH-feh (boss)\\n\\nLL as 'y' sound (most regions):\\nhola = OH-lah (L is soft, like 'y' in many regions)\\n\\nH = silent (never pronounced):\\n¿Cómo está usted? — 'H' is silent:\\n¿Cómo? = KOH-moh\\nholà (if it existed) would be OH-lah\\n\\nStress patterns:\\ngracias = GRAH-see-ahs (stress on second-to-last syllable — normal by rule)\\nperdón = peh-RDON (stress on last syllable — accent mark shows it)\\nadiós = ah-DYOS (stress on last syllable — accent mark shows it)\\nencantado = en-kahn-TAH-doh (stress on third syllable — normal by rule)\\nvecina = beh-SEE-nyah (stress on second-to-last — normal by rule)\\n\\nD pronunciation — soft between vowels:\\nadiós = ah-DYOS (D sounds almost like a soft 'th')\\nperdón = peh-RDON (D is harder at the end)\\nseñora = seh-NYOH-rah (no D)\\n\\nCommon pronunciation traps:\\n'señor' = seh-NYOR (Ñ = 'ny', not 'n')\\n'mañana' = mah-NYAH-nah (Ñ = 'ny', not 'n')\\n'muchas gracias' = MOO-chahs GRAH-see-ahs (H is silent, not 'MOO-has')\\n'adiós' = ah-DYOS (accent mark on final syllable)",
+      "examples": [
+        "señor = seh-NYOR (Ñ = 'ny')\\nseñora = seh-NYOH-rah (Ñ = 'ny')\\nvecina = beh-SEE-nyah (Ñ = 'ny')",
+        "mañana = mah-NYAH-nah (Ñ = 'ny')\\n¿Cómo está usted? = KOH-moh ehs-TAH oos-TED (H silent)\\n¡Buenos días! = BWEH-nos DEE-ahs (U = 'oo')",
+        "hola = OH-lah (H silent)\\ngracias = GRAH-see-ahs (H silent)\\nmuchas gracias = MOO-chahs GRAH-see-ahs (not 'MOO-has')\\nadiós = ah-DYOS (accent on last syllable)"
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "multiple-choice",
+      "question": "How do you say 'good morning' in Spanish?",
+      "options": ["Buenas noches", "Buenos días", "Buenas tardes", "Adiós"],
+      "correct": 1,
+      "explanation": "Buenos días = good morning. Buenas noches = good night. Buenas tardes = good afternoon. Adiós = goodbye."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What does 'gracias' mean?",
+      "options": ["sorry", "please", "thank you", "you're welcome"],
+      "correct": 2,
+      "explanation": "Gracias = thank you. Perdón/lo siento = sorry. Por favor = please. De nada = you're welcome."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: '¿___ te llamas? (What's your name?)'",
+      "correct": "Cómo",
+      "explanation": "¿Cómo te llamas? = What's your name? (informal). 'Cómo' = how."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "How do you respond to 'gracias' in Spanish?",
+      "options": ["Por favor", "Perdón", "De nada", "Lo siento"],
+      "correct": 2,
+      "explanation": "De nada = you're welcome. Por favor = please. Perdón = sorry/excuse me. Lo siento = I'm sorry."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: 'Me ___ Ana. (My name is Ana.)'",
+      "correct": "llamo",
+      "explanation": "Me llamo = my name is. 'Me llamo Ana' = My name is Ana. This is the reflexive form of llamar (to call)."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What does 'mucho gusto' mean?",
+      "options": ["see you later", "nice to meet you", "thank you", "good morning"],
+      "correct": 1,
+      "explanation": "Mucho gusto = nice to meet you. Hasta luego = see you later. Gracias = thank you. Buenos días = good morning."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: 'Soy ___. (I'm from Mexico.)'",
+      "correct": "de México",
+      "explanation": "Ser de + place = to be from a place. 'Soy de México' = I'm from Mexico."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What is the informal way to say 'thank you very much'?",
+      "options": ["Se lo agradezco", "Mil gracias", "No hay de qué", "Perdón"],
+      "correct": 1,
+      "explanation": "Mil gracias = a thousand thanks (very informal, very grateful). Se lo agradezco is formal. No hay de qué = you're welcome."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Which expression means 'excuse me' (formal)?",
+      "options": ["disculpa", "perdón", "disculpe", "lo siento"],
+      "correct": 2,
+      "explanation": "Disculpe = excuse me (formal). Disculpa = excuse me (informal). Perdón = sorry/pardon. Lo siento = I'm sorry."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: '___ gusto, Ana. (Nice to meet you, Ana.)'",
+      "correct": "Mucho",
+      "explanation": "Mucho gusto = nice to meet you. It's a common formal/informal greeting when meeting someone new."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "How do you say 'I'm kind' in Spanish?",
+      "options": ["Soy amable", "Estoy amable", "Soy cansado", "Estoy cansado"],
+      "correct": 0,
+      "explanation": "Soy amable = I'm kind. Use SER for personality traits. 'Estoy' would be temporary state."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: 'Estoy ___. (I'm happy.)'",
+      "correct": "contento",
+      "explanation": "Contento/a = happy. 'Estoy contento' = I'm happy. Use ESTAR for temporary emotions."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What does 'encantar' mean?",
+      "options": ["to hate", "to love (in a strong way)", "to learn", "to remember"],
+      "correct": 1,
+      "explanation": "Encantar = to love / to be delightful. Me encanta = I love it. It works like gustar (to be pleasing to)."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: 'Me ___ el chocolate. (I like chocolate.)'",
+      "correct": "gusta",
+      "explanation": "Me gusta = I like (it pleases me). 'Me gusta el chocolate' = I like chocolate. Singular thing = gusta."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What is 'neighbor' in Spanish?",
+      "options": ["amigo", "compañero", "vecino", "conocido"],
+      "correct": 2,
+      "explanation": "Vecino/a = neighbor. Amigo/a = friend. Compañero/a = companion/colleague. Conocido/a = acquaintance."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: 'Perdón, ¿dónde está la ___? (Excuse me, where is the station?)'",
+      "correct": "estación",
+      "explanation": "Estación = station. '¿Dónde está la estación?' = Where is the station? Estación is feminine."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "How do you say 'see you tomorrow' in Spanish?",
+      "options": ["Hasta luego", "Hasta mañana", "Hasta pronto", "Hasta siempre"],
+      "correct": 1,
+      "explanation": "Hasta mañana = see you tomorrow. Hasta luego = see you later. Hasta pronto = see you soon. Hasta siempre = see you always."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What is the feminine form of 'simpático'?",
+      "options": ["simpática", "simpáticos", "simpáticas", "simpaticosa"],
+      "correct": 0,
+      "explanation": "Simpática = nice/friendly (feminine). The -o changes to -a for feminine. Simpáticos = masculine plural."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: '___ de nada. (You're welcome.)'",
+      "correct": "De",
+      "explanation": "De nada = you're welcome. It's a fixed expression responding to 'gracias'."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Which verb means 'to introduce oneself'?",
+      "options": ["presentar", "presentarse", "llamar", "saludar"],
+      "correct": 1,
+      "explanation": "Presentarse = to introduce oneself (reflexive). Presentar = to introduce someone else. Llamar = to call. Saludar = to greet."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: 'Me ___ las películas. (I like movies.)'",
+      "correct": "gustan",
+      "explanation": "Me gustan = I like (plural). Since 'las películas' is plural, we use 'gustan' not 'gusta'."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What does 'cariñoso/a' mean?",
+      "options": ["shy", "affectionate", "rude", "respectful"],
+      "correct": 1,
+      "explanation": "Cariñoso/a = affectionate. Tímido/a = shy. Rudo/a = rude. Respetuoso/a = respectful."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: 'Buenos días, ___. (Good morning, ma'am.)'",
+      "correct": "señora",
+      "explanation": "Señora = madam/mrs. 'Buenos días, señora' = Good morning, ma'am. Señora is a respectful form of address."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "How do you say 'I'm sorry' in a formal context?",
+      "options": ["disculpa", "perdón", "lo siento", "both 'disculpe' and 'lo siento'"],
+      "correct": 3,
+      "explanation": "Both 'disculpe' (excuse me — formal) and 'lo siento' (I'm sorry) can be used formally. 'Disculpa' is informal."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: '___ poco cansado. (I'm a bit tired.)'",
+      "correct": "Estoy",
+      "explanation": "Estar + cansado = to be tired (temporary state). 'Estoy un poco cansado' = I'm a bit tired."
+    }
+  ]
+}

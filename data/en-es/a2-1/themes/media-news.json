@@ -1,0 +1,307 @@
+{
+  "id": "media-news",
+  "level": "a2-1",
+  "title": "Media & News",
+  "description": "Discuss TV, radio, newspapers, social media, and current events using relative pronouns, passive se, past subjunctive for hypothetical scenarios, and object pronouns for media consumption.",
+  "vocabulary": [
+    {"id": 1, "target": "las noticias", "source": "the news", "gender": "f", "type": "noun"},
+    {"id": 2, "target": "la televisión / la tele", "source": "television / TV", "gender": "f", "type": "noun"},
+    {"id": 3, "target": "el canal", "source": "the channel", "gender": "m", "type": "noun"},
+    {"id": 4, "target": "la radio", "source": "radio", "gender": "f", "type": "noun"},
+    {"id": 5, "target": "el periódico", "source": "newspaper", "gender": "m", "type": "noun"},
+    {"id": 6, "target": "el noticiero", "source": "news program", "gender": "m", "type": "noun"},
+    {"id": 7, "target": "el reportaje", "source": "the report / feature story", "gender": "m", "type": "noun"},
+    {"id": 8, "target": "la entrevista", "source": "the interview", "gender": "f", "type": "noun"},
+    {"id": 9, "target": "el programa", "source": "the program", "gender": "m", "type": "noun"},
+    {"id": 10, "target": "la serie", "source": "the TV series", "gender": "f", "type": "noun"},
+    {"id": 11, "target": "la película", "source": "the movie", "gender": "f", "type": "noun"},
+    {"id": 12, "target": "el documental", "source": "the documentary", "gender": "m", "type": "noun"},
+    {"id": 13, "target": "el debate", "source": "the debate", "gender": "m", "type": "noun"},
+    {"id": 14, "target": "la comedia", "source": "the comedy", "gender": "f", "type": "noun"},
+    {"id": 15, "target": "el drama", "source": "the drama", "gender": "m", "type": "noun"},
+    {"id": 16, "target": "la redacción", "source": "the newsroom / editorial office", "gender": "f", "type": "noun"},
+    {"id": 17, "target": "el periodista", "source": "the journalist", "gender": "m/f", "type": "noun"},
+    {"id": 18, "target": "el reportero", "source": "the reporter", "gender": "m", "type": "noun"},
+    {"id": 19, "target": "el presentador", "source": "the presenter / anchor", "gender": "m", "type": "noun"},
+    {"id": 20, "target": "la noticia", "source": "the news item / story", "gender": "f", "type": "noun"},
+    {"id": 21, "target": "el titular", "source": "the headline", "gender": "m", "type": "noun"},
+    {"id": 22, "target": "la portada", "source": "the front page", "gender": "f", "type": "noun"},
+    {"id": 23, "target": "la columna", "source": "the column (opinion piece)", "gender": "f", "type": "noun"},
+    {"id": 24, "target": "la crónica", "source": "the chronicle / feature", "gender": "f", "type": "noun"},
+    {"id": 25, "target": "la opinión", "source": "the opinion", "gender": "f", "type": "noun"},
+    {"id": 26, "target": "la información", "source": "the information", "gender": "f", "type": "noun"},
+    {"id": 27, "target": "el medio de comunicación", "source": "the media outlet", "gender": "m", "type": "noun"},
+    {"id": 28, "target": "los medios de comunicación", "source": "the media (plural)", "gender": "m", "type": "noun"},
+    {"id": 29, "target": "las redes sociales", "source": "social media", "gender": "f", "type": "noun"},
+    {"id": 30, "target": "el blog", "source": "the blog", "gender": "m", "type": "noun"},
+    {"id": 31, "target": "el podcast", "source": "the podcast", "gender": "m", "type": "noun"},
+    {"id": 32, "target": "el video", "source": "the video", "gender": "m", "type": "noun"},
+    {"id": 33, "target": "la fotografía / la foto", "source": "the photograph / photo", "gender": "f", "type": "noun"},
+    {"id": 34, "target": "publicar", "source": "to publish / to post", "gender": "v", "type": "verb"},
+    {"id": 35, "target": "compartir", "source": "to share", "gender": "v", "type": "verb"},
+    {"id": 36, "target": "seguir", "source": "to follow (on social media)", "gender": "v", "type": "verb"},
+    {"id": 37, "target": "suscribirse", "source": "to subscribe", "gender": "v", "type": "verb"},
+    {"id": 38, "target": "emitir", "source": "to broadcast", "gender": "v", "type": "verb"},
+    {"id": 39, "target": "transmitir", "source": "to transmit / broadcast", "gender": "v", "type": "verb"},
+    {"id": 40, "target": "ver la tele", "source": "to watch TV", "gender": "—", "type": "phrase"},
+    {"id": 41, "target": "escuchar la radio", "source": "to listen to the radio", "gender": "—", "type": "phrase"},
+    {"id": 42, "target": "leer las noticias", "source": "to read the news", "gender": "—", "type": "phrase"},
+    {"id": 43, "target": "navegar por Internet", "source": "to browse the Internet", "gender": "—", "type": "phrase"},
+    {"id": 44, "target": "conectar", "source": "to connect", "gender": "v", "type": "verb"},
+    {"id": 45, "target": "actualizar", "source": "to update", "gender": "v", "type": "verb"},
+    {"id": 46, "target": "descargar", "source": "to download", "gender": "v", "type": "verb"},
+    {"id": 47, "target": "grabar", "source": "to record", "gender": "v", "type": "verb"},
+    {"id": 48, "target": "cambiar de canal", "source": "to change channels", "gender": "—", "type": "phrase"},
+    {"id": 49, "target": "apagar", "source": "to turn off", "gender": "v", "type": "verb"},
+    {"id": 50, "target": "encender", "source": "to turn on", "gender": "v", "type": "verb"},
+    {"id": 51, "target": "falso", "source": "fake / false", "gender": "adj", "type": "adj"},
+    {"id": 52, "target": "verdadero / verdadera", "source": "true / true (f)", "gender": "adj", "type": "adj"},
+    {"id": 53, "target": "objectivo", "source": "objective", "gender": "adj", "type": "adj"},
+    {"id": 54, "target": "subjetivo", "source": "subjective", "gender": "adj", "type": "adj"},
+    {"id": 55, "target": "confiable", "source": "reliable", "gender": "adj", "type": "adj"},
+    {"id": 56, "target": "popular", "source": "popular", "gender": "adj", "type": "adj"},
+    {"id": 57, "target": "actual", "source": "current / up-to-date", "gender": "adj", "type": "adj"},
+    {"id": 58, "target": "urgente", "source": "urgent", "gender": "adj", "type": "adj"},
+    {"id": 59, "target": "importante", "source": "important", "gender": "adj", "type": "adj"},
+    {"id": 60, "target": "novedoso", "source": "novel / innovative", "gender": "adj", "type": "adj"},
+    {"id": 61, "target": "el mundo", "source": "the world", "gender": "m", "type": "noun"},
+    {"id": 62, "target": "el país", "source": "the country", "gender": "m", "type": "noun"},
+    {"id": 63, "target": "la ciudad", "source": "the city", "gender": "f", "type": "noun"},
+    {"id": 64, "target": "la sociedad", "source": "society", "gender": "f", "type": "noun"},
+    {"id": 65, "target": "la gente", "source": "people", "gender": "f", "type": "noun"},
+    {"id": 66, "target": "el gobierno", "source": "the government", "gender": "m", "type": "noun"},
+    {"id": 67, "target": "la economía", "source": "the economy", "gender": "f", "type": "noun"},
+    {"id": 68, "target": "la política", "source": "politics", "gender": "f", "type": "noun"},
+    {"id": 69, "target": "la cultura", "source": "culture", "gender": "f", "type": "noun"},
+    {"id": 70, "target": "el deporte", "source": "sports", "gender": "m", "type": "noun"},
+    {"id": 71, "target": "el entretenimiento", "source": "entertainment", "gender": "m", "type": "noun"},
+    {"id": 72, "target": "el arte", "source": "art", "gender": "m", "type": "noun"},
+    {"id": 73, "target": "la música", "source": "music", "gender": "f", "type": "noun"},
+    {"id": 74, "target": "el cine", "source": "cinema / movies", "gender": "m", "type": "noun"},
+    {"id": 75, "target": "la literatura", "source": "literature", "gender": "f", "type": "noun"},
+    {"id": 76, "target": "el evento", "source": "the event", "gender": "m", "type": "noun"},
+    {"id": 77, "target": "la protesta", "source": "the protest", "gender": "f", "type": "noun"},
+    {"id": 78, "target": "la celebración", "source": "the celebration", "gender": "f", "type": "noun"},
+    {"id": 79, "target": "el festival", "source": "the festival", "gender": "m", "type": "noun"},
+    {"id": 80, "target": "el concierto", "source": "the concert", "gender": "m", "type": "noun"},
+    {"id": 81, "target": "hoy en día", "source": "these days / nowadays", "gender": "—", "type": "phrase"},
+    {"id": 82, "target": "según", "source": "according to", "gender": "—", "type": "preposition"},
+    {"id": 83, "target": "recientemente", "source": "recently", "gender": "adv", "type": "adv"},
+    {"id": 84, "target": "actualmente", "source": "currently", "gender": "adv", "type": "adv"},
+    {"id": 85, "target": "siempre", "source": "always", "gender": "adv", "type": "adv"},
+    {"id": 86, "target": "nunca", "source": "never", "gender": "adv", "type": "adv"},
+    {"id": 87, "target": "a veces", "source": "sometimes", "gender": "—", "type": "phrase"},
+    {"id": 88, "target": "todavía", "source": "still", "gender": "adv", "type": "adv"},
+    {"id": 89, "target": "ya", "source": "already / now", "gender": "adv", "type": "adv"},
+    {"id": 90, "target": "antes", "source": "before / earlier", "gender": "adv", "type": "adv"},
+    {"id": 91, "target": "el like", "source": "the like", "gender": "m", "type": "noun"},
+    {"id": 92, "target": "el comentario", "source": "the comment", "gender": "m", "type": "noun"},
+    {"id": 93, "target": "el mensaje", "source": "the message", "gender": "m", "type": "noun"},
+    {"id": 94, "target": "la alerta", "source": "the alert", "gender": "f", "type": "noun"},
+    {"id": 95, "target": "el algoritmo", "source": "the algorithm", "gender": "m", "type": "noun"},
+    {"id": 96, "target": "la suscripción", "source": "the subscription", "gender": "f", "type": "noun"},
+    {"id": 97, "target": "la transmisión en vivo", "source": "the live stream", "gender": "f", "type": "noun"},
+    {"id": 98, "target": "la tendencia", "source": "the trend", "gender": "f", "type": "noun"},
+    {"id": 99, "target": "virar (en redes)", "source": "to go viral", "gender": "—", "type": "phrase"},
+    {"id": 100, "target": "la cuenta", "source": "the account (social media)", "gender": "f", "type": "noun"}
+  ],
+  "grammar": [
+    {
+      "title": "Relative Pronouns — que, quien, el cual, donde",
+      "content": "Relative pronouns connect ideas and describe people, things, and places. They are essential for discussing media and news.\n\nBasic relative pronouns:\n\n1. QUE — the most common relative pronoun, refers to people and things\n   - El noticiero que veo es interesante. (The news program I watch is interesting.)\n   - La película que vimos fue emocionante. (The movie we watched was exciting.)\n\n2. QUIEN / QUIENES — refers to people (with or without preposition)\n   - El periodista que me entrevistó fue muy amable. (The journalist who interviewed me was very kind.)\n   - La persona a quien llamaste no está. (The person you called is not here.)\n\n3. EL CUAL / LA CUAL / LOS CUALES / LAS CUALES — more formal than 'que', used after prepositions\n   - El artículo, el cual fue publicado ayer, es muy importante. (The article, which was published yesterday, is very important.)\n   - La serie, de la cual hablaste, ¿dónde la puedo ver? (The series you talked about, where can I watch it?)\n\n4. DONDE — refers to places\n   - El canal donde se emiten las noticias es el 5. (The channel where the news is broadcast is channel 5.)\n\n5. LO QUE — 'that which / what', refers to an idea or situation\n   - Lo que quiero es una buena noticia. (What I want is good news.)\n   - Lo que dijeron en la radio es verdad. (What they said on the radio is true.)\n\nPrepositions + relative pronouns (for people):\n   - con quien (with whom)\n   - para quien (for whom)\n   - sobre quien (about whom)\n   - de quien (of whom / about whom)\n\nExamples:\n- El periódico que leí ayer tenía muchas noticias. (The newspaper I read yesterday had many news stories.)\n- La serie en la que estoy es muy divertida. (The series I'm watching is very funny.)\n- Lo que más me gusta de Internet es la información. (What I like most about the Internet is the information.)\n- El presentador con quien hablaron fue muy profesional. (The presenter they spoke with was very professional.)",
+      "examples": [
+        "El noticiero que miro todos los días es del canal 8. (The news program I watch every day is from channel 8.)",
+        "La persona que publicó el artículo es mi amiga. (The person who published the article is my friend.)",
+        "Lo que escuché en la radio me sorprendió. (What I heard on the radio surprised me.)",
+        "El programa donde entrevistan al presidente es muy popular. (The program where they interview the president is very popular.)",
+        "Los documentos de los que hablamos son confidenciales. (The documents we talked about are confidential.)",
+        "La serie a la que me suscribí acaba de terminar. (The series I subscribed to has just ended.)"
+      ],
+      "aid_note": "Romanian has relative pronouns too, but they are different: 'care' (which/that), 'carei/carele' (more emphatic), 'cui' (to whom), 'unde' (where). The Spanish 'que' is the closest to Romanian 'care.' Romanian 'ceea ce' = Spanish 'lo que.' Key difference: Spanish 'que' works for both things AND people, while Romanian 'care' is for things and 'cui' is for people. For Romanian speakers: 'que' is your go-to relative pronoun — use it 90% of the time."
+    },
+    {
+      "title": "Passive 'se' — Talking About What Happens in the World",
+      "content": "The passive 'se' (also called 'se impersonal' or 'se pasiva') is used to describe what happens in general or what is done to things — very common in news and media contexts.\n\nFormation: se + verb (3rd person singular or plural) + subject\n\nWhen the subject is SINGULAR:\n  se + verb (3rd person singular)\n  - Se vende la casa. (The house is being sold.)\n  - Se transmite el partido en vivo. (The match is broadcast live.)\n  - Se publica la noticia en el periódico. (The news is published in the newspaper.)\n\nWhen the subject is PLURAL:\n  se + verb (3rd person plural)\n  - Se venden casas. (Houses are being sold.)\n  - Se transmiten partidos en vivo. (Matches are broadcast live.)\n  - Se publican noticias todos los días. (News is published every day.)\n\nKey rules:\n1. The verb agrees with the subject in number (singular/plural)\n2. No person is mentioned — this is the whole point (who does it is unimportant)\n3. Very common in news headlines and everyday speech\n\nMedia examples:\n- Se emiten documentales sobre la naturaleza. (Documentaries about nature are broadcast.)\n- Se publica una nueva serie este viernes. (A new series is published this Friday.)\n- Se transmiten las noticias a las ocho. (The news is broadcast at eight.)\n- Se filma un documental en la selva. (A documentary is filmed in the jungle.)\n\nContrast with 'se' impersonal (no subject, always singular):\n- Se vive bien aquí. (One lives well here.)\n- Se dice que va a llover. (They say it's going to rain.)\n- Se necesita más información. (More information is needed.)\n\nExamples:\n- En este canal se emiten programas de cultura. (On this channel, culture programs are broadcast.)\n- Se publican artículos sobre política cada día. (Articles about politics are published every day.)\n- Se filmó una película en nuestro pueblo. (A movie was filmed in our town.)\n- Se necesitan voluntarios para el evento. (Volunteers are needed for the event.)",
+      "examples": [
+        "Se transmite un documental sobre el cambio climático esta noche. (A documentary about climate change is being broadcast tonight.)",
+        "Se publican nuevas series todos los meses. (New series are published every month.)",
+        "Se puede ver la película en streaming. (The movie can be watched via streaming.)",
+        "Se reportaron muchos accidentes en la carretera. (Many accidents were reported on the highway.)",
+        "Se emiten noticias en vivo durante las elecciones. (News is broadcast live during elections.)",
+        "Se filman documentales sobre la fauna marina. (Documentaries about marine wildlife are filmed.)"
+      ],
+      "aid_note": "Romanian uses 'se' in a similar way: 'se spune' (they say), 'se transmite' (it is broadcast). However, Romanian also has a full passive construction with 'fi' (este vândut = is being sold). Spanish passive 'se' is much more common and covers both impersonal and passive meanings. For Romanian speakers: when you'd say 'este vândut' or 'se vinde' in Romanian, Spanish uses 'se vende.' The pattern is very similar — just remember the verb must agree with the subject in number."
+    },
+    {
+      "title": "Past Subjunctive for Hypothetical Media Scenarios",
+      "content": "The imperfect subjunctive is used to talk about hypothetical or unreal situations involving media, news, and entertainment.\n\nFormation (two forms, both correct):\n-RA form: take 3rd person plural of preterite, remove -ron, add endings\n  hablar → hablaran → hablara, hablaras, hablara, habláramos, hablarais, hablaran\n-SE form: same stem, add -se endings\n  hablar → hablase, hablases, hablase, hablásemos, hablarais, hablasen\n\nIrregulars in preterite 3rd pl.:\n  ser/ir → fueron → fuera/fuese\n  tener → tuvieran → tuviera/tuviese\n  hacer → hicieron → hiciera/hiciese\n  poder → pudieron → pudiera/pudiese\n  querer → quisieron → quisiera/quisiese\n  saber → supieron → supiera/supiese\n  decir → dijeron → dijera/dijese\n  venir → vinieron → viniera/viniese\n\nUses in media contexts:\n\n1. SI clauses (unreal present): Si tuviera un canal de TV, emitiera noticias. (If I had a TV channel, I would broadcast news.)\n   Note: si clause uses subjunctive, main clause uses conditional\n\n2. WISHES and HOPES about media: Ojalá hubieran publicado la noticia. (I wish they had published the news.)\n\n3. AFTER PAST expressions of desire/doubt/emotion:\n   Quería que publicaran más artículos. (I wanted them to publish more articles.)\n   Dudaba que existiera tal noticia. (I doubted that such a news item existed.)\n\n4. POLITE REQUESTS:\n   Quisiera ver esa película. (I would like to see that movie.)\n   Preferiría que no lo transmitieran. (I would prefer that they not broadcast it.)\n\nMedia examples:\n- Si yo fuera periodista, escribiría sobre la cultura. (If I were a journalist, I would write about culture.)\n- Quisiera que subieran más videos a mi canal. (I would like them to upload more videos to my channel.)\n- Era imposible que alguien creyera esas noticias falsas. (It was impossible that someone believed those fake news.)\n- Si el presentador hubiera hablado más claro, todos habrían entendido. (If the presenter had spoken more clearly, everyone would have understood.)",
+      "examples": [
+        "Si tuviera Internet, vería la transmisión en vivo. (If I had Internet, I would watch the live stream.)",
+        "Quisiera que publicaran mi artículo. (I would like them to publish my article.)",
+        "Era una pena que no se emitiera el programa. (It was a shame that the program wasn't broadcast.)",
+        "Si la película fuera aburrida, no la compartiría. (If the movie were boring, I wouldn't share it.)",
+        "Dudaba que la noticia fuera verdadera. (I doubted that the news was true.)",
+        "Ojalá hubiera visto esa serie antes. (I wish I had seen that series before.)"
+      ],
+      "aid_note": "Romanian uses 'ar + infinitive' for conditional ('aș vedea' = I would watch) and 'să + present/imperfect' for subjunctive ('să vedeam' = that I might see). Spanish uses the imperfect subjunctive (-ra/-se forms) where Romanian would use the imperfect subjunctive with 'să.' For Romanian speakers: 'Si yo fuera periodista' = 'Dacă aș fi jurnalist' — both use a conditional-like form in the si/si clause. The key pattern is: SI + imperfect subjunctive → conditional in the main clause."
+    },
+    {
+      "title": "Object Pronouns with Media Actions",
+      "content": "Object pronouns (direct and indirect) replace nouns to avoid repetition when talking about media consumption, sharing, and communication.\n\nDirect Object Pronouns (what/whom is acted upon):\n  lo / la (him/her/it — masc./fem. sg.)\n  los / las (them — masc./fem. pl.)\n  Examples:\n  - ¿Viste la película? Sí, la vi. (Did you see the movie? Yes, I saw it.)\n  - ¿Escuchaste el podcast? No, no lo escuché. (Did you listen to the podcast? No, I didn't listen to it.)\n\nIndirect Object Pronouns (to/for whom):\n  me (to me) / te (to you) / le (to him/her/you formal)\n  nos (to us) / os (to you all) / les (to them/you all)\n  Examples:\n  - ¿Le enviaste el mensaje? Sí, se lo envié. (Did you send him the message? Yes, I sent it to him.)\n  - ¿Me recomendaste esa serie? Sí, te la recomendé. (Did you recommend that series to me? Yes, I recommended it to you.)\n\nPosition of object pronouns:\n  1. Before conjugated verb: La veo todos los días.\n  2. Attached to infinitive: Voy a verla.\n  3. Attached to gerund: Estoy viéndola.\n  4. Attached to affirmative commands: ¡Véela!\n\nDouble object pronouns (indirect + direct):\n  le/les + lo/la/los/las → se lo / se la / se los / se las\n  - Le di el periódico → Se lo di. (I gave him the newspaper → I gave it to him.)\n  - Les envié los videos → Se los envié. (I sent them the videos → I sent them to them.)\n\nMedia-specific examples:\n  - ¿Viste las noticias de ayer? Sí, las vi. (Did you see yesterday's news? Yes, I saw them.)\n  - ¿Compartiste el video? Sí, lo compartí. (Did you share the video? Yes, I shared it.)\n  - ¿Le mostraste el artículo a tu amigo? Sí, se lo mostré. (Did you show him the article? Yes, I showed it to him.)\n  - No la sigo en redes sociales. (I don't follow her on social media.)\n  - Voy a suscribirme al podcast. → Lo voy a suscribir. (I'm going to subscribe to the podcast. → I'm going to subscribe to it.)",
+      "examples": [
+        "¿Viste la nueva serie? Sí, la vi el fin de semana. (Did you see the new series? Yes, I watched it on the weekend.)",
+        "No escuché el podcast. ¿Puedes enviármelo? (I didn't listen to the podcast. Can you send it to me?)",
+        "Les compartí las fotos del evento. (I shared the event photos with them.)",
+        "¿Me suscribíste al boletín? (Did you subscribe me to the newsletter?)",
+        "Voy a publicarlo en mi cuenta. (I'm going to post it on my account.)",
+        "Se la recomendé a mi hermano. (I recommended it to my brother.)"
+      ],
+      "aid_note": "Romanian object pronouns: 'îl/îi' (masc. sg.), 'o/le' (fem. sg.), 'pe ei/pe ele' (emphasis). Romanian pronoun placement is BEFORE the conjugated verb (îl văd = I see it), similar to Spanish. The key differences: 1) Romanian doesn't attach pronouns to infinitives the same way (îl văd vs. a-l vedea — both exist but usage differs). 2) Spanish double object pronouns merge 'le lo' → 'se lo', which is unique to Spanish. For Romanian speakers: 'îl' (masc. it) ≈ 'lo', 'o/le' (fem. it/them) ≈ 'la/las', 'îi/le' (to him/to them) ≈ 'le/les.' The placement rule is the same — before the verb."
+    }
+  ],
+  "pronunciation": {
+    "title": "Media & News Pronunciation — Media Vocabulary and News Terms",
+    "content": "Clear pronunciation of media and news vocabulary helps you discuss current events and entertainment naturally.\n\nKey pronunciation patterns:\n\n1. Trailing '-ción' and '-sión' (stress on the 's' sound):\n   - la noticia = no-TEE-see-ah (but 'noticias' = no-TEE-see-ahs)\n   - la televisión = teh-leh-vee-ah-SEE-ohn\n   - la información = in-for-mah-SEE-ohn\n   - la decisión = deh-see-EE-ohn\n   - la presión = preh-SEE-ohn\n   Note: '-ción' sounds like 'see-OHN'\n\n2. Trailing '-miento' (stress on 'mien'):\n   - el entretenimiento = en-ter-teh-nee-MYEN-toh\n   - el pensamiento = pen-see-MAHEN-toh\n   - el sentimiento = sen-tee-MYEN-toh\n\n3. 'ñ' (ny sound):\n   - el año = AH-nyoh\n   - la niña = NEE-nyah\n   - la mañana = mah-NYAH-nah\n   - el niño = NEE-nyoh\n\n4. 'll' (y sound in most regions):\n   - la lluvia = YOO-ah (rare, but good to know)\n   - el pollo = PO-yoh\n   - la calle = KAH-yeh\n\n5. 'j' (soft g, like harsh 'h'):\n   - la noticia = no-TEE-see-ah (no 'j' sound)\n   - el periodista = her-nah-LEE-stah\n   - justo = HOOS-toh\n   - jugar = hoo-GAH\n   - trabajo = tra-BAH-hoh\n\n6. 'g' before 'e/i' (soft g, like harsh 'h'):\n   - la televisión = teh-leh-vee-ah-see-OHN\n   - el gobierno = go-BYER-noh\n   - la gente = HEN-teh\n   - el periodista = her-NAH-listah\n\n7. 'v' and 'b' (both sound like soft 'b' in Spanish):\n   - la televisión = teh-leh-vee-ah-see-OHN (v sounds like b)\n   - el periodista = her-NAH-listah\n   - ver = bair (v = soft b)\n   - vida = BEE-dah\n\n8. 'z' (s sound in Spain, 'th' in parts of Spain, 's' in Latin America):\n   - la noticia = no-TEE-see-ah (Latin America)\n   - el periodista = her-NAH-listah\n   - la decisión = deh-see-EE-ohn\n\n9. 'r' at beginning of word (rolled r):\n   - radio = RAH-dio\n   - reportaje = reh-por-TAH-heh\n   - redacción = reh-DAK-see-ohn\n\n10. Stress on '-al' endings:\n    - el canal = kah-NAHL\n    - el editorial = eh-dee-toh-REE-al\n    - local = lo-KAHL\n    - global = GLO-bal\n\nCommon media words — pronunciation guide:\n- noticias = no-TEE-see-ahs (stress on 'TEE')\n- televisión = teh-leh-vee-ah-see-OHN (stress on 'see-OHN')\n- periódico = peh-ree-oh-DEE-koh (stress on 'DEE')\n- periodista = her-NAH-listah (stress on 'NAH')\n- programa = pro-GRA-mah (stress on 'GRA')\n- entrevista = en-treh-VEES-tah (stress on 'VEES')\n- documental = doh-koo-men-TAHL (stress on 'TAHL')\n- podcast = pod-KAST (similar to English)\n- publicar = poo-blee-KAH (stress on 'KAH')\n- compartir = kom-par-TIR (stress on 'TIR')\n- seguir = seh-GEER (stress on 'GEER')\n- redacción = reh-DAK-see-ohn (stress on 'DAK')\n- noticia = no-TEE-see-ah (stress on 'TEE')\n- titular = too-tee-NAHL (stress on 'NAH')\n- tendencia = ten-DEN-see-ah (stress on 'DEN')\n- algoritmo = ah-l-go-REE-toh (stress on 'REE')\n- transmisión = trahns-mee-SEE-ohn (stress on 'see-OHN')\n- entretenimiento = en-ter-teh-nee-MYEN-toh (stress on 'MYEN')",
+    "examples": [
+      "noticias = no-TEE-see-ahs (stress on 'TEE')",
+      "televisión = teh-leh-vee-ah-see-OHN (stress on 'see-OHN')",
+      "periodista = her-NAH-listah (stress on 'NAH')",
+      "documental = doh-koo-men-TAHL (stress on 'TAHL')",
+      "transmisión = trahns-mee-see-OHN (stress on 'see-OHN')",
+      "entretenimiento = en-ter-teh-nee-MYEN-toh (stress on 'MYEN')"
+    ]
+  },
+  "exercises": [
+    {
+      "type": "multiple-choice",
+      "question": "What is the Spanish word for 'social media'?",
+      "options": ["los medios sociales", "las redes sociales", "los sitios sociales", "las webs sociales"],
+      "correct": 1,
+      "explanation": "'Las redes sociales' means 'social media.' 'Redes' comes from 'red' (network). This is the standard term used in Spanish."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Which relative pronoun means 'who' when referring to a person?",
+      "options": ["el cual", "quien", "donde", "lo que"],
+      "correct": 1,
+      "explanation": "'Quien' refers to people. 'El cual' is more formal and used after prepositions. 'Donde' refers to places. 'Lo que' refers to ideas/situations."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: 'La película ___ vimos fue increíble.' (The movie we watched was incredible.)",
+      "correct": "que",
+      "explanation": "'Que' is the most common relative pronoun for both people and things. 'La película que vimos' = The movie we watched."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Which sentence uses the passive 'se' correctly?",
+      "options": ["Se vende los periódicos.", "Se venden periódicos.", "Se vender los periódicos.", "Se vende periódicos."],
+      "correct": 1,
+      "explanation": "'Se venden periódicos' is correct — the verb 'venden' is plural to agree with the plural subject 'periódicos.' 'Se vende' would be for singular: 'Se vende el periódico.'"
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete with the correct direct object pronoun: '¿Viste las noticias? Sí, ___ vi.'",
+      "correct": "las",
+      "explanation": "'Las noticias' is feminine plural, so the direct object pronoun is 'las.' 'Sí, las vi' = Yes, I saw them."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What does 'el titular' mean?",
+      "options": ["The writer", "The headline", "The editor", "The publisher"],
+      "correct": 1,
+      "explanation": "'El titular' means 'the headline.' 'El escritor' = writer, 'el editor' = editor, 'el editor / el publicador' = publisher."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: 'Si yo ___ (tener) un canal de TV, emitiera noticias.'",
+      "correct": "tuviera",
+      "explanation": "'Si' + imperfect subjunctive for hypothetical: 'tuviera' (from tener). 'Si yo tuviera un canal de TV' = If I had a TV channel."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What does 'se transmite el partido en vivo' mean?",
+      "options": ["The match was live streamed.", "The match is broadcast live.", "They are watching the match live.", "The match was broadcast yesterday."],
+      "correct": 1,
+      "explanation": "'Se transmite' = is broadcast (passive se, present tense). 'En vivo' = live. 'El partido' = the match. The full sentence = The match is broadcast live."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete with the correct object pronoun: '¿Me recomendaste la serie? Sí, te ___ recomendé.'",
+      "correct": "la",
+      "explanation": "'La serie' is feminine singular, so the direct object pronoun is 'la.' 'Sí, te la recomendé' = Yes, I recommended it to you."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What does 'hoy en día' mean?",
+      "options": ["Today in life", "These days / nowadays", "Every day of life", "In today's world"],
+      "correct": 1,
+      "explanation": "'Hoy en día' is an idiom meaning 'these days' or 'nowadays.' It's used to talk about current conditions."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete with the correct relative pronoun: 'Lo ___ quiero es ver una buena película.' (What I want is to watch a good movie.)",
+      "correct": "que",
+      "explanation": "'Lo que' = 'that which / what.' 'Lo que quiero' = 'What I want.' This construction refers to an idea, not a specific noun."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Which word means 'to broadcast' in Spanish?",
+      "options": ["grabar", "emitir", "descargar", "publicar"],
+      "correct": 1,
+      "explanation": "'Emitir' means 'to broadcast.' 'Grabar' = to record, 'descargar' = to download, 'publicar' = to publish/post."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: 'Los artículos ___ leí fueron muy interesantes.' (The articles I read were very interesting.)",
+      "correct": "que",
+      "explanation": "'Que' is the relative pronoun for things. 'Los artículos que leí' = The articles I read. (Note: could also be 'en los que' in more formal usage.)"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What does 'las falsas noticias' mean?",
+      "options": ["The old news", "The fake news", "The false friends", "The wrong messages"],
+      "correct": 1,
+      "explanation": "'Las falsas noticias' means 'fake news.' 'Falsas' = fake/false, 'noticias' = news. This is the term used for misinformation."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete with the correct indirect object pronoun: '___ envié el mensaje a mi amigo.' (I sent him the message.)",
+      "correct": "Le",
+      "explanation": "'Le' is the third-person singular indirect object pronoun — 'to him.' 'Le envié el mensaje a mi amigo' = I sent him the message."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Which is the Spanish word for 'podcast'?",
+      "options": ["el podcast", "la radio digital", "el audio blog", "el micrófono"],
+      "correct": 0,
+      "explanation": "'El podcast' is used directly in Spanish. It's a loanword from English, just like in many other languages."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: 'Si el periodista ___ (ser) más claro, todos habrían entendido.'",
+      "correct": "hubiera sido",
+      "explanation": "This is a past unreal condition: 'Si' + past perfect subjunctive → would have + past participle. 'Si el periodista hubiera sido más claro' = If the journalist had been clearer."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What does 'la redacción' mean?",
+      "options": ["The writing desk", "The newsroom", "The writing class", "The handwriting"],
+      "correct": 1,
+      "explanation": "'La redacción' means 'the newsroom' or 'editorial office.' It comes from 'redactar' (to draft/write an article)."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: '¿Se ___ (emitir) las noticias a las ocho?' (Is the news broadcast at eight?)",
+      "correct": "emiten",
+      "explanation": "'Las noticias' is plural, so the verb must be plural: 'se emiten.' '¿Se emiten las noticias a las ocho?' = Is the news broadcast at eight? (Note: could also accept 'emite' if referring to 'la noticia' singular.)"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What does 'virar en redes' mean?",
+      "options": ["to turn on social media", "to go viral", "to change channels", "to follow accounts"],
+      "correct": 1,
+      "explanation": "'Virar (en redes)' means 'to go viral' on social media. It's a colloquial expression derived from 'viral.'"
+    }
+  ]
+}

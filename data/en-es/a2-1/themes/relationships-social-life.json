@@ -1,0 +1,276 @@
+{
+  "id": "relationships-social-life",
+  "level": "a2-1",
+  "title": "Relationships & Social Life",
+  "description": "Talk about friendships, dating, family dynamics, social events, and interpersonal relationships in Spanish. Learn vocabulary for describing relationships, social interactions, and personal connections.",
+  "vocabulary": [
+    {"id": 1, "target": "amigo", "source": "friend (m)", "gender": "m", "type": "family"},
+    {"id": 2, "target": "amiga", "source": "friend (f)", "gender": "f", "type": "family"},
+    {"id": 3, "target": "mejor amigo", "source": "best friend (m)", "gender": "m", "type": "family"},
+    {"id": 4, "target": "mejor amiga", "source": "best friend (f)", "gender": "f", "type": "family"},
+    {"id": 5, "target": "conocer", "source": "to meet / to know (a person)", "gender": "v", "type": "verb"},
+    {"id": 6, "target": "quedar", "source": "to meet up / to arrange", "gender": "v", "type": "verb"},
+    {"id": 7, "target": "verse", "source": "to see each other", "gender": "v", "type": "verb"},
+    {"id": 8, "target": "citas", "source": "dates (plural)", "gender": "f", "type": "noun"},
+    {"id": 9, "target": "cita", "source": "date (meeting/romantic)", "gender": "f", "type": "noun"},
+    {"id": 10, "target": "novio", "source": "boyfriend", "gender": "m", "type": "family"},
+    {"id": 11, "target": "novia", "source": "girlfriend", "gender": "f", "type": "family"},
+    {"id": 12, "target": "pareja", "source": "partner/spouse", "gender": "f", "type": "family"},
+    {"id": 13, "target": "relacion", "source": "relationship", "gender": "f", "type": "noun"},
+    {"id": 14, "target": "romper", "source": "to break up", "gender": "v", "type": "verb"},
+    {"id": 15, "target": "salir", "source": "to go out / to date", "gender": "v", "type": "verb"},
+    {"id": 16, "target": "enamorarse", "source": "to fall in love", "gender": "v", "type": "verb"},
+    {"id": 17, "target": "amar", "source": "to love (deep love)", "gender": "v", "type": "verb"},
+    {"id": 18, "target": "querer", "source": "to love / to want", "gender": "v", "type": "verb"},
+    {"id": 19, "target": "fiel", "source": "faithful/loyal", "gender": "m", "type": "adjective"},
+    {"id": 20, "target": "celoso", "source": "jealous (m)", "gender": "m", "type": "adjective"},
+    {"id": 21, "target": "celosa", "source": "jealous (f)", "gender": "f", "type": "adjective"},
+    {"id": 22, "target": "confianza", "source": "trust", "gender": "f", "type": "noun"},
+    {"id": 23, "target": "respetar", "source": "to respect", "gender": "v", "type": "verb"},
+    {"id": 24, "target": "entender", "source": "to understand", "gender": "v", "type": "verb"},
+    {"id": 25, "target": "discutir", "source": "to argue / to discuss", "gender": "v", "type": "verb"},
+    {"id": 26, "target": "pelear", "source": "to fight/argue", "gender": "v", "type": "verb"},
+    {"id": 27, "target": "pedir perdón", "source": "to apologize", "gender": "m", "type": "phrase"},
+    {"id": 28, "target": "perdonar", "source": "to forgive", "gender": "v", "type": "verb"},
+    {"id": 29, "target": "ayudar", "source": "to help", "gender": "v", "type": "verb"},
+    {"id": 30, "target": "acompanar", "source": "to accompany", "gender": "v", "type": "verb"},
+    {"id": 31, "target": "invitar", "source": "to invite", "gender": "v", "type": "verb"},
+    {"id": 32, "target": "celebrar", "source": "to celebrate", "gender": "v", "type": "verb"},
+    {"id": 33, "target": "cumpleaños", "source": "birthday", "gender": "m", "type": "noun"},
+    {"id": 34, "target": "fiesta", "source": "party", "gender": "f", "type": "noun"},
+    {"id": 35, "target": "reunion", "source": "get-together / meeting", "gender": "f", "type": "noun"},
+    {"id": 36, "target": "salir con alguien", "source": "to go out with someone", "gender": "m", "type": "phrase"},
+    {"id": 37, "target": "casarse con", "source": "to marry (someone)", "gender": "m", "type": "phrase"},
+    {"id": 38, "target": "divorciarse", "source": "to get divorced", "gender": "v", "type": "verb"},
+    {"id": 39, "target": "separarse", "source": "to separate", "gender": "v", "type": "verb"},
+    {"id": 40, "target": "soltero", "source": "single (m)", "gender": "m", "type": "adjective"},
+    {"id": 41, "target": "soltera", "source": "single (f)", "gender": "f", "type": "adjective"},
+    {"id": 42, "target": "comprometido", "source": "engaged (m)", "gender": "m", "type": "adjective"},
+    {"id": 43, "target": "comprometida", "source": "engaged (f)", "gender": "f", "type": "adjective"},
+    {"id": 44, "target": "enfermar", "source": "to get sick", "gender": "v", "type": "verb"},
+    {"id": 45, "target": "hermano mayor", "source": "older brother", "gender": "m", "type": "family"},
+    {"id": 46, "target": "hermana mayor", "source": "older sister", "gender": "f", "type": "family"},
+    {"id": 47, "target": "hermano menor", "source": "younger brother", "gender": "m", "type": "family"},
+    {"id": 48, "target": "hermana menor", "source": "younger sister", "gender": "f", "type": "family"},
+    {"id": 49, "target": "primos", "source": "cousins (plural)", "gender": "m", "type": "family"},
+    {"id": 50, "target": "tios", "source": "uncles/aunts (plural)", "gender": "m", "type": "family"},
+    {"id": 51, "target": "sobrinos", "source": "nieces/nephews (plural)", "gender": "m", "type": "family"},
+    {"id": 52, "target": "abuelos", "source": "grandparents (plural)", "gender": "m", "type": "family"},
+    {"id": 53, "target": "padrinos", "source": "godparents (plural)", "gender": "m", "type": "family"},
+    {"id": 54, "target": "cuñados", "source": "in-laws (plural)", "gender": "m", "type": "family"},
+    {"id": 55, "target": "desconfiar", "source": "to distrust", "gender": "v", "type": "verb"},
+    {"id": 56, "target": "mentir", "source": "to lie", "gender": "v", "type": "verb"},
+    {"id": 57, "target": "confiar en", "source": "to trust (someone)", "gender": "m", "type": "phrase"},
+    {"id": 58, "target": "querer mucho", "source": "to love very much", "gender": "m", "type": "phrase"},
+    {"id": 59, "target": "extrañar", "source": "to miss (someone)", "gender": "v", "type": "verb"},
+    {"id": 60, "target": "echar de menos", "source": "to miss (someone)", "gender": "m", "type": "phrase"},
+    {"id": 61, "target": "escuchar", "source": "to listen", "gender": "v", "type": "verb"},
+    {"id": 62, "target": "hablar", "source": "to talk/speak", "gender": "v", "type": "verb"},
+    {"id": 63, "target": "explicar", "source": "to explain", "gender": "v", "type": "verb"},
+    {"id": 64, "target": "comunicar", "source": "to communicate", "gender": "v", "type": "verb"},
+    {"id": 65, "target": "apoyar", "source": "to support", "gender": "v", "type": "verb"},
+    {"id": 66, "target": "cuidar", "source": "to take care of", "gender": "v", "type": "verb"},
+    {"id": 67, "target": "proteger", "source": "to protect", "gender": "v", "type": "verb"},
+    {"id": 68, "target": "sentirse", "source": "to feel (oneself)", "gender": "v", "type": "verb"},
+    {"id": 69, "target": "preocuparse", "source": "to worry", "gender": "v", "type": "verb"},
+    {"id": 70, "target": "disfrutar", "source": "to enjoy", "gender": "v", "type": "verb"},
+    {"id": 71, "target": "divertirse", "source": "to have fun", "gender": "v", "type": "verb"},
+    {"id": 72, "target": "juntos", "source": "together (m)", "gender": "m", "type": "adverb"},
+    {"id": 73, "target": "solos", "source": "alone (m)", "gender": "m", "type": "adverb"},
+    {"id": 74, "target": "lejos", "source": "far away", "gender": "m", "type": "adverb"},
+    {"id": 75, "target": "cerca", "source": "near/close by", "gender": "m", "type": "adverb"},
+    {"id": 76, "target": "joven", "source": "young person", "gender": "m", "type": "adjective"},
+    {"id": 77, "target": "maduro", "source": "mature", "gender": "m", "type": "adjective"},
+    {"id": 78, "target": "generoso", "source": "generous", "gender": "m", "type": "adjective"},
+    {"id": 79, "target": "generosa", "source": "generous (f)", "gender": "f", "type": "adjective"},
+    {"id": 80, "target": "simpatico", "source": "nice/pleasant (m)", "gender": "m", "type": "adjective"},
+    {"id": 81, "target": "simpatica", "source": "nice/pleasant (f)", "gender": "f", "type": "adjective"},
+    {"id": 82, "target": "sincero", "source": "sincere (m)", "gender": "m", "type": "adjective"},
+    {"id": 83, "target": "sincera", "source": "sincere (f)", "gender": "f", "type": "adjective"},
+    {"id": 84, "target": "tradiciones", "source": "traditions", "gender": "f", "type": "noun"},
+    {"id": 85, "target": "valores", "source": "values", "gender": "m", "type": "noun"},
+    {"id": 86, "target": "amistad", "source": "friendship", "gender": "f", "type": "noun"},
+    {"id": 87, "target": "boda", "source": "wedding", "gender": "f", "type": "noun"},
+    {"id": 88, "target": "compromiso", "source": "engagement/commitment", "gender": "m", "type": "noun"},
+    {"id": 89, "target": "enemigo", "source": "enemy (m)", "gender": "m", "type": "person"},
+    {"id": 90, "target": "enemiga", "source": "enemy (f)", "gender": "f", "type": "person"},
+    {"id": 91, "target": "desconocido", "source": "stranger (m)", "gender": "m", "type": "person"},
+    {"id": 92, "target": "desconocida", "source": "stranger (f)", "gender": "f", "type": "person"},
+    {"id": 93, "target": "vecinos", "source": "neighbors (plural)", "gender": "m", "type": "person"},
+    {"id": 94, "target": "compañeros", "source": "classmates/coworkers (plural)", "gender": "m", "type": "person"},
+    {"id": 95, "target": "chico", "source": "boy/boyfriend (m)", "gender": "m", "type": "person"},
+    {"id": 96, "target": "chica", "source": "girl/girlfriend (f)", "gender": "f", "type": "person"},
+    {"id": 97, "target": "crush", "source": "crush (unrequited love)", "gender": "m", "type": "noun"},
+    {"id": 98, "target": "amistoso", "source": "friendly", "gender": "m", "type": "adjective"},
+    {"id": 99, "target": "sociable", "source": "sociable", "gender": "m", "type": "adjective"},
+    {"id": 100, "target": "introvertido", "source": "introverted (m)", "gender": "m", "type": "adjective"}
+  ],
+  "grammar": [
+    {
+      "title": "Conocer vs. Saber — Knowing People vs. Facts",
+      "content": "CONOCER is used for knowing people, places, or being familiar with something:\\n\\n1. KNOWING PEOPLE:\\nConozco a tu hermana. (I know your sister.)\\n¿Conoces a Maria? (Do you know Maria?)\\nLa conozco desde hace anos. (I've known her for years.)\\n\\n2. BEING FAMILIAR WITH (places, things):\\nConozco Madrid bien. (I know Madrid well.)\\nConoces este restaurante? (Do you know this restaurant?)\\nNo conozco esa ciudad. (I don't know that city.)\\n\\n3. MEETING SOMEONE FOR THE FIRST TIME:\\nMe llamo Carlos, mucho gusto. Conocerte es un placer. (My name is Carlos, nice to meet you. Meeting you is a pleasure.)\\n\\nIMPORTANT: When the direct object is a person, use the personal 'a':\\nConozco a Pedro. (NOT: Conozco Pedro.)\\n\\nSABER is used for knowing facts, information, or how to do something:\\n\\n1. KNOWING FACTS/INFORMATION:\\nSabe la respuesta. (He/She knows the answer.)\\n¿Sabes la hora? (Do you know the time?)\\nNo sé su número de telefono. (I don't know his/her phone number.)\\n\\n2. KNOWING HOW TO DO SOMETHING (followed by infinitive):\\nSé cocinar. (I know how to cook.)\\n¿Sabes nadar? (Do you know how to swim?)\\nNo sé hablar francés. (I don't know how to speak French.)\\n\\n3. KNOWING (learned/realized):\\nSupimos la verdad ayer. (We found out the truth yesterday.)\\nNo sé qué decir. (I don't know what to say.)",
+      "examples": [
+        "Conozco a muchos amigos en esta ciudad. (I know many friends in this city.)",
+        "¿Sabes cocinar pasta? (Do you know how to cook pasta?)",
+        "Conozco la respuesta, pero no sé explicarla. (I know the answer, but I don't know how to explain it.)",
+        "Mi madre conoce a todos los vecinos. (My mother knows all the neighbors.)"
+      ]
+    },
+    {
+      "title": "Quedar — Making Plans and Arranging Meetings",
+      "content": "Quedar is one of the most common verbs used for making plans in Spanish:\\n\\n1. MEETING UP (reflexive: quedar):\nQuedamos a las ocho. (We meet at eight.)\\n¿Quedamos mañana? (Shall we meet tomorrow?)\\nNos quedamos en el centro. (We'll meet in the center.)\\n\\n2. ARRANGING TO MEET (con + lugar/persona):\\nQuedo con mis amigos el sábado. (I'm meeting my friends on Saturday.)\\nQuedamos en el café de la plaza. (We'll meet at the café in the square.)\\n\\n3. COMMON EXPRESSIONS:\\nQuedar bien/mal (to look good/bad on someone)\\nQuedar embarazada (to get pregnant)\\nQuedar en algo (to agree on something)\\n\\n4. CONJUGATION (present indicative):\\nQuedar: yo quedo, tú quedas, él/ella queda, nosotros quedamos, vosotros quedáis, ellos quedan\\nQuedo, quedas, queda, quedamos, quedáis, quedan\\n\\n5. USING QUEDAR FOR DATE PLANS:\\n¿Quedamos esta noche? (Shall we meet tonight?)\\nQuedamos a las nueve en el cine. (We'll meet at nine at the cinema.)\\nQuedamos para cenar. (We'll meet for dinner.)",
+      "examples": [
+        "¿Quedamos el viernes por la tarde? (Shall we meet Friday afternoon?)",
+        "Quedamos en la plaza mayor. (We'll meet in the main square.)",
+        "Nos quedamos con Marta después del trabajo. (We're meeting Marta after work.)",
+        "Quedamos en ir al restaurante nuevo. (We agreed to go to the new restaurant.)"
+      ]
+    },
+    {
+      "title": "Reflexive Verbs for Relationships — Sentirse, Preocuparse, Enamorarse",
+      "content": "REFLEXIVE VERBS show actions that the subject does to themself. They are very common in relationship contexts:\\n\\n1. SENTIRSE (to feel — emotions):\\nMe siento feliz. (I feel happy.)\\nTe sientes triste. (You feel sad.)\\nSe siente cansado. (He feels tired.)\\n\\n2. PREOCUPARSE DE (to worry about):\\nMe preocupo por mis hijos. (I worry about my children.)\\nTe preocupas demasiado. (You worry too much.)\\nNos preocupa el futuro. (We worry about the future.)\\n\\n3. ENAMORARSE DE (to fall in love with):\\nMe enamoré de ti. (I fell in love with you.)\\nSe enamoraron en la universidad. (They fell in love at university.)\\nNos enamoramos el primer dia. (We fell in love on the first day.)\\n\\n4. PELEARSE CON (to argue/fight with):\\nMe peleo con mi hermano a veces. (I fight with my brother sometimes.)\\nSe pelearon por una tonteria. (They fought over something silly.)\\n\\n5. PERDONARSE / PEDIR PERDÓN:\\nTe perdono. (I forgive you.)\\nPido perdón. (I apologize.)\\nSe perdonaron después de la discusión. (They forgave each other after the argument.)\\n\\nCommon reflexive relationship verbs:\\n- sentirse = to feel\\n- preocuparse = to worry\\n- enamorarse = to fall in love\\n- pelearse = to fight\\n- disculparse = to apologize\\n- encontrar(se) = to meet\\n- llamar(se) = to call oneself",
+      "examples": [
+        "Me siento bien con ella. (I feel good with her.)",
+        "Se preocupan mucho por los niños. (They worry a lot about the kids.)",
+        "Nos enamoramos el verano pasado. (We fell in love last summer.)",
+        "Me peleo con mi novia, pero luego nos perdonamos. (I fight with my girlfriend, but then we forgive each other.)"
+      ]
+    },
+    {
+      "title": "Describing People and Relationships — Adjectives and Expressions",
+      "content": "Spanish has many adjectives for describing personality traits and relationship qualities. These often need to agree in gender and number:\\n\\n1. POSITIVE TRAITS:\\nSincero/a — sincere\\nGeneroso/a — generous\\nSimpatico/a — nice/pleasant\\nAmistoso/a — friendly\\nSociable — sociable\\nLeal — loyal\\nResponsable — responsible\\nTrabajador/a — hardworking\\nDiverso/a — fun/entertaining\\nComprensivo/a — understanding\\n\\n2. NEGATIVE TRAITS:\\nCeloso/a — jealous\\nPerezoso/a — lazy\\nEgoista — selfish\\nTacaño/a — stingy\\nMentiroso/a — liar\\nArrogante — arrogant\\n\\n3. RELATIONSHIP STATUS:\\nSoltero/a — single\\nComprometido/a — engaged\\nCasado/a — married\\nDivorciado/a — divorced\\nSeparado/a — separated\\nViudo/a — widowed\\n\\n4. AGREEMENT RULES:\\nAdjectives must match the gender and number of the noun they describe:\\nMi amigo es simpatico. (My friend is nice — masculine)\\nMi amiga es simpatica. (My friend is nice — feminine)\\nMis amigos son simpaticos. (My friends are nice — masculine plural)\\nMis amigas son simpaticas. (My friends are nice — feminine plural)\\n\\n5. USING MUCHO/POCO:\\nEs muy simpatico. (He is very nice.)\\nEs bastante generoso. (He is quite generous.)\\nEs poco sociable. (He is not very sociable.)\\nEs demasiado celoso. (He is too jealous.)",
+      "examples": [
+        "Mi mejor amigo es muy sincero y generoso. (My best friend is very sincere and generous.)",
+        "Ella es una persona muy sociable y divertida. (She is a very sociable and fun person.)",
+        "Son solteros y disfrutan de su libertad. (They are single and enjoy their freedom.)",
+        "Mi hermano es un poco celoso, pero es muy leal. (My brother is a bit jealous, but he is very loyal.)"
+      ]
+    }
+  ],
+  "pronunciation": [
+    {
+      "title": "Relationship Vocabulary — Key Sounds and Stress",
+      "content": "Spanish pronunciation in relationship contexts:\\n\\n1. THE LETTER 'Ñ' (eñe) — unique Spanish sound:\\n- amigo NO es 'amigno' — it's a-mi-go (with soft g like 'h')\\n- amigo NO tiene 'ñ' — the 'ñ' sound is like 'ny' in 'onion'\\n- words with ñ: amigo (no ñ), hermano (has ñ) -> her-MAH-no\\n\\n2. STRESS IN RELATIONSHIP WORDS:\\n- rela-cion (stress on last syllable: re-la-CEON)\\n- amigo (stress on last syllable: a-MI-go)\\n- novio (stress on last syllable: NO-vyo)\\n- novia (stress on first syllable: NO-vya)\\n- pareja (stress on second syllable: pa-RE-ha)\\n\\n3. THE 'G' SOUND (hard vs soft):\\nHard G (like English 'g'): gusto, gente, regalo\\nSoft G (like English 'h'): amigo, amigo, ligero, enemigo\\n\\n4. THE 'LL' AND 'Y' SOUND (yeísmo):\\nIn most Spanish dialects, ll and y sound the same:\\n- llama -> YAH-ma\\n- yo -> yoh\\n- llamar -> yah-MAHR\\n- llamar -> to call\\n\\n5. COMMON PHRASES — FULL SENTENCES:\\n- Me llamo Carlos y soy de Mexico. -> meh YAH-moh KAH-lohs y soys deh meh-KSEE-koh\\n- Quiero mucho a mi familia. -> KYEH-ro MOO-choh ah mee fah-MEE-lyah\\n- Nos vemos mañana. -> nohs BEH-moh mah-nyAH-nah",
+      "examples": [
+        {"target": "amigo", "source": "ah-MEE-go — stress on second syllable"},
+        {"target": "relación", "source": "reh-lah-see-OWN — stress on last syllable, accent on ó"},
+        {"target": "pareja", "source": "pah-REH-hah — j sounds like English 'h'"},
+        {"target": "querer", "source": "keh-REHR — q always followed by u"},
+        {"target": "enamorarse", "source": "eh-nah-moh-RAHR-seh — stress on third syllable"},
+        {"target": "sinceramente", "source": "sin-seh-RAH-men-teh — five syllables"},
+        {"target": "disfrutar", "source": "dees-froo-TAHR — stress on third syllable"},
+        {"target": "compañeros", "source": "com-pah-YEH-rohs — ñ = ny sound"}
+      ]
+    },
+    {
+      "title": "Intonation in Questions About Relationships",
+      "content": "Spanish questions about relationships follow specific intonation patterns:\\n\\n1. YES/NO QUESTIONS (rising intonation):\\n¿Conoces a Maria? (Do you know Maria?) — voice goes up at the end\\n¿Salen juntos? (Do they go out together?) — voice goes up at the end\\n¿Están comprometidos? (Are they engaged?) — voice goes up at the end\\n\\n2. QUESTIONS WITH QUESTION WORDS (falling intonation):\\n¿Quién es tu mejor amigo? (Who is your best friend?) — voice falls at the end\\n¿Dónde quedan? (Where do they meet?) — voice falls at the end\\n¿Cuándo se conocieron? (When did they meet?) — voice falls at the end\\n¿Por qué se pelearon? (Why did they fight?) — voice falls at the end\\n\\n3. EXPRESSING EMOTION IN SPEECH:\\n- When expressing love: softer tone, slower pace\\n- When talking about a fight: sharper, faster pace\\n- When asking about someone: curious, rising intonation\\n\\n4. COMMON QUESTION PATTERNS:\\n¿Cómo se llaman? (What are their names?)\\n¿De dónde son? (Where are they from?)\\n¿Desde cuándo se conocen? (How long have they known each other?)",
+      "examples": [
+        {"target": "¿Conoces a tu pareja?", "source": "Do you know your partner? (rising intonation)"},
+        {"target": "¿Quién es tu amigo favorito?", "source": "Who is your favorite friend? (falling intonation)"},
+        {"target": "¿Desde cuándo están juntos?", "source": "How long have they been together? (falling intonation)"},
+        {"target": "¿Por qué se pelearon?", "source": "Why did they fight? (falling intonation)"}
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "multiple-choice",
+      "question": "Which verb should you use for 'I know Maria' (I am familiar with Maria as a person)?",
+      "options": ["Sé Maria", "Conozco a Maria", "Soy Maria", "Estoy a Maria"],
+      "correct": 1,
+      "explanation": "Conocer is used for knowing people. Always use the personal 'a' before a specific person: 'Conozco a Maria.'"
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: '___ sé cómo cocinar, pero sé la receta. (I don't know how to cook, but I know the recipe.)'",
+      "correct": "No",
+      "explanation": "No sé cómo cocinar = I don't know how to cook (saber + infinitive for ability). 'Pero sé la receta' = but I know the recipe (saber a fact)."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "How do you say 'We meet at eight' in Spanish?",
+      "options": ["Nos quedamos a las ocho", "Nos vamos a las ocho", "Nos sentimos a las ocho", "Nos conocemos a las ocho"],
+      "correct": 0,
+      "explanation": "Quedamos = we meet up (from quedar). 'Quedamos a las ocho' = We meet at eight o'clock."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Which adjective means 'friendly' in Spanish?",
+      "options": ["Celoso", "Simpático", "Amistoso", "Responsable"],
+      "correct": 2,
+      "explanation": "Amistoso/a = friendly. Celoso = jealous, simpático = nice/pleasant, responsable = responsible."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: 'Me ___ de ti. (I fell in love with you.)'",
+      "correct": "enamoré",
+      "explanation": "Enamorarse de = to fall in love with. 'Me enamoré de ti' = I fell in love with you (past tense, reflexive)."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What does 'soltero/a' mean?",
+      "options": ["married", "engaged", "single", "divorced"],
+      "correct": 2,
+      "explanation": "Soltero/a = single. Married = casado/a, engaged = comprometido/a, divorced = divorciado/a."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: 'Quedamos ___ el café del centro. (We'll meet at the café in the center.)'",
+      "correct": "en",
+      "explanation": "Quedar en + place = to meet at a place. 'Quedamos en el café' = We'll meet at the café."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Which sentence is correct for 'I worry about my children'?",
+      "options": ["Me preocupo por mis hijos", "Me preocupo a mis hijos", "Me preocupo de mis hijos", "Me preocupan mis hijos"],
+      "correct": 0,
+      "explanation": "Preocuparse de/con + por = to worry about. 'Me preocupo por mis hijos' = I worry about my children."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: 'Mi hermano es muy ___ pero también es leal. (My brother is very jealous but he is also loyal.)'",
+      "correct": "celoso",
+      "explanation": "Celoso/a = jealous. 'Mi hermano es muy celoso' = My brother is very jealous."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Which is correct for 'Do you know how to swim?'",
+      "options": ["¿Conoces nadar?", "¿Sabes nadar?", "¿Soy nadar?", "¿Estás nadar?"],
+      "correct": 1,
+      "explanation": "Saber + infinitive = to know how to do something. '¿Sabes nadar?' = Do you know how to swim?"
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: '___ siento muy bien con mi mejor amiga. (I feel very good with my best friend.)'",
+      "correct": "Me",
+      "explanation": "Sentirse = to feel (oneself). 'Me siento' = I feel (reflexive pronoun me + conjugated sentir)."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Which is correct for 'They are engaged'?",
+      "options": ["Están solteros", "Están comprometidos", "Están divorciados", "Están separados"],
+      "correct": 1,
+      "explanation": "Comprometido/a = engaged. 'Están comprometidos' = They are engaged (masculine or mixed group)."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: 'Se ___ después de la discusión. (They forgave each other after the argument.)'",
+      "correct": "perdonaron",
+      "explanation": "Perdonarse = to forgive each other. 'Se perdonaron' = They forgave each other (past tense, reflexive)."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "How do you say 'My best friend is very sincere' in Spanish?",
+      "options": ["Mi mejor amigo es muy sincero", "Mi mejor amigo es muy sincera", "Mi mejor amiga es muy sincero", "Mejor amigo es muy sincero"],
+      "correct": 0,
+      "explanation": "The adjective must match the noun. 'Amigo' is masculine, so 'sincero' (not 'sincera'). 'Mi mejor amigo es muy sincero.'"
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: '¿Quedamos esta noche para ___? (Shall we meet tonight for dinner?)'",
+      "correct": "cenar",
+      "explanation": "Cenar = to have dinner. 'Quedamos para cenar' = Shall we meet for dinner?"
+    }
+  ]
+}

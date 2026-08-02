@@ -1,0 +1,351 @@
+{
+  "id": "health-body",
+  "level": "a1-2",
+  "title": "Health & Body",
+  "description": "Learn to talk about body parts, describe symptoms, visit the doctor, and understand basic health expressions in everyday situations.",
+  "vocabulary": [
+    {"id": 1, "target": "cuerpo", "source": "body", "gender": "m", "type": "noun"},
+    {"id": 2, "target": "cabeza", "source": "head", "gender": "f", "type": "noun"},
+    {"id": 3, "target": "cuello", "source": "neck", "gender": "m", "type": "noun"},
+    {"id": 4, "target": "hombro", "source": "shoulder", "gender": "m", "type": "noun"},
+    {"id": 5, "target": "brazo", "source": "arm", "gender": "m", "type": "noun"},
+    {"id": 6, "target": "codo", "source": "elbow", "gender": "m", "type": "noun"},
+    {"id": 7, "target": "muñeca", "source": "wrist", "gender": "f", "type": "noun"},
+    {"id": 8, "target": "mano", "source": "hand", "gender": "f", "type": "noun"},
+    {"id": 9, "target": "dedo", "source": "finger / toe", "gender": "m", "type": "noun"},
+    {"id": 10, "target": "pecho", "source": "chest", "gender": "m", "type": "noun"},
+    {"id": 11, "target": "estómago", "source": "stomach", "gender": "m", "type": "noun"},
+    {"id": 12, "target": "pierna", "source": "leg", "gender": "f", "type": "noun"},
+    {"id": 13, "target": "rodilla", "source": "knee", "gender": "f", "type": "noun"},
+    {"id": 14, "target": "tobillo", "source": "ankle", "gender": "m", "type": "noun"},
+    {"id": 15, "target": "pie", "source": "foot", "gender": "m", "type": "noun"},
+    {"id": 16, "target": "cara", "source": "face", "gender": "f", "type": "noun"},
+    {"id": 17, "target": "ojo", "source": "eye", "gender": "m", "type": "noun"},
+    {"id": 18, "target": "oreja", "source": "ear", "gender": "f", "type": "noun"},
+    {"id": 19, "target": "nariz", "source": "nose", "gender": "f", "type": "noun"},
+    {"id": 20, "target": "boca", "source": "mouth", "gender": "f", "type": "noun"},
+    {"id": 21, "target": "diente", "source": "tooth", "gender": "m", "type": "noun"},
+    {"id": 22, "target": "lengua", "source": "tongue", "gender": "f", "type": "noun"},
+    {"id": 23, "target": "cabello", "source": "hair", "gender": "m", "type": "noun"},
+    {"id": 24, "target": "espalda", "source": "back", "gender": "f", "type": "noun"},
+    {"id": 25, "target": "riñón", "source": "kidney", "gender": "m", "type": "noun"},
+    {"id": 26, "target": "corazón", "source": "heart", "gender": "m", "type": "noun"},
+    {"id": 27, "target": "pulmón", "source": "lung", "gender": "m", "type": "noun"},
+    {"id": 28, "target": "sangre", "source": "blood", "gender": "f", "type": "noun"},
+    {"id": 29, "target": "hueso", "source": "bone", "gender": "m", "type": "noun"},
+    {"id": 30, "target": "músculo", "source": "muscle", "gender": "m", "type": "noun"},
+    {"id": 31, "target": "dolor", "source": "pain", "gender": "m", "type": "noun"},
+    {"id": 32, "target": "fiebre", "source": "fever", "gender": "f", "type": "noun"},
+    {"id": 33, "target": "tos", "source": "cough", "gender": "f", "type": "noun"},
+    {"id": 34, "target": "resfriado", "source": "cold", "gender": "m", "type": "noun"},
+    {"id": 35, "target": "gripe", "source": "flu", "gender": "f", "type": "noun"},
+    {"id": 36, "target": "alergia", "source": "allergy", "gender": "f", "type": "noun"},
+    {"id": 37, "target": "médico", "source": "doctor", "gender": "m", "type": "noun"},
+    {"id": 38, "target": "doctora", "source": "doctor (female)", "gender": "f", "type": "noun"},
+    {"id": 39, "target": "enfermera", "source": "nurse", "gender": "f", "type": "noun"},
+    {"id": 40, "target": "hospital", "source": "hospital", "gender": "m", "type": "noun"},
+    {"id": 41, "target": "clínica", "source": "clinic", "gender": "f", "type": "noun"},
+    {"id": 42, "target": "farmacia", "source": "pharmacy", "gender": "f", "type": "noun"},
+    {"id": 43, "target": "botica", "source": "pharmacy (LatAm)", "gender": "f", "type": "noun"},
+    {"id": 44, "target": "urgencias", "source": "emergency room", "gender": "f", "type": "noun"},
+    {"id": 45, "target": "consulta", "source": "appointment / consultation", "gender": "f", "type": "noun"},
+    {"id": 46, "target": "receta", "source": "prescription", "gender": "f", "type": "noun"},
+    {"id": 47, "target": "medicina", "source": "medicine", "gender": "f", "type": "noun"},
+    {"id": 48, "target": "pastilla", "source": "pill", "gender": "f", "type": "noun"},
+    {"id": 49, "target": "jarabe", "source": "syrup", "gender": "m", "type": "noun"},
+    {"id": 50, "target": "inyección", "source": "injection", "gender": "f", "type": "noun"},
+    {"id": 51, "target": "vendaje", "source": "bandage", "gender": "m", "type": "noun"},
+    {"id": 52, "target": "curita", "source": "band-aid", "gender": "f", "type": "noun"},
+    {"id": 53, "target": "herida", "source": "wound", "gender": "f", "type": "noun"},
+    {"id": 54, "target": "corte", "source": "cut", "gender": "m", "type": "noun"},
+    {"id": 55, "target": "quemadura", "source": "burn", "gender": "f", "type": "noun"},
+    {"id": 56, "target": "moretón", "source": "bruise", "gender": "m", "type": "noun"},
+    {"id": 57, "target": "cabeceo", "source": "headache", "gender": "m", "type": "noun"},
+    {"id": 58, "target": "náusea", "source": "nausea", "gender": "f", "type": "noun"},
+    {"id": 59, "target": "mareo", "source": "dizziness", "gender": "m", "type": "noun"},
+    {"id": 60, "target": "calambre", "source": "cramp", "gender": "m", "type": "noun"},
+    {"id": 61, "target": "hambre", "source": "hunger", "gender": "f", "type": "noun"},
+    {"id": 62, "target": "sed", "source": "thirst", "gender": "f", "type": "noun"},
+    {"id": 63, "target": "sueño", "source": "sleepiness", "gender": "m", "type": "noun"},
+    {"id": 64, "target": "fatiga", "source": "fatigue", "gender": "f", "type": "noun"},
+    {"id": 65, "target": "doler", "source": "to hurt / to ache", "gender": "m", "type": "verb"},
+    {"id": 66, "target": "sentir", "source": "to feel", "gender": "m", "type": "verb"},
+    {"id": 67, "target": "tener fiebre", "source": "to have a fever", "gender": "m", "type": "phrase"},
+    {"id": 68, "target": "tener dolor", "source": "to have a pain", "gender": "m", "type": "phrase"},
+    {"id": 69, "target": "toser", "source": "to cough", "gender": "m", "type": "verb"},
+    {"id": 70, "target": "estornudar", "source": "to sneeze", "gender": "m", "type": "verb"},
+    {"id": 71, "target": "respirar", "source": "to breathe", "gender": "m", "type": "verb"},
+    {"id": 72, "target": "dormir", "source": "to sleep", "gender": "m", "type": "verb"},
+    {"id": 73, "target": "comer", "source": "to eat", "gender": "m", "type": "verb"},
+    {"id": 74, "target": "beber", "source": "to drink", "gender": "m", "type": "verb"},
+    {"id": 75, "target": "cuidarse", "source": "to take care of oneself", "gender": "m", "type": "verb"},
+    {"id": 76, "target": "sanar", "source": "to heal", "gender": "m", "type": "verb"},
+    {"id": 77, "target": "enfermo", "source": "sick", "gender": "m", "type": "adjective"},
+    {"id": 78, "target": "enferma", "source": "sick (feminine)", "gender": "f", "type": "adjective"},
+    {"id": 79, "target": "sano", "source": "healthy / healthy (m)", "gender": "m", "type": "adjective"},
+    {"id": 80, "target": "sana", "source": "healthy (feminine)", "gender": "f", "type": "adjective"},
+    {"id": 81, "target": "agudo", "source": "sharp (pain)", "gender": "m", "type": "adjective"},
+    {"id": 82, "target": "aguda", "source": "sharp (feminine)", "gender": "f", "type": "adjective"},
+    {"id": 83, "target": "crónico", "source": "chronic", "gender": "m", "type": "adjective"},
+    {"id": 84, "target": "agudo", "source": "acute / sharp", "gender": "m", "type": "adjective"},
+    {"id": 85, "target": "leve", "source": "mild / slight", "gender": "m", "type": "adjective"},
+    {"id": 86, "target": "grave", "source": "serious / severe", "gender": "m", "type": "adjective"},
+    {"id": 87, "target": "fuerte", "source": "strong (pain)", "gender": "m", "type": "adjective"},
+    {"id": 88, "target": "suave", "source": "mild / soft", "gender": "m", "type": "adjective"},
+    {"id": 89, "target": "rojo", "source": "red", "gender": "m", "type": "adjective"},
+    {"id": 90, "target": "hinchazón", "source": "swelling", "gender": "f", "type": "noun"},
+    {"id": 91, "target": "erupción", "source": "rash", "gender": "f", "type": "noun"},
+    {"id": 92, "target": "picazón", "source": "itching", "gender": "f", "type": "noun"},
+    {"id": 93, "target": "desmayo", "source": "faint / fainting", "gender": "m", "type": "noun"},
+    {"id": 94, "target": "primeros auxilios", "source": "first aid", "gender": "m", "type": "noun"},
+    {"id": 95, "target": "reconocimiento médico", "source": "medical check-up", "gender": "m", "type": "noun"},
+    {"id": 96, "target": "seguro médico", "source": "health insurance", "gender": "m", "type": "noun"},
+    {"id": 97, "target": "síntoma", "source": "symptom", "gender": "m", "type": "noun"},
+    {"id": 98, "target": "tratamiento", "source": "treatment", "gender": "m", "type": "noun"}
+  ],
+  "grammar": [
+    {
+      "title": "Tener — To Have (Present Tense)",
+      "content": "Tener is an essential verb for talking about health and bodily states.\n\nConjugation:\nYo tengo (I have)\nTú tienes (You have — informal)\nÉl/Ella/Usted tiene (He/She/You formal has)\nNosotros/Nosotras tenemos (We have)\nVosotros/Vosotras tenéis (You all have — Spain)\nEllos/Ellas/Ustedes tienen (They/You all have)\n\nHealth expressions with tener:\nTengo fiebre. (I have a fever.)\nTengo dolor de cabeza. (I have a headache.)\nTengo hambre. (I'm hungry.)\nTengo sed. (I'm thirsty.)\nTengo sueño. (I'm sleepy.)\nTengo un resfriado. (I have a cold.)\nTengo gripe. (I have the flu.)\nTengo dolor de estómago. (I have a stomachache.)\nTengo dolor de espalda. (I have a backache.)\n\nNOTE: 'Tener + noun' expresses states of being that English often uses with 'to be'\nTener hambre = to be hungry (not 'to have hunger')\nTener sed = to be thirsty\nTener sueño = to be sleepy\nTener frío = to be cold\nTener calor = to be hot\n\nEjemplos:\n¿Tienes fiebre? (Do you have a fever?)\nSí, tengo 39 grados. (Yes, I have 39 degrees.)\nNo tengo hambre. (I'm not hungry.)\nTenemos frío. (We're cold.)",
+      "examples": [
+        "Tengo fiebre. (I have a fever.)\n¿Tienes dolor de cabeza? (Do you have a headache?)\nElla tiene gripe. (She has the flu.)\nNosotros tenemos frío. (We are cold.)\nEllos tienen sueño. (They are sleepy.)",
+        "¿Tiene fiebre? (Do you have a fever?)\nSí, tengo 38,5 grados. (Yes, I have 38.5 degrees.)\nNo tenemos hambre. (We are not hungry.)\n¿Tienen dolor de estómago? (Do you have a stomachache?)"
+      ]
+    },
+    {
+      "title": "Doler — To Hurt / To Ache",
+      "content": "Doler is an interesting verb that works like gustar. The body part is the subject, so the verb changes to match it.\n\nConjugation:\nMe duele (It hurts me — singular body part)\nTe duele (It hurts you — singular)\nLe duele (It hurts him/her/you formal — singular)\nNos duele (It hurts us — singular)\nOs duele (It hurts you all — singular — Spain)\nLes duele (It hurts them/you all — singular)\n\nMe duelen (They hurt me — plural body parts)\n\nCommon expressions:\nMe duele la cabeza. (My head hurts.)\nMe duelen los ojos. (My eyes hurt.)\nMe duele el estómago. (My stomach hurts.)\nMe duelen las rodillas. (My knees hurt.)\nMe duele la garganta. (My throat hurts.)\nMe duele el brazo derecho. (My right arm hurts.)\n\nTo ask:\n¿Qué te duele? (What hurts?)\n¿Dónde te duele? (Where does it hurt?)\n\nNOTE: Use 'duele' with singular body parts and 'duelen' with plural.\nLa cabeza = singular → duele\nLos ojos = plural → duelen\n\nEjemplos:\nMe duele la espalda. (My back hurts.)\nMe duelen los dedos. (My fingers hurt.)\n¿Le duele la pierna? (Does your leg hurt?)",
+      "examples": [
+        "Me duele la cabeza. (My head hurts.)\nMe duelen las piernas. (My legs hurt.)\nMe duele la garganta. (My throat hurts.)\n¿Dónde te duele? (Where does it hurt?)",
+        "Me duelen los dientes. (My teeth hurt.)\nMe duele el cuello. (My neck hurts.)\n¿Le duelen los ojos? (Do your eyes hurt?)\nMe duele un dedo del pie. (One of my toes hurts.)"
+      ]
+    },
+    {
+      "title": "Estar — Health States",
+      "content": "Estar is used to describe health conditions and temporary states.\n\nConjugation:\nYo estoy (I am)\nTú estás (You are — informal)\nÉl/Ella/Usted está (He/She/You formal is)\nNosotros/Nosotras estamos (We are)\nEllos/Ellas/Ustedes están (They/You all are)\n\nHealth states:\nEstoy enfermo/a. (I'm sick.)\nEstoy sano/a. (I'm healthy.)\nEstoy mejor. (I'm better.)\nEstoy peor. (I'm worse.)\nEstoy cansado/a. (I'm tired.)\nEstoy bien. (I'm well.)\nEstoy mal. (I'm not well.)\n\nWith adjectives, the gender changes:\nEstoy enfermo (male speaker) / enferma (female speaker)\nEstoy cansado (male) / cansada (female)\n\nEjemplos:\n¿Cómo estás? (How are you?)\nEstoy mal. (I'm not well.)\nNo estoy bien. (I'm not well.)\nEstoy mejor que ayer. (I'm better than yesterday.)\nEstá muy enfermo. (He/She is very sick.)",
+      "examples": [
+        "¿Cómo estás? (How are you?)\nEstoy bien, gracias. (I'm fine, thanks.)\nEstoy enfermo hoy. (I'm sick today.)\n¿Cómo está usted? (How are you — formal?)\nEstoy mejor. (I'm better.)",
+        "No estoy bien. (I'm not well.)\nEstá peor. (He/She is worse.)\n¿Están ustedes bien? (Are you all well?)\nEstamos cansados. (We are tired.)"
+      ]
+    },
+    {
+      "title": "Ir al médico — Going to the Doctor",
+      "content": "Learn essential phrases for visiting a doctor or pharmacy.\n\nMaking an appointment:\nQuiero una cita con el médico. (I want an appointment with the doctor.)\n¿Tiene una cita? (Do you have an appointment?)\nQuiero ir al médico. (I want to go to the doctor.)\n¿A qué hora es mi cita? (What time is my appointment?)\n\nDescribing symptoms:\nTengo dolor de... (I have pain in...)\nMe duele... (It hurts...)\nSiento náuseas. (I feel nauseous.)\nNo puedo dormir. (I can't sleep.)\nTengo tos. (I have a cough.)\nEstornudo mucho. (I sneeze a lot.)\n\nAt the pharmacy:\n¿Dónde está la farmacia? (Where is the pharmacy?)\nNecesito medicina. (I need medicine.)\n¿Qué me recomienda? (What do you recommend?)\n¿Cuántas pastillas tengo que tomar? (How many pills should I take?)\n\nDosage expressions:\nUna vez al día. (Once a day.)\nDos veces al día. (Twice a day.)\nAntes de comer. (Before eating.)\nDespués de comer. (After eating.)\nPor la mañana. (In the morning.)\nPor la noche. (At night.)\n\nEjemplos:\nNecesito ver a un médico. (I need to see a doctor.)\nTengo dolor de garganta. (I have a sore throat.)\nTome esta medicina dos veces al día. (Take this medicine twice a day.)\n¿Cuánto cuesta? (How much does it cost?)",
+      "examples": [
+        "Quiero una cita con el médico, por favor. (I want a doctor's appointment, please.)\nTengo dolor de estómago desde ayer. (I've had a stomachache since yesterday.)\n¿Cuántas pastillas debo tomar? (How many pills should I take?)\nTome una pastilla tres veces al día. (Take one pill three times a day.)",
+        "Tengo tos y fiebre. (I have a cough and a fever.)\n¿Puedo comprar esto sin receta? (Can I buy this without a prescription?)\nMe duele la cabeza y el cuello. (My head and neck hurt.)\nNecesito ir a urgencias. (I need to go to the emergency room.)"
+      ]
+    }
+  ],
+  "expressions": [
+    {
+      "title": "At the Doctor's Office — Essential Phrases",
+      "content": "Making an appointment:\nQuiero una cita. (I want an appointment.)\n¿Puedo ver al médico hoy? (Can I see the doctor today?)\n¿Cuándo tiene disponible? (When are you available?)\n\nDescribing symptoms:\nMe duele la cabeza. (My head hurts.)\nMe duele la garganta. (My throat hurts.)\nTengo fiebre. (I have a fever.)\nTengo tos. (I have a cough.)\nMe siento mal. (I feel bad.)\n\nThe doctor asks:\n¿Qué le duele? (What hurts?)\n¿Cuánto tiempo lleva así? (How long have you had this?)\n¿Tiene fiebre? (Do you have a fever?)\n¿A qué hora toma la medicina? (What time do you take the medicine?)\n\nDoctor's instructions:\nTome esta medicina dos veces al día. (Take this medicine twice a day.)\nDescanse por tres días. (Rest for three days.)\nBeba mucha agua. (Drink lots of water.)\nVuelva la próxima semana. (Come back next week.)\n\nEjemplos:\n¿Puedo tener una cita mañana? (Can I have an appointment tomorrow?)\nMe duele el estómago. (My stomach hurts.)\n¿Es grave? (Is it serious?)\nNo, no es grave. (No, it's not serious.)",
+      "examples": [
+        "Quiero una cita con el médico, por favor. (I want a doctor's appointment, please.)\n¿Tiene cita? (Do you have an appointment?)\nMe duele la cabeza y tengo fiebre. (My head hurts and I have a fever.)\n¿Es algo grave? (Is it something serious?)\nNo es grave. (It's not serious.)",
+        "Tome esta medicina tres veces al día. (Take this medicine three times a day.)\nBeba mucha agua y descanse. (Drink lots of water and rest.)\nVuelva la semana que viene. (Come back next week.)\n¿Necesita una receta? (Do you need a prescription?)"
+      ]
+    },
+    {
+      "title": "Describing Pain and Symptoms",
+      "content": "Describing where it hurts:\nMe duele [body part]. (My [body part] hurts.)\nMe duelen [plural body parts]. (My [plural body parts] hurt.)\nTengo dolor de [body part]. (I have [body part] pain.)\n\nCommon symptom descriptions:\nTengo un dolor agudo. (I have a sharp pain.)\nTengo un dolor leve. (I have a mild pain.)\nTengo un dolor fuerte. (I have a strong pain.)\nTengo dolor crónico. (I have chronic pain.)\n\nSymptoms with tener:\nTengo tos. (I have a cough.)\nTengo fiebre alta. (I have a high fever.)\nTengo un resfriado. (I have a cold.)\nTengo alergia. (I have an allergy.)\nTengo náuseas. (I have nausea.)\n\nSymptoms with estar:\nEstoy mareado/a. (I'm dizzy.)\nEstoy cansado/a. (I'm tired.)\nEstoy debilitado/a. (I'm weak.)\n\nEjemplos:\nMe duele mucho la cabeza. (My head hurts a lot.)\nTengo un dolor muy fuerte en la espalda. (I have very strong pain in my back.)\nEstoy mareado y tengo náuseas. (I'm dizzy and I feel nauseous.)\nNo tengo nada grave. (I don't have anything serious.)",
+      "examples": [
+        "Me duele la pierna izquierda. (My left leg hurts.)\n¿Cuándo empezó el dolor? (When did the pain start?)\nTengo fiebre desde ayer. (I've had a fever since yesterday.)\nMe duele un diente. (One of my teeth hurts.)",
+        "Tengo dolor de oído. (I have an earache.)\nMe duelen las dos rodillas. (Both my knees hurt.)\nTengo un resfriado muy fuerte. (I have a very bad cold.)\nNo me siento bien. (I don't feel well.)"
+      ]
+    },
+    {
+      "title": "At the Pharmacy",
+      "content": "At the pharmacy:\nBuenos días. Quiero comprar medicina. (Good morning. I want to buy medicine.)\n¿Qué me recomienda para el dolor de cabeza? (What do you recommend for a headache?)\n¿Necesito receta? (Do I need a prescription?)\n¿Cuánto cuesta? (How much does it cost?)\n\nAsking for help:\nTengo dolor de estómago. (I have a stomachache.)\nTengo tos seca. (I have a dry cough.)\nTengo alergia al polen. (I have a pollen allergy.)\nTengo un moretón grande. (I have a big bruise.)\n\nPharmacist responses:\nTome una pastilla cada ocho horas. (Take one pill every eight hours.)\nAntes de comer. (Before eating.)\n¿Alergia a algo? (Any allergies?)\nLe puedo recomendar este jarabe. (I can recommend this syrup to you.)\n\nCommon over-the-counter:\nAspirina — aspirin\nParacetamol — paracetamol / acetaminophen\nIbuprofeno — ibuprofen\nAntigripal — flu medicine\nJarabe para la tos — cough syrup\nCrema para la piel — skin cream\nAntihistamínico — antihistamine\n\nEjemplos:\n¿Puedo comprar esto sin receta? (Can I buy this without a prescription?)\nLe recomiendo paracetamol. (I recommend paracetamol.)\n¿Tiene algún efecto secundario? (Does it have any side effects?)\nTome una pastilla tres veces al día. (Take one pill three times a day.)",
+      "examples": [
+        "Quiero medicina para el dolor de garganta. (I want medicine for a sore throat.)\n¿Cuántas pastillas debo tomar? (How many pills should I take?)\nTome dos veces al día después de comer. (Take it twice a day after eating.)\n¿Cuánto cuesta el jarabe? (How much does the syrup cost?)",
+        "Tengo alergia a los antibióticos. (I'm allergic to antibiotics.)\nLe puedo recomendar antihistamínico. (I can recommend antihistamine.)\n¿Tiene efecto somnoliento? (Does it cause drowsiness?)\nNo, no da sueño. (No, it doesn't make you sleepy.)"
+      ]
+    }
+  ],
+  "pronunciation": [
+    {
+      "title": "Health & Body Pronunciation Guide",
+      "content": "Key health vocabulary with pronunciation:\n\ncuerpo = KWEHR-poh (body)\ncabeza = kah-BEH-sah (head)\ncuello = KWEH-yoh (neck)\nhombro = OM-broh (shoulder)\nbrazo = BRAH-zoh (arm)\nmano = MAH-noh (hand)\ndedo = DEH-doh (finger)\npecho = PEH-choh (chest)\nestómago = es-TOH-mah-goh (stomach)\npierna = PYER-nah (leg)\nrodilla = roh-DEE-yah (knee)\ntobillo = to-BEE-yoh (ankle)\npie = pee-eh (foot)\ncara = CAH-rah (face)\nojo = OH-hoh (eye)\noreja = oh-REH-hah (ear)\nnariz = nah-REEZ (nose)\nboca = BOH-kah (mouth)\ndiente = dyen-TEH (tooth)\nespalda = es-PAHL-dah (back)\ncorazón = koh-rah-SOHN (heart)\npulmón = POOL-mohn (lung)\nsangre = SAHN-greh (blood)\ndolor = doh-LOOR (pain)\nfiebre = Fee-BREH (fever)\ntos = tohs (cough)\nresfriado = res-free-AH-doh (cold)\ngripe =GREE-peh (flu)\nalergia = ah-lehr-HEE-ah (allergy)\nmédico = meh-DEE-koh (doctor)\nhospital = os-pee-TAHL (hospital)\nclínica = kleen-EE-kah (clinic)\nfarmacia = fahr-MAH-see-ah (pharmacy)\nmedicina = meh-dee-SEE-nah (medicine)\npastilla = pah-STEED-yah (pill)\nenfermo = en-FER-moh (sick)\nsano = SAH-noh (healthy)\n\nNOTE: 'c' before 'e' or 'i' sounds like 'th' in Spain (diente = dyen-TEH) but like 's' in LatAm (deen-TEH).",
+      "examples": [
+        "cabeza = kah-BEH-sah\nestómago = es-TOH-mah-goh\ncorazón = koh-rah-SOHN\npulmón = POOL-mohn\ndolor = doh-LOOR\nfiebre = Fee-BREH\nmédico = meh-DEE-koh\nhospital = os-pee-TAHL\nfarmacia = fahr-MAH-see-ah\nenfermo = en-FER-moh"
+      ]
+    },
+    {
+      "title": "Spanish Vowels and Key Consonants for Health",
+      "content": "Spanish vowel sounds — always the same:\n\nA = ah (like 'fAther')\nE = eh (like 'thEn')\nI = ee (like 'sEe')\nO = oh (like 'sO')\nU = oo (like 'flOOt')\n\nHealth words with clear vowels:\ncabeza = kah-BEH-sah (all vowels clear)\ncuerpo = KWEHR-poh (u = oo, e = eh)\nhombro = OM-broh (o = oh)\ncorazón = koh-rah-SOHN (ó = oh)\nfiebre = Fee-BREH (ie = ee, e = eh)\ngripe = GREE-peh (i = ee)\nsangre = SAHN-greh (a = ah)\ndolor = doh-LOOR (o = oh)\n\nKey consonants:\nR = rolled/tapped R (like Spanish 'perro')\nÑ = ny sound (like 'canyON')\nLL = y sound in most regions (like 'yOl')\nH = silent (hombre = OM-breh, not 'HOM-breh')\n\nHealth words with special sounds:\npierna = PYER-nah (R is tapped)\nrodilla = roh-DEE-yah (LL = y)\nhospital = os-pee-TAHL (H is silent)\nresfriado = res-free-AH-doh (R is tapped)\nalergia = ah-lehr-HEE-ah (R is tapped)\n\nNOTE: The stress (accent mark) shows which syllable is emphasized.\nestómago = es-TOH-mah-goh (accent on TOH)\ncorazón = koh-rah-SOHN (accent on SOHN)\npulmón = POOL-mohn (accent on mohn)\n\nEjemplos:\nTengo fiebre. = TEN-go Fee-BREH (I have a fever.)\nMe duele la cabeza. = meh DOO-eh lah kah-BEH-sah (My head hurts.)\nEstoy enfermo. = es-TOY en-FER-moh (I'm sick.)",
+      "examples": [
+        "a = ah → cabeza (kah-BEH-sah)\ne = eh → fiebre (Fee-BREH)\ni = ee → gripe (GREE-peh)\no = oh → dolor (doh-LOOR)\nu = oo → pulmón (POOL-mohn)\nh (silent) → hospital (os-pee-TAHL)\nñ (ny) → pierna (PYER-nah)\nll (y) → rodilla (roh-DEE-yah)"
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "multiple-choice",
+      "question": "What is 'headache' in Spanish?",
+      "options": ["fiebre", "dolor de cabeza", "gripe", "resfriado"],
+      "correct": 1,
+      "explanation": "Dolor de cabeza = headache. Fiebre = fever. Gripe = flu. Resfriado = cold."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "How do you say 'My head hurts' in Spanish?",
+      "options": ["Me duele la cabeza", "Tengo cabeza", "Me duele el cabeza", "Tengo dolor de cabezas"],
+      "correct": 0,
+      "explanation": "Me duele la cabeza = My head hurts. Doler uses 'me duele' with singular body parts."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What does 'tener fiebre' mean?",
+      "options": ["to have a cough", "to have a fever", "to have a cold", "to have a headache"],
+      "correct": 1,
+      "explanation": "Tener fiebre = to have a fever. Fiebre = fever."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What is 'pharmacy' in Spanish?",
+      "options": ["hospital", "clínica", "farmacia", "urgencias"],
+      "correct": 2,
+      "explanation": "Farmacia = pharmacy. Hospital = hospital. Clínica = clinic. Urgencias = emergency room."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: Me ___ la cabeza. (My head hurts.)",
+      "correct": "duele",
+      "explanation": "Me duele la cabeza = My head hurts. Doler = to hurt."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: Tengo ___. (I have a fever.)",
+      "correct": "fiebre",
+      "explanation": "Tengo fiebre = I have a fever."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What is 'stomach' in Spanish?",
+      "options": ["corazón", "pulmón", "estómago", "hueso"],
+      "correct": 2,
+      "explanation": "Estómago = stomach. Corazón = heart. Pulmón = lung. Hueso = bone."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "How many times a day is 'tres veces al día'?",
+      "options": ["Once", "Twice", "Three times", "Four times"],
+      "correct": 2,
+      "explanation": "Tres veces al día = three times a day. Una vez = once. Dos veces = twice."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: Me duelen las ___. (My eyes hurt.)",
+      "correct": "ojos",
+      "explanation": "Me duelen los ojos = My eyes hurt. Ojos = eyes (plural). Use 'duelen' for plural body parts."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What does 'enfermo' mean?",
+      "options": ["healthy", "sick", "happy", "tired"],
+      "correct": 1,
+      "explanation": "Enfermo = sick. Sano = healthy. Cansado = tired."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What is 'heart' in Spanish?",
+      "options": ["pulmón", "estómago", "corazón", "riñón"],
+      "correct": 2,
+      "explanation": "Corazón = heart. Pulmón = lung. Estómago = stomach. Riñón = kidney."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: ___ una pastilla tres veces al día. (Take one pill three times a day.)",
+      "correct": "Tome",
+      "explanation": "Tome una pastilla tres veces al día = Take one pill three times a day. Formal command."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What is 'cough' in Spanish?",
+      "options": ["fiebre", "tos", "gripe", "resfriado"],
+      "correct": 1,
+      "explanation": "Tos = cough. Fiebre = fever. Gripe = flu. Resfriado = cold."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Which verb is used for 'to have' in 'I have a cold'?",
+      "options": ["estar", "ser", "tener", "doler"],
+      "correct": 2,
+      "explanation": "Tener is used for bodily states: Tengo un resfriado = I have a cold."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: Tengo dolor de ___. (I have a stomachache.)",
+      "correct": "estómago",
+      "explanation": "Tengo dolor de estómago = I have a stomachache."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What is 'back' (body part) in Spanish?",
+      "options": ["hombro", "cuello", "espalda", "brazo"],
+      "correct": 2,
+      "explanation": "Espalda = back. Hombro = shoulder. Cuello = neck. Brazo = arm."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What does 'beba mucha agua' mean?",
+      "options": ["Eat lots of food", "Drink lots of water", "Rest for three days", "Take medicine twice a day"],
+      "correct": 1,
+      "explanation": "Beba mucha agua = Drink lots of water. Beba = drink (formal command). Agua = water."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: ¿Dónde ___ duele? (Where does it hurt?)",
+      "correct": "te",
+      "explanation": "¿Dónde te duele? = Where does it hurt? Te = to you (informal)."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What is 'arm' in Spanish?",
+      "options": ["mano", "brazo", "codo", "muñeca"],
+      "correct": 1,
+      "explanation": "Brazo = arm. Mano = hand. Codo = elbow. Muñeca = wrist."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "How do you say 'I'm feeling better' in Spanish?",
+      "options": ["Estoy peor", "Estoy mejor", "Tengo mejor", "Soy mejor"],
+      "correct": 1,
+      "explanation": "Estoy mejor = I'm better. Estar is used for health states. Peor = worse."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: Necesito ver al ___. (I need to see the doctor.)",
+      "correct": "médico",
+      "explanation": "Necesito ver al médico = I need to see the doctor."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What is 'knee' in Spanish?",
+      "options": ["tobillo", "pierna", "rodilla", "pie"],
+      "correct": 2,
+      "explanation": "Rodilla = knee. Tobillo = ankle. Pierna = leg. Pie = foot."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What does 'antigripal' mean?",
+      "options": ["antibiotic", "flu medicine", "painkiller", "cough syrup"],
+      "correct": 1,
+      "explanation": "Antigripal = flu medicine. Anti = against, gripe = flu."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: ___ de comer. (Before eating.)",
+      "correct": "Antes",
+      "explanation": "Antes de comer = Before eating."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What is 'blood' in Spanish?",
+      "options": ["hueso", "músculo", "sangre", "pulmón"],
+      "correct": 2,
+      "explanation": "Sangre = blood. Hueso = bone. Músculo = muscle. Pulmón = lung."
+    }
+  ]
+}

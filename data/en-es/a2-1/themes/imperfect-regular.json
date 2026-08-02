@@ -1,0 +1,117 @@
+{
+  "id": "imperfect-regular",
+  "title": "Imperfect — Regular Verbs",
+  "description": "Master regular imperfect conjugations for -AR, -ER, and -IR verbs to describe ongoing and habitual past actions.",
+  "vocabulary": [
+    { "id": 1, "target": "de niño/a", "source": "as a child", "gender": "—", "type": "phrase" },
+    { "id": 2, "target": "siempre", "source": "always", "gender": "—", "type": "adverb" },
+    { "id": 3, "target": "antes", "source": "before / earlier", "gender": "—", "type": "adverb" },
+    { "id": 4, "target": "todavía", "source": "still / yet", "gender": "—", "type": "adverb" },
+    { "id": 5, "target": "cada día", "source": "every day", "gender": "—", "type": "phrase" },
+    { "id": 6, "target": "los domingos", "source": "on Sundays", "gender": "m.", "type": "phrase" },
+    { "id": 7, "target": "por la mañana", "source": "in the morning", "gender": "—", "type": "phrase" },
+    { "id": 8, "target": "por la tarde", "source": "in the afternoon", "gender": "—", "type": "phrase" },
+    { "id": 9, "target": "por la noche", "source": "in the evening / at night", "gender": "—", "type": "phrase" },
+    { "id": 10, "target": "a las ocho", "source": "at eight o'clock", "gender": "—", "type": "time" },
+    { "id": 11, "target": "cuando era joven", "source": "when I was young", "gender": "—", "type": "phrase" },
+    { "id": 12, "target": "cuando éramos pequeños", "source": "when we were little", "gender": "—", "type": "phrase" },
+    { "id": 13, "target": "hablar", "source": "to speak", "gender": "v.", "type": "verb" },
+    { "id": 14, "target": "comer", "source": "to eat", "gender": "v.", "type": "verb" },
+    { "id": 15, "target": "vivir", "source": "to live", "gender": "v.", "type": "verb" },
+    { "id": 16, "target": "estudiar", "source": "to study", "gender": "v.", "type": "verb" },
+    { "id": 17, "target": "trabajar", "source": "to work", "gender": "v.", "type": "verb" },
+    { "id": 18, "target": "caminar", "source": "to walk", "gender": "v.", "type": "verb" },
+    { "id": 19, "target": "cocinar", "source": "to cook", "gender": "v.", "type": "verb" },
+    { "id": 20, "target": "jugar", "source": "to play", "gender": "v.", "type": "verb" },
+    { "id": 21, "target": "leer", "source": "to read", "gender": "v.", "type": "verb" },
+    { "id": 22, "target": "escuchar", "source": "to listen", "gender": "v.", "type": "verb" },
+    { "id": 23, "target": "mirar", "source": "to watch / to look at", "gender": "v.", "type": "verb" },
+    { "id": 24, "target": "pensar", "source": "to think", "gender": "v.", "type": "verb" },
+    { "id": 25, "target": "tener", "source": "to have", "gender": "v.", "type": "verb" },
+    { "id": 26, "target": "querer", "source": "to want / to love", "gender": "v.", "type": "verb" },
+    { "id": 27, "target": "poder", "source": "to be able to / can", "gender": "v.", "type": "verb" },
+    { "id": 28, "target": "deber", "source": "to ought to / must / should", "gender": "v.", "type": "verb" },
+    { "id": 29, "target": "venir", "source": "to come", "gender": "v.", "type": "verb" },
+    { "id": 30, "target": "habitar", "source": "to live / to inhabit", "gender": "v.", "type": "verb" }
+  ],
+  "grammar": [
+    {
+      "title": "Imperfect Tense (Pretérito Imperfecto) — Regular Verbs",
+      "content": "The imperfect describes past actions that were ongoing, habitual, or used for background descriptions. Unlike the preterite (A1.2), the imperfect doesn't show when something started or ended — it's the 'story-telling' tense used for setting scenes and describing repeated past actions.\n\nFor regular -AR verbs (like hablar), the endings are:\n- yo: -aba\n- tú: -abas\n- él/ella/usted: -aba\n- nosotros: -ábamos\n- vosotros: -abais\n- ellos/ellas/ustedes: -aban\n\nFor regular -ER/-IR verbs (like comer, vivir), the endings are:\n- yo: -ía\n- tú: -ías\n- él/ella/usted: -ía\n- nosotros: -íamos\n- vosotros: -íais\n- ellos/ellas/ustedes: -ían",
+      "table": {
+        "headers": ["Pronoun", "-AR (hablar)", "-ER (comer)", "-IR (vivir)"],
+        "rows": [
+          ["yo", "hablaba", "comía", "vivía"],
+          ["tú", "hablabas", "comías", "vivías"],
+          ["él/ella/usted", "hablaba", "comía", "vivía"],
+          ["nosotros", "hablábamos", "comíamos", "vivíamos"],
+          ["vosotros", "hablabais", "comíais", "vivíais"],
+          ["ellos/ellas/ustedes", "hablaban", "comían", "vivían"]
+        ]
+      },
+      "examples": [
+        "De niño, jugaba en el parque todos los días. (As a child, I played in the park every day.)",
+        "Cuando éramos jóvenes, vivíamos en Barcelona. (When we were young, we lived in Barcelona.)",
+        "Mi abuela siempre cocinaba paella los domingos. (My grandmother always cooked paella on Sundays.)",
+        "A las ocho comía con mi familia. (At eight I used to eat with my family.)"
+      ],
+      "aid_note": "Romanian imperfect endings (-am, -ai, -a, -am, -aţi, -au) are similar in function to Spanish -aba/-ía. Both describe ongoing or habitual past actions. The Spanish -aba ending is especially close to Romanian -am/-au in feeling: 'I was doing'."
+    }
+  ],
+  "pronunciation": [
+    {
+      "title": "Stress Patterns with Imperfect Endings",
+      "content": "All imperfect endings are naturally stressed on their first syllable:\n\n-AR verbs: hablaba, hablabas, hablaba, hablÁbamos, hablÁBais, hablaban\n-ER/-IR verbs: comÍA, comÍAS, comÍA, comÍAMOS, comÍAIS, comÍAN\n\nThe accent marks on nosotros forms (hablábamos, comíamos) show where the stress falls. Remember that Spanish stress is predictable from spelling — the accent mark tells you if the stress breaks the default rules.",
+      "examples": [
+        { "target": "hablábamos", "source": "stress on Á: ha-BLA-ba-MOS" },
+        { "target": "comíamos", "source": "stress on Í: co-MÍa-MOS" },
+        { "target": "íbamos", "source": "stress on Í: Í-ba-MOS" },
+        { "target": "veíamos", "source": "stress on first Í: ve-Ía-MOS (5 syllables)" }
+      ],
+      "aid_note": "Romanian stress is more flexible. Spanish imperfect endings are very regular — the stress always hits the ending syllable, never the stem."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "exercise",
+      "question": "What does the imperfect tense describe?",
+      "options": ["Completed actions with a clear end", "Habitual or ongoing past actions", "Future plans", "Commands and requests"],
+      "correct": 1,
+      "explanation": "The imperfect describes habitual or ongoing past actions — things that 'used to happen' or 'were happening' without a defined endpoint."
+    },
+    {
+      "type": "exercise",
+      "question": "Which ending is the imperfect 'yo' form for -AR verbs?",
+      "options": ["-í", "-aba", "-ía", "-é"],
+      "correct": 1,
+      "explanation": "-AR verbs take -aba in the yo imperfect form: hablaba, trabajaba, estudiaba."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: 'De niño, yo ____ (jugarse) en el parque todos los días.' (As a child, I used to play in the park every day.)",
+      "correct": "me jugaba",
+      "explanation": "'Me jugaba' — the reflexive pronoun 'me' + imperfect 'jugaba' of 'jugar.'"
+    },
+    {
+      "type": "exercise",
+      "question": "What is the imperfect of 'comer' for 'ellos'?",
+      "options": ["comían", "comaban", "comieron", "comía"],
+      "correct": 0,
+      "explanation": "'Comían' — regular -ER imperfect for ellos/ellas/ustedes. -ían ending."
+    },
+    {
+      "type": "conjugation-matrix",
+      "question": "Complete the imperfect tense conjugation table for the regular -AR verb HABLAR:",
+      "verb": "HABLAR",
+      "tenses": ["imperfect"],
+      "explanation": "The imperfect of hablar follows the regular -AR pattern: hablaba, hablabas, hablaba, hablábamos, hablabais, hablaban."
+    },
+    {
+      "type": "exercise",
+      "question": "Which sentence uses the imperfect correctly?",
+      "options": ["Ayer jugué al fútbol.", "De niño, jugaba al fútbol todos los días.", "El año pasado jugué al fútbol.", "Hoy juego al fútbol."],
+      "correct": 1,
+      "explanation": "'De niño, jugaba al fútbol todos los días' uses the imperfect for a habitual past action."
+    }
+  ]
+}

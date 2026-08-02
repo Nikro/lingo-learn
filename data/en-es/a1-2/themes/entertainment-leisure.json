@@ -1,0 +1,354 @@
+{
+  "id": "entertainment-leisure",
+  "level": "a1-2",
+  "title": "Entertainment & Leisure",
+  "description": "Learn to talk about hobbies, entertainment, free time activities, sports, and how you spend your leisure time in Spanish.",
+  "vocabulary": [
+    {"id": 1, "target": "entretenimiento", "source": "entertainment", "gender": "m", "type": "noun"},
+    {"id": 2, "target": "ocio", "source": "leisure", "gender": "m", "type": "noun"},
+    {"id": 3, "target": "tiempo libre", "source": "free time", "gender": "m", "type": "phrase"},
+    {"id": 4, "target": "hobby", "source": "hobby", "gender": "m", "type": "noun"},
+    {"id": 5, "target": "pasatiempo", "source": "pastime", "gender": "m", "type": "noun"},
+    {"id": 6, "target": "deporte", "source": "sport", "gender": "m", "type": "noun"},
+    {"id": 7, "target": "actividad", "source": "activity", "gender": "f", "type": "noun"},
+    {"id": 8, "target": "cine", "source": "cinema", "gender": "m", "type": "noun"},
+    {"id": 9, "target": "película", "source": "movie", "gender": "f", "type": "noun"},
+    {"id": 10, "target": "televisión", "source": "television", "gender": "f", "type": "noun"},
+    {"id": 11, "target": "serie", "source": "TV series", "gender": "f", "type": "noun"},
+    {"id": 12, "target": "programa", "source": "show / program", "gender": "m", "type": "noun"},
+    {"id": 13, "target": "música", "source": "music", "gender": "f", "type": "noun"},
+    {"id": 14, "target": "concierto", "source": "concert", "gender": "m", "type": "noun"},
+    {"id": 15, "target": "canción", "source": "song", "gender": "f", "type": "noun"},
+    {"id": 16, "target": "banda", "source": "band", "gender": "f", "type": "noun"},
+    {"id": 17, "target": "artista", "source": "artist", "gender": "m/f", "type": "noun"},
+    {"id": 18, "target": "libro", "source": "book", "gender": "m", "type": "noun"},
+    {"id": 19, "target": "novela", "source": "novel", "gender": "f", "type": "noun"},
+    {"id": 20, "target": "períodico", "source": "newspaper", "gender": "m", "type": "noun"},
+    {"id": 21, "target": "revista", "source": "magazine", "gender": "f", "type": "noun"},
+    {"id": 22, "target": "juego", "source": "game", "gender": "m", "type": "noun"},
+    {"id": 23, "target": "videojuego", "source": "video game", "gender": "m", "type": "noun"},
+    {"id": 24, "target": "puzzle", "source": "puzzle", "gender": "m", "type": "noun"},
+    {"id": 25, "target": "tablero", "source": "board", "gender": "m", "type": "noun"},
+    {"id": 26, "target": "cartas", "source": "cards", "gender": "f", "type": "noun"},
+    {"id": 27, "target": "fotografía", "source": "photography", "gender": "f", "type": "noun"},
+    {"id": 28, "target": "pintura", "source": "painting", "gender": "f", "type": "noun"},
+    {"id": 29, "target": "pintar", "source": "to paint", "gender": "m", "type": "verb"},
+    {"id": 30, "target": "dibujar", "source": "to draw", "gender": "m", "type": "verb"},
+    {"id": 31, "target": "leer", "source": "to read", "gender": "m", "type": "verb"},
+    {"id": 32, "target": "escribir", "source": "to write", "gender": "m", "type": "verb"},
+    {"id": 33, "target": "ver", "source": "to watch / to see", "gender": "m", "type": "verb"},
+    {"id": 34, "target": "escuchar", "source": "to listen", "gender": "m", "type": "verb"},
+    {"id": 35, "target": "tocar", "source": "to play (instrument)", "gender": "m", "type": "verb"},
+    {"id": 36, "target": "cantar", "source": "to sing", "gender": "m", "type": "verb"},
+    {"id": 37, "target": "bailar", "source": "to dance", "gender": "m", "type": "verb"},
+    {"id": 38, "target": "jugar", "source": "to play (games/sports)", "gender": "m", "type": "verb"},
+    {"id": 39, "target": "hacer deporte", "source": "to play sports", "gender": "m", "type": "phrase"},
+    {"id": 40, "target": "nadar", "source": "to swim", "gender": "m", "type": "verb"},
+    {"id": 41, "target": "correr", "source": "to run", "gender": "m", "type": "verb"},
+    {"id": 42, "target": "caminar", "source": "to walk", "gender": "m", "type": "verb"},
+    {"id": 43, "target": "caminar", "source": "to walk / to hike", "gender": "m", "type": "verb"},
+    {"id": 44, "target": "viajar", "source": "to travel", "gender": "m", "type": "verb"},
+    {"id": 45, "target": "cocinar", "source": "to cook", "gender": "m", "type": "verb"},
+    {"id": 46, "target": "pasear", "source": "to stroll / to take a walk", "gender": "m", "type": "verb"},
+    {"id": 47, "target": "recrear", "source": "to relax", "gender": "m", "type": "verb"},
+    {"id": 48, "target": "divertirse", "source": "to have fun", "gender": "m", "type": "verb"},
+    {"id": 49, "target": "disfrutar", "source": "to enjoy", "gender": "m", "type": "verb"},
+    {"id": 50, "target": "gustar", "source": "to like", "gender": "m", "type": "verb"},
+    {"id": 51, "target": "gustar", "source": "to be pleasing to", "gender": "m", "type": "verb"},
+    {"id": 52, "target": "preferir", "source": "to prefer", "gender": "m", "type": "verb"},
+    {"id": 53, "target": "quedar", "source": "to meet up / to get together", "gender": "m", "type": "verb"},
+    {"id": 54, "target": "invitar", "source": "to invite", "gender": "m", "type": "verb"},
+    {"id": 55, "target": "asistir", "source": "to attend", "gender": "m", "type": "verb"},
+    {"id": 56, "target": "completar", "source": "to complete / to finish", "gender": "m", "type": "verb"},
+    {"id": 57, "target": "aprender", "source": "to learn", "gender": "m", "type": "verb"},
+    {"id": 58, "target": "practicar", "source": "to practice", "gender": "m", "type": "verb"},
+    {"id": 59, "target": "estudiar", "source": "to study", "gender": "m", "type": "verb"},
+    {"id": 60, "target": "divertido", "source": "funny / fun", "gender": "m", "type": "adjective"},
+    {"id": 61, "target": "divertida", "source": "funny / fun (feminine)", "gender": "f", "type": "adjective"},
+    {"id": 62, "target": "interesante", "source": "interesting", "gender": "m/f", "type": "adjective"},
+    {"id": 63, "target": "aburrido", "source": "boring", "gender": "m", "type": "adjective"},
+    {"id": 64, "target": "aburrida", "source": "boring (feminine)", "gender": "f", "type": "adjective"},
+    {"id": 65, "target": "emocionante", "source": "exciting", "gender": "m/f", "type": "adjective"},
+    {"id": 66, "target": "relajante", "source": "relaxing", "gender": "m/f", "type": "adjective"},
+    {"id": 67, "target": "creativo", "source": "creative", "gender": "m", "type": "adjective"},
+    {"id": 68, "target": "creativa", "source": "creative (feminine)", "gender": "f", "type": "adjective"},
+    {"id": 69, "target": "popular", "source": "popular", "gender": "m/f", "type": "adjective"},
+    {"id": 70, "target": "famoso", "source": "famous", "gender": "m", "type": "adjective"},
+    {"id": 71, "target": "famosa", "source": "famous (feminine)", "gender": "f", "type": "adjective"},
+    {"id": 72, "target": "genial", "source": "great / cool", "gender": "m/f", "type": "adjective"},
+    {"id": 73, "target": "maravilloso", "source": "wonderful", "gender": "m", "type": "adjective"},
+    {"id": 74, "target": "maravillosa", "source": "wonderful (feminine)", "gender": "f", "type": "adjective"},
+    {"id": 75, "target": "cansado", "source": "tired", "gender": "m", "type": "adjective"},
+    {"id": 76, "target": "cansada", "source": "tired (feminine)", "gender": "f", "type": "adjective"},
+    {"id": 77, "target": "película de acción", "source": "action movie", "gender": "f", "type": "phrase"},
+    {"id": 78, "target": "película de terror", "source": "horror movie", "gender": "f", "type": "phrase"},
+    {"id": 79, "target": "película de comedia", "source": "comedy movie", "gender": "f", "type": "phrase"},
+    {"id": 80, "target": "documental", "source": "documentary", "gender": "m", "type": "noun"},
+    {"id": 81, "target": "teatro", "source": "theater", "gender": "m", "type": "noun"},
+    {"id": 82, "target": "museo", "source": "museum", "gender": "m", "type": "noun"},
+    {"id": 83, "target": "parque", "source": "park", "gender": "m", "type": "noun"},
+    {"id": 84, "target": "estadio", "source": "stadium", "gender": "m", "type": "noun"},
+    {"id": 85, "target": "piscina", "source": "pool", "gender": "f", "type": "noun"},
+    {"id": 86, "target": "gimnasio", "source": "gym", "gender": "m", "type": "noun"},
+    {"id": 87, "target": "librería", "source": "bookstore", "gender": "f", "type": "noun"},
+    {"id": 88, "target": "sala de cine", "source": "movie theater / screening room", "gender": "f", "type": "phrase"},
+    {"id": 89, "target": "butaca", "source": "seat", "gender": "f", "type": "noun"},
+    {"id": 90, "target": "entrada", "source": "ticket", "gender": "f", "type": "noun"},
+    {"id": 91, "target": "palco", "source": "box seat", "gender": "m", "type": "noun"},
+    {"id": 92, "target": "pantalla", "source": "screen", "gender": "f", "type": "noun"},
+    {"id": 93, "target": "escenario", "source": "stage", "gender": "m", "type": "noun"},
+    {"id": 94, "target": "auditorio", "source": "auditorium", "gender": "m", "type": "noun"},
+    {"id": 95, "target": "cuenta", "source": "bill / check (restaurant)", "gender": "f", "type": "noun"},
+    {"id": 96, "target": "recreo", "source": "recess / break", "gender": "m", "type": "noun"},
+    {"id": 97, "target": "vacaciones", "source": "vacation", "gender": "f", "type": "noun"},
+    {"id": 98, "target": "fin de semana", "source": "weekend", "gender": "m", "type": "phrase"},
+    {"id": 99, "target": "noche", "source": "night", "gender": "f", "type": "noun"},
+    {"id": 100, "target": "tarde", "source": "afternoon / evening", "gender": "f", "type": "noun"}
+  ],
+  "grammar": [
+    {
+      "title": "Gustar — To Like / To Be Pleasing",
+      "content": "Gustar works differently than English 'to like.' The thing that is liked is the subject, and the person who likes it is the indirect object.\\n\\nSingular / Plural:\\nMe gusta (I like — singular thing)\\nTe gusta (You like — singular thing)\\nLe gusta (He/She/You formal likes — singular thing)\\nNos gusta (We like — singular thing)\\nOs gusta (You all like — singular thing — Spain)\\nLes gusta (They/You all like — singular thing)\\n\\nMe gustan (I like — plural things)\\nTe gustan (You like — plural things)\\nLe gustan (He/She/You formal like — plural things)\\n\\nExamples with singular:\\nMe gusta la música. (I like music.)\\nTe gusta el cine. (You like cinema.)\\nLe gusta leer. (He/She likes to read.)\\nNos gusta dormir. (We like to sleep.)\\n\\nExamples with plural:\\nMe gustan las películas. (I like movies.)\\nTe gustan los deportes. (You like sports.)\\nLe gustan los videojuegos. (He/She likes video games.)\\nNos gustan las series. (We like TV series.)\\n\\nInfinitives (verb forms) are always singular:\\nMe gusta cocinar. (I like to cook.)\\nTe gusta bailar. (You like to dance.)\\nLe gusta viajar. (He/She likes to travel.)\\n\\nCommon expressions:\\nMe gusta mucho. (I like it a lot.)\\nMe gusta poco. (I don't like it much.)\\nNo me gusta. (I don't like it.)\\n¿Te gusta...? (Do you like...?)\\n\\nNOTE: With 'gustar,' you don't say 'yo gusto.' The structure is completely reversed from English.",
+      "examples": [
+        "Me gusta la música. (I like music.)\\n¿Te gusta el cine? (Do you like movies?)\\nA ella le gustan los videojuegos. (She likes video games.)\\nNos gusta mucho cocinar. (We really like to cook.)",
+        "Me gustan las series. (I like TV series.)\\n¿A ti te gusta leer? (Do you like to read?)\\nA mí no me gusta el fútbol. (I don't like soccer.)\\nLes gusta mucho el teatro. (They really like theater.)"
+      ]
+    },
+    {
+      "title": "Preferir — To Prefer",
+      "content": "Preferir is a stem-changing verb (e → ie). It means 'to prefer.'\\n\\nConjugation (e → ie):\\nYo prefiero (I prefer)\\nTú prefieres (You prefer — informal)\\nÉl/Ella/Usted prefiere (He/She/You formal prefers)\\nNosotros/Nosotras preferimos (We prefer)\\nVosotros/Vosotras preferís (You all prefer — Spain)\\nEllos/Ellas/Ustedes prefieren (They/You all prefer)\\n\\nExamples:\\nPrefiero el cine a la tele. (I prefer cinema to TV.)\\nPrefiero escuchar música. (I prefer to listen to music.)\\n¿Prefieres leer o ver películas? (Do you prefer to read or watch movies?)\\nPrefiero los deportes al aire libre. (I prefer outdoor sports.)\\n\\nCommon preferences:\\nPrefiero la música rock. (I prefer rock music.)\\nPrefiero las novelas a los documentales. (I prefer novels to documentaries.)\\nPrefiero nadar al fútbol. (I prefer swimming to soccer.)\\n\\nWith gustar:\\nPrefiero la música clásica. (I prefer classical music.)\\nPrefiero leer libros. (I prefer to read books.)\\nPrefiero pasar tiempo con amigos. (I prefer to spend time with friends.)",
+      "examples": [
+        "Prefiero las películas de acción. (I prefer action movies.)\\n¿Prefieres ir al cine? (Do you prefer to go to the cinema?)\\nPrefiero bailar la salsa. (I prefer to dance salsa.)\\nNosotros preferimos el teatro. (We prefer theater.)",
+        "¿Prefieres escuchar música o ver la tele? (Do you prefer listening to music or watching TV?)\\nPrefiero dormir un poco. (I prefer to sleep a bit.)\\nEllos prefieren jugar videojuegos. (They prefer to play video games.)\\nPrefiero no hacer nada. (I prefer to do nothing.)"
+      ]
+    },
+    {
+      "title": "Ir — To Go (Free Time Activities)",
+      "content": "Ir is one of the most common verbs. Learn it for talking about leisure activities.\\n\\nConjugation:\\nYo voy (I go)\\nTú vas (You go — informal)\\nÉl/Ella/Usted va (He/She/You formal goes)\\nNosotros/Nosotras vamos (We go)\\nVosotros/Vosotras vais (You all go — Spain)\\nEllos/Ellas/Ustedes van (They/You all go)\\n\\nIr + a + [place]:\\nVoy al cine. (I go to the cinema.)\\nVas al parque. (You go to the park.)\\nVa al museo. (He/She goes to the museum.)\\nVamos al estadio. (We go to the stadium.)\\n\\nIr a + [infinitive] = to go to do something:\\nVoy a nadar. (I'm going to swim.)\\nVamos a jugar al fútbol. (We're going to play soccer.)\\nVa a bailar. (She's going to dance.)\\nVas a visitar un museo. (You're going to visit a museum.)\\n\\nIr de + [activity]:\\nVamos de paseo. (We go for a walk.)\\nVan de compras. (They go shopping.)\\nVoy de viaje. (I go traveling.)\\n\\nCommon phrases:\\n¿A qué hora vas? (What time are you going?)\\n¿Quieres ir al cine? (Do you want to go to the cinema?)\\nVoy a las seis. (I go at six.)\\nVamos juntos. (We go together.)",
+      "examples": [
+        "Voy al gimnasio los lunes. (I go to the gym on Mondays.)\\n¿Vas al cine los fines de semana? (Do you go to the cinema on weekends?)\\nVamos a la piscina después del trabajo. (We go to the pool after work.)\\n¿Vas a bailar la noche del sábado? (Are you going to dance on Saturday night?)",
+        "Voy de paseo por el parque. (I go for a walk in the park.)\\n¿Vamos a ver una película? (Shall we go see a movie?)\\nVan al teatro cada fin de semana. (They go to the theater every weekend.)\\nVoy a practicar el piano. (I'm going to practice the piano.)"
+      ]
+    },
+    {
+      "title": "Hacer — To Do / To Make (Free Time)",
+      "content": "Hacer is an irregular verb used for hobbies, sports, and general activities.\\n\\nConjugation:\\nYo hago (I do / I make)\\nTú haces (You do — informal)\\nÉl/Ella/Usted hace (He/She/You formal does)\\nNosotros/Nosotras hacemos (We do)\\nVosotros/Vosotras hacéis (You all do — Spain)\\nEllos/Ellas/Ustedes hacen (They/You all do)\\n\\nHacer + activity:\\nHago deporte. (I do sports.)\\nHacemos ejercicio. (We do exercise.)\\n¿Qué haces en tu tiempo libre? (What do you do in your free time?)\\nHago pinturas los fines de semana. (I do paintings on weekends.)\\n\\nHacer deporte = to play sports\\nHacer ejercicio = to exercise\\nHacer una actividad = to do an activity\\n\\nHacer en weather expressions:\\nHace sol. (It's sunny.)\\nHace frío. (It's cold.)\\nHace calor. (It's hot.)\\n\\nCommon expressions:\\n¿Qué haces este fin de semana? (What are you doing this weekend?)\\nHago lo que puedo. (I do what I can.)\\nNo hago nada. (I do nothing.)\\nHacemos planes. (We make plans.)\\n\\nNOTE: Hacer is one of the most common verbs in Spanish and very important for talking about free time.",
+      "examples": [
+        "¿Qué haces en tu tiempo libre? (What do you do in your free time?)\\nHago natación los martes. (I do swimming on Tuesdays.)\\n¿Qué haces el fin de semana? (What do you do on the weekend?)\\nHacemos deporte juntos. (We play sports together.)",
+        "No hago mucho el sábado. (I don't do much on Saturday.)\\n¿Haces deporte? (Do you play sports?)\\nHacemos ejercicio por la mañana. (We exercise in the morning.)\\n¿Qué hacen ustedes el domingo? (What do you all do on Sunday?)"
+      ]
+    }
+  ],
+  "expressions": [
+    {
+      "title": "Talking About Hobbies and Free Time",
+      "content": "Asking about free time:\\n¿Qué haces en tu tiempo libre? (What do you do in your free time?)\\n¿Cuáles son tus pasatiempos? (What are your hobbies?)\\n¿Qué te gusta hacer? (What do you like to do?)\\n¿Qué haces los fines de semana? (What do you do on weekends?)\\n\\nAnswering:\\nMe gusta leer. (I like to read.)\\nMe gusta mucho cocinar. (I really like to cook.)\\nPrefiero escuchar música. (I prefer to listen to music.)\\nHago deporte tres veces a la semana. (I play sports three times a week.)\\nVoy al cine los viernes. (I go to the cinema on Fridays.)\\nEn mi tiempo libre, dibujo y leo. (In my free time, I draw and read.)\\n\\nDescribing activities:\\nEs divertido. (It's fun.)\\nEs interesante. (It's interesting.)\\nEs aburrido. (It's boring.)\\nEs emocionante. (It's exciting.)\\nEs relajante. (It's relaxing.)\\n\\nMaking plans:\\n¿Quieres ir al cine? (Do you want to go to the cinema?)\\n¿Te gustaría ir al concierto? (Would you like to go to the concert?)\\nVamos al parque. (Let's go to the park.)\\n¿Quedamos el sábado? (Shall we meet on Saturday?)\\n\\nCommon expressions:\\nMe divierto mucho. (I have a lot of fun.)\\nDisfruto mucho. (I really enjoy it.)\\nNo tengo tiempo libre. (I don't have free time.)\\nTengo mucho tiempo libre. (I have a lot of free time.)",
+      "examples": [
+        "¿Qué te gusta hacer en tu tiempo libre? (What do you like to do in your free time?)\\nMe gusta mucho bailar y escuchar música. (I really like to dance and listen to music.)\\n¿Prefieres ir al cine o al teatro? (Do you prefer to go to the cinema or to theater?)\\nPrefiero el cine. Me gusta ver películas. (I prefer cinema. I like to watch movies.)",
+        "¿Qué haces los fines de semana? (What do you do on weekends?)\\nLos fines de semana voy al gimnasio. (On weekends I go to the gym.)\\n¿Te gustaría ir al museo? (Would you like to go to the museum?)\\nSí, me encantaría. (Yes, I'd love to.)\\n¿Vamos juntos? (Shall we go together?)"
+      ]
+    },
+    {
+      "title": "Going Out for Entertainment",
+      "content": "At the cinema:\\nQuiero una entrada para esta película. (I want a ticket for this movie.)\\n¿A qué hora es la función? (What time is the screening?)\\n¿Cuánto cuesta la entrada? (How much is the ticket?)\\nQuiero la butaca número 12. (I want seat number 12.)\\n¿Dónde está la sala de cine? (Where is the movie theater?)\\n¿Hay alguna oferta hoy? (Is there any offer today?)\\n\\nAt a concert:\\nQuiero dos entradas para el concierto. (I want two tickets for the concert.)\\n¿Quién es la banda? (Who is the band?)\\nMe encanta esta canción. (I love this song.)\\nEl concierto es a las nueve. (The concert is at nine.)\\n\\nAt the theater:\\n¿Dónde está el escenario? (Where is the stage?)\\nQuiero sentarme aquí. (I want to sit here.)\\nLa obra es muy interesante. (The play is very interesting.)\\n¿A qué hora empieza la función? (What time does the show start?)\\n\\nMaking plans with friends:\\nQuedamos a las ocho. (We'll meet at eight.)\\n¿Quieres venir conmigo? (Do you want to come with me?)\\nNos divertimos mucho. (We have a lot of fun.)\\nInvito a todos. (I'm inviting everyone.)\\n\\nCommon expressions:\\nMe encanta. (I love it.)\\nMe parece genial. (It seems great to me.)\\n¡Qué divertido! (How fun!)\\nEstoy aburrido/a. (I'm bored.)\\nMe aburro mucho. (I get bored a lot.)",
+      "examples": [
+        "Quiero una entrada para el cine, por favor. (I want a ticket for the cinema, please.)\\n¿A qué hora es la película? (What time is the movie?)\\nEs a las siete y media. (It's at seven thirty.)\\n¿Vamos juntos? (Shall we go together?)",
+        "Me encanta la música. (I love music.)\\n¿Vas al concierto el viernes? (Are you going to the concert on Friday?)\\nSí, voy con mis amigos. (Yes, I'm going with my friends.)\\n¡Qué emocionante! (How exciting!)"
+      ]
+    },
+    {
+      "title": "Describing Preferences and Feelings",
+      "content": "Expressing likes and preferences:\\nMe gusta mucho... (I really like...)\\nMe gusta poco... (I don't like much...)\\nNo me gusta... (I don't like...)\\nMe encanta... (I love...)\\nOdio... (I hate...)\\nPrefiero... (I prefer...)\\n\\nDescribing activities:\\nEs muy divertido. (It's very fun.)\\nEs bastante interesante. (It's quite interesting.)\\nEs un poco aburrido. (It's a bit boring.)\\nEs realmente emocionante. (It's really exciting.)\\nEs muy relajante. (It's very relaxing.)\\n\\nExpressing feelings about activities:\\nMe siento cansado/a después de hacer deporte. (I feel tired after doing sports.)\\nMe siento relajado/a cuando leo. (I feel relaxed when I read.)\\nMe divierto mucho bailando. (I have a lot of fun dancing.)\\nMe aburro cuando veo la tele. (I get bored when I watch TV.)\\n\\nComparing activities:\\nPrefiero la pintura a la fotografía. (I prefer painting to photography.)\\nMe gusta más leer que ver la tele. (I like reading more than watching TV.)\\nMe gusta menos cocinar. (I like cooking less.)\\n\\nCommon expressions:\\nEs mi pasatiempo favorito. (It's my favorite pastime.)\\nMe gusta hacer deporte todos los días. (I like doing sports every day.)\\nEn mis vacaciones, viajo y descanso. (On vacation, I travel and rest.)\\nMi hobby favorito es la fotografía. (My favorite hobby is photography.)",
+      "examples": [
+        "¿Qué te gusta hacer? (What do you like to do?)\\nMe gusta mucho leer y caminar. (I really like reading and walking.)\\n¿Prefieres deportes o actividades artísticas? (Do you prefer sports or artistic activities?)\\nPrefiero las actividades artísticas. (I prefer artistic activities.)\\nEs más relajante. (It's more relaxing.)",
+        "¿Qué haces en tu tiempo libre? (What do you do in your free time?)\\nMe divierto mucho cuando juego videojuegos. (I have a lot of fun when I play video games.)\\nMi pasatiempo favorito es el cine. (My favorite pastime is cinema.)\\nMe encanta ver películas de acción. (I love watching action movies.)"
+      ]
+    }
+  ],
+  "pronunciation": [
+    {
+      "title": "Entertainment & Leisure Pronunciation Guide",
+      "content": "Key entertainment vocabulary with pronunciation:\\n\\nentretener = en-tre-te-NYER (to entertain)\\nocio = OH-see-oh (leisure)\\ntiempo libre = TYEM-poh LEE-breh (free time)\\npasatiempo = pah-sah-TYEM-poh (pastime)\\ndeporte = deh-PORTEH (sport)\\ncine = KEE-neh (cinema)\\npelícula = peh-LEE-koo-lah (movie)\\ntelevisión = te-leh-bee-OWN (television)\\nmúsica = MOO-see-kah (music)\\nconcierto = kon-see-EHR-toh (concert)\\ncanción = kahn-see-OWN (song)\\nartista = AR-tee-stah (artist)\\nlibro = LEE-broh (book)\\nperíodico = peh-ree-OH-dee-koh (newspaper)\\nrevista = beh-REE-stah (magazine)\\njuego = HWEH-goh (game)\\npintar = peen-TAHR (to paint)\\ndibujar = dee-booh-HAHR (to draw)\\nleer = leh-EHR (to read)\\nescribir = es-krEE-behr (to write)\\nver = BEHR (to watch/see)\\nescuchar = es-koo-CHAHR (to listen)\\ncantar = kahn-TAHR (to sing)\\nbailar = bah-YAHR (to dance)\\njugar = HOO-gahr (to play — games/sports)\\nnadar = nah-DAHR (to swim)\\ncorrer = ko-REHR (to run)\\nviajar = bee-AH-har (to travel)\\ncocinar = ko-see-NAHR (to cook)\\npasear = pah-sah-EHR (to stroll)\\ninteresar = een-teh-reh-SAHR (to interest)\\naburrir = ah-boor-EER (to bore)\\nemocionar = eh-moh-see-ON-ahr (to excite)\\nrelajante = reh-lah-HAHN-teh (relaxing)\\nmuseo = moo-SEH-oh (museum)\\nteatro = teh-AH-troh (theater)\\npiscina = pees-EE-nah (pool)\\ngimnasio = heem-NAH-soh (gym)\\nlibrería = lee-breh-REE-ah (bookstore)\\nentrada = en-TTRAH-dah (ticket)\\npantalla = pan-TYAH-yah (screen)\\nescenario = es-neh-AH-ree-oh (stage)\\n\nNOTE: 'c' before 'e' or 'i' sounds like 'th' in Spain (cine = THEE-neh) but like 's' in LatAm (SINE).",
+      "examples": [
+        "cine = KEE-neh\\npelícula = peh-LEE-koo-lah\\nmúsica = MOO-see-kah\\nconcierto = kon-see-EHR-toh\\ncanción = kahn-see-OWN\\narte = AR-teh\\nmuseo = moo-SEH-oh\\nteatro = teh-AH-troh\\ngimnasio = heem-NAH-soh\\npiscina = pees-EE-nah"
+      ]
+    },
+    {
+      "title": "Spanish Vowels and Key Consonants for Entertainment",
+      "content": "Spanish vowel sounds — always the same:\\n\\nA = ah (like 'fAther')\\nE = eh (like 'thEn')\\nI = ee (like 'sEe')\\nO = oh (like 'sO')\\nU = oo (like 'flOOt')\\n\\nEntertainment words with clear vowels:\\npelícula = peh-LEE-koo-lah (e, i, u all clear)\\nmúsica = MOO-see-kah (u = oo, i = ee)\\nkonzcierto = kon-see-EHR-toh (i = ee, o = oh)\\ncanción = kahn-see-OWN (a = ah, i = ee, ó = oh)\\nmuseo = moo-SEH-oh (u = oo, e = eh, o = oh)\\ncine = KEE-neh (i = ee, e = eh)\\npintura = peen-TOO-rah (i = ee, u = oo, a = ah)\\n\\nKey consonants:\\nR = rolled/tapped R (like Spanish 'perro')\\nÑ = ny sound (like 'canyON')\\nLL = y sound in most regions (like 'yOl')\\nH = silent (hobby in Spanish borrows English pronunciation but written without H issues)\\nJ = hard H sound like 'h' in 'haH' (juego = HWEH-goh)\\nG = hard H sound before e/i (gimnasio = heem-NAH-soh)\\n\\nWords with special sounds:\\nconcierto = kon-see-EHR-toh (c before e = soft, r is tapped)\\npintura = peen-TOO-rah (t = clear, u = oo)\\nviajar = bee-AH-har (j = hard H, r is tapped)\\ncocinar = ko-see-NAHR (c before i = soft, r is tapped)\\ncorrer = ko-REHR (two r's, second is rolled)\\n\\nNOTE: The stress (accent mark) shows which syllable is emphasized.\\npelícula = peh-LEE-koo-lah (accent on LEE)\\nmúsica = MOO-see-kah (accent on MOO)\\ncanción = kahn-see-OWN (accent on OWN)\\npiscina = pees-EE-nah (accent on EES)\\n\\nEjemplos:\\nMe gusta el cine. = meh GOOS-tah el KEE-neh (I like the cinema.)\\nVamos al teatro. = bah-MOS al teh-AH-troh (We go to the theater.)\\nEscucho música. = es-KOO-choh MOO-see-kah (I listen to music.)",
+      "examples": [
+        "a = ah → canción (kahn-see-OWN)\\ne = eh → película (peh-LEE-koo-lah)\\ni = ee → cine (KEE-neh)\\no = oh → museo (moo-SEH-oh)\\nu = oo → música (MOO-see-kah)\\nj (hard H) → juego (HWEH-goh)\\ng (soft before e/i) → gimnasio (heem-NAH-soh)\\nñ (ny) → año (AH-nyoh) — not in list but common"
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "multiple-choice",
+      "question": "What is 'cinema' in Spanish?",
+      "options": ["televisión", "cine", "teatro", "museo"],
+      "correct": 1,
+      "explanation": "Cine = cinema. Televisión = television. Teatro = theater. Museo = museum."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "How do you say 'I like music' in Spanish?",
+      "options": ["Yo gusto la música", "Me gusta la música", "Me gusta el música", "Yo gusta música"],
+      "correct": 1,
+      "explanation": "Me gusta la música = I like music. Gustar works backwards from English — the thing liked is the subject."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What is 'to play (sports)' in Spanish?",
+      "options": ["tocar", "jugar", "cantar", "bailar"],
+      "correct": 1,
+      "explanation": "Jugar = to play (games/sports). Tocar = to play (instruments). Cantar = to sing. Bailar = to dance."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What does 'aburrido' mean?",
+      "options": ["exciting", "funny", "boring", "interesting"],
+      "correct": 2,
+      "explanation": "Aburrido = boring. Emocionante = exciting. Divertido = funny/fun. Interesante = interesting."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: Me ___ leer. (I like to read.)",
+      "correct": "gusta",
+      "explanation": "Me gusta leer = I like to read. Gustar + infinitive is always singular."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What is 'book' in Spanish?",
+      "options": ["revista", "períodico", "libro", "novela"],
+      "correct": 2,
+      "explanation": "Libro = book. Revista = magazine. Períodico = newspaper. Novela = novel."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What does 'me encanta' mean?",
+      "options": ["I don't like", "I hate", "I love", "I prefer"],
+      "correct": 2,
+      "explanation": "Me encanta = I love it. No me gusta = I don't like. Odio = I hate. Prefiero = I prefer."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: Voy al ___. (I go to the cinema.)",
+      "correct": "cine",
+      "explanation": "Voy al cine = I go to the cinema. Voy = I go. Al = a + el."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What is 'weekend' in Spanish?",
+      "options": ["fin de semana", "vacaciones", "noche", "fin de año"],
+      "correct": 0,
+      "explanation": "Fin de semana = weekend. Vacaciones = vacation. Noche = night. Fin de año = end of year."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "How do you say 'to dance' in Spanish?",
+      "options": ["cantar", "tocar", "bailar", "jugar"],
+      "correct": 2,
+      "explanation": "Bailar = to dance. Cantar = to sing. Tocar = to play (instrument). Jugar = to play (games)."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: Prefiero el cine a la ___. (I prefer cinema to TV.)",
+      "correct": "televisión",
+      "explanation": "Prefiero el cine a la televisión = I prefer cinema to TV. Preferir = to prefer."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What is 'museum' in Spanish?",
+      "options": ["teatro", "estadio", "museo", "parque"],
+      "correct": 2,
+      "explanation": "Museo = museum. Teatro = theater. Estadio = stadium. Parque = park."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What does 'me gusta mucho' mean?",
+      "options": ["I don't like it", "I like it a lot", "I prefer it", "It's boring"],
+      "correct": 1,
+      "explanation": "Me gusta mucho = I like it a lot. Mucho = a lot. No me gusta = I don't like it."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: ¿Qué haces en tu ___? (What do you do in your free time?)",
+      "correct": "tiempo libre",
+      "explanation": "¿Qué haces en tu tiempo libre? = What do you do in your free time?"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What is 'to swim' in Spanish?",
+      "options": ["correr", "caminar", "nadar", "pasear"],
+      "correct": 2,
+      "explanation": "Nadar = to swim. Correr = to run. Caminar = to walk. Pasear = to stroll."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What does 'divertido' mean?",
+      "options": ["tiring", "funny / fun", "serious", "boring"],
+      "correct": 1,
+      "explanation": "Divertido = fun / funny. Cansado = tiring. Aburrido = boring. Serio = serious."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: ___ al gimnasio los lunes. (I go to the gym on Mondays.)",
+      "correct": "Voy",
+      "explanation": "Voy al gimnasio = I go to the gym. Ir (to go) conjugation: yo voy."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What is 'to sing' in Spanish?",
+      "options": ["bailar", "tocar", "cantar", "escuchar"],
+      "correct": 2,
+      "explanation": "Cantar = to sing. Bailar = to dance. Tocar = to play (instrument). Escuchar = to listen."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What does 'es emocionante' mean?",
+      "options": ["It's boring", "It's exciting", "It's relaxing", "It's interesting"],
+      "correct": 1,
+      "explanation": "Emocionante = exciting. Aburrido = boring. Relajante = relaxing. Interesante = interesting."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: Me gustan las ___. (I like movies.)",
+      "correct": "películas",
+      "explanation": "Me gustan las películas = I like movies. Use 'gustan' for plural nouns."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What is 'song' in Spanish?",
+      "options": ["concierto", "artista", "canción", "banda"],
+      "correct": 2,
+      "explanation": "Canción = song. Concierto = concert. Artista = artist. Banda = band."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "How do you say 'I prefer to listen to music' in Spanish?",
+      "options": ["Prefiero escuchar música", "Me gusta mucho música", "Quiero ir al concierto", "Voy a escuchar música"],
+      "correct": 0,
+      "explanation": "Prefiero escuchar música = I prefer to listen to music. Preferir = to prefer."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: Vamos al ___. (We go to the theater.)",
+      "correct": "teatro",
+      "explanation": "Vamos al teatro = We go to the theater. Vamos = we go."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What is 'gym' in Spanish?",
+      "options": ["piscina", "gimnasio", "estadio", "parque"],
+      "correct": 1,
+      "explanation": "Gimnasio = gym. Piscina = pool. Estadio = stadium. Parque = park."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What does 'hacer deporte' mean?",
+      "options": ["to watch sports", "to play sports", "to sell sports equipment", "to coach sports"],
+      "correct": 1,
+      "explanation": "Hacer deporte = to play sports / to do sports. Hacer = to do/make."
+    }
+  ]
+}

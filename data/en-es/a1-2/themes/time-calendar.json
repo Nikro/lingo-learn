@@ -1,0 +1,369 @@
+{
+  "id": "time-calendar",
+  "level": "a1-2",
+  "title": "Time & Calendar",
+  "description": "Learn to tell time, talk about days and dates, describe routines, and understand calendar vocabulary in everyday Spanish.",
+  "vocabulary": [
+    {"id": 1, "target": "día", "source": "day", "gender": "m", "type": "noun"},
+    {"id": 2, "target": "noche", "source": "night", "gender": "f", "type": "noun"},
+    {"id": 3, "target": "mañana", "source": "morning", "gender": "f", "type": "noun"},
+    {"id": 4, "target": "tarde", "source": "afternoon / evening", "gender": "f", "type": "noun"},
+    {"id": 5, "target": "hora", "source": "hour / time", "gender": "f", "type": "noun"},
+    {"id": 6, "target": "minuto", "source": "minute", "gender": "m", "type": "noun"},
+    {"id": 7, "target": "segundo", "source": "second", "gender": "m", "type": "noun"},
+    {"id": 8, "target": "semana", "source": "week", "gender": "f", "type": "noun"},
+    {"id": 9, "target": "mes", "source": "month", "gender": "m", "type": "noun"},
+    {"id": 10, "target": "año", "source": "year", "gender": "m", "type": "noun"},
+    {"id": 11, "target": "ayer", "source": "yesterday", "gender": null, "type": "adverb"},
+    {"id": 12, "target": "hoy", "source": "today", "gender": null, "type": "adverb"},
+    {"id": 13, "target": "mañana", "source": "tomorrow", "gender": null, "type": "adverb"},
+    {"id": 14, "target": "ahora", "source": "now", "gender": null, "type": "adverb"},
+    {"id": 15, "target": "antes", "source": "before / earlier", "gender": null, "type": "adverb"},
+    {"id": 16, "target": "después", "source": "after / later", "gender": null, "type": "adverb"},
+    {"id": 17, "target": "lunes", "source": "Monday", "gender": "m", "type": "noun"},
+    {"id": 18, "target": "martes", "source": "Tuesday", "gender": "m", "type": "noun"},
+    {"id": 19, "target": "miércoles", "source": "Wednesday", "gender": "m", "type": "noun"},
+    {"id": 20, "target": "jueves", "source": "Thursday", "gender": "m", "type": "noun"},
+    {"id": 21, "target": "viernes", "source": "Friday", "gender": "m", "type": "noun"},
+    {"id": 22, "target": "sábado", "source": "Saturday", "gender": "m", "type": "noun"},
+    {"id": 23, "target": "domingo", "source": "Sunday", "gender": "m", "type": "noun"},
+    {"id": 24, "target": "enero", "source": "January", "gender": "m", "type": "noun"},
+    {"id": 25, "target": "febrero", "source": "February", "gender": "m", "type": "noun"},
+    {"id": 26, "target": "marzo", "source": "March", "gender": "m", "type": "noun"},
+    {"id": 27, "target": "abril", "source": "April", "gender": "m", "type": "noun"},
+    {"id": 28, "target": "mayo", "source": "May", "gender": "m", "type": "noun"},
+    {"id": 29, "target": "junio", "source": "June", "gender": "m", "type": "noun"},
+    {"id": 30, "target": "julio", "source": "July", "gender": "m", "type": "noun"},
+    {"id": 31, "target": "agosto", "source": "August", "gender": "m", "type": "noun"},
+    {"id": 32, "target": "septiembre", "source": "September", "gender": "m", "type": "noun"},
+    {"id": 33, "target": "octubre", "source": "October", "gender": "m", "type": "noun"},
+    {"id": 34, "target": "noviembre", "source": "November", "gender": "m", "type": "noun"},
+    {"id": 35, "target": "diciembre", "source": "December", "gender": "m", "type": "noun"},
+    {"id": 36, "target": "primavera", "source": "spring", "gender": "f", "type": "noun"},
+    {"id": 37, "target": "verano", "source": "summer", "gender": "m", "type": "noun"},
+    {"id": 38, "target": "otoño", "source": "autumn / fall", "gender": "m", "type": "noun"},
+    {"id": 39, "target": "invierno", "source": "winter", "gender": "m", "type": "noun"},
+    {"id": 40, "target": "mediodía", "source": "midday / noon", "gender": "m", "type": "noun"},
+    {"id": 41, "target": "medianoche", "source": "midnight", "gender": "f", "type": "noun"},
+    {"id": 42, "target": "mañana", "source": "morning", "gender": "f", "type": "noun"},
+    {"id": 43, "target": "puesta del sol", "source": "sunset", "gender": "f", "type": "noun"},
+    {"id": 44, "target": "amanecer", "source": "sunrise", "gender": "m", "type": "noun"},
+    {"id": 45, "target": "despertador", "source": "alarm clock", "gender": "m", "type": "noun"},
+    {"id": 46, "target": "calendario", "source": "calendar", "gender": "m", "type": "noun"},
+    {"id": 47, "target": "reloj", "source": "clock / watch", "gender": "m", "type": "noun"},
+    {"id": 48, "target": "cronómetro", "source": "stopwatch", "gender": "m", "type": "noun"},
+    {"id": 49, "target": "retraso", "source": "delay", "gender": "m", "type": "noun"},
+    {"id": 50, "target": "puntuál", "source": "punctual", "gender": "m", "type": "adjective"},
+    {"id": 51, "target": "temprano", "source": "early", "gender": "m", "type": "adjective"},
+    {"id": 52, "target": "tarde", "source": "late", "gender": "m", "type": "adjective"},
+    {"id": 53, "target": "pronto", "source": "soon / early", "gender": "m", "type": "adverb"},
+    {"id": 54, "target": "siempre", "source": "always", "gender": null, "type": "adverb"},
+    {"id": 55, "target": "nunca", "source": "never", "gender": null, "type": "adverb"},
+    {"id": 56, "target": "a veces", "source": "sometimes", "gender": null, "type": "adverb"},
+    {"id": 57, "target": "a menudo", "source": "often", "gender": null, "type": "adverb"},
+    {"id": 58, "target": "frecuentemente", "source": "frequently", "gender": null, "type": "adverb"},
+    {"id": 59, "target": "cada día", "source": "every day", "gender": null, "type": "adverb"},
+    {"id": 60, "target": "todos los días", "source": "every day (repeated)", "gender": null, "type": "adverb"},
+    {"id": 61, "target": "esta semana", "source": "this week", "gender": null, "type": "adverb"},
+    {"id": 62, "target": "la próxima semana", "source": "next week", "gender": null, "type": "adverb"},
+    {"id": 63, "target": "la semana pasada", "source": "last week", "gender": null, "type": "adverb"},
+    {"id": 64, "target": "este mes", "source": "this month", "gender": null, "type": "adverb"},
+    {"id": 65, "target": "el próximo mes", "source": "next month", "gender": null, "type": "adverb"},
+    {"id": 66, "target": "el mes pasado", "source": "last month", "gender": null, "type": "adverb"},
+    {"id": 67, "target": "este año", "source": "this year", "gender": null, "type": "adverb"},
+    {"id": 68, "target": "el próximo año", "source": "next year", "gender": null, "type": "adverb"},
+    {"id": 69, "target": "hace + tiempo", "source": "ago (time expression)", "gender": null, "type": "phrase"},
+    {"id": 70, "target": "dentro de + tiempo", "source": "in + time (future)", "gender": null, "type": "phrase"},
+    {"id": 71, "target": "durante", "source": "during", "gender": null, "type": "preposition"},
+    {"id": 72, "target": "desde", "source": "since / from", "gender": null, "type": "preposition"},
+    {"id": 73, "target": "hasta", "source": "until / up to", "gender": null, "type": "preposition"},
+    {"id": 74, "target": "entre", "source": "between", "gender": null, "type": "preposition"},
+    {"id": 75, "target": "en punto", "source": "sharp (on the hour)", "gender": null, "type": "adverb"},
+    {"id": 76, "target": "y", "source": "and (time connector)", "gender": null, "type": "conjunction"},
+    {"id": 77, "target": "menos", "source": "less / to (time)", "gender": null, "type": "preposition"},
+    {"id": 78, "target": "cuarto", "source": "quarter (of an hour)", "gender": "m", "type": "noun"},
+    {"id": 79, "target": "media", "source": "half (of an hour)", "gender": "f", "type": "noun"},
+    {"id": 80, "target": "mediodía", "source": "noon / midday", "gender": "m", "type": "noun"},
+    {"id": 81, "target": "desayuno", "source": "breakfast", "gender": "m", "type": "noun"},
+    {"id": 82, "target": "almuerzo", "source": "lunch", "gender": "m", "type": "noun"},
+    {"id": 83, "target": "cena", "source": "dinner", "gender": "f", "type": "noun"},
+    {"id": 84, "target": "acostarse", "source": "to go to bed", "gender": "m", "type": "verb"},
+    {"id": 85, "target": "despertarse", "source": "to wake up", "gender": "m", "type": "verb"},
+    {"id": 86, "target": "esperar", "source": "to wait", "gender": "m", "type": "verb"},
+    {"id": 87, "target": "perderse", "source": "to miss (transport)", "gender": "m", "type": "verb"},
+    {"id": 88, "target": "llegar", "source": "to arrive", "gender": "m", "type": "verb"},
+    {"id": 89, "target": "salir", "source": "to leave / go out", "gender": "m", "type": "verb"},
+    {"id": 90, "target": "empezar", "source": "to begin", "gender": "m", "type": "verb"},
+    {"id": 91, "target": "terminar", "source": "to finish / end", "gender": "m", "type": "verb"},
+    {"id": 92, "target": "pronto", "source": "soon", "gender": null, "type": "adverb"},
+    {"id": 93, "target": "último", "source": "last (most recent)", "gender": "m", "type": "adjective"},
+    {"id": 94, "target": "próximo", "source": "next", "gender": "m", "type": "adjective"},
+    {"id": 95, "target": "pasado", "source": "past / last", "gender": "m", "type": "adjective"},
+    {"id": 96, "target": "fecha", "source": "date", "gender": "f", "type": "noun"},
+    {"id": 97, "target": "cumpleaños", "source": "birthday", "gender": "m", "type": "noun"},
+    {"id": 98, "target": "feriado", "source": "holiday / day off", "gender": "m", "type": "noun"},
+    {"id": 99, "target": "vacaciones", "source": "vacation / holidays", "gender": "f", "type": "noun"},
+    {"id": 100, "target": "trabajo", "source": "work / job", "gender": "m", "type": "noun"}
+  ],
+  "grammar": [
+    {
+      "title": "Telling Time — Las Horas",
+      "content": "To tell time in Spanish, use 'ser' in the present tense.\\n\\nOne o'clock:\\nEs la una. (It is one o'clock.)\\n\\nEverything else (plural):\\nSon las + hour. (It is + hour.)\\n\\nBasic time expressions:\\nSon las dos. (It is two o'clock.)\\nSon las tres. (It is three o'clock.)\\nSon las diez. (It is ten o'clock.)\\n\\nAdding minutes:\\nSon las tres y diez. (It is ten past three. / 3:10)\\nSon las tres y veinte. (It is twenty past three. / 3:20)\\nSon las tres y media. (It is half past three. / 3:30)\\nSon las tres y cuarto. (It is quarter past three. / 3:15)\\n\\nMinutes to the next hour:\\nSon las cuatro menos veinticinco. (It is 25 to four. / 3:35)\\nSon las cuatro menos veinticinco minutos. (It is 25 minutes to four.)\\nSon las cuatro menos cuarto. (It is a quarter to four. / 3:45)\\nSon las cinco menos cinco. (It is five to five. / 4:55)\\n\\nOn the hour:\\nSon las ocho en punto. (It is eight o'clock sharp.)\\nLas doce en punto. (Twelve o'clock sharp.)\\n\\nAM/PM:\\nPor la mañana = in the morning (00:00–11:59)\\nPor la tarde = in the afternoon (12:00–21:00)\\nPor la noche = at night (21:00–00:00)\\n\\nEjemplos:\\n¿Qué hora es? (What time is it?)\\nSon las nueve y media de la mañana. (It's 9:30 AM.)\\nSon las siete menos cuarto de la tarde. (It's 6:45 PM.)\\nSon las doce en punto del mediodía. (It's 12:00 noon.)",
+      "examples": [
+        "¿Qué hora es? (What time is it?)\\nSon las dos y diez. (It's 2:10.)\\nEs la una y media. (It's 1:30.)\\nSon las seis menos veinte de la mañana. (It's 5:40 AM.)",
+        "Son las once y cuarto de la noche. (It's 11:15 PM.)\\nSon las tres en punto. (It's 3:00 sharp.)\\n¿A qué hora es la clase? (What time is the class?)\\nEs a las cuatro menos cinco. (It's at 3:55.)"
+      ]
+    },
+    {
+      "title": "Days of the Week and Months — Los Días y los Meses",
+      "content": "Days of the week (all lowercase in Spanish):\\nLunes (Monday)\\nMartes (Tuesday)\\nMiércoles (Wednesday)\\nJueves (Thursday)\\nViernes (Friday)\\nSábado (Saturday)\\nDomingo (Sunday)\\n\\nMONTHS are also lowercase in Spanish:\\nEnero, Febrero, Marzo, Abril, Mayo, Junio, Julio, Agosto,\\nSeptiembre, Octubre, Noviembre, Diciembre\\n\\nAsking about days:\\n¿Qué día es hoy? (What day is today?)\\nHoy es lunes. (Today is Monday.)\\nMañana es martes. (Tomorrow is Tuesday.)\\n¿Qué día es tu cumpleaños? (What day is your birthday?)\\n\\nAsking about dates:\\n¿Qué fecha es hoy? (What date is today?)\\nHoy es el primero de enero. (Today is January 1st.)\\nHoy es el quince de marzo. (Today is March 15th.)\\n\\nNOTE: For dates, use 'el [number] de [month].'\\nFirst of the month: el primero de [month] (not 'el uno')\\nAll other dates: el [number] de [month]\\n\\nSeasons (with 'en' — no article needed):\\nEn primavera = in spring\\nEn verano = in summer\\nEn otoño = in autumn\\nEn invierno = in winter\\n\\nEjemplos:\\nHoy es miércoles, quince de octubre. (Today is Wednesday, October 15th.)\\nMi cumpleaños es el primero de enero. (My birthday is January 1st.)\\nEn verano hace calor. (It's hot in summer.)\\nLa semana pasada fue sábado y domingo. (Last week was Saturday and Sunday.)",
+      "examples": [
+        "¿Qué día es hoy? (What day is today?)\\nHoy es viernes. (Today is Friday.)\\nMañana es sábado. (Tomorrow is Saturday.)\\nEl lunes que viene empieza la escuela. (Next Monday school starts.)",
+        "¿Qué fecha es hoy? (What date is today?)\\nHoy es el tres de junio. (Today is June 3rd.)\\n¿Cuándo es tu cumpleaños? (When is your birthday?)\\nMi cumpleaños es el veinticinco de diciembre. (My birthday is December 25th.)"
+      ]
+    },
+    {
+      "title": "Prepositions of Time — En, a, de, por",
+      "content": "Prepositions are crucial for talking about when things happen.\\n\\nEN + general time periods:\\nEn + month: En marzo (in March)\\nEn + season: En verano (in summer)\\nEn + year: En 2026 (in 2026)\\nEn + weekend: En el fin de semana (on the weekend)\\n\\nA + specific time:\\nA las tres (at 3 o'clock)\\nA mediodía (at noon)\\nA medianoche (at midnight)\\n\\nDE + time of day:\\nDe la mañana (in the morning)\\nDe la tarde (in the afternoon)\\nDe la noche (at night)\\n\\nPOR + period/duration:\\nPor la mañana (in the morning)\\nPor la tarde (in the afternoon)\\nPor la noche (at night)\\n\\nHACE + time period (ago):\\nHace una hora (an hour ago)\\nHace dos días (two days ago)\\nHace mucho tiempo (a long time ago)\\n\\nDENTRO DE + time period (in/from now):\\nDentro de una hora (in one hour)\\nDentro de tres días (in three days)\\n\\nDESDE + starting point:\\nDesde lunes (since Monday)\\nDesde enero (since January)\\n\\nHASTA + end point:\\nHasta mañana (until tomorrow)\\nHasta las cinco (until five o'clock)\\n\\nEjemplos:\\nMe levanto por la mañana. (I get up in the morning.)\\nLa reunión es a las tres. (The meeting is at three.)\\nVivo aquí desde 2020. (I've lived here since 2020.)\\nNos vemos hasta mañana. (See you until tomorrow / See you tomorrow.)",
+      "examples": [
+        "Voy al gimnasio por la tarde. (I go to the gym in the afternoon.)\\nLa fiesta es a las ocho de la noche. (The party is at eight at night.)\\nLlegué hace cinco minutos. (I arrived five minutes ago.)\\nTe llamo dentro de una hora. (I'll call you in an hour.)",
+        "Estudio en invierno. (I study in winter.)\\nNos vemos a mediodía. (See you at noon.)\\nTrabajo de lunes a viernes. (I work Monday through Friday.)\\nEstoy libre hasta las seis. (I'm free until six.)"
+      ]
+    },
+    {
+      "title": "Adverbs of Frequency — Siempre, Nunca, A veces",
+      "content": "Adverbs of frequency tell how often something happens.\\n\\nPosition in the sentence:\\nBefore the conjugated verb:\\nSiempre como frutas. (I always eat fruit.)\\nNunca voy al cine. (I never go to the cinema.)\\nA veces estudio por la tarde. (Sometimes I study in the afternoon.)\\n\\nWith 'ser' the adverb goes after:\\nElla siempre es puntual. (She is always punctual.)\\nÉl nunca es tarde. (He is never late.)\\n\\nFrequency ranking (least to most frequent):\\nNunca / Jamás (never)\\nRaramente (rarely)\\nA veces / De vez en cuando (sometimes)\\nA menudo / Frecuentemente (often)\\nSiempre (always)\\n\\nPosición con 'jamás':\\nJamás = never (more emphatic than 'nunca')\\nJamás como carne. (I never eat meat.)\\nNever goes after the verb with 'no':\\nNo como nunca = incorrect (use 'nunca como')\\nNo voy jamás = incorrect (use 'jamás voy')\\n\\nCommon frequency expressions:\\nCada día = every day\\nCada semana = every week\\nCada mes = every month\\nCada año = every year\\n\\nEjemplos:\\nSiempre despierto temprano. (I always wake up early.)\\nNunca llego tarde al trabajo. (I'm never late for work.)\\nA menudo ceno con mis amigos. (I often have dinner with my friends.)\\nCada mañana tomo café. (Every morning I drink coffee.)\\n¿Siempre llegas a tiempo? (Are you always on time?)",
+      "examples": [
+        "Siempre desayuno a las siete. (I always eat breakfast at seven.)\\nNunca me acuesto antes de la medianoche. (I never go to bed before midnight.)\\nA veces voy al gimnasio. (Sometimes I go to the gym.)\\n¿A menudo comes fuera? (Do you often eat out?)",
+        "Mi hermano siempre tiene razón. (My brother is always right.)\\nNunca olvido tu cumpleaños. (I never forget your birthday.)\\n¿Siempre comes lo mismo? (Do you always eat the same thing?)\\nDe vez en cuando viajo a Madrid. (Sometimes I travel to Madrid.)"
+      ]
+    }
+  ],
+  "expressions": [
+    {
+      "title": "Asking and Telling Time — Pedir y Decir la Hora",
+      "content": "Asking what time it is:\\n¿Qué hora es? (What time is it?)\\n¿Qué hora es ahora? (What time is it now?)\\n¿Tiene usted la hora? (Do you have the time? — formal)\\n¿Sabes la hora? (Do you know the time?)\\n\\nAnswering:\\nEs la una. (It's one o'clock.)\\nSon las [hour]. (It's [hour] o'clock.)\\nSon las [hour] y [minutes]. (It's [hour] and [minutes].)\\nSon las [hour] menos [minutes]. (It's [minutes] to [hour].)\\n\\nCommon situations:\\n¿A qué hora es la cita? (What time is the appointment?)\\n¿A qué hora empiezan? (What time do they start?)\\n¿A qué hora terminamos? (What time do we finish?)\\n\\nTime markers:\\nPor la mañana — morning (6am–12pm)\\nPor la tarde — afternoon (12pm–8pm)\\nPor la noche — evening/night (8pm–6am)\\n\\nSpecial times:\\nAl mediodía = at noon\\nA medianoche = at midnight\\nA las cinco de la tarde = at 5 PM\\n\\nEjemplos:\\n¿Qué hora es? (What time is it?)\\nSon las cuatro y media de la tarde. (It's 4:30 PM.)\\nLa clase empieza a las nueve menos cinco. (The class starts at 8:55.)\\n¿A qué hora es tu vuelo? (What time is your flight?)\\nEs a las seis de la mañana. (It's at 6 AM.)",
+      "examples": [
+        "¿Qué hora es? (What time is it?)\\nSon las siete en punto. (It's seven o'clock sharp.)\\nEs la una y media. (It's 1:30.)\\nSon las nueve menos veinte de la noche. (It's 8:40 PM.)",
+        "¿A qué hora es la reunión? (What time is the meeting?)\\nEs a las tres y cuarto de la tarde. (It's at 3:15 PM.)\\n¿A qué hora sale el tren? (What time does the train leave?)\\nSale a las doce menos cuarto. (It leaves at 11:45.)"
+      ]
+    },
+    {
+      "title": "Talking About Routines and Schedules — Rutina y Horarios",
+      "content": "Daily routine vocabulary:\\nMe despierto a las [time]. (I wake up at [time].)\\nMe ducho y me visto. (I shower and get dressed.)\\nDesayuno a las [time]. (I have breakfast at [time].)\\nVoy al trabajo / a la escuela. (I go to work / to school.)\\nAlmuerzo a las [time]. (I have lunch at [time].)\\nCeno a las [time]. (I have dinner at [time].)\\nMe acuesto a las [time]. (I go to bed at [time].)\\n\\nScheduling expressions:\\n¿A qué hora es...? (What time is...?)\\nEmpieza a las... (It starts at...)\\nTermina a las... (It ends at...)\\nEstá libre a las... (It's free at...)\\nEstá ocupado a las... (It's busy at...)\\n\\nTalking about past and future:\\nAyer me desperté a las siete. (Yesterday I woke up at seven.)\\nHoy me desperté a las seis. (Today I woke up at six.)\\nMañana me despertaré a las ocho. (Tomorrow I'll wake up at eight.)\\n\\nCommon schedule phrases:\\nTengo que llegar a tiempo. (I have to arrive on time.)\\nLlegué tarde. (I arrived late.)\\nMe perdí el autobús. (I missed the bus.)\\nEstoy retrasado. (I'm delayed.)\\nVoy a llegar pronto. (I'm going to arrive soon.)\\n\\nEjemplos:\\nMe despierto a las seis y media. (I wake up at 6:30.)\\nDesayuno rápido y luego voy al trabajo. (I have a quick breakfast then go to work.)\\nAlmuerzo a la una del mediodía. (I have lunch at 12 noon.)\\nMe acuesto antes de la medianoche. (I go to bed before midnight.)",
+      "examples": [
+        "¿A qué hora desayunas? (What time do you have breakfast?)\\nDesayuno a las siete. (I have breakfast at seven.)\\n¿Y almuerzas? (And do you have lunch?)\\nAlmuerzo a la una y ceno a las nueve. (I have lunch at one and dinner at nine.)",
+        "Mi horario de trabajo es de nueve a cinco. (My work schedule is nine to five.)\\nLos lunes y miércoles tengo clase de español. (On Mondays and Wednesdays I have Spanish class.)\\nLos fines de semana no trabajo. (On weekends I don't work.)\\nMi cumpleaños es el primero de junio. (My birthday is June 1st.)"
+      ]
+    },
+    {
+      "title": "Dates and Calendar Events — Fechas y Eventos",
+      "content": "Asking about dates:\\n¿Qué fecha es hoy? (What date is today?)\\n¿Cuándo es tu cumpleaños? (When is your birthday?)\\n¿Qué día es tu cumpleaños? (What day is your birthday?)\\n\\nAnswering:\\nHoy es el [number] de [month]. (Today is the [number] of [month].)\\nMi cumpleaños es el [number] de [month]. (My birthday is the [number] of [month].)\\nEs el [day of week], [number] de [month]. (It's [day], [number] of [month].)\\n\\nSaying dates:\\nEl primero de enero (January 1st)\\nEl quince de marzo (March 15th)\\nEl veinticinco de diciembre (December 25th)\\n\\nImportant dates and events:\\nEl cumpleaños de... = ...'s birthday\\nLa fiesta de... = ...'s party\\nLa Navidad = Christmas\\nLa Año Nuevo = New Year's\\nLos feriados = holidays\\nLas vacaciones = vacations\\n\\nTalking about when:\\nEn primavera (in spring)\\nEn verano (in summer)\\nEn otoño (in fall)\\nEn invierno (in winter)\\nEn diciembre (in December)\\nEn el fin de semana (on the weekend)\\n\\nEjemplos:\\n¿Cuándo es la fiesta? (When is the party?)\\nLa fiesta es el sábado, el quince de marzo. (The party is Saturday, March 15th.)\\n¿En qué mes es tu cumpleaños? (In what month is your birthday?)\\nMi cumpleaños es en julio. (My birthday is in July.)",
+      "examples": [
+        "¿Qué fecha es hoy? (What date is today?)\\nHoy es el tres de octubre. (Today is October 3rd.)\\n¿Y qué día es? (And what day is it?)\\nHoy es miércoles. (Today is Wednesday.)",
+        "¿Cuándo empiezan las vacaciones? (When do the vacations start?)\\nEmpiezan el uno de julio. (They start on July 1st.)\\n¿Y cuándo terminan? (And when do they end?)\\nTerminan el quince de agosto. (They end on August 15th.)"
+      ]
+    }
+  ],
+  "pronunciation": [
+    {
+      "title": "Time & Calendar Pronunciation Guide",
+      "content": "Key time vocabulary with pronunciation:\\n\\ndía = DEE-ah (day)\\nnoche = NO-cheh (night)\\nmañana = mah-nyah-NAH (morning)\\ntarde = TAHR-deh (afternoon / late)\\nhora = OH-rah (hour / time)\\nminuto = mee-NOO-toh (minute)\\nsemana = seh-MAH-nah (week)\\nmes = mesh (month) — 's' before consonant = 'sh' in Spain\\naño = AN-yoh (year)\\n\\nDays of the week:\\nlunes = LOO-nehs (Monday)\\nmartes = MAHR-tehs (Tuesday)\\nmiércoles = mee-er-KOLES (Wednesday)\\njueves = HWEH-ves (Thursday)\\nviernes = bee-ER-nehs (Friday)\\nsábado = sah-BAH-doh (Saturday)\\ndomingo = do-MEEN-goh (Sunday)\\n\\nNumbers for telling time:\\ncuatro = KWAH-troh (four)\\ncinco = SEEN-koh (five)\\ndiez = dyehs (ten)\\nquince = KEEN-keh (fifteen)\\nveinte = bee-EN-teh (twenty)\\nveinticinco = bee-een-TEEN-soh (twenty-five)\\n\\nSpecial time words:\\nreloj = reh-LOH-h (clock)\\ncalendario = kah-len-DAH-ree-oh (calendar)\\ndespertador = des-per-tah-DOR (alarm clock)\\npronto = PRON-toh (soon / early)\\n\\nNOTE: The 'ñ' in 'mañana' and 'año' makes an 'ny' sound (like canyon).\\nNOTE: 'j' and 'g' (before e/i) sound like a harsh 'h' (jueves = HWEH-ves).\\nNOTE: In Spain, 'mes' is pronounced with 'th' (meth). In LatAm, it's 'mesh'.",
+      "examples": [
+        "día = DEE-ah\\nmiércoles = mee-er-KOLES\\nreloj = reh-LOH-h\\ncalendario = kah-len-DAH-ree-oh\\nveinticinco = bee-een-TEEN-soh\\nsemana = seh-MAH-nah\\naño = AN-yoh",
+        "¿Qué hora es? = keh OH-rah es\\nSon las tres y media = son lahs tres mee-AH-dah\\nEs la una en punto = es lah OO-nah en PON-toh\\nHoy es lunes = oy es LOO-nehs\\nMañana es martes = mah-nyah-NAH es MAHR-tehs"
+      ]
+    },
+    {
+      "title": "Spanish R and L Sounds in Time Vocabulary",
+      "content": "Spanish has distinct R and L sounds that appear in time vocabulary:\\n\\nSingle R (tap):\\nRepeats quickly after vowels: pero\\nStarts a word: reloj (reh-LOH-h)\\nAfter N or L: blanco, alambre\\n\\nTime words with R:\\nreloj = reh-LOH-h (tap R)\\ncuatro = KWAH-troh (vowel + R)\\nhora = OH-rah (vowel + R)\\ncinco = SEEN-koh (not R, but L sound)\\nprimavera = pree-mah-VEH-rah (vowel + R)\\n\\nL sounds (clear L, like English):\\nLunes = LOO-nehs (clear L)\\nmiércoles = mee-er-KOLES (L at end)\\nmañana = mah-nyah-NAH (no L, but N+Y)\\n\\nRollo R (trill):\\nRolls the tongue: perro, carretera\\nTime words: rarely used, but appears in 'horror' (horror)\\n\\nVowel clarity in time phrases:\\nSon las [number] = all vowels are short and clear\\nNo add extra vowels between consonants\\n'menos' = meh-NOHS (not 'me-no-ses')\\n'cuarto' = KWAH-rto (not 'kwar-toe')\\n\\nEjemplos:\\nSon las tres y media. = all vowels pure\\nSon las ocho menos cinco. = R is tapped\\nEs la una en punto. = all vowels clear\\n¿Qué hora es? = short, clear vowels",
+      "examples": [
+        "reloj (tap R) = reh-LOH-h\\nlunes (clear L) = LOO-nehs\\nhora (tap R) = OH-rah\\ncuatro (vowel R) = KWAH-troh\\ncinco (clear L) = SEEN-koh\\nprimavera (vowel R) = pree-mah-VEH-rah\\ncalendario (tap R) = kah-len-DAH-ree-oh",
+        "mañana = mah-nyah-NAH (ñ = ny)\\nmiércoles = mee-er-KOLES (R = tap)\\nviernes = bee-ER-nehs (R = tap)\\nveinticinco = bee-een-TEEN-soh (no R)\\nveinte = bee-EN-teh (no R)"
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "multiple-choice",
+      "question": "What is 'Wednesday' in Spanish?",
+      "options": ["martes", "jueves", "miércoles", "viernes"],
+      "correct": 2,
+      "explanation": "Miércoles = Wednesday. Martes = Tuesday. Jueves = Thursday. Viernes = Friday."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "How do you say 'It's 3:30' in Spanish?",
+      "options": ["Son las tres menos treinta", "Son las tres y media", "Son las tres y treinta", "Es la tres y media"],
+      "correct": 1,
+      "explanation": "Son las tres y media = It's half past three (3:30). 'Media' means half."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What does 'ayer' mean?",
+      "options": ["today", "tomorrow", "yesterday", "now"],
+      "correct": 2,
+      "explanation": "Ayer = yesterday. Hoy = today. Mañana = tomorrow. Ahora = now."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Which month is 'July' in Spanish?",
+      "options": ["junio", "julio", "agosto", "septiembre"],
+      "correct": 1,
+      "explanation": "Julio = July. Junio = June. Agosto = August. Septiembre = September."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: Son las cinco y _____. (It's 5:15.)",
+      "correct": "cuarto",
+      "explanation": "Son las cinco y cuarto = It's quarter past five (5:15)."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What is 'Monday' in Spanish?",
+      "options": ["domingo", "lunes", "martes", "sábado"],
+      "correct": 1,
+      "explanation": "Lunes = Monday. Domingo = Sunday. Martes = Tuesday. Sábado = Saturday."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "How do you say 'It's 4:45' in Spanish?",
+      "options": ["Son las cuatro y cuarenta y cinco", "Son las cinco menos cuarto", "Son las cuatro menos cuatro", "Son las cinco menos cinco"],
+      "correct": 1,
+      "explanation": "Son las cinco menos cuarto = It's a quarter to five (4:45)."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What does 'por la mañana' mean?",
+      "options": ["at night", "in the morning", "in the afternoon", "at noon"],
+      "correct": 1,
+      "explanation": "Por la mañana = in the morning. Por la tarde = in the afternoon. Por la noche = at night."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: Hoy es el quince de _____. (Today is January 15th.)",
+      "correct": "enero",
+      "explanation": "Hoy es el quince de enero = Today is January 15th. Enero = January."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What is 'summer' in Spanish?",
+      "options": ["primavera", "otoño", "invierno", "verano"],
+      "correct": 3,
+      "explanation": "Verano = summer. Primavera = spring. Otoño = autumn. Invierno = winter."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Which sentence means 'I never go late'?",
+      "options": ["Siempre voy tarde", "Nunca voy tarde", "A veces voy tarde", "Voy tarde nunca"],
+      "correct": 1,
+      "explanation": "Nunca voy tarde = I never go late. 'Nunca' goes before the verb."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: Son las ocho _____. (It's eight o'clock sharp.)",
+      "correct": "en punto",
+      "explanation": "Son las ocho en punto = It's eight o'clock sharp."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What is 'Saturday' in Spanish?",
+      "options": ["domingo", "viernes", "sábado", "lunes"],
+      "correct": 2,
+      "explanation": "Sábado = Saturday. Domingo = Sunday. Viernes = Friday. Lunes = Monday."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "How do you say 'I wake up at 7 AM'?",
+      "options": ["Me acuesto a las siete de la mañana", "Me despierto a las siete de la mañana", "Me ducho a las siete de la mañana", "Me levanto a las siete de la noche"],
+      "correct": 1,
+      "explanation": "Me despierto a las siete de la mañana = I wake up at 7 AM."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: Hace dos _____. (Two days ago.)",
+      "correct": "días",
+      "explanation": "Hace dos días = Two days ago. 'Hace + time' expresses 'ago'."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What is the Spanish word for 'calendar'?",
+      "options": ["reloj", "calendario", "cronómetro", "despertador"],
+      "correct": 1,
+      "explanation": "Calendario = calendar. Reloj = clock. Cronómetro = stopwatch. Despertador = alarm clock."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Which preposition goes before a specific time like 'at 3 o'clock'?",
+      "options": ["en", "a", "de", "por"],
+      "correct": 1,
+      "explanation": "'A' is used for specific times: A las tres = at 3 o'clock. 'En' is for general periods."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: Son las dos menos _____. (It's 1:40 — 20 to 2.)",
+      "correct": "veinte",
+      "explanation": "Son las dos menos veinte = It's 20 to 2 (1:40). Veinte = twenty."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What does 'a menudo' mean?",
+      "options": ["never", "sometimes", "often", "always"],
+      "correct": 2,
+      "explanation": "A menudo = often. Nunca = never. A veces = sometimes. Siempre = always."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What is 'February' in Spanish?",
+      "options": ["febrero", "enero", "marzo", "abril"],
+      "correct": 0,
+      "explanation": "Febrero = February. Enero = January. Marzo = March. Abril = April."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: Mi cumpleaños es el primero de _____. (My birthday is January 1st.)",
+      "correct": "enero",
+      "explanation": "El primero de enero = January 1st. Note: 'primero' not 'uno' for the 1st."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "How do you say 'It's 6:55' in Spanish?",
+      "options": ["Son las seis y cincuenta y cinco", "Son las siete menos cinco", "Son las seis menos cincuenta", "Son las cinco menos siete"],
+      "correct": 1,
+      "explanation": "Son las siete menos cinco = It's five to seven (6:55)."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Which word means 'punctual' in Spanish?",
+      "options": ["pronto", "tarde", "puntuál", "temprano"],
+      "correct": 2,
+      "explanation": "Puntuál = punctual. Pronto = soon/early. Tarde = late. Temprano = early."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: La clase empieza a las nueve _____. (The class starts at nine sharp.)",
+      "correct": "en punto",
+      "explanation": "Empieza a las nueve en punto = The class starts at nine o'clock sharp."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What is 'autumn/fall' in Spanish?",
+      "options": ["verano", "primavera", "invierno", "otoño"],
+      "correct": 3,
+      "explanation": "Otoño = autumn/fall. Verano = summer. Primavera = spring. Invierno = winter."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "How do you say 'I'll call you in one hour'?",
+      "options": ["Te llamo hace una hora", "Te llamo dentro de una hora", "Te llamo desde una hora", "Te llamo hasta una hora"],
+      "correct": 1,
+      "explanation": "Dentro de una hora = in one hour (future). Hace = ago (past). Desde = since. Hasta = until."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: Hoy es el veinticinco de _____. (Today is December 25th.)",
+      "correct": "diciembre",
+      "explanation": "Hoy es el veinticinco de diciembre = Today is December 25th. Diciembre = December."
+    }
+  ]
+}

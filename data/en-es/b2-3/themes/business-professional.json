@@ -1,0 +1,155 @@
+{
+  "id": "business-professional",
+  "title": "Business & Professional Correspondence",
+  "description": "Formal business communication, professional vocabulary, and correspondence.",
+  "vocabulary": [
+    { "id": 1, "target": "el correo electrónico", "source": "email", "gender": "m.", "type": "noun" },
+    { "id": 2, "target": "la reunión", "source": "meeting", "gender": "f.", "type": "noun" },
+    { "id": 3, "target": "la agenda", "source": "agenda", "gender": "f.", "type": "noun" },
+    { "id": 4, "target": "el informe", "source": "report", "gender": "m.", "type": "noun" },
+    { "id": 5, "target": "el presupuesto", "source": "budget", "gender": "m.", "type": "noun" },
+    { "id": 6, "target": "la estrategia", "source": "strategy", "gender": "f.", "type": "noun" },
+    { "id": 7, "target": "la planificación", "source": "planning", "gender": "f.", "type": "noun" },
+    { "id": 8, "target": "el objetivo", "source": "objective", "gender": "m.", "type": "noun" },
+    { "id": 9, "target": "la meta", "source": "goal", "gender": "f.", "type": "noun" },
+    { "id": 10, "target": "el plazo", "source": "deadline", "gender": "m.", "type": "noun" },
+    { "id": 11, "target": "el entregable", "source": "deliverable", "gender": "m.", "type": "noun" },
+    { "id": 12, "target": "el cliente", "source": "client", "gender": "m.", "type": "noun" },
+    { "id": 13, "target": "el proveedor", "source": "supplier", "gender": "m.", "type": "noun" },
+    { "id": 14, "target": "el socio", "source": "partner", "gender": "m.", "type": "noun" },
+    { "id": 15, "target": "el accionista", "source": "shareholder", "gender": "m.", "type": "noun" },
+    { "id": 16, "target": "el director", "source": "director", "gender": "m.", "type": "noun" },
+    { "id": 17, "target": "el gerente", "source": "manager", "gender": "m.", "type": "noun" },
+    { "id": 18, "target": "el empleado", "source": "employee", "gender": "m.", "type": "noun" },
+    { "id": 19, "target": "la empresa", "source": "company / business", "gender": "f.", "type": "noun" },
+    { "id": 20, "target": "la corporación", "source": "corporation", "gender": "f.", "type": "noun" },
+    { "id": 21, "target": "la startup", "source": "startup", "gender": "f.", "type": "noun" },
+    { "id": 22, "target": "la facturación", "source": "invoicing / billing", "gender": "f.", "type": "noun" },
+    { "id": 23, "target": "los ingresos", "source": "revenue / income", "gender": "m.pl.", "type": "noun" },
+    { "id": 24, "target": "los gastos", "source": "expenses", "gender": "m.pl.", "type": "noun" },
+    { "id": 25, "target": "los beneficios", "source": "profits", "gender": "m.pl.", "type": "noun" },
+    { "id": 26, "target": "la inversión", "source": "investment", "gender": "f.", "type": "noun" },
+    { "id": 27, "target": "la pérdida", "source": "loss", "gender": "f.", "type": "noun" },
+    { "id": 28, "target": "la cuota de mercado", "source": "market share", "gender": "f.", "type": "noun" },
+    { "id": 29, "target": "la competencia", "source": "competition", "gender": "f.", "type": "noun" },
+    { "id": 30, "target": "el mercado", "source": "market", "gender": "m.", "type": "noun" },
+    { "id": 31, "target": "formal / formalmente", "source": "formal", "gender": "m./f. / adv.", "type": "adjective" },
+    { "id": 32, "target": "profesional", "source": "professional", "gender": "m./f.", "type": "adjective" },
+    { "id": 33, "target": "eficiente", "source": "efficient", "gender": "m./f.", "type": "adjective" },
+    { "id": 34, "target": "productivo/a", "source": "productive", "gender": "m./f.", "type": "adjective" },
+    { "id": 35, "target": "creíble", "source": "credible", "gender": "m./f.", "type": "adjective" },
+    { "id": 36, "target": "el saludo formal", "source": "formal greeting", "gender": "m.", "type": "noun" },
+    { "id": 37, "target": "el cierre formal", "source": "formal closing", "gender": "m.", "type": "noun" },
+    { "id": 38, "target": "estimado/a", "source": "dear (formal)", "gender": "m./f.", "type": "adjective" },
+    { "id": 39, "target": "atentamente", "source": "sincerely (formal closing)", "gender": "—", "type": "adverb" },
+    { "id": 40, "target": "quedo a su disposición", "source": "I remain at your disposal", "gender": "—", "type": "phrase" }
+  ],
+  "grammar": [
+    {
+      "title": "Formal Correspondence Structures",
+      "content": "Business correspondence in Spanish follows strict formal conventions.\n\nOpening formulas:\n- Estimado/a Sr./Sra. [Apellido]: (Dear Mr./Ms. [Last Name]:)\n- De mi mayor consideración: (To whom it may concern — very formal)\n- A la atención de [departamento]: (To the attention of [department]:)\n- Por medio de la presente... (By means of this letter...)\n- Me dirijo a usted para... (I am writing to you to...)\n\nBody structures:\n- Le escribo para informarle de... (I am writing to inform you of...)\n- Le comunico que... (I inform you that...)\n- Le ruego que... (I request that you...)\n- Le agradecemos su... (We thank you for your...)\n- Quedamos a la espera de su respuesta. (We await your response.)\n\nClosing formulas:\n- Sin otro particular, le saluda atentamente. (Without anything further, I greet you sincerely.)\n- Agradeciendo de antemano su respuesta,... (Thanking you in advance for your response,...)\n- Quedo a su entera disposición para cualquier consulta. (I remain at your full disposal for any questions.)\n- Atentamente, (Sincerely,)\n\nExamples:\n- Estimado Sr. García: Le escribo para informarle del nuevo presupuesto trimestral.\n- Quedamos a la espera de su respuesta. Sin otro particular, le saluda atentamente.",
+      "examples": [
+        "Estimada Sra. López: Me dirijo a usted para solicitar información sobre su política de devolución.",
+        "Le comunicamos que el proyecto se ha completado dentro del plazo establecido.",
+        "Agradecemos su atención y quedamos a su disposición para cualquier consulta."
+      ],
+      "aid_note": "Romanian formal correspondence uses similar structures: 'Stimată Doamnă/Domnule...', 'Vă scriu pentru a vă informa...', 'Cu deosebită considerație...'"
+    },
+    {
+      "title": "Business Subjunctive — Requests & Negotiations",
+      "content": "Business communication in Spanish uses the subjunctive for requests, suggestions, and negotiations.\n\nKey patterns:\n- Le rog que + subjunctive (I request that you...)\n- Solicitamos que + subjunctive (We request that...)\n- Esperamos que + subjunctive (We hope that...)\n- Sería necesario que + subjunctive (It would be necessary that...)\n- Agradeceríamos que + subjunctive (We would appreciate that...)\n- Es importante que + subjunctive (It's important that...)\n\nExamples:\n- Le rog que nos envíe el informe antes del viernes.\n- Solicitamos que se nos notifique el resultado por escrito.\n- Esperamos que la reunión se lleve a cabo la próxima semana.\n- Sería necesario que revisaran el presupuesto antes de aprobarlo.\n- Agradeceríamos que nos enviaran los documentos actualizados.",
+      "examples": [
+        "Le rog que confirme la fecha de la reunión lo antes posible.",
+        "Solicitamos que se nos envíe la facturación antes del 15 de cada mes.",
+        "Esperamos que el proyecto se complete dentro del plazo establecido.",
+        "Agradeceríamos que nos enviaran una copia del contrato firmado."
+      ],
+      "aid_note": "Romanian business subjunctive: 'Vă rog să...', 'Solicităm să...', 'Așteptăm să...', 'Ar fi necesar să...' — structurally parallel to Spanish."
+    }
+  ],
+  "pronunciation": [
+    {
+      "title": "Business Vocabulary — Formal Register",
+      "content": "Business terms in Spanish are typically pronounced with clear, measured delivery in formal contexts.\n\nKey patterns:\n- 'presupuesto' (pre-su-PUES-to) — stress on penultimate syllable\n- 'estrategia' (es-tra-TE-gi-ah) — esdrújula, stress on -TE-\n- 'eficiente' (e-fi-CIEN-te) — stress on -CIEN-\n- 'independiente' (in-de-pen-DIEN-te) — stress on -DIEN-\n\nPractice:\n- 'El presupuesto trimestral debe revisarse antes de la reunión.'\n- 'La estrategia de mercado necesita ser más eficiente.'\n- 'El equipo independiente entregará los resultados para el viernes.'\n\nTip: Business Spanish is typically spoken more slowly and deliberately than conversational Spanish. Enunciate the final consonants clearly, especially in formal contexts.",
+      "examples": [
+        { "target": "estrategia", "source": "es-tra-TE-gi-ah (esdrújula)" },
+        { "target": "presupuesto", "source": "pre-su-PUES-to (grave)" },
+        { "target": "eficiente", "source": "e-fi-CIEN-te (aguda con -nte)" }
+      ],
+      "aid_note": "Romanian business terms: 'buget' (BU-get), 'strategie' (stra-TE-gie), 'eficient' (e-fi-CI-ent). Spanish has more varied stress patterns in business vocabulary."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "matching",
+      "question": "Match the business terms:",
+      "pairs": [
+        { "target": "el presupuesto", "source": "budget" },
+        { "target": "la cuota de mercado", "source": "market share" },
+        { "target": "el entregable", "source": "deliverable" },
+        { "target": "la facturación", "source": "invoicing" }
+      ],
+      "explanation": "These terms are essential for business communication."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete the formal greeting: '_____ Sr. García: Le escribo para informarle...'",
+      "correct": "Estimado",
+      "explanation": "'Estimado Sr. García' is the standard formal greeting in Spanish business correspondence."
+    },
+    {
+      "type": "exercise",
+      "question": "What is the formal closing for a business email?",
+      "options": [
+        "Un saludo",
+        "Atentamente",
+        "Chao",
+        "Nos vemos"
+      ],
+      "correct": 1,
+      "explanation": "'Atentamente' = sincerely is the standard formal closing for business correspondence."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete with subjunctive: 'Le rog que nos _____ (enviar) el informe antes del viernes.'",
+      "correct": "envíe",
+      "explanation": "'Le rog que' triggers the subjunctive. 'Enviar' in usted-form subjunctive = 'envíe'."
+    },
+    {
+      "type": "exercise",
+      "question": "What does 'la cuota de mercado' mean?",
+      "options": [
+        "Market share",
+        "Market price",
+        "Market regulation",
+        "Market research"
+      ],
+      "correct": 0,
+      "explanation": "'La cuota de mercado' = market share — the portion of a market controlled by a particular company."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: 'Agradeceríamos que nos _____ (enviar) los documentos actualizados.'",
+      "correct": "enviaran",
+      "explanation": "'Agradeceríamos que' triggers the imperfect subjunctive. 'Enviar' in ellos-form = 'enviaran'."
+    },
+    {
+      "type": "exercise",
+      "question": "What is 'un entregable'?",
+      "options": [
+        "A delivery service",
+        "A deliverable (product or result)",
+        "A shipping invoice",
+        "A delivery driver"
+      ],
+      "correct": 1,
+      "explanation": "'Un entregable' = a deliverable — a product or result that is to be delivered as part of a project."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete with subjunctive: 'Es importante que el equipo _____ (revisar) el presupuesto.'",
+      "correct": "revise",
+      "explanation": "'Es importante que' triggers the subjunctive. 'Revisar' in yo/usted-form subjunctive = 'revise'."
+    }
+  ]
+}

@@ -1,0 +1,283 @@
+{
+  "id": "past-experiences-stories",
+  "level": "a2-1",
+  "title": "Past Experiences & Stories",
+  "description": "Tell stories and describe past experiences using the preterite and imperfect tenses, with narrative connectors and time markers.",
+  "vocabulary": [
+    {"id": 1, "target": "ayer", "source": "yesterday", "gender": "adv", "type": "time"},
+    {"id": 2, "target": "anoche", "source": "last night", "gender": "adv", "type": "time"},
+    {"id": 3, "target": "la semana pasada", "source": "last week", "gender": "f", "type": "time"},
+    {"id": 4, "target": "el mes pasado", "source": "last month", "gender": "m", "type": "time"},
+    {"id": 5, "target": "el año pasado", "source": "last year", "gender": "m", "type": "time"},
+    {"id": 6, "target": "hace dos días", "source": "two days ago", "gender": "m", "type": "time"},
+    {"id": 7, "target": "hace un año", "source": "a year ago", "gender": "m", "type": "time"},
+    {"id": 8, "target": "hace mucho tiempo", "source": "a long time ago", "gender": "m", "type": "time"},
+    {"id": 9, "target": "antes", "source": "before / earlier", "gender": "adv", "type": "time"},
+    {"id": 10, "target": "después", "source": "after / later", "gender": "adv", "type": "time"},
+    {"id": 11, "target": "primero", "source": "first", "gender": "adv", "type": "connector"},
+    {"id": 12, "target": "luego", "source": "then / later", "gender": "adv", "type": "connector"},
+    {"id": 13, "target": "entonces", "source": "then / at that time", "gender": "adv", "type": "connector"},
+    {"id": 14, "target": "de repente", "source": "suddenly", "gender": "adv", "type": "connector"},
+    {"id": 15, "target": "finalmente", "source": "finally", "gender": "adv", "type": "connector"},
+    {"id": 16, "target": "por fin", "source": "finally / at last", "gender": "m", "type": "phrase"},
+    {"id": 17, "target": "cuando", "source": "when", "gender": "—", "type": "connector"},
+    {"id": 18, "target": "mientras", "source": "while", "gender": "—", "type": "connector"},
+    {"id": 19, "target": "porque", "source": "because", "gender": "—", "type": "connector"},
+    {"id": 20, "target": "pero", "source": "but", "gender": "—", "type": "connector"},
+    {"id": 21, "target": "sin embargo", "source": "however", "gender": "m", "type": "phrase"},
+    {"id": 22, "target": "además", "source": "besides / furthermore", "gender": "adv", "type": "connector"},
+    {"id": 23, "target": "por eso", "source": "that's why", "gender": "m", "type": "phrase"},
+    {"id": 24, "target": "entonces", "source": "so / then", "gender": "adv", "type": "connector"},
+    {"id": 25, "target": "contar una historia", "source": "to tell a story", "gender": "f", "type": "phrase"},
+    {"id": 26, "target": "una experiencia", "source": "an experience", "gender": "f", "type": "noun"},
+    {"id": 27, "target": "un recuerdo", "source": "a memory", "gender": "m", "type": "noun"},
+    {"id": 28, "target": "un evento", "source": "an event", "gender": "m", "type": "noun"},
+    {"id": 29, "target": "un accidente", "source": "an accident", "gender": "m", "type": "noun"},
+    {"id": 30, "target": "un susto", "source": "a scare", "gender": "m", "type": "noun"},
+    {"id": 31, "target": "la aventura", "source": "the adventure", "gender": "f", "type": "noun"},
+    {"id": 32, "target": "la anécdota", "source": "the anecdote", "gender": "f", "type": "noun"},
+    {"id": 33, "target": "el viaje", "source": "the trip", "gender": "m", "type": "noun"},
+    {"id": 34, "target": "la vacación", "source": "the vacation", "gender": "f", "type": "noun"},
+    {"id": 35, "target": "el cumpleaños", "source": "the birthday", "gender": "m", "type": "noun"},
+    {"id": 36, "target": "la fiesta", "source": "the party", "gender": "f", "type": "noun"},
+    {"id": 37, "target": "el encuentro", "source": "the meeting / encounter", "gender": "m", "type": "noun"},
+    {"id": 38, "target": "el problema", "source": "the problem", "gender": "m", "type": "noun"},
+    {"id": 39, "target": "la solución", "source": "the solution", "gender": "f", "type": "noun"},
+    {"id": 40, "target": "la decisión", "source": "the decision", "gender": "f", "type": "noun"},
+    {"id": 41, "target": "el comienzo", "source": "the beginning", "gender": "m", "type": "noun"},
+    {"id": 42, "target": "el final", "source": "the end", "gender": "m", "type": "noun"},
+    {"id": 43, "target": "la historia", "source": "the story / history", "gender": "f", "type": "noun"},
+    {"id": 44, "target": "la noticia", "source": "the news", "gender": "f", "type": "noun"},
+    {"id": 45, "target": "el acontecimiento", "source": "the event", "gender": "m", "type": "noun"},
+    {"id": 46, "target": "hablar", "source": "to speak / to talk", "gender": "v", "type": "verb"},
+    {"id": 47, "target": "decir", "source": "to say / to tell", "gender": "v", "type": "verb"},
+    {"id": 48, "target": "ver", "source": "to see", "gender": "v", "type": "verb"},
+    {"id": 49, "target": "ir", "source": "to go", "gender": "v", "type": "verb"},
+    {"id": 50, "target": "pasar", "source": "to happen / to spend (time)", "gender": "v", "type": "verb"},
+    {"id": 51, "target": "suceder", "source": "to happen", "gender": "v", "type": "verb"},
+    {"id": 52, "target": "ocurrir", "source": "to occur / to happen", "gender": "v", "type": "verb"},
+    {"id": 53, "target": "encontrar", "source": "to find / to meet", "gender": "v", "type": "verb"},
+    {"id": 54, "target": "llegar", "source": "to arrive", "gender": "v", "type": "verb"},
+    {"id": 55, "target": "salir", "source": "to leave / to go out", "gender": "v", "type": "verb"},
+    {"id": 56, "target": "empezar", "source": "to start / to begin", "gender": "v", "type": "verb"},
+    {"id": 57, "target": "terminar", "source": "to finish / to end", "gender": "v", "type": "verb"},
+    {"id": 58, "target": "poder", "source": "to be able to", "gender": "v", "type": "verb"},
+    {"id": 59, "target": "querer", "source": "to want", "gender": "v", "type": "verb"},
+    {"id": 60, "target": "necesitar", "source": "to need", "gender": "v", "type": "verb"},
+    {"id": 61, "target": "recordar", "source": "to remember", "gender": "v", "type": "verb"},
+    {"id": 62, "target": "olvidar", "source": "to forget", "gender": "v", "type": "verb"},
+    {"id": 63, "target": "sentir", "source": "to feel / to be sorry", "gender": "v", "type": "verb"},
+    {"id": 64, "target": "creer", "source": "to believe", "gender": "v", "type": "verb"},
+    {"id": 65, "target": "pensar", "source": "to think", "gender": "v", "type": "verb"},
+    {"id": 66, "target": "saber", "source": "to know (facts)", "gender": "v", "type": "verb"},
+    {"id": 67, "target": "conocer", "source": "to know (people/places)", "gender": "v", "type": "verb"},
+    {"id": 68, "target": "tener", "source": "to have", "gender": "v", "type": "verb"},
+    {"id": 69, "target": "hacer", "source": "to do / to make", "gender": "v", "type": "verb"},
+    {"id": 70, "target": "estar", "source": "to be (location/state)", "gender": "v", "type": "verb"},
+    {"id": 71, "target": "ser", "source": "to be (identity/characteristics)", "gender": "v", "type": "verb"},
+    {"id": 72, "target": "estar bien", "source": "to be okay / well", "gender": "—", "type": "phrase"},
+    {"id": 73, "target": "estar mal", "source": "to be bad / unwell", "gender": "—", "type": "phrase"},
+    {"id": 74, "target": "estar cerca", "source": "to be near", "gender": "—", "type": "phrase"},
+    {"id": 75, "target": "estar lejos", "source": "to be far away", "gender": "—", "type": "phrase"},
+    {"id": 76, "target": "estar aburrido", "source": "to be bored", "gender": "adj", "type": "adj"},
+    {"id": 77, "target": "estar cansado", "source": "to be tired", "gender": "adj", "type": "adj"},
+    {"id": 78, "target": "estar feliz", "source": "to be happy", "gender": "adj", "type": "adj"},
+    {"id": 79, "target": "estar triste", "source": "to be sad", "gender": "adj", "type": "adj"},
+    {"id": 80, "target": "estar sorprendido", "source": "to be surprised", "gender": "adj", "type": "adj"},
+    {"id": 81, "target": "tener miedo", "source": "to be afraid", "gender": "—", "type": "phrase"},
+    {"id": 82, "target": "tener suerte", "source": "to be lucky", "gender": "—", "type": "phrase"},
+    {"id": 83, "target": "tener razón", "source": "to be right", "gender": "—", "type": "phrase"},
+    {"id": 84, "target": "ser divertido", "source": "to be fun", "gender": "adj", "type": "adj"},
+    {"id": 85, "target": "ser interesante", "source": "to be interesting", "gender": "adj", "type": "adj"},
+    {"id": 86, "target": "ser importante", "source": "to be important", "gender": "adj", "type": "adj"},
+    {"id": 87, "target": "ser bonito", "source": "to be beautiful", "gender": "adj", "type": "adj"},
+    {"id": 88, "target": "ser grande", "source": "to be big", "gender": "adj", "type": "adj"},
+    {"id": 89, "target": "ser pequeño", "source": "to be small", "gender": "adj", "type": "adj"},
+    {"id": 90, "target": "ser bueno", "source": "to be good", "gender": "adj", "type": "adj"},
+    {"id": 91, "target": "ser malo", "source": "to be bad", "gender": "adj", "type": "adj"},
+    {"id": 92, "target": "ser alto", "source": "to be tall", "gender": "adj", "type": "adj"},
+    {"id": 93, "target": "ser rubio", "source": "to be blond (m.)", "gender": "adj", "type": "adj"},
+    {"id": 94, "target": "ser moreno", "source": "to be dark-haired / brunette (m.)", "gender": "adj", "type": "adj"},
+    {"id": 95, "target": "ser tímido", "source": "to be shy", "gender": "adj", "type": "adj"},
+    {"id": 96, "target": "ser simpático", "source": "to be nice / friendly", "gender": "adj", "type": "adj"},
+    {"id": 97, "target": "ser inteligente", "source": "to be intelligent", "gender": "adj", "type": "adj"},
+    {"id": 98, "target": "ser joven", "source": "to be young", "gender": "adj", "type": "adj"},
+    {"id": 99, "target": "ser viejo", "source": "to be old", "gender": "adj", "type": "adj"},
+    {"id": 100, "target": "ser alto", "source": "to be tall", "gender": "adj", "type": "adj"}
+  ],
+  "grammar": [
+    {
+      "title": "Preterite (Pretérito Indefinido) — Completed Actions",
+      "content": "The preterite is used for actions that are seen as completed in the past. It narrates specific events that happened at a definite time.\n\nRegular preterite conjugations:\n\n-AR verbs (hablar):\nYo hablé, tú hablaste, él/ella habló, nosotros hablamos, vosotros hablasteis, ellos hablaron\n\n-ER verbs (comer):\nYo comí, tú comiste, él/ella comió, nosotros comimos, vosotros comisteis, ellos comieron\n\n-IR verbs (vivir):\nYo viví, tú viviste, él/ella vivió, nosotros vivimos, vosotros vivisteis, ellos vivieron\n\nImportant note: -ER and -IR verbs share the same preterite endings. The difference between -ER and -IR appears only in the imperfect.\n\nTime markers that signal the preterite: ayer, la semana pasada, el año pasado, hace dos días, en 2020, el lunes.",
+      "examples": [
+        "Ayer hablé con mi amigo. (Yesterday I spoke with my friend.)",
+        "El año pasado viajé a España. (Last year I traveled to Spain.)",
+        "La semana pasada comimos en un restaurante. (Last week we ate at a restaurant.)"
+      ],
+      "aid_note": "In Romanian, past actions are expressed with the perfect tense (am vorbit, am mâncat) or the simple past (vorbi, mâncăi — literary). Spanish uses the preterite (hablé, comí) for completed actions, which is a different concept. Spanish learners should focus on the time markers: if you say 'yesterday' or 'last week,' use the preterite."
+    },
+    {
+      "title": "Imperfect (Pretérito Imperfecto) — Background & Description",
+      "content": "The imperfect describes ongoing situations, habitual past actions, and background descriptions. It sets the scene for a story.\n\nRegular imperfect conjugations:\n\n-AR verbs (hablar): hablaba, hablabas, hablaba, hablábamos, hablabais, hablaban\n\n-ER verbs (comer): comía, comías, comía, comíamos, comíais, comían\n\n-IR verbs (vivir): vivía, vivías, vivía, vivíamos, vivíais, vivían\n\nThe three irregular imperfect verbs:\n- ser: era, eras, era, éramos, erais, eran\n- ir: iba, ibas, iba, íbamos, ibais, iban\n- ver: veía, veías, veía, veíamos, veíais, veían\n\nUse the imperfect for:\n- Habits: Antes jugaba en el parque. (I used to play in the park.)\n- Descriptions: Era un día bonito. (It was a nice day.)\n- Ongoing actions: Mientras yo estudiaba, mi hermano dormía. (While I studied, my brother slept.)\n- Age, time, weather: Tenía diez años. Eran las tres. Hacía frío.",
+      "examples": [
+        "De niño, vivía en Madrid. (As a child, I lived in Madrid.)",
+        "Era muy temprano y hacía sol. (It was very early and the sun was shining.)",
+        "Siempre íbamos a la playa los sábados. (We always went to the beach on Saturdays.)",
+        "Mientras yo cocinaba, ella ponía la mesa. (While I was cooking, she set the table.)"
+      ],
+      "aid_note": "In Romanian, habitual past is often expressed with 'obicei' (I used to) or the imperfect (mergeam = I used to go). The Spanish imperfect has a similar function — both describe repeated or ongoing past actions. However, Spanish uses the imperfect much more broadly for descriptions and setting scenes, which Romanian expresses differently."
+    },
+    {
+      "title": "Preterite vs. Imperfect — The Key Decision",
+      "content": "Choosing between preterite and imperfect is one of the most important skills at A2 level.\n\nUse the PRETERITE for:\n- One-time completed actions: Ayer fui al cine. (I went to the cinema yesterday.)\n- A series of completed actions: Me levanté, desayuné y salí. (I got up, had breakfast, and left.)\n- Actions with a clear beginning and end: La película duró dos horas. (The movie lasted two hours.)\n\nUse the IMPERFECT for:\n- Ongoing background: El sol brillaba. (The sun was shining.)\n- Habitual actions: Siempre caminaba al trabajo. (I always walked to work.)\n- Descriptions: Era de noche y hacía frío. (It was night and cold.)\n- Age, time, weather: Tenía cinco años. Eran las ocho. Hacía calor.\n\nKey signal words:\n- Preterite: ayer, anoche, la semana pasada, el año pasado, de repente, entonces\n- Imperfect: siempre, normalmente, todos los días, cada semana, mientras\n\nBoth tenses together tell stories:\nCuando era niño, jugaba en el parque. Un día de repente encontré una moneda. (When I was a child, I used to play in the park. One day I suddenly found a coin.)",
+      "examples": [
+        "Antes vivía en una casa pequeña. Un año pasado compré un apartamento. (I used to live in a small house. Last year I bought an apartment.)",
+        "Cuando era joven, viajaba mucho. Fui a treinta países. (When I was young, I traveled a lot. I went to thirty countries.)",
+        "Mientras cocinaba, sonó el teléfono. (While I was cooking, the phone rang.)"
+      ],
+      "aid_note": "Romanian distinguishes past aspects differently — using the perfect tense for recent/narrative past and the imperfect for ongoing/repeated past. The Spanish preterite/imperfect distinction is more grammaticalized. Focus on the English equivalent: if the English translation uses simple past ('I went'), it's often the Spanish preterite; if it uses 'used to' or 'was/were + -ing', it's the Spanish imperfect."
+    },
+    {
+      "title": "Narrative Connectors — Structuring a Story",
+      "content": "Connectors help you organize a story logically. Spanish uses several connectors that signal the progression of events.\n\nTime connectors:\n- Primero... luego... finalmente... (First... then... finally...)\n- Antes de eso... Después de eso... (Before that... After that...)\n- Mientras... (While...)\n- Cuando... (When...)\n\nStory structure connectors:\n- Al principio... (At first...)\n- De repente... (Suddenly...)\n- Entonces... (Then / So...)\n- Por eso... (That's why...)\n- Sin embargo... (However...)\n- Al final... (In the end...)\n\nOpening a story:\n- ¿Sabes lo que pasó? (Do you know what happened?)\n- Te cuento una historia... (Let me tell you a story...)\n- La semana pasada me pasó algo interesante. (Something interesting happened to me last week.)\n\nContinuing a story:\n- Y entonces... (And then...)\n- ¿Y qué pasó? (And what happened?)\n- Después... (After that...)\n\nReactions:\n- ¡Qué susto! (What a scare!)\n- ¡No puedo creerlo! (I can't believe it!)\n- ¿En serio? (Really?)\n- ¡Qué bien! / ¡Qué mal! (How great! / How bad!)",
+      "examples": [
+        "Al principio no estaba seguro, pero luego decidí ir. Finalmente fue una buena decisión. (At first I wasn't sure, but then I decided to go. Finally it was a good decision.)",
+        "De repente, sonó la puerta. Era mi amigo sorpresa. (Suddenly, the doorbell rang. It was my friend, a surprise.)",
+        "¿Sabes lo que pasó ayer? Primero llegué tarde, luego perdí las llaves y finalmente volví a casa sin poder entrar. (Do you know what happened yesterday? First I arrived late, then I lost my keys, and finally I got home without being able to get in.)"
+      ],
+      "aid_note": "Romanian also has narrative connectors (mai întâi = first, apoi = then, brusc = suddenly, în cele din urmă = finally). The Spanish connectors are generally more transparent for Romanian speakers since Spanish connector vocabulary often has cognates (finalmente = în cele din urmă / final."
+    }
+  ],
+  "pronunciation": {
+    "title": "Narrative Pronunciation — Past Tense Endings",
+    "content": "Pronouncing the preterite and imperfect endings clearly is essential for being understood.\n\nPreterite -AR endings (stress on the ending):\n- hablé = AH-bleh (stressed) — the accent mark indicates stress\n- hablaste = ah-BLS-teh\n- habló = ah-BLÓ\n- hablamos = ah-BLAMOS (stress on first A)\n- hablasteis = ah-BLÁS-téis (stress on first E)\n- hablaron = ah-BLÁ-ron\n\nPreterite -ER/-IR endings (stress on the ending):\n- comí = koh-MÍ\n- comiste = koh-MÍS-teh\n- comió = koh-MÍ-oh\n- comimos = koh-MI-mos (stress on first I)\n- comisteis = koh-MÍS-teis\n- comieron = koh-MI-E-ron (stress on first I)\n\nImperfect endings (stress on the stem):\n- hablaba = ah-BLA-bah\n- comía = koh-MÍ-ah\n- vivía = bee-BÍ-ah\n\nKey pronunciation rules:\n1. Preterite endings are STRESSED — the accent marks are guides\n2. Imperfect endings are unstressed — the stem carries the stress\n3. The -ió ending is pronounced as two syllables: -ee-oh\n4. The -eron ending is pronounced as three syllables: -eh-ron\n5. The 'ñ' in nosotros forms (hablamos vs. hablabamos) is the same sound as in 'señor'\n\nCommon mistakes:\n- Don't add 'e' before consonant clusters: comí (not 'comee')\n- The 'y' sound in comiste is like English 'y': koh-MYES-teh\n- The 'll' in habló sounds like English 'y': ah-YÓ",
+    "examples": [
+      "comí = koh-MÍ (like 'koh-MEE' with stress on second syllable)",
+      "habló = ah-BLÓ (like 'ah-BLOW' with stress)",
+      "comíamos = koh-MEE-ah-mohs (stress on 'MEE')",
+      "fui = fwee (one syllable, like 'fw-ee' said together)",
+      "fue = fweh (one syllable, like 'fw-eh' said together)"
+    ]
+  },
+  "exercises": [
+    {
+      "type": "multiple-choice",
+      "question": "Which tense do you use for a completed action that happened 'ayer' (yesterday)?",
+      "options": ["Imperfect", "Preterite", "Present", "Future"],
+      "correct": 1,
+      "explanation": "The preterite is used for completed actions with specific time markers like 'ayer' (yesterday). 'Ayer hablé con mi amigo' — yesterday I spoke with my friend."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Which tense do you use to describe what the weather was like in the past?",
+      "options": ["Preterite", "Present", "Imperfect", "Future"],
+      "correct": 2,
+      "explanation": "Descriptions of weather, age, time, and ongoing states use the imperfect. 'Hacía frío ayer' (It was cold yesterday)."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete with the correct preterite form: 'Ayer yo ___ (hablar) con mi madre.'",
+      "correct": "hablé",
+      "explanation": "Ayer (yesterday) signals the preterite. 'Ayer yo hablé con mi madre' = Yesterday I spoke with my mother."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete with the correct imperfect form: 'De niña, ella ___ (jugar) en el parque todos los días.'",
+      "correct": "jugaba",
+      "explanation": "De niña (as a child) + todos los días (every day) signals a habitual past action — use the imperfect. 'De niña, ella jugaba en el parque todos los días' = As a child, she used to play in the park every day."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Which connector means 'suddenly'?",
+      "options": ["finalmente", "de repente", "primero", "después"],
+      "correct": 1,
+      "explanation": "'De repente' means 'suddenly.' It's used to introduce an unexpected event in a story: 'De repente, sonó el teléfono' (Suddenly, the phone rang)."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete with the correct connector: '___, llegué a casa. Luego, cociné la cena. Finalmente, me acosté.' (First, I got home.)",
+      "correct": "primero",
+      "explanation": "'Primero... luego... finalmente...' is a common narrative structure: first, then, finally. 'Primero, llegué a casa. Luego, cociné la cena. Finalmente, me acosté.' (First, I got home. Then, I cooked dinner. Finally, I went to bed.)"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Which sentence uses the preterite correctly?",
+      "options": [
+        "Ayer comía una pizza.",
+        "Ayer comí una pizza.",
+        "Ayer como una pizza.",
+        "Ayer comeré una pizza."
+      ],
+      "correct": 1,
+      "explanation": "'Ayer comí una pizza' uses the preterite correctly. 'Ayer' (yesterday) signals a completed past action. 'Comía' would be imperfect (I used to eat), which doesn't match a specific time marker."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Which of these is a story-opening phrase?",
+      "options": [
+        "¿Sabes lo que pasó?",
+        "¿A dónde vas?",
+        "¿Cuántos años tienes?",
+        "¿Qué hora es?"
+      ],
+      "correct": 0,
+      "explanation": "'¿Sabes lo que pasó?' (Do you know what happened?) is a common way to start telling a story. The others are basic questions for introductions, not narrative openings."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete with the correct imperfect form of 'ser': 'Cuando era niño, yo ___ (ser) muy tímido.'",
+      "correct": "era",
+      "explanation": "Describing personality in the past uses the imperfect. 'Era' is the imperfect of 'ser'. 'Cuando era niño, yo era muy tímido' = When I was a child, I was very shy."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "In the sentence 'Mientras yo estudiaba, mi hermano dormía,' which tense is used for both verbs?",
+      "options": ["Preterite", "Present", "Imperfect", "Future"],
+      "correct": 2,
+      "explanation": "Both verbs are in the imperfect, describing two ongoing actions happening simultaneously. 'Mientras' (while) is a common signal for the imperfect."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Which verb is NOT one of the three irregular imperfect verbs?",
+      "options": ["ser", "ir", "ver", "hacer"],
+      "correct": 3,
+      "explanation": "The three irregular imperfect verbs are: ser (era), ir (iba), and ver (veía). 'Hacer' is regular in the imperfect: hacía, hacías, hacía, hacíamos, hacíais, hacían."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete with the correct preterite form of 'ir': 'El año pasado ___ (ir) a Madrid con mis amigos.'",
+      "correct": "fui",
+      "explanation": "'Ir' is completely irregular in the preterite: fui, fuiste, fue, fuimos, fuisteis, fueron. 'El año pasado fui a Madrid' = Last year I went to Madrid."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What is the correct order of narrative connectors for telling a story?",
+      "options": [
+        "finalmente → primero → luego",
+        "primero → luego → finalmente",
+        "luego → finalmente → primero",
+        "de repente → después → al principio"
+      ],
+      "correct": 1,
+      "explanation": "The logical order is: primero (first) → luego (then) → finalmente (finally). This creates a clear narrative progression."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete with the correct preterite form of 'decir': 'Mi amigo me ___ (decir) una historia muy divertida.'",
+      "correct": "dijo",
+      "explanation": "'Decir' is irregular in the preterite: dije, dijiste, dijo, dijimos, dijisteis, dijeron. The third person singular is 'dijo'. 'Mi amigo me dijo una historia' = My friend told me a story."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Which phrase would you use to react to a surprising story?",
+      "options": [
+        "¡Qué bonito!",
+        "¡Qué susto!",
+        "¡Qué bien!",
+        "¡Qué simpático!"
+      ],
+      "correct": 1,
+      "explanation": "'¡Qué susto!' means 'What a scare!' and is used to react to surprising or scary stories. The others express beauty, goodness, or friendliness."
+    }
+  ]
+}

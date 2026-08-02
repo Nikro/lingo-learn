@@ -1,0 +1,124 @@
+{
+  "id": "preterite-irregular",
+  "title": "Preterite — Irregular Verbs",
+  "description": "Learn the high-frequency irregular preterite verbs: ESTAR, IR, HACER, TENER, and DECIR.",
+  "vocabulary": [
+    { "id": 1, "target": "ir", "source": "to go", "gender": "v.", "type": "verb" },
+    { "id": 2, "target": "estar", "source": "to be (temporary)", "gender": "v.", "type": "verb" },
+    { "id": 3, "target": "hacer", "source": "to do / to make", "gender": "v.", "type": "verb" },
+    { "id": 4, "target": "tener", "source": "to have", "gender": "v.", "type": "verb" },
+    { "id": 5, "target": "decir", "source": "to say / to tell", "gender": "v.", "type": "verb" },
+    { "id": 6, "target": "poner", "source": "to put", "gender": "v.", "type": "verb" },
+    { "id": 7, "target": "salir", "source": "to leave / to go out", "gender": "v.", "type": "verb" },
+    { "id": 8, "target": "venir", "source": "to come", "gender": "v.", "type": "verb" },
+    { "id": 9, "target": "saber", "source": "to know (facts)", "gender": "v.", "type": "verb" },
+    { "id": 10, "target": "querer", "source": "to want / to love", "gender": "v.", "type": "verb" },
+    { "id": 11, "target": "dormir", "source": "to sleep", "gender": "v.", "type": "verb" },
+    { "id": 12, "target": "poder", "source": "to be able to / can", "gender": "v.", "type": "verb" },
+    { "id": 13, "target": "el año pasado", "source": "last year", "gender": "m.", "type": "time" },
+    { "id": 14, "target": "hace una semana", "source": "a week ago", "gender": "—", "type": "time" },
+    { "id": 15, "target": "la semana pasada", "source": "last week", "gender": "—", "type": "time" },
+    { "id": 16, "target": "la noche anterior", "source": "the previous night", "gender": "f.", "type": "time" },
+    { "id": 17, "target": "ayer por la noche", "source": "last night", "gender": "—", "type": "time" },
+    { "id": 18, "target": "el fin de semana pasado", "source": "last weekend", "gender": "m.", "type": "time" },
+    { "id": 19, "target": "hace un mes", "source": "a month ago", "gender": "—", "type": "time" },
+    { "id": 20, "target": "en ese momento", "source": "at that moment", "gender": "—", "type": "time" }
+  ],
+  "grammar": [
+    {
+      "title": "Preterite — High-Frequency Irregular Verbs (ESTAR, IR, HACER, TENER, DECIR)",
+      "content": "These five verbs share the same irregular stem in the preterite: tuv-, estuv-, hic-, dij-. IR has its own pattern (fui-, fuiste-...). They all drop the accent on nosotros.\n\nThe shared irregular endings (for ESTAR, HACER, TENER, DECIR) are:\n- yo: -e\n- tú: -iste\n- él/ella/usted: -o\n- nosotros: -imos (no accent)\n- vosotros: -isteis\n- ellos/ellas/ustedes: -ieron\n\nIR uses the same endings but with its own unique stems:\n- yo: fui\n- tú: fuiste\n- él/ella/usted: fue\n- nosotros: fuimos\n- vosotros: fuisteis\n- ellos/ellas/ustedes: fueron",
+      "table": {
+        "headers": ["Pronoun", "ESTAR (estuv-)", "IR (fui-)", "HACER (hic-)", "TENER (tuv-)", "DECIR (dij-)"],
+        "rows": [
+          ["yo", "estuve", "fui", "hice", "tuve", "dije"],
+          ["tú", "estuviste", "fuiste", "hiciste", "tuviste", "dijiste"],
+          ["él/ella/usted", "estuvo", "fue", "hizo", "tuvo", "dijo"],
+          ["nosotros", "estuvimos", "fuimos", "hicimos", "tuvimos", "dijimos"],
+          ["vosotros", "estuvisteis", "fuisteis", "hicisteis", "tuvisteis", "dijisteis"],
+          ["ellos/ellas/ustedes", "estuvieron", "fueron", "hicieron", "tuvieron", "dijeron"]
+        ]
+      },
+      "examples": [
+        "Ayer estuve en el parque. (Yesterday I was at the park.)",
+        "El año pasado fui a Italia. (Last year I went to Italy.)",
+        "Ella hizo la cena. (She made dinner.)",
+        "Tuvimos un buen día. (We had a good day.)",
+        "Juan dijo la verdad. (Juan told the truth.)"
+      ],
+      "aid_note": "IR (to go) and ESTAR (to be) have the SAME preterite forms. Context determines meaning: 'Ayer fui al cine' (I went to the cinema) vs 'Ayer estuve en el cine' (I was at the cinema). Both are correct but slightly different meanings."
+    },
+    {
+      "title": "Other Common Irregulars: DORMIR, PODER, SABER, QUERER, VENIR",
+      "content": "These verbs have stem changes in the preterite (third person only), similar to the present tense stem changes but applied differently:\n\n- DORMIR (o→ue): durmió, durmieron\n- PODER (o→ue): pudo, pudieron\n- SABER (regular stem but irregular meaning): supe, supiste, supo, supimos, supisteis, supieron\n- QUERER (e→ie): quiso, quisieron\n- VENIR (vino, vinieron):\n\nThese only change in the third person (él/ella/usted and ellos/ellas/ustedes). The first and second persons follow regular patterns.",
+      "table": {
+        "headers": ["Pronoun", "DORMIR (durmi-)", "PODER (pudo-)", "SABER (sup-)", "QUERER (quis-)", "VENIR (vin-)"],
+        "rows": [
+          ["yo", "dormí", "pude", "supe", "quise", "vine"],
+          ["tú", "dormiste", "pudiste", "supiste", "quisiste", "viniste"],
+          ["él/ella/usted", "durmió", "pudo", "supo", "quiso", "vino"],
+          ["nosotros", "dormimos", "pudimos", "supimos", "quisimos", "vinimos"],
+          ["vosotros", "dormisteis", "pudisteis", "supisteis", "quisisteis", "vinisteis"],
+          ["ellos/ellas/ustedes", "durmieron", "pudieron", "supieron", "quisieron", "vinieron"]
+        ]
+      },
+      "examples": [
+        "Ella durmió ocho horas. (She slept eight hours.)",
+        "No pude ir al cine. (I couldn't go to the cinema.)",
+        "¿Supiste la noticia? (Did you learn the news?)",
+        "No quiso comer. (He/She didn't want to eat.)",
+        "Ellos vinieron a visitarnos. (They came to visit us.)"
+      ],
+      "aid_note": "DORMIR has an additional twist: the 'i' in durmió/durmieron sounds like a 'y' — 'durmió' is pronounced 'durió'. This is a common feature in Spanish when 'i' follows another vowel: 'viene' (comes) → 'vino' (came), pronounced 'vin-o'."
+    }
+  ],
+  "pronunciation": [],
+  "exercises": [
+    {
+      "type": "exercise",
+      "question": "What is the preterite of 'estar' for 'yo'?",
+      "options": ["estaba", "estuve", "estoy", "estuve"],
+      "correct": 1,
+      "explanation": "'Estuve' is the irregular preterite of estar for yo. The stem changes to estuv-."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: 'Ella ____ (decir) la verdad ayer.' (She told the truth yesterday.)",
+      "correct": "dijo",
+      "explanation": "'Dijo' is the irregular preterite of decir for él/ella/usted. The stem changes to dij-."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: '¿____ (haber) ____ (you) comido?' (Have you eaten?)",
+      "correct": "has comido",
+      "explanation": "'¿Has comido?' is the present perfect: tú form of haber (has) + past participle (comido)."
+    },
+    {
+      "type": "exercise",
+      "question": "Which sentence uses the correct preterite irregular?",
+      "options": ["Ayer tenió una reunión.", "Ayer tuvo una reunión.", "Ayer teníó una reunión.", "Ayer tuvo una reunión."],
+      "correct": 1,
+      "explanation": "'Tuvo' is the correct preterite form. Note the accent on the o — it follows the rule for words ending in a vowel (stress on 2nd-to-last by default)."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: 'Ayer ____ (ir) al supermercado.' (Yesterday I went to the supermarket.)",
+      "correct": "fui",
+      "explanation": "'Fui' is the irregular preterite of ir for yo. IR and ESTAR share the same preterite conjugations."
+    },
+    {
+      "type": "exercise",
+      "question": "What is the irregular past participle of 'hacer'?",
+      "options": ["hacido", "hecho", "hacado", "hacio"],
+      "correct": 1,
+      "explanation": "'Hecho' is the irregular past participle of hacer. Used in present perfect: 'He hecho' (I have done)."
+    },
+    {
+      "type": "conjugation-matrix",
+      "question": "Complete the preterite tense conjugation table for the irregular verb HACER:",
+      "verb": "HACER",
+      "tenses": ["preterite"],
+      "explanation": "Hacer is irregular in the preterite (hic- stem): hice, hiciste, hizo, hicimos, hicisteis, hicieron."
+    }
+  ]
+}

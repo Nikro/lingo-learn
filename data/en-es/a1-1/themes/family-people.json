@@ -1,20 +1,21 @@
 {
   "id": "family-people",
+  "level": "a1-1",
   "title": "Family & People",
-  "description": "Talk about your family members, describe people, and use possessive adjectives.",
+  "description": "Learn to describe your family tree, introduce family members, talk about relationships, and use possessive adjectives to describe people and things that belong to you.",
   "vocabulary": [
     {
       "id": 1,
-      "target": "madre",
-      "source": "mother",
-      "gender": "f",
+      "target": "padre",
+      "source": "father",
+      "gender": "m",
       "type": "family"
     },
     {
       "id": 2,
-      "target": "padre",
-      "source": "father",
-      "gender": "m",
+      "target": "madre",
+      "source": "mother",
+      "gender": "f",
       "type": "family"
     },
     {
@@ -33,76 +34,818 @@
     },
     {
       "id": 5,
-      "target": "esposo",
-      "source": "husband",
-      "gender": "m",
-      "type": "family"
-    },
-    {
-      "id": 6,
-      "target": "esposa",
-      "source": "wife",
-      "gender": "f",
-      "type": "family"
-    },
-    {
-      "id": 7,
-      "target": "amigo",
-      "source": "friend (m)",
-      "gender": "m",
-      "type": "family"
-    },
-    {
-      "id": 8,
-      "target": "amiga",
-      "source": "friend (f)",
-      "gender": "f",
-      "type": "family"
-    },
-    {
-      "id": 9,
       "target": "hijo",
       "source": "son",
       "gender": "m",
       "type": "family"
     },
     {
-      "id": 10,
+      "id": 6,
       "target": "hija",
       "source": "daughter",
       "gender": "f",
       "type": "family"
+    },
+    {
+      "id": 7,
+      "target": "marido",
+      "source": "husband",
+      "gender": "m",
+      "type": "family"
+    },
+    {
+      "id": 8,
+      "target": "esposa",
+      "source": "wife",
+      "gender": "f",
+      "type": "family"
+    },
+    {
+      "id": 9,
+      "target": "pareja",
+      "source": "partner/spouse",
+      "gender": "f",
+      "type": "family"
+    },
+    {
+      "id": 10,
+      "target": "novio",
+      "source": "boyfriend",
+      "gender": "m",
+      "type": "family"
+    },
+    {
+      "id": 11,
+      "target": "novia",
+      "source": "girlfriend",
+      "gender": "f",
+      "type": "family"
+    },
+    {
+      "id": 12,
+      "target": "abuelo",
+      "source": "grandfather",
+      "gender": "m",
+      "type": "family"
+    },
+    {
+      "id": 13,
+      "target": "abuela",
+      "source": "grandmother",
+      "gender": "f",
+      "type": "family"
+    },
+    {
+      "id": 14,
+      "target": "bisabuelo",
+      "source": "great-grandfather",
+      "gender": "m",
+      "type": "family"
+    },
+    {
+      "id": 15,
+      "target": "bisabuela",
+      "source": "great-grandmother",
+      "gender": "f",
+      "type": "family"
+    },
+    {
+      "id": 16,
+      "target": "tío",
+      "source": "uncle",
+      "gender": "m",
+      "type": "family"
+    },
+    {
+      "id": 17,
+      "target": "tía",
+      "source": "aunt",
+      "gender": "f",
+      "type": "family"
+    },
+    {
+      "id": 18,
+      "target": "primo",
+      "source": "cousin (m)",
+      "gender": "m",
+      "type": "family"
+    },
+    {
+      "id": 19,
+      "target": "prima",
+      "source": "cousin (f)",
+      "gender": "f",
+      "type": "family"
+    },
+    {
+      "id": 20,
+      "target": "sobrino",
+      "source": "nephew",
+      "gender": "m",
+      "type": "family"
+    },
+    {
+      "id": 21,
+      "target": "sobrina",
+      "source": "niece",
+      "gender": "f",
+      "type": "family"
+    },
+    {
+      "id": 22,
+      "target": "cuñado",
+      "source": "brother-in-law",
+      "gender": "m",
+      "type": "family"
+    },
+    {
+      "id": 23,
+      "target": "cuñada",
+      "source": "sister-in-law",
+      "gender": "f",
+      "type": "family"
+    },
+    {
+      "id": 24,
+      "target": "suegro",
+      "source": "father-in-law",
+      "gender": "m",
+      "type": "family"
+    },
+    {
+      "id": 25,
+      "target": "suegra",
+      "source": "mother-in-law",
+      "gender": "f",
+      "type": "family"
+    },
+    {
+      "id": 26,
+      "target": "yerno",
+      "source": "son-in-law",
+      "gender": "m",
+      "type": "family"
+    },
+    {
+      "id": 27,
+      "target": "nuera",
+      "source": "daughter-in-law",
+      "gender": "f",
+      "type": "family"
+    },
+    {
+      "id": 28,
+      "target": "padrastro",
+      "source": "stepfather",
+      "gender": "m",
+      "type": "family"
+    },
+    {
+      "id": 29,
+      "target": "madrastra",
+      "source": "stepmother",
+      "gender": "f",
+      "type": "family"
+    },
+    {
+      "id": 30,
+      "target": "herastro",
+      "source": "stepbrother",
+      "gender": "m",
+      "type": "family"
+    },
+    {
+      "id": 31,
+      "target": "herastra",
+      "source": "stepsister",
+      "gender": "f",
+      "type": "family"
+    },
+    {
+      "id": 32,
+      "target": "hijastro",
+      "source": "stepson",
+      "gender": "m",
+      "type": "family"
+    },
+    {
+      "id": 33,
+      "target": "hijastra",
+      "source": "stepdaughter",
+      "gender": "f",
+      "type": "family"
+    },
+    {
+      "id": 34,
+      "target": "familia",
+      "source": "family",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 35,
+      "target": "hogar",
+      "source": "home/household",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 36,
+      "target": "casa",
+      "source": "house/home",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 37,
+      "target": "relaciones",
+      "source": "relationships",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 38,
+      "target": "matrimonio",
+      "source": "marriage",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 39,
+      "target": "divorcio",
+      "source": "divorce",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 40,
+      "target": "boda",
+      "source": "wedding",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 41,
+      "target": "cumpleaños",
+      "source": "birthday",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 42,
+      "target": "hermano gemelo",
+      "source": "twin brother",
+      "gender": "m",
+      "type": "family"
+    },
+    {
+      "id": 43,
+      "target": "hermana gemela",
+      "source": "twin sister",
+      "gender": "f",
+      "type": "family"
+    },
+    {
+      "id": 44,
+      "target": "hermano mayor",
+      "source": "older brother",
+      "gender": "m",
+      "type": "family"
+    },
+    {
+      "id": 45,
+      "target": "hermana mayor",
+      "source": "older sister",
+      "gender": "f",
+      "type": "family"
+    },
+    {
+      "id": 46,
+      "target": "hermano menor",
+      "source": "younger brother",
+      "gender": "m",
+      "type": "family"
+    },
+    {
+      "id": 47,
+      "target": "hermana menor",
+      "source": "younger sister",
+      "gender": "f",
+      "type": "family"
+    },
+    {
+      "id": 48,
+      "target": "hijo único",
+      "source": "only child (m)",
+      "gender": "m",
+      "type": "family"
+    },
+    {
+      "id": 49,
+      "target": "hija única",
+      "source": "only child (f)",
+      "gender": "f",
+      "type": "family"
+    },
+    {
+      "id": 50,
+      "target": "adoptive",
+      "source": "adoptive (parent)",
+      "gender": "m",
+      "type": "family"
+    },
+    {
+      "id": 51,
+      "target": "amigo",
+      "source": "friend (m)",
+      "gender": "m",
+      "type": "person"
+    },
+    {
+      "id": 52,
+      "target": "amiga",
+      "source": "friend (f)",
+      "gender": "f",
+      "type": "person"
+    },
+    {
+      "id": 53,
+      "target": "mejor amigo",
+      "source": "best friend",
+      "gender": "m",
+      "type": "person"
+    },
+    {
+      "id": 54,
+      "target": "mejor amiga",
+      "source": "best friend (f)",
+      "gender": "f",
+      "type": "person"
+    },
+    {
+      "id": 55,
+      "target": "compañero",
+      "source": "classmate/coworker (m)",
+      "gender": "m",
+      "type": "person"
+    },
+    {
+      "id": 56,
+      "target": "compañera",
+      "source": "classmate/coworker (f)",
+      "gender": "f",
+      "type": "person"
+    },
+    {
+      "id": 57,
+      "target": "vecino",
+      "source": "neighbor (m)",
+      "gender": "m",
+      "type": "person"
+    },
+    {
+      "id": 58,
+      "target": "vecina",
+      "source": "neighbor (f)",
+      "gender": "f",
+      "type": "person"
+    },
+    {
+      "id": 59,
+      "target": "conocido",
+      "source": "acquaintance (m)",
+      "gender": "m",
+      "type": "person"
+    },
+    {
+      "id": 60,
+      "target": "conocida",
+      "source": "acquaintance (f)",
+      "gender": "f",
+      "type": "person"
+    },
+    {
+      "id": 61,
+      "target": "conocido",
+      "source": "well-known",
+      "gender": "m",
+      "type": "adjective"
+    },
+    {
+      "id": 62,
+      "target": "conocida",
+      "source": "well-known (f)",
+      "gender": "f",
+      "type": "adjective"
+    },
+    {
+      "id": 63,
+      "target": "persona",
+      "source": "person",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 64,
+      "target": "gente",
+      "source": "people",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 65,
+      "target": "chico",
+      "source": "boy/young man",
+      "gender": "m",
+      "type": "person"
+    },
+    {
+      "id": 66,
+      "target": "chica",
+      "source": "girl/young woman",
+      "gender": "f",
+      "type": "person"
+    },
+    {
+      "id": 67,
+      "target": "niño",
+      "source": "boy/child",
+      "gender": "m",
+      "type": "person"
+    },
+    {
+      "id": 68,
+      "target": "niña",
+      "source": "girl/child",
+      "gender": "f",
+      "type": "person"
+    },
+    {
+      "id": 69,
+      "target": "hombre",
+      "source": "man",
+      "gender": "m",
+      "type": "person"
+    },
+    {
+      "id": 70,
+      "target": "mujer",
+      "source": "woman",
+      "gender": "f",
+      "type": "person"
+    },
+    {
+      "id": 71,
+      "target": "bebé",
+      "source": "baby",
+      "gender": "m/f",
+      "type": "person"
+    },
+    {
+      "id": 72,
+      "target": "niño pequeño",
+      "source": "toddler/young child",
+      "gender": "m",
+      "type": "person"
+    },
+    {
+      "id": 73,
+      "target": "joven",
+      "source": "young person",
+      "gender": "m/f",
+      "type": "person"
+    },
+    {
+      "id": 74,
+      "target": "adulto",
+      "source": "adult (m)",
+      "gender": "m",
+      "type": "person"
+    },
+    {
+      "id": 75,
+      "target": "adulta",
+      "source": "adult (f)",
+      "gender": "f",
+      "type": "person"
+    },
+    {
+      "id": 76,
+      "target": "anciano",
+      "source": "elderly man",
+      "gender": "m",
+      "type": "person"
+    },
+    {
+      "id": 77,
+      "target": "anciana",
+      "source": "elderly woman",
+      "gender": "f",
+      "type": "person"
+    },
+    {
+      "id": 78,
+      "target": "viejo",
+      "source": "old (m)",
+      "gender": "m",
+      "type": "adjective"
+    },
+    {
+      "id": 79,
+      "target": "vieja",
+      "source": "old (f)",
+      "gender": "f",
+      "type": "adjective"
+    },
+    {
+      "id": 80,
+      "target": "joven",
+      "source": "young",
+      "gender": "—",
+      "type": "adjective"
+    },
+    {
+      "id": 81,
+      "target": "mi",
+      "source": "my",
+      "gender": "—",
+      "type": "possessive"
+    },
+    {
+      "id": 82,
+      "target": "mis",
+      "source": "my (plural)",
+      "gender": "—",
+      "type": "possessive"
+    },
+    {
+      "id": 83,
+      "target": "tu",
+      "source": "your (informal)",
+      "gender": "—",
+      "type": "possessive"
+    },
+    {
+      "id": 84,
+      "target": "tus",
+      "source": "your (informal, plural)",
+      "gender": "—",
+      "type": "possessive"
+    },
+    {
+      "id": 85,
+      "target": "su",
+      "source": "his/her/your (formal)/their",
+      "gender": "—",
+      "type": "possessive"
+    },
+    {
+      "id": 86,
+      "target": "sus",
+      "source": "his/her/your/their (plural)",
+      "gender": "—",
+      "type": "possessive"
+    },
+    {
+      "id": 87,
+      "target": "nuestro",
+      "source": "our (m)",
+      "gender": "m",
+      "type": "possessive"
+    },
+    {
+      "id": 88,
+      "target": "nuestra",
+      "source": "our (f)",
+      "gender": "f",
+      "type": "possessive"
+    },
+    {
+      "id": 89,
+      "target": "nuestros",
+      "source": "our (m, plural)",
+      "gender": "m",
+      "type": "possessive"
+    },
+    {
+      "id": 90,
+      "target": "nuestras",
+      "source": "our (f, plural)",
+      "gender": "f",
+      "type": "possessive"
+    },
+    {
+      "id": 91,
+      "target": "vuestro",
+      "source": "your (Spain, plural, m)",
+      "gender": "m",
+      "type": "possessive"
+    },
+    {
+      "id": 92,
+      "target": "vuestra",
+      "source": "your (Spain, plural, f)",
+      "gender": "f",
+      "type": "possessive"
+    },
+    {
+      "id": 93,
+      "target": "vuestros",
+      "source": "your (Spain, plural, m)",
+      "gender": "m",
+      "type": "possessive"
+    },
+    {
+      "id": 94,
+      "target": "vuestras",
+      "source": "your (Spain, plural, f)",
+      "gender": "f",
+      "type": "possessive"
+    },
+    {
+      "id": 95,
+      "target": "padrino",
+      "source": "godfather",
+      "gender": "m",
+      "type": "family"
+    },
+    {
+      "id": 96,
+      "target": "madrina",
+      "source": "godmother",
+      "gender": "f",
+      "type": "family"
+    },
+    {
+      "id": 97,
+      "target": "ahijado",
+      "source": "godson",
+      "gender": "m",
+      "type": "family"
+    },
+    {
+      "id": 98,
+      "target": "ahijada",
+      "source": "goddaughter",
+      "gender": "f",
+      "type": "family"
+    },
+    {
+      "id": 99,
+      "target": "familia numerosa",
+      "source": "large family",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 100,
+      "target": "familia monoparental",
+      "source": "single-parent family",
+      "gender": "f",
+      "type": "noun"
     }
   ],
   "grammar": [
     {
-      "title": "Possessive Adjectives (my, your, his/her)",
-      "content": "Possessive adjectives agree with the noun they modify, not the owner.\n\nmi/mis = my\ntu/tus = your (informal)\nsu/sus = his/her/your (formal)/their",
+      "title": "Possessive Adjectives — My, Your, His/Her, Our",
+      "content": "Spanish possessive adjectives must agree with the NOUN they describe (not the owner):\n\nSingular:\n- mi/mis = my\n- tu/tus = your (informal)\n- su/sus = his/her/your (formal)/their\n- nuestro/nuestra/nuestros/nuestras = our\n\nPlural:\n- mis libros = my books\n- tus amigos = your friends\n- sus casas = their houses\n- nuestros gatos = our cats\n\nIMPORTANT: 'mi' and 'tu' don't change for gender, only for number (singular/plural):\n- mi casa / mis casas (my house / my houses)\n- tu amigo / tus amigos (your friend / your friends)\n\n'Nuestro/a/os/as' changes for both gender AND number:\n- nuestro libro (m, sing)\n- nuestra casa (f, sing)\n- nuestros libros (m, plural)\n- nuestras casas (f, plural)\n\nExample:\n- Mi hermano se llama Carlos. (My brother is named Carlos.)\n- Tu hermana es alta. (Your sister is tall.)\n- Su padre es médico. (His/her father is a doctor.)\n- Nuestro hijo tiene cinco años. (Our son is five years old.)",
       "examples": [
-        "Mi madre es alta. (My mother is tall.)",
-        "Tu hermano es joven. (Your brother is young.)",
-        "Su amigo es inteligente. (His friend is intelligent.)"
+        "Mi familia es grande. (My family is big.)\nTu madre es simpática. (Your mother is nice.)\nSu padre trabaja aquí. (His/her father works here.)\nNuestros hijos estudian mucho. (Our children study a lot.)\nMis amigos son divertidos. (My friends are fun.)\nSus casas son grandes. (Their houses are big.)",
+        "Mi hermano se llama Pedro. (My brother is named Pedro.)\nTu hermana es estudiante. (Your sister is a student.)\nSu madre es cocinera. (His/her mother is a cook.)\nNuestra hija es pequeña. (Our daughter is small.)\nMis padres viven en Madrid. (My parents live in Madrid.)\nSus hijos son felices. (Their children are happy.)"
+      ]
+    },
+    {
+      "title": "Describing Family Relationships",
+      "content": "Common phrases for talking about family:\n\n- Tengo un hermano. (I have one brother.)\n- Tengo dos hermanas. (I have two sisters.)\n- Tengo un hermano y una hermana. (I have one brother and one sister.)\n- ¿Tienes hermanos? (Do you have siblings?)\n- No tengo hermanos. (I don't have siblings.)\n- Soy hijo único. (I'm an only child — male)\n- Soy hija única. (I'm an only child — female)\n\nFamily tree vocabulary:\n- abuelos = grandparents\n- tíos = uncles/aunts\n- primos = cousins\n- sobrinos = nephews/nieces\n\nDescribing relationships:\n- Mi madre se llama Ana. (My mother is named Ana.)\n- Mi padre tiene cuarenta años. (My father is 40 years old.)\n- Tengo tres hermanos mayores. (I have three older siblings.)\n- Tengo dos hermanas menores. (I have two younger sisters.)\n- Mis abuelos viven en Valencia. (My grandparents live in Valencia.)\n- Mi tía es profesora. (My aunt is a teacher.)\n- Mi primo estudia medicina. (My cousin studies medicine.)",
+      "examples": [
+        "¿Tienes hermanos? — Sí, tengo dos hermanos y una hermana. (Do you have siblings? — Yes, I have two brothers and one sister.)\nNo tengo hermanos. Soy hijo único. (I don't have siblings. I'm an only child.)\nMis abuelos son muy simpáticos. (My grandparents are very nice.)\nMi tía tiene dos hijos. (My aunt has two children.)\nMi primo es ingeniero. (My cousin is an engineer.)",
+        "Mi hermano mayor se llama Luis. (My older brother is named Luis.)\nMi hermana menor tiene diez años. (My younger sister is ten years old.)\nMis primos viven en Barcelona. (My cousins live in Barcelona.)\nMi sobrina va al colegio. (My niece goes to school.)"
+      ]
+    },
+    {
+      "title": "Ser vs Estar with Family",
+      "content": "Use SER to describe who family members ARE (identity, profession, origin):\n- Mi madre ES profesora. (My mother IS a teacher.)\n- Mi padre ES de Valencia. (My father IS from Valencia.)\n- Mi hermano ES alto. (My brother IS tall.)\n\nUse ESTAR to describe how they ARE RIGHT NOW (temporary state):\n- Mi madre ESTÁ cansada. (My mother IS tired [right now].)\n- Mi padre ESTÁ enfermo. (My father IS sick [right now].)\n- Mi hermano ESTÁ feliz. (My brother IS happy [right now].)\n\nKey difference:\n- SER = permanent/identity (profession, origin, physical traits)\n- ESTAR = temporary/state (mood, health, current condition)\n\nExample:\n- Mi madre ES inteligente. (My mother IS intelligent — permanent trait)\n- Mi madre ESTÁ contenta. (My mother IS happy — current state)\n\nNOTE: 'Ser de + place' means 'to be from + place' (origin)\n- Mi padre es de Madrid. (My father is from Madrid.)\n- Mi madre es de Valencia. (My mother is from Valencia.)",
+      "examples": [
+        "Mi madre es profesora. (My mother is a teacher.)\nMi padre es de Barcelona. (My father is from Barcelona.)\nMi hermano es alto. (My brother is tall.)\nMi madre está cansada. (My mother is tired.)\nMi padre está enfermo. (My father is sick.)\nMi hermana está feliz. (My sister is happy.)",
+        "Mi abuelo es muy simpático. (My grandfather is very nice.)\nMi abuela está enferma. (My grandmother is sick.)\nMi tía es doctora. (My aunt is a doctor.)\nMi tío está de vacaciones. (My uncle is on vacation.)"
+      ]
+    },
+    {
+      "title": "Talking About Family Size and Composition",
+      "content": "Common phrases for describing your family:\n\n- Mi familia es grande. (My family is big.)\n- Mi familia es pequeña. (My family is small.)\n- Mi familia es numerosa. (My family is large/has many members.)\n- Tengo muchos hermanos. (I have many siblings.)\n- Tengo pocos hermanos. (I have few siblings.)\n\nDescribing family composition:\n- Tengo dos hermanos y una hermana. (I have two brothers and one sister.)\n- Tengo tres hijos. (I have three children.)\n- Tengo una hija y dos hijos. (I have one daughter and two sons.)\n- Soy hijo único. (I'm an only child.)\n- Soy hija única. (I'm an only child.)\n\nFamily size expressions:\n- Familia numerosa = large family\n- Familia pequeña = small family\n- Familia monoparental = single-parent family\n- Familia reunida = reunited family\n\nTalking about family events:\n- Mi cumpleaños es en mayo. (My birthday is in May.)\n- La boda de mi hermana es en junio. (My sister's wedding is in June.)\n- Tenemos una fiesta familiar. (We have a family party.)\n- Visitamos a nuestros abuelos los domingos. (We visit our grandparents on Sundays.)",
+      "examples": [
+        "Mi familia es grande. Tengo cinco hermanos. (My family is big. I have five siblings.)\nMi familia es pequeña. Soy hijo único. (My family is small. I'm an only child.)\nTengo dos hermanos y una hermana. (I have two brothers and one sister.)\nTengo una hija y dos hijos. (I have one daughter and two sons.)\nMi cumpleaños es el quince de mayo. (My birthday is the fifteenth of May.)\nLa boda de mi hermana es en junio. (My sister's wedding is in June.)",
+        "Tenemos una fiesta familiar este fin de semana. (We have a family party this weekend.)\nVisitamos a nuestros abuelos los domingos. (We visit our grandparents on Sundays.)\nMi abuela hace la cena todos los días. (My grandmother makes dinner every day.)\nMi padre trabaja mucho. (My father works a lot.)"
+      ]
+    }
+  ],
+  "pronunciation": [
+    {
+      "title": "Family Terms — Stress and Syllables",
+      "content": "Pay attention to stress in family terms:\n\n- padre = PAH-dreh (stress on 'pa')\n- madre = MAH-dreh (stress on 'ma')\n- hermano = e-RMA-noh (stress on 'rm')\n- hermana = e-RMA-nah (stress on 'rm')\n- hijo = EE-hoh (stress on 'i')\n- hija = EE-hah (stress on 'i')\n- abuelo = ah-BWEH-loh (stress on 'bweh')\n- abuela = ah-BWEH-lah (stress on 'bweh')\n- tío = TEE-oh (stress on 'tee' — accent on i)\n- tía = TEE-ah (stress on 'tee' — accent on i)\n- primo = PREE-moh (stress on 'pr')\n- prima = PREE-mah (stress on 'pr')\n- sobrino = so-BREE-noh (stress on 'bree')\n- sobrina = so-BREE-nah (stress on 'bree')\n- cuñado = KWAH-nyoh (stress on 'kwa')\n- cuñada = KWAH-nyah (stress on 'kwa')\n\nNOTE: 'tío' and 'tía' have accent marks because they end in a vowel but stress falls on the second-to-last syllable.",
+      "examples": [
+        "padre = PAH-dreh\nmadre = MAH-dreh\nhermano = e-RMA-noh\nhermana = e-RMA-nah\nhijo = EE-hoh\nhija = EE-hah\nabuelo = ah-BWEH-loh\nabuela = ah-BWEH-lah\ntío = TEE-oh\ntía = TEE-ah\nprimo = PREE-moh\nprima = PREE-mah\nsobrino = so-BREE-noh\nsobrina = so-BREE-nah\ncuñado = KWAH-nyoh\ncuñada = KWAH-nyah"
+      ]
+    },
+    {
+      "title": "Possessive Pronouns — My, Your, His/Her",
+      "content": "Spanish possessive pronouns replace the noun:\n\n- el mío / la mía = mine\n- el tuyo / la tuya = yours (informal)\n- el suyo / la suya = his/hers/yours (formal)/theirs\n- el nuestro / la nuestra = ours\n- el vuestro / la vuestra = yours (Spain)\n\nExamples:\n- Este libro es mío. (This book is mine.)\n- Esta casa es tuya. (This house is yours.)\n- Este coche es suyo. (This car is his/hers/yours.)\n- Esta mesa es nuestra. (This table is ours.)\n\nNOTE: The possessive changes for gender:\n- mío (m), mía (f), míos (m pl), mías (f pl)\n- tuyo (m), tuya (f), tuyos (m pl), tuyas (f pl)\n- nuestro (m), nuestra (f), nuestros (m pl), nuestras (f pl)",
+      "examples": [
+        "Este libro es mío. (This book is mine.)\nEsta casa es tuya. (This house is yours.)\nEste coche es suyo. (This car is his/hers/yours.)\nEsta mesa es nuestra. (This table is ours.)\nEstos libros son míos. (These books are mine.)\nEstas casas son tuyas. (These houses are yours.)\nEstos coches son suyos. (These cars are his/hers/yours.)\nEstas mesas son nuestras. (These tables are ours.)",
+        "¿De quién es este teléfono? — Es mío. (Whose phone is this? — It's mine.)\n¿De quién es esta casa? — Es de mi padre. (Whose house is this? — It's my father's.)\n¿De quién son estos libros? — Son nuestros. (Whose books are these? — They're ours.)"
       ]
     }
   ],
   "exercises": [
     {
       "type": "multiple-choice",
-      "question": "What does 'madre' mean?",
+      "question": "What is 'mother' in Spanish?",
       "options": [
-        "Father",
-        "Mother",
-        "Sister",
-        "Brother"
+        "padre",
+        "madre",
+        "hermana",
+        "hija"
       ],
       "correct": 1,
-      "explanation": "'Madre' means mother."
+      "explanation": "'Madre' = mother. 'Padre' = father. 'Hermana' = sister. 'Hija' = daughter."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "How do you say 'my brother' in Spanish?",
+      "options": [
+        "mi hermana",
+        "mi hermano",
+        "mi hijo",
+        "mi padre"
+      ],
+      "correct": 1,
+      "explanation": "'Mi hermano' = my brother. 'Mi hermana' = my sister. 'Mi hijo' = my son. 'Mi padre' = my father."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What does 'tío' mean?",
+      "options": [
+        "Uncle",
+        "Aunt",
+        "Cousin",
+        "Grandfather"
+      ],
+      "correct": 0,
+      "explanation": "'Tío' = uncle. 'Tía' = aunt. 'Primo' = cousin. 'Abuelo' = grandfather."
     },
     {
       "type": "fill-in-blank",
-      "question": "Complete: '___ hermano es joven.' (Your brother is young.)",
-      "correct": "Tu",
-      "explanation": "'Tu' means your (informal)."
+      "question": "Complete: '___ familia es grande.' (My family is big.)",
+      "correct": "Mi",
+      "explanation": "'Mi familia' = my family. 'Mi' doesn't change for gender."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: 'Tengo dos hermanos y una ___. (I have two brothers and one sister.)",
+      "correct": "hermana",
+      "explanation": "'Hermana' = sister. 'Hermano' = brother."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: 'Mi madre se llama Ana. Ella ___ profesora.' (My mother is named Ana. She is a teacher.)",
+      "correct": "es",
+      "explanation": "Use SER for profession: 'Ella es profesora.' = She is a teacher."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What does 'abuelo' mean?",
+      "options": [
+        "Grandmother",
+        "Grandfather",
+        "Uncle",
+        "Aunt"
+      ],
+      "correct": 1,
+      "explanation": "'Abuelo' = grandfather. 'Abuela' = grandmother. 'Tío' = uncle. 'Tía' = aunt."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: '___ casa es grande. (Their house is big.)",
+      "correct": "Su",
+      "explanation": "'Su casa' = their/his/her/your (formal) house. 'Sus' is for plural: 'sus casas'."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "How do you say 'I'm an only child' (female speaker)?",
+      "options": [
+        "Soy hijo único",
+        "Soy hija única",
+        "No tengo hermanos",
+        "Both a and b"
+      ],
+      "correct": 3,
+      "explanation": "'Soy hija única' (female speaker) or 'Soy hijo único' (male speaker). 'No tengo hermanos' = I don't have siblings (works for both)."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: 'Mis padres ___ de Valencia.' (My parents are from Valencia.)",
+      "correct": "son",
+      "explanation": "Use SER for origin: 'Mis padres son de Valencia.' = My parents are from Valencia."
     }
   ]
 }

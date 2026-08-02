@@ -1,0 +1,131 @@
+{
+  "id": "daily-routines",
+  "title": "Daily Routines",
+  "description": "Describe your daily schedule using reflexive verbs and time expressions. Learn the vocabulary for morning and evening routines.",
+  "vocabulary": [
+    { "id": 1, "target": "despertarse", "source": "to wake up", "gender": "v.", "type": "daily_routine" },
+    { "id": 2, "target": "levantarse", "source": "to get up", "gender": "v.", "type": "daily_routine" },
+    { "id": 3, "target": "ducharse", "source": "to take a shower", "gender": "v.", "type": "daily_routine" },
+    { "id": 4, "target": "cepillarse", "source": "to brush", "gender": "v.", "type": "daily_routine" },
+    { "id": 5, "target": "desayunar", "source": "to have breakfast", "gender": "v.", "type": "daily_routine" },
+    { "id": 6, "target": "almorzar", "source": "to have lunch", "gender": "v.", "type": "daily_routine" },
+    { "id": 7, "target": "cenar", "source": "to have dinner", "gender": "v.", "type": "daily_routine" },
+    { "id": 8, "target": "dormir", "source": "to sleep / to go to sleep", "gender": "v.", "type": "daily_routine" },
+    { "id": 9, "target": "irse a la cama", "source": "to go to bed", "gender": "v.", "type": "daily_routine" },
+    { "id": 10, "target": "trabajar", "source": "to work", "gender": "v.", "type": "daily_routine" },
+    { "id": 11, "target": "estudiar", "source": "to study", "gender": "v.", "type": "daily_routine" },
+    { "id": 12, "target": "la almohada", "source": "pillow", "gender": "f.", "type": "bedroom" },
+    { "id": 13, "target": "la manta", "source": "blanket", "gender": "f.", "type": "bedroom" },
+    { "id": 14, "target": "el despertador", "source": "alarm clock", "gender": "m.", "type": "bedroom" },
+    { "id": 15, "target": "a las siete", "source": "at seven o'clock", "gender": "—", "type": "time_expression" },
+    { "id": 16, "target": "por la mañana", "source": "in the morning", "gender": "—", "type": "time_expression" },
+    { "id": 17, "target": "por la tarde", "source": "in the afternoon", "gender": "—", "type": "time_expression" },
+    { "id": 18, "target": "por la noche", "source": "in the evening / at night", "gender": "—", "type": "time_expression" },
+    { "id": 19, "target": "cada día", "source": "every day", "gender": "—", "type": "time_expression" },
+    { "id": 20, "target": "todos los días", "source": "every day", "gender": "—", "type": "time_expression" },
+    { "id": 21, "target": "el café con leche", "source": "coffee with milk", "gender": "m.", "type": "food" },
+    { "id": 22, "target": "el pan", "source": "bread", "gender": "m.", "type": "food" },
+    { "id": 23, "target": "la mantequilla", "source": "butter", "gender": "f.", "type": "food" },
+    { "id": 24, "target": "el queso", "source": "cheese", "gender": "m.", "type": "food" },
+    { "id": 25, "target": "la fruta", "source": "fruit", "gender": "f.", "type": "food" },
+    { "id": 26, "target": "el yogur", "source": "yogurt", "gender": "m.", "type": "food" },
+    { "id": 27, "target": "acostarse", "source": "to go to bed / to lie down", "gender": "v.", "type": "daily_routine" },
+    { "id": 28, "target": "lavarse las manos", "source": "to wash one's hands", "gender": "v.", "type": "daily_routine" },
+    { "id": 29, "target": "peinarse", "source": "to comb one's hair", "gender": "v.", "type": "daily_routine" },
+    { "id": 30, "target": "vestirse", "source": "to get dressed", "gender": "v.", "type": "daily_routine" }
+  ],
+  "grammar": [
+    {
+      "title": "Reflexive Verbs in the Present",
+      "content": "Reflexive verbs describe actions that the subject does to themselves. They are formed with a reflexive pronoun (me, te, se, nos, os, se) + the verb conjugation.\n\nReflexive pronouns:\n- me (myself)\n- te (yourself, informal)\n- se (himself/herself/itself/yourselves formal)\n- nos (ourselves)\n- os (yourselves, Spain informal)\n- se (themselves/yourselves formal)\n\nExample: 'Me despierto a las seis' (I wake up at six).\n\nConjugation of 'despertarse' in the present:\n- yo me despierto\n- tú te despiertas\n- él/ella/usted se despierta\n- nosotros nos despertamos\n- vosotros os despertáis\n- ellos/ellas/ustedes se despiertan",
+      "table": {
+        "headers": ["Pronoun", "Despertarse", "Levantarse", "Ducharse"],
+        "rows": [
+          ["yo", "me despierto", "me levanto", "me ducho"],
+          ["tú", "te despiertas", "te levantas", "te duchas"],
+          ["él/ella/usted", "se despierta", "se levanta", "se ducha"],
+          ["nosotros", "nos despertamos", "nos levantamos", "nos duchamos"],
+          ["vosotros", "os despertáis", "os levantáis", "os ducháis"],
+          ["ellos/ellas/ustedes", "se despiertan", "se levantan", "se duchan"]
+        ]
+      },
+      "examples": [
+        "Me despierto a las seis de la mañana. (I wake up at six in the morning.)",
+        "Ella se ducha después de levantarse. (She showers after getting up.)",
+        "Nosotros nos acostamos tarde los fines de semana. (We go to bed late on weekends.)",
+        "¿Te afeitas por la mañana o por la noche? (Do you shave in the morning or at night?)"
+      ],
+      "aid_note": "Romanian reflexive verbs also use pronouns (mă, te, se, ne, vă, se) before the verb: 'mă trezeam' = 'me despertaba'. The structure is the same — just swap the verb conjugation."
+    }
+  ],
+  "pronunciation": [
+    {
+      "title": "The Rolled R vs Single R",
+      "content": "Spanish has a single tap /r/ and a rolled trill /rr/. Understanding the difference is key to being understood.\n\nSingle /r/ (tap — one quick flash of the tongue):\n- Between vowels: caro (expensive), perro (dog)\n- At the start of a word: rojo (red), ramo (bunch)\n- After consonants: azul (blue)\n\nDouble /rr/ or R at the start of a word (trill — multiple rapid flashes):\n- Between vowels: perro (dog), cerveza (beer)\n- At the start: rojo (red), Romeo\n\nTip: The rolled R requires airflow — place your tongue tip behind your upper teeth and blow air. It's like the sound a motor makes.",
+      "examples": [
+        { "target": "perro", "source": "dog (rolled R at start)" },
+        { "target": "cerveza", "source": "beer (double R = rolled)" },
+        { "target": "cara", "source": "face (single tap between vowels)" },
+        { "target": "rojo", "source": "red (rolled R at start)" }
+      ],
+      "aid_note": "Romanian also has a single 'r' sound that's similar to the Spanish tap. The rolled trill is an extra skill — practice with words like 'perro' (dog) vs 'pero' (but)."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "matching",
+      "question": "Match each Spanish daily routine verb with its English meaning:",
+      "pairs": [
+        { "target": "despertarse", "source": "to wake up" },
+        { "target": "levantarse", "source": "to get up" },
+        { "target": "ducharse", "source": "to take a shower" },
+        { "target": "desayunar", "source": "to have breakfast" },
+        { "target": "cenar", "source": "to have dinner" }
+      ],
+      "explanation": "These reflexive and regular verbs are key for describing your daily routine."
+    },
+    {
+      "type": "exercise",
+      "question": "What is the reflexive pronoun for 'nosotros'?",
+      "options": ["se", "nos", "nosotros", "nosotras"],
+      "correct": 1,
+      "explanation": "'Nos' is the reflexive pronoun for nosotros: 'Nos levantamos a las siete' (We get up at seven)."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: 'Yo me ____ (ducharse) por la mañana.' (I shower in the morning.)",
+      "correct": "ducho",
+      "explanation": "'Me ducho' — the yo form of ducharse in the present. The reflexive pronoun 'me' goes before the conjugated verb."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: 'Ellos se ____ (acostar) a las once.' (They go to bed at eleven.)",
+      "correct": "acuestan",
+      "explanation": "'Se acuestan' — they go to bed. Acostarse has a stem change: o→ue in the present (ellos se acuestan)."
+    },
+    {
+      "type": "exercise",
+      "question": "Which of these is a reflexive verb for daily routine?",
+      "options": ["comer", "hablar", "despertarse", "trabajar"],
+      "correct": 2,
+      "explanation": "'Despertarse' (to wake up) is reflexive — the action reflects back on the subject: yo me despierto."
+    },
+    {
+      "type": "matching",
+      "question": "Match the breakfast items:",
+      "pairs": [
+        { "target": "el café con leche", "source": "coffee with milk" },
+        { "target": "el pan", "source": "bread" },
+        { "target": "el yogur", "source": "yogurt" },
+        { "target": "la fruta", "source": "fruit" }
+      ],
+      "explanation": "These are common breakfast items you'll encounter in a Spanish-speaking household."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: 'Por la ____ me levanto a las siete.' (In the morning I get up at seven.)",
+      "correct": "mañana",
+      "explanation": "'Por la mañana' means 'in the morning.' 'Por la tarde' = in the afternoon, 'por la noche' = in the evening."
+    }
+  ]
+}

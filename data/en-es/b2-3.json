@@ -1,0 +1,15 @@
+{
+  "stage_id": "b2-3",
+  "title": "B2.3 — Academic Writing & Cultural Fluency",
+  "description": "Master academic writing conventions, cultural references, advanced idiomatic expressions, and specialized vocabulary for professional and intellectual discourse.",
+  "estimated_weeks": 6,
+  "themes": [
+    { "id": "academic-writing", "title": "Academic Writing & Research", "description": "Formal writing structures, citations, and the academic register in Spanish.", "estimated_hours": 5 },
+    { "id": "cultural-references", "title": "Cultural References & Proverbs", "description": "Spanish and Latin American cultural knowledge, proverbs, and shared references.", "estimated_hours": 5 },
+    { "id": "advanced-idioms", "title": "Advanced Idioms & Figurative Language", "description": "B2-level idiomatic expressions, metaphors, and figurative language.", "estimated_hours": 5 },
+    { "id": "literature", "title": "Literature & Literary Analysis", "description": "Literary vocabulary, genres, and analysis concepts.", "estimated_hours": 4 },
+    { "id": "business-professional", "title": "Business & Professional Correspondence", "description": "Formal business communication, professional vocabulary, and correspondence.", "estimated_hours": 5 },
+    { "id": "science-technology", "title": "Science & Research Terminology", "description": "Scientific vocabulary, research methods, and academic terminology.", "estimated_hours": 5 },
+    { "id": "law-citizenship", "title": "Law, Rights & Citizenship", "description": "Legal vocabulary, constitutional rights, and civic participation.", "estimated_hours": 5 }
+  ]
+}

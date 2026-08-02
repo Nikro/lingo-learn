@@ -1,0 +1,296 @@
+{
+  "id": "food-drink",
+  "level": "a1-1",
+  "title": "Food & Drink",
+  "description": "Master food vocabulary, learn to order at restaurants, describe tastes, and talk about meals and preferences.",
+  "vocabulary": [
+    {"id": 1, "target": "manzana", "source": "apple", "gender": "f", "type": "fruit"},
+    {"id": 2, "target": "plátano", "source": "banana", "gender": "m", "type": "fruit"},
+    {"id": 3, "target": "naranja", "source": "orange", "gender": "f", "type": "fruit"},
+    {"id": 4, "target": "uva", "source": "grape", "gender": "f", "type": "fruit"},
+    {"id": 5, "target": "sandía", "source": "watermelon", "gender": "f", "type": "fruit"},
+    {"id": 6, "target": "melón", "source": "melon", "gender": "m", "type": "fruit"},
+    {"id": 7, "target": "fresa", "source": "strawberry", "gender": "f", "type": "fruit"},
+    {"id": 8, "target": "cereza", "source": "cherry", "gender": "f", "type": "fruit"},
+    {"id": 9, "target": "pera", "source": "pear", "gender": "f", "type": "fruit"},
+    {"id": 10, "target": "piña", "source": "pineapple", "gender": "f", "type": "fruit"},
+    {"id": 11, "target": "mango", "source": "mango", "gender": "m", "type": "fruit"},
+    {"id": 12, "target": "kiwi", "source": "kiwi", "gender": "m", "type": "fruit"},
+    {"id": 13, "target": "limón", "source": "lemon", "gender": "m", "type": "fruit"},
+    {"id": 14, "target": "melocotón", "source": "peach", "gender": "m", "type": "fruit"},
+    {"id": 15, "target": "durazno", "source": "peach (LatAm)", "gender": "m", "type": "fruit"},
+    {"id": 16, "target": "higo", "source": "fig", "gender": "m", "type": "fruit"},
+    {"id": 17, "target": "ciruela", "source": "plum", "gender": "f", "type": "fruit"},
+    {"id": 18, "target": "mandarina", "source": "tangerine", "gender": "f", "type": "fruit"},
+    {"id": 19, "target": "pomelo", "source": "grapefruit", "gender": "m", "type": "fruit"},
+    {"id": 20, "target": "aguacate", "source": "avocado", "gender": "m", "type": "fruit"},
+    {"id": 21, "target": "tomate", "source": "tomato", "gender": "m", "type": "vegetable"},
+    {"id": 22, "target": "cebolla", "source": "onion", "gender": "f", "type": "vegetable"},
+    {"id": 23, "target": "zanahoria", "source": "carrot", "gender": "f", "type": "vegetable"},
+    {"id": 24, "target": "patata", "source": "potato", "gender": "f", "type": "vegetable"},
+    {"id": 25, "target": "papa", "source": "potato (LatAm)", "gender": "f", "type": "vegetable"},
+    {"id": 26, "target": "pimiento", "source": "pepper", "gender": "m", "type": "vegetable"},
+    {"id": 27, "target": "lechuga", "source": "lettuce", "gender": "f", "type": "vegetable"},
+    {"id": 28, "target": "espinaca", "source": "spinach", "gender": "f", "type": "vegetable"},
+    {"id": 29, "target": "brócoli", "source": "broccoli", "gender": "m", "type": "vegetable"},
+    {"id": 30, "target": "calabacín", "source": "zucchini", "gender": "m", "type": "vegetable"},
+    {"id": 31, "target": "champiñón", "source": "mushroom", "gender": "m", "type": "vegetable"},
+    {"id": 32, "target": "ajo", "source": "garlic", "gender": "m", "type": "vegetable"},
+    {"id": 33, "target": "apio", "source": "celery", "gender": "m", "type": "vegetable"},
+    {"id": 34, "target": "alcachofa", "source": "artichoke", "gender": "f", "type": "vegetable"},
+    {"id": 35, "target": "maíz", "source": "corn", "gender": "m", "type": "vegetable"},
+    {"id": 36, "target": "guisante", "source": "pea", "gender": "m", "type": "vegetable"},
+    {"id": 37, "target": "haba", "source": "broad bean", "gender": "f", "type": "vegetable"},
+    {"id": 38, "target": "berenjena", "source": "eggplant", "gender": "f", "type": "vegetable"},
+    {"id": 39, "target": "rúcula", "source": "arugula", "gender": "f", "type": "vegetable"},
+    {"id": 40, "target": "remolacha", "source": "beet", "gender": "f", "type": "vegetable"},
+    {"id": 41, "target": "carne", "source": "meat", "gender": "f", "type": "meat"},
+    {"id": 42, "target": "pollo", "source": "chicken", "gender": "m", "type": "meat"},
+    {"id": 43, "target": "cerdo", "source": "pork", "gender": "m", "type": "meat"},
+    {"id": 44, "target": "res", "source": "beef", "gender": "f", "type": "meat"},
+    {"id": 45, "target": "cordero", "source": "lamb", "gender": "m", "type": "meat"},
+    {"id": 46, "target": "pavo", "source": "turkey", "gender": "m", "type": "meat"},
+    {"id": 47, "target": "jamón", "source": "ham", "gender": "m", "type": "meat"},
+    {"id": 48, "target": "pechuga", "source": "breast (chicken)", "gender": "f", "type": "meat"},
+    {"id": 49, "target": "lomo", "source": "loin", "gender": "m", "type": "meat"},
+    {"id": 50, "target": "salchicha", "source": "sausage", "gender": "f", "type": "meat"},
+    {"id": 51, "target": "pescado", "source": "fish", "gender": "m", "type": "seafood"},
+    {"id": 52, "target": "atún", "source": "tuna", "gender": "m", "type": "seafood"},
+    {"id": 53, "target": "salmón", "source": "salmon", "gender": "m", "type": "seafood"},
+    {"id": 54, "target": "camarón", "source": "shrimp", "gender": "m", "type": "seafood"},
+    {"id": 55, "target": "gamba", "source": "prawn", "gender": "f", "type": "seafood"},
+    {"id": 56, "target": "pulpo", "source": "octopus", "gender": "m", "type": "seafood"},
+    {"id": 57, "target": "mejillón", "source": "mussel", "gender": "m", "type": "seafood"},
+    {"id": 58, "target": "almeja", "source": "clam", "gender": "f", "type": "seafood"},
+    {"id": 59, "target": "langosta", "source": "lobster", "gender": "f", "type": "seafood"},
+    {"id": 60, "target": "calamar", "source": "squid", "gender": "m", "type": "seafood"},
+    {"id": 61, "target": "leche", "source": "milk", "gender": "f", "type": "dairy"},
+    {"id": 62, "target": "queso", "source": "cheese", "gender": "m", "type": "dairy"},
+    {"id": 63, "target": "yogur", "source": "yogurt", "gender": "m", "type": "dairy"},
+    {"id": 64, "target": "mantequilla", "source": "butter", "gender": "f", "type": "dairy"},
+    {"id": 65, "target": "crema", "source": "cream", "gender": "f", "type": "dairy"},
+    {"id": 66, "target": "queso manchego", "source": "Manchego cheese", "gender": "m", "type": "dairy"},
+    {"id": 67, "target": "pan", "source": "bread", "gender": "m", "type": "bakery"},
+    {"id": 68, "target": "baguette", "source": "baguette", "gender": "f", "type": "bakery"},
+    {"id": 69, "target": "bollo", "source": "bun", "gender": "m", "type": "bakery"},
+    {"id": 70, "target": "tostada", "source": "toast", "gender": "f", "type": "bakery"},
+    {"id": 71, "target": "croissant", "source": "croissant", "gender": "m", "type": "bakery"},
+    {"id": 72, "target": "galleta", "source": "cookie", "gender": "f", "type": "bakery"},
+    {"id": 73, "target": "pastel", "source": "cake", "gender": "m", "type": "bakery"},
+    {"id": 74, "target": "dulce", "source": "sweet/candy", "gender": "m", "type": "bakery"},
+    {"id": 75, "target": "helado", "source": "ice cream", "gender": "m", "type": "dessert"},
+    {"id": 76, "target": "chocolate", "source": "chocolate", "gender": "m", "type": "dessert"},
+    {"id": 77, "target": "fruta", "source": "fruit", "gender": "f", "type": "dessert"},
+    {"id": 78, "target": "arroz", "source": "rice", "gender": "m", "type": "grain"},
+    {"id": 79, "target": "pasta", "source": "pasta", "gender": "f", "type": "grain"},
+    {"id": 80, "target": "fideo", "source": "noodle", "gender": "m", "type": "grain"},
+    {"id": 81, "target": "cebada", "source": "barley", "gender": "f", "type": "grain"},
+    {"id": 82, "target": "café", "source": "coffee", "gender": "m", "type": "beverage"},
+    {"id": 83, "target": "té", "source": "tea", "gender": "m", "type": "beverage"},
+    {"id": 84, "target": "agua", "source": "water", "gender": "f", "type": "beverage"},
+    {"id": 85, "target": "zumo", "source": "juice (Spain)", "gender": "m", "type": "beverage"},
+    {"id": 86, "target": "jugo", "source": "juice (LatAm)", "gender": "m", "type": "beverage"},
+    {"id": 87, "target": "refresco", "source": "soda/soft drink", "gender": "m", "type": "beverage"},
+    {"id": 88, "target": "cerveza", "source": "beer", "gender": "f", "type": "beverage"},
+    {"id": 89, "target": "vino", "source": "wine", "gender": "m", "type": "beverage"},
+    {"id": 90, "target": "cerveza", "source": "beer", "gender": "f", "type": "beverage"},
+    {"id": 91, "target": "vino tinto", "source": "red wine", "gender": "m", "type": "beverage"},
+    {"id": 92, "target": "vino blanco", "source": "white wine", "gender": "m", "type": "beverage"},
+    {"id": 93, "target": "limonada", "source": "lemonade", "gender": "f", "type": "beverage"},
+    {"id": 94, "target": "café con leche", "source": "coffee with milk", "gender": "m", "type": "beverage"},
+    {"id": 95, "target": "azúcar", "source": "sugar", "gender": "f", "type": "condiment"},
+    {"id": 96, "target": "sal", "source": "salt", "gender": "f", "type": "condiment"},
+    {"id": 97, "target": "aceite", "source": "oil", "gender": "m", "type": "condiment"},
+    {"id": 98, "target": "vinagre", "source": "vinegar", "gender": "m", "type": "condiment"},
+    {"id": 99, "target": "salsa", "source": "sauce", "gender": "f", "type": "condiment"},
+    {"id": 100, "target": "mermelada", "source": "jam", "gender": "f", "type": "condiment"}
+  ],
+  "grammar": [
+    {
+      "title": "Gustar — To Like",
+      "content": "'Gustar' works differently from English 'to like'. It literally means 'to be pleasing to'.\n\nStructure: gustar + thing you like\n- Me gusta el café. (I like coffee.) — coffee pleases me\n- Me gustan los libros. (I like books.) — books please me\n\nThe verb agrees with the THING you like:\n- Singular: me gusta (it pleases me)\n- Plural: me gustan (they please me)\n\nPronouns:\n- me gusta (I like)\n- te gusta (you like informal)\n- le gusta (he/she/you formal like)\n- nos gusta (we like)\n- les gusta (they/you all like)\n\nExamples:\n- Me gusta la manzana. (I like the apple.)\n- Me gustan las manzanas. (I like apples.)\n- ¿Te gusta el chocolate? (Do you like chocolate?)\n- Sí, me gusta mucho. (Yes, I like it a lot.)\n- No, no me gusta. (No, I don't like it.)\n\n'Gustar mucho' = to like a lot\n'Gustar mucho' = to really like\n'No me gusta' = I don't like it\n\nCommon expressions:\n- Me encanta = I love (stronger than gustar)\n- Me encantan los gatos. (I love cats.)\n- Odio = I hate\n- Odio el pescado. (I hate fish.)",
+      "examples": [
+        "Me gusta el café. (I like coffee.)\nMe gustan los libros. (I like books.)\n¿Te gusta la música? (Do you like music?)\nSí, me gusta mucho. (Yes, I like it a lot.)\nNo, no me gusta. (No, I don't like it.)\nMe encanta la paella. (I love paella.)\nOdio el pescado. (I hate fish.)",
+        "Me gusta la fruta. (I like fruit.)\nMe gustan las fresas. (I like strawberries.)\n¿Te gusta el vino? (Do you like wine?)\nSí, me gusta el vino tinto. (Yes, I like red wine.)\nNo, no me gusta el queso. (No, I don't like cheese.)\nMe encanta la pizza. (I love pizza.)"
+      ]
+    },
+    {
+      "title": "Ordering at a Restaurant",
+      "content": "Common phrases for ordering food:\n\n- ¿Puedo ver la carta, por favor? (Can I see the menu, please?)\n- Quiero... (I want...)\n- Me gustaría... (I would like...)\n- Yo voy a... (I'm going to...)\n- Para mí... (For me...)\n\nAsking questions:\n- ¿Qué recomienda? (What do you recommend?)\n- ¿Qué hay de postre? (What's there for dessert?)\n- ¿Es picante? (Is it spicy?)\n- ¿Tienen algo sin gluten? (Do you have anything gluten-free?)\n\nDuring the meal:\n- Está delicioso. (It's delicious.)\n- Está bueno. (It's good.)\n- No me gusta. (I don't like it.)\n- Estoy satisfecho/a. (I'm satisfied.)\n\nPaying the bill:\n- La cuenta, por favor. (The bill, please.)\n- ¿Puedo pagar con tarjeta? (Can I pay by card?)\n- ¿Cuánto es? (How much is it?)\n- Dejen la propina. (Leave the tip.)\n\nCommon expressions:\n- Tengo hambre. (I'm hungry.)\n- Estoy lleno/a. (I'm full.)\n- ¿Qué quieres comer? (What do you want to eat?)\n- Vamos a comer. (Let's eat.)",
+      "examples": [
+        "¿Puedo ver la carta, por favor? (Can I see the menu, please?)\nQuiero una ensalada. (I want a salad.)\nMe gustaría un café. (I would like a coffee.)\nYo voy a tomar agua. (I'm going to have water.)\nPara mí, el pollo. (For me, the chicken.)",
+        "¿Qué recomienda? (What do you recommend?)\n¿Qué hay de postre? (What's there for dessert?)\n¿Es picante? (Is it spicy?)\nTengo hambre. (I'm hungry.)\nEstoy lleno. (I'm full.)\nLa cuenta, por favor. (The bill, please.)"
+      ]
+    },
+    {
+      "title": "Describing Tastes and Preferences",
+      "content": "Adjectives to describe food:\n\n- delicioso/a (delicious)\n- bueno/a (good)\n- malo/a (bad)\n- rico/a (rich/tasty)\n- fresco/a (fresh)\n- caliente (hot/warm)\n- frío/a (cold)\n- dulce (sweet)\n- salado/a (salty)\n- amargo/a (bitter)\n- agrio/a (sour)\n- picante (spicy)\n- suave (mild)\n- crujiente (crunchy)\n- blando/a (soft)\n- duro/a (hard)\n- seco/a (dry)\n- húmedo/a (moist)\n\nAsking about preferences:\n- ¿Te gusta el café con leche? (Do you like coffee with milk?)\n- ¿Prefieres té o café? (Do you prefer tea or coffee?)\n- ¿Qué te gusta comer? (What do you like to eat?)\n- ¿Qué no te gusta? (What don't you like?)\n\nExpressing preferences:\n- Prefiero... (I prefer...)\n- Me gusta más... (I like... more)\n- Me gusta menos... (I like... less)\n- Me encanta... (I love...)\n- Odio... (I hate...)\n\nComparing:\n- La manzana es más dulce que la naranja. (The apple is sweeter than the orange.)\n- El café es más caliente que el té. (Coffee is hotter than tea.)",
+      "examples": [
+        "La comida está deliciosa. (The food is delicious.)\nEl pescado está fresco. (The fish is fresh.)\nLa sopa está caliente. (The soup is hot.)\nEl pastel es dulce. (The cake is sweet.)\nEl queso es salado. (The cheese is salty.)",
+        "Prefiero el café con leche. (I prefer coffee with milk.)\nMe gusta más la manzana que la naranja. (I like apples more than oranges.)\nMe encanta la paella. (I love paella.)\nOdio el picante. (I hate spicy food.)\nLa manzana es más dulce que la naranja. (The apple is sweeter than the orange.)"
+      ]
+    },
+    {
+      "title": "Telling Time for Meals",
+      "content": "Spanish meal times and telling time:\n\n- Desayuno = breakfast (7:00-9:00)\n- Almuerzo = lunch (13:00-15:00)\n- Merienda = afternoon snack (17:00-19:00)\n- Cena = dinner (20:00-22:00)\n\nTelling time for meals:\n- A las ocho = at 8 o'clock\n- A mediodía = at noon\n- A media noche = at midnight\n- En la mañana = in the morning\n- En la tarde = in the afternoon\n- En la noche = in the evening/night\n\nMeal expressions:\n- Voy a almorzar. = I'm going to eat lunch.\n- ¿Ya comiste? = Have you already eaten?\n- Acabo de comer. = I just finished eating.\n- Vamos a cenar. = Let's have dinner.\n\nCommon adverbs of time:\n- ahora = now\n- pronto = soon\n- tarde = late/late (at a time)\n- temprano = early (at a time)\n- siempre = always\n- nunca = never\n- a veces = sometimes\n- frecuentemente = frequently",
+      "examples": [
+        "Desayuno a las siete. (I have breakfast at 7.)\nAlmuerzo a mediodía. (I eat lunch at noon.)\nCeno a las nueve. (I have dinner at 9.)\n¿A qué hora comes? (What time do you eat?)\nComemos siempre a las dos. (We always eat at 2.)\nNunca desayuno tarde. (I never eat breakfast late.)",
+        "Voy a almorzar ahora. (I'm going to eat lunch now.)\nAcabo de cenar. (I just finished dinner.)\n¿Ya comiste? (Have you already eaten?)\nVamos a cenar pronto. (Let's have dinner soon.)\nA veces como merienda. (Sometimes I have a snack.)"
+      ]
+    }
+  ],
+  "pronunciation": [
+    {
+      "title": "Food Words — Stress and Syllables",
+      "content": "Common food word pronunciations:\n\n- manzana = mah-NTHAH-nah (n before 'z' sounds like 'th' in Spain)\n- plátano = plah-TAH-noh (accent on 'ta')\n- naranja = nah-RAN-jah (j = strong h)\n- uva = OO-bah (v = like 'b' in Spanish)\n- sandía = san-DEE-ah (accent on 'dee')\n- tomate = to-MAH-teh (accent on 'ma')\n- cebolla = seh-BO-yah (ll = like 'y' in Spanish)\n- zanahoria = sah-nah-OH-ree-ah (accent on 'oh')\n- patata = pah-TAH-tah (accent on 'ta')\n- pollo = PO-yoh (ll = like 'y')\n- cerdo = SER-doh (accent on 'ser')\n- pescado = pehs-KAH-doh (accent on 'kah')\n- queso = KEH-soh (accent on 'ke')\n- pan = pahn (one syllable)\n- leche = LEH-cheh (accent on 'le')\n- agua = AH-gwah (accent on 'ah')",
+      "examples": [
+        "manzana = mah-NTHAH-nah\nplátano = plah-TAH-noh\nnaranja = nah-RAN-jah\nuva = OO-bah\nsandía = san-DEE-ah\ntomate = to-MAH-teh\ncebolla = seh-BO-yah\nzanahoria = sah-nah-OH-ree-ah\npatata = pah-TAH-tah\npollo = PO-yoh\ncerdo = SER-doh\npescado = pehs-KAH-doh\nqueso = KEH-soh\npan = pahn\nleche = LEH-cheh\nagua = AH-gwah"
+      ]
+    },
+    {
+      "title": "Restaurant Vocabulary — Pronunciation",
+      "content": "Restaurant term pronunciations:\n\n- carta = KAR-tah (menu)\n- plato = PLAH-toh (dish/plate)\n- cuchara = koo-CHAH-rah (spoon)\n- tenedor = teh-neh-DOHR (fork)\n- cuchillo = koo-CHEE-yoh (knife)\n- taza = TA-ssah (cup)\n- vaso = VAH-soh (glass)\n- cuenta = KWEHN-tah (bill)\n- propina = proh-PEE-nah (tip)\n- hambre = AHM-breh (hunger)\n- lleno/a = YEH-noh/a (full)\n- delicioso/a = deh-lee-SYOH-soh/a (delicious)\n- fresco/a = FREHS-koh/a (fresh)\n- caliente = cah-LYEH-teh (hot)\n- dulce = DWEH-teh (sweet)\n- salado/a = sah-LAH-doh/a (salty)",
+      "examples": [
+        "carta = KAR-tah\nplato = PLAH-toh\ncuchara = koo-CHAH-rah\ntenedor = teh-neh-DOHR\ncuchillo = koo-CHEE-yoh\ntaza = TA-ssah\nvaso = VAH-soh\ncuenta = KWEHN-tah\npropina = proh-PEE-nah\nhambre = AHM-breh\nlleno = YEH-noh\ndelicioso = deh-lee-SYOH-soh\nfresco = FREHS-koh\ncaliente = cah-LYEH-teh\ndulce = DWEH-teh\nsalado = sah-LAH-doh"
+      ]
+    },
+    {
+      "title": "Beverages and Desserts — Pronunciation",
+      "content": "Pronunciation of drink and dessert words:\n\n- café = kah-FEH (accent on 'fe')\n- té = tay (one syllable, long 'a')\n- agua = AH-gwah (accent on 'ah')\n- zumo = SOO-moh (u = 'oo')\n- jugo = HOO-goh (g = like 'h' in some regions)\n- refresco = reh-FREHS-koh (accent on 'fre')\n- cerveza = ser-VEH-sah (accent on 've')\n- vino = VEE-noh (accent on 'vi')\n- helado = eh-LAH-doh (accent on 'la')\n- chocolate = choh-ko-LA-teh (accent on 'la')\n- pastel = pah-SEL (accent on 'pa')\n- galleta = gah-LEH-tah (accent on 'le')\n- arroz = ah-ROHS (rr = trill, accent on 'o')\n- mantequilla = man-teh-KYAH-yah (accent on 'kyah')",
+      "examples": [
+        "café = kah-FEH\nté = tay\nagua = AH-gwah\nzumo = SOO-moh\njugo = HOO-goh\nrefresco = reh-FREHS-koh\ncerveza = ser-VEH-sah\nvino = VEE-noh\nhelado = eh-LAH-doh\nchocolate = choh-ko-LA-teh\npastel = pah-SEL\ngalleta = gah-LEH-tah\narroz = ah-ROHS\nmantequilla = man-teh-KYAH-yah"
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "multiple-choice",
+      "question": "What is 'apple' in Spanish?",
+      "options": ["naranja", "manzana", "plátano", "uva"],
+      "correct": 1,
+      "explanation": "'Manzana' = apple. 'Naranja' = orange. 'Plátano' = banana. 'Uva' = grape."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "How do you say 'I like coffee' in Spanish?",
+      "options": ["Yo gusto café", "Me gusta el café", "Me gustas el café", "Café me gusta"],
+      "correct": 1,
+      "explanation": "'Me gusta el café' = I like coffee. The thing you like comes after 'gusta'."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What does 'gustar' mean literally?",
+      "options": ["to like", "to be pleasing", "to want", "to eat"],
+      "correct": 1,
+      "explanation": "'Gustar' literally means 'to be pleasing to'. 'Me gusta' = 'It pleases me' = 'I like it'."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: '___ gusta la manzana.' (I like the apple.)",
+      "correct": "Me",
+      "explanation": "'Me gusta' = I like. 'Me' is the reflexive pronoun for 'yo'."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: 'Me ___ los libros.' (I like books.)",
+      "correct": "gustan",
+      "explanation": "Use 'gustan' (plural) because 'libros' is plural. 'Me gustan' = I like them."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: '___ cuenta, por favor.' (The bill, please.)",
+      "correct": "La",
+      "explanation": "'La cuenta' = the bill. 'Por favor' = please."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What is 'chicken' in Spanish?",
+      "options": ["cerdo", "res", "pollo", "pavo"],
+      "correct": 2,
+      "explanation": "'Pollo' = chicken. 'Cerdo' = pork. 'Res' = beef. 'Pavo' = turkey."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: 'Tengo ___. (I'm hungry.)",
+      "correct": "hambre",
+      "explanation": "'Tengo hambre' = I'm hungry. Literally 'I have hunger'."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What does 'picante' mean?",
+      "options": ["Sweet", "Salty", "Spicy", "Bitter"],
+      "correct": 2,
+      "explanation": "'Picante' = spicy. 'Dulce' = sweet. 'Salado' = salty. 'Amargo' = bitter."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: 'Estoy ___. (I'm full.)",
+      "correct": "lleno",
+      "explanation": "'Estoy lleno' = I'm full (male speaker). 'Estoy llena' = I'm full (female speaker)."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What is 'bread' in Spanish?",
+      "options": ["queso", "leche", "pan", "agua"],
+      "correct": 2,
+      "explanation": "'Pan' = bread. 'Queso' = cheese. 'Leche' = milk. 'Agua' = water."
+    },
+    {
+      "type": "translation",
+      "question": "Translate to Spanish: 'I like apples'",
+      "correct": "me gusta la manzana",
+      "explanation": "'Me gusta' = I like. 'La manzana' = the apple. Together: 'Me gusta la manzana.'"
+    },
+    {
+      "type": "translation",
+      "question": "Translate to Spanish: 'I would like coffee, please'",
+      "correct": "me gustaría el café, por favor",
+      "explanation": "'Me gustaría' = I would like. 'El café' = coffee. 'Por favor' = please."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What is 'water' in Spanish?",
+      "options": ["café", "agua", "zumo", "leche"],
+      "correct": 1,
+      "explanation": "'Agua' = water. 'Café' = coffee. 'Zumo' = juice. 'Leche' = milk."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: 'Me gusta ___ manzanas.' (I like apples.)",
+      "correct": "las",
+      "explanation": "Use 'las' (the, feminine plural) because 'manzanas' is plural and feminine. 'Me gustan las manzanas' = I like apples."
+    },
+    {
+      "type": "translation",
+      "question": "Translate to Spanish: 'The bill, please'",
+      "correct": "la cuenta por favor",
+      "explanation": "'La cuenta' = the bill. 'Por favor' = please. Together: 'La cuenta, por favor.'"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What is 'cheese' in Spanish?",
+      "options": ["leche", "mantequilla", "queso", "yogur"],
+      "correct": 2,
+      "explanation": "'Queso' = cheese. 'Leche' = milk. 'Mantequilla' = butter. 'Yogur' = yogurt."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: '___ recomiendas?' (What do you recommend?)",
+      "correct": "Qué",
+      "explanation": "'¿Qué recomienda?' = What do you recommend? 'Qué' = what."
+    },
+    {
+      "type": "translation",
+      "question": "Translate to Spanish: 'I prefer tea'",
+      "correct": "prefiero el té",
+      "explanation": "'Prefiero' = I prefer. 'El té' = tea. Together: 'Prefiero el té.'"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Which word means 'delicious' in Spanish?",
+      "options": ["frío", "delicioso", "amargo", "picante"],
+      "correct": 1,
+      "explanation": "'Delicioso' = delicious. 'Frío' = cold. 'Amargo' = bitter. 'Picante' = spicy."
+    }
+  ]
+}

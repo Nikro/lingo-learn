@@ -1,0 +1,392 @@
+{
+  "id": "sports-activities",
+  "level": "a1-2",
+  "title": "Sports & Activities",
+  "description": "Learn to talk about sports, physical activities, exercise routines, and staying in shape in Spanish.",
+  "vocabulary": [
+    {"id": 1, "target": "deporte", "source": "sport", "gender": "m", "type": "noun"},
+    {"id": 2, "target": "deportista", "source": "athlete/sportsperson", "gender": "m/f", "type": "noun"},
+    {"id": 3, "target": "ejercicio", "source": "exercise", "gender": "m", "type": "noun"},
+    {"id": 4, "target": "físico/a", "source": "physical", "gender": "m", "type": "adjective"},
+    {"id": 5, "target": "fútbol", "source": "soccer/football", "gender": "m", "type": "noun"},
+    {"id": 6, "target": "baloncesto", "source": "basketball", "gender": "m", "type": "noun"},
+    {"id": 7, "target": "tenis", "source": "tennis", "gender": "m", "type": "noun"},
+    {"id": 8, "target": "natación", "source": "swimming", "gender": "f", "type": "noun"},
+    {"id": 9, "target": "ciclismo", "source": "cycling", "gender": "m", "type": "noun"},
+    {"id": 10, "target": "atletismo", "source": "athletics", "gender": "m", "type": "noun"},
+    {"id": 11, "target": "gimnasio", "source": "gym", "gender": "m", "type": "noun"},
+    {"id": 12, "target": "partido", "source": "match/game", "gender": "m", "type": "noun"},
+    {"id": 13, "target": "equipo", "source": "team", "gender": "m", "type": "noun"},
+    {"id": 14, "target": "campeonato", "source": "championship", "gender": "m", "type": "noun"},
+    {"id": 15, "target": "juego", "source": "game/play", "gender": "m", "type": "noun"},
+    {"id": 16, "target": "pelota", "source": "ball", "gender": "f", "type": "noun"},
+    {"id": 17, "target": "canasta", "source": "basket/hoop", "gender": "f", "type": "noun"},
+    {"id": 18, "target": "portería", "source": "goal", "gender": "f", "type": "noun"},
+    {"id": 19, "target": "red", "source": "net", "gender": "f", "type": "noun"},
+    {"id": 20, "target": "raqueta", "source": "racket", "gender": "f", "type": "noun"},
+    {"id": 21, "target": "bici / bicicleta", "source": "bicycle", "gender": "f", "type": "noun"},
+    {"id": 22, "target": "campo", "source": "field/court", "gender": "m", "type": "noun"},
+    {"id": 23, "target": "piscina", "source": "pool", "gender": "f", "type": "noun"},
+    {"id": 24, "target": "pista", "source": "court/track", "gender": "f", "type": "noun"},
+    {"id": 25, "target": "estadio", "source": "stadium", "gender": "m", "type": "noun"},
+    {"id": 26, "target": "entrenamiento", "source": "training", "gender": "m", "type": "noun"},
+    {"id": 27, "target": "victoria", "source": "victory", "gender": "f", "type": "noun"},
+    {"id": 28, "target": "derrota", "source": "defeat", "gender": "f", "type": "noun"},
+    {"id": 29, "target": "gol", "source": "goal", "gender": "m", "type": "noun"},
+    {"id": 30, "target": "punto", "source": "point", "gender": "m", "type": "noun"},
+    {"id": 31, "target": "marcador", "source": "score", "gender": "m", "type": "noun"},
+    {"id": 32, "target": "rival", "source": "rival/opponent", "gender": "m/f", "type": "noun"},
+    {"id": 33, "target": "árbitro", "source": "referee", "gender": "m/f", "type": "noun"},
+    {"id": 34, "target": "aficionado", "source": "fan/follower", "gender": "m", "type": "noun"},
+    {"id": 35, "target": "aficionada", "source": "fan/follower (f)", "gender": "f", "type": "noun"},
+    {"id": 36, "target": "camiseta", "source": "jersey/kit", "gender": "f", "type": "noun"},
+    {"id": 37, "target": "zapatillas", "source": "sneakers/shoes", "gender": "f", "type": "noun"},
+    {"id": 38, "target": "shorts", "source": "shorts", "gender": "m", "type": "noun"},
+    {"id": 39, "target": "camiseta", "source": "t-shirt/jersey", "gender": "f", "type": "noun"},
+    {"id": 40, "target": "protector", "source": "protector/guard", "gender": "m", "type": "noun"},
+    {"id": 41, "target": "calor", "source": "heat", "gender": "m", "type": "noun"},
+    {"id": 42, "target": "frío", "source": "cold", "gender": "m", "type": "noun"},
+    {"id": 43, "target": "salud", "source": "health", "gender": "f", "type": "noun"},
+    {"id": 44, "target": "en forma", "source": "in shape", "gender": "m", "type": "phrase"},
+    {"id": 45, "target": "fuerte", "source": "strong", "gender": "m", "type": "adjective"},
+    {"id": 46, "target": "rápido", "source": "fast", "gender": "m", "type": "adjective"},
+    {"id": 47, "target": "fuerte", "source": "strong/tough", "gender": "m", "type": "adjective"},
+    {"id": 48, "target": "activo/a", "source": "active", "gender": "m", "type": "adjective"},
+    {"id": 49, "target": "competitivo/a", "source": "competitive", "gender": "m", "type": "adjective"},
+    {"id": 50, "target": "divertido", "source": "fun", "gender": "m", "type": "adjective"},
+    {"id": 51, "target": "difícil", "source": "difficult", "gender": "m", "type": "adjective"},
+    {"id": 52, "target": "popular", "source": "popular", "gender": "m", "type": "adjective"},
+    {"id": 53, "target": "favorito", "source": "favorite", "gender": "m", "type": "adjective"},
+    {"id": 54, "target": "jugar", "source": "to play (sports)", "gender": "m", "type": "verb"},
+    {"id": 55, "target": "practicar", "source": "to practice/do (a sport)", "gender": "m", "type": "verb"},
+    {"id": 56, "target": "correr", "source": "to run", "gender": "m", "type": "verb"},
+    {"id": 57, "target": "nadar", "source": "to swim", "gender": "m", "type": "verb"},
+    {"id": 58, "target": "montar", "source": "to ride", "gender": "m", "type": "verb"},
+    {"id": 59, "target": "entrenar", "source": "to train", "gender": "m", "type": "verb"},
+    {"id": 60, "target": "ganar", "source": "to win", "gender": "m", "type": "verb"},
+    {"id": 61, "target": "perder", "source": "to lose", "gender": "m", "type": "verb"},
+    {"id": 62, "target": "marcar (un gol)", "source": "to score (a goal)", "gender": "m", "type": "verb"},
+    {"id": 63, "target": "hacer ejercicio", "source": "to exercise", "gender": "m", "type": "phrase"},
+    {"id": 64, "target": "ir al gimnasio", "source": "to go to the gym", "gender": "m", "type": "phrase"},
+    {"id": 65, "target": "hacer senderismo", "source": "to go hiking", "gender": "m", "type": "phrase"},
+    {"id": 66, "target": "ir a correr", "source": "to go for a run", "gender": "m", "type": "phrase"},
+    {"id": 67, "target": "caminar", "source": "to walk", "gender": "m", "type": "verb"},
+    {"id": 68, "target": "saltar", "source": "to jump", "gender": "m", "type": "verb"},
+    {"id": 69, "target": "lanzar", "source": "to throw", "gender": "m", "type": "verb"},
+    {"id": 70, "target": "atrapar", "source": "to catch", "gender": "m", "type": "verb"},
+    {"id": 71, "target": "golpear", "source": "to hit/strike", "gender": "m", "type": "verb"},
+    {"id": 72, "target": "patinar", "source": "to skate", "gender": "m", "type": "verb"},
+    {"id": 73, "target": "esquiar", "source": "to ski", "gender": "m", "type": "verb"},
+    {"id": 74, "target": "surfear", "source": "to surf", "gender": "m", "type": "verb"},
+    {"id": 75, "target": "bucear", "source": "to scuba dive", "gender": "m", "type": "verb"},
+    {"id": 76, "target": "estirar", "source": "to stretch", "gender": "m", "type": "verb"},
+    {"id": 77, "target": "descansar", "source": "to rest", "gender": "m", "type": "verb"},
+    {"id": 78, "target": "subir", "source": "to climb/go up", "gender": "m", "type": "verb"},
+    {"id": 79, "target": "bajar", "source": "to go down", "gender": "m", "type": "verb"},
+    {"id": 80, "target": "pasar / pasear", "source": "to go for a walk/stroll", "gender": "m", "type": "verb"},
+    {"id": 81, "target": "competir", "source": "to compete", "gender": "m", "type": "verb"},
+    {"id": 82, "target": "seguir", "source": "to follow/keep doing", "gender": "m", "type": "verb"},
+    {"id": 83, "target": "parar", "source": "to stop", "gender": "m", "type": "verb"},
+    {"id": 84, "target": "preparar", "source": "to prepare/get ready", "gender": "m", "type": "verb"},
+    {"id": 85, "target": "calentar", "source": "to warm up", "gender": "m", "type": "verb"},
+    {"id": 86, "target": "estirar", "source": "to stretch", "gender": "m", "type": "verb"},
+    {"id": 87, "target": "cada día", "source": "every day", "gender": "m", "type": "phrase"},
+    {"id": 88, "target": "todos los días", "source": "every day", "gender": "m", "type": "phrase"},
+    {"id": 89, "target": "a veces", "source": "sometimes", "gender": "m", "type": "phrase"},
+    {"id": 90, "target": "nunca", "source": "never", "gender": "m", "type": "adverb"},
+    {"id": 91, "target": "siempre", "source": "always", "gender": "m", "type": "adverb"},
+    {"id": 92, "target": "a menudo", "source": "often", "gender": "m", "type": "phrase"},
+    {"id": 93, "target": "los fines de semana", "source": "on weekends", "gender": "m", "type": "phrase"},
+    {"id": 94, "target": "por la mañana", "source": "in the morning", "gender": "m", "type": "phrase"},
+    {"id": 95, "target": "por la tarde", "source": "in the afternoon/evening", "gender": "f", "type": "phrase"},
+    {"id": 96, "target": "al aire libre", "source": "outdoors", "gender": "m", "type": "phrase"},
+    {"id": 97, "target": "deporte de invierno", "source": "winter sport", "gender": "m", "type": "phrase"},
+    {"id": 98, "target": "deporte de verano", "source": "summer sport", "gender": "m", "type": "phrase"},
+    {"id": 99, "target": "deporte individual", "source": "individual sport", "gender": "m", "type": "phrase"},
+    {"id": 100, "target": "deporte en equipo", "source": "team sport", "gender": "m", "type": "phrase"}
+  ],
+  "grammar": [
+    {
+      "title": "Jugar a — To Play (a sport/game)",
+      "content": "Jugar a is used for playing sports and games. It is an irregular verb in the present tense (u→ue stem change).\n\nConjugation:\nYo juego a (I play)\nTú juegas a (You play — informal)\nÉl/Ella/Usted juega a (He/She/You formal plays)\nNosotros/Nosotras jugamos a (We play)\nVosotros/Vosotras jugáis a (You all play — Spain)\nEllos/Ellas/Ustedes juegan a (They/You all play)\n\nWith sports:\nJuego al fútbol. (I play soccer.) — jugar a + el = jugar al\nJuegas al baloncesto. (You play basketball.)\nJuegan al tenis. (They play tennis.)\n¿Juegas al tenis? (Do you play tennis?)\nJugamos al béisbol. (We play baseball.)\n\nIMPORTANT: 'al' = 'a' + 'el'. Always use 'al' before masculine sports.\nJuego al fútbol. NOT 'Juego a el fútbol'.\n\nExamples:\n¿Juegas al fútbol los sábados? (Do you play soccer on Saturdays?)\nSí, juego al fútbol los sábados. (Yes, I play soccer on Saturdays.)\nNo juego al fútbol. Prefiero el tenis. (I don't play soccer. I prefer tennis.)\nMis amigos juegan al baloncesto. (My friends play basketball.)",
+      "examples": [
+        "¿Juegas al fútbol? (Do you play soccer?)\nSí, juego al fútbol. (Yes, I play soccer.)\n¿Juegas al baloncesto? (Do you play basketball?)\nNo, no juego al baloncesto. (No, I don't play basketball.)",
+        "Juego al tenis los domingos. (I play tennis on Sundays.)\n¿Juegas a las cartas? (Do you play cards?)\nMis hijos juegan al ping-pong. (My kids play ping-pong.)\nMi hermana juega al voleibol. (My sister plays volleyball.)",
+        "Jugamos a fútbol los viernes. (We play soccer on Fridays.)\n¿Juegan al fútbol? (Do they play soccer?)\nSí, juegan al fútbol todos los días. (Yes, they play soccer every day.)\nNo juegan al béisbol. (They don't play baseball.)"
+      ]
+    },
+    {
+      "title": "Practicar — To Practice / Do (a sport)",
+      "content": "Practicar means to practice or to do (a sport, activity). It is a regular -ar verb.\n\nConjugation:\nYo practico (I practice/do)\nTú practicas (You practice — informal)\nÉl/Ella/Usted practica (He/She/You formal practices)\nNosotros/Nosotras practicamos (We practice)\nVosotros/Vosotras practicáis (You all practice — Spain)\nEllos/Ellas/Ustedes practican (They practice)\n\nWith sports and activities:\nPractico natación. (I swim / I practice swimming.)\n¿Practicas algún deporte? (Do you practice any sport?)\nPracticamos yoga por la mañana. (We practice yoga in the morning.)\nElla practica tenis. (She plays tennis.)\n\nUsing 'practicar' vs 'jugar a':\nPracticar is for individual sports and activities (natación, yoga, atletismo)\nJugar a is for games with teams and rules (fútbol, baloncesto, tenis)\n\nExamples:\nPractico deportes al aire libre. (I do outdoor sports.)\n¿Qué deportes practicas? (What sports do you do?)\nPractico natación tres veces por semana. (I swim three times a week.)\nPractica esquí en los Alpes. (He/She skis in the Alps.)",
+      "examples": [
+        "¿Practicas algún deporte? (Do you do any sport?)\nSí, practico natación. (Yes, I swim.)\nNo practico ningún deporte. (I don't do any sport.)\nPractico yoga cada día. (I practice yoga every day.)",
+        "Practico atletismo en la universidad. (I do athletics at the university.)\n¿Tu hermano practica algún deporte? (Does your brother do any sport?)\nSí, practica ciclismo. (Yes, he does cycling.)\nPracticamos senderismo los fines de semana. (We go hiking on weekends.)",
+        "Practica tenis todos los días. (He/She plays tennis every day.)\n¿Practicáis algún deporte en la escuela? (Do you all do any sport at school?)\nSí, practicamos baloncesto. (Yes, we play basketball.)\nEllos practican boxeo. (They practice boxing.)"
+      ]
+    },
+    {
+      "title": "Hacer + Activity — To Do (an activity)",
+      "content": "Hacer is one of the most important and irregular verbs in Spanish. It means 'to do/make' and is used with many activities.\n\nIrregular present conjugation:\nYo hago (I do) — irregular!\nTú haces (You do — informal)\nÉl/Ella/Usted hace (He/She/You formal does)\nNosotros/Nosotras hacemos (We do)\nVosotros/Vosotras hacéis (You all do — Spain)\nEllos/Ellas/Ustedes hacen (They do)\n\nHacer + activities:\nHago ejercicio todos los días. (I exercise every day.)\nHacemos senderismo los sábados. (We go hiking on Saturdays.)\n¿Haces deporte? (Do you do sports?)\nHacen ejercicio en el gimnasio. (They exercise at the gym.)\n\nCommon hacer activities:\nHacer ejercicio = to exercise\nHacer deporte = to do sports\nHacer senderismo = to go hiking\nHacer yoga = to do yoga\nHacer ciclismo = to go cycling\n\nNOTA: Hacer is irregular only in the 'yo' form (hago). Everything else follows regular -er patterns.\n\nExamples:\n¿Haces ejercicio por la mañana? (Do you exercise in the morning?)\nSí, hago ejercicio por la mañana. (Yes, I exercise in the morning.)\nNo hacemos deporte. (We don't do sports.)\nHacemos ejercicio juntos. (We exercise together.)",
+      "examples": [
+        "¿Haces deporte? (Do you do sports?)\nSí, hago deporte. (Yes, I do sports.)\n¿Haces ejercicio? (Do you exercise?)\nHago ejercicio tres veces a la semana. (I exercise three times a week.)",
+        "Hacemos senderismo los domingos. (We go hiking on Sundays.)\n¿Hacéis deporte en el colegio? (Do you all do sports at school — Spain?)\nSí, hacemos baloncesto. (Yes, we play basketball.)\nNo hacen senderismo. (They don't go hiking.)",
+        "Hago yoga por la mañana. (I do yoga in the morning.)\n¿Haces ciclismo? (Do you cycle?)\nSí, hago ciclismo los fines de semana. (Yes, I cycle on weekends.)\nHacemos natación en la piscina. (We swim at the pool.)"
+      ]
+    },
+    {
+      "title": "Ir + a + Infinitive — To Be Going To (Do Something)",
+      "content": "Ir (to go) + a + infinitive is a very common way to express future intention in Spanish.\n\nConjugation of 'ir':\nYo voy (I go)\nTú vas (You go — informal)\nÉl/Ella/Usted va (He/She/You formal goes)\nNosotros/Nosotras vamos (We go)\nVosotros/Vosotras vais (You all go — Spain)\nEllos/Ellas/Ustedes van (They go)\n\nGoing to do something:\nVoy a correr esta mañana. (I'm going to run this morning.)\n¿Vas al gimnasio? (Are you going to the gym?)\nVamos a practicar deporte. (We're going to do sports.)\nVan a jugar al fútbol. (They're going to play soccer.)\n\nIr + a + place (for sports venues):\nVoy al gimnasio. (I'm going to the gym.) — ir a + el = ir al\nVa a la piscina. (She's going to the pool.)\nVamos al estadio. (We're going to the stadium.)\n¿Van al campo? (Are they going to the field?)\n\nCommon sports venue phrases:\nVoy al gimnasio. (I'm going to the gym.)\nVamos a la piscina. (We're going to the pool.)\nVoy al campo de fútbol. (I'm going to the soccer field.)\nVamos a la pista de tenis. (We're going to the tennis court.)\n\nExamples:\n¿Vas a hacer ejercicio hoy? (Are you going to exercise today?)\nSí, voy a correr. (Yes, I'm going to run.)\n¿Vamos a jugar al tenis? (Are we going to play tennis?)\nSí, vamos a la pista. (Yes, we're going to the court.)",
+      "examples": [
+        "¿Vas al gimnasio esta tarde? (Are you going to the gym this afternoon?)\nSí, voy al gimnasio a las cinco. (Yes, I'm going to the gym at five.)\n¿Vas a jugar al fútbol? (Are you going to play soccer?)\nSí, vamos al campo a las seis. (Yes, we're going to the field at six.)",
+        "Voy a nadar en la piscina. (I'm going to swim in the pool.)\n¿Vas a hacer senderismo? (Are you going hiking?)\nSí, voy a la montaña. (Yes, I'm going to the mountains.)\nNo vamos al estadio. (We're not going to the stadium.)",
+        "Van a practicar tenis. (They're going to play tennis.)\n¿Vais a correr? (Are you all going to run — Spain?)\nSí, vamos a ir a correr. (Yes, we're going to go for a run.)\nVa a hacer yoga. (She's going to do yoga.)"
+      ]
+    }
+  ],
+  "expressions": [
+    {
+      "title": "Talking About Sports — Essential Phrases",
+      "content": "Expressing your preferences:\nMe gusta hacer deporte. (I like to do sports.)\nMe encanta el fútbol. (I love soccer.)\nNo me gusta el baloncesto. (I don't like basketball.)\nMe fascina la natación. (I'm fascinated by swimming.)\nMi deporte favorito es... (My favorite sport is...)\nPrefiero hacer deporte al aire libre. (I prefer to do outdoor sports.)\n\nDescribing your routine:\nHago ejercicio todos los días. (I exercise every day.)\nVoy al gimnasio tres veces por semana. (I go to the gym three times a week.)\nJuego al fútbol los fines de semana. (I play soccer on weekends.)\nCorro por la mañana. (I run in the morning.)\nPractico natación por la tarde. (I swim in the afternoon.)\n\nTalking about health:\nEl deporte es bueno para la salud. (Sports are good for health.)\nHacer ejercicio es importante. (Exercising is important.)\nQuiero estar en forma. (I want to be in shape.)\nHacer deporte me ayuda a relajarme. (Doing sports helps me relax.)\nEstoy fuerte y sano. (I'm strong and healthy.)\n\nExamples:\n¿Te gusta el deporte? (Do you like sports?)\nSí, me gusta mucho. (Yes, I like them a lot.)\nMi deporte favorito es el fútbol. (My favorite sport is soccer.)\nNo me gusta el boxeo. (I don't like boxing.)",
+      "examples": [
+        "¿Qué deporte te gusta? (What sport do you like?)\nMe gusta el tenis. (I like tennis.)\n¿Y a tu hermana? (And your sister?)\nA ella le gusta la natación. (She likes swimming.)",
+        "Me encanta hacer deporte. (I love doing sports.)\n¿Qué deportes practicas? (What sports do you do?)\nPractico atletismo. (I do athletics.)\n¿Tú haces deporte? (Do you do sports?)\nSí, hago ejercicio todos los días. (Yes, I exercise every day.)",
+        "Mi deporte favorito es el fútbol. (My favorite sport is soccer.)\nPrefiero los deportes en equipo. (I prefer team sports.)\nNo me gusta hacer deporte al aire libre. (I don't like doing outdoor sports.)\nPrefiero el gimnasio. (I prefer the gym.)"
+      ]
+    },
+    {
+      "title": "At the Gym / Doing Exercise — Common Phrases",
+      "content": "Going to the gym:\nVoy al gimnasio. (I'm going to the gym.)\n¿Vas al gimnasio? (Are you going to the gym?)\nTrabajo en el gimnasio. (I work at the gym.)\nEl gimnasio está cerca de mi casa. (The gym is near my house.)\n\nExercise routine:\nMe caliento antes de entrenar. (I warm up before training.)\nHago ejercicios de estiramiento. (I do stretching exercises.)\nCorro en la cinta. (I run on the treadmill.)\nLevanto pesas. (I lift weights.)\nHago abdominales. (I do sit-ups.)\n\nAfter exercising:\nMe canso mucho. (I get very tired.)\nTengo sed. (I'm thirsty.)\nNecesito agua. (I need water.)\nMe duele el cuerpo. (My body hurts.)\nMe relajo después de entrenar. (I relax after training.)\n\nExercise frequency:\nHago ejercicio cada día. (I exercise every day.)\nVoy al gimnasio a menudo. (I go to the gym often.)\nNo hago ejercicio nunca. (I never exercise.)\nA veces corro por el parque. (Sometimes I run in the park.)\nSiempre hago estiramientos. (I always stretch.)\n\nExamples:\n¿A qué hora vas al gimnasio? (What time do you go to the gym?)\nVoy al gimnasio por la mañana. (I go to the gym in the morning.)\n¿Por qué haces ejercicio? (Why do you exercise?)\nPara estar en forma. (To be in shape.)",
+      "examples": [
+        "¿Haces ejercicio todos los días? (Do you exercise every day?)\nNo, solo tres veces por semana. (No, only three times a week.)\n¿Cuándo vas al gimnasio? (When do you go to the gym?)\nVoy por la tarde. (I go in the afternoon.)",
+        "Me caliento antes de correr. (I warm up before running.)\n¿Levantas pesas? (Do you lift weights?)\nSí, levanto pesas todos los días. (Yes, I lift weights every day.)\nNo, prefiero correr. (No, I prefer running.)",
+        "Tengo mucho calor al entrenar. (I get very hot when training.)\nNecesito beber mucha agua. (I need to drink lots of water.)\nDespués del gimnasio voy a casa. (After the gym I go home.)\nMe gusta estirar después de entrenar. (I like to stretch after training.)"
+      ]
+    },
+    {
+      "title": "Watching Sports — Fan Expressions",
+      "content": "Talking about watching sports:\nMe gusta ver deportes en la televisión. (I like watching sports on TV.)\n¿Viste el partido ayer? (Did you see the match yesterday?)\nEl fútbol es el deporte más popular. (Soccer is the most popular sport.)\nSoy fan del Real Madrid. (I'm a fan of Real Madrid.)\nLos partidos de fútbol son emocionantes. (Soccer matches are exciting.)\n\nTalking about matches:\nEl partido empezó a las ocho. (The match started at eight.)\n¿Cuál es el marcador? (What's the score?)\nMarcaron dos goles. (They scored two goals.)\n¡Qué gol! (What a goal!)\n¡Ganamos! (We won!)\nPerdimos el partido. (We lost the match.)\n\nTalking about champions:\n¿Quién ganó el campeonato? (Who won the championship?)\nMi equipo es el campeón. (My team is the champion.)\nEl mejor jugador es Messi. (The best player is Messi.)\nNuestro equipo ganó la victoria. (Our team won the victory.)\n\nExamples:\n¿Viste el partido de ayer? (Did you see yesterday's match?)\nSí, fue increíble. (Yes, it was amazing.)\n¿Quién ganó? (Who won?)\nGanamos 2-1. (We won 2-1.)",
+      "examples": [
+        "Soy aficionado del fútbol. (I'm a soccer fan.)\n¿Eres fan de algún equipo? (Are you a fan of any team?)\nSí, soy del Barcelona. (Yes, I'm from Barcelona / I support Barcelona.)\nYo soy del Real Madrid. (I'm a Real Madrid fan.)",
+        "El marcador es 1-0. (The score is 1-0.)\n¿Cuántos goles hay? (How many goals are there?)\nHay tres goles. (There are three goals.)\n¡Qué buen partido! (What a good match!)",
+        "Mi equipo favorito es el Atlético. (My favorite team is Atlético.)\n¿De qué equipo eres? (Which team are you from / support?)\nSoy del Sevilla. (I'm from Sevilla / I support Sevilla.)\n¡Vamos mi equipo! (Come on, my team!)"
+      ]
+    }
+  ],
+  "pronunciation": [
+    {
+      "title": "Sports Vocabulary Pronunciation Guide",
+      "content": "Key sports vocabulary with pronunciation:\n\ndepor te = dehs-POR-teh (sport)\nde por tista = deh-por-TEES-tah (athlete)\nejer cicio = heh-SER-see-oh (exercise)\nfútbol = FOOS-bohl (soccer)\nbalcues to = bal-KWEHS-toh (basketball)\nte nis = Teh-NEES (tennis)\nnata ción = nah-tah-see-ON (swimming)\nciclis mo = see-klees-MOH (cycling)\nexer cicio = heh-SER-see-oh (exercise)\nexer cicio físico = heh-SER-see-oh fee-SEE-koh (physical exercise)\njugar = HOOG-ar (to play)\npracti car = prak-tee-KAR (to practice)\ncorre r = koh-REHR (to run)\nnadar = nah-DAR (to swim)\ngimna sio = gheem-NAH-see-oh (gym)\nparti do = par-TEE-doh (match/game)\nequi po = eh-KEE-poh (team)\nca mpeonato = kah-mpeh-OH-noh (championship)\ngol = GOHL (goal)\npun to = POON-toh (point)\nmar cad or = mar-kah-DOR (score)\nrival = bee-BAHL (rival)\nár bi tro = AR-bee-troh (referee)\naficio na do = ah-fee-see-OH-nah-doh (fan)\nca mi seta = kah-mee-SEH-tah (jersey)\nzapa til las = sah-pee-TEEH-yahs (sneakers)\ncam po = KAHM-poh (field)\npis ci na = pees-SEE-nah (pool)\nesta dio = es-TAH-dee-oh (stadium)\nentrena mien to = en-trah-meeEN-toh (training)\nvi cto ria = beek-TOR-ee-ah (victory)\nder ro ta = dehr-ROH-tah (defeat)\n\nVowel consistency:\nAll Spanish vowels are pronounced the same way every time:\na = ah, e = eh, i = ee, o = oh, u = oo\n\nRolling R:\nJugar, correr, nadar, practicar — rolled R at the end\nCorrer — double R is rolled strongly\n\nSilent H:\nHacer (ah-SER), entrenamiento (ent-reh-meeEN-toh), héroe (EH-ree-oh)\n\nAccent marks:\nnatación — stress on 'ción' (nah-tah-see-ON)\ngimnasio — stress on 'na' (gheem-NAH-see-oh)\nárbitro — stress on first syllable (AR-bee-troh)",
+      "examples": [
+        "deporte = dehs-POR-teh\nfútbol = FOOS-bohl\nbaloncesto = bal-KWEHS-toh\ntenis = Teh-NEES\nnatación = nah-tah-see-ON",
+        "gimnasio = gheem-NAH-see-oh\npartido = par-TEE-doh\nequipo = eh-KEE-poh\ncampeonato = kah-mpeh-OH-noh\ngol = GOHL",
+        "jugar = HOOG-ar\npracticar = prak-tee-KAR\ncorrer = koh-REHR\nnadar = nah-DAR\nciclismo = see-klees-MOH"
+      ]
+    },
+    {
+      "title": "Spanish Sounds Relevant to Sports Vocabulary",
+      "content": "Key pronunciation patterns for sports words:\n\nSpanish vowels — always consistent:\nA = ah (like 'fAther')\nE = eh (like 'thEn')\nI = ee (like 'sEe')\nO = oh (like 'sO')\nU = oo (like 'flOOt')\n\nRolling R (trilled R):\nThe R in 'jugar', 'correr', 'nadar', 'practicar' is lightly rolled.\nDouble R in 'correr' is strongly rolled — tap the tongue rapidly against the roof of the mouth.\njugar = HOOG-ar (light tap)\ncorrer = koh-REHR (strong roll)\npracticar = prak-tee-KAR (light tap)\nentrenar = en-trah-NEHR (light tap)\n\nÑ as 'ny' sound (like 'canyON'):\ngimnasio = gheem-NAH-see-oh (ny sound)\nentrenamiento = en-trah-meeNYEH-toh\ncampeonato = kah-mpeh-OH-noh\n\nH is always silent:\nHacer = ah-SER (not 'hah-ser')\nhacer ejercicio = ah-ser heh-SER-see-oh\n\nLL as 'y' sound (most regions):\nzapatillas = sah-pee-TEE-yahs (LL = y sound)\n\nC before e/i = soft 's' (Latin America) or 'th' (Spain):\nTenis = Teh-NEES (Latin) or Teh-NEES (Spain, pronounced 'theh-NEES')\nCancha = KAHN-chah (court)\n\nAccent marks show stress:\nCampeonato = kah-mpeh-OH-noh (accent on 'o')\nNatación = nah-tah-see-ON (accent on 'on')\nÁrbitro = AR-bee-troh (accent on 'a')\n\nCommon pronunciation tips:\n'Jugar' — the 'j' is a soft 'h' sound (HOOG-ar)\n'Fútbol' — the 'b' is light, like 'v', and the accent on 'ú' is critical\n'Baloncesto' — 'nc' sounds like 'nk' (bal-KWEHS-toh)\n'Tenis' — stress on the 'i' (Teh-NEES)",
+      "examples": [
+        "jugar = HOOG-ar (J = soft h sound)\njuego = HWEH-goh (J = soft h sound)\njugamos = hoo-GAH-moh\njugáis = hoo-GAICE (Spain)\njuegan = HWEH-gahn",
+        "correr = koh-REHR (rolled R, double R strong)\ncorrer al campo = koh-REHR al KAHM-poh\npracticar = prak-tee-KAR (rolled R)\nentrenar = en-trah-NEHR (rolled R)",
+        "gimnasio = gheem-NAH-see-oh (Ñ = ny)\ncampeonato = kah-mpeh-OH-noh (Ñ = ny)\nentrenamiento = en-trah-meeNYEH-toh (Ñ = ny)\nzapatillas = sah-pee-TEE-yahs (LL = y sound)"
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "multiple-choice",
+      "question": "How do you say 'I play soccer' in Spanish?",
+      "options": ["Juego fútbol", "Juego al fútbol", "Jugo al fútbol", "Juego del fútbol"],
+      "correct": 1,
+      "explanation": "Jugar a + el = jugar al. 'Juego al fútbol' = I play soccer. 'Al' is the contraction of 'a' + 'el'."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: 'Yo ___ ejercicio todos los días. (I exercise every day.)'",
+      "correct": "hago",
+      "explanation": "Hacer (yo form) = hago (irregular). 'Hago ejercicio' = I exercise."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What is 'basketball' in Spanish?",
+      "options": ["balón", "baloncesto", "balonmano", "balonvolea"],
+      "correct": 1,
+      "explanation": "Baloncesto = basketball. Balón = ball. Balonmano = handball. Balonvolea = volleyball."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: '___ al gimnasio por la mañana. (I go to the gym in the morning.)'",
+      "correct": "Voy",
+      "explanation": "Ir (yo form) = voy. 'Voy al gimnasio' = I go to the gym. 'Al' = a + el."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What does 'natación' mean?",
+      "options": ["running", "cycling", "swimming", "hiking"],
+      "correct": 2,
+      "explanation": "Natación = swimming. Correr = running. Ciclismo = cycling. Senderismo = hiking."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: '¿___ al fútbol los sábados? (Do you play soccer on Saturdays?)'",
+      "correct": "Juegas",
+      "explanation": "Jugar (tú form) = juegas (u→ue stem change). '¿Juegas al fútbol?' = Do you play soccer?"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What is 'gym' in Spanish?",
+      "options": ["estadio", "gimnasio", "piscina", "pista"],
+      "correct": 1,
+      "explanation": "Gimnasio = gym. Estadio = stadium. Piscina = pool. Pista = court/track."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: 'Practico ___ tres veces por semana. (I swim three times a week.)'",
+      "correct": "natación",
+      "explanation": "Natación = swimming. 'Practico natación' = I practice/do swimming."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What does 'en forma' mean?",
+      "options": ["on time", "in shape", "in form", "in place"],
+      "correct": 1,
+      "explanation": "En forma = in shape (physically). 'Quiero estar en forma' = I want to be in shape."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: '___ a la piscina. (I'm going to the pool.)'",
+      "correct": "Voy",
+      "explanation": "Ir (yo form) = voy. 'Voy a la piscina' = I'm going to the pool."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What is 'team' in Spanish?",
+      "options": ["equipo", "escuela", "pista", "campo"],
+      "correct": 0,
+      "explanation": "Equipo = team. Escuela = school. Pista = court. Campo = field."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: 'Me gusta ___ deporte. (I like doing sports.)'",
+      "correct": "hacer",
+      "explanation": "Hacer deporte = to do sports. 'Me gusta hacer deporte' = I like doing sports."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What does 'gol' mean?",
+      "options": ["goal", "goalpost", "goalkeeper", "goalkeeper"],
+      "correct": 0,
+      "explanation": "Gol = goal (scored). Portería = goalpost. Portero = goalkeeper."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: 'Corro por la ___. (I run in the morning.)'",
+      "correct": "mañana",
+      "explanation": "Por la mañana = in the morning. 'Corro por la mañana' = I run in the morning."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What is 'tennis' in Spanish?",
+      "options": ["pelota", "tenis", "béisbol", "ping-pong"],
+      "correct": 1,
+      "explanation": "Tenis = tennis. Pelota = ball. Béisbol = baseball. Ping-pong = ping-pong."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: '___ al fútbol con mis amigos. (I play soccer with my friends.)'",
+      "correct": "Juego",
+      "explanation": "Jugar (yo form, u→ue stem change) = juego. 'Juego al fútbol con mis amigos' = I play soccer with my friends."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What does 'senderismo' mean?",
+      "options": ["swimming", "cycling", "hiking", "skiing"],
+      "correct": 2,
+      "explanation": "Senderismo = hiking. Natación = swimming. Ciclismo = cycling. Esquí = skiing."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: 'Voy al ___. (I'm going to the stadium.)'",
+      "correct": "estadio",
+      "explanation": "Estadio = stadium. 'Voy al estadio' = I'm going to the stadium."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What is 'victory' in Spanish?",
+      "options": ["derrota", "victoria", "gol", "punto"],
+      "correct": 1,
+      "explanation": "Victoria = victory. Derrota = defeat. Gol = goal. Punto = point."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: 'Siempre ___ ejercicio los fines de semana. (I always exercise on weekends.)'",
+      "correct": "hago",
+      "explanation": "Hacer (yo form) = hago. 'Siempre hago ejercicio los fines de semana' = I always exercise on weekends."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What does 'árbitro' mean?",
+      "options": ["player", "coach", "referee", "fan"],
+      "correct": 2,
+      "explanation": "Árbitro = referee. Jugador = player. Entrenador = coach. Aficionado = fan."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: '___ yoga por la mañana. (I do yoga in the morning.)'",
+      "correct": "Hago",
+      "explanation": "Hacer (yo form) = hago. 'Hago yoga por la mañana' = I do yoga in the morning."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What is 'score' in a sports context?",
+      "options": ["partido", "marcador", "gol", "punto"],
+      "correct": 1,
+      "explanation": "Marcador = score (the number). Partido = match. Gol = goal. Punto = point."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: '___ al gimnasio. (She goes to the gym.)'",
+      "correct": "Va",
+      "explanation": "Ir (él/ella form) = va. 'Va al gimnasio' = She goes to the gym."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What does 'derrota' mean?",
+      "options": ["victory", "draw", "defeat", "tie"],
+      "correct": 2,
+      "explanation": "Derrota = defeat. Victoria = victory. Empate = draw."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: 'Hago ejercicio ___. (I exercise every day.)'",
+      "correct": "todos los días",
+      "explanation": "Todos los días = every day. 'Hago ejercicio todos los días' = I exercise every day."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What is 'racket' in Spanish?",
+      "options": ["pelota", "red", "raqueta", "bastón"],
+      "correct": 2,
+      "explanation": "Raqueta = racket. Pelota = ball. Red = net. Bastón = stick."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: '___ a nadar. (I'm going to swim.)'",
+      "correct": "Voy",
+      "explanation": "Ir (yo form) = voy. 'Voy a nadar' = I'm going to swim."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What is 'outdoors' in Spanish?",
+      "options": ["en casa", "al aire libre", "en el campo", "en la calle"],
+      "correct": 1,
+      "explanation": "Al aire libre = outdoors/en la calle. En casa = at home. En el campo = in the countryside."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: 'Prefiero los deportes ___. (I prefer team sports.)'",
+      "correct": "en equipo",
+      "explanation": "Deporte en equipo = team sport. 'Prefiero los deportes en equipo' = I prefer team sports."
+    }
+  ]
+}

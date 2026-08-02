@@ -1,108 +1,912 @@
 {
   "id": "tourist-essentials",
   "title": "Tourist Essentials",
-  "description": "Book hotels, ask for help, and handle common tourist situations.",
+  "description": "Handle all tourist situations: booking hotels, asking for help, emergencies, shopping, and navigating cultural differences in Spanish-speaking countries.",
   "vocabulary": [
     {
       "id": 1,
+      "target": "hotel",
+      "source": "hotel",
+      "gender": "m",
+      "type": "place"
+    },
+    {
+      "id": 2,
       "target": "reservar",
-      "source": "to book",
+      "source": "to reserve/book",
       "gender": "\u2014",
       "type": "verb"
     },
     {
-      "id": 2,
+      "id": 3,
+      "target": "check-in",
+      "source": "check-in",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 4,
+      "target": "check-out",
+      "source": "check-out",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 5,
+      "target": "recepci\u00f3n",
+      "source": "reception",
+      "gender": "f",
+      "type": "place"
+    },
+    {
+      "id": 6,
       "target": "habitaci\u00f3n",
       "source": "room",
       "gender": "f",
       "type": "place"
     },
     {
-      "id": 3,
-      "target": "pasaporte",
-      "source": "passport",
-      "gender": "m",
-      "type": "document"
+      "id": 7,
+      "target": "doble",
+      "source": "double (room)",
+      "gender": "f",
+      "type": "size"
     },
     {
-      "id": 4,
-      "target": "billete",
+      "id": 8,
+      "target": "individual",
+      "source": "single (room)",
+      "gender": "f",
+      "type": "size"
+    },
+    {
+      "id": 9,
+      "target": "suite",
+      "source": "suite",
+      "gender": "f",
+      "type": "size"
+    },
+    {
+      "id": 10,
+      "target": "terraza",
+      "source": "terrace/balcony",
+      "gender": "f",
+      "type": "place"
+    },
+    {
+      "id": 11,
+      "target": "piscina",
+      "source": "swimming pool",
+      "gender": "f",
+      "type": "place"
+    },
+    {
+      "id": 12,
+      "target": "desayuno incluido",
+      "source": "breakfast included",
+      "gender": "m",
+      "type": "phrase"
+    },
+    {
+      "id": 13,
+      "target": "wifi gratis",
+      "source": "free WiFi",
+      "gender": "m",
+      "type": "phrase"
+    },
+    {
+      "id": 14,
+      "target": "aire acondicionado",
+      "source": "air conditioning",
+      "gender": "m",
+      "type": "object"
+    },
+    {
+      "id": 15,
+      "target": "calefacci\u00f3n",
+      "source": "heating",
+      "gender": "f",
+      "type": "object"
+    },
+    {
+      "id": 16,
+      "target": "cambio de divisas",
+      "source": "currency exchange",
+      "gender": "m",
+      "type": "place"
+    },
+    {
+      "id": 17,
+      "target": "oficina de turismo",
+      "source": "tourist office",
+      "gender": "f",
+      "type": "place"
+    },
+    {
+      "id": 18,
+      "target": "gu\u00eda tur\u00edstico",
+      "source": "tour guide",
+      "gender": "m",
+      "type": "person"
+    },
+    {
+      "id": 19,
+      "target": "visita guiada",
+      "source": "guided tour",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 20,
+      "target": "monumento",
+      "source": "monument",
+      "gender": "m",
+      "type": "place"
+    },
+    {
+      "id": 21,
+      "target": "atractivo tur\u00edstico",
+      "source": "tourist attraction",
+      "gender": "m",
+      "type": "place"
+    },
+    {
+      "id": 22,
+      "target": "entrada",
+      "source": "entrance/ticket",
+      "gender": "f",
+      "type": "object"
+    },
+    {
+      "id": 23,
+      "target": "boleto",
       "source": "ticket",
       "gender": "m",
-      "type": "document"
+      "type": "object"
     },
     {
-      "id": 5,
+      "id": 24,
+      "target": "ingreso",
+      "source": "entry/entrance",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 25,
+      "target": "costo",
+      "source": "cost/price",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 26,
+      "target": "descuento",
+      "source": "discount",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 27,
+      "target": "estudiante",
+      "source": "student",
+      "gender": "m/f",
+      "type": "person"
+    },
+    {
+      "id": 28,
+      "target": "menor de edad",
+      "source": "minor/underage",
+      "gender": "m/f",
+      "type": "person"
+    },
+    {
+      "id": 29,
+      "target": "mayor de edad",
+      "source": "adult (18+)",
+      "gender": "m/f",
+      "type": "person"
+    },
+    {
+      "id": 30,
+      "target": "gratuito",
+      "source": "free (no charge)",
+      "gender": "m",
+      "type": "adjective"
+    },
+    {
+      "id": 31,
+      "target": "gratis",
+      "source": "free",
+      "gender": "\u2014",
+      "type": "adjective"
+    },
+    {
+      "id": 32,
+      "target": "paga",
+      "source": "paid",
+      "gender": "f",
+      "type": "adjective"
+    },
+    {
+      "id": 33,
+      "target": "callejero",
+      "source": "street vendor",
+      "gender": "m",
+      "type": "person"
+    },
+    {
+      "id": 34,
+      "target": "mercado",
+      "source": "market",
+      "gender": "m",
+      "type": "place"
+    },
+    {
+      "id": 35,
+      "target": "tienda de souvenirs",
+      "source": "souvenir shop",
+      "gender": "f",
+      "type": "place"
+    },
+    {
+      "id": 36,
+      "target": "compra",
+      "source": "purchase/shopping",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 37,
+      "target": "comprar",
+      "source": "to buy",
+      "gender": "\u2014",
+      "type": "verb"
+    },
+    {
+      "id": 38,
+      "target": "vender",
+      "source": "to sell",
+      "gender": "\u2014",
+      "type": "verb"
+    },
+    {
+      "id": 39,
+      "target": "caro",
+      "source": "expensive",
+      "gender": "m",
+      "type": "adjective"
+    },
+    {
+      "id": 40,
+      "target": "barato",
+      "source": "cheap",
+      "gender": "m",
+      "type": "adjective"
+    },
+    {
+      "id": 41,
+      "target": "m\u00e1s barato",
+      "source": "cheaper",
+      "gender": "m",
+      "type": "adjective"
+    },
+    {
+      "id": 42,
+      "target": "mejor precio",
+      "source": "best price",
+      "gender": "m",
+      "type": "phrase"
+    },
+    {
+      "id": 43,
+      "target": "oferta",
+      "source": "offer/deal",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 44,
+      "target": "rebaja",
+      "source": "sale/reduction",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 45,
+      "target": "regatear",
+      "source": "to bargain/negotiate",
+      "gender": "\u2014",
+      "type": "verb"
+    },
+    {
+      "id": 46,
+      "target": "\u00bfCu\u00e1nto cuesta?",
+      "source": "How much does it cost?",
+      "gender": "\u2014",
+      "type": "question"
+    },
+    {
+      "id": 47,
+      "target": "\u00bfMe hace un descuento?",
+      "source": "Can you give me a discount?",
+      "gender": "\u2014",
+      "type": "question"
+    },
+    {
+      "id": 48,
+      "target": "\u00bfEs el precio m\u00e1s bajo?",
+      "source": "Is that the lowest price?",
+      "gender": "\u2014",
+      "type": "question"
+    },
+    {
+      "id": 49,
       "target": "ayuda",
       "source": "help",
       "gender": "f",
       "type": "noun"
     },
     {
-      "id": 6,
-      "target": "\u00bfD\u00f3nde puedo...?",
-      "source": "Where can I...?",
-      "gender": "\u2014",
-      "type": "question"
+      "id": 50,
+      "target": "emergencia",
+      "source": "emergency",
+      "gender": "f",
+      "type": "noun"
     },
     {
-      "id": 7,
-      "target": "necesito",
-      "source": "I need",
+      "id": 51,
+      "target": "polic\u00eda",
+      "source": "police",
+      "gender": "f",
+      "type": "person"
+    },
+    {
+      "id": 52,
+      "target": "m\u00e9dico",
+      "source": "doctor",
+      "gender": "m",
+      "type": "person"
+    },
+    {
+      "id": 53,
+      "target": "enfermera",
+      "source": "nurse",
+      "gender": "f",
+      "type": "person"
+    },
+    {
+      "id": 54,
+      "target": "ambulancia",
+      "source": "ambulance",
+      "gender": "f",
+      "type": "transport"
+    },
+    {
+      "id": 55,
+      "target": "hospital",
+      "source": "hospital",
+      "gender": "m",
+      "type": "place"
+    },
+    {
+      "id": 56,
+      "target": "farmacia",
+      "source": "pharmacy",
+      "gender": "f",
+      "type": "place"
+    },
+    {
+      "id": 57,
+      "target": "botiqu\u00edn",
+      "source": "first aid kit",
+      "gender": "m",
+      "type": "object"
+    },
+    {
+      "id": 58,
+      "target": "dolor",
+      "source": "pain",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 59,
+      "target": "fiebre",
+      "source": "fever",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 60,
+      "target": "alergia",
+      "source": "allergy",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 61,
+      "target": "medicina",
+      "source": "medicine",
+      "gender": "f",
+      "type": "object"
+    },
+    {
+      "id": 62,
+      "target": "pildora",
+      "source": "pill",
+      "gender": "f",
+      "type": "object"
+    },
+    {
+      "id": 63,
+      "target": "pasta dental",
+      "source": "toothpaste",
+      "gender": "f",
+      "type": "object"
+    },
+    {
+      "id": 64,
+      "target": "protector solar",
+      "source": "sunscreen",
+      "gender": "m",
+      "type": "object"
+    },
+    {
+      "id": 65,
+      "target": "sombrero",
+      "source": "hat",
+      "gender": "m",
+      "type": "object"
+    },
+    {
+      "id": 66,
+      "target": "gafas de sol",
+      "source": "sunglasses",
+      "gender": "f",
+      "type": "object"
+    },
+    {
+      "id": 67,
+      "target": "paraguas",
+      "source": "umbrella",
+      "gender": "m",
+      "type": "object"
+    },
+    {
+      "id": 68,
+      "target": "mochila",
+      "source": "backpack",
+      "gender": "f",
+      "type": "object"
+    },
+    {
+      "id": 69,
+      "target": "c\u00e1mara",
+      "source": "camera",
+      "gender": "f",
+      "type": "object"
+    },
+    {
+      "id": 70,
+      "target": "pasaporte",
+      "source": "passport",
+      "gender": "m",
+      "type": "object"
+    },
+    {
+      "id": 71,
+      "target": "visado",
+      "source": "visa",
+      "gender": "m",
+      "type": "object"
+    },
+    {
+      "id": 72,
+      "target": "documento de identidad",
+      "source": "ID document",
+      "gender": "m",
+      "type": "object"
+    },
+    {
+      "id": 73,
+      "target": "billete de avi\u00f3n",
+      "source": "airplane ticket",
+      "gender": "m",
+      "type": "object"
+    },
+    {
+      "id": 74,
+      "target": "equipaje",
+      "source": "luggage",
+      "gender": "m",
+      "type": "object"
+    },
+    {
+      "id": 75,
+      "target": "maleta",
+      "source": "suitcase",
+      "gender": "f",
+      "type": "object"
+    },
+    {
+      "id": 76,
+      "target": "bolso",
+      "source": "bag",
+      "gender": "m",
+      "type": "object"
+    },
+    {
+      "id": 77,
+      "target": "perder",
+      "source": "to lose",
+      "gender": "\u2014",
+      "type": "verb"
+    },
+    {
+      "id": 78,
+      "target": "encontrar",
+      "source": "to find",
+      "gender": "\u2014",
+      "type": "verb"
+    },
+    {
+      "id": 79,
+      "target": "extraviado",
+      "source": "lost (item)",
+      "gender": "m",
+      "type": "adjective"
+    },
+    {
+      "id": 80,
+      "target": "extraviada",
+      "source": "lost (item, f)",
+      "gender": "f",
+      "type": "adjective"
+    },
+    {
+      "id": 81,
+      "target": "perd\u00ed mi pasaporte",
+      "source": "I lost my passport",
       "gender": "\u2014",
       "type": "phrase"
     },
     {
-      "id": 8,
-      "target": "no entiendo",
-      "source": "I don't understand",
+      "id": 82,
+      "target": "robado",
+      "source": "stolen",
+      "gender": "m",
+      "type": "adjective"
+    },
+    {
+      "id": 83,
+      "target": "me robaron",
+      "source": "they stole from me",
       "gender": "\u2014",
       "type": "phrase"
     },
     {
-      "id": 9,
-      "target": "\u00bfHabla ingl\u00e9s?",
-      "source": "Do you speak English?",
-      "gender": "\u2014",
-      "type": "question"
+      "id": 84,
+      "target": "llamada",
+      "source": "call",
+      "gender": "f",
+      "type": "noun"
     },
     {
-      "id": 10,
-      "target": "gracias",
-      "source": "thank you",
+      "id": 85,
+      "target": "mensaje",
+      "source": "message",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 86,
+      "target": "cobertura",
+      "source": "coverage",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 87,
+      "target": "se\u00f1al",
+      "source": "signal",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 88,
+      "target": "enchufe",
+      "source": "outlet/plug",
+      "gender": "m",
+      "type": "object"
+    },
+    {
+      "id": 89,
+      "target": "adaptador",
+      "source": "adapter",
+      "gender": "m",
+      "type": "object"
+    },
+    {
+      "id": 90,
+      "target": "cargador",
+      "source": "charger",
+      "gender": "m",
+      "type": "object"
+    },
+    {
+      "id": 91,
+      "target": "bater\u00eda",
+      "source": "battery",
+      "gender": "f",
+      "type": "object"
+    },
+    {
+      "id": 92,
+      "target": "corriente el\u00e9ctrica",
+      "source": "electricity",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 93,
+      "target": "agua corriente",
+      "source": "running water",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 94,
+      "target": "gas",
+      "source": "gas",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 95,
+      "target": "calefacci\u00f3n",
+      "source": "heating",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 96,
+      "target": "limpieza",
+      "source": "cleaning",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 97,
+      "target": "toalla",
+      "source": "towel",
+      "gender": "f",
+      "type": "object"
+    },
+    {
+      "id": 98,
+      "target": "jab\u00f3n",
+      "source": "soap",
+      "gender": "m",
+      "type": "object"
+    },
+    {
+      "id": 99,
+      "target": "champ\u00fa",
+      "source": "shampoo",
+      "gender": "m",
+      "type": "object"
+    },
+    {
+      "id": 100,
+      "target": "secador de pelo",
+      "source": "hair dryer",
+      "gender": "m",
+      "type": "object"
+    },
+    {
+      "id": 101,
+      "target": "secar",
+      "source": "to dry",
       "gender": "\u2014",
-      "type": "phrase"
+      "type": "verb"
+    },
+    {
+      "id": 102,
+      "target": "ba\u00f1era",
+      "source": "bathtub",
+      "gender": "f",
+      "type": "object"
+    },
+    {
+      "id": 103,
+      "target": "ducha",
+      "source": "shower",
+      "gender": "f",
+      "type": "object"
+    },
+    {
+      "id": 104,
+      "target": "grifo",
+      "source": "faucet",
+      "gender": "m",
+      "type": "object"
+    },
+    {
+      "id": 105,
+      "target": "papel higi\u00e9nico",
+      "source": "toilet paper",
+      "gender": "m",
+      "type": "object"
+    },
+    {
+      "id": 106,
+      "target": "inodoro",
+      "source": "toilet",
+      "gender": "m",
+      "type": "object"
+    },
+    {
+      "id": 107,
+      "target": "ba\u00f1o",
+      "source": "bathroom/toilet",
+      "gender": "m",
+      "type": "place"
+    },
+    {
+      "id": 108,
+      "target": "aseo",
+      "source": "restroom",
+      "gender": "m",
+      "type": "place"
+    },
+    {
+      "id": 109,
+      "target": "retrete",
+      "source": "toilet",
+      "gender": "m",
+      "type": "object"
+    },
+    {
+      "id": 110,
+      "target": "lavabo",
+      "source": "sink",
+      "gender": "m",
+      "type": "object"
+    },
+    {
+      "id": 111,
+      "target": "espejo",
+      "source": "mirror",
+      "gender": "m",
+      "type": "object"
+    },
+    {
+      "id": 112,
+      "target": "candado",
+      "source": "lock",
+      "gender": "m",
+      "type": "object"
+    },
+    {
+      "id": 113,
+      "target": "puerta",
+      "source": "door",
+      "gender": "f",
+      "type": "object"
+    },
+    {
+      "id": 114,
+      "target": "ventana",
+      "source": "window",
+      "gender": "f",
+      "type": "object"
+    },
+    {
+      "id": 115,
+      "target": "escalera",
+      "source": "stairs",
+      "gender": "f",
+      "type": "place"
+    },
+    {
+      "id": 116,
+      "target": "ascensor",
+      "source": "elevator",
+      "gender": "m",
+      "type": "place"
+    },
+    {
+      "id": 117,
+      "target": "piso",
+      "source": "floor",
+      "gender": "m",
+      "type": "place"
+    },
+    {
+      "id": 118,
+      "target": "planta baja",
+      "source": "ground floor",
+      "gender": "f",
+      "type": "place"
+    },
+    {
+      "id": 119,
+      "target": "primer piso",
+      "source": "first floor",
+      "gender": "m",
+      "type": "place"
+    },
+    {
+      "id": 120,
+      "target": "segundo piso",
+      "source": "second floor",
+      "gender": "m",
+      "type": "place"
     }
   ],
   "grammar": [
     {
-      "title": "Necesitar & Poder (to need, to be able to)",
-      "content": "Necesitar (to need) and poder (to be able to) are regular -ar and -er verbs.\n\nNecesitar: yo necesito, t\u00fa necesitas, \u00e9l necesita...\nPoder: yo puedo, t\u00fa puedes, \u00e9l puede... (stem-changing o\u2192ue)",
+      "title": "Tener \u2014 To Have (One of the Most Important Verbs)",
+      "content": "TENER (to have) is irregular and extremely common.\n\nConjugation: yo tengo, t\u00fa tienes, \u00e9l/ella tiene, nosotros tenemos, vosotros ten\u00e9is, ellos tienen\n\nCommon phrases with tener:\n- tengo hambre (I'm hungry)\n- tengo sed (I'm thirsty)\n- tengo fr\u00edo (I'm cold)\n- tengo calor (I'm hot)\n- tengo que... (I have to...)\n- tengo tiempo (I have time)\n- tengo una pregunta (I have a question)\n\nNOTICE: These expressions use TENER, not SER or ESTAR. This is a key difference from English.",
       "examples": [
-        "Necesito un taxi. (I need a taxi.)",
-        "\u00bfPuedo reservar una habitaci\u00f3n? (Can I book a room?)",
-        "No entiendo. (I don't understand.)"
+        "Tengo hambre. (I'm hungry.)\nTengo que irme. (I have to go.)\n\u00bfTienes tiempo? (Do you have time?)",
+        "Tenemos una pregunta. (We have a question.)"
+      ]
+    },
+    {
+      "title": "Irregular 'Yo' Forms \u2014 Ir, Dar, Traer, Salir",
+      "content": "These common verbs have irregular 'yo' forms in the present tense:\n\nIR (to go): yo voy\nDAR (to give): yo doy\nTRAER (to bring): yo traigo\nSALIR (to leave): yo salgo\nVENIR (to come): yo vengo\nDECIR (to say/tell): yo digo\nCONOCER (to know): yo conozco\nPONGER (to put): yo pongo\nHACER (to make/do): yo hago\n\nThese are essential for travel: 'Voy al hotel', 'Traigo el mapa', 'Salgo ahora'...",
+      "examples": [
+        "Voy al aeropuerto. (I'm going to the airport.)\nTraigo mi pasaporte. (I'm bringing my passport.)\nSigo mi camino. (I'm leaving my way.)"
+      ]
+    }
+  ],
+  "pronunciation": [
+    {
+      "title": "B, V, and the Soft G Sound",
+      "content": "Spanish has sounds that don't exist in English. The most important for travel:\n\nB/V: Same sound \u2014 a soft 'b' that's more of a lip vibration between vowels\n- buena (BWEH-nah)\n- vaca (VAH-kah) \u2014 same sound as 'b'\n\nG before E/I: Throaty sound like Scottish 'loch'\n- gente (HEN-te)\n- ginger (HEN-ger)\n\nJ: Same as G before E/I\n- jugar (hoo-GAHR)\n- julio (hoo-LYOH)",
+      "examples": [
+        "buen d\u00eda (bwehn DEE-ah)\nverde (BEHR-deh)\ngente (HEN-te)",
+        "juego (HWEH-goh)"
       ]
     }
   ],
   "exercises": [
     {
       "type": "multiple-choice",
-      "question": "What does 'no entiendo' mean?",
+      "question": "How do you say 'I'm hungry' in Spanish?",
       "options": [
-        "I don't like",
-        "I don't understand",
-        "I don't know",
-        "I don't want"
+        "Soy hambre",
+        "Estoy hambre",
+        "Tengo hambre",
+        "Hago hambre"
+      ],
+      "correct": 2,
+      "explanation": "'Tengo hambre' = I have hunger = I'm hungry."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What is the 'yo' form of 'ir' (to go)?",
+      "options": [
+        "Yo ir",
+        "Yo voy",
+        "Yo ido",
+        "Yo va"
       ],
       "correct": 1,
-      "explanation": "'No entiendo' means I don't understand."
+      "explanation": "'Ir' is irregular: yo voy (I go)."
     },
     {
       "type": "fill-in-blank",
-      "question": "Complete: '___ reservar una habitaci\u00f3n.' (I need to book a room.)",
-      "correct": "Necesito",
-      "explanation": "'Necesitar' conjugated for 'yo': necesito."
+      "question": "Complete: 'Tengo ___ y sed.' (I'm hungry and thirsty.)",
+      "correct": "hambre",
+      "explanation": "'Tengo hambre y sed' = I'm hungry and thirsty."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: '___ que ir al hotel.' (I have to go to the hotel.)",
+      "correct": "Tengo",
+      "explanation": "'Tengo que' = I have to."
     }
   ]
 }

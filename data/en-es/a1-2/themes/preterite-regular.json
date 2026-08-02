@@ -1,0 +1,107 @@
+{
+  "id": "preterite-regular",
+  "title": "Preterite — Regular Verbs",
+  "description": "Master regular preterite conjugations for -AR, -ER, and -IR verbs to tell stories about the past.",
+  "vocabulary": [
+    { "id": 1, "target": "hablar", "source": "to speak", "gender": "v.", "type": "verb" },
+    { "id": 2, "target": "comer", "source": "to eat", "gender": "v.", "type": "verb" },
+    { "id": 3, "target": "vivir", "source": "to live", "gender": "v.", "type": "verb" },
+    { "id": 4, "target": "estudiar", "source": "to study", "gender": "v.", "type": "verb" },
+    { "id": 5, "target": "trabajar", "source": "to work", "gender": "v.", "type": "verb" },
+    { "id": 6, "target": "caminar", "source": "to walk", "gender": "v.", "type": "verb" },
+    { "id": 7, "target": "abrir", "source": "to open", "gender": "v.", "type": "verb" },
+    { "id": 8, "target": "cerrar", "source": "to close", "gender": "v.", "type": "verb" },
+    { "id": 9, "target": "escribir", "source": "to write", "gender": "v.", "type": "verb" },
+    { "id": 10, "target": "entender", "source": "to understand", "gender": "v.", "type": "verb" },
+    { "id": 11, "target": "volver", "source": "to return / to come back", "gender": "v.", "type": "verb" },
+    { "id": 12, "target": "pagar", "source": "to pay", "gender": "v.", "type": "verb" },
+    { "id": 13, "target": "llegar", "source": "to arrive", "gender": "v.", "type": "verb" },
+    { "id": 14, "target": "empezar", "source": "to start / to begin", "gender": "v.", "type": "verb" },
+    { "id": 15, "target": "terminar", "source": "to finish", "gender": "v.", "type": "verb" }
+  ],
+  "grammar": [
+    {
+      "title": "Preterite (Pretérito Indefinido) — Regular Verbs",
+      "content": "The preterite tense is used to talk about completed actions in the past with a clear beginning or end. Think of it as the 'storytelling' tense — you're telling someone what happened.\n\nFor regular -AR verbs (like hablar), the endings are:\n- yo: -é\n- tú: -aste\n- él/ella/usted: -ó\n- nosotros: -amos\n- vosotros: -asteis\n- ellos/ellas/ustedes: -aron\n\nFor regular -ER/-IR verbs (like comer, vivir), the endings are:\n- yo: -í\n- tú: -iste\n- él/ella/usted: -ió\n- nosotros: -imos\n- vosotros: -isteis\n- ellos/ellas/ustedes: -ieron",
+      "table": {
+        "headers": ["Pronoun", "-AR (hablar)", "-ER (comer)", "-IR (vivir)"],
+        "rows": [
+          ["yo", "hablé", "comí", "viví"],
+          ["tú", "hablaste", "comiste", "viviste"],
+          ["él/ella/usted", "habló", "comió", "vivió"],
+          ["nosotros", "hablamos", "comimos", "vivimos"],
+          ["vosotros", "hablasteis", "comisteis", "vivisteis"],
+          ["ellos/ellas/ustedes", "hablaron", "comieron", "vivieron"]
+        ]
+      },
+      "examples": [
+        "Ayer hablé con mi amigo. (Yesterday I talked with my friend.)",
+        "Ellos comieron pizza anoche. (They ate pizza last night.)",
+        "Nosotros vivimos en Madrid dos años. (We lived in Madrid for two years.)",
+        "¿Estudiaste para el examen? (Did you study for the exam?)"
+      ],
+      "aid_note": "Watch out: 'nosotros' form looks the same for -AR preterite and present! Context tells you which: 'hablamos' in present = we speak; 'hablamos' in preterite = we spoke. Look for time words like 'ayer' (yesterday), 'la semana pasada' (last week)."
+    }
+  ],
+  "pronunciation": [
+    {
+      "title": "Stress and Accents in the Preterite",
+      "content": "The preterite tense has accent marks on several forms that are critical for correct pronunciation:\n\n- yo -AR: hablÉ, trabajÉ, estudiÉ (always accent on the -é)\n- tú -ER/-IR: comISTE, vivISTE (stress on the second-to-last syllable — no accent needed)\n- él/ella -AR: hablÓ, trabajÓ (always accent on the -ó)\n- él/ella -ER/-IR: comIÓ, vivIÓ (always accent on the -ió)\n\nThe nosotros form for -AR verbs (hablamos) has NO accent — this is what makes it look identical to the present tense.\n\nThe ellos/ellas form for all verbs (hablaron, comieron, vivieron) has NO accent — the stress falls naturally on the second-to-last syllable.",
+      "examples": [
+        { "target": "hablé", "source": "stress on É: HA-blé" },
+        { "target": "habló", "source": "stress on Ó: ha-BLÓ" },
+        { "target": "comió", "source": "stress on Í: co-MÍO" },
+        { "target": "comimos", "source": "stress on MI: co-MI-mos (no accent)" }
+      ],
+      "aid_note": "Romanian doesn't use written accents on verbs the same way Spanish does, but the stress pattern is similar. Remember: Spanish preterite yo and él/ella forms always carry an accent mark."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "exercise",
+      "question": "What is the preterite form of 'hablar' for 'yo'?",
+      "options": ["hablaba", "hablé", "hablo", "hablaste"],
+      "correct": 1,
+      "explanation": "'Hablé' is the yo form of hablar in the preterite. The -é ending marks first-person singular preterite for -AR verbs."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: 'Nosotros ____ (comer) pizza anoche.' (We ate pizza last night.)",
+      "correct": "comimos",
+      "explanation": "'Comimos' is the nosotros form of comer in the preterite. -IR ending for -ER verb nosotros."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: 'Ella ____ (escribir) una carta ayer.' (She wrote a letter yesterday.)",
+      "correct": "escribió",
+      "explanation": "'Escribió' is the él/ella/usted preterite of escribir. -IR verbs get -ió in the third person: escribiÓ."
+    },
+    {
+      "type": "conjugation-matrix",
+      "question": "Complete the preterite tense conjugation table for regular -AR verb HABLAR:",
+      "verb": "HABLAR",
+      "tenses": ["preterite"],
+      "explanation": "Regular -AR preterite: hablé, hablaste, habló, hablamos, hablasteis, hablaron."
+    },
+    {
+      "type": "conjugation-matrix",
+      "question": "Complete the preterite tense conjugation table for regular -ER verb COMER:",
+      "verb": "COMER",
+      "tenses": ["preterite"],
+      "explanation": "Regular -ER preterite: comí, comiste, comió, comimos, comisteis, comieron."
+    },
+    {
+      "type": "exercise",
+      "question": "Which sentence uses the preterite correctly?",
+      "options": ["Ayer hablo con mi amigo.", "Ayer hablé con mi amigo.", "Ayer hablaba con mi amigo.", "Ayer hablaré con mi amigo."],
+      "correct": 1,
+      "explanation": "'Ayer hablé' uses the preterite for a completed past action. 'Hablo' = present, 'hablaba' = imperfect, 'hablaré' = future."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: '¿____ (estudiar) tú para el examen?' (Did you study for the exam?)",
+      "correct": "estudiaste",
+      "explanation": "'Estudiaste' is the tú form of estudiar in the preterite. -AR verbs get -aste for tú: estudiaste."
+    }
+  ]
+}

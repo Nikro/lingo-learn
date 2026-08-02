@@ -1,0 +1,106 @@
+{
+  "id": "conditional-irregular",
+  "title": "Conditional — Irregular Stems",
+  "description": "Learn conditional irregulars using the same stems as the future (tendr-, dir-, pondr-, etc.).",
+  "vocabulary": [
+    { "id": 1, "target": "tendría", "source": "I would have", "gender": "v.", "type": "verb" },
+    { "id": 2, "target": "pondría", "source": "I would put", "gender": "v.", "type": "verb" },
+    { "id": 3, "target": "saldría", "source": "I would leave", "gender": "v.", "type": "verb" },
+    { "id": 4, "target": "podría", "source": "I would be able to / could", "gender": "v.", "type": "verb" },
+    { "id": 5, "target": "querría", "source": "I would want", "gender": "v.", "type": "verb" },
+    { "id": 6, "target": "diría", "source": "I would say", "gender": "v.", "type": "verb" },
+    { "id": 7, "target": "haría", "source": "I would do/make", "gender": "v.", "type": "verb" },
+    { "id": 8, "target": "sabría", "source": "I would know", "gender": "v.", "type": "verb" },
+    { "id": 9, "target": "vendría", "source": "I would come", "gender": "v.", "type": "verb" },
+    { "id": 10, "target": "cabría", "source": "I would fit", "gender": "v.", "type": "verb" },
+    { "id": 11, "target": "pedirle un favor", "source": "to ask you a favor", "gender": "—", "type": "phrase" },
+    { "id": 12, "target": "la verdad", "source": "the truth", "gender": "f.", "type": "noun" },
+    { "id": 13, "target": "viajar a Japón", "source": "to travel to Japan", "gender": "—", "type": "phrase" },
+    { "id": 14, "target": "responder", "source": "to answer", "gender": "v.", "type": "verb" },
+    { "id": 15, "target": "esa pregunta", "source": "that question", "gender": "f.", "type": "phrase" },
+    { "id": 16, "target": "si pudiera", "source": "if I could", "gender": "—", "type": "phrase" },
+    { "id": 17, "target": "la respuesta", "source": "the answer", "gender": "f.", "type": "noun" },
+    { "id": 18, "target": "ayudar", "source": "to help", "gender": "v.", "type": "verb" },
+    { "id": 19, "target": "poder", "source": "to be able to / can", "gender": "v.", "type": "verb" },
+    { "id": 20, "target": "decir", "source": "to say / to tell", "gender": "v.", "type": "verb" },
+    { "id": 21, "target": "tener", "source": "to have", "gender": "v.", "type": "verb" },
+    { "id": 22, "target": "poner", "source": "to put", "gender": "v.", "type": "verb" },
+    { "id": 23, "target": "salir", "source": "to leave / to go out", "gender": "v.", "type": "verb" },
+    { "id": 24, "target": "querer", "source": "to want", "gender": "v.", "type": "verb" },
+    { "id": 25, "target": "hacer", "source": "to do / to make", "gender": "v.", "type": "verb" },
+    { "id": 26, "target": "saber", "source": "to know (facts)", "gender": "v.", "type": "verb" },
+    { "id": 27, "target": "venir", "source": "to come", "gender": "v.", "type": "verb" },
+    { "id": 28, "target": "caber", "source": "to fit", "gender": "v.", "type": "verb" },
+    { "id": 29, "target": "un problema", "source": "a problem", "gender": "m.", "type": "noun" },
+    { "id": 30, "target": "la solución", "source": "the solution", "gender": "f.", "type": "noun" }
+  ],
+  "grammar": [
+    {
+      "title": "Conditional — Irregular Stems (Same as Future)",
+      "content": "The conditional shares the same irregular stems as the future tense, but uses the conditional endings (-ía, -ías, etc.) instead. This means the stem changes are memorized once and applied to both tenses:\n\n- tener → tendría (I would have)\n- poner → pondría (I would put)\n- salir → saldría (I would leave)\n- poder → podría (I would be able to)\n- querer → querría (I would want)\n- decir → diría (I would say)\n- hacer → haría (I would do/make)\n- saber → sabría (I would know)\n- venir → vendría (I would come)\n- caber → cabría (I would fit)",
+      "table": {
+        "headers": ["Infinitive", "Irregular Stem", "Yo Form", "English"],
+        "rows": [
+          ["tener", "tendr-", "tendría", "I would have"],
+          ["poner", "pondr-", "pondría", "I would put"],
+          ["salir", "saldr-", "saldría", "I would leave"],
+          ["poder", "podr-", "podría", "I would be able to"],
+          ["querer", "querr-", "querría", "I would want"],
+          ["decir", "dir-", "diría", "I would say"],
+          ["hacer", "har-", "haría", "I would do/make"],
+          ["saber", "sab-", "sabría", "I would know"],
+          ["venir", "vendr-", "vendría", "I would come"]
+        ]
+      },
+      "examples": [
+        "¿Podría pedirle un favor? (Could I ask you a favor?)",
+        "Ella diría la verdad. (She would tell the truth.)",
+        "Si pudiera, viajaría a Japón. (If I could, I would travel to Japan.)",
+        "No sabría responder esa pregunta. (I wouldn't know how to answer that question.)"
+      ],
+      "aid_note": "Romanian conditional also uses the same irregular stem change: 'aș avea' (I would have) uses 'avea' as the stem. Spanish 'tendría' uses 'tendr-' as the stem. The Romanian 'aș' + infinitive is two words where Spanish uses one."
+    }
+  ],
+  "pronunciation": [],
+  "exercises": [
+    {
+      "type": "exercise",
+      "question": "What is the conditional of 'poder' for 'yo'?",
+      "options": ["podría", "podría", "podaría", "podría"],
+      "correct": 0,
+      "explanation": "'Podría' — poder has the irregular stem podr- in the conditional: podr + ía = podría."
+    },
+    {
+      "type": "exercise",
+      "question": "What is the conditional of 'salir' for 'nosotros'?",
+      "options": ["saldriamos", "saldríamos", "saliríamos", "saldríamos"],
+      "correct": 1,
+      "explanation": "'Saldríamos' — salir uses the irregular stem saldr- + conditional ending -íamos = saldríamos."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: 'Si yo ____ (poder), te ____ (ayudar).' (If I could, I would help you.)",
+      "correct": "pudiera podría",
+      "explanation": "'Pudiera podría' — conditional sentence: imperfect subjunctive (si pudiera) + conditional (podría)."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: 'Ella ____ (say) la verdad.' (She would tell the truth.)",
+      "correct": "diría",
+      "explanation": "'Diría' — decir uses the irregular stem dir- in the conditional: dir + ía = diría."
+    },
+    {
+      "type": "conjugation-matrix",
+      "question": "Complete the conditional tense conjugation table for the irregular verb PODER:",
+      "verb": "PODER",
+      "tenses": ["conditional"],
+      "explanation": "PODER uses the irregular stem podr- in the conditional: podría, podrías, podría, podríamos, podríais, podrían."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: 'No ____ (know) la respuesta. — ____ (would you know) responder?' (I don't know the answer. — Would you know how to answer?)",
+      "correct": "sé sabrías",
+      "explanation": "'Sé' = present of saber (I know). 'Sabrías' = conditional of saber (you would know). Saber uses the irregular stem sabr-."
+    }
+  ]
+}

@@ -1,0 +1,153 @@
+{
+  "id": "expressing-opinions",
+  "title": "Expressing Nuanced Opinions",
+  "description": "Go beyond 'creo que' — master hedging, emphasis, and persuasive language for academic and professional discourse.",
+  "vocabulary": [
+    { "id": 1, "target": "en mi opinión", "source": "in my opinion", "gender": "—", "type": "phrase" },
+    { "id": 2, "target": "a mi juicio", "source": "in my judgment", "gender": "—", "type": "phrase" },
+    { "id": 3, "target": "desde mi punto de vista", "source": "from my point of view", "gender": "—", "type": "phrase" },
+    { "id": 4, "target": "personalmente", "source": "personally", "gender": "—", "type": "adverb" },
+    { "id": 5, "target": "en lo que a mí respecta", "source": "as far as I'm concerned", "gender": "—", "type": "phrase" },
+    { "id": 6, "target": "creo firmemente", "source": "I firmly believe", "gender": "—", "type": "phrase" },
+    { "id": 7, "target": "estoy convencido/a", "source": "I'm convinced", "gender": "m./f.", "type": "phrase" },
+    { "id": 8, "target": "me inclino a pensar", "source": "I tend to think", "gender": "—", "type": "phrase" },
+    { "id": 9, "target": "sostengo que", "source": "I maintain that", "gender": "—", "type": "phrase" },
+    { "id": 10, "target": "argumento que", "source": "I argue that", "gender": "—", "type": "phrase" },
+    { "id": 11, "target": "cuestionar", "source": "to question", "gender": "v.", "type": "verb" },
+    { "id": 12, "target": "cuestionar la validez", "source": "to question the validity", "gender": "—", "type": "phrase" },
+    { "id": 13, "target": "refutar", "source": "to refute", "gender": "v.", "type": "verb" },
+    { "id": 14, "target": "desmentir", "source": "to debunk / disprove", "gender": "v.", "type": "verb" },
+    { "id": 15, "target": "matizar", "source": "to nuance / to add detail", "gender": "v.", "type": "verb" },
+    { "id": 16, "target": "matiz", "source": "nuance", "gender": "m.", "type": "noun" },
+    { "id": 17, "target": "reservarse la opinión", "source": "to reserve one's opinion", "gender": "—", "type": "phrase" },
+    { "id": 18, "target": "ser partidario de", "source": "to be in favor of", "gender": "—", "type": "phrase" },
+    { "id": 19, "target": "ser contrario a", "source": "to be opposed to", "gender": "—", "type": "phrase" },
+    { "id": 20, "target": "pro y contra", "source": "pros and cons", "gender": "m.pl.", "type": "noun" },
+    { "id": 21, "target": "ponderar los aspectos", "source": "to weigh the aspects", "gender": "—", "type": "phrase" },
+    { "id": 22, "target": "equilibrado/a", "source": "balanced", "gender": "m./f.", "type": "adjective" },
+    { "id": 23, "target": "subjetivo/a", "source": "subjective", "gender": "m./f.", "type": "adjective" },
+    { "id": 24, "target": "objetivo/a", "source": "objective", "gender": "m./f.", "type": "adjective" },
+    { "id": 25, "target": "sesgado/a", "source": "biased", "gender": "m./f.", "type": "adjective" },
+    { "id": 26, "target": "perspectiva", "source": "perspective", "gender": "f.", "type": "noun" },
+    { "id": 27, "target": "punto de vista", "source": "point of view", "gender": "m.", "type": "noun" },
+    { "id": 28, "target": "postura", "source": "stance / position", "gender": "f.", "type": "noun" },
+    { "id": 29, "target": "imprescindible", "source": "essential / indispensable", "gender": "m./f.", "type": "adjective" },
+    { "id": 30, "target": "fundamental", "source": "fundamental", "gender": "m./f.", "type": "adjective" },
+    { "id": 31, "target": "trascendental", "source": "profound / consequential", "gender": "m./f.", "type": "adjective" },
+    { "id": 32, "target": "debatir", "source": "to debate", "gender": "v.", "type": "verb" },
+    { "id": 33, "target": "discutir", "source": "to discuss / to argue", "gender": "v.", "type": "verb" },
+    { "id": 34, "target": "alcanzar un consenso", "source": "to reach a consensus", "gender": "—", "type": "phrase" },
+    { "id": 35, "target": "estar en desacuerdo", "source": "to disagree", "gender": "—", "type": "phrase" },
+    { "id": 36, "target": "estar de acuerdo", "source": "to agree", "gender": "—", "type": "phrase" },
+    { "id": 37, "target": "coincidir con", "source": "to coincide with", "gender": "—", "type": "phrase" },
+    { "id": 38, "target": "discrepar de", "source": "to differ from", "gender": "—", "type": "phrase" },
+    { "id": 39, "target": "tener en cuenta", "source": "to take into account", "gender": "—", "type": "phrase" },
+    { "id": 40, "target": "considerar que", "source": "to consider that", "gender": "—", "type": "phrase" }
+  ],
+  "grammar": [
+    {
+      "title": "Hedging Language — Softening Statements",
+      "content": "In advanced discourse, native speakers rarely make absolute claims without hedging. Hedging shows intellectual humility and strengthens your argument by acknowledging complexity.\n\nCommon hedge structures:\n- Parece que... / Parece ser que... (It seems that...)\n- Podría decirse que... (It could be said that...)\n- Es probable que + subjunctive (It's likely that...)\n- Es posible que + subjunctive (It's possible that...)\n- En cierta medida... (To a certain extent...)\n- En cierto modo... (In a certain way...)\n- No está de más decir que... (It's not unnecessary to say that...)\n- Cabe señalar que... (It's worth noting that...)\n\nExamples:\n- Parece que la situación es más complicada de lo que pensábamos.\n- Podría decirse que el impacto económico es significativo.\n- En cierta medida, tiene razón.\n- Es probable que haya cambios importantes.\n- Cabe señalar que los datos son provisionales.",
+      "examples": [
+        "Parece que la política tiene más seguidores que detractores, aunque las encuestas varían.",
+        "Podría decirse que la tecnología ha transformado la sociedad, pero también ha creado nuevas desigualdades.",
+        "En cierta medida, estoy de acuerdo con su argumento, pero creo que falta considerar el aspecto económico.",
+        "Es probable que el debate continúe durante muchos años más."
+      ],
+      "aid_note": "Romanian uses similar hedging: 'Se pare că...', 'Se poate spune că...', 'Într-o anumită măsură...', 'Este probabil să...'. The structures are remarkably parallel."
+    },
+    {
+      "title": "Emphatic Structures — Strengthening Arguments",
+      "content": "Emphatic structures add force to your statements. They signal confidence and draw attention to key points.\n\nKey emphatic patterns:\n- Sin duda (no) + statement = Undoubtedly\n- Indudablemente / Innegablemente = Indubitably / Undeniably\n- Lo que no se puede negar es que... = What cannot be denied is that...\n- Resulta evidente que... = It's evident that...\n- Queda claro que... = It's clear that...\n- Es innegable que... = It's undeniable that...\n- Lo más importante es que... = The most important thing is that...\n- Sin embargo, es fundamental reconocer que... = However, it's essential to recognize that...\n\nEmphatic word order:\n- Negación enfática: 'No es que no quiera, es que no puedo.' (It's not that I don't want to, it's that I can't.)\n- Cleft sentences: 'Lo que necesito es tiempo.' (What I need is time.)\n- Itáxis enfático: 'Algunas cosas, nunca las olvido.' (Some things, I never forget.)\n\nExamples:\n- Lo que no se puede negar es que la tecnología ha avanzado enormemente.\n- Resulta evidente que debemos tomar medidas urgentes.\n- Indudablemente, el impacto ambiental es preocupante.",
+      "examples": [
+        "Lo que no se puede negar es que el cambio climático está alterando los patrones meteorológicos.",
+        "Resulta evidente que necesitamos una estrategia más efectiva.",
+        "Lo más importante es que los ciudadanos estén informados.",
+        "Sin duda, este tema merece toda nuestra atención."
+      ],
+      "aid_note": "Romanian emphatic structures are similar: 'Desigur că...', 'Este evident că...', 'Ceea ce nu se poate nega este că...', 'Cel mai important lucru este că...'."
+    },
+    {
+      "title": "Counterargument Structures — 'Aunque', 'Si bien', 'A pesar de'",
+      "content": "Advanced argumentation requires acknowledging opposing views before refuting them. This 'concession-then-refutation' structure is essential for persuasive discourse.\n\nConcession patterns:\n- Aunque + subjunctive (even if / although)\n- Si bien + indicative/subjunctive (while / although)\n- A pesar de que + indicative/subjunctive (despite the fact that)\n- Por mucho que + subjunctive (no matter how much)\n- Por más que + subjunctive (however much)\n- Bien que + subjunctive (although — formal)\n\nExamples:\n- Aunque reconozco los beneficios de la tecnología, también veo sus riesgos.\n- Si bien es cierto que hay avances, todavía queda mucho por hacer.\n- A pesar de que la economía mejora, la desigualdad persiste.\n- Por mucho que se invierta en educación, el sistema necesita reformas.",
+      "examples": [
+        "Aunque la globalización ha generado crecimiento, también ha aumentado la brecha entre ricos y pobres.",
+        "Si bien es importante innovar, no debemos descuidar la estabilidad.",
+        "A pesar de que muchos opinan lo contrario, los datos muestran lo opuesto.",
+        "Por mucho que se debate sobre este tema, no se ha encontrado una solución definitiva."
+      ],
+      "aid_note": "Romanian concession: 'Chiar dacă...', 'Deși...', 'În ciuda faptului că...', 'Cât de multă...', 'Cu toate că...'. Very similar semantic range."
+    }
+  ],
+  "pronunciation": [
+    {
+      "title": "Intonation Patterns in Debate",
+      "content": "Spanish debate discourse uses specific intonation patterns to signal agreement, disagreement, emphasis, and rhetorical questions.\n\nKey patterns:\n- Rising-fall on key claims: 'Eso es INcorrecto ↘' — The pitch rises on the stressed syllable and falls sharply, signaling a definitive claim.\n- Rising tone on concessions: 'Aunque es cierto que... ↗' — A slight upward inflection signals you're setting up a contrast.\n- Falling tone on refutations: 'pero en realidad... ↘' — The pitch drops, signaling the real point.\n- Extended vowels on emphasis: 'Es fundamental... no meramente opcional' — Prolonging the final vowel of 'fundamental' adds weight.\n\nPractice:\n- 'Aunque la tecnología tiene ventajas, sus efectos negativos son innegables.' — Note the pitch drop on 'innegables'.\n- 'Lo que realmente importa es la calidad, no la cantidad.' — Note the emphasis on 'realmente' and 'calidad'.\n\nTip: Spanish speakers use a wider intonation range than English speakers in formal speech. Don't be afraid to project your pitch.",
+      "examples": [
+        { "target": "Aunque la tecnología tiene ventajas...", "source": "Set-up tone: slightly rising" },
+        { "target": "...sus efectos negativos son INNnegables.", "source": "Refutation tone: falling pitch on stress" },
+        { "target": "Lo que REALMENTE importa...", "source": "Emphatic tone: extended vowel" }
+      ],
+      "aid_note": "Romanian also uses rising-fall patterns in debate. The main difference is that Spanish has more pronounced pitch movement on stressed syllables, while Romanian stress is more fixed."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "fill-in-blank",
+      "question": "Complete the hedging: '_____ que la situación es complicada, pero no imposible.' (It seems that the situation is complicated, but not impossible.)",
+      "correct": "Parece",
+      "explanation": "'Parece que' is a common hedge meaning 'It seems that.' It softens the statement compared to a direct assertion."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete the concession: '_____ reconozco sus méritos, creo que el plan tiene defectos graves.' (Although I recognize its merits, I think the plan has serious flaws.)",
+      "correct": "Aunque",
+      "explanation": "'Aunque' introduces a concession. When followed by a known fact (indicative), it means 'although.' When followed by a hypothetical (subjunctive), it means 'even if.'"
+    },
+    {
+      "type": "exercise",
+      "question": "Which is the best hedging phrase for academic writing?",
+      "options": ["Es seguro que...", "Parece ser que...", "Definitivamente...", "Sin duda..."],
+      "correct": 1,
+      "explanation": "'Parece ser que' (It seems to be that) is a hedge. In academic writing, hedges show intellectual caution, unlike definitive phrases like 'Es seguro que' (It's certain that)."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete the emphatic: '_____ no se puede negar es que el cambio climático es real.' (What cannot be denied is that climate change is real.)",
+      "correct": "Lo que",
+      "explanation": "'Lo que' creates a cleft sentence emphasizing the clause that follows: 'Lo que no se puede negar es que...' = 'What cannot be denied is that...'"
+    },
+    {
+      "type": "exercise",
+      "question": "Which structure expresses 'to be in favor of'?",
+      "options": ["ser contrario a", "ser partidario de", "reservarse la opinión", "cuestionar"],
+      "correct": 1,
+      "explanation": "'Ser partidario de' means 'to be in favor of.' 'Ser contrario a' means 'to be opposed to.'"
+    },
+    {
+      "type": "matching",
+      "question": "Match the opinion expression with its function:",
+      "pairs": [
+        { "target": "matizar", "source": "to add nuance" },
+        { "target": "refutar", "source": "to contradict" },
+        { "target": "concordar", "source": "to agree" },
+        { "target": "discrepar", "source": "to disagree" },
+        { "target": "ponderar", "source": "to weigh carefully" }
+      ],
+      "explanation": "These are key verbs for nuanced argumentation. 'Matizar' adds detail to an opinion, while 'refutar' directly contradicts."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: '_____ de que la educación es importante, no todos tienen acceso a ella.' (Despite the fact that education is important, not everyone has access to it.)",
+      "correct": "A pesar",
+      "explanation": "'A pesar de que' = 'despite the fact that.' It introduces a concession that contrasts with the main clause."
+    },
+    {
+      "type": "exercise",
+      "question": "Which word means 'bias / biased'?",
+      "options": ["objetivo", "equilibrado", "sesgado", "fundamental"],
+      "correct": 2,
+      "explanation": "'Sesgado' means biased. 'Objetivo' = objective, 'equilibrado' = balanced, 'fundamental' = fundamental."
+    }
+  ]
+}

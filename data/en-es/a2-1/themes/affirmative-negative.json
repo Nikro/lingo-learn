@@ -1,0 +1,218 @@
+{
+  "id": "affirmative-negative",
+  "level": "a2-1",
+  "title": "Affirmative and Negative Sentences",
+  "description": "Learn to form negative sentences and double negatives in Spanish, plus affirmative equivalents.",
+  "vocabulary": [
+    {"id": 1, "target": "si", "source": "yes", "gender": "adv", "type": "affirmative"},
+    {"id": 2, "target": "no", "source": "no/not", "gender": "adv", "type": "negative"},
+    {"id": 3, "target": "tambien", "source": "also/too", "gender": "adv", "type": "affirmative"},
+    {"id": 4, "target": "tampoco", "source": "neither/not either", "gender": "adv", "type": "negative"},
+    {"id": 5, "target": "siempre", "source": "always", "gender": "adv", "type": "affirmative"},
+    {"id": 6, "target": "nunca", "source": "never", "gender": "adv", "type": "negative"},
+    {"id": 7, "target": "jamás", "source": "never (emphatic)", "gender": "adv", "type": "negative"},
+    {"id": 8, "target": "ya", "source": "already/yet", "gender": "adv", "type": "affirmative"},
+    {"id": 9, "target": "aun", "source": "still", "gender": "adv", "type": "affirmative"},
+    {"id": 10, "target": "algo", "source": "something", "gender": "pron", "type": "affirmative"},
+    {"id": 11, "target": "nada", "source": "nothing", "gender": "pron", "type": "negative"},
+    {"id": 12, "target": "alguien", "source": "someone", "gender": "pron", "type": "affirmative"},
+    {"id": 13, "target": "nadie", "source": "no one", "gender": "pron", "type": "negative"},
+    {"id": 14, "target": "alguno", "source": "some/any", "gender": "adj", "type": "affirmative"},
+    {"id": 15, "target": "ninguno", "source": "none/no one", "gender": "adj", "type": "negative"},
+    {"id": 16, "target": "todo", "source": "everything/all", "gender": "adj", "type": "affirmative"},
+    {"id": 17, "target": "nada", "source": "nothing", "gender": "pron", "type": "negative"},
+    {"id": 18, "target": "o", "source": "or", "gender": "conj", "type": "conjunction"},
+    {"id": 19, "target": "ni", "source": "neither/nor/not even", "gender": "conj", "type": "conjunction"},
+    {"id": 20, "target": "pero", "source": "but", "gender": "conj", "type": "conjunction"},
+    {"id": 21, "target": "sino", "source": "but rather", "gender": "conj", "type": "conjunction"},
+    {"id": 22, "target": "que", "source": "that/which", "gender": "conj", "type": "conjunction"},
+    {"id": 23, "target": "mucho", "source": "much/a lot", "gender": "adj", "type": "quantity"},
+    {"id": 24, "target": "poco", "source": "little/few", "gender": "adj", "type": "quantity"},
+    {"id": 25, "target": "bastante", "source": "enough/quite", "gender": "adj", "type": "quantity"},
+    {"id": 26, "target": "demasiado", "source": "too much", "gender": "adj", "type": "quantity"},
+    {"id": 27, "target": "mas", "source": "more", "gender": "adj/adv", "type": "quantity"},
+    {"id": 28, "target": "menos", "source": "less", "gender": "adj/adv", "type": "quantity"},
+    {"id": 29, "target": "tan", "source": "so/as", "gender": "adv", "type": "adverb"},
+    {"id": 30, "target": "tanto", "source": "so much", "gender": "adj", "type": "quantity"},
+    {"id": 31, "target": "es posible", "source": "it's possible", "gender": "phrase", "type": "expression"},
+    {"id": 32, "target": "es imposible", "source": "it's impossible", "gender": "phrase", "type": "expression"},
+    {"id": 33, "target": "es cierto", "source": "it's certain", "gender": "phrase", "type": "expression"},
+    {"id": 34, "target": "es verdad", "source": "it's true", "gender": "phrase", "type": "expression"},
+    {"id": 35, "target": "no es cierto", "source": "it's not certain", "gender": "phrase", "type": "expression"},
+    {"id": 36, "target": "creo que si", "source": "I think so", "gender": "phrase", "type": "expression"},
+    {"id": 37, "target": "creo que no", "source": "I don't think so", "gender": "phrase", "type": "expression"},
+    {"id": 38, "target": "espero que si", "source": "I hope so", "gender": "phrase", "type": "expression"},
+    {"id": 39, "target": "espero que no", "source": "I hope not", "gender": "phrase", "type": "expression"},
+    {"id": 40, "target": "quiza", "source": "perhaps", "gender": "adv", "type": "adverb"},
+    {"id": 41, "target": "quizas", "source": "perhaps", "gender": "adv", "type": "adverb"},
+    {"id": 42, "target": "tal vez", "source": "maybe", "gender": "adv", "type": "adverb"},
+    {"id": 43, "target": "probablemente", "source": "probably", "gender": "adv", "type": "adverb"},
+    {"id": 44, "target": "claro que si", "source": "of course", "gender": "phrase", "type": "affirmative"},
+    {"id": 45, "target": "claro que no", "source": "of course not", "gender": "phrase", "type": "negative"},
+    {"id": 46, "target": "por supuesto", "source": "of course", "gender": "phrase", "type": "affirmative"},
+    {"id": 47, "target": "desde luego", "source": "of course", "gender": "phrase", "type": "affirmative"},
+    {"id": 48, "target": "en absoluto", "source": "absolutely not", "gender": "phrase", "type": "negative"},
+    {"id": 49, "target": "de ninguna manera", "source": "by no means", "gender": "phrase", "type": "negative"},
+    {"id": 50, "target": "de ninguna forma", "source": "in no way", "gender": "phrase", "type": "negative"},
+    {"id": 51, "target": "tampoco", "source": "not either/neither", "gender": "adv", "type": "negative"},
+    {"id": 52, "target": "ni hablar", "source": "no way/forget it", "gender": "phrase", "type": "negative"},
+    {"id": 53, "target": "para nada", "source": "not at all", "gender": "phrase", "type": "negative"},
+    {"id": 54, "target": "en absoluto", "source": "not at all", "gender": "phrase", "type": "negative"},
+    {"id": 55, "target": "sin duda", "source": "without doubt", "gender": "phrase", "type": "affirmative"},
+    {"id": 56, "target": "obviamente", "source": "obviously", "gender": "adv", "type": "affirmative"},
+    {"id": 57, "target": "evidentemente", "source": "evidently", "gender": "adv", "type": "affirmative"},
+    {"id": 58, "target": "ciertamente", "source": "certainly", "gender": "adv", "type": "affirmative"},
+    {"id": 59, "target": "definitivamente", "source": "definitely", "gender": "adv", "type": "affirmative"},
+    {"id": 60, "target": "verdaderamente", "source": "truly", "gender": "adv", "type": "affirmative"},
+    {"id": 61, "target": "realmente", "source": "really", "gender": "adv", "type": "adverb"},
+    {"id": 62, "target": "solamente", "source": "only/just", "gender": "adv", "type": "adverb"},
+    {"id": 63, "target": "solo", "source": "only/just", "gender": "adv", "type": "adverb"},
+    {"id": 64, "target": "simplemente", "source": "simply", "gender": "adv", "type": "adverb"},
+    {"id": 65, "target": "unicamente", "source": "solely/only", "gender": "adv", "type": "adverb"},
+    {"id": 66, "target": "aun", "source": "still/yet", "gender": "adv", "type": "adverb"},
+    {"id": 67, "target": "inclusive", "source": "even", "gender": "adv", "type": "adverb"},
+    {"id": 68, "target": "excepto", "source": "except", "gender": "prep", "type": "preposition"},
+    {"id": 69, "target": "menos", "source": "except", "gender": "prep", "type": "preposition"},
+    {"id": 70, "target": "salvo", "source": "except", "gender": "prep", "type": "preposition"},
+    {"id": 71, "target": "si", "source": "if", "gender": "conj", "type": "conjunction"},
+    {"id": 72, "target": "a menos que", "source": "unless", "gender": "conj", "type": "conjunction"},
+    {"id": 73, "target": "con tal de que", "source": "provided that", "gender": "conj", "type": "conjunction"},
+    {"id": 74, "target": "como si", "source": "as if", "gender": "conj", "type": "conjunction"},
+    {"id": 75, "target": "quien sabe", "source": "who knows", "gender": "phrase", "type": "uncertainty"},
+    {"id": 76, "target": "quiza", "source": "perhaps", "gender": "adv", "type": "uncertainty"},
+    {"id": 77, "target": "posiblemente", "source": "possibly", "gender": "adv", "type": "uncertainty"},
+    {"id": 78, "target": "acaso", "source": "perhaps", "gender": "adv", "type": "uncertainty"},
+    {"id": 79, "target": "es probable", "source": "it's probable", "gender": "phrase", "type": "expression"},
+    {"id": 80, "target": "es improbable", "source": "it's improbable", "gender": "phrase", "type": "expression"},
+    {"id": 81, "target": "es factible", "source": "it's feasible", "gender": "phrase", "type": "expression"},
+    {"id": 82, "target": "no hay problema", "source": "no problem", "gender": "phrase", "type": "expression"},
+    {"id": 83, "target": "no importa", "source": "it doesn't matter", "gender": "phrase", "type": "expression"},
+    {"id": 84, "target": "no tiene importancia", "source": "it's not important", "gender": "phrase", "type": "expression"},
+    {"id": 85, "target": "por eso", "source": "that's why", "gender": "phrase", "type": "conjunction"},
+    {"id": 86, "target": "por lo tanto", "source": "therefore", "gender": "phrase", "type": "conjunction"},
+    {"id": 87, "target": "sin embargo", "source": "however", "gender": "phrase", "type": "conjunction"},
+    {"id": 88, "target": "no obstante", "source": "nevertheless", "gender": "phrase", "type": "conjunction"},
+    {"id": 89, "target": "ademas", "source": "moreover", "gender": "adv", "type": "conjunction"},
+    {"id": 90, "target": "por otra parte", "source": "on the other hand", "gender": "phrase", "type": "conjunction"},
+    {"id": 91, "target": "en cambio", "source": "on the other hand", "gender": "phrase", "type": "conjunction"},
+    {"id": 92, "target": "ni siquiera", "source": "not even", "gender": "phrase", "type": "negative"},
+    {"id": 93, "target": "ni modo", "source": "no way (LatAm)", "gender": "phrase", "type": "negative"},
+    {"id": 94, "target": "va de suyo", "source": "it goes without saying", "gender": "phrase", "type": "affirmative"},
+    {"id": 95, "target": "es logico", "source": "it's logical", "gender": "phrase", "type": "affirmative"},
+    {"id": 96, "target": "es obvio", "source": "it's obvious", "gender": "phrase", "type": "affirmative"},
+    {"id": 97, "target": "tiene sentido", "source": "it makes sense", "gender": "phrase", "type": "affirmative"},
+    {"id": 98, "target": "no tiene sentido", "source": "it doesn't make sense", "gender": "phrase", "type": "negative"},
+    {"id": 99, "target": "conforme", "source": "agreed/as agreed", "gender": "adj", "type": "affirmative"},
+    {"id": 100, "target": "eso es todo", "source": "that's all", "gender": "phrase", "type": "expression"}
+  ],
+  "grammar": [
+    {
+      "title": "Basic Negation with No",
+      "content": "Forming negative sentences in Spanish:\\n\\nBasic negation:\\nNo quiero ir. (I don't want to go.)\\nNo tengo dinero. (I don't have money.)\\nNo estoy cansado. (I'm not tired.)\\n\\nDouble negation (required in Spanish):\\nNo hay nadie. (There is nobody.)\\nNo veo nada. (I don't see anything.)\\nNo voy a ninguna parte. (I'm not going anywhere.)\\n\\nNegative words that require 'no' in affirmative sentences:\\nNunca he estado en Paris. (I've never been in Paris.) → No negative word before verb needed\\nPero: with negation, BOTH must be present:\\nNo he estado nunca en Paris. (I have never been in Paris.) — more emphatic\\n\\nKey negative words:\\n- nunca (never)\\n- jamais (never, more emphatic)\\n- nadie (no one)\\n- nada (nothing)\\n- ninguno/ninguna (none)\\n- ni...ni (neither...nor)\\n- ni siquiera (not even)",
+      "examples": [
+        "No quiero nada. (I don't want anything.)",
+        "No hay nadie en casa. (There's nobody home.)",
+        "No tengo ningun problema. (I don't have any problem.)",
+        "Nunca me lo dijo. (He never told me.) / No me lo dijo nunca. (more emphatic)"
+      ]
+    },
+    {
+      "title": "Double Negatives in Spanish",
+      "content": "In Spanish, TWO negatives are often used together for emphasis:\\n\\nNo hay nadie = There is nobody\\nNo veo nada = I don't see anything\\nNo voy a ningun lado = I'm not going anywhere\\n\\nDouble negative with 'ni':\\nNo tengo ni tiempo ni dinero. (I have neither time nor money.)\\nNo me gusta ni el cafe ni el te. (I like neither coffee nor tea.)\\n\\nUsing 'ni' alone (without preceding 'no'):\\nNi lo uno ni lo otro. (Neither one nor the other.)\\nNi hablar! (No way! / Don't even think about it!)\\n\\nOther negative expressions:\\nNo importa = It doesn't matter\\nNo tiene importancia = It's not important\\nNo hay de que = You're welcome / It's nothing\\nNo es para tanto = It's not a big deal\\n\\nPosition of negatives:\\nNegative words can come before or after the verb:\\nNunca vienes. / No vienes nunca. (You never come.) — both correct",
+      "examples": [
+        "No tengo ni tiempo ni paciencia. (I have neither time nor patience.)",
+        "Ni siquiera me miró. (He didn't even look at me.)",
+        "No tengo ningún interés en ir. (I have no interest in going.)",
+        "Nunca mais lo hare. (I will never do it again.)"
+      ]
+    },
+    {
+      "title": "Affirmative and Negative Pairs",
+      "content": "Spanish affirmative ↔ negative pairs:\\n\\nalgún/uno ↔ ninguno\\nAlguien llamó. → Nadie llamó.\\n\\nalgo ↔ nada\\nAlgo pasó. → Nada pasó.\\n\\ntambién ↔ tampoco\\nYo también quiero ir. → Yo tampoco quiero ir.\\n\\nsiempre ↔ nunca/jamás\\nSiempre vengo aquí. → Nunca vengo aquí.\\n\\nya ↔ todavía no / aun no\\nYa terminé. → Todavía no he terminado.\\n\\notro ↔ ningún otro\\nOtro día será. → Ningún otro día será.\\n\\ntodo ↔ nada\\nTodo está bien. → Nada está bien.\\n\\nBoth/All ↔ Neither/None:\\nTodos vinieron. → Ninguno vino.\\n\\nExpressing agreement/disagreement:\\n— No me gusta. — A mí tampoco. (Neither do I.)\\n— Me gusta mucho. — A mí también. (Me too.)",
+      "examples": [
+        "— Quiero ir también. — Yo también quiero ir. / Yo tampoco quiero ir. (I don't want to go either.)",
+        "— Siempre llego tarde. — Pues yo nunca llego tarde. (Well I never arrive late.)",
+        "— Ya terminé. — Pues yo todavía no he terminado. (Well I haven't finished yet.)",
+        "— Todo está bien. — No, nada está bien. (No, nothing is fine.)"
+      ]
+    }
+  ],
+  "pronunciation": [
+    {
+      "title": "Negation Pronunciation",
+      "content": "Key negative word pronunciation:\\n\\nno = noh\\nnada = NAH-dah\\nnadie = NAH-dyeh (d sounds like 'dy')\\nninguno = neen-GOO-noh\\nni = nee\\nnunca = NOON-kah\\njamás = hah-MAHS (stress on second syllable)\\ntampoco = tahm-POH-koh\\n\\nContrast with affirmative counterparts:\\n\\nalgo = AL-goh (something)\\nalguien = AL-gyehn (someone)\\nalguno = al-GOO-noh (some)\\n\\ntambién = tahm-BEEN (also)\\nsiempre = SYEM-preh (always)\\nya = yah (already)\\n\\nDouble negative examples:\\nNo hay nadie = noh eye NAH-dyeh (there is no one)\\nNo veo nada = noh BEH-oh NAH-dah (I see nothing)",
+      "examples": [
+        "nada = NAH-dah\\nnadie = NAH-dyeh\\nninguno = neen-GOO-noh",
+        "jamás = hah-MAHS\\nnunca = NOON-kah\\ntampoco = tahm-POH-koh",
+        "Ni hablar! = Nee ah-LAR (No way!)"
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "multiple-choice",
+      "question": "Which is correct for 'There is nobody' in Spanish?",
+      "options": ["Hay nadie", "No hay nadie", "Nadie hay", "No nadie hay"],
+      "correct": 1,
+      "explanation": "Spanish requires double negation: 'No hay nadie' = There is nobody. Simply saying 'Hay nadie' is incorrect."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: '___ me gusta el cafe. (I don't like coffee either.)'",
+      "correct": "Tampoco",
+      "explanation": "Tampoco = neither/not either. 'A mi tampoco' = Neither do I / Me neither."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Which sentence is grammatically correct?",
+      "options": ["Nunca he estado alli", "No he estado nunca alli", "Both are correct", "Neither is correct"],
+      "correct": 2,
+      "explanation": "Both 'Nunca he estado alli' and 'No he estado nunca alli' are correct. The second is more emphatic."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: 'No tengo ___ tiempo ___ dinero. (I have neither time nor money.)'",
+      "correct": "ni / ni",
+      "explanation": "Ni...ni = neither...nor. 'No tengo ni tiempo ni dinero' = I have neither time nor money."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Which means 'I see nothing' in Spanish?",
+      "options": ["Veo nada", "No veo nada", "Nada veo", "Both B and C are correct"],
+      "correct": 3,
+      "explanation": "Both 'No veo nada' and 'Nada veo' are correct. Position of 'nada' is flexible."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: '___ siquiera lo pense. (I didn't even think about it.)'",
+      "correct": "Ni",
+      "explanation": "Ni siquiera = not even. 'Ni siquiera lo pense' = I didn't even think about it."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Which is the affirmative equivalent of 'Nunca' (never)?",
+      "options": ["siempre", "tambien", "ya", "todo"],
+      "correct": 0,
+      "explanation": "Siempre = always is the affirmative opposite of nunca = never."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: '___ me gusta. — A mi ___. (I don't like it. — Me neither.)'",
+      "correct": "No / tampoco",
+      "explanation": "'No me gusta' = I don't like it. 'A mi tampoco' = Me neither / Neither do I."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Which is correct for 'No way!' in Spanish?",
+      "options": ["Si hablar", "Ni hablar", "Si nada", "No nada"],
+      "correct": 1,
+      "explanation": "Ni hablar = No way! / Don't even think about it! (literally: not even to talk)"
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: 'No tengo ___ interes en ir. (I have no interest in going.)'",
+      "correct": "ningun",
+      "explanation": "Ningún = no/not any (contracted form of ninguno). 'Ningún interés' = no interest."
+    }
+  ]
+}

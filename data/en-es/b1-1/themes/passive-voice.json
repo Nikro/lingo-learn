@@ -1,0 +1,113 @@
+{
+  "id": "passive-voice",
+  "title": "Passive Voice (Voz Pasiva: Ser + Participio)",
+  "description": "Learn the formal passive voice using ser + past participle, with agreement in gender and number.",
+  "vocabulary": [
+    { "id": 1, "target": "la ley", "source": "the law", "gender": "f.", "type": "noun" },
+    { "id": 2, "target": "el gobierno", "source": "the government", "gender": "m.", "type": "noun" },
+    { "id": 3, "target": "el puente", "source": "the bridge", "gender": "m.", "type": "noun" },
+    { "id": 4, "target": "los obreros", "source": "the workers", "gender": "m.", "type": "noun" },
+    { "id": 5, "target": "las llaves", "source": "the keys", "gender": "f.", "type": "noun" },
+    { "id": 6, "target": "el libro", "source": "the book", "gender": "m.", "type": "noun" },
+    { "id": 7, "target": "el escritor", "source": "the writer", "gender": "m.", "type": "noun" },
+    { "id": 8, "target": "el informe", "source": "the report", "gender": "m.", "type": "noun" },
+    { "id": 9, "target": "el contrato", "source": "the contract", "gender": "m.", "type": "noun" },
+    { "id": 10, "target": "las obras", "source": "the works", "gender": "f.", "type": "noun" },
+    { "id": 11, "target": "la catedral", "source": "the cathedral", "gender": "f.", "type": "noun" },
+    { "id": 12, "target": "el siglo", "source": "the century", "gender": "m.", "type": "noun" },
+    { "id": 13, "target": "la guerra", "source": "the war", "gender": "f.", "type": "noun" },
+    { "id": 14, "target": "el terremoto", "source": "the earthquake", "gender": "m.", "type": "noun" },
+    { "id": 15, "target": "aprobado", "source": "approved", "gender": "m.", "type": "adjective" },
+    { "id": 16, "target": "construido", "source": "constructed", "gender": "m.", "type": "adjective" },
+    { "id": 17, "target": "robado", "source": "stolen", "gender": "m.", "type": "adjective" },
+    { "id": 18, "target": "escrito", "source": "written", "gender": "m.", "type": "adjective" },
+    { "id": 19, "target": "publicado", "source": "published", "gender": "m.", "type": "adjective" },
+    { "id": 20, "target": "destruido", "source": "destroyed", "gender": "m.", "type": "adjective" },
+    { "id": 21, "target": "firmado", "source": "signed", "gender": "m.", "type": "adjective" },
+    { "id": 22, "target": "construir", "source": "to build / to construct", "gender": "v.", "type": "verb" },
+    { "id": 23, "target": "destruir", "source": "to destroy", "gender": "v.", "type": "verb" },
+    { "id": 24, "target": "aprobar", "source": "to approve", "gender": "v.", "type": "verb" },
+    { "id": 25, "target": "publicar", "source": "to publish", "gender": "v.", "type": "verb" },
+    { "id": 26, "target": "firmar", "source": "to sign", "gender": "v.", "type": "verb" },
+    { "id": 27, "target": "robar", "source": "to steal", "gender": "v.", "type": "verb" },
+    { "id": 28, "target": "escribir", "source": "to write", "gender": "v.", "type": "verb" },
+    { "id": 29, "target": "ser", "source": "to be", "gender": "v.", "type": "verb" },
+    { "id": 30, "target": "por", "source": "by", "gender": "—", "type": "preposition" }
+  ],
+  "grammar": [
+    {
+      "title": "Passive Voice (Voz Pasiva: Ser + Participio)",
+      "content": "The passive voice in Spanish is formed with SER + past participle (which agrees in gender/number with the subject). Unlike English, Spanish uses the passive voice less frequently — the 'se' construction is often preferred. However, the passive is common in formal writing, news, and academic contexts.\n\nFormula: Subject + SER (conjugated) + Past Participle + (por + agent)\n\nThe past participle MUST agree in gender and number with the subject.\n\nRegular past participles:\n- -ar → -ado (hablar → hablado)\n- -er → -ido (comer → comido)\n- -ir → -ido (vivir → vivido)\n\nIrregular past participles (must memorize):\n- hacer → hecho\n- decir → dicho\n- escribir → escrito\n- ver → visto\n- romper → roto\n- poner → puesto\n- abrir → abierto\n- morir → muerto\n- resolver → resuelto\n- descubrir → descubierto",
+      "table": {
+        "headers": ["Active Voice", "Passive Voice", "Note"],
+        "rows": [
+          ["El gobierno aprobó la ley.", "La ley fue aprobada por el gobierno.", "feminine singular: aprobada"],
+          ["Los obreros construyeron el puente.", "El puente fue construido por los obreros.", "masculine singular: construido"],
+          ["Alguien robó mis llaves.", "Mis llaves fueron robadas.", "feminine plural: robadas"],
+          ["El escritor escribió el libro.", "El libro fue escrito por el escritor.", "irregular participle: escrito"]
+        ]
+      },
+      "examples": [
+        "La catedral fue construida en el siglo XII. (The cathedral was built in the 12th century.)",
+        "El informe será publicado mañana. (The report will be published tomorrow.)",
+        "El contrato debe ser firmado antes del viernes. (The contract must be signed before Friday.)",
+        "Muchas obras fueron destruidas durante la guerra. (Many works were destroyed during the war.)"
+      ],
+      "aid_note": "Romanian also has a passive voice (passivul) formed with 'a fi' + past participle — very similar pattern. However, Romanian uses it more frequently in speech. In Spanish, prefer 'se' constructions in everyday conversation."
+    }
+  ],
+  "pronunciation": [
+    {
+      "title": "Stress in Past Participles",
+      "content": "Most Spanish past participles are stressed on the second-to-last syllable:\n- hablado (ha-BLA-do)\n- comido (ko-MÍ-do)\n- construido (con-STROÍ-do)\n- destruido (des-TROÍ-do)\n- aprobado (a-pro-BÁ-do)\n\nIrregulars with stress:\n- escrito (es-CRÍ-to)\n- dicho (DÍ-cho)\n- hecho (HE-cho)\n- visto (VIS-to)\n- roto (RO-to)\n- abierto (a-BIER-to)\n\nThe accent marks on -cido/-sido forms (escrito, dicho, etc.) show the stress on the 'i'.",
+      "examples": [
+        { "target": "construido", "source": "con-STROÍ-do (stress on í)" },
+        { "target": "destruido", "source": "des-TROÍ-do (stress on í)" },
+        { "target": "escrito", "source": "es-CRÍ-to (stress on í)" },
+        { "target": "abiertos", "source": "a-BIERT-os (stress on í)" }
+      ],
+      "aid_note": "Romanian past participles have different stress patterns but the concept of agreement with the subject is the same. The Spanish participles are easier to pronounce because of the consistent vowel system."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "fill-in-blank",
+      "question": "Complete the passive voice: 'El puente fue ____ por los obreros.' (constructed)",
+      "correct": "construido",
+      "explanation": "'Construido' — past participle of construir. The subject 'el puente' is masculine singular, matching 'construido'."
+    },
+    {
+      "type": "exercise",
+      "question": "Choose the correct passive form:",
+      "options": ["La ley aprobó por el gobierno.", "La ley fue aprobada por el gobierno.", "La ley es aprobada por el gobierno.", "La ley ha aprobado por el gobierno."],
+      "correct": 1,
+      "explanation": "'La ley fue aprobada por el gobierno.' — Passive: fue (ser) + aprobada (past participle, feminine singular to match 'la ley')."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete the passive with the correct participle: 'Las casas fueron ____ durante el terremoto.' (destroyed)",
+      "correct": "destruidas",
+      "explanation": "'Destruidas' — feminine plural to match 'las casas'. Past participle of destruir."
+    },
+    {
+      "type": "exercise",
+      "question": "Translate: 'The museum was built in the 19th century.'",
+      "options": ["El museo construyó en el siglo XIX.", "El museo fue construido en el siglo XIX.", "El museo está construido en el siglo XIX.", "Se construyó el museo en el siglo XIX."],
+      "correct": 1,
+      "explanation": "'El museo fue construido en el siglo XIX.' — Passive: fue + construido (masc. singular to match 'el museo')."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete the passive voice: 'El informe ____ (deber / ser) publicado hoy.' (must be published)",
+      "correct": "debe ser publicado",
+      "explanation": "'Debe ser publicado' — modal + ser + past participle in passive. 'El informe' = masculine singular → 'publicado'."
+    },
+    {
+      "type": "exercise",
+      "question": "What is the past participle of 'decir'?",
+      "options": ["decido", "dicho", "decado", "decio"],
+      "correct": 1,
+      "explanation": "'Dicho' is the irregular past participle of decir. Used in passive: fue dicho (was said)."
+    }
+  ]
+}

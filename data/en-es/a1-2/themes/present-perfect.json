@@ -1,0 +1,131 @@
+{
+  "id": "present-perfect",
+  "title": "Present Perfect (Pretérito Perfecto)",
+  "description": "Learn to talk about recent past experiences using haber + past participle.",
+  "vocabulary": [
+    { "id": 1, "target": "he", "source": "I have", "gender": "v.", "type": "auxiliary" },
+    { "id": 2, "target": "has", "source": "you have (informal)", "gender": "v.", "type": "auxiliary" },
+    { "id": 3, "target": "ha", "source": "he/she/you formal have", "gender": "v.", "type": "auxiliary" },
+    { "id": 4, "target": "hemos", "source": "we have", "gender": "v.", "type": "auxiliary" },
+    { "id": 5, "target": "habéis", "source": "you all have (Spain)", "gender": "v.", "type": "auxiliary" },
+    { "id": 6, "target": "han", "source": "they/you all have", "gender": "v.", "type": "auxiliary" },
+    { "id": 7, "target": "ayer", "source": "yesterday", "gender": "—", "type": "time" },
+    { "id": 8, "target": "esta semana", "source": "this week", "gender": "—", "type": "time" },
+    { "id": 9, "target": "hoy", "source": "today", "gender": "—", "type": "time" },
+    { "id": 10, "target": "en mi vida", "source": "in my life", "gender": "—", "type": "time" },
+    { "id": 11, "target": "ya", "source": "already / already done", "gender": "—", "type": "time" },
+    { "id": 12, "target": "aún no", "source": "not yet", "gender": "—", "type": "time" },
+    { "id": 13, "target": "recién", "source": "just / newly", "gender": "—", "type": "time" },
+    { "id": 14, "target": "hace poco", "source": "a little while ago", "gender": "—", "type": "time" },
+    { "id": 15, "target": "nunca", "source": "never", "gender": "—", "type": "time" },
+    { "id": 16, "target": "alguna vez", "source": "ever / at some point", "gender": "—", "type": "time" },
+    { "id": 17, "target": "esta mañana", "source": "this morning", "gender": "—", "type": "time" },
+    { "id": 18, "target": "este mes", "source": "this month", "gender": "m.", "type": "time" },
+    { "id": 19, "target": "este año", "source": "this year", "gender": "m.", "type": "time" },
+    { "id": 20, "target": "el fin de semana", "source": "the weekend", "gender": "m.", "type": "time" }
+  ],
+  "grammar": [
+    {
+      "title": "Present Perfect — Haber + Past Participle",
+      "content": "The present perfect is formed with the present tense of haber + a past participle. It's used to talk about actions that happened in the recent past or that have relevance to the present.\n\nHaber conjugation (present tense):\n- yo: he\n- tú: has\n- él/ella/usted: ha\n- nosotros: hemos\n- vosotros: habéis\n- ellos/ellas/ustedes: han\n\nThe past participle is formed by:\n- -AR verbs: drop -ar, add -ado (hablar → hablado)\n- -ER verbs: drop -er, add -ido (comer → comido)\n- -IR verbs: drop -ir, add -ido (vivir → vivido)",
+      "table": {
+        "headers": ["Pronoun", "Haber", "hablar", "comer", "vivir"],
+        "rows": [
+          ["yo", "he", "he hablado", "he comido", "he vivido"],
+          ["tú", "has", "has hablado", "has comido", "has vivido"],
+          ["él/ella/usted", "ha", "ha hablado", "ha comido", "ha vivido"],
+          ["nosotros", "hemos", "hemos hablado", "hemos comido", "hemos vivido"],
+          ["vosotros", "habéis", "habéis hablado", "habéis comido", "habéis vivido"],
+          ["ellos/ellas/ustedes", "han", "han hablado", "han comido", "han vivido"]
+        ]
+      },
+      "examples": [
+        "Hoy he comido paella. (Today I have eaten paella.)",
+        "¿Has visto la televisión esta semana? (Have you watched TV this week?)",
+        "Hemos vivido aquí dos años. (We have lived here for two years.)",
+        "Mi amigo ha trabajado mucho. (My friend has worked a lot.)"
+      ],
+      "aid_note": "In most of Spain, the present perfect is used for recent past (today, this week, this month). In Latin America, the simple preterite is often preferred even for recent events. Both are correct — the regional usage differs. Think of 'he comido' as 'I have eaten' vs 'comí' as 'I ate.'"
+    },
+    {
+      "title": "Irregular Past Participles",
+      "content": "Several common verbs have irregular past participles that must be memorized:\n\n- abrir → abierto (opened)\n- cubrir → cubierto (covered)\n- devolver → devuelto (returned)\n- escribir → escrito (written)\n- hacer → hecho (done/made)\n- morir → muerto (died)\n- poner → puesto (put/placed)\n- romper → roto (broken)\n- resolver → resuelto (resolved)\n- ver → visto (seen)\n- volver → vuelto (returned)\n- disolver → disuelto (dissolved)",
+      "table": {
+        "headers": ["Infinitive", "Past Participle", "English"],
+        "rows": [
+          ["abrir", "abierto", "opened"],
+          ["cubrir", "cubierto", "covered"],
+          ["devolver", "devuelto", "returned"],
+          ["escribir", "escrito", "written"],
+          ["hacer", "hecho", "done/made"],
+          ["morir", "muerto", "died"],
+          ["poner", "puesto", "put"],
+          ["romper", "roto", "broken"],
+          ["ver", "visto", "seen"],
+          ["volver", "vuelto", "returned"]
+        ]
+      },
+      "examples": [
+        "He abierto la ventana. (I have opened the window.)",
+        "¿Has escrito el correo? (Have you written the email?)",
+        "Ya he hecho la tarea. (I've already done the homework.)",
+        "Ella ha visto esa película. (She has seen that movie.)"
+      ],
+      "aid_note": "Note that irregular participles follow the same grammar rules as regular ones when combined with haber: 'He hecho' (I have done), 'He visto' (I have seen). The irregularity is only in the participle form itself."
+    }
+  ],
+  "pronunciation": [],
+  "exercises": [
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: 'Yo ____ (comer) ya.' (I have eaten already.)",
+      "correct": "he comido",
+      "explanation": "'He comido' = haber (he) + past participle (comido). Regular -ER verb."
+    },
+    {
+      "type": "exercise",
+      "question": "Which form of 'haber' goes with 'nosotros'?",
+      "options": ["has", "ha", "hemos", "han"],
+      "correct": 2,
+      "explanation": "'Hemos' is the nosotros form of haber. We: hemos hablado, hemos comido, etc."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: 'Ellos ____ (ver) la película.' (They have seen the movie.)",
+      "correct": "han visto",
+      "explanation": "'Han visto' = han (ellos form of haber) + visto (irregular past participle of ver)."
+    },
+    {
+      "type": "exercise",
+      "question": "What is the past participle of 'hacer'?",
+      "options": ["hacido", "hecho", "hacio", "hacado"],
+      "correct": 1,
+      "explanation": "'Hecho' is the irregular past participle of hacer. Used in: 'He hecho la tarea' (I've done the homework)."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: 'Nosotros ____ (volver) del trabajo.' (We have returned from work.)",
+      "correct": "hemos vuelto",
+      "explanation": "'Hemos vuelto' = hemos (nosotros of haber) + vuelto (irregular participle of volver)."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: '¿____ (you) ____ (comer) hoy?' (Have you eaten today?)",
+      "correct": "has comido",
+      "explanation": "'¿Has comido hoy?' = has (tú of haber) + comido (past participle of comer)."
+    },
+    {
+      "type": "exercise",
+      "question": "Which sentence is in the present perfect?",
+      "options": ["Ayer comí paella.", "Hoy he comido paella.", "Comeré paella.", "Comía paella."],
+      "correct": 1,
+      "explanation": "'Hoy he comido paella' uses the present perfect (he + comido) with a time marker for the current period (hoy = today)."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: 'Ella ha ____ (escribir) tres cartas.' (She has written three letters.)",
+      "correct": "escrito",
+      "explanation": "'Escrito' is the irregular past participle of escribir. She has written = ella ha escrito."
+    }
+  ]
+}

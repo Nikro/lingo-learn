@@ -1,108 +1,1122 @@
 {
   "id": "coffee-shop-ordering",
   "title": "Coffee Shop & Ordering",
-  "description": "Order food and drinks, ask for the bill, and learn numbers in context.",
+  "description": "Order food and drinks confidently, ask for the bill, understand menus, handle payments, and navigate restaurants, caf\u00e9s, bars, and bakeries.",
   "vocabulary": [
     {
       "id": 1,
-      "target": "una taza de caf\u00e9",
-      "source": "a cup of coffee",
-      "gender": "f",
-      "type": "food"
+      "target": "men\u00fa",
+      "source": "menu",
+      "gender": "m",
+      "type": "object"
     },
     {
       "id": 2,
-      "target": "un zumo de naranja",
-      "source": "orange juice",
-      "gender": "m",
-      "type": "food"
+      "target": "carta",
+      "source": "menu/card",
+      "gender": "f",
+      "type": "object"
     },
     {
       "id": 3,
-      "target": "una tostada",
-      "source": "toast",
+      "target": "la cuenta",
+      "source": "the bill",
       "gender": "f",
-      "type": "food"
+      "type": "object"
     },
     {
       "id": 4,
-      "target": "la cuenta, por favor",
-      "source": "the bill, please",
+      "target": "la carta",
+      "source": "menu",
       "gender": "f",
-      "type": "phrase"
+      "type": "object"
     },
     {
       "id": 5,
-      "target": "\u00bfCu\u00e1nto cuesta?",
-      "source": "How much does it cost?",
-      "gender": "\u2014",
-      "type": "question"
+      "target": "mesa",
+      "source": "table",
+      "gender": "f",
+      "type": "furniture"
     },
     {
       "id": 6,
-      "target": "dos caf\u00e9s",
-      "source": "two coffees",
-      "gender": "m",
-      "type": "food"
+      "target": "silla",
+      "source": "chair",
+      "gender": "f",
+      "type": "furniture"
     },
     {
       "id": 7,
+      "target": "servilleta",
+      "source": "napkin",
+      "gender": "f",
+      "type": "object"
+    },
+    {
+      "id": 8,
+      "target": "cubiertos",
+      "source": "cutlery",
+      "gender": "m",
+      "type": "object"
+    },
+    {
+      "id": 9,
+      "target": "el tenedor",
+      "source": "fork",
+      "gender": "m",
+      "type": "object"
+    },
+    {
+      "id": 10,
+      "target": "el cuchillo",
+      "source": "knife",
+      "gender": "m",
+      "type": "object"
+    },
+    {
+      "id": 11,
+      "target": "la cuchara",
+      "source": "spoon",
+      "gender": "f",
+      "type": "object"
+    },
+    {
+      "id": 12,
+      "target": "el plato",
+      "source": "plate/dish",
+      "gender": "m",
+      "type": "object"
+    },
+    {
+      "id": 13,
+      "target": "el vaso",
+      "source": "glass (for drinking)",
+      "gender": "m",
+      "type": "object"
+    },
+    {
+      "id": 14,
+      "target": "la taza",
+      "source": "cup",
+      "gender": "f",
+      "type": "object"
+    },
+    {
+      "id": 15,
+      "target": "el plato",
+      "source": "plate",
+      "gender": "m",
+      "type": "object"
+    },
+    {
+      "id": 16,
+      "target": "caf\u00e9",
+      "source": "coffee",
+      "gender": "m",
+      "type": "drink"
+    },
+    {
+      "id": 17,
+      "target": "caf\u00e9 con leche",
+      "source": "coffee with milk",
+      "gender": "m",
+      "type": "drink"
+    },
+    {
+      "id": 18,
+      "target": "caf\u00e9 solo",
+      "source": "black coffee",
+      "gender": "m",
+      "type": "drink"
+    },
+    {
+      "id": 19,
+      "target": "caf\u00e9 cortado",
+      "source": "coffee with a little milk",
+      "gender": "m",
+      "type": "drink"
+    },
+    {
+      "id": 20,
+      "target": "caf\u00e9 con hielo",
+      "source": "iced coffee",
+      "gender": "m",
+      "type": "drink"
+    },
+    {
+      "id": 21,
+      "target": "cappuccino",
+      "source": "cappuccino",
+      "gender": "m",
+      "type": "drink"
+    },
+    {
+      "id": 22,
+      "target": "t\u00e9",
+      "source": "tea",
+      "gender": "m",
+      "type": "drink"
+    },
+    {
+      "id": 23,
+      "target": "t\u00e9 verde",
+      "source": "green tea",
+      "gender": "m",
+      "type": "drink"
+    },
+    {
+      "id": 24,
+      "target": "t\u00e9 negro",
+      "source": "black tea",
+      "gender": "m",
+      "type": "drink"
+    },
+    {
+      "id": 25,
+      "target": "zumo de naranja",
+      "source": "orange juice",
+      "gender": "m",
+      "type": "drink"
+    },
+    {
+      "id": 26,
+      "target": "zumo",
+      "source": "juice",
+      "gender": "m",
+      "type": "drink"
+    },
+    {
+      "id": 27,
       "target": "agua",
       "source": "water",
       "gender": "f",
       "type": "drink"
     },
     {
-      "id": 8,
+      "id": 28,
+      "target": "agua con gas",
+      "source": "sparkling water",
+      "gender": "f",
+      "type": "drink"
+    },
+    {
+      "id": 29,
+      "target": "agua sin gas",
+      "source": "still water",
+      "gender": "f",
+      "type": "drink"
+    },
+    {
+      "id": 30,
+      "target": "refresco",
+      "source": "soda/soft drink",
+      "gender": "m",
+      "type": "drink"
+    },
+    {
+      "id": 31,
+      "target": "cerveza",
+      "source": "beer",
+      "gender": "f",
+      "type": "drink"
+    },
+    {
+      "id": 32,
+      "target": "vino",
+      "source": "wine",
+      "gender": "m",
+      "type": "drink"
+    },
+    {
+      "id": 33,
+      "target": "vino tinto",
+      "source": "red wine",
+      "gender": "m",
+      "type": "drink"
+    },
+    {
+      "id": 34,
+      "target": "vino blanco",
+      "source": "white wine",
+      "gender": "m",
+      "type": "drink"
+    },
+    {
+      "id": 35,
+      "target": "leche",
+      "source": "milk",
+      "gender": "f",
+      "type": "drink"
+    },
+    {
+      "id": 36,
+      "target": "chocolate",
+      "source": "hot chocolate",
+      "gender": "m",
+      "type": "drink"
+    },
+    {
+      "id": 37,
+      "target": "limonada",
+      "source": "lemonade",
+      "gender": "f",
+      "type": "drink"
+    },
+    {
+      "id": 38,
+      "target": "smoothie",
+      "source": "smoothie",
+      "gender": "m",
+      "type": "drink"
+    },
+    {
+      "id": 39,
+      "target": "batido",
+      "source": "milkshake",
+      "gender": "m",
+      "type": "drink"
+    },
+    {
+      "id": 40,
+      "target": "c\u00f3ctel",
+      "source": "cocktail",
+      "gender": "m",
+      "type": "drink"
+    },
+    {
+      "id": 41,
+      "target": "tostada",
+      "source": "toast",
+      "gender": "f",
+      "type": "food"
+    },
+    {
+      "id": 42,
+      "target": "tostada con tomate",
+      "source": "toast with tomato",
+      "gender": "f",
+      "type": "food"
+    },
+    {
+      "id": 43,
+      "target": "tostada con jam\u00f3n",
+      "source": "toast with ham",
+      "gender": "f",
+      "type": "food"
+    },
+    {
+      "id": 44,
       "target": "pan",
       "source": "bread",
       "gender": "m",
       "type": "food"
     },
     {
-      "id": 9,
-      "target": "huevos",
-      "source": "eggs",
+      "id": 45,
+      "target": "pan tostado",
+      "source": "toast",
       "gender": "m",
       "type": "food"
     },
     {
-      "id": 10,
-      "target": "manzana",
-      "source": "apple",
+      "id": 46,
+      "target": "pan integral",
+      "source": "whole wheat bread",
+      "gender": "m",
+      "type": "food"
+    },
+    {
+      "id": 47,
+      "target": "boller\u00eda",
+      "source": "pastries/baked goods",
       "gender": "f",
+      "type": "food"
+    },
+    {
+      "id": 48,
+      "target": "croissant",
+      "source": "croissant",
+      "gender": "m",
+      "type": "food"
+    },
+    {
+      "id": 49,
+      "target": "magdalena",
+      "source": "muffin/cupcake",
+      "gender": "f",
+      "type": "food"
+    },
+    {
+      "id": 50,
+      "target": "pastel",
+      "source": "cake",
+      "gender": "m",
+      "type": "food"
+    },
+    {
+      "id": 51,
+      "target": "galleta",
+      "source": "cookie",
+      "gender": "f",
+      "type": "food"
+    },
+    {
+      "id": 52,
+      "target": "chocolate",
+      "source": "chocolate",
+      "gender": "m",
+      "type": "food"
+    },
+    {
+      "id": 53,
+      "target": "helado",
+      "source": "ice cream",
+      "gender": "m",
+      "type": "food"
+    },
+    {
+      "id": 54,
+      "target": "yogur",
+      "source": "yogurt",
+      "gender": "m",
+      "type": "food"
+    },
+    {
+      "id": 55,
+      "target": "fruta",
+      "source": "fruit",
+      "gender": "f",
+      "type": "food"
+    },
+    {
+      "id": 56,
+      "target": "ensalada",
+      "source": "salad",
+      "gender": "f",
+      "type": "food"
+    },
+    {
+      "id": 57,
+      "target": "sopa",
+      "source": "soup",
+      "gender": "f",
+      "type": "food"
+    },
+    {
+      "id": 58,
+      "target": "tarta",
+      "source": "cake/cake (layered)",
+      "gender": "f",
+      "type": "food"
+    },
+    {
+      "id": 59,
+      "target": "tarta de chocolate",
+      "source": "chocolate cake",
+      "gender": "f",
+      "type": "food"
+    },
+    {
+      "id": 60,
+      "target": "tarta de zanahoria",
+      "source": "carrot cake",
+      "gender": "f",
+      "type": "food"
+    },
+    {
+      "id": 61,
+      "target": "Quiero...",
+      "source": "I want...",
+      "gender": "\u2014",
+      "type": "phrase"
+    },
+    {
+      "id": 62,
+      "target": "Me gustar\u00eda...",
+      "source": "I would like...",
+      "gender": "\u2014",
+      "type": "phrase"
+    },
+    {
+      "id": 63,
+      "target": "Por favor",
+      "source": "please",
+      "gender": "\u2014",
+      "type": "phrase"
+    },
+    {
+      "id": 64,
+      "target": "La cuenta, por favor",
+      "source": "The bill, please",
+      "gender": "f",
+      "type": "phrase"
+    },
+    {
+      "id": 65,
+      "target": "\u00bfMe trae la cuenta?",
+      "source": "Can you bring me the bill?",
+      "gender": "\u2014",
+      "type": "question"
+    },
+    {
+      "id": 66,
+      "target": "\u00bfCu\u00e1nto cuesta?",
+      "source": "How much does it cost?",
+      "gender": "\u2014",
+      "type": "question"
+    },
+    {
+      "id": 67,
+      "target": "\u00bfCu\u00e1nto es?",
+      "source": "How much is it?",
+      "gender": "\u2014",
+      "type": "question"
+    },
+    {
+      "id": 68,
+      "target": "\u00bfAceptan tarjeta?",
+      "source": "Do you accept cards?",
+      "gender": "\u2014",
+      "type": "question"
+    },
+    {
+      "id": 69,
+      "target": "\u00bfD\u00f3nde est\u00e1 el ba\u00f1o?",
+      "source": "Where is the bathroom?",
+      "gender": "\u2014",
+      "type": "question"
+    },
+    {
+      "id": 70,
+      "target": "una mesa para dos",
+      "source": "a table for two",
+      "gender": "f",
+      "type": "phrase"
+    },
+    {
+      "id": 71,
+      "target": "una mesa para cuatro",
+      "source": "a table for four",
+      "gender": "f",
+      "type": "phrase"
+    },
+    {
+      "id": 72,
+      "target": "por la ventana",
+      "source": "by the window",
+      "gender": "\u2014",
+      "type": "phrase"
+    },
+    {
+      "id": 73,
+      "target": "con sal",
+      "source": "with salt",
+      "gender": "\u2014",
+      "type": "phrase"
+    },
+    {
+      "id": 74,
+      "target": "sin sal",
+      "source": "without salt",
+      "gender": "\u2014",
+      "type": "phrase"
+    },
+    {
+      "id": 75,
+      "target": "sin az\u00facar",
+      "source": "without sugar",
+      "gender": "\u2014",
+      "type": "phrase"
+    },
+    {
+      "id": 76,
+      "target": "sin gluten",
+      "source": "gluten-free",
+      "gender": "\u2014",
+      "type": "phrase"
+    },
+    {
+      "id": 77,
+      "target": "sin lactosa",
+      "source": "lactose-free",
+      "gender": "\u2014",
+      "type": "phrase"
+    },
+    {
+      "id": 78,
+      "target": "sin az\u00facar",
+      "source": "no sugar",
+      "gender": "\u2014",
+      "type": "phrase"
+    },
+    {
+      "id": 79,
+      "target": "con hielo",
+      "source": "with ice",
+      "gender": "\u2014",
+      "type": "phrase"
+    },
+    {
+      "id": 80,
+      "target": "sin hielo",
+      "source": "without ice",
+      "gender": "\u2014",
+      "type": "phrase"
+    },
+    {
+      "id": 81,
+      "target": "para llevar",
+      "source": "to go / takeaway",
+      "gender": "\u2014",
+      "type": "phrase"
+    },
+    {
+      "id": 82,
+      "target": "para aqu\u00ed",
+      "source": "to eat here",
+      "gender": "\u2014",
+      "type": "phrase"
+    },
+    {
+      "id": 83,
+      "target": "reservaci\u00f3n",
+      "source": "reservation",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 84,
+      "target": "reservar",
+      "source": "to reserve",
+      "gender": "\u2014",
+      "type": "verb"
+    },
+    {
+      "id": 85,
+      "target": "tengo una reservaci\u00f3n",
+      "source": "I have a reservation",
+      "gender": "\u2014",
+      "type": "phrase"
+    },
+    {
+      "id": 86,
+      "target": "camarero",
+      "source": "waiter",
+      "gender": "m",
+      "type": "person"
+    },
+    {
+      "id": 87,
+      "target": "camarera",
+      "source": "waitress",
+      "gender": "f",
+      "type": "person"
+    },
+    {
+      "id": 88,
+      "target": "el camarero",
+      "source": "the waiter",
+      "gender": "m",
+      "type": "person"
+    },
+    {
+      "id": 89,
+      "target": "el cocinero",
+      "source": "cook/chef",
+      "gender": "m",
+      "type": "person"
+    },
+    {
+      "id": 90,
+      "target": "la cocinera",
+      "source": "cook/chef (f)",
+      "gender": "f",
+      "type": "person"
+    },
+    {
+      "id": 91,
+      "target": "el mesero",
+      "source": "waiter",
+      "gender": "m",
+      "type": "person"
+    },
+    {
+      "id": 92,
+      "target": "el propina",
+      "source": "tip",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 93,
+      "target": "de propina",
+      "source": "as a tip",
+      "gender": "\u2014",
+      "type": "phrase"
+    },
+    {
+      "id": 94,
+      "target": "pagar",
+      "source": "to pay",
+      "gender": "\u2014",
+      "type": "verb"
+    },
+    {
+      "id": 95,
+      "target": "pagar en efectivo",
+      "source": "pay cash",
+      "gender": "\u2014",
+      "type": "phrase"
+    },
+    {
+      "id": 96,
+      "target": "pagar con tarjeta",
+      "source": "pay by card",
+      "gender": "\u2014",
+      "type": "phrase"
+    },
+    {
+      "id": 97,
+      "target": "tarjeta de cr\u00e9dito",
+      "source": "credit card",
+      "gender": "f",
+      "type": "object"
+    },
+    {
+      "id": 98,
+      "target": "tarjeta de d\u00e9bito",
+      "source": "debit card",
+      "gender": "f",
+      "type": "object"
+    },
+    {
+      "id": 99,
+      "target": "el efectivo",
+      "source": "cash",
+      "gender": "m",
+      "type": "object"
+    },
+    {
+      "id": 100,
+      "target": "el dinero",
+      "source": "money",
+      "gender": "m",
+      "type": "object"
+    },
+    {
+      "id": 101,
+      "target": "el euro",
+      "source": "euro",
+      "gender": "m",
+      "type": "object"
+    },
+    {
+      "id": 102,
+      "target": "las monedas",
+      "source": "coins",
+      "gender": "f",
+      "type": "object"
+    },
+    {
+      "id": 103,
+      "target": "los billetes",
+      "source": "banknotes/bills",
+      "gender": "m",
+      "type": "object"
+    },
+    {
+      "id": 104,
+      "target": "el cambio",
+      "source": "change (money)",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 105,
+      "target": "recibo",
+      "source": "receipt",
+      "gender": "m",
+      "type": "object"
+    },
+    {
+      "id": 106,
+      "target": "cuenta individual",
+      "source": "separate bill",
+      "gender": "f",
+      "type": "phrase"
+    },
+    {
+      "id": 107,
+      "target": "cuenta separada",
+      "source": "separate bill",
+      "gender": "f",
+      "type": "phrase"
+    },
+    {
+      "id": 108,
+      "target": "la factura",
+      "source": "invoice/bill",
+      "gender": "f",
+      "type": "object"
+    },
+    {
+      "id": 109,
+      "target": "desayuno buffet",
+      "source": "buffet breakfast",
+      "gender": "m",
+      "type": "meal"
+    },
+    {
+      "id": 110,
+      "target": "comida buffet",
+      "source": "buffet lunch",
+      "gender": "m",
+      "type": "meal"
+    },
+    {
+      "id": 111,
+      "target": "men\u00fa del d\u00eda",
+      "source": "daily menu/specials",
+      "gender": "m",
+      "type": "meal"
+    },
+    {
+      "id": 112,
+      "target": "primer plato",
+      "source": "first course",
+      "gender": "m",
+      "type": "meal"
+    },
+    {
+      "id": 113,
+      "target": "segundo plato",
+      "source": "second course",
+      "gender": "m",
+      "type": "meal"
+    },
+    {
+      "id": 114,
+      "target": "postre",
+      "source": "dessert",
+      "gender": "m",
+      "type": "meal"
+    },
+    {
+      "id": 115,
+      "target": "bebida",
+      "source": "drink/beverage",
+      "gender": "f",
+      "type": "drink"
+    },
+    {
+      "id": 116,
+      "target": "postre",
+      "source": "dessert",
+      "gender": "m",
+      "type": "meal"
+    },
+    {
+      "id": 117,
+      "target": "cafeter\u00eda",
+      "source": "coffee shop",
+      "gender": "f",
+      "type": "place"
+    },
+    {
+      "id": 118,
+      "target": "bar",
+      "source": "bar/pub",
+      "gender": "m",
+      "type": "place"
+    },
+    {
+      "id": 119,
+      "target": "restaurante",
+      "source": "restaurant",
+      "gender": "m",
+      "type": "place"
+    },
+    {
+      "id": 120,
+      "target": "panader\u00eda",
+      "source": "bakery",
+      "gender": "f",
+      "type": "place"
+    },
+    {
+      "id": 121,
+      "target": "pasteler\u00eda",
+      "source": "pastry shop",
+      "gender": "f",
+      "type": "place"
+    },
+    {
+      "id": 122,
+      "target": "helader\u00eda",
+      "source": "ice cream shop",
+      "gender": "f",
+      "type": "place"
+    },
+    {
+      "id": 123,
+      "target": "churrer\u00eda",
+      "source": "churro shop",
+      "gender": "f",
+      "type": "place"
+    },
+    {
+      "id": 124,
+      "target": "tapas",
+      "source": "tapas (Spanish small plates)",
+      "gender": "f",
+      "type": "food"
+    },
+    {
+      "id": 125,
+      "target": "paella",
+      "source": "paella",
+      "gender": "f",
+      "type": "food"
+    },
+    {
+      "id": 126,
+      "target": "tortilla espa\u00f1ola",
+      "source": "Spanish omelette",
+      "gender": "f",
+      "type": "food"
+    },
+    {
+      "id": 127,
+      "target": "patatas bravas",
+      "source": "spicy potatoes",
+      "gender": "f",
+      "type": "food"
+    },
+    {
+      "id": 128,
+      "target": "croquetas",
+      "source": "croquettes",
+      "gender": "f",
+      "type": "food"
+    },
+    {
+      "id": 129,
+      "target": "jam\u00f3n ib\u00e9rico",
+      "source": "Iberian ham",
+      "gender": "m",
+      "type": "food"
+    },
+    {
+      "id": 130,
+      "target": "queso manchego",
+      "source": "Manchego cheese",
+      "gender": "m",
+      "type": "food"
+    },
+    {
+      "id": 131,
+      "target": "aceitunas",
+      "source": "olives",
+      "gender": "f",
+      "type": "food"
+    },
+    {
+      "id": 132,
+      "target": "embutidos",
+      "source": "cold cuts/sausages",
+      "gender": "m",
+      "type": "food"
+    },
+    {
+      "id": 133,
+      "target": "chorizo",
+      "source": "chorizo sausage",
+      "gender": "m",
+      "type": "food"
+    },
+    {
+      "id": 134,
+      "target": "salchicha",
+      "source": "sausage",
+      "gender": "f",
+      "type": "food"
+    },
+    {
+      "id": 135,
+      "target": "pimientos",
+      "source": "peppers",
+      "gender": "m",
+      "type": "food"
+    },
+    {
+      "id": 136,
+      "target": "ajo",
+      "source": "garlic",
+      "gender": "m",
+      "type": "food"
+    },
+    {
+      "id": 137,
+      "target": "cebolla",
+      "source": "onion",
+      "gender": "f",
+      "type": "food"
+    },
+    {
+      "id": 138,
+      "target": "tomate",
+      "source": "tomato",
+      "gender": "m",
+      "type": "food"
+    },
+    {
+      "id": 139,
+      "target": "papa",
+      "source": "potato",
+      "gender": "f",
+      "type": "food"
+    },
+    {
+      "id": 140,
+      "target": "arroz",
+      "source": "rice",
+      "gender": "m",
+      "type": "food"
+    },
+    {
+      "id": 141,
+      "target": "pasta",
+      "source": "pasta",
+      "gender": "f",
+      "type": "food"
+    },
+    {
+      "id": 142,
+      "target": "carne",
+      "source": "meat",
+      "gender": "f",
+      "type": "food"
+    },
+    {
+      "id": 143,
+      "target": "pollo",
+      "source": "chicken",
+      "gender": "m",
+      "type": "food"
+    },
+    {
+      "id": 144,
+      "target": "carne de cerdo",
+      "source": "pork",
+      "gender": "f",
+      "type": "food"
+    },
+    {
+      "id": 145,
+      "target": "pescado",
+      "source": "fish",
+      "gender": "m",
+      "type": "food"
+    },
+    {
+      "id": 146,
+      "target": "mariscos",
+      "source": "seafood",
+      "gender": "m",
+      "type": "food"
+    },
+    {
+      "id": 147,
+      "target": "langosta",
+      "source": "lobster",
+      "gender": "f",
+      "type": "food"
+    },
+    {
+      "id": 148,
+      "target": "gambas",
+      "source": "prawns",
+      "gender": "f",
+      "type": "food"
+    },
+    {
+      "id": 149,
+      "target": "pulpo",
+      "source": "octopus",
+      "gender": "m",
+      "type": "food"
+    },
+    {
+      "id": 150,
+      "target": "mejillones",
+      "source": "mussels",
+      "gender": "m",
       "type": "food"
     }
   ],
   "grammar": [
     {
-      "title": "Singular & Plural Nouns",
-      "content": "Most nouns form the plural by adding -s (if ending in a vowel) or -es (if ending in a consonant).\n\nSingular: el caf\u00e9 \u2192 Plural: los caf\u00e9s\nSingular: el pan \u2192 Plural: los panes\n\nArticles: el/la (the), un/una (a)",
+      "title": "Querer vs Gustar \u2014 Wanting vs Liking",
+      "content": "QUERER (to want) works like a normal verb:\n- Yo quiero... (I want...)\n- T\u00fa quieres... (You want...)\n- \u00c9l quiere... (He wants...)\n\nGUSTAR (to like) works differently \u2014 it means 'to be pleasing to':\n- Me gusta el caf\u00e9 (Coffee is pleasing to me = I like coffee)\n- Me gustan los caf\u00e9s (Coffees are pleasing to me = I like coffees)\n- Te gusta la comida (Food is pleasing to you)\n- Le gusta el vino (Wine is pleasing to him/her)\n\nPLURAL RULE: 'gusta' (singular) vs 'gustan' (plural)\n- Me gusta el t\u00e9 (I like tea \u2014 singular)\n- Me gustan los t\u00e9s (I like teas \u2014 plural)",
       "examples": [
-        "Un caf\u00e9, por favor. (A coffee, please.)",
-        "Dos caf\u00e9s, por favor. (Two coffees, please.)",
-        "La cuenta, por favor. (The bill, please.)"
+        "Quiero un caf\u00e9, por favor. (I want a coffee, please.)\nMe gusta el chocolate. (I like chocolate.)\nMe gustan las galletas. (I like cookies.)",
+        "\u00bfTe gusta la sopa? (Do you like soup?)"
+      ]
+    },
+    {
+      "title": "Ser vs Estar in Restaurants",
+      "content": "SER for permanent qualities of food:\n- El caf\u00e9 es bueno. (Coffee is good \u2014 generally)\n- La paella es deliciosa. (Paella is delicious \u2014 generally)\n\nESTAR for current state of food:\n- La comida est\u00e1 caliente. (The food is hot \u2014 right now)\n- La sopa est\u00e1 fr\u00eda. (The soup is cold \u2014 right now)\n- El plato est\u00e1 sucio. (The plate is dirty \u2014 right now)\n\nCommon restaurant states:\n- \u00bfEst\u00e1 libre esta mesa? (Is this table free?)\n- La comida est\u00e1 lista. (The food is ready.)\n- Est\u00e1 delicioso. (It's delicious \u2014 how it tastes right now).",
+      "examples": [
+        "La carne es buena pero est\u00e1 demasiado salada. (The meat is good but it's too salty right now.)\n\u00bfEst\u00e1 libre la mesa de la ventana? (Is the window table free?)",
+        "El restaurante es grande y est\u00e1 limpio. (The restaurant is big and it's clean.)"
+      ]
+    }
+  ],
+  "pronunciation": [
+    {
+      "title": "The C before E/I \u2014 Soft C Sound",
+      "content": "In Spanish, 'c' before 'e' or 'i' sounds like the English 'th' (Spain) or 's' (Latin America).\n\nSpain: c + e/i = 'th' sound\n- cinco = SIN-koh (Spain) / SIN-koh (LatAm)\n- ciudad = thee-DAHd (Spain) / see-DAHd (LatAm)\n- centro = SEN-tro (Spain) / SEN-tro (LatAm)\n\nC before a/o/u = hard 'k' sound:\n- casa = KAHS-ah\n- color = KOL-or\n- cocina = ko-SEE-nah\n\nThis is different from English where 'c' can sound like 's' or 'k' unpredictably.",
+      "examples": [
+        "cerveza (sehr-VEH-sah / therr-VEH-thah)\ncaf\u00e9 (kah-FEH)\ncocina (ko-SEE-nah)\nchocolate (choh-ko-LAH-teh)"
       ]
     }
   ],
   "exercises": [
     {
       "type": "multiple-choice",
-      "question": "What does 'la cuenta, por favor' mean?",
+      "question": "How do you say 'The bill, please' in Spanish?",
       "options": [
-        "The menu, please",
-        "The bill, please",
-        "The coffee, please",
-        "The water, please"
+        "La mesa, por favor",
+        "La cuenta, por favor",
+        "El men\u00fa, por favor",
+        "El agua, por favor"
       ],
       "correct": 1,
-      "explanation": "'La cuenta' means the bill."
+      "explanation": "'La cuenta, por favor' is the standard way to ask for the bill."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What does 'Me gusta el caf\u00e9' mean?",
+      "options": [
+        "I want coffee",
+        "I like coffee",
+        "I have coffee",
+        "I need coffee"
+      ],
+      "correct": 1,
+      "explanation": "'Me gusta' = I like (lit. 'it pleases me')."
     },
     {
       "type": "fill-in-blank",
-      "question": "Complete: '___ caf\u00e9, por favor.' (A coffee, please.)",
-      "correct": "Un",
-      "explanation": "'Un' is the masculine singular article."
+      "question": "Complete: '___ gustar\u00eda un caf\u00e9, por favor.' (I would like a coffee, please.)",
+      "correct": "Me",
+      "explanation": "'Me gustar\u00eda' = I would like."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: '___ gusta la paella.' (I like paella.)",
+      "correct": "Me",
+      "explanation": "'Me gusta' = It pleases me = I like."
     }
   ]
 }

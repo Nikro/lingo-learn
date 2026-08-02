@@ -1,0 +1,148 @@
+{
+  "id": "academic-writing",
+  "title": "Academic Writing & Research",
+  "description": "Master formal writing structures, citations, and the academic register in Spanish.",
+  "vocabulary": [
+    { "id": 1, "target": "el ensayo académico", "source": "academic essay", "gender": "m.", "type": "noun" },
+    { "id": 2, "target": "la investigación", "source": "research", "gender": "f.", "type": "noun" },
+    { "id": 3, "target": "la hipótesis", "source": "hypothesis", "gender": "f.", "type": "noun" },
+    { "id": 4, "target": "la metodología", "source": "methodology", "gender": "f.", "type": "noun" },
+    { "id": 5, "target": "la variable", "source": "variable", "gender": "f.", "type": "noun" },
+    { "id": 6, "target": "la muestra", "source": "sample", "gender": "f.", "type": "noun" },
+    { "id": 7, "target": "el resultado", "source": "result", "gender": "m.", "type": "noun" },
+    { "id": 8, "target": "el hallazgo", "source": "finding", "gender": "m.", "type": "noun" },
+    { "id": 9, "target": "la bibliografía", "source": "bibliography", "gender": "f.", "type": "noun" },
+    { "id": 10, "target": "la referencia", "source": "reference", "gender": "f.", "type": "noun" },
+    { "id": 11, "target": "la cita", "source": "citation", "gender": "f.", "type": "noun" },
+    { "id": 12, "target": "la fuente", "source": "source", "gender": "f.", "type": "noun" },
+    { "id": 13, "target": "el artículo científico", "source": "scientific article", "gender": "m.", "type": "noun" },
+    { "id": 14, "target": "la publicación", "source": "publication", "gender": "f.", "type": "noun" },
+    { "id": 15, "target": "el peer review", "source": "peer review", "gender": "m.", "type": "noun" },
+    { "id": 16, "target": "revisar", "source": "to review / to revise", "gender": "v.", "type": "verb" },
+    { "id": 17, "target": "publicar", "source": "to publish", "gender": "v.", "type": "verb" },
+    { "id": 18, "target": "documentar", "source": "to document", "gender": "v.", "type": "verb" },
+    { "id": 19, "target": "referenciar", "source": "to reference", "gender": "v.", "type": "verb" },
+    { "id": 20, "target": "analizar", "source": "to analyze", "gender": "v.", "type": "verb" },
+    { "id": 21, "target": "interpretar", "source": "to interpret", "gender": "v.", "type": "verb" },
+    { "id": 22, "target": "concluir", "source": "to conclude", "gender": "v.", "type": "verb" },
+    { "id": 23, "target": "el abstract / el resumen", "source": "abstract", "gender": "m.", "type": "noun" },
+    { "id": 24, "target": "la introducción", "source": "introduction", "gender": "f.", "type": "noun" },
+    { "id": 25, "target": "el marco teórico", "source": "theoretical framework", "gender": "m.", "type": "noun" },
+    { "id": 26, "target": "el desarrollo", "source": "main body / development", "gender": "m.", "type": "noun" },
+    { "id": 27, "target": "la discusión", "source": "discussion", "gender": "f.", "type": "noun" },
+    { "id": 28, "target": "la discusión de resultados", "source": "results discussion", "gender": "f.", "type": "noun" },
+    { "id": 29, "target": "la limitación", "source": "limitation", "gender": "f.", "type": "noun" },
+    { "id": 30, "target": "la recomendación", "source": "recommendation", "gender": "f.", "type": "noun" },
+    { "id": 31, "target": "la perspectiva académica", "source": "academic perspective", "gender": "f.", "type": "noun" },
+    { "id": 32, "target": "el registro formal", "source": "formal register", "gender": "m.", "type": "noun" },
+    { "id": 33, "target": "objetivo / objetivo/a", "source": "objective", "gender": "m./f.", "type": "adjective" },
+    { "id": 34, "target": "riguroso/a", "source": "rigorous", "gender": "m./f.", "type": "adjective" },
+    { "id": 35, "target": "relevante", "source": "relevant", "gender": "m./f.", "type": "adjective" },
+    { "id": 36, "target": "significativo/a", "source": "significant", "gender": "m./f.", "type": "adjective" },
+    { "id": 37, "target": "el enfoque", "source": "approach", "gender": "m.", "type": "noun" },
+    { "id": 38, "target": "la contribución", "source": "contribution", "gender": "f.", "type": "noun" },
+    { "id": 39, "target": "el estado del arte", "source": "state of the art", "gender": "m.", "type": "noun" },
+    { "id": 40, "target": "la tesis doctoral", "source": "doctoral thesis", "gender": "f.", "type": "noun" }
+  ],
+  "grammar": [
+    {
+      "title": "Academic Register — Impersonal Constructions",
+      "content": "Academic Spanish avoids first-person pronouns in favor of impersonal constructions.\n\nKey patterns:\n- Se + indicative (impersonal): 'Se ha demostrado que...'\n- Se + passive with past participle: 'Los datos son analizados...'\n- La tercera persona del plural: 'Los estudios indican que...'\n- El presente generalizador: 'La literatura sugiere que...'\n\nAvoid:\n- Yo creo que -> Es importante destacar que / Los datos sugieren que\n- Yo encontré que -> Se encontró que / El análisis reveló que\n- Nosotros vimos que -> Se observó que / Se evidenció que\n\nFormal academic connectors:\n- En efecto, los datos confirman...\n- Cabe destacar que...\n- Resulta pertinente señalar que...\n- No es casual que...\n- Es digno de mención que...\n\nExamples:\n- Se ha demostrado que el aprendizaje temprano es crucial.\n- Los datos recopilados indican una tendencia creciente.\n- La literatura existente sugiere múltiples factores.\n- Cabe destacar que la metodología empleada tiene limitaciones.",
+      "examples": [
+        "Se ha observado que el impacto del cambio climático es significativo.",
+        "Los estudios empíricos indican una correlación clara.",
+        "Es pertinente señalar que la muestra es limitada.",
+        "Cabe destacar que los resultados coinciden con estudios previos."
+      ],
+      "aid_note": "Romanian academic register similarly avoids first person: 'S-a demonstrat că...', 'Studiile indică că...', 'Este important de remarcat că...'."
+    },
+    {
+      "title": "Tense Usage in Academic Writing",
+      "content": "Academic writing in Spanish uses specific tenses for different rhetorical purposes.\n\nPresent (for established knowledge):\n- La evidencia indica que... (The evidence indicates that...)\n- El estudio demuestra que... (The study demonstrates that...)\n- Se sabe que... (It is known that...)\n\nPreterite (for specific research actions):\n- El estudio analizó los datos de 2020. (The study analyzed 2020 data.)\n- Se encontraron tres factores principales. (Three main factors were found.)\n\nPresent perfect (for recent findings):\n- Se ha descubierto recientemente que... (It has recently been discovered that...)\n- Estudios recientes han demostrado que... (Recent studies have demonstrated that...)\n\nPast imperfect (for background context):\n- La investigación previa mostraba resultados diferentes. (Previous research showed different results.)\n\nConditional (for limitations and implications):\n- Los resultados podrían interpretarse de varias maneras. (The results could be interpreted several ways.)\n- Este enfoque podría aplicarse a otros contextos. (This approach could be applied to other contexts.)",
+      "examples": [
+        "La evidencia indica que la intervención temprana es efectiva.",
+        "El estudio analizó las respuestas de 500 participantes.",
+        "Se ha demostrado recientemente que el tratamiento funciona.",
+        "Los resultados podrían interpretarse de varias maneras.",
+        "La investigación previa mostraba resultados contradictorios."
+      ],
+      "aid_note": "Romanian academic tense usage is similar: present for facts (indică, arată), preterite for actions (a analizat, a constatat), perfect for recent findings (s-a descoperit)."
+    }
+  ],
+  "pronunciation": [
+    {
+      "title": "Academic Vocabulary Stress Patterns",
+      "content": "Academic terms in Spanish have distinctive stress patterns that signal formality.\n\nKey patterns:\n- Esdrújulas (always accented): 'hipótesis' (i-PO-te-sis), 'metodología' (me-to-do-lo-GÍ-ah), 'bibliografía' (bi-blio-gra-FÍ-ah)\n- Graves with -ción (always accented): 'investigación' (in-ves-ti-ga-TEE-on), 'metodología' (me-to-do-lo-GÍ-ah), 'publicación' (pu-bli-ka-TEE-on)\n- Graves ending in -sis (always accented): 'análisis' (a-NA-li-sis), 'síntesis' (SIN-te-sis), 'hipótesis' (i-PO-te-sis)\n\nPractice:\n- 'La investigación académica requiere rigor metodológico.'\n- 'Los resultados de la hipótesis son significativos.'\n- 'El análisis bibliográfico revela tendencias claras.'\n\nTip: Words ending in -sis are always stressed on the antepenultimate syllable and always carry an accent mark. This applies to 'análisis', 'síntesis', 'hipótesis', and many other academic terms.",
+      "examples": [
+        { "target": "metodología", "source": "me-to-do-lo-GÍ-ah (esdrújula)" },
+        { "target": "investigación", "source": "in-ves-ti-ga-TEE-on (grave con -ción)" },
+        { "target": "hipótesis", "source": "i-PO-te-sis (grave con -sis)" }
+      ],
+      "aid_note": "Romanian academic terms: 'metodologie' (me-to-do-lo-GE), 'hipoteză' (i-po-TE-ză), 'publicație' (pu-bli-ka-TSIE). Spanish stress patterns are more varied."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "exercise",
+      "question": "Which is the correct academic impersonal form?",
+      "options": ["Yo creo que los datos son importantes.", "Se ha demostrado que los datos son significativos.", "Nosotros pensamos que...", "Para mí, los datos muestran..."],
+      "correct": 1,
+      "explanation": "'Se ha demostrado que' is the academic impersonal form. First-person pronouns are avoided in formal academic writing."
+    },
+    {
+      "type": "exercise",
+      "question": "What tense is used for established knowledge in academic writing?",
+      "options": ["Future", "Conditional", "Present", "Preterite"],
+      "correct": 2,
+      "explanation": "The present tense is used for established knowledge: 'La evidencia indica que...'"
+    },
+    {
+      "type": "matching",
+      "question": "Match the academic terms:",
+      "pairs": [
+        { "target": "la metodología", "source": "methodology" },
+        { "target": "el marco teórico", "source": "theoretical framework" },
+        { "target": "la bibliografía", "source": "bibliography" },
+        { "target": "el peer review", "source": "peer review" }
+      ],
+      "explanation": "These terms are fundamental to academic research."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: 'Los datos recopilados _____ (indicar) una tendencia creciente.'",
+      "correct": "indican",
+      "explanation": "Present tense for presenting established findings in academic writing."
+    },
+    {
+      "type": "exercise",
+      "question": "What does 'el estado del arte' mean?",
+      "options": [
+        "The state of the art / current state of research",
+        "The quality of the artwork",
+        "The artistic state",
+        "The technical specifications"
+      ],
+      "correct": 0,
+      "explanation": "'El estado del arte' = state of the art — the current state of research in a field."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete with the correct tense: 'El estudio _____ (analizar) las respuestas de 500 participantes.'",
+      "correct": "analizó",
+      "explanation": "Preterite for specific research actions that occurred in the past: 'The study analyzed...'"
+    },
+    {
+      "type": "exercise",
+      "question": "Which word is stressed on the antepenultimate syllable?",
+      "options": ["investigación", "metodología", "datos", "resultados"],
+      "correct": 1,
+      "explanation": "'Metodología' (me-to-do-lo-GÍ-ah) is an esdrújula, stressed on the antepenultimate syllable."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: '_____ destacar que la muestra es limitada.' (It is worth noting that...)",
+      "correct": "Cabe",
+      "explanation": "'Cabe destacar que' = It is worth noting that. A formal academic expression."
+    }
+  ]
+}

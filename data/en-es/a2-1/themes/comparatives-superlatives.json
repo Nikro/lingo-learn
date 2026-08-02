@@ -1,0 +1,102 @@
+{
+  "id": "comparatives-superlatives",
+  "title": "Comparatives and Superlatives",
+  "description": "Compare people, things, and ideas using más/menos/tan and el/la más/el/la menos.",
+  "vocabulary": [
+    { "id": 1, "target": "más alto", "source": "taller / higher", "gender": "—", "type": "adjective" },
+    { "id": 2, "target": "más bajo", "source": "shorter / lower", "gender": "—", "type": "adjective" },
+    { "id": 3, "target": "mejor", "source": "better", "gender": "—", "type": "adjective" },
+    { "id": 4, "target": "peor", "source": "worse", "gender": "—", "type": "adjective" },
+    { "id": 5, "target": "más barato", "source": "cheaper", "gender": "—", "type": "adjective" },
+    { "id": 6, "target": "más caro", "source": "more expensive", "gender": "—", "type": "adjective" },
+    { "id": 7, "target": "más grande", "source": "bigger", "gender": "—", "type": "adjective" },
+    { "id": 8, "target": "más pequeño", "source": "smaller", "gender": "—", "type": "adjective" },
+    { "id": 9, "target": "más interesante", "source": "more interesting", "gender": "—", "type": "adjective" },
+    { "id": 10, "target": "más bonito", "source": "prettier / nicer", "gender": "—", "type": "adjective" },
+    { "id": 11, "target": "más difícil", "source": "harder / more difficult", "gender": "—", "type": "adjective" },
+    { "id": 12, "target": "más fácil", "source": "easier", "gender": "—", "type": "adjective" },
+    { "id": 13, "target": "más viejo", "source": "older", "gender": "—", "type": "adjective" },
+    { "id": 14, "target": "mayor", "source": "older / greater", "gender": "—", "type": "adjective" },
+    { "id": 15, "target": "menor", "source": "younger / lesser", "gender": "—", "type": "adjective" },
+    { "id": 16, "target": "mejor que", "source": "better than", "gender": "—", "type": "phrase" },
+    { "id": 17, "target": "el más interesante", "source": "the most interesting", "gender": "—", "type": "phrase" },
+    { "id": 18, "target": "la más inteligente", "source": "the smartest", "gender": "f.", "type": "phrase" },
+    { "id": 19, "target": "tan inteligente como", "source": "as smart as", "gender": "—", "type": "phrase" },
+    { "id": 20, "target": "menos divertido", "source": "less fun / less entertaining", "gender": "—", "type": "adjective" },
+    { "id": 21, "target": "el más alto de la clase", "source": "the tallest in the class", "gender": "—", "type": "phrase" },
+    { "id": 22, "target": "la más divertida", "source": "the most fun / most entertaining", "gender": "f.", "type": "adjective" },
+    { "id": 23, "target": "mi casa", "source": "my house", "gender": "f.", "type": "phrase" },
+    { "id": 24, "target": "la tuya", "source": "yours (informal)", "gender": "f.", "type": "pronoun" },
+    { "id": 25, "target": "ese examen", "source": "that exam", "gender": "m.", "type": "phrase" },
+    { "id": 26, "target": "el anterior", "source": "the previous one", "gender": "m.", "type": "pronoun" },
+    { "id": 27, "target": "mi hermano", "source": "my brother", "gender": "m.", "type": "phrase" },
+    { "id": 28, "target": "ella", "source": "she / her", "gender": "f.", "type": "pronoun" },
+    { "id": 29, "target": "todos", "source": "all / everyone", "gender": "m.", "type": "pronoun" },
+    { "id": 30, "target": "de la clase", "source": "of the class", "gender": "—", "type": "phrase" }
+  ],
+  "grammar": [
+    {
+      "title": "Comparatives and Superlatives",
+      "content": "Compare people, things, and ideas using comparatives and superlatives.\n\nComparative (more/less/as... as):\n- más... que = more... than\n- menos... que = less... than\n- tan... como = as... as\n\nSuperlative (the most/the least):\n- el/la más... = the most...\n- el/la menos... = the least...\n\nIrregular comparatives:\n- bueno → mejor (better than)\n- malo → peor (worse than)\n- grande → mayor (older/greater than)\n- pequeño → menor (younger/lesser than)\n\nFor age comparisons, mayor/menor are used instead of más/menos grande/pequeño when referring to age.",
+      "table": {
+        "headers": ["Type", "Formula", "Example"],
+        "rows": [
+          ["More than", "más + adjective + que", "Madrid es más grande que Sevilla."],
+          ["Less than", "menos + adjective + que", "Este libro es menos interesante que aquel."],
+          ["As... as", "tan + adjective + como", "Ella es tan inteligente como su hermano."],
+          ["The most", "el/la más + adjective + (de)", "Él es el más alto de la clase."],
+          ["The least", "el/la menos + adjective + (de)", "Esta película es la menos divertida."]
+        ]
+      },
+      "examples": [
+        "Mi casa es más bonita que la tuya. (My house is prettier than yours.)",
+        "Ese examen fue más difícil que el anterior. (That exam was harder than the previous one.)",
+        "Mi hermano es mayor que yo. (My brother is older than me.)",
+        "Ella es la más inteligente de todos. (She is the smartest of all.)"
+      ],
+      "aid_note": "Romanian comparatives follow the same pattern: 'mai bun' (better), 'mai frumos' (prettier), 'cel mai' (the most). Spanish 'más que' ≈ Romanian 'mai ... decât'. The irregulars (mejor, peor) are similar to Romanian 'mai bun' and 'mai rău'."
+    }
+  ],
+  "pronunciation": [],
+  "exercises": [
+    {
+      "type": "exercise",
+      "question": "Which word means 'taller' in Spanish (comparative)?",
+      "options": ["menos alto", "más alto", "tan alto como", "alto"],
+      "correct": 1,
+      "explanation": "'Más alto' means taller (more tall). The structure is 'más + adjective + que'."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: 'Este libro es ____ interesante que aquel.' (This book is more interesting than that one.)",
+      "correct": "más",
+      "explanation": "'Más interesante' — the comparative structure 'más + adjective + que.'"
+    },
+    {
+      "type": "exercise",
+      "question": "What is the irregular comparative of 'bueno'?",
+      "options": ["más bueno", "bueno", "mejor", "bueno mejor"],
+      "correct": 2,
+      "explanation": "'Mejor' is the irregular comparative of bueno (better). 'Más bueno' is sometimes used colloquially but 'mejor' is correct."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: 'Ella es ____ inteligente ____ su hermano.' (She is as smart as her brother.)",
+      "correct": "tan como",
+      "explanation": "'Tan inteligente como' — the 'tan... como' structure for 'as... as' comparisons."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: 'Él es el ____ alto de la clase.' (He is the tallest in the class.)",
+      "correct": "más",
+      "explanation": "'El más alto de la clase' — superlative structure 'el + más + adjective + de'."
+    },
+    {
+      "type": "exercise",
+      "question": "Which form do you use for age comparisons (older/younger)?",
+      "options": ["más viejo / más nuevo", "mayor / menor", "grande / pequeño", "viejo / joven"],
+      "correct": 1,
+      "explanation": "For age, use mayor/menor: 'Él es mayor que yo' (He is older than me). 'Más viejo' is less precise for age."
+    }
+  ]
+}

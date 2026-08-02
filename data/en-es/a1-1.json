@@ -43,6 +43,11 @@
       "id": "work-introductions",
       "title": "Work & Introductions",
       "estimated_hours": 5
+    },
+    {
+      "id": "weather-nature",
+      "title": "Weather & Nature",
+      "estimated_hours": 5
     }
   ]
 }

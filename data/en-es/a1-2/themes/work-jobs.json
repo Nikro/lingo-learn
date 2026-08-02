@@ -1,0 +1,384 @@
+{
+  "id": "work-jobs",
+  "level": "a1-2",
+  "title": "Work & Jobs",
+  "description": "Learn to talk about jobs, workplaces, hiring, professional life, and employment-related situations in Spanish.",
+  "vocabulary": [
+    {"id": 1, "target": "trabajo", "source": "job/work", "gender": "m", "type": "noun"},
+    {"id": 2, "target": "empleo", "source": "employment/job", "gender": "m", "type": "noun"},
+    {"id": 3, "target": "carrera", "source": "career", "gender": "f", "type": "noun"},
+    {"id": 4, "target": "profesión", "source": "profession", "gender": "f", "type": "noun"},
+    {"id": 5, "target": "oficio", "source": "trade/craft", "gender": "m", "type": "noun"},
+    {"id": 6, "target": "empleado", "source": "employee", "gender": "m", "type": "noun"},
+    {"id": 7, "target": "empleada", "source": "employee (f)", "gender": "f", "type": "noun"},
+    {"id": 8, "target": "trabajador", "source": "worker", "gender": "m", "type": "noun"},
+    {"id": 9, "target": "trabajadora", "source": "worker (f)", "gender": "f", "type": "noun"},
+    {"id": 10, "target": "jefe", "source": "boss", "gender": "m", "type": "noun"},
+    {"id": 11, "target": "jefa", "source": "boss (f)", "gender": "f", "type": "noun"},
+    {"id": 12, "target": "director", "source": "director/manager", "gender": "m", "type": "noun"},
+    {"id": 13, "target": "directora", "source": "director/manager (f)", "gender": "f", "type": "noun"},
+    {"id": 14, "target": "gerente", "source": "manager", "gender": "m/f", "type": "noun"},
+    {"id": 15, "target": "secretario", "source": "secretary", "gender": "m", "type": "noun"},
+    {"id": 16, "target": "secretaria", "source": "secretary (f)", "gender": "f", "type": "noun"},
+    {"id": 17, "target": "asistente", "source": "assistant", "gender": "m/f", "type": "noun"},
+    {"id": 18, "target": "recepcionista", "source": "receptionist", "gender": "m/f", "type": "noun"},
+    {"id": 19, "target": "contador", "source": "accountant", "gender": "m", "type": "noun"},
+    {"id": 20, "target": "contadora", "source": "accountant (f)", "gender": "f", "type": "noun"},
+    {"id": 21, "target": "ingeniero", "source": "engineer", "gender": "m", "type": "noun"},
+    {"id": 22, "target": "ingeniera", "source": "engineer (f)", "gender": "f", "type": "noun"},
+    {"id": 23, "target": "abogado", "source": "lawyer", "gender": "m", "type": "noun"},
+    {"id": 24, "target": "abogada", "source": "lawyer (f)", "gender": "f", "type": "noun"},
+    {"id": 25, "target": "médico", "source": "doctor", "gender": "m", "type": "noun"},
+    {"id": 26, "target": "médica", "source": "doctor (f)", "gender": "f", "type": "noun"},
+    {"id": 27, "target": "enfermero", "source": "nurse", "gender": "m", "type": "noun"},
+    {"id": 28, "target": "enfermera", "source": "nurse (f)", "gender": "f", "type": "noun"},
+    {"id": 29, "target": "maestro", "source": "teacher (primary)", "gender": "m", "type": "noun"},
+    {"id": 30, "target": "maestra", "source": "teacher (primary, f)", "gender": "f", "type": "noun"},
+    {"id": 31, "target": "profesor", "source": "professor/teacher", "gender": "m", "type": "noun"},
+    {"id": 32, "target": "profesora", "source": "professor/teacher (f)", "gender": "f", "type": "noun"},
+    {"id": 33, "target": "camarero", "source": "waiter", "gender": "m", "type": "noun"},
+    {"id": 34, "target": "camarera", "source": "waiter (f)", "gender": "f", "type": "noun"},
+    {"id": 35, "target": "cocinero", "source": "cook/chef", "gender": "m", "type": "noun"},
+    {"id": 36, "target": "cocinera", "source": "cook/chef (f)", "gender": "f", "type": "noun"},
+    {"id": 37, "target": "vendedor", "source": "salesperson", "gender": "m", "type": "noun"},
+    {"id": 38, "target": "vendedora", "source": "salesperson (f)", "gender": "f", "type": "noun"},
+    {"id": 39, "target": "conductor", "source": "driver", "gender": "m", "type": "noun"},
+    {"id": 40, "target": "conductora", "source": "driver (f)", "gender": "f", "type": "noun"},
+    {"id": 41, "target": "piloto", "source": "pilot", "gender": "m/f", "type": "noun"},
+    {"id": 42, "target": "arquitecto", "source": "architect", "gender": "m", "type": "noun"},
+    {"id": 43, "target": "arquitecta", "source": "architect (f)", "gender": "f", "type": "noun"},
+    {"id": 44, "target": "periodista", "source": "journalist", "gender": "m/f", "type": "noun"},
+    {"id": 45, "target": "escritor", "source": "writer", "gender": "m", "type": "noun"},
+    {"id": 46, "target": "escritora", "source": "writer (f)", "gender": "f", "type": "noun"},
+    {"id": 47, "target": "artista", "source": "artist", "gender": "m/f", "type": "noun"},
+    {"id": 48, "target": "músico", "source": "musician", "gender": "m", "type": "noun"},
+    {"id": 49, "target": "música", "source": "musician (f)", "gender": "f", "type": "noun"},
+    {"id": 50, "target": "policía", "source": "police officer", "gender": "m/f", "type": "noun"},
+    {"id": 51, "target": "bombero", "source": "firefighter", "gender": "m", "type": "noun"},
+    {"id": 52, "target": "bombera", "source": "firefighter (f)", "gender": "f", "type": "noun"},
+    {"id": 53, "target": "científico", "source": "scientist", "gender": "m", "type": "noun"},
+    {"id": 54, "target": "científica", "source": "scientist (f)", "gender": "f", "type": "noun"},
+    {"id": 55, "target": "empresa", "source": "company", "gender": "f", "type": "noun"},
+    {"id": 56, "target": "oficina", "source": "office", "gender": "f", "type": "noun"},
+    {"id": 57, "target": "fábrica", "source": "factory", "gender": "f", "type": "noun"},
+    {"id": 58, "target": "tienda", "source": "store", "gender": "f", "type": "noun"},
+    {"id": 59, "target": "restaurante", "source": "restaurant", "gender": "m", "type": "noun"},
+    {"id": 60, "target": "banco", "source": "bank", "gender": "m", "type": "noun"},
+    {"id": 61, "target": "sueldo", "source": "salary", "gender": "m", "type": "noun"},
+    {"id": 62, "target": "salario", "source": "wage/salary", "gender": "m", "type": "noun"},
+    {"id": 63, "target": "jornada", "source": "workday", "gender": "f", "type": "noun"},
+    {"id": 64, "target": "horario", "source": "schedule", "gender": "m", "type": "noun"},
+    {"id": 65, "target": "vacaciones", "source": "vacation/holidays", "gender": "f", "type": "noun"},
+    {"id": 66, "target": "día libre", "source": "day off", "gender": "m", "type": "noun"},
+    {"id": 67, "target": "despido", "source": "layoff/firing", "gender": "m", "type": "noun"},
+    {"id": 68, "target": "ascenso", "source": "promotion", "gender": "m", "type": "noun"},
+    {"id": 69, "target": "entrevista", "source": "interview", "gender": "f", "type": "noun"},
+    {"id": 70, "target": "currículum", "source": "resume/CV", "gender": "m", "type": "noun"},
+    {"id": 71, "target": "solicitud", "source": "application form", "gender": "f", "type": "noun"},
+    {"id": 72, "target": "contrato", "source": "contract", "gender": "m", "type": "noun"},
+    {"id": 73, "target": "reunión", "source": "meeting", "gender": "f", "type": "noun"},
+    {"id": 74, "target": "proyecto", "source": "project", "gender": "m", "type": "noun"},
+    {"id": 75, "target": "tarea", "source": "task/assignment", "gender": "f", "type": "noun"},
+    {"id": 76, "target": "jubilación", "source": "retirement", "gender": "f", "type": "noun"},
+    {"id": 77, "target": "paro", "source": "unemployment", "gender": "m", "type": "noun"},
+    {"id": 78, "target": "seguro social", "source": "social security", "gender": "m", "type": "noun"},
+    {"id": 79, "target": "prestación", "source": "benefit", "gender": "f", "type": "noun"},
+    {"id": 80, "target": "experiencia", "source": "experience", "gender": "f", "type": "noun"},
+    {"id": 81, "target": "formación", "source": "training/education", "gender": "f", "type": "noun"},
+    {"id": 82, "target": "reunión", "source": "meeting", "gender": "f", "type": "noun"},
+    {"id": 83, "target": "informe", "source": "report", "gender": "m", "type": "noun"},
+    {"id": 84, "target": "cliente", "source": "customer/client", "gender": "m/f", "type": "noun"},
+    {"id": 85, "target": "colaborador", "source": "colleague/collaborator", "gender": "m", "type": "noun"},
+    {"id": 86, "target": "colaboradora", "source": "colleague/collaborator (f)", "gender": "f", "type": "noun"},
+    {"id": 87, "target": "trabajar", "source": "to work", "gender": "m", "type": "verb"},
+    {"id": 88, "target": "ganar", "source": "to earn", "gender": "m", "type": "verb"},
+    {"id": 89, "target": "cobrar", "source": "to collect/get paid", "gender": "m", "type": "verb"},
+    {"id": 90, "target": "contratar", "source": "to hire", "gender": "m", "type": "verb"},
+    {"id": 91, "target": "despedir", "source": "to fire", "gender": "m", "type": "verb"},
+    {"id": 92, "target": "renunciar", "source": "to resign", "gender": "m", "type": "verb"},
+    {"id": 93, "target": "jubilarse", "source": "to retire", "gender": "m", "type": "verb"},
+    {"id": 94, "target": "buscar", "source": "to look for", "gender": "m", "type": "verb"},
+    {"id": 95, "target": "solicitar", "source": "to apply for", "gender": "m", "type": "verb"},
+    {"id": 96, "target": "entrevistar", "source": "to interview", "gender": "m", "type": "verb"},
+    {"id": 97, "target": "empezar", "source": "to start/begin", "gender": "m", "type": "verb"},
+    {"id": 98, "target": "terminar", "source": "to finish", "gender": "m", "type": "verb"},
+    {"id": 99, "target": "temporal", "source": "temporary", "gender": "m", "type": "adjective"},
+    {"id": 100, "target": "fijo/a", "source": "permanent/fixed", "gender": "m", "type": "adjective"},
+    {"id": 101, "target": "a tiempo completo", "source": "full-time", "gender": "m", "type": "phrase"},
+    {"id": 102, "target": "a tiempo parcial", "source": "part-time", "gender": "m", "type": "phrase"},
+    {"id": 103, "target": "por cuenta propia", "source": "self-employed", "gender": "m", "type": "phrase"}
+  ],
+  "grammar": [
+    {
+      "title": "Trabajar — To Work (Present Tense)",
+      "content": "Trabajar is a regular -ar verb. It conjugates like other -ar verbs in the present tense.\\n\\nConjugation:\\nYo trabajo (I work)\\nTú trabajas (You work — informal)\\nÉl/Ella/Usted trabaja (He/She/You formal works)\\nNosotros/Nosotras trabajamos (We work)\\nVosotros/Vosotras trabajáis (You all work — Spain)\\nEllos/Ellas/Ustedes trabajan (They/You all work)\\n\\nTalking about your job:\\nTrabajo en una oficina. (I work in an office.)\\nTrabajo en un hospital. (I work in a hospital.)\\nTrabajo en una fábrica. (I work in a factory.)\\nTrabajo en un banco. (I work in a bank.)\\n\\nUsing 'de' for professions (no article needed):\\nTrabajo de profesor. (I work as a teacher.)\\nTrabaja de médico. (He/She works as a doctor.)\\n¿De qué trabajas? (What do you do for work?)\\nTrabajo de ingeniero. (I work as an engineer.)\\n\\nNOTE: Use 'en' for the place and 'de' for the profession.\\nTrabajo en una oficina. (I work in an office.)\\nTrabajo de contador. (I work as an accountant.)\\n\\nEjemplos:\\n¿Dónde trabajas? (Where do you work?)\\nTrabajo en una empresa grande. (I work in a big company.)\\nTrabajo de enfermero. (I work as a nurse.)\\nNo trabajo los fines de semana. (I don't work on weekends.)",
+      "examples": [
+        "Trabajo en una oficina. (I work in an office.)\\n¿Dónde trabajas? (Where do you work?)\\nTrabaja en un banco. (He/She works in a bank.)\\nTrabajamos en una escuela. (We work in a school.)",
+        "¿De qué trabajas? (What do you do?)\\nTrabajo de ingeniero. (I work as an engineer.)\\nTrabaja de médico. (She works as a doctor.)\\nNo trabajamos los sábados. (We don't work on Saturdays.)",
+        "Trabajan en una fábrica. (They work in a factory.)\\n¿Trabajáis en la empresa? (Do you work at the company — Spain?)\\nTrabajar de día. (To work during the day.)\\nTrabajo de ocho a cinco. (I work from eight to five.)"
+      ]
+    },
+    {
+      "title": "Estar + en — To Be at (a workplace)",
+      "content": "Estar is used to describe where you are (including at work). It is NOT used to say what you do.\\n\\nConjugation:\\nYo estoy (I am)\\nTú estás (You are — informal)\\nÉl/Ella/Usted está (He/She/You formal is)\\nNosotros/Nosotras estamos (We are)\\nVosotros/Vosotras estáis (You all are — Spain)\\nEllos/Ellas/Ustedes están (They/You all are)\\n\\nAt the workplace:\\nEstoy en la oficina. (I'm at the office.)\\nEstá en el banco. (He/She is at the bank.)\\nEstamos en la reunión. (We're in the meeting.)\\n\\nTime expressions:\\nEstoy en el trabajo. (I'm at work.)\\nEstoy en vacaciones. (I'm on vacation.)\\nEstoy de día. (I'm on the day shift.)\\nEstoy de noche. (I'm on the night shift.)\\n\\nNOTE: 'Estar en' = location. 'Trabajar en/de' = what/where you work. Don't confuse them.\\nEstoy en la oficina. (I'm at the office — right now.)\\nTrabajo en la oficina. (I work in an office — my job.)\\n\\nEjemplos:\\n¿Estás en la oficina? (Are you at the office?)\\nSí, estoy aquí. (Yes, I'm here.)\\nNo estoy en el trabajo. Estoy en vacaciones. (I'm not at work. I'm on vacation.)",
+      "examples": [
+        "¿Estás en la oficina? (Are you at the office?)\\nSí, estoy aquí. (Yes, I'm here.)\\nEstoy en la reunión. (I'm in the meeting.)\\nNo estoy en el trabajo. (I'm not at work.)",
+        "Estamos en el banco. (We're at the bank.)\\n¿Están en vacaciones? (Are you on vacation?)\\nSí, estamos de vacaciones. (Yes, we're on vacation.)\\nEstá en la fábrica. (She is at the factory.)",
+        "No estamos en la oficina. (We're not in the office.)\\n¿Dónde está usted? (Where are you — formal?)\\nEstoy en casa. (I'm at home.)\\nEstamos en el restaurante. (We're at the restaurant.)"
+      ]
+    },
+    {
+      "title": "Ser + de + trabajo — To Be From a Profession",
+      "content": "Ser is used to identify someone's profession, nationality, or origin. When describing professions, 'ser' is used WITHOUT an article.\\n\\nConjugation:\\nYo soy (I am)\\nTú eres (You are — informal)\\nÉl/Ella/Usted es (He/She/You formal is)\\nNosotros/Nosotras somos (We are)\\nVosotros/Vosotras sois (You all are — Spain)\\nEllos/Ellas/Ustedes son (They/You all are)\\n\\nProfessions:\\nSoy médico. (I am a doctor.)\\nEs ingeniero. (He/She is an engineer.)\\n¿Eres abogado? (Are you a lawyer?)\\nSomos profesores. (We are teachers.)\\nSon bomberos. (They are firefighters.)\\n\\nSer de + place (where you're from):\\nSoy de España. (I'm from Spain.)\\nSoy de México. (I'm from Mexico.)\\nEs de Colombia. (He/She is from Colombia.)\\nSomos de Panamá. (We're from Panama.)\\n\\nNOTE: No article before professions with 'ser'\\nSoy médico. (I am a doctor.) — NOT 'Soy un médico'\\nEs ingeniera. (She is an engineer.)\\nSoy de Chile. (I'm from Chile.)\\n\\nEjemplos:\\n¿De qué eres? (What are you by profession?)\\nSoy contadora. (I am an accountant.)\\n¿De dónde es usted? (Where are you from?)\\nSoy de Argentina.",
+      "examples": [
+        "¿Eres médico? (Are you a doctor?)\\nSí, soy médico. (Yes, I am a doctor.)\\n¿Eres abogada? (Are you a lawyer — f?)\\nNo, soy periodista. (No, I'm a journalist.)",
+        "Soy de Colombia. (I'm from Colombia.)\\n¿De dónde eres? (Where are you from?)\\nSomos de Perú. (We're from Peru.)\\nSon de Bolivia. (They're from Bolivia.)",
+        "Soy estudiante. (I'm a student.)\\n¿Es usted profesor? (Are you a teacher — formal?)\\nSí, soy profesor de inglés. (Yes, I'm an English teacher.)\\nSoy de Venezuela. (I'm from Venezuela.)"
+      ]
+    },
+    {
+      "title": "Pretérito Perfecto — Past Simple (Job Events)",
+      "content": "Use the preterite to talk about completed past events: getting hired, quitting, finishing a project.\\n\\nRegular -ar verbs (trabajar, contratar, renunciar):\\nYo trabajé (I worked)\\nTú trabajaste (You worked)\\nÉl/Ella trabajó (He/She worked)\\nNosotros trabajamos (We worked)\\nVosotros trabajasteis (You all worked — Spain)\\nEllos/Ellas trabajaron (They worked)\\n\\nJob-related preterite verbs:\\nContraté (I was hired) / Contrató (He/She was hired) / Contratamos (We were hired)\\nRenuncié (I resigned) / Renunció (He/She resigned)\\nEmpecé (I started) — irregular 'c' change\\nTerminé (I finished)\\nBusqué (I looked for) — irregular 'qu' change\\nEntrevisté (I interviewed)\\nDespidieron (They fired)\\nAscendieron (They promoted)\\n\\nExamples:\\nEmpecé mi trabajo en enero. (I started my job in January.)\\nRenuncié la semana pasada. (I resigned last week.)\\nMe contrataron en marzo. (They hired me in March.)\\nTerminé el proyecto ayer. (I finished the project yesterday.)\\n\\nNOTE: 'Empezar' changes e→ie in present but e→i in past (empecé, no empezcé). 'Buscar' changes c→qu before e (busqué).\\n\\nEjemplos:\\nTrabajé en una empresa grande. (I worked at a big company.)\\nMe despidieron del trabajo anterior. (They fired me from my previous job.)\\nEmpecé a trabajar en 2023. (I started working in 2023.)",
+      "examples": [
+        "Empecé a trabajar en enero. (I started working in January.)\\nRenuncié el lunes. (I resigned on Monday.)\\n¿Cuándo empezaste? (When did you start?)\\nEmpecé hace un mes. (I started a month ago.)",
+        "Me contrataron en marzo. (They hired me in March.)\\nTerminé el informe. (I finished the report.)\\nBusqué trabajo durante tres meses. (I looked for work for three months.)\\n¿Cuándo empezaste a trabajar aquí? (When did you start working here?)",
+        "Trabajé en un hotel. (I worked at a hotel.)\\nDespidieron a cinco empleados. (They fired five employees.)\\n¿Te despidieron? (Were you fired?)\\nSí, me despidieron. (Yes, they fired me.)"
+      ]
+    }
+  ],
+  "expressions": [
+    {
+      "title": "Talking About Your Job — Essential Phrases",
+      "content": "Describing your work situation:\\nTrabajo en... (I work at/in...)\\nTrabajo de... (I work as...)\\nGano... al mes. (I earn... per month.)\\nTrabajo a tiempo completo/parcial. (I work full-time/part-time.)\\nSoy... de profesión. (I'm a... by profession.)\\n\\nDescribing your workplace:\\nMi oficina está en... (My office is at/in...)\\nTrabajo en un banco/una empresa/una fábrica. (I work at a bank/a company/a factory.)\\nMi horario es de... a... (My schedule is from... to...)\\nTrabajo de lunes a viernes. (I work Monday to Friday.)\\nTrabajo los fines de semana. (I work on weekends.)\\nNo trabajo los domingos. (I don't work on Sundays.)\\n\\nTalking about salary:\\n¿Cuánto ganas al mes? (How much do you earn per month?)\\nGano... euros al mes. (I earn... euros per month.)\\nGano bien/mal. (I earn well/badly.)\\nGano mucho/poco. (I earn a lot/little.)\\n\\nEjemplos:\\n¿De qué trabajas? (What do you do?)\\nSoy profesor. (I'm a teacher.)\\n¿Dónde trabajas? (Where do you work?)\\nTrabajo en una escuela. (I work at a school.)\\n¿Cuánto ganas al mes? (How much do you earn per month?)\\nGano 1800 euros al mes. (I earn 1800 euros per month.)",
+      "examples": [
+        "¿De qué trabajas? (What do you do?)\\nSoy ingeniera. (I'm an engineer.)\\nTrabajo en una empresa grande. (I work at a big company.)\\n¿Cuánto ganas? (How much do you earn?)\\nGano bien, gracias. (I earn well, thanks.)",
+        "Trabajo de ocho a cinco. (I work from eight to five.)\\nTrabajo a tiempo completo. (I work full-time.)\\nMis vacaciones son en agosto. (My vacation is in August.)\\nTrabajo los sábados y domingos. (I work on Saturdays and Sundays.)",
+        "Mi jefe es muy amable. (My boss is very kind.)\\nTengo buen horario. (I have a good schedule.)\\nGano 2500 euros netos. (I earn 2500 euros net.)\\nNecesito un aumento. (I need a raise.)"
+      ]
+    },
+    {
+      "title": "At the Job Interview — Key Phrases",
+      "content": "Preparing for a job interview in Spanish:\\n\\nSelf-introduction:\\nMe llamo... (My name is...)\\nTengo ... años. (I'm ... years old.)\\nSoy de... (I'm from...)\\nSoy... de profesión. (I'm a... by profession.)\\n\\nDescribing experience:\\nTengo experiencia en... (I have experience in...)\\nTrabajé en... durante... años. (I worked at... for... years.)\\nSoy responsable y trabajador. (I'm responsible and hardworking.)\\nMe gusta trabajar en equipo. (I like to work in a team.)\\nSoy puntual y organizado/a. (I'm punctual and organized.)\\n\\nAsking about the job:\\n¿Cuántos empleados tiene la empresa? (How many employees does the company have?)\\n¿Cuál es el horario? (What is the schedule?)\\n¿Cuál es el sueldo? (What is the salary?)\\n¿Tiene beneficios? (Does it have benefits?)\\n¿Cuándo empiezo? (When do I start?)\\n\\nClosing:\\nGracias por la oportunidad. (Thank you for the opportunity.)\\nEstoy interesado/a en el puesto. (I'm interested in the position.)\\nQuedo a su disposición. (I'm at your disposal.)\\n\\nEjemplos:\\nMe llamo María. Tengo 30 años. Soy de Madrid. Soy de profesión enfermera. (My name is Maria. I'm 30 years old. I'm from Madrid. I'm a nurse by profession.)\\nTengo experiencia en hospitales. (I have experience in hospitals.)\\n¿Cuál es el horario de trabajo? (What is the work schedule?)\\nGracias por esta oportunidad. (Thank you for this opportunity.)",
+      "examples": [
+        "Me llamo Carlos. Soy ingeniero. (My name is Carlos. I'm an engineer.)\\nTengo cinco años de experiencia en construcción. (I have five years of experience in construction.)\\nMe gusta trabajar en equipo. (I like to work in a team.)",
+        "¿Cuántos empleados tiene su empresa? (How many employees does your company have?)\\n¿Cuál es el sueldo mensual? (What is the monthly salary?)\\n¿Cuándo es la fecha de inicio? (What is the start date?)",
+        "Estoy muy interesado/a en este puesto. (I'm very interested in this position.)\\nGracias por su tiempo. (Thank you for your time.)\\nQuedo a la espera de su respuesta. (I await your response.)"
+      ]
+    },
+    {
+      "title": "Daily Work Life — Common Expressions",
+      "content": "Everyday workplace phrases:\\n\\nStarting the day:\\nBuenos días. (Good morning.)\\n¿A qué hora empiezas? (What time do you start?)\\nEmpiezo a las ocho. (I start at eight.)\\n¿Ya tienes el informe? (Do you already have the report?)\\n\\nDuring the day:\\n¿Puedes ayudarme? (Can you help me?)\\n¿Tienes un minuto? (Do you have a minute?)\\nNecesito la reunión a las tres. (I need the meeting at three.)\\n¿Ya terminaste la tarea? (Have you finished the task already?)\\n¿Dónde está el archivo? (Where is the file?)\\n\\nEnding the day:\\n¿A qué hora terminas? (What time do you finish?)\\nTermino a las cinco. (I finish at five.)\\nNos vemos mañana. (See you tomorrow.)\\nBuenas tardes. (Good afternoon.)\\nHasta luego. (See you later.)\\n\\nTalking about workload:\\nTengo mucho trabajo. (I have a lot of work.)\\nTengo poco trabajo. (I have little work.)\\nEstoy muy ocupado/a. (I'm very busy.)\\nTengo una reunión importante. (I have an important meeting.)\\nEstoy en el teléfono. (I'm on the phone.)\\n\\nEjemplos:\\nBuenos días. ¿Cómo estás? (Good morning. How are you?)\\nBuenos días. Estoy bien, gracias. (Good morning. I'm fine, thanks.)\\n¿Tienes un minuto? (Do you have a minute?)\\nSí, claro. (Yes, of course.)\\nNecesito el informe para mañana. (I need the report by tomorrow.)",
+      "examples": [
+        "¿A qué hora empiezas? (What time do you start?)\\nEmpiezo a las siete y media. (I start at 7:30.)\\n¿A qué hora terminas? (What time do you finish?)\\nTermino a las cinco y media. (I finish at 5:30.)",
+        "Tengo mucho trabajo hoy. (I have a lot of work today.)\\n¿Puedes ayudarme con este proyecto? (Can you help me with this project?)\\nClaro, sin problema. (Sure, no problem.)\\nNecesitamos la reunión a las cuatro. (We need the meeting at four.)",
+        "Nos vemos mañana. (See you tomorrow.)\\nHasta la próxima. (See you next time.)\\nBuen fin de semana. (Have a good weekend.)\\nBuenas noches. (Good night.)"
+      ]
+    }
+  ],
+  "pronunciation": [
+    {
+      "title": "Work Vocabulary Pronunciation Guide",
+      "content": "Key work vocabulary with pronunciation:\\n\\ntrabajo = trah-BAH-hoh (job/work)\\nempleo = em-PLEH-oh (employment)\\ncarrera = kah-REH-rah (career)\\nprofesión = proh-feh-see-ON (profession)\\nempleado = em-pleh-AH-doh (employee)\\nempleada = em-pleh-AH-dah (employee f)\\njefe = HEH-feh (boss)\\njefa = HEH-fah (boss f)\\ndirector = dee-rehk-TOR (director)\\ndirectora = dee-rehk-TOR-ah (director f)\\ngerente = heh-REN-teh (manager)\\nsecretario = seh-kreh-TAHR-ee-oh (secretary)\\nsecretaria = seh-kreh-TAHR-ee-ah (secretary f)\\ningeniero = een-heh-nyEH-roh (engineer)\\ningeniera = een-heh-nyEH-rah (engineer f)\\nabogado = ah-boh-GAH-doh (lawyer)\\nabogada = ah-boh-GAH-dah (lawyer f)\\nmédico = meh-DEE-koh (doctor)\\nmédica = meh-DEE-kah (doctor f)\\nenfermero = en-FER-moh-roh (nurse m)\\nenfermera = en-FER-meh-rah (nurse f)\\nempresa = em-PREH-sah (company)\\noficina = oh-fee-SEE-nah (office)\\nfábrica = fah-BREE-kah (factory)\\nsueldo = SWEL-doh (salary)\\nsalario = sah-LAHR-ee-oh (wage/salary)\\njornada = hor-NAH-dah (workday)\\nhorario = oh-RAHR-ee-oh (schedule)\\nvacaciones = bah-kah-see-OH-nes (vacation)\\nentrevista = en-treh-BEES-tah (interview)\\ncontrato = kohn-TRAH-toh (contract)\\nascenso = ah-SEN-soh (promotion)\\ndespido = des-PEE-doh (layoff/firing)\\njubilación = hoo-bee-lah-see-ON (retirement)\\nrenunciar = reh-noon-see-AR (to resign)\\ntrabajar = trah-bah-HAR (to work)\\nganar = gah-NAR (to earn)\\ncobrar = koh-BRAHR (to get paid)\\ncontratar = kohn-trah-TAR (to hire)\\nbuscar = BOOS-kar (to look for)\\nsolicitar = so-lee-see-TAR (to apply for)\\nempezar = em-peh-SAR (to start)\\nterminar = teh-ree-MINAR (to finish)\\nexperiencia = eks-peh-ryen-SEE-ah (experience)\\nformación = for-mah-see-ON (training)\\ncliente = KLEHN-teh (customer/client)\\ninforme = een-FOR-meh (report)\\nhorario = oh-RAHR-ee-oh (schedule)",
+      "examples": [
+        "trabajo = trah-BAH-hoh\\nempleo = em-PLEH-oh\\ncarrera = kah-REH-rah\\nprofesión = proh-feh-see-ON\\nempleado = em-pleh-AH-doh",
+        "empresa = em-PREH-sah\\noficina = oh-fee-SEE-nah\\nfábrica = fah-BREE-kah\\nsueldo = SWEL-doh\\nentrevista = en-treh-BEES-tah",
+        "contrato = kohn-TRAH-toh\\nascenso = ah-SEN-soh\\njubilación = hoo-bee-lah-see-ON\\ntrabajar = trah-bah-HAR\\nganar = gah-NAR"
+      ]
+    },
+    {
+      "title": "Spanish Sounds Relevant to Work Vocabulary",
+      "content": "Key pronunciation patterns for work-related words:\\n\\nSpanish vowels — always consistent:\\nA = ah (like 'fAther')\\nE = eh (like 'thEn')\\nI = ee (like 'sEe')\\nO = oh (like 'sO')\\nU = oo (like 'flOOt')\\n\\nRolling R (trilled R):\\nWorks in 'trabajo', 'gerente', 'horario', 'profesional'\\nRoll the R by tapping the tongue against the roof of the mouth.\\ntrabajo = trah-BAH-hoh (light tap)\\ntrabajar = trah-bah-HAR (rolled R at end)\\ncontrato = kohn-TRAH-toh (rolled R)\\n\\nLL as 'y' sound (most regions):\\ntrabajo doesn't have LL, but:\\ncamarero = kah-mah-REH-roh (no LL here)\\n\\nH = silent (never pronounced):\\nhorario = oh-RAHR-ee-oh (not 'HOR-ahree-oh')\\nhospital = os-pee-TAHL (not 'ho-see-TAHL')\\nhorario = oh-RAHR-ee-oh\\nhora = OH-rah\\n\\nJ = soft 'h' sound (like 'h' in 'hat'):\\njefe = HEH-feh (the J is like 'h')\\njornada = hor-NAH-dah (J sounds like 'h')\\njubilación = hoo-bee-lah-see-ON\\n\\nÑ = ny sound (like 'canyON'):\\ncompañía = kom-pah-nyAH (company)\\n\\nAccent marks show stress:\\nprofesión = proh-feh-see-ON (accent on final syllable)\\nfábrica = fah-BREE-kah (accent on second syllable)\\njornada = hor-NAH-dah (no accent, stress on second syllable by rule)\\ncurriculum = koo-REE-koo-loom (no accent, stress on third syllable)\\n\\nCommon pronunciation traps:\\n'J' in 'jefe', 'jornada', 'jubilación' = like 'h' in 'hat'\\n'LL' in 'colaborador' = 'y' sound in most regions\\n'Ñ' in 'jornada' = 'ny' sound\\n'H' is always silent: 'horario' = oh-RAHR-ee-oh",
+      "examples": [
+        "jefe = HEH-feh (J = 'h' sound)\\njornada = hor-NAH-dah (J = 'h' sound)\\njubilación = hoo-bee-lah-see-ON (J = 'h' sound)",
+        "horario = oh-RAHR-ee-oh (H is silent)\\nhora = OH-rah (H is silent)\\nhospital = os-pee-TAHL (H is silent)",
+        "profesión = proh-feh-see-ON (accent marks matter)\\nfábrica = fah-BREE-kah (accent on second syllable)\\ntrabajo = trah-BAH-hoh (stress on second syllable)",
+        "contrato = kohn-TRAH-toh (rolled R)\\ntrabajar = trah-bah-HAR (rolled R)\\nempieza = em-PYEH-sah (ie = ee sound)"
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "multiple-choice",
+      "question": "How do you say 'I work in an office' in Spanish?",
+      "options": ["Trabajo de oficina.", "Trabajo en una oficina.", "Trabajo una oficina.", "Trabajo con oficina."],
+      "correct": 1,
+      "explanation": "Trabajar en = to work at/in. 'Trabajo en una oficina' = I work in an office. 'De' is used for professions (trabajo de profesor)."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: '¿Cuánto ___? (How much do you earn?)'",
+      "correct": "ganas",
+      "explanation": "Ganar = to earn. '¿Cuánto ganas?' = How much do you earn? (informal 'you' conjugation)."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What is 'resume/CV' in Spanish?",
+      "options": ["solicitud", "currículum", "contrato", "entrevista"],
+      "correct": 1,
+      "explanation": "Currículum = resume/CV. Solicitud = application form. Contrato = contract. Entrevista = interview."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: 'Tengo una ___ mañana. (I have an interview tomorrow.)'",
+      "correct": "entrevista",
+      "explanation": "Entrevista = interview. Mañana = tomorrow. 'Tengo una entrevista mañana' = I have an interview tomorrow."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What does 'ascenso' mean?",
+      "options": ["layoff", "promotion", "salary", "retirement"],
+      "correct": 1,
+      "explanation": "Ascenso = promotion. Despido = layoff/firing. Sueldo = salary. Jubilación = retirement."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: 'Me ___. (They hired me.)'",
+      "correct": "contrataron",
+      "explanation": "Contratar = to hire. Preterite (third person plural): 'Me contrataron' = They hired me."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What is 'part-time' in Spanish?",
+      "options": ["a tiempo completo", "por cuenta propia", "a tiempo parcial", "temporal"],
+      "correct": 2,
+      "explanation": "A tiempo parcial = part-time. A tiempo completo = full-time. Por cuenta propia = self-employed. Temporal = temporary."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: 'Trabajo ___ profesor. (I work as a teacher.)'",
+      "correct": "de",
+      "explanation": "Trabajar de + profession = to work as a profession. 'Trabajo de profesor' = I work as a teacher."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What does 'renunciar' mean?",
+      "options": ["to hire", "to fire", "to resign", "to retire"],
+      "correct": 2,
+      "explanation": "Renunciar = to resign. Contratar = to hire. Despedir = to fire. Jubilarse = to retire."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: 'Estoy ___ trabajo. (I'm looking for work.)'",
+      "correct": "buscando",
+      "explanation": "Buscar = to look for. 'Estoy buscando trabajo' = I'm looking for work. 'Estoy' + gerund for continuous action."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What is 'salary' in Spanish?",
+      "options": ["horario", "sueldo", "vacaciones", "jornada"],
+      "correct": 1,
+      "explanation": "Sueldo = salary. Horario = schedule. Vacaciones = vacation. Jornada = workday."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: '___ en una empresa. (I work in a company.)'",
+      "correct": "Trabajo",
+      "explanation": "Trabajar (yo form) = 'Trabajo'. 'Trabajo en una empresa' = I work in a company."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What does 'jubilación' mean?",
+      "options": ["vacation", "promotion", "retirement", "layoff"],
+      "correct": 2,
+      "explanation": "Jubilación = retirement. Vacaciones = vacation. Ascenso = promotion. Despido = layoff."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: 'Soy ___. (I'm from Spain.)'",
+      "correct": "de España",
+      "explanation": "Ser de + place = to be from a place. 'Soy de España' = I'm from Spain."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "How do you say 'full-time' in Spanish?",
+      "options": ["a tiempo parcial", "temporal", "a tiempo completo", "por cuenta propia"],
+      "correct": 2,
+      "explanation": "A tiempo completo = full-time. A tiempo parcial = part-time. Temporal = temporary. Por cuenta propia = self-employed."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: '___ una entrevista. (I have an interview.)'",
+      "correct": "Tengo",
+      "explanation": "Tener = to have. 'Tengo una entrevista' = I have an interview."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What is 'fire' (verb) in Spanish?",
+      "options": ["contratar", "renunciar", "despedir", "jubilarse"],
+      "correct": 2,
+      "explanation": "Despedir = to fire. Contratar = to hire. Renunciar = to resign. Jubilarse = to retire."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: 'Trabajo de ___ a ___. (I work from nine to five.)'",
+      "correct": "nueve, cinco",
+      "explanation": "Nueve = nine. Cinco = five. 'Trabajo de nueve a cinco' = I work from nine to five."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What does 'experiencia' mean?",
+      "options": ["experience", "training", "salary", "contract"],
+      "correct": 0,
+      "explanation": "Experiencia = experience. Formación = training. Sueldo = salary. Contrato = contract."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: '___ en un hospital. (She works in a hospital.)'",
+      "correct": "Trabaja",
+      "explanation": "Trabajar (él/ella/usted form) = 'Trabaja'. 'Trabaja en un hospital' = She works in a hospital."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What is 'boss' (male) in Spanish?",
+      "options": ["gerente", "jefe", "director", "secretario"],
+      "correct": 1,
+      "explanation": "Jefe = boss (male). Jefa = boss (female). Gerente = manager. Director = director."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: 'Emp___ a trabajar. (I started working.)'",
+      "correct": "empecé",
+      "explanation": "Empezar (yo preterite) = empecé. The 'c' is added to keep the 'k' sound before 'e'. 'Empecé a trabajar' = I started working."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What does 'contrato' mean?",
+      "options": ["interview", "application", "contract", "experience"],
+      "correct": 2,
+      "explanation": "contrato = contract. Entrevista = interview. Solicitud = application. Experiencia = experience."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: '___ vacaciones. (I'm on vacation.)'",
+      "correct": "Estoy",
+      "explanation": "Estar + en/de + noun = to be in a state/location. 'Estoy de vacaciones' = I'm on vacation."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "How do you say 'I'm on the night shift' in Spanish?",
+      "options": ["Estoy de día", "Estoy de noche", "Estoy en la noche", "Estoy en día"],
+      "correct": 1,
+      "explanation": "Estar de + shift = to be on a shift. 'Estoy de noche' = I'm on the night shift. 'De día' = day shift."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: '___ el lunes. (I start on Monday.)'",
+      "correct": "Empiezo",
+      "explanation": "Empezar (yo present) = empiezo. E→ie change in present. 'Empiezo el lunes' = I start on Monday."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What is 'colleague' in Spanish?",
+      "options": ["jefe", "cliente", "colaborador", "asistente"],
+      "correct": 2,
+      "explanation": "Colaborador/a = colleague. Jefe = boss. Cliente = customer/client. Asistente = assistant."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What does 'paro' mean in a work context?",
+      "options": ["a break", "unemployment", "a meeting", "retirement"],
+      "correct": 1,
+      "explanation": "Paro = unemployment (commonly used in Spain). Vacaciones = a break. Reunión = a meeting. Jubilación = retirement."
+    }
+  ]
+}

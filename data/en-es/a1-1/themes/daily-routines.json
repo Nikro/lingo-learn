@@ -1,87 +1,167 @@
 {
   "id": "daily-routines",
+  "level": "a1-1",
   "title": "Daily Routines",
-  "description": "Describe your daily schedule, learn reflexive verbs, and tell time.",
+  "description": "Master reflexive verbs to describe your daily schedule, learn time-telling expressions, and talk about habits and routines using frequency adverbs and sequence words.",
   "vocabulary": [
-    {
-      "id": 1,
-      "target": "despertarse",
-      "source": "to wake up",
-      "gender": "\u2014",
-      "type": "verb"
-    },
-    {
-      "id": 2,
-      "target": "levantarse",
-      "source": "to get up",
-      "gender": "\u2014",
-      "type": "verb"
-    },
-    {
-      "id": 3,
-      "target": "ducharse",
-      "source": "to shower",
-      "gender": "\u2014",
-      "type": "verb"
-    },
-    {
-      "id": 4,
-      "target": "desayunar",
-      "source": "to have breakfast",
-      "gender": "\u2014",
-      "type": "verb"
-    },
-    {
-      "id": 5,
-      "target": "ir al trabajo",
-      "source": "to go to work",
-      "gender": "\u2014",
-      "type": "phrase"
-    },
-    {
-      "id": 6,
-      "target": "cenar",
-      "source": "to have dinner",
-      "gender": "\u2014",
-      "type": "verb"
-    },
-    {
-      "id": 7,
-      "target": "dormir",
-      "source": "to sleep",
-      "gender": "\u2014",
-      "type": "verb"
-    },
-    {
-      "id": 8,
-      "target": "por la ma\u00f1ana",
-      "source": "in the morning",
-      "gender": "\u2014",
-      "type": "time"
-    },
-    {
-      "id": 9,
-      "target": "por la tarde",
-      "source": "in the afternoon",
-      "gender": "\u2014",
-      "type": "time"
-    },
-    {
-      "id": 10,
-      "target": "por la noche",
-      "source": "at night",
-      "gender": "\u2014",
-      "type": "time"
-    }
+    {"id": 1, "target": "despertarse", "source": "to wake up", "gender": "—", "type": "verb"},
+    {"id": 2, "target": "levantarse", "source": "to get up", "gender": "—", "type": "verb"},
+    {"id": 3, "target": "ducha", "source": "shower", "gender": "f", "type": "noun"},
+    {"id": 4, "target": "ducharse", "source": "to shower", "gender": "—", "type": "verb"},
+    {"id": 5, "target": "bañarse", "source": "to bathe", "gender": "—", "type": "verb"},
+    {"id": 6, "target": "cepillarse los dientes", "source": "to brush teeth", "gender": "—", "type": "verb"},
+    {"id": 7, "target": "cepillo de dientes", "source": "toothbrush", "gender": "m", "type": "noun"},
+    {"id": 8, "target": "pelo", "source": "hair", "gender": "m", "type": "noun"},
+    {"id": 9, "target": "peinarse", "source": "to comb hair", "gender": "—", "type": "verb"},
+    {"id": 10, "target": "afeitarse", "source": "to shave", "gender": "—", "type": "verb"},
+    {"id": 11, "target": "maquillarse", "source": "to put on makeup", "gender": "—", "type": "verb"},
+    {"id": 12, "target": "vestirse", "source": "to get dressed", "gender": "—", "type": "verb"},
+    {"id": 13, "target": "despertar", "source": "to wake up", "gender": "—", "type": "verb"},
+    {"id": 14, "target": "dormirse", "source": "to fall asleep", "gender": "—", "type": "verb"},
+    {"id": 15, "target": "acostarse", "source": "to go to bed", "gender": "—", "type": "verb"},
+    {"id": 16, "target": "desayuno", "source": "breakfast", "gender": "m", "type": "noun"},
+    {"id": 17, "target": "almuerzo", "source": "lunch", "gender": "m", "type": "noun"},
+    {"id": 18, "target": "cena", "source": "dinner", "gender": "f", "type": "noun"},
+    {"id": 19, "target": "merienda", "source": "snack / afternoon snack", "gender": "f", "type": "noun"},
+    {"id": 20, "target": "desayunar", "source": "to have breakfast", "gender": "—", "type": "verb"},
+    {"id": 21, "target": "almorzar", "source": "to have lunch", "gender": "—", "type": "verb"},
+    {"id": 22, "target": "cenar", "source": "to have dinner", "gender": "—", "type": "verb"},
+    {"id": 23, "target": "café", "source": "coffee", "gender": "m", "type": "noun"},
+    {"id": 24, "target": "té", "source": "tea", "gender": "m", "type": "noun"},
+    {"id": 25, "target": "zumo", "source": "juice", "gender": "m", "type": "noun"},
+    {"id": 26, "target": "pan", "source": "bread", "gender": "m", "type": "noun"},
+    {"id": 27, "target": "mantequilla", "source": "butter", "gender": "f", "type": "noun"},
+    {"id": 28, "target": "mermelada", "source": "jam", "gender": "f", "type": "noun"},
+    {"id": 29, "target": "leche", "source": "milk", "gender": "f", "type": "noun"},
+    {"id": 30, "target": "huevos", "source": "eggs", "gender": "m", "type": "noun"},
+    {"id": 31, "target": "salir", "source": "to leave / go out", "gender": "—", "type": "verb"},
+    {"id": 32, "target": "llegar", "source": "to arrive", "gender": "—", "type": "verb"},
+    {"id": 33, "target": "preparar", "source": "to prepare", "gender": "—", "type": "verb"},
+    {"id": 34, "target": "limpiar", "source": "to clean", "gender": "—", "type": "verb"},
+    {"id": 35, "target": "cocinar", "source": "to cook", "gender": "—", "type": "verb"},
+    {"id": 36, "target": "lavar los platos", "source": "to wash dishes", "gender": "—", "type": "verb"},
+    {"id": 37, "target": "planchar", "source": "to iron", "gender": "—", "type": "verb"},
+    {"id": 38, "target": "hornear", "source": "to bake", "gender": "—", "type": "verb"},
+    {"id": 39, "target": "trabajar", "source": "to work", "gender": "—", "type": "verb"},
+    {"id": 40, "target": "estudiar", "source": "to study", "gender": "—", "type": "verb"},
+    {"id": 41, "target": "cama", "source": "bed", "gender": "f", "type": "noun"},
+    {"id": 42, "target": "almohada", "source": "pillow", "gender": "f", "type": "noun"},
+    {"id": 43, "target": "sábanas", "source": "sheets", "gender": "f", "type": "noun"},
+    {"id": 44, "target": "manta", "source": "blanket", "gender": "f", "type": "noun"},
+    {"id": 45, "target": "mañana", "source": "morning", "gender": "f", "type": "noun"},
+    {"id": 46, "target": "tarde", "source": "afternoon", "gender": "f", "type": "noun"},
+    {"id": 47, "target": "noche", "source": "night", "gender": "f", "type": "noun"},
+    {"id": 48, "target": "hoy", "source": "today", "gender": "—", "type": "adverb"},
+    {"id": 49, "target": "ayer", "source": "yesterday", "gender": "—", "type": "adverb"},
+    {"id": 50, "target": "mañana", "source": "tomorrow", "gender": "—", "type": "adverb"},
+    {"id": 51, "target": "ahora", "source": "now", "gender": "—", "type": "adverb"},
+    {"id": 52, "target": "siempre", "source": "always", "gender": "—", "type": "adverb"},
+    {"id": 53, "target": "nunca", "source": "never", "gender": "—", "type": "adverb"},
+    {"id": 54, "target": "a veces", "source": "sometimes", "gender": "—", "type": "adverb"},
+    {"id": 55, "target": "normalmente", "source": "normally", "gender": "—", "type": "adverb"},
+    {"id": 56, "target": "todos los días", "source": "every day", "gender": "—", "type": "adverb"},
+    {"id": 57, "target": "los lunes", "source": "on Mondays", "gender": "—", "type": "adverb"},
+    {"id": 58, "target": "los fines de semana", "source": "on weekends", "gender": "—", "type": "adverb"},
+    {"id": 59, "target": "primero", "source": "first", "gender": "—", "type": "adverb"},
+    {"id": 60, "target": "luego", "source": "then / later", "gender": "—", "type": "adverb"},
+    {"id": 61, "target": "después", "source": "after / afterwards", "gender": "—", "type": "adverb"},
+    {"id": 62, "target": "antes", "source": "before", "gender": "—", "type": "adverb"},
+    {"id": 63, "target": "finalmente", "source": "finally", "gender": "—", "type": "adverb"},
+    {"id": 64, "target": "ropa", "source": "clothes", "gender": "f", "type": "noun"},
+    {"id": 65, "target": "zapatos", "source": "shoes", "gender": "m", "type": "noun"},
+    {"id": 66, "target": "bolso", "source": "bag", "gender": "m", "type": "noun"},
+    {"id": 67, "target": "llaves", "source": "keys", "gender": "f", "type": "noun"},
+    {"id": 68, "target": "teléfono", "source": "phone", "gender": "m", "type": "noun"},
+    {"id": 69, "target": "ordenador", "source": "computer", "gender": "m", "type": "noun"},
+    {"id": 70, "target": "libro", "source": "book", "gender": "m", "type": "noun"},
+    {"id": 71, "target": "periódico", "source": "newspaper", "gender": "m", "type": "noun"},
+    {"id": 72, "target": "revista", "source": "magazine", "gender": "f", "type": "noun"},
+    {"id": 73, "target": "televisión", "source": "television", "gender": "f", "type": "noun"},
+    {"id": 74, "target": "radio", "source": "radio", "gender": "f", "type": "noun"},
+    {"id": 75, "target": "internet", "source": "internet", "gender": "m", "type": "noun"},
+    {"id": 76, "target": "trabajo", "source": "work", "gender": "m", "type": "noun"},
+    {"id": 77, "target": "escuela", "source": "school", "gender": "f", "type": "noun"},
+    {"id": 78, "target": "universidad", "source": "university", "gender": "f", "type": "noun"},
+    {"id": 79, "target": "coche", "source": "car", "gender": "m", "type": "noun"},
+    {"id": 80, "target": "autobús", "source": "bus", "gender": "m", "type": "noun"},
+    {"id": 81, "target": "metro", "source": "subway", "gender": "m", "type": "noun"},
+    {"id": 82, "target": "tren", "source": "train", "gender": "m", "type": "noun"},
+    {"id": 83, "target": "bicicleta", "source": "bicycle", "gender": "f", "type": "noun"},
+    {"id": 84, "target": "caminar", "source": "to walk", "gender": "—", "type": "verb"},
+    {"id": 85, "target": "correr", "source": "to run", "gender": "—", "type": "verb"},
+    {"id": 86, "target": "ejercicio", "source": "exercise", "gender": "m", "type": "noun"},
+    {"id": 87, "target": "gimnasio", "source": "gym", "gender": "m", "type": "noun"},
+    {"id": 88, "target": "parque", "source": "park", "gender": "m", "type": "noun"},
+    {"id": 89, "target": "tienda", "source": "store", "gender": "f", "type": "noun"},
+    {"id": 90, "target": "supermercado", "source": "supermarket", "gender": "m", "type": "noun"},
+    {"id": 91, "target": "farmacia", "source": "pharmacy", "gender": "f", "type": "noun"},
+    {"id": 92, "target": "banco", "source": "bank", "gender": "m", "type": "noun"},
+    {"id": 93, "target": "restaurante", "source": "restaurant", "gender": "m", "type": "noun"},
+    {"id": 94, "target": "playa", "source": "beach", "gender": "f", "type": "noun"},
+    {"id": 95, "target": "calle", "source": "street", "gender": "f", "type": "noun"},
+    {"id": 96, "target": "tiempo", "source": "time / weather", "gender": "m", "type": "noun"},
+    {"id": 97, "target": "hora", "source": "hour / time", "gender": "f", "type": "noun"},
+    {"id": 98, "target": "minuto", "source": "minute", "gender": "m", "type": "noun"},
+    {"id": 99, "target": "semana", "source": "week", "gender": "f", "type": "noun"},
+    {"id": 100, "target": "día", "source": "day", "gender": "m", "type": "noun"}
   ],
   "grammar": [
     {
-      "title": "Reflexive Verbs - Daily Actions",
-      "content": "Reflexive verbs indicate the subject does the action to themselves. They use reflexive pronouns.\n\nPronouns: me, te, se, nos, os, se\n\nExample: despertarse (to wake up)\n- Me despierto (I wake up)\n- Te despiertas (You wake up)\n- Se despierta (He/she wakes up)",
+      "title": "Reflexive Verbs — Daily Routines",
+      "content": "Reflexive verbs describe actions you do TO YOURSELF. They use reflexive pronouns.\n\nReflexive pronouns:\n- me (myself)\n- te (yourself informal)\n- se (himself/herself/yourself formal/themselves)\n- nos (ourselves)\n- os (yourselves plural, Spain)\n- se (themselves)\n\nConjugation pattern for -AR reflexive verbs:\n- despertarse (to wake up)\n- yo ME despierto (I wake up)\n- tú TE despiertas (you wake up)\n- él/ella SE despierta (he/she wakes up)\n- nosotros NOS despertamos (we wake up)\n- vosotros OS despertáis (you wake up plural)\n- ellos SE despiertan (they wake up)\n\nStem-changing reflexive verbs (A1 level):\n- despertarse (e→ie): me despierto, te despiertas, se despierta\n- levantarse (e→ie): me levanto, te levantas, se levanta\n- vestirse (e→i): me visto, te vistes, se viste\n- dormirse (o→ue): me duermo, te duermes, se duerme\n- acostarse (o→ue): me acuesto, te acuestas, se acuesta\n\nCommon reflexive verbs for daily routines:\n- despertarse (to wake up) — stem change e→ie\n- levantarse (to get up) — stem change e→ie\n- ducharse (to shower) — regular\n- bañarse (to bathe) — regular\n- lavarse (to wash) — regular\n- cepillarse (to brush) — regular\n- peinarse (to comb hair) — regular\n- vestirse (to get dressed) — stem change e→i\n- dormirse (to fall asleep) — stem change o→ue\n- acostarse (to go to bed) — stem change o→ue",
       "examples": [
-        "Me despierto a las siete. (I wake up at seven.)",
-        "Ella se ducha por la ma\u00f1ana. (She showers in the morning.)",
-        "Nos levantamos tarde. (We get up late.)"
+        "Me despierto a las siete. (I wake up at seven.)\nTe levantas tarde. (You get up late.)\nSe ducha por la mañana. (She showers in the morning.)\nNos despertamos temprano. (We wake up early.)\nSe cepilla los dientes. (He/She brushes his/her teeth.)\nNos vestimos rápido. (We get dressed quickly.)",
+        "Me ducho todas las mañanas. (I shower every morning.)\nTe peinas el pelo. (You comb your hair.)\nSe viste con ropa elegante. (He/She gets dressed in elegant clothes.)\nNos bañamos por la noche. (We bathe at night.)\nSe duermen a las diez. (They fall asleep at ten.)\nMe acuesto a medianoche. (I go to bed at midnight.)"
+      ]
+    },
+    {
+      "title": "Telling Time in Spanish",
+      "content": "How to tell time:\n\n- ¿Qué hora es? (What time is it?)\n- Es la una. (It's one o'clock.) — singular!\n- Son las dos. (It's two o'clock.) — plural for 2+\n- Son las tres. (It's three o'clock.)\n- Son las cuatro. (It's four o'clock.)\n\nHalf past:\n- Es la una y media. (It's 1:30.)\n- Son las dos y media. (It's 2:30.)\n\nQuarter past:\n- Es la una y cuarto. (It's 1:15.)\n- Son las dos y cuarto. (It's 2:15.)\n\nQuarter to:\n- Son las dos menos cuarto. (It's 1:45.)\n- Son las tres menos veinte. (It's 2:40.)\n\nO'clock:\n- Son las tres en punto. (It's exactly three o'clock.)\n\nMinutes:\n- Son las tres y diez. (It's 3:10.)\n- Son las cinco y veinticinco. (It's 5:25.)\n- Son las siete menos cinco. (It's 6:55.)\n\nAM/PM:\n- por la mañana = in the morning (until noon)\n- por la tarde = in the afternoon (noon to ~8pm)\n- por la noche = in the evening/night (~8pm to ~midnight)\n- de noche = at night (~midnight to ~6am)\n\nExample:\n- Me despierto a las siete de la mañana. (I wake up at 7am.)\n- Ceno a las nueve de la noche. (I have dinner at 9pm.)",
+      "examples": [
+        "¿Qué hora es? — Son las tres. (What time is it? — It's three.)\nEs la una y media. (It's 1:30.)\nSon las dos y cuarto. (It's 2:15.)\nSon las cinco menos diez. (It's 4:50.)\nSon las siete en punto. (It's exactly seven.)",
+        "Me despierto a las siete. (I wake up at seven.)\nSalgo del trabajo a las cinco. (I leave work at five.)\nCeno a las nueve. (I have dinner at nine.)\nMe duermo a las once. (I fall asleep at eleven.)\nMe levanto a las seis. (I get up at six.)"
+      ]
+    },
+    {
+      "title": "Frequency Adverbs — Habits and Routines",
+      "content": "Adverbs of frequency tell HOW OFTEN you do something:\n\n- siempre = always (100%)\n- normalmente = normally (90%)\n- generalmente = generally (80%)\n- a veces = sometimes (50%)\n- rara vez = rarely (10%)\n- nunca = never (0%)\n\nPosition in sentence:\nBEFORE the verb:\n- Siempre desayuno café. (I always have coffee for breakfast.)\n- Nunca como pescado. (I never eat fish.)\n- A veces voy al cine. (I sometimes go to the cinema.)\n- Normalmente trabajo en casa. (I normally work from home.)\n\nOther frequency expressions:\n- todos los días = every day\n- los lunes = on Mondays\n- los fines de semana = on weekends\n- una vez al día = once a day\n- dos veces por semana = twice a week\n- tres veces al mes = three times a month\n\nNOTE: 'nunca' can also go AFTER the verb with 'no':\n- No como nunca pescado. (I never eat fish.)\nBut 'nunca' before the verb is more common: 'Nunca como pescado.'",
+      "examples": [
+        "Siempre desayuno café. (I always have coffee for breakfast.)\nNunca como pescado. (I never eat fish.)\nA veces voy al cine. (I sometimes go to the cinema.)\nNormalmente trabajo en casa. (I normally work from home.)\nTodos los días camino al trabajo. (I walk to work every day.)\nLos fines de semana duermo hasta tarde. (On weekends I sleep until late.)",
+        "Voy al gimnasio tres veces por semana. (I go to the gym three times a week.)\nCeno a las nueve de la noche. (I have dinner at nine at night.)\nMe despierto temprano los días de trabajo. (I wake up early on workdays.)\nSalgo con amigos los fines de semana. (I go out with friends on weekends.)\nNunca desayuno tarde. (I never have a late breakfast.)\nSiempre leo antes de dormir. (I always read before sleeping.)"
+      ]
+    },
+    {
+      "title": "Time Sequence Words — Ordering Daily Activities",
+      "content": "Use sequence words to describe what you do in order during your day:\n\n- primero = first\n- luego / después = then / after\n- después de = after (before a verb)\n- antes de = before (before a verb)\n- finalmente = finally\n\nGrammar: after 'antes de' and 'después de', use the INFINITIVE form of the verb:\n- Antes de DESPERTARSE, suena el despertador.\n- Después de DESAYUNAR, voy al trabajo.\n\nWith a specific time, use 'a las' + time:\n- Me levanto a las siete.\n- Desayuno a las siete y media.\n- Salgo a las ocho.\n- Llego al trabajo a las nueve.\n\nCommon daily routine sequence:\n1. Primero, me despierto. (First, I wake up.)\n2. Luego, me levanto. (Then, I get up.)\n3. Después, me ducho. (After, I shower.)\n4. Después, desayuno. (After, I have breakfast.)\n5. Finalmente, salgo. (Finally, I leave.)\n\nNOTE: 'luego' and 'después' are often interchangeable, but 'luego' is more common in Spain while 'después' is used throughout the Spanish-speaking world.",
+      "examples": [
+        "Primero me levanto y luego me ducho. (First I get up and then I shower.)\nDespués del desayuno, voy a trabajar. (After breakfast, I go to work.)\nAntes de dormir, leo un libro. (Before sleeping, I read a book.)\nFinalmente, me acuesto a las once. (Finally, I go to bed at eleven.)",
+        "Por la mañana, primero tomo café. (In the morning, first I have coffee.)\nLuego, preparo la mochila. (Then, I pack my bag.)\nDespués, camino al trabajo. (After, I walk to work.)\nAntes de cenar, hago ejercicio. (Before dinner, I exercise.)\nFinalmente, me duermo a las once. (Finally, I fall asleep at eleven.)"
+      ]
+    }
+  ],
+  "pronunciation": [
+    {
+      "title": "Reflexive Pronouns — Stress and Placement",
+      "content": "Reflexive pronouns are placed BEFORE conjugated verbs:\n\n- ME despierto (I wake up)\n- TE levantas (you get up)\n- SE ducha (he/she showers)\n- NOS despertamos (we wake up)\n- OS vestís (you get dressed, Spain)\n- SE duermen (they fall asleep)\n\nWhen used with infinitives, they attach to the end:\n- Me quiero despertar. (I want to wake up.)\n- Quiero despertarme. (I want to wake up.) — SAME MEANING!\n\nPronunciation tips:\n- me = meh\n- te = teh\n- se = seh\n- nos = nohs\n- os = ohs\n- se = seh\n\nNOTE: 'se' + 'me' = 'seme' (not 'se me') when attached:\n- Se despierta (he wakes up)\n- Se está despertando (he is waking up)",
+      "examples": [
+        "me = meh\n- te = teh\nse = seh\nnos = nohs\nos = ohs\nse = seh",
+        "Me despierto a las siete. (I wake up at seven.)\nTe levantas tarde. (You get up late.)\nSe ducha por la mañana. (She showers in the morning.)\nNos despertamos temprano. (We wake up early.)\nSe duermen a las diez. (They fall asleep at ten.)\nNos vestimos rápido. (We get dressed quickly.)"
+      ]
+    },
+    {
+      "title": "Time Expressions — Pronunciation",
+      "content": "Common time expressions:\n\n- una = OO-nah (one)\n- dos = DOHS (two)\n- tres = TREHS (three)\n- cuatro = KWAH-tro (four)\n- cinco = SIN-koh (five)\n- seis = SEHS (six)\n- siete = SYEH-teh (seven)\n- ocho = OH-choh (eight)\n- nueve = NWEH-beh (nine)\n- diez = DYEHS (ten)\n\nHalf:\n- media = meh-DEE-ah (half)\n- cuarto = KWAHr-toh (quarter)\n\nMinutes:\n- menos = MEN-os (less/to)\n- en punto = en PUN-toh (exactly)\n\nAM/PM:\n- por la mañana = por lah mah-NYAH-nah (in the morning)\n- por la tarde = por lah TAR-deh (in the afternoon)\n- por la noche = por lah NO-cheh (in the evening)\n- de noche = deh NO-cheh (at night)\n\nMinutes 11-19:\n- once = ON-seh\n- doce = DOH-seh\n- trece = TREH-seh\n- catorce = kah-TOHR-seh\n- quince = KEEN-keh",
+      "examples": [
+        "una = OO-nah\ndos = DOHS\ntres = TREHS\ncuatro = KWAH-tro\ncinco = SIN-koh\nseis = SEHS\nsiete = SYEH-teh\nocho = OH-choh\nnueve = NWEH-beh\ndiez = DYEHS\nmedia = meh-DEE-ah\ncuarto = KWAHr-toh\nmenos = MEN-os\nen punto = en PUN-toh\npor la mañana = por lah mah-NYAH-nah\npor la tarde = por lah TAR-deh\npor la noche = por lah NO-cheh\nde noche = deh NO-cheh",
+        "Es la una y media. (It's 1:30.)\nSon las dos y cuarto. (It's 2:15.)\nSon las cinco menos diez. (It's 4:50.)\nSon las siete en punto. (It's exactly seven.)\nEs la una y veinticinco. (It's 1:25.)"
+      ]
+    },
+    {
+      "title": "Syllable Division — Rhythm of Routine Words",
+      "content": "Spanish syllable division helps with pronunciation:\n\n- des-pER-tar-se (des-per-tar-se) — 4 syllables\n- levan-TAR-se (le-van-tar-se) — 4 syllables\n- du-CHAR-se (du-char-se) — 3 syllables\n- ba-NAR-se (ba-nar-se) — 3 syllables\n- des-a-YU-nar (de-sa-yu-nar) — 4 syllables\n- al-MUER-zar (al-muer-zar) — 3 syllables\n\nSyllable stress rules:\n- Words ending in a vowel, 'n', or 's': stress second-to-last syllable\n  - ma-ÑA-na (to-MOR-row) — stress on ÑA\n  - a-MA-ri-llo (a-MAR-ee-yo) — stress on RI\n- Words ending in a consonant (not n or s): stress last syllable\n  - ho-BRAR (to work) — stress on BRAR\n  - ciu-DAD (ci-ty) — stress on DAD\n\nAccent marks:\n- déspErTarse — the accent shows where the stress goes in the infinitive\n- me desPIErto — no accent needed on stressed syllables",
+      "examples": [
+        "des-pertar-se: des-pER-tar-se (to wake up)\nlevantar-se: le-van-TAR-se (to get up)\nducharse: du-CHAR-se (to shower)\nbañarse: ba-NAR-se (to bathe)\ndesayunar: de-sa-YU-nar (to have breakfast)\nalmorzar: al-MUER-zar (to have lunch)",
+        "mañana: ma-NYAH-nah (morning / tomorrow)\ntarde: TAR-deh (afternoon / evening)\nnoche: NO-cheh (night)\nropa: ROH-pah (clothes)\nzapatos: zah-PAH-tos (shoes)\nlibro: LEE-bro (book)"
       ]
     }
   ],
@@ -89,20 +169,129 @@
     {
       "type": "multiple-choice",
       "question": "What does 'despertarse' mean?",
-      "options": [
-        "To sleep",
-        "To wake up",
-        "To eat",
-        "To go"
-      ],
+      "options": ["to eat", "to wake up", "to sleep", "to shower"],
       "correct": 1,
-      "explanation": "'Despertarse' is a reflexive verb meaning to wake up."
+      "explanation": "'Despertarse' = to wake up. 'Comer' = to eat. 'Dormir' = to sleep. 'Ducharse' = to shower."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "How do you say 'I wake up' in Spanish?",
+      "options": ["Me duermo", "Me despierto", "Me levanto", "Me baño"],
+      "correct": 1,
+      "explanation": "'Me despierto' = I wake up. 'Me duermo' = I fall asleep. 'Me levanto' = I get up. 'Me baño' = I bathe."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What does 'es la una' mean?",
+      "options": ["It's two o'clock", "It's one o'clock", "It's twelve o'clock", "It's three o'clock"],
+      "correct": 1,
+      "explanation": "'Es la una' = It's one o'clock (singular). 'Son las dos' = It's two o'clock (plural)."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What does 'levantarse' mean?",
+      "options": ["to shower", "to get up", "to brush teeth", "to comb hair"],
+      "correct": 1,
+      "explanation": "'Levantarse' = to get up. 'Ducharse' = to shower. 'Cepillarse los dientes' = to brush teeth. 'Peinarse' = to comb hair."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What does 'acostarse' mean?",
+      "options": ["to wash", "to cook", "to go to bed", "to read"],
+      "correct": 2,
+      "explanation": "'Acostarse' = to go to bed. 'Lavarse' = to wash. 'Cocinar' = to cook. 'Leer' = to read."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "How do you say 'every day' in Spanish?",
+      "options": ["cada día", "todos los días", "siempre", "a veces"],
+      "correct": 1,
+      "explanation": "'Todos los días' = every day. 'Cada día' = each day (less common). 'Siempre' = always. 'A veces' = sometimes."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What word means 'first' in Spanish?",
+      "options": ["luego", "después", "primero", "finalmente"],
+      "correct": 2,
+      "explanation": "'Primero' = first. 'Luego' = then. 'Después' = after. 'Finalmente' = finally."
     },
     {
       "type": "fill-in-blank",
-      "question": "Complete: 'Yo me ____ a las siete.' (I wake up at seven.)",
-      "correct": "despierto",
-      "explanation": "Conjugate 'despertarse' for 'yo': me despierto."
+      "question": "Complete: '___ despierto a las siete.' (I wake up at seven.)",
+      "correct": "Me",
+      "explanation": "'Me despierto' = I wake up. 'Me' is the reflexive pronoun for 'yo'."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: 'Son las tres y ___. (It's 3:30.)'",
+      "correct": "media",
+      "explanation": "'Media' = half. 'Son las tres y media' = It's 3:30."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: '___ como pescado. (I never eat fish.)'",
+      "correct": "Nunca",
+      "explanation": "'Nunca' = never. 'Siempre' = always. 'A veces' = sometimes."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: '___ las dos y cuarto.' (It's 2:15.)",
+      "correct": "Son",
+      "explanation": "'Son las dos y cuarto' = It's 2:15. Use 'son las' for 2+ o'clock."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: '___ me ducho, desayuno. (After I shower, I have breakfast.)'",
+      "correct": "Después",
+      "explanation": "'Después' = after / afterwards. 'Después me ducho, desayuno' = After I shower, I have breakfast."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: 'Primero me levanto, ___ me ducho. (First I get up, then I shower.)'",
+      "correct": "luego",
+      "explanation": "'Luego' = then. 'Primero... luego...' = First... then..."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: 'Me acuesto a las once de la ___. (I go to bed at eleven at night.)'",
+      "correct": "noche",
+      "explanation": "'Por la noche' = at night. 'Me acuesto a las once de la noche' = I go to bed at eleven at night."
+    },
+    {
+      "type": "translation",
+      "question": "Translate: 'I wake up at seven.'",
+      "correct": "Me despierto a las siete.",
+      "explanation": "'Me' = reflexive pronoun for yo. 'Despierto' = conjugated form of despertarse. 'A las siete' = at seven o'clock."
+    },
+    {
+      "type": "translation",
+      "question": "Translate: 'I shower in the morning.'",
+      "correct": "Me ducho por la mañana.",
+      "explanation": "'Me ducho' = I shower. 'Por la mañana' = in the morning."
+    },
+    {
+      "type": "translation",
+      "question": "Translate: 'I have breakfast at 7:30.'",
+      "correct": "Desayuno a las siete y media.",
+      "explanation": "'Desayuno' = I have breakfast. 'A las siete y media' = at 7:30 (seven and a half)."
+    },
+    {
+      "type": "translation",
+      "question": "Translate: 'I never sleep late on weekdays.'",
+      "correct": "Nunca duermo tarde los días de trabajo.",
+      "explanation": "'Nunca' = never. 'Duermo' = I sleep. 'Tarde' = late. 'Los días de trabajo' = on weekdays."
+    },
+    {
+      "type": "translation",
+      "question": "Translate: 'First I get up, then I take a shower.'",
+      "correct": "Primero me levanto, luego me ducho.",
+      "explanation": "'Primero' = first. 'Me levanto' = I get up. 'Luego' = then. 'Me ducho' = I take a shower."
+    },
+    {
+      "type": "translation",
+      "question": "Translate: 'I go to bed at eleven at night.'",
+      "correct": "Me acuesto a las once de la noche.",
+      "explanation": "'Me acuesto' = I go to bed (reflexive, stem change o→ue). 'A las once de la noche' = at eleven at night."
     }
   ]
 }

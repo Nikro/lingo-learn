@@ -1,108 +1,995 @@
 {
   "id": "numbers-colors",
+  "level": "a1-1",
   "title": "Numbers & Colors",
-  "description": "Count from 0 to 100, learn colors, and describe objects by their quantity and appearance.",
+  "description": "Master counting from 0 to 100, learn all colors, describe quantities, sizes, and use numbers in everyday situations like prices, ages, and phone numbers.",
   "vocabulary": [
     {
       "id": 1,
-      "target": "uno, dos, tres",
-      "source": "one, two, three",
-      "gender": "\u2014",
+      "target": "cero",
+      "source": "zero",
+      "gender": "—",
       "type": "number"
     },
     {
       "id": 2,
-      "target": "cuatro, cinco",
-      "source": "four, five",
-      "gender": "\u2014",
+      "target": "uno",
+      "source": "one",
+      "gender": "m",
       "type": "number"
     },
     {
       "id": 3,
-      "target": "seis, siete",
-      "source": "six, seven",
-      "gender": "\u2014",
+      "target": "un",
+      "source": "a/one (before masc. noun)",
+      "gender": "invariant",
       "type": "number"
     },
     {
       "id": 4,
-      "target": "ocho, nueve, diez",
-      "source": "eight, nine, ten",
-      "gender": "\u2014",
+      "target": "dos",
+      "source": "two",
+      "gender": "—",
       "type": "number"
     },
     {
       "id": 5,
-      "target": "cero",
-      "source": "zero",
-      "gender": "\u2014",
+      "target": "tres",
+      "source": "three",
+      "gender": "—",
       "type": "number"
     },
     {
       "id": 6,
+      "target": "cuatro",
+      "source": "four",
+      "gender": "—",
+      "type": "number"
+    },
+    {
+      "id": 7,
+      "target": "cinco",
+      "source": "five",
+      "gender": "—",
+      "type": "number"
+    },
+    {
+      "id": 8,
+      "target": "seis",
+      "source": "six",
+      "gender": "—",
+      "type": "number"
+    },
+    {
+      "id": 9,
+      "target": "siete",
+      "source": "seven",
+      "gender": "—",
+      "type": "number"
+    },
+    {
+      "id": 10,
+      "target": "ocho",
+      "source": "eight",
+      "gender": "—",
+      "type": "number"
+    },
+    {
+      "id": 11,
+      "target": "nueve",
+      "source": "nine",
+      "gender": "—",
+      "type": "number"
+    },
+    {
+      "id": 12,
+      "target": "diez",
+      "source": "ten",
+      "gender": "—",
+      "type": "number"
+    },
+    {
+      "id": 13,
+      "target": "once",
+      "source": "eleven",
+      "gender": "—",
+      "type": "number"
+    },
+    {
+      "id": 14,
+      "target": "doce",
+      "source": "twelve",
+      "gender": "—",
+      "type": "number"
+    },
+    {
+      "id": 15,
+      "target": "trece",
+      "source": "thirteen",
+      "gender": "—",
+      "type": "number"
+    },
+    {
+      "id": 16,
+      "target": "catorce",
+      "source": "fourteen",
+      "gender": "—",
+      "type": "number"
+    },
+    {
+      "id": 17,
+      "target": "quince",
+      "source": "fifteen",
+      "gender": "—",
+      "type": "number"
+    },
+    {
+      "id": 18,
+      "target": "dieciséis",
+      "source": "sixteen",
+      "gender": "—",
+      "type": "number"
+    },
+    {
+      "id": 19,
+      "target": "diecisiete",
+      "source": "seventeen",
+      "gender": "—",
+      "type": "number"
+    },
+    {
+      "id": 20,
+      "target": "dieciocho",
+      "source": "eighteen",
+      "gender": "—",
+      "type": "number"
+    },
+    {
+      "id": 21,
+      "target": "diecinueve",
+      "source": "nineteen",
+      "gender": "—",
+      "type": "number"
+    },
+    {
+      "id": 22,
+      "target": "veinte",
+      "source": "twenty",
+      "gender": "—",
+      "type": "number"
+    },
+    {
+      "id": 23,
+      "target": "veintiuno",
+      "source": "twenty-one",
+      "gender": "m",
+      "type": "number"
+    },
+    {
+      "id": 24,
+      "target": "veintiún",
+      "source": "twenty-one (before masc. noun)",
+      "gender": "invariant",
+      "type": "number"
+    },
+    {
+      "id": 25,
+      "target": "veintiuna",
+      "source": "twenty-one (feminine)",
+      "gender": "f",
+      "type": "number"
+    },
+    {
+      "id": 26,
+      "target": "veintidós",
+      "source": "twenty-two",
+      "gender": "—",
+      "type": "number"
+    },
+    {
+      "id": 27,
+      "target": "veintitrés",
+      "source": "twenty-three",
+      "gender": "—",
+      "type": "number"
+    },
+    {
+      "id": 28,
+      "target": "veinticuatro",
+      "source": "twenty-four",
+      "gender": "—",
+      "type": "number"
+    },
+    {
+      "id": 29,
+      "target": "veinticinco",
+      "source": "twenty-five",
+      "gender": "—",
+      "type": "number"
+    },
+    {
+      "id": 30,
+      "target": "veintiséis",
+      "source": "twenty-six",
+      "gender": "—",
+      "type": "number"
+    },
+    {
+      "id": 31,
+      "target": "veintisiete",
+      "source": "twenty-seven",
+      "gender": "—",
+      "type": "number"
+    },
+    {
+      "id": 32,
+      "target": "veintiocho",
+      "source": "twenty-eight",
+      "gender": "—",
+      "type": "number"
+    },
+    {
+      "id": 33,
+      "target": "veintinueve",
+      "source": "twenty-nine",
+      "gender": "—",
+      "type": "number"
+    },
+    {
+      "id": 34,
+      "target": "treinta",
+      "source": "thirty",
+      "gender": "—",
+      "type": "number"
+    },
+    {
+      "id": 35,
+      "target": "cuarenta",
+      "source": "forty",
+      "gender": "—",
+      "type": "number"
+    },
+    {
+      "id": 36,
+      "target": "cuarenta y uno",
+      "source": "forty-one",
+      "gender": "m",
+      "type": "number"
+    },
+    {
+      "id": 37,
+      "target": "cuarenta y dos",
+      "source": "forty-two",
+      "gender": "—",
+      "type": "number"
+    },
+    {
+      "id": 38,
+      "target": "cuarenta y tres",
+      "source": "forty-three",
+      "gender": "—",
+      "type": "number"
+    },
+    {
+      "id": 39,
+      "target": "cuarenta y cuatro",
+      "source": "forty-four",
+      "gender": "—",
+      "type": "number"
+    },
+    {
+      "id": 40,
+      "target": "cuarenta y cinco",
+      "source": "forty-five",
+      "gender": "—",
+      "type": "number"
+    },
+    {
+      "id": 41,
+      "target": "cuarenta y seis",
+      "source": "forty-six",
+      "gender": "—",
+      "type": "number"
+    },
+    {
+      "id": 42,
+      "target": "cuarenta y siete",
+      "source": "forty-seven",
+      "gender": "—",
+      "type": "number"
+    },
+    {
+      "id": 43,
+      "target": "cuarenta y ocho",
+      "source": "forty-eight",
+      "gender": "—",
+      "type": "number"
+    },
+    {
+      "id": 44,
+      "target": "cuarenta y nueve",
+      "source": "forty-nine",
+      "gender": "—",
+      "type": "number"
+    },
+    {
+      "id": 45,
+      "target": "cincuenta",
+      "source": "fifty",
+      "gender": "—",
+      "type": "number"
+    },
+    {
+      "id": 46,
+      "target": "sesenta",
+      "source": "sixty",
+      "gender": "—",
+      "type": "number"
+    },
+    {
+      "id": 47,
+      "target": "setenta",
+      "source": "seventy",
+      "gender": "—",
+      "type": "number"
+    },
+    {
+      "id": 48,
+      "target": "ochenta",
+      "source": "eighty",
+      "gender": "—",
+      "type": "number"
+    },
+    {
+      "id": 49,
+      "target": "noventa",
+      "source": "ninety",
+      "gender": "—",
+      "type": "number"
+    },
+    {
+      "id": 50,
+      "target": "cien",
+      "source": "one hundred",
+      "gender": "—",
+      "type": "number"
+    },
+    {
+      "id": 51,
+      "target": "ciento uno",
+      "source": "one hundred one",
+      "gender": "—",
+      "type": "number"
+    },
+    {
+      "id": 52,
+      "target": "doscientos",
+      "source": "two hundred (m)",
+      "gender": "m",
+      "type": "number"
+    },
+    {
+      "id": 53,
+      "target": "doscientas",
+      "source": "two hundred (f)",
+      "gender": "f",
+      "type": "number"
+    },
+    {
+      "id": 54,
+      "target": "trescientos",
+      "source": "three hundred (m)",
+      "gender": "m",
+      "type": "number"
+    },
+    {
+      "id": 55,
+      "target": "trescientas",
+      "source": "three hundred (f)",
+      "gender": "f",
+      "type": "number"
+    },
+    {
+      "id": 56,
+      "target": "quinientos",
+      "source": "five hundred (m)",
+      "gender": "m",
+      "type": "number"
+    },
+    {
+      "id": 57,
+      "target": "mil",
+      "source": "one thousand",
+      "gender": "—",
+      "type": "number"
+    },
+    {
+      "id": 58,
       "target": "rojo",
       "source": "red",
       "gender": "m",
       "type": "color"
     },
     {
-      "id": 7,
+      "id": 59,
+      "target": "roja",
+      "source": "red (f)",
+      "gender": "f",
+      "type": "color"
+    },
+    {
+      "id": 60,
       "target": "azul",
       "source": "blue",
+      "gender": "—",
+      "type": "color"
+    },
+    {
+      "id": 61,
+      "target": "verde",
+      "source": "green",
+      "gender": "—",
+      "type": "color"
+    },
+    {
+      "id": 62,
+      "target": "amarillo",
+      "source": "yellow",
       "gender": "m",
       "type": "color"
     },
     {
-      "id": 8,
-      "target": "verde",
-      "source": "green",
-      "gender": "m/f",
+      "id": 63,
+      "target": "amarilla",
+      "source": "yellow (f)",
+      "gender": "f",
       "type": "color"
     },
     {
-      "id": 9,
+      "id": 64,
+      "target": "blanco",
+      "source": "white",
+      "gender": "m",
+      "type": "color"
+    },
+    {
+      "id": 65,
+      "target": "blanca",
+      "source": "white (f)",
+      "gender": "f",
+      "type": "color"
+    },
+    {
+      "id": 66,
       "target": "negro",
       "source": "black",
       "gender": "m",
       "type": "color"
     },
     {
-      "id": 10,
-      "target": "blanco",
-      "source": "white",
+      "id": 67,
+      "target": "negra",
+      "source": "black (f)",
+      "gender": "f",
+      "type": "color"
+    },
+    {
+      "id": 68,
+      "target": "gris",
+      "source": "gray",
+      "gender": "—",
+      "type": "color"
+    },
+    {
+      "id": 69,
+      "target": "naranja",
+      "source": "orange",
+      "gender": "—",
+      "type": "color"
+    },
+    {
+      "id": 70,
+      "target": "marrón",
+      "source": "brown",
+      "gender": "—",
+      "type": "color"
+    },
+    {
+      "id": 71,
+      "target": "rosa",
+      "source": "pink",
+      "gender": "—",
+      "type": "color"
+    },
+    {
+      "id": 72,
+      "target": "morado",
+      "source": "purple",
       "gender": "m",
       "type": "color"
+    },
+    {
+      "id": 73,
+      "target": "morada",
+      "source": "purple (f)",
+      "gender": "f",
+      "type": "color"
+    },
+    {
+      "id": 74,
+      "target": "dorado",
+      "source": "gold",
+      "gender": "m",
+      "type": "color"
+    },
+    {
+      "id": 75,
+      "target": "dorada",
+      "source": "gold (f)",
+      "gender": "f",
+      "type": "color"
+    },
+    {
+      "id": 76,
+      "target": "plateado",
+      "source": "silver",
+      "gender": "m",
+      "type": "color"
+    },
+    {
+      "id": 77,
+      "target": "plateada",
+      "source": "silver (f)",
+      "gender": "f",
+      "type": "color"
+    },
+    {
+      "id": 78,
+      "target": "beige",
+      "source": "beige",
+      "gender": "—",
+      "type": "color"
+    },
+    {
+      "id": 79,
+      "target": "crema",
+      "source": "cream",
+      "gender": "f",
+      "type": "color"
+    },
+    {
+      "id": 80,
+      "target": "turquesa",
+      "source": "turquoise",
+      "gender": "—",
+      "type": "color"
+    },
+    {
+      "id": 81,
+      "target": "celeste",
+      "source": "light blue",
+      "gender": "—",
+      "type": "color"
+    },
+    {
+      "id": 82,
+      "target": "burdeos",
+      "source": "burgundy",
+      "gender": "m",
+      "type": "color"
+    },
+    {
+      "id": 83,
+      "target": "café",
+      "source": "coffee/brown",
+      "gender": "m",
+      "type": "color"
+    },
+    {
+      "id": 84,
+      "target": "grande",
+      "source": "big/large",
+      "gender": "—",
+      "type": "adjective"
+    },
+    {
+      "id": 85,
+      "target": "pequeño",
+      "source": "small",
+      "gender": "m",
+      "type": "adjective"
+    },
+    {
+      "id": 86,
+      "target": "pequeña",
+      "source": "small (f)",
+      "gender": "f",
+      "type": "adjective"
+    },
+    {
+      "id": 87,
+      "target": "alto",
+      "source": "tall/high",
+      "gender": "m",
+      "type": "adjective"
+    },
+    {
+      "id": 88,
+      "target": "alta",
+      "source": "tall/high (f)",
+      "gender": "f",
+      "type": "adjective"
+    },
+    {
+      "id": 89,
+      "target": "bajo",
+      "source": "short/low",
+      "gender": "m",
+      "type": "adjective"
+    },
+    {
+      "id": 90,
+      "target": "baja",
+      "source": "short/low (f)",
+      "gender": "f",
+      "type": "adjective"
+    },
+    {
+      "id": 91,
+      "target": "mucho",
+      "source": "a lot/much",
+      "gender": "m",
+      "type": "quantifier"
+    },
+    {
+      "id": 92,
+      "target": "mucha",
+      "source": "a lot/much (f)",
+      "gender": "f",
+      "type": "quantifier"
+    },
+    {
+      "id": 93,
+      "target": "muchos",
+      "source": "many (m)",
+      "gender": "m",
+      "type": "quantifier"
+    },
+    {
+      "id": 94,
+      "target": "muchas",
+      "source": "many (f)",
+      "gender": "f",
+      "type": "quantifier"
+    },
+    {
+      "id": 95,
+      "target": "poco",
+      "source": "a little/few",
+      "gender": "m",
+      "type": "quantifier"
+    },
+    {
+      "id": 96,
+      "target": "poca",
+      "source": "a little/few (f)",
+      "gender": "f",
+      "type": "quantifier"
+    },
+    {
+      "id": 97,
+      "target": "pocos",
+      "source": "few (m)",
+      "gender": "m",
+      "type": "quantifier"
+    },
+    {
+      "id": 98,
+      "target": "pocas",
+      "source": "few (f)",
+      "gender": "f",
+      "type": "quantifier"
+    },
+    {
+      "id": 99,
+      "target": "medio",
+      "source": "half",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 100,
+      "target": "media",
+      "source": "half (f)",
+      "gender": "f",
+      "type": "noun"
     }
   ],
   "grammar": [
     {
-      "title": "Gender Agreement: Adjectives Match Nouns",
-      "content": "In Spanish, adjectives change to match the gender of the noun they describe.\n\nMasculine: -o (el libro rojo)\nFeminine: -a (la casa roja)\nInvariable: -e (el coche verde / la mesa verde)\n\nPlural: add -s or -es (rojos, rojas)",
+      "title": "Numbers 0–30 — The Building Blocks",
+      "content": "Learn to count from zero to thirty. These are the foundation for all larger numbers.\n\n0 = cero\n1 = uno (un before masculine nouns: un libro)\n2 = dos\n3 = tres\n4 = cuatro\n5 = cinco\n6 = seis\n7 = siete\n8 = ocho\n9 = nueve\n10 = diez\n11 = once\n12 = doce\n13 = trece\n14 = catorce\n15 = quince\n16 = dieciséis\n17 = diecisiete\n18 = dieciocho\n19 = diecinueve\n20 = veinte\n21 = veintiuno (veintiún before masculine nouns)\n22 = veintidós\n23 = veintitrés\n24 = veinticuatro\n25 = veinticinco\n26 = veintiséis\n27 = veintisiete\n28 = veintiocho\n29 = veintinueve\n30 = treinta\n\nKEY RULE: uno → un before masculine singular nouns\n- un libro (a book) ✓\n- una casa (a house) ✓\n\nKEY RULE: veintiuno → veintiún before masculine singular nouns\n- veintiún dólares (21 dollars) ✓\n- veintiuna personas (21 people — feminine) ✓",
       "examples": [
-        "El coche es rojo. (The car is red.)",
-        "La casa es blanca. (The house is white.)",
-        "Los libros son verdes. (The books are green.)"
+        "Tengo tres gatos. (I have three cats.)\nSon las cinco. (It's five o'clock.)\nQuiero dos cafés. (I want two coffees.)\nTengo dieciséis años. (I'm sixteen years old.)\nCuestan veintiún euros. (They cost 21 euros.)",
+        "Uno de mis amigos es doctor. (One of my friends is a doctor.)\nTengo una hermana. (I have one sister.)\nEs el número diez. (It's the number ten.)\nVivo en el piso veintitrés. (I live on floor 23.)"
+      ]
+    },
+    {
+      "title": "Numbers 30–100 — Building Larger Numbers",
+      "content": "For numbers 31–99, use 'y' (and) between tens and units:\n\n30 = treinta\n31 = treinta y uno\n32 = treinta y dos\n...\n40 = cuarenta\n41 = cuarenta y uno\n...\n50 = cincuenta\n60 = sesenta\n70 = setenta\n80 = ochenta\n90 = noventa\n100 = cien\n\nFor 101–999, use 'ciento' (NOT 'cien'):\n101 = ciento uno\n200 = doscientos / doscientas\n300 = trescientos / trescientas\n500 = quinientos / quinientas\n1000 = mil\n\nCRITICAL: 'cien' is ONLY used for exactly 100.\n- Cien personas (100 people) ✓\n- Ciento uno (101) ✓\n\nHundred forms (gender agreement):\n- doscientos (m) / doscientas (f)\n- trescientos (m) / trescientas (f)\n- quinientos (m) / quinientas (f)",
+      "examples": [
+        "Treinta y tres personas. (33 people.)\nCuarenta y dos días. (42 days.)\nCiento diez euros. (110 euros.)\nDoscientas casas. (200 houses.)\nQuinientos años. (500 years.)\nMil dólares. (1,000 dollars.)",
+        "Son las tres y media. (It's 3:30.)\nTiene cuarenta y cinco años. (He/She is 45 years old.)\nHay sesenta minutos en una hora. (There are 60 minutes in an hour.)\nCien personas en la fila. (100 people in line.)"
+      ]
+    },
+    {
+      "title": "Colors — Agreement with Nouns",
+      "content": "Colors must agree with the noun they describe in gender (and number).\n\nCOLORS THAT CHANGE (m → f):\n- rojo → roja (red)\n- blanco → blanca (white)\n- negro → negra (black)\n- amarillo → amarilla (yellow)\n- morado → morada (purple)\n- dorado → dorada (gold)\n- plateado → plateada (silver)\n- burdeos → (usually invariant in practice)\n- crema → (feminine only, for cream)\n\nINVARIABLE COLORS (same for m/f):\n- azul (blue)\n- verde (green)\n- gris (gray)\n- naranja (orange)\n- rosa (pink)\n- beige (beige)\n- turquesa (turquoise)\n- celeste (light blue)\n- marrón (brown)\n- café (coffee/brown)\n\nPlural forms:\n- el coche rojo → los coches rojos (the red cars)\n- la casa blanca → las casas blancas (the white houses)\n- el perro azul → los perros azules (the blue dogs)\n\nPATTERN: Add -s (vowel ending) or -es (consonant ending)",
+      "examples": [
+        "El coche es rojo. (The car is red.)\nLa casa es blanca. (The house is white.)\nEl cielo es azul. (The sky is blue.)\nLa camiseta es verde. (The t-shirt is green.)\nLos zapatos son negros. (The shoes are black.)\nLas flores son rosas. (The flowers are pink.)",
+        "Unas camisas azules. (Some blue shirts.)\nUnas camisas rojas. (Some red shirts.)\nUnos libros dorados. (Some gold books.)\nUna mesa marrón. (A brown table.)\nUn gato negro. (A black cat.)"
+      ]
+    },
+    {
+      "title": "Quantifiers — Mucho, Poco, Bastante",
+      "content": "Quantifiers change form to match the noun in gender and number.\n\nmucho (a lot/much) → mucha → muchos → muchas\npoco (a little/few) → poca → pocos → pocas\nbastante (quite a lot) → bastante (invariable, but can add -s for plural)\n\nUse 'mucho' with uncountable nouns:\n- Tengo mucho tiempo. (I have a lot of time.)\n- Hay mucha gente. (There is a lot of people.)\n\nUse 'muchos/muchas' with countable nouns:\n- Tengo muchos libros. (I have many books.)\n- Hay pocas manzanas. (There are few apples.)\n\nPoco can mean 'a little' (uncountable) or 'few' (countable):\n- Tengo poca agua. (I have a little water.)\n- Hay pocos coches. (There are few cars.)\n\nbastante works as both singular and plural:\n- Tengo bastante dinero. (I have quite a lot of money.)\n- Hay bastantes personas. (There are quite a few people.)",
+      "examples": [
+        "Tengo muchos hermanos. (I have many siblings.)\nHay pocas sillas. (There are few chairs.)\nTengo bastante hambre. (I'm quite hungry.)\n¿Cuántas manzanas quieres? — Quiero tres. (How many apples do you want? — I want three.)\nNo hay mucho tiempo. (There isn't much time.)"
+      ]
+    },
+    {
+      "title": "Using Numbers — Prices, Ages, Phone Numbers",
+      "content": "Common situations with numbers:\n\nPRICES:\n- ¿Cuánto cuesta? (How much does it cost?) — singular\n- ¿Cuánto cuestan? (How much do they cost?) — plural\n- Cuesta diez euros. (It costs 10 euros.)\n- Cuestan veinticinco dólares. (They cost 25 dollars.)\n- Son cien euros. (They're 100 euros.)\n\nAGES:\n- ¿Cuántos años tienes? (How old are you?)\n- Tengo veinticinco años. (I'm 25 years old.)\n- Tiene cuarenta años. (He/She is 40 years old.)\n- NOTE: No 'tener' agreement with 'años' — always plural\n\nPHONE NUMBERS:\n- ¿Cuál es tu número? (What's your number?)\n- Mi número es... (My number is...)\n- Leo los dígitos uno por uno: seis, siete, ocho... (I read digits one by one: six, seven, eight...)\n- Sometimes use 'y' for pairs: seis y siete (67)\n\nORDINALS (first, second, third) — basic forms:\n- primero/a (first)\n- segundo/a (second)\n- tercer/tercera (third)\n- Used for floors, dates, rankings\n\n¿CUÁNTO must agree with the noun:\n- ¿Cuántos libros? (masc. plural)\n- ¿Cuántas casas? (fem. plural)\n- ¿Cuánto dinero? (masc. singular)\n- ¿Cuánta agua? (fem. singular)",
+      "examples": [
+        "¿Cuánto cuesta? — Cuesta cinco euros. (How much does it cost? — It costs 5 euros.)\nTengo treinta y dos años. (I'm 32 years old.)\nTengo dos hermanos y una hermana. (I have two brothers and one sister.)\nEl libro cuesta doce euros. (The book costs 12 euros.)\nMi teléfono es seis, siete, ocho, nueve. (My phone is 6, 7, 8, 9.)",
+        "¿Cuántas manzanas quieres? — Quiero tres manzanas. (How many apples do you want? — I want three apples.)\n¿Cuántos libros tienes? — Tengo muchos. (How many books do you have? — I have many.)\nVivo en el tercer piso. (I live on the third floor.)\nElla es la primera de la clase. (She is first in the class.)"
+      ]
+    },
+    {
+      "title": "Telling Time with Numbers",
+      "content": "Telling time uses numbers extensively.\n\nEXACT HOURS:\n- Es la una. (It's 1:00) — singular!\n- Son las dos. (It's 2:00) — plural for 2+\n- Son las tres. (It's 3:00)\n- Son las doce. (It's 12:00)\n\nHALF AND QUARTER:\n- y media = and half (:30) — Son las tres y media.\n- y cuarto = and quarter (:15) — Son las dos y cuarto.\n- menos cuarto = minus quarter (:45) — Son las cinco menos cuarto.\n\nMINUTES:\n- y cinco = and five (:05) — Son las cuatro y cinco.\n- y diez = and ten (:10) — Son las nueve y diez.\n- menos cinco = minus five (:55) — Son las siete menos cinco.\n\nMORNING / AFTERNOON / NIGHT:\n- de la mañana (AM) — Son las ocho de la mañana.\n- de la tarde (afternoon) — Son las cinco de la tarde.\n- de la noche (evening/night) — Son las diez de la noche.\n\nSpecific times:\n- en punto (sharp) — Son las tres en punto.\n- media hora (half an hour) — Faltan media hora.\n- una hora (one hour)\n\n24-hour format (common in schedules):\n- Treinta y cuatro horas? No! Las diecisiete horas (5 PM).\n- Las ocho de la mañana = las 08:00\n- Las veinte horas = 8 PM (20:00)",
+      "examples": [
+        "Son las tres en punto. (It's exactly 3:00.)\nSon las dos y media. (It's 2:30.)\nSon las cinco y cuarto. (It's 5:15.)\nSon las siete menos cuarto. (It's 6:45.)\n¿Qué hora es? — Son las diez y diez. (What time is it? — It's 10:10.)",
+        "Clase a las ocho de la mañana. (Class at 8 AM.)\nLa película a las siete y media. (The movie at 7:30.)\nSalgo a las tres y veinte. (I leave at 3:20.)\n¿A qué hora es la fiesta? — A las nueve. (What time is the party? — At 9.)"
+      ]
+    }
+  ],
+  "pronunciation": [
+    {
+      "title": "Numbers — Stress and Accent Marks",
+      "content": "Pay attention to stress (accent marks) in Spanish numbers.\n\nACCENT MARKS on numbers:\n- dieciséis (die-see-SEHS) — accent on 'e'\n- veintidós (bain-tee-DOHS) — accent on 'o'\n- veintitrés (bain-tee-TREHS) — accent on 'e'\n- veintiséis (bain-tee-see-SEHS) — accent on 'e'\n- cuarenta y dos (kwa-REN-tah ee DOHS)\n- cincuenta (seen-KWEHN-tah) — no accent, stress on 'cuen'\n- sesenta (seh-SEN-tah) — stress on 'sen'\n- setenta (seh-TEN-tah) — stress on 'ten'\n- ochenta (oh-CHEN-tah) — stress on 'chen'\n- noventa (no-SEN-tah) — stress on 'ven'\n\nGENERAL STRESS RULE:\n- Words ending in n, s, or vowel → stress on second-to-last syllable\n  Example: veintitRÉs → has accent because stress is on last syllable 'és'\n  Example: cincuenta → no accent, stress on 'cuen' (second-to-last)\n\nNUMBERS WITHOUT ACCENT MARKS:\n- uno (OO-noh), dos (dohs), tres (trehs), cuatro (KWAH-tro)\n- cinco (SEEN-ko), seis (seys), siete (SYEH-teh), ocho (OH-cho)\n- diez (dyehs), once (OH-nseh), doce (DOH-seh)\n- treinta (treh-YEN-tah), cuarenta (kwa-REN-tah)\n- cien (syen), mil (meel)\n\nNOTE: 'veintiuno' drops the 'o' before a masculine noun:\n- veintiún dólares (21 dollars)\n- veintiuna casas (21 houses)",
+      "examples": [
+        "dieciséis = die-see-SEHS (16)\nveintidós = bain-tee-DOHS (22)\nveintitrés = bain-tee-TREHS (23)\nveinticuatro = bain-tee-KWAH-tro (24)\ncincuenta = seen-KWEHN-tah (50)\nsesenta = seh-SEN-tah (60)\nsetenta = seh-TEN-tah (70)\nochenta = oh-CHEN-tah (80)\nnoventa = no-SEN-tah (90)\ncien = syen (100)"
+      ]
+    },
+    {
+      "title": "Color Names — Pronunciation Guide",
+      "content": "Common color pronunciations with key sound patterns.\n\nKEY SPANISH SOUNDS:\n- 'j' = strong 'h' sound (like in 'hah')\n- 'll' = 'y' sound (like in 'yes')\n- 'ñ' = 'ny' sound (like in 'canyon')\n- 'v' = sounds like 'b' (soft b)\n- 'z' (Spain) = 'th' sound; (Latin America) = 's' sound\n\nCOLOR PRONUNCIATIONS:\n- rojo = ROH-hoh (j = h sound)\n- rojo/a = ROH-hoh / ROH-hah\n- azul = ah-SOOL (z = s in Latin America)\n- verde = BER-deh (v = b sound)\n- amarillo = ah-mah-REE-yoh\n- blanco/a = BLAN-ko / BLAN-kah\n- negro/a = NEG-roh / NEG-roh-ah\n- gris = GRIS (short, crisp)\n- naranja = nah-RAN-hah (g = h sound before 'a')\n- rosa = ROH-sah\n- morado/a = moh-RAH-doh / moh-RAH-dah\n- marrón = mah-RON (accent on 'o')\n- beige = beh-GEH\n- dorado/a = doh-RAH-doh / doh-RAH-dah\n- plateado/a = plah-tah-DEH-doh / plah-tah-DEH-dah\n- turquesa = door-KES-ah\n- celeste = seh-LES-teh",
+      "examples": [
+        "rojo = ROH-hoh\nazul = ah-SOOL\nverde = BER-deh\namarillo = ah-mah-REE-yoh\nblanco = BLAN-ko\nnegro = NEG-roh\ngris = GRIS\nnaranja = nah-RAN-hah\nrosa = ROH-sah\nmorado = moh-RAH-doh\nmarrón = mah-RON\ndorado = doh-RAH-doh\nplateado = plah-tah-DEH-doh"
+      ]
+    },
+    {
+      "title": "Syllable Division in Numbers",
+      "content": "Spanish syllables are divided clearly — each vowel forms its own syllable.\n\nSINGLE-SYLLABLE NUMBERS:\ncero (1), dos (1), tres (1), cuatro (2: cua-tro), cinco (2: cin-co)\nseis (1), diez (1), once (1), doce (1), cien (1), mil (1)\n\nTWO-SYLLABLE NUMBERS:\nuno (u-no), dos (1), tres (1), quatro (cua-tro), cinco (cin-co)\nveinte (bain-TEH-teh), treinta (treh-YEN-tah), cuarenta (kwa-REN-tah)\ncincuenta (seen-KWEHN-tah), sesenta (seh-SEN-ta), setenta (seh-TEN-tah)\nochenta (oh-CHEN-ta), noventa (no-SEN-ta)\n\nLONGER NUMBERS:\ndieciséis (die-see-SEHS) — 3 syllables\nveintidós (bain-tee-DOHS) — 3 syllables\nveintitrés (bain-tee-TREHS) — 3 syllables\ndieciséis (die-see-SEHS) — 3 syllables\ncuarenta y uno (kwa-REN-tah ee MOO-noh) — 5 syllables\n\nTIPS FOR PRONUNCIATION:\n- Spanish vowels are always short and clear: a, e, i, o, u\n- Never glide between vowels\n- 'y' between numbers = 'ee' sound\n- The accent mark ALWAYS indicates the stressed syllable\n\nPRACTICE PHRASES:\n- Tres y medio = tres ee MEH-dio (3.5)\n- Cuarenta y cinco = kwa-REN-tah ee SEEN-kwah (45)\n- Sesenta y siete = seh-SEN-tah ee SYEH-teh (67)",
+      "examples": [
+        "Uno: u-no (2 syllables)\nCuatro: cua-tro (2 syllables)\nVeinte: bain-TEH-teh (2 syllables)\nTreinta: treh-YEN-tah (3 syllables)\nCincuenta: seen-KWEHN-tah (3 syllables)\nDieciséis: die-see-SEHS (3 syllables)\nCuarenta y cinco: kwa-REN-tah ee seen-KWAH (5 syllables)"
       ]
     }
   ],
   "exercises": [
     {
       "type": "multiple-choice",
-      "question": "What color is 'azul'?",
-      "options": [
-        "Red",
-        "Green",
-        "Blue",
-        "Black"
-      ],
+      "question": "What is '23' in Spanish?",
+      "options": ["veintitrés", "treinta y tres", "veintidos", "veinte y tres"],
+      "correct": 0,
+      "explanation": "'Veintitrés' = 23. Note the accent mark on the 'e'."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "How do you say 'blue' in Spanish?",
+      "options": ["verde", "rojo", "azul", "negro"],
       "correct": 2,
-      "explanation": "'Azul' means blue."
+      "explanation": "'Azul' = blue. 'Verde' = green. 'Rojo' = red. 'Negro' = black."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What does 'cien' mean?",
+      "options": ["ten", "fifty", "one hundred", "one thousand"],
+      "correct": 2,
+      "explanation": "'Cien' = 100. 'Mil' = 1,000. 'Diez' = 10. 'Cincuenta' = 50."
     },
     {
       "type": "fill-in-blank",
-      "question": "Complete: 'El coche es ___. (The car is red.)",
+      "question": "Complete: 'Tengo ___ años.' (I'm 25 years old.)",
+      "correct": "veinticinco",
+      "explanation": "'Tengo veinticinco años' = I'm 25 years old."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: 'El coche es ___. (The car is red.)'",
       "correct": "rojo",
-      "explanation": "'Rojo' agrees in gender (masculine) with 'coche'."
+      "explanation": "'Rojo' = red (masculine). 'Roja' would be feminine: 'la casa roja'."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: '___ y uno.' (Thirty-one.)",
+      "correct": "Treinta",
+      "explanation": "'Treinta y uno' = 31. Use 'y' (and) between tens and units."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Which color is invariable (same for masculine and feminine)?",
+      "options": ["rojo/roja", "blanco/blanca", "azul", "negro/negra"],
+      "correct": 2,
+      "explanation": "'Azul' is invariable — same form for masculine and feminine. The others change: rojo/roja, blanco/blanca, negro/negra."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: 'Cuesta ___ euros.' (It costs 15 euros.)",
+      "correct": "quince",
+      "explanation": "'Cuesta quince euros' = It costs 15 euros."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What is '100' in Spanish when followed by another number?",
+      "options": ["cien", "ciento", "cienos", "ciento uno"],
+      "correct": 1,
+      "explanation": "Use 'ciento' (not 'cien') when followed by another number: 'ciento uno' = 101. Use 'cien' only for exactly 100."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: 'La casa es ___. (The house is white.)'",
+      "correct": "blanca",
+      "explanation": "'Blanca' = white (feminine). 'Blanco' would be masculine: 'el coche blanco'."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "How do you say 'sixty-seven' in Spanish?",
+      "options": ["sesenta y siete", "setenta y seis", "siete y sesenta", "sesenta siete"],
+      "correct": 0,
+      "explanation": "'Sesenta y siete' = 67. Use 'y' between the tens and units."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Which form is correct before a masculine noun?",
+      "options": ["veintiuno", "veintiún", "veintuna", "veintiúnos"],
+      "correct": 1,
+      "explanation": "'Veintiún' (without the 'o') goes before masculine nouns: veintiún dólares."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What is the feminine plural of 'rojo'?",
+      "options": ["rojas", "rojós", "rojos", "rojamente"],
+      "correct": 0,
+      "explanation": "'Rojas' is the feminine plural: las casas rojas. Add -s for vowel endings."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: 'Tengo ___ gatos.' (I have many cats.)",
+      "correct": "muchos",
+      "explanation": "'Muchos' = many (masculine plural). 'Tengo muchos gatos' = I have many cats."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: 'Son las ___ y media.' (It's 3:30.)",
+      "correct": "tres",
+      "explanation": "'Son las tres y media' = It's 3:30. Note: 'es la una' (1:00) but 'son las...' for 2+."
+    },
+    {
+      "type": "translation",
+      "question": "Translate to Spanish: 'The shirt is green.'",
+      "correct": "La camisa es verde",
+      "alternatives": ["La camiseta es verde"],
+      "explanation": "'La camisa es verde' = The shirt is green. 'Verde' is invariable (same for masculine and feminine)."
+    },
+    {
+      "type": "translation",
+      "question": "Translate to Spanish: 'They cost 42 euros.'",
+      "correct": "Cuestan cuarenta y dos euros",
+      "alternatives": ["Cuestan 42 euros"],
+      "explanation": "'Cuestan cuarenta y dos euros' = They cost 42 euros. Use 'cuestan' (plural) because 'they' is plural."
+    },
+    {
+      "type": "translation",
+      "question": "Translate to Spanish: 'I have two sisters and three brothers.'",
+      "correct": "Tengo dos hermanas y tres hermanos",
+      "alternatives": ["Tengo dos hermanas y tres hermanos."],
+      "explanation": "'Tengo dos hermanas y tres hermanos' = I have two sisters and three brothers. Note: hermana (f), hermano (m)."
+    },
+    {
+      "type": "translation",
+      "question": "Translate to Spanish: 'The walls are white.'",
+      "correct": "Las paredes son blancas",
+      "alternatives": ["Las paredes son blancas."],
+      "explanation": "'Las paredes son blancas' = The walls are white. 'Blancas' is feminine plural to match 'las paredes'."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What time is 'las ocho y media'?",
+      "options": ["8:15", "8:30", "8:45", "9:30"],
+      "correct": 1,
+      "explanation": "'Las ocho y media' = 8:30. 'Y media' means 'and half' (:30)."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Which is correct for 'four hundred'? (masc.)",
+      "options": ["cuatrocientos", "cuatrocien", "cuatro ciento", "cuatrocientas"],
+      "correct": 0,
+      "explanation": "'Cuatrocientos' = 400 (masculine). 'Cuatrocientas' would be feminine. The 'ciento' form drops to '-cientos/-cientas'."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: '___ son las diez.' (It's 10 o'clock.)",
+      "correct": "Son",
+      "explanation": "'Son las diez' = It's 10 o'clock. Use 'son las' for all hours except 1:00 (es la una)."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: 'Un ___ libro.' (A red book.)",
+      "correct": "rojo",
+      "explanation": "'Un rojo libro' — wait! The adjective typically goes AFTER the noun in Spanish: 'Un libro rojo'. But both positions are grammatically acceptable for color adjectives."
+    },
+    {
+      "type": "translation",
+      "question": "Translate to Spanish: 'How much does it cost?'",
+      "correct": "Cuánto cuesta",
+      "alternatives": ["¿Cuánto cuesta?", "Cuesta cuánto"],
+      "explanation": "'¿Cuánto cuesta?' = How much does it cost? (singular). For plural items: '¿Cuánto cuestan?'"
+    },
+    {
+      "type": "translation",
+      "question": "Translate to Spanish: 'The car is blue and the house is white.'",
+      "correct": "El coche es azul y la casa es blanca",
+      "alternatives": ["El coche es azul y la casa es blanca."],
+      "explanation": "'El coche es azul y la casa es blanca.' 'Azul' is invariable. 'Blanca' matches the feminine 'casa'."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What is '0' in Spanish?",
+      "options": ["cero", "ceroe", "cear", "ceroa"],
+      "correct": 0,
+      "explanation": "'Cero' = zero. It's always spelled the same way, no gender variation."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: 'Tengo ___ agua.' (I have a little water.)",
+      "correct": "poca",
+      "explanation": "'Tengo poca agua' = I have a little water. 'Poca' is feminine singular to match 'agua' (feminine)."
+    },
+    {
+      "type": "translation",
+      "question": "Translate to Spanish: 'What time is it?'",
+      "correct": "Qué hora es",
+      "alternatives": ["¿Qué hora es?", "A qué hora es"],
+      "explanation": "'¿Qué hora es?' = What time is it? The standard way to ask the time."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Which number is 'mil'? ",
+      "options": ["100", "1000", "10000", "10"],
+      "correct": 1,
+      "explanation": "'Mil' = 1,000. 'Cien' = 100. 'Diez' = 10. 'Mil' has no plural form in standard usage."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: 'Las flores son ___. (The flowers are red.)'",
+      "correct": "rojas",
+      "explanation": "'Rojas' = red (feminine plural). 'Las flores' is feminine plural, so the color must agree."
+    },
+    {
+      "type": "translation",
+      "question": "Translate to Spanish: 'It's a quarter past two.'",
+      "correct": "Son las dos y cuarto",
+      "alternatives": ["Son las dos y cuarto.", "Es un cuarto después de las dos."],
+      "explanation": "'Son las dos y cuarto' = It's a quarter past two (2:15). 'Y cuarto' = and a quarter."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "How do you say 'twenty-one' before a masculine noun?",
+      "options": ["veintiuno", "veintiún", "veintina", "veintiúnos"],
+      "correct": 1,
+      "explanation": "'Veintiún' (without final 'o') is used before masculine nouns: veintiún años, veintiún euros."
     }
   ]
 }

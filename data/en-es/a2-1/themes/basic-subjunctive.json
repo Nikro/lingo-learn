@@ -1,0 +1,103 @@
+{
+  "id": "basic-subjunctive",
+  "title": "Basic Subjunctive",
+  "description": "Use the present subjunctive in fixed expressions: wishes, hopes, and Ojalá.",
+  "vocabulary": [
+    { "id": 1, "target": "¡Que tengas un buen día!", "source": "Have a good day!", "gender": "—", "type": "phrase" },
+    { "id": 2, "target": "¡Que te vaya bien!", "source": "Good luck!", "gender": "—", "type": "phrase" },
+    { "id": 3, "target": "¡Que descanses!", "source": "Rest well!", "gender": "—", "type": "phrase" },
+    { "id": 4, "target": "Ojalá", "source": "I hope that / God willing", "gender": "—", "type": "interjection" },
+    { "id": 5, "target": "Ojalá llueva mañana", "source": "I hope it rains tomorrow", "gender": "—", "type": "phrase" },
+    { "id": 6, "target": "Es importante que", "source": "It's important that", "gender": "—", "type": "phrase" },
+    { "id": 7, "target": "Mejor que", "source": "Better if", "gender": "—", "type": "phrase" },
+    { "id": 8, "target": "Quiero que", "source": "I want that", "gender": "—", "type": "phrase" },
+    { "id": 9, "target": "Espero que", "source": "I hope that", "gender": "—", "type": "phrase" },
+    { "id": 10, "target": "sé", "source": "be (subjunctive of ser)", "gender": "v.", "type": "verb" },
+    { "id": 11, "target": "tengas", "source": "you have (subjunctive of tener)", "gender": "v.", "type": "verb" },
+    { "id": 12, "target": "llueva", "source": "it rains (subjunctive of llover)", "gender": "v.", "type": "verb" },
+    { "id": 13, "target": "vengas", "source": "you come (subjunctive of venir)", "gender": "v.", "type": "verb" },
+    { "id": 14, "target": "esté", "source": "he/she/you are (subjunctive of estar)", "gender": "v.", "type": "verb" },
+    { "id": 15, "target": "tenga", "source": "he/she/you have (subjunctive of tener)", "gender": "v.", "type": "verb" },
+    { "id": 16, "target": "descanses", "source": "you rest (subjunctive of descansar)", "gender": "v.", "type": "verb" },
+    { "id": 17, "target": "vaya", "source": "I go / you go (subjunctive of ir)", "gender": "v.", "type": "verb" },
+    { "id": 18, "target": "hable", "source": "I/you speak (subjunctive of hablar)", "gender": "v.", "type": "verb" },
+    { "id": 19, "target": "coma", "source": "I/you eat (subjunctive of comer)", "gender": "v.", "type": "verb" },
+    { "id": 20, "target": "viva", "source": "I/you live (subjunctive of vivir)", "gender": "v.", "type": "verb" },
+    { "id": 21, "target": "sea", "source": "be (subjunctive of ser)", "gender": "v.", "type": "verb" },
+    { "id": 22, "target": "estés", "source": "you are (subjunctive of estar)", "gender": "v.", "type": "verb" },
+    { "id": 23, "target": "bueno", "source": "good", "gender": "m.", "type": "adjective" },
+    { "id": 24, "target": "feliz", "source": "happy", "gender": "—", "type": "adjective" },
+    { "id": 25, "target": "bien", "source": "well / good", "gender": "—", "type": "adverb" },
+    { "id": 26, "target": "la fiesta", "source": "the party", "gender": "f.", "type": "noun" },
+    { "id": 27, "target": "mañana", "source": "tomorrow", "gender": "—", "type": "time" },
+    { "id": 28, "target": "excellent", "source": "excellent", "gender": "—", "type": "adjective" },
+    { "id": 29, "target": "el día", "source": "the day", "gender": "m.", "type": "noun" },
+    { "id": 30, "target": "tu", "source": "your (informal)", "gender": "—", "type": "pronoun" }
+  ],
+  "grammar": [
+    {
+      "title": "Present Subjunctive in Fixed Expressions",
+      "content": "The subjunctive (subjuntivo) is a mood used to express wishes, doubts, emotions, and hypothetical situations. At A2.1, you'll mainly encounter it in fixed expressions — set phrases where the subjunctive is mandatory.\n\nWishes and blessings:\n- ¡Que tengas un buen día! = Have a good day!\n- ¡Que te vaya bien! = Good luck! (literally: may it go well for you)\n- ¡Que descanses! = Rest well!\n\nWith querer/esperar + que (when the subject changes):\n- Quiero que seas feliz. = I want you to be happy.\n- Espero que llueva. = I hope it rains.\n\nCommon fixed expressions:\n- Ojalá (que)... = I hope that... / God willing...\n- Es importante que... = It's important that...\n- Mejor que... = Better if...\n\nThe present subjunctive yo form is built by taking the yo present indicative form and switching the ending: -o → -e for -AR, -o → -a for -ER/-IR:\n- hablar → hablo → hable\n- comer → como → coma\n- vivir → vivo → viva",
+      "table": {
+        "headers": ["Infinitive", "Yo Present Indicative", "Present Subjunctive Yo"],
+        "rows": [
+          ["hablar", "hablo", "hable"],
+          ["comer", "como", "coma"],
+          ["vivir", "vivo", "viva"],
+          ["tener", "tengo", "tenga"],
+          ["estar", "estoy", "esté"],
+          ["ir", "voy", "vaya"]
+        ]
+      },
+      "examples": [
+        "¡Que tengas un excelente día! (Have an excellent day!)",
+        "Ojalá llueva mañana. (I hope it rains tomorrow.)",
+        "Quiero que tú vengas a mi fiesta. (I want you to come to my party.)",
+        "Espero que esté bien. (I hope he/she is okay.)"
+      ],
+      "aid_note": "Romanian uses a similar 'optative' mood for wishes: 'Să ai o zi bună!' = '¡Que tengas un buen día!' The 'să' particle marks the subjunctive optative. This makes the Spanish subjunctive much more natural for Romanian speakers than for English speakers."
+    }
+  ],
+  "pronunciation": [],
+  "exercises": [
+    {
+      "type": "exercise",
+      "question": "Which of these uses the subjunctive correctly?",
+      "options": ["Quiero que tú vienes.", "Ojalá llueva mañana.", "Espero que tú comes.", "Quiero que tú comes."],
+      "correct": 1,
+      "explanation": "'Ojalá llueva mañana' uses the subjunctive correctly. 'Ojalá' always triggers the subjunctive."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: '¡Que tengas ____ día!' (Have a ____ day!) — subjunctive wish for someone.",
+      "correct": "bueno",
+      "explanation": "'¡Que tengas un buen día!' uses the subjunctive 'tengas' (from tener) after 'que'."
+    },
+    {
+      "type": "exercise",
+      "question": "What is the subjunctive yo form of 'tener'?",
+      "options": ["tengo", "tuviera", "tenga", "tenía"],
+      "correct": 2,
+      "explanation": "'Tenga' is the present subjunctive yo form: take the yo indicative (tengo), drop the -o, add -a for -ER verbs."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: 'Espero que ____ (estar) bien.' (I hope he/she is okay.)",
+      "correct": "esté",
+      "explanation": "'Esté' is the subjunctive of estar for él/ella/usted: take yo present (estoy), drop -o, add -e: esté."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: 'Quiero que ____ (you) ____ (come) a mi fiesta.' (I want you to come to my party.)",
+      "correct": "vengas",
+      "explanation": "'Vengas' is the subjunctive of venir for tú. Irregular: venir → vengo → vengas."
+    },
+    {
+      "type": "exercise",
+      "question": "What triggers the subjunctive after 'ojalá'?",
+      "options": ["No trigger", "The subjunctive mood", "The infinitive", "The indicative"],
+      "correct": 1,
+      "explanation": "'Ojalá' always triggers the subjunctive: Ojalá llueva, Ojalá venga, etc."
+    }
+  ]
+}

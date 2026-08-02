@@ -1,108 +1,911 @@
 {
   "id": "work-introductions",
   "title": "Work & Introductions",
-  "description": "Talk about your job, workplace, and professional background.",
+  "description": "Talk about your profession, workplace, schedule, and career. Master job-related vocabulary, professional greetings, and workplace communication.",
   "vocabulary": [
     {
       "id": 1,
       "target": "trabajo",
       "source": "work/job",
       "gender": "m",
-      "type": "noun"
-    },
-    {
-      "id": 2,
-      "target": "oficina",
-      "source": "office",
-      "gender": "f",
       "type": "place"
     },
     {
+      "id": 2,
+      "target": "empleo",
+      "source": "employment/job",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
       "id": 3,
-      "target": "colega",
-      "source": "colleague",
-      "gender": "m/f",
-      "type": "person"
+      "target": "profesi\u00f3n",
+      "source": "profession",
+      "gender": "f",
+      "type": "noun"
     },
     {
       "id": 4,
+      "target": "oficio",
+      "source": "trade/craft",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 5,
+      "target": "ocupaci\u00f3n",
+      "source": "occupation",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 6,
+      "target": "trabajar",
+      "source": "to work",
+      "gender": "\u2014",
+      "type": "verb"
+    },
+    {
+      "id": 7,
+      "target": "empleado",
+      "source": "employee",
+      "gender": "m",
+      "type": "person"
+    },
+    {
+      "id": 8,
+      "target": "empleada",
+      "source": "employee (f)",
+      "gender": "f",
+      "type": "person"
+    },
+    {
+      "id": 9,
       "target": "jefe",
       "source": "boss",
       "gender": "m",
       "type": "person"
     },
     {
-      "id": 5,
-      "target": "empresa",
-      "source": "company",
+      "id": 10,
+      "target": "jefa",
+      "source": "boss (f)",
+      "gender": "f",
+      "type": "person"
+    },
+    {
+      "id": 11,
+      "target": "directora",
+      "source": "director (f)",
+      "gender": "f",
+      "type": "person"
+    },
+    {
+      "id": 12,
+      "target": "director",
+      "source": "director",
+      "gender": "m",
+      "type": "person"
+    },
+    {
+      "id": 13,
+      "target": "gerente",
+      "source": "manager",
+      "gender": "m/f",
+      "type": "person"
+    },
+    {
+      "id": 14,
+      "target": "colaborador",
+      "source": "colleague/coworker",
+      "gender": "m",
+      "type": "person"
+    },
+    {
+      "id": 15,
+      "target": "compa\u00f1ero",
+      "source": "coworker",
+      "gender": "m",
+      "type": "person"
+    },
+    {
+      "id": 16,
+      "target": "cliente",
+      "source": "customer/client",
+      "gender": "m/f",
+      "type": "person"
+    },
+    {
+      "id": 17,
+      "target": "cliente",
+      "source": "customer",
+      "gender": "m",
+      "type": "person"
+    },
+    {
+      "id": 18,
+      "target": "jefe de departamento",
+      "source": "department head",
+      "gender": "m",
+      "type": "person"
+    },
+    {
+      "id": 19,
+      "target": "supervisor",
+      "source": "supervisor",
+      "gender": "m",
+      "type": "person"
+    },
+    {
+      "id": 20,
+      "target": "asistente",
+      "source": "assistant",
+      "gender": "m/f",
+      "type": "person"
+    },
+    {
+      "id": 21,
+      "target": "m\u00e9dico",
+      "source": "doctor",
+      "gender": "m",
+      "type": "job"
+    },
+    {
+      "id": 22,
+      "target": "enfermera",
+      "source": "nurse",
+      "gender": "f",
+      "type": "job"
+    },
+    {
+      "id": 23,
+      "target": "ingeniero",
+      "source": "engineer",
+      "gender": "m",
+      "type": "job"
+    },
+    {
+      "id": 24,
+      "target": "ingeniera",
+      "source": "engineer (f)",
+      "gender": "f",
+      "type": "job"
+    },
+    {
+      "id": 25,
+      "target": "abogado",
+      "source": "lawyer",
+      "gender": "m",
+      "type": "job"
+    },
+    {
+      "id": 26,
+      "target": "abogada",
+      "source": "lawyer (f)",
+      "gender": "f",
+      "type": "job"
+    },
+    {
+      "id": 27,
+      "target": "maestro",
+      "source": "teacher (m)",
+      "gender": "m",
+      "type": "job"
+    },
+    {
+      "id": 28,
+      "target": "maestra",
+      "source": "teacher (f)",
+      "gender": "f",
+      "type": "job"
+    },
+    {
+      "id": 29,
+      "target": "profesor",
+      "source": "professor/teacher",
+      "gender": "m",
+      "type": "job"
+    },
+    {
+      "id": 30,
+      "target": "profesora",
+      "source": "professor/teacher (f)",
+      "gender": "f",
+      "type": "job"
+    },
+    {
+      "id": 31,
+      "target": "cocinero",
+      "source": "cook/chef",
+      "gender": "m",
+      "type": "job"
+    },
+    {
+      "id": 32,
+      "target": "cocinera",
+      "source": "cook/chef (f)",
+      "gender": "f",
+      "type": "job"
+    },
+    {
+      "id": 33,
+      "target": "conductor",
+      "source": "driver",
+      "gender": "m",
+      "type": "job"
+    },
+    {
+      "id": 34,
+      "target": "conductor",
+      "source": "driver (f)",
+      "gender": "f",
+      "type": "job"
+    },
+    {
+      "id": 35,
+      "target": "piloto",
+      "source": "pilot",
+      "gender": "m/f",
+      "type": "job"
+    },
+    {
+      "id": 36,
+      "target": "arquitecto",
+      "source": "architect",
+      "gender": "m",
+      "type": "job"
+    },
+    {
+      "id": 37,
+      "target": "arquitecta",
+      "source": "architect (f)",
+      "gender": "f",
+      "type": "job"
+    },
+    {
+      "id": 38,
+      "target": "periodista",
+      "source": "journalist",
+      "gender": "m/f",
+      "type": "job"
+    },
+    {
+      "id": 39,
+      "target": "programador",
+      "source": "programmer",
+      "gender": "m",
+      "type": "job"
+    },
+    {
+      "id": 40,
+      "target": "programadora",
+      "source": "programmer (f)",
+      "gender": "f",
+      "type": "job"
+    },
+    {
+      "id": 41,
+      "target": "dise\u00f1ador",
+      "source": "designer",
+      "gender": "m",
+      "type": "job"
+    },
+    {
+      "id": 42,
+      "target": "dise\u00f1adora",
+      "source": "designer (f)",
+      "gender": "f",
+      "type": "job"
+    },
+    {
+      "id": 43,
+      "target": "contable",
+      "source": "accountant",
+      "gender": "m/f",
+      "type": "job"
+    },
+    {
+      "id": 44,
+      "target": "vendedor",
+      "source": "salesperson",
+      "gender": "m",
+      "type": "job"
+    },
+    {
+      "id": 45,
+      "target": "vendedora",
+      "source": "salesperson (f)",
+      "gender": "f",
+      "type": "job"
+    },
+    {
+      "id": 46,
+      "target": "receptionista",
+      "source": "receptionist",
+      "gender": "m/f",
+      "type": "job"
+    },
+    {
+      "id": 47,
+      "target": "secretaria",
+      "source": "secretary",
+      "gender": "f",
+      "type": "job"
+    },
+    {
+      "id": 48,
+      "target": "polic\u00eda",
+      "source": "police officer",
+      "gender": "m/f",
+      "type": "job"
+    },
+    {
+      "id": 49,
+      "target": "bombero",
+      "source": "firefighter",
+      "gender": "m",
+      "type": "job"
+    },
+    {
+      "id": 50,
+      "target": "bombero",
+      "source": "firefighter (f)",
+      "gender": "f",
+      "type": "job"
+    },
+    {
+      "id": 51,
+      "target": "camarero",
+      "source": "waiter",
+      "gender": "m",
+      "type": "job"
+    },
+    {
+      "id": 52,
+      "target": "camarera",
+      "source": "waitress",
+      "gender": "f",
+      "type": "job"
+    },
+    {
+      "id": 53,
+      "target": "barbero",
+      "source": "barber",
+      "gender": "m",
+      "type": "job"
+    },
+    {
+      "id": 54,
+      "target": "peluquero",
+      "source": "hairdresser",
+      "gender": "m",
+      "type": "job"
+    },
+    {
+      "id": 55,
+      "target": "peluquera",
+      "source": "hairdresser (f)",
+      "gender": "f",
+      "type": "job"
+    },
+    {
+      "id": 56,
+      "target": "fontanero",
+      "source": "plumber",
+      "gender": "m",
+      "type": "job"
+    },
+    {
+      "id": 57,
+      "target": "electricista",
+      "source": "electrician",
+      "gender": "m/f",
+      "type": "job"
+    },
+    {
+      "id": 58,
+      "target": "alba\u00f1il",
+      "source": "bricklayer/construction worker",
+      "gender": "m",
+      "type": "job"
+    },
+    {
+      "id": 59,
+      "target": "agricultor",
+      "source": "farmer",
+      "gender": "m",
+      "type": "job"
+    },
+    {
+      "id": 60,
+      "target": "agricultora",
+      "source": "farmer (f)",
+      "gender": "f",
+      "type": "job"
+    },
+    {
+      "id": 61,
+      "target": "veterinario",
+      "source": "veterinarian",
+      "gender": "m",
+      "type": "job"
+    },
+    {
+      "id": 62,
+      "target": "veterinaria",
+      "source": "veterinarian (f)",
+      "gender": "f",
+      "type": "job"
+    },
+    {
+      "id": 63,
+      "target": "pescador",
+      "source": "fisherman",
+      "gender": "m",
+      "type": "job"
+    },
+    {
+      "id": 64,
+      "target": "pescadora",
+      "source": "fisherwoman",
+      "gender": "f",
+      "type": "job"
+    },
+    {
+      "id": 65,
+      "target": "artesano",
+      "source": "artisan/craftsman",
+      "gender": "m",
+      "type": "job"
+    },
+    {
+      "id": 66,
+      "target": "artesana",
+      "source": "artisan/craftswoman",
+      "gender": "f",
+      "type": "job"
+    },
+    {
+      "id": 67,
+      "target": "escritor",
+      "source": "writer",
+      "gender": "m",
+      "type": "job"
+    },
+    {
+      "id": 68,
+      "target": "escritora",
+      "source": "writer (f)",
+      "gender": "f",
+      "type": "job"
+    },
+    {
+      "id": 69,
+      "target": "m\u00fasico",
+      "source": "musician",
+      "gender": "m",
+      "type": "job"
+    },
+    {
+      "id": 70,
+      "target": "m\u00fasico",
+      "source": "musician (f)",
+      "gender": "f",
+      "type": "job"
+    },
+    {
+      "id": 71,
+      "target": "artista",
+      "source": "artist",
+      "gender": "m/f",
+      "type": "job"
+    },
+    {
+      "id": 72,
+      "target": "actor",
+      "source": "actor",
+      "gender": "m",
+      "type": "job"
+    },
+    {
+      "id": 73,
+      "target": "actriz",
+      "source": "actress",
+      "gender": "f",
+      "type": "job"
+    },
+    {
+      "id": 74,
+      "target": "deportista",
+      "source": "athlete",
+      "gender": "m/f",
+      "type": "job"
+    },
+    {
+      "id": 75,
+      "target": "entrenador",
+      "source": "coach/trainer",
+      "gender": "m",
+      "type": "job"
+    },
+    {
+      "id": 76,
+      "target": "entrenadora",
+      "source": "coach/trainer (f)",
+      "gender": "f",
+      "type": "job"
+    },
+    {
+      "id": 77,
+      "target": "militar",
+      "source": "military person",
+      "gender": "m/f",
+      "type": "job"
+    },
+    {
+      "id": 78,
+      "target": "soldado",
+      "source": "soldier",
+      "gender": "m",
+      "type": "job"
+    },
+    {
+      "id": 79,
+      "target": "soldado",
+      "source": "soldier (f)",
+      "gender": "f",
+      "type": "job"
+    },
+    {
+      "id": 80,
+      "target": "pol\u00edtico",
+      "source": "politician",
+      "gender": "m",
+      "type": "job"
+    },
+    {
+      "id": 81,
+      "target": "pol\u00edtica",
+      "source": "politician (f)",
+      "gender": "f",
+      "type": "job"
+    },
+    {
+      "id": 82,
+      "target": "estudiante",
+      "source": "student",
+      "gender": "m/f",
+      "type": "person"
+    },
+    {
+      "id": 83,
+      "target": "retirado",
+      "source": "retired person (m)",
+      "gender": "m",
+      "type": "person"
+    },
+    {
+      "id": 84,
+      "target": "retirada",
+      "source": "retired person (f)",
+      "gender": "f",
+      "type": "person"
+    },
+    {
+      "id": 85,
+      "target": "desempleado",
+      "source": "unemployed person (m)",
+      "gender": "m",
+      "type": "person"
+    },
+    {
+      "id": 86,
+      "target": "desempleada",
+      "source": "unemployed person (f)",
+      "gender": "f",
+      "type": "person"
+    },
+    {
+      "id": 87,
+      "target": "aut\u00f3nomo",
+      "source": "self-employed (m)",
+      "gender": "m",
+      "type": "person"
+    },
+    {
+      "id": 88,
+      "target": "aut\u00f3noma",
+      "source": "self-employed (f)",
+      "gender": "f",
+      "type": "person"
+    },
+    {
+      "id": 89,
+      "target": "freelance",
+      "source": "freelancer",
+      "gender": "m/f",
+      "type": "person"
+    },
+    {
+      "id": 90,
+      "target": "empresario",
+      "source": "entrepreneur/business owner",
+      "gender": "m",
+      "type": "person"
+    },
+    {
+      "id": 91,
+      "target": "empresaria",
+      "source": "entrepreneur/business owner (f)",
+      "gender": "f",
+      "type": "person"
+    },
+    {
+      "id": 92,
+      "target": "fundador",
+      "source": "founder",
+      "gender": "m",
+      "type": "person"
+    },
+    {
+      "id": 93,
+      "target": "fundadora",
+      "source": "founder (f)",
+      "gender": "f",
+      "type": "person"
+    },
+    {
+      "id": 94,
+      "target": "CEO",
+      "source": "CEO/chief executive",
+      "gender": "m/f",
+      "type": "job"
+    },
+    {
+      "id": 95,
+      "target": "freelance",
+      "source": "freelancer",
+      "gender": "m/f",
+      "type": "job"
+    },
+    {
+      "id": 96,
+      "target": "empleado",
+      "source": "employee",
+      "gender": "m",
+      "type": "person"
+    },
+    {
+      "id": 97,
+      "target": "empleado",
+      "source": "employee (f)",
+      "gender": "f",
+      "type": "person"
+    },
+    {
+      "id": 98,
+      "target": "voluntario",
+      "source": "volunteer",
+      "gender": "m",
+      "type": "person"
+    },
+    {
+      "id": 99,
+      "target": "voluntaria",
+      "source": "volunteer (f)",
+      "gender": "f",
+      "type": "person"
+    },
+    {
+      "id": 100,
+      "target": "practicante",
+      "source": "intern",
+      "gender": "m/f",
+      "type": "person"
+    },
+    {
+      "id": 101,
+      "target": "pasante",
+      "source": "intern",
+      "gender": "m",
+      "type": "person"
+    },
+    {
+      "id": 102,
+      "target": "oficina",
+      "source": "office",
       "gender": "f",
       "type": "place"
     },
     {
-      "id": 6,
-      "target": "proyecto",
-      "source": "project",
+      "id": 103,
+      "target": "despacho",
+      "source": "office/private office",
       "gender": "m",
-      "type": "noun"
+      "type": "place"
     },
     {
-      "id": 7,
-      "target": "reuni\u00f3n",
-      "source": "meeting",
+      "id": 104,
+      "target": "escritorio",
+      "source": "desk",
+      "gender": "m",
+      "type": "furniture"
+    },
+    {
+      "id": 105,
+      "target": "silla de oficina",
+      "source": "office chair",
       "gender": "f",
-      "type": "noun"
+      "type": "furniture"
     },
     {
-      "id": 8,
-      "target": "correo electr\u00f3nico",
-      "source": "email",
+      "id": 106,
+      "target": "ordenador",
+      "source": "computer",
       "gender": "m",
-      "type": "noun"
+      "type": "object"
     },
     {
-      "id": 9,
+      "id": 107,
+      "target": "tel\u00e9fono",
+      "source": "phone",
+      "gender": "m",
+      "type": "object"
+    },
+    {
+      "id": 108,
+      "target": "m\u00f3vil",
+      "source": "mobile phone",
+      "gender": "m",
+      "type": "object"
+    },
+    {
+      "id": 109,
+      "target": "impresora",
+      "source": "printer",
+      "gender": "f",
+      "type": "object"
+    },
+    {
+      "id": 110,
+      "target": "fax",
+      "source": "fax",
+      "gender": "m",
+      "type": "object"
+    },
+    {
+      "id": 111,
+      "target": "papel",
+      "source": "paper",
+      "gender": "m",
+      "type": "object"
+    },
+    {
+      "id": 112,
+      "target": "archivo",
+      "source": "file",
+      "gender": "m",
+      "type": "object"
+    },
+    {
+      "id": 113,
+      "target": "carpeta",
+      "source": "folder",
+      "gender": "f",
+      "type": "object"
+    },
+    {
+      "id": 114,
+      "target": "documento",
+      "source": "document",
+      "gender": "m",
+      "type": "object"
+    },
+    {
+      "id": 115,
+      "target": "contrato",
+      "source": "contract",
+      "gender": "m",
+      "type": "object"
+    },
+    {
+      "id": 116,
+      "target": "factura",
+      "source": "invoice/bill",
+      "gender": "f",
+      "type": "object"
+    },
+    {
+      "id": 117,
+      "target": "presupuesto",
+      "source": "budget/quote",
+      "gender": "m",
+      "type": "object"
+    },
+    {
+      "id": 118,
       "target": "informe",
       "source": "report",
       "gender": "m",
-      "type": "noun"
+      "type": "object"
     },
     {
-      "id": 10,
-      "target": "cliente",
-      "source": "client",
+      "id": 119,
+      "target": "correo electr\u00f3nico",
+      "source": "email",
       "gender": "m",
-      "type": "person"
+      "type": "object"
+    },
+    {
+      "id": 120,
+      "target": "e-mail",
+      "source": "email",
+      "gender": "m",
+      "type": "object"
     }
   ],
   "grammar": [
     {
-      "title": "Trabajar & Estar en (to work, to be at)",
-      "content": "Trabajar is a regular -ar verb. Estar is used for location and temporary states.\n\nTrabajar: yo trabajo, t\u00fa trabajas, \u00e9l trabaja...\nEstar: yo estoy, t\u00fa est\u00e1s, \u00e9l est\u00e1...\n\nUse 'en' with estar for location: estar en la oficina",
+      "title": "Ser for Professions and Identity",
+      "content": "Use SER to state your profession or identity.\n\nSoy + profession (NO article):\n- Soy ingeniero. (I'm an engineer.)\n- Soy m\u00e9dico. (I'm a doctor.)\n- Soy profesora. (I'm a teacher.)\n\nNOT 'Soy el ingeniero' \u2014 no article before profession with SER.\n\nExceptions: With adjectives, you use the article:\n- Soy un ingeniero bueno. (I'm a good engineer.)\n- Es una profesora inteligente. (She's an intelligent teacher.)",
       "examples": [
-        "Trabajo en una empresa de tecnolog\u00eda. (I work at a tech company.)",
-        "Estoy en la oficina. (I am at the office.)",
-        "Mi jefe es simp\u00e1tico. (My boss is nice.)"
+        "Soy abogado. (I'm a lawyer.)\nElla es m\u00e9dica. (She's a doctor.)\nSomos estudiantes. (We're students.)"
+      ]
+    },
+    {
+      "title": "Trabajar + en \u2014 To Work At/In/For",
+      "content": "TRABAJAR is a regular -AR verb. It uses 'en' to indicate where or for whom you work.\n\nConjugation: yo trabajo, t\u00fa trabajas, \u00e9l trabaja, nosotros trabajamos, vosotros trabaj\u00e1is, ellos trabajan\n\n- Trabajo EN una oficina. (I work IN an office.)\n- Trabajo PARA Google. (I work FOR Google.)\n- Trabajo CON ingenieros. (I work WITH engineers.)\n\nCommon workplace expressions:\n- Estoy trabajando. (I'm working right now.)\n- Voy a trabajar. (I'm going to work.)\n- Tengo trabajo. (I have a job.)\n- No tengo trabajo. (I don't have a job.)",
+      "examples": [
+        "Trabajo en un hospital. (I work in a hospital.)\nTrabajo para una empresa. (I work for a company.)\nTrabajo con clientes. (I work with clients.)"
+      ]
+    }
+  ],
+  "pronunciation": [
+    {
+      "title": "The Spanish 'R' \u2014 Single vs Double",
+      "content": "Spanish has two 'r' sounds that are crucial:\n\nSingle 'r' (tap): Between vowels, quick tap of tongue\n- pero (but) = PEH-roh\n- caro (expensive) = KAH-roh\n- perro (dog) = PEH-rro (WAIT, this is double!)\n\nDouble 'rr' (trill): Rolled, continuous vibration\n- perro (dog) = PEH-rro\n- tierra (land) = TEEH-rrah\n- carretera (highway) = cah-reh-TEH-rah\n\nWord-initial 'r' is always rolled:\n- ropa (clothes) = ROH-pah\n- rojo (red) = ROH-hoh\n- regla (ruler) = REH-glah",
+      "examples": [
+        "pero (but) = single tap\nperro (dog) = double trill\nropa = rolled at start",
+        "trabajar (to work) = trill in middle"
       ]
     }
   ],
   "exercises": [
     {
       "type": "multiple-choice",
-      "question": "What does 'empresa' mean?",
+      "question": "How do you say 'I'm a doctor' in Spanish?",
       "options": [
-        "Office",
-        "Project",
-        "Company",
-        "Meeting"
+        "Soy el doctor",
+        "Soy doctor",
+        "Estoy doctor",
+        "Trabajo doctor"
       ],
-      "correct": 2,
-      "explanation": "'Empresa' means company."
+      "correct": 1,
+      "explanation": "Use SER + profession WITHOUT article: 'Soy doctor'."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What does 'Trabajo en una oficina' mean?",
+      "options": [
+        "I work in a hospital",
+        "I work in an office",
+        "I go to an office",
+        "I have an office"
+      ],
+      "correct": 1,
+      "explanation": "'Trabajo en una oficina' = I work in an office."
     },
     {
       "type": "fill-in-blank",
-      "question": "Complete: 'Yo ___ en una oficina.' (I work in an office.)",
-      "correct": "trabajo",
-      "explanation": "'Trabajar' conjugated for 'yo': trabajo."
+      "question": "Complete: 'Soy ___ y trabajo en un banco.' (I'm an engineer and I work at a bank.)",
+      "correct": "ingeniero",
+      "explanation": "'Ingeniero' = engineer (masculine form)."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: 'Trabajo ___ una empresa de tecnolog\u00eda.' (I work at a technology company.)",
+      "correct": "en",
+      "explanation": "'Trabajar en' = to work at/in."
     }
   ]
 }

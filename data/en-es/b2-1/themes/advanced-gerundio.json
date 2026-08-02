@@ -1,0 +1,118 @@
+{
+  "id": "advanced-gerundio",
+  "title": "Advanced Gerundio — Progresivo, Perífrasis, y Posterioridad",
+  "description": "Learn advanced gerundio uses including progresivo, perífrasis, posterioridad, and progressive changes.",
+  "vocabulary": [
+    { "id": 1, "target": "estoy leyendo", "source": "I'm reading", "gender": "—", "type": "phrase" },
+    { "id": 2, "target": "lleva tres años viviendo aquí", "source": "he's been living here for three years", "gender": "—", "type": "phrase" },
+    { "id": 3, "target": "la situación va mejorando", "source": "the situation is gradually improving", "gender": "—", "type": "phrase" },
+    { "id": 4, "target": "anda buscando trabajo", "source": "he's looking for work (restlessly)", "gender": "—", "type": "phrase" },
+    { "id": 5, "target": "llegó corriendo", "source": "he arrived running", "gender": "—", "type": "phrase" },
+    { "id": 6, "target": "sin haber comido nada", "source": "without having eaten anything", "gender": "—", "type": "phrase" },
+    { "id": 7, "target": "trabajando duro", "source": "working hard", "gender": "—", "type": "phrase" },
+    { "id": 8, "target": "lleva dos semanas esperando", "source": "he's been waiting for two weeks", "gender": "—", "type": "phrase" },
+    { "id": 9, "target": "el clima va mejorando", "source": "the weather is gradually improving", "gender": "—", "type": "phrase" },
+    { "id": 10, "target": "anda diciendo que se muda", "source": "he keeps saying he's moving", "gender": "—", "type": "phrase" },
+    { "id": 11, "target": "el proyecto", "source": "the project", "gender": "m.", "type": "noun" },
+    { "id": 12, "target": "el periódico", "source": "the newspaper", "gender": "m.", "type": "noun" },
+    { "id": 13, "target": "la economía", "source": "the economy", "gender": "f.", "type": "noun" },
+    { "id": 14, "target": "el objetivo", "source": "the goal", "gender": "m.", "type": "noun" },
+    { "id": 15, "target": "ladrón", "source": "thief", "gender": "m.", "type": "noun" },
+    { "id": 16, "target": "la puerta", "source": "the door", "gender": "f.", "type": "noun" },
+    { "id": 17, "target": "abrir", "source": "to open", "gender": "v.", "type": "verb" },
+    { "id": 18, "target": "encontrar", "source": "to find", "gender": "v.", "type": "verb" },
+    { "id": 19, "target": "leer", "source": "to read", "gender": "v.", "type": "verb" },
+    { "id": 20, "target": "vivir", "source": "to live", "gender": "v.", "type": "verb" },
+    { "id": 21, "target": "mejorar", "source": "to improve", "gender": "v.", "type": "verb" },
+    { "id": 22, "target": "buscar", "source": "to look for", "gender": "v.", "type": "verb" },
+    { "id": 23, "target": "decir", "source": "to say / to tell", "gender": "v.", "type": "verb" },
+    { "id": 24, "target": "mudarse", "source": "to move (house)", "gender": "v.", "type": "verb" },
+    { "id": 25, "target": "llegar", "source": "to arrive", "gender": "v.", "type": "verb" },
+    { "id": 26, "target": "correr", "source": "to run", "gender": "v.", "type": "verb" },
+    { "id": 27, "target": "comer", "source": "to eat", "gender": "v.", "type": "verb" },
+    { "id": 28, "target": "trabajar", "source": "to work", "gender": "v.", "type": "verb" },
+    { "id": 29, "target": "conseguir", "source": "to get / to achieve", "gender": "v.", "type": "verb" },
+    { "id": 30, "target": "esperar", "source": "to wait / to hope", "gender": "v.", "type": "verb" }
+  ],
+  "grammar": [
+    {
+      "title": "Advanced Gerundio Uses",
+      "content": "At B2, the gerundio expands beyond the basic '-ando/-iendo' present progressive. You'll learn its advanced uses including posterioridad, progressive perífrasis, and gradual change.\n\n1. **Progresivo (Estar + gerundio):** Describes ongoing actions at a specific moment.\n   'Estoy leyendo el periódico.' (I'm reading the newspaper.)\n\n2. **Perífrasis progresivas:**\n   - 'lleva + [time] + gerundio' = has been doing for [time]: 'Llevo tres años viviendo aquí.'\n   - 'ir + gerundio' = gradual/progressive change: 'La situación va mejorando.'\n   - 'andar + gerundio' = restless/aimless action: 'Anda buscando trabajo.'\n\n3. **Posterioridad (advanced):** The gerundio can express an action that follows the main action.\n   'Abrió la puerta, encontrándose con un ladrón.' (He opened the door, finding a thief.)\n   ⚠️ This is informal/colloquial — NOT used in formal/written Spanish.\n\n4. **Causal gerundio:** The gerundio can express cause/reason.\n   'No teniendo experiencia, no le contrataron.' = Because he had no experience, they didn't hire him.\n\n⚠️ Normative restriction: The posterioridad gerundio is NOT accepted in formal/written Spanish. In academic or formal writing, use a coordinate clause with 'y' or a relative clause instead.",
+      "table": {
+        "headers": ["Perífrasis", "Meaning", "Example"],
+        "rows": [
+          ["estar + gerundio", "ongoing action", "Estoy trabajando en el proyecto."],
+          ["llevar + tiempo + gerundio", "has been doing for [time]", "Llevo dos semanas esperando respuesta."],
+          ["ir + gerundio", "gradual change", "El clima va mejorando cada día."],
+          ["andar + gerundio", "restless/aimless action", "Anda preguntando por ti en la oficina."],
+          ["gerundio posterior", "action following the main", "Abrió la puerta, encontrándose con un ladrón."],
+          ["gerundio causal", "cause/reason", "Trabajando duro, conseguirás tus objetivos."]
+        ]
+      },
+      "examples": [
+        "Llevo estudiando español tres años. (I have been studying Spanish for three years.)",
+        "La economía va mejorando poco a poco. (The economy is gradually improving.)",
+        "Anda diciendo que se va a mudar a otro país. (He keeps saying he's going to move to another country.)",
+        "Llegó corriendo, sin haber comido nada. (He arrived running, without having eaten anything.)",
+        "Trabajando duro, conseguirás tus objetivos. (Working hard, you will achieve your goals.)"
+      ],
+      "aid_note": "Romanian uses 'a fi + gerunziu' for progressive (sunt citind), but it's not common — more naturally 'citesc acum'. Romanian doesn't have perífrasis equivalent to 'ir + gerundio' or 'lleva + tiempo + gerundio' — these are uniquely Spanish constructions you'll need to memorize. The causal gerundio is similar to Romanian participial constructions with 'fără să' or 'fiind că'."
+    }
+  ],
+  "pronunciation": [
+    {
+      "title": "Stress in Gerundio Forms",
+      "content": "Regular gerundio stress patterns:\n- -ando verbs: stress on 'an' — hablando (HA-blan-do)\n- -iendo verbs: stress on 'ie' — comiendo (ko-MYE-n-do), viviendo (bi-BYE-n-do)\n- Irregular gerundios: yendo (YEN-do), diciendo (de-YEN-do), pudiendo (poo-YEN-do)\n\n⚠️ Irregular gerundios: Most common irregular gerundios:\n- decir → diciendo (NOT deciendo)\n- ir → yendo (NOT iriendo)\n- poder → pudiendo (NOT podiendo)\n- traer → trayendo (NOT trayendo)\n- venir → viniendo (NOT veniendo)\n- tener → teniendo (NOT teniendo)\n- dormir → durmiendo (NOT durmiendo)\n- pedir → pidiendo (NOT pidiendo)\n\nWhen pronouns are attached, accent marks may need to be added:\n- hablando + lo → hablándolo (accent to maintain stress on 'lan')\n- comiendo + lo → comiéndolo (accent to maintain stress on 'ie')\n- yendo + lo → yéndolo (accent to maintain stress on 'ye')",
+      "examples": [
+        { "target": "hablando", "source": "HA-blan-do (stress on an)" },
+        { "target": "comiendo", "source": "ko-MYE-n-do (stress on ie)" },
+        { "target": "yendo", "source": "YEN-do (stress on yen)" },
+        { "target": "diciendo", "source": "de-YEN-do (stress on yen)" },
+        { "target": "pudiendo", "source": "poo-YEN-do (stress on yen)" }
+      ],
+      "aid_note": "Romanian gerund (gerunziul) ends in '-ind' or '-ând': 'citind' (reading), 'vorbind' (speaking). Spanish gerundio is structurally simpler — just add -ando/-iendo to the stem."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "exercise",
+      "question": "What does 'ir + gerundio' express?",
+      "options": ["An action that happened", "A gradual or progressive change", "A future action", "A command"],
+      "correct": 1,
+      "explanation": "'Ir + gerundio' expresses a gradual or progressive change: 'La situación va mejorando' = The situation is gradually improving."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: 'Llevo tres años ____ (viver) aquí.' (I have been living here for three years.)",
+      "correct": "viviendo",
+      "explanation": "'Viviendo' — gerundio of vivir. 'Llevo tres años viviendo aquí' = I have been living here for three years."
+    },
+    {
+      "type": "exercise",
+      "question": "What does 'andar + gerundio' express?",
+      "options": ["A completed action", "A gradual change", "Restless or aimless action", "A formal action"],
+      "correct": 2,
+      "explanation": "'Andar + gerundio' expresses restless or aimless action: 'Anda buscando trabajo' = He's looking for work (in a restless way)."
+    },
+    {
+      "type": "exercise",
+      "question": "Which is the correct irregular gerundio of 'decir'?",
+      "options": ["deciendo", "diciendo", "deciente", "deciendo"],
+      "correct": 1,
+      "explanation": "'Diciendo' — decir has the irregular gerundio 'diciendo' (not 'deciendo'). The 'i' is retained in the stem."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: 'La economía va ____ (improve) poco a poco.' (The economy is gradually improving.)",
+      "correct": "mejorando",
+      "explanation": "'Mejorando' — gerundio of mejorar. 'Va mejorando' = is gradually improving (ir + gerundio = gradual change)."
+    },
+    {
+      "type": "exercise",
+      "question": "Which gerundio is irregular?",
+      "options": ["hablando", "comiendo", "yendo", "viviendo"],
+      "correct": 2,
+      "explanation": "'Yendo' is the irregular gerundio of ir. Regular gerundios follow the -ando/-iendo pattern (hablando, comiendo, viviendo)."
+    }
+  ]
+}

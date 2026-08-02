@@ -1,0 +1,218 @@
+{
+  "id": "preterite-imperfect",
+  "level": "a2-1",
+  "title": "Preterite vs Imperfect",
+  "description": "Master the difference between preterite (past completed) and imperfect (past ongoing/habitual) tenses in Spanish.",
+  "vocabulary": [
+    {"id": 1, "target": "ayer", "source": "yesterday", "gender": "adv", "type": "time"},
+    {"id": 2, "target": "anoche", "source": "last night", "gender": "adv", "type": "time"},
+    {"id": 3, "target": "la semana pasada", "source": "last week", "gender": "f", "type": "time"},
+    {"id": 4, "target": "el mes pasado", "source": "last month", "gender": "m", "type": "time"},
+    {"id": 5, "target": "el ano pasado", "source": "last year", "gender": "m", "type": "time"},
+    {"id": 6, "target": "hace dos dias", "source": "two days ago", "gender": "m", "type": "time"},
+    {"id": 7, "target": "cuando era nino", "source": "when I was a child", "gender": "m", "type": "phrase"},
+    {"id": 8, "target": "mientras", "source": "while", "gender": "conj", "type": "conjunction"},
+    {"id": 9, "target": "entonces", "source": "then/at that time", "gender": "adv", "type": "time"},
+    {"id": 10, "target": "de repente", "source": "suddenly", "gender": "adv", "type": "time"},
+    {"id": 11, "target": "por fin", "source": "finally", "gender": "adv", "type": "time"},
+    {"id": 12, "target": "al principio", "source": "at first", "gender": "m", "type": "time"},
+    {"id": 13, "target": "despues", "source": "after/then", "gender": "adv", "type": "time"},
+    {"id": 14, "target": "primero", "source": "first", "gender": "adv", "type": "time"},
+    {"id": 15, "target": "vivir", "source": "to live", "gender": "v", "type": "verb"},
+    {"id": 16, "target": "trabajar", "source": "to work", "gender": "v", "type": "verb"},
+    {"id": 17, "target": "estudiar", "source": "to study", "gender": "v", "type": "verb"},
+    {"id": 18, "target": "estaba", "source": "I was (imperfect)", "gender": "v", "type": "verb"},
+    {"id": 19, "target": "hizo", "source": "he/she did (preterite)", "gender": "v", "type": "verb"},
+    {"id": 20, "target": "iba", "source": "I was going (imperfect)", "gender": "v", "type": "verb"},
+    {"id": 21, "target": "fui", "source": "I went (preterite)", "gender": "v", "type": "verb"},
+    {"id": 22, "target": "veia", "source": "I saw (imperfect)", "gender": "v", "type": "verb"},
+    {"id": 23, "target": "vio", "source": "he/she saw (preterite)", "gender": "v", "type": "verb"},
+    {"id": 24, "target": "tenia", "source": "I had (imperfect)", "gender": "v", "type": "verb"},
+    {"id": 25, "target": "tuve", "source": "I had (preterite)", "gender": "v", "type": "verb"},
+    {"id": 26, "target": "era", "source": "it was (imperfect)", "gender": "v", "type": "verb"},
+    {"id": 27, "target": "fue", "source": "it was (preterite)", "gender": "v", "type": "verb"},
+    {"id": 28, "target": "la nina", "source": "the girl", "gender": "f", "type": "noun"},
+    {"id": 29, "target": "el nino", "source": "the boy/child", "gender": "m", "type": "noun"},
+    {"id": 30, "target": "el dia", "source": "the day", "gender": "m", "type": "noun"},
+    {"id": 31, "target": "la noche", "source": "the night", "gender": "f", "type": "noun"},
+    {"id": 32, "target": "la manana", "source": "the morning", "gender": "f", "type": "noun"},
+    {"id": 33, "target": "la vida", "source": "the life", "gender": "f", "type": "noun"},
+    {"id": 34, "target": "el tiempo", "source": "the time/weather", "gender": "m", "type": "noun"},
+    {"id": 35, "target": "la gente", "source": "the people", "gender": "f", "type": "noun"},
+    {"id": 36, "target": "todo el mundo", "source": "everyone", "gender": "m", "type": "phrase"},
+    {"id": 37, "target": "alguien", "source": "someone", "gender": "pron", "type": "indefinite"},
+    {"id": 38, "target": "nadie", "source": "no one", "gender": "pron", "type": "indefinite"},
+    {"id": 39, "target": "todo", "source": "all/everything", "gender": "adj", "type": "indefinite"},
+    {"id": 40, "target": "la casa", "source": "the house", "gender": "f", "type": "noun"},
+    {"id": 41, "target": "la ciudad", "source": "the city", "gender": "f", "type": "noun"},
+    {"id": 42, "target": "el campo", "source": "the countryside", "gender": "m", "type": "noun"},
+    {"id": 43, "target": "el trabajo", "source": "the work", "gender": "m", "type": "noun"},
+    {"id": 44, "target": "la escuela", "source": "the school", "gender": "f", "type": "noun"},
+    {"id": 45, "target": "el juego", "source": "the game", "gender": "m", "type": "noun"},
+    {"id": 46, "target": "la fiesta", "source": "the party", "gender": "f", "type": "noun"},
+    {"id": 47, "target": "el accidente", "source": "the accident", "gender": "m", "type": "noun"},
+    {"id": 48, "target": "la historia", "source": "the story/history", "gender": "f", "type": "noun"},
+    {"id": 49, "target": "el momento", "source": "the moment", "gender": "m", "type": "noun"},
+    {"id": 50, "target": "la vez", "source": "the time", "gender": "f", "type": "noun"},
+    {"id": 51, "target": "primera vez", "source": "first time", "gender": "f", "type": "phrase"},
+    {"id": 52, "target": "ultima vez", "source": "last time", "gender": "f", "type": "phrase"},
+    {"id": 53, "target": "cada vez", "source": "each time", "gender": "f", "type": "phrase"},
+    {"id": 54, "target": "muchas veces", "source": "many times", "gender": "f", "type": "phrase"},
+    {"id": 55, "target": "una vez", "source": "once", "gender": "f", "type": "phrase"},
+    {"id": 56, "target": "dos veces", "source": "twice", "gender": "f", "type": "phrase"},
+    {"id": 57, "target": "de vez en cuando", "source": "from time to time", "gender": "m", "type": "phrase"},
+    {"id": 58, "target": "a menudo", "source": "often", "gender": "m", "type": "phrase"},
+    {"id": 59, "target": "siempre", "source": "always", "gender": "adv", "type": "time"},
+    {"id": 60, "target": "todos los dias", "source": "every day", "gender": "m", "type": "phrase"},
+    {"id": 61, "target": "los lunes", "source": "on Mondays", "gender": "m", "type": "time"},
+    {"id": 62, "target": "por la manana", "source": "in the morning", "gender": "f", "type": "time"},
+    {"id": 63, "target": "por la tarde", "source": "in the afternoon", "gender": "f", "type": "time"},
+    {"id": 64, "target": "por la noche", "source": "at night", "gender": "f", "type": "time"},
+    {"id": 65, "target": "llover", "source": "to rain", "gender": "v", "type": "verb"},
+    {"id": 66, "target": "nevar", "source": "to snow", "gender": "v", "type": "verb"},
+    {"id": 67, "target": "hacer sol", "source": "to be sunny", "gender": "v", "type": "verb"},
+    {"id": 68, "target": "hacer frio", "source": "to be cold", "gender": "v", "type": "verb"},
+    {"id": 69, "target": "hacer calor", "source": "to be hot", "gender": "v", "type": "verb"},
+    {"id": 70, "target": "comenzar", "source": "to begin", "gender": "v", "type": "verb"},
+    {"id": 71, "target": "terminar", "source": "to end", "gender": "v", "type": "verb"},
+    {"id": 72, "target": "continuar", "source": "to continue", "gender": "v", "type": "verb"},
+    {"id": 73, "target": "dejar", "source": "to leave/stop", "gender": "v", "type": "verb"},
+    {"id": 74, "target": "empezar", "source": "to start", "gender": "v", "type": "verb"},
+    {"id": 75, "target": "seguir", "source": "to continue/follow", "gender": "v", "type": "verb"},
+    {"id": 76, "target": "ayer por la manana", "source": "yesterday morning", "gender": "m", "type": "time"},
+    {"id": 77, "target": "anoche por la noche", "source": "last night (evening)", "gender": "m", "type": "time"},
+    {"id": 78, "target": "el verano pasado", "source": "last summer", "gender": "m", "type": "time"},
+    {"id": 79, "target": "la navidad pasada", "source": "last Christmas", "gender": "f", "type": "time"},
+    {"id": 80, "target": "el fin de semana pasado", "source": "last weekend", "gender": "m", "type": "time"},
+    {"id": 81, "target": "cuando", "source": "when", "gender": "conj", "type": "conjunction"},
+    {"id": 82, "target": "mientras", "source": "while", "gender": "conj", "type": "conjunction"},
+    {"id": 83, "target": "tan pronto como", "source": "as soon as", "gender": "conj", "type": "conjunction"},
+    {"id": 84, "target": "despues de que", "source": "after", "gender": "conj", "type": "conjunction"},
+    {"id": 85, "target": "antes de que", "source": "before", "gender": "conj", "type": "conjunction"},
+    {"id": 86, "target": "cada vez que", "source": "every time that", "gender": "conj", "type": "phrase"},
+    {"id": 87, "target": "de repente", "source": "suddenly", "gender": "adv", "type": "adverb"},
+    {"id": 88, "target": "lentamente", "source": "slowly", "gender": "adv", "type": "adverb"},
+    {"id": 89, "target": "rapidamente", "source": "quickly", "gender": "adv", "type": "adverb"},
+    {"id": 90, "target": "bien", "source": "well", "gender": "adv", "type": "adverb"},
+    {"id": 91, "target": "mal", "source": "badly", "gender": "adv", "type": "adverb"},
+    {"id": 92, "target": "mucho", "source": "a lot", "gender": "adv", "type": "adverb"},
+    {"id": 93, "target": "poco", "source": "little", "gender": "adv", "type": "adverb"},
+    {"id": 94, "target": "siempre", "source": "always", "gender": "adv", "type": "adverb"},
+    {"id": 95, "target": "nunca", "source": "never", "gender": "adv", "type": "adverb"},
+    {"id": 96, "target": "ya", "source": "already", "gender": "adv", "type": "adverb"},
+    {"id": 97, "target": "aun", "source": "still/yet", "gender": "adv", "type": "adverb"},
+    {"id": 98, "target": "despues", "source": "after/afterwards", "gender": "adv", "type": "adverb"},
+    {"id": 99, "target": "antes", "source": "before", "gender": "adv", "type": "adverb"},
+    {"id": 100, "target": "finalmente", "source": "finally", "gender": "adv", "type": "adverb"}
+  ],
+  "grammar": [
+    {
+      "title": "Preterite — Completed Past Actions",
+      "content": "PRETERITE TENSE (Pretérito Indefinido) — for completed actions in the past:\\n\\nUse for:\\n1. A completed action with a clear beginning and end\\n2. Actions that happened once\\n3. A series of completed actions\\n4. Specific dates or times in the past\\n\\nRegular forms:\\nHablar → hablé, hablaste, habló, hablamos, hablasteis, hablaron\\nComer → comí, comiste, comió, comimos, comisteis, comieron\\nVivir → viví, viviste, vivió, vivimos, vivisteis, vivieron\\n\\nIrregular preterites:\\nSer/Ir → fui, fuiste, fue, fuimos, fuisteis, fueron\\nTener → tuve, tuviste, tuvo, tuvimos, tuvisteis, tuvieron\\nHacer → hice, hiciste, hizo, hicimos, hicisteis, hicieron\\nPoder → pude, pudiste, pudo, pudimos, pudisteis, pudieron\\nQuerer → quise, quisiste, quiso, quisimos, quisisteis, quisieron\\nVenir → vine, viniste, vino, vinimos, vinisteis, vinieron",
+      "examples": [
+        "Ayer compre un libro. (Yesterday I bought a book.)",
+        "La semana pasada fui a Madrid. (Last week I went to Madrid.)",
+        "Cuando llegue, el ya se habia ido. (When I arrived, he had already left.)",
+        "Nací en 1995. (I was born in 1995.)"
+      ]
+    },
+    {
+      "title": "Imperfect — Ongoing/Habitual Past",
+      "content": "IMPERFECT TENSE (Pretérito Imperfecto) — for ongoing or habitual past actions:\\n\\nUse for:\\n1. Actions that continued over time\\n2. Habitual or repeated actions in the past\\n3. Descriptions in the past\\n4. Background information\\n5. Age, time, weather in the past\\n\\nRegular forms:\\nHablar → hablaba, hablabas, hablaba, hablábamos, hablabais, hablaban\\nComer → comía, comías, comía, comíamos, comíais, comían\\nVivir → vivía, vivías, vivía, vivíamos, vivíais, vivían\\n\\nKey 'to be' verbs in imperfect:\\nSer → era, eras, era, éramos, erais, eran\\nIr → iba, ibas, iba, íbamos, ibais, iban\\nVer → veía, veías, veía, veíamos, veíais, veían\\n\\nDescriptions:\\nEra un dia hermoso. (It was a beautiful day.)\\nLlovía mucho. (It was raining a lot.)\\nTenía 10 años. (I was 10 years old.)",
+      "examples": [
+        "Cuando era niño, vivía en el campo. (When I was a child, I lived in the countryside.)",
+        "Cada día iba a la escuela. (Every day I went to school.)",
+        "El cielo estaba gris. (The sky was gray.)",
+        "Llovía y hacía frío. (It was raining and it was cold.)"
+      ]
+    },
+    {
+      "title": "Preterite vs Imperfect — When to Use Each",
+      "content": "Key decision tree:\\n\\n1. Was the action COMPLETED or ONGOING?\\n   - Completed → preterite\\n   - Ongoing/habitual → imperfect\\n\\n2. Tell me what happened vs. What was happening?\\n   - 'What happened' → preterite\\n   - 'What was happening' → imperfect\\n\\nCommon cases:\\n\\nPreterite:\\n- Ayer compre (yesterday I bought)\\n- Nací en 1990 (I was born in 1990)\\n- Llegó a las 8 (he arrived at 8)\\n- Dejó de fumar (he stopped smoking)\\n\\nImperfect:\\n- Cuando era niño (when I was a child)\\n- Siempre llegaba tarde (he was always late)\\n- Llovía (it was raining)\\n- Eran las tres (it was three o'clock)\\n\\nWith 'cuando' (when):\\n- Cuando llegué, él salió → preterite + preterite (two completed actions)\\n- Cuando era niño, vivía aquí → imperfect + imperfect (two ongoing actions)\\n\\nState changes (preterite):\\n- Me enamoré (I fell in love)\\n- Se mudó (he moved)\\n- Murió (he died)\\n\\nPhysical states (imperfect):\\n- Estaba cansado (I was tired)\\n- Tenía hambre (I was hungry)",
+      "examples": [
+        "Ayer compre un libro. (Yesterday I bought a book) — completed action",
+        "Cuando era niño, leía muchos libros. (When I was a child, I read many books) — habitual",
+        "Estaba lloviendo cuando salí. (It was raining when I left) — imperfect + preterite",
+        "Dejó de fumar hace dos años. (He stopped smoking two years ago) — completed change"
+      ]
+    }
+  ],
+  "pronunciation": [
+    {
+      "title": "Preterite vs Imperfect Pronunciation",
+      "content": "Key pronunciation differences:\\n\\nPreterite (completed):\\n- hablé (ah-BLAY) — é stresses the vowel\\n- comí (koh-MEE) — í stresses the vowel\\n- vivió (bee-BEE-oh) — í stresses the vowel\\n\\nImperfect (ongoing):\\n- hablaba (ah-blah-BAH) — stress on -ba-\\n- comía (koh-MEE-ah) — stress on -mí-\\n- vivía (bee-BEE-ah) — stress on -ví-\\n\\nKey difference: Preterite has accented endings (-é, -ió) while imperfect does not (except -ía which is not accented in writing but stressed).\\n\\nPreterite 3rd person singular (-ó) sounds like 'oh' while imperfect 3rd person singular (-ía) sounds like 'ee-ah'.",
+      "examples": [
+        "hablé = ah-BLAY (I spoke — completed)\\nhablaba = ah-blah-BAH (I was speaking — ongoing)",
+        "comí = koh-MEE (I ate — completed)\\ncomía = koh-MEE-ah (I was eating — ongoing)",
+        "vivió = bee-BEE-oh (he lived/died — completed)\\nvivía = bee-BEE-ah (he was living — ongoing)"
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "multiple-choice",
+      "question": "Which is correct: 'When I was a child' in Spanish?",
+      "options": ["Cuando fui niño", "Cuando era niño", "Cuando fui un niño", "Cuando era un niño"],
+      "correct": 1,
+      "explanation": "'Cuando era niño' uses imperfect 'era' (was) for ongoing state. 'Cuando fui' is preterite (when I became/was). Both can be correct depending on meaning."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: 'Ayer ___ al supermercado. (Yesterday I went to the supermarket.)'",
+      "correct": "fui",
+      "explanation": "Fui = I went (preterite of ir). This is a completed action on a specific day (ayer)."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Which is correct for 'It was raining' in Spanish?",
+      "options": ["Llovió todo el día", "Llovía todo el día", "Llueve todo el día", "Lloverá todo el día"],
+      "correct": 1,
+      "explanation": "Llovía = it was raining (imperfect). Describes ongoing action in the past."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: 'Cuando ___ 10 años, vivía en Barcelona. (When I was 10 years old, I lived in Barcelona.)'",
+      "correct": "tenía",
+      "explanation": "Tenía = I had/was (imperfect). Describes age in the past. 'Cuando tenía 10 años' = When I was 10 years old."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Which sentence uses preterite correctly?",
+      "options": ["Ayer comía en casa", "La semana pasada fui a la playa", "Cuando era niño, jugaba", "Siempre llegaba tarde"],
+      "correct": 1,
+      "explanation": "'La semana pasada fui a la playa' uses preterite 'fui' (I went) for a completed action on a specific past time."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: 'El año pasado ___ en Madrid. (Last year I lived in Madrid.)'",
+      "correct": "viví",
+      "explanation": "Viví = I lived (preterite). A completed period of time in the past."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Which is correct: 'I fell in love' (completed action)?",
+      "options": ["Estaba enamorado", "Me enamoré", "Estaba enamorándome", "Enamoraba"],
+      "correct": 1,
+      "explanation": "'Me enamoré' is preterite — a completed state change (fell in love). 'Estaba enamorado' would be imperfect (was in love)."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: 'Mientras ___ la televisión, alguien llamó. (While I was watching TV, someone called.)'",
+      "correct": "veía",
+      "explanation": "Veía = I was watching (imperfect). Describes ongoing action interrupted by preterite 'llamó'."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Which is correct for 'I was always late' (habitual)?",
+      "options": ["Siempre llegué tarde", "Siempre llego tarde", "Siempre llegaba tarde", "Siempre llegaré tarde"],
+      "correct": 2,
+      "explanation": "Llegaba = I was arriving (imperfect). Habitual past action described with imperfect."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: 'Dejó de fumar ___ dos años. (He stopped smoking two years ago.)'",
+      "correct": "hace",
+      "explanation": "Hace + time + que + preterite = ago. 'Hace dos años' = two years ago. The action 'dejó' (stopped) is preterite."
+    }
+  ]
+}

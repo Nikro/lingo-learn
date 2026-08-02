@@ -1,0 +1,141 @@
+{
+  "id": "politics-society",
+  "title": "Politics & Society",
+  "description": "Discuss governance, rights, social movements, and civic participation with precision and nuance.",
+  "vocabulary": [
+    { "id": 1, "target": "el gobierno", "source": "the government", "gender": "m.", "type": "noun" },
+    { "id": 2, "target": "el gobierno central", "source": "the central government", "gender": "m.", "type": "phrase" },
+    { "id": 3, "target": "el gobierno local", "source": "the local government", "gender": "m.", "type": "phrase" },
+    { "id": 4, "target": "la oposición", "source": "the opposition", "gender": "f.", "type": "noun" },
+    { "id": 5, "target": "la coalición", "source": "the coalition", "gender": "f.", "type": "noun" },
+    { "id": 6, "target": "el parlamento", "source": "parliament / congress", "gender": "m.", "type": "noun" },
+    { "id": 7, "target": "la constitución", "source": "the constitution", "gender": "f.", "type": "noun" },
+    { "id": 8, "target": "los derechos civiles", "source": "civil rights", "gender": "m.pl.", "type": "noun" },
+    { "id": 9, "target": "los derechos humanos", "source": "human rights", "gender": "m.pl.", "type": "noun" },
+    { "id": 10, "target": "la igualdad de género", "source": "gender equality", "gender": "f.", "type": "noun" },
+    { "id": 11, "target": "la libertad de expresión", "source": "freedom of speech", "gender": "f.", "type": "noun" },
+    { "id": 12, "target": "la democracia", "source": "democracy", "gender": "f.", "type": "noun" },
+    { "id": 13, "target": "el régimen autoritario", "source": "authoritarian regime", "gender": "m.", "type": "noun" },
+    { "id": 14, "target": "el totalitarismo", "source": "totalitarianism", "gender": "m.", "type": "noun" },
+    { "id": 15, "target": "la dictadura", "source": "dictatorship", "gender": "f.", "type": "noun" },
+    { "id": 16, "target": "la democracia liberal", "source": "liberal democracy", "gender": "f.", "type": "noun" },
+    { "id": 17, "target": "el sufragio universal", "source": "universal suffrage", "gender": "m.", "type": "noun" },
+    { "id": 18, "target": "el voto", "source": "the vote", "gender": "m.", "type": "noun" },
+    { "id": 19, "target": "votar", "source": "to vote", "gender": "v.", "type": "verb" },
+    { "id": 20, "target": "las elecciones", "source": "elections", "gender": "f.pl.", "type": "noun" },
+    { "id": 21, "target": "el candidato/a", "source": "candidate", "gender": "m./f.", "type": "noun" },
+    { "id": 22, "target": "el partido político", "source": "political party", "gender": "m.", "type": "noun" },
+    { "id": 23, "target": "la campaña electoral", "source": "election campaign", "gender": "f.", "type": "noun" },
+    { "id": 24, "target": "la legislación", "source": "legislation", "gender": "f.", "type": "noun" },
+    { "id": 25, "target": "la reforma", "source": "reform", "gender": "f.", "type": "noun" },
+    { "id": 26, "target": "el impuesto / el tributo", "source": "tax / levy", "gender": "m.", "type": "noun" },
+    { "id": 27, "target": "la financiación pública", "source": "public funding", "gender": "f.", "type": "noun" },
+    { "id": 28, "target": "el bienestar social", "source": "social welfare", "gender": "m.", "type": "noun" },
+    { "id": 29, "target": "la seguridad social", "source": "social security", "gender": "f.", "type": "noun" },
+    { "id": 30, "target": "la migración", "source": "migration", "gender": "f.", "type": "noun" },
+    { "id": 31, "target": "el refugiado/a", "source": "refugee", "gender": "m./f.", "type": "noun" },
+    { "id": 32, "target": "la integración", "source": "integration", "gender": "f.", "type": "noun" },
+    { "id": 33, "target": "la exclusión social", "source": "social exclusion", "gender": "f.", "type": "noun" },
+    { "id": 34, "target": "la desigualdad", "source": "inequality", "gender": "f.", "type": "noun" },
+    { "id": 35, "target": "la pobreza", "source": "poverty", "gender": "f.", "type": "noun" },
+    { "id": 36, "target": "la clase media", "source": "middle class", "gender": "f.", "type": "noun" },
+    { "id": 37, "target": "el movimiento social", "source": "social movement", "gender": "m.", "type": "noun" },
+    { "id": 38, "target": "la manifestación", "source": "demonstration / protest", "gender": "f.", "type": "noun" },
+    { "id": 39, "target": "protestar", "source": "to protest", "gender": "v.", "type": "verb" },
+    { "id": 40, "target": "la huelga", "source": "strike", "gender": "f.", "type": "noun" }
+  ],
+  "grammar": [
+    {
+      "title": "Subjunctive in Political & Social Discourse",
+      "content": "The subjunctive is essential when discussing political and social topics, especially with expressions of desire, necessity, and evaluation.\n\nKey trigger patterns:\n- Es necesario que + subjunctive (It's necessary that)\n- Es importante que + subjunctive (It's important that)\n- Es urgente que + subjunctive (It's urgent that)\n- Queremos que + subjunctive (We want that)\n- Exigimos que + subjunctive (We demand that)\n- El gobierno debe garantizar que + subjunctive (The government must ensure that)\n- Sin que + subjunctive (Without)\n\nExamples:\n- Es urgente que el gobierno adopte medidas contra la pobreza.\n- Los ciudadanos exigen que se respeten los derechos humanos.\n- Es importante que los jóvenes participen en la democracia.\n- La reforma no se aprobó sin que la oposición protestara.",
+      "examples": [
+        "Es fundamental que el parlamento discuta esta ley antes de votarla.",
+        "Los manifestantes exigen que se respete su derecho a la protesta.",
+        "Es necesario que se reduzca la desigualdad entre las comunidades.",
+        "La ciudadanía pide que se garantice la libertad de expresión."
+      ],
+      "aid_note": "Romanian subjunctive is triggered similarly: 'Este necesar să...', 'Este important să...', 'Cetățenii cer să...', 'Este esențial să...'."
+    },
+    {
+      "title": "Conditional for Political Hypotheticals",
+      "content": "The conditional is used to discuss hypothetical political scenarios, proposals, and policy outcomes.\n\nKey patterns:\n- Si + imperfect subjunctive, conditional (If X happened, Y would happen)\n- Sería mejor si... (It would be better if...)\n- Habría que + infinitive (One would have to / One should)\n- El gobierno podría + infinitive (The government could...)\n\nExamples:\n- Si el gobierno redujera los impuestos, la economía crecería.\n- Sería mejor si se invirtiera más en educación pública.\n- Habría que tomar medidas drásticas si la situación no mejora.\n- Los partidos de oposición podrían bloquear la reforma en el parlamento.",
+      "examples": [
+        "Si se aplicara una renta básica universal, la pobreza se reduciría significativamente.",
+        "Sería necesario que los partidos políticos lleguen a consensos más amplios.",
+        "Habría que reformar el sistema electoral si queremos mayor representatividad.",
+        "El gobierno podría enfrentar resistencia si propone recortes sociales."
+      ],
+      "aid_note": "Romanian conditional: 'Dacă... ar..., ...ar...' (If X happened, Y would happen) — structurally identical to the Spanish si + imperfect subjunctive + conditional pattern."
+    }
+  ],
+  "pronunciation": [
+    {
+      "title": "Rhotics in Political Speech",
+      "content": "Political discourse in Spanish is marked by precise articulation of rhotic sounds, which carry weight and authority.\n\nThe rolled R is especially prominent in words like:\n- 'gobierno' (GOH-byer-noh) — the single tap between vowels\n- 'derechos' (deh-REH-chos) — the rolled R at the start\n- 'democracia' (deh-moh-KRAH-see-ah) — the rolled R between vowels\n- 'reforma' (reh-FOR-mah) — the rolled R at the start\n- 'protesta' (proh-TEST-ah) — the single tap\n\nPractice sentences:\n- 'Los derechos humanos son fundamentales para la democracia.'\n- 'La reforma del gobierno es necesaria para la igualdad.'\n\nTip: Spanish speakers emphasize the R in formal speech. Don't tap it — produce a clear trill for words starting with R or with RR.",
+      "examples": [
+        { "target": "derechos humanos", "source": "Rolled R at start" },
+        { "target": "democracia", "source": "Rolled R between vowels" },
+        { "target": "reforma", "source": "Rolled R at start" }
+      ],
+      "aid_note": "Romanian R is always rolled (trilled), so this is more about precision. Spanish political speech tends to emphasize R sounds more than conversational speech."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "fill-in-blank",
+      "question": "Complete with the subjunctive: 'Es urgente que el gobierno _____ (tomar) medidas contra la desigualdad.'",
+      "correct": "tome",
+      "explanation": "'Es urgente que' triggers the subjunctive. 'Tomar' in yo-form subjunctive = 'tome'."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete the conditional: 'Si el gobierno _____ (reducir) los impuestos, la economía crecería.'",
+      "correct": "reduciera",
+      "explanation": "'Si' + imperfect subjunctive + conditional forms a hypothetical. 'Reducir' in imperfect subjunctive = 'reduciera' or 'reduciese'."
+    },
+    {
+      "type": "exercise",
+      "question": "Which word means 'inequality'?",
+      "options": ["igualdad", "desigualdad", "integración", "libertad"],
+      "correct": 1,
+      "explanation": "'Desigualdad' means inequality. 'Igualdad' means equality — the prefix 'des-' negates it."
+    },
+    {
+      "type": "matching",
+      "question": "Match the political term with its meaning:",
+      "pairs": [
+        { "target": "la oposición", "source": "the political opposition" },
+        { "target": "el sufragio universal", "source": "universal right to vote" },
+        { "target": "la huelga", "source": "work stoppage / strike" },
+        { "target": "la manifestación", "source": "public demonstration" }
+      ],
+      "explanation": "These are essential terms for discussing politics and civic participation."
+    },
+    {
+      "type": "exercise",
+      "question": "What does 'la coalición' mean?",
+      "options": ["The dictatorship", "The coalition", "The legislation", "The constitution"],
+      "correct": 1,
+      "explanation": "'La coalición' means the coalition — a partnership between two or more political parties."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: 'Los ciudadanos exigen que se _____ (respetar) los derechos humanos.'",
+      "correct": "respeten",
+      "explanation": "'Exigir que' triggers the subjunctive. 'Respetar' in ellos-form subjunctive = 'respeten'."
+    },
+    {
+      "type": "exercise",
+      "question": "Which is the correct translation for 'social welfare'?",
+      "options": ["la seguridad social", "el bienestar social", "la clase media", "el sistema público"],
+      "correct": 1,
+      "explanation": "'El bienestar social' = social welfare. 'La seguridad social' = social security (pensions, benefits system)."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete with the conditional: 'Sería mejor si _____ (invertir) más en educación pública.'",
+      "correct": "inviertiera",
+      "explanation": "'Sería mejor si' triggers the imperfect subjunctive. 'Invertir' is irregular in the stem: invierta/inviertiera."
+    }
+  ]
+}

@@ -1,0 +1,297 @@
+{
+  "id": "plans-future-intentions",
+  "level": "a2-1",
+  "title": "Plans & Future Intentions",
+  "description": "Talk about future plans, intentions, and predictions using the 'ir a + infinitivo' construction, the simple future tense, and expressions of intention.",
+  "vocabulary": [
+    {"id": 1, "target": "mañana", "source": "tomorrow", "gender": "adv", "type": "time"},
+    {"id": 2, "target": "pasado mañana", "source": "the day after tomorrow", "gender": "m", "type": "time"},
+    {"id": 3, "target": "anteayer", "source": "the day before yesterday", "gender": "adv", "type": "time"},
+    {"id": 4, "target": "la semana que viene", "source": "next week", "gender": "f", "type": "time"},
+    {"id": 5, "target": "la próxima semana", "source": "next week", "gender": "f", "type": "time"},
+    {"id": 6, "target": "el mes que viene", "source": "next month", "gender": "m", "type": "time"},
+    {"id": 7, "target": "el próximo mes", "source": "next month", "gender": "m", "type": "time"},
+    {"id": 8, "target": "el año que viene", "source": "next year", "gender": "m", "type": "time"},
+    {"id": 9, "target": "el próximo año", "source": "next year", "gender": "m", "type": "time"},
+    {"id": 10, "target": "el fin de semana", "source": "the weekend", "gender": "m", "type": "time"},
+    {"id": 11, "target": "este fin de semana", "source": "this weekend", "gender": "m", "type": "time"},
+    {"id": 12, "target": "pronto", "source": "soon", "gender": "adv", "type": "time"},
+    {"id": 13, "target": "dentro de", "source": "in / within (time period)", "gender": "—", "type": "phrase"},
+    {"id": 14, "target": "más tarde", "source": "later", "gender": "adv", "type": "time"},
+    {"id": 15, "target": "en seguida", "source": "right away / immediately", "gender": "adv", "type": "time"},
+    {"id": 16, "target": "algun día", "source": "someday", "gender": "adv", "type": "time"},
+    {"id": 17, "target": "nunca", "source": "never", "gender": "adv", "type": "time"},
+    {"id": 18, "target": "siempre", "source": "always", "gender": "adv", "type": "time"},
+    {"id": 19, "target": "todavía no", "source": "not yet", "gender": "—", "type": "phrase"},
+    {"id": 20, "target": "ya", "source": "already", "gender": "adv", "type": "time"},
+    {"id": 21, "target": "un plan", "source": "a plan", "gender": "m", "type": "noun"},
+    {"id": 22, "target": "una intención", "source": "an intention", "gender": "f", "type": "noun"},
+    {"id": 23, "target": "una meta", "source": "a goal", "gender": "f", "type": "noun"},
+    {"id": 24, "target": "un objetivo", "source": "an objective / goal", "gender": "m", "type": "noun"},
+    {"id": 25, "target": "un sueño", "source": "a dream", "gender": "m", "type": "noun"},
+    {"id": 26, "target": "una promesa", "source": "a promise", "gender": "f", "type": "noun"},
+    {"id": 27, "target": "un compromiso", "source": "a commitment", "gender": "m", "type": "noun"},
+    {"id": 28, "target": "una cita", "source": "an appointment / date", "gender": "f", "type": "noun"},
+    {"id": 29, "target": "una reunión", "source": "a meeting", "gender": "f", "type": "noun"},
+    {"id": 30, "target": "una lista", "source": "a list", "gender": "f", "type": "noun"},
+    {"id": 31, "target": "una agenda", "source": "a schedule / planner", "gender": "f", "type": "noun"},
+    {"id": 32, "target": "el calendario", "source": "the calendar", "gender": "m", "type": "noun"},
+    {"id": 33, "target": "un viaje", "source": "a trip", "gender": "m", "type": "noun"},
+    {"id": 34, "target": "unas vacaciones", "source": "a vacation", "gender": "f", "type": "noun"},
+    {"id": 35, "target": "un curso", "source": "a course", "gender": "m", "type": "noun"},
+    {"id": 36, "target": "una clase", "source": "a class", "gender": "f", "type": "noun"},
+    {"id": 37, "target": "una decisión", "source": "a decision", "gender": "f", "type": "noun"},
+    {"id": 38, "target": "una oportunidad", "source": "an opportunity", "gender": "f", "type": "noun"},
+    {"id": 39, "target": "el futuro", "source": "the future", "gender": "m", "type": "noun"},
+    {"id": 40, "target": "el próximo", "source": "the next / the upcoming", "gender": "m", "type": "adj"},
+    {"id": 41, "target": "la próxima", "source": "the next / the upcoming (f)", "gender": "f", "type": "adj"},
+    {"id": 42, "target": "ir de vacaciones", "source": "to go on vacation", "gender": "f", "type": "phrase"},
+    {"id": 43, "target": "ir de visita", "source": "to go visit (someone)", "gender": "f", "type": "phrase"},
+    {"id": 44, "target": "ir al médico", "source": "to go to the doctor", "gender": "—", "type": "phrase"},
+    {"id": 45, "target": "ir de compras", "source": "to go shopping", "gender": "f", "type": "phrase"},
+    {"id": 46, "target": "ir de paseo", "source": "to go for a walk / outing", "gender": "f", "type": "phrase"},
+    {"id": 47, "target": "ir al cine", "source": "to go to the movies", "gender": "—", "type": "phrase"},
+    {"id": 48, "target": "ir a la universidad", "source": "to go to university", "gender": "f", "type": "phrase"},
+    {"id": 49, "target": "ir al trabajo", "source": "to go to work", "gender": "—", "type": "phrase"},
+    {"id": 50, "target": "ir de fiesta", "source": "to go out partying", "gender": "f", "type": "phrase"},
+    {"id": 51, "target": "pensar en", "source": "to think about", "gender": "—", "type": "phrase"},
+    {"id": 52, "target": "querer + infinitivo", "source": "to want to (do something)", "gender": "—", "type": "phrase"},
+    {"id": 53, "target": "tener ganas de + infinitivo", "source": "to feel like (doing something)", "gender": "—", "type": "phrase"},
+    {"id": 54, "target": "tener que + infinitivo", "source": "to have to (do something)", "gender": "—", "type": "phrase"},
+    {"id": 55, "target": "tener pensado + infinitivo", "source": "to plan to (do something)", "gender": "—", "type": "phrase"},
+    {"id": 56, "target": "tener intención de + infinitivo", "source": "to intend to (do something)", "gender": "—", "type": "phrase"},
+    {"id": 57, "target": "tener que hacer", "source": "to have to do", "gender": "—", "type": "phrase"},
+    {"id": 58, "target": "empezar a + infinitivo", "source": "to start to (do something)", "gender": "—", "type": "phrase"},
+    {"id": 59, "target": "terminar de + infinitivo", "source": "to finish (doing something)", "gender": "—", "type": "phrase"},
+    {"id": 60, "target": "aprender a + infinitivo", "source": "to learn to (do something)", "gender": "—", "type": "phrase"},
+    {"id": 61, "target": "enseñar a + infinitivo", "source": "to teach to (do something)", "gender": "—", "type": "phrase"},
+    {"id": 62, "target": "saber + infinitivo", "source": "to know how to (do something)", "gender": "—", "type": "phrase"},
+    {"id": 63, "target": "deber + infinitivo", "source": "should / ought to (do something)", "gender": "—", "type": "phrase"},
+    {"id": 64, "target": "estudiar", "source": "to study", "gender": "v", "type": "verb"},
+    {"id": 65, "target": "trabajar", "source": "to work", "gender": "v", "type": "verb"},
+    {"id": 66, "target": "viajar", "source": "to travel", "gender": "v", "type": "verb"},
+    {"id": 67, "target": "comprar", "source": "to buy", "gender": "v", "type": "verb"},
+    {"id": 68, "target": "cocinar", "source": "to cook", "gender": "v", "type": "verb"},
+    {"id": 69, "target": "leer", "source": "to read", "gender": "v", "type": "verb"},
+    {"id": 70, "target": "escuchar", "source": "to listen", "gender": "v", "type": "verb"},
+    {"id": 71, "target": "ver", "source": "to see / to watch", "gender": "v", "type": "verb"},
+    {"id": 72, "target": "hablar", "source": "to speak / to talk", "gender": "v", "type": "verb"},
+    {"id": 73, "target": "llegar", "source": "to arrive", "gender": "v", "type": "verb"},
+    {"id": 74, "target": "salir", "source": "to leave / to go out", "gender": "v", "type": "verb"},
+    {"id": 75, "target": "empezar", "source": "to start / to begin", "gender": "v", "type": "verb"},
+    {"id": 76, "target": "terminar", "source": "to finish", "gender": "v", "type": "verb"},
+    {"id": 77, "target": "comenzar", "source": "to begin / to start", "gender": "v", "type": "verb"},
+    {"id": 78, "target": "mudarse", "source": "to move (house)", "gender": "v", "type": "verb"},
+    {"id": 79, "target": "casarse", "source": "to get married", "gender": "v", "type": "verb"},
+    {"id": 80, "target": "graduarse", "source": "to graduate", "gender": "v", "type": "verb"},
+    {"id": 81, "target": "encontrar", "source": "to find", "gender": "v", "type": "verb"},
+    {"id": 82, "target": "necesitar", "source": "to need", "gender": "v", "type": "verb"},
+    {"id": 83, "target": "decidir", "source": "to decide", "gender": "v", "type": "verb"},
+    {"id": 84, "target": "organizar", "source": "to organize", "gender": "v", "type": "verb"},
+    {"id": 85, "target": "preparar", "source": "to prepare", "gender": "v", "type": "verb"},
+    {"id": 86, "target": "esperar", "source": "to wait / to hope", "gender": "v", "type": "verb"},
+    {"id": 87, "target": "querer", "source": "to want", "gender": "v", "type": "verb"},
+    {"id": 88, "target": "pensar", "source": "to think", "gender": "v", "type": "verb"},
+    {"id": 89, "target": "probar", "source": "to try", "gender": "v", "type": "verb"},
+    {"id": 90, "target": "construir", "source": "to build", "gender": "v", "type": "verb"},
+    {"id": 91, "target": "aprender", "source": "to learn", "gender": "v", "type": "verb"},
+    {"id": 92, "target": "enseñar", "source": "to teach", "gender": "v", "type": "verb"},
+    {"id": 93, "target": "empezar a", "source": "to start (doing)", "gender": "v", "type": "phrase"},
+    {"id": 94, "target": "seguir + gerundio", "source": "to keep on (doing)", "gender": "—", "type": "phrase"},
+    {"id": 95, "target": "dejarse de + infinitivo", "source": "to stop (doing something)", "gender": "—", "type": "phrase"},
+    {"id": 96, "target": "ponerse + adjetivo", "source": "to get / to become (emotional state)", "gender": "—", "type": "phrase"},
+    {"id": 97, "target": "irse", "source": "to leave / to go away", "gender": "v", "type": "verb"},
+    {"id": 98, "target": "quedarse", "source": "to stay / to remain", "gender": "v", "type": "verb"},
+    {"id": 99, "target": "luchar por", "source": "to fight for", "gender": "—", "type": "phrase"},
+    {"id": 100, "target": "soñar con + infinitivo", "source": "to dream of (doing something)", "gender": "—", "type": "phrase"}
+  ],
+  "grammar": [
+    {
+      "title": "Ir a + Infinitivo — The Near Future",
+      "content": "The most common way to talk about the future in Spanish. It expresses plans, intentions, and near-future predictions. Similar to English 'going to'.\\n\\nStructure: conjugated form of 'ir' + 'a' + infinitive verb\\n\\nConjugation of 'ir' in present tense:\\n- Yo voy a + infinitivo (I am going to)\\n- Tú vas a + infinitivo (You are going to — informal)\\n- Él/Ella/Usted va a + infinitivo (He/She/You formal is going to)\\n- Nosotros/Nosotras vamos a + infinitivo (We are going to)\\n- Vosotros/Vosotras vais a + infinitivo (You all are going to — Spain)\\n- Ellos/Ellas/Ustedes van a + infinitivo (They/You all are going to)\\n\\nExamples:\\n- Voy a estudiar español el próximo año. (I'm going to study Spanish next year.)\\n- ¿Vas a venir a la fiesta? (Are you going to come to the party?)\\n- Ella va a comprar un coche nuevo. (She's going to buy a new car.)\\n- Vamos a visitar a mis abuelos el fin de semana. (We're going to visit my grandparents this weekend.)\\n- Ellos van a empezar un negocio. (They're going to start a business.)\\n\\nCommon uses:\\n1. Definite plans: Este fin de semana voy al cine.\\n2. Intentions: Voy a aprender a tocar la guitarra.\\n3. Predictions with evidence: Mira esas nubes — va a llover. (Look at those clouds — it's going to rain.)",
+      "examples": [
+        "Este fin de semana vamos a ir de picnic. (This weekend we're going to go for a picnic.)",
+        "¿Qué vas a hacer después de la clase? (What are you going to do after class?)",
+        "Ella va a estudiar medicina en la universidad. (She's going to study medicine at university.)",
+        "Vamos a cocinar la cena juntos. (We're going to cook dinner together.)"
+      ],
+      "aid_note": "Romanian expresses the future using the particle 'o' + present tense (o să merg = I'm going to go), which is very similar to the Spanish 'ir a + infinitivo' construction. Both structures use a conjugated verb meaning 'to go' + preposition + infinitive. This is one of the easiest constructions for Romanian speakers to pick up in Spanish. The key difference is that Romanian 'o să' is invariable, while Spanish 'ir' must be conjugated: yo voy a, tú vas a, etc."
+    },
+    {
+      "title": "Simple Future (Futuro Simple) — General Future & Predictions",
+      "content": "The simple future tense expresses actions that will happen, predictions, promises, and probabilities. It's less commonly used in everyday conversation than 'ir a + infinitivo', but it's essential for formal contexts, predictions, and distant future.\\n\\nStructure: infinitive verb + future endings (same for all verb types: -ar, -er, -ir)\\n\\nFuture endings:\\n- Yo: -é (hablaré, comeré, viviré)\\n- Tú: -ás (hablarás, comerás, vivirás)\\n- Él/Ella/Usted: -á (hablará, comerá, vivirá)\\n- Nosotros/Nosotras: -emos (hablaremos, comeremos, viviremos)\\n- Vosotros/Vosotras: -éis (hablaréis, comeréis, viviréis)\\n- Ellos/Ellas/Ustedes: -án (hablarán, comerán, vivirán)\\n\\nExamples:\\n- El próximo año viajaré a España. (Next year I will travel to Spain.)\\n- Mañana lloverá. (It will rain tomorrow.)\\n- ¿Comeréis con nosotros esta noche? (Will you eat with us tonight?)\\n- El año que viene nos mudaremos a otro país. (Next year we will move to another country.)\\n- Tendrás unos treinta años, ¿no? (You must be about thirty, right?) — guessing about the present\\n\\nWhen to use the simple future:\\n1. Distant or uncertain future: En 2050 viviré en Marte.\\n2. Predictions: El mercado mejorará pronto.\\n3. Promises: Te ayudaré con tu proyecto.\\n4. Guesses about the present: ¿Dónde está Juan? Estará en la biblioteca.\\n5. Formal / literary contexts",
+      "examples": [
+        "La semana que viene llegaré a Barcelona. (Next week I will arrive in Barcelona.)",
+        "¿Qué harás cuando te jubiles? (What will you do when you retire?)",
+        "El equipo ganará el campeonato este año. (The team will win the championship this year.)",
+        "Creo que ella vendrá a la fiesta. (I think she will come to the party.)"
+      ],
+      "aid_note": "Romanian expresses the future with 'o să' + present tense. The Spanish simple future (hablaré, comeré) has no direct equivalent in modern Romanian — it's a synthetic form (one word) that Romanian doesn't use. For Romanian speakers, think of the Spanish simple future as a more formal, distant, or certain version of 'o să'. It's particularly important for predictions and promises, where Romanian would also use 'o să' but the Spanish simple future sounds more natural."
+    },
+    {
+      "title": "Expressions of Intention & Desire",
+      "content": "Beyond 'ir a + infinitivo', Spanish offers several ways to express intentions, desires, and plans. These constructions add nuance to how you talk about future actions.\\n\\nKey constructions:\\n\\n1. Pensar + en (noun) / pensar + a + infinitivo (to think of doing)\\n- Piensa en comprarse un apartamento. (He's thinking of buying an apartment.)\\n- ¿Piensas a estudiar el próximo año? (Are you thinking of studying next year?)\\n\\n2. Querer + infinitivo (to want to)\\n- Quiero aprender español. (I want to learn Spanish.)\\n- ¿Quieres venir al cine? (Do you want to come to the movies?)\\n\\n3. Tener ganas de + infinitivo (to feel like / to fancy)\\n- Tengo ganas de ir a la playa. (I feel like going to the beach.)\\n- No tengo ganas de cocinar hoy. (I don't feel like cooking today.)\\n\\n4. Tener pensado + infinitivo (to plan to — very common for definite plans)\\n- Tengo pensado viajar a México en junio. (I'm planning to travel to Mexico in June.)\\n- ¿Tienes pensado estudiar en el extranjero? (Are you planning to study abroad?)\\n\\n5. Tener intención de + infinitivo (to intend to — more formal)\\n- Tengo intención de mudarme el próximo mes. (I intend to move next month.)\\n\\n6. Soñar con + infinitivo (to dream of doing)\\n- Sueño con viajar por todo el mundo. (I dream of traveling around the world.)\\n\\n7. Esperar + infinitivo (to hope to)\\n- Espero poder viajar el próximo verano. (I hope to be able to travel next summer.)\\n\\n8. Planear / Planificar + infinitivo (to plan to)\\n- Planeo empezar un curso de cocina. (I plan to start a cooking course.)",
+      "examples": [
+        "Tengo ganas de visitar a mis amigos este fin de semana. (I feel like visiting my friends this weekend.)",
+        "Quiero aprender a tocar el piano. (I want to learn to play the piano.)",
+        "Tengo pensado empezar un nuevo proyecto en enero. (I'm planning to start a new project in January.)",
+        "¿Tienes intención de mudarte de ciudad? (Do you intend to move to another city?)",
+        "Sueño con conocer todos los países de Sudamérica. (I dream of visiting all the countries in South America.)"
+      ],
+      "aid_note": "Romanian uses similar constructions: 'vreau să' (I want to), 'mă gândesc la' (I'm thinking of), 'planific să' (I plan to). The Spanish 'tener ganas de' is the closest to Romanian 'am chef de' (to feel like). Romanian 'vreau să învăț' maps directly to Spanish 'quiero aprender'. The 'tener pensado' and 'tener intención de' constructions are particularly useful as they mirror the Romanian structure of auxiliary + participle + infinitive."
+    },
+    {
+      "title": "Verbal Periphrases — Start, Finish, Continue (Empezar, Terminar, Seguir)",
+      "content": "Spanish uses verbal periphrases (verb + preposition + infinitive/gerund) to add aspectual meaning — whether an action is starting, finishing, or continuing.\\n\\nEmpezar / Comenzar a + infinitivo (to start to do):\\n- Voy a empezar a estudiar español. (I'm going to start studying Spanish.)\\n- Empezamos a trabajar a las nueve. (We started working at nine.)\\n- Cuando empiece a llover, nos vamos a casa. (When it starts to rain, we're going home.)\\n\\nTerminar de + infinitivo (to finish doing):\\n- Terminé de leer el libro ayer. (I finished reading the book yesterday.)\\n- Cuando termine de trabajar, vamos al cine. (When I finish working, we'll go to the movies.)\\n- Ya terminé de comer. (I've already finished eating.)\\n\\nSeguir + gerundio (to keep on doing):\\n- Sigo estudiando español todos los días. (I keep studying Spanish every day.)\\n- Sigue lloviendo. (It keeps raining.)\\n- ¿Sigues trabajando en ese proyecto? (Are you still working on that project?)\\n\\nDejar de + infinitivo (to stop doing):\\n- Dejó de fumar hace un año. (He stopped smoking a year ago.)\\n- No dejes de intentar. (Don't stop trying.)\\n- Dejamos de fumar cuando nos quedamos sin cigarrillos. (We stopped smoking when we ran out.)\\n\\nImportante:\\n- 'Empezar a' uses the INFINITIVE, not the gerund\\n- 'Terminar de' uses the INFINITIVE, not the gerund\\n- 'Seguir' and 'Dejar de' use the GERUND (-ando/-iendo)",
+      "examples": [
+        "Voy a empezar a tomar clases de yoga el lunes. (I'm going to start taking yoga classes on Monday.)",
+        "Cuando termine de estudiar, iré al supermercado. (When I finish studying, I'll go to the supermarket.)",
+        "Sigo esperando tu respuesta. (I'm still waiting for your answer.)",
+        "Dejé de ver esa serie porque era muy aburrida. (I stopped watching that series because it was very boring.)"
+      ],
+      "aid_note": "Romanian expresses similar concepts with different structures: 'încep să' (I start to), 'termin de' (I finish -ing), 'continui să' (I continue to), 'mă opresc din' (I stop from). The Spanish prepositions 'a' and 'de' are important to memorize: empezar A, terminar DE. In Romanian, the infinitive-marker 'să' is used for both starting and finishing, so this distinction is new for Romanian speakers."
+    }
+  ],
+  "pronunciation": {
+    "title": "Future Tense Pronunciation — Stress & Endings",
+    "content": "Pronouncing the future forms correctly requires attention to stress patterns and vowel sounds.\\n\\nIr a + Infinitivo pronunciation:\\n- Voy a = BOY-ah (stress on 'BOY', not on 'ah')\\n- Vas a = VAHS-ah\\n- Va a = VAH-ah (the two 'a's are separate syllables)\\n- Vamos a = bah-MOS-ah\\n- Van a = VAHN-ah\\n\\nNote: 'Va a' can sound like 'va-a' — the two 'a' vowels are pronounced separately, not as a diphthong. Some speakers in certain regions may blend them slightly, but learners should pronounce them as two separate syllables.\\n\\nFuture tense endings — stress falls ON the ending:\\n- hablaré = ah-bah-REH (stress on last E)\\n- hablarás = ah-bah-RAHS (stress on A)\\n- hablará = ah-bah-RAH (stress on last A)\\n- hablaremos = ah-bah-RE-mos (stress on RE)\\n- hablaréis = ah-bah-REIS (stress on REI)\\n- hablarán = ah-bah-RAHN (stress on A)\\n\\nKey pronunciation rules:\\n1. All future tense endings are STRESSED — they carry the accent\\n2. The accent marks in writing indicate the stressed syllable\\n3. Future tense verbs are usually 3-4 syllables, with stress on the last or second-to-last\\n4. The 'é' ending sounds like 'EH' (not 'EE') — like the 'e' in 'bet'\\n5. The 'á' ending sounds like 'AH' (open 'a')\\n6. The 'éis' ending: REYS (like 'rays' but with 'e')\\n7. The 'án' ending: AHN (stress on the 'a', not the 'n')\\n\\nCommon mistakes:\\n- Don't stress the stem: hablaré (not ah-BLA-reh)\\n- Don't confuse 'va a' (he goes to) with 'vaya a' (I go to — subjunctive)\\n- The future 'é' ending is distinct from the preterite 'é' — both sound the same but context tells them apart\\n- The 'r' in -ré, -rás, -rá is pronounced clearly — it's NOT silent",
+    "examples": [
+      "voy a = BOY-ah (stress on the first syllable)",
+      "hablaré = ah-bah-REH (stress on the final E)",
+      "viajará = bee-ah-HRAH (stress on the final A)",
+      "viviremos = bee-bee-REH-mos (stress on RE)",
+      "comerán = koh-meh-RAHN (stress on the A in 'rán')",
+      "vais a = BAHS-ah (stress on 'BAHS')"
+    ]
+  },
+  "exercises": [
+    {
+      "type": "multiple-choice",
+      "question": "Which construction is the most common way to express the future in everyday Spanish conversation?",
+      "options": ["Futuro simple (hablaré)", "Ir a + infinitivo (voy a hablar)", "Presente (hablo)", "Condicional (hablaría)"],
+      "correct": 1,
+      "explanation": "'Ir a + infinitivo' (voy a hablar) is the most common way to express the future in everyday spoken Spanish. The futuro simple (hablaré) is used for predictions, formal contexts, and distant future."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete with 'ir a' + the correct infinitive: 'Este fin de semana voy ___ (ver) una película.'",
+      "correct": "a ver",
+      "explanation": "'Voy a ver' uses the 'ir a + infinitivo' construction. 'Este fin de semana voy a ver una película' = This weekend I'm going to watch a movie."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete with the correct future tense form: 'El próximo año yo ___ (viajar) a Sudamérica.'",
+      "correct": "viajaré",
+      "explanation": "'El próximo año' signals the future tense. 'El próximo año yo viajaré a Sudamérica' = Next year I will travel to South America."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Which expression means 'to feel like doing something' in Spanish?",
+      "options": ["Tener que + infinitivo", "Tener ganas de + infinitivo", "Tener que hacer", "Tener pensado + infinitivo"],
+      "correct": 1,
+      "explanation": "'Tener ganas de + infinitivo' means 'to feel like doing something.' Example: 'Tengo ganas de ir a la playa' (I feel like going to the beach)."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Which sentence correctly uses 'ir a + infinitivo'?",
+      "options": [
+        "Ella va a comprar un libro.",
+        "Ella va comprar un libro.",
+        "Ella va de comprar un libro.",
+        "Ella va en comprar un libro."
+      ],
+      "correct": 0,
+      "explanation": "The correct structure is 'ir + a + infinitivo'. 'Ella va a comprar un libro' = She's going to buy a book. The preposition 'a' is required between 'va' and the infinitive."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete with the correct future tense form: '¿Qué ___ (hacer) tú cuando termines la universidad?'",
+      "correct": "harás",
+      "explanation": "'Hacer' is irregular in the future tense: haré, harás, hará, haremos, haréis, harán. '¿Qué harás tú cuando termines la universidad?' = What will you do when you finish university?"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Which construction means 'to plan to (do something)' in Spanish?",
+      "options": [
+        "Tener ganas de + infinitivo",
+        "Tener pensado + infinitivo",
+        "Tener que + infinitivo",
+        "Tener que hacer"
+      ],
+      "correct": 1,
+      "explanation": "'Tener pensado + infinitivo' means 'to plan to do something.' Example: 'Tengo pensado viajar a Japón' (I'm planning to travel to Japan)."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete with the correct periphrasis: 'Voy a empezar ___ (empezar a) ___ (estudiar) piano.'",
+      "correct": "a estudiar",
+      "explanation": "'Empezar a + infinitivo' means 'to start (doing something).' 'Voy a empezar a estudiar piano' = I'm going to start studying piano."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What does 'tener ganas de + infinitivo' express?",
+      "options": [
+        "Obligation (must do)",
+        "A desire or feeling like doing something",
+        "A plan or intention",
+        "A prediction"
+      ],
+      "correct": 1,
+      "explanation": "'Tener ganas de + infinitivo' expresses desire or a feeling like doing something. 'Tengo ganas de comer pizza' = I feel like eating pizza. It's similar to Romanian 'a avea chef de'."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete with the correct form of 'ir': 'Nosotros ___ a visitar a nuestros abuelos el domingo.'",
+      "correct": "vamos",
+      "explanation": "'Vamos' is the 'nosotros' form of 'ir'. 'Nosotros vamos a visitar a nuestros abuelos el domingo' = We are going to visit our grandparents on Sunday."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Which time expression would you use for 'next week' in Spanish?",
+      "options": [
+        "La semana pasada",
+        "La semana que viene / La próxima semana",
+        "La semana próxima",
+        "Esta semana"
+      ],
+      "correct": 1,
+      "explanation": "'La semana que viene' or 'la próxima semana' both mean 'next week.' 'La semana pasada' means 'last week.' 'Esta semana' means 'this week.'"
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete with the correct future tense form: 'Ella ___ (poder) graduarse el próximo año.'",
+      "correct": "podrá",
+      "explanation": "'Poder' is irregular in the future tense: podré, podrás, podrá, podremos, podréis, podrán. The stem changes from 'pod-' to 'podr-'. 'Ella podrá graduarse el próximo año' = She will be able to graduate next year."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Which verbal periphrasis uses the GERUND (ending in -ando/-iendo)?",
+      "options": [
+        "Empezar a + infinitivo",
+        "Terminar de + infinitivo",
+        "Seguir + gerundio",
+        "All of the above"
+      ],
+      "correct": 2,
+      "explanation": "'Seguir + gerundio' (to keep on doing) is the only periphrasis among these that uses the gerund. 'Empezar a' and 'terminar de' both use the infinitive. Example: 'Sigo estudiando' (I keep studying)."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete with the correct future form: 'Mañana ___ (llover), según el pronóstico.'",
+      "correct": "lloverá",
+      "explanation": "'Lloverá' is the third person singular of the future tense. 'Mañana lloverá, según el pronóstico' = It will rain tomorrow, according to the forecast. The future tense is commonly used for weather predictions."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "In the sentence 'Mira esas nubes — va a llover,' what does 'ir a + infinitivo' express here?",
+      "options": [
+        "A definite plan",
+        "A prediction with present evidence",
+        "An obligation",
+        "A past action"
+      ],
+      "correct": 1,
+      "explanation": "'Va a llover' in this context is a prediction based on visible evidence (the clouds). 'Ir a + infinitivo' can express predictions when there are present signs, like clouds indicating rain."
+    }
+  ]
+}

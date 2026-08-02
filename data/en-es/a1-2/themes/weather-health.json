@@ -1,0 +1,106 @@
+{
+  "id": "weather-health",
+  "title": "Weather & Health",
+  "description": "Describe the weather, talk about illnesses, and describe symptoms to a doctor.",
+  "vocabulary": [
+    { "id": 1, "target": "el clima / el tiempo", "source": "weather", "gender": "m.", "type": "weather" },
+    { "id": 2, "target": "hace sol", "source": "it's sunny", "gender": "—", "type": "weather" },
+    { "id": 3, "target": "llueve", "source": "it's raining", "gender": "—", "type": "weather" },
+    { "id": 4, "target": "nieva", "source": "it's snowing", "gender": "—", "type": "weather" },
+    { "id": 5, "target": "hace frío", "source": "it's cold", "gender": "—", "type": "weather" },
+    { "id": 6, "target": "hace calor", "source": "it's hot", "gender": "—", "type": "weather" },
+    { "id": 7, "target": "hay viento", "source": "it's windy", "gender": "—", "type": "weather" },
+    { "id": 8, "target": "está nublado", "source": "it's cloudy", "gender": "—", "type": "weather" },
+    { "id": 9, "target": "la temperatura", "source": "temperature", "gender": "f.", "type": "weather" },
+    { "id": 10, "target": "el termómetro", "source": "thermometer", "gender": "m.", "type": "weather" },
+    { "id": 11, "target": "tener fiebre", "source": "to have a fever", "gender": "—", "type": "health" },
+    { "id": 12, "target": "el dolor de cabeza", "source": "headache", "gender": "m.", "type": "health" },
+    { "id": 13, "target": "el resfriado", "source": "a cold (illness)", "gender": "m.", "type": "health" },
+    { "id": 14, "target": "el médico / la médico", "source": "doctor", "gender": "m./f.", "type": "health" },
+    { "id": 15, "target": "la farmacia", "source": "pharmacy", "gender": "f.", "type": "health" },
+    { "id": 16, "target": "la medicina", "source": "medicine", "gender": "f.", "type": "health" },
+    { "id": 17, "target": "me duele...", "source": "it hurts...", "gender": "—", "type": "health" },
+    { "id": 18, "target": "sentirse bien / mal", "source": "to feel good / bad", "gender": "—", "type": "health" },
+    { "id": 19, "target": "el dolor de garganta", "source": "sore throat", "gender": "m.", "type": "health" },
+    { "id": 20, "target": "el dolor de estómago", "source": "stomachache", "gender": "m.", "type": "health" },
+    { "id": 21, "target": "el dolor de oído", "source": "earache", "gender": "m.", "type": "health" },
+    { "id": 22, "target": "el dolor de espalda", "source": "back pain", "gender": "m.", "type": "health" },
+    { "id": 23, "target": "el hospital", "source": "hospital", "gender": "m.", "type": "health" },
+    { "id": 24, "target": "la enfermera", "source": "nurse", "gender": "f.", "type": "health" },
+    { "id": 25, "target": "la gripe", "source": "the flu", "gender": "f.", "type": "health" },
+    { "id": 26, "target": "toser", "source": "to cough", "gender": "v.", "type": "health" },
+    { "id": 27, "target": "estornudar", "source": "to sneeze", "gender": "v.", "type": "health" },
+    { "id": 28, "target": "tener calor / frío", "source": "to feel hot / cold", "gender": "—", "type": "health" },
+    { "id": 29, "target": "un resfriado", "source": "a cold", "gender": "m.", "type": "health" },
+    { "id": 30, "target": "la tos", "source": "cough", "gender": "f.", "type": "health" },
+    { "id": 31, "target": "despertarse con dolor", "source": "to wake up in pain", "gender": "—", "type": "health" },
+    { "id": 32, "target": "sentirse mareado", "source": "to feel dizzy", "gender": "—", "type": "health" },
+    { "id": 33, "target": "una infección", "source": "an infection", "gender": "f.", "type": "health" },
+    { "id": 34, "target": "la fiebre alta", "source": "high fever", "gender": "f.", "type": "health" },
+    { "id": 35, "target": "el médico de cabecera", "source": "family doctor / GP", "gender": "m.", "type": "health" },
+    { "id": 36, "target": "la receta médica", "source": "prescription", "gender": "f.", "type": "health" },
+    { "id": 37, "target": "un vendaje", "source": "a bandage", "gender": "m.", "type": "health" },
+    { "id": 38, "target": "la inyección", "source": "an injection", "gender": "f.", "type": "health" },
+    { "id": 39, "target": "no me siento bien", "source": "I don't feel well", "gender": "—", "type": "phrase" },
+    { "id": 40, "target": "necesito ir al médico", "source": "I need to go to the doctor", "gender": "—", "type": "phrase" }
+  ],
+  "grammar": [],
+  "pronunciation": [],
+  "exercises": [
+    {
+      "type": "matching",
+      "question": "Match the weather expressions:",
+      "pairs": [
+        { "target": "hace sol", "source": "it's sunny" },
+        { "target": "llueve", "source": "it's raining" },
+        { "target": "hace frío", "source": "it's cold" },
+        { "target": "está nublado", "source": "it's cloudy" },
+        { "target": "nieva", "source": "it's snowing" }
+      ],
+      "explanation": "Weather expressions are essential for small talk and planning daily activities in Spanish."
+    },
+    {
+      "type": "matching",
+      "question": "Match the health vocabulary:",
+      "pairs": [
+        { "target": "el dolor de cabeza", "source": "headache" },
+        { "target": "el resfriado", "source": "a cold" },
+        { "target": "la farmacia", "source": "pharmacy" },
+        { "target": "tener fiebre", "source": "to have a fever" }
+      ],
+      "explanation": "These health terms are essential when visiting the doctor or pharmacy."
+    },
+    {
+      "type": "exercise",
+      "question": "What does 'hace calor' mean?",
+      "options": ["It's cold", "It's hot", "It's raining", "It's windy"],
+      "correct": 1,
+      "explanation": "'Hace calor' means 'It's hot' (literally: 'it makes heat'). For cold: 'hace frío'."
+    },
+    {
+      "type": "exercise",
+      "question": "What does 'hace frío' mean?",
+      "options": ["It's hot", "It's windy", "It's cold", "It's cloudy"],
+      "correct": 2,
+      "explanation": "'Hace frío' means 'It's cold' (literally: 'it makes cold'). 'Hace calor' = it's hot."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: 'Yo ____ (tener) fiebre.' (I have a fever.)",
+      "correct": "tengo",
+      "explanation": "'Tengo fiebre' uses the irregular 'tengo' (yo form of tener). 'Tener' means 'to have.'"
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: 'Me duele la ____.' (My head hurts.)",
+      "correct": "cabeza",
+      "explanation": "'Me duele la cabeza' = 'I have a headache.' The verb 'doler' works like 'gustar' — it agrees with what hurts."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: 'Ayer ____ (llover) todo el día.' (Yesterday it rained all day.)",
+      "correct": "llovió",
+      "explanation": "'Llovió' is the él/ella/usted preterite form of llover. It's a stem-changing verb (o→ue) in the preterite."
+    }
+  ]
+}

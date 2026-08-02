@@ -1,0 +1,367 @@
+{
+  "id": "technology-communication",
+  "level": "a1-2",
+  "title": "Technology & Communication",
+  "description": "Learn vocabulary for technology, devices, the internet, social media, and communication in the digital age.",
+  "vocabulary": [
+    {"id": 1, "target": "ordenador", "source": "computer", "gender": "m", "type": "device"},
+    {"id": 2, "target": "computadora", "source": "computer (LatAm)", "gender": "f", "type": "device"},
+    {"id": 3, "target": "portátil", "source": "laptop", "gender": "m", "type": "device"},
+    {"id": 4, "target": "teléfono", "source": "phone", "gender": "m", "type": "device"},
+    {"id": 5, "target": "móvil", "source": "mobile phone", "gender": "m", "type": "device"},
+    {"id": 6, "target": "smartphone", "source": "smartphone", "gender": "m", "type": "device"},
+    {"id": 7, "target": "tablet", "source": "tablet", "gender": "f", "type": "device"},
+    {"id": 8, "target": "televisor", "source": "television", "gender": "m", "type": "device"},
+    {"id": 9, "target": "pantalla", "source": "screen/display", "gender": "f", "type": "device"},
+    {"id": 10, "target": "teclado", "source": "keyboard", "gender": "m", "type": "device"},
+    {"id": 11, "target": "ratón", "source": "mouse", "gender": "m", "type": "device"},
+    {"id": 12, "target": "impresora", "source": "printer", "gender": "f", "type": "device"},
+    {"id": 13, "target": "cámara", "source": "camera", "gender": "f", "type": "device"},
+    {"id": 14, "target": "auriculares", "source": "headphones", "gender": "m", "type": "device"},
+    {"id": 15, "target": "altavoz", "source": "speaker", "gender": "m", "type": "device"},
+    {"id": 16, "target": "micrófono", "source": "microphone", "gender": "m", "type": "device"},
+    {"id": 17, "target": "cargador", "source": "charger", "gender": "m", "type": "device"},
+    {"id": 18, "target": "batería", "source": "battery", "gender": "f", "type": "device"},
+    {"id": 19, "target": "internet", "source": "internet", "gender": "m", "type": "tech"},
+    {"id": 20, "target": "correo electrónico", "source": "email", "gender": "m", "type": "tech"},
+    {"id": 21, "target": "sitio web", "source": "website", "gender": "m", "type": "tech"},
+    {"id": 22, "target": "página web", "source": "web page", "gender": "f", "type": "tech"},
+    {"id": 23, "target": "navegador", "source": "browser", "gender": "m", "type": "tech"},
+    {"id": 24, "target": "buscador", "source": "search engine", "gender": "m", "type": "tech"},
+    {"id": 25, "target": "red social", "source": "social media/network", "gender": "f", "type": "tech"},
+    {"id": 26, "target": "aplicación", "source": "app/application", "gender": "f", "type": "tech"},
+    {"id": 27, "target": "app", "source": "app (short form)", "gender": "f", "type": "tech"},
+    {"id": 28, "target": "software", "source": "software", "gender": "m", "type": "tech"},
+    {"id": 29, "target": "programa", "source": "program", "gender": "m", "type": "tech"},
+    {"id": 30, "target": "archivo", "source": "file", "gender": "m", "type": "tech"},
+    {"id": 31, "target": "carpeta", "source": "folder", "gender": "f", "type": "tech"},
+    {"id": 32, "target": "documento", "source": "document", "gender": "m", "type": "tech"},
+    {"id": 33, "target": "foto", "source": "photo", "gender": "f", "type": "tech"},
+    {"id": 34, "target": "vídeo", "source": "video", "gender": "m", "type": "tech"},
+    {"id": 35, "target": "música", "source": "music", "gender": "f", "type": "tech"},
+    {"id": 36, "target": "descarga", "source": "download (noun)", "gender": "f", "type": "tech"},
+    {"id": 37, "target": "subida", "source": "upload (noun)", "gender": "f", "type": "tech"},
+    {"id": 38, "target": "contraseña", "source": "password", "gender": "f", "type": "tech"},
+    {"id": 39, "target": "usuario", "source": "user", "gender": "m", "type": "tech"},
+    {"id": 40, "target": "cuenta", "source": "account", "gender": "f", "type": "tech"},
+    {"id": 41, "target": "perfil", "source": "profile", "gender": "m", "type": "tech"},
+    {"id": 42, "target": "mensaje", "source": "message", "gender": "m", "type": "communication"},
+    {"id": 43, "target": "texto", "source": "text message", "gender": "m", "type": "communication"},
+    {"id": 44, "target": "llamada", "source": "phone call", "gender": "f", "type": "communication"},
+    {"id": 45, "target": "videollamada", "source": "video call", "gender": "f", "type": "communication"},
+    {"id": 46, "target": "chat", "source": "chat", "gender": "m", "type": "communication"},
+    {"id": 47, "target": "publicación", "source": "post (social media)", "gender": "f", "type": "communication"},
+    {"id": 48, "target": "seguidor", "source": "follower", "gender": "m", "type": "communication"},
+    {"id": 49, "target": "seguidor", "source": "follower", "gender": "m", "type": "communication"},
+    {"id": 50, "target": "suscriptor", "source": "subscriber", "gender": "m", "type": "communication"},
+    {"id": 51, "target": "publicar", "source": "to post/publish", "gender": "m", "type": "verb"},
+    {"id": 52, "target": "compartir", "source": "to share", "gender": "m", "type": "verb"},
+    {"id": 53, "target": "seguir", "source": "to follow", "gender": "m", "type": "verb"},
+    {"id": 54, "target": "suscribirse", "source": "to subscribe", "gender": "m", "type": "verb"},
+    {"id": 55, "target": "conectar", "source": "to connect", "gender": "m", "type": "verb"},
+    {"id": 56, "target": "enviar", "source": "to send", "gender": "m", "type": "verb"},
+    {"id": 57, "target": "recibir", "source": "to receive", "gender": "m", "type": "verb"},
+    {"id": 58, "target": "llamar", "source": "to call", "gender": "m", "type": "verb"},
+    {"id": 59, "target": "navegar", "source": "to browse/surf", "gender": "m", "type": "verb"},
+    {"id": 60, "target": "buscar", "source": "to search/look for", "gender": "m", "type": "verb"},
+    {"id": 61, "target": "descargar", "source": "to download", "gender": "m", "type": "verb"},
+    {"id": 62, "target": "actualizar", "source": "to update", "gender": "m", "type": "verb"},
+    {"id": 63, "target": "instalar", "source": "to install", "gender": "m", "type": "verb"},
+    {"id": 64, "target": "borrar", "source": "to delete", "gender": "m", "type": "verb"},
+    {"id": 65, "target": "copiar", "source": "to copy", "gender": "m", "type": "verb"},
+    {"id": 66, "target": "guardar", "source": "to save", "gender": "m", "type": "verb"},
+    {"id": 67, "target": "abrir", "source": "to open", "gender": "m", "type": "verb"},
+    {"id": 68, "target": "cerrar", "source": "to close", "gender": "m", "type": "verb"},
+    {"id": 69, "target": "reiniciar", "source": "to restart/reboot", "gender": "m", "type": "verb"},
+    {"id": 70, "target": "encender", "source": "to turn on", "gender": "m", "type": "verb"},
+    {"id": 71, "target": "apagar", "source": "to turn off", "gender": "m", "type": "verb"},
+    {"id": 72, "target": "funcionar", "source": "to work/function", "gender": "m", "type": "verb"},
+    {"id": 73, "target": "cable", "source": "cable", "gender": "m", "type": "object"},
+    {"id": 74, "target": "enchufe", "source": "plug/outlet", "gender": "m", "type": "object"},
+    {"id": 75, "target": "disco duro", "source": "hard drive", "gender": "m", "type": "object"},
+    {"id": 76, "target": "memoria USB", "source": "USB drive", "gender": "f", "type": "object"},
+    {"id": 77, "target": "wifi", "source": "Wi-Fi", "gender": "m", "type": "object"},
+    {"id": 78, "target": "señal", "source": "signal", "gender": "f", "type": "object"},
+    {"id": 79, "target": "conexión", "source": "connection", "gender": "f", "type": "object"},
+    {"id": 80, "target": "enlace", "source": "link", "gender": "m", "type": "object"},
+    {"id": 81, "target": "enlace", "source": "URL/address", "gender": "m", "type": "object"},
+    {"id": 82, "target": "online", "source": "online", "gender": "m", "type": "adjective"},
+    {"id": 83, "target": "digital", "source": "digital", "gender": "m", "type": "adjective"},
+    {"id": 84, "target": "inalámbrico", "source": "wireless", "gender": "m", "type": "adjective"},
+    {"id": 85, "target": "electrónico", "source": "electronic", "gender": "m", "type": "adjective"},
+    {"id": 86, "target": "moderno", "source": "modern", "gender": "m", "type": "adjective"},
+    {"id": 87, "target": "rápido", "source": "fast", "gender": "m", "type": "adjective"},
+    {"id": 88, "target": "lento", "source": "slow", "gender": "m", "type": "adjective"},
+    {"id": 89, "target": "seguro", "source": "secure/safe", "gender": "m", "type": "adjective"},
+    {"id": 90, "target": "gratis", "source": "free (no cost)", "gender": "m", "type": "adjective"},
+    {"id": 91, "target": "nuevo", "source": "new", "gender": "m", "type": "adjective"},
+    {"id": 92, "target": "viejo", "source": "old (not aged)", "gender": "m", "type": "adjective"},
+    {"id": 93, "target": "gratuito", "source": "free (complimentary)", "gender": "m", "type": "adjective"},
+    {"id": 94, "target": "soporte técnico", "source": "technical support", "gender": "m", "type": "phrase"},
+    {"id": 95, "target": "contraseña", "source": "password", "gender": "f", "type": "phrase"},
+    {"id": 96, "target": "modo avión", "source": "airplane mode", "gender": "m", "type": "phrase"},
+    {"id": 97, "target": "actualización", "source": "update (noun)", "gender": "f", "type": "phrase"},
+    {"id": 98, "target": "algoritmo", "source": "algorithm", "gender": "m", "type": "phrase"},
+    {"id": 99, "target": "servidor", "source": "server", "gender": "m", "type": "phrase"},
+    {"id": 100, "target": "base de datos", "source": "database", "gender": "f", "type": "phrase"}
+  ],
+  "grammar": [
+    {
+      "title": "Technology Verbs — Present Tense (-ar verbs)",
+      "content": "Most technology verbs end in -ar. They conjugate like regular -ar verbs in the present tense.\\n\\nDescargar (to download):\\nYo descargo (I download)\\nTú descargas (You download — informal)\\nÉl/Ella descarga (He/She downloads)\\nNosotros descargamos (We download)\\nVosotros descargáis (You all download — Spain)\\nEllos/Ellas descargan (They download)\\n\\nNavegar (to browse — g→gu before a):\\nYo navego (I browse)\\nTú navegas (You browse)\\nÉl/Ella navega (He/She browses)\\nNosotros navegamos (We browse)\\nVosotros navegáis (You all browse — Spain)\\nEllos/Ellas navegan (They browse)\\n\\nCompartir (to share):\\nYo comparto (I share)\\nTú compartes (You share — informal)\\nÉl/Ella comparte (He/She shares)\\nNosotros compartimos (We share)\\nVosotros compartís (You all share — Spain)\\nEllos/Ellas comparten (They share)\\n\\nEjemplos:\\nDescargo fotos de internet. (I download photos from the internet.)\\nNavego por la red social cada día. (I browse the social media every day.)\\nComparto vídeos con mis amigos. (I share videos with my friends.)\\n\\nNOTE: 'Compartir' is irregular in 'yo' form — 'comparto' (not 'compartir'). Many -ir verbs have a 'yo' form ending in -o.",
+      "examples": [
+        "Descargo música de internet. (I download music from the internet.)\\nYa descargué la aplicación. (I already downloaded the app.)\\n¿Descargas las actualizaciones? (Do you download the updates?)",
+        "Navego por internet todos los días. (I browse the internet every day.)\\n¿Navegas mucho? (Do you browse a lot?)\\nElla navega en su teléfono. (She browses on her phone.)",
+        "Comparto fotos en Instagram. (I share photos on Instagram.)\\nComparten música en Spotify. (They share music on Spotify.)\\n¿Compartimos el archivo? (Should we share the file?)"
+      ]
+    },
+    {
+      "title": "Estar — To Be (Connected, Working, Online)",
+      "content": "Estar is used for states, conditions, and locations — very important for technology.\\n\\nConjugation:\\nYo estoy (I am)\\nTú estás (You are — informal)\\nÉl/Ella/Usted está (He/She/You formal is)\\nNosotros/Nosotras estamos (We are)\\nVosotros/Vosotras estáis (You all are — Spain)\\nEllos/Ellas/Ustedes están (They/You all are)\\n\\nConnection states:\\nEstoy conectado/a a internet. (I'm connected to the internet.)\\nNo estoy conectado/a. (I'm not connected.)\\n¿Estás online? (Are you online?)\\nEstá en línea. (He/She is online.)\\nEstamos en la videollamada. (We're on the video call.)\\n\\nDevice status:\\nMi teléfono está cargando. (My phone is charging.)\\nLa computadora está apagada. (The computer is off.)\\nEl wifi está funcionando. (The Wi-Fi is working.)\\nLa pantalla está rota. (The screen is broken.)\\n\\nLocation with devices:\\nEstoy en el café con wifi. (I'm at the cafe with Wi-Fi.)\\nEstá en la oficina. (He/She is at the office.)\\n\\nNOTE: 'Estar' describes temporary states. 'Ser' describes permanent characteristics.\\nEl teléfono es nuevo. (The phone is new — permanent characteristic.)\\nEl teléfono está nuevo. (The phone looks new — temporary condition.)\\nLa conexión está lenta. (The connection is slow — current state.)",
+      "examples": [
+        "¿Estás conectado al wifi? (Are you connected to the Wi-Fi?)\\nSí, estoy conectado. (Yes, I'm connected.)\\nNo, no tengo conexión. (No, I don't have a connection.)",
+        "La batería está baja. (The battery is low.)\\nMi teléfono está cargando. (My phone is charging.)\\n¿Está encendida la televisión? (Is the TV on?)",
+        "Estoy online ahora. (I'm online now.)\\nEllos están en una videollamada. (They're on a video call.)\\nEstamos en el chat del grupo. (We're in the group chat.)"
+      ]
+    },
+    {
+      "title": "Tener — To Have (Possession with Devices)",
+      "content": "Tener is an irregular verb used to talk about having devices, accounts, and digital possessions.\\n\\nConjugation:\\nYo tengo (I have)\\nTú tienes (You have — informal)\\nÉl/Ella tiene (He/She has)\\nNosotros tenemos (We have)\\nVosotros tenéis (You all have — Spain)\\nEllos/Ellas tienen (They have)\\n\\nDevices:\\nTengo un teléfono nuevo. (I have a new phone.)\\nTiene una computadora vieja. (He/She has an old computer.)\\nTenemos una tablet. (We have a tablet.)\\n\\nAccounts & profiles:\\nTengo una cuenta en Instagram. (I have an account on Instagram.)\\nTiene muchos seguidores. (He/She has many followers.)\\n¿Tienes una contraseña? (Do you have a password?)\\n\\nConnectivity:\\nTengo buen wifi. (I have good Wi-Fi.)\\nNo tengo conexión. (I don't have a connection.)\\nTenemos una cuenta de correo. (We have an email account.)\\n\\nNOTE: 'Tener' is irregular in the 'yo' form (tengo, not 'tino'). It also combines with other words:\\nTener que + verb = must/have to\\nTener que estudiar. (I must study.)\\nTener que descargar el archivo. (I have to download the file.)",
+      "examples": [
+        "¿Tienes un portátil? (Do you have a laptop?)\\nSí, tengo un portátil nuevo. (Yes, I have a new laptop.)\\nNo, no tengo uno. (No, I don't have one.)",
+        "Tengo una cuenta de correo. (I have an email account.)\\n¿Tienes una contraseña? (Do you have a password?)\\nSí, la tengo guardada. (Yes, I have it saved.)",
+        "Tenemos buena conexión. (We have a good connection.)\\n¿Tiene wifi gratis? (Do you have free Wi-Fi?)\\nSí, tenemos wifi gratuito. (Yes, we have free Wi-Fi.)"
+      ]
+    },
+    {
+      "title": "Pretérito Perfecto Simple — Past Events (Tech Actions Completed)",
+      "content": "Use the preterite for completed past actions: downloading, installing, sending, etc.\\n\\nRegular -ar verbs (enviar, instalar, actualizar, borrar, copiar):\\nYo envié (I sent)\\nTú enviaste (You sent)\\nÉl/Ella envió (He/She sent)\\nNosotros enviamos (We sent)\\nVosotros enviasteis (You all sent — Spain)\\nEllos/Ellas enviaron (They sent)\\n\\nRegular -er verbs (descargar):\\nYo descargué (I downloaded)\\nTú descargaste (You downloaded)\\nÉl/Ella descargó (He/She downloaded)\\nNosotros descargamos (We downloaded)\\nVosotros descargasteis (You all downloaded — Spain)\\nEllos/Ellas descargaron (They downloaded)\\n\\nRegular -ir verbs (abrir, cerrar, seguir):\\nYo abrí (I opened) — irregular 'i' ending\\nTú cerraste (You closed)\\nÉl/Ella siguió (He/She followed)\\nNosotros abrimos (We opened)\\nVosotros cerrasteis (You all closed — Spain)\\nEllos/Ellas cerraron (They closed)\\n\\nCommon tech past tense verbs:\\nDescargué la app. (I downloaded the app.)\\nInstalé el programa. (I installed the program.)\\nEnvié el mensaje. (I sent the message.)\\nBorré el archivo. (I deleted the file.)\\nReinicié la computadora. (I restarted the computer.)\\n\\nNOTE: Many preterite endings have an accent mark on the 'é' and 'ó' (yo and él/ella forms).\\n\\nEjemplos:\\nDescargué el archivo ayer. (I downloaded the file yesterday.)\\nEnvié un mensaje por WhatsApp. (I sent a message via WhatsApp.)\\nInstalé una aplicación nueva. (I installed a new app.)",
+      "examples": [
+        "Descargué el programa ayer. (I downloaded the program yesterday.)\\n¿Qué descargaste? (What did you download?)\\nDescargamos las fotos de internet. (We downloaded the photos from the internet.)",
+        "Envié el correo electrónico esta mañana. (I sent the email this morning.)\\n¿Enviaste la invitación? (Did you send the invitation?)\\nEnviamos el documento por chat. (We sent the document via chat.)",
+        "Borré los archivos viejos. (I deleted the old files.)\\nReinicié el router. (I restarted the router.)\\nAbrí el documento en la carpeta. (I opened the document in the folder.)"
+      ]
+    }
+  ],
+  "expressions": [
+    {
+      "title": "Talking About Technology — Essential Phrases",
+      "content": "Describing your devices and tech habits:\\nTengo un teléfono nuevo. (I have a new phone.)\\nUso una tablet para leer. (I use a tablet for reading.)\\nMi computadora es vieja. (My computer is old.)\\nNecesito un cargador nuevo. (I need a new charger.)\\n\\nInternet connection:\\n¿Hay wifi aquí? (Is there Wi-Fi here?)\\nNo tengo conexión. (I don't have a connection.)\\nLa conexión es muy lenta. (The connection is very slow.)\\nTengo buena señal. (I have good signal.)\\n¿Cuál es la contraseña del wifi? (What's the Wi-Fi password?)\\n\\nSocial media:\\nSigo a mucha gente en Instagram. (I follow a lot of people on Instagram.)\\nMe gusta publicar fotos. (I like posting photos.)\\nComparto vídeos en YouTube. (I share videos on YouTube.)\\nTengo muchos seguidores. (I have many followers.)\\nMe suscribí al canal. (I subscribed to the channel.)\\n\\nEjemplos:\\n¿Qué dispositivo usas? (What device do you use?)\\nUso mi teléfono para todo. (I use my phone for everything.)\\n¿Tienes wifi? (Do you have Wi-Fi?)\\nSí, tenemos wifi gratuito. (Yes, we have free Wi-Fi.)",
+      "examples": [
+        "¿Qué app usas para chatear? (What app do you use to chat?)\\nUso WhatsApp para todo. (I use WhatsApp for everything.)\\nEs muy fácil de usar. (It's very easy to use.)",
+        "¿Dónde puedes usar wifi? (Where can you use Wi-Fi?)\\nPuedo usarlo en el café. (I can use it at the cafe.)\\nLa conexión es rápida. (The connection is fast.)",
+        "¿Sigues a alguien famoso en redes? (Do you follow anyone famous on social media?)\\nSí, sigo a muchos artistas. (Yes, I follow many artists.)\\nMe gusta ver sus publicaciones. (I like seeing their posts.)"
+      ]
+    },
+    {
+      "title": "Tech Problems & Solutions — Key Phrases",
+      "content": "Describing tech problems:\\nNo funciona. (It's not working.)\\nSe apagó. (It turned off.)\\nSe congeló. (It froze.)\\nLa pantalla está rota. (The screen is broken.)\\nNo tengo señal. (I have no signal.)\\nLa batería está baja. (The battery is low.)\\nSe acabó la carga. (The charge ran out.)\\nNo puedo conectarme. (I can't connect.)\\n\\nAsking for help:\\n¿Puedes ayudarme? (Can you help me?)\\n¿Cómo se enciende? (How do you turn it on?)\\n¿Cuál es la contraseña? (What's the password?)\\n¿Me puedes enviar el enlace? (Can you send me the link?)\\n¿Se puede instalar aquí? (Can you install it here?)\\n\\nOffering help:\\nIntenta reiniciar. (Try restarting.)\\nApaga y enciende otra vez. (Turn it off and on again.)\\nCarga el teléfono. (Charge the phone.)\\n¿Ya descargaste la actualización? (Have you downloaded the update?)\\nContacta a soporte técnico. (Contact technical support.)\\n\\nEjemplos:\\n¿Qué pasó con tu computadora? (What happened with your computer?)\\nNo funciona. Se congeló. (It's not working. It froze.)\\n¿Intentaste reiniciar? (Did you try restarting?)\\nSí, lo reinicié. Ahora funciona. (Yes, I restarted it. Now it works.)",
+      "examples": [
+        "¿Por qué no funciona el internet? (Why isn't the internet working?)\\nNo sé. Tal vez el router tiene un problema. (I don't know. Maybe the router has a problem.)\\nIntenta reiniciar el router. (Try restarting the router.)",
+        "Mi teléfono está muy lento. (My phone is very slow.)\\nIntenta borrar algunas aplicaciones. (Try deleting some apps.)\\n¿Tienes suficiente memoria? (Do you have enough storage?)",
+        "No puedo conectarme al wifi. (I can't connect to the Wi-Fi.)\\n¿Cuál es la contraseña? (What's the password?)\\nLa contraseña es: wifi2025. (The password is: wifi2025.)"
+      ]
+    },
+    {
+      "title": "Online Communication — Common Expressions",
+      "content": "Sending messages:\\nEnvíame un mensaje. (Send me a message.)\\nTe mando el archivo. (I'll send you the file.)\\n¿Recibiste mi correo? (Did you receive my email?)\\nTe llamo por videollamada. (I'll call you via video call.)\\n\\nChat & messaging:\\n¿Estás ahí? (Are you there?)\\nDéjame pensar. (Let me think.)\\nVale, perfecto. (OK, perfect.)\\nNos vemos en el chat. (See you in the chat.)\\nEscribe en el grupo. (Write in the group.)\\n\\nSocial media interaction:\\n¡Qué buena foto! (What a good photo!)\\nMe encanta este vídeo. (I love this video!)\\n¡Muy bien! (Very good!)\\nDale like a tu publicación. (Give a like to your post.)\\nComparte esta foto con tus amigos. (Share this photo with your friends.)\\n\\nEjemplos:\\n¿Puedes enviarme la dirección? (Can you send me the address?)\\nSí, te la envío ahora. (Yes, I'll send it to you now.)\\nGracias. (Thanks.)\\nDe nada. (You're welcome.)",
+      "examples": [
+        "¿Quieres hacer una videollamada? (Do you want to make a video call?)\\nSí, ahora estoy libre. (Yes, I'm free now.)\\nTe envío el enlace. (I'll send you the link.)",
+        "Mira este vídeo en YouTube. (Look at this video on YouTube.)\\n¡Es muy divertido! (It's very funny!)\\nDale like y suscríbete. (Like it and subscribe.)",
+        "¿Ya viste mi nueva publicación? (Have you seen my new post?)\\nSí, la vi esta mañana. (Yes, I saw it this morning.)\\n¡Muy bonita foto! (What a beautiful photo!)"
+      ]
+    }
+  ],
+  "pronunciation": [
+    {
+      "title": "Technology Vocabulary Pronunciation Guide",
+      "content": "Key technology words with pronunciation:\\n\\nordenador = or-deh-nah-DOR (computer)\\ncomputadora = kohm-poo-tah-DOH-rah (computer)\\nportátil = por-TAH-teeel (laptop)\\nteléfono = teh-LEH-foh-noh (phone)\\npantalla = pahn-TAH-yah (screen)\\nteclado = teh-KLAH-doh (keyboard)\\nratón = rah-TON (mouse)\\nimpresora = em-preh-SOR-ah (printer)\\ncámara = kah-MAH-rah (camera)\\nauriculares = ow-ree-koo-LAH-rehs (headphones)\\ncargador = kar-gah-DOR (charger)\\nbatería = bah-teh-REE-ah (battery)\\ninternet = een-tehr-NET (internet)\\ncontraseña = kohn-trah-SEH-nyah (password)\\nusuario = oo-zoo-AHR-ee-oh (user)\\nmensaje = men-SAH-heh (message)\\nvideollamada = bee-deh-YOH-mah-dah (video call)\\naplicación = ah-plee-kah-see-ON (application)\\ndescargar = des-kar-GAR (to download)\\nnavegar = nah-beh-GAR (to browse)\\ncompartir = kohm-pahr-TEER (to share)\\nenviar = em-BYAR (to send)\\nconexión = koh-nek-see-ON (connection)\\nsituación = see-tyoo-A-see-ON (situation)\\nactualizar = ak-too-ah-lee-SAR (to update)",
+      "examples": [
+        "ordenador = or-deh-nah-DOR\\nportátil = por-TAH-teeel\\nteléfono = teh-LEH-foh-noh\\npantalla = pahn-TAH-yah\\nteclado = teh-KLAH-doh",
+        "internet = een-tehr-NET\\ncontraseña = kohn-trah-SEH-nyah\\nmensaje = men-SAH-heh\\ndescargar = des-kar-GAR\\nnavegar = nah-beh-GAR",
+        "compartir = kohm-pahr-TEER\\nconexión = koh-nek-see-ON\\nactualizar = ak-too-ah-lee-SAR\\nrecibir = reh-see-BEER\\ninstalar = een-stah-LAR"
+      ]
+    },
+    {
+      "title": "Spanish Sounds Relevant to Tech Vocabulary",
+      "content": "Key pronunciation patterns for tech words:\\n\\nSpanish vowels — always consistent:\\nA = ah (like 'fAther')\\nE = eh (like 'thEn')\\nI = ee (like 'sEe')\\nO = oh (like 'sO')\\nU = oo (like 'flOOt')\\n\\nLL as 'y' sound (most regions):\\nvideollamada = bee-deh-YOH-mah-dah (double LL = 'y')\\ncállate = kah-YAH-teh (shut up)\\n\\nÑ = 'ny' sound (like 'caNyOn'):\\ncámara = kah-MAH-rah (no ñ here, but)\\ncompañía = kom-pah-nyAH (company)\\n\\nH = silent (never pronounced):\\nhora = OH-rah (not 'HOH-rah')\\nhablar = ah-BLAR (not 'hab-BLAR')\\n\\nJ = soft 'h' sound (like 'h' in 'hat'):\\nusuario = oo-zoo-AHR-ee-oh (the J sound in -uar)\\n\\nRolling R (trilled R):\\ndescargar = des-kar-GAR (rolled R at end)\\nnavegar = nah-beh-GAR (rolled R at end)\\nordenador = or-deh-nah-DOR (rolled R at start)\\ncomputadora = kohm-poo-tah-DOH-rah (rolled R at end)\\n\\nAccent marks show stress:\\nportátil = por-TAH-teeel (accent on second-to-last syllable)\\nteléfono = teh-LEH-foh-noh (accent on second syllable)\\ncontraseña = kohn-trah-SEH-nyah (accent on third syllable)\\nbatería = bah-teh-REE-ah (accent on third-to-last syllable)\\n\\nCommon pronunciation traps:\\n'Telefon' → 'teléfono' (accent on 'fe')\\n'Wifi' → 'wái-fái' (both syllables accented)\\n'App' → 'áp-i' (A-ppli-ca-ción)\\n'Chat' → 'chát' (like 'shat' in English)\\n'Like' → 'lí-ké' (like the English word, but Spanish pronunciation)",
+      "examples": [
+        "teléfono = teh-LEH-foh-noh (accent on 'fe')\\ncontraseña = kohn-trah-SEH-nyah (accent on 'seh')\\nportátil = por-TAH-teeel (accent on 'ta')",
+        "videollamada = bee-deh-YOH-mah-dah (LL = 'y' sound)\\ncompañía = kom-pah-nyAH (Ñ = 'ny' sound)\\nhabitación = ah-bee-tah-see-ON (H is silent)",
+        "descargar = des-kar-GAR (rolled R)\\nnavegar = nah-beh-GAR (rolled R)\\nordenador = or-deh-nah-DOR (rolled R)",
+        "batería = bah-teh-REE-ah (accent on third-to-last)\\nactualización = ak-too-ah-lee-see-ON (accent on third-to-last)\\ninternet = een-tehr-NET (accent on last syllable)"
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "multiple-choice",
+      "question": "How do you say 'laptop' in Spanish?",
+      "options": ["computadora", "portátil", "tablet", "ordenador"],
+      "correct": 1,
+      "explanation": "Portátil = laptop (portable computer). Computadora = desktop computer (LatAm). Ordenador = computer (Spain). Tablet = tablet."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: '___ un mensaje por WhatsApp. (I sent a message via WhatsApp.)'",
+      "correct": "Envié",
+      "explanation": "Enviar = to send. Preterite yo form: 'envié' = I sent. 'Envié un mensaje por WhatsApp' = I sent a message via WhatsApp."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What does 'descargar' mean?",
+      "options": ["to upload", "to download", "to delete", "to share"],
+      "correct": 1,
+      "explanation": "Descargar = to download. Subir = to upload. Borrar = to delete. Compartir = to share."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: 'La conexión es muy ___. (The connection is very slow.)'",
+      "correct": "lenta",
+      "explanation": "Lento = slow. Feminine form 'lenta' agrees with 'conexión' (feminine). 'La conexión es muy lenta' = The connection is very slow."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "How do you say 'password' in Spanish?",
+      "options": ["usuario", "cuenta", "contraseña", "perfil"],
+      "correct": 2,
+      "explanation": "Contraseña = password. Usuario = user. Cuenta = account. Perfil = profile."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: 'Navego por ___. (I browse the internet.)'",
+      "correct": "internet",
+      "explanation": "Navegar por internet = to browse/surf the internet. 'Navego por internet' = I browse the internet."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What is 'to follow' on social media in Spanish?",
+      "options": ["publicar", "compartir", "seguir", "suscribirse"],
+      "correct": 2,
+      "explanation": "Seguir = to follow (on social media). Publicar = to post. Compartir = to share. Suscribirse = to subscribe."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: 'Tengo buena ___. (I have a good connection.)'",
+      "correct": "conexión",
+      "explanation": "Conexión = connection. 'Tengo buena conexión' = I have a good connection."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What does 'No funciona' mean?",
+      "options": ["It works", "It's not working", "It's slow", "It's broken"],
+      "correct": 1,
+      "explanation": "No funciona = It's not working. Funcionar = to work/function. 'No' = not."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: 'Quiero ___ este vídeo contigo. (I want to share this video with you.)'",
+      "correct": "compartir",
+      "explanation": "Compartir = to share. 'Contigo' = with you (informal). 'Quiero compartir este vídeo contigo' = I want to share this video with you."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "How do you say 'wireless' in Spanish?",
+      "options": ["digital", "inalámbrico", "electrónico", "online"],
+      "correct": 1,
+      "explanation": "Inalámbrico = wireless. Digital = digital. Electrónico = electronic. Online = online."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: 'Mi teléfono está ___. (My phone is charging.)'",
+      "correct": "cargando",
+      "explanation": "Estar + gerund = to be in the process of. Cargar = to charge. 'Mi teléfono está cargando' = My phone is charging."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What is 'hard drive' in Spanish?",
+      "options": ["memoria USB", "disco duro", "carpeta", "archivo"],
+      "correct": 1,
+      "explanation": "Disco duro = hard drive. Memoria USB = USB drive. Carpeta = folder. Archivo = file."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: '___ la computadora. (Restart the computer.)'",
+      "correct": "Reinicia",
+      "explanation": "Reiniciar = to restart. Imperative (tú form): 'Reinicia la computadora' = Restart the computer."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What does 'videollamada' mean?",
+      "options": ["phone call", "text message", "video call", "chat room"],
+      "correct": 2,
+      "explanation": "Videollamada = video call (video + llamada/call). Phone call = llamada de teléfono. Text message = mensaje de texto."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: '___ el archivo en la carpeta. (Save the file in the folder.)'",
+      "correct": "Guardo",
+      "explanation": "Guardar = to save. Yo form: 'Guardo'. 'Guardo el archivo en la carpeta' = I save the file in the folder."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "How do you say 'turn off' (a device) in Spanish?",
+      "options": ["encender", "apagar", "reiniciar", "cerrar"],
+      "correct": 1,
+      "explanation": "Apagar = to turn off. Encender = to turn on. Reiniciar = to restart. Cerrar = to close."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: '¿Puedes ayudarme? ¿No ___? (Can you help me? It's not working?)'",
+      "correct": "funciona",
+      "explanation": "Funcionar = to work/function. 'No funciona' = It's not working. Third person singular present form."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What is 'airplane mode' in Spanish?",
+      "options": ["modo apagado", "modo avión", "modo silencio", "modo wifi"],
+      "correct": 1,
+      "explanation": "Modo avión = airplane mode. Modo apagado = off mode. Modo silencio = silent mode. Modo wifi = Wi-Fi mode."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: 'Tengo una cuenta en ___. (I have an account on Instagram.)'",
+      "correct": "Instagram",
+      "explanation": "Cuenta = account. 'Tengo una cuenta en Instagram' = I have an account on Instagram. Many social media names are the same in Spanish."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What does 'actualizar' mean?",
+      "options": ["to delete", "to update", "to install", "to copy"],
+      "correct": 1,
+      "explanation": "Actualizar = to update. Borrar = to delete. Instalar = to install. Copiar = to copy."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: 'Instalé el ___ ayer. (I installed the program yesterday.)'",
+      "correct": "programa",
+      "explanation": "Programa = program. 'Instalé el programa ayer' = I installed the program yesterday. Preterite 'instalé' = I installed."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What is 'signal' in Spanish?",
+      "options": ["señal", "enlace", "conexión", "cable"],
+      "correct": 0,
+      "explanation": "Señal = signal. Enlace = link. Conexión = connection. Cable = cable."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: '___ la contraseña. (Change the password.)'",
+      "correct": "Cambia",
+      "explanation": "Cambiar = to change. Imperative (tú form): 'Cambia la contraseña' = Change the password."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "How do you say 'to open' a file in Spanish?",
+      "options": ["cerrar", "abrir", "guardar", "copiar"],
+      "correct": 1,
+      "explanation": "Abrir = to open. Cerrar = to close. Guardar = to save. Copiar = to copy."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: 'No tengo ___. (I have no signal.)'",
+      "correct": "señal",
+      "explanation": "Señal = signal. 'No tengo señal' = I have no signal. Tengo = I have (from tener)."
+    }
+  ]
+}

@@ -1,0 +1,163 @@
+{
+  "id": "cultural-references",
+  "title": "Cultural References & Proverbs",
+  "description": "Spanish and Latin American cultural knowledge, proverbs, and shared references.",
+  "vocabulary": [
+    { "id": 1, "target": "el refrán", "source": "proverb", "gender": "m.", "type": "noun" },
+    { "id": 2, "target": "el dicho", "source": "saying", "gender": "m.", "type": "noun" },
+    { "id": 3, "target": "la expresión popular", "source": "popular expression", "gender": "f.", "type": "noun" },
+    { "id": 4, "target": "la tradición", "source": "tradition", "gender": "f.", "type": "noun" },
+    { "id": 5, "target": "la costumbre", "source": "custom / habit", "gender": "f.", "type": "noun" },
+    { "id": 6, "target": "la cultura", "source": "culture", "gender": "f.", "type": "noun" },
+    { "id": 7, "target": "la herencia cultural", "source": "cultural heritage", "gender": "f.", "type": "noun" },
+    { "id": 8, "target": "el folclore", "source": "folklore", "gender": "m.", "type": "noun" },
+    { "id": 9, "target": "la gastronomía", "source": "gastronomy / cuisine", "gender": "f.", "type": "noun" },
+    { "id": 10, "target": "el flamenco", "source": "flamenco", "gender": "m.", "type": "noun" },
+    { "id": 11, "target": "la corrida de toros", "source": "bullfighting", "gender": "f.", "type": "noun" },
+    { "id": 12, "target": "el Día de los Muertos", "source": "Day of the Dead", "gender": "m.", "type": "noun" },
+    { "id": 13, "target": "la siesta", "source": "siesta", "gender": "f.", "type": "noun" },
+    { "id": 14, "target": "el tapeo", "source": "bar-hopping for tapas", "gender": "m.", "type": "noun" },
+    { "id": 15, "target": "el mate", "source": "mate (South American tea)", "gender": "m.", "type": "noun" },
+    { "id": 16, "target": "la paella", "source": "paella", "gender": "f.", "type": "noun" },
+    { "id": 17, "target": "el asado", "source": "barbecue / roast", "gender": "m.", "type": "noun" },
+    { "id": 18, "target": "el tango", "source": "tango", "gender": "m.", "type": "noun" },
+    { "id": 19, "target": "la salsa latina", "source": "Latin salsa", "gender": "f.", "type": "noun" },
+    { "id": 20, "target": "el candombe", "source": "candombe (Uruguayan rhythm)", "gender": "m.", "type": "noun" },
+    { "id": 21, "target": "el muralismo", "source": "muralism (Mexican art movement)", "gender": "m.", "type": "noun" },
+    { "id": 22, "target": "el Boom latinoamericano", "source": "Latin American Boom", "gender": "m.", "type": "noun" },
+    { "id": 23, "target": "el realismo mágico", "source": "magical realism", "gender": "m.", "type": "noun" },
+    { "id": 24, "target": "la literatura latinoamericana", "source": "Latin American literature", "gender": "f.", "type": "noun" },
+    { "id": 25, "target": "Gabriel García Márquez", "source": "Gabriel García Márquez", "gender": "—", "type": "name" },
+    { "id": 26, "target": "Pablo Neruda", "source": "Pablo Neruda", "gender": "—", "type": "name" },
+    { "id": 27, "target": "Jorge Luis Borges", "source": "Jorge Luis Borges", "gender": "—", "type": "name" },
+    { "id": 28, "target": "Isabel Allende", "source": "Isabel Allende", "gender": "—", "type": "name" },
+    { "id": 29, "target": "Frida Kahlo", "source": "Frida Kahlo", "gender": "—", "type": "name" },
+    { "id": 30, "target": "Pablo Picasso", "source": "Pablo Picasso", "gender": "—", "type": "name" },
+    { "id": 31, "target": "el orgullo gay", "source": "gay pride", "gender": "m.", "type": "noun" },
+    { "id": 32, "target": "la fiesta nacional", "source": "national holiday", "gender": "f.", "type": "noun" },
+    { "id": 33, "target": "el carnaval", "source": "carnival", "gender": "m.", "type": "noun" },
+    { "id": 34, "target": "la feria", "source": "fair / festival", "gender": "f.", "type": "noun" },
+    { "id": 35, "target": "el románico", "source": "Romanesque (architecture)", "gender": "m.", "type": "noun" },
+    { "id": 36, "target": "el gótico", "source": "Gothic (architecture)", "gender": "m.", "type": "noun" },
+    { "id": 37, "target": "el modernismo", "source": "modernism (art/literature)", "gender": "m.", "type": "noun" },
+    { "id": 38, "target": "el arte popular", "source": "folk art", "gender": "m.", "type": "noun" },
+    { "id": 39, "target": "la artesanía", "source": "handicraft / craftsmanship", "gender": "f.", "type": "noun" },
+    { "id": 40, "target": "la identidad cultural", "source": "cultural identity", "gender": "f.", "type": "noun" }
+  ],
+  "grammar": [
+    {
+      "title": "Proverbs — Structure and Usage",
+      "content": "Spanish proverbs are a rich part of the language. They are short, memorable sayings that express wisdom or advice.\n\nCommon proverb structures:\n- A quien madruga... (He who rises early...)\n- Más vale... que... (Better... than...)\n- A cada uno le gusta... (Everyone likes...)\n- No hay... como... (There is nothing like...)\n- Ojo al... (Watch out for...)\n\nClassic Spanish proverbs:\n- A quien madruga, Dios le ayuda. (Early bird gets the blessing.)\n- Más vale pájaro en mano que ciento volando. (A bird in the hand is worth two in the bush.)\n- A mal paso, darle prisa. (When in a bad situation, hurry through it.)\n- El que la sigue, la consigue. (If you keep after it, you'll get it.)\n- No por mucho madrugar amanece más temprano. (Just because you wake early doesn't mean dawn comes sooner.)\n- Cada oveja con su pareja. (Like attracts like.)\n\nUsage:\n- As advice: 'No te preocupes, que a quien madruga, Dios le ayuda.'\n- As a warning: 'Ten cuidado, que no por mucho madrugar amanece más temprano.'\n- To describe a situation: 'Son muy parecidos — cada oveja con su pareja.'",
+      "examples": [
+        "Cuando le dije que fuera a comprar, me contestó: 'Más vale pájaro en mano que ciento volando.'",
+        "Siempre llega tarde a todo. Le dije que a cada uno le gusta lo que le gusta.",
+        "Cuando tuvo un problema, respondió: 'A mal paso, darle prisa.'",
+        "Es tan perfeccionista que su madre diría: 'Cada oveja con su pareja.'"
+      ],
+      "aid_note": "Romanian proverbs are similar: 'Cine se scoală de dimineață, Dumnezeu îi dă...' (He who wakes early, God gives him...), 'Mai bine un păsăre în mână decât zece pe câmp' (Better a bird in hand than ten in the field). Spanish and Romanian share many Latin-derived proverbs."
+    },
+    {
+      "title": "Cultural References in Conversation",
+      "content": "Cultural references are used as shorthand in Spanish-speaking cultures. Understanding them is essential for natural conversation.\n\nCommon reference patterns:\n- 'Esto es como...' (This is like...) — comparing to a cultural touchstone\n- 'Al estilo de...' (In the style of...) — referencing a cultural figure\n- 'Del mismo modo que...' (In the same way that...) — drawing cultural parallels\n\nKey cultural touchstones:\n- 'García Márquez' = magic realism, Latin American literature\n- 'Picasso' = revolutionary art, innovation\n- 'Frida Kahlo' = Mexican identity, art, pain, feminism\n- 'El tango' = Argentine culture, passion, dance\n- 'El Día de los Muertos' = Mexican tradition, family, life/death\n\nUsing cultural references:\n- 'Su enfoque es muy García Márquez: mezcla lo real con lo fantástico.'\n- 'Ese diseño es muy Frida: fuerte, personal, lleno de simbolismo.'\n- 'La relación es como el tango: avanza y retrocede.'\n\nTip: Cultural references vary by region. A reference familiar in Spain may be unknown in Argentina, and vice versa.",
+      "examples": [
+        "Su novela tiene un toque muy García Márquez: lo mágico se mezcla con lo cotidiano.",
+        "Ese proyecto es muy Picasso: rompe con todas las convenciones.",
+        "Su vida es como el tango: llena de pasión y contrastes.",
+        "Esa tradición me recuerda al Día de los Muertos: honra a los que se fueron."
+      ],
+      "aid_note": "Romanian cultural references include: Eminescu (poetry), Brâncuși (sculpture), Ionesco (theater), Noica (philosophy). The pattern is the same: using famous cultural figures as shorthand for concepts."
+    }
+  ],
+  "pronunciation": [
+    {
+      "title": "Cultural Terms — Stress & Pronunciation",
+      "content": "Cultural vocabulary in Spanish has distinctive pronunciation patterns that signal register and origin.\n\nKey patterns:\n- 'flamenco' (fla-MEN-ko) — stress on penultimate, aguda ending in -o\n- 'tango' (TAN-go) — stress on first syllable, aguda ending in -o\n- 'salsa' (SAL-sa) — stress on first syllable, aguda ending in -a\n- 'muralismo' (mu-ra-LIS-mo) — stress on penultimate\n- 'gastronomía' (gas-tro-no-MÍ-ah) — esdrújula\n- 'carnaval' (car-na-BAL) — aguda ending in -l\n\nPractice:\n- 'El flamenco es una expresión artística de Andalucía.'\n- 'El tango es el baile más representativo de Argentina.'\n- 'El Día de los Muertos es una tradición mexicana.'\n\nTip: Spanish has 5 pure vowels (a, e, i, o, u). In cultural terms, watch for diphthongs: 'ta-ngo' (ta-ngo, not ta-an-go), 'car-na-val' (car-na-val, not car-na-va-al).",
+      "examples": [
+        { "target": "flamenco", "source": "fla-MEN-ko (stress on MEN)" },
+        { "target": "gastronomía", "source": "gas-tro-no-MÍ-ah (esdrújula)" },
+        { "target": "carnaval", "source": "car-na-BAL (stress on BAL)" }
+      ],
+      "aid_note": "Romanian cultural terms follow Romanian stress rules. Spanish has more varied stress patterns, especially with esdrújulas."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "matching",
+      "question": "Match the cultural term to its origin:",
+      "pairs": [
+        { "target": "el flamenco", "source": "Andalusia, Spain" },
+        { "target": "el tango", "source": "Argentina / Uruguay" },
+        { "target": "el Día de los Muertos", "source": "Mexico" },
+        { "target": "el mate", "source": "Argentina / Uruguay / Paraguay" }
+      ],
+      "explanation": "These cultural terms are iconic to their respective regions."
+    },
+    {
+      "type": "exercise",
+      "question": "What does 'Más vale pájaro en mano que ciento volando' mean?",
+      "options": [
+        "The early bird catches the worm",
+        "A bird in the hand is worth two in the bush",
+        "Don't count your chickens before they hatch",
+        "Better safe than sorry"
+      ],
+      "correct": 1,
+      "explanation": "This proverb means it's better to have something certain than to risk it for something uncertain."
+    },
+    {
+      "type": "exercise",
+      "question": "What is 'el realismo mágico'?",
+      "options": [
+        "A photography style",
+        "A literary movement blending reality and fantasy",
+        "A painting technique",
+        "A musical genre"
+      ],
+      "correct": 1,
+      "explanation": "'El realismo mágico' = magical realism — a literary genre that presents magical events as ordinary reality, pioneered by Latin American writers."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete the proverb: 'A quien _____, Dios le ayuda.' (He who rises early, God helps him.)",
+      "correct": "madruga",
+      "explanation": "'A quien madruga, Dios le ayuda' = He who rises early gets God's blessing."
+    },
+    {
+      "type": "exercise",
+      "question": "Who wrote 'One Hundred Years of Solitude'?",
+      "options": ["Jorge Luis Borges", "Pablo Neruda", "Gabriel García Márquez", "Isabel Allende"],
+      "correct": 2,
+      "explanation": "Gabriel García Márquez wrote 'One Hundred Years of Solitude', a masterpiece of magical realism."
+    },
+    {
+      "type": "exercise",
+      "question": "What does 'cada oveja con su pareja' mean?",
+      "options": [
+        "Each sheep with its partner (like attracts like)",
+        "Farming advice",
+        "A biblical verse",
+        "A children's song"
+      ],
+      "correct": 0,
+      "explanation": "This proverb means 'like attracts like' — people tend to associate with similar people."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: 'Ese estilo es muy _____: mezcla lo real con lo fantástico.'",
+      "correct": "García Márquez",
+      "explanation": "García Márquez is synonymous with magical realism — the blending of reality and fantasy."
+    },
+    {
+      "type": "exercise",
+      "question": "What is 'el tapeo'?",
+      "options": [
+        "A type of dance",
+        "Going from bar to bar eating tapas",
+        "A traditional meal",
+        "A type of bread"
+      ],
+      "correct": 1,
+      "explanation": "'El tapeo' = going from bar to bar, stopping at each one to eat tapas. It's a quintessential Spanish social activity."
+    }
+  ]
+}

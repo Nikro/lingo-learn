@@ -1,0 +1,835 @@
+{
+  "id": "shopping-prices",
+  "level": "a1-2",
+  "title": "Shopping & Prices",
+  "description": "Learn to shop in Spanish, ask about prices, compare products, and handle transactions at stores and markets.",
+  "vocabulary": [
+    {
+      "id": 1,
+      "target": "tienda",
+      "source": "store",
+      "gender": "f",
+      "type": "store"
+    },
+    {
+      "id": 2,
+      "target": "supermercado",
+      "source": "supermarket",
+      "gender": "m",
+      "type": "store"
+    },
+    {
+      "id": 3,
+      "target": "panadería",
+      "source": "bakery",
+      "gender": "f",
+      "type": "store"
+    },
+    {
+      "id": 4,
+      "target": "carnicería",
+      "source": "butcher shop",
+      "gender": "f",
+      "type": "store"
+    },
+    {
+      "id": 5,
+      "target": "frutería",
+      "source": "fruit shop",
+      "gender": "f",
+      "type": "store"
+    },
+    {
+      "id": 6,
+      "target": "verdulería",
+      "source": "vegetable shop",
+      "gender": "f",
+      "type": "store"
+    },
+    {
+      "id": 7,
+      "target": "ferretería",
+      "source": "hardware store",
+      "gender": "f",
+      "type": "store"
+    },
+    {
+      "id": 8,
+      "target": "zapatería",
+      "source": "shoe store",
+      "gender": "f",
+      "type": "store"
+    },
+    {
+      "id": 9,
+      "target": "librería",
+      "source": "bookstore",
+      "gender": "f",
+      "type": "store"
+    },
+    {
+      "id": 10,
+      "target": "farmacia",
+      "source": "pharmacy",
+      "gender": "f",
+      "type": "store"
+    },
+    {
+      "id": 11,
+      "target": "compra",
+      "source": "purchase/shopping",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 12,
+      "target": "precio",
+      "source": "price",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 13,
+      "target": "oferta",
+      "source": "sale/deal",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 14,
+      "target": "descuento",
+      "source": "discount",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 15,
+      "target": "rebaja",
+      "source": "reduction",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 16,
+      "target": "cartera",
+      "source": "wallet",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 17,
+      "target": "dinero",
+      "source": "money",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 18,
+      "target": "billete",
+      "source": "banknote",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 19,
+      "target": "moneda",
+      "source": "coin",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 20,
+      "target": "tarjeta",
+      "source": "card",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 21,
+      "target": "tarjeta de crédito",
+      "source": "credit card",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 22,
+      "target": "tarjeta de débito",
+      "source": "debit card",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 23,
+      "target": "efectivo",
+      "source": "cash",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 24,
+      "target": "cambio",
+      "source": "change",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 25,
+      "target": "recibo",
+      "source": "receipt",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 26,
+      "target": "factura",
+      "source": "invoice",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 27,
+      "target": "carrito",
+      "source": "shopping cart",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 28,
+      "target": "bolsa",
+      "source": "bag",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 29,
+      "target": "envoltorio",
+      "source": "wrapping",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 30,
+      "target": "etiqueta",
+      "source": "label/tag",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 31,
+      "target": "pequeño",
+      "source": "small",
+      "gender": "m",
+      "type": "size"
+    },
+    {
+      "id": 32,
+      "target": "pequeña",
+      "source": "small (f)",
+      "gender": "f",
+      "type": "size"
+    },
+    {
+      "id": 33,
+      "target": "mediano",
+      "source": "medium",
+      "gender": "m",
+      "type": "size"
+    },
+    {
+      "id": 34,
+      "target": "grande",
+      "source": "large",
+      "gender": "m",
+      "type": "size"
+    },
+    {
+      "id": 35,
+      "target": "extra grande",
+      "source": "extra large",
+      "gender": "m",
+      "type": "size"
+    },
+    {
+      "id": 36,
+      "target": "talla",
+      "source": "size",
+      "gender": "f",
+      "type": "size"
+    },
+    {
+      "id": 37,
+      "target": "talla pequeña",
+      "source": "small size",
+      "gender": "f",
+      "type": "size"
+    },
+    {
+      "id": 38,
+      "target": "talla mediana",
+      "source": "medium size",
+      "gender": "f",
+      "type": "size"
+    },
+    {
+      "id": 39,
+      "target": "talla grande",
+      "source": "large size",
+      "gender": "f",
+      "type": "size"
+    },
+    {
+      "id": 40,
+      "target": "talla extra grande",
+      "source": "extra large size",
+      "gender": "f",
+      "type": "size"
+    },
+    {
+      "id": 41,
+      "target": "rojo",
+      "source": "red",
+      "gender": "m",
+      "type": "color"
+    },
+    {
+      "id": 42,
+      "target": "azul",
+      "source": "blue",
+      "gender": "m",
+      "type": "color"
+    },
+    {
+      "id": 43,
+      "target": "verde",
+      "source": "green",
+      "gender": "m",
+      "type": "color"
+    },
+    {
+      "id": 44,
+      "target": "negro",
+      "source": "black",
+      "gender": "m",
+      "type": "color"
+    },
+    {
+      "id": 45,
+      "target": "blanco",
+      "source": "white",
+      "gender": "m",
+      "type": "color"
+    },
+    {
+      "id": 46,
+      "target": "gris",
+      "source": "gray",
+      "gender": "m",
+      "type": "color"
+    },
+    {
+      "id": 47,
+      "target": "marrón",
+      "source": "brown",
+      "gender": "m",
+      "type": "color"
+    },
+    {
+      "id": 48,
+      "target": "rosa",
+      "source": "pink",
+      "gender": "f",
+      "type": "color"
+    },
+    {
+      "id": 49,
+      "target": "naranja",
+      "source": "orange",
+      "gender": "f",
+      "type": "color"
+    },
+    {
+      "id": 50,
+      "target": "amarillo",
+      "source": "yellow",
+      "gender": "m",
+      "type": "color"
+    },
+    {
+      "id": 51,
+      "target": "cuánto cuesta",
+      "source": "how much does it cost",
+      "gender": "m",
+      "type": "expression"
+    },
+    {
+      "id": 52,
+      "target": "cuánto valen",
+      "source": "how much are they",
+      "gender": "m",
+      "type": "expression"
+    },
+    {
+      "id": 53,
+      "target": "me gustaría comprar",
+      "source": "I would like to buy",
+      "gender": "m",
+      "type": "expression"
+    },
+    {
+      "id": 54,
+      "target": "tengo que pagar",
+      "source": "I have to pay",
+      "gender": "m",
+      "type": "expression"
+    },
+    {
+      "id": 55,
+      "target": "puedo pagar con tarjeta",
+      "source": "can I pay by card",
+      "gender": "m",
+      "type": "expression"
+    },
+    {
+      "id": 56,
+      "target": "tengo que dar un regalo",
+      "source": "I need to give a gift",
+      "gender": "m",
+      "type": "expression"
+    },
+    {
+      "id": 57,
+      "target": "dónde está",
+      "source": "where is",
+      "gender": "m",
+      "type": "expression"
+    },
+    {
+      "id": 58,
+      "target": "dónde están",
+      "source": "where are",
+      "gender": "m",
+      "type": "expression"
+    },
+    {
+      "id": 59,
+      "target": "me puede ayudar",
+      "source": "can you help me",
+      "gender": "m",
+      "type": "expression"
+    },
+    {
+      "id": 60,
+      "target": "necesito esto",
+      "source": "I need this",
+      "gender": "m",
+      "type": "expression"
+    },
+    {
+      "id": 61,
+      "target": "ropa",
+      "source": "clothing",
+      "gender": "f",
+      "type": "item"
+    },
+    {
+      "id": 62,
+      "target": "zapatos",
+      "source": "shoes",
+      "gender": "m",
+      "type": "item"
+    },
+    {
+      "id": 63,
+      "target": "camisa",
+      "source": "shirt",
+      "gender": "f",
+      "type": "item"
+    },
+    {
+      "id": 64,
+      "target": "pantalón",
+      "source": "pants",
+      "gender": "m",
+      "type": "item"
+    },
+    {
+      "id": 65,
+      "target": "vestido",
+      "source": "dress",
+      "gender": "m",
+      "type": "item"
+    },
+    {
+      "id": 66,
+      "target": "falda",
+      "source": "skirt",
+      "gender": "f",
+      "type": "item"
+    },
+    {
+      "id": 67,
+      "target": "chaqueta",
+      "source": "jacket",
+      "gender": "f",
+      "type": "item"
+    },
+    {
+      "id": 68,
+      "target": "abrigo",
+      "source": "coat",
+      "gender": "m",
+      "type": "item"
+    },
+    {
+      "id": 69,
+      "target": "sombrero",
+      "source": "hat",
+      "gender": "m",
+      "type": "item"
+    },
+    {
+      "id": 70,
+      "target": "bolso",
+      "source": "bag",
+      "gender": "m",
+      "type": "item"
+    },
+    {
+      "id": 71,
+      "target": "cinturon",
+      "source": "belt",
+      "gender": "m",
+      "type": "item"
+    },
+    {
+      "id": 72,
+      "target": "corbata",
+      "source": "tie",
+      "gender": "f",
+      "type": "item"
+    },
+    {
+      "id": 73,
+      "target": "bufanda",
+      "source": "scarf",
+      "gender": "f",
+      "type": "item"
+    },
+    {
+      "id": 74,
+      "target": "guantes",
+      "source": "gloves",
+      "gender": "m",
+      "type": "item"
+    },
+    {
+      "id": 75,
+      "target": "calcetin",
+      "source": "sock",
+      "gender": "m",
+      "type": "item"
+    },
+    {
+      "id": 76,
+      "target": "medias",
+      "source": "stockings",
+      "gender": "f",
+      "type": "item"
+    },
+    {
+      "id": 77,
+      "target": "ropa interior",
+      "source": "underwear",
+      "gender": "f",
+      "type": "item"
+    },
+    {
+      "id": 78,
+      "target": "pijama",
+      "source": "pajamas",
+      "gender": "m",
+      "type": "item"
+    },
+    {
+      "id": 79,
+      "target": "traje",
+      "source": "suit",
+      "gender": "m",
+      "type": "item"
+    },
+    {
+      "id": 80,
+      "target": "corona",
+      "source": "crown",
+      "gender": "f",
+      "type": "item"
+    },
+    {
+      "id": 81,
+      "target": "libro",
+      "source": "book",
+      "gender": "m",
+      "type": "item"
+    },
+    {
+      "id": 82,
+      "target": "revista",
+      "source": "magazine",
+      "gender": "f",
+      "type": "item"
+    },
+    {
+      "id": 83,
+      "target": "cuaderno",
+      "source": "notebook",
+      "gender": "m",
+      "type": "item"
+    },
+    {
+      "id": 84,
+      "target": "lapiz",
+      "source": "pencil",
+      "gender": "m",
+      "type": "item"
+    },
+    {
+      "id": 85,
+      "target": "boligrafo",
+      "source": "pen",
+      "gender": "m",
+      "type": "item"
+    },
+    {
+      "id": 86,
+      "target": "papel",
+      "source": "paper",
+      "gender": "m",
+      "type": "item"
+    },
+    {
+      "id": 87,
+      "target": "cartulina",
+      "source": "cardboard",
+      "gender": "f",
+      "type": "item"
+    },
+    {
+      "id": 88,
+      "target": "lana",
+      "source": "yarn",
+      "gender": "f",
+      "type": "item"
+    },
+    {
+      "id": 89,
+      "target": "hilo",
+      "source": "thread",
+      "gender": "m",
+      "type": "item"
+    },
+    {
+      "id": 90,
+      "target": "aguja",
+      "source": "needle",
+      "gender": "f",
+      "type": "item"
+    },
+    {
+      "id": 91,
+      "target": "boton",
+      "source": "button",
+      "gender": "m",
+      "type": "item"
+    },
+    {
+      "id": 92,
+      "target": "cierre",
+      "source": "zipper",
+      "gender": "m",
+      "type": "item"
+    },
+    {
+      "id": 93,
+      "target": "cordon",
+      "source": "cord/lace",
+      "gender": "m",
+      "type": "item"
+    },
+    {
+      "id": 94,
+      "target": "suela",
+      "source": "sole",
+      "gender": "f",
+      "type": "item"
+    },
+    {
+      "id": 95,
+      "target": "tacón",
+      "source": "heel",
+      "gender": "m",
+      "type": "item"
+    },
+    {
+      "id": 96,
+      "target": "plataforma",
+      "source": "platform",
+      "gender": "f",
+      "type": "item"
+    },
+    {
+      "id": 97,
+      "target": "madera",
+      "source": "wood",
+      "gender": "f",
+      "type": "item"
+    },
+    {
+      "id": 98,
+      "target": "plastico",
+      "source": "plastic",
+      "gender": "m",
+      "type": "item"
+    },
+    {
+      "id": 99,
+      "target": "metal",
+      "source": "metal",
+      "gender": "m",
+      "type": "item"
+    },
+    {
+      "id": 100,
+      "target": "cristal",
+      "source": "glass",
+      "gender": "m",
+      "type": "item"
+    }
+  ],
+  "grammar": [
+    {
+      "title": "¿Cuánto? — Asking About Prices",
+      "content": "How to ask about prices:\n\n¿Cuánto cuesta? (How much does it cost?) — singular\n¿Cuánto cuestan? (How much do they cost?) — plural\n\nExample:\n¿Cuánto cuesta este libro? (How much does this book cost?)\nCuestan diez euros. (They cost ten euros.)\n¿Cuánto vale esta camisa? (How much does this shirt cost?)\nValen quince euros. (They cost fifteen euros.)\n\nOther expressions:\n¿Cuánto es? (How much is it?) — total bill\n¿Cuánto es todo? (How much is everything?)\nSon cincuenta euros. (It's fifty euros.)",
+      "examples": [
+        "¿Cuánto cuesta este libro? (How much does this book cost?)\nCuestan diez euros. (They cost ten euros.)\n¿Cuánto vale esta camisa? (How much does this shirt cost?)\nValen quince euros. (They cost fifteen euros.)\n¿Cuánto es? (How much is it?)\nSon cincuenta euros. (It's fifty euros.)",
+        "¿Cuánto cuesta el pan? (How much does the bread cost?)\nCuesta un euro. (It costs one euro.)\n¿Cuánto cuestan las manzanas? (How much do the apples cost?)\nCuestan dos euros. (They cost two euros.)"
+      ]
+    },
+    {
+      "title": "Shopping Expressions",
+      "content": "Common shopping phrases:\n\nMe gustaría comprar... (I would like to buy...)\nTengo que comprar... (I have to buy...)\nQuiero... (I want...)\nNecesito... (I need...)\n\nAsking for help:\n¿Me puede ayudar? (Can you help me?)\n¿Dónde está...? (Where is...?)\n¿Dónde están...? (Where are...?)\n\nPaying:\n¿Puedo pagar con tarjeta? (Can I pay by card?)\n¿Aceptan tarjeta de crédito? (Do you accept credit cards?)\nMe da el cambio? (Can you give me change?)\n\nReturns:\nQuiero devolver esto. (I want to return this.)\nNo me gusta. (I don't like it.)\nEs muy caro. (It's too expensive.)\nEs muy barato. (It's too cheap.)\n¿Puedo cambiar esto? (Can I exchange this?)",
+      "examples": [
+        "Me gustaría comprar esto. (I would like to buy this.)\nTengo que comprar pan. (I have to buy bread.)\nQuiero una camisa. (I want a shirt.)\nNecesito agua. (I need water.)\n¿Me puede ayudar? (Can you help me?)\n¿Dónde está el pan? (Where is the bread?)\n¿Puedo pagar con tarjeta? (Can I pay by card?)",
+        "Quiero devolver esto. (I want to return this.)\nNo me gusta. (I don't like it.)\nEs muy caro. (It's too expensive.)\nEs muy barato. (It's too cheap.)\nMe da el cambio? (Can you give me change?)\n¿Puedo cambiar esto? (Can I exchange this?)"
+      ]
+    },
+    {
+      "title": "Comparando Productos",
+      "content": "How to compare products:\n\nEste es más caro que ese. (This one is more expensive than that one.)\nEse es más barato que este. (That one is cheaper than this one.)\nEste es mejor que ese. (This one is better than that one.)\nEse es peor que este. (That one is worse than this one.)\n\nComparando tallas:\nEste es pequeño. (This one is small.)\nEse es mediano. (That one is medium.)\nEse es grande. (That one is large.)\nEste es más pequeño que ese. (This one is smaller than that one.)\nEse es más grande que este. (That one is bigger than this one.)\n\nComparando colores:\nEste es rojo. (This one is red.)\nEse es azul. (That one is blue.)\nEste es más bonito que ese. (This one is prettier than that one.)",
+      "examples": [
+        "Este es más caro que ese. (This one is more expensive than that one.)\nEse es más barato que este. (That one is cheaper than this one.)\nEste es mejor que ese. (This one is better than that one.)\nEse es peor que este. (That one is worse than this one.)",
+        "Este es pequeño. (This one is small.)\nEse es mediano. (That one is medium.)\nEse es grande. (That one is large.)\nEste es más pequeño que ese. (This one is smaller than that one.)\nEse es más grande que este. (That one is bigger than this one.)"
+      ]
+    }
+  ],
+  "pronunciation": [
+    {
+      "title": "Shopping Vocabulary Pronunciation",
+      "content": "tienda = TYEN-dah (store)\nsupermercado = soo-pehr-mahr-KAH-doh (supermarket)\npanadería = pah-nah-deh-REE-ah (bakery)\ncarnicería = kah-nee-seh-REE-ah (butcher shop)\nfrutería = foo-roo-TEH-ree-ah (fruit shop)\nverdulería = behr-doo-LEH-ree-ah (vegetable shop)\nferretería = fehr-reh-TEH-ree-ah (hardware store)\nzapatería = sah-pah-TEH-ree-ah (shoe store)\nlibrería = lee-breh-REE-ah (bookstore)\nfarmacia = fahr-MAH-see-ah (pharmacy)\ncompra = KOM-prah (purchase)\nprecio = PREE-see-oh (price)\noferta = oh-FER-tah (sale)\ndescuento = des-KWEHN-toh (discount)\ncartera = kahr-TEH-rah (wallet)\ndinero = dee-NEH-roh (money)\nbillete = bee-YEH-teh (banknote)\nmoneda = moh-NEH-dah (coin)\ntarjeta = tar-HEH-tah (card)\nrecibo = reh-SEE-boh (receipt)",
+      "examples": [
+        "tienda = TYEN-dah\nsupermercado = soo-pehr-mahr-KAH-doh\npanadería = pah-nah-deh-REE-ah\ncarnicería = kah-nee-seh-REE-ah\nfrutería = foo-roo-TEH-ree-ah\nverdulería = behr-doo-LEH-ree-ah\nferretería = fehr-reh-TEH-ree-ah\nzapatería = sah-pah-TEH-ree-ah\nlibrería = lee-breh-REE-ah\nfarmacia = fahr-MAH-see-ah\ncompra = KOM-prah\nprecio = PREE-see-oh\noferta = oh-FER-tah\ndescuento = des-KWEHN-toh\ncartera = kahr-TEH-rah\ndinero = dee-NEH-roh\nbillete = bee-YEH-teh\nmoneda = moh-NEH-dah\ntarjeta = tar-HEH-tah\nrecibo = reh-SEE-boh"
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "multiple-choice",
+      "question": "What is store in Spanish?",
+      "options": [
+        "panadería",
+        "tienda",
+        "carnicería",
+        "frutería"
+      ],
+      "correct": 1,
+      "explanation": "Tienda = store. Panadería = bakery. Carnicería = butcher shop. Frutería = fruit shop."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "How do you ask how much something costs?",
+      "options": [
+        "¿Cuánto es?",
+        "¿Cuánto cuesta?",
+        "¿Cuánto valen?",
+        "¿Cuánto son?"
+      ],
+      "correct": 1,
+      "explanation": "¿Cuánto cuesta? = How much does it cost? (singular). ¿Cuánto cuestan? = How much do they cost? (plural)."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What does descuento mean?",
+      "options": [
+        "sale",
+        "discount",
+        "price",
+        "return"
+      ],
+      "correct": 1,
+      "explanation": "Descuento = discount. Oferta = sale. Precio = price. Devolución = return."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: ___ este libro? (How much does this book cost?)",
+      "correct": "Cuánto cuesta",
+      "explanation": "¿Cuánto cuesta? = How much does it cost? (singular)."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: Puedo pagar con ___. (Can I pay by card?)",
+      "correct": "tarjeta",
+      "explanation": "Puedo pagar con tarjeta = Can I pay by card?"
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: Este es ___ que ese. (This one is more expensive than that one.)",
+      "correct": "más caro",
+      "explanation": "Más caro = more expensive. Este es más caro que ese = This one is more expensive than that one."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What is bakery in Spanish?",
+      "options": [
+        "tienda",
+        "panadería",
+        "carnicería",
+        "frutería"
+      ],
+      "correct": 1,
+      "explanation": "Panadería = bakery. Tienda = store. Carnicería = butcher shop. Frutería = fruit shop."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: ___, ¿me puede ayudar? (Excuse me, can you help me?)",
+      "correct": "Disculpe",
+      "explanation": "Disculpe = Excuse me. Disculpe, ¿me puede ayudar? = Excuse me, can you help me? (formal)."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What does oferta mean?",
+      "options": [
+        "discount",
+        "sale",
+        "price",
+        "return"
+      ],
+      "correct": 1,
+      "explanation": "Oferta = sale. Descuento = discount. Precio = price. Devolución = return."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: Quiero ___. (I want to return this.)",
+      "correct": "devolver esto",
+      "explanation": "Quiero devolver esto = I want to return this."
+    }
+  ]
+}

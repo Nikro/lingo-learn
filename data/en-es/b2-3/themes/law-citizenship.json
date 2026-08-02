@@ -1,0 +1,154 @@
+{
+  "id": "law-citizenship",
+  "title": "Law & Civic Engagement",
+  "description": "Legal vocabulary, civic terminology, and democratic participation.",
+  "vocabulary": [
+    { "id": 1, "target": "la ley", "source": "law", "gender": "f.", "type": "noun" },
+    { "id": 2, "target": "el derecho", "source": "right / law", "gender": "m.", "type": "noun" },
+    { "id": 3, "target": "la constitución", "source": "constitution", "gender": "f.", "type": "noun" },
+    { "id": 4, "target": "el ciudadano", "source": "citizen", "gender": "m.", "type": "noun" },
+    { "id": 5, "target": "la ciudadanía", "source": "citizenship", "gender": "f.", "type": "noun" },
+    { "id": 6, "target": "el voto", "source": "vote", "gender": "m.", "type": "noun" },
+    { "id": 7, "target": "el juez", "source": "judge", "gender": "m.", "type": "noun" },
+    { "id": 8, "target": "la corte", "source": "court", "gender": "f.", "type": "noun" },
+    { "id": 9, "target": "el tribunal", "source": "tribunal", "gender": "m.", "type": "noun" },
+    { "id": 10, "target": "el abogado", "source": "lawyer", "gender": "m.", "type": "noun" },
+    { "id": 11, "target": "la abogada", "source": "lawyer (f.)", "gender": "f.", "type": "noun" },
+    { "id": 12, "target": "la sentencia", "source": "sentence / ruling", "gender": "f.", "type": "noun" },
+    { "id": 13, "target": "la pena", "source": "penalty", "gender": "f.", "type": "noun" },
+    { "id": 14, "target": "la multa", "source": "fine", "gender": "f.", "type": "noun" },
+    { "id": 15, "target": "la prisión", "source": "prison", "gender": "f.", "type": "noun" },
+    { "id": 16, "target": "el delito", "source": "crime", "gender": "m.", "type": "noun" },
+    { "id": 17, "target": "la infracción", "source": "offense", "gender": "f.", "type": "noun" },
+    { "id": 18, "target": "el delito penal", "source": "criminal offense", "gender": "m.", "type": "noun" },
+    { "id": 19, "target": "la responsabilidad civil", "source": "civil liability", "gender": "f.", "type": "noun" },
+    { "id": 20, "target": "el contrato", "source": "contract", "gender": "m.", "type": "noun" },
+    { "id": 21, "target": "la obligación", "source": "obligation", "gender": "f.", "type": "noun" },
+    { "id": 22, "target": "el privilegio", "source": "privilege", "gender": "m.", "type": "noun" },
+    { "id": 23, "target": "la inmunidad", "source": "immunity", "gender": "f.", "type": "noun" },
+    { "id": 24, "target": "la democracia", "source": "democracy", "gender": "f.", "type": "noun" },
+    { "id": 25, "target": "el gobierno", "source": "government", "gender": "m.", "type": "noun" },
+    { "id": 26, "target": "el parlamento", "source": "parliament", "gender": "m.", "type": "noun" },
+    { "id": 27, "target": "la legislatura", "source": "legislature", "gender": "f.", "type": "noun" },
+    { "id": 28, "target": "la autoridad", "source": "authority", "gender": "f.", "type": "noun" },
+    { "id": 29, "target": "el reglamento", "source": "regulation", "gender": "m.", "type": "noun" },
+    { "id": 30, "target": "la protección", "source": "protection", "gender": "f.", "type": "noun" },
+    { "id": 31, "target": "el deber", "source": "duty", "gender": "m.", "type": "noun" },
+    { "id": 32, "target": "la igualdad", "source": "equality", "gender": "f.", "type": "noun" },
+    { "id": 33, "target": "la justicia", "source": "justice", "gender": "f.", "type": "noun" },
+    { "id": 34, "target": "defender", "source": "to defend", "gender": "v.", "type": "verb" },
+    { "id": 35, "target": "cumplir la ley", "source": "to comply with the law", "gender": "v.", "type": "verb" },
+    { "id": 36, "target": "votar", "source": "to vote", "gender": "v.", "type": "verb" },
+    { "id": 37, "target": "legislar", "source": "to legislate", "gender": "v.", "type": "verb" },
+    { "id": 38, "target": "impugnar", "source": "to challenge / appeal", "gender": "v.", "type": "verb" },
+    { "id": 39, "target": "proteger los derechos", "source": "to protect rights", "gender": "v.", "type": "verb" },
+    { "id": 40, "target": "el recurso", "source": "appeal / legal recourse", "gender": "m.", "type": "noun" }
+  ],
+  "grammar": [
+    {
+      "title": "Subjunctive for Legal Rights",
+      "content": "Legal and civic discourse uses subjunctive for rights and obligations.\n\nPatterns:\n- El ciudadano tiene derecho a que + subjunctive\n- La constitución garantiza que + subjunctive\n- Es necesario/obligatorio que + subjunctive\n- Se establece que + subjunctive\n\nExamples:\n- La constitución garantiza que todos los ciudadanos tengan acceso a la justicia.\n- Es obligatorio que los ciudadanos cumplan con la ley.\n- Se establece que la protección de los derechos humanos sea prioridad.",
+      "examples": [
+        "La constitución garantiza que todos los ciudadanos tengan derechos fundamentales.",
+        "Es necesario que el parlamento apruebe la nueva ley.",
+        "Se establece que la protección de los derechos humanos sea prioridad nacional."
+      ],
+      "aid_note": "Romanian: 'Constituția garantează că fiecare cetățean să aibă...', 'Este necesar ca...', 'Se stabilește că...' — parallel structures."
+    },
+    {
+      "title": "Conditional in Legal Contexts",
+      "content": "Legal texts use conditionals for regulations and exceptions.\n\nPatterns:\n- Si se viola la ley, se aplicará... (If the law is violated, a fine will be applied)\n- El ciudadano podría impugnar si... (The citizen could appeal if...)\n- En caso de incumplimiento, la pena será... (In case of non-compliance, the penalty will be...)\n\nExamples:\n- Si no se paga la multa dentro del plazo, se aplicará un recargo.\n- El ciudadano podría impugnar la decisión en un plazo de 30 días.",
+      "examples": [
+        "Si no se presenta la documentación, se considerará el recurso como desistido.",
+        "El condenado podría cumplir la pena en libertad condicional.",
+        "En caso de emergencia, las autoridades podrían restringir ciertos derechos."
+      ],
+      "aid_note": "Romanian: 'Se va aplica o amendă dacă...', 'Cetățeanul poate contesta dacă...' — structurally similar."
+    }
+  ],
+  "pronunciation": [
+    {
+      "title": "Legal Terms — Formal Register",
+      "content": "Legal terms require clear, formal pronunciation.\n\nKey terms:\n- constitución (con-sti-tu-SY-on)\n- responsabilidad (re-spon-sa-bi-li-DAD)\n- inmunidad (i-mu-ni-DAD)\n\nPractice:\n- La constitución garantiza los derechos fundamentales.\n- Es obligatorio que los ciudadanos cumplan con la ley.\n\nTip: Legal Spanish uses measured, formal delivery. Emphasize syllable boundaries for complex terms.",
+      "examples": [
+        { "target": "constitución", "source": "con-sti-tu-SY-on" },
+        { "target": "responsabilidad", "source": "re-spon-sa-bi-li-DAD" },
+        { "target": "inmunidad", "source": "i-mu-ni-DAD" }
+      ],
+      "aid_note": "Romanian: 'constituție', 'responsabilitate', 'imunitate' — similar vocabulary, different stress."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "matching",
+      "question": "Match the legal terms:",
+      "pairs": [
+        { "target": "la constitución", "source": "constitution" },
+        { "target": "la sentencia", "source": "sentence / ruling" },
+        { "target": "la infracción", "source": "offense" },
+        { "target": "el recurso", "source": "appeal" }
+      ],
+      "explanation": "These terms are essential for legal discourse."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: 'La constitución garantiza que todos los ciudadanos _____ (tener) acceso a la justicia.'",
+      "correct": "tengan",
+      "explanation": "'Garantiza que' triggers subjunctive. 'Tener' in ellos-form subjunctive = 'tengan'."
+    },
+    {
+      "type": "exercise",
+      "question": "What does 'la inmunidad' mean?",
+      "options": [
+        "Immunity from prosecution",
+        "A legal contract",
+        "A court ruling",
+        "A type of fine"
+      ],
+      "correct": 0,
+      "explanation": "'La inmunidad' = immunity — protection from legal prosecution or jurisdiction."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: 'Si no se paga la multa, se _____ (aplicar) un recargo.'",
+      "correct": "aplicará",
+      "explanation": "First conditional: 'Si' + present, future tense. 'Se aplicará' = 'a will be applied'."
+    },
+    {
+      "type": "exercise",
+      "question": "What is 'impugnar'?",
+      "options": [
+        "To agree with a decision",
+        "To challenge or appeal a decision",
+        "To write a law",
+        "To pay a fine"
+      ],
+      "correct": 1,
+      "explanation": "'Impugnar' = to challenge or appeal a decision through legal channels."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: 'Es obligatorio que los ciudadanos _____ (cumplir) con la ley.'",
+      "correct": "cumplan",
+      "explanation": "'Es obligatorio que' triggers subjunctive. 'Cumplir' in ellos-form = 'cumplan'."
+    },
+    {
+      "type": "exercise",
+      "question": "What does 'el delito penal' mean?",
+      "options": [
+        "A civil dispute",
+        "A criminal offense",
+        "A legal contract violation",
+        "An administrative fine"
+      ],
+      "correct": 1,
+      "explanation": "'El delito penal' = a criminal offense — an act punishable by criminal law."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: 'El ciudadano podría _____ (impugnar) la decisión en 30 días.'",
+      "correct": "impugnar",
+      "explanation": "After 'podría' (conditional), use the infinitive. 'Impugnar' = to appeal/challenge."
+    }
+  ]
+}

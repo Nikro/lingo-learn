@@ -1,0 +1,219 @@
+{
+  "id": "present-subjunctive",
+  "level": "a2-2",
+  "title": "Present Subjunctive",
+  "description": "Learn to conjugate and use the present subjunctive mood for uncertainty, doubt, and will in Spanish.",
+  "vocabulary": [
+    {"id": 1, "target": "quiero", "source": "I want", "gender": "v", "type": "verb"},
+    {"id": 2, "target": "dudo", "source": "I doubt", "gender": "v", "type": "verb"},
+    {"id": 3, "target": "creo", "source": "I believe", "gender": "v", "type": "verb"},
+    {"id": 4, "target": "espero", "source": "I hope", "gender": "v", "type": "verb"},
+    {"id": 5, "target": "tengo miedo", "source": "I'm afraid", "gender": "v", "type": "verb"},
+    {"id": 6, "target": "es posible", "source": "it's possible", "gender": "adj", "type": "expression"},
+    {"id": 7, "target": "es improbable", "source": "it's improbable", "gender": "adj", "type": "expression"},
+    {"id": 8, "target": "es necesario", "source": "it's necessary", "gender": "adj", "type": "expression"},
+    {"id": 9, "target": "es importante", "source": "it's important", "gender": "adj", "type": "expression"},
+    {"id": 10, "target": "es probable", "source": "it's probable", "gender": "adj", "type": "expression"},
+    {"id": 11, "target": "hablar", "source": "to speak", "gender": "v", "type": "verb"},
+    {"id": 12, "target": "comer", "source": "to eat", "gender": "v", "type": "verb"},
+    {"id": 13, "target": "vivir", "source": "to live", "gender": "v", "type": "verb"},
+    {"id": 14, "target": "trabajar", "source": "to work", "gender": "v", "type": "verb"},
+    {"id": 15, "target": "estudiar", "source": "to study", "gender": "v", "type": "verb"},
+    {"id": 16, "target": "ir", "source": "to go", "gender": "v", "type": "verb"},
+    {"id": 17, "target": "venir", "source": "to come", "gender": "v", "type": "verb"},
+    {"id": 18, "target": "tener", "source": "to have", "gender": "v", "type": "verb"},
+    {"id": 19, "target": "hacer", "source": "to do", "gender": "v", "type": "verb"},
+    {"id": 20, "target": "poder", "source": "to be able", "gender": "v", "type": "verb"},
+    {"id": 21, "target": "querer", "source": "to want", "gender": "v", "type": "verb"},
+    {"id": 22, "target": "saber", "source": "to know", "gender": "v", "type": "verb"},
+    {"id": 23, "target": "decir", "source": "to say", "gender": "v", "type": "verb"},
+    {"id": 24, "target": "ver", "source": "to see", "gender": "v", "type": "verb"},
+    {"id": 25, "target": "dar", "source": "to give", "gender": "v", "type": "verb"},
+    {"id": 26, "target": "que", "source": "that", "gender": "conj", "type": "conjunction"},
+    {"id": 27, "target": "porque", "source": "because", "gender": "conj", "type": "conjunction"},
+    {"id": 28, "target": "aunque", "source": "although", "gender": "conj", "type": "conjunction"},
+    {"id": 29, "target": "si", "source": "if", "gender": "conj", "type": "conjunction"},
+    {"id": 30, "target": "cuando", "source": "when", "gender": "conj", "type": "conjunction"},
+    {"id": 31, "target": "donde", "source": "where", "gender": "adv", "type": "interrogative"},
+    {"id": 32, "target": "como", "source": "how", "gender": "adv", "type": "interrogative"},
+    {"id": 33, "target": "quien", "source": "who", "gender": "pron", "type": "interrogative"},
+    {"id": 34, "target": "que", "source": "what", "gender": "pron", "type": "interrogative"},
+    {"id": 35, "target": "cual", "source": "which", "gender": "pron", "type": "interrogative"},
+    {"id": 36, "target": "el", "source": "the", "gender": "art", "type": "article"},
+    {"id": 37, "target": "la", "source": "the", "gender": "art", "type": "article"},
+    {"id": 38, "target": "un", "source": "a/an", "gender": "art", "type": "article"},
+    {"id": 39, "target": "uno", "source": "one", "gender": "num", "type": "number"},
+    {"id": 40, "target": "primero", "source": "first", "gender": "adj", "type": "ordinal"},
+    {"id": 41, "target": "todo", "source": "all", "gender": "adj", "type": "indefinite"},
+    {"id": 42, "target": "mucho", "source": "much", "gender": "adj", "type": "quantity"},
+    {"id": 43, "target": "poco", "source": "little", "gender": "adj", "type": "quantity"},
+    {"id": 44, "target": "bueno", "source": "good", "gender": "adj", "type": "adjective"},
+    {"id": 45, "target": "malo", "source": "bad", "gender": "adj", "type": "adjective"},
+    {"id": 46, "target": "grande", "source": "big", "gender": "adj", "type": "adjective"},
+    {"id": 47, "target": "pequeno", "source": "small", "gender": "adj", "type": "adjective"},
+    {"id": 48, "target": "el hombre", "source": "the man", "gender": "m", "type": "noun"},
+    {"id": 49, "target": "la mujer", "source": "the woman", "gender": "f", "type": "noun"},
+    {"id": 50, "target": "el nino", "source": "the boy", "gender": "m", "type": "noun"},
+    {"id": 51, "target": "la nina", "source": "the girl", "gender": "f", "type": "noun"},
+    {"id": 52, "target": "el tiempo", "source": "the time/weather", "gender": "m", "type": "noun"},
+    {"id": 53, "target": "el dinero", "source": "the money", "gender": "m", "type": "noun"},
+    {"id": 54, "target": "la casa", "source": "the house", "gender": "f", "type": "noun"},
+    {"id": 55, "target": "el trabajo", "source": "the work", "gender": "m", "type": "noun"},
+    {"id": 56, "target": "la vida", "source": "the life", "gender": "f", "type": "noun"},
+    {"id": 57, "target": "el mundo", "source": "the world", "gender": "m", "type": "noun"},
+    {"id": 58, "target": "el pais", "source": "the country", "gender": "m", "type": "noun"},
+    {"id": 59, "target": "la ciudad", "source": "the city", "gender": "f", "type": "noun"},
+    {"id": 60, "target": "el ano", "source": "the year", "gender": "m", "type": "noun"},
+    {"id": 61, "target": "el dia", "source": "the day", "gender": "m", "type": "noun"},
+    {"id": 62, "target": "la noche", "source": "the night", "gender": "f", "type": "noun"},
+    {"id": 63, "target": "la manana", "source": "the morning", "gender": "f", "type": "noun"},
+    {"id": 64, "target": "ahora", "source": "now", "gender": "adv", "type": "time"},
+    {"id": 65, "target": "hoy", "source": "today", "gender": "adv", "type": "time"},
+    {"id": 66, "target": "maiana", "source": "tomorrow", "gender": "adv", "type": "time"},
+    {"id": 67, "target": "siempre", "source": "always", "gender": "adv", "type": "time"},
+    {"id": 68, "target": "nunca", "source": "never", "gender": "adv", "type": "time"},
+    {"id": 69, "target": "aqui", "source": "here", "gender": "adv", "type": "adverb"},
+    {"id": 70, "target": "alli", "source": "there", "gender": "adv", "type": "adverb"},
+    {"id": 71, "target": "bien", "source": "well", "gender": "adv", "type": "adverb"},
+    {"id": 72, "target": "mal", "source": "badly", "gender": "adv", "type": "adverb"},
+    {"id": 73, "target": "muy", "source": "very", "gender": "adv", "type": "adverb"},
+    {"id": 74, "target": "tambien", "source": "also", "gender": "adv", "type": "adverb"},
+    {"id": 75, "target": "no", "source": "no/not", "gender": "adv", "type": "adverb"},
+    {"id": 76, "target": "es", "source": "he/she is", "gender": "v", "type": "verb"},
+    {"id": 77, "target": "esta", "source": "he/she is", "gender": "v", "type": "verb"},
+    {"id": 78, "target": "son", "source": "they are", "gender": "v", "type": "verb"},
+    {"id": 79, "target": "estan", "source": "they are", "gender": "v", "type": "verb"},
+    {"id": 80, "target": "es", "source": "it is", "gender": "v", "type": "verb"},
+    {"id": 81, "target": "esta", "source": "it is", "gender": "v", "type": "verb"},
+    {"id": 82, "target": "hay", "source": "there is/are", "gender": "v", "type": "verb"},
+    {"id": 83, "target": "hubo", "source": "there was/were", "gender": "v", "type": "verb"},
+    {"id": 84, "target": "sera", "source": "it will be", "gender": "v", "type": "verb"},
+    {"id": 85, "target": "seria", "source": "it would be", "gender": "v", "type": "verb"},
+    {"id": 86, "target": "esta", "source": "is", "gender": "v", "type": "verb"},
+    {"id": 87, "target": "este", "source": "this", "gender": "pron", "type": "demonstrative"},
+    {"id": 88, "target": "ese", "source": "that", "gender": "pron", "type": "demonstrative"},
+    {"id": 89, "target": "aquel", "source": "that (far)", "gender": "pron", "type": "demonstrative"},
+    {"id": 90, "target": "mi", "source": "my", "gender": "adj", "type": "possessive"},
+    {"id": 91, "target": "tu", "source": "your", "gender": "adj", "type": "possessive"},
+    {"id": 92, "target": "su", "source": "his/her/your", "gender": "adj", "type": "possessive"},
+    {"id": 93, "target": "nuestro", "source": "our", "gender": "adj", "type": "possessive"},
+    {"id": 94, "target": "para", "source": "for/in order to", "gender": "prep", "type": "preposition"},
+    {"id": 95, "target": "por", "source": "for/through", "gender": "prep", "type": "preposition"},
+    {"id": 96, "target": "con", "source": "with", "gender": "prep", "type": "preposition"},
+    {"id": 97, "target": "sin", "source": "without", "gender": "prep", "type": "preposition"},
+    {"id": 98, "target": "de", "source": "of/from", "gender": "prep", "type": "preposition"},
+    {"id": 99, "target": "en", "source": "in/on", "gender": "prep", "type": "preposition"},
+    {"id": 100, "target": "a", "source": "to/at", "gender": "prep", "type": "preposition"}
+  ],
+  "grammar": [
+    {
+      "title": "Present Subjunctive Formation",
+      "content": "Present Subjunctive is formed by removing -ar/-er/-ir and adding opposite endings:\n\nFor -AR verbs: -e, -es, -e, -emos, -eis, -en\n\nHablar → Haya, hayas, haja, hablemos, hablEis, hablen\n\nPara -ER/-IR verbs: -a, -as, -a, -amos, -ais, -an\n\nComer → Coma, comas, coma, comamos, comais, coman\nVivir → Viva, vivas, viva, vivamos, vivais, vivan\n\nIrregular in subjunctive:\n\nSer → Sea, seas, sea, seamos, seais, sean\nIr → Vaya, vayas, vaya, vayamos, vayais, van\nTener → Tenga, tengas, tenga, tengamos, tengais, tengan\nHacer → Haga, hagas, haga, hagamos, hagais, hagan\nVenir → Venga, vengas, venga, vengamos, vengais, vengan\nPoder → Pueda, puedas, pueda, podamos, podais, puedan\nQuerer → Quiera, quieras, quiera, queramos, querais, quieran\nSaber → Sepa, sepas, sepa, sepamos, sepais, sepan\n\nDecir → Diga, digas, diga, digamos, digais, digan\nVer → Vea, veas, vea, veamos, veais, vean\nDar → Dé, des, dé, demos, deis, den",
+      "examples": [
+        "Espero que vengas a la fiesta. (I hope you come to the party.)",
+        "Dudo que ellos sepan la verdad. (I doubt they know the truth.)",
+        "Es necesario que hable espanol. (It's necessary that he speak Spanish.)",
+        "Quiero que hagas la tarea. (I want you to do the homework.)"
+      ]
+    },
+    {
+      "title": "When to Use Subjunctive",
+      "content": "Use subjunctive when the main clause expresses:\n\n1. WILL/WISH (querer, necesitar, preferir, esperar):\nQuiero que vengas. (I want you to come.)\nEspero que tengas suerte. (I hope you have luck.)\n\n2. DOUBT/UNCERTAINTY (dudar, no creer, es posible):\nDudo que llueva manana. (I doubt it rains tomorrow.)\nNo creo que este aqui. (I don't think he's here.)\n\n3. EMOTION (temer, tener miedo, alegrarse, sentir):\nMe alegra que estes aqui. (I'm glad you're here.)\nTengo miedo que llegue tarde. (I'm afraid he'll arrive late.)\n\n4. IMPERSONAL EXPRESSIONS (es importante, es necesario, es logico):\nEs importante que estudies. (It's important that you study.)\nEs posible que vaya al cine. (It's possible I go to the cinema.)\n\nINDICATIVE (not subjunctive):\nWhen you BELIEVE something is true:\nCreo que viene manana. (I believe he's coming tomorrow.) — facts\n\nSUBJUNCTIVE (doubt/unreality):\nDudo que venga manana. (I doubt he's coming tomorrow.)",
+      "examples": [
+        "Creo que tienes razon. (I think you're right.) — fact, use indicative",
+        "Dudo que tengas razon. (I doubt you have right.) — doubt, use subjunctive",
+        "Es probable que llueva. (It's probable that it rains.) — uncertainty",
+        "No creo que sea verdad. (I don't think it's true.) — negation + subjunctive"
+      ]
+    },
+    {
+      "title": "Subjunctive with Conjunctions",
+      "content": "Subjunctive is used after certain conjunctions when the action is uncertain or future:\n\n1. PURPOSE: para que (so that), con el fin de que\nTe doy el libro para que lo leas. (I give you the book so that you read it.)\n\n2. CONTINGENCY: en caso de que (in case), siempre que (as long as)\nEn caso de que llueva, no saldremos. (In case it rains, we won't go out.)\n\n3. NEGATIVE PURPOSE: sin que (without)\nSalio sin que la vieramos. (He left without us seeing him.)\n\n4. TEMPORAL: antes de que (before), hasta que (until)\nLlegaremos antes de que llegue ella. (We'll arrive before she arrives.)\n\n5. UNCERTAIN CONDITIONS: como (if/however), donde (where)\nDonde quieras que vayas, te encontrare. (Wherever you go, I'll find you.)\n\nINDICATIVE after these conjunctions when the action is CERTAIN/PAST:\nTe llamo cuando llegues. (I'll call you when you arrive.) — future uncertainty\nTe llame cuando llegaste. (I called you when you arrived.) — past completed",
+      "examples": [
+        "Para que aprendas, tienes que estudiar. (So that you learn, you have to study.)",
+        "En caso de que no venga, dejare un mensaje. (In case he doesn't come, I'll leave a message.)",
+        "Antes de que salgas, apaga las luces. (Before you leave, turn off the lights.)",
+        "Hasta que no llegues, no me ire. (Until you arrive, I won't leave.)"
+      ]
+    }
+  ],
+  "pronunciation": [
+    {
+      "title": "Present Subjunctive Pronunciation",
+      "content": "Subjunctive endings have different vowel sounds than indicative:\n\n-AR verbs take -er sounds:\nhable → AH-bleh (like indicative 'habla' but with 'e' ending)\n\n-ER/-IR verbs take -ar sounds:\ncoma → KOH-mah (like indicative 'como' but with 'a' ending)\n\nKey differences:\n\nHABLAR:\nIndicative: hablo, hablas, habla, hablamos, hablais, hablan\nSubjunctive: hable, hables, hable, hablemos, hableis, hablen\n\nCOMER:\nIndicative: como, comes, come, comemos, comeis, comen\nSubjunctive: coma, comas, coma, comamos, comais, coman\n\nNote: The stressed syllable changes position!\n\nIrregulars:\nser → sea (SEH-ah)\nir → vaya (BAH-yah)\ntener → tenga (TEHN-gah)\nhacer → haga (AH-gah)",
+      "examples": [
+        "hable = AH-bleh (subjunctive, stressed differently than indicative)",
+        "coma = KOH-mah (subjunctive, opposite vowel from indicative)",
+        "sea = SEH-ah (subjunctive of ser)",
+        "vaya = BAH-yah (subjunctive of ir)"
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "multiple-choice",
+      "question": "What is the present subjunctive of 'hablar' for 'yo'?",
+      "options": ["hablo", "hable", "hablaba", "hablare"],
+      "correct": 1,
+      "explanation": "Present subjunctive yo of hablar is 'hable'. -AR verbs take -er endings in subjunctive."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: 'Espero que tu ___ a la fiesta. (I hope you come to the party.)'",
+      "correct": "vengas",
+      "explanation": "Vengas = you come (subjunctive of venir). After 'espero que', use subjunctive."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Which is correct: 'I want you to do the homework'?",
+      "options": ["Quiero que tu haces la tarea", "Quiero que tu hagas la tarea", "Quiero que tu haz la tarea", "Quiero que tu harias la tarea"],
+      "correct": 1,
+      "explanation": "'Quiero que hagas la tarea' uses subjunctive 'hagas' after 'quiero que'."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: 'Es necesario que el ___ espanol. (It's necessary that he speak Spanish.)'",
+      "correct": "hable",
+      "explanation": "Hable = he speak (subjunctive of hablar). After 'es necesario que', use subjunctive."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Which is correct for 'I doubt that she knows'?",
+      "options": ["Dudo que ella sabe", "Dudo que ella sepa", "Creo que ella sepa", "Pienso que ella sabe"],
+      "correct": 1,
+      "explanation": "'Dudo que ella sepa' uses subjunctive 'sepa' after 'dudar'. Doubt triggers subjunctive."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: 'Me alegra que tu ___ aqui. (I'm glad you are here.)'",
+      "correct": "estes",
+      "explanation": "Estes = you are (subjunctive of estar). After expressions of emotion, use subjunctive."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Which sentence uses subjunctive correctly?",
+      "options": ["Es importante que el trabaja", "Es importante que el trabaje", "Creo que el trabaja", "Pienso que el trabaja"],
+      "correct": 1,
+      "explanation": "'Es importante que el trabaje' uses subjunctive 'trabaje' after 'es importante'."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: 'Dudo que ellos ___ la verdad. (I doubt they know the truth.)'",
+      "correct": "sepan",
+      "explanation": "Sepan = they know (subjunctive of saber). After 'dudar', use subjunctive."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What is the subjunctive of 'ser' for 'nosotros'?",
+      "options": ["somos", "seamos", "seremos", "eriamos"],
+      "correct": 1,
+      "explanation": "Seamos = we are (subjunctive of ser). 'Espero que seamos amigos' = I hope we are friends."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: 'Quiero que tu ___ mas cuidado. (I want you to be more careful.)'",
+      "correct": "tengas",
+      "explanation": "Tengas = you have (subjunctive of tener). 'Quiero que tengas cuidado' = I want you to be careful."
+    }
+  ]
+}

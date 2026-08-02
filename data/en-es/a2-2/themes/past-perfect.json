@@ -1,0 +1,115 @@
+{
+  "id": "past-perfect",
+  "title": "Past Perfect (Pluscuamperfecto)",
+  "description": "Describe actions that happened before another past action using había + past participle.",
+  "vocabulary": [
+    { "id": 1, "target": "ya", "source": "already", "gender": "—", "type": "adverb" },
+    { "id": 2, "target": "aún no", "source": "not yet", "gender": "—", "type": "adverb" },
+    { "id": 3, "target": "recién", "source": "just / newly", "gender": "—", "type": "adverb" },
+    { "id": 4, "target": "nunca", "source": "never", "gender": "—", "type": "adverb" },
+    { "id": 5, "target": "cuando llegué", "source": "when I arrived", "gender": "—", "type": "phrase" },
+    { "id": 6, "target": "la película", "source": "the movie", "gender": "f.", "type": "noun" },
+    { "id": 7, "target": "el cine", "source": "the cinema", "gender": "m.", "type": "noun" },
+    { "id": 8, "target": "había empezado", "source": "had started", "gender": "v.", "type": "verb" },
+    { "id": 9, "target": "los platos", "source": "the dishes", "gender": "m.", "type": "noun" },
+    { "id": 10, "target": "había lavado", "source": "had washed", "gender": "v.", "type": "verb" },
+    { "id": 11, "target": "la tarea", "source": "the homework", "gender": "f.", "type": "noun" },
+    { "id": 12, "target": "había terminado", "source": "had finished", "gender": "v.", "type": "verb" },
+    { "id": 13, "target": "algo tan bonito", "source": "something so beautiful", "gender": "—", "type": "phrase" },
+    { "id": 14, "target": "antes", "source": "before", "gender": "—", "type": "adverb" },
+    { "id": 15, "target": "después", "source": "after", "gender": "—", "type": "adverb" },
+    { "id": 16, "target": "mientras", "source": "while", "gender": "—", "type": "conjunction" },
+    { "id": 17, "target": "estudiaba", "source": "I was studying", "gender": "v.", "type": "verb" },
+    { "id": 18, "target": "mi hermano", "source": "my brother", "gender": "m.", "type": "phrase" },
+    { "id": 19, "target": "se habían ido", "source": "they had left", "gender": "v.", "type": "verb" },
+    { "id": 20, "target": "llegaste", "source": "you arrived", "gender": "v.", "type": "verb" },
+    { "id": 21, "target": "hablar", "source": "to speak", "gender": "v.", "type": "verb" },
+    { "id": 22, "target": "comer", "source": "to eat", "gender": "v.", "type": "verb" },
+    { "id": 23, "target": "vivir", "source": "to live", "gender": "v.", "type": "verb" },
+    { "id": 24, "target": "hacer", "source": "to do / to make", "gender": "v.", "type": "verb" },
+    { "id": 25, "target": "decir", "source": "to say / to tell", "gender": "v.", "type": "verb" },
+    { "id": 26, "target": "escribir", "source": "to write", "gender": "v.", "type": "verb" },
+    { "id": 27, "target": "ver", "source": "to see", "gender": "v.", "type": "verb" },
+    { "id": 28, "target": "abrir", "source": "to open", "gender": "v.", "type": "verb" },
+    { "id": 29, "target": "romper", "source": "to break", "gender": "v.", "type": "verb" },
+    { "id": 30, "target": "volver", "source": "to return", "gender": "v.", "type": "verb" }
+  ],
+  "grammar": [
+    {
+      "title": "Past Perfect (Pretérito Pluscuamperfecto)",
+      "content": "The past perfect describes an action that happened BEFORE another past action. It's the 'past of the past.' You form it using the IMPERFECT of HABER + a past participle.\n\nImperfect of HABER:\n- yo: había\n- tú: habías\n- él/ella/usted: había\n- nosotros: habíamos\n- vosotros: habíais\n- ellos/ellas/ustedes: habían\n\nPast participles:\n- -AR → -ado (hablado)\n- -ER → -ido (comido)\n- -IR → -ido (vivido)\n- Irregulars: hacer→hecho, decir→dicho, escribir→escrito, ver→visto, abrir→abierto, romper→roto, volver→vuelto, cubrir→cubierto",
+      "table": {
+        "headers": ["Pronoun", "HABER (imperfect)", "Ejemplo (-ado)", "Ejemplo (-ido)"],
+        "rows": [
+          ["yo", "había", "había hablado", "había comido"],
+          ["tú", "habías", "habías hablado", "habías comido"],
+          ["él/ella/usted", "había", "había hablado", "había comido"],
+          ["nosotros", "habíamos", "habíamos hablado", "habíamos comido"],
+          ["vosotros", "habíais", "habíais hablado", "habíais comido"],
+          ["ellos/ellas/ustedes", "habían", "habían hablado", "habían comido"]
+        ]
+      },
+      "examples": [
+        "Ya había comido cuando llegaste. (I had already eaten when you arrived.)",
+        "Nunca había visto algo tan bonito. (I had never seen anything so beautiful.)",
+        "Cuando llegué al cine, la película ya había empezado. (When I arrived at the cinema, the movie had already started.)",
+        "Ellos se habían ido antes de que yo llegara. (They had left before I arrived.)"
+      ],
+      "aid_note": "Romanian uses a similar structure: 'avusese' (had) + past participle. The Romanian past perfect (mai mult ca perfectul) is more complex with its own set of endings, but the concept is identical. The Spanish 'había + participle' is much simpler to conjugate."
+    }
+  ],
+  "pronunciation": [
+    {
+      "title": "Stress in Past Perfect Forms",
+      "content": "The imperfect of haber carries stress on the second-to-last syllable:\n\n- había (ha-BÍ-a) — stress on the í\n- habías (ha-BÍ-as) — stress on the í\n- había (ha-BÍ-a) — stress on the í\n- habíamos (ha-bí-A-mos) — stress on the á\n- habíais (ha-bí-A-is) — stress on the á\n- habían (ha-BÍ-an) — stress on the í\n\nThe accent marks on había/habías/habían show where the stress falls. The nosotros and vosotros forms have no accent because the stress falls naturally on the second-to-last syllable.",
+      "examples": [
+        { "target": "había", "source": "ha-BÍ-a (3 syllables)" },
+        { "target": "habíamos", "source": "ha-bí-A-mos (stress on á)" },
+        { "target": "habían comido", "source": "ha-BÍ-an co-MÍ-do" },
+        { "target": "había empezado", "source": "ha-BÍ-a e-mpé-Za-do" }
+      ],
+      "aid_note": "Romanian stress patterns are similar — the auxiliary 'avuse' carries stress on the last syllable, but the concept of marking stress with accent marks is the same in both languages."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "exercise",
+      "question": "The past perfect is formed with:",
+      "options": ["estar + past participle", "haber (imperfect) + past participle", "haber (present) + past participle", "tener + past participle"],
+      "correct": 1,
+      "explanation": "The past perfect uses the IMPERFECT of haber (había, habías, había...) + past participle (hablado, comido, vivido)."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: 'Cuando llegué, ya ____ (comer).' (When I arrived, I had already eaten.)",
+      "correct": "había comido",
+      "explanation": "'Había comido' — past perfect: había + past participle comido."
+    },
+    {
+      "type": "exercise",
+      "question": "What is the past participle of 'hacer'?",
+      "options": ["hacido", "hecho", "hacado", "hacio"],
+      "correct": 1,
+      "explanation": "'Hecho' is the irregular past participle of hacer. Used in past perfect: había hecho."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: 'Ella ya ____ (salir) cuando yo llamé.' (She had already left when I called.)",
+      "correct": "había salido",
+      "explanation": "'Había salido' — past perfect of salir: había + past participle salido."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: 'Ellos ya ____ (salir) cuando nosotros ____ (llegar).' (They had already left when we arrived.)",
+      "correct": "habían salido llegamos",
+      "explanation": "'Habían salido' = past perfect (they had left). 'Llegamos' = preterite (we arrived). The past perfect action happened BEFORE the preterite action."
+    },
+    {
+      "type": "exercise",
+      "question": "What is the past participle of 'decir'?",
+      "options": ["decido", "dicho", "decado", "decio"],
+      "correct": 1,
+      "explanation": "'Dicho' is the irregular past participle of decir. Used in past perfect: había dicho (had said)."
+    }
+  ]
+}

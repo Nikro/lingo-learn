@@ -1,0 +1,342 @@
+{
+  "version": "1.0",
+  "description": "Master structure for Spanish learning curriculum \u2014 6 levels, 10 themes per level, 60 themes total",
+  "levels": {
+    "a1-1": {
+      "title": "A1.1 \u2014 Survival Spanish",
+      "description": "The absolute basics: greetings, introductions, numbers, colors, family, daily routines. You can introduce yourself, order food, and handle basic social interactions.",
+      "themes": [
+        {
+          "id": "greetings-introductions",
+          "title": "Greetings & Introductions",
+          "description": "Hello, goodbye, how are you, introduce yourself, basic social rituals"
+        },
+        {
+          "id": "numbers-colors",
+          "title": "Numbers & Colors",
+          "description": "Count 0-100, colors, quantities, sizes, describe objects"
+        },
+        {
+          "id": "family-people",
+          "title": "Family & People",
+          "description": "Family tree, describe people, possessives, friends, acquaintances"
+        },
+        {
+          "id": "daily-routines",
+          "title": "Daily Routines",
+          "description": "Wake up, eat, work, exercise, sleep \u2014 reflexive verbs, time-telling"
+        },
+        {
+          "id": "food-drink",
+          "title": "Food & Drink",
+          "description": "Fruits, vegetables, meat, beverages, meals, ordering at restaurants"
+        },
+        {
+          "id": "home-house",
+          "title": "Home & House",
+          "description": "Rooms, furniture, household objects, prepositions of place"
+        },
+        {
+          "id": "city-places",
+          "title": "City & Places",
+          "description": "City landmarks, asking for directions, transportation, neighborhoods"
+        },
+        {
+          "id": "weather-seasons",
+          "title": "Weather & Seasons",
+          "description": "Weather conditions, seasons, temperature, climate expressions"
+        },
+        {
+          "id": "clothing-appearance",
+          "title": "Clothing & Appearance",
+          "description": "Clothing items, accessories, physical description, size adjectives"
+        },
+        {
+          "id": "animals-nature",
+          "title": "Animals & Nature",
+          "description": "Animals, nature elements, outdoor spaces, basic nature vocabulary"
+        }
+      ]
+    },
+    "a1-2": {
+      "title": "A1.2 \u2014 Everyday Spanish",
+      "description": "Expand your range: shopping, time, calendar, health basics, entertainment, social interactions. Handle most daily situations confidently.",
+      "themes": [
+        {
+          "id": "shopping-prices",
+          "title": "Shopping & Prices",
+          "description": "Stores, clothes shopping, prices, bargaining, payments"
+        },
+        {
+          "id": "travel-transport",
+          "title": "Travel & Transportation",
+          "description": "Airports, hotels, directions, renting cars, public transport"
+        },
+        {
+          "id": "health-body",
+          "title": "Health & Body",
+          "description": "Body parts, health problems, pharmacy, doctor visits"
+        },
+        {
+          "id": "entertainment-leisure",
+          "title": "Entertainment & Leisure",
+          "description": "Movies, music, hobbies, sports, free time activities"
+        },
+        {
+          "id": "time-calendar",
+          "title": "Time & Calendar",
+          "description": "Days, months, dates, seasons, scheduling, temporal expressions"
+        },
+        {
+          "id": "work-jobs",
+          "title": "Work & Jobs",
+          "description": "Professions, workplace, job search, professional introductions"
+        },
+        {
+          "id": "technology-communication",
+          "title": "Technology & Communication",
+          "description": "Phone, email, internet, social media, tech objects"
+        },
+        {
+          "id": "sports-activities",
+          "title": "Sports & Activities",
+          "description": "Sports names, exercises, equipment, teams, competition"
+        },
+        {
+          "id": "education-school",
+          "title": "Education & School",
+          "description": "School subjects, classroom objects, teachers, learning"
+        },
+        {
+          "id": "social-interactions",
+          "title": "Social Interactions",
+          "description": "Invitations, plans, agreements, disagreements, social phrases"
+        }
+      ]
+    },
+    "a2-1": {
+      "title": "A2.1 \u2014 Expanded Daily Life",
+      "description": "Past tenses, extended narratives, cultural topics, complex social situations, environment, media, relationships.",
+      "themes": [
+        {
+          "id": "past-experiences",
+          "title": "Past Experiences & Stories",
+          "description": "Preterite and imperfect, storytelling, life experiences, past narratives"
+        },
+        {
+          "id": "plans-future",
+          "title": "Plans & Future Intentions",
+          "description": "Future tense, going to, intentions, predictions, plans"
+        },
+        {
+          "id": "culture-traditions",
+          "title": "Culture & Traditions",
+          "description": "Festivals, customs, traditions, cultural references, holidays"
+        },
+        {
+          "id": "environment-nature",
+          "title": "Environment & Nature",
+          "description": "Nature conservation, weather extremes, geography, animals"
+        },
+        {
+          "id": "media-news",
+          "title": "Media & News",
+          "description": "TV, radio, newspapers, internet news, social media, journalism"
+        },
+        {
+          "id": "relationships-social",
+          "title": "Relationships & Social Life",
+          "description": "Friendships, dating, family dynamics, social obligations"
+        },
+        {
+          "id": "law-rights",
+          "title": "Law & Rights",
+          "description": "Basic legal terms, rights, duties, bureaucracy, documents"
+        },
+        {
+          "id": "science-technology",
+          "title": "Science & Technology",
+          "description": "Basic science, inventions, technology in daily life, innovation"
+        },
+        {
+          "id": "economy-business",
+          "title": "Economy & Business",
+          "description": "Money, banking, shopping, basic economics, commerce"
+        },
+        {
+          "id": "arts-literature",
+          "title": "Arts & Literature",
+          "description": "Art forms, literature, music, cinema, creative expression"
+        }
+      ]
+    },
+    "a2-2": {
+      "title": "A2.2 \u2014 Social & Professional Spanish",
+      "description": "Complex social interactions, health and wellness, career development, politics, sustainability, advanced daily life.",
+      "themes": [
+        {
+          "id": "advanced-travel",
+          "title": "Advanced Travel Scenarios",
+          "description": "Complex travel situations, emergencies, accommodations, navigation"
+        },
+        {
+          "id": "complex-social",
+          "title": "Complex Social Interactions",
+          "description": "Negotiations, opinions, persuasion, social etiquette"
+        },
+        {
+          "id": "health-wellness",
+          "title": "Health & Wellness",
+          "description": "Mental health, fitness, nutrition, preventive care, wellness"
+        },
+        {
+          "id": "education-career",
+          "title": "Education & Career Development",
+          "description": "University, professional development, interviews, networking"
+        },
+        {
+          "id": "politics-society",
+          "title": "Politics & Society",
+          "description": "Government, elections, social issues, citizenship, rights"
+        },
+        {
+          "id": "entertainment-media",
+          "title": "Entertainment & Media Consumption",
+          "description": "Streaming, gaming, books, films, cultural consumption"
+        },
+        {
+          "id": "environment-sustainability",
+          "title": "Environment & Sustainability",
+          "description": "Climate change, recycling, conservation, sustainable living"
+        },
+        {
+          "id": "technology-innovation",
+          "title": "Technology & Innovation",
+          "description": "AI, smartphones, apps, digital transformation, innovation"
+        },
+        {
+          "id": "economy-finance",
+          "title": "Economy & Finance",
+          "description": "Personal finance, investments, taxes, economic systems"
+        },
+        {
+          "id": "arts-culture-heritage",
+          "title": "Arts, Culture & Heritage",
+          "description": "Museums, historical sites, cultural identity, heritage preservation"
+        }
+      ]
+    },
+    "b1-1": {
+      "title": "B1.1 \u2014 Intermediate Spanish",
+      "description": "Abstract thinking, complex travel, professional communication, academic expression, cultural analysis, media, science, society.",
+      "themes": [
+        {
+          "id": "abstract-opinions",
+          "title": "Abstract Thinking & Opinions",
+          "description": "Expressing opinions, hypotheses, subjunctive, abstract concepts"
+        },
+        {
+          "id": "complex-travel",
+          "title": "Complex Travel & Navigation",
+          "description": "Extended travel narratives, cultural immersion, problem-solving"
+        },
+        {
+          "id": "professional-comm",
+          "title": "Professional Communication",
+          "description": "Meetings, presentations, emails, negotiations, business Spanish"
+        },
+        {
+          "id": "academic-expression",
+          "title": "Academic Expression",
+          "description": "Essays, reports, research, academic vocabulary, formal writing"
+        },
+        {
+          "id": "cultural-analysis",
+          "title": "Cultural Analysis",
+          "description": "Cultural differences, identity, integration, cross-cultural communication"
+        },
+        {
+          "id": "media-journalism",
+          "title": "Media & Journalism",
+          "description": "News analysis, editorial opinion, media literacy, bias detection"
+        },
+        {
+          "id": "science-innovation",
+          "title": "Science & Innovation",
+          "description": "Scientific method, research, innovation, technology ethics"
+        },
+        {
+          "id": "society-community",
+          "title": "Society & Community",
+          "description": "Social structures, community life, civic engagement, diversity"
+        },
+        {
+          "id": "economics-trade",
+          "title": "Economics & Trade",
+          "description": "International trade, markets, economic policy, globalization"
+        },
+        {
+          "id": "literature-arts",
+          "title": "Literature & Arts",
+          "description": "Literary analysis, art criticism, cultural movements, creativity"
+        }
+      ]
+    },
+    "b1-2": {
+      "title": "B1.2 \u2014 Advanced Intermediate Spanish",
+      "description": "Advanced argumentation, professional negotiation, cultural criticism, academic research, media literacy, scientific communication.",
+      "themes": [
+        {
+          "id": "advanced-argumentation",
+          "title": "Advanced Argumentation",
+          "description": "Debate, persuasion, logical reasoning, counterarguments"
+        },
+        {
+          "id": "professional-negotiation",
+          "title": "Professional Negotiation",
+          "description": "Contract negotiations, salary talks, conflict resolution, diplomacy"
+        },
+        {
+          "id": "cultural-criticism",
+          "title": "Cultural Criticism",
+          "description": "Art criticism, literary analysis, cultural commentary, aesthetic judgment"
+        },
+        {
+          "id": "academic-research",
+          "title": "Academic Research",
+          "description": "Research methods, thesis writing, citations, academic discourse"
+        },
+        {
+          "id": "media-literacy",
+          "title": "Media Literacy",
+          "description": "Media analysis, fake news detection, source evaluation, digital ethics"
+        },
+        {
+          "id": "scientific-communication",
+          "title": "Scientific Communication",
+          "description": "Scientific writing, data presentation, research communication"
+        },
+        {
+          "id": "political-discourse",
+          "title": "Political Discourse",
+          "description": "Political analysis, policy debate, international relations"
+        },
+        {
+          "id": "economic-analysis",
+          "title": "Economic Analysis",
+          "description": "Economic theory, market analysis, financial forecasting"
+        },
+        {
+          "id": "literary-analysis",
+          "title": "Literary Analysis",
+          "description": "Literary theory, text interpretation, authorial intent, genre analysis"
+        },
+        {
+          "id": "social-commentary",
+          "title": "Social Commentary",
+          "description": "Social issues, inequality, justice, human rights, activism"
+        }
+      ]
+    }
+  }
+}

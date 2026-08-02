@@ -1,0 +1,114 @@
+{
+  "id": "type-2-conditionals",
+  "title": "Type 2 Conditionals — Si + Imperfect Subjunctive + Conditional",
+  "description": "Express hypothetical or unlikely situations in the present or future — the realm of dreams, advice, and counterfactual statements.",
+  "vocabulary": [
+    { "id": 1, "target": "si tuviera más dinero", "source": "if I had more money", "gender": "—", "type": "phrase" },
+    { "id": 2, "target": "viajaría por el mundo", "source": "I would travel around the world", "gender": "—", "type": "phrase" },
+    { "id": 3, "target": "compraría una casa en la playa", "source": "I would buy a house on the beach", "gender": "—", "type": "phrase" },
+    { "id": 4, "target": "si yo fuera tú", "source": "if I were you", "gender": "—", "type": "phrase" },
+    { "id": 5, "target": "aceptaría esa oferta de trabajo", "source": "I would accept that job offer", "gender": "—", "type": "phrase" },
+    { "id": 6, "target": "viajaríamos por Sudamérica", "source": "we would travel through South America", "gender": "—", "type": "phrase" },
+    { "id": 7, "target": "si no tuviéramos que trabajar", "source": "if we didn't have to work", "gender": "—", "type": "phrase" },
+    { "id": 8, "target": "si hablara español", "source": "if I spoke Spanish", "gender": "—", "type": "phrase" },
+    { "id": 9, "target": "podría conseguir un mejor empleo", "source": "I could get a better job", "gender": "—", "type": "phrase" },
+    { "id": 10, "target": "¿te gustaría ir a Japón?", "source": "would you like to go to Japan?", "gender": "—", "type": "phrase" },
+    { "id": 11, "target": "si tuvieras la oportunidad", "source": "if you had the chance", "gender": "—", "type": "phrase" },
+    { "id": 12, "target": "más tiempo", "source": "more time", "gender": "—", "type": "phrase" },
+    { "id": 13, "target": "la playa", "source": "the beach", "gender": "f.", "type": "noun" },
+    { "id": 14, "target": "la oferta", "source": "the offer", "gender": "f.", "type": "noun" },
+    { "id": 15, "target": "el trabajo", "source": "the job", "gender": "m.", "type": "noun" },
+    { "id": 16, "target": "Sudamérica", "source": "South America", "gender": "f.", "type": "place" },
+    { "id": 17, "target": "Japón", "source": "Japan", "gender": "m.", "type": "place" },
+    { "id": 18, "target": "la oportunidad", "source": "the chance", "gender": "f.", "type": "noun" },
+    { "id": 19, "target": "tener", "source": "to have", "gender": "v.", "type": "verb" },
+    { "id": 20, "target": "ser", "source": "to be (permanent)", "gender": "v.", "type": "verb" },
+    { "id": 21, "target": "viajar", "source": "to travel", "gender": "v.", "type": "verb" },
+    { "id": 22, "target": "comprar", "source": "to buy", "gender": "v.", "type": "verb" },
+    { "id": 23, "target": "aceptar", "source": "to accept", "gender": "v.", "type": "verb" },
+    { "id": 24, "target": "hablar", "source": "to speak", "gender": "v.", "type": "verb" },
+    { "id": 25, "target": "conseguir", "source": "to get / to achieve", "gender": "v.", "type": "verb" },
+    { "id": 26, "target": "gustar", "source": "to like", "gender": "v.", "type": "verb" },
+    { "id": 27, "target": "poder", "source": "to be able to / can", "gender": "v.", "type": "verb" },
+    { "id": 28, "target": "querer", "source": "to want / to love", "gender": "v.", "type": "verb" },
+    { "id": 29, "target": "deber", "source": "must / should", "gender": "v.", "type": "verb" },
+    { "id": 30, "target": "estudiar", "source": "to study", "gender": "v.", "type": "verb" }
+  ],
+  "grammar": [
+    {
+      "title": "Type 2 Conditionals — Si + Imperfect Subjunctive + Conditional",
+      "content": "Type 2 conditionals express hypothetical or unlikely situations in the present or future — the realm of dreams, advice, and counterfactual statements. The structure is strict:\n\nStructure: Si + [imperfect subjunctive], [conditional]\nOr reversed: [conditional] si + [imperfect subjunctive]\n\n⚠️ CRITICAL ERROR TO AVOID: Never put the conditional after 'si'. 'Si tendría dinero' is grammatically incorrect. The correct form is 'Si tuviera dinero'.\n\nUses:\n- Imagining unreal present situations: Si fuera rico, viajaría por el mundo\n- Giving advice: Si yo fuera tú, no aceptaría ese trabajo\n- Describing unlikely future events: Si ganáramos la lotería, compraríamos una casa\n\nImperfect subjunctive (-ra form) in the 'si' clause:\n- yo: -ra\n- tú: -ras\n- él/ella/usted: -ra\n- nosotros: -ramos\n- vosotros: -rais\n- ellos/ellas/ustedes: -ran\n\nConditional in the result clause:\n- yo: -ría\n- tú: -rías\n- él/ella/usted: -ría\n- nosotros: -ríamos\n- vosotros: -ríais\n- ellos/ellas/ustedes: -rían",
+      "table": {
+        "headers": ["Clause", "Mood/Tense", "Example"],
+        "rows": [
+          ["Condition (after 'si')", "Imperfect Subjunctive (-ra/-se)", "Si yo tuviera / tuviese más tiempo…"],
+          ["Result", "Conditional Simple (-ría)", "…viajaría por Europa"],
+          ["Advice form", "Si yo fuera tú + condicional", "Si yo fuera tú, estudiaría más"],
+          ["Reversed order (no comma)", "Conditional + si + imperfect subj.", "Viajaría por Europa si tuviera dinero"]
+        ]
+      },
+      "examples": [
+        "Si tuviera más dinero, compraría una casa en la playa. (If I had more money, I would buy a house on the beach.)",
+        "Si yo fuera tú, aceptaría esa oferta de trabajo. (If I were you, I would accept that job offer.)",
+        "Viajaríamos por Sudamérica si no tuviéramos que trabajar. (We would travel through South America if we didn't have to work.)",
+        "Si hablara español, podría conseguir un mejor empleo. (If I spoke Spanish, I could get a better job.)",
+        "¿Te gustaría ir a Japón si tuvieras la oportunidad? (Would you like to go to Japan if you had the chance?)"
+      ],
+      "aid_note": "Romanian Type 2 conditionals use a very similar structure: 'Dacă aș avea mai mult timp, aș călători prin Europa' — 'Dacă' = 'si', 'aș avea' = imperfect subjunctive equivalent, 'aș călători' = conditional. The mental mapping is nearly identical! Also note the same prohibition: never use the conditional directly after 'dacă' for unreal conditions."
+    }
+  ],
+  "pronunciation": [
+    {
+      "title": "Stress in Type 2 Conditionals",
+      "content": "Imperfect subjunctive forms are stressed on the ending:\n- tuviera (too-BYE-ra) — stress on 'ie'\n- hablara (ah-BLA-ra) — stress on 'ra'\n- fuera (fweh-RAH) — stress on 'ra'\n\nConditional forms are also stressed on the ending:\n- viajaría (bee-ah-REE-ah) — stress on 'rí'\n- compraría (kom-prah-REE-ah) — stress on 'rí'\n- aceptaría (ah-sep-TA-ree-ah) — stress on 'rí'\n\nThe accent marks on the -ía endings are always present in the conditional.\n\nCritical: Spanish 'viajaría' is pronounced 'bee-ah-REE-ah' (5 syllables), NOT 'vee-ah-REE-ah' as English speakers might assume. The 'i' and 'a' in -ría are two separate syllables.",
+      "examples": [
+        { "target": "tuviera", "source": "too-BYE-ra (stress on ie)" },
+        { "target": "viajaría", "source": "bee-ah-REE-ah (stress on rí)" },
+        { "target": "compraría", "source": "kom-prah-REE-ah (stress on rí)" },
+        { "target": "aceptaría", "source": "ah-sep-TA-REE-ah (stress on rí)" }
+      ],
+      "aid_note": "Romanian stress patterns are similar — most verb endings carry the stress. The Spanish conditional -ría is phonetically distinct from Romanian 'aș' + infinitive, which is two words."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "exercise",
+      "question": "Which sentence correctly uses Type 2 conditional structure?",
+      "options": ["Si tendría dinero, viajaría.", "Si tuviera dinero, viajaría.", "Si tengo dinero, viajaría.", "Si tuve dinero, viajaría."],
+      "correct": 1,
+      "explanation": "Hypothetical 'if' clauses in the present require the imperfect subjunctive after 'si': 'Si tuviera dinero, viajaría.' Never use the conditional after 'si'."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: 'Si yo ____ (ser) tú, aceptaría esa oferta.' (If I were you, I would accept that offer.)",
+      "correct": "fuera",
+      "explanation": "'Fuera' — imperfect subjunctive of ser for yo/él/ella/usted. 'Si yo fuera tú' = If I were you."
+    },
+    {
+      "type": "exercise",
+      "question": "What tense is used in the 'si' clause of a Type 2 conditional?",
+      "options": ["Indicative present", "Imperfect subjunctive", "Conditional", "Preterite"],
+      "correct": 1,
+      "explanation": "The 'si' clause always uses the imperfect subjunctive in Type 2 conditionals: Si tuviera..., Si pudiera..., Si hablara..."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: 'Viajaríamos por Sudamérica si ____ (tener) que trabajar.' (We would travel through South America if we didn't have to work.)",
+      "correct": "no tuviéramos",
+      "explanation": "'No tuviéramos' — imperfect subjunctive of tener for nosotros. Reversed order (no comma needed): 'Viajaríamos... si tuviéramos...'"
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: 'Si ____ (you) hablara español, podría conseguir un mejor empleo.' (If you spoke Spanish, I could get a better job.)",
+      "correct": "tú",
+      "explanation": "'Si tú hablara español' — imperfect subjunctive of hablar for tú: 'hablaras'. But the exercise asks for the pronoun. 'Si tú hablaras español, podría conseguir un mejor empleo.'"
+    },
+    {
+      "type": "conjugation-matrix",
+      "question": "Complete the conditional tense conjugation for the verb GUSTAR:",
+      "verb": "GUSTAR",
+      "tenses": ["conditional"],
+      "explanation": "Gustar uses conditional endings on the full infinitive: me gustaría, te gustaría, le gustaría, nos gustaría, os gustaría, les gustaría."
+    }
+  ]
+}

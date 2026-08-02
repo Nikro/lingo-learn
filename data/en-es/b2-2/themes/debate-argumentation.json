@@ -1,0 +1,157 @@
+{
+  "id": "debate-argumentation",
+  "title": "Debate & Argumentation Structure",
+  "description": "Learn the architecture of a persuasive argument in Spanish: thesis, supporting points, counterarguments, and conclusions.",
+  "vocabulary": [
+    { "id": 1, "target": "la tesis", "source": "thesis", "gender": "f.", "type": "noun" },
+    { "id": 2, "target": "el argumento", "source": "argument", "gender": "m.", "type": "noun" },
+    { "id": 3, "target": "la premisa", "source": "premise", "gender": "f.", "type": "noun" },
+    { "id": 4, "target": "la conclusión", "source": "conclusion", "gender": "f.", "type": "noun" },
+    { "id": 5, "target": "la evidencia", "source": "evidence", "gender": "f.", "type": "noun" },
+    { "id": 6, "target": "el testimonio", "source": "testimony", "gender": "m.", "type": "noun" },
+    { "id": 7, "target": "el contraargumento", "source": "counterargument", "gender": "m.", "type": "noun" },
+    { "id": 8, "target": "la refutación", "source": "refutation", "gender": "f.", "type": "noun" },
+    { "id": 9, "target": "la falacia", "source": "fallacy", "gender": "f.", "type": "noun" },
+    { "id": 10, "target": "el sofisma", "source": "sophism", "gender": "m.", "type": "noun" },
+    { "id": 11, "target": "el razonamiento", "source": "reasoning", "gender": "m.", "type": "noun" },
+    { "id": 12, "target": "la deducción", "source": "deduction", "gender": "f.", "type": "noun" },
+    { "id": 13, "target": "la inducción", "source": "induction", "gender": "f.", "type": "noun" },
+    { "id": 14, "target": "el enunciado", "source": "statement / proposition", "gender": "m.", "type": "noun" },
+    { "id": 15, "target": "sostenir", "source": "to maintain / to assert", "gender": "v.", "type": "verb" },
+    { "id": 16, "target": "demostrar", "source": "to demonstrate / to prove", "gender": "v.", "type": "verb" },
+    { "id": 17, "target": "refutar", "source": "to refute", "gender": "v.", "type": "verb" },
+    { "id": 18, "target": "apoyar", "source": "to support", "gender": "v.", "type": "verb" },
+    { "id": 19, "target": "rechazar", "source": "to reject", "gender": "v.", "type": "verb" },
+    { "id": 20, "target": "conceder", "source": "to concede", "gender": "v.", "type": "verb" },
+    { "id": 21, "target": "convincente", "source": "convincing", "gender": "m./f.", "type": "adjective" },
+    { "id": 22, "target": "persuasivo/a", "source": "persuasive", "gender": "m./f.", "type": "adjective" },
+    { "id": 23, "target": "fundamentado/a", "source": "well-founded", "gender": "m./f.", "type": "adjective" },
+    { "id": 24, "target": "sólido/a", "source": "solid / sound", "gender": "m./f.", "type": "adjective" },
+    { "id": 25, "target": "débil / frágil", "source": "weak / fragile", "gender": "m./f.", "type": "adjective" },
+    { "id": 26, "target": "el dato", "source": "data point", "gender": "m.", "type": "noun" },
+    { "id": 27, "target": "la estadística", "source": "statistics", "gender": "f.", "type": "noun" },
+    { "id": 28, "target": "la correlación", "source": "correlation", "gender": "f.", "type": "noun" },
+    { "id": 29, "target": "la causa", "source": "cause", "gender": "f.", "type": "noun" },
+    { "id": 30, "target": "el efecto", "source": "effect", "gender": "m.", "type": "noun" },
+    { "id": 31, "target": "el ejemplo ilustrativo", "source": "illustrative example", "gender": "m.", "type": "noun" },
+    { "id": 32, "target": "la analogía", "source": "analogy", "gender": "f.", "type": "noun" },
+    { "id": 33, "target": "el precedente", "source": "precedent", "gender": "m.", "type": "noun" },
+    { "id": 34, "target": "el fallo", "source": "ruling / decision", "gender": "m.", "type": "noun" },
+    { "id": 35, "target": "recurrir a", "source": "to resort to / to appeal to", "gender": "—", "type": "phrase" },
+    { "id": 36, "target": "citar", "source": "to cite", "gender": "v.", "type": "verb" },
+    { "id": 37, "target": "el resumen", "source": "summary / conclusion", "gender": "m.", "type": "noun" },
+    { "id": 38, "target": "el cierre", "source": "closing / conclusion", "gender": "m.", "type": "noun" },
+    { "id": 39, "target": "el debate", "source": "debate / discussion", "gender": "m.", "type": "noun" },
+    { "id": 40, "target": "la dialéctica", "source": "dialectic", "gender": "f.", "type": "noun" }
+  ],
+  "grammar": [
+    {
+      "title": "Connector Vocabulary for Argument Structure",
+      "content": "Argumentation relies on precise connectors to structure reasoning. These are the building blocks of persuasive discourse.\n\nIntroduction of the thesis:\n- En primer lugar... (First of all...)\n- En primer término... (In the first place...)\n- En términos generales... (In general terms...)\n\nAdding supporting points:\n- En segundo lugar... (Secondly...)\n- Además / Asimismo / Igualmente (Moreover / Likewise / Similarly)\n- Por otra parte / Por otro lado (On the other hand)\n- Del mismo modo (In the same way)\n\nContrast / Counterargument:\n- Sin embargo / No obstante / Empero (However / Nevertheless)\n- Por el contrario (On the contrary)\n- A pesar de ello (Despite this)\n- Aunque (Although)\n\nCause & Effect:\n- Por lo tanto / Por consiguiente (Therefore / Consequently)\n- En consecuencia (As a result)\n- Debido a que / Puesto que / Ya que (Because / Since)\n- De ahí que + subjunctive (That is why)\n\nConclusion:\n- En conclusión / Para concluir (In conclusion)\n- En resumen / En síntesis (In summary)\n- En definitiva (Ultimately)\n- En última instancia (In the last instance)\n\nExamples:\n- En primer lugar, los datos muestran un aumento de las emisiones. Por lo tanto, es urgente actuar. No obstante, algunos argumentan que la tecnología resolverá el problema. En definitiva, se necesita un enfoque integral.",
+      "examples": [
+        "En primer lugar, la evidencia sugiere que el cambio climático es antropogénico. En segundo lugar, las soluciones tecnológicas existentes son suficientes. Por lo tanto, la inacción no tiene justificación.",
+        "Por otra parte, el argumento económico no resiste el análisis. Por el contrario, la inversión verde genera empleo.",
+        "En conclusión, los beneficios superan los costes. En definitiva, debemos actuar ahora."
+      ],
+      "aid_note": "Romanian connectors: 'În primul rând...', 'În al doilea rând...', 'În plus...', 'Cu toate acestea...', 'Prin urmare...', 'În concluzie...'. Very similar semantic mapping."
+    },
+    {
+      "title": "Deconstructing Logical Fallacies",
+      "content": "Recognizing and identifying fallacies is crucial for both constructing sound arguments and critiquing weak ones.\n\nCommon fallacies and how to identify them in Spanish:\n- Ad hominem: 'Atacar a la persona en lugar del argumento.' (Attacking the person instead of the argument.)\n- Falsa dicotomía: 'Presentar solo dos opciones cuando hay más.' (Presenting only two options when more exist.)\n- Apelo a la autoridad: 'Usar la autoridad sin evidencia.' (Using authority without evidence.)\n- Pendiente resbaladiza: 'Afirmar que un paso lleva inevitablemente a otro.' (Claiming one step inevitably leads to another.)\n- Generalización apressurada: 'Concluir sin evidencia suficiente.' (Concluding without sufficient evidence.)\n- Confusión causa-efecto: 'Confundir correlación con causalidad.' (Confusing correlation with causation.)\n\nIdentifying language:\n- Eso es un error lógico porque... (That is a logical error because...)\n- Eso no es un argumento sólido porque... (That is not a sound argument because...)\n- Eso comete la falacia de... (That commits the fallacy of...)\n- Ese razonamiento es defectuoso porque... (That reasoning is flawed because...)\n\nExamples:\n- Atacar a su edad no refuta su argumento.\n- No es verdad que solo haya dos opciones.\n- El hecho de que ambos ocurran no significa que uno cause el otro.",
+      "examples": [
+        "Eso comete una falsa dicotomía. Hay muchas soluciones posibles, no solo esas dos.",
+        "Atacar a la persona es una falacia ad hominem. Debemos evaluar el argumento en sí.",
+        "Ese razonamiento es defectuoso porque confunde correlación con causalidad.",
+        "Eso no es un argumento sólido. No proporciona evidencia para respaldar su afirmación."
+      ],
+      "aid_note": "Romanian fallacies: 'falsa dicotomie', 'falacia ad hominem', 'generalizare pripită', 'confundarea cauzalității'. Spanish and Romanian share many Latin-derived logical terms."
+    }
+  ],
+  "pronunciation": [
+    {
+      "title": "Rhetorical Rhythm in Debate",
+      "content": "Effective debate in Spanish uses rhythm and pacing to enhance persuasion.\n\nKey techniques:\n- Pauses before key words: 'Lo que... [pause]... realmente importa es la acción.'\n- Triple structure: 'No es justo, no es sostenible, no es aceptable.'\n- Repetition for emphasis: 'Debemos actuar. Debemos decidir. Debemos cambiar.'\n- Parallel structure: 'Para los pobres, es una cuestión de supervivencia. Para los ricos, es una cuestión de conveniencia.'\n- Rhetorical questions: '¿Cuánto más podemos esperar?' '¿Hasta cuándo?'\n\nPractice:\n- 'No aceptamos, no permitimos, no ignoramos el problema.'\n- 'Para las futuras generaciones, esto es esencial. Para nuestra generación, esto es urgente. Para ustedes, esto es innegable.'\n\nTip: Spanish debate speakers typically speak slightly faster than English speakers during the argument body, but slow down significantly at key transition words ('sin embargo', 'por lo tanto', 'en conclusión').",
+      "examples": [
+        { "target": "No aceptamos... [pausa]... No permitimos... [pausa]... No ignoramos.", "source": "Triple structure with pauses" },
+        { "target": "¿Cuánto más podemos esperar? [pause]", "source": "Rhetorical question with pause" },
+        { "target": "Sin embargo... [pause]... Por lo tanto... [pause]... En conclusión...", "source": "Connectors with strategic pauses" }
+      ],
+      "aid_note": "Romanian debate speakers also use triple structures and rhetorical questions. Spanish pacing tends to be slightly faster overall, with more dramatic pauses at transition points."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "matching",
+      "question": "Match the connector to its function:",
+      "pairs": [
+        { "target": "sin embargo", "source": "however / nevertheless" },
+        { "target": "por lo tanto", "source": "therefore / consequently" },
+        { "target": "en conclusión", "source": "in conclusion" },
+        { "target": "por otra parte", "source": "on the other hand" },
+        { "target": "además", "source": "moreover / in addition" }
+      ],
+      "explanation": "These connectors structure argumentative discourse in Spanish."
+    },
+    {
+      "type": "exercise",
+      "question": "What does 'la falacia ad hominem' mean?",
+      "options": [
+        "A logical argument based on evidence",
+        "An argument attacking the person instead of the idea",
+        "A conclusion drawn from statistics",
+        "A valid counterargument"
+      ],
+      "correct": 1,
+      "explanation": "'Ad hominem' means attacking the person making the argument rather than the argument itself."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete with the correct connector: 'Los datos muestran que el problema empeora. _____, es urgente tomar medidas.'",
+      "correct": "Por lo tanto",
+      "explanation": "'Por lo tanto' (therefore) indicates a conclusion drawn from the previous statement."
+    },
+    {
+      "type": "exercise",
+      "question": "What does 'pendiente resbaladiza' mean in argumentation?",
+      "options": [
+        "A slippery slope fallacy",
+        "A strong argument",
+        "A well-researched thesis",
+        "A statistical correlation"
+      ],
+      "correct": 0,
+      "explanation": "'Pendiente resbaladiza' = slippery slope fallacy — claiming that one small step will inevitably lead to a chain of negative consequences."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete with the correct connector: '_____ de que el programa ha tenido algunos problemas, sus resultados generales son positivos.'",
+      "correct": "A pesar",
+      "explanation": "'A pesar de que' = despite the fact that. It introduces a concession before the main argument."
+    },
+    {
+      "type": "exercise",
+      "question": "What does 'confusión causa-efecto' refer to?",
+      "options": [
+        "A well-supported thesis",
+        "Confusing correlation with causation",
+        "A strong counterargument",
+        "A valid deduction"
+      ],
+      "correct": 1,
+      "explanation": "'Confusión causa-efecto' = confusing correlation with causation — assuming that because two things happen together, one causes the other."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: '_____ en conclusión, la evidencia apunta a una solución clara.'",
+      "correct": "Para",
+      "explanation": "'Para en conclusión' is a common way to signal the final conclusion of an argument. It can also be 'En conclusión' alone."
+    },
+    {
+      "type": "exercise",
+      "question": "Which connector introduces a counterargument?",
+      "options": ["por lo tanto", "por otra parte", "además", "en conclusión"],
+      "correct": 1,
+      "explanation": "'Por otra parte' (on the other hand) introduces a counterargument or alternative perspective."
+    }
+  ]
+}

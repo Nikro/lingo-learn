@@ -1,0 +1,141 @@
+{
+  "id": "environment",
+  "title": "Environment & Climate Change",
+  "description": "Discuss sustainability, pollution, biodiversity, and climate policy with advanced vocabulary and argumentative structures.",
+  "vocabulary": [
+    { "id": 1, "target": "el cambio climático", "source": "climate change", "gender": "m.", "type": "noun" },
+    { "id": 2, "target": "el calentamiento global", "source": "global warming", "gender": "m.", "type": "noun" },
+    { "id": 3, "target": "la emisión de gases", "source": "emission of gases", "gender": "f.", "type": "noun" },
+    { "id": 4, "target": "los gases de efecto invernadero", "source": "greenhouse gases", "gender": "m.pl.", "type": "noun" },
+    { "id": 5, "target": "el carbono", "source": "carbon", "gender": "m.", "type": "noun" },
+    { "id": 6, "target": "la huella de carbono", "source": "carbon footprint", "gender": "f.", "type": "noun" },
+    { "id": 7, "target": "la energía renovable", "source": "renewable energy", "gender": "f.", "type": "noun" },
+    { "id": 8, "target": "la energía solar", "source": "solar energy", "gender": "f.", "type": "noun" },
+    { "id": 9, "target": "la energía eólica", "source": "wind energy", "gender": "f.", "type": "noun" },
+    { "id": 10, "target": "la energía hidroeléctrica", "source": "hydroelectric energy", "gender": "f.", "type": "noun" },
+    { "id": 11, "target": "el combustóleo / el combustible fósil", "source": "fossil fuel", "gender": "m.", "type": "noun" },
+    { "id": 12, "target": "la contaminación", "source": "pollution", "gender": "f.", "type": "noun" },
+    { "id": 13, "target": "la contaminación del aire", "source": "air pollution", "gender": "f.", "type": "noun" },
+    { "id": 14, "target": "la contaminación del agua", "source": "water pollution", "gender": "f.", "type": "noun" },
+    { "id": 15, "target": "la contaminación acústica", "source": "noise pollution", "gender": "f.", "type": "noun" },
+    { "id": 16, "target": "la biodiversidad", "source": "biodiversity", "gender": "f.", "type": "noun" },
+    { "id": 17, "target": "la deforestación", "source": "deforestation", "gender": "f.", "type": "noun" },
+    { "id": 18, "target": "la erosión", "source": "erosion", "gender": "f.", "type": "noun" },
+    { "id": 19, "target": "la extinción", "source": "extinction", "gender": "f.", "type": "noun" },
+    { "id": 20, "target": "la especie en peligro", "source": "endangered species", "gender": "f.", "type": "noun" },
+    { "id": 21, "target": "el ecosistema", "source": "ecosystem", "gender": "m.", "type": "noun" },
+    { "id": 22, "target": "el océano", "source": "ocean", "gender": "m.", "type": "noun" },
+    { "id": 23, "target": "la capa de ozono", "source": "ozone layer", "gender": "f.", "type": "noun" },
+    { "id": 24, "target": "el deshielo", "source": "melting of ice", "gender": "m.", "type": "noun" },
+    { "id": 25, "target": "el nivel del mar", "source": "sea level", "gender": "m.", "type": "noun" },
+    { "id": 26, "target": "el vertido de plástico", "source": "plastic dumping", "gender": "m.", "type": "noun" },
+    { "id": 27, "target": "la sostenibilidad", "source": "sustainability", "gender": "f.", "type": "noun" },
+    { "id": 28, "target": "sostenible", "source": "sustainable", "gender": "m./f.", "type": "adjective" },
+    { "id": 29, "target": "reciclaje", "source": "recycling", "gender": "m.", "type": "noun" },
+    { "id": 30, "target": "el consumo responsable", "source": "responsible consumption", "gender": "m.", "type": "noun" },
+    { "id": 31, "target": "el compromiso medioambiental", "source": "environmental commitment", "gender": "m.", "type": "noun" },
+    { "id": 32, "target": "la cumbre climática", "source": "climate summit", "gender": "f.", "type": "noun" },
+    { "id": 33, "target": "el acuerdo de París", "source": "Paris Agreement", "gender": "m.", "type": "noun" },
+    { "id": 34, "target": "la transición energética", "source": "energy transition", "gender": "f.", "type": "noun" },
+    { "id": 35, "target": "el impacto ambiental", "source": "environmental impact", "gender": "m.", "type": "noun" },
+    { "id": 36, "target": "conservar", "source": "to conserve", "gender": "v.", "type": "verb" },
+    { "id": 37, "target": "proteger", "source": "to protect", "gender": "v.", "type": "verb" },
+    { "id": 38, "target": "destruir", "source": "to destroy", "gender": "v.", "type": "verb" },
+    { "id": 39, "target": "reciclar", "source": "to recycle", "gender": "v.", "type": "verb" },
+    { "id": 40, "target": "reducir / reutilizar / reciclar", "source": "reduce / reuse / recycle", "gender": "—", "type": "phrase" }
+  ],
+  "grammar": [
+    {
+      "title": "Comparatives & Superlatives for Environmental Data",
+      "content": "Environmental discourse relies heavily on comparatives and superlatives to present data, trends, and urgency.\n\nComparative structures:\n- Más/menos... que (more/less... than)\n- Tan... como (as... as)\n- Tanto/a/os/as... como (as much/many... as)\n- Superior/inferior a (superior/inferior to)\n- Preferible a (preferable to)\n\nSuperlative structures:\n- El/la más/menos... (the most/least)\n- El/la mejor/malor (the best/worst)\n- El/la mayor/menor (the greatest/least)\n\nExamples:\n- La energía solar es más barata que los combustibles fósiles.\n- Las emisiones de carbono son cada vez más preocupantes.\n- La deforestación en la Amazonia es la mayor amenaza para la biodiversidad.\n- El cambio climático representa el mayor desafío de nuestro tiempo.\n- Este es el año más cálido registrado hasta la fecha.",
+      "examples": [
+        "Las emisiones de CO2 son más del doble que las de hace cincuenta años.",
+        "La contaminación del aire es cada vez peor en las grandes ciudades.",
+        "Este es el acuerdo climático más ambicioso jamás firmado.",
+        "La pérdida de biodiversidad es mayor que nunca antes en la historia."
+      ],
+      "aid_note": "Romanian comparatives: 'mai mult/decat' (more/less than), 'cel mai' (the most). Very similar to Spanish 'más/menos... que' and 'el más/menos... de'."
+    },
+    {
+      "title": "Subjunctive for Environmental Urgency",
+      "content": "Environmental discourse frequently uses subjunctive with expressions of urgency, necessity, and concern.\n\nKey patterns:\n- Es urgente que + subjunctive (It's urgent that)\n- Es vital que + subjunctive (It's vital that)\n- Es imprescindible que + subjunctive (It's essential that)\n- Tememos que + subjunctive (We fear that)\n- Es probable que + subjunctive (It's likely that)\n- Es imposible que + subjunctive (It's impossible that)\n\nExamples:\n- Es urgente que se reduzcan las emisiones de carbono.\n- Es vital que los gobiernos tomen medidas antes de que sea demasiado tarde.\n- Tememos que el nivel del mar suba un metro para finales de siglo.\n- Es imprescindible que se protejan los bosques tropicales.",
+      "examples": [
+        "Es vital que los países desarrollados inviertan en energías renovables.",
+        "Tememos que la extinción de especies sea irreversible.",
+        "Es imprescindible que se reduzca el consumo de plásticos.",
+        "Es probable que el acuerdo de París no sea suficiente para limitar el calentamiento."
+      ],
+      "aid_note": "Romanian subjunctive: 'Este urgent să...', 'Este vital să...', 'Ne temem că... să...' — structurally parallel to Spanish."
+    }
+  ],
+  "pronunciation": [
+    {
+      "title": "Stress Patterns in Environmental Vocabulary",
+      "content": "Environmental terms in Spanish often carry stress on the penultimate syllable (graves) or antepenultimate (esdrújulas).\n\nKey patterns:\n- Esdrújulas (stress on antepenultimate): 'biodiversidad' (bi-o-di-ver-si-DAD) — always carries accent\n- 'climático' (kli-ma-TI-co) — stress on -TI-\n- 'renovable' (re-no-VA-ble) — stress on -VA-\n- Graves (stress on penultimate): 'contaminación' (kon-ta-mi-na-TEE-on) — carries accent\n- 'sostenible' (sos-te-NE-ble) — stress on -NE-\n- 'efectivo' (e-fek-TI-vo) — stress on -TI-\n\nPractice:\n- 'La biodiversidad es fundamental para el ecosistema.'\n- 'El cambio climático afecta a todo el planeta.'\n- 'La energía renovable es la solución más sostenible.'\n\nTip: Spanish esdrújulas always carry an accent mark. This is a reliable rule — if you see an accent on the antepenultimate syllable, it's always stressed.",
+      "examples": [
+        { "target": "biodiversidad", "source": "bi-o-di-ver-si-DAD (esdrújula)" },
+        { "target": "climático", "source": "kli-ma-TI-co (esdrújula)" },
+        { "target": "contaminación", "source": "kon-ta-mi-na-TEE-on (grave)" }
+      ],
+      "aid_note": "Romanian stress falls on the last syllable of most environmental terms: 'biodiversitate' (bi-o-di-ver-si-TA-te), 'climatic' (kli-MA-tik). Spanish stress patterns differ significantly."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "fill-in-blank",
+      "question": "Complete with comparative: 'La energía solar es _____ barata que los combustibles fósiles.' (Solar energy is cheaper than fossil fuels.)",
+      "correct": "más",
+      "explanation": "'Más barata que' = cheaper than. 'Más' is used for comparative of superiority."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete with subjunctive: 'Es urgente que se _____ (reducir) las emisiones de carbono.'",
+      "correct": "reduzcan",
+      "explanation": "'Es urgente que' triggers the subjunctive. 'Reducir' in ellos-form subjunctive = 'reduzcan' (note the z instead of c for pronunciation)."
+    },
+    {
+      "type": "exercise",
+      "question": "What does 'la deforestación' mean?",
+      "options": ["Reforestation", "Deforestation", "Deforestation", "Landscaping"],
+      "correct": 1,
+      "explanation": "'La deforestación' = deforestation — the clearing or thinning of forests by humans."
+    },
+    {
+      "type": "matching",
+      "question": "Match the environmental term:",
+      "pairs": [
+        { "target": "la huella de carbono", "source": "carbon footprint" },
+        { "target": "la capa de ozono", "source": "ozone layer" },
+        { "target": "la biodiversidad", "source": "biodiversity" },
+        { "target": "la energía eólica", "source": "wind energy" }
+      ],
+      "explanation": "These are essential terms for discussing environmental issues."
+    },
+    {
+      "type": "exercise",
+      "question": "Which word means 'sustainable'?",
+      "options": ["contaminante", "sostenible", "renovable", "efectivo"],
+      "correct": 1,
+      "explanation": "'Sostenible' = sustainable. 'Renovable' = renewable (energy can be renewable without being sustainable)."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete the superlative: 'Este es el año _____ cálido registrado hasta la fecha.' (This is the warmest year recorded to date.)",
+      "correct": "más",
+      "explanation": "'El año más cálido' = the warmest year. Superlative: 'el/la más + adjective + de'."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: 'Tememos que el nivel del mar _____ (subir) un metro para finales de siglo.' (We fear sea level will rise one meter by the end of the century.)",
+      "correct": "suba",
+      "explanation": "'Tememos que' triggers the subjunctive. 'Subir' in yo/form subjunctive = 'suba'."
+    },
+    {
+      "type": "exercise",
+      "question": "What is the 3R principle in Spanish?",
+      "options": ["Reducir, reutilizar, reciclar", "Reciclar, reforestar, renovar", "Reemplazar, reciclar, reducir", "Renovar, reutilizar, reformar"],
+      "correct": 0,
+      "explanation": "The 3R principle is 'Reducir, reutilizar, reciclar' — reduce, reuse, recycle. This is a fundamental concept in environmental awareness."
+    }
+  ]
+}

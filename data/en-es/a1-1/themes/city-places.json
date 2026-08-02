@@ -1,0 +1,444 @@
+{
+  "id": "city-places",
+  "level": "a1-1",
+  "title": "City & Places",
+  "description": "Learn to talk about your city, describe places and landmarks, ask for and understand directions, and discuss transportation in Spanish.",
+  "vocabulary": [
+    {"id": 1, "target": "ciudad", "source": "city", "gender": "f", "type": "place"},
+    {"id": 2, "target": "pueblo", "source": "town", "gender": "m", "type": "place"},
+    {"id": 3, "target": "calle", "source": "street", "gender": "f", "type": "place"},
+    {"id": 4, "target": "avenida", "source": "avenue", "gender": "f", "type": "place"},
+    {"id": 5, "target": "plaza", "source": "square/plaza", "gender": "f", "type": "place"},
+    {"id": 6, "target": "edificio", "source": "building", "gender": "m", "type": "place"},
+    {"id": 7, "target": "iglesia", "source": "church", "gender": "f", "type": "landmark"},
+    {"id": 8, "target": "catedral", "source": "cathedral", "gender": "f", "type": "landmark"},
+    {"id": 9, "target": "castillo", "source": "castle", "gender": "m", "type": "landmark"},
+    {"id": 10, "target": "monumento", "source": "monument", "gender": "m", "type": "landmark"},
+    {"id": 11, "target": "parque", "source": "park", "gender": "m", "type": "place"},
+    {"id": 12, "target": "jardín", "source": "garden", "gender": "m", "type": "place"},
+    {"id": 13, "target": "biblioteca", "source": "library", "gender": "f", "type": "building"},
+    {"id": 14, "target": "museo", "source": "museum", "gender": "m", "type": "building"},
+    {"id": 15, "target": "hospital", "source": "hospital", "gender": "m", "type": "building"},
+    {"id": 16, "target": "farmacia", "source": "pharmacy", "gender": "f", "type": "building"},
+    {"id": 17, "target": "restaurante", "source": "restaurant", "gender": "m", "type": "building"},
+    {"id": 18, "target": "hotel", "source": "hotel", "gender": "m", "type": "building"},
+    {"id": 19, "target": "banco", "source": "bank", "gender": "m", "type": "building"},
+    {"id": 20, "target": "tienda", "source": "shop/store", "gender": "f", "type": "building"},
+    {"id": 21, "target": "mercado", "source": "market", "gender": "m", "type": "building"},
+    {"id": 22, "target": "supermercado", "source": "supermarket", "gender": "m", "type": "building"},
+    {"id": 23, "target": "estación", "source": "station", "gender": "f", "type": "transport"},
+    {"id": 24, "target": "parada", "source": "stop", "gender": "f", "type": "transport"},
+    {"id": 25, "target": "autobús", "source": "bus", "gender": "m", "type": "transport"},
+    {"id": 26, "target": "metro", "source": "subway", "gender": "m", "type": "transport"},
+    {"id": 27, "target": "tren", "source": "train", "gender": "m", "type": "transport"},
+    {"id": 28, "target": "taxi", "source": "taxi", "gender": "m", "type": "transport"},
+    {"id": 29, "target": "coche", "source": "car", "gender": "m", "type": "transport"},
+    {"id": 30, "target": "camión", "source": "truck", "gender": "m", "type": "transport"},
+    {"id": 31, "target": "bicicleta", "source": "bicycle", "gender": "f", "type": "transport"},
+    {"id": 32, "target": "avión", "source": "airplane", "gender": "m", "type": "transport"},
+    {"id": 33, "target": "barco", "source": "boat", "gender": "m", "type": "transport"},
+    {"id": 34, "target": "puente", "source": "bridge", "gender": "m", "type": "landmark"},
+    {"id": 35, "target": "fuentes", "source": "fountain", "gender": "f", "type": "landmark"},
+    {"id": 36, "target": "estatua", "source": "statue", "gender": "f", "type": "landmark"},
+    {"id": 37, "target": "centro", "source": "center", "gender": "m", "type": "place"},
+    {"id": 38, "target": "centro comercial", "source": "shopping mall", "gender": "m", "type": "building"},
+    {"id": 39, "target": "cine", "source": "cinema", "gender": "m", "type": "building"},
+    {"id": 40, "target": "teatro", "source": "theater", "gender": "m", "type": "building"},
+    {"id": 41, "target": "estadio", "source": "stadium", "gender": "m", "type": "building"},
+    {"id": 42, "target": "aeropuerto", "source": "airport", "gender": "m", "type": "transport"},
+    {"id": 43, "target": "puerto", "source": "port/harbor", "gender": "m", "type": "place"},
+    {"id": 44, "target": "calle principal", "source": "main street", "gender": "f", "type": "place"},
+    {"id": 45, "target": "esquina", "source": "corner", "gender": "f", "type": "place"},
+    {"id": 46, "target": "acera", "source": "sidewalk", "gender": "f", "type": "place"},
+    {"id": 47, "target": "semáforo", "source": "traffic light", "gender": "m", "type": "place"},
+    {"id": 48, "target": "señal de tráfico", "source": "traffic sign", "gender": "f", "type": "place"},
+    {"id": 49, "target": "cruce", "source": "intersection", "gender": "m", "type": "place"},
+    {"id": 50, "target": "fuente", "source": "fountain", "gender": "f", "type": "landmark"},
+    {"id": 51, "target": "muralla", "source": "wall/citadel", "gender": "f", "type": "landmark"},
+    {"id": 52, "target": "palacio", "source": "palace", "gender": "m", "type": "landmark"},
+    {"id": 53, "target": "torre", "source": "tower", "gender": "f", "type": "landmark"},
+    {"id": 54, "target": "callejón", "source": "alley", "gender": "m", "type": "place"},
+    {"id": 55, "target": "río", "source": "river", "gender": "m", "type": "landmark"},
+    {"id": 56, "target": "costa", "source": "coast", "gender": "f", "type": "landmark"},
+    {"id": 57, "target": "montaña", "source": "mountain", "gender": "f", "type": "landmark"},
+    {"id": 58, "target": "izquierda", "source": "left", "gender": "f", "type": "direction"},
+    {"id": 59, "target": "derecha", "source": "right", "gender": "f", "type": "direction"},
+    {"id": 60, "target": "arriba", "source": "up/above", "gender": null, "type": "direction"},
+    {"id": 61, "target": "abajo", "source": "down/below", "gender": null, "type": "direction"},
+    {"id": 62, "target": "adelante", "source": "forward/ahead", "gender": null, "type": "direction"},
+    {"id": 63, "target": "atrás", "source": "back/behind", "gender": null, "type": "direction"},
+    {"id": 64, "target": "cerca", "source": "near/close", "gender": null, "type": "direction"},
+    {"id": 65, "target": "lejos", "source": "far", "gender": null, "type": "direction"},
+    {"id": 66, "target": "cerca de", "source": "near to", "gender": null, "type": "direction"},
+    {"id": 67, "target": "lejos de", "source": "far from", "gender": null, "type": "direction"},
+    {"id": 68, "target": "todo recto", "source": "straight ahead", "gender": null, "type": "direction"},
+    {"id": 69, "target": "a la izquierda", "source": "to the left", "gender": null, "type": "direction"},
+    {"id": 70, "target": "a la derecha", "source": "to the right", "gender": null, "type": "direction"},
+    {"id": 71, "target": "enfrente de", "source": "opposite of", "gender": null, "type": "direction"},
+    {"id": 72, "target": "al lado de", "source": "next to", "gender": null, "type": "direction"},
+    {"id": 73, "target": "entre", "source": "between", "gender": null, "type": "direction"},
+    {"id": 74, "target": "guía turístico", "source": "tour guide", "gender": "m", "type": "person"},
+    {"id": 75, "target": "turista", "source": "tourist", "gender": "m/f", "type": "person"},
+    {"id": 76, "target": "mapa", "source": "map", "gender": "m", "type": "object"},
+    {"id": 77, "target": "dirección", "source": "address/direction", "gender": "f", "type": "object"},
+    {"id": 78, "target": "señal", "source": "sign", "gender": "f", "type": "object"},
+    {"id": 79, "target": "código postal", "source": "postal code", "gender": "m", "type": "object"},
+    {"id": 80, "target": "vecino", "source": "neighbor", "gender": "m", "type": "person"},
+    {"id": 81, "target": "vecina", "source": "neighbor (female)", "gender": "f", "type": "person"},
+    {"id": 82, "target": "policía", "source": "police officer", "gender": "m/f", "type": "person"},
+    {"id": 83, "target": "conserje", "source": "concierge/building manager", "gender": "m", "type": "person"},
+    {"id": 84, "target": "cajero", "source": "cashier", "gender": "m", "type": "person"},
+    {"id": 85, "target": "conductor", "source": "driver", "gender": "m", "type": "person"},
+    {"id": 86, "target": "piloto", "source": "pilot", "gender": "m", "type": "person"},
+    {"id": 87, "target": "tarjeta de embarque", "source": "boarding pass", "gender": "f", "type": "object"},
+    {"id": 88, "target": "boleto", "source": "ticket", "gender": "m", "type": "object"},
+    {"id": 89, "target": "billete", "source": "bill/ticket", "gender": "m", "type": "object"},
+    {"id": 90, "target": "maleta", "source": "suitcase", "gender": "f", "type": "object"},
+    {"id": 91, "target": "pasaporte", "source": "passport", "gender": "m", "type": "object"},
+    {"id": 92, "target": "salida", "source": "exit/departure", "gender": "f", "type": "transport"},
+    {"id": 93, "target": "entrada", "source": "entrance/arrival", "gender": "f", "type": "transport"},
+    {"id": 94, "target": "plataforma", "source": "platform", "gender": "f", "type": "transport"},
+    {"id": 95, "target": "andén", "source": "platform (train)", "gender": "m", "type": "transport"},
+    {"id": 96, "target": "parada de taxi", "source": "taxi stand", "gender": "f", "type": "transport"},
+    {"id": 97, "target": "parque de coches", "source": "car park", "gender": "m", "type": "place"},
+    {"id": 98, "target": "garaje", "source": "garage", "gender": "m", "type": "place"},
+    {"id": 99, "target": "arco", "source": "arch", "gender": "m", "type": "landmark"},
+    {"id": 100, "target": "camino", "source": "path/road", "gender": "m", "type": "place"}
+  ],
+  "grammar": [
+    {
+      "title": "¿Dónde está...? — Asking for Locations",
+      "content": "To ask where something is, use the question word \"dónde\" (where) with the verb \"estar\" (to be, for location).\n\nBasic pattern:\n¿Dónde está + [singular noun]? (Where is [singular]?)\n¿Dónde están + [plural noun]? (Where are [plural]?)\n\nExamples:\n¿Dónde está el banco? (Where is the bank?)\n¿Dónde está la farmacia? (Where is the pharmacy?)\n¿Dónde está el museo? (Where is the museum?)\n¿Dónde está la estación de tren? (Where is the train station?)\n¿Dónde están los baños? (Where are the bathrooms?)\n¿Dónde está el centro? (Where is the center?)\n\nUsing \"hay\" (there is/are):\n¿Hay un banco cerca? (Is there a bank nearby?)\n¿Hay una farmacia aquí? (Is there a pharmacy here?)\n¿Hay un museo cerca de aquí? (Is there a museum near here?)\n\nCommon place vocabulary:\n- ¿Dónde está...? = Where is...?\n- ¿Dónde hay...? = Where is/are there...?\n- cerca = near\n- lejos = far\n- aquí = here\n- allí = there\n- acá = here (Latin America)",
+      "examples": [
+        "¿Dónde está la iglesia? (Where is the church?)\nLa iglesia está en la plaza. (The church is in the square.)\n¿Dónde está el hospital? (Where is the hospital?)\nEl hospital está al lado del parque. (The hospital is next to the park.)\n¿Dónde está el aeropuerto? (Where is the airport?)\nEl aeropuerto está lejos del centro. (The airport is far from the center.)\n¿Dónde están los baños? (Where are the bathrooms?)\nLos baños están en la esquina. (The bathrooms are at the corner.)"
+      ]
+    },
+    {
+      "title": "Directions — Giving and Understanding Directions",
+      "content": "Key phrases for giving directions in Spanish:\n\nBasic directions:\nSiga derecho / Todo recto = Go straight ahead\nGire a la izquierda = Turn left\nGire a la derecha = Turn right\nVaya a la derecha = Go to the right\nVaya a la izquierda = Go to the left\n\nAdditional directions:\nCruce la calle = Cross the street\nPase de largo = Go past\nLlegará a... = You will arrive at...\nEstá a la izquierda/derecha = It's on the left/right\n\nPolite request phrases:\n¿Me puede decir cómo llegar a...? = Can you tell me how to get to...?\n¿Sabes dónde está...? = Do you know where... is?\nDisculpe, ¿dónde está...? = Excuse me, where is...?\nPerdón, ¿puede ayudarme? = Sorry, can you help me?\n\nDistance expressions:\n- está lejos = it's far\n- está cerca = it's near\n- está a dos manzanas = it's two blocks away\n- está a cinco minutos = it's five minutes away\n- está a la vuelta = it's just around the corner\n\nPrepositions for locations:\n- al lado de = next to\n- enfrente de = opposite\n- entre = between\n- en la esquina = at the corner\n- en la plaza = in the square\n- en el centro = in the center\n- en la calle = on the street",
+      "examples": [
+        "Disculpe, ¿dónde está la estación de tren? (Excuse me, where is the train station?)\nSiga derecho dos calles y gire a la izquierda. (Go straight for two streets and turn left.)\n¿Cómo llego al museo? (How do I get to the museum?)\nCruce la calle y siga derecho. (Cross the street and go straight ahead.)\nEl museo está enfrente de la iglesia. (The museum is opposite the church.)\nEstá a la vuelta de la esquina. (It's just around the corner.)\n¿Está lejos del centro? (Is it far from the center?)\nNo, está a cinco minutos a pie. (No, it's five minutes on foot.)\nEstá al lado del banco. (It's next to the bank.)\nCruce el puente y llegará al castillo. (Cross the bridge and you'll arrive at the castle.)"
+      ]
+    },
+    {
+      "title": "Transportation Vocabulary & Expressions",
+      "content": "Common transportation vocabulary:\n\nModes of transport:\nel autobús = the bus\nel metro = the subway\nel tren = the train\nel taxi = the taxi\nel coche = the car\nla bicicleta = the bicycle\nel avión = the airplane\nel barco = the boat\ncamino a pie = on foot\n\nTransportation places:\nla estación de autobuses = the bus station\nla estación de metro = the subway station\nla parada de autobús = the bus stop\nla parada de taxi = the taxi stand\nla estación de tren = the train station\nel aeropuerto = the airport\nel puerto = the port\n\nUseful phrases:\n¿Cuánto cuesta el billete? = How much is the ticket?\nQuiero un billete a... = I want a ticket to...\n¿A qué hora sale...? = What time does... leave?\n¿A qué hora llega...? = What time does... arrive?\nEl tren sale a las... = The train leaves at...\nEl tren llega a las... = The train arrives at...\n\nVerbs related to transport:\nsubir al autobús/tren = to get on the bus/train\nbajar del autobús/tren = to get off the bus/train\nesperar la parada = to wait for the stop\ncambiar de autobús/tren = to change buses/trains\nconducir = to drive\nviajar = to travel\n\nPrepositions:\nen el autobús = on the bus\nen el metro = on the subway\nen el tren = on the train\nen el taxi = in the taxi\nen coche = by car\nen bicicleta = by bicycle",
+      "examples": [
+        "Quiero un billete al aeropuerto. (I want a ticket to the airport.)\n¿Cuánto cuesta el billete? (How much is the ticket?)\nCuesta cinco euros. (It costs five euros.)\n¿A qué hora sale el autobús? (What time does the bus leave?)\nSale a las ocho de la mañana. (It leaves at eight in the morning.)\nSubo al autobús en la parada. (I get on the bus at the stop.)\nBajo en la estación de tren. (I get off at the train station.)\nViajo en metro al centro. (I travel by subway to the center.)\n¿Puedo llevar mi bicicleta en el tren? (Can I bring my bicycle on the train?)\nSí, pero en las horas fuera de punta. (Yes, but during off-peak hours.)"
+      ]
+    },
+    {
+      "title": "Describing Places — Ser and Estar with Locations",
+      "content": "Using SER and ESTAR to describe places:\n\nSER for permanent characteristics of places:\nLa ciudad es grande. (The city is big.)\nLa plaza es bonita. (The square is pretty.)\nEl museo es antiguo. (The museum is old.)\nEl parque es moderno. (The park is modern.)\nLa calle es estrecha. (The street is narrow.)\nLa avenida es larga. (The avenue is long.)\n\nEstar for location:\nEl museo está en el centro. (The museum is in the center.)\nLa iglesia está en la plaza. (The church is in the square.)\nEl parque está al lado del hospital. (The park is next to the hospital.)\nLa plaza está entre la iglesia y el castillo. (The square is between the church and the castle.)\n\nCombining SER and ESTAR:\nLa ciudad es bonita y está cerca del mar. (The city is pretty and is near the sea.)\nEl museo es antiguo y está en el centro. (The museum is old and is in the center.)\nLa plaza es grande y está al lado del castillo. (The square is big and is next to the castle.)\n\nUseful adjectives for describing places:\nbonito/a = pretty\nantiguo/a = old\nmoderno/a = modern\ngrande = big\npequeño/a = small\namplio/a = spacious\nestrecho/a = narrow\nlargo/a = long\ntranquilo/a = quiet\nruidoso/a = noisy\nlimpio/a = clean\nsucio/a = dirty\npopular = popular\nfamoso/a = famous\nhistórico/a = historic\n\nQuestions:\n¿Cómo es la ciudad? (What is the city like?)\n¿Dónde está el museo? (Where is the museum?)\n¿Es grande la plaza? (Is the square big?)\n¿Es antiguo el edificio? (Is the building old?)",
+      "examples": [
+        "La ciudad es bonita. (The city is pretty.)\nEl pueblo es pequeño y tranquilo. (The town is small and quiet.)\nLa plaza es grande y está en el centro. (The square is big and is in the center.)\nEl museo es antiguo y está cerca de la iglesia. (The museum is old and is near the church.)\n¿Es famoso el castillo? (Is the castle famous?)\nSí, es muy famoso. (Yes, it's very famous.)\nLa calle es estrecha pero bonita. (The street is narrow but pretty.)\nEl parque está al lado del río. (The park is next to the river.)"
+      ]
+    },
+    {
+      "title": "Quantifiers — Mucho/Poco/Mucho/a",
+      "content": "Using quantifiers to describe how much/many of something is in a place:\n\nSingular (with singular nouns):\nmucho/a = a lot of / much\npoco/a = a little / few\nmuy = very\nbastante = quite a lot / fairly\n\nPlural (with plural nouns):\nmuchos/muchas = a lot of / many\npocos/pocas = a few / little\nbastantes = quite a few\n\nExamples:\nLa ciudad tiene mucho tráfico. (The city has a lot of traffic.)\nHay pocos restaurantes aquí. (There are few restaurants here.)\nEn el parque hay muchos árboles. (In the park there are many trees.)\nHay bastante gente en la plaza. (There is quite a lot of people in the square.)\nNo hay mucho ruido en esta calle. (There isn't much noise on this street.)\nEn el centro hay muchos turistas. (In the center there are many tourists.)\n\nCombined with hay:\nHay mucho/a + singular noun = there is a lot of + singular\nHay muchos/muchas + plural noun = there are a lot of + plural\nNo hay + singular/plural = there is/are not any\n\nQuestions:\n¿Hay mucho tráfico? (Is there a lot of traffic?)\n¿Hay muchos museos aquí? (Are there many museums here?)\n¿Hay poca gente? (Is there little people / are there few people?)",
+      "examples": [
+        "En esta ciudad hay mucho tráfico. (In this city there is a lot of traffic.)\nEn el pueblo hay poca gente. (In the town there are few people.)\nHay muchos parques en el centro. (There are many parks in the center.)\nHay poco ruido en esta calle. (There is little noise on this street.)\n¿Hay bastante comida en el restaurante? (Is there quite a lot of food in the restaurant?)\nEn la plaza hay bastantes turistas. (In the square there are quite a few tourists.)\nNo hay mucho tráfico los domingos. (There isn't much traffic on Sundays.)\n¿Hay muchos autobuses? (Are there many buses?)"
+      ]
+    },
+    {
+      "title": "Expressing Distance and Time",
+      "content": "Talking about how far places are and how long it takes to get there:\n\nDistance expressions:\nestá cerca = it's near\nestá lejos = it's far\nestá muy cerca = it's very near\nestá muy lejos = it's very far\nestá a dos manzanas = it's two blocks away\nestá a cinco minutos = it's five minutes (away)\nestá a diez minutos a pie = it's ten minutes on foot\nestá a diez minutos en coche = it's ten minutes by car\n\nTime expressions:\nuna hora = one hour\nmedia hora = half an hour\ncinco minutos = five minutes\ndiez minutos = ten minutes\ndos horas = two hours\n\nCombining distance and time:\n¿Cuánto tarda en llegar a...? = How long does it take to get to...?\nTarda veinte minutos. (It takes twenty minutes.)\nTarda media hora en autobús. (It takes half an hour by bus.)\nTarda diez minutos a pie. (It takes ten minutes on foot.)\n\nPrepositions for transport:\nen autobús = by bus\nen metro = by subway\nen tren = by train\nen coche = by car\nen bicicleta = by bicycle\na pie = on foot\nen taxi = by taxi\n\nQuestions:\n¿Cuánto tarda? = How long does it take?\n¿Es lejos? = Is it far?\n¿Puedo ir a pie? = Can I go on foot?\n¿Cuánto cuesta el billete? = How much is the ticket?\n¿Cuántas paradas hay? = How many stops are there?\n¿Cuántas calles hay que cruzar? = How many streets do I have to cross?",
+      "examples": [
+        "¿Cuánto tarda en llegar al aeropuerto? (How long does it take to get to the airport?)\nTarda media hora en coche. (It takes half an hour by car.)\n¿Es lejos de aquí? (Is it far from here?)\nNo, está cerca. (No, it's near.)\n¿Puedo ir a pie? (Can I go on foot?)\nSí, está a diez minutos a pie. (Yes, it's ten minutes on foot.)\n¿Cuánto tarda el autobús? (How long does the bus take?)\nTarda veinte minutos. (It takes twenty minutes.)\n¿Cuántas paradas hay hasta el centro? (How many stops to the center?)\nHay cinco paradas. (There are five stops.)\n¿Cuánto cuesta el billete del metro? (How much is the subway ticket?)\nCuesta dos euros. (It costs two euros.)"
+      ]
+    }
+  ],
+  "pronunciation": [
+    {
+      "title": "City Vocabulary — Basic Pronunciation",
+      "content": "Core city and place vocabulary pronunciations:\n\nciudad = syoo-AHD (city)\npueblo = PYEH-bloh (town)\ncalle = KA-yeh (street)\navenida = ah-beh-NEE-dah (avenue)\nplaza = PLAH-sah (square)\nedificio = eh-dee-fee-SEE-oh (building)\niglesia = eeg-LEH-see-ah (church)\nmuseo = moo-SEH-oh (museum)\nhospital = ohs-peh-TAL (hospital)\nbanco = BAHN-koh (bank)\ntienda = TYEH-ndah (shop)\nmercado = mair-KAH-doh (market)\nparque = PAHK-keh (park)\ncentro = SEN-troh (center)\naeropuerto = ah-eh-roh-PWEHR-toh (airport)\ncatedral = kah-teh-DRAHL (cathedral)\ncastillo = kah-STEH-yoh (castle)\nmonumento = moh-noo-MEN-toh (monument)\npuente = PWEHN-teh (bridge)\nfuente = FWEHN-teh (fountain)",
+      "examples": [
+        "ciudad = syoo-AHD\npueblo = PYEH-bloh\ncalle = KA-yeh\navenida = ah-beh-NEE-dah\nplaza = PLAH-sah\niglesia = eeg-LEH-see-ah\nmuseo = moo-SEH-oh\nhospital = ohs-peh-TAL\nbanco = BAHN-koh\ntienda = TYEH-ndah\nmercado = mair-KAH-doh\nparque = PAHK-keh\ncentro = SEN-troh\naeropuerto = ah-eh-roh-PWEHR-toh\npuente = PWEHN-teh"
+      ]
+    },
+    {
+      "title": "Transportation — Pronunciation",
+      "content": "Transportation vocabulary pronunciations:\n\nautobús = ow-toh-BOOS (bus)\nmetro = MEH-troh (subway)\ntren = tren (train)\ntaxi = TAH-see (taxi)\ncoche = KOH-cheh (car)\nbicicleta = bee-see-CLEH-tah (bicycle)\navión = ah-BYOHN (airplane)\nbarco = BAHR-koh (boat)\nestación = es-tah-see-ON (station)\nparada = pah-RAH-dah (stop)\nandén = ahn-DEHN (platform)\nboleto = bo-LEH-toh (ticket)\nbillete = bee-YEH-teh (ticket)\nplataforma = plah-tah-FOHR-mah (platform)\ncódigo postal = KOH-doh poh-STAHL (postal code)\npasaporte = pah-sah-POHR-teh (passport)\nmaleta = mah-LEH-tah (suitcase)\ncamión = kah-MYOHN (truck)\nconductor = kohn-dook-TOHR (driver)\nconductor = kohn-dook-TOHR (driver)",
+      "examples": [
+        "autobús = ow-toh-BOOS\nmetro = MEH-troh\ntren = tren\ntaxi = TAH-see\ncoche = KOH-cheh\nbicicleta = bee-see-CLEH-tah\navión = ah-BYOHN\nbarco = BAHR-koh\nestación = es-tah-see-ON\nparada = pah-RAH-dah\nandén = ahn-DEHN\nboleto = bo-LEH-toh\nbillete = bee-YEH-teh\npasaporte = pah-sah-POHR-teh\nmaleta = mah-LEH-tah"
+      ]
+    },
+    {
+      "title": "Directions & Landmarks — Pronunciation",
+      "content": "Directions and landmark vocabulary pronunciations:\n\nizquierda = ees-KYEHR-dah (left)\nderecha = deh-REH-chah (right)\narriba = ah-REE-bah (up)\nabajo = ah-BAH-hoh (down)\ndelante = deh-LAN-teh (front)\natrás = ah-TROHS (back)\ncerca = SER-kah (near)\nlejos = HEH-hohs (far)\nesquina = es-KEE-nah (corner)\nmonumento = moh-noo-MEN-toh (monument)\nestatua = es-tah-OO-ah (statue)\npalacio = pah-LAH-see-oh (palace)\ntorre = TOH-reh (tower)\npuerta = PWEHR-tah (door)\nmuralla = moo-RAH-yah (wall)\nseñal = seh-NYAL (sign)\npolicía = poh-lee-SEE-ah (police officer)\nvecino = beh-SEE-noh (neighbor)\nturista = too-REES-tah (tourist)",
+      "examples": [
+        "izquierda = ees-KYEHR-dah\nderecha = deh-REH-chah\narriba = ah-REE-bah\nabajo = ah-BAH-hoh\ndelante = deh-LAN-teh\ncerca = SER-kah\nlejos = HEH-hohs\nesquina = es-KEE-nah\nmonumento = moh-noo-MEN-toh\nestatua = es-tah-OO-ah\npalacio = pah-LAH-see-oh\ntorre = TOH-reh\nseñal = seh-NYAL\nvecino = beh-SEE-noh\nturista = too-REES-tah"
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "multiple-choice",
+      "question": "What is 'church' in Spanish?",
+      "options": ["museo", "iglesia", "biblioteca", "hospital"],
+      "correct": 1,
+      "explanation": "'Iglesia' = church. 'Museo' = museum. 'Biblioteca' = library. 'Hospital' = hospital."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What is 'subway' in Spanish?",
+      "options": ["autobús", "tren", "metro", "taxi"],
+      "correct": 2,
+      "explanation": "'Metro' = subway. 'Autobús' = bus. 'Tren' = train. 'Taxi' = taxi."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: ¿Dónde está la ___? (Where is the church?)",
+      "correct": "iglesia",
+      "explanation": "'Iglesia' = church. The question '¿Dónde está...?' uses 'estar' for location."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: Gire a la ___. (Turn right.)",
+      "correct": "derecha",
+      "explanation": "'Derecha' = right. 'Gire a la derecha' = Turn right. 'Izquierda' = left."
+    },
+    {
+      "type": "translation",
+      "question": "Translate to Spanish: 'Where is the bank?'",
+      "correct": "¿dónde está el banco?",
+      "explanation": "'¿Dónde' = where. 'Está' = is (location). 'El banco' = the bank. Use ESTAR for location questions."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What does 'izquierda' mean?",
+      "options": ["right", "straight", "left", "up"],
+      "correct": 2,
+      "explanation": "'Izquierda' = left. 'Derecha' = right. 'Derecho' = straight. 'Arriba' = up."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: Siga todo ___. (Go straight ahead.)",
+      "correct": "recto",
+      "explanation": "'Todo recto' = straight ahead. 'Siga' is the formal command of 'seguir' (to follow)."
+    },
+    {
+      "type": "translation",
+      "question": "Translate to Spanish: 'The museum is in the center'",
+      "correct": "el museo está en el centro",
+      "explanation": "'El museo' = the museum. 'Está' = is (location). 'En el centro' = in the center. Use ESTAR for location."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What is 'train station' in Spanish?",
+      "options": ["estación de tren", "parada de autobús", "aeropuerto", "estación de metro"],
+      "correct": 0,
+      "explanation": "'Estación de tren' = train station. 'Parada de autobús' = bus stop. 'Aeropuerto' = airport. 'Estación de metro' = subway station."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: Cruce la ___. (Cross the street.)",
+      "correct": "calle",
+      "explanation": "'Calle' = street. 'Cruce la calle' = cross the street. 'Cruce' is the formal command of 'cruzar' (to cross)."
+    },
+    {
+      "type": "translation",
+      "question": "Translate to Spanish: 'Is there a pharmacy nearby?'",
+      "correct": "¿hay una farmacia cerca?",
+      "explanation": "'¿Hay' = is there. 'Una farmacia' = a pharmacy. 'Cerca' = nearby. 'Hay' is the impersonal 'there is/are'."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What is 'airplane' in Spanish?",
+      "options": ["barco", "autobús", "avión", "tren"],
+      "correct": 2,
+      "explanation": "'Avión' = airplane (with accent on ó). 'Barco' = boat. 'Autobús' = bus. 'Tren' = train."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: La plaza está ___ el castillo. (The square is next to the castle.)",
+      "correct": "al lado del",
+      "explanation": "'Al lado del' = next to the (al lado de + el = al lado del). 'Al lado de' = next to."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What does 'cerca' mean?",
+      "options": ["far", "near", "above", "behind"],
+      "correct": 1,
+      "explanation": "'Cerca' = near/close. 'Lejos' = far. 'Arriba' = above/up. 'Detrás' = behind."
+    },
+    {
+      "type": "translation",
+      "question": "Translate to Spanish: 'How much is the ticket?'",
+      "correct": "¿cuánto cuesta el billete?",
+      "explanation": "'¿Cuánto cuesta' = how much does it cost. 'El billete' = the ticket. You can also say 'el boleto'."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What is 'square' (public plaza) in Spanish?",
+      "options": ["calle", "plaza", "avenida", "centro"],
+      "correct": 1,
+      "explanation": "'Plaza' = square/public plaza. 'Calle' = street. 'Avenida' = avenue. 'Centro' = center."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: El parque está ___ la iglesia. (The park is opposite the church.)",
+      "correct": "enfrente de",
+      "explanation": "'Enfrente de' = opposite of. 'El parque está enfrente de la iglesia' = The park is opposite the church."
+    },
+    {
+      "type": "translation",
+      "question": "Translate to Spanish: 'The city is big and beautiful'",
+      "correct": "la ciudad es grande y bonita",
+      "explanation": "'La ciudad' = the city. 'Es' = is (permanent characteristic, from SER). 'Grande' = big. 'Bonita' = beautiful. Use SER for descriptions of size/appearance."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What is 'sidewalk' in Spanish?",
+      "options": ["calle", "acera", "plaza", "esquina"],
+      "correct": 1,
+      "explanation": "'Acera' = sidewalk. 'Calle' = street. 'Plaza' = square. 'Esquina' = corner."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: Hay ___ tráfico en esta ciudad. (There is a lot of traffic in this city.)",
+      "correct": "mucho",
+      "explanation": "'Mucho' = a lot of (used with masculine singular nouns). 'Tráfico' is masculine, so 'mucho tráfico' = a lot of traffic."
+    },
+    {
+      "type": "translation",
+      "question": "Translate to Spanish: 'Turn left at the corner'",
+      "correct": "gire a la izquierda en la esquina",
+      "explanation": "'Gire' = turn (formal command). 'A la izquierda' = to the left. 'En la esquina' = at the corner."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What is 'castle' in Spanish?",
+      "options": ["iglesia", "palacio", "castillo", "catedral"],
+      "correct": 2,
+      "explanation": "'Castillo' = castle. 'Iglesia' = church. 'Palacio' = palace. 'Catedral' = cathedral."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: Voy en ___ al centro. (I go by bus to the center.)",
+      "correct": "autobús",
+      "explanation": "'Autobús' = bus. 'Voy en autobús' = I go by bus. 'Voy' = I go (from 'ir')."
+    },
+    {
+      "type": "translation",
+      "question": "Translate to Spanish: 'It's far from the center'",
+      "correct": "está lejos del centro",
+      "explanation": "'Está' = is (location, from ESTAR). 'Lejos' = far. 'Del' = de + el = from the. 'Centro' = center."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What is 'library' in Spanish?",
+      "options": ["museo", "biblioteca", "librería", "tienda"],
+      "correct": 1,
+      "explanation": "'Biblioteca' = library. 'Museo' = museum. 'Librería' = bookstore. 'Tienda' = shop."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: El museo está al ___ del parque. (The museum is next to the park.)",
+      "correct": "lado",
+      "explanation": "'Al lado de' = next to. 'El museo está al lado del parque' = The museum is next to the park."
+    },
+    {
+      "type": "translation",
+      "question": "Translate to Spanish: 'How long does it take to get there?'",
+      "correct": "¿cuánto tarda en llegar allí?",
+      "explanation": "'¿Cuánto tarda' = how long does it take. 'En llegar' = to get/arrive. 'Allí' = there."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What is 'pharmacy' in Spanish?",
+      "options": ["hospital", "farmacia", "clínica", "doctor"],
+      "correct": 1,
+      "explanation": "'Farmacia' = pharmacy. 'Hospital' = hospital. 'Clínica' = clinic. 'Doctor' = doctor."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: Necesito un ___ para el tren. (I need a ticket for the train.)",
+      "correct": "billete",
+      "explanation": "'Billete' = ticket. 'Boleto' is also used in Latin America. 'Necesito' = I need."
+    },
+    {
+      "type": "translation",
+      "question": "Translate to Spanish: 'The bridge is over the river'",
+      "correct": "el puente está sobre el río",
+      "explanation": "'El puente' = the bridge. 'Está' = is (location). 'Sobre' = over/above. 'El río' = the river."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What is 'tower' in Spanish?",
+      "options": ["castillo", "iglesia", "torre", "muralla"],
+      "correct": 2,
+      "explanation": "'Torre' = tower. 'Castillo' = castle. 'Iglesia' = church. 'Muralla' = wall."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: Hay ___ museos en esta ciudad. (There are few museums in this city.)",
+      "correct": "pocos",
+      "explanation": "'Pocos' = few (used with masculine plural nouns). 'Museos' is masculine plural, so 'pocos museos' = few museums."
+    },
+    {
+      "type": "translation",
+      "question": "Translate to Spanish: 'I want a ticket to the airport'",
+      "correct": "quiero un billete al aeropuerto",
+      "explanation": "'Quiero' = I want. 'Un billete' = a ticket. 'Al' = a + el = to the. 'Aeropuerto' = airport."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What does 'todo recto' mean?",
+      "options": ["turn left", "turn right", "go straight", "go back"],
+      "correct": 2,
+      "explanation": "'Todo recto' = go straight ahead. 'Gire a la izquierda' = turn left. 'Gire a la derecha' = turn right. 'Vuelva atrás' = go back."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: Disculpe, ¿dónde está la ___ de tren? (Excuse me, where is the train station?)",
+      "correct": "estación",
+      "explanation": "'Estación de tren' = train station. 'Disculpe' = excuse me (polite). '¿Dónde está...?' = where is...?"
+    },
+    {
+      "type": "translation",
+      "question": "Translate to Spanish: 'The town is small and quiet'",
+      "correct": "el pueblo es pequeño y tranquilo",
+      "explanation": "'El pueblo' = the town. 'Es' = is (description, from SER). 'Pequeño' = small. 'Tranquilo' = quiet. Both adjectives agree in masculine singular with 'pueblo'."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What is 'bicycle' in Spanish?",
+      "options": ["coche", "bicicleta", "motocicleta", "autobús"],
+      "correct": 1,
+      "explanation": "'Bicicleta' = bicycle. 'Coche' = car. 'Motocicleta' = motorcycle. 'Autobús' = bus."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: La farmacia está ___ la esquina. (The pharmacy is at the corner.)",
+      "correct": "en la",
+      "explanation": "'En la esquina' = at the corner. 'La farmacia está en la esquina' = The pharmacy is at the corner."
+    },
+    {
+      "type": "translation",
+      "question": "Translate to Spanish: 'The museum is old and beautiful'",
+      "correct": "el museo es antiguo y bonito",
+      "explanation": "'El museo' = the museum. 'Es' = is (permanent characteristics, from SER). 'Antiguo' = old. 'Bonito' = beautiful. Both masculine singular to agree with 'museo'."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What is 'supermarket' in Spanish?",
+      "options": ["mercado", "tienda", "supermercado", "farmacia"],
+      "correct": 2,
+      "explanation": "'Supermercado' = supermarket. 'Mercado' = market. 'Tienda' = shop. 'Farmacia' = pharmacy."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: No hay ___ tráfico los domingos. (There isn't much traffic on Sundays.)",
+      "correct": "mucho",
+      "explanation": "'Mucho' = much/a lot of. 'No hay mucho' = there isn't much. 'Mucho' is used with masculine singular 'tráfico'."
+    },
+    {
+      "type": "translation",
+      "question": "Translate to Spanish: 'Can you tell me how to get to the museum?'",
+      "correct": "¿puede decirme cómo llegar al museo?",
+      "explanation": "'¿Puede decirme' = can you tell me. 'Cómo' = how. 'Llegar al' = to get to (the). 'Museo' = museum. This is the formal 'usted' form."
+    }
+  ]
+}

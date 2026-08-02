@@ -1,0 +1,115 @@
+{
+  "id": "conditional-regular",
+  "title": "Conditional — Regular Conjugation",
+  "description": "Express hypothetical situations and polite requests using the conditional tense.",
+  "vocabulary": [
+    { "id": 1, "target": "me gustaría", "source": "I would like", "gender": "—", "type": "phrase" },
+    { "id": 2, "target": "podrías", "source": "could you / you would be able to", "gender": "v.", "type": "verb" },
+    { "id": 3, "target": "visitar", "source": "to visit", "gender": "v.", "type": "verb" },
+    { "id": 4, "target": "México", "source": "Mexico", "gender": "m.", "type": "place" },
+    { "id": 5, "target": "algún día", "source": "someday / one day", "gender": "—", "type": "time" },
+    { "id": 6, "target": "Japón", "source": "Japan", "gender": "m.", "type": "place" },
+    { "id": 7, "target": "una casa", "source": "a house", "gender": "f.", "type": "noun" },
+    { "id": 8, "target": "el dinero", "source": "the money", "gender": "m.", "type": "noun" },
+    { "id": 9, "target": "un favor", "source": "a favor", "gender": "m.", "type": "noun" },
+    { "id": 10, "target": "pedir", "source": "to ask for", "gender": "v.", "type": "verb" },
+    { "id": 11, "target": "abrir", "source": "to open", "gender": "v.", "type": "verb" },
+    { "id": 12, "target": "la ventana", "source": "the window", "gender": "f.", "type": "noun" },
+    { "id": 13, "target": "ayudar", "source": "to help", "gender": "v.", "type": "verb" },
+    { "id": 14, "target": "comprar", "source": "to buy", "gender": "v.", "type": "verb" },
+    { "id": 15, "target": "estudiar", "source": "to study", "gender": "v.", "type": "verb" },
+    { "id": 16, "target": "trabajar", "source": "to work", "gender": "v.", "type": "verb" },
+    { "id": 17, "target": "viajar", "source": "to travel", "gender": "v.", "type": "verb" },
+    { "id": 18, "target": "hablar", "source": "to speak", "gender": "v.", "type": "verb" },
+    { "id": 19, "target": "comer", "source": "to eat", "gender": "v.", "type": "verb" },
+    { "id": 20, "target": "vivir", "source": "to live", "gender": "v.", "type": "verb" },
+    { "id": 21, "target": "si", "source": "if", "gender": "—", "type": "conjunction" },
+    { "id": 22, "target": "tuviera", "source": "I had (subjunctive)", "gender": "v.", "type": "verb" },
+    { "id": 23, "target": "la verdad", "source": "the truth", "gender": "f.", "type": "noun" },
+    { "id": 24, "target": "respondir", "source": "to answer", "gender": "v.", "type": "verb" },
+    { "id": 25, "target": "esa pregunta", "source": "that question", "gender": "f.", "type": "phrase" },
+    { "id": 26, "target": "la tarea", "source": "the homework", "gender": "f.", "type": "noun" },
+    { "id": 27, "target": "ir", "source": "to go", "gender": "v.", "type": "verb" },
+    { "id": 28, "target": "el cine", "source": "the cinema", "gender": "m.", "type": "noun" },
+    { "id": 29, "target": "con nosotros", "source": "with us", "gender": "—", "type": "phrase" },
+    { "id": 30, "target": "dijo que vendría", "source": "she told me she would come", "gender": "—", "type": "phrase" }
+  ],
+  "grammar": [
+    {
+      "title": "Conditional (Condicional Simple) — Regular Conjugation",
+      "content": "The conditional expresses what 'would' happen — it's used for polite requests, hypothetical situations, and reported speech. The conditional is remarkably easy: take the FULL infinitive as the stem and add these endings:\n\nConditional endings (add to the full infinitive):\n- yo: -ía\n- tú: -ías\n- él/ella/usted: -ía\n- nosotros: -íamos\n- vosotros: -íais\n- ellos/ellas/ustedes: -ían\n\nExamples:\n- hablar → hablaría, hablarías, hablaría, hablaríamos, hablaríais, hablarían\n- comer → comería, comerías, comería, comeríamos, comeríais, comerían\n- vivir → viviría, vivirías, viviría, viviríamos, viviríais, vivirían\n\nNotice: the conditional endings (-ía, -ías, -ía...) are EXACTLY the same as the imperfect -ER/-IR endings. Context tells you which tense is being used.",
+      "table": {
+        "headers": ["Pronoun", "-AR (hablar)", "-ER (comer)", "-IR (vivir)"],
+        "rows": [
+          ["yo", "hablaría", "comería", "viviría"],
+          ["tú", "hablarías", "comerías", "vivirías"],
+          ["él/ella/usted", "hablaría", "comería", "viviría"],
+          ["nosotros", "hablaríamos", "comeríamos", "viviríamos"],
+          ["vosotros", "hablaríais", "comeríais", "viviríais"],
+          ["ellos/ellas/ustedes", "hablarían", "comerían", "vivirían"]
+        ]
+      },
+      "examples": [
+        "Me gustaría visitar México un día. (I would like to visit Mexico one day.)",
+        "¿Podrías ayudarme con esto? (Could you help me with this?)",
+        "Si tuviera dinero, compraría una casa. (If I had money, I would buy a house.)",
+        "Ella me dijo que vendría. (She told me she would come.)"
+      ],
+      "aid_note": "Romanian conditional also uses the particle 'aș/ai/ar/ăm/ăți/ar' + infinitive: 'aș vorbi' (I would speak). Spanish is structurally different — it fuses everything into one word. Both languages use the conditional for polite requests: 'Could you...?'."
+    }
+  ],
+  "pronunciation": [
+    {
+      "title": "The Vowel Sound in Conditional -ía",
+      "content": "Conditional endings all carry the stress on the -í:\n\n- yo: -ía (stress on the í: ha-blar-ÍA)\n- tú: -ías (ha-blar-ÍAS)\n- él/ella/usted: -ía (ha-blar-ÍA)\n- nosotros: -íamos (ha-blar-Ía-MOS)\n- vosotros: -íais (ha-blar-Ía-IS)\n- ellos/ellas/ustedes: -ían (ha-blar-ÍAN)\n\nThe conditional endings are written with accents because they contain a stressed 'í'. This is the visual difference between the imperfect -ER/-IR and the conditional — both share the same sounds but the conditional always has the accent on the 'i'.\n\nCritical: Spanish 'comería' is pronounced 'ko-me-RI-a' (four distinct syllables), NOT 'ko-MEER-yah' as English speakers might assume. The 'i' and 'a' in -ía are two separate syllables.",
+      "examples": [
+        { "target": "hablaría", "source": "ha-blar-ÍA (stress on í, 3 syllables)" },
+        { "target": "comería", "source": "ko-me-RI-a (stress on í, 4 syllables)" },
+        { "target": "vivirían", "source": "vi-vi-RÍ-an (stress on í, 4 syllables)" },
+        { "target": "hablaríamos", "source": "ha-blar-Ía-mos (stress on í, 4 syllables)" }
+      ],
+      "aid_note": "Romanian vowel pronunciation is very similar to Spanish — pure vowels without diphthongs. The main challenge is the Spanish conditional -ía which has four syllables. Practice by stretching: 'ri-aaa' — two separate sounds."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "exercise",
+      "question": "What does the conditional express?",
+      "options": ["Actions that already happened", "What would happen in hypothetical situations", "Future predictions only", "Commands"],
+      "correct": 1,
+      "explanation": "The conditional expresses what 'would' happen — used for polite requests, hypothetical situations, and reported speech."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: 'Me ____ (gustar) visitar Japón algún día.' (I would like to visit Japan one day.)",
+      "correct": "gustaría",
+      "explanation": "'Gustaría' — conditional of gustar. Conditional of -AR verbs uses -ía endings."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: 'Si tuviera dinero, yo ____ (comprar) una casa.' (If I had money, I would buy a house.)",
+      "correct": "compraría",
+      "explanation": "'Compraría' — conditional of comprar. Hypothetical 'si' clause: if I had... I would buy."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: '¿____ (you) abrir la ventana?' (Could you open the window?)",
+      "correct": "Podrías",
+      "explanation": "'Podrías' — conditional of poder for tú. This is a polite request."
+    },
+    {
+      "type": "conjugation-matrix",
+      "question": "Complete the conditional tense conjugation table for the regular verb ESTUDIAR:",
+      "verb": "ESTUDIAR",
+      "tenses": ["conditional"],
+      "explanation": "Conditional tense adds endings directly to the full infinitive: estudiaría, estudiarías, estudiaría, estudiaríamos, estudiaríais, estudiarían."
+    },
+    {
+      "type": "exercise",
+      "question": "What is the conditional of 'decir' for 'vosotros'?",
+      "options": ["deciríais", "diríais", "decirían", "deciríais"],
+      "correct": 1,
+      "explanation": "'Diríais' — decir uses the irregular stem dir- in the conditional: dir + íais = diríais."
+    }
+  ]
+}

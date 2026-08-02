@@ -1,0 +1,114 @@
+{
+  "id": "se-passive",
+  "title": "Se Passive (Pasiva Refleja)",
+  "description": "The most common way to express passive ideas in everyday Spanish — use 'se' + verb + subject.",
+  "vocabulary": [
+    { "id": 1, "target": "se vende", "source": "for sale", "gender": "—", "type": "phrase" },
+    { "id": 2, "target": "se alquila", "source": "for rent", "gender": "—", "type": "phrase" },
+    { "id": 3, "target": "la casa", "source": "the house", "gender": "f.", "type": "noun" },
+    { "id": 4, "target": "los apartamentos", "source": "the apartments", "gender": "m.", "type": "noun" },
+    { "id": 5, "target": "las habitaciones", "source": "the rooms", "gender": "f.", "type": "noun" },
+    { "id": 6, "target": "el personal", "source": "the staff", "gender": "m.", "type": "noun" },
+    { "id": 7, "target": "la ropa", "source": "clothing", "gender": "f.", "type": "noun" },
+    { "id": 8, "target": "la tienda", "source": "the store", "gender": "f.", "type": "noun" },
+    { "id": 9, "target": "el profesor", "source": "the teacher", "gender": "m.", "type": "noun" },
+    { "id": 10, "target": "de español", "source": "of Spanish", "gender": "—", "type": "phrase" },
+    { "id": 11, "target": "busca", "source": "is looking for / wanted", "gender": "v.", "type": "verb" },
+    { "id": 12, "target": "necesita", "source": "is needed / needs", "gender": "v.", "type": "verb" },
+    { "id": 13, "target": "vender", "source": "to sell", "gender": "v.", "type": "verb" },
+    { "id": 14, "target": "alquilar", "source": "to rent", "gender": "v.", "type": "verb" },
+    { "id": 15, "target": "buscar", "source": "to look for", "gender": "v.", "type": "verb" },
+    { "id": 16, "target": "necesitar", "source": "to need", "gender": "v.", "type": "verb" },
+    { "id": 17, "target": "comer", "source": "to eat", "gender": "v.", "type": "verb" },
+    { "id": 18, "target": "celebrar", "source": "to celebrate", "gender": "v.", "type": "verb" },
+    { "id": 19, "target": "aceptar", "source": "to accept", "gender": "v.", "type": "verb" },
+    { "id": 20, "target": "devolución", "source": "return / refund", "gender": "f.", "type": "noun" },
+    { "id": 21, "target": "el problema", "source": "the problem", "gender": "m.", "type": "noun" },
+    { "id": 22, "target": "resolver", "source": "to resolve / solve", "gender": "v.", "type": "verb" },
+    { "id": 23, "target": "pronto", "source": "soon", "gender": "—", "type": "adverb" },
+    { "id": 24, "target": "estimar", "source": "to estimate", "gender": "v.", "type": "verb" },
+    { "id": 25, "target": "decir", "source": "to say / to tell", "gender": "v.", "type": "verb" },
+    { "id": 26, "target": "llover", "source": "to rain", "gender": "v.", "type": "verb" },
+    { "id": 27, "target": "ser", "source": "to be", "gender": "v.", "type": "verb" },
+    { "id": 28, "target": "haber", "source": "to have (auxiliary)", "gender": "v.", "type": "verb" },
+    { "id": 29, "target": "tener", "source": "to have", "gender": "v.", "type": "verb" },
+    { "id": 30, "target": "estar", "source": "to be (temporary)", "gender": "v.", "type": "verb" }
+  ],
+  "grammar": [
+    {
+      "title": "Se Passive (Pasiva Refleja)",
+      "content": "The 'se passive' (also called 'impersonal se' with passive meaning) is the MOST COMMON way to express passive ideas in everyday Spanish. It's used when the agent is unknown or unimportant.\n\nFormula: se + verb (3rd person singular/plural) + subject\n\nThe verb agrees in number with the subject that follows it.\n\nSingular subject → verb in singular: Se vende la casa\nPlural subject → verb in plural: Se venden casas\n\nCommon situations:\n- Real estate signs: Se vende / Se alquila\n- Store announcements: Se aceptan devoluciones\n- General rules: Se dice que… (It is said that…)\n- Food quality: Aquí se come muy bien (The food is very good here)\n- Impersonal statements: Se estima que… (It is estimated that…)\n\nWhen there is NO subject (just an action in general), the verb stays singular:\n- Se necesita personal (Staff is needed — no specific subject)\n- Se dice que… (It is said that…)",
+      "table": {
+        "headers": ["Sentence", "Type", "Note"],
+        "rows": [
+          ["Se vende la casa.", "se + singular subject", "The house is for sale"],
+          ["Se alquilan habitaciones.", "se + plural subject", "Rooms are for rent"],
+          ["Se necesita personal.", "impersonal (no subject)", "Staff is needed"],
+          ["Se dice que va a llover.", "impersonal + clause", "It is said that it's going to rain"]
+        ]
+      },
+      "examples": [
+        "Se busca profesor de español. (Spanish teacher wanted.)",
+        "Se celebran las fiestas en agosto. (The celebrations take place in August.)",
+        "Aquí se come muy bien. (The food is very good here.)",
+        "Se estima que el problema se resolverá pronto. (It is estimated that the problem will be resolved soon.)"
+      ],
+      "aid_note": "Romanian uses 'se' extensively too (passivul reflexiv): 'Se vinde casa', 'Se caută angajați' — the structure is nearly identical. If you know Romanian se-passive, you already know Spanish se-passive!"
+    }
+  ],
+  "pronunciation": [
+    {
+      "title": "Se + Consonant Clusters",
+      "content": "When 'se' is followed by a verb starting with a consonant, the two sounds blend smoothly:\n\n- se vende: 'seh-BEN-de' (the 's' of 'se' and the 'v' of 'vende' are distinct)\n- se alquila: 'seh-al-KÍ-la'\n- se busca: 'seh-BOO-kah'\n- se necesita: 'seh-neh-seh-TAH'\n\nNote: In rapid speech, 'se' can sound very short — almost like 's'. Don't elongate it.\n\nAlso note: 'se' before a vowel is completely separate: 'se alquila' = 'seh-al-KÍ-la' (se and alquila are two separate words).\n\nIn 'se vende', 'se' and 'vende' are two words but sound like they flow together.\n\nImportant pronunciation tip: Never add an 'e' before the 's' in 'se' — it's NOT 'es-vende'!",
+      "examples": [
+        { "target": "se vende", "source": "seh-BEN-de (2 separate words)" },
+        { "target": "se alquila", "source": "seh-al-KÍ-la (2 separate words)" },
+        { "target": "se busca", "source": "seh-BOO-kah (2 separate words)" },
+        { "target": "se venden", "source": "seh-BEN-dohn (2 separate words)" }
+      ],
+      "aid_note": "Romanian 'se' has the same pronunciation — a short, unstressed 'seh' sound before consonants. The transition from 'se' to the next word is identical in both languages."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "exercise",
+      "question": "Which construction is the 'se passive' (pasiva refleja)?",
+      "options": ["La casa es vendida por el agente.", "Se vende la casa.", "El agente vende la casa.", "La casa está vendida."],
+      "correct": 1,
+      "explanation": "'Se vende la casa' is the pasiva refleja. The verb agrees with the subject 'la casa' (singular)."
+    },
+    {
+      "type": "exercise",
+      "question": "Choose the correct 'se passive': 'Se ____ apartamentos en esta calle.' (sell)",
+      "options": ["vende", "venden", "vendieron", "vendía"],
+      "correct": 1,
+      "explanation": "'Apartamentos' is plural, so the verb must be plural: 'Se venden apartamentos.' The verb always agrees with the subject in se-passive constructions."
+    },
+    {
+      "type": "exercise",
+      "question": "Choose the correct 'se passive': 'En esta tienda se ____ ropa.' (sell)",
+      "options": ["vende", "venden", "vendía", "vendrán"],
+      "correct": 0,
+      "explanation": "'Ropa' is a singular mass noun: 'Se vende ropa' = Clothes are sold here. Singular verb because 'ropa' is singular."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete the se passive: 'Se ____ (buscar) profesor de español.' (is looking for / wanted)",
+      "correct": "busca",
+      "explanation": "'Se busca profesor de español' — singular verb because 'profesor' is the singular subject."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete the se passive: 'Se ____ (alquilar) habitaciones.' (are for rent)",
+      "correct": "alquilan",
+      "explanation": "'Se alquilan habitaciones' — plural verb because 'habitaciones' is the plural subject."
+    },
+    {
+      "type": "exercise",
+      "question": "When there is NO subject (general statement), what form of the verb is used in se-passive?",
+      "options": ["Plural", "Singular", "Infinitive", "Imperative"],
+      "correct": 1,
+      "explanation": "When there is no subject (just an action in general), the verb stays singular: 'Se necesita personal' (Staff is needed)."
+    }
+  ]
+}

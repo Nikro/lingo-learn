@@ -1,0 +1,105 @@
+{
+  "id": "future-irregular",
+  "title": "Future — Irregular Stems",
+  "description": "Learn the irregular future stems: tendr-, dir-, pondr-, podr-, querr-, har-, sabr-, vendr-, saldr-.",
+  "vocabulary": [
+    { "id": 1, "target": "tendré", "source": "I will have", "gender": "v.", "type": "verb" },
+    { "id": 2, "target": "pondré", "source": "I will put", "gender": "v.", "type": "verb" },
+    { "id": 3, "target": "saldré", "source": "I will leave", "gender": "v.", "type": "verb" },
+    { "id": 4, "target": "podré", "source": "I will be able to", "gender": "v.", "type": "verb" },
+    { "id": 5, "target": "querré", "source": "I will want", "gender": "v.", "type": "verb" },
+    { "id": 6, "target": "diré", "source": "I will say", "gender": "v.", "type": "verb" },
+    { "id": 7, "target": "haré", "source": "I will do/make", "gender": "v.", "type": "verb" },
+    { "id": 8, "target": "sabré", "source": "I will know", "gender": "v.", "type": "verb" },
+    { "id": 9, "target": "vendré", "source": "I will come", "gender": "v.", "type": "verb" },
+    { "id": 10, "target": "habré", "source": "I will have (auxiliary)", "gender": "v.", "type": "verb" },
+    { "id": 11, "target": "una reunión importante", "source": "an important meeting", "gender": "f.", "type": "phrase" },
+    { "id": 12, "target": "asistir a la fiesta", "source": "to attend the party", "gender": "—", "type": "phrase" },
+    { "id": 13, "target": "la verdad", "source": "the truth", "gender": "f.", "type": "noun" },
+    { "id": 14, "target": "Japón", "source": "Japan", "gender": "m.", "type": "place" },
+    { "id": 15, "target": "con nosotros", "source": "with us", "gender": "—", "type": "phrase" },
+    { "id": 16, "target": "una casa", "source": "a house", "gender": "f.", "type": "noun" },
+    { "id": 17, "target": "dinero", "source": "money", "gender": "m.", "type": "noun" },
+    { "id": 18, "target": "un favor", "source": "a favor", "gender": "m.", "type": "noun" },
+    { "id": 19, "target": "pedir", "source": "to ask for", "gender": "v.", "type": "verb" },
+    { "id": 20, "target": "la respuesta", "source": "the answer", "gender": "f.", "type": "noun" },
+    { "target": "tener", "source": "to have", "gender": "v.", "type": "verb" },
+    { "id": 22, "target": "poner", "source": "to put", "gender": "v.", "type": "verb" },
+    { "id": 23, "target": "salir", "source": "to leave / to go out", "gender": "v.", "type": "verb" },
+    { "id": 24, "target": "poder", "source": "to be able to / can", "gender": "v.", "type": "verb" },
+    { "id": 25, "target": "querer", "source": "to want", "gender": "v.", "type": "verb" },
+    { "id": 26, "target": "decir", "source": "to say / to tell", "gender": "v.", "type": "verb" },
+    { "id": 27, "target": "hacer", "source": "to do / to make", "gender": "v.", "type": "verb" },
+    { "id": 28, "target": "saber", "source": "to know (facts)", "gender": "v.", "type": "verb" },
+    { "id": 29, "target": "venir", "source": "to come", "gender": "v.", "type": "verb" },
+    { "id": 30, "target": "haber", "source": "to have (auxiliary)", "gender": "v.", "type": "verb" }
+  ],
+  "grammar": [
+    {
+      "title": "Future — Irregular Stems",
+      "content": "Some of the most common Spanish verbs have irregular stems in the future tense, but they STILL use the same regular endings. The key ones to memorize:\n\n- tener → tendr- (to have) → tendré, tendrás, tendrá, tendremos, tendréis, tendrán\n- poner → pondr- (to put) → pondré, pondrás, pondrá, pondremos, pondréis, pondrán\n- salir → saldr- (to leave) → saldré, saldrás, saldrá, saldremos, saldréis, saldrán\n- poder → podr- (to be able to) → podré, podrás, podrá, podremos, podréis, podrán\n- querer → querr- (to want) → querré, querrás, querrá, querremos, querréis, querrán\n- decir → dir- (to say/tell) → diré, dirás, dirá, diremos, diréis, dirán\n- hacer → har- (to do/make) → haré, harás, hará, haremos, haréis, harán\n- saber → sab- (to know) → sabré, sabrás, sabrá, sabremos, sabréis, sabrán\n- venir → vendr- (to come) → vendré, vendrás, vendrá, vendremos, vendréis, vendrán\n- haber → habr- (to have — auxiliary) → habré, habrás, habrá, habremos, habréis, habrán\n\nMnemonic: 'Had My Dad Put Six Small Pear Trees In The Garden' — HABER, HACER, DECIR, PONER, SALIR, PODER, QUERER, SABER, TENER, VENIR.",
+      "table": {
+        "headers": ["Infinitive", "Irregular Stem", "Yo Form", "English"],
+        "rows": [
+          ["tener", "tendr-", "tendré", "I will have"],
+          ["poner", "pondr-", "pondré", "I will put"],
+          ["salir", "saldr-", "saldré", "I will leave"],
+          ["poder", "podr-", "podré", "I will be able to"],
+          ["querer", "querr-", "querré", "I will want"],
+          ["decir", "dir-", "diré", "I will say"],
+          ["hacer", "har-", "haré", "I will do/make"],
+          ["saber", "sab-", "sabré", "I will know"],
+          ["venir", "vendr-", "vendré", "I will come"]
+        ]
+      },
+      "examples": [
+        "Tendré una reunión importante mañana. (I will have an important meeting tomorrow.)",
+        "No podré asistir a la fiesta. (I won't be able to attend the party.)",
+        "¿Qué me dirás? (What will you tell me?)",
+        "Ella vendrá con nosotros. (She will come with us.)"
+      ],
+      "aid_note": "Romanian irregular future stems work similarly — they change the stem before adding the future marker. Spanish irregulars are limited to about 12 common verbs, and they all drop the final vowel of the infinitive before adding -r."
+    }
+  ],
+  "pronunciation": [],
+  "exercises": [
+    {
+      "type": "exercise",
+      "question": "What is the future of 'tener' for 'él/ella/usted'?",
+      "options": ["tendrá", "tenará", "tendrá", "tendrá"],
+      "correct": 0,
+      "explanation": "'Tendrá' — tener has the irregular stem tendr- in the future: tendr + á = tendrá."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: 'Mañana ____ (hacer) la compra en el supermercado.' (Tomorrow I will do the shopping.)",
+      "correct": "haré",
+      "explanation": "'Haré' — hacer has the irregular stem har- in the future. 'Haré la compra' = I will do the shopping."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: '¿____ (you) ____ (say) la verdad?' (Will you tell the truth?)",
+      "correct": "dirás",
+      "explanation": "'Dirás' — decir uses the irregular stem dir- in the future: dir + ás = dirás."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: 'No ____ (you) ____ (be able to) venir.' (You won't be able to come.)",
+      "correct": "podrás",
+      "explanation": "'Podrás' — poder uses the irregular stem podr-: podr + ás = podrás."
+    },
+    {
+      "type": "conjugation-matrix",
+      "question": "Complete the future tense conjugation table for the irregular verb TENER:",
+      "verb": "TENER",
+      "tenses": ["future"],
+      "explanation": "TENER uses the irregular stem tendr- in the future: tendré, tendrás, tendrá, tendremos, tendréis, tendrán."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: 'Ella ____ (venir) con nosotros mañana.' (She will come with us tomorrow.)",
+      "correct": "vendrá",
+      "explanation": "'Vendrá' — venir uses the irregular stem vendr-: vendr + á = vendrá."
+    }
+  ]
+}

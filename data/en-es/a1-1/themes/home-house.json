@@ -1,0 +1,375 @@
+{
+  "id": "home-house",
+  "level": "a1-1",
+  "title": "Home & House",
+  "description": "Learn to describe your home, talk about rooms and furniture, use prepositions of place to describe where things are, and understand your living space in Spanish.",
+  "vocabulary": [
+    {"id": 1, "target": "casa", "source": "house", "gender": "f", "type": "room"},
+    {"id": 2, "target": "apartamento", "source": "apartment", "gender": "m", "type": "room"},
+    {"id": 3, "target": "cocina", "source": "kitchen", "gender": "f", "type": "room"},
+    {"id": 4, "target": "salón", "source": "living room", "gender": "m", "type": "room"},
+    {"id": 5, "target": "dormitorio", "source": "bedroom", "gender": "m", "type": "room"},
+    {"id": 6, "target": "baño", "source": "bathroom", "gender": "m", "type": "room"},
+    {"id": 7, "target": "comedor", "source": "dining room", "gender": "m", "type": "room"},
+    {"id": 8, "target": "garaje", "source": "garage", "gender": "m", "type": "room"},
+    {"id": 9, "target": "terraza", "source": "terrace", "gender": "f", "type": "room"},
+    {"id": 10, "target": "jardín", "source": "garden", "gender": "m", "type": "room"},
+    {"id": 11, "target": "sótano", "source": "basement", "gender": "m", "type": "room"},
+    {"id": 12, "target": "desván", "source": "attic", "gender": "m", "type": "room"},
+    {"id": 13, "target": "estudio", "source": "study/home office", "gender": "m", "type": "room"},
+    {"id": 14, "target": "mesa", "source": "table", "gender": "f", "type": "furniture"},
+    {"id": 15, "target": "silla", "source": "chair", "gender": "f", "type": "furniture"},
+    {"id": 16, "target": "cama", "source": "bed", "gender": "f", "type": "furniture"},
+    {"id": 17, "target": "armario", "source": "wardrobe/closet", "gender": "m", "type": "furniture"},
+    {"id": 18, "target": "estantería", "source": "bookshelf", "gender": "f", "type": "furniture"},
+    {"id": 19, "target": "sofá", "source": "sofa", "gender": "m", "type": "furniture"},
+    {"id": 20, "target": "escritorio", "source": "desk", "gender": "m", "type": "furniture"},
+    {"id": 21, "target": "espejo", "source": "mirror", "gender": "m", "type": "furniture"},
+    {"id": 22, "target": "lámpara", "source": "lamp", "gender": "f", "type": "furniture"},
+    {"id": 23, "target": "alfombra", "source": "carpet/rug", "gender": "f", "type": "furniture"},
+    {"id": 24, "target": "cómoda", "source": "chest of drawers", "gender": "f", "type": "furniture"},
+    {"id": 25, "target": "perchero", "source": "coat rack", "gender": "m", "type": "furniture"},
+    {"id": 26, "target": "nevera", "source": "fridge", "gender": "f", "type": "kitchen"},
+    {"id": 27, "target": "horno", "source": "oven", "gender": "m", "type": "kitchen"},
+    {"id": 28, "target": "fregadero", "source": "sink", "gender": "m", "type": "kitchen"},
+    {"id": 29, "target": "plato", "source": "plate", "gender": "m", "type": "kitchen"},
+    {"id": 30, "target": "taza", "source": "cup/mug", "gender": "f", "type": "kitchen"},
+    {"id": 31, "target": "vaso", "source": "glass", "gender": "m", "type": "kitchen"},
+    {"id": 32, "target": "cuchara", "source": "spoon", "gender": "f", "type": "kitchen"},
+    {"id": 33, "target": "tenedor", "source": "fork", "gender": "m", "type": "kitchen"},
+    {"id": 34, "target": "cuchillo", "source": "knife", "gender": "m", "type": "kitchen"},
+    {"id": 35, "target": "sartén", "source": "frying pan", "gender": "m", "type": "kitchen"},
+    {"id": 36, "target": "olla", "source": "pot", "gender": "f", "type": "kitchen"},
+    {"id": 37, "target": "batidora", "source": "blender", "gender": "f", "type": "kitchen"},
+    {"id": 38, "target": "microondas", "source": "microwave", "gender": "m", "type": "kitchen"},
+    {"id": 39, "target": "cafetera", "source": "coffee maker", "gender": "f", "type": "kitchen"},
+    {"id": 40, "target": "tostadora", "source": "toaster", "gender": "f", "type": "kitchen"},
+    {"id": 41, "target": "jabón", "source": "soap", "gender": "m", "type": "bathroom"},
+    {"id": 42, "target": "champú", "source": "shampoo", "gender": "m", "type": "bathroom"},
+    {"id": 43, "target": "toalla", "source": "towel", "gender": "f", "type": "bathroom"},
+    {"id": 44, "target": "ducha", "source": "shower", "gender": "f", "type": "bathroom"},
+    {"id": 45, "target": "bañera", "source": "bathtub", "gender": "f", "type": "bathroom"},
+    {"id": 46, "target": "inodoro", "source": "toilet", "gender": "m", "type": "bathroom"},
+    {"id": 47, "target": "cepillo de dientes", "source": "toothbrush", "gender": "m", "type": "bathroom"},
+    {"id": 48, "target": "pasta dental", "source": "toothpaste", "gender": "f", "type": "bathroom"},
+    {"id": 49, "target": "grifo", "source": "faucet", "gender": "m", "type": "bathroom"},
+    {"id": 50, "target": "almohada", "source": "pillow", "gender": "f", "type": "bedroom"},
+    {"id": 51, "target": "sábanas", "source": "sheets", "gender": "f", "type": "bedroom"},
+    {"id": 52, "target": "manta", "source": "blanket", "gender": "f", "type": "bedroom"},
+    {"id": 53, "target": "colchón", "source": "mattress", "gender": "m", "type": "bedroom"},
+    {"id": 54, "target": "mesilla de noche", "source": "nightstand", "gender": "f", "type": "bedroom"},
+    {"id": 55, "target": "ventana", "source": "window", "gender": "f", "type": "house"},
+    {"id": 56, "target": "puerta", "source": "door", "gender": "f", "type": "house"},
+    {"id": 57, "target": "pared", "source": "wall", "gender": "f", "type": "house"},
+    {"id": 58, "target": "suelo", "source": "floor", "gender": "m", "type": "house"},
+    {"id": 59, "target": "techo", "source": "ceiling", "gender": "m", "type": "house"},
+    {"id": 60, "target": "escalera", "source": "stairs/ladder", "gender": "f", "type": "house"},
+    {"id": 61, "target": "calefacción", "source": "heating", "gender": "f", "type": "house"},
+    {"id": 62, "target": "aire acondicionado", "source": "air conditioning", "gender": "m", "type": "house"},
+    {"id": 63, "target": "interruptor", "source": "switch", "gender": "m", "type": "house"},
+    {"id": 64, "target": "cerradura", "source": "lock", "gender": "f", "type": "house"},
+    {"id": 65, "target": "llave", "source": "key", "gender": "f", "type": "house"},
+    {"id": 66, "target": "cable", "source": "cable/wire", "gender": "m", "type": "house"},
+    {"id": 67, "target": "electricidad", "source": "electricity", "gender": "f", "type": "house"},
+    {"id": 68, "target": "agua", "source": "water", "gender": "f", "type": "house"},
+    {"id": 69, "target": "gas", "source": "gas", "gender": "m", "type": "house"},
+    {"id": 70, "target": "pintura", "source": "paint", "gender": "f", "type": "house"},
+    {"id": 71, "target": "madera", "source": "wood", "gender": "f", "type": "house"},
+    {"id": 72, "target": "piedra", "source": "stone", "gender": "f", "type": "house"},
+    {"id": 73, "target": "cemento", "source": "cement", "gender": "m", "type": "house"},
+    {"id": 74, "target": "cortina", "source": "curtain", "gender": "f", "type": "house"},
+    {"id": 75, "target": "cortina de baño", "source": "shower curtain", "gender": "f", "type": "bathroom"},
+    {"id": 76, "target": "televisión", "source": "television", "gender": "f", "type": "object"},
+    {"id": 77, "target": "ordenador", "source": "computer", "gender": "m", "type": "object"},
+    {"id": 78, "target": "teléfono", "source": "phone", "gender": "m", "type": "object"},
+    {"id": 79, "target": "reloj", "source": "clock/watch", "gender": "m", "type": "object"},
+    {"id": 80, "target": "cuadro", "source": "painting/picture", "gender": "m", "type": "object"},
+    {"id": 81, "target": "flor", "source": "flower", "gender": "f", "type": "object"},
+    {"id": 82, "target": "planta", "source": "plant", "gender": "f", "type": "object"},
+    {"id": 83, "target": "libro", "source": "book", "gender": "m", "type": "object"},
+    {"id": 84, "target": "revista", "source": "magazine", "gender": "f", "type": "object"},
+    {"id": 85, "target": "cuaderno", "source": "notebook", "gender": "m", "type": "object"},
+    {"id": 86, "target": "papel", "source": "paper", "gender": "m", "type": "object"},
+    {"id": 87, "target": "foto", "source": "photo", "gender": "f", "type": "object"},
+    {"id": 88, "target": "ventilador", "source": "fan", "gender": "m", "type": "house"},
+    {"id": 89, "target": "bolsa", "source": "bag", "gender": "f", "type": "object"},
+    {"id": 90, "target": "caja", "source": "box", "gender": "f", "type": "object"},
+    {"id": 91, "target": "cinta", "source": "tape", "gender": "f", "type": "object"},
+    {"id": 92, "target": "juguete", "source": "toy", "gender": "m", "type": "object"},
+    {"id": 93, "target": "perro", "source": "dog", "gender": "m", "type": "pet"},
+    {"id": 94, "target": "gato", "source": "cat", "gender": "m", "type": "pet"},
+    {"id": 95, "target": "pájaro", "source": "bird", "gender": "m", "type": "pet"},
+    {"id": 96, "target": "pez", "source": "fish (pet)", "gender": "m", "type": "pet"},
+    {"id": 97, "target": "correa", "source": "leash", "gender": "f", "type": "pet"},
+    {"id": 98, "target": "acuario", "source": "aquarium", "gender": "m", "type": "object"},
+    {"id": 99, "target": "jaula", "source": "cage", "gender": "f", "type": "object"},
+    {"id": 100, "target": "balcón", "source": "balcony", "gender": "m", "type": "room"}
+  ],
+  "grammar": [
+    {
+      "title": "Prepositions of Place",
+      "content": "Prepositions of place tell you WHERE something is located.\n\nen = in/on (general location)\nsobre = on/above\ndebajo de = under/below\nentre = between\njunto a = next to\nal lado de = next to\nal lado de = beside\ndetrás de = behind\ndelante de = in front of\ncerca de = near\nlejos de = far from\ndentro de = inside of\nfuera de = outside of\nencima de = on top of\n\nUsage tips:\n- 'en' is the most common and versatile preposition\n- 'sobre' and 'encima de' both mean 'on top of', but 'sobre' can also mean 'above'\n- 'dentro de' emphasizes being inside something enclosed\n- 'fuera de' is used for being outside something",
+      "examples": [
+        "El libro está en la mesa. (The book is on the table.)\nEl gato está debajo de la silla. (The cat is under the chair.)\nLa lámpara está sobre la mesa. (The lamp is on the table.)\nEl perro está detrás de la puerta. (The dog is behind the door.)\nLa flor está delante de la ventana. (The flower is in front of the window.)\nEl sofá está junto a la pared. (The sofa is next to the wall.)\nEl cuadro está encima del armario. (The picture is on top of the wardrobe.)\nEl jardín está al lado de la casa. (The garden is next to the house.)\nLas llaves están entre los libros. (The keys are between the books.)\nEstá lejos de la ciudad. (It is far from the city.)"
+      ]
+    },
+    {
+      "title": "Hay — There is / There are",
+      "content": "Hay is the impersonal form of the verb 'haber'. It means 'there is' or 'there are' in English.\n\nKey rule: 'hay' does NOT change for singular or plural.\n\nPositive: hay (there is / there are)\nNegative: no hay (there is not / there are not)\nQuestion: ¿hay...? (is there...? / are there...?)\n\nWhen used with numbers:\nHay + number + noun (plural)\nHay dos dormitorios. (There are two bedrooms.)\n\nWhen used with quantifiers:\nHay mucho/a = there is/are a lot of\nHay poco/a = there is/are a little/few\nHay mucho + singular noun (there is a lot of)\nHay muchos/muchas + plural noun (there are many)\n\nCommon expressions:\n¿Hay...? = Is there...? / Are there...?\nNo hay = There is/are not\nHay que + infinitive = one must / it is necessary to (note: different meaning from 'hay')",
+      "examples": [
+        "Hay un baño en el apartamento. (There is a bathroom in the apartment.)\nHay dos dormitorios en la casa. (There are two bedrooms in the house.)\nHay muchos muebles en el salón. (There are many pieces of furniture in the living room.)\nNo hay televisor en el dormitorio. (There is no television in the bedroom.)\n¿Hay agua caliente? (Is there hot water?)\nNo hay agua caliente en el baño. (There is no hot water in the bathroom.)\nHay mucha gente en el jardín. (There are many people in the garden.)\nHay poca luz en el estudio. (There is little light in the study.)"
+      ]
+    },
+    {
+      "title": "Tener — To Have",
+      "content": "Tener means 'to have'. It is a regular -ER verb with a stem change (e->ie) in the present tense.\n\nConjugation (present tense):\nYo tengo (I have)\nTú tienes (you have informal)\nÉl/Ella/Usted tiene (he/she/you formal has)\nNosotros tenemos (we have)\nVosotros tenéis (you all have — Spain)\nEllos/Ellas/Ustedes tienen (they/you all have)\n\nNote: 'tengo' is irregular — the 'g' is added.\n\nCommon expressions with tener:\n- tener una casa/apartamento = to have a house/apartment\n- tener habitaciones = to have rooms\n- tener muebles = to have furniture\n- tener calefacción = to have heating\n- tener un jardín = to have a garden\n- tener una terraza = to have a terrace\n- tener dos baños = to have two bathrooms\n\nNegative: no tener = to not have\n¿Tienes...? = Do you have...?\n\nOther common 'tener' expressions:\n- tener hambre = to be hungry (literally 'to have hunger')\n- tener sed = to be thirsty (literally 'to have thirst')\n- tener calor = to be hot (literally 'to have heat')\n- tener frío = to be cold (literally 'to have cold')\n- tener sueño = to be sleepy (literally 'to have sleep')\n- tener prisa = to be in a hurry (literally 'to have hurry')\n- tener razón = to be right (literally 'to have reason')",
+      "examples": [
+        "Tengo una casa grande. (I have a big house.)\nTienes dos dormitorios. (You have two bedrooms.)\nÉl tiene un apartamento pequeño. (He has a small apartment.)\nNosotros tenemos un jardín bonito. (We have a beautiful garden.)\nNo tengo calefacción. (I don't have heating.)\n¿Tienes un baño privado? (Do you have a private bathroom?)\nTengo hambre. (I am hungry.)\nTengo frío en el dormitorio. (I am cold in the bedroom.)\nTienen dos baños. (They have two bathrooms.)"
+      ]
+    },
+    {
+      "title": "Ser and Estar — To Be (Descriptions)",
+      "content": "Spanish has TWO verbs for 'to be': SER and ESTAR. Both are used for descriptions but in different contexts.\n\nSER is used for:\n- Permanent or inherent characteristics\n- Identity (what something IS)\n- Material, origin, time\n- Describing the house itself (size, type, style)\n\nEstar is used for:\n- Location (where something IS)\n- Temporary conditions\n- Feelings and states\n- Describing how something currently IS\n\nConjugation — SER:\nYo soy (I am)\nTú eres (you are informal)\nÉl/Ella/Usted es (he/she/you formal is)\nNosotros somos (we are)\nEllos/Ellas/Ustedes son (they/you all are)\n\nConjugation — ESTAR:\nYo estoy (I am)\nTú estás (you are informal)\nÉl/Ella/Usted está (he/she/you formal is)\nNosotros estamos (we are)\nEllos/Ellas/Ustedes están (they/you all are)\n\nUsing SER for home descriptions:\nLa casa es grande. (The house is big.) — inherent characteristic\nLa casa es moderna. (The house is modern.) — type/style\nEl apartamento es pequeño. (The apartment is small.)\nLa casa es de ladrillo. (The house is made of brick.) — material\n\nUsing ESTAR for home descriptions:\nLa casa está limpia. (The house is clean.) — temporary state\nLa casa está sucia. (The house is dirty.)\nEl salón está ordenado. (The living room is tidy.)\nLa cocina está sucia. (The kitchen is dirty.)\n\nUsing ESTAR for location:\nLa mesa está en el salón. (The table is in the living room.)\nEl sofá está junto a la ventana. (The sofa is next to the window.)\nLa casa está en el centro. (The house is in the center.)",
+      "examples": [
+        "Mi casa es grande y moderna. (My house is big and modern.)\nMi apartamento es pequeño pero bonito. (My apartment is small but pretty.)\nLa casa está limpia hoy. (The house is clean today.)\nEl dormitorio está ordenado. (The bedroom is tidy.)\nLa cocina está sucia después de cocinar. (The kitchen is dirty after cooking.)\nLa mesa está en el comedor. (The table is in the dining room.)\nLa lámpara está sobre la mesa. (The lamp is on the table.)\nEl sofá está frente a la televisión. (The sofa is opposite the television.)"
+      ]
+    },
+    {
+      "title": "Demonstrative Adjectives — This/That/Those",
+      "content": "Demonstrative adjectives point out specific nouns. They must agree in gender and number with the noun they modify.\n\nNear (this/these — close to speaker):\neste/esta (this — singular)\nestos/estas (these — plural)\n\nMedium distance (that/those — close to listener):\neso/esesa → ese/esa (that — singular)\nesos/esas (those — plural)\n\nFar from both (that over there/those over there):\naquel/aquella (that over there — singular)\naquellos/aquellas (those over there — plural)\n\nAgreement examples:\neste libro (this book — m, singular)\nesta casa (this house — f, singular)\nestos muebles (these pieces of furniture — m, plural)\nestas sillas (these chairs — f, plural)\n\nUsing them with home vocabulary:\neste dormitorio (this bedroom)\nesta silla (this chair)\nestos muebles (these pieces of furniture)\nese armario (that wardrobe — closer to listener)\nesa mesa (that table)\naquella casa (that house over there)\naquel jardín (that garden over there)\n\nNote: demonstratives don't usually have accent marks in modern Spanish (real Academia rules changed in 2010).",
+      "examples": [
+        "Esta casa es bonita. (This house is pretty.)\nEste dormitorio es grande. (This bedroom is big.)\nEstas sillas son viejas. (These chairs are old.)\nEse sofá es cómodo. (That sofa is comfortable.)\nEsas cortinas son bonitas. (Those curtains are pretty.)\nAquella casa tiene un jardín. (That house over there has a garden.)\nAquel armario es antiguo. (That wardrobe over there is antique.)\nEstos muebles son de madera. (These pieces of furniture are made of wood.)"
+      ]
+    },
+    {
+      "title": "Describing Your Home — Sentence Patterns",
+      "content": "Useful sentence patterns for talking about your home:\n\nBasic description:\nMi casa es [adjective]. (My house is [adjective].)\nMi casa tiene [number] habitaciones. (My house has [number] rooms.)\nMi casa está en [location]. (My house is in [location].)\n\nRooms:\nEn la [room] hay [furniture/object]. (In the [room] there is [furniture].)\nEn mi [room] hay una [object]. (In my [room] there is a [object].)\nMi [room] es [adjective]. (My [room] is [adjective].)\n\nFurniture and objects:\n[Object] está [preposition] [location]. (The [object] is [preposition] [location].)\nEl/La [object] es [adjective]. (The [object] is [adjective].)\n\nCombining ideas:\nMi casa es grande y tiene tres dormitorios.\nEn la cocina hay una mesa y cuatro sillas.\nEn el salón hay un sofá grande frente a la televisión.\nEl dormitorio principal es muy luminoso.\nMi apartamento está en el centro de la ciudad.\nTengo un jardín pequeño detrás de la casa.\n\nUseful adjectives:\ngrande = big\ndiminuto/a = tiny\ncómodo/a = comfortable\nincómodo/a = uncomfortable\nluminoso/a = bright\ncurioso/a = dark\nbonito/a = pretty\nfeo/a = ugly\nantiguo/a = old (antique)\nnuevo/a = new\nlimpio/a = clean\nsucio/a = dirty\nordenado/a = tidy\ndesordenado/a = messy\npequeño/a = small\namplio/a = spacious\n\nQuestions:\n¿Cuántas habitaciones tiene tu casa? (How many rooms does your house have?)\n¿Dónde está el baño? (Where is the bathroom?)\n¿Qué hay en el salón? (What is in the living room?)\n¿Es grande tu casa? (Is your house big?)\n¿Tienes jardín? (Do you have a garden?)",
+      "examples": [
+        "Mi casa es grande y luminosa. (My house is big and bright.)\nMi casa tiene tres dormitorios y dos baños. (My house has three bedrooms and two bathrooms.)\nEn la cocina hay una nevera y un horno. (In the kitchen there is a fridge and an oven.)\nEn el salón hay un sofá frente a la televisión. (In the living room there is a sofa opposite the TV.)\nEl dormitorio es muy cómodo. (The bedroom is very comfortable.)\nMi apartamento está en el segundo piso. (My apartment is on the second floor.)\nTengo una terraza pequeña. (I have a small terrace.)"
+      ]
+    }
+  ],
+  "pronunciation": [
+    {
+      "title": "Home Vocabulary — Basic Pronunciation",
+      "content": "Core home and room vocabulary pronunciations:\n\ncasa = KAH-sah (house)\napartamento = ah-pahr-tah-MEN-toh (apartment)\ncocina = koh-KEE-nah (kitchen)\nsalón = sah-LON (living room)\ndormitorio = dor-mee-TOH-roh (bedroom)\nbaño = BAHN-yoh (bathroom)\ncomedor = koh-meh-DOHR (dining room)\nmesa = MEH-sah (table)\nsilla = SEE-yah (chair)\ncama = KAH-mah (bed)\narmario = ahrr-mah-REE-oh (wardrobe)\nventana = ben-TAH-nah (window)\npuerta = PWEHR-tah (door)\npared = pah-RED (wall)\nsuelo = SWEH-loh (floor)\ntecho = TEH-choh (ceiling)\nescalera = es-kah-LEH-rah (stairs)\njardín = hahr-DEEN (garden)\nbañera = bah-NYEH-rah (bathtub)\ncortina = kor-TEE-nah (curtain)\nbalcón = bahl-KON (balcony)\nnevera = neh-REH-rah (fridge)\narmario = ahrr-mah-REE-oh (wardrobe)\nhorno = OR-noh (oven)\nalfombra = al-FOHM-brah (carpet)\nsofá = so-FAH (sofa)\nespejo = es-PEH-hoh (mirror)\n",
+      "examples": [
+        "casa = KAH-sah\napartamento = ah-pahr-tah-MEN-toh\ncocina = koh-KEE-nah\nsalón = sah-LON\ndormitorio = dor-mee-TOH-roh\nbaño = BAHN-yoh\ncomedor = koh-meh-DOHR\nmesa = MEH-sah\nsilla = SEE-yah\ncama = KAH-mah\narmario = ahrr-mah-REE-oh\nventana = ben-TAH-nah\npuerta = PWEHR-tah\npared = pah-RED\nsuelo = SWEH-loh\ntecho = TEH-choh"
+      ]
+    },
+    {
+      "title": "Furniture and Kitchen Items — Pronunciation",
+      "content": "Furniture and kitchen vocabulary pronunciations:\n\nestantería = es-tah-neh-REE-ah (bookshelf)\nescritorio = es-kree-TOH-roh (desk)\nlámpara = LAHM-pah-rah (lamp)\ncortina = kor-TEE-nah (curtain)\nalfombra = al-FOHM-brah (carpet)\nalmohada = al-moh-AH-dah (pillow)\nsábanas = sah-BAH-nahs (sheets)\nmanta = MAHN-tah (blanket)\nmesilla de noche = meh-SEE-yah deh NOH-cheh (nightstand)\nfregadero = freh-gah-DEH-roh (sink)\nsartén = sar-TEN (frying pan)\nolla = OH-yah (pot)\ncuchara = koo-CHAH-rah (spoon)\ntenedor = teh-neh-DOHR (fork)\ncuchillo = koo-CHEE-yoh (knife)\ntaza = TAH-sah (cup)\nvaso = VAH-soh (glass)\nplato = PLAH-toh (plate)\nducha = DOO-chah (shower)\njabón = hah-BON (soap)\ngrifo = GREE-foh (faucet)\n",
+      "examples": [
+        "estantería = es-tah-neh-REE-ah\nescritorio = es-kree-TOH-roh\nlámpara = LAHM-pah-rah\nalfombra = al-FOHM-brah\nalmohada = al-moh-AH-dah\nsábanas = sah-BAH-nahs\nmanta = MAHN-tah\nmesilla de noche = meh-SEE-yah deh NOH-cheh\nfregadero = freh-gah-DEH-roh\nsartén = sar-TEN\nolla = OH-yah\ncuchara = koo-CHAH-rah\ntenedor = teh-neh-DOHR\ncuchillo = koo-CHEE-yoh\ntaza = TAH-sah\nvaso = VAH-soh\nplato = PLAH-toh\nducha = DOO-choh\ngrifo = GREE-foh"
+      ]
+    },
+    {
+      "title": "Prepositions and Common Words — Pronunciation",
+      "content": "Prepositions and frequently used words in home descriptions:\n\nen = en (in/on)\nsobre = SOH-breh (on/above)\ndebajo de = deh-BWAH-hoh deh (under/below)\nentre = EN-treh (between)\njunto a = HOON-toh ah (next to)\nal lado de = al LAH-doh deh (next to)\ndetrás de = deh-TROHS deh (behind)\ndelante de = deh-LAN-teh deh (in front of)\ncerca de = SER-kah deh (near)\nlejos de = HEH-hohs deh (far from)\ndentro de = DEN-troh deh (inside of)\nfuera de = FWEH-rah deh (outside of)\nencima de = en-SEE-mah deh (on top of)\n\nCommon descriptive words:\ngrande = GRAHN-deh (big)\npequeño/a = peh-KEH-nyoh/nyah (small)\nbonito/a = bo-NEE-toh/nyah (pretty)\ncómodo/a = KOH-moh-doh/dah (comfortable)\nluminoso/a = loo-mee-NOH-soh/ah (bright)\nlavabo = lah-BAH-boh (sink/washbasin)\npuerta = PWEHR-tah (door)\npared = pah-RED (wall)\n\nHousehold utilities:\nagua = AH-gwah (water)\ngas = gahs (gas)\nelectricidad = eh-lek-tree-sih-DAHD (electricity)\ncalefacción = kah-leh-FAK-see-on (heating)\naire acondicionado = ah-ree ah-kwee-doh-nee-AHN-toh (air conditioning)\n",
+      "examples": [
+        "en = en\nsobre = SOH-breh\ndebajo de = deh-BWAH-hoh deh\nentre = EN-treh\njunto a = HOON-toh ah\nal lado de = al LAH-doh deh\ndetrás de = deh-TROHS deh\ndelante de = deh-LAN-teh deh\ngrande = GRAHN-deh\npequeño = peh-KEH-nyoh\nbonito = bo-NEE-toh\ncómodo = KOH-moh-doh\nluminoso = loo-mee-NOH-soh\nagua = AH-gwah\ncalefacción = kah-leh-FAK-see-on"
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "multiple-choice",
+      "question": "What is 'kitchen' in Spanish?",
+      "options": ["salón", "cocina", "baño", "dormitorio"],
+      "correct": 1,
+      "explanation": "'Cocina' = kitchen. 'Salón' = living room. 'Baño' = bathroom. 'Dormitorio' = bedroom."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "How do you say 'there is/are' in Spanish?",
+      "options": ["es", "hay", "está", "tiene"],
+      "correct": 1,
+      "explanation": "'Hay' = there is/are. 'Es' = is (identity, from ser). 'Está' = is (location, from estar). 'Tiene' = has."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What does 'debajo de' mean?",
+      "options": ["on", "under", "behind", "in front of"],
+      "correct": 1,
+      "explanation": "'Debajo de' = under/below. 'Sobre' = on. 'Detrás de' = behind. 'Delante de' = in front of."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: ___ un libro en la mesa. (There is a book on the table.)",
+      "correct": "Hay",
+      "explanation": "'Hay' = there is. 'Hay un libro' = There is a book."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: El gato está ___ la silla. (The cat is under the chair.)",
+      "correct": "debajo de",
+      "explanation": "'Debajo de' = under/below."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: Mi casa ___ grande. (My house is big.)",
+      "correct": "es",
+      "explanation": "Use SER for permanent characteristics: 'Mi casa es grande' (My house is big — it's a permanent quality)."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What is 'bedroom' in Spanish?",
+      "options": ["cocina", "baño", "dormitorio", "salón"],
+      "correct": 2,
+      "explanation": "'Dormitorio' = bedroom. 'Cocina' = kitchen. 'Baño' = bathroom. 'Salón' = living room."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: La mesa está ___ la ventana. (The table is in front of the window.)",
+      "correct": "delante de",
+      "explanation": "'Delante de' = in front of."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What does 'junto a' mean?",
+      "options": ["behind", "between", "next to", "far from"],
+      "correct": 2,
+      "explanation": "'Junto a' = next to. 'Detrás de' = behind. 'Entre' = between. 'Lejos de' = far from."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: No ___ un sofá en el salón. (There is no sofa in the living room.)",
+      "correct": "hay",
+      "explanation": "'No hay' = there is not. 'No hay un sofá' = There is no sofa."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What is 'wardrobe' in Spanish?",
+      "options": ["estantería", "armario", "mesilla", "cómoda"],
+      "correct": 1,
+      "explanation": "'Armario' = wardrobe/closet. 'Estantería' = bookshelf. 'Mesilla' = nightstand. 'Cómoda' = chest of drawers."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: ___ tengo una casa grande. (I have a big house.)",
+      "correct": "Yo",
+      "explanation": "'Yo tengo' = I have. 'Tengo' is the first person singular of 'tener' (to have)."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: La casa está ___ (clean).",
+      "correct": "limpia",
+      "explanation": "'Limpia' = clean. 'La casa está limpia' = The house is clean. Use ESTAR for temporary states like cleanliness."
+    },
+    {
+      "type": "translation",
+      "question": "Translate to Spanish: 'The book is on the table'",
+      "correct": "el libro está en la mesa",
+      "explanation": "'El libro' = the book. 'Está' = is (location). 'En la mesa' = on the table."
+    },
+    {
+      "type": "translation",
+      "question": "Translate to Spanish: 'There are two bedrooms'",
+      "correct": "hay dos dormitorios",
+      "explanation": "'Hay' = there are. 'Dos' = two. 'Dormitorios' = bedrooms. 'Hay' doesn't change for plural."
+    },
+    {
+      "type": "translation",
+      "question": "Translate to Spanish: 'I have a big garden'",
+      "correct": "tengo un jardín grande",
+      "explanation": "'Tengo' = I have. 'Un jardín' = a garden. 'Grande' = big. In Spanish, adjectives usually come AFTER the noun."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What is 'bathroom' in Spanish?",
+      "options": ["cocina", "dormitorio", "baño", "comedor"],
+      "correct": 2,
+      "explanation": "'Baño' = bathroom. 'Cocina' = kitchen. 'Dormitorio' = bedroom. 'Comedor' = dining room."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Which verb do you use to describe where something is located?",
+      "options": ["ser", "estar", "tener", "haber"],
+      "correct": 1,
+      "explanation": "Use ESTAR for location: 'La mesa está en el salón' (The table is in the living room). SER is for identity/permanent traits."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: ___ casa es nueva. (My house is new.)",
+      "correct": "Mi",
+      "explanation": "'Mi' = my. 'Mi casa es nueva' = My house is new. 'Nueva' is feminine to agree with 'casa'."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: El perro está ___ la puerta. (The dog is behind the door.)",
+      "correct": "detrás de",
+      "explanation": "'Detrás de' = behind."
+    },
+    {
+      "type": "translation",
+      "question": "Translate to Spanish: 'The sofa is next to the wall'",
+      "correct": "el sofá está junto a la pared",
+      "explanation": "'El sofá' = the sofa. 'Está' = is. 'Junto a' = next to. 'La pared' = the wall."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What does 'encima de' mean?",
+      "options": ["under", "on top of", "between", "near"],
+      "correct": 1,
+      "explanation": "'Encima de' = on top of. 'Debajo de' = under. 'Entre' = between. 'Cerca de' = near."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: La cocina tiene un ___ y un horno. (The kitchen has a fridge and an oven.)",
+      "correct": "nevera",
+      "explanation": "'Nevera' = fridge. 'La cocina tiene una nevera' = The kitchen has a fridge. Note: 'nevera' is feminine so it's 'una nevera'."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: ___ casa está en el centro. (My house is in the center.)",
+      "correct": "Mi",
+      "explanation": "'Mi' = my. 'Mi casa está en el centro' = My house is in the center. Use ESTAR for location."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What is 'window' in Spanish?",
+      "options": ["puerta", "pared", "ventana", "techo"],
+      "correct": 2,
+      "explanation": "'Ventana' = window. 'Puerta' = door. 'Pared' = wall. 'Techo' = ceiling."
+    },
+    {
+      "type": "translation",
+      "question": "Translate to Spanish: 'Do you have a garden?'",
+      "correct": "¿tienes un jardín?",
+      "explanation": "'¿Tienes' = do you have (informal, tú form of tener). 'Un jardín' = a garden. In Spanish, questions use inverted question marks."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Which demonstrative means 'this' (close to speaker) for a feminine noun?",
+      "options": ["ese", "esta", "aquel", "esos"],
+      "correct": 1,
+      "explanation": "'Esta' = this (feminine singular, close to speaker). 'Ese' = that (masculine). 'Aquel' = that over there. 'Esos' = those (masculine plural)."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: Este ___ es muy cómodo. (This sofa is very comfortable.)",
+      "correct": "sofá",
+      "explanation": "'Sofá' = sofa (masculine). 'Este sofá' = this sofa. 'Ese' would be used for something further away."
+    },
+    {
+      "type": "translation",
+      "question": "Translate to Spanish: 'The cat is under the bed'",
+      "correct": "el gato está debajo de la cama",
+      "explanation": "'El gato' = the cat. 'Está' = is. 'Debajo de' = under. 'La cama' = the bed."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What is 'ceiling' in Spanish?",
+      "options": ["suelo", "pared", "techo", "puerta"],
+      "correct": 2,
+      "explanation": "'Techo' = ceiling. 'Suelo' = floor. 'Pared' = wall. 'Puerta' = door."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: En el baño hay una ___ y una bañera. (In the bathroom there is a shower and a bathtub.)",
+      "correct": "ducha",
+      "explanation": "'Ducha' = shower. 'En el baño hay una ducha' = In the bathroom there is a shower."
+    }
+  ]
+}

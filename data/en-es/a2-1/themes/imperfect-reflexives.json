@@ -1,0 +1,86 @@
+{
+  "id": "imperfect-reflexives",
+  "title": "Reflexives in the Imperfect",
+  "description": "Describe past daily routines using reflexive verbs in the imperfect tense.",
+  "vocabulary": [
+    { "id": 1, "target": "despertarse", "source": "to wake up", "gender": "v.", "type": "verb" },
+    { "id": 2, "target": "levantarse", "source": "to get up", "gender": "v.", "type": "verb" },
+    { "id": 3, "target": "ducharse", "source": "to shower", "gender": "v.", "type": "verb" },
+    { "id": 4, "target": "afeitarse", "source": "to shave", "gender": "v.", "type": "verb" },
+    { "id": 5, "target": "peinarse", "source": "to comb one's hair", "gender": "v.", "type": "verb" },
+    { "id": 6, "target": "vestirse", "source": "to get dressed", "gender": "v.", "type": "verb" },
+    { "id": 7, "target": "acostarse", "source": "to go to bed", "gender": "v.", "type": "verb" },
+    { "id": 8, "target": "bañarse", "source": "to bathe", "gender": "v.", "type": "verb" },
+    { "id": 9, "target": "maquillarse", "source": "to put on makeup", "gender": "v.", "type": "verb" },
+    { "id": 10, "target": "secarse", "source": "to dry oneself", "gender": "v.", "type": "verb" },
+    { "id": 11, "target": "cepillarse los dientes", "source": "to brush one's teeth", "gender": "v.", "type": "verb" },
+    { "id": 12, "target": "almorzar", "source": "to have lunch", "gender": "v.", "type": "verb" },
+    { "id": 13, "target": "cena", "source": "dinner", "gender": "f.", "type": "noun" },
+    { "id": 14, "target": "el desayuno", "source": "breakfast", "gender": "m.", "type": "noun" },
+    { "id": 15, "target": "las seis de la mañana", "source": "six in the morning", "gender": "—", "type": "time" },
+    { "id": 16, "target": "las siete", "source": "seven o'clock", "gender": "—", "type": "time" },
+    { "id": 17, "target": "las diez", "source": "ten o'clock", "gender": "—", "type": "time" },
+    { "id": 18, "target": "los fines de semana", "source": "on weekends", "gender": "—", "type": "time" },
+    { "id": 19, "target": "después de entrenar", "source": "after training", "gender": "—", "type": "phrase" },
+    { "id": 20, "target": "por la noche", "source": "at night / in the evening", "gender": "—", "type": "phrase" }
+  ],
+  "grammar": [
+    {
+      "title": "Reflexive Verbs in the Imperfect (Daily Routines in the Past)",
+      "content": "Combine reflexive pronouns (me, te, se, nos, os, se) with imperfect conjugations to describe past daily routines. Reflexive pronouns stay BEFORE the conjugated verb (or attached to the infinitive when using a compound verb form).\n\nReflexive pronouns:\n- me (myself)\n- te (yourself, informal)\n- se (himself/herself/itself/yourselves formal)\n- nos (ourselves)\n- os (yourselves, Spain informal)\n- se (themselves/yourselves formal)",
+      "table": {
+        "headers": ["Pronoun", "Despertarse", "Levantarse", "Ducharse"],
+        "rows": [
+          ["yo", "me despertaba", "me levantaba", "me duchaba"],
+          ["tú", "te despertabas", "te levantabas", "te duchabas"],
+          ["él/ella/usted", "se despertaba", "se levantaba", "se duchaba"],
+          ["nosotros", "nos despertábamos", "nos levantábamos", "nos duchábamos"],
+          ["vosotros", "os despertabais", "os levantabais", "os duchabais"],
+          ["ellos/ellas/ustedes", "se despertaban", "se levantaban", "se duchaban"]
+        ]
+      },
+      "examples": [
+        "Me despertaba a las seis de la mañana todos los días. (I used to wake up at six every day.)",
+        "Ellos se duchaban después de entrenar. (They used to shower after training.)",
+        "Nosotros nos acostábamos tarde los fines de semana. (We used to go to bed late on weekends.)",
+        "¿Te afeitabas por la mañana o por la noche? (Did you shave in the morning or at night?)"
+      ],
+      "aid_note": "Romanian reflexive verbs also use pronouns (mă, te, se, ne, vă, se) before the verb: 'mă trezeam' = 'me despertaba'. The structure is the same — just swap the verb conjugation."
+    }
+  ],
+  "pronunciation": [],
+  "exercises": [
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: 'Yo ____ (levantarse) a las siete todos los días.' (I used to get up at seven every day.)",
+      "correct": "me levantaba",
+      "explanation": "'Me levantaba' — reflexive pronoun 'me' + imperfect of levantarse."
+    },
+    {
+      "type": "exercise",
+      "question": "Where does the reflexive pronoun go with the imperfect?",
+      "options": ["Attached to the end", "Before the conjugated verb", "After the verb", "It's optional"],
+      "correct": 1,
+      "explanation": "Reflexive pronouns go BEFORE the conjugated verb: 'me despertaba', 'te duchabas', 'se acostaba'."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: 'Nosotros ____ (vestirse) todos los días a las siete.' (We used to get dressed every day at seven.)",
+      "correct": "nos vestíamos",
+      "explanation": "'Nos vestíamos' — reflexive 'nos' + imperfect of vestirse."
+    },
+    {
+      "type": "exercise",
+      "question": "What is the imperfect of 'acostarse' for 'él'?",
+      "options": ["se acostaba", "se acosté", "se acostó", "se acosta"],
+      "correct": 0,
+      "explanation": "'Se acostaba' — se (reflexive) + imperfect of acostar (-aba ending for él/ella)."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: '¿Te ____ (peinarse) por la mañana o por la noche?' (Did you comb your hair in the morning or at night?)",
+      "correct": "peinabas",
+      "explanation": "'Peinabas' — tú form of peinarse in the imperfect. 'Te peinabas' = you used to comb your hair."
+    }
+  ]
+}

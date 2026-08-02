@@ -1,0 +1,217 @@
+{
+  "id": "por-para-usage",
+  "level": "a2-1",
+  "title": "Por vs. Para",
+  "description": "Master the difference between 'por' and 'para' — two of the most challenging Spanish prepositions for learners.",
+  "vocabulary": [
+    {"id": 1, "target": "por", "source": "for/through/because of", "gender": "prep", "type": "preposition"},
+    {"id": 2, "target": "para", "source": "for/in order to", "gender": "prep", "type": "preposition"},
+    {"id": 3, "target": "el regalo", "source": "the gift", "gender": "m", "type": "noun"},
+    {"id": 4, "target": "la razon", "source": "the reason", "gender": "f", "type": "noun"},
+    {"id": 5, "target": "el favor", "source": "the favor", "gender": "m", "type": "noun"},
+    {"id": 6, "target": "Madrid", "source": "Madrid", "gender": "m", "type": "place"},
+    {"id": 7, "target": "la oficina", "source": "the office", "gender": "f", "type": "place"},
+    {"id": 8, "target": "el trabajo", "source": "the work/job", "gender": "m", "type": "noun"},
+    {"id": 9, "target": "la escuela", "source": "the school", "gender": "f", "type": "place"},
+    {"id": 10, "target": "casa", "source": "home/house", "gender": "f", "type": "place"},
+    {"id": 11, "target": "el avion", "source": "the airplane", "gender": "m", "type": "noun"},
+    {"id": 12, "target": "el tren", "source": "the train", "gender": "m", "type": "noun"},
+    {"id": 13, "target": "la puerta", "source": "the door/gate", "gender": "f", "type": "noun"},
+    {"id": 14, "target": "el pasillo", "source": "the hallway", "gender": "m", "type": "noun"},
+    {"id": 15, "target": "la ventana", "source": "the window", "gender": "f", "type": "noun"},
+    {"id": 16, "target": "el parque", "source": "the park", "gender": "m", "type": "place"},
+    {"id": 17, "target": "el supermercado", "source": "the supermarket", "gender": "m", "type": "place"},
+    {"id": 18, "target": "la farmacia", "source": "the pharmacy", "gender": "f", "type": "place"},
+    {"id": 19, "target": "el medico", "source": "the doctor", "gender": "m", "type": "person"},
+    {"id": 20, "target": "mi madre", "source": "my mother", "gender": "f", "type": "person"},
+    {"id": 21, "target": "tu padre", "source": "your father", "gender": "m", "type": "person"},
+    {"id": 22, "target": "el cliente", "source": "the client", "gender": "m", "type": "person"},
+    {"id": 23, "target": "el profesor", "source": "the professor", "gender": "m", "type": "person"},
+    {"id": 24, "target": "el objetivo", "source": "the objective/goal", "gender": "m", "type": "noun"},
+    {"id": 25, "target": "la meta", "source": "the goal", "gender": "f", "type": "noun"},
+    {"id": 26, "target": "el examen", "source": "the exam", "gender": "m", "type": "noun"},
+    {"id": 27, "target": "el fin de semana", "source": "the weekend", "gender": "m", "type": "time"},
+    {"id": 28, "target": "las vacaciones", "source": "the vacation", "gender": "f", "type": "time"},
+    {"id": 29, "target": "siempre", "source": "always", "gender": "adv", "type": "adverb"},
+    {"id": 30, "target": "nunca", "source": "never", "gender": "adv", "type": "adverb"},
+    {"id": 31, "target": "agradecer", "source": "to thank", "gender": "v", "type": "verb"},
+    {"id": 32, "target": "esperar", "source": "to wait for/to hope", "gender": "v", "type": "verb"},
+    {"id": 33, "target": "buscar", "source": "to look for", "gender": "v", "type": "verb"},
+    {"id": 34, "target": "pagar", "source": "to pay", "gender": "v", "type": "verb"},
+    {"id": 35, "target": "cambiar", "source": "to change/exchange", "gender": "v", "type": "verb"},
+    {"id": 36, "target": "intercambiar", "source": "to exchange", "gender": "v", "type": "verb"},
+    {"id": 37, "target": "sustituir", "source": "to substitute", "gender": "v", "type": "verb"},
+    {"id": 38, "target": "multiplicar", "source": "to multiply", "gender": "v", "type": "verb"},
+    {"id": 39, "target": "dividir", "source": "to divide", "gender": "v", "type": "verb"},
+    {"id": 40, "target": "causar", "source": "to cause", "gender": "v", "type": "verb"},
+    {"id": 41, "target": "necesitar", "source": "to need", "gender": "v", "type": "verb"},
+    {"id": 42, "target": "querer", "source": "to want", "gender": "v", "type": "verb"},
+    {"id": 43, "target": "venir", "source": "to come", "gender": "v", "type": "verb"},
+    {"id": 44, "target": "ir", "source": "to go", "gender": "v", "type": "verb"},
+    {"id": 45, "target": "salir", "source": "to leave/exit", "gender": "v", "type": "verb"},
+    {"id": 46, "target": "llegar", "source": "to arrive", "gender": "v", "type": "verb"},
+    {"id": 47, "target": "gracias a", "source": "thanks to", "gender": "prep", "type": "phrase"},
+    {"id": 48, "target": "a causa de", "source": "because of", "gender": "prep", "type": "phrase"},
+    {"id": 49, "target": "con el fin de", "source": "in order to", "gender": "prep", "type": "phrase"},
+    {"id": 50, "target": "con el objeto de", "source": "with the purpose of", "gender": "prep", "type": "phrase"},
+    {"id": 51, "target": "en lugar de", "source": "instead of", "gender": "prep", "type": "phrase"},
+    {"id": 52, "target": "a pesar de", "source": "in spite of", "gender": "prep", "type": "phrase"},
+    {"id": 53, "target": "durante", "source": "during", "gender": "prep", "type": "preposition"},
+    {"id": 54, "target": "a cambio de", "source": "in exchange for", "gender": "prep", "type": "phrase"},
+    {"id": 55, "target": "por ciento", "source": "percent", "gender": "m", "type": "phrase"},
+    {"id": 56, "target": "por ejemplo", "source": "for example", "gender": "m", "type": "phrase"},
+    {"id": 57, "target": "por eso", "source": "that's why", "gender": "m", "type": "phrase"},
+    {"id": 58, "target": "por favor", "source": "please", "gender": "m", "type": "phrase"},
+    {"id": 59, "target": "por supuesto", "source": "of course", "gender": "m", "type": "phrase"},
+    {"id": 60, "target": "por lo general", "source": "generally", "gender": "m", "type": "phrase"},
+    {"id": 61, "target": "de miedo", "source": "of fear", "gender": "m", "type": "phrase"},
+    {"id": 62, "target": "de cansancio", "source": "of tiredness", "gender": "m", "type": "phrase"},
+    {"id": 63, "target": "de gusto", "source": "with pleasure", "gender": "m", "type": "phrase"},
+    {"id": 64, "target": "la vez", "source": "the time", "gender": "f", "type": "noun"},
+    {"id": 65, "target": "el地方", "source": "the place", "gender": "m", "type": "noun"},
+    {"id": 66, "target": "el dia", "source": "the day", "gender": "m", "type": "time"},
+    {"id": 67, "target": "el verano", "source": "the summer", "gender": "m", "type": "time"},
+    {"id": 68, "target": "la primavera", "source": "the spring", "gender": "f", "type": "time"},
+    {"id": 69, "target": "el invierno", "source": "the winter", "gender": "m", "type": "time"},
+    {"id": 70, "target": "mañana", "source": "tomorrow/morning", "gender": "m", "type": "time"},
+    {"id": 71, "target": "el lunes", "source": "Monday", "gender": "m", "type": "day"},
+    {"id": 72, "target": "el martes", "source": "Tuesday", "gender": "m", "type": "day"},
+    {"id": 73, "target": "la navidad", "source": "Christmas", "gender": "f", "type": "event"},
+    {"id": 74, "target": "el ano nuevo", "source": "New Year", "gender": "m", "type": "event"},
+    {"id": 75, "target": "el cumpleanos", "source": "the birthday", "gender": "m", "type": "event"},
+    {"id": 76, "target": "el billete", "source": "the ticket", "gender": "m", "type": "noun"},
+    {"id": 77, "target": "la entrada", "source": "the entrance/ticket", "gender": "f", "type": "noun"},
+    {"id": 78, "target": "el piso", "source": "the apartment", "gender": "m", "type": "noun"},
+    {"id": 79, "target": "el apartamento", "source": "the apartment", "gender": "m", "type": "noun"},
+    {"id": 80, "target": "el voto", "source": "the vote", "gender": "m", "type": "noun"},
+    {"id": 81, "target": "la sustitucion", "source": "the substitution", "gender": "f", "type": "noun"},
+    {"id": 82, "target": "el cambio", "source": "the change", "gender": "m", "type": "noun"},
+    {"id": 83, "target": "el intercambio", "source": "the exchange", "gender": "m", "type": "noun"},
+    {"id": 84, "target": "la operacion", "source": "the operation", "gender": "f", "type": "noun"},
+    {"id": 85, "target": "la multiplicacion", "source": "the multiplication", "gender": "f", "type": "noun"},
+    {"id": 86, "target": "la division", "source": "the division", "gender": "f", "type": "noun"},
+    {"id": 87, "target": "el efecto", "source": "the effect", "gender": "m", "type": "noun"},
+    {"id": 88, "target": "la causa", "source": "the cause", "gender": "f", "type": "noun"},
+    {"id": 89, "target": "el motivo", "source": "the motive/reason", "gender": "m", "type": "noun"},
+    {"id": 90, "target": "la intencion", "source": "the intention", "gender": "f", "type": "noun"},
+    {"id": 91, "target": "el proposito", "source": "the purpose", "gender": "m", "type": "noun"},
+    {"id": 92, "target": "el destino", "source": "the destination", "gender": "m", "type": "noun"},
+    {"id": 93, "target": "el receptor", "source": "the recipient", "gender": "m", "type": "noun"},
+    {"id": 94, "target": "el beneficio", "source": "the benefit", "gender": "m", "type": "noun"},
+    {"id": 95, "target": "la ventaja", "source": "the advantage", "gender": "f", "type": "noun"},
+    {"id": 96, "target": "la desventaja", "source": "the disadvantage", "gender": "f", "type": "noun"},
+    {"id": 97, "target": "la cantidad", "source": "the quantity", "gender": "f", "type": "noun"},
+    {"id": 98, "target": "el numero", "source": "the number", "gender": "m", "type": "noun"},
+    {"id": 99, "target": "la fraccion", "source": "the fraction", "gender": "f", "type": "noun"},
+    {"id": 100, "target": "el resultado", "source": "the result", "gender": "m", "type": "noun"}
+  ],
+  "grammar": [
+    {
+      "title": "Para — Purpose, Destination, Recipient",
+      "content": "PARA is used for:\\n\\n1. PURPOSE (in order to):\\n Estudio para aprender. (I study to learn.)\\nTrabajo para vivir. (I work to live.)\\n\\n2. DESTINATION / DIRECTION:\\nSalgo para Madrid manana. (I leave for Madrid tomorrow.)\\nEste tren es para Barcelona. (This train is for Barcelona.)\\n\\n3. RECIPIENT / FOR someone:\\nEs un regalo para ti. (It's a gift for you.)\\nPreparo la cena para la familia. (I prepare dinner for the family.)\\n\\n4. DEADLINE / FOR a specific time:\\nLo necesito para el lunes. (I need it for Monday.)\\nPara navidad voy a casa. (For Christmas, I go home.)\\n\\n5. OPINION / FOR + infinitive:\\nEs dificil para mi. (It's difficult for me.)\\nPara ser principiante, sabes mucho. (For a beginner, you know a lot.)",
+      "examples": [
+        "Trabajo para vivir, no vivo para trabajar. (I work to live, I don't live to work.)",
+        "Este regalo es para mi madre. (This gift is for my mother.)",
+        "Necesito el informe para el viernes. (I need the report for Friday.)",
+        "Para ser honesto, no me gusta. (To be honest, I don't like it.)"
+      ]
+    },
+    {
+      "title": "Por — Cause, Duration, Exchange, Gratitude",
+      "content": "POR is used for:\\n\\n1. CAUSE / REASON (because of, due to):\\nLlegue tarde por el trafico. (I arrived late because of the traffic.)\\nGracias por tu ayuda. (Thanks for your help.)\\n\\n2. DURATION / TIME through which:\\nTrabajo por ocho horas. (I work for eight hours.)\\nEstudiamos por la manana. (We study through the morning.)\\n\\n3. EXCHANGE / SUBSTITUTION:\\nTe doy 20 euros por el libro. (I'll give you 20 euros for the book.)\\nCambio mi coche por una moto. (I exchange my car for a motorcycle.)\\n\\n4. MOTION THROUGH / AROUND:\\nPase por la tienda. (I passed by the store.)\\nCamine por el parque. (I walked through the park.)\\n\\n5. MULTIPLICATION:\\nTres por cuatro son doce. (Three times four is twelve.)",
+      "examples": [
+        "Gracias por todo. (Thanks for everything.)",
+        "Trabaje por seis horas seguidas. (I worked for six hours straight.)",
+        "Te doy 50 euros por la bicicleta. (I'll give you 50 euros for the bicycle.)",
+        "Por donde fue el accidente? (Where did the accident happen? / Through where was the accident?)"
+      ]
+    },
+    {
+      "title": "Por vs. Para — Key Distinctions and Memory Aids",
+      "content": "Memory aid:\\n- PARA = P urpose, R ecipient, D estination, D eadline, O pinion\\n- POR = C ause, D uration, E xchange, M otion, G ratitude\\n\\nPor para in contrast:\\n\\nUso este coche para el trabajo. (I use this car for work — purpose)\\nPago 500 euros por el coche. (I pay 500 euros for the car — exchange)\\n\\nSalgo para Barcelona. (I leave for Barcelona — destination)\\nPase por Barcelona. (I passed through Barcelona — motion)\\n\\nExpressions with POR:\\n- por supuesto (of course)\\n- por favor (please)\\n- por ejemplo (for example)\\n- por eso (that's why)\\n- por lo general (generally)\\n- por lo tanto (therefore)\\n\\nExpressions with PARA:\\n- para siempre (forever)\\n- para siempre jamas (for ever and ever)\\n- para ahora (for now)\\n- para luego (for later)",
+      "examples": [
+        "Por favor, firmame aqui. (Please, sign here for me.)",
+        "Para siempre jamas te amare. (I will love you for ever and ever.)",
+        "Por lo general, llego tarde. (Generally, I arrive late.)",
+        "Esto es para ti, con carino. (This is for you, with love.)"
+      ]
+    }
+  ],
+  "pronunciation": [
+    {
+      "title": "Por vs Para Pronunciation",
+      "content": "por = por (like English 'for', but shorter)\\npara = PAH-rah (stress on first syllable)\\n\\nNote: 'por' and 'para' sound very similar. Context and meaning determine which one is used.\\n\\nThe written distinction is crucial:\\n- por (one word)\\n- para (two syllables: pa-ra)\\n\\nCommon confusions:\\n- Es para ti (It's for you) vs. Gracias por ti (Thanks to you)\\n- Trabajo para vivir (I work to live) vs. Trabajo por vivir (I work because of/to survive)\\n\\nIn rapid speech, the difference is subtle. Focus on the written form to learn the distinction.",
+      "examples": [
+        "por = por\\npara = PAH-rah",
+        "Por favor, espere un momento. (Please, wait a moment.)\\nPara mi, es importante. (For me, it's important.)"
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "multiple-choice",
+      "question": "Which is correct for 'I work to live'?",
+      "options": ["Trabajo por vivir", "Trabajo para vivir", "Trabajo para que vivo", "Trabajo por a vivir"],
+      "correct": 1,
+      "explanation": "Para + infinitive expresses purpose. 'Trabajo para vivir' = I work to live."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: 'Gracias ___ tu ayuda. (Thanks for your help.)'",
+      "correct": "por",
+      "explanation": "Gracias por = thanks for (cause/gratitude expression). This is a fixed expression."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Which is correct for 'This train is for Barcelona'?",
+      "options": ["Este tren es por Barcelona", "Este tren es para Barcelona", "Este tren es de Barcelona", "Este tren es en Barcelona"],
+      "correct": 1,
+      "explanation": "Para indicates destination/recipient. 'Este tren es para Barcelona' = This train is for (going to) Barcelona."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: 'Necesito el informe ___ el viernes. (I need the report for Friday.)'",
+      "correct": "para",
+      "explanation": "Para + deadline = for a specific time. 'Para el viernes' = for Friday / by Friday."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Which is correct for 'Three times four is twelve'?",
+      "options": ["Tres para cuatro son doce", "Tres por cuatro son doce", "Tres de cuatro son doce", "Tres y cuatro son doce"],
+      "correct": 1,
+      "explanation": "Por is used for multiplication. 'Tres por cuatro' = Three times four."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: 'Es un regalo ___ ti. (It's a gift for you.)'",
+      "correct": "para",
+      "explanation": "Para indicates recipient. 'Para ti' = for you (informal singular)."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Which is correct for 'I arrived late because of traffic'?",
+      "options": ["Llegue tarde para el trafico", "Llegue tarde por el trafico", "Llegue tarde de el trafico", "Llegue tarde con el trafico"],
+      "correct": 1,
+      "explanation": "Por indicates cause/reason. 'Por el trafico' = because of the traffic."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: 'Pase ___ la tienda. (I passed by the store.)'",
+      "correct": "por",
+      "explanation": "Por indicates motion through/past a place. 'Pase por la tienda' = I passed by the store."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Which is correct: 'por favor' or 'para favor'?",
+      "options": ["para favor", "por favor", "por el favor", "para el favor"],
+      "correct": 1,
+      "explanation": "'Por favor' (please) is a fixed expression. Always written as two words: por favor."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: 'Trabajo ___ ocho horas cada dia. (I work for eight hours every day.)'",
+      "correct": "por",
+      "explanation": "Por indicates duration/how long. 'Por ocho horas' = for eight hours."
+    }
+  ]
+}

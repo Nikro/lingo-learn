@@ -1,0 +1,392 @@
+{
+  "id": "education-school",
+  "level": "a1-2",
+  "title": "Education & School",
+  "description": "Learn to talk about school, subjects, studying, exams, and academic life in Spanish.",
+  "vocabulary": [
+    {"id": 1, "target": "escuela", "source": "school", "gender": "f", "type": "noun"},
+    {"id": 2, "target": "colegio", "source": "school/elementary school", "gender": "m", "type": "noun"},
+    {"id": 3, "target": "instituto", "source": "high school", "gender": "m", "type": "noun"},
+    {"id": 4, "target": "universidad", "source": "university", "gender": "f", "type": "noun"},
+    {"id": 5, "target": "aula", "source": "classroom", "gender": "f", "type": "noun"},
+    {"id": 6, "target": "clase", "source": "class", "gender": "f", "type": "noun"},
+    {"id": 7, "target": "biblioteca", "source": "library", "gender": "f", "type": "noun"},
+    {"id": 8, "target": "laboratorio", "source": "laboratory", "gender": "m", "type": "noun"},
+    {"id": 9, "target": "comedor", "source": "cafeteria/dining hall", "gender": "m", "type": "noun"},
+    {"id": 10, "target": "patio", "source": "playground/courtyard", "gender": "m", "type": "noun"},
+    {"id": 11, "target": "profesor", "source": "teacher (male)", "gender": "m", "type": "noun"},
+    {"id": 12, "target": "profesora", "source": "teacher (female)", "gender": "f", "type": "noun"},
+    {"id": 13, "target": "maestro", "source": "teacher (primary school)", "gender": "m", "type": "noun"},
+    {"id": 14, "target": "estudiante", "source": "student", "gender": "m/f", "type": "noun"},
+    {"id": 15, "target": "alumno", "source": "student (male)", "gender": "m", "type": "noun"},
+    {"id": 16, "target": "alumna", "source": "student (female)", "gender": "f", "type": "noun"},
+    {"id": 17, "target": "compañero", "source": "classmate (male)", "gender": "m", "type": "noun"},
+    {"id": 18, "target": "compañera", "source": "classmate (female)", "gender": "f", "type": "noun"},
+    {"id": 19, "target": "director", "source": "principal/director (male)", "gender": "m", "type": "noun"},
+    {"id": 20, "target": "directora", "source": "principal/director (female)", "gender": "f", "type": "noun"},
+    {"id": 21, "target": "tutor", "source": "homeroom teacher/tutor", "gender": "m", "type": "noun"},
+    {"id": 22, "target": "materia", "source": "subject", "gender": "f", "type": "noun"},
+    {"id": 23, "target": "asignatura", "source": "subject/course", "gender": "f", "type": "noun"},
+    {"id": 24, "target": "curso", "source": "course/level", "gender": "m", "type": "noun"},
+    {"id": 25, "target": "lección", "source": "lesson", "gender": "f", "type": "noun"},
+    {"id": 26, "target": "tema", "source": "topic/theme", "gender": "m", "type": "noun"},
+    {"id": 27, "target": "matemáticas", "source": "mathematics", "gender": "f", "type": "noun"},
+    {"id": 28, "target": "física", "source": "physics", "gender": "f", "type": "noun"},
+    {"id": 29, "target": "química", "source": "chemistry", "gender": "f", "type": "noun"},
+    {"id": 30, "target": "biología", "source": "biology", "gender": "f", "type": "noun"},
+    {"id": 31, "target": "historia", "source": "history", "gender": "f", "type": "noun"},
+    {"id": 32, "target": "geografía", "source": "geography", "gender": "f", "type": "noun"},
+    {"id": 33, "target": "literatura", "source": "literature", "gender": "f", "type": "noun"},
+    {"id": 34, "target": "arte", "source": "art", "gender": "m", "type": "noun"},
+    {"id": 35, "target": "música", "source": "music", "gender": "f", "type": "noun"},
+    {"id": 36, "target": "educación física", "source": "physical education", "gender": "f", "type": "noun"},
+    {"id": 37, "target": "informática", "source": "computer science", "gender": "f", "type": "noun"},
+    {"id": 38, "target": "filosofía", "source": "philosophy", "gender": "f", "type": "noun"},
+    {"id": 39, "target": "inglés", "source": "English (language)", "gender": "m", "type": "noun"},
+    {"id": 40, "target": "español", "source": "Spanish (language)", "gender": "m", "type": "noun"},
+    {"id": 41, "target": "francés", "source": "French (language)", "gender": "m", "type": "noun"},
+    {"id": 42, "target": "alemán", "source": "German (language)", "gender": "m", "type": "noun"},
+    {"id": 43, "target": "libro", "source": "book", "gender": "m", "type": "noun"},
+    {"id": 44, "target": "cuaderno", "source": "notebook", "gender": "m", "type": "noun"},
+    {"id": 45, "target": "cuaderno de ejercicios", "source": "workbook", "gender": "m", "type": "noun"},
+    {"id": 46, "target": "lápiz", "source": "pencil", "gender": "m", "type": "noun"},
+    {"id": 47, "target": "bolígrafo", "source": "pen", "gender": "m", "type": "noun"},
+    {"id": 48, "target": "goma", "source": "eraser", "gender": "f", "type": "noun"},
+    {"id": 49, "target": "regla", "source": "ruler", "gender": "f", "type": "noun"},
+    {"id": 50, "target": "tijeras", "source": "scissors", "gender": "f", "type": "noun"},
+    {"id": 51, "target": "pegamento", "source": "glue", "gender": "m", "type": "noun"},
+    {"id": 52, "target": "mochila", "source": "backpack", "gender": "f", "type": "noun"},
+    {"id": 53, "target": "carpeta", "source": "folder", "gender": "f", "type": "noun"},
+    {"id": 54, "target": "papel", "source": "paper", "gender": "m", "type": "noun"},
+    {"id": 55, "target": "pizarra", "source": "blackboard/whiteboard", "gender": "f", "type": "noun"},
+    {"id": 56, "target": "tiza", "source": "chalk", "gender": "f", "type": "noun"},
+    {"id": 57, "target": "mapa", "source": "map", "gender": "m", "type": "noun"},
+    {"id": 58, "target": "globo terráqueo", "source": "globe", "gender": "m", "type": "noun"},
+    {"id": 59, "target": "examen", "source": "exam/test", "gender": "m", "type": "noun"},
+    {"id": 60, "target": "prueba", "source": "test", "gender": "f", "type": "noun"},
+    {"id": 61, "target": "tarea", "source": "homework", "gender": "f", "type": "noun"},
+    {"id": 62, "target": "deberes", "source": "homework/assignments", "gender": "m", "type": "noun"},
+    {"id": 63, "target": "proyecto", "source": "project", "gender": "m", "type": "noun"},
+    {"id": 64, "target": "presentación", "source": "presentation", "gender": "f", "type": "noun"},
+    {"id": 65, "target": "nota", "source": "grade", "gender": "f", "type": "noun"},
+    {"id": 66, "target": "calificación", "source": "grade/score", "gender": "f", "type": "noun"},
+    {"id": 67, "target": "diploma", "source": "diploma", "gender": "m", "type": "noun"},
+    {"id": 68, "target": "título", "source": "degree/title", "gender": "m", "type": "noun"},
+    {"id": 69, "target": "matrícula", "source": "enrollment/tuition", "gender": "f", "type": "noun"},
+    {"id": 70, "target": "semestre", "source": "semester", "gender": "m", "type": "noun"},
+    {"id": 71, "target": "horario", "source": "schedule", "gender": "m", "type": "noun"},
+    {"id": 72, "target": "recreo", "source": "recess/break", "gender": "m", "type": "noun"},
+    {"id": 73, "target": "aprender", "source": "to learn", "gender": "m", "type": "verb"},
+    {"id": 74, "target": "enseñar", "source": "to teach", "gender": "m", "type": "verb"},
+    {"id": 75, "target": "estudiar", "source": "to study", "gender": "m", "type": "verb"},
+    {"id": 76, "target": "leer", "source": "to read", "gender": "m", "type": "verb"},
+    {"id": 77, "target": "escribir", "source": "to write", "gender": "m", "type": "verb"},
+    {"id": 78, "target": "explicar", "source": "to explain", "gender": "m", "type": "verb"},
+    {"id": 79, "target": "preguntar", "source": "to ask (a question)", "gender": "m", "type": "verb"},
+    {"id": 80, "target": "responder", "source": "to answer", "gender": "m", "type": "verb"},
+    {"id": 81, "target": "aprobar", "source": "to pass (an exam)", "gender": "m", "type": "verb"},
+    {"id": 82, "target": "suspender", "source": "to fail (an exam)", "gender": "m", "type": "verb"},
+    {"id": 83, "target": "repetir", "source": "to repeat (a course)", "gender": "m", "type": "verb"},
+    {"id": 84, "target": "graduarse", "source": "to graduate", "gender": "m", "type": "verb"},
+    {"id": 85, "target": "tomar notas", "source": "to take notes", "gender": "m", "type": "phrase"},
+    {"id": 86, "target": "participar", "source": "to participate", "gender": "m", "type": "verb"},
+    {"id": 87, "target": "prestar atención", "source": "to pay attention", "gender": "m", "type": "phrase"},
+    {"id": 88, "target": "inteligente", "source": "intelligent", "gender": "m", "type": "adjective"},
+    {"id": 89, "target": "aplicado", "source": "studious/hardworking", "gender": "m", "type": "adjective"},
+    {"id": 90, "target": "perezoso", "source": "lazy", "gender": "m", "type": "adjective"},
+    {"id": 91, "target": "difícil", "source": "difficult", "gender": "m", "type": "adjective"},
+    {"id": 92, "target": "fácil", "source": "easy", "gender": "m", "type": "adjective"},
+    {"id": 93, "target": "interesante", "source": "interesting", "gender": "m", "type": "adjective"},
+    {"id": 94, "target": "aburrido", "source": "boring", "gender": "m", "type": "adjective"},
+    {"id": 95, "target": "en casa", "source": "at home", "gender": "m", "type": "phrase"},
+    {"id": 96, "target": "en clase", "source": "in class", "gender": "m", "type": "phrase"},
+    {"id": 97, "target": "en la escuela", "source": "at school", "gender": "m", "type": "phrase"},
+    {"id": 98, "target": "después de clase", "source": "after class", "gender": "m", "type": "phrase"},
+    {"id": 99, "target": "antes del examen", "source": "before the exam", "gender": "m", "type": "phrase"},
+    {"id": 100, "target": "durante la clase", "source": "during class", "gender": "m", "type": "phrase"}
+  ],
+  "grammar": [
+    {
+      "title": "Estudiar y Aprender — To Study and To Learn",
+      "content": "Estudiar (to study) and aprender (to learn) are two of the most important verbs for school vocabulary. They are both regular -ar verbs.\n\nConjugation of estudiar:\nYo estudio (I study)\nTú estudias (You study — informal)\nÉl/Ella/Usted estudia (He/She/You formal studies)\nNosotros/Nosotras estudiamos (We study)\nVosotros/Vosotras estudiáis (You all study — Spain)\nEllos/Ellas/Ustedes estudian (They study)\n\nConjugation of aprender:\nYo aprendo (I learn)\nTú aprendes (You learn — informal)\nÉl/Ella/Usted aprende (He/She/You formal learns)\nNosotros/Nosotras aprendemos (We learn)\nVosotros/Vosotras aprendéis (You all learn — Spain)\nEllos/Ellas/Ustedes aprenden (They learn)\n\nNOTA: Aprender has an extra 'p' in the yo form: aprendo (not 'aprendo' — double check: it IS 'aprendo', the extra p is in the infinitive)\n\nExamples:\nEstudio español todos los días. (I study Spanish every day.)\n¿Aprendes español? (Do you learn Spanish?)\nSí, aprendo mucho. (Yes, I learn a lot.)\nNosotros estudiamos en la biblioteca. (We study in the library.)\n\nCommon phrases:\nEstudio para el examen. (I study for the exam.)\n¿Qué estudias? (What do you study?)\nEstudio en la universidad. (I study at the university.)\nQuiero aprender español. (I want to learn Spanish.)\n\nExamples:\n¿Estudias mucho? (Do you study a lot?)\nSí, estudio cuatro horas al día. (Yes, I study four hours a day.)\n¿Estudias español? (Do you study Spanish?)\nSí, estudio español con mi amigo. (Yes, I study Spanish with my friend.)",
+      "examples": [
+        "Estudio español en la universidad. (I study Spanish at the university.)\n¿Estudias inglés también? (Do you study English too?)\nSí, estudio inglés los martes. (Yes, I study English on Tuesdays.)\n¿Dónde estudias? (Where do you study?)",
+        "Aprendo español desde hace un año. (I've been learning Spanish for a year.)\n¿Aprendes español solo? (Do you learn Spanish by yourself?)\nNo, aprendo con mis amigos. (No, I learn with my friends.)\nAprendemos mucho en clase. (We learn a lot in class.)",
+        "Estudio para el examen de matemáticas. (I study for the math exam.)\nTengo tarea de historia hoy. (I have history homework today.)\nEstudio en la biblioteca del colegio. (I study at the school library.)\nNo estudio los domingos. (I don't study on Sundays.)"
+      ]
+    },
+    {
+      "title": "Tener que + Infinitive — To Have To (Do Something)",
+      "content": "Tener que + infinitive is used to express obligation — 'to have to do something.' Tener means 'to have' and is irregular in the present tense.\n\nConjugation of tener:\nYo tengo (I have) — irregular!\nTú tienes (You have — informal)\nÉl/Ella/Usted tiene (He/She/You formal has)\nNosotros/Nosotras tenemos (We have)\nVosotros/Vosotras tenéis (You all have — Spain)\nEllos/Ellas/Ustedes tienen (They have)\n\nTener que + verb:\nTengo que estudiar. (I have to study.)\n¿Tienes que hacer la tarea? (Do you have to do homework?)\nNecesito que + infinitive: Necesito estudiar. (I need to study.)\nTengo que ir al colegio. (I have to go to school.)\nTiene que practicar el español. (He/She has to practice Spanish.)\n\nCommon school obligations:\nTengo que hacer la tarea. (I have to do homework.)\nTengo que estudiar para el examen. (I have to study for the exam.)\nTengo que llevar el libro. (I have to bring the book.)\nTenemos que participar en clase. (We have to participate in class.)\n\nExamples:\n¿Tienes que estudiar hoy? (Do you have to study today?)\nSí, tengo que estudiar mucho. (Yes, I have to study a lot.)\n¿Tienes tarea de español? (Do you have Spanish homework?)\nSí, tengo que escribir un texto. (Yes, I have to write a text.)",
+      "examples": [
+        "Tengo que estudiar para el examen. (I have to study for the exam.)\n¿Qué tienes que estudiar? (What do you have to study?)\nTengo que estudiar matemáticas. (I have to study math.)\n¿A qué hora estudias? (What time do you study?)",
+        "Tienes que traer el libro mañana. (You have to bring the book tomorrow.)\n¿Tienes que hacer la tarea? (Do you have to do homework?)\nSí, tengo que hacer la tarea de inglés. (Yes, I have to do the English homework.)\nNo tengo tarea hoy. (I don't have homework today.)",
+        "Tenemos que ir al laboratorio de ciencias. (We have to go to the science lab.)\n¿Tenéis que estudiar mucho? (Do you all have to study a lot? — Spain)\nSí, tenemos que estudiar para el examen final. (Yes, we have to study for the final exam.)\nEllos tienen que entregar el proyecto. (They have to hand in the project.)"
+      ]
+    },
+    {
+      "title": "Gustar + Subject/Activity — To Like (Something)",
+      "content": "Gustar works differently than 'like' in English. It literally means 'to be pleasing to.' The thing you like is the subject, and you are the object.\n\nConjugation with gustar:\nMe gusta (I like — singular)\nTe gusta (You like — informal, singular)\nLe gusta (He/She/You formal likes)\nNos gusta (We like)\nOs gusta (You all like — Spain)\nLes gusta (They/You all like)\n\nMe gustan (I like — plural things):\nMe gustan las matemáticas. (I like math.)\nTe gustan los deportes. (You like sports.)\nLe gustan los libros. (He/She likes books.)\nNos gustan las clases. (We like the classes.)\n\nGustar + infinitive (always singular):\nMe gusta estudiar. (I like to study.)\nTe gusta leer. (You like to read.)\nLe gusta escribir. (He/She likes to write.)\nNos gusta aprender. (We like to learn.)\n\nAsking about preferences:\n¿Qué te gusta? (What do you like?)\n¿Te gusta la historia? (Do you like history?)\n¿Te gustan las matemáticas? (Do you like math?)\nMe gusta la historia. (I like history.)\nNo me gusta la geografía. (I don't like geography.)\n\nExamples:\n¿Qué materia te gusta? (What subject do you like?)\nMe gusta la literatura. (I like literature.)\n¿Te gusta el arte? (Do you like art?)\nSí, me gusta mucho el arte. (Yes, I really like art.)",
+      "examples": [
+        "¿Te gusta estudiar? (Do you like to study?)\nSí, me gusta estudiar. (Yes, I like to study.)\n¿Te gusta la escuela? (Do you like school?)\nSí, me gusta mucho la escuela. (Yes, I really like school.)",
+        "Me gustan las matemáticas. (I like math.)\n¿Por qué te gustan las matemáticas? (Why do you like math?)\nPorque son interesantes. (Because they are interesting.)\nNo me gustan la geografía. (I don't like geography.)",
+        "Me gusta leer libros. (I like reading books.)\n¿Te gusta escribir? (Do you like to write?)\nSí, me gusta escribir mucho. (Yes, I like to write a lot.)\nNo me gusta estudiar por la noche. (I don't like to study at night.)"
+      ]
+    },
+    {
+      "title": "Ir a + Infinitive — To Be Going To (Do Something)",
+      "content": "Ir (to go) + a + infinitive is used to express near-future intentions. This is the most common way to talk about plans in Spanish.\n\nConjugation of ir:\nYo voy (I go) — irregular!\nTú vas (You go — informal)\nÉl/Ella/Usted va (He/She/You formal goes)\nNosotros/Nosotras vamos (We go)\nVosotros/Vosotras vais (You all go — Spain)\nEllos/Ellas/Ustedes van (They go)\n\nGoing to do something:\nVoy a estudiar esta noche. (I'm going to study tonight.)\n¿Vas a hacer la tarea? (Are you going to do homework?)\nElla va a aprender español. (She's going to learn Spanish.)\nVamos a practicar el español. (We're going to practice Spanish.)\n\nGoing to school/places:\nVoy al colegio. (I'm going to school.) — ir a + el = ir al\nVa a la universidad. (She's going to the university.)\nVamos a la biblioteca. (We're going to the library.)\nVan al instituto. (They're going to high school.)\n\nCommon school plans:\nVoy a estudiar para el examen. (I'm going to study for the exam.)\nVamos a hacer el proyecto. (We're going to do the project.)\n¿Vas a entregar la tarea? (Are you going to hand in the homework?)\nSí, voy a entregarla hoy. (Yes, I'm going to hand it in today.)\n\nExamples:\n¿Qué vas a hacer esta tarde? (What are you going to do this afternoon?)\nVoy a estudiar español. (I'm going to study Spanish.)\n¿Vas a ir al colegio mañana? (Are you going to go to school tomorrow?)\nNo, no voy al colegio los sábados. (No, I don't go to school on Saturdays.)",
+      "examples": [
+        "Voy a estudiar esta noche. (I'm going to study tonight.)\n¿Qué vas a estudiar? (What are you going to study?)\nVoy a estudiar matemáticas. (I'm going to study math.)\n¿Vas a la biblioteca? (Are you going to the library?)\nSí, voy a la biblioteca por la tarde. (Yes, I'm going to the library in the afternoon.)",
+        "Vamos a hacer la tarea. (We're going to do homework.)\n¿Vais a estudiar mucho? (Are you all going to study a lot? — Spain)\nSí, tenemos un examen grande. (Yes, we have a big exam.)\nVan a aprender español juntos. (They're going to learn Spanish together.)",
+        "Voy a ir al instituto mañana. (I'm going to go to high school tomorrow.)\n¿Va a estudiar ella? (Is she going to study?)\nNo, va a descansar. (No, she's going to rest.)\n¿Vas a entregar el proyecto hoy? (Are you going to hand in the project today?)\nSí, voy a entregarlo hoy. (Yes, I'm going to hand it in today.)"
+      ]
+    }
+  ],
+  "expressions": [
+    {
+      "title": "Talking About School — Essential Phrases",
+      "content": "Describing your school life:\nEstudio en el colegio. (I study at school.)\nVoy a la universidad. (I go to the university.)\nTengo clase de matemáticas. (I have math class.)\nMi materia favorita es el español. (My favorite subject is Spanish.)\nMe gusta ir a la escuela. (I like going to school.)\nNo me gusta la geografía. (I don't like geography.)\n\nDescribing your routine:\nMe levanto a las siete. (I get up at seven.)\nVoy al colegio a las ocho. (I go to school at eight.)\nTengo recreo a las diez. (I have recess at ten.)\nSalgo de clase a las tres. (I leave class at three.)\nVuelvo a casa a las cuatro. (I return home at four.)\n\nTalking about subjects:\nMe interesan las ciencias. (I'm interested in science.)\nLa historia es interesante. (History is interesting.)\nLas matemáticas son difíciles. (Math is difficult.)\nLa música es fácil. (Music is easy.)\nMi clase favorita es la de arte. (My favorite class is art.)\n\nExamples:\n¿Dónde estudias? (Where do you study?)\nEstudio en el colegio. (I study at school.)\n¿Qué hora es tu clase de español? (What time is your Spanish class?)\nEs a las nueve. (It's at nine.)\n¿Te gusta la escuela? (Do you like school?)\nSí, me gusta mucho la escuela. (Yes, I like school a lot.)",
+      "examples": [
+        "¿Qué materia te gusta? (What subject do you like?)\nMe gusta la literatura. (I like literature.)\n¿Y la historia? (And history?)\nNo me gusta la historia. (I don't like history.)",
+        "Estudio en la universidad. (I study at the university.)\n¿Qué estudias? (What do you study?)\nEstudio español. (I study Spanish.)\n¿Cuántas horas estudias al día? (How many hours do you study per day?)",
+        "Mi clase favorita es la de arte. (My favorite class is art.)\n¿Por qué te gusta el arte? (Why do you like art?)\nPorque es creativo. (Because it's creative.)\n¿Y la música? (And music?)\nMe encanta la música. (I love music.)"
+      ]
+    },
+    {
+      "title": "In the Classroom — Teacher and Student Phrases",
+      "content": "Common classroom expressions:\nTeacher says:\nBuenos días, clase. (Good morning, class.)\nAbran los libros, por favor. (Open your books, please.)\nCierren los cuadernos. (Close your notebooks.)\nEscriban la respuesta. (Write the answer.)\nLean el texto. (Read the text.)\nPresten atención, por favor. (Pay attention, please.)\n¿Quién quiere responder? (Who wants to answer?)\n\nStudent phrases:\nBuenos días, profesor. (Good morning, teacher.)\nTengo una pregunta. (I have a question.)\nNo entiendo. (I don't understand.)\n¿Puede repetir, por favor? (Can you repeat, please?)\n¿Qué significa esta palabra? (What does this word mean?)\nEntiendo. (I understand.)\nNo sé. (I don't know.)\n\nTalking about the classroom:\nLa clase está en el aula 10. (The class is in room 10.)\nEl profesor explica en la pizarra. (The teacher explains at the blackboard.)\nLos estudiantes están en clase. (The students are in class.)\nNecesitamos un lápiz. (We need a pencil.)\n\nExamples:\n¿Qué significa 'biblioteca'? (What does 'biblioteca' mean?)\nEs un lugar donde hay libros. (It's a place where there are books.)\n¿Entiendes? (Do you understand?)\nSí, entiendo perfectamente. (Yes, I understand perfectly.)",
+      "examples": [
+        "Profesor: ¿Quién quiere responder? (Teacher: Who wants to answer?)\nEstudiante: Yo, profesor. (Student: Me, teacher.)\nProfesor: ¿Cuál es la respuesta? (Teacher: What's the answer?)\nEstudiante: La respuesta es cinco. (Student: The answer is five.)",
+        "No entiendo la lección. (I don't understand the lesson.)\n¿Puede repetir, por favor? (Can you repeat, please?)\nClaro, voy a explicar otra vez. (Of course, I'll explain again.)\nGracias, profesor. (Thank you, teacher.)",
+        "Abran los libros en la página 20. (Open your books on page 20.)\nLean el texto en voz alta. (Read the text aloud.)\n¿Quién quiere leer primero? (Who wants to read first?)\nYo leo primero. (I'll read first.)"
+      ]
+    },
+    {
+      "title": "Talking About Exams and Grades",
+      "content": "Talking about exams:\nEl examen es el lunes. (The exam is on Monday.)\n¿Cuándo es el examen? (When is the exam?)\n¿Qué día es el examen de matemáticas? (What day is the math exam?)\nTengo que estudiar para el examen. (I have to study for the exam.)\nEl examen es difícil. (The exam is difficult.)\nEl examen es fácil. (The exam is easy.)\n\nTalking about grades:\nSaque una buena nota. (I got a good grade.)\nMi nota fue excelente. (My grade was excellent.)\nObtuve un 9 en el examen. (I got a 9 on the exam.)\nAprobe el examen con buena nota. (I passed the exam with a good grade.)\nNo aprobe el examen. (I failed the exam.)\n\nGrade scale (Spain):\nsobresaliente = outstanding (9-10)\nnotable = good/remarkable (7-8.99)\nbien = good (6-6.99)\nsuficiente = passing (5-5.99)\ninsuficiente / suspender = failing (0-4.99)\n\nExamples:\n¿Cómo te fue en el examen? (How did you do on the exam?)\nMe fue bien. (I did well.)\n¿Cuál es tu nota? (What's your grade?)\nSaque un 8 en el examen. (I got an 8 on the exam.)\n¿Aprobaste? (Did you pass?)\nSí, aprobe con buena nota. (Yes, I passed with a good grade.)",
+      "examples": [
+        "¿Cuándo es el examen? (When is the exam?)\nEs el próximo lunes. (It's next Monday.)\n¿De qué materia? (What subject?)\nEs de historia. (It's history.)\n¿Tienes que estudiar mucho? (Do you have to study a lot?)\nSí, tengo que estudiar tres horas. (Yes, I have to study three hours.)",
+        "¿Cómo fue el examen? (How was the exam?)\nFue muy difícil. (It was very difficult.)\n¿Aprobaste? (Did you pass?)\nNo, suspendí el examen. (No, I failed the exam.)\n¿Cuánto sacaste? (How much did you get?)\nSacre un 4. (I got a 4.)",
+        "Quiero sacar buenas notas. (I want to get good grades.)\n¿Cuál es tu nota media? (What's your average grade?)\nMi nota media es un 8. (My average grade is an 8.)\n¡Sobresaliente! (Outstanding!)"
+      ]
+    }
+  ],
+  "pronunciation": [
+    {
+      "title": "Education Vocabulary Pronunciation Guide",
+      "content": "Key school vocabulary with pronunciation:\n\nescuela = es-KWEH-lah (school)\ncolegio = koh-LEH-hee-oh (school)\ninstituto = een-ees-TOH-toh (high school)\nuniversidad = oo-nee-behr-see-DAHD (university)\naula = OW-lah (classroom)\nclase = KLAH-seh (class)\nbiblioteca = bee-blee-oh-TEH-kah (library)\nlaboratorio = lah-bor-ah-TOH-ree-oh (laboratory)\nprofesor = proh-feh-SOR (teacher)\nprofesora = proh-feh-SOR-ah (teacher)\nestudiante = es-too-dehn-TEH (student)\nalumno = al-OO-mnoh (student)\ncompañero = kom-pah-NYEH-roh (classmate)\nmateria = mah-TEH-ree-ah (subject)\nasignatura = ah-see-gnah-TOH-rah (subject)\ncurso = KOOR-soh (course)\nlección = leh-KSYOH (lesson)\nmatemáticas = mah-teh-MAH-tees (mathematics)\nhistoria = ees-TOH-ree-ah (history)\ngeografía = heh-oh-grah-FEE-ah (geography)\nlibro = LEE-broh (book)\ncuaderno = kwah-DEHR-noh (notebook)\nlápiz = LAH-pees (pencil)\nbolígrafo = boh-lee-GRAH-foh (pen)\nexamen = ehk-SAH-men (exam)\ntarea = tah-REH-ah (homework)\nestudiar = es-too-DEE-ar (to study)\naprender = ah-prehn-DEHR (to learn)\nenseñar = en-seh-NYAR (to teach)\nescribir = es-KREE-behr (to write)\nresponder = res-pon-DEHR (to answer)\n\nVowel consistency:\nAll Spanish vowels are pronounced the same way every time:\na = ah, e = eh, i = ee, o = oh, u = oo\n\nSilent H:\nHistoria = ees-TOH-ree-ah (H is silent)\nHorario = or-ah-REE-oh (H is silent)\n\nAccent marks:\nlección — stress on 'cCIÓN' (leh-KSYOH)\nmatemáticas — stress on 'MÁ' (mah-teh-MAH-tees)\nbiblioteca — stress on 'TE' (bee-blee-oh-TEH-kah)\n\nC before e/i = soft 's' (Latin America) or 'th' (Spain):\nClase = KLAH-seh (Latin) or KLAH-theh (Spain)\n\nLL as 'y' sound (most regions):\nBiblioteca = bee-blee-oh-TEH-kah (no LL here)\nBut: llamar = yah-MAR (LL = y sound)\n\nÑ as 'ny' sound (like 'canyON'):\nenseñar = en-seh-NYAR\ncompañero = kom-pah-NYEH-roh\n\nDoubled consonants:\nCompañero — the 'ñ' is a single 'ny' sound\nBiblioteca — the 'b' sounds are clear",
+      "examples": [
+        "escuela = es-KWEH-lah\nuniversidad = oo-nee-behr-see-DAHD\nbiblioteca = bee-blee-oh-TEH-kah\nmatemáticas = mah-teh-MAH-tees",
+        "historia = ees-TOH-ree-ah\ngeografía = heh-oh-grah-FEE-ah\ningeniería = een-heh-neh-REE-ah\nfilosofía = fee-lah-SO-fee-ah",
+        "estudiar = es-too-DEE-ar\nenseñar = en-seh-NYAR\naprender = ah-prehn-DEHR\nresponder = res-pon-DEHR"
+      ]
+    },
+    {
+      "title": "Spanish Sounds Relevant to School Vocabulary",
+      "content": "Key pronunciation patterns for school words:\n\nSpanish vowels — always consistent:\nA = ah (like 'fAther')\nE = eh (like 'thEn')\nI = ee (like 'sEe')\nO = oh (like 'sO')\nU = oo (like 'flOOt')\n\nÑ as 'ny' sound (like 'canyON'):\nEnseñar = en-seh-NYAR (to teach)\nCompañero = kom-pah-NYEH-roh (classmate)\nIngeniería = een-heh-neh-REE-ah (engineering)\nCaminar = kah-mee-NAHR (to walk)\n\nH is always silent:\nHistoria = ees-TOH-ree-ah (not 'hee-istory')\nHorario = or-ah-REE-oh (not 'ho-rary')\nHacer = ah-SER (to do/make)\nHerramienta = air-ree-ah-MEN-tah (tool)\n\nC before e/i = soft 's' (Latin America) or 'th' (Spain):\nClase = KLAH-seh (Latin) / KLAH-theh (Spain)\nMatemáticas = mah-teh-MAH-tees (Latin) / mah-teh-MAH-thees (Spain)\nCultura = Kool-TOOH-rah (culture)\n\nSoft G (always soft before e/i):\nGeografía = heh-oh-grah-FEE-ah (Latin) / heh-oh-grah-FEH-ah (Spain)\nIngeniero = een-heh-neh-REE-oh (engineer)\nGuitarra = gee-TAH-rah (guitar)\n\nAccent marks show stress:\nLección = leh-KSYOH (stress on cCIÓN)\nMatemáticas = mah-teh-MAH-tees (stress on MÁ)\nBiblioteca = bee-blee-oh-TEH-kah (stress on TE)\nExamen = ehk-SAH-men (stress on SAH)\n\nRolling R:\nEstudiar = es-too-DEE-ar (single R — light tap)\nAprender = ah-prehn-DEHR (single R — light tap)\nProfesor = proh-feh-SOR (single R — light tap)\n\nDouble consonants:\nCompañero — 'ñ' = single ny sound\nBiblioteca — 'b' pronounced twice clearly\n\nCommon pronunciation tips:\n'Examen' — the 'x' sounds like 'ks' (ehk-SAH-men)\n'Matemáticas' — double stress marker: stress on MÁ and tees\n'Ciudad' — the 'c' before 'u' is 'k' sound: see-oo-DAHD (city)\n'Tierra' — 'rr' is rolled: tee-EHR-ah (land/earth)",
+      "examples": [
+        "enseñar = en-seh-NYAR (Ñ = ny sound)\ncompañero = kom-pah-NYEH-roh (Ñ = ny sound)\ncamino = kah-mee-NOH (Ñ = ny sound)\ncaminar = kah-mee-NAHR (RR = rolled)",
+        "historia = ees-TOH-ree-ah (H is silent)\nhorario = or-ah-REE-oh (H is silent)\nhacer = ah-SER (H is silent)\nherramienta = air-ree-ah-MEN-tah (H is silent)",
+        "clase = KLAH-seh (C before e = soft s)\ncultura = Kool-TOOH-rah (c before u = k)\nguitarra = gee-TAH-rah (soft g before i)\ngeografía = heh-oh-grah-FEE-ah (soft g before e)"
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "multiple-choice",
+      "question": "What is 'school' in Spanish?",
+      "options": ["universidad", "escuela", "clase", "biblioteca"],
+      "correct": 1,
+      "explanation": "Escuela = school. Universidad = university. Clase = class. Biblioteca = library."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: 'Yo ___ español. (I study Spanish.)'",
+      "correct": "estudio",
+      "explanation": "Estudiar (yo form) = estudio. 'Estudio español' = I study Spanish."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What is 'mathematics' in Spanish?",
+      "options": ["historia", "geografía", "matemáticas", "biología"],
+      "correct": 2,
+      "explanation": "Matemáticas = mathematics. Historia = history. Geografía = geography. Biología = biology."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: 'Tengo que ___. (I have to study.)'",
+      "correct": "estudiar",
+      "explanation": "Tener que + infinitive = to have to do something. 'Tengo que estudiar' = I have to study."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What does 'tarea' mean?",
+      "options": ["exam", "homework", "lesson", "project"],
+      "correct": 1,
+      "explanation": "Tarea = homework. Examen = exam. Lección = lesson. Proyecto = project."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: '___ español en la universidad. (I study Spanish at the university.)'",
+      "correct": "Estudio",
+      "explanation": "Estudiar (yo form) = estudio. 'Estudio español' = I study Spanish."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What is 'library' in Spanish?",
+      "options": ["laboratorio", "biblioteca", "aula", "comedor"],
+      "correct": 1,
+      "explanation": "Biblioteca = library. Laboratorio = laboratory. Aula = classroom. Comedor = cafeteria."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: '___ un libro. (I read a book.)'",
+      "correct": "Leo",
+      "explanation": "Leer (yo form) = leo. 'Leo un libro' = I read a book."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What is 'exam' in Spanish?",
+      "options": ["tarea", "proyecto", "examen", "título"],
+      "correct": 2,
+      "explanation": "Examen = exam. Tarea = homework. Proyecto = project. Título = degree/title."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: 'Voy a ___ para el examen. (I'm going to study for the exam.)'",
+      "correct": "estudiar",
+      "explanation": "Ir a + infinitive = going to do something. 'Voy a estudiar' = I'm going to study."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What does 'aprobar' mean?",
+      "options": ["to fail (an exam)", "to pass (an exam)", "to repeat (a course)", "to study"],
+      "correct": 1,
+      "explanation": "Aprobar = to pass (an exam). Suspender = to fail. Repetir = to repeat. Estudiar = to study."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: 'Me ___ las matemáticas. (I like math.)'",
+      "correct": "gustan",
+      "explanation": "Me gustan + plural = I like (plural things). 'Me gustan las matemáticas' = I like math."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What is 'notebook' in Spanish?",
+      "options": ["libro", "cuaderno", "papel", "carpeta"],
+      "correct": 1,
+      "explanation": "Cuaderno = notebook. Libro = book. Papel = paper. Carpeta = folder."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: '___ español todos los días. (I learn Spanish every day.)'",
+      "correct": "Aprendo",
+      "explanation": "Aprender (yo form) = aprendo. 'Aprendo español' = I learn Spanish."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What is 'blackboard/whiteboard' in Spanish?",
+      "options": ["pizarra", "papel", "cuaderno", "libro"],
+      "correct": 0,
+      "explanation": "Pizarra = blackboard/whiteboard. Papel = paper. Cuaderno = notebook. Libro = book."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: '___ a la biblioteca. (I'm going to the library.)'",
+      "correct": "Voy",
+      "explanation": "Ir (yo form) = voy. 'Voy a la biblioteca' = I'm going to the library."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What is 'teacher' in Spanish?",
+      "options": ["estudiante", "profesor", "directora", "compañero"],
+      "correct": 1,
+      "explanation": "Profesor = teacher. Estudiante = student. Directora = principal. Compañero = classmate."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: 'Tengo que hacer la ___. (I have to do homework.)'",
+      "correct": "tarea",
+      "explanation": "Tener que + infinitive: Tengo que hacer la tarea = I have to do homework."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What is 'to write' in Spanish?",
+      "options": ["leer", "escribir", "estudiar", "enseñar"],
+      "correct": 1,
+      "explanation": "Escribir = to write. Leer = to read. Estudiar = to study. Enseñar = to teach."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: 'La clase ___ en el aula 10. (The class is in room 10.)'",
+      "correct": "está",
+      "explanation": "Estar = to be (location). 'La clase está en el aula 10' = The class is in room 10."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What does 'No entiendo' mean?",
+      "options": ["I understand", "I don't understand", "I know", "I don't know"],
+      "correct": 1,
+      "explanation": "Entender = to understand. 'No entiendo' = I don't understand."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: '___ una buena nota en el examen. (I got a good grade on the exam.)'",
+      "correct": "Saque",
+      "explanation": "Sacar = to get (a grade). 'Saque una buena nota' = I got a good grade."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What is 'physics' in Spanish?",
+      "options": ["química", "biología", "física", "geografía"],
+      "correct": 2,
+      "explanation": "Física = physics. Química = chemistry. Biología = biology. Geografía = geography."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: '___ la tarea de matemáticas. (I have to do the math homework.)'",
+      "correct": "Tengo que hacer",
+      "explanation": "Tener que + infinitive = to have to do something. 'Tengo que hacer la tarea' = I have to do the homework."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What does 'suspender' mean in an exam context?",
+      "options": ["to pass", "to take (an exam)", "to fail", "to review"],
+      "correct": 2,
+      "explanation": "Suspender = to fail (an exam). Aprobar = to pass. Hacer un examen = to take an exam."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: '___ en la biblioteca. (We study in the library.)'",
+      "correct": "Estudiamos",
+      "explanation": "Estudiar (nosotros form) = estudiamos. 'Estudiamos en la biblioteca' = We study in the library."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What is 'geography' in Spanish?",
+      "options": ["historia", "matemáticas", "geografía", "biología"],
+      "correct": 2,
+      "explanation": "Geografía = geography. Historia = history. Matemáticas = math. Biología = biology."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: '___ a estudiar esta noche. (I'm going to study tonight.)'",
+      "correct": "Voy",
+      "explanation": "Ir a + infinitive = going to do something. 'Voy a estudiar' = I'm going to study."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What is 'pencil' in Spanish?",
+      "options": ["bolígrafo", "goma", "lápiz", "regla"],
+      "correct": 2,
+      "explanation": "Lápiz = pencil. Bolígrafo = pen. Goma = eraser. Regla = ruler."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: '___ las matemáticas porque son interesantes. (I like math because they are interesting.)'",
+      "correct": "Me gustan",
+      "explanation": "Me gustan + plural = I like (plural things). 'Me gustan las matemáticas' = I like math."
+    }
+  ]
+}

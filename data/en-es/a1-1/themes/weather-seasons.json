@@ -1,0 +1,221 @@
+{
+  "id": "weather-seasons",
+  "level": "a1-1",
+  "title": "Weather & Seasons",
+  "description": "Learn to talk about the weather, describe seasons, express temperature, and understand weather forecasts in Spanish.",
+  "vocabulary": [
+    {"id": 1, "target": "el clima", "source": "weather", "gender": "m", "type": "noun"},
+    {"id": 2, "target": "el tiempo", "source": "time/weather", "gender": "m", "type": "noun"},
+    {"id": 3, "target": "hace sol", "source": "it's sunny", "gender": null, "type": "expression"},
+    {"id": 4, "target": "llueve", "source": "it's raining", "gender": null, "type": "expression"},
+    {"id": 5, "target": "nieva", "source": "it's snowing", "gender": null, "type": "expression"},
+    {"id": 6, "target": "hace calor", "source": "it's hot", "gender": null, "type": "expression"},
+    {"id": 7, "target": "hace frío", "source": "it's cold", "gender": null, "type": "expression"},
+    {"id": 8, "target": "el sol", "source": "sun", "gender": "m", "type": "weather"},
+    {"id": 9, "target": "la lluvia", "source": "rain", "gender": "f", "type": "weather"},
+    {"id": 10, "target": "la nieve", "source": "snow", "gender": "f", "type": "weather"},
+    {"id": 11, "target": "el viento", "source": "wind", "gender": "m", "type": "weather"},
+    {"id": 12, "target": "la nube", "source": "cloud", "gender": "f", "type": "weather"},
+    {"id": 13, "target": "las nubes", "source": "clouds", "gender": "f", "type": "weather"},
+    {"id": 14, "target": "la tormenta", "source": "storm", "gender": "f", "type": "weather"},
+    {"id": 15, "target": "el rayo", "source": "lightning bolt", "gender": "m", "type": "weather"},
+    {"id": 16, "target": "el trueno", "source": "thunder", "gender": "m", "type": "weather"},
+    {"id": 17, "target": "el cielo", "source": "sky", "gender": "m", "type": "weather"},
+    {"id": 18, "target": "nublado/a", "source": "cloudy", "gender": "m/f", "type": "adjective"},
+    {"id": 19, "target": "despejado/a", "source": "clear/sunny", "gender": "m/f", "type": "adjective"},
+    {"id": 20, "target": "templado/a", "source": "mild/warm", "gender": "m/f", "type": "adjective"},
+    {"id": 21, "target": "húmedo/a", "source": "humid", "gender": "m/f", "type": "adjective"},
+    {"id": 22, "target": "seco/a", "source": "dry", "gender": "m/f", "type": "adjective"},
+    {"id": 23, "target": "la temperatura", "source": "temperature", "gender": "f", "type": "noun"},
+    {"id": 24, "target": "grados", "source": "degrees", "gender": "m", "type": "noun"},
+    {"id": 25, "target": "hoy", "source": "today", "gender": null, "type": "adverb"},
+    {"id": 26, "target": "ayer", "source": "yesterday", "gender": null, "type": "adverb"},
+    {"id": 27, "target": "mañana", "source": "tomorrow", "gender": "f", "type": "adverb"},
+    {"id": 28, "target": "hoy hace frío", "source": "it's cold today", "gender": null, "type": "expression"},
+    {"id": 29, "target": "mañana hará sol", "source": "tomorrow it will be sunny", "gender": null, "type": "expression"},
+    {"id": 30, "target": "hoy llueve", "source": "it's raining today", "gender": null, "type": "expression"},
+    {"id": 31, "target": "la primavera", "source": "spring", "gender": "f", "type": "season"},
+    {"id": 32, "target": "el verano", "source": "summer", "gender": "m", "type": "season"},
+    {"id": 33, "target": "el otoño", "source": "autumn/fall", "gender": "m", "type": "season"},
+    {"id": 34, "target": "el invierno", "source": "winter", "gender": "m", "type": "season"},
+    {"id": 35, "target": "en primavera", "source": "in spring", "gender": null, "type": "expression"},
+    {"id": 36, "target": "en verano", "source": "in summer", "gender": null, "type": "expression"},
+    {"id": 37, "target": "en otoño", "source": "in autumn", "gender": null, "type": "expression"},
+    {"id": 38, "target": "en invierno", "source": "in winter", "gender": null, "type": "expression"},
+    {"id": 39, "target": "lluvioso/a", "source": "rainy", "gender": "m/f", "type": "adjective"},
+    {"id": 40, "target": "nevado/a", "source": "snowy", "gender": "m/f", "type": "adjective"},
+    {"id": 41, "target": "ventoso/a", "source": "windy", "gender": "m/f", "type": "adjective"},
+    {"id": 42, "target": "frío", "source": "cold", "gender": "m", "type": "noun"},
+    {"id": 43, "target": "calor", "source": "heat/hot", "gender": "m", "type": "noun"},
+    {"id": 44, "target": "la niebla", "source": "fog", "gender": "f", "type": "weather"},
+    {"id": 45, "target": "el arcoíris", "source": "rainbow", "gender": "m", "type": "weather"},
+    {"id": 46, "target": "la nieve", "source": "snow", "gender": "f", "type": "weather"},
+    {"id": 47, "target": "nevar", "source": "to snow", "gender": null, "type": "verb"},
+    {"id": 48, "target": "llover", "source": "to rain", "gender": null, "type": "verb"},
+    {"id": 49, "target": "granizo", "source": "hail", "gender": "m", "type": "weather"},
+    {"id": 50, "target": "helada", "source": "frost", "gender": "f", "type": "weather"},
+    {"id": 51, "target": "la brisa", "source": "breeze", "gender": "f", "type": "weather"},
+    {"id": 52, "target": "temperatura baja", "source": "low temperature", "gender": "f", "type": "expression"},
+    {"id": 53, "target": "temperatura alta", "source": "high temperature", "gender": "f", "type": "expression"},
+    {"id": 54, "target": "la estación", "source": "season", "gender": "f", "type": "noun"},
+    {"id": 55, "target": "hace buen tiempo", "source": "it's nice weather", "gender": null, "type": "expression"},
+    {"id": 56, "target": "hace mal tiempo", "source": "it's bad weather", "gender": null, "type": "expression"},
+    {"id": 57, "target": "la previsión del tiempo", "source": "weather forecast", "gender": "f", "type": "expression"},
+    {"id": 58, "target": "el termómetro", "source": "thermometer", "gender": "m", "type": "object"},
+    {"id": 59, "target": "paraguas", "source": "umbrella", "gender": "m", "type": "object"},
+    {"id": 60, "target": "el abrigo", "source": "coat", "gender": "m", "type": "object"},
+    {"id": 61, "target": "la bufanda", "source": "scarf", "gender": "f", "type": "object"},
+    {"id": 62, "target": "los guantes", "source": "gloves", "gender": "m", "type": "object"},
+    {"id": 63, "target": "las botas", "source": "boots", "gender": "f", "type": "object"},
+    {"id": 64, "target": "los pantalones", "source": "pants/trousers", "gender": "m", "type": "object"},
+    {"id": 65, "target": "la chaqueta", "source": "jacket", "gender": "f", "type": "object"},
+    {"id": 66, "target": "la camiseta", "source": "t-shirt", "gender": "f", "type": "object"},
+    {"id": 67, "target": "las gafas de sol", "source": "sunglasses", "gender": "f", "type": "object"},
+    {"id": 68, "target": "sombrero", "source": "hat", "gender": "m", "type": "object"},
+    {"id": 69, "target": "la gorra", "source": "cap", "gender": "f", "type": "object"},
+    {"id": 70, "target": "el cortavientos", "source": "windbreaker", "gender": "m", "type": "object"},
+    {"id": 71, "target": "el chubasquero", "source": "raincoat", "gender": "m", "type": "object"},
+    {"id": 72, "target": "la manta", "source": "blanket", "gender": "f", "type": "object"},
+    {"id": 73, "target": "el aire", "source": "air", "gender": "m", "type": "weather"},
+    {"id": 74, "target": "la atmósfera", "source": "atmosphere", "gender": "f", "type": "noun"},
+    {"id": 75, "target": "la ola de calor", "source": "heat wave", "gender": "f", "type": "expression"},
+    {"id": 76, "target": "ola de frío", "source": "cold wave", "gender": "f", "type": "expression"},
+    {"id": 77, "target": "la precipitación", "source": "precipitation", "gender": "f", "type": "weather"},
+    {"id": 78, "target": "el rocío", "source": "dew", "gender": "m", "type": "weather"},
+    {"id": 79, "target": "el amanecer", "source": "sunrise", "gender": "m", "type": "time"},
+    {"id": 80, "target": "el atardecer", "source": "sunset", "gender": "m", "type": "time"},
+    {"id": 81, "target": "flor", "source": "flower", "gender": "f", "type": "nature"},
+    {"id": 82, "target": "hoja", "source": "leaf", "gender": "f", "type": "nature"},
+    {"id": 83, "target": "hojas", "source": "leaves", "gender": "f", "type": "nature"},
+    {"id": 84, "target": "el árbol", "source": "tree", "gender": "m", "type": "nature"},
+    {"id": 85, "target": "florecer", "source": "to bloom", "gender": null, "type": "verb"},
+    {"id": 86, "target": "caer las hojas", "source": "to lose leaves", "gender": null, "type": "expression"},
+    {"id": 87, "target": "deshielo", "source": "melting/ thaw", "gender": "m", "type": "weather"},
+    {"id": 88, "target": "el deshielo", "source": "melting of snow", "gender": "m", "type": "weather"},
+    {"id": 89, "target": "hace un buen día", "source": "it's a nice day", "gender": null, "type": "expression"},
+    {"id": 90, "target": "hace mal día", "source": "it's a bad day", "gender": null, "type": "expression"},
+    {"id": 91, "target": "la luna", "source": "moon", "gender": "f", "type": "nature"},
+    {"id": 92, "target": "la estrella", "source": "star", "gender": "f", "type": "nature"},
+    {"id": 93, "target": "el río", "source": "river", "gender": "m", "type": "nature"},
+    {"id": 94, "target": "el lago", "source": "lake", "gender": "m", "type": "nature"},
+    {"id": 95, "target": "el mar", "source": "sea", "gender": "m", "type": "nature"},
+    {"id": 96, "target": "la playa", "source": "beach", "gender": "f", "type": "nature"},
+    {"id": 97, "target": "la montaña", "source": "mountain", "gender": "f", "type": "nature"},
+    {"id": 98, "target": "la costa", "source": "coast", "gender": "f", "type": "nature"},
+    {"id": 99, "target": "el bosque", "source": "forest", "gender": "m", "type": "nature"},
+    {"id": 100, "target": "el campo", "source": "countryside", "gender": "m", "type": "nature"}
+  ],
+  "grammar": [
+    {
+      "title": "Hacer + Adjective — Expressing Weather Conditions",
+      "content": "In Spanish, weather is expressed using \"hacer\" (to make/to do) + adjective. This is one of the most common ways to describe the weather.\n\nBasic patterns:\nHace calor. = It's hot.\nHace frío. = It's cold.\nHace sol. = It's sunny.\nHace buen tiempo. = It's nice weather.\nHace mal tiempo. = It's bad weather.\nHace viento. = It's windy.\nHace un buen día. = It's a nice day.\nHace un mal día. = It's a bad day.\n\nTemperature expressions:\n¿Qué temperatura hace hoy? = What's the temperature today?\nHoy hace 20 grados. = Today it's 20 degrees.\nMañana hará 35 grados. = Tomorrow it will be 35 degrees.\n\nForm (you) questions:\n¿Qué tiempo hace? = What's the weather like?\n¿Qué tiempo hace hoy? = What's the weather like today?\n¿Cuántos grados hace? = How many degrees is it?\n\nNote: \"Hacer\" for weather only appears in the third person singular (hace). It is never used in plural.",
+      "examples": [
+        "Hace sol hoy. (It's sunny today.)\nHace frío en invierno. (It's cold in winter.)\nHace calor en verano. (It's hot in summer.)\nHace mal tiempo en otoño. (It's bad weather in autumn.)\n¿Qué tiempo hace? (What's the weather like?)\nHace viento. (It's windy.)\nHoy hace 25 grados. (Today it's 25 degrees.)\nMañana hará frío. (Tomorrow it will be cold.)\nHace buen día para caminar. (It's a nice day for walking.)\n¿Cuántos grados hacen hoy? (How many degrees is it today?)"
+      ]
+    },
+    {
+      "title": "Llover, Nevar, Granizar — Weather Verbs",
+      "content": "These verbs describe specific weather conditions. They are used in the third person singular when talking about weather.\n\nLlover = to rain\nLlueve. = It's raining.\nLlovió ayer. = It rained yesterday.\nVa a llover. = It's going to rain.\n\nNevar = to snow\nNieva. = It's snowing.\nNevó mucho. = It snowed a lot.\nVa a nevar. = It's going to snow.\n\nGranizar = to hail\nGraniza. = It's hailing.\nGranizó ayer. = It hailed yesterday.\n\nImpermanence structure (to express what the weather is like at a specific moment):\nEstá lloviendo. = It is raining (right now).\nEstá nevando. = It is snowing (right now).\n\nWeather adjectives:\nLluvioso/a = rainy\nNevado/a = snowy\nVentoso/a = windy\nNublado/a = cloudy\nDespejado/a = clear\n\nExpressions:\nHoy llueve. = It's raining today.\nMañana va a nevar. = Tomorrow it's going to snow.\nAyer llovió mucho. = It rained a lot yesterday.\nEn primavera suele llover. = In spring it often rains.\n\nOther weather verbs:\nTemblar = to shake/quake (used in earthquakes)\nRelampaguear = to lightning\nTronar = to thunder",
+      "examples": [
+        "Llueve mucho en esta ciudad. (It rains a lot in this city.)\nNieva en las montañas. (It snows in the mountains.)\n¿Va a llover mañana? (Is it going to rain tomorrow?)\nSí, va a llover mañana. (Yes, it's going to rain tomorrow.)\nHoy está lloviendo. (It is raining today.)\nAyer nevó en la ciudad. (It snowed in the city yesterday.)\nEn invierno nieva mucho. (In winter it snows a lot.)\nEl cielo está nublado. (The sky is cloudy.)\nEl cielo está despejado. (The sky is clear.)\n¿Qué tiempo hará mañana? (What will the weather be like tomorrow?)"
+      ]
+    },
+    {
+      "title": "Talking About Seasons — Ser + Estar + En",
+      "content": "The four seasons in Spanish:\nla primavera (spring) — March, April, May\nel verano (summer) — June, July, August\nel otoño (autumn) — September, October, November\nel invierno (winter) — December, January, February\n\nUsing \"en\" + season:\nEn primavera hace calor. = In spring it's warm.\nEn verano hace mucho calor. = In summer it's very hot.\nEn otoño llueve mucho. = In autumn it rains a lot.\nEn invierno hace frío. = In winter it's cold.\n\nSeason characteristics:\nPrimavera: florecen las flores, hace buen tiempo.\n( Spring: flowers bloom, it's nice weather.)\nVerano: hace sol, hace calor, vamos a la playa.\n( Summer: it's sunny, it's hot, we go to the beach.)\nOtoño: caen las hojas, hace frío, llueve.\n( Autumn: leaves fall, it's cold, it rains.)\nInvierno: nieva, hace mucho frío, usamos abrigo.\n( Winter: it snows, it's very cold, we wear coats.)\n\nDescribing seasons with SER:\nLa primavera es bonita. = Spring is pretty.\nEl verano es largo. = Summer is long.\nEl otoño es lluvioso. = Autumn is rainy.\nEl invierno es frío. = Winter is cold.\n\nQuestions:\n¿Cuál es tu estación favorita? = What's your favorite season?\n¿Qué tiempo hace en primavera? = What's the weather like in spring?\n¿En qué mes empieza el verano? = What month does summer start?",
+      "examples": [
+        "En primavera las flores florecen. (In spring the flowers bloom.)\nEn verano hace mucho calor. (In summer it's very hot.)\nEn otoño caen las hojas de los árboles. (In autumn the leaves fall from the trees.)\nEn invierno hace mucho frío. (In winter it's very cold.)\n¿Cuál es tu estación favorita? (What's your favorite season?)\nMi estación favorita es la primavera. (My favorite season is spring.)\n¿En qué mes empieza el otoño? (What month does autumn start?)\nEmpieza en septiembre. (It starts in September.)\nEl verano es la estación más larga. (Summer is the longest season.)\nEn invierno uso el abrigo y la bufanda. (In winter I wear a coat and a scarf.)"
+      ]
+    },
+    {
+      "title": "Temperature — Expressing Degrees and Comparisons",
+      "content": "Expressing temperature in Spanish:\n\nBasic temperature expressions:\n¿Cuántos grados hace hoy? = How many degrees is it today?\nHace 20 grados. = It's 20 degrees.\nHoy hace 15 grados. = Today it's 15 degrees.\nMañana hará 30 grados. = Tomorrow it will be 30 degrees.\n\nTemperature descriptions:\nTemperatura baja = low temperature\nTemperatura alta = high temperature\nTemperatura media = average temperature\nMuy fría = very cold\nMuy caliente = very hot\nTemplado = mild/warm\nFrío = cold\nCaliente = hot\n\nComparing temperatures:\nMás frío = colder\nMás calor = hotter\nMás caliente = hotter\nMás frío que... = colder than...\nMás calor que... = hotter than...\nEl verano es más caliente que el invierno. (Summer is hotter than winter.)\nEl otoño es más frío que la primavera. (Autumn is colder than spring.)\n\nTemperature ranges:\nDe cero a diez grados = from 0 to 10 degrees\nDe diez a veinte grados = from 10 to 20 degrees\nDe veinte a treinta grados = from 20 to 30 degrees\nMás de treinta grados = over 30 degrees\nMenos de cero grados = below zero degrees\n\nUsing \"tener\":\nTengo frío. = I am cold. (literally: I have cold)\nTengo calor. = I am hot. (literally: I have heat)\n¿Tienes frío? = Are you cold?\nNo, no tengo frío. = No, I'm not cold.\n\nNote: In Spanish, you \"have\" cold/heat rather than \"are\" cold/hot.",
+      "examples": [
+        "¿Cuántos grados hacen hoy? (How many degrees is it today?)\nHacen 25 grados. (It's 25 degrees.)\n¿Tienes frío? (Are you cold?)\nSí, tengo frío. (Yes, I'm cold.)\n¿Tienes calor? (Are you hot?)\nNo, no tengo calor. (No, I'm not hot.)\nHoy hace más calor que ayer. (Today it's hotter than yesterday.)\nEn verano hace mucho más calor. (In summer it's much hotter.)\nLa temperatura está muy baja. (The temperature is very low.)\nLa temperatura está muy alta. (The temperature is very high.)\nMañana hará más de treinta grados. (Tomorrow it will be over 30 degrees.)\nTengo calor y quiero un helado. (I'm hot and I want ice cream.)"
+      ]
+    },
+    {
+      "title": "Weather Forecast — Future and Present Tense",
+      "content": "Talking about weather forecasts using future and present tense:\n\nPresent tense (what's happening now):\nHoy hace buen tiempo. = Today it's nice weather.\nHoy llueve. = It's raining today.\nHoy nieva. = It's snowing today.\nEl cielo está despejado. = The sky is clear.\nEl cielo está nublado. = The sky is cloudy.\n\nFuture with \"ir a + infinitive\":\nMañana va a hacer sol. = Tomorrow it's going to be sunny.\nMañana va a llover. = Tomorrow it's going to rain.\nEl fin de semana va a hacer frío. = The weekend it's going to be cold.\nEl fin de semana va a nevar. = The weekend it's going to snow.\n\nFuture simple (hacer): hará, (llover): lloverá, (nevar): nevará\nMañana hará buen tiempo. = Tomorrow it will be nice weather.\nMañana lloverá. = Tomorrow it will rain.\nEl lunes nevará. = Monday it will snow.\n\nForecast vocabulary:\nLa previsión del tiempo = the weather forecast\nEl pronóstico = the forecast\nSegún el pronóstico = according to the forecast\nEs probable que llueva = It's likely to rain\nPuede nevar = It could snow\n\nQuestions:\n¿Cuál es el pronóstico para mañana? = What's the forecast for tomorrow?\n¿Va a hacer sol el fin de semana? = Is it going to be sunny on the weekend?\n¿Qué tiempo va a hacer mañana? = What weather will there be tomorrow?\n¿Qué tiempo hará el lunes? = What weather will there be on Monday?",
+      "examples": [
+        "La previsión del tiempo dice que va a llover. (The weather forecast says it's going to rain.)\nMañana va a hacer sol. (Tomorrow it's going to be sunny.)\nEl fin de semana va a hacer frío. (The weekend it's going to be cold.)\nSegún el pronóstico, lloverá el lunes. (According to the forecast, it will rain on Monday.)\n¿Va a nevar esta noche? (Is it going to snow tonight?)\nSí, va a nevar esta noche. (Yes, it's going to snow tonight.)\n¿Qué tiempo hace hoy? (What's the weather like today?)\nHoy hace buen tiempo. (Today it's nice weather.)\nEl cielo está despejado. (The sky is clear.)\n¿Cuál es el pronóstico para mañana? (What's the forecast for tomorrow?)"
+      ]
+    }
+  ],
+  "pronunciation": [
+    {
+      "title": "Weather Vocabulary — Basic Pronunciation",
+      "content": "Core weather vocabulary pronunciations:\n\nclima = KLEE-mah (weather)\ntiempo = TYEHm-poh (time/weather)\nhace sol = AH-seh SOHL (it's sunny)\nhace frío = AH-seh FREE-oh (it's cold)\nhace calor = AH-seh kah-LOOR (it's hot)\nllueve = YOH-beh (it's raining)\nnieva = NYEH-bah (it's snowing)\nlluvia = YOH-vee-ah (rain)\nnieve = NYEH-beh (snow)\nviento = BYEHN-toh (wind)\nnube = NOO-beh (cloud)\ntormenta = torn-MEN-tah (storm)\ntiempo = TYEHm-poh (time/weather)\ncielo = SYEH-loh (sky)\nlluvioso = YOO-vee-oh-soh (rainy)\nnublado = NOO-blah-doh (cloudy)\nsoles = SOHL-ehs (sunny)\ntemperatura = tem-peh-rah-TOO-rah (temperature)\ngrados = GRAH-dohs (degrees)",
+      "examples": [
+        "clima = KLEE-mah\ntiempo = TYEHm-poh\nhace sol = AH-seh SOHL\nhace frío = AH-seh FREE-oh\nhace calor = AH-seh kah-LOOR\nllueve = YOH-beh\nnieva = NYEH-bah\nlluvia = YOH-vee-ah\nnieve = NYEH-bah\nviento = BYEHN-toh\nnube = NOO-beh\ntormenta = torn-MEN-tah\ncielo = SYEH-loh\ntemperatura = tem-peh-rah-TOO-rah\ngrados = GRAH-dohs"
+      ]
+    },
+    {
+      "title": "Seasons & Nature — Pronunciation",
+      "content": "Season and nature vocabulary pronunciations:\n\nprimavera = pree-mah-VEH-rah (spring)\nverano = beh-RAH-noh (summer)\notoño = oh-TON-yoh (autumn)\ninvierno = een-BYEHR-noh (winter)\narbol = AH-rhol (tree) — note: the ñ is like 'ny' in 'canyon'\nflor = FLOR (flower)\nhoja = HOH-hah (leaf)\nmar = MAHR (sea)\nlago = LAH-goh (lake)\nplaya = PLAH-yah (beach)\nmontaña = mon-TAH-yah (mountain)\ncosta = KOHS-tah (coast)\nboque = BOHS-keh (forest)\ncampo = KAHP-moh (countryside)\nrocío = roh-SEE-oh (dew)\nniebla = NYEH-blah (fog)\nparaguas = pah-rah-GWAHS (umbrella)",
+      "examples": [
+        "primavera = pree-mah-VEH-rah\nverano = beh-RAH-noh\notoño = oh-TON-yoh\ninvierno = een-BYEHR-noh\nflor = FLOR\nhoja = HOH-hah\nmar = MAHR\nlago = LAH-goh\nplaya = PLAH-yah\nmontaña = mon-TAH-yah\ncosta = KOHS-tah\nrocío = roh-SEE-oh\nniebla = NYEH-blah\nparaguas = pah-rah-GWAHS"
+      ]
+    },
+    {
+      "title": "Weather Phrases — Pronunciation",
+      "content": "Common weather phrases and their pronunciations:\n\nhace buen tiempo = AH-seh BWEHN TYEHm-poh (it's nice weather)\nhace mal tiempo = AH-seh MAHL TYEHm-poh (it's bad weather)\nhace un buen día = AH-seh OON BWEHN DEE-ah (it's a nice day)\nhace mal día = AH-seh MAHL DEE-ah (it's a bad day)\nhoy llueve = oy YOH-beh (it's raining today)\nmañana hará sol = mah-NYA-nah AH-rah SOHL (tomorrow it will be sunny)\nen primavera = en pree-mah-VEH-rah (in spring)\nen verano = en beh-RAH-noh (in summer)\nen otoño = en oh-TON-yoh (in autumn)\nen invierno = en een-BYEHR-noh (in winter)\n¿cuántos grados hacen? = KWAHN-tohs GRAH-dohs AH-sen? (how many degrees?)\ntengo frío = TEN-go FREE-oh (I'm cold)\ntengo calor = TEN-go kah-LOOR (I'm hot)\narcoíris = ahr- koh-EE-rees (rainbow)\ngranizo = grah-NEE-soh (hail)\nhelada = eh-LAH-dah (frost)\nbrisa = BREE-sah (breeze)",
+      "examples": [
+        "hace buen tiempo = AH-seh BWEHN TYEHm-poh\nhace mal tiempo = AH-seh MAHL TYEHm-poh\nhace un buen día = AH-seh OON BWEHN DEE-ah\nhoy llueve = oy YOH-beh\nmañana hará sol = mah-NYA-nah AH-rah SOHL\nen primavera = en pree-mah-VEH-rah\ntengo frío = TEN-go FREE-oh\ntengo calor = TEN-go kah-LOOR\narcoíris = ahr- koh-EE-rees\ngranizo = grah-NEE-soh\nhelada = eh-LAH-dah\nbrisa = BREE-sah"
+      ]
+    }
+  ],
+  "exercises": [
+    {"type": "multiple-choice", "question": "What is 'rain' in Spanish?", "options": ["nieve", "lluvia", "viento", "sol"], "correct": 1, "explanation": "'Lluvia' = rain. 'Nieve' = snow. 'Viento' = wind. 'Sol' = sun."},
+    {"type": "multiple-choice", "question": "What is 'winter' in Spanish?", "options": ["primavera", "verano", "otoño", "invierno"], "correct": 3, "explanation": "'Invierno' = winter. 'Primavera' = spring. 'Verano' = summer. 'Otoño' = autumn."},
+    {"type": "fill-in-blank", "question": "Complete: Hace ___ en verano. (It's hot in summer.)", "correct": "calor", "explanation": "'Hace calor' = It's hot. This is the standard weather expression using 'hacer'."},
+    {"type": "fill-in-blank", "question": "Complete: Hoy ___ . (It's raining today.)", "correct": "llueve", "explanation": "'Llueve' = it's raining. From the verb 'llover' (to rain), third person singular."},
+    {"type": "translation", "question": "Translate to Spanish: 'It's cold today'", "correct": "hoy hace frío", "explanation": "'Hoy' = today. 'Hace' = it is (weather). 'Frío' = cold. 'Hace frío' = It's cold."},
+    {"type": "translation", "question": "Translate to Spanish: 'It's sunny'", "correct": "hace sol", "explanation": "'Hace sol' = It's sunny. 'Hacer' + 'sol' is the fixed expression for sunny weather."},
+    {"type": "multiple-choice", "question": "What does 'lluvioso/a' mean?", "options": ["sunny", "windy", "rainy", "snowy"], "correct": 2, "explanation": "'Lluvioso/a' = rainy. 'Ventoso/a' = windy. 'Nevado/a' = snowy. 'Despejado/a' = sunny."},
+    {"type": "multiple-choice", "question": "What is 'umbrella' in Spanish?", "options": ["sombrero", "paraguas", "bufanda", "guantes"], "correct": 1, "explanation": "'Paraguas' = umbrella. 'Sombrero' = hat. 'Bufanda' = scarf. 'Guantes' = gloves."},
+    {"type": "fill-in-blank", "question": "Complete: En ___ llueve mucho. (In autumn it rains a lot.)", "correct": "otoño", "explanation": "'En otoño' = in autumn. 'Llueve mucho' = it rains a lot."},
+    {"type": "fill-in-blank", "question": "Complete: Tengo ___. (I'm cold.)", "correct": "frío", "explanation": "'Tengo frío' = I'm cold. In Spanish, you 'have' cold, not 'are' cold."},
+    {"type": "translation", "question": "Translate to Spanish: 'The sky is cloudy'", "correct": "el cielo está nublado", "explanation": "'El cielo' = the sky. 'Está' = is (current state). 'Nublado' = cloudy. Use ESTAR for current conditions."},
+    {"type": "multiple-choice", "question": "What is 'tomorrow' in Spanish?", "options": ["hoy", "ayer", "mañana", "siempre"], "correct": 2, "explanation": "'Mañana' = tomorrow. 'Hoy' = today. 'Ayer' = yesterday. 'Siempre' = always."},
+    {"type": "multiple-choice", "question": "What is 'snow' in Spanish?", "options": ["lluvia", "viento", "nieve", "niebla"], "correct": 2, "explanation": "'Nieve' = snow. 'Lluvia' = rain. 'Viento' = wind. 'Niebla' = fog."},
+    {"type": "fill-in-blank", "question": "Complete: Mañana va a ___. (Tomorrow it's going to rain.)", "correct": "llover", "explanation": "'Va a llover' = It's going to rain. 'Ir a + infinitive' = going to + verb."},
+    {"type": "translation", "question": "Translate to Spanish: 'I'm hot'", "correct": "tengo calor", "explanation": "'Tengo calor' = I'm hot. In Spanish, you 'have' heat, not 'are' hot."},
+    {"type": "multiple-choice", "question": "What is 'spring' in Spanish?", "options": ["invierno", "verano", "otoño", "primavera"], "correct": 3, "explanation": "'Primavera' = spring. 'Invierno' = winter. 'Verano' = summer. 'Otoño' = autumn."},
+    {"type": "fill-in-blank", "question": "Complete: En verano hace ___. (In summer it's hot.)", "correct": "calor", "explanation": "'Hace calor' = it's hot. 'En verano' = in summer."},
+    {"type": "translation", "question": "Translate to Spanish: 'It's windy'", "correct": "hace viento", "explanation": "'Hace viento' = It's windy. 'Hacer' + 'viento' is the standard expression for windy weather."},
+    {"type": "multiple-choice", "question": "What does 'despejado/a' mean?", "options": ["cloudy", "clear/sunny", "rainy", "foggy"], "correct": 1, "explanation": "'Despejado/a' = clear/sunny. 'Nublado/a' = cloudy. 'Lluvioso/a' = rainy. 'Niebla' = fog."},
+    {"type": "multiple-choice", "question": "What is 'beach' in Spanish?", "options": ["playa", "montaña", "bosque", "río"], "correct": 0, "explanation": "'Playa' = beach. 'Montaña' = mountain. 'Bosque' = forest. 'Río' = river."},
+    {"type": "fill-in-blank", "question": "Complete: En ___ hace mucho frío. (In winter it's very cold.)", "correct": "invierno", "explanation": "'En invierno' = in winter. 'Hace mucho frío' = it's very cold."},
+    {"type": "fill-in-blank", "question": "Complete: Hoy hace ___ grados. (Today it's 25 degrees.)", "correct": "veinticinco", "explanation": "'Veinticinco' = twenty-five. 'Hace veinticinco grados' = It's 25 degrees."},
+    {"type": "translation", "question": "Translate to Spanish: 'The weather forecast says it's going to rain'", "correct": "el pronóstico dice que va a llover", "explanation": "'El pronóstico' = the forecast. 'Dice' = says. 'Que va a llover' = that it's going to rain."},
+    {"type": "multiple-choice", "question": "What is 'forest' in Spanish?", "options": ["campo", "bosque", "costa", "lago"], "correct": 1, "explanation": "'Bosque' = forest. 'Campo' = countryside. 'Costa' = coast. 'Lago' = lake."},
+    {"type": "fill-in-blank", "question": "Complete: El cielo está ___. (The sky is clear.)", "correct": "despejado", "explanation": "'Despejado' = clear/sunny. 'El cielo está despejado' = The sky is clear."},
+    {"type": "translation", "question": "Translate to Spanish: 'What's the weather like today?'", "correct": "qué tiempo hace hoy", "explanation": "'Qué tiempo' = what weather. 'Hace' = is (weather). 'Hoy' = today. '¿Qué tiempo hace hoy?' = What's the weather like today?"},
+    {"type": "multiple-choice", "question": "What is 'mountain' in Spanish?", "options": ["playa", "lago", "montaña", "costa"], "correct": 2, "explanation": "'Montaña' = mountain. 'Playa' = beach. 'Lago' = lake. 'Costa' = coast."},
+    {"type": "fill-in-blank", "question": "Complete: En primavera florecen las ___. (In spring the flowers bloom.)", "correct": "flores", "explanation": "'Flores' = flowers. 'Florecen' = they bloom. 'En primavera' = in spring."},
+    {"type": "translation", "question": "Translate to Spanish: 'It's going to snow tomorrow'", "correct": "mañana va a nevar", "explanation": "'Mañana' = tomorrow. 'Va a nevar' = it's going to snow. 'Ir a + nevar' = going to snow."},
+    {"type": "multiple-choice", "question": "What is 'autumn' in Spanish?", "options": ["primavera", "verano", "otoño", "invierno"], "correct": 2, "explanation": "'Otoño' = autumn. 'Primavera' = spring. 'Verano' = summer. 'Invierno' = winter."},
+    {"type": "fill-in-blank", "question": "Complete: El cielo está ___. (The sky is cloudy.)", "correct": "nublado", "explanation": "'Nublado' = cloudy. 'El cielo está nublado' = The sky is cloudy. Use ESTAR for current conditions."},
+    {"type": "translation", "question": "Translate to Spanish: 'I have cold'", "correct": "tengo frío", "explanation": "'Tengo frío' = I'm cold. In Spanish, you 'have' cold: 'tener frío' = to be cold."},
+    {"type": "multiple-choice", "question": "What is 'sea' in Spanish?", "options": ["río", "lago", "mar", "playa"], "correct": 2, "explanation": "'Mar' = sea. 'Río' = river. 'Lago' = lake. 'Playa' = beach."},
+    {"type": "fill-in-blank", "question": "Complete: Hace ___ en invierno. (It's cold in winter.)", "correct": "frío", "explanation": "'Hace frío' = It's cold. 'En invierno' = in winter."},
+    {"type": "fill-in-blank", "question": "Complete: ___ llueve en esta ciudad. (It rains a lot in this city.)", "correct": "Mucho", "explanation": "'Mucho' = a lot. 'Mucho llueve' is less common; 'Llueve mucho' is more natural: 'It rains a lot.'"},
+    {"type": "translation", "question": "Translate to Spanish: 'It's raining today'", "correct": "hoy llueve", "explanation": "'Hoy' = today. 'Llueve' = it's raining. 'Hoy llueve' = It's raining today."},
+    {"type": "multiple-choice", "question": "What does 'templado/a' mean?", "options": ["very cold", "mild/warm", "very hot", "freezing"], "correct": 1, "explanation": "'Templado/a' = mild/warm. 'Muy frío' = very cold. 'Muy caliente' = very hot."},
+    {"type": "multiple-choice", "question": "What is 'frog' in Spanish?", "options": ["rana", "perro", "gato", "pájaro"], "correct": 0, "explanation": "'Rana' = frog. 'Perro' = dog. 'Gato' = cat. 'Pájaro' = bird."},
+    {"type": "fill-in-blank", "question": "Complete: En otoño caen las ___. (In autumn the leaves fall.)", "correct": "hojas", "explanation": "'Hojas' = leaves (plural of 'hoja'). 'Caen' = they fall. 'En otoño' = in autumn."},
+    {"type": "translation", "question": "Translate to Spanish: 'The weather forecast'", "correct": "la previsión del tiempo", "explanation": "'La previsión del tiempo' = the weather forecast. 'Pronóstico' is also used for forecast."},
+    {"type": "multiple-choice", "question": "What is 'lake' in Spanish?", "options": ["río", "mar", "lago", "playa"], "correct": 2, "explanation": "'Lago' = lake. 'Río' = river. 'Mar' = sea. 'Playa' = beach."},
+    {"type": "fill-in-blank", "question": "Complete: Mañana hará ___. (Tomorrow it will be sunny.)", "correct": "sol", "explanation": "'Hará sol' = it will be sunny. 'Hacer' future tense: 'hará'. 'Mañana hará sol' = Tomorrow it will be sunny."},
+    {"type": "translation", "question": "Translate to Spanish: 'Summer is hot'", "correct": "el verano es caliente", "explanation": "'El verano' = summer. 'Es' = is (permanent characteristic, SER). 'Caliente' = hot. Use SER for descriptions."},
+    {"type": "multiple-choice", "question": "What is 'rainbow' in Spanish?", "options": ["niebla", "arcoíris", "brisa", "rocío"], "correct": 1, "explanation": "'Arcoíris' = rainbow. 'Niebla' = fog. 'Brisa' = breeze. 'Rocío' = dew."},
+    {"type": "fill-in-blank", "question": "Complete: El otoño es ___ . (Autumn is rainy.)", "correct": "lluvioso", "explanation": "'Lluvioso' = rainy. 'El otoño es lluvioso' = Autumn is rainy. 'Es' = is (description, SER)."},
+    {"type": "translation", "question": "Translate to Spanish: 'Do you have cold?'", "correct": "¿tienes frío?", "explanation": "'¿Tienes' = Do you have (from 'tener'). 'Frío' = cold. '¿Tienes frío?' = Are you cold?"},
+    {"type": "multiple-choice", "question": "What is 'scarf' in Spanish?", "options": ["sombrero", "bufanda", "guantes", "abrigo"], "correct": 1, "explanation": "'Bufanda' = scarf. 'Sombrero' = hat. 'Guantes' = gloves. 'Abrigo' = coat."},
+    {"type": "fill-in-blank", "question": "Complete: Hoy hace ___ . (Today it's nice weather.)", "correct": "buen tiempo", "explanation": "'Hace buen tiempo' = It's nice weather. 'Buen' = good (short form before masculine noun)."},
+    {"type": "translation", "question": "Translate to Spanish: 'It's going to rain this weekend'", "correct": "va a llover este fin de semana", "explanation": "'Va a llover' = it's going to rain. 'Este fin de semana' = this weekend. 'Ir a + infinitive' for future."},
+    {"type": "multiple-choice", "question": "What is 'fog' in Spanish?", "options": ["nieve", "niebla", "lluvia", "viento"], "correct": 1, "explanation": "'Niebla' = fog. 'Nieve' = snow. 'Lluvia' = rain. 'Viento' = wind."},
+    {"type": "fill-in-blank", "question": "Complete: En ___ hace mucho sol. (In summer it's very sunny.)", "correct": "verano", "explanation": "'En verano' = in summer. 'Hace mucho sol' = it's very sunny."}
+  ]
+}

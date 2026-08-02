@@ -1,0 +1,770 @@
+{
+  "id": "weather-nature",
+  "title": "Weather & Nature",
+  "description": "Talk about weather conditions, seasons, natural phenomena, and describe landscapes, climates, and outdoor activities.",
+  "vocabulary": [
+    {
+      "id": 1,
+      "target": "el clima",
+      "source": "climate/weather",
+      "gender": "m",
+      "type": "nature"
+    },
+    {
+      "id": 2,
+      "target": "el tiempo",
+      "source": "weather/time",
+      "gender": "m",
+      "type": "nature"
+    },
+    {
+      "id": 3,
+      "target": "hace sol",
+      "source": "it's sunny",
+      "gender": "\u2014",
+      "type": "weather"
+    },
+    {
+      "id": 4,
+      "target": "est\u00e1 soleado",
+      "source": "it's sunny",
+      "gender": "\u2014",
+      "type": "weather"
+    },
+    {
+      "id": 5,
+      "target": "llueve",
+      "source": "it's raining",
+      "gender": "\u2014",
+      "type": "weather"
+    },
+    {
+      "id": 6,
+      "target": "est\u00e1 lloviendo",
+      "source": "it's raining",
+      "gender": "\u2014",
+      "type": "weather"
+    },
+    {
+      "id": 7,
+      "target": "lluvia",
+      "source": "rain",
+      "gender": "f",
+      "type": "weather"
+    },
+    {
+      "id": 8,
+      "target": "nieve",
+      "source": "snow",
+      "gender": "f",
+      "type": "weather"
+    },
+    {
+      "id": 9,
+      "target": "nevar",
+      "source": "to snow",
+      "gender": "\u2014",
+      "type": "verb"
+    },
+    {
+      "id": 10,
+      "target": "granizo",
+      "source": "hail",
+      "gender": "m",
+      "type": "weather"
+    },
+    {
+      "id": 11,
+      "target": "niebla",
+      "source": "fog",
+      "gender": "f",
+      "type": "weather"
+    },
+    {
+      "id": 12,
+      "target": "viento",
+      "source": "wind",
+      "gender": "m",
+      "type": "weather"
+    },
+    {
+      "id": 13,
+      "target": "ventoso",
+      "source": "windy",
+      "gender": "m",
+      "type": "weather"
+    },
+    {
+      "id": 14,
+      "target": "tormenta",
+      "source": "storm",
+      "gender": "f",
+      "type": "weather"
+    },
+    {
+      "id": 15,
+      "target": "trueno",
+      "source": "thunder",
+      "gender": "m",
+      "type": "weather"
+    },
+    {
+      "id": 16,
+      "target": "rel\u00e1mpago",
+      "source": "lightning",
+      "gender": "m",
+      "type": "weather"
+    },
+    {
+      "id": 17,
+      "target": "rayo",
+      "source": "lightning bolt",
+      "gender": "m",
+      "type": "weather"
+    },
+    {
+      "id": 18,
+      "target": "arco\u00edris",
+      "source": "rainbow",
+      "gender": "m",
+      "type": "weather"
+    },
+    {
+      "id": 19,
+      "target": "nube",
+      "source": "cloud",
+      "gender": "f",
+      "type": "weather"
+    },
+    {
+      "id": 20,
+      "target": "cubierto",
+      "source": "overcast",
+      "gender": "m",
+      "type": "weather"
+    },
+    {
+      "id": 21,
+      "target": "templado",
+      "source": "mild/warm",
+      "gender": "m",
+      "type": "weather"
+    },
+    {
+      "id": 22,
+      "target": "fr\u00edo",
+      "source": "cold",
+      "gender": "m",
+      "type": "weather"
+    },
+    {
+      "id": 23,
+      "target": "calor",
+      "source": "heat",
+      "gender": "m",
+      "type": "weather"
+    },
+    {
+      "id": 24,
+      "target": "hace fr\u00edo",
+      "source": "it's cold",
+      "gender": "\u2014",
+      "type": "weather"
+    },
+    {
+      "id": 25,
+      "target": "hace calor",
+      "source": "it's hot",
+      "gender": "\u2014",
+      "type": "weather"
+    },
+    {
+      "id": 26,
+      "target": "hace viento",
+      "source": "it's windy",
+      "gender": "\u2014",
+      "type": "weather"
+    },
+    {
+      "id": 27,
+      "target": "hace fresco",
+      "source": "it's cool",
+      "gender": "\u2014",
+      "type": "weather"
+    },
+    {
+      "id": 28,
+      "target": "temperatura",
+      "source": "temperature",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 29,
+      "target": "grados",
+      "source": "degrees",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 30,
+      "target": "helada",
+      "source": "frost",
+      "gender": "f",
+      "type": "weather"
+    },
+    {
+      "id": 31,
+      "target": "ola de calor",
+      "source": "heat wave",
+      "gender": "f",
+      "type": "weather"
+    },
+    {
+      "id": 32,
+      "target": "ola de fr\u00edo",
+      "source": "cold wave",
+      "gender": "f",
+      "type": "weather"
+    },
+    {
+      "id": 33,
+      "target": "primavera",
+      "source": "spring",
+      "gender": "f",
+      "type": "season"
+    },
+    {
+      "id": 34,
+      "target": "verano",
+      "source": "summer",
+      "gender": "m",
+      "type": "season"
+    },
+    {
+      "id": 35,
+      "target": "oto\u00f1o",
+      "source": "autumn/fall",
+      "gender": "m",
+      "type": "season"
+    },
+    {
+      "id": 36,
+      "target": "invierno",
+      "source": "winter",
+      "gender": "m",
+      "type": "season"
+    },
+    {
+      "id": 37,
+      "target": "monta\u00f1a",
+      "source": "mountain",
+      "gender": "f",
+      "type": "nature"
+    },
+    {
+      "id": 38,
+      "target": "r\u00edo",
+      "source": "river",
+      "gender": "m",
+      "type": "nature"
+    },
+    {
+      "id": 39,
+      "target": "lago",
+      "source": "lake",
+      "gender": "m",
+      "type": "nature"
+    },
+    {
+      "id": 40,
+      "target": "mar",
+      "source": "sea",
+      "gender": "m",
+      "type": "nature"
+    },
+    {
+      "id": 41,
+      "target": "playa",
+      "source": "beach",
+      "gender": "f",
+      "type": "nature"
+    },
+    {
+      "id": 42,
+      "target": "bosque",
+      "source": "forest",
+      "gender": "m",
+      "type": "nature"
+    },
+    {
+      "id": 43,
+      "target": "\u00e1rboles",
+      "source": "trees",
+      "gender": "m",
+      "type": "nature"
+    },
+    {
+      "id": 44,
+      "target": "flor",
+      "source": "flower",
+      "gender": "f",
+      "type": "nature"
+    },
+    {
+      "id": 45,
+      "target": "flor",
+      "source": "flower",
+      "gender": "f",
+      "type": "nature"
+    },
+    {
+      "id": 46,
+      "target": "prado",
+      "source": "meadow",
+      "gender": "m",
+      "type": "nature"
+    },
+    {
+      "id": 47,
+      "target": "desierto",
+      "source": "desert",
+      "gender": "m",
+      "type": "nature"
+    },
+    {
+      "id": 48,
+      "target": "selva",
+      "source": "jungle",
+      "gender": "f",
+      "type": "nature"
+    },
+    {
+      "id": 49,
+      "target": "isla",
+      "source": "island",
+      "gender": "f",
+      "type": "nature"
+    },
+    {
+      "id": 50,
+      "target": "volc\u00e1n",
+      "source": "volcano",
+      "gender": "m",
+      "type": "nature"
+    },
+    {
+      "id": 51,
+      "target": "cascada",
+      "source": "waterfall",
+      "gender": "f",
+      "type": "nature"
+    },
+    {
+      "id": 52,
+      "target": "glaciar",
+      "source": "glacier",
+      "gender": "m",
+      "type": "nature"
+    },
+    {
+      "id": 53,
+      "target": "cielo",
+      "source": "sky",
+      "gender": "m",
+      "type": "nature"
+    },
+    {
+      "id": 54,
+      "target": "estrella",
+      "source": "star",
+      "gender": "f",
+      "type": "nature"
+    },
+    {
+      "id": 55,
+      "target": "sol",
+      "source": "sun",
+      "gender": "m",
+      "type": "nature"
+    },
+    {
+      "id": 56,
+      "target": "luna",
+      "source": "moon",
+      "gender": "f",
+      "type": "nature"
+    },
+    {
+      "id": 57,
+      "target": "tierra",
+      "source": "earth/land",
+      "gender": "f",
+      "type": "nature"
+    },
+    {
+      "id": 58,
+      "target": "agua",
+      "source": "water",
+      "gender": "f",
+      "type": "nature"
+    },
+    {
+      "id": 59,
+      "target": "fuego",
+      "source": "fire",
+      "gender": "m",
+      "type": "nature"
+    },
+    {
+      "id": 60,
+      "target": "aire",
+      "source": "air",
+      "gender": "m",
+      "type": "nature"
+    },
+    {
+      "id": 61,
+      "target": "piedra",
+      "source": "stone/rock",
+      "gender": "f",
+      "type": "nature"
+    },
+    {
+      "id": 62,
+      "target": "arena",
+      "source": "sand",
+      "gender": "f",
+      "type": "nature"
+    },
+    {
+      "id": 63,
+      "target": "cascada",
+      "source": "waterfall",
+      "gender": "f",
+      "type": "nature"
+    },
+    {
+      "id": 64,
+      "target": "costa",
+      "source": "coast",
+      "gender": "f",
+      "type": "nature"
+    },
+    {
+      "id": 65,
+      "target": "valle",
+      "source": "valley",
+      "gender": "m",
+      "type": "nature"
+    },
+    {
+      "id": 66,
+      "target": "colina",
+      "source": "hill",
+      "gender": "f",
+      "type": "nature"
+    },
+    {
+      "id": 67,
+      "target": "peninsula",
+      "source": "peninsula",
+      "gender": "f",
+      "type": "nature"
+    },
+    {
+      "id": 68,
+      "target": "cueva",
+      "source": "cave",
+      "gender": "f",
+      "type": "nature"
+    },
+    {
+      "id": 69,
+      "target": "cactus",
+      "source": "cactus",
+      "gender": "m",
+      "type": "nature"
+    },
+    {
+      "id": 70,
+      "target": "p\u00e1jaro",
+      "source": "bird",
+      "gender": "m",
+      "type": "nature"
+    },
+    {
+      "id": 71,
+      "target": "pez",
+      "source": "fish",
+      "gender": "m",
+      "type": "nature"
+    },
+    {
+      "id": 72,
+      "target": "perro",
+      "source": "dog",
+      "gender": "m",
+      "type": "nature"
+    },
+    {
+      "id": 73,
+      "target": "gato",
+      "source": "cat",
+      "gender": "m",
+      "type": "nature"
+    },
+    {
+      "id": 74,
+      "target": "caballo",
+      "source": "horse",
+      "gender": "m",
+      "type": "nature"
+    },
+    {
+      "id": 75,
+      "target": "vaca",
+      "source": "cow",
+      "gender": "f",
+      "type": "nature"
+    },
+    {
+      "id": 76,
+      "target": "oveja",
+      "source": "sheep",
+      "gender": "f",
+      "type": "nature"
+    },
+    {
+      "id": 77,
+      "target": "cerdo",
+      "source": "pig",
+      "gender": "m",
+      "type": "nature"
+    },
+    {
+      "id": 78,
+      "target": "le\u00f3n",
+      "source": "lion",
+      "gender": "m",
+      "type": "nature"
+    },
+    {
+      "id": 79,
+      "target": "tigre",
+      "source": "tiger",
+      "gender": "m",
+      "type": "nature"
+    },
+    {
+      "id": 80,
+      "target": "oso",
+      "source": "bear",
+      "gender": "m",
+      "type": "nature"
+    },
+    {
+      "id": 81,
+      "target": "\u00e1guila",
+      "source": "eagle",
+      "gender": "f",
+      "type": "nature"
+    },
+    {
+      "id": 82,
+      "target": "mariposa",
+      "source": "butterfly",
+      "gender": "f",
+      "type": "nature"
+    },
+    {
+      "id": 83,
+      "target": "abeja",
+      "source": "bee",
+      "gender": "f",
+      "type": "nature"
+    },
+    {
+      "id": 84,
+      "target": "serpiente",
+      "source": "snake",
+      "gender": "f",
+      "type": "nature"
+    },
+    {
+      "id": 85,
+      "target": "rana",
+      "source": "frog",
+      "gender": "f",
+      "type": "nature"
+    },
+    {
+      "id": 86,
+      "target": "tortuga",
+      "source": "turtle/tortoise",
+      "gender": "f",
+      "type": "nature"
+    },
+    {
+      "id": 87,
+      "target": "delf\u00edn",
+      "source": "dolphin",
+      "gender": "m",
+      "type": "nature"
+    },
+    {
+      "id": 88,
+      "target": "ballena",
+      "source": "whale",
+      "gender": "f",
+      "type": "nature"
+    },
+    {
+      "id": 89,
+      "target": "tibur\u00f3n",
+      "source": "shark",
+      "gender": "m",
+      "type": "nature"
+    },
+    {
+      "id": 90,
+      "target": "mono",
+      "source": "monkey",
+      "gender": "m",
+      "type": "nature"
+    },
+    {
+      "id": 91,
+      "target": "caminar",
+      "source": "to walk/hike",
+      "gender": "\u2014",
+      "type": "activity"
+    },
+    {
+      "id": 92,
+      "target": "escalar",
+      "source": "to climb",
+      "gender": "\u2014",
+      "type": "activity"
+    },
+    {
+      "id": 93,
+      "target": "nadar",
+      "source": "to swim",
+      "gender": "\u2014",
+      "type": "activity"
+    },
+    {
+      "id": 94,
+      "target": "patinar",
+      "source": "to skate",
+      "gender": "\u2014",
+      "type": "activity"
+    },
+    {
+      "id": 95,
+      "target": "esquiar",
+      "source": "to ski",
+      "gender": "\u2014",
+      "type": "activity"
+    },
+    {
+      "id": 96,
+      "target": "bucear",
+      "source": "to scuba dive",
+      "gender": "\u2014",
+      "type": "activity"
+    },
+    {
+      "id": 97,
+      "target": "correr",
+      "source": "to run",
+      "gender": "\u2014",
+      "type": "activity"
+    },
+    {
+      "id": 98,
+      "target": "ciclismo",
+      "source": "cycling",
+      "gender": "m",
+      "type": "activity"
+    },
+    {
+      "id": 99,
+      "target": "monta\u00f1ismo",
+      "source": "mountaineering",
+      "gender": "m",
+      "type": "activity"
+    },
+    {
+      "id": 100,
+      "target": "observar aves",
+      "source": "birdwatching",
+      "gender": "\u2014",
+      "type": "activity"
+    }
+  ],
+  "grammar": [
+    {
+      "title": "Hacer + Weather \u2014 The Go-To Structure",
+      "content": "In Spanish, weather expressions use HACER (to make/do):\n\n- Hace sol. (It's sunny.)\n- Hace fr\u00edo. (It's cold.)\n- Hace calor. (It's hot.)\n- Hace viento. (It's windy.)\n- Hace fresco. (It's cool.)\n- Hace buen tiempo. (It's good weather.)\n- Hace mal tiempo. (It's bad weather.)\n\nFor rain/snow, use the verb directly:\n- Llueve. (It's raining.)\n- Nieva. (It's snowing.)\n- Graniza. (It's hailing.)\n\nTo describe current weather:\n- Est\u00e1 lloviendo. (It's raining right now.)\n- Est\u00e1 nublado. (It's cloudy.)\n- Est\u00e1 despejado. (It's clear.)",
+      "examples": [
+        "Hace calor en verano. (It's hot in summer.)\nHace fr\u00edo en invierno. (It's cold in winter.)\n\u00bfQu\u00e9 tiempo hace hoy? (What's the weather like today?)"
+      ]
+    },
+    {
+      "title": "Seasons and Weather Expressions",
+      "content": "Seasons in Spanish:\n- La primavera (spring)\n- El verano (summer)\n- El oto\u00f1o (autumn/fall)\n- El invierno (winter)\n\nWeather by season:\n- En primavera hace buen tiempo. (In spring it's good weather.)\n- En verano hace mucho calor. (In summer it's very hot.)\n- En oto\u00f1o llueve mucho. (In autumn it rains a lot.)\n- En invierno hace fr\u00edo y puede nevar. (In winter it's cold and it may snow.)\n\n'Puede' = it may/might (from poder)",
+      "examples": [
+        "En verano voy a la playa. (In summer I go to the beach.)\nEn oto\u00f1o las hojas caen. (In autumn the leaves fall.)"
+      ]
+    }
+  ],
+  "pronunciation": [
+    {
+      "title": "Vowel Length and Consistency",
+      "content": "Spanish vowels are always the same length \u2014 no diphthongs unless marked.\n\na = ah, e = eh, i = ee, o = oh, u = oo\n\nThis is different from English where 'a' can be 'ay' (cake) or 'ah' (cat). In Spanish:\n- agua = AH-gwah (always 'ah')\n- cielo = SYEH-loh (always 'eh')\n- libro = LEE-broh (always 'ee')\n- sol = SOH (always 'oh')\n- luna = LOO-nah (always 'oo')",
+      "examples": [
+        "lluvia (YOO-vee-ah)\nverano (beh-RAH-noh)\nnieve (NYEH-veh)"
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "multiple-choice",
+      "question": "How do you say 'It's cold' in Spanish?",
+      "options": [
+        "Soy fr\u00edo",
+        "Estoy fr\u00edo",
+        "Hace fr\u00edo",
+        "Tengo fr\u00edo"
+      ],
+      "correct": 2,
+      "explanation": "'Hace fr\u00edo' uses HACER for weather conditions."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What season is 'verano'?",
+      "options": [
+        "Spring",
+        "Summer",
+        "Autumn",
+        "Winter"
+      ],
+      "correct": 1,
+      "explanation": "'Verano' = summer."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: '___ sol.' (It's sunny.)",
+      "correct": "Hace",
+      "explanation": "'Hace sol' = It's sunny."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: '___ llueve mucho en primavera.' (It rains a lot in spring.)",
+      "correct": "En",
+      "explanation": "'En primavera' = in spring."
+    }
+  ]
+}

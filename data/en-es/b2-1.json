@@ -1,769 +1,119 @@
 {
-  "id": "b2-1",
-  "title": "Stage B2.1 — Hypotheticals & Professional Communication",
-  "description": "Master Type 2 and Type 3 conditionals (hypotheticals in present and past), advanced gerund uses, object pronoun placement with non-finite verbs, and professional/business vocabulary. This level bridges intermediate fluency with the nuanced expression required for academic and workplace Spanish.",
-  "grammar": [
+  "stage_id": "b2-1",
+  "title": "B2.1 — Hypotheticals & Professional Communication",
+  "description": "Master Type 2 and Type 3 conditionals (hypotheticals in present and past), advanced gerund uses, object pronoun placement with non-finite verbs, and professional/business vocabulary.",
+  "themes": [
     {
+      "id": "type-2-conditionals",
       "title": "Type 2 Conditionals — Si + Imperfect Subjunctive + Conditional",
-      "content": "Type 2 conditionals express hypothetical or unlikely situations in the present or future — the realm of dreams, advice, and counterfactual statements. The structure is strict: 'si' must be followed by the imperfect subjunctive (-ra or -se form), and the result clause uses the conditional simple (-ría).\n\n⚠️ CRITICAL ERROR TO AVOID: Never put the conditional after 'si'. 'Si tendría dinero' is grammatically incorrect. The correct form is 'Si tuviera dinero'.\n\nStructure: Si + [imperfect subjunctive], [conditional]\nOr reversed: [conditional] si + [imperfect subjunctive]\n\nUses:\n- Imagining unreal present situations: Si fuera rico, viajaría por el mundo\n- Giving advice: Si yo fuera tú, no aceptaría ese trabajo\n- Describing unlikely future events: Si ganáramos la lotería, compraríamos una casa",
-      "table": {
-        "headers": ["Clause", "Mood/Tense", "Example"],
-        "rows": [
-          ["Condition (after 'si')", "Imperfect Subjunctive (-ra/-se)", "Si yo tuviera / tuviese más tiempo…"],
-          ["Result", "Conditional Simple (-ría)", "…viajaría por Europa"],
-          ["Advice form", "Si yo fuera tú + condicional", "Si yo fuera tú, estudiaría más"],
-          ["Reversed order (no comma)", "Conditional + si + imperfect subj.", "Viajaría por Europa si tuviera dinero"]
-        ]
-      },
-      "examples": [
-        "Si tuviera más dinero, compraría una casa en la playa. (If I had more money, I would buy a house on the beach.)",
-        "Si yo fuera tú, aceptaría esa oferta de trabajo. (If I were you, I would accept that job offer.)",
-        "Viajaríamos por Sudamérica si no tuviéramos que trabajar. (We would travel through South America if we didn't have to work.)",
-        "Si hablara español, podría conseguir un mejor empleo. (If I spoke Spanish, I could get a better job.)",
-        "¿Te gustaría ir a Japón si tuvieras la oportunidad? (Would you like to go to Japan if you had the chance?)"
-      ],
-      "aid_note": "Romanian Type 2 conditionals use a very similar structure: 'Dacă aș avea mai mult timp, aș călători prin Europa' — 'Dacă' = 'si', 'aș avea' = imperfect subjunctive equivalent, 'aș călători' = conditional. The mental mapping is nearly identical! Also note the same prohibition: never use the conditional directly after 'dacă' for unreal conditions."
+      "description": "Express hypothetical or unlikely situations in the present or future."
     },
     {
+      "id": "type-3-conditionals",
       "title": "Type 3 Conditionals — Si + Pluperfect Subjunctive + Conditional Perfect",
-      "content": "Type 3 conditionals express hypothetical situations in the PAST that did NOT happen — regrets, missed opportunities, and alternate histories. This is the most emotionally loaded conditional form in Spanish.\n\nStructure: Si + [pluperfect subjunctive = hubiera/hubiese + past participle], [conditional perfect = habría/habrías/... + past participle]\n\nThe pluperfect subjunctive (hubiera + participio) is formed from the imperfect subjunctive of HABER + the past participle of the main verb. The conditional perfect uses the conditional of HABER + the past participle.\n\nUses:\n- Expressing regret: Si hubiera estudiado más, habría aprobado el examen\n- Describing missed opportunities: Si hubiéramos salido antes, no nos habríamos perdido el tren\n- Speculating about the past: ¿Qué habría pasado si no nos hubiéramos conocido?",
-      "table": {
-        "headers": ["Clause", "Form", "Example"],
-        "rows": [
-          ["Condition (after 'si')", "Hubiera + participio", "Si hubiera sabido…"],
-          ["Result", "Habría + participio", "…habría venido"],
-          ["Full sentence", "Si + hubiera + PP, habría + PP", "Si hubiera llovido, habría quedado en casa"],
-          ["Reversed (no comma)", "Habría + PP si + hubiera + PP", "Habría venido si hubiera sabido que estabas"]
-        ]
-      },
-      "examples": [
-        "Si hubiera sabido que venías, habría preparado algo. (If I had known you were coming, I would have prepared something.)",
-        "Si no hubiera llovido, habríamos ido a la playa. (If it hadn't rained, we would have gone to the beach.)",
-        "¿Qué habría pasado si hubieras aceptado el trabajo? (What would have happened if you had accepted the job?)",
-        "Me habría encantado haber visto la obra de teatro. (I would have loved to have seen the play.)",
-        "Si hubiéramos salido antes, no nos habríamos perdido el vuelo. (If we had left earlier, we wouldn't have missed the flight.)"
-      ],
-      "aid_note": "Romanian Type 3: 'Dacă aș fi știut, aș fi venit' — the mapping is: 'dacă' = 'si', 'aș fi știut' = pluperfect subjunctive equivalent, 'aș fi venit' = conditional perfect. The Romanian 'să fi + participiu' and Spanish 'hubiera + participio' serve the same hypothetical past function. Remember the same golden rule: never put the conditional after 'si/dacă'."
+      "description": "Express hypothetical situations in the past that did NOT happen — regrets and missed opportunities."
     },
     {
-      "title": "Advanced Gerundio — Progresivo, Posterioridad, y Perífrasis",
-      "content": "At B2, the gerundio expands beyond the basic '-ando/-iendo' present progressive. You'll learn its advanced uses including posterioridad (action following the main verb), progressive perífrasis (estar + gerundio, llevar + gerundio, ir + gerundio), and the colloquial but frequent posterioridad use.\n\nKey B2 gerundio uses:\n\n1. **Progresivo (Estar + gerundio):** Describes ongoing actions at a specific moment. 'Estoy leyendo el periódico.'\n\n2. **Perífrasis progresivas:**\n- 'lleva + [time] + gerundio' = has been doing for [time]: 'Llevo tres años viviendo aquí.'\n- 'ir + gerundio' = gradual/progressive change: 'La situación va mejorando.'\n- 'andar + gerundio' = restless/aimless action: 'Anda buscando trabajo.'\n\n3. **Posterioridad (advanced):** The gerundio can express an action that follows the main action. This is technically considered informal/colloquial but is very common in spoken Spanish, especially in Latin America. 'Abrió la puerta, encontrándose con un ladrón.'\n\n⚠️ Normative restriction: The posterioridad gerundio is NOT accepted in formal/written Spanish. In academic or formal writing, use a coordinate clause with 'y' or a relative clause instead.\n\n4. **Causal gerundio:** The gerundio can express cause/reason. 'No teniendo experiencia, no le contrataron.' = Because he had no experience, they didn't hire him.",
-      "table": {
-        "headers": ["Perífrasis", "Meaning", "Example"],
-        "rows": [
-          ["estar + gerundio", "ongoing action", "Estoy trabajando en el proyecto."],
-          ["llevar + tiempo + gerundio", "has been doing for [time]", "Llevo dos semanas esperando respuesta."],
-          ["ir + gerundio", "gradual change", "El clima va mejorando cada día."],
-          ["andar + gerundio", "restless/aimless action", "Anda preguntando por ti en la oficina."],
-          ["lleva + tiempo + sin + infinitivo", "hasn't done for [time]", "No lo veo desde hace semanas."],
-          ["lleva + tiempo + gerundio", "has been doing for [time]", "Vive aquí desde hace años."]
-        ]
-      },
-      "examples": [
-        "Llevo estudiando español tres años. (I have been studying Spanish for three years.)",
-        "La economía va mejorando poco a poco. (The economy is gradually improving.)",
-        "Anda diciendo que se va a mudar a otro país. (He keeps saying he's going to move to another country.)",
-        "Llegó corriendo, sin haber comido nada. (He arrived running, without having eaten anything.)",
-        "Trabajando duro, conseguirás tus objetivos. (Working hard, you will achieve your goals.)"
-      ],
-      "aid_note": "Romanian uses 'a fi + gerunziu' for progressive (sunt citind = sunt citind — not common in Romanian; more naturally 'citesc acum'). Romanian doesn't have perífrasis equivalent to 'ir + gerundio' or 'lleva + tiempo + gerundio' — these are uniquely Spanish constructions you'll need to memorize. The causal gerundio is similar to Romanian participial constructions with 'fără să' or 'fiind că'."
+      "id": "advanced-gerundio",
+      "title": "Advanced Gerundio — Progresivo, Perífrasis, y Posterioridad",
+      "description": "Learn advanced gerundio uses including perífrasis, posterioridad, and progressive changes."
     },
     {
+      "id": "pronouns-gerundio-infinitivo",
       "title": "Object Pronouns with Gerundio and Infinitivo",
-      "content": "At B2, you need to master the placement of clitic pronouns (me, te, lo, la, le, nos, os, los, las, les, se) when combined with non-finite verb forms — gerundio and infinitivo. This is a major B2 milestone.\n\nWith conjugated verbs, pronouns go BEFORE the verb: 'Lo veo.'\nWith gerundio and infinitivo, pronouns can go in two positions:\n\n1. **Attached to the end** (most common in speech):\n- Gerundio: 'estoy haciéndolo' / 'haciéndome lo' (no! see rule below)\n- Infinitivo: 'voy a hacerlo' / 'lo voy a hacer'\n\n2. **Before the conjugated auxiliary**:\n- Gerundio: 'lo estoy haciendo'\n- Infinitivo: 'lo voy a hacer' (also: 'voy a hacerlo')\n\n⚠️ DOUBLE PRONOUN RULE: When there are TWO pronouns (OD + OI) with a gerundio or infinitivo:\n- They can BOTH attach to the end: 'dándomelo'\n- OR both go before the conjugated verb: 'me lo está dando'\n- They CANNOT be split!\n\n⚠️ ACCENT RULE: When attaching pronouns to gerundio or infinitivo, check if the accent needs to be added to maintain the original stress:\n- 'hablando' + 'lo' → 'hablándolo' (accent added to maintain stress on 'lan')\n- 'hacer' + 'lo' → 'hacerlo' (no accent needed — stress already on 'ce')\n- 'estudio' + 'lo' → 'estudiándolo' (accent needed)\n\n⚠️ LE/LI → SE change: When le/les is combined with lo/la/los/las, 'le' becomes 'se': 'se lo di' (I gave it to him/her/you formal), NOT 'le lo di'.",
-      "table": {
-        "headers": ["Form", "Structure", "Example"],
-        "rows": [
-          ["Gerundio + 1 pronoun", "estoy + pronoun + gerundio", "Lo estoy leyendo."],
-          ["Gerundio + 1 pronoun", "estar + gerundio + pronoun", "Estoy leyéndolo."],
-          ["Infinitivo + 1 pronoun", "voy a + pronoun + inf.", "Lo voy a leer."],
-          ["Infinitivo + 1 pronoun", "voy a + infinitivo + pron.", "Voy a leerlo."],
-          ["Gerundio + 2 pronouns", "me lo + gerundio", "Me lo está contando."],
-          ["Gerundio + 2 pronouns", "gerundio + me lo", "Está contándomelo."],
-          ["Double pronoun", "le/les + lo/la → se", "Se lo di (NOT le lo di)"],
-          ["Infinitivo + 2 pronouns", "voy a + pronouns + inf.", "Se los voy a dar."],
-          ["Infinitivo + 2 pronouns", "voy a + inf. + pronouns", "Voy a dárselos."]
-        ]
-      },
-      "examples": [
-        "Lo estoy buscando por toda la casa. (I'm looking for it all over the house.)",
-        "Voy a comprárselo a mi madre. / Se lo voy a comprar. (I'm going to buy it for my mother.)",
-        "¿Me lo puedes pasar, por favor? (Can you pass it to me, please?)",
-        "Está contándomelo todo. (He/She is telling it all to me.)",
-        "No sé cómo decírselo. (I don't know how to tell it to him/her.)",
-        "¡Deja de llamarme así! (Stop calling me that!)"
-      ],
-      "aid_note": "Romanian also has clitic pronouns (îl, o, îi, le, mă, te, ne, vă) but the attachment rules are different — Romanian pronouns almost always come BEFORE the verb and rarely attach to infinitives or participles. Spanish attachment is a unique feature. The LE→SE change has no direct Romanian parallel since Romanian doesn't have the same le/lo distinction. For Romanian speakers, the key challenge is remembering to ATTACH the pronoun AND add the accent when needed."
+      "description": "Master pronoun placement and attachment rules with non-finite verb forms."
     },
     {
+      "id": "advanced-idioms",
       "title": "Advanced Idioms & Fixed Expressions",
-      "content": "B2 learners are expected to use idiomatic expressions naturally in conversation. These fixed phrases cannot be translated literally — they must be learned as whole units. At this level, focus on idioms related to work, social situations, opinions, and daily life.\n\nKey B2 idiom categories:\n\n**Opinion & Agreement:**\n- 'No estoy de acuerdo contigo' — I disagree with you\n- 'Pongamos que... (hipotéticamente)' — Let's say... (hypothetically)\n- 'En mi opinión / En mi concepto' — In my opinion\n- 'Desde mi punto de vista' — From my point of view\n\n**Cause & Consequence:**\n- 'Por un lado... por otro lado...' — On one hand... on the other hand...\n- 'A fin de cuentas' — After all / At the end of the day\n- 'En última instancia' — Ultimately / In the last instance\n- 'Por si fuera poco' — To make matters worse / On top of that\n\n**Social & Professional:**\n- 'Llevarse bien/mal con alguien' — To get along well/poorly with someone\n- 'Echar de menos' — To miss someone (different from 'extrañar' — more emotional)\n- 'Poner las cartas sobre la mesa' — To lay cards on the table (be direct)\n- 'Tomar las riendas' — To take the reins (take charge)\n\n**Common B2 idioms:**\n- 'Salirse con la suya' — To get one's way\n- 'Hacer la vista gorda' — To turn a blind eye\n- 'Ir de capa caída' — To be doing badly / to be in decline\n- 'Estar en las nubes' — To be absent-minded / daydreaming\n- 'Costar un ojo de la cara' — To cost an arm and a leg",
-      "table": {
-        "headers": ["Idiom", "Literal Translation", "Actual Meaning"],
-        "rows": [
-          ["Poner las cartas sobre la mesa", "To put the cards on the table", "To be direct / reveal your position"],
-          ["Echar de menos", "To throw to miss", "To miss someone emotionally"],
-          ["Salirse con la suya", "To get out with his/hers", "To get one's way / succeed in doing what one wants"],
-          ["Hacer la vista gorda", "To make the eye fat", "To turn a blind eye / ignore something wrong"],
-          ["Ir de capa caída", "To go with the cape fallen", "To be in decline / doing badly"],
-          ["Costar un ojo de la cara", "To cost an eye of the face", "To be very expensive"],
-          ["Estar en las nubes", "To be in the clouds", "To be absent-minded / distracted"],
-          ["Por si fuera poco", "If that weren't enough", "To make matters worse / on top of that"]
-        ]
-      },
-      "examples": [
-        "Voy a poner las cartas sobre la mesa: no puedo seguir así. (I'm going to lay my cards on the table: I can't keep going like this.)",
-        "Me echas mucho de menos cuando no estás. (You really miss someone when they're not around.)",
-        "Siempre se sale con la suya porque su padre es el jefe. (He always gets his way because his father is the boss.)",
-        "El gobierno está haciendo la vista gorda con la corrupción. (The government is turning a blind eye to corruption.)",
-        "La empresa va de capa caída desde la crisis. (The company has been in decline since the crisis.)"
-      ],
-      "aid_note": "Romanian has equivalent idioms for most of these: 'a pune cărțile pe masă' = poner las cartas sobre la mesa (identical!), 'a ieși cu a ta' = salirse con la suya, 'a face ochiul orb' = hacer la vista gorda. The Romanian 'a da cu părerea' is similar to 'poner las cartas sobre la mesa' in informal contexts. Where Romanian differs is in the literal imagery — Spanish idioms tend to be more body-oriented (ojo, cara, boca) while Romanian favors more abstract constructions."
+      "description": "Learn B2-level idiomatic expressions for work, social situations, opinions, and daily life."
     },
     {
+      "id": "professional-spanish",
       "title": "Professional & Business Spanish Vocabulary",
-      "content": "B2 level requires the ability to communicate effectively in professional and business contexts. This lesson introduces the core vocabulary for workplace communication, job applications, meetings, and professional correspondence.\n\n**Job & Employment:**\n- currículum vitae (CV) — resume / CV\n- candidatura — application (for a job)\n- entrevista de trabajo — job interview\n- oferta de empleo — job offer\n- despedido / despedido — fired / dismissed\n- dimisión — resignation\n- nómina — payslip\n- contrato indefinido / fijo — permanent contract\n- contrato temporal — temporary contract\n- periodo de prueba — probationary period\n- ascenso — promotion\n- sueldo / salario — salary\n\n**Business & Office:**\n- la reunión — meeting\n- el informe — report\n- el presupuesto — budget\n- los beneficios — profits\n- las pérdidas — losses\n- la cuota de mercado — market share\n- la competencia — competition\n- el cliente — client/customer\n- la reunión de equipo — team meeting\n- el jefe / el director — the boss / the director\n- el colega / el compañero — colleague\n\n**Email & Correspondence:**\n- Estimado/a Sr./Sra. — Dear Mr./Ms.\n- Agradeciendo de antemano — Thanking you in advance\n- Quedo a su disposición — I remain at your disposal\n- Atentamente — Sincerely (formal closing)\n- Le escribo para... — I am writing to...\n- En respuesta a su correo... — In response to your email...\n\n**Academic & Research:**\n- la tesis — thesis\n- el máster / el posgrado — master's degree / postgraduate\n- la beca — scholarship\n- la investigación — research\n- el artículo científico — scientific paper\n- la publicación — publication",
-      "table": {
-        "headers": ["Spanish Term", "Gender", "English Meaning"],
-        "rows": [
-          ["currículum vitae", "m. (invariable)", "CV / resume"],
-          ["candidatura", "f.", "job application"],
-          ["entrevista de trabajo", "f.", "job interview"],
-          ["oferta de empleo", "f.", "job offer"],
-          ["despedido/a", "m./f.", "fired / dismissed"],
-          ["dimisión", "f.", "resignation"],
-          ["nómina", "f.", "payslip"],
-          ["contrato indefinido", "m.", "permanent contract"],
-          ["contrato temporal", "m.", "temporary contract"],
-          ["periodo de prueba", "m.", "probationary period"],
-          ["ascenso", "m.", "promotion"],
-          ["sueldo / salario", "m.", "salary"],
-          ["la reunión", "f.", "meeting"],
-          ["el informe", "m.", "report"],
-          ["el presupuesto", "m.", "budget"],
-          ["los beneficios", "m.pl.", "profits"],
-          ["las pérdidas", "f.pl.", "losses"],
-          ["la cuota de mercado", "f.", "market share"],
-          ["la competencia", "f.", "competition"],
-          ["el cliente", "m.", "client / customer"],
-          ["el jefe", "m.", "boss / manager"],
-          ["el colega", "m.", "colleague"],
-          ["la beca", "f.", "scholarship"],
-          ["la tesis", "f.", "thesis"],
-          ["el artículo científico", "m.", "scientific paper"]
-        ]
-      },
-      "examples": [
-        "Acabo de enviar mi candidatura para el puesto de analista. (I just sent my application for the analyst position.)",
-        "Me pidieron que llevara el currículum vitae a la entrevista. (They asked me to bring my CV to the interview.)",
-        "La empresa está buscando candidatos para ocupar el puesto vacante. (The company is looking for candidates to fill the vacant position.)",
-        "Después del periodo de prueba, me ofrecieron contrato indefinido. (After the probationary period, they offered me a permanent contract.)",
-        "En la reunión de equipo discutimos el presupuesto del próximo trimestre. (In the team meeting we discussed next quarter's budget.)",
-        "Le escribo para solicitar información sobre la oferta de empleo que publiquaron. (I am writing to request information about the job offer you published.)"
-      ],
-      "aid_note": "Romanian professional vocabulary is very similar due to Latin roots: 'curriculum vitae' is identical, 'candidatură' ≈ 'candidatura', 'interviul de angajare' ≈ 'entrevista de trabajo', 'salariu' ≈ 'salario', 'promovare' ≈ 'ascenso'. The Romanian 'a demisiona' corresponds to Spanish 'dimitir' (not 'dimisión' which is the noun). For email phrases, Romanian uses similar formal register: 'Stimate domn/doamnă' ≈ 'Estimado/a Sr./Sra.', 'Cu stimă' ≈ 'Atentamente'."
+      "description": "Core vocabulary for workplace communication, job applications, meetings, and professional correspondence."
     }
   ],
   "vocabulary": [
-    { "id": 101, "target": "el sueldo", "source": "salary / wage", "gender": "m.", "type": "other" },
-    { "id": 102, "target": "el sueldo fijo", "source": "fixed salary", "gender": "m.", "type": "other" },
-    { "id": 103, "target": "la nómina", "source": "payslip", "gender": "f.", "type": "other" },
-    { "id": 104, "target": "el contrato indefinido", "source": "permanent contract", "gender": "m.", "type": "other" },
-    { "id": 105, "target": "el contrato temporal", "source": "temporary contract", "gender": "m.", "type": "other" },
-    { "id": 106, "target": "el periodo de prueba", "source": "probationary period", "gender": "m.", "type": "other" },
-    { "id": 107, "target": "el ascenso", "source": "promotion", "gender": "m.", "type": "other" },
-    { "id": 108, "target": "la dimisión", "source": "resignation", "gender": "f.", "type": "other" },
-    { "id": 109, "target": "despedido / despedida", "source": "fired / dismissed", "gender": "m./f.", "type": "other" },
-    { "id": 110, "target": "candidatura", "source": "job application", "gender": "f.", "type": "other" },
-    { "id": 111, "target": "la entrevista de trabajo", "source": "job interview", "gender": "f.", "type": "other" },
-    { "id": 112, "target": "la oferta de empleo", "source": "job offer", "gender": "f.", "type": "other" },
-    { "id": 113, "target": "la reunión", "source": "meeting", "gender": "f.", "type": "other" },
-    { "id": 114, "target": "el informe", "source": "report", "gender": "m.", "type": "other" },
-    { "id": 115, "target": "los ingresos", "source": "revenue / income", "gender": "m.pl.", "type": "other" },
-    { "id": 116, "target": "los beneficios", "source": "profits / benefits", "gender": "m.pl.", "type": "other" },
-    { "id": 117, "target": "las pérdidas", "source": "losses", "gender": "f.pl.", "type": "other" },
-    { "id": 118, "target": "la cuota de mercado", "source": "market share", "gender": "f.", "type": "other" },
-    { "id": 119, "target": "la competencia", "source": "competition", "gender": "f.", "type": "other" },
-    { "id": 120, "target": "el cliente", "source": "client / customer", "gender": "m.", "type": "other" },
-    { "id": 121, "target": "el jefe / la jefa", "source": "boss / manager", "gender": "m./f.", "type": "other" },
-    { "id": 122, "target": "el colega", "source": "colleague", "gender": "m.", "type": "other" },
-    { "id": 123, "target": "la beca", "source": "scholarship", "gender": "f.", "type": "other" },
-    { "id": 124, "target": "la tesis", "source": "thesis", "gender": "f.", "type": "other" },
-    { "id": 125, "target": "el artículo científico", "source": "scientific paper", "gender": "m.", "type": "other" },
-    { "id": 126, "target": "hipótesis", "source": "hypothesis", "gender": "f.", "type": "other" },
-    { "id": 127, "target": "la condición", "source": "condition / requirement", "gender": "f.", "type": "other" },
-    { "id": 128, "target": "la consecuencia", "source": "consequence", "gender": "f.", "type": "other" },
-    { "id": 129, "target": "el escenario", "source": "scenario", "gender": "m.", "type": "other" },
-    { "id": 130, "target": "la probabilidad", "source": "probability", "gender": "f.", "type": "other" },
-    { "id": 131, "target": "es posible que", "source": "it's possible that", "gender": "—", "type": "other" },
-    { "id": 132, "target": "es improbable que", "source": "it's unlikely that", "gender": "—", "type": "other" },
-    { "id": 133, "target": "quizás / quizás", "source": "perhaps / maybe", "gender": "—", "type": "adverb" },
-    { "id": 134, "target": "aparentemente", "source": "apparently", "gender": "—", "type": "adverb" },
-    { "id": 135, "target": "probablemente", "source": "probably", "gender": "—", "type": "adverb" },
-    { "id": 136, "target": "seguramente", "source": "surely / undoubtedly", "gender": "—", "type": "adverb" },
-    { "id": 137, "target": "realmente", "source": "really / actually", "gender": "—", "type": "adverb" },
-    { "id": 138, "target": "simplemente", "source": "simply", "gender": "—", "type": "adverb" },
-    { "id": 139, "target": "definitivamente", "source": "definitely", "gender": "—", "type": "adverb" },
-    { "id": 140, "target": "aproximadamente", "source": "approximately", "gender": "—", "type": "adverb" },
-    { "id": 141, "target": "posiblemente", "source": "possibly", "gender": "—", "type": "adverb" },
-    { "id": 142, "target": "efectivamente", "source": "indeed / effectively", "gender": "—", "type": "adverb" },
-    { "id": 143, "target": "literalmente", "source": "literally", "gender": "—", "type": "adverb" },
-    { "id": 144, "target": "prácticamente", "source": "practically", "gender": "—", "type": "adverb" },
-    { "id": 145, "target": "exactamente", "source": "exactly", "gender": "—", "type": "adverb" },
-    { "id": 146, "target": "seguramente", "source": "surely / definitely", "gender": "—", "type": "adverb" },
-    { "id": 147, "target": "sin duda", "source": "without a doubt", "gender": "—", "type": "other" },
-    { "id": 148, "target": "de hecho", "source": "in fact / actually", "gender": "—", "type": "other" },
-    { "id": 149, "target": "en realidad", "source": "in reality / actually", "gender": "—", "type": "other" },
-    { "id": 150, "target": "a fin de cuentas", "source": "after all / at the end of the day", "gender": "—", "type": "other" }
+    { "id": 1, "target": "el sueldo", "source": "salary / wage", "gender": "m.", "type": "noun" },
+    { "id": 2, "target": "el sueldo fijo", "source": "fixed salary", "gender": "m.", "type": "phrase" },
+    { "id": 3, "target": "la nómina", "source": "payslip", "gender": "f.", "type": "noun" },
+    { "id": 4, "target": "el contrato indefinido", "source": "permanent contract", "gender": "m.", "type": "phrase" },
+    { "id": 5, "target": "el contrato temporal", "source": "temporary contract", "gender": "m.", "type": "phrase" },
+    { "id": 6, "target": "el periodo de prueba", "source": "probationary period", "gender": "m.", "type": "phrase" },
+    { "id": 7, "target": "el ascenso", "source": "promotion", "gender": "m.", "type": "noun" },
+    { "id": 8, "target": "la dimisión", "source": "resignation", "gender": "f.", "type": "noun" },
+    { "id": 9, "target": "despedido/a", "source": "fired / dismissed", "gender": "m./f.", "type": "adjective" },
+    { "id": 10, "target": "candidatura", "source": "job application", "gender": "f.", "type": "noun" },
+    { "id": 11, "target": "la entrevista de trabajo", "source": "job interview", "gender": "f.", "type": "phrase" },
+    { "id": 12, "target": "la oferta de empleo", "source": "job offer", "gender": "f.", "type": "phrase" },
+    { "id": 13, "target": "la reunión", "source": "meeting", "gender": "f.", "type": "noun" },
+    { "id": 14, "target": "el informe", "source": "report", "gender": "m.", "type": "noun" },
+    { "id": 15, "target": "los ingresos", "source": "revenue / income", "gender": "m.pl.", "type": "noun" },
+    { "id": 16, "target": "los beneficios", "source": "profits / benefits", "gender": "m.pl.", "type": "noun" },
+    { "id": 17, "target": "las pérdidas", "source": "losses", "gender": "f.pl.", "type": "noun" },
+    { "id": 18, "target": "la cuota de mercado", "source": "market share", "gender": "f.", "type": "phrase" },
+    { "id": 19, "target": "la competencia", "source": "competition", "gender": "f.", "type": "noun" },
+    { "id": 20, "target": "el cliente", "source": "client / customer", "gender": "m.", "type": "noun" },
+    { "id": 21, "target": "el jefe / la jefa", "source": "boss / manager", "gender": "m./f.", "type": "noun" },
+    { "id": 22, "target": "el colega", "source": "colleague", "gender": "m.", "type": "noun" },
+    { "id": 23, "target": "la beca", "source": "scholarship", "gender": "f.", "type": "noun" },
+    { "id": 24, "target": "la tesis", "source": "thesis", "gender": "f.", "type": "noun" },
+    { "id": 25, "target": "el artículo científico", "source": "scientific paper", "gender": "m.", "type": "phrase" },
+    { "id": 26, "target": "hipótesis", "source": "hypothesis", "gender": "f.", "type": "noun" },
+    { "id": 27, "target": "la condición", "source": "condition / requirement", "gender": "f.", "type": "noun" },
+    { "id": 28, "target": "la consecuencia", "source": "consequence", "gender": "f.", "type": "noun" },
+    { "id": 29, "target": "el escenario", "source": "scenario", "gender": "m.", "type": "noun" },
+    { "id": 30, "target": "la probabilidad", "source": "probability", "gender": "f.", "type": "noun" },
+    { "id": 31, "target": "quizás", "source": "perhaps / maybe", "gender": "—", "type": "adverb" },
+    { "id": 32, "target": "probablemente", "source": "probably", "gender": "—", "type": "adverb" },
+    { "id": 33, "target": "seguramente", "source": "surely / definitely", "gender": "—", "type": "adverb" },
+    { "id": 34, "target": "realmente", "source": "really / actually", "gender": "—", "type": "adverb" },
+    { "id": 35, "target": "simplemente", "source": "simply", "gender": "—", "type": "adverb" },
+    { "id": 36, "target": "definitivamente", "source": "definitely", "gender": "—", "type": "adverb" },
+    { "id": 37, "target": "aproximadamente", "source": "approximately", "gender": "—", "type": "adverb" },
+    { "id": 38, "target": "efectivamente", "source": "indeed / effectively", "gender": "—", "type": "adverb" },
+    { "id": 39, "target": "literalmente", "source": "literally", "gender": "—", "type": "adverb" },
+    { "id": 40, "target": "prácticamente", "source": "practically", "gender": "—", "type": "adverb" },
+    { "id": 41, "target": "exactamente", "source": "exactly", "gender": "—", "type": "adverb" },
+    { "id": 42, "target": "sin duda", "source": "without a doubt", "gender": "—", "type": "phrase" },
+    { "id": 43, "target": "de hecho", "source": "in fact / actually", "gender": "—", "type": "phrase" },
+    { "id": 44, "target": "en realidad", "source": "in reality / actually", "gender": "—", "type": "phrase" },
+    { "id": 45, "target": "a fin de cuentas", "source": "after all / at the end of the day", "gender": "—", "type": "phrase" },
+    { "id": 46, "target": "poner las cartas sobre la mesa", "source": "to lay cards on the table", "gender": "—", "type": "idiom" },
+    { "id": 47, "target": "echar de menos", "source": "to miss someone (emotionally)", "gender": "—", "type": "idiom" },
+    { "id": 48, "target": "salirse con la suya", "source": "to get one's way", "gender": "—", "type": "idiom" },
+    { "id": 49, "target": "hacer la vista gorda", "source": "to turn a blind eye", "gender": "—", "type": "idiom" },
+    { "id": 50, "target": "ir de capa caída", "source": "to be in decline / doing badly", "gender": "—", "type": "idiom" },
+    { "id": 51, "target": "costar un ojo de la cara", "source": "to cost an arm and a leg", "gender": "—", "type": "idiom" },
+    { "id": 52, "target": "estar en las nubes", "source": "to be absent-minded / daydreaming", "gender": "—", "type": "idiom" },
+    { "id": 53, "target": "por si fuera poco", "source": "to make matters worse", "gender": "—", "type": "idiom" },
+    { "id": 54, "target": "llevarse bien/mal con alguien", "source": "to get along well/poorly with someone", "gender": "—", "type": "idiom" },
+    { "id": 55, "target": "tomar las riendas", "source": "to take the reins / take charge", "gender": "—", "type": "idiom" },
+    { "id": 56, "target": "currículum vitae", "source": "CV / resume", "gender": "m.", "type": "noun" },
+    { "id": 57, "target": "el máster / el posgrado", "source": "master's degree / postgraduate", "gender": "m.", "type": "noun" },
+    { "id": 58, "target": "la investigación", "source": "research", "gender": "f.", "type": "noun" },
+    { "id": 59, "target": "estimado/a Sr./Sra.", "source": "Dear Mr./Ms.", "gender": "—", "type": "phrase" },
+    { "id": 60, "target": "atentamente", "source": "sincerely (formal closing)", "gender": "—", "type": "adverb" },
+    { "id": 61, "target": "le escribo para...", "source": "I am writing to...", "gender": "—", "type": "phrase" },
+    { "id": 62, "target": "quedo a su disposición", "source": "I remain at your disposal", "gender": "—", "type": "phrase" },
+    { "id": 63, "target": "no estoy de acuerdo contigo", "source": "I disagree with you", "gender": "—", "type": "phrase" },
+    { "id": 64, "target": "en mi opinión", "source": "in my opinion", "gender": "—", "type": "phrase" },
+    { "id": 65, "target": "por un lado... por otro lado...", "source": "on one hand... on the other hand...", "gender": "—", "type": "connector" },
+    { "id": 66, "target": "en última instancia", "source": "ultimately / in the last instance", "gender": "—", "type": "phrase" },
+    { "id": 67, "target": "deber", "source": "must / should", "gender": "v.", "type": "verb" },
+    { "id": 68, "target": "poder", "source": "to be able to / can", "gender": "v.", "type": "verb" },
+    { "id": 69, "target": "saber", "source": "to know / to find out", "gender": "v.", "type": "verb" },
+    { "id": 70, "target": "querer", "source": "to want / to love", "gender": "v.", "type": "verb" }
   ],
   "verbs": [
-    {
-      "infinitive": "HABER",
-      "translation": "to have (auxiliary) / there is/are",
-      "conjugations": {
-        "present": {
-          "yo": "he",
-          "tú": "has",
-          "él/ella/usted": "ha",
-          "nosotros": "hemos",
-          "vosotros": "habéis",
-          "ellos/ellas/ustedes": "han"
-        },
-        "imperfect_subjunctive_ra": {
-          "yo": "hubiera",
-          "tú": "hubieras",
-          "él/ella/usted": "hubiera",
-          "nosotros": "tuviéramos",
-          "vosotros": "hubierais",
-          "ellos/ellas/ustedes": "hubieran"
-        },
-        "imperfect_subjunctive_se": {
-          "yo": "hubiese",
-          "tú": "hubieses",
-          "él/ella/usted": "hubiese",
-          "nosotros": "tuviésemos",
-          "vosotros": "hubieseis",
-          "ellos/ellas/ustedes": "hubiesen"
-        },
-        "conditional": {
-          "yo": "habría",
-          "tú": "habrías",
-          "él/ella/usted": "habría",
-          "nosotros": "habríamos",
-          "vosotros": "habríais",
-          "ellos/ellas/ustedes": "habrían"
-        }
-      }
-    },
-    {
-      "infinitive": "DEBER",
-      "translation": "must / should / to owe",
-      "conjugations": {
-        "present": {
-          "yo": "debo",
-          "tú": "debes",
-          "él/ella/usted": "debe",
-          "nosotros": "debemos",
-          "vosotros": "debéis",
-          "ellos/ellas/ustedes": "deben"
-        },
-        "imperfect_subjunctive_ra": {
-          "yo": "debiera",
-          "tú": "debieras",
-          "él/ella/usted": "debiera",
-          "nosotros": "debiéramos",
-          "vosotros": "debierais",
-          "ellos/ellas/ustedes": "debieran"
-        },
-        "conditional": {
-          "yo": "debería",
-          "tú": "deberías",
-          "él/ella/usted": "debería",
-          "nosotros": "deberíamos",
-          "vosotros": "deberíais",
-          "ellos/ellas/ustedes": "deberían"
-        }
-      }
-    },
-    {
-      "infinitive": "PODER",
-      "translation": "to be able to / can",
-      "conjugations": {
-        "present": {
-          "yo": "puedo",
-          "tú": "puedes",
-          "él/ella/usted": "puede",
-          "nosotros": "podemos",
-          "vosotros": "podéis",
-          "ellos/ellas/ustedes": "pueden"
-        },
-        "imperfect_subjunctive_ra": {
-          "yo": "pudiera",
-          "tú": "pudieras",
-          "él/ella/usted": "pudiera",
-          "nosotros": "pudiéramos",
-          "vosotros": "pudierais",
-          "ellos/ellas/ustedes": "pudieran"
-        },
-        "conditional": {
-          "yo": "podría",
-          "tú": "podrías",
-          "él/ella/usted": "podría",
-          "nosotros": "podríamos",
-          "vosotros": "podríais",
-          "ellos/ellas/ustedes": "podrían"
-        }
-      }
-    },
-    {
-      "infinitive": "SABER",
-      "translation": "to know / to find out",
-      "conjugations": {
-        "present": {
-          "yo": "sé",
-          "tú": "sabes",
-          "él/ella/usted": "sabe",
-          "nosotros": "sabemos",
-          "vosotros": "sabéis",
-          "ellos/ellas/ustedes": "saben"
-        },
-        "imperfect_subjunctive_ra": {
-          "yo": "supiera",
-          "tú": "supieras",
-          "él/ella/usted": "supiera",
-          "nosotros": "supiéramos",
-          "vosotros": "supierais",
-          "ellos/ellas/ustedes": "supieran"
-        },
-        "conditional": {
-          "yo": "sabría",
-          "tú": "sabrías",
-          "él/ella/usted": "sabría",
-          "nosotros": "sabríamos",
-          "vosotros": "sabríais",
-          "ellos/ellas/ustedes": "sabrían"
-        }
-      }
-    },
-    {
-      "infinitive": "QUERER",
-      "translation": "to want / to love",
-      "conjugations": {
-        "present": {
-          "yo": "quiero",
-          "tú": "quieres",
-          "él/ella/usted": "quiere",
-          "nosotros": "queremos",
-          "vosotros": "queréis",
-          "ellos/ellas/ustedes": "quieren"
-        },
-        "imperfect_subjunctive_ra": {
-          "yo": "quisiera",
-          "tú": "quisieras",
-          "él/ella/usted": "quisiera",
-          "nosotros": "quisiéramos",
-          "vosotros": "quisierais",
-          "ellos/ellas/ustedes": "quisieran"
-        },
-        "conditional": {
-          "yo": "querría",
-          "tú": "querrías",
-          "él/ella/usted": "querría",
-          "nosotros": "querríamos",
-          "vosotros": "querríais",
-          "ellos/ellas/ustedes": "querrían"
-        }
-      }
-    },
-    {
-      "infinitive": "DECIR",
-      "translation": "to say / to tell",
-      "conjugations": {
-        "present": {
-          "yo": "digo",
-          "tú": "dices",
-          "él/ella/usted": "dice",
-          "nosotros": "decimos",
-          "vosotros": "decís",
-          "ellos/ellas/ustedes": "dicen"
-        },
-        "imperfect_subjunctive_ra": {
-          "yo": "dijera",
-          "tú": "dijeras",
-          "él/ella/usted": "dijera",
-          "nosotros": "dijéramos",
-          "vosotros": "dijerais",
-          "ellos/ellas/ustedes": "dijeran"
-        },
-        "conditional": {
-          "yo": "diría",
-          "tú": "dirías",
-          "él/ella/usted": "diría",
-          "nosotros": "diríamos",
-          "vosotros": "diríais",
-          "ellos/ellas/ustedes": "dirían"
-        }
-      }
-    },
-    {
-      "infinitive": "VENIR",
-      "translation": "to come",
-      "conjugations": {
-        "present": {
-          "yo": "vengo",
-          "tú": "vienes",
-          "él/ella/usted": "viene",
-          "nosotros": "venimos",
-          "vosotros": "venís",
-          "ellos/ellas/ustedes": "vienen"
-        },
-        "imperfect_subjunctive_ra": {
-          "yo": "viniera",
-          "tú": "vinieras",
-          "él/ella/usted": "viniera",
-          "nosotros": "viniéramos",
-          "vosotros": "vinierais",
-          "ellos/ellas/ustedes": "vinieran"
-        },
-        "conditional": {
-          "yo": "vendría",
-          "tú": "vendrías",
-          "él/ella/usted": "vendría",
-          "nosotros": "vendríamos",
-          "vosotros": "vendríais",
-          "ellos/ellas/ustedes": "vendrían"
-        }
-      }
-    },
-    {
-      "infinitive": "HACER",
-      "translation": "to do / to make",
-      "conjugations": {
-        "present": {
-          "yo": "hago",
-          "tú": "haces",
-          "él/ella/usted": "hace",
-          "nosotros": "hacemos",
-          "vosotros": "hacéis",
-          "ellos/ellas/ustedes": "hacen"
-        },
-        "imperfect_subjunctive_ra": {
-          "yo": "hiciera",
-          "tú": "hicieras",
-          "él/ella/usted": "hiciera",
-          "nosotros": "hiciéramos",
-          "vosotros": "hicierais",
-          "ellos/ellas/ustedes": "hicieran"
-        },
-        "conditional": {
-          "yo": "haría",
-          "tú": "harías",
-          "él/ella/usted": "haría",
-          "nosotros": "haríamos",
-          "vosotros": "haríais",
-          "ellos/ellas/ustedes": "harían"
-        }
-      }
-    }
-  ],
-  "pronunciation": [
-    {
-      "title": "Stress in Gerundio and Compound Tenses",
-      "content": "At B2 level, you need to be precise about stress patterns when gerundio forms gain additional syllables through attached pronouns. The rules are:\n\n**Gerundio stress rules:**\n- Regular gerundio (hablando, comiendo): stress on penultimate syllable\n- When you add 1 pronoun (hablándolo): stress stays on same syllable — add accent if needed\n- When you add 2 pronouns (contándomelo): stress stays on same syllable — add accent if needed\n\n**Compound tense stress:**\n- 'He estado hablando' — stress on 'ha' and 'han' (each word stressed separately)\n- 'Habría venido' — stress on 'ría' in both words\n- 'Si hubiera sabido' — stress on 'bie' in 'hubiera', 'bi' in 'sabido'\n\n**Common pronunciation pitfalls for B2:**\n- The 'r' in gerundio endings (-ando, -iendo) is always soft (single R), not rolled\n- The stress on 'hubiera' is on 'bie' (hu-BIE-ra), never 'hubieRA'\n- In 'habría', the stress is always on 'ría' (ha-BRÍ-a)",
-      "examples": [
-        { "target": "hablándolo", "source": "ha-BLAN-do-lo (accent marks the stress on 'lan')"},
-        { "target": "contándomelo", "source": "con-TÁN-do-me-lo (accent marks stress on 'tan')"},
-        { "target": "hubiera", "source": "hu-BIE-ra (NOT hubieRA)"},
-        { "target": "habría", "source": "ha-BRÍ-a (NOT bríaHA)"}
-      ]
-    },
-    {
-      "title": "Intonation in Conditional Sentences",
-      "content": "Conditional sentences (Type 2 and Type 3) have characteristic intonation patterns in Spanish that help distinguish them from factual statements.\n\n**Type 2 — Rising-fall pattern:**\nThe 'si' clause typically has a slightly rising intonation, and the result clause falls. This signals that the speaker is presenting a hypothetical, not a fact.\n\n'Si tuviera más dinero ↗, viajaría por el mundo ↘.'\n\n**Type 3 — Regretful pattern:**\nType 3 conditionals expressing regret often have a lower, slower intonation with emphasis on the 'hubiera' clause. The speaker is reflecting on something that cannot be changed.\n\n'Si hubiera estudiado más ↘, habría aprobado ↘.'\n\n**Advice pattern (Si yo fuera tú...):**\nThis often uses a slightly warmer, lower-pitched tone, as the speaker is offering personal guidance.\n\nSi yo fuera tú, ↗ no lo haría. ↘",
-      "examples": [
-        { "target": "Type 2 rising-fall", "source": "'Si pudiera... ↗, lo haría. ↘'"},
-        { "target": "Type 3 regret", "source": "'Si hubiera sabido... ↘, habría venido. ↘'"},
-        { "target": "Advice pattern", "source": "'Si yo fuera tú... ↗, pensaría más. ↘'"}
-      ]
-    }
-  ],
-  "exercises": [
-    {
-      "type": "exercise",
-      "question": "Which sentence correctly uses Type 2 conditional structure?",
-      "options": [
-        "Si tendría dinero, viajaría.",
-        "Si tuviera dinero, viajaría.",
-        "Si tengo dinero, viajaría.",
-        "Si tuve dinero, viajaría."
-      ],
-      "correct": 1,
-      "explanation": "Type 2 conditionals require 'si' + imperfect subjunctive (tuviera) in the condition clause, and conditional (viajaría) in the result. 'Tendría' after 'si' is the most common learner error."
-    },
-    {
-      "type": "exercise",
-      "question": "Which sentence correctly uses Type 3 conditional (past hypothetical)?",
-      "options": [
-        "Si sabía que venías, habría preparado algo.",
-        "Si hubiere sabido que venías, prepararía algo.",
-        "Si hubiera sabido que venías, habría preparado algo.",
-        "Si había sabido que venías, habría preparado algo."
-      ],
-      "correct": 2,
-      "explanation": "Type 3 conditionals require 'si' + pluperfect subjunctive (hubiera sabido) + conditional perfect (habría preparado). The pluperfect subjunctive uses 'hubiera' + past participle."
-    },
-    {
-      "type": "fill-in-blank",
-      "question": "Complete with the correct Type 2 conditional: 'Si yo _____ (ser) tú, aceptaría el trabajo.'",
-      "correct": "fuera",
-      "explanation": "SI + imperfect subjunctive. 'Fuera' (or 'fuese') is the imperfect subjunctive of SER. The structure is 'Si yo fuera tú' = If I were you."
-    },
-    {
-      "type": "fill-in-blank",
-      "question": "Complete with the correct Type 3 conditional: 'Si _____ (habiendo) sabido que lloría, _____ (habiendo) quedado en casa.'",
-      "correct": "hubiera",
-      "explanation": "The pluperfect subjunctive of haber is 'hubiera' (hubieras, hubiera, hubiéramos, hubierais, hubieran). The full sentence is 'Si hubiera sabido que llovería, habría quedado en casa.'"
-    },
-    {
-      "type": "exercise",
-      "question": "Which perífrasis means 'has been doing for [time]'?",
-      "options": [
-        "ir + gerundio",
-        "lleva + tiempo + gerundio",
-        "andar + gerundio",
-        "estar + gerundio"
-      ],
-      "correct": 1,
-      "explanation": "'Llevar + tiempo + gerundio' expresses how long an action has been ongoing: 'Llevo tres años viviendo aquí' = I have been living here for three years."
-    },
-    {
-      "type": "exercise",
-      "question": "'Lleva mejorando cada día.' What does this mean?",
-      "options": [
-        "It improved yesterday.",
-        "It has been improving every day.",
-        "It is gradually improving.",
-        "It will improve tomorrow."
-      ],
-      "correct": 2,
-      "explanation": "'Ir + gerundio' expresses gradual/progressive change: 'va mejorando' = 'is gradually improving'. The 'cada día' (every day) reinforces the progressive nature."
-    },
-    {
-      "type": "fill-in-blank",
-      "question": "Place the pronoun correctly: 'Estoy _____ (lo) leyendo.' / 'Estoy leyéndolo.'",
-      "correct": "lo",
-      "explanation": "With gerundio, pronouns can go either before the conjugated auxiliary ('lo estoy leyendo') or attached to the gerundio ('estoy leyéndolo'). Both are correct. The attached form needs an accent: leyéndolo."
-    },
-    {
-      "type": "exercise",
-      "question": "Which is the correct double pronoun form: 'dándome lo' or 'dándomelo'?",
-      "options": [
-        "dándome lo",
-        "dándomelo",
-        "me dándomelo",
-        "dándome lo"
-      ],
-      "correct": 1,
-      "explanation": "When two pronouns attach to a gerundio, they combine into one: 'dar + me + lo' = 'dándomelo'. They CANNOT be split ('dándome lo' is wrong)."
-    },
-    {
-      "type": "exercise",
-      "question": "What does 'hacer la vista gorda' mean?",
-      "options": [
-        "To close one eye intentionally",
-        "To turn a blind eye / ignore something",
-        "To look at something carefully",
-        "To have poor eyesight"
-      ],
-      "correct": 1,
-      "explanation": "'Hacer la vista gorda' literally means 'to make the eye fat' but actually means 'to turn a blind eye' — to deliberately ignore something wrong."
-    },
-    {
-      "type": "exercise",
-      "question": "What does 'por si fuera poco' mean?",
-      "options": [
-        "In case it's not enough",
-        "To make matters worse / on top of that",
-        "If it's too much",
-        "For no reason"
-      ],
-      "correct": 1,
-      "explanation": "'Por si fuera poco' is used to add another negative element to a situation: 'Llovió, se me rompió el coche y, por si fuera poco, se me olvidaron las llaves.' (It rained, my car broke down, and to make matters worse, I forgot my keys.)"
-    },
-    {
-      "type": "matching",
-      "question": "Match the professional Spanish terms with their English meanings:",
-      "pairs": [
-        { "target": "el periodo de prueba", "source": "probationary period" },
-        { "target": "la dimisión", "source": "resignation" },
-        { "target": "la oferta de empleo", "source": "job offer" },
-        { "target": "el contrato indefinido", "source": "permanent contract" },
-        { "target": "la entrevista de trabajo", "source": "job interview" }
-      ],
-      "explanation": "These are essential terms for job hunting and workplace communication in Spanish."
-    },
-    {
-      "type": "exercise",
-      "question": "What does 'costar un ojo de la cara' mean?",
-      "options": [
-        "To cost exactly one eye",
-        "To be very expensive",
-        "To see clearly",
-        "To sacrifice something important"
-      ],
-      "correct": 1,
-      "explanation": "'Costar un ojo de la cara' literally means 'to cost an eye of the face' but means 'to cost an arm and a leg' — to be very expensive. 'Ese coche cuesta un ojo de la cara.' = That car costs a fortune."
-    },
-    {
-      "type": "fill-in-blank",
-      "question": "Complete with the correct pronoun form: 'Voy a _____ (se lo) dar a mi madre.' / 'Voy a dárselo.'",
-      "correct": "se lo",
-      "explanation": "With two pronouns (OI + OD) before an infinitive, they stay separate: 'voy a dárselo' or 'se lo voy a dar'. LE/LES changes to SE when combined with LO/LA/LOS/LAS (NOT 'le lo dar')."
-    },
-    {
-      "type": "exercise",
-      "question": "Which sentence correctly attaches pronouns to a gerundio?",
-      "options": [
-        "Estoy leyéndolo.",
-        "Estoy leyendolo.",
-        "Estoy leyendólo.",
-        "Estoy lo leyendo."
-      ],
-      "correct": 0,
-      "explanation": "When attaching 'lo' to 'leyendo', the stress stays on 'yan' (same syllable as the original 'leyendo'). An accent is needed: leyéndolo. 'Estoy leyendolo' is wrong because it lacks the accent mark."
-    },
-    {
-      "type": "fill-in-blank",
-      "question": "Complete the Type 3 conditional: 'Si _____ (haber) llovido, no habríamos salido.'",
-      "correct": "hubiera",
-      "explanation": "Type 3 conditionals use 'si' + pluperfect subjunctive (hubiera llovido) + conditional perfect (habríamos salido). 'Si hubiera llovido, no habríamos salido' = If it had rained, we wouldn't have gone out."
-    },
-    {
-      "type": "exercise",
-      "question": "Which word means 'market share' in Spanish?",
-      "options": [
-        "la acción de mercado",
-        "la cuota de mercado",
-        "el porcentaje",
-        "la parte del mercado"
-      ],
-      "correct": 1,
-      "explanation": "'La cuota de mercado' is the standard Spanish term for 'market share.' 'Cuota' = quota/share, 'mercado' = market."
-    },
-    {
-      "type": "exercise",
-      "question": "'Si yo fuera tú, no lo haría.' This is an example of:",
-      "options": [
-        "Type 1 conditional (real)",
-        "Type 2 conditional (hypothetical advice)",
-        "Type 3 conditional (past regret)",
-        "A factual statement"
-      ],
-      "correct": 1,
-      "explanation": "'Si yo fuera tú, no lo haría' = 'If I were you, I wouldn't do it.' This is a Type 2 conditional used to give advice. It's hypothetical — I am NOT you."
-    },
-    {
-      "type": "fill-in-blank",
-      "question": "Complete with the correct pronoun placement: '_____ (Lo) estoy buscando por toda la casa.'",
-      "correct": "Lo",
-      "explanation": "Pronouns can go before the conjugated verb ('Lo estoy buscando') or attached to the gerundio ('Estoy buscándolo'). Both are correct. Starting with 'Lo estoy buscando' is slightly more common in speech."
-    },
-    {
-      "type": "exercise",
-      "question": "What does 'echar de menos' mean?",
-      "options": [
-        "To throw something away",
-        "To miss someone emotionally",
-        "To forget someone",
-        "To look for something"
-      ],
-      "correct": 1,
-      "explanation": "'Echar de menos' means to miss someone emotionally. It's different from 'extrañar' which can mean 'to be surprised by' or 'to miss' depending on context. 'Te echo de menos' = I miss you."
-    },
-    {
-      "type": "fill-in-blank",
-      "question": "Complete with the correct adverb: '_____ que llueva, iremos al parque.' (Perhaps)",
-      "correct": "Quizás",
-      "explanation": "'Quizás que...' or 'Quizá que...' (both forms accepted) = 'Perhaps/Maybe that...'. Note: 'quizás' is followed by subjunctive when expressing uncertainty: 'Quizás llueva' = Perhaps it will rain."
-    },
-    {
-      "type": "matching",
-      "question": "Match the adverbs with their English meanings:",
-      "pairs": [
-        { "target": "probablemente", "source": "probably" },
-        { "target": "definitivamente", "source": "definitely" },
-        { "target": "aproximadamente", "source": "approximately" },
-        { "target": "literalmente", "source": "literally" },
-        { "target": "de hecho", "source": "in fact" }
-      ],
-      "explanation": "These adverbs are essential for B2-level fluency. Note: 'definitivamente' in Spanish often means 'without doubt' rather than the English 'finally/in the end'."
-    },
-    {
-      "type": "exercise",
-      "question": "What is the LE→SE change rule about?",
-      "options": [
-        "Le becomes se before vowels",
-        "Le/les becomes se when combined with lo/la/los/las",
-        "Se replaces le in all contexts",
-        "Le changes to se at the end of words"
-      ],
-      "correct": 1,
-      "explanation": "When le/les (indirect object) is combined with lo/la/los/las (direct object), 'le' changes to 'se' to avoid the awkward 'le lo' sound: 'Se lo di' (I gave it to him), NOT 'Le lo di'. This is a mandatory change in Spanish."
-    },
-    {
-      "type": "exercise",
-      "question": "Which is the correct conditional perfect form of 'venir'?",
-      "options": [
-        "vendría",
-        "habría venido",
-        "habría venir",
-        "vendría habido"
-      ],
-      "correct": 1,
-      "explanation": "Conditional perfect = conditional of HABER (habría) + past participle (venido). 'Había venido' is pluperfect indicative. 'Venir' past participle is 'venido', not 'venir' (infinitive)."
-    },
-    {
-      "type": "fill-in-blank",
-      "question": "Complete with the correct conditional form: 'Si tuviera tiempo, _____ (leer) más libros.'",
-      "correct": "leería",
-      "explanation": "Type 2 conditional: Si + imperfect subjunctive (tuviera) + conditional simple (leería). 'Si tuviera tiempo, leería más libros' = If I had time, I would read more books."
-    },
-    {
-      "type": "exercise",
-      "question": "What does 'irse de capa caída' (or 'ir de capa caída') describe?",
-      "options": [
-        "To wear a cape",
-        "To be in decline / doing badly",
-        "To fall down",
-        "To go to a costume party"
-      ],
-      "correct": 1,
-      "explanation": "'Ir de capa caída' literally means 'to go with the cape fallen' — imagine a matador's cape dragging on the ground, defeated. Figuratively: a business, relationship, or situation that is in decline."
-    },
-    {
-      "type": "conjugation-matrix",
-      "question": "Conjugate HABER in the pluperfect subjunctive (-ra form) for all persons:",
-      "verb": "HABER",
-      "tenses": ["imperfect_subjunctive_ra"],
-      "explanation": "The pluperfect subjunctive of HABER (hubiera/hubieras/hubiera/hubiéramos/hubierais/hubieran) is essential for Type 3 conditionals. It's formed from the imperfect subjunctive of HABER + past participle."
-    },
-    {
-      "type": "exercise",
-      "question": "'Llevo dos semanas sin _____ (ver) a mi hermana.' What form goes in the blank?",
-      "options": [
-        "viendo",
-        "ver",
-        "visto",
-        "viendo"
-      ],
-      "correct": 1,
-      "explanation": "'Llevar + tiempo + sin + infinitivo' = 'hasn't done something for [time].' 'Llevo dos semanas sin ver a mi hermana' = I haven't seen my sister for two weeks. After 'sin,' use the infinitive."
-    },
-    {
-      "type": "fill-in-blank",
-      "question": "Complete with the correct double pronoun attached to infinitivo: 'Voy a _____ (darles) los libros a ellos.'",
-      "correct": "dárselos",
-      "explanation": "'Dar + les + los' = 'dárselos' (les becomes se + los). 'Voy a dárselos a ellos' = I'm going to give them to them. Note the accent on 'dar' to maintain the original stress."
-    }
+    { "id": "haber", "infinitive": "HABER", "translation": "to have (auxiliary)" },
+    { "id": "deber", "infinitive": "DEBER", "translation": "must / should / to owe" },
+    { "id": "poder", "infinitive": "PODER", "translation": "to be able to / can" },
+    { "id": "saber", "infinitive": "SABER", "translation": "to know / to find out" },
+    { "id": "querer", "infinitive": "QUERER", "translation": "to want / to love" },
+    { "id": "decir", "infinitive": "DECIR", "translation": "to say / to tell" },
+    { "id": "venir", "infinitive": "VENIR", "translation": "to come" },
+    { "id": "hacer", "infinitive": "HACER", "translation": "to do / to make" }
   ]
 }

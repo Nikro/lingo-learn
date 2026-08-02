@@ -1,0 +1,142 @@
+{
+  "id": "health-wellness",
+  "title": "Health, Wellness & Ethics",
+  "description": "Discuss healthcare systems, medical ethics, lifestyle choices, and public health policy.",
+  "vocabulary": [
+    { "id": 1, "target": "el sistema de salud", "source": "healthcare system", "gender": "m.", "type": "noun" },
+    { "id": 2, "target": "la salud pública", "source": "public health", "gender": "f.", "type": "noun" },
+    { "id": 3, "target": "la salud mental", "source": "mental health", "gender": "f.", "type": "noun" },
+    { "id": 4, "target": "la salud física", "source": "physical health", "gender": "f.", "type": "noun" },
+    { "id": 5, "target": "el hospital", "source": "hospital", "gender": "m.", "type": "noun" },
+    { "id": 6, "target": "la clínica", "source": "clinic", "gender": "f.", "type": "noun" },
+    { "id": 7, "target": "el médico / la médica", "source": "doctor", "gender": "m./f.", "type": "noun" },
+    { "id": 8, "target": "la enfermera", "source": "nurse (f.)", "gender": "f.", "type": "noun" },
+    { "id": 9, "target": "la receta médica", "source": "prescription", "gender": "f.", "type": "noun" },
+    { "id": 10, "target": "la vacuna", "source": "vaccine", "gender": "f.", "type": "noun" },
+    { "id": 11, "target": "la vacunación", "source": "vaccination", "gender": "f.", "type": "noun" },
+    { "id": 12, "target": "el tratamiento", "source": "treatment", "gender": "m.", "type": "noun" },
+    { "id": 13, "target": "la enfermedad crónica", "source": "chronic illness", "gender": "f.", "type": "noun" },
+    { "id": 14, "target": "la epidemia", "source": "epidemic", "gender": "f.", "type": "noun" },
+    { "id": 15, "target": "la pandemia", "source": "pandemic", "gender": "f.", "type": "noun" },
+    { "id": 16, "target": "el brote", "source": "outbreak", "gender": "m.", "type": "noun" },
+    { "id": 17, "target": "la prevención", "source": "prevention", "gender": "f.", "type": "noun" },
+    { "id": 18, "target": "la obesidad", "source": "obesity", "gender": "f.", "type": "noun" },
+    { "id": 19, "target": "la depresión", "source": "depression", "gender": "f.", "type": "noun" },
+    { "id": 20, "target": "la ansiedad", "source": "anxiety", "gender": "f.", "type": "noun" },
+    { "id": 21, "target": "el estrés", "source": "stress", "gender": "m.", "type": "noun" },
+    { "id": 22, "target": "el bienestar", "source": "wellness / well-being", "gender": "m.", "type": "noun" },
+    { "id": 23, "target": "el ejercicio físico", "source": "physical exercise", "gender": "m.", "type": "noun" },
+    { "id": 24, "target": "la dieta equilibrada", "source": "balanced diet", "gender": "f.", "type": "noun" },
+    { "id": 25, "target": "el sueño reparador", "source": "restorative sleep", "gender": "m.", "type": "noun" },
+    { "id": 26, "target": "la ética médica", "source": "medical ethics", "gender": "f.", "type": "noun" },
+    { "id": 27, "target": "el consentimiento informado", "source": "informed consent", "gender": "m.", "type": "noun" },
+    { "id": 28, "target": "la eutanasia", "source": "euthanasia", "gender": "f.", "type": "noun" },
+    { "id": 29, "target": "la clonación", "source": "cloning", "gender": "f.", "type": "noun" },
+    { "id": 30, "target": "la investigación médica", "source": "medical research", "gender": "f.", "type": "noun" },
+    { "id": 31, "target": "el ensayo clínico", "source": "clinical trial", "gender": "m.", "type": "noun" },
+    { "id": 32, "target": "el seguro de salud", "source": "health insurance", "gender": "m.", "type": "noun" },
+    { "id": 33, "target": "gratuito/a", "source": "free (no cost)", "gender": "m./f.", "type": "adjective" },
+    { "id": 34, "target": "universal", "source": "universal", "gender": "m./f.", "type": "adjective" },
+    { "id": 35, "target": "accesible", "source": "accessible", "gender": "m./f.", "type": "adjective" },
+    { "id": 36, "target": "inaccesible", "source": "inaccessible", "gender": "m./f.", "type": "adjective" },
+    { "id": 37, "target": "la alimentación", "source": "nutrition / feeding", "gender": "f.", "type": "noun" },
+    { "id": 38, "target": "el sedentarismo", "source": "sedentary lifestyle", "gender": "m.", "type": "noun" },
+    { "id": 39, "target": "el tabaquismo", "source": "smoking addiction", "gender": "m.", "type": "noun" },
+    { "id": 40, "target": "el alcoholismo", "source": "alcoholism", "gender": "m.", "type": "noun" }
+  ],
+  "grammar": [
+    {
+      "title": "Ser vs. Estar in Medical Contexts",
+      "content": "The ser/estar distinction is critical in medical discourse. Understanding when to use each is essential.\n\nSer for:\n- Diagnosis (permanent or characteristic): 'Es diabético.' (He is diabetic.)\n- Medical profession: 'Es médico.' (He is a doctor.)\n- Cause of death: 'Falleció por cáncer.' (He died of cancer.)\n- Blood type: 'Es tipo A.' (He is type A.)\n\nEstar for:\n- Temporary conditions: 'Está resfriado.' (He has a cold.)\n- Location: 'Está en el hospital.' (He is in the hospital.)\n- Current state: 'Está mejor.' (He is better.)\n- Result of a medical procedure: 'La operación está programada.' (The operation is scheduled.)\n\nTricky cases:\n- 'Está enfermo' (He is sick — temporary state)\n- 'Es enfermero' (He is a nurse — profession)\n- 'La enfermedad es crónica' (The disease is chronic — characteristic)\n- 'El paciente está crónico' (The patient is chronically ill — current state)\n\nExamples:\n- Ella es cardióloga y trabaja en un hospital. (Profession + location)\n- El paciente está estable después de la cirugía. (Current state)\n- La diabetes es una enfermedad crónica. (Characteristic)\n- Está mejorando, pero todavía necesita tratamiento. (Current state of recovery)",
+      "examples": [
+        "El paciente es diabético, pero está controlado con insulina.",
+        "La operación está programada para el lunes. (Scheduled = current arrangement)",
+        "El cáncer es una de las principales causas de muerte. (Characteristic)",
+        "Está mejorando rápidamente, lo cual es una buena señal."
+      ],
+      "aid_note": "Romanian doesn't have ser/estar distinction, so Romanian speakers need to consciously learn when each applies. The key is: permanent/characteristic = ser, temporary/state = estar."
+    },
+    {
+      "title": "Subjunctive in Health & Ethics Debates",
+      "content": "Health and ethics discussions require the subjunctive when expressing desires, concerns, and hypothetical scenarios.\n\nKey patterns:\n- Es importante que + subjunctive (It's important that)\n- Es necesario que + subjunctive (It's necessary that)\n- Se recomienda que + subjunctive (It's recommended that)\n- Ojalá que + subjunctive (I hope that)\n- Es dudoso que + subjunctive (It's doubtful that)\n- Negamos que + subjunctive (We deny that)\n\nExamples:\n- Es importante que los pacientes estén informados sobre los tratamientos.\n- Se recomienda que los niños reciban todas las vacunas.\n- Ojalá que se encontrara una cura para la enfermedad.\n- Es dudoso que la nueva droga sea efectiva a largo plazo.\n- Negamos que la investigación haya sido realizada de manera ética.",
+      "examples": [
+        "Es fundamental que el sistema de salud sea universal y gratuito.",
+        "Se recomienda que los ciudadanos se vacunen contra la gripe cada año.",
+        "Ojalá que se encontraran soluciones para la salud mental en el trabajo.",
+        "Es necesario que los ensayos clínicos sean transparentes y rigurosos."
+      ],
+      "aid_note": "Romanian: 'Este important să...', 'Se recomandă să...', 'Să fie...' (I hope that...). The subjunctive triggers are parallel."
+    }
+  ],
+  "pronunciation": [
+    {
+      "title": "Medical Vocabulary — Stress Patterns",
+      "content": "Medical terms in Spanish often have predictable stress patterns that help with both pronunciation and spelling.\n\nKey patterns:\n- Esdrújulas (always accented): 'antibiótico' (an-ti-bi-O-ti-ko), 'vacunación' (va-ku-na-TEE-on), 'anestesia' (a-ne-ste-SEE-ah)\n- Graves ending in -ción, -sión (always accented): 'explicación' (ek-spli-ka-TEE-on), 'presión' (pre-EE-on), 'complicación' (kom-pli-ka-TEE-on)\n- Agudas ending in -s, -n, -r (always accented): 'análisis' (a-NA-li-sis), 'tratamiento' (tra-ta-MIEN-to)\n\nPractice:\n- 'El tratamiento es necesario para la recuperación.'\n- 'La vacunación previene enfermedades graves.'\n- 'La ética médica es fundamental en la práctica clínica.'\n\nTip: Words ending in -ción/-sión always carry stress on the antepenultimate syllable and always carry an accent mark. This is a reliable rule.",
+      "examples": [
+        { "target": "antibiótico", "source": "an-ti-bi-O-ti-ko (esdrújula)" },
+        { "target": "vacunación", "source": "va-ku-na-TEE-on (grave with -ción)" },
+        { "target": "tratamiento", "source": "tra-ta-MIEN-to (aguda with -to)" }
+      ],
+      "aid_note": "Romanian medical terms follow Romanian stress rules, typically on the penultimate syllable. Spanish stress patterns for -ción/-sión words have no equivalent in Romanian."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "exercise",
+      "question": "Which is correct: 'Ella es enferma' or 'Ella está enferma'?",
+      "options": ["Ella es enferma", "Ella está enferma", "Both are correct", "Neither is correct"],
+      "correct": 1,
+      "explanation": "'Ella está enferma' (She is sick) — 'enferma' is a temporary state. 'Ella es enfermera' (She is a nurse) — profession uses 'ser'."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: 'Es importante que los pacientes _____ (estar) informados.'",
+      "correct": "estén",
+      "explanation": "'Es importante que' triggers the subjunctive. 'Estar' in ellos-form subjunctive = 'estén'."
+    },
+    {
+      "type": "exercise",
+      "question": "What does 'la eutanasia' mean?",
+      "options": ["Vaccination", "Euthanasia", "Cloning", "Genetics"],
+      "correct": 1,
+      "explanation": "'La eutanasia' = euthanasia — the practice of ending a life to relieve suffering. It's a key term in medical ethics."
+    },
+    {
+      "type": "matching",
+      "question": "Match the health terms:",
+      "pairs": [
+        { "target": "la pandemia", "source": "pandemic" },
+        { "target": "el sedentarismo", "source": "sedentary lifestyle" },
+        { "target": "el ensayo clínico", "source": "clinical trial" },
+        { "target": "la prevención", "source": "prevention" }
+      ],
+      "explanation": "These terms are essential for discussing public health and medical ethics."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete with ser/estar: 'El paciente _____ (estar) en el hospital para observación.'",
+      "correct": "está",
+      "explanation": "'Está' because it refers to location. The patient is physically in the hospital."
+    },
+    {
+      "type": "exercise",
+      "question": "What does 'gratuito/a' mean in healthcare?",
+      "options": ["Free (no cost)", "Mandatory", "Emergency", "Experimental"],
+      "correct": 0,
+      "explanation": "'Gratuito' = free of charge. In healthcare, it means accessible without cost to the patient."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: 'Se recomienda que los niños _____ (recibir) todas las vacunas.'",
+      "correct": "reciban",
+      "explanation": "'Se recomienda que' triggers the subjunctive. 'Recibir' in ellos-form subjunctive = 'reciban'."
+    },
+    {
+      "type": "exercise",
+      "question": "Which word means 'chronic illness'?",
+      "options": ["la epidemia", "la enfermedad crónica", "la pandemia", "el brote"],
+      "correct": 1,
+      "explanation": "'La enfermedad crónica' = chronic illness. 'Epidemia' = epidemic, 'pandemia' = pandemic, 'brote' = outbreak."
+    }
+  ]
+}

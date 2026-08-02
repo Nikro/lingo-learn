@@ -1,0 +1,216 @@
+{
+  "id": "reflexive-verbs",
+  "level": "a2-1",
+  "title": "Reflexive Verbs",
+  "description": "Master reflexive verbs (levantarse, ducharse, sentirse) and pronoun usage in Spanish.",
+  "vocabulary": [
+    {"id": 1, "target": "levantarse", "source": "to get up", "gender": "v", "type": "reflexive"},
+    {"id": 2, "target": "ducharse", "source": "to shower", "gender": "v", "type": "reflexive"},
+    {"id": 3, "target": "vestirse", "source": "to get dressed", "gender": "v", "type": "reflexive"},
+    {"id": 4, "target": "desnudarse", "source": "to undress", "gender": "v", "type": "reflexive"},
+    {"id": 5, "target": "despertarse", "source": "to wake up", "gender": "v", "type": "reflexive"},
+    {"id": 6, "target": "acostarse", "source": "to go to bed", "gender": "v", "type": "reflexive"},
+    {"id": 7, "target": "dormirse", "source": "to fall asleep", "gender": "v", "type": "reflexive"},
+    {"id": 8, "target": "sentarse", "source": "to sit down", "gender": "v", "type": "reflexive"},
+    {"id": 9, "target": "ponerse", "source": "to put on", "gender": "v", "type": "reflexive"},
+    {"id": 10, "target": "quitarse", "source": "to take off", "gender": "v", "type": "reflexive"},
+    {"id": 11, "target": "lavarse", "source": "to wash", "gender": "v", "type": "reflexive"},
+    {"id": 12, "target": "cepillarse", "source": "to brush", "gender": "v", "type": "reflexive"},
+    {"id": 13, "target": "peinarse", "source": "to comb/fix hair", "gender": "v", "type": "reflexive"},
+    {"id": 14, "target": "maquillarse", "source": "to put on makeup", "gender": "v", "type": "reflexive"},
+    {"id": 15, "target": "afeitarse", "source": "to shave", "gender": "v", "type": "reflexive"},
+    {"id": 16, "target": "enfermarse", "source": "to get sick", "gender": "v", "type": "reflexive"},
+    {"id": 17, "target": "curarse", "source": "to heal/get better", "gender": "v", "type": "reflexive"},
+    {"id": 18, "target": "sentirse", "source": "to feel", "gender": "v", "type": "reflexive"},
+    {"id": 19, "target": "encontrarse", "source": "to feel (state)", "gender": "v", "type": "reflexive"},
+    {"id": 20, "target": "divertirse", "source": "to have fun", "gender": "v", "type": "reflexive"},
+    {"id": 21, "target": "aburrirse", "source": "to get bored", "gender": "v", "type": "reflexive"},
+    {"id": 22, "target": "alegrarse", "source": "to be glad", "gender": "v", "type": "reflexive"},
+    {"id": 23, "target": "tristecerse", "source": "to become sad", "gender": "v", "type": "reflexive"},
+    {"id": 24, "target": "preocuparse", "source": "to worry", "gender": "v", "type": "reflexive"},
+    {"id": 25, "target": "relajarse", "source": "to relax", "gender": "v", "type": "reflexive"},
+    {"id": 26, "target": "equivocarse", "source": "to make a mistake", "gender": "v", "type": "reflexive"},
+    {"id": 27, "target": "atreverse", "source": "to dare", "gender": "v", "type": "reflexive"},
+    {"id": 28, "target": "quejarse", "source": "to complain", "gender": "v", "type": "reflexive"},
+    {"id": 29, "target": "acordarse", "source": "to remember", "gender": "v", "type": "reflexive"},
+    {"id": 30, "target": "olvidarse", "source": "to forget", "gender": "v", "type": "reflexive"},
+    {"id": 31, "target": "llamarse", "source": "to be called", "gender": "v", "type": "reflexive"},
+    {"id": 32, "target": "casarse", "source": "to get married", "gender": "v", "type": "reflexive"},
+    {"id": 33, "target": "divorciarse", "source": "to get divorced", "gender": "v", "type": "reflexive"},
+    {"id": 34, "target": "separarse", "source": "to separate", "gender": "v", "type": "reflexive"},
+    {"id": 35, "target": "mudarse", "source": "to move (residence)", "gender": "v", "type": "reflexive"},
+    {"id": 36, "target": "quedarse", "source": "to stay/remain", "gender": "v", "type": "reflexive"},
+    {"id": 37, "target": "acercarse", "source": "to approach", "gender": "v", "type": "reflexive"},
+    {"id": 38, "target": "alejarse", "source": "to move away", "gender": "v", "type": "reflexive"},
+    {"id": 39, "target": "prepararse", "source": "to prepare oneself", "gender": "v", "type": "reflexive"},
+    {"id": 40, "target": "organizarse", "source": "to organize oneself", "gender": "v", "type": "reflexive"},
+    {"id": 41, "target": "bano", "source": "bath/shower", "gender": "m", "type": "noun"},
+    {"id": 42, "target": "ducha", "source": "shower", "gender": "f", "type": "noun"},
+    {"id": 43, "target": "banera", "source": "bathtub", "gender": "f", "type": "noun"},
+    {"id": 44, "target": "espejo", "source": "mirror", "gender": "m", "type": "noun"},
+    {"id": 45, "target": "toalla", "source": "towel", "gender": "f", "type": "noun"},
+    {"id": 46, "target": "jabon", "source": "soap", "gender": "m", "type": "noun"},
+    {"id": 47, "target": "shampu", "source": "shampoo", "gender": "m", "type": "noun"},
+    {"id": 48, "target": "cepillo", "source": "brush", "gender": "m", "type": "noun"},
+    {"id": 49, "target": "peine", "source": "comb", "gender": "m", "type": "noun"},
+    {"id": 50, "target": "crema de afeitar", "source": "shaving cream", "gender": "f", "type": "noun"},
+    {"id": 51, "target": "maquinilla de afeitar", "source": "razor", "gender": "f", "type": "noun"},
+    {"id": 52, "target": "maquilaje", "source": "makeup", "gender": "m", "type": "noun"},
+    {"id": 53, "target": "ropa", "source": "clothes", "gender": "f", "type": "noun"},
+    {"id": 54, "target": "camisa", "source": "shirt", "gender": "f", "type": "noun"},
+    {"id": 55, "target": "pantalon", "source": "pants", "gender": "m", "type": "noun"},
+    {"id": 56, "target": "zapatos", "source": "shoes", "gender": "m", "type": "noun"},
+    {"id": 57, "target": "cama", "source": "bed", "gender": "f", "type": "noun"},
+    {"id": 58, "target": "almohada", "source": "pillow", "gender": "f", "type": "noun"},
+    {"id": 59, "target": "sabana", "source": "sheet", "gender": "f", "type": "noun"},
+    {"id": 60, "target": "cabeza", "source": "head", "gender": "f", "type": "noun"},
+    {"id": 61, "target": "cara", "source": "face", "gender": "f", "type": "noun"},
+    {"id": 62, "target": "dientes", "source": "teeth", "gender": "m", "type": "noun"},
+    {"id": 63, "target": "pelo", "source": "hair", "gender": "m", "type": "noun"},
+    {"id": 64, "target": "manos", "source": "hands", "gender": "f", "type": "noun"},
+    {"id": 65, "target": "cuerpo", "source": "body", "gender": "m", "type": "noun"},
+    {"id": 66, "target": "san0", "source": "healthy", "gender": "m", "type": "adjective"},
+    {"id": 67, "target": "enfermo", "source": "sick", "gender": "m", "type": "adjective"},
+    {"id": 68, "target": "cansado", "source": "tired", "gender": "m", "type": "adjective"},
+    {"id": 69, "target": "contento", "source": "happy", "gender": "m", "type": "adjective"},
+    {"id": 70, "target": "triste", "source": "sad", "gender": "m", "type": "adjective"},
+    {"id": 71, "target": "aburrido", "source": "bored", "gender": "m", "type": "adjective"},
+    {"id": 72, "target": "divertido", "source": "fun", "gender": "m", "type": "adjective"},
+    {"id": 73, "target": "preocupado", "source": "worried", "gender": "m", "type": "adjective"},
+    {"id": 74, "target": "relajado", "source": "relaxed", "gender": "m", "type": "adjective"},
+    {"id": 75, "target": "listo", "source": "ready", "gender": "m", "type": "adjective"},
+    {"id": 76, "target": "despierto", "source": "awake", "gender": "m", "type": "adjective"},
+    {"id": 77, "target": "dormido", "source": "asleep", "gender": "m", "type": "adjective"},
+    {"id": 78, "target": "de pie", "source": "standing", "gender": "m", "type": "phrase"},
+    {"id": 79, "target": "sentado", "source": "sitting", "gender": "m", "type": "adjective"},
+    {"id": 80, "target": "acostado", "source": "lying down", "gender": "m", "type": "adjective"},
+    {"id": 81, "target": "la manana", "source": "morning", "gender": "f", "type": "time"},
+    {"id": 82, "target": "la noche", "source": "night", "gender": "f", "type": "time"},
+    {"id": 83, "target": "el mediodia", "source": "noon", "gender": "m", "type": "time"},
+    {"id": 84, "target": "la medianoche", "source": "midnight", "gender": "f", "type": "time"},
+    {"id": 85, "target": "temprano", "source": "early", "gender": "adv", "type": "adverb"},
+    {"id": 86, "target": "tarde", "source": "late", "gender": "adv", "type": "adverb"},
+    {"id": 87, "target": "siempre", "source": "always", "gender": "adv", "type": "adverb"},
+    {"id": 88, "target": "a veces", "source": "sometimes", "gender": "adv", "type": "adverb"},
+    {"id": 89, "target": "cada dia", "source": "every day", "gender": "m", "type": "phrase"},
+    {"id": 90, "target": "todos los dias", "source": "every day", "gender": "m", "type": "phrase"},
+    {"id": 91, "target": "por la manana", "source": "in the morning", "gender": "f", "type": "phrase"},
+    {"id": 92, "target": "por la noche", "source": "at night", "gender": "f", "type": "phrase"},
+    {"id": 93, "target": "antes de", "source": "before", "gender": "prep", "type": "preposition"},
+    {"id": 94, "target": "despues de", "source": "after", "gender": "prep", "type": "preposition"},
+    {"id": 95, "target": "a las ocho", "source": "at eight o'clock", "gender": "f", "type": "phrase"},
+    {"id": 96, "target": "la rutina", "source": "the routine", "gender": "f", "type": "noun"},
+    {"id": 97, "target": "la costumbre", "source": "the habit", "gender": "f", "type": "noun"},
+    {"id": 98, "target": "el habito", "source": "the habit", "gender": "m", "type": "noun"},
+    {"id": 99, "target": "el horario", "source": "the schedule", "gender": "m", "type": "noun"},
+    {"id": 100, "target": "el turno", "source": "the shift", "gender": "m", "type": "noun"}
+  ],
+  "grammar": [
+    {
+      "title": "Reflexive Pronouns and Verb Conjugation",
+      "content": "Reflexive verbs indicate the action is performed by the subject on itself.\\n\\nReflexive pronouns:\\nme (myself)\\nte (yourself informal)\\nse (himself/herself/yourself formal)\\nnos (ourselves)\\nos (yourselves informal Spain)\\nse (themselves/yourselves formal)\\n\\nPosition: BEFORE the conjugated verb, or attached to the infinitive:\\nMe levanto. (I get up.)\\nVoy a ducharme. (I'm going to shower.)\\n\\nIn present tense:\\nMe levanto. (I get up.)\\nTe levantas. (You get up.)\\nSe levanta. (He/She gets up.)\\nNos levantamos. (We get up.)\\nOs levantais. (You all get up, Spain.)\\nSe levantan. (They get up.)\\n\\nIn preterite:\\nMe levante. (I got up.)\\nSe levantó. (He/She got up.)",
+      "examples": [
+        "Me ducho todas las mananas. (I shower every morning.)",
+        "A que hora te despiertas? (What time do you wake up?)",
+        "Nos vestimos rapido. (We get dressed quickly.)",
+        "Se sintió mal. (He felt bad.)"
+      ]
+    },
+    {
+      "title": "Daily Routine with Reflexive Verbs",
+      "content": "Typical daily routine reflexive verbs:\\n\\nMorning routine:\\nMe despierto a las siete. (I wake up at seven.)\\nMe levanto inmediatamente. (I get up immediately.)\\nMe ducho con agua fria. (I shower with cold water.)\\nMe lavo los dientes. (I brush my teeth.)\\nMe peino el pelo. (I comb my hair.)\\nMe visto. (I get dressed.)\\n\\nEvening routine:\\nMe deshago la cama. (I make the bed.) → actually: Hacer la cama (to make the bed)\\nMe como. → This is NOT reflexive! Comerse is for eating with emphasis.\\nMe acuesto a las once. (I go to bed at eleven.)\\nMe duermo rapido. (I fall asleep quickly.)\\n\\nNote: Body parts use definite article, not possessive:\\nMe lavo las manos. (I wash my hands.) — NOT 'mis manos'",
+      "examples": [
+        "A que hora te despiertas? (What time do you wake up?)\\nMe despierto a las 7. (I wake up at 7.)",
+        "Primero me ducho y luego me visto. (First I shower and then I get dressed.)",
+        "Me acuesto muy tarde los fines de semana. (I go to bed very late on weekends.)"
+      ]
+    },
+    {
+      "title": "Emotional and Mental State Reflexive Verbs",
+      "content": "Psychological/emotional reflexive verbs:\\n\\nSentir(sentirse) - to feel:\\nMe siento bien. (I feel well.)\\nTe sientes triste? (Do you feel sad?)\\nSe siente solo. (He feels lonely.)\\n\\nEncontrarse - to feel (state):\\nMe encuentro mal. (I feel sick.)\\nTe encuentras mejor? (Do you feel better?)\\n\\nOther emotional reflexives:\\nMe alegro de verte. (I'm glad to see you.)\\nSe preocupó mucho. (He worried a lot.)\\nNos aburrimos en la fiesta. (We got bored at the party.)\\nSe enfado conmigo. (He got angry with me.)\\n\\nNon-reflexive vs reflexive:\\nAburrí a todos. (I bored everyone.) vs. Me aburro. (I get bored.)\\nPreocupo a mi madre. (I worry my mother.) vs. Me preocupo. (I worry.)",
+      "examples": [
+        "Como te sientes? (How do you feel?)\\nMe siento cansado. (I feel tired.)",
+        "Me alegro de que hayas venido. (I'm glad you came.)",
+        "No te preocupes por eso. (Don't worry about that.)",
+        "Nos divertimos mucho en el concierto. (We had a lot of fun at the concert.)"
+      ]
+    }
+  ],
+  "pronunciation": [
+    {
+      "title": "Reflexive Verbs Pronunciation",
+      "content": "Reflexive pronouns are unstressed, so they blend with the verb:\\n\\nme = meh\\nte = teh\\nse = seh\\nnos = nos\\nos = os (Spain)\\nse = seh\\n\\nWhen attached to infinitive/gerund, they form one word:\\nlevantarse = leh-ban-TAR-seh\\nducharse = doo-CHAR-seh\\ndespertarse = des-pehr-TAR-seh\\n\\nWith conjugated verb (pronoun before):\\nMe levanto. (meh leh-VAN-toh)\\nTe duchas. (teh DOO-chahs)\\nSe levanta. (seh leh-VAN-tah)\\n\\nPreterite reflexive:\\nMe levanté. (meh leh-van-TEH) — accent appears on verb\\nSe duchó. (seh doo-CHO) — accent on pronoun",
+      "examples": [
+        "levantarse = leh-ban-TAR-seh\\ndespertarse = des-pehr-TAR-seh\\nducharse = doo-CHAR-seh",
+        "Me ducho. = meh DOO-choh\\nTe levantas. = teh leh-VAN-tahs\\nSe acuesta. = seh ah-KWES-tah"
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "multiple-choice",
+      "question": "What is the correct reflexive form of 'I wake up' in present tense?",
+      "options": ["Yo despierto", "Yo me despierto", "Yo se despierto", "Yo despierto me"],
+      "correct": 1,
+      "explanation": "Me despierto = I wake up. Reflexive pronoun 'me' comes before the conjugated verb."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: '___ ducho todas las mananas. (I shower every morning.)'",
+      "correct": "Me",
+      "explanation": "Me ducho = I shower. Reflexive verb ducharse requires 'me' pronoun."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "How do you say 'I get dressed' in Spanish?",
+      "options": ["Yo visto", "Yo me visto", "Yo me vesto", "Yo visto me"],
+      "correct": 1,
+      "explanation": "Vestirse is reflexive: 'Yo me visto' = I get dressed."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: 'A que hora te ___? (What time do you wake up?)'",
+      "correct": "despiertas",
+      "explanation": "Despertarse = to wake up. 'Te despiertas' = you wake up (informal)."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Which is correct: 'I brush my teeth' in Spanish?",
+      "options": ["Yo cepillo mis dientes", "Yo me cepillo los dientes", "Yo cepillo me los dientes", "Yo me cepillo los dientes"],
+      "correct": 3,
+      "explanation": "Body parts use definite article, not possessive: 'Me cepillo los dientes' = I brush my teeth."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: 'Me ___ bien hoy. (I feel good today.)'",
+      "correct": "siento",
+      "explanation": "Sentirse = to feel. 'Me siento bien' = I feel good/well."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "How do you say 'We had fun' in Spanish?",
+      "options": ["Nosotros divirtimos", "Nosotros nos divertimos", "Nosotros se divirtieron", "Nosotros divirtieron"],
+      "correct": 1,
+      "explanation": "Divertirse = to have fun. 'Nos divertimos' = We had fun (past tense)."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: 'No te ___ por eso. (Don't worry about that.)'",
+      "correct": "preocupes",
+      "explanation": "Preocuparse = to worry. In negative command: 'No te preocupes' = Don't worry."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What does 'Me acuesto' mean?",
+      "options": ["I get up", "I get dressed", "I go to bed", "I fall asleep"],
+      "correct": 2,
+      "explanation": "Acostarse = to go to bed. 'Me acuesto' = I go to bed / I lie down."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: 'Ellos se ___ muy Contentos. (They felt very happy.)'",
+      "correct": "sintieron",
+      "explanation": "Sentirse in preterite: 'Se sintieron' = They felt. 'Sintieron' is the preterite form."
+    }
+  ]
+}

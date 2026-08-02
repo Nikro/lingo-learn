@@ -1,0 +1,294 @@
+{
+  "id": "culture-traditions",
+  "level": "a2-1",
+  "title": "Culture & Traditions",
+  "description": "Talk about festivals, customs, traditions, and cultural practices. Describe celebrations, traditional food, and cultural differences using gustar, ser vs. estar, and possessive adjectives.",
+  "vocabulary": [
+    {"id": 1, "target": "la cultura", "source": "the culture", "gender": "f", "type": "noun"},
+    {"id": 2, "target": "la tradición", "source": "the tradition", "gender": "f", "type": "noun"},
+    {"id": 3, "target": "la costumbre", "source": "the custom / habit", "gender": "f", "type": "noun"},
+    {"id": 4, "target": "la festividad", "source": "the festival / celebration", "gender": "f", "type": "noun"},
+    {"id": 5, "target": "la celebración", "source": "the celebration", "gender": "f", "type": "noun"},
+    {"id": 6, "target": "la fiesta", "source": "the party / festival", "gender": "f", "type": "noun"},
+    {"id": 7, "target": "el festival", "source": "the festival", "gender": "m", "type": "noun"},
+    {"id": 8, "target": "el carnaval", "source": "the carnival", "gender": "m", "type": "noun"},
+    {"id": 9, "target": "la feria", "source": "the fair / fiesta", "gender": "f", "type": "noun"},
+    {"id": 10, "target": "la procesión", "source": "the procession", "gender": "f", "type": "noun"},
+    {"id": 11, "target": "el ritual", "source": "the ritual", "gender": "m", "type": "noun"},
+    {"id": 12, "target": "la ceremonia", "source": "the ceremony", "gender": "f", "type": "noun"},
+    {"id": 13, "target": "la herencia", "source": "the heritage / legacy", "gender": "f", "type": "noun"},
+    {"id": 14, "target": "el legado", "source": "the legacy", "gender": "m", "type": "noun"},
+    {"id": 15, "target": "la raíz", "source": "the root / origin", "gender": "f", "type": "noun"},
+    {"id": 16, "target": "el origen", "source": "the origin", "gender": "m", "type": "noun"},
+    {"id": 17, "target": "la identidad", "source": "the identity", "gender": "f", "type": "noun"},
+    {"id": 18, "target": "el folclore", "source": "the folklore", "gender": "m", "type": "noun"},
+    {"id": 19, "target": "el baile folclórico", "source": "folk dance", "gender": "m", "type": "noun"},
+    {"id": 20, "target": "la música tradicional", "source": "traditional music", "gender": "f", "type": "noun"},
+    {"id": 21, "target": "Navidad", "source": "Christmas", "gender": "f", "type": "noun"},
+    {"id": 22, "target": "año nuevo", "source": "New Year", "gender": "m", "type": "noun"},
+    {"id": 23, "target": "Semana Santa", "source": "Holy Week / Easter", "gender": "f", "type": "noun"},
+    {"id": 24, "target": "Día de los Muertos", "source": "Day of the Dead", "gender": "m", "type": "noun"},
+    {"id": 25, "target": "el Día de la Independencia", "source": "Independence Day", "gender": "m", "type": "noun"},
+    {"id": 26, "target": "la cosecha", "source": "the harvest", "gender": "f", "type": "noun"},
+    {"id": 27, "target": "la víspera", "source": "the eve", "gender": "f", "type": "noun"},
+    {"id": 28, "target": "la nochebuena", "source": "Christmas Eve", "gender": "f", "type": "noun"},
+    {"id": 29, "target": "los Reyes Magos", "source": "Three Wise Men / Epiphany", "gender": "m pl", "type": "noun"},
+    {"id": 30, "target": "San Valentín", "source": "Valentine's Day", "gender": "m", "type": "noun"},
+    {"id": 31, "target": "la comida típica", "source": "typical food", "gender": "f", "type": "noun"},
+    {"id": 32, "target": "el platillo", "source": "the dish", "gender": "m", "type": "noun"},
+    {"id": 33, "target": "la receta", "source": "the recipe", "gender": "f", "type": "noun"},
+    {"id": 34, "target": "el ingrediente", "source": "the ingredient", "gender": "m", "type": "noun"},
+    {"id": 35, "target": "la especia", "source": "the spice", "gender": "f", "type": "noun"},
+    {"id": 36, "target": "el plato nacional", "source": "the national dish", "gender": "m", "type": "noun"},
+    {"id": 37, "target": "la bebida típica", "source": "typical drink", "gender": "f", "type": "noun"},
+    {"id": 38, "target": "el postre", "source": "the dessert", "gender": "m", "type": "noun"},
+    {"id": 39, "target": "el desayuno", "source": "breakfast", "gender": "m", "type": "noun"},
+    {"id": 40, "target": "el almuerzo", "source": "lunch", "gender": "m", "type": "noun"},
+    {"id": 41, "target": "la cena", "source": "dinner", "gender": "f", "type": "noun"},
+    {"id": 42, "target": "el traje típico", "source": "traditional clothing / dress", "gender": "m", "type": "noun"},
+    {"id": 43, "target": "el vestido tradicional", "source": "traditional dress", "gender": "m", "type": "noun"},
+    {"id": 44, "target": "la máscara", "source": "the mask", "gender": "f", "type": "noun"},
+    {"id": 45, "target": "el sombrero", "source": "the hat", "gender": "m", "type": "noun"},
+    {"id": 46, "target": "el instrumento musical", "source": "the musical instrument", "gender": "m", "type": "noun"},
+    {"id": 47, "target": "la guitarra", "source": "the guitar", "gender": "f", "type": "noun"},
+    {"id": 48, "target": "el tambor", "source": "the drum", "gender": "m", "type": "noun"},
+    {"id": 49, "target": "el maracas", "source": "the maracas", "gender": "m pl", "type": "noun"},
+    {"id": 50, "target": "la artesanía", "source": "handicraft / folk art", "gender": "f", "type": "noun"},
+    {"id": 51, "target": "el artesano", "source": "the craftsman / artisan", "gender": "m", "type": "noun"},
+    {"id": 52, "target": "el museo", "source": "the museum", "gender": "m", "type": "noun"},
+    {"id": 53, "target": "la galería", "source": "the gallery", "gender": "f", "type": "noun"},
+    {"id": 54, "target": "la exhibición", "source": "the exhibition", "gender": "f", "type": "noun"},
+    {"id": 55, "target": "el artista", "source": "the artist", "gender": "m", "type": "noun"},
+    {"id": 56, "target": "el escritor", "source": "the writer / author", "gender": "m", "type": "noun"},
+    {"id": 57, "target": "el escritor/a", "source": "the writer / author", "gender": "f", "type": "noun"},
+    {"id": 58, "target": "el músico", "source": "the musician", "gender": "m", "type": "noun"},
+    {"id": 59, "target": "el danzante", "source": "the dancer", "gender": "m", "type": "noun"},
+    {"id": 60, "target": "la comunidad", "source": "the community", "gender": "f", "type": "noun"},
+    {"id": 61, "target": "el pueblo", "source": "the village / people", "gender": "m", "type": "noun"},
+    {"id": 62, "target": "la región", "source": "the region", "gender": "f", "type": "noun"},
+    {"id": 63, "target": "el país", "source": "the country", "gender": "m", "type": "noun"},
+    {"id": 64, "target": "la provincia", "source": "the province", "gender": "f", "type": "noun"},
+    {"id": 65, "target": "la ciudad", "source": "the city", "gender": "f", "type": "noun"},
+    {"id": 66, "target": "el pueblo indígena", "source": "indigenous people", "gender": "m", "type": "noun"},
+    {"id": 67, "target": "el idioma", "source": "the language", "gender": "m", "type": "noun"},
+    {"id": 68, "target": "la lengua", "source": "the language", "gender": "f", "type": "noun"},
+    {"id": 69, "target": "la palabra", "source": "the word", "gender": "f", "type": "noun"},
+    {"id": 70, "target": "el saludo", "source": "the greeting", "gender": "m", "type": "noun"},
+    {"id": 71, "target": "el abrazo", "source": "the hug", "gender": "m", "type": "noun"},
+    {"id": 72, "target": "el beso (en la mejilla)", "source": "the kiss (on the cheek)", "gender": "m", "type": "noun"},
+    {"id": 73, "target": "la reverencia", "source": "the bow / curtsy", "gender": "f", "type": "noun"},
+    {"id": 74, "target": "aplaudir", "source": "to clap / applaud", "gender": "v", "type": "verb"},
+    {"id": 75, "target": "cantar", "source": "to sing", "gender": "v", "type": "verb"},
+    {"id": 76, "target": "bailar", "source": "to dance", "gender": "v", "type": "verb"},
+    {"id": 77, "target": "tocar (música)", "source": "to play (an instrument)", "gender": "v", "type": "verb"},
+    {"id": 78, "target": "pintar", "source": "to paint", "gender": "v", "type": "verb"},
+    {"id": 79, "target": "esculpir", "source": "to sculpt", "gender": "v", "type": "verb"},
+    {"id": 80, "target": "tejer", "source": "to weave", "gender": "v", "type": "verb"},
+    {"id": 81, "target": "cocinar", "source": "to cook", "gender": "v", "type": "verb"},
+    {"id": 82, "target": "preparar (comida)", "source": "to prepare (food)", "gender": "v", "type": "verb"},
+    {"id": 83, "target": "asistir a", "source": "to attend", "gender": "—", "type": "phrase"},
+    {"id": 84, "target": "visitar", "source": "to visit", "gender": "v", "type": "verb"},
+    {"id": 85, "target": "celebrar", "source": "to celebrate", "gender": "v", "type": "verb"},
+    {"id": 86, "target": "presenciar", "source": "to witness", "gender": "v", "type": "verb"},
+    {"id": 87, "target": "participar en", "source": "to participate in", "gender": "—", "type": "phrase"},
+    {"id": 88, "target": "respetar", "source": "to respect", "gender": "v", "type": "verb"},
+    {"id": 89, "target": "apreciar", "source": "to appreciate", "gender": "v", "type": "verb"},
+    {"id": 90, "target": "compartir", "source": "to share", "gender": "v", "type": "verb"},
+    {"id": 91, "target": "transmitir", "source": "to pass down / transmit", "gender": "v", "type": "verb"},
+    {"id": 92, "target": "heredar", "source": "to inherit", "gender": "v", "type": "verb"},
+    {"id": 93, "target": "conocer (una cultura)", "source": "to know / learn about (a culture)", "gender": "v", "type": "verb"},
+    {"id": 94, "target": "experimentar", "source": "to experience", "gender": "v", "type": "verb"},
+    {"id": 95, "target": "ser típico", "source": "to be typical", "gender": "adj", "type": "adj"},
+    {"id": 96, "target": "ser popular", "source": "to be popular", "gender": "adj", "type": "adj"},
+    {"id": 97, "target": "ser importante", "source": "to be important", "gender": "adj", "type": "adj"},
+    {"id": 98, "target": "ser antiguo", "source": "to be old / ancient", "gender": "adj", "type": "adj"},
+    {"id": 99, "target": "ser auténtico", "source": "to be authentic", "gender": "adj", "type": "adj"},
+    {"id": 100, "target": "ser colorido", "source": "to be colorful", "gender": "adj", "type": "adj"}
+  ],
+  "grammar": [
+    {
+      "title": "Gustar, Encantar, Interesar — Expressing Likes and Preferences",
+      "content": "Spanish uses gustar (to be pleasing to) differently from English. It's not 'I like' but 'It pleases me.' The thing liked is the grammatical subject.\n\nBasic structure:\n- Me gusta + singular noun / infinitive (I like it)\n- Me gustan + plural noun (I like them)\n\nConjugation pattern:\n- Me gusta(n) (I like)\n- Te gusta(n) (You like — informal)\n- Le gusta(n) (He/She/You formal likes)\n- Nos gusta(n) (We like)\n- Os gusta(n) (You all like — Spain)\n- Les gusta(n) (They/You all like)\n\nKey rules:\n1. 'Gustar' + singular noun: Me gusta la música.\n2. 'Gustar' + plural noun: Me gustan las fiestas.\n3. 'Gustar' + infinitive (always singular): Me gusta bailar.\n4. 'Encantar' (to love / to be fascinating): Me encanta la cultura.\n5. 'Interesar' (to interest): Me interesa la historia.\n\nOther verbs that work like gustar:\n- Importar: Me importa la tradición.\n- Doler: Me duele la cabeza.\n- Preocupar: Me preocupa el futuro.\n\nWith gustar, you also indicate who it belongs to:\n- Me gusta el libro de mi amigo. (I like my friend's book.)\n- Les gusta la comida de la abuela. (They like grandma's food.)",
+      "examples": [
+        "Me gusta la música folclórica. (I like folk music.)",
+        "Me encantan las fiestas tradicionales. (I love traditional festivals.)",
+        "¿Te gusta cocinar platos típicos? (Do you like cooking typical dishes?)",
+        "A ella le gusta visitar museos. (She likes visiting museums.)",
+        "Nos encanta participar en la celebración. (We love participating in the celebration.)",
+        "Les interesa la herencia cultural de su país. (They are interested in their country's cultural heritage.)"
+      ],
+      "aid_note": "Romanian uses 'îmi place' (it pleases me) which is actually closer to Spanish gustar than English 'I like'. 'Îmi place muzica' = 'Me gusta la música'. However, Romanian uses the same word order (subject-verb-object) while Spanish flips it: the thing you like is the subject. For Romanian speakers, think: gustar = 'a plăcea'. 'Îmi place cultura' → 'Me gusta la cultura.' The key difference is that Spanish requires the definite article: 'Me gusta la música' not 'Me gusta música'. Also, the same construction works with other verbs: 'îmi place' → 'me gusta', 'îmi place foarte mult' → 'me encanta'."
+    },
+    {
+      "title": "Possessive Adjectives — My, Your, His, Our",
+      "content": "Possessive adjectives agree in gender and number with the thing possessed, NOT with the owner.\n\nShort forms (before a noun):\n- mi / mis (my) — mi casa, mis amigos\n- tu / tus (your — informal) — tu libro, tus vacaciones\n- su / sus (his / her / its / your formal / their) — su familia, sus tradiciones\n- nuestro/a / nuestros/as (our) — nuestro pueblo, nuestra cultura\n- vuestro/a / vuestros/as (your — Spain, informal plural) — vuestros padres, vuestras fiestas\n\nLong forms (after a noun, or after 'ser'):\n- el mío / la mía / los míos / las mías (mine)\n- el tuyo / la tuya / los tuyos / las tuyas (yours)\n- el suyo / la suya / los suyos / las suyas (his / hers / yours / theirs)\n- el nuestro / la nuestra / los nuestros / las nuestras (ours)\n\nImportant notes:\n1. 'Su' and 'sus' are ambiguous — context tells you who owns what:\n   - Su fiesta (his/her/your formal/their party)\n   - Clarify: la fiesta de él / la fiesta de ella / la fiesta de ustedes\n2. Short forms must agree with the NOUN, not the owner:\n   - Mi hermana (my sister — 'mi' agrees with 'hermana', feminine)\n   - Mis hermanas (my sisters — 'mis' agrees with 'hermanas', plural)\n3. 'Nuestro/a' and 'vuestro/a' change gender:\n   - Nuestro abuelo (our grandfather — masculine)\n   - Nuestra abuela (our grandmother — feminine)",
+      "examples": [
+        "Mi tradición favorita es la Navidad. (My favorite tradition is Christmas.)",
+        "¿Dónde están tus costumbres? (Where are your customs?)",
+        "Su cultura es muy rica. (His/her culture is very rich.)",
+        "Nuestra herencia es antigua. (Our heritage is old / ancient.)",
+        "¿Te gusta la comida de tu abuela? (Do you like your grandma's food?)",
+        "Las tradiciones de mi familia son importantes. (My family's traditions are important.)"
+      ],
+      "aid_note": "Romanian possessive adjectives have a similar agreement pattern: 'casa mea' (my house), 'casa ta' (your house), 'casa lui' (his house), 'casa noastră' (our house). Spanish short forms (mi, tu, su) are invariable in Romanian — they're like English 'my/your'. The key difference is Spanish agrees with the possessed noun: 'mis hermanas' (my sisters — plural). Also, 'su' is ambiguous in Spanish (his/her/your/their), while Romanian uses 'lui/ea/nostră/voastră' which is more specific. The long forms (mío, tuyo, suyo) are similar to Romanian's 'al meu, a ta, al său'."
+    },
+    {
+      "title": "Ser vs. Estar — Cultural Descriptions",
+      "content": "At A2 level, you need to understand when to use ser vs. estar. For culture and traditions, both are used but with different meanings.\n\nUse SER for:\n- Permanent or inherent characteristics: La cultura mexicana es muy rica. (Mexican culture is very rich.)\n- Origin / nationality: Ella es de Colombia. (She is from Colombia.)\n- What something IS: La navidad es una tradición importante. (Christmas is an important tradition.)\n- Time and dates: Hoy es el Día de los Muertos. (Today is Day of the Dead.)\n\nUse ESTAR for:\n- Location: El festival está en el centro. (The festival is in the center.)\n- Temporary states: La fiesta está muy animada hoy. (The party is very lively today.)\n- Results and conditions: La comida está lista. (The food is ready.)\n- Present progressive: Estamos celebrando la fiesta. (We are celebrating the party.)\n\nSer vs. Estar with adjectives — meaning changes:\n- es interesante (it IS interesting — inherent quality)\n- está interesante (it IS interesting right now — current state)\n- es auténtico (it IS authentic — inherent quality)\n- está auténtico (it tastes authentic / it's in good shape)\n- es típico (it IS typical — characteristic of the culture)\n- está típico de... (it IS typical of... — a location-specific usage)\n\nCommon cultural expressions:\n- Es típico de [país/región] + verb. (It is typical of [country/region] to + verb)\n- Está en [lugar] + gerundio. (It is in [place] + -ing)\n\nExample: \"Es típico de España comer tapas.\" (It is typical of Spain to eat tapas.)\nExample: \"La feria está en la plaza principal.\" (The fair is in the main square.)",
+      "examples": [
+        "La tradición es parte de nuestra identidad. (The tradition is part of our identity.)",
+        "El museo está cerrado hoy. (The museum is closed today.)",
+        "Es típico de México comer tortillas todos los días. (It is typical of Mexico to eat tortillas every day.)",
+        "La celebración está en la plaza del pueblo. (The celebration is in the village square.)",
+        "La música es muy animada. (The music is very lively.)",
+        "La fiesta está muy animada esta noche. (The party is very lively tonight.)"
+      ],
+      "aid_note": "Romanian uses only one verb for 'to be' — 'a fi' (sunt, ești, este, etc.) — so Spanish ser vs. estar is a major conceptual leap. Think of it as Romanian having to choose between 'a fi' (permanent identity) and 'a se afla / a fi (stare temporară)' (temporary state) — but Spanish has two completely different conjugations. For Romanian learners: SER = a fi (permanent), ESTAR = a se afla / a fi (temporar) (location, temporary state). The key insight: when the adjective describes WHAT something IS (identity), use ser. When it describes WHERE or HOW SOMETHING IS (state/location), use estar."
+    },
+    {
+      "title": "Reflexive Verbs — Daily Customs and Routines",
+      "content": "Reflexive verbs describe actions that the subject does to itself. They're essential for talking about daily routines, cultural habits, and customs.\n\nFormation: reflexive pronoun + conjugated verb\n- Me (I) - Te (you informal) - Se (he/she/you formal)\n- Nos (we) - Os (you all — Spain) - Se (they/you all)\n\nCommon reflexive verbs:\n- levantarse (to get up) — Me levanto a las siete.\n- ducharse (to take a shower) — Se ducha por la mañana.\n- vestirse (to get dressed) — Nos vestimos con ropa tradicional.\n- despertarse (to wake up) — Me despierto temprano.\n- acostarse (to go to bed) — Me acuesto a medianoche.\n- lavarse (to wash oneself) — Nos lavamos las manos.\n- peinarse (to comb one's hair) — Se peina antes de la fiesta.\n- bañarse (to bathe/shower) — Se baña por la tarde.\n- divertirse (to have fun) — Nos divertimos en la feria.\n- ducharse (to shower) — Te ducho por la mañana.\n\nStem-changing reflexive verbs:\n- e → ie: divertirse (me divierto, te diviertes, se divierte)\n- o → ue: dormirse (me duermo, te duermes, se duerme)\n- e → i: vestirse (me visto, te vistes, se viste)\n\nCultural contexts:\n- En mi país, nos levantamos temprano los domingos.\n- En España, la gente se ducha por la noche.\n- En México, la familia se reúne para la cena.\n- En la fiesta, todos se divierten mucho.\n\nPosition of reflexive pronouns:\n1. Before conjugated verb: Me levanto temprano.\n2. Attached to infinitive: Voy a ducharme.\n3. Attached to gerund: Estoy levantándome.\n4. Attached to affirmative command: ¡Dúchate!\n\nNote: When using infinitives or gerunds, the pronoun can go before the conjugated verb or attached:\n- Voy a levantarme = Me voy a levantar\n- Estoy lavándome = Me estoy lavando",
+      "examples": [
+        "Me levanto a las seis y me duchoy inmediatamente. (I get up at six and shower immediately.)",
+        "En la fiesta, todos se divierten mucho. (At the party, everyone has a lot of fun.)",
+        "Nos vestimos con ropa tradicional para la celebración. (We dress in traditional clothing for the celebration.)",
+        "¿Te diviertes en las fiestas? (Do you have fun at parties?)",
+        "Los domingos nos levantamos tarde. (On Sundays we get up late.)",
+        "Mi abuela se despierta con la música tradicional. (My grandma wakes up with traditional music.)"
+      ],
+      "aid_note": "Romanian reflexive verbs use the particle 'se' attached to the verb: 'mă trezesc' (I wake up), 'mă spăl' (I wash myself), 'ne distraim' (we have fun). This is very similar to Spanish reflexive construction. The key differences are: 1) The pronoun position — in Romanian it's a separate word before the verb, in Spanish it can also attach to infinitives/gerunds. 2) Stem changes — Spanish reflexive verbs often have stem changes (divertirse: e→ie), while Romanian conjugates differently. 3) Romanian has more reflexive verbs for daily routines (mă trezesc, mă trezesc, mă spăl, mă îmbrac), while Spanish uses the same pattern (me levanto, me ducho, me visto). The concept is the same — actions done to oneself."
+    }
+  ],
+  "pronunciation": {
+    "title": "Cultural Vocabulary Pronunciation — Stress on Cultural Words",
+    "content": "Pronouncing cultural and festival vocabulary correctly helps you sound natural when discussing traditions and customs.\n\nKey pronunciation patterns:\n\n1. Trailing '-ción' and '-sión' (stress on the 's'):\n   - la tradición = lah-trah-DYOHN (stress on DYOH)\n   - la celebración = sah-leh-BRAH-syon\n   - la ceremonia = seh-rah-MOH-nyah\n   - la nación = nah-SEE-ohn\n   - la región = reh-HEE-ohn\n   Note: '-ción' sounds like 'SYOHn' (soft s + i + on)\n\n2. Trailing '-illo' / '-illa' (diminutive, stress on 'i'):\n   - el platillo = plah-TEE-yoh\n   - la mesilla = meh-SEE-yah\n   Note: 'll' = 'y' sound\n\n3. Double 'rr' (rolled 'r', stressed):\n   - el folclore = fohl-KLOR-eh\n   - el guerrero = geh-RAH-roh\n\n4. 'ñ' (ny sound, like Spanish 'señor'):\n   - el año = AH-nyoh\n   - la caña = KA-nyah\n\n5. 'll' (y sound in most regions):\n   - la miel = MYehl\n   - el pueblo = PWEH-bloh\n\n6. Stress on final '-e' (with accent mark):\n   - el festival = feh-STEE-val\n   - el carnaval = kar-nah-VAHL\n\n7. Silent 'h':\n   - la herencia = eh-REHN-see-ah\n   - el hogar = OH-gar\n\n8. Trailing '-esco' (stress on 'es'):\n   - el folclore = fohl-KLOR-eh\n\nCommon cultural words — pronunciation guide:\n- Navidad = nah-bee-DAHD (stress on DAHD)\n- carnaval = kar-nah-VAHL (stress on VAHL)\n- procesión proh-see-OHN (stress on OHN)\n- artesanía = ar-teh-sah-NEE-ah (stress on NEE)\n- folclore = fohl-KLOR-eh (stress on KLOR)\n- ingrediente = een-gree-DEHN-teh (stress on DEHN)\n- instrumento = een-stroo-MEN-toh (stress on MEN)\n- comunidad = koh-moo-nih-DAHD (stress on DAHD)\n- indígena = een-dee-HEN-hah (stress on HEN)\n- auténtico = aw-TEN-tee-koh (stress on TEN)",
+    "examples": [
+      "tradición = trah-ah-DYOHN (stress on the second 'a')",
+      "celebración = sah-leh-BRAH-syon (stress on BRAH, the 'ción' sounds like 'SYOHn')",
+      "Navidad = nah-bee-DAHD (stress on 'DAHD')",
+      "folclore = fohl-KLOR-eh (the 'll' = 'y', stress on 'KLOR')",
+      "artesanía = ar-teh-sah-NEE-ah (stress on 'NEE', the 'tía' sounds like 'TEE-ah')",
+      "herencia = eh-REHN-see-ah (the 'h' is silent)"
+    ]
+  },
+  "exercises": [
+    {
+      "type": "multiple-choice",
+      "question": "Which verb is used to express 'to like' in Spanish? Note: the English 'I like' translates differently.",
+      "options": ["Yo gusto la música.", "Me gusta la música.", "Yo me gusta la música.", "La música gusta a mí."],
+      "correct": 1,
+      "explanation": "In Spanish, gustar works backwards from English. 'Me gusta la música' literally means 'The music pleases me.' The thing liked is the subject, and the person who likes it is the indirect object."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Which is correct: 'Me gust___ las fiestas' or 'Me gusta las fiestas'?",
+      "options": ["Me gusta las fiestas.", "Me gustan las fiestas.", "Me gustas las fiestas.", "Me gustó las fiestas."],
+      "correct": 1,
+      "explanation": "'Las fiestas' is plural, so you need 'gustan': 'Me gustan las fiestas.' Gustar agrees with the thing being liked (the subject), not the person who likes it."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete with the correct possessive adjective: '___ tradición favorita es la Navidad.' (My)",
+      "correct": "Mi",
+      "explanation": "'Mi' is the short possessive form for 'my' before a singular noun. 'Mi tradición favorita es la Navidad' = My favorite tradition is Christmas."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete with the correct possessive adjective: '___ amigos participan en la feria.' (Our)",
+      "correct": "Nuestros",
+      "explanation": "'Nuestros' is the masculine plural form of 'our.' 'Nuestros amigos' = Our friends. The possessive agrees with 'amigos' (masculine plural), not the people who own them."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Which sentence uses 'ser' correctly for a cultural characteristic?",
+      "options": [
+        "La cultura está muy rica.",
+        "La cultura es muy rica.",
+        "La cultura está de Colombia.",
+        "La cultura es en el museo."
+      ],
+      "correct": 1,
+      "explanation": "'Ser' is used for inherent characteristics: 'La cultura es muy rica' (The culture is very rich). 'Estar' would be used for location or temporary states, not inherent qualities."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete with the reflexive pronoun: 'Nos ___ vestimos con ropa tradicional.'",
+      "correct": "vestimos",
+      "explanation": "'Nos vestimos' means 'we get dressed.' The reflexive pronoun 'nos' goes before the conjugated verb. 'Nos vestimos con ropa tradicional' = We dress in traditional clothing."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What does 'Me encantan las fiestas tradicionales' mean?",
+      "options": [
+        "I don't like traditional festivals.",
+        "I love traditional festivals.",
+        "Traditional festivals are big.",
+        "I attend traditional festivals."
+      ],
+      "correct": 1,
+      "explanation": "'Encantar' is a stronger form of 'gustar' — it means 'to love' or 'to be fascinating.' 'Me encantan las fiestas tradicionales' = I love traditional festivals."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete with the correct form of gustar: 'A ella ___ gusta la cultura mexicana.'",
+      "correct": "le",
+      "explanation": "'Le' is the third-person indirect object pronoun: 'A ella le gusta la cultura mexicana' = She likes Mexican culture. The 'a ella' clarifies who 'le' refers to."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Which reflexive verb means 'to get dressed'?",
+      "options": ["ducharse", "vestirse", "despertarse", "levantarse"],
+      "correct": 1,
+      "explanation": "'Vestirse' means 'to get dressed.' Stem-changing e→ie: me visto, te vistes, se viste, nos vestimos, os vestís, se visten. Example: 'Nos vestimos con ropa tradicional.'"
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete with the correct form of 'su': 'La fiesta de ___ abuelo es muy tradicional.' (his)",
+      "correct": "su",
+      "explanation": "'Su' means 'his / her / your formal / their.' 'La fiesta de su abuelo' = His grandmother's party. To clarify 'his,' you can say 'la fiesta de su abuelo' or 'la fiesta del abuelo de él.'"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Which word means 'heritage' in Spanish?",
+      "options": ["la herencia", "el origen", "la raíz", "la comunidad"],
+      "correct": 0,
+      "explanation": "'La herencia' means 'the heritage / legacy.' 'El origen' = origin, 'la raíz' = root, 'la comunidad' = community. 'Nuestra herencia cultural' = our cultural heritage."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete with the correct reflexive pronoun: '___ ducho por la mañana.' (I)",
+      "correct": "Me",
+      "explanation": "'Me ducho por la mañana' = I shower in the morning. 'Me' is the first-person reflexive pronoun. The reflexive pronoun goes before the conjugated verb."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "In 'Es típico de España comer tapas,' what does 'es típico de' mean?",
+      "options": [
+        "It is located in",
+        "It is typical of",
+        "It is interesting to",
+        "It is important for"
+      ],
+      "correct": 1,
+      "explanation": "'Es típico de' means 'It is typical of.' This structure is used to describe what is characteristic of a place. 'Es típico de España comer tapas' = It is typical of Spain to eat tapas."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Which sentence correctly uses a reflexive verb in the past?",
+      "options": [
+        "Ayer nos vestimos con ropa tradicional.",
+        "Ayer nos vistimos con ropa tradicional.",
+        "Ayer nos vestir con ropa tradicional.",
+        "Ayer nos vistieron con ropa tradicional."
+      ],
+      "correct": 0,
+      "explanation": "'Nos vestimos' is the correct preterite form of 'vestirse' for nosotros. 'Ayer nos vestimos con ropa tradicional' = Yesterday we dressed in traditional clothing. 'Vestirse' is stem-changing (e→i): me vistí, te vististe, se vistió, nos vestimos, os vestisteis, se vistieron."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete with the correct form of gustar: '¿A ustedes ___ gustan las tradiciones de su país?'",
+      "correct": "les",
+      "explanation": "'Les' is the third-person plural indirect object pronoun for 'ustedes.' '¿A ustedes les gustan las tradiciones de su país?' = Do you (plural) like the traditions of your country?"
+    }
+  ]
+}
