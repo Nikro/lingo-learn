@@ -523,6 +523,90 @@ function app() {
       return '/' + this.currentLocale + '/' + this.currentLevel + '/' + this.currentStage + '/' + this.currentPillar;
     },
 
+    // Breadcrumb trail for navigation context
+    // Returns array of { label, path, isCurrent } objects
+    get breadcrumbs() {
+      if (!this.currentLocale) return [];
+
+      var items = [];
+
+      // Locale root — always first
+      items.push({ label: this.currentLocale, path: '/' + this.currentLocale, isCurrent: false });
+
+      // Stage segment
+      if (this.currentStage) {
+        // Try to get display name from stageData first
+        var stageLabel = '';
+        if (this.stageData && this.stageData.title) {
+          stageLabel = this.stageData.title.replace(/^[A-Z]\d\.\d — /, '');
+        } else if (this.stageData && this.stageData.name) {
+          stageLabel = this.stageData.name.replace(/^[A-Z]\d\.\d — /, '');
+        } else {
+          // Fallback: look up in appLevels
+          for (var i = 0; i < this.appLevels.length; i++) {
+            for (var j = 0; j < this.appLevels[i].stages.length; j++) {
+              if (this.appLevels[i].stages[j].id === this.currentStage) {
+                stageLabel = this.appLevels[i].stages[j].name.replace(/^[A-Z]\d\.\d — /, '');
+                break;
+              }
+            }
+            if (stageLabel) break;
+          }
+        }
+        if (stageLabel) {
+          items.push({ label: stageLabel, path: '/' + this.currentLocale + '/' + this.currentLevel + '/' + this.currentStage, isCurrent: false });
+        } else {
+          items.push({ label: this.currentStage, path: '/' + this.currentLocale + '/' + this.currentLevel + '/' + this.currentStage, isCurrent: false });
+        }
+      }
+
+      // Pillar views (stage-level pillars)
+      if (this.currentStage && !this.themeView && this.currentPillar) {
+        items.push({ label: this.formatPillarName(this.currentPillar), path: '/' + this.currentLocale + '/' + this.currentLevel + '/' + this.currentStage + '/' + this.currentPillar, isCurrent: true });
+      }
+
+      // Themes overview
+      if (this.themeView === 'themes') {
+        items.push({ label: 'Themes', path: '/' + this.currentLocale + '/' + this.currentLevel + '/' + this.currentStage + '/themes', isCurrent: true });
+      }
+
+      // Theme detail — show theme name
+      if (this.themeView === 'theme-detail') {
+        var themeLabel = '';
+        if (this.themeTitle) {
+          themeLabel = this.themeTitle.replace(/^[A-Z]\d\.\d — /, '');
+        }
+        if (!themeLabel && this.currentTheme) {
+          themeLabel = this.currentTheme.replace(/-/g, ' ').replace(/\b\w/g, function(c) { return c.toUpperCase(); });
+        }
+        if (themeLabel) {
+          items.push({ label: themeLabel, path: '/' + this.currentLocale + '/' + this.currentLevel + '/' + this.currentStage + '/theme/' + this.currentTheme, isCurrent: false });
+        }
+        // Optional pillar suffix for theme-detail pillar views
+        if (this.currentPillar) {
+          items.push({ label: this.formatPillarName(this.currentPillar), path: '/' + this.currentLocale + '/' + this.currentLevel + '/' + this.currentStage + '/theme/' + this.currentTheme + '/' + this.currentPillar, isCurrent: true });
+        }
+      }
+
+      // If only the locale is set, make it current
+      if (items.length === 1) {
+        items[0].isCurrent = true;
+      }
+
+      return items;
+    },
+
+    // Format a pillar key into a readable label
+    formatPillarName: function(pillar) {
+      var labels = {
+        'grammar': 'Grammar',
+        'vocabulary': 'Vocabulary',
+        'verbs': 'Verbs & Drills',
+        'pronunciation': 'Pronunciation'
+      };
+      return labels[pillar] || pillar;
+    },
+
     // Check if a sidebar item should be highlighted as active
     isStageActive(levelId, stageId) {
       return this.currentLevel === levelId && this.currentStage === stageId;

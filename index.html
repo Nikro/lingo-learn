@@ -199,6 +199,23 @@
 
       <!-- Main Content (scrollable) -->
       <main class="flex-1 overflow-y-auto p-4">
+        <!-- Breadcrumb trail -->
+        <nav x-show="breadcrumbs.length > 0" x-cloak class="text-sm mb-3 flex items-center gap-1 flex-wrap" aria-label="Breadcrumb">
+          <template x-for="(item, idx) in breadcrumbs" :key="idx">
+            <span class="flex items-center gap-1">
+              <template x-if="idx > 0">
+                <span class="opacity-40" aria-hidden="true">›</span>
+              </template>
+              <template x-if="item.isCurrent">
+                <span class="font-medium text-primary/80" x-text="item.label"></span>
+              </template>
+              <template x-if="!item.isCurrent">
+                <a :href="item.path" class="hover:text-primary transition-colors" x-text="item.label"></a>
+              </template>
+            </span>
+          </template>
+        </nav>
+
         <!-- Loading skeleton -->
         <div x-show="loading" x-cloak class="max-w-4xl mx-auto space-y-4">
         <div class="card bg-base-100 shadow-md mb-6">
