@@ -120,6 +120,19 @@ for (const folder of localeFolders) {
     const filePath = path.join(ROOT, folder, file);
     const data = JSON.parse(fs.readFileSync(filePath, 'utf8'));
 
+    // Skip manifest/structure files — they have a different schema (stage_id + themes only, no content)
+    // master-structure.json has version/levels instead of stage content
+    if ((data.themes && !data.grammar && !data.vocabulary && !data.exercises) ||
+        (data.version && data.levels && !data.grammar && !data.exercises)) {
+      console.log(`ℹ️  ${folder}/${file}: manifest/structure file, skipped`);
+      continue;
+    }
+
+    // Normalize: accept stage_id as an alias for id
+    if (!data.id && data.stage_id) {
+      data.id = data.stage_id;
+    }
+
     // Override root path for stage-specific validation
     const stageSchema = { ...schema, properties: { ...schema.properties } };
     const errors = validate(data, stageSchema, `${folder}/${file}`);
@@ -133,19 +146,19 @@ for (const folder of localeFolders) {
     } else {
       // Validate content quality
       const qualityWarnings = [];
-      if (data.exercises.length === 0) {
+      if (data.exercises === undefined || data.exercises.length === 0) {
         qualityWarnings.push('no exercises');
       }
-      if (data.vocabulary.length < 5) {
-        qualityWarnings.push(`only ${data.vocabulary.length} vocab items (suggested ≥5)`);
+      if (!data.vocabulary || data.vocabulary.length < 5) {
+        qualityWarnings.push(data.vocabulary ? `only ${data.vocabulary.length} vocab items (suggested ≥5)` : 'no vocabulary');
       }
-      if (data.grammar.length === 0) {
+      if (!data.grammar || data.grammar.length === 0) {
         qualityWarnings.push('no grammar content');
       }
-      if (data.verbs.length === 0) {
+      if (!data.verbs || data.verbs.length === 0) {
         qualityWarnings.push('no verb entries');
       }
-      if (data.pronunciation.length === 0) {
+      if (!data.pronunciation || data.pronunciation.length === 0) {
         qualityWarnings.push('no pronunciation content');
       }
 
@@ -153,7 +166,12 @@ for (const folder of localeFolders) {
         console.warn(`⚠️  ${folder}/${file}: ${qualityWarnings.join(', ')}`);
         totalErrors += qualityWarnings.length;
       } else {
-        console.log(`✅ ${folder}/${file}: valid (${data.grammar.length} grammar, ${data.vocabulary.length} vocab, ${data.verbs.length} verbs, ${data.pronunciation.length} pronunciation, ${data.exercises.length} exercises)`);
+        const gLen = (data.grammar || []).length;
+        const vLen = (data.vocabulary || []).length;
+        const vbLen = (data.verbs || []).length;
+        const pLen = (data.pronunciation || []).length;
+        const eLen = (data.exercises || []).length;
+        console.log(`✅ ${folder}/${file}: valid (${gLen} grammar, ${vLen} vocab, ${vbLen} verbs, ${pLen} pronunciation, ${eLen} exercises)`);
       }
     }
   }

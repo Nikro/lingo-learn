@@ -3,12 +3,16 @@
   "title": "Spanish Learning App — Stage Data Schema",
   "description": "Schema for stage-level curriculum content. Each JSON file in data/{locale}/ represents one stage (e.g., a1-1.json = A1.1).",
   "type": "object",
-  "required": ["id", "title", "description", "grammar", "vocabulary", "verbs", "pronunciation", "exercises"],
+  "required": ["id", "title"],
   "properties": {
     "id": {
       "type": "string",
-      "description": "Stage identifier in kebab-case: a1-1, a1-2, b1-3, etc.",
+      "description": "Stage identifier in kebab-case: a1-1, a1-2, b1-3, etc. Alias: stage_id",
       "pattern": "^[a-z]\\d-\\d+$"
+    },
+    "stage_id": {
+      "type": "string",
+      "description": "Alternative field name for id (used by some stage files)"
     },
     "title": {
       "type": "string",
@@ -17,6 +21,23 @@
     "description": {
       "type": "string",
       "description": "Brief description of what the stage covers"
+    },
+    "estimated_weeks": {
+      "type": "integer",
+      "description": "Estimated weeks to complete this stage"
+    },
+    "themes": {
+      "type": "array",
+      "description": "List of themes within this stage (manifest or content file)",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": { "type": "string" },
+          "title": { "type": "string" },
+          "description": { "type": "string" },
+          "estimated_hours": { "type": "integer" }
+        }
+      }
     },
     "grammar": {
       "type": "array",
@@ -62,7 +83,7 @@
           },
           "type": {
             "type": "string",
-            "enum": ["greeting", "polite", "intro", "feeling", "noun", "adjective", "verb", "adverb", "preposition", "number", "family", "color", "other"],
+            "enum": ["greeting", "polite", "intro", "feeling", "noun", "adjective", "verb", "adverb", "preposition", "number", "family", "color", "connector", "phrase", "idiom", "other"],
             "description": "Semantic category of the word"
           }
         }
@@ -73,13 +94,13 @@
       "description": "Verb entries with conjugation tables",
       "items": {
         "type": "object",
-        "required": ["infinitive", "translation", "conjugations"],
+        "required": ["infinitive", "translation"],
         "properties": {
           "infinitive": { "type": "string", "description": "Verb in infinitive form" },
           "translation": { "type": "string", "description": "English translation" },
           "conjugations": {
             "type": "object",
-            "description": "Map of tense names to conjugation maps",
+            "description": "Map of tense names to conjugation maps. Optional — not all stages include full conjugation tables.",
             "additionalProperties": {
               "type": "object",
               "properties": {
