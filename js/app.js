@@ -531,7 +531,7 @@ function app() {
       var items = [];
 
       // Locale root — always first
-      items.push({ label: this.currentLocale, path: '/' + this.currentLocale, isCurrent: false });
+      items.push({ label: this.currentLocale, path: '#/' + this.currentLocale, isCurrent: false });
 
       // Stage segment
       if (this.currentStage) {
@@ -554,21 +554,21 @@ function app() {
           }
         }
         if (stageLabel) {
-          items.push({ label: stageLabel, path: '/' + this.currentLocale + '/' + this.currentLevel + '/' + this.currentStage, isCurrent: false });
-        } else {
-          items.push({ label: this.currentStage, path: '/' + this.currentLocale + '/' + this.currentLevel + '/' + this.currentStage, isCurrent: false });
+          items.push({ label: stageLabel, path: '#/' + this.currentLocale + '/' + this.currentLevel + '/' + this.currentStage, isCurrent: false });
+          } else {
+          items.push({ label: this.currentStage, path: '#/' + this.currentLocale + '/' + this.currentLevel + '/' + this.currentStage, isCurrent: false });
         }
       }
 
       // Pillar views (stage-level pillars)
       if (this.currentStage && !this.themeView && this.currentPillar) {
-        items.push({ label: this.formatPillarName(this.currentPillar), path: '/' + this.currentLocale + '/' + this.currentLevel + '/' + this.currentStage + '/' + this.currentPillar, isCurrent: true });
-      }
+        items.push({ label: this.formatPillarName(this.currentPillar), path: '#/' + this.currentLocale + '/' + this.currentLevel + '/' + this.currentStage + '/' + this.currentPillar, isCurrent: true });
+        }
 
-      // Themes overview
-      if (this.themeView === 'themes') {
-        items.push({ label: 'Themes', path: '/' + this.currentLocale + '/' + this.currentLevel + '/' + this.currentStage + '/themes', isCurrent: true });
-      }
+        // Themes overview
+        if (this.themeView === 'themes') {
+        items.push({ label: 'Themes', path: '#/' + this.currentLocale + '/' + this.currentLevel + '/' + this.currentStage + '/themes', isCurrent: true });
+        }
 
       // Theme detail — show theme name
       if (this.themeView === 'theme-detail') {
@@ -580,11 +580,11 @@ function app() {
           themeLabel = this.currentTheme.replace(/-/g, ' ').replace(/\b\w/g, function(c) { return c.toUpperCase(); });
         }
         if (themeLabel) {
-          items.push({ label: themeLabel, path: '/' + this.currentLocale + '/' + this.currentLevel + '/' + this.currentStage + '/theme/' + this.currentTheme, isCurrent: false });
-        }
-        // Optional pillar suffix for theme-detail pillar views
-        if (this.currentPillar) {
-          items.push({ label: this.formatPillarName(this.currentPillar), path: '/' + this.currentLocale + '/' + this.currentLevel + '/' + this.currentStage + '/theme/' + this.currentTheme + '/' + this.currentPillar, isCurrent: true });
+          items.push({ label: themeLabel, path: '#/' + this.currentLocale + '/' + this.currentLevel + '/' + this.currentStage + '/theme/' + this.currentTheme, isCurrent: false });
+          }
+          // Optional pillar suffix for theme-detail pillar views
+          if (this.currentPillar) {
+          items.push({ label: this.formatPillarName(this.currentPillar), path: '#/' + this.currentLocale + '/' + this.currentLevel + '/' + this.currentStage + '/theme/' + this.currentTheme + '/' + this.currentPillar, isCurrent: true });
         }
       }
 
