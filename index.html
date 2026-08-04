@@ -333,9 +333,18 @@
               <!-- Vocabulary Pillar -->
               <div x-show="currentPillar === 'vocabulary'" class="pillar-content">
                 <h3 class="text-xl font-bold mb-4">Vocabulary</h3>
-                <p class="text-sm opacity-60 mb-4">Tap a card to reveal the English translation.</p>
-                <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
-                  <template x-for="word in (pillarContent.vocabulary || [])" :key="word.id">
+                <p x-show="pillarContent.vocabulary.length > 0" class="text-sm opacity-60 mb-4">Tap a card to reveal the English translation.</p>
+                <div x-show="pillarContent.vocabulary.length === 0" class="alert alert-neutral">
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" class="stroke-current shrink-0 w-6 h-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                  </svg>
+                  <div>
+                    <h3 class="font-bold">No vocabulary yet</h3>
+                    <p class="text-sm">This vocabulary section is coming soon — check back later!</p>
+                  </div>
+                </div>
+                <div x-show="pillarContent.vocabulary.length > 0" class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                  <template x-for="word in pillarContent.vocabulary" :key="word.id">
                     <div class="card bg-base-200 shadow-sm cursor-pointer" @click="word.revealed = !word.revealed">
                       <div class="card-body p-4">
                         <div class="flex justify-between items-center mb-2">
@@ -353,13 +362,13 @@
               <!-- Grammar Pillar -->
               <div x-show="currentPillar === 'grammar'" class="pillar-content">
                 <h3 class="text-xl font-bold mb-4">Grammar</h3>
-                <div class="prose max-w-none" x-html="pillarContent.grammar"></div>
+                <div x-html="pillarContent.grammar"></div>
               </div>
 
               <!-- Exercises Pillar -->
               <div x-show="currentPillar === 'verbs'" class="pillar-content">
                 <h3 class="text-xl font-bold mb-4">Exercises</h3>
-                <div class="prose max-w-none" x-html="pillarContent.verbs"></div>
+                <div x-html="pillarContent.verbs"></div>
               </div>
             </div>
           </div>
@@ -391,17 +400,23 @@
                 <!-- Grammar Pillar -->
                 <div x-show="currentPillar === 'grammar'" class="pillar-content">
                   <h3 class="text-xl font-bold mb-4">Grammar</h3>
-                  <div class="prose max-w-none" x-html="pillarContent.grammar">
-                    <!-- Dynamic content will be injected here -->
-                    <p class="opacity-70">Loading content...</p>
-                  </div>
+                  <div x-html="pillarContent.grammar"></div>
                 </div>
 
                 <!-- Vocabulary Pillar -->
                 <div x-show="currentPillar === 'vocabulary'" class="pillar-content">
                   <h3 class="text-xl font-bold mb-4">Vocabulary</h3>
-                  <p class="text-sm opacity-60 mb-4">Tap a card to reveal the English translation.</p>
-                  <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                  <p x-show="vocabularyCards.length > 0" class="text-sm opacity-60 mb-4">Tap a card to reveal the English translation.</p>
+                  <div x-show="vocabularyCards.length === 0" class="alert alert-neutral">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" class="stroke-current shrink-0 w-6 h-6">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                    </svg>
+                    <div>
+                      <h3 class="font-bold">No vocabulary yet</h3>
+                      <p class="text-sm">This vocabulary section is coming soon — check back later!</p>
+                    </div>
+                  </div>
+                  <div x-show="vocabularyCards.length > 0" class="grid grid-cols-1 md:grid-cols-2 gap-4">
                     <template x-for="word in vocabularyCards" :key="word.id">
                       <div class="card bg-base-200 shadow-sm cursor-pointer" 
                            @click="word.revealed = !word.revealed">
@@ -421,17 +436,13 @@
                 <!-- Verbs Pillar -->
                 <div x-show="currentPillar === 'verbs'" class="pillar-content">
                   <h3 class="text-xl font-bold mb-4">Verbs & Drills</h3>
-                  <div class="prose max-w-none" x-html="pillarContent.verbs">
-                    <p class="opacity-70">Loading verbs...</p>
-                  </div>
+                  <div x-html="pillarContent.verbs"></div>
                 </div>
 
                 <!-- Pronunciation Pillar -->
                 <div x-show="currentPillar === 'pronunciation'" class="pillar-content">
                   <h3 class="text-xl font-bold mb-4">Pronunciation & Spelling</h3>
-                  <div class="prose max-w-none" x-html="pillarContent.pronunciation">
-                    <p class="opacity-70">Loading pronunciation...</p>
-                  </div>
+                  <div x-html="pillarContent.pronunciation"></div>
                 </div>
           </div>
         </div>

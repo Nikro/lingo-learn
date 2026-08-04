@@ -756,7 +756,7 @@ function app() {
     // Render theme grammar content
     renderThemeGrammar: function() {
       if (!this.themeData.grammar || this.themeData.grammar.length === 0) {
-        return '<p class="opacity-70">Grammar content loading...</p>';
+        return '<div class="alert alert-neutral"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" class="stroke-current shrink-0 w-6 h-6"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg><div><h3 class="font-bold">No grammar lessons yet</h3><p class="text-sm">This grammar pillar is coming soon — check back later!</p></div></div>';
       }
       
       var html = '<div class="space-y-4">';
@@ -778,7 +778,7 @@ function app() {
     // Render theme exercises
     renderThemeExercises: function() {
       if (!this.themeData.exercises || this.themeData.exercises.length === 0) {
-        return '<p class="opacity-70">Exercises loading...</p>';
+        return '<div class="alert alert-neutral"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" class="stroke-current shrink-0 w-6 h-6"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg><div><h3 class="font-bold">No exercises yet</h3><p class="text-sm">Practice activities are coming soon — check back later!</p></div></div>';
       }
       
       var html = '<div class="space-y-4">';
@@ -862,7 +862,7 @@ function app() {
     // title, content, optional tables, examples, and aid notes
     renderGrammar: function() {
       if (!this.stageData.grammar || this.stageData.grammar.length === 0) {
-        return '<p class="opacity-70">Grammar content loading...</p>';
+        return '<div class="alert alert-neutral"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" class="stroke-current shrink-0 w-6 h-6"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg><div><h3 class="font-bold">No grammar content yet</h3><p class="text-sm">This grammar pillar is coming soon — check back later!</p></div></div>';
       }
 
       var html = '<div class="space-y-4">';
@@ -910,7 +910,7 @@ function app() {
     // translation and a full conjugation table for each
     renderVerbs: function() {
       if (!this.stageData.verbs || this.stageData.verbs.length === 0) {
-        return '<p class="opacity-70">Verb drills loading...</p>';
+        return '<div class="alert alert-neutral"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" class="stroke-current shrink-0 w-6 h-6"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg><div><h3 class="font-bold">No verb drills yet</h3><p class="text-sm">Verb conjugation practice is coming soon — check back later!</p></div></div>';
       }
 
       var html = '<div class="space-y-6">';
@@ -954,7 +954,7 @@ function app() {
     // title, content, and paired examples (Spanish ↔ English)
     renderPronunciation: function() {
       if (!this.stageData.pronunciation || this.stageData.pronunciation.length === 0) {
-        return '<p class="opacity-70">Pronunciation content loading...</p>';
+        return '<div class="alert alert-neutral"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" class="stroke-current shrink-0 w-6 h-6"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg><div><h3 class="font-bold">No pronunciation content yet</h3><p class="text-sm">Pronunciation guides are coming soon — check back later!</p></div></div>';
       }
 
       var html = '<div class="space-y-4">';
