@@ -1,6 +1,6 @@
 {
   "stage_id": "a1-1",
-  "title": "A1.1 \u2014 Greetings & Introductions",
+  "title": "A1.1 — Greetings & Introductions",
   "description": "Master the fundamentals: greetings, numbers, colors, family vocabulary, and basic introductions.",
   "themes": [
     {
@@ -42,10 +42,22 @@
       ]
     },
     {
-      "id": "clothing-appearance",
+      "id": "clothing-appearance-part-1",
       "title": "Clothing & Appearance",
-      "description": "Learn to describe what people are wearing, talk about physical appearance, express size and age, and identify clothing items and accessories in Spanish.",
-      "estimated_hours": 5,
+      "description": "Learn vocabulary for clothing items, accessories, and describing appearance.",
+      "estimated_hours": 4,
+      "sections": [
+        "Vocabulary",
+        "Grammar",
+        "Exercises",
+        "Pronunciation"
+      ]
+    },
+    {
+      "id": "clothing-appearance-part-2",
+      "title": "Clothing & Appearance (Advanced)",
+      "description": "Advanced vocabulary for fashion, styles, and detailed appearance descriptions.",
+      "estimated_hours": 4,
       "sections": [
         "Vocabulary",
         "Grammar",
@@ -56,7 +68,7 @@
     {
       "id": "coffee-shop-ordering",
       "title": "Coffee Shop & Ordering",
-      "description": "Order food and drinks confidently, ask for the bill, understand menus, handle payments, and navigate restaurants, caf\u00e9s, bars, and bakeries.",
+      "description": "Order food and drinks confidently, ask for the bill, understand menus, handle payments, and navigate restaurants, cafés, bars, and bakeries.",
       "estimated_hours": 5,
       "sections": [
         "Vocabulary",

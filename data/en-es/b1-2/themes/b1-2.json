@@ -16,9 +16,21 @@
       ]
     },
     {
+      "id": "advanced-argumentation",
+      "title": "Advanced Argumentation",
+      "description": "Structure complex arguments with advanced rhetorical devices and persuasive language.",
+      "estimated_hours": 4,
+      "sections": [
+        "Vocabulary",
+        "Grammar",
+        "Exercises",
+        "Pronunciation"
+      ]
+    },
+    {
       "id": "cultural-criticism",
       "title": "Cultural Criticism",
-      "description": "Critique and analyze cultural phenomena in Spanish \u2014 art, film, music, literature, and social practices. Learn the language of aesthetic judgment, cultural commentary, and critical thinking. This theme equips you to express informed opinions about the cultural products and practices of the Spanish-speaking world.",
+      "description": "Critique and analyze cultural phenomena in Spanish — art, film, music, literature, and social practices. Learn the language of aesthetic judgment, cultural commentary, and critical thinking. This theme equips you to express informed opinions about the cultural products and practices of the Spanish-speaking world.",
       "estimated_hours": 5,
       "sections": [
         "Vocabulary",
@@ -54,7 +66,7 @@
     {
       "id": "media-literacy",
       "title": "Media Literacy",
-      "description": "Analyze and critically evaluate media content in Spanish \u2014 news, social media, advertising, and digital communication. Learn to detect fake news, evaluate sources, understand media bias, and navigate the digital information landscape with ethical awareness. This theme equips you to be an informed, critical consumer of media in Spanish.",
+      "description": "Analyze and critically evaluate media content in Spanish — news, social media, advertising, and digital communication. Learn to detect fake news, evaluate sources, understand media bias, and navigate the digital information landscape with ethical awareness. This theme equips you to be an informed, critical consumer of media in Spanish.",
       "estimated_hours": 5,
       "sections": [
         "Vocabulary",
@@ -73,6 +85,28 @@
         "Grammar",
         "Exercises",
         "Pronunciation"
+      ]
+    },
+    {
+      "id": "professional-negotiation-part-1",
+      "title": "Professional Negotiation (Part 1)",
+      "description": "Learn negotiation vocabulary and strategies for professional settings.",
+      "estimated_hours": 3,
+      "sections": [
+        "Vocabulary",
+        "Grammar",
+        "Exercises"
+      ]
+    },
+    {
+      "id": "professional-negotiation-part-2",
+      "title": "Professional Negotiation (Part 2)",
+      "description": "Advanced negotiation scenarios: conflict resolution, compromise, and deal-making.",
+      "estimated_hours": 3,
+      "sections": [
+        "Vocabulary",
+        "Grammar",
+        "Exercises"
       ]
     },
     {
