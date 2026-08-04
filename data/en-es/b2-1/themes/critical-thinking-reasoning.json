@@ -1,0 +1,229 @@
+{
+  "id": "critical-thinking-reasoning",
+  "level": "b2-1",
+  "title": "Critical Thinking & Reasoning",
+  "description": "Develop the ability to analyze arguments, construct logical reasoning, evaluate claims critically, and express nuanced opinions. Learn vocabulary and structures for logical reasoning, critical analysis, and advanced argumentation — essential for academic, professional, and intellectual discourse in Spanish.",
+  "vocabulary": [
+    {"id": 1, "target": "el razonamiento lógico", "source": "logical reasoning", "gender": "m", "type": "noun"},
+    {"id": 2, "target": "el análisis crítico", "source": "critical analysis", "gender": "m", "type": "noun"},
+    {"id": 3, "target": "la argumentación", "source": "argumentation", "gender": "f", "type": "noun"},
+    {"id": 4, "target": "la premisa", "source": "premise", "gender": "f", "type": "noun"},
+    {"id": 5, "target": "la conclusión", "source": "conclusion", "gender": "f", "type": "noun"},
+    {"id": 6, "target": "la inferencia", "source": "inference", "gender": "f", "type": "noun"},
+    {"id": 7, "target": "el argumento", "source": "argument", "gender": "m", "type": "noun"},
+    {"id": 8, "target": "la evidencia", "source": "evidence", "gender": "f", "type": "noun"},
+    {"id": 9, "target": "el hecho", "source": "fact", "gender": "m", "type": "noun"},
+    {"id": 10, "target": "la opinión", "source": "opinion", "gender": "f", "type": "noun"},
+    {"id": 11, "target": "la tesis", "source": "thesis / main argument", "gender": "f", "type": "noun"},
+    {"id": 12, "target": "el contraargumento", "source": "counterargument", "gender": "m", "type": "noun"},
+    {"id": 13, "target": "la falacia", "source": "fallacy", "gender": "f", "type": "noun"},
+    {"id": 14, "target": "la generalización", "source": "generalization", "gender": "f", "type": "noun"},
+    {"id": 15, "target": "la suposición", "source": "assumption", "gender": "f", "type": "noun"},
+    {"id": 16, "target": "la hipótesis", "source": "hypothesis", "gender": "f", "type": "noun"},
+    {"id": 17, "target": "el prejuicio", "source": "prejudice / bias", "gender": "m", "type": "noun"},
+    {"id": 18, "target": "el sesgo", "source": "bias", "gender": "m", "type": "noun"},
+    {"id": 19, "target": "la correlación", "source": "correlation", "gender": "f", "type": "noun"},
+    {"id": 20, "target": "la causalidad", "source": "causality", "gender": "f", "type": "noun"},
+    {"id": 21, "target": "la validez", "source": "validity", "gender": "f", "type": "noun"},
+    {"id": 22, "target": "la fiabilidad", "source": "reliability", "gender": "f", "type": "noun"},
+    {"id": 23, "target": "el criterio", "source": "criterion / standard", "gender": "m", "type": "noun"},
+    {"id": 24, "target": "la perspectiva", "source": "perspective", "gender": "f", "type": "noun"},
+    {"id": 25, "target": "el punto de vista", "source": "point of view", "gender": "m", "type": "noun"},
+    {"id": 26, "target": "el enfoque", "source": "approach / perspective", "gender": "m", "type": "noun"},
+    {"id": 27, "target": "la perspectiva", "source": "perspective / viewpoint", "gender": "f", "type": "noun"},
+    {"id": 28, "target": "sostener que", "source": "to maintain/assert that", "gender": "—", "type": "phrase"},
+    {"id": 29, "target": "afirmar que", "source": "to claim/assert that", "gender": "—", "type": "phrase"},
+    {"id": 30, "target": "negar que", "source": "to deny that", "gender": "—", "type": "phrase"},
+    {"id": 31, "target": "cuestionar", "source": "to question / challenge", "gender": "v.", "type": "verb"},
+    {"id": 32, "target": "refutar", "source": "to refute", "gender": "v.", "type": "verb"},
+    {"id": 33, "target": "demostrar", "source": "to demonstrate / prove", "gender": "v.", "type": "verb"},
+    {"id": 34, "target": "sustentar", "source": "to support / sustain", "gender": "v.", "type": "verb"},
+    {"id": 35, "target": "invalidar", "source": "to invalidate", "gender": "v.", "type": "verb"},
+    {"id": 36, "target": "concluir", "source": "to conclude", "gender": "v.", "type": "verb"},
+    {"id": 37, "target": "deducir", "source": "to deduce", "gender": "v.", "type": "verb"},
+    {"id": 38, "target": "inferir", "source": "to infer", "gender": "v.", "type": "verb"},
+    {"id": 39, "target": "evaluar", "source": "to evaluate", "gender": "v.", "type": "verb"},
+    {"id": 40, "target": "ponderar", "source": "to weigh (options/arguments)", "gender": "v.", "type": "verb"},
+    {"id": 41, "target": "matizar", "source": "to nuance / qualify", "gender": "v.", "type": "verb"},
+    {"id": 42, "target": "distinguir", "source": "to distinguish", "gender": "v.", "type": "verb"},
+    {"id": 43, "target": "fundamentar", "source": "to ground / base (an argument)", "gender": "v.", "type": "verb"},
+    {"id": 44, "target": "contradecir", "source": "to contradict", "gender": "v.", "type": "verb"},
+    {"id": 45, "target": "coherente", "source": "coherent", "gender": "m/f", "type": "adj"},
+    {"id": 46, "target": "consistente", "source": "consistent", "gender": "m/f", "type": "adj"},
+    {"id": 47, "target": "sólido/a", "source": "solid / strong", "gender": "m/f", "type": "adj"},
+    {"id": 48, "target": "válido/a", "source": "valid", "gender": "m/f", "type": "adj"},
+    {"id": 49, "target": "creíble", "source": "credible", "gender": "m/f", "type": "adj"},
+    {"id": 50, "target": "persuasivo/a", "source": "persuasive", "gender": "m/f", "type": "adj"},
+    {"id": 51, "target": "objetivo/a", "source": "objective", "gender": "m/f", "type": "adj"},
+    {"id": 52, "target": "subjetivo/a", "source": "subjective", "gender": "m/f", "type": "adj"},
+    {"id": 53, "target": "fundamentado/a", "source": "well-founded / supported", "gender": "m/f", "type": "adj"},
+    {"id": 54, "target": "convincente", "source": "convincing", "gender": "m/f", "type": "adj"},
+    {"id": 55, "target": "especulativo/a", "source": "speculative", "gender": "m/f", "type": "adj"},
+    {"id": 56, "target": "riguroso/a", "source": "rigorous", "gender": "m/f", "type": "adj"},
+    {"id": 57, "target": "simplista", "source": "simplistic", "gender": "m/f", "type": "adj"},
+    {"id": 58, "target": "infundado/a", "source": "unfounded / baseless", "gender": "m/f", "type": "adj"},
+    {"id": 59, "target": "discernir", "source": "to discern", "gender": "v.", "type": "verb"},
+    {"id": 60, "target": "examinar", "source": "to examine", "gender": "v.", "type": "verb"},
+    {"id": 61, "target": "ponderar", "source": "to weigh / consider carefully", "gender": "v.", "type": "verb"},
+    {"id": 62, "target": "reflejar", "source": "to reflect", "gender": "v.", "type": "verb"},
+    {"id": 63, "target": "el argumento ad hominem", "source": "ad hominem argument", "gender": "m", "type": "noun"},
+    {"id": 64, "target": "la falacia de autoridad", "source": "appeal to authority fallacy", "gender": "f", "type": "noun"},
+    {"id": 65, "target": "la falacia del hombre de paja", "source": "straw man fallacy", "gender": "f", "type": "noun"},
+    {"id": 66, "target": "la falacia ad ignorantiam", "source": "appeal to ignorance fallacy", "gender": "f", "type": "noun"},
+    {"id": 67, "target": "la falacia de causa falsa", "source": "false cause fallacy", "gender": "f", "type": "noun"},
+    {"id": 68, "target": "una falsa dicotomía", "source": "a false dichotomy", "gender": "f", "type": "noun"},
+    {"id": 69, "target": "el sesgo de confirmación", "source": "confirmation bias", "gender": "m", "type": "noun"},
+    {"id": 70, "target": "la analogía", "source": "analogy", "gender": "f", "type": "noun"},
+    {"id": 71, "target": "el ejemplo ilustrativo", "source": "illustrative example", "gender": "m", "type": "noun"},
+    {"id": 72, "target": "el contraejemplo", "source": "counterexample", "gender": "m", "type": "noun"},
+    {"id": 73, "target": "el dato estadístico", "source": "statistical data", "gender": "m", "type": "noun"},
+    {"id": 74, "target": "la fuente fiable", "source": "reliable source", "gender": "f", "type": "noun"},
+    {"id": 75, "target": "el experto / la experta", "source": "expert", "gender": "m/f", "type": "noun"},
+    {"id": 76, "target": "el consenso", "source": "consensus", "gender": "m", "type": "noun"},
+    {"id": 77, "target": "la discrepancia", "source": "discrepancy", "gender": "f", "type": "noun"},
+    {"id": 78, "target": "el matiz", "source": "nuance", "gender": "m", "type": "noun"},
+    {"id": 79, "target": "la distinción", "source": "distinction", "gender": "f", "type": "noun"},
+    {"id": 80, "target": "el contexto", "source": "context", "gender": "m", "type": "noun"},
+    {"id": 81, "target": "la implicación", "source": "implication", "gender": "f", "type": "noun"},
+    {"id": 82, "target": "la consecuencia", "source": "consequence", "gender": "f", "type": "noun"},
+    {"id": 83, "target": "el supuesto", "source": "assumption / presupposition", "gender": "m", "type": "noun"},
+    {"id": 84, "target": "la lógica formal", "source": "formal logic", "gender": "f", "type": "noun"},
+    {"id": 85, "target": "el silogismo", "source": "syllogism", "gender": "m", "type": "noun"},
+    {"id": 86, "target": "la deducción", "source": "deduction", "gender": "f", "type": "noun"},
+    {"id": 87, "target": "la inducción", "source": "induction", "gender": "f", "type": "noun"},
+    {"id": 88, "target": "abducir", "source": "to abduce", "gender": "v.", "type": "verb"},
+    {"id": 89, "target": "generalizar", "source": "to generalize", "gender": "v.", "type": "verb"},
+    {"id": 90, "target": "especular", "source": "to speculate", "gender": "v.", "type": "verb"}
+  ],
+  "grammar": [
+    {
+      "title": "Expressing Logical Reasoning & Causal Relationships",
+      "content": "At B2.1 level, you must be able to construct complex arguments and express logical relationships with precision. Spanish offers a rich set of connectors and structures for this purpose.\n\nKey structures:\n\n1. CAUSAL CONNECTORS — Expressing cause and effect:\n   - 'porque' / 'pues' (because, since) — simple causal links\n   - 'ya que' / 'puesto que' (since, given that) — formal causal\n   - 'debido a' / 'a causa de' (due to, because of) — formal\n   - 'por lo tanto' / 'por consiguiente' (therefore, consequently) — conclusion\n   - 'en consecuencia' (as a consequence) — formal consequence\n\n2. CONCESSIONAL CONNECTORS — Acknowledging counterarguments:\n   - 'aunque' (although) — strongest concessive\n   - 'a pesar de (que)' (despite [the fact that])\n   - 'si bien' (while, whilst) — formal, academic\n   - 'por más que' (no matter how much) — emphasis\n   - 'no obstante' (nevertheless) — formal transition\n   - 'sin embargo' (however) — contrast\n\n3. CONDITIONAL REASONING — Logical conditions:\n   - 'siempre que' (provided that / as long as) — positive condition\n   - 'siempre y cuando' (provided that) — formal condition\n   - 'a menos que' (unless) — negative condition + subjunctive\n   - 'en caso de que' (in the event that) — hypothetical + subjunctive\n\n4. STRUCTURING ARGUMENTS:\n   - Opening: 'El propósito de este análisis es...'\n   - Presenting evidence: 'Los datos muestran que...'\n   - Making inferences: 'Se puede inferir que...'\n   - Drawing conclusions: 'A la luz de lo anterior, se concluye que...'\n   - Qualifying: 'Si bien es cierto que..., también cabe señalar que...'",
+      "table": {
+        "headers": ["Function", "Connector", "Example"],
+        "rows": [
+          ["Causal (formal)", "ya que / puesto que", "El argumento es débil ya que carece de evidencia."],
+          ["Conclusion", "por lo tanto", "No hay consenso; por lo tanto, el tema es controvertido."],
+          ["Concession", "aunque / si bien", "Si bien la fuente es fiable, los datos son antiguos."],
+          ["Contrast", "sin embargo / no obstante", "El estudio sugiere X; sin embargo, otros resultados difieren."],
+          ["Condition", "siempre que", "Se puede afirmar X siempre que se pruebe con datos."],
+          ["Negative condition", "a menos que (+ subj.)", "No se puede generalizar a menos que se amplíe la muestra."],
+          ["Inference", "se puede inferir que", "A partir de estos datos, se puede inferir que..."]
+        ]
+      },
+      "examples": [
+        "El argumento es débil porque carece de evidencia empírica. (The argument is weak because it lacks empirical evidence.)",
+        "Aunque se han presentado datos, no es posible establecer una relación de causalidad. (Although data has been presented, it is not possible to establish a causal relationship.)",
+        "Por lo tanto, la tesis propuesta no es sostenible. (Therefore, the proposed thesis is not sustainable.)",
+        "A menos que se refuten los contraargumentos, la conclusión permanece provisional. (Unless the counterarguments are refuted, the conclusion remains provisional.)",
+        "Se puede inferir que los resultados son consistentes si bien no concluyentes. (It can be inferred that the results are consistent albeit not conclusive.)"
+      ],
+      "aid_note": "Romanian uses similar causal/concessive structures: 'deoarece' ≈ 'ya que', 'deși' ≈ 'aunque', 'prin urmare' ≈ 'por lo tanto'. The Spanish subjunctive after 'a menos que' works similarly to Romanian 'cu condiția ca' + subjunctive — both require the mood shift for negative conditions."
+    },
+    {
+      "title": "Advanced Subjunctive for Critical Discourse",
+      "content": "B2.1 level requires mastery of subjunctive in complex argumentative contexts. These structures are essential for expressing doubt, evaluating claims, and engaging in critical analysis.\n\nKey uses:\n\n1. DOUBT & UNCERTAINTY:\n   - 'No creo que...' (I don't believe that...)\n   - 'Dudo que...' (I doubt that...)\n   - 'Es improbable que...' (It's unlikely that...)\n   - 'Puede ser que...' (It may be that...)\n   - 'No es cierto que...' (It's not true that...)\n\n2. EVALUATIVE JUDGMENTS:\n   - 'Es importante que...' (It's important that...)\n   - 'Es necesario que...' (It's necessary that...)\n   - 'Es fundamental que...' (It's essential that...)\n   - 'Es dudoso que...' (It's doubtful that...)\n   - 'Es evidente que' + INDICATIVE (It's evident that — note: 'evidente' takes indicative!)\n   - 'Es obvio que' + INDICATIVE (It's obvious that)\n\n3. IMPERSONAL EXPRESSIONS:\n   - 'Es posible que...' + subjunctive\n   - 'Es seguro que' + indicative\n   - 'Es un hecho que' + indicative\n   - 'Es una suposición que...' + subjunctive\n\n⚠️ KEY DISTINCTION: Expressions of certainty take the INDICATIVE; expressions of doubt take the SUBJUNCTIVE.\n\n4. RELATIVE CLAUSES WITH UNKNOWN/NEGATED REFERENCE:\n   - 'No hay nadie que sepa la respuesta' (There is no one who knows the answer) — subjunctive\n   - 'Busco un experto que entienda el tema' (I'm looking for an expert who understands the topic) — subjunctive (you don't know if such an expert exists)\n   - 'Hay un experto que entiende el tema' (There is an expert who understands the topic) — indicative (you know one exists)",
+      "table": {
+        "headers": ["Expression", "Mood", "Example"],
+        "rows": [
+          ["Duda", "subjunctive", "Dudo que sea válido este argumento."],
+          ["Negación", "subjunctive", "No es cierto que todos los datos apoyen la tesis."],
+          ["Posibilidad", "subjunctive", "Es posible que los resultados sean inconclusivos."],
+          ["Certidumbre", "indicative", "Es evidente que los datos son fiables."],
+          ["Impersonal posible", "subjunctive", "Es probable que haya una correlación."],
+          ["Hecho", "indicative", "Es un hecho que existe la discrepancia."]
+        ]
+      },
+      "examples": [
+        "Dudo que este razonamiento sea correcto. (I doubt this reasoning is correct.)",
+        "No es cierto que todas las fuentes sean fiables. (It's not true that all sources are reliable.)",
+        "Es importante que se analicen los contraargumentos. (It's important that counterarguments be analyzed.)",
+        "Es probable que los datos reflejen un sesgo. (It's likely that the data reflect a bias.)",
+        "Es evidente que los resultados son consistentes. (It's evident that the results are consistent.)"
+      ],
+      "aid_note": "Romanian uses 'să' + subjunctive similarly: 'Se îndoiesc că' ≈ 'Dudo que', 'Este posibil să' ≈ 'Es posible que'. Romanian doesn't distinguish indicative/subjunctive in relative clauses the way Spanish does — in Romanian, 'caut un expert care înțelege' would use the same form regardless. Spanish requires the mood shift based on the speaker's certainty."
+    }
+  ],
+  "pronunciation": [
+    {
+      "title": "Stress Patterns in Academic Vocabulary",
+      "content": "Spanish academic vocabulary features consistent stress patterns that help with both comprehension and articulation.\n\nKey patterns:\n\n1. AGUDAS (stressed on last syllable) — carry a written accent:\n   - 'conclusión' (kon-kloo-SEE-on)\n   - 'inferencia' (in-feh-REEN-see-ah)\n   - 'falacia' (fah-LAH-see-ah)\n   - 'análisis' (ah-NAH-lis-ees)\n\n2. LLANAS (stressed on second-to-last) — no written accent (usually):\n   - 'argumento' (ar-goo-MEN-toh)\n   - 'evidencia' (eh-vee-DEN-see-ah)\n   - 'premisa' (preh-MEE-sah)\n   - 'conclusiones' (kon-kloo-SEE-oh-nes)\n\n3. ESDRÚJULAS (stressed on third-to-last) — always carry an accent:\n   - 'lógica' (LOH-hi-kah)\n   - 'sílaba' (SIH-lah-bah)\n   - 'síntesis' (SIN-teh-sees) — note: 'sis' with 's', not 'z'\n   - 'matemáticas' (mah-teh-mah-TEE-kahs)\n\n⚠️ CRITICAL FOR SPEAKERS OF ENGLISH: Spanish 'r' is always rolled/tapped — 'razonamiento' is rah-so-nah-MIEN-toh, with a clear rolled 'r' at the beginning and a single tap in the middle. Never approximate it with an English 'r'.\n\n⚠️ VOWEL CLARITY: Spanish vowels are pure and brief:\n   - 'a' = 'ah' (as in 'father')\n   - 'e' = 'eh' (as in 'bed')\n   - 'i' = 'ee' (as in 'see')\n   - 'o' = 'oh' (as in 'go', but shorter)\n   - 'u' = 'oo' (as in 'too', lips rounded)\n   Never diphthongize or add schwa sounds (e.g., NOT 'rah-so-nah-MEN-tow').",
+      "examples": [
+        { "target": "conclusión", "source": "kon-kloo-SEE-on (aguda, accent on 'c')"},
+        { "target": "argumento", "source": "ar-goo-MEN-toh (llana, no accent)"},
+        { "target": "lógica", "source": "LOH-hi-kah (esdrújula, always accented)"},
+        { "target": "inferencia", "source": "in-feh-REEN-see-ah (aguda, accent on 're')" },
+        { "target": "falacia", "source": "fah-LAH-see-ah (aguda, accent on 'la')" }
+      ],
+      "aid_note": "Romanian speakers should note: Spanish 'r' is more rolled than Romanian 'r' at the beginning of words. The Spanish vowel system is simpler than Romanian's — no central vowels, no diphthong reduction. Spanish 'e' is always 'eh', never a reduced 'ə' sound like Romanian 'ă'."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "exercise",
+      "question": "What does 'la falacia del hombre de paja' refer to?",
+      "options": ["A valid counterargument", "A straw man fallacy", "An appeal to authority", "A false cause"],
+      "correct": 1,
+      "explanation": "'La falacia del hombre de paja' = 'the straw man fallacy' — misrepresenting someone's argument to make it easier to attack."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: '_____ que los resultados sean concluyentes, porque la muestra es demasiado pequeña.' (I doubt the results are conclusive, because the sample is too small.)",
+      "correct": "Dudo",
+      "explanation": "'Dudo que...' requires the subjunctive: 'Dudo que los resultados sean concluyentes.' Expressions of doubt always trigger the subjunctive mood in Spanish."
+    },
+    {
+      "type": "exercise",
+      "question": "Which connector expresses a concession?",
+      "options": ["Por lo tanto", "ya que", "Si bien", "debido a"],
+      "correct": 2,
+      "explanation": "'Si bien' (while / whilst) is a concessional connector. 'Por lo tanto' = therefore (conclusion), 'ya que' = since (cause), 'debido a' = due to (cause)."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: 'No se puede generalizar _____ se amplíe la muestra.' (One cannot generalize unless the sample is expanded.)",
+      "correct": "a menos que",
+      "explanation": "'A menos que' = 'unless' — requires the subjunctive after it: 'a menos que se amplíe la muestra.' This is a negative conditional structure."
+    },
+    {
+      "type": "exercise",
+      "question": "What mood is used after 'Es evidente que'?",
+      "options": ["Subjunctive", "Indicative", "Infinitive", "Imperative"],
+      "correct": 1,
+      "explanation": "Expressions of certainty like 'es evidente que', 'es obvio que', 'es cierto que' take the INDICATIVE. Only expressions of doubt take the subjunctive."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: 'El argumento es _____ porque carece de evidencia.' (The argument is weak/unfounded because it lacks evidence.)",
+      "correct": "débil / infundado",
+      "explanation": "Both 'débil' (weak) and 'infundado' (unfounded) are correct. 'El argumento es débil porque carece de evidencia.' — 'because' = 'porque' (simple causal connector)."
+    },
+    {
+      "type": "exercise",
+      "question": "Which word means 'correlation' in Spanish?",
+      "options": ["la causalidad", "la correlación", "la implicación", "la inferencia"],
+      "correct": 1,
+      "explanation": "'La correlación' = correlation. 'La causalidad' = causality (cause-effect relationship). 'La implicación' = implication. 'La inferencia' = inference."
+    },
+    {
+      "type": "exercise",
+      "question": "What is the correct stress pattern of 'lógica'?",
+      "options": ["Llanas (second-to-last syllable)", "Agudas (last syllable)", "Esdrújulas (third-to-last syllable)", "Esdrújulas (last syllable)"],
+      "correct": 2,
+      "explanation": "'Lógica' is esdrújula — stressed on the third-to-last syllable (LOH-hi-kah). All esdrújulas carry a written accent in Spanish."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: '_____ los datos, se puede inferir que existe una relación causal.' (Based on the data, one can infer that there is a causal relationship.)",
+      "correct": "A partir de / Teniendo en cuenta",
+      "explanation": "'A partir de los datos' (Starting from the data) or 'Teniendo en cuenta los datos' (Taking into account the data) both work to introduce inference-based conclusions."
+    },
+    {
+      "type": "exercise",
+      "question": "Which of these is a logical fallacy?",
+      "options": ["la deducción", "la falacia del hombre de paja", "la inducción", "la inferencia"],
+      "correct": 1,
+      "explanation": "'La falacia del hombre de paja' = the straw man fallacy. The others (deducción/deduction, inducción/induction, inferencia/inference) are legitimate reasoning methods, not fallacies."
+    }
+  ]
+}

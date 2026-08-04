@@ -1,0 +1,673 @@
+{
+  "theme": "professional-negotiation",
+  "level": "b1-2",
+  "part": 2,
+  "vocabulary": [
+    {
+      "id": 50,
+      "target": "favorable",
+      "source": "favorable",
+      "gender": "m/adj.",
+      "type": "adj"
+    },
+    {
+      "id": 51,
+      "target": "desfavorable",
+      "source": "unfavorable",
+      "gender": "m/adj.",
+      "type": "adj"
+    },
+    {
+      "id": 52,
+      "target": "mutuo",
+      "source": "mutual",
+      "gender": "m/adj.",
+      "type": "adj"
+    },
+    {
+      "id": 53,
+      "target": "recíproco",
+      "source": "reciprocal",
+      "gender": "m/adj.",
+      "type": "adj"
+    },
+    {
+      "id": 54,
+      "target": "obligatorio",
+      "source": "mandatory",
+      "gender": "m/adj.",
+      "type": "adj"
+    },
+    {
+      "id": 55,
+      "target": "voluntario",
+      "source": "voluntary",
+      "gender": "m/adj.",
+      "type": "adj"
+    },
+    {
+      "id": 56,
+      "target": "vinculante",
+      "source": "binding",
+      "gender": "m/adj.",
+      "type": "adj"
+    },
+    {
+      "id": 57,
+      "target": "irrevocable",
+      "source": "irrevocable",
+      "gender": "m/adj.",
+      "type": "adj"
+    },
+    {
+      "id": 58,
+      "target": "proporcional",
+      "source": "proportional",
+      "gender": "m/adj.",
+      "type": "adj"
+    },
+    {
+      "id": 59,
+      "target": "razonable",
+      "source": "reasonable",
+      "gender": "m/adj.",
+      "type": "adj"
+    },
+    {
+      "id": 60,
+      "target": "aceptable",
+      "source": "acceptable",
+      "gender": "m/adj.",
+      "type": "adj"
+    },
+    {
+      "id": 61,
+      "target": "inaceptable",
+      "source": "unacceptable",
+      "gender": "m/adj.",
+      "type": "adj"
+    },
+    {
+      "id": 62,
+      "target": "el paquete de beneficios",
+      "source": "benefits package",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 63,
+      "target": "el bono por desempeño",
+      "source": "performance bonus",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 64,
+      "target": "las vacaciones pagadas",
+      "source": "paid vacation",
+      "gender": "f pl.",
+      "type": "noun"
+    },
+    {
+      "id": 65,
+      "target": "el seguro médico",
+      "source": "health insurance",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 66,
+      "target": "el plan de pensiones",
+      "source": "pension plan",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 67,
+      "target": "la jornada laboral",
+      "source": "working hours",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 68,
+      "target": "el teletrabajo",
+      "source": "remote work",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 69,
+      "target": "el turno",
+      "source": "shift",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 70,
+      "target": "la ascensión profesional",
+      "source": "career advancement",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 71,
+      "target": "el despido",
+      "source": "dismissal",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 72,
+      "target": "la dimisión",
+      "source": "resignation",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 73,
+      "target": "la baja voluntaria",
+      "source": "voluntary termination",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 74,
+      "target": "el preaviso",
+      "source": "notice period",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 75,
+      "target": "el convenio colectivo",
+      "source": "collective bargaining agreement",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 76,
+      "target": "la mediación laboral",
+      "source": "labor mediation",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 77,
+      "target": "la huelga",
+      "source": "strike",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 78,
+      "target": "el cierre patronal",
+      "source": "lockout",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 79,
+      "target": "en términos generales",
+      "source": "in general terms",
+      "gender": "—",
+      "type": "phrase"
+    },
+    {
+      "id": 80,
+      "target": "bajo estas condiciones",
+      "source": "under these conditions",
+      "gender": "—",
+      "type": "phrase"
+    },
+    {
+      "id": 81,
+      "target": "a cambio de",
+      "source": "in exchange for",
+      "gender": "—",
+      "type": "phrase"
+    },
+    {
+      "id": 82,
+      "target": "siempre y cuando",
+      "source": "provided that / as long as",
+      "gender": "—",
+      "type": "phrase"
+    },
+    {
+      "id": 83,
+      "target": "siempre que",
+      "source": "as long as",
+      "gender": "—",
+      "type": "phrase"
+    },
+    {
+      "id": 84,
+      "target": "en caso de que",
+      "source": "in case that",
+      "gender": "—",
+      "type": "phrase"
+    },
+    {
+      "id": 85,
+      "target": "a condición de que",
+      "source": "on the condition that",
+      "gender": "—",
+      "type": "phrase"
+    },
+    {
+      "id": 86,
+      "target": "con el fin de",
+      "source": "in order to",
+      "gender": "—",
+      "type": "phrase"
+    },
+    {
+      "id": 87,
+      "target": "a fin de",
+      "source": "in order to",
+      "gender": "—",
+      "type": "phrase"
+    },
+    {
+      "id": 88,
+      "target": "en virtud del",
+      "source": "by virtue of",
+      "gender": "—",
+      "type": "phrase"
+    },
+    {
+      "id": 89,
+      "target": "de conformidad con",
+      "source": "in accordance with",
+      "gender": "—",
+      "type": "phrase"
+    },
+    {
+      "id": 90,
+      "target": "sin perjuicio de",
+      "source": "without prejudice to",
+      "gender": "—",
+      "type": "phrase"
+    },
+    {
+      "id": 91,
+      "target": "previo aviso",
+      "source": "with prior notice",
+      "gender": "—",
+      "type": "phrase"
+    },
+    {
+      "id": 92,
+      "target": "por mutuo acuerdo",
+      "source": "by mutual agreement",
+      "gender": "—",
+      "type": "phrase"
+    },
+    {
+      "id": 93,
+      "target": "en buena fe",
+      "source": "in good faith",
+      "gender": "—",
+      "type": "phrase"
+    },
+    {
+      "id": 94,
+      "target": "de buena fe",
+      "source": "in good faith",
+      "gender": "—",
+      "type": "phrase"
+    },
+    {
+      "id": 95,
+      "target": "de común acuerdo",
+      "source": "by common agreement",
+      "gender": "—",
+      "type": "phrase"
+    },
+    {
+      "id": 96,
+      "target": "en principio",
+      "source": "in principle",
+      "gender": "—",
+      "type": "phrase"
+    },
+    {
+      "id": 97,
+      "target": "en última instancia",
+      "source": "ultimately / in the last instance",
+      "gender": "—",
+      "type": "phrase"
+    },
+    {
+      "id": 98,
+      "target": "en aras de",
+      "source": "in the interest of",
+      "gender": "—",
+      "type": "phrase"
+    },
+    {
+      "id": 99,
+      "target": "a efectos de",
+      "source": "for the purposes of",
+      "gender": "—",
+      "type": "phrase"
+    }
+  ],
+  "grammar": [
+    {
+      "title": "Legal and Contractual Language — Formal Register",
+      "content": "Professional negotiation requires mastery of formal, legal register Spanish. This register uses specific vocabulary, fixed expressions, and formal structures that differ from everyday speech.\n\n**Formal address in negotiations:**\n- Use 'usted' form consistently: '¿Podría explicarme...?' (Could you explain to me...?)\n- Formal verbs: 'Me dirijo a usted para...' (I am writing to you to...)\n- Formal requests: 'Le agradecería si pudiera...' (I would appreciate it if you could...)\n- Formal acknowledgments: 'Tomamos nota de su propuesta.' (We have noted your proposal.)\n\n**Contractual formulae (fixed expressions):**\n- 'Las partes acuerdan lo siguiente:' (The parties agree as follows:)\n- 'Con los efectos que correspondan' (With the appropriate effects)\n- 'A todos los efectos legales' (For all legal purposes)\n- 'Sin perjuicio de los derechos de las partes' (Without prejudice to the rights of the parties)\n- 'Previo acuerdo entre las partes' (By prior agreement between the parties)\n- 'En caso de incumplimiento' (In the event of non-compliance)\n- 'La presente cláusula será de aplicación...' (This clause shall apply...)\n- 'Salvo disposición en contrario' (Unless otherwise provided)\n\n**Verb moods in legal language:**\n- Subjunctive for obligations: 'Las partes se comprometan a...' (The parties commit themselves to...)\n- Future for commitments: 'La empresa pagará la indemnización...' (The company will pay the severance...)\n- Imperative (formal) for instructions: 'Fírmese en dos ejemplares.' (Sign in duplicate.)\n- Passive with 'ser': 'El contrato será firmado por ambas partes.' (The contract will be signed by both parties.)\n- 'Se' passive: 'Se establecerá un plazo de 30 días.' (A 30-day period will be established.)\n\n**Connector phrases for legal/negotiation text:**\n- 'En consecuencia...' (Consequently...)\n- 'Por lo tanto...' (Therefore...)\n- 'En virtud de lo anterior...' (By virtue of the foregoing...)\n- 'A tenor de lo establecido...' (In accordance with what is established...)\n- 'A efecto de lo dispuesto en...' (For the purpose of what is provided in...)\n- 'No obstante lo anterior...' (Notwithstanding the foregoing...)\n- 'A reserva de...' (Subject to...)\n- 'Bajo reserva de...' (Subject to...)\n\n**Key rule:** Legal Spanish favors precision over brevity. Fixed formulae should be memorized as whole units rather than translated word by word.",
+      "table": {
+        "headers": [
+          "Category",
+          "Expression",
+          "English"
+        ],
+        "rows": [
+          [
+            "Opening",
+            "Las partes acuerdan",
+            "The parties agree"
+          ],
+          [
+            "Condition",
+            "En caso de que",
+            "In the event that"
+          ],
+          [
+            "Obligation",
+            "Se comprometen a",
+            "They commit to"
+          ],
+          [
+            "Exception",
+            "Salvo disposición en contrario",
+            "Unless otherwise provided"
+          ],
+          [
+            "Consequence",
+            "En consecuencia",
+            "Consequently"
+          ],
+          [
+            "Reservation",
+            "A reserva de",
+            "Subject to"
+          ],
+          [
+            "Termination",
+            "En caso de incumplimiento",
+            "In case of non-compliance"
+          ],
+          [
+            "Effect",
+            "A todos los efectos legales",
+            "For all legal purposes"
+          ]
+        ]
+      },
+      "examples": [
+        "Las partes acuerdan lo siguiente: el contrato tendrá una vigencia de dos años.",
+        "En caso de que una de las partes incumpla lo establecido, se aplicarán las penalizaciones correspondientes.",
+        "La indemnización será pagada dentro de los 30 días siguientes a la terminación del contrato.",
+        "Salvo disposición en contrario, todas las cláusulas permanecerán vigentes."
+      ],
+      "aid_note": "Romanian legal language uses similar formal structures: 'Părțile convin' = 'Las partes acuerdan'; 'În cazul în care' = 'En caso de que'; 'În consecință' = 'En consecuencia'. The register difference between formal and informal is parallel in both languages."
+    },
+    {
+      "title": "Polite Disagreement and Diplomatic Language",
+      "content": "Professional negotiation requires the ability to disagree, refuse, and push back without damaging relationships. Spanish diplomatic language uses indirectness, softening expressions, and hedging to maintain harmony while expressing disagreement.\n\n**Softening disagreement:**\n- 'Comprendo su punto de vista, aunque...' (I understand your point of view, although...)\n- 'Reconozco la validez de su argumento, pero...' (I acknowledge the validity of your argument, but...)\n- 'Entiendo su posición, sin embargo...' (I understand your position, however...)\n- 'No estoy totalmente de acuerdo con...' (I don't fully agree with...)\n- 'Me temo que no podemos aceptar...' (I'm afraid we can't accept...)\n- 'Lamentablemente, esa propuesta no nos parece viable.' (Unfortunately, that proposal doesn't seem viable to us.)\n\n**Diplomatic refusal:**\n- 'Por el momento, no podemos proceder en ese sentido.' (For now, we cannot proceed in that direction.)\n- 'Nos tememos que esa opción no es viable.' (We fear that option is not viable.)\n- 'Esa condición nos resulta inaceptable.' (That condition is unacceptable to us.)\n- 'No estamos en condiciones de aceptar tal propuesta.' (We are not in a position to accept such a proposal.)\n- 'Lamentamos informarle que... (We regret to inform you that...)\n\n**Softening demands:**\n- 'Nos gustaría saber si sería posible...' (We would like to know if it would be possible...)\n- 'Sería de gran ayuda si pudieran...' (It would be very helpful if you could...)\n- '¿Habría alguna posibilidad de...?' (Is there any possibility of...?)\n- 'Nos preguntamos si podrían reconsiderar...' (We wonder if you could reconsider...)\n- 'Agradeceríamos mucho si pudieran...' (We would greatly appreciate if you could...)\n\n**Finding common ground:**\n- 'Ambas partes parecen estar de acuerdo en...' (Both parties seem to agree on...)\n- 'Encontramos terreno común en...' (We find common ground in...)\n- 'Podríamos converger en torno a...' (We could converge around...)\n- 'Tal vez podríamos encontrar una solución intermedia.' (Perhaps we could find an intermediate solution.)\n- 'Propongo que busquemos una fórmula que beneficie a ambas partes.' (I propose we seek a formula that benefits both parties.)\n\n**Conditional politeness (always preferred over direct statements):**\n- '¿Sería posible firmar hoy?' (Would it be possible to sign today?)\n- 'Nos gustaría proponer una contraoferta.' (We would like to propose a counteroffer.)\n- '¿Habría margen para negociar los términos?' (Is there room to negotiate the terms?)\n- 'Nos preguntamos si podría reconsiderar su posición.' (We wonder if you could reconsider your position.)\n\n**Key principle:** Spanish business culture values maintaining relationships (relación personal). Direct confrontation should be avoided. Use indirectness and conditional forms to express disagreement diplomatically.",
+      "table": {
+        "headers": [
+          "Function",
+          "Direct (avoid)",
+          "Diplomatic (use)"
+        ],
+        "rows": [
+          [
+            "Disagree",
+            "No estoy de acuerdo",
+            "Comprendo su punto, aunque..."
+          ],
+          [
+            "Refuse",
+            "No podemos aceptar",
+            "Lamentablemente, no nos parece viable"
+          ],
+          [
+            "Demand",
+            "Quiero que cambien esto",
+            "Nos gustaría saber si sería posible..."
+          ],
+          [
+            "Push back",
+            "Eso es inaceptable",
+            "Esa condición nos resulta difícil de aceptar"
+          ]
+        ]
+      },
+      "examples": [
+        "Comprendo su posición, aunque nos tememos que esa cláusula no es viable para nosotros.",
+        "Nos gustaría proponer una contraoferta que pueda beneficiar a ambas partes.",
+        "¿Habría alguna posibilidad de renegociar el plazo de entrega?",
+        "Encontramos terreno común en los términos generales, pero necesitamos revisar la cláusula de confidencialidad."
+      ],
+      "aid_note": "Romanian diplomatic language works similarly: 'Înțeleg punctul dumneavoastră de vedere, dar...' = 'Comprendo su punto de vista, aunque...'; 'Ne temem că' = 'Nos tememos que'. The indirect approach to disagreement is a shared cultural trait between Romanian and Spanish business communication."
+    }
+  ],
+  "pronunciation": [
+    {
+      "title": "Pronunciation of Professional Negotiation Vocabulary",
+      "content": "Key pronunciation patterns for professional negotiation vocabulary:\n\n1. **The '-ción / -sión' endings (extremely common in legal and professional Spanish):**\n   - negociación → ne-goh-si-A-THYOHN / ne-goh-si-A-SYOHN (stress on -ción)\n   - cláusula → KLOOH-zoo-lah (note: -cla not -ción)\n   - indemnización → een-deh-mee-see-A-THYOHN / -SYOHN\n   - compensación → koom-pehn-sah-THYOHN / -SYOHN\n   - propuesta → proh-POH-stah\n   - mediación → meh-dee-A-THYOHN / -SYOHN\n   - arbitraje → ar-bee-trAH-heh\n   - conciliación → koon-see-lee-A-THYOHN / -SYOHN\n\n2. **The '-miento' ending (always stressed on 'mien'):**\n   - consentimiento → koon-seeen-TEE-mee-en-toh (not in this theme but related)\n   - All -miento words follow the same stress pattern.\n\n3. **The 'll' and 'y' sounds:**\n   - cláusula → KLOOH-zoo-lah (ll = 'y' sound in most dialects)\n   - lleno / llano → similar pattern\n   - The 'll' in Spanish is the 'y' sound (yeísmo) in most of the Spanish-speaking world.\n\n4. **The 'j' and 'g' before 'e/i' (always like English 'h'):**\n   - negociación → ne-goh-si-A-THYOHN (g before u = normal 'g')\n   - indemnización → the 'd' before 'e' is pronounced softly\n   - compromiso → koom-PREE-mee-soh\n   - beneficio → be-nee-SEE-ee-oh\n\n5. **Double consonants:**\n   - compensación → the 'mp' is pronounced as a clear 'm' followed by 'p'\n   - compensación → koom-pehn-sah-THYOHN\n   - cláusula → the 'z' between vowels is 'th' (Spain) or 's' (Latin America)\n\n6. **Important stress patterns for this theme:**\n   - Palabras esdrújulas (stress on 3rd-to-last, ALWAYS accented): indemnización (een-deh-mee-see-A-THYOHN), conciliación (koon-see-lee-A-THYOHN), arbitraje (ar-bee-trAH-heh)\n   - Palabras agudas (stress on last syllable): cláusula (KLOOH-zoo-lah — wait, this is llana, not aguda!), oferta (oh-FER-tah), propuesta (proh-POH-stah)\n   - Palabras llanas (stress on 2nd-to-last): salario (sah-ree-AH-loh), contrato (kon-TRAH-toh), acuerdo (ah-KWER-doh)\n\n7. **The 'rr' sound (trilled 'r'):**\n   - salario → sah-ree-AH-loh (single r, soft)\n   - renegociación → reh-ne-goh-si-A-THYOHN (single r)\n   - This theme has few 'rr' sounds, but watch for them in other professional vocabulary.",
+      "examples": [
+        "negociación = ne-goh-si-A-THYOHN (Spain) / ne-goh-si-A-SYOHN (LA)",
+        "contrato = kon-TRAH-toh",
+        "cláusula = KLOOH-zoo-lah",
+        "salario = sah-ree-AH-loh",
+        "indemnización = een-deh-mee-see-A-THYOHN / -SYOHN",
+        "compromiso = koom-PREE-mee-soh",
+        "mediación = meh-dee-A-THYOHN / -SYOHN",
+        "acuerdo = ah-KWER-doh",
+        "oferta = oh-FER-tah",
+        "contraoferta = koon-tra-oh-FER-tah",
+        "beneficio = be-nee-SEE-ee-oh",
+        "arbitraje = ar-bee-trAH-heh"
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "multiple-choice",
+      "question": "Which phrase means 'by mutual agreement'?",
+      "options": [
+        "Por acuerdo",
+        "Por mutuo acuerdo",
+        "De común acuerdo",
+        "Both b and c"
+      ],
+      "correct": 3,
+      "explanation": "Both 'por mutuo acuerdo' and 'de común acuerdo' mean 'by mutual agreement'. Both are used interchangeably in Spanish contracts and negotiations."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: 'A _____ (fin) de llegar a un acuerdo, ambas partes deben ceder en algunos puntos.'",
+      "correct": "fin",
+      "explanation": "'A fin de' = 'in order to'. It's a formal purpose marker used in professional and legal contexts: 'A fin de llegar a un acuerdo, ambas partes deben ceder.'"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Which verb is used for 'to mediate' in a labor dispute context?",
+      "options": [
+        "Negociar",
+        "Mediar",
+        "Arbitrar",
+        "Comprometerse"
+      ],
+      "correct": 1,
+      "explanation": "'Mediar' = to mediate. A mediator (el mediador) helps both parties reach an agreement voluntarily. 'Arbitrar' (to arbitrate) is different — an arbitrator makes a binding decision."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: '_____ (ser) necesaria una revisión, ambos estamos de acuerdo en los principios básicos.' (Even if it may be necessary)",
+      "correct": "Aunque sea",
+      "explanation": "'Aunque sea' + subjunctive expresses concession: even if something might be necessary, the basic principles are agreed upon. This is diplomatic language for maintaining agreement on fundamentals while acknowledging differences."
+    },
+    {
+      "type": "exercise",
+      "question": "What does 'la indemnización' typically refer to in employment negotiations?",
+      "options": [
+        "A bonus for good performance",
+        "Severance pay upon termination",
+        "Health insurance benefits",
+        "A relocation allowance"
+      ],
+      "correct": 1,
+      "explanation": "'La indemnización' = severance pay / compensation upon termination. In Spanish labor law, workers are entitled to an indemnización when their contract is terminated, calculated based on years of service and salary."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: '_____ (estar) de acuerdo en los términos generales, necesitamos discutir los detalles.' (Agreeing on / While we are in agreement on)",
+      "correct": "Estando",
+      "explanation": "'Estando de acuerdo en...' (While we agree on / Being in agreement on) is a gerund construction used to acknowledge an area of agreement before moving to points of disagreement."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Which is the correct formal way to say 'we would appreciate it if you could'?",
+      "options": [
+        "Nos gustaría si pudiera",
+        "Le agradeceríamos si pudiera",
+        "Querríamos que pueda",
+        "Nos gustaría poder"
+      ],
+      "correct": 1,
+      "explanation": "'Le agradeceríamos si pudiera' is the most formal and polite expression. It uses the conditional 'agradeceríamos' (we would appreciate) + 'si pudiera' (if you could, subjunctive). This is the gold standard for diplomatic requests in Spanish."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: 'La presente cláusula será de _____ (aplicación) a todas las partes del contrato.'",
+      "correct": "aplicación",
+      "explanation": "'Será de aplicación' = 'shall apply'. This is a standard legal formula indicating that a clause applies to all parties. The full phrase: 'La presente cláusula será de aplicación a todas las partes del contrato.'"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What does 'el teletrabajo' refer to?",
+      "options": [
+        "Telecommunications work",
+        "Remote work / telecommuting",
+        "Phone-based customer service",
+        "Technical remote support"
+      ],
+      "correct": 1,
+      "explanation": "'El teletrabajo' = remote work / telecommuting. This is a common topic in modern employment negotiations, especially post-pandemic. Related terms include 'jornada laboral flexible' (flexible working hours) and 'horario flexible'."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete with the correct subjunctive: 'Siempre y cuando _____ (aceptar) los términos, firmaremos el contrato hoy.'",
+      "correct": "acepten",
+      "explanation": "'Siempre y cuando' always triggers the subjunctive. 'Acepten' is the 3rd person plural present subjunctive of aceptar. The structure expresses a condition that must be met: 'Provided that you accept the terms...'"
+    },
+    {
+      "type": "exercise",
+      "question": "In negotiation, what is 'la contraoferta'?",
+      "options": [
+        "A counteroffer — a response to a proposal with different terms",
+        "An offer to terminate the contract",
+        "A complaint about the current offer",
+        "A request for additional information"
+      ],
+      "correct": 0,
+      "explanation": "'La contraoferta' = counteroffer. In negotiation, when one party makes an offer, the other party may respond with a counteroffer containing modified terms. This back-and-forth is the essence of negotiation."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: 'Las partes se _____ (comprometer) a respetar los términos del acuerdo.'",
+      "correct": "comprometen",
+      "explanation": "'Las partes se comprometen a' = The parties commit to. This is a standard contractual obligation formula. 'Comprometerse' is a reflexive verb meaning to make a commitment or promise."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Which expression is appropriate for acknowledging areas of agreement in a negotiation?",
+      "options": [
+        "Nosotros ganamos.",
+        "Encontramos terreno común en...",
+        "Usted está equivocado.",
+        "No hay nada que acordar."
+      ],
+      "correct": 1,
+      "explanation": "'Encontramos terreno común en...' (We find common ground in...) is the standard diplomatic expression for identifying areas of agreement. It builds rapport and sets a positive tone for resolving remaining differences."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: '_____ (bajo) de las condiciones actuales, no podemos renovar el contrato.'",
+      "correct": "Bajo",
+      "explanation": "'Bajo las condiciones actuales' = 'Under the current conditions'. This formal phrase is used to state the basis or context for a decision in professional communication."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What is 'el cierre patronal'?",
+      "options": [
+        "A company closing ceremony",
+        "A lockout (employer preventing workers from entering)",
+        "A store closure",
+        "A business shutdown for maintenance"
+      ],
+      "correct": 1,
+      "explanation": "'El cierre patronal' = lockout. It's an employer's action of preventing workers from entering the workplace during a labor dispute, typically used as a countermeasure to a strike (la huelga)."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: 'A _____ (reserva) de lo acordado, ambas partes mantienen sus derechos.'",
+      "correct": "reserva",
+      "explanation": "'A reserva de' = 'subject to'. This legal formula means that the rights mentioned are not affected by the agreement and remain available: 'A reserva de lo acordado, ambas partes mantienen sus derechos.'"
+    },
+    {
+      "type": "exercise",
+      "question": "What does 'el bono por desempeño' mean?",
+      "options": [
+        "A penalty for poor performance",
+        "A performance bonus",
+        "A completion certificate",
+        "A disciplinary bonus"
+      ],
+      "correct": 1,
+      "explanation": "'El bono por desempeño' = performance bonus. 'Bono' means bonus; 'desempeño' means performance. This is a common topic in employment negotiations, often tied to meeting specific targets or KPIs."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: 'Nos _____ (gustaría) proponer una contraoferta que beneficie a ambas partes.'",
+      "correct": "gustaría",
+      "explanation": "'Nos gustaría' = 'We would like'. This conditional form is the standard polite way to introduce a proposal in professional negotiations. It's softer than the direct 'Proponemos'."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Which phrase is used to state 'without prejudice to' in legal Spanish?",
+      "options": [
+        "Sin causa de",
+        "Sin perjuicio de",
+        "Sin motivo de",
+        "Sin efecto de"
+      ],
+      "correct": 1,
+      "explanation": "'Sin perjuicio de' = 'without prejudice to'. This is a critical legal formula meaning that the current agreement does not affect or diminish the rights of any party. It's one of the most important phrases in Spanish contracts."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete with the correct subjunctive: 'Con el fin de _____ (llegar) a un acuerdo, sugerimos una reunión presencial.'",
+      "correct": "llegar",
+      "explanation": "'Con el fin de' + infinitive = 'in order to'. Unlike 'con el fin de que', which triggers the subjunctive, 'con el fin de' is followed by the infinitive: 'Con el fin de llegar a un acuerdo...'"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What is 'el preaviso' in employment context?",
+      "options": [
+        "The notice period before contract termination",
+        "A preliminary contract",
+        "An advance payment",
+        "A pre-negotiation meeting"
+      ],
+      "correct": 0,
+      "explanation": "'El preaviso' = notice period. In Spanish employment law, the preaviso is the advance notice that must be given before terminating a contract (typically 15 days). Failure to give preaviso may result in additional compensation."
+    }
+  ]
+}

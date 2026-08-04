@@ -1,0 +1,256 @@
+{
+  "stage_id": "a2-2",
+  "title": "A2.2 \u2014 Future, Conditional, & Object Pronouns",
+  "description": "Talk about future plans, make predictions and requests, express what you would do in hypothetical situations, and use object pronouns to avoid repetition.",
+  "themes": [
+    {
+      "id": "advanced-travel",
+      "title": "Advanced Travel Scenarios",
+      "description": "Navigate complex travel situations including emergencies, accommodations, and transportation problems. Handle conversations about delays, lost luggage, medical issues, and complaints. Master the past subjunctive for hypothetical travel scenarios and conditional for polite requests.",
+      "estimated_hours": 5,
+      "sections": [
+        "Vocabulary",
+        "Grammar",
+        "Exercises",
+        "Pronunciation"
+      ]
+    },
+    {
+      "id": "arts-culture-heritage",
+      "title": "Arts, Culture & Heritage",
+      "description": "Talk about museums, galleries, historical sites, and cultural traditions. Describe artworks, express opinions about culture, and discuss heritage and identity. Master the preterite tense for cultural experiences, 'gustar' and similar verbs for expressing preferences, and relative pronouns for describing places and things.",
+      "estimated_hours": 5,
+      "sections": [
+        "Vocabulary",
+        "Grammar",
+        "Exercises",
+        "Pronunciation"
+      ]
+    },
+    {
+      "id": "complex-social-interactions",
+      "title": "Complex Social Interactions",
+      "description": "Navigate social situations with confidence. Express opinions, negotiate, persuade, and use proper etiquette in Spanish-speaking environments. Master the conditional for polite suggestions, the present subjunctive for opinions, and connectors to structure arguments.",
+      "estimated_hours": 5,
+      "sections": [
+        "Vocabulary",
+        "Grammar",
+        "Exercises",
+        "Pronunciation"
+      ]
+    },
+    {
+      "id": "compound-tenses",
+      "title": "Compound Tenses",
+      "description": "Master haber + past participle to form perfect tenses: present perfect, past perfect, and future perfect.",
+      "estimated_hours": 5,
+      "sections": [
+        "Vocabulary",
+        "Grammar",
+        "Exercises",
+        "Pronunciation"
+      ]
+    },
+    {
+      "id": "conditional-irregular",
+      "title": "Conditional \u2014 Irregular Stems",
+      "description": "Learn conditional irregulars using the same stems as the future (tendr-, dir-, pondr-, etc.).",
+      "estimated_hours": 2,
+      "sections": [
+        "Vocabulary",
+        "Grammar",
+        "Exercises"
+      ]
+    },
+    {
+      "id": "conditional-regular",
+      "title": "Conditional \u2014 Regular Conjugation",
+      "description": "Express hypothetical situations and polite requests using the conditional tense.",
+      "estimated_hours": 2,
+      "sections": [
+        "Vocabulary",
+        "Grammar",
+        "Exercises",
+        "Pronunciation"
+      ]
+    },
+    {
+      "id": "economy-finance",
+      "title": "Economy & Finance",
+      "description": "Talk about personal finance, banking, shopping, budgeting, investments, taxes, and economic systems. Discuss money management, describe financial goals, and understand basic economic concepts. Master the subjunctive for wishes and preferences, the imperfect for past financial situations, and 'saber' vs 'conocer' when talking about financial knowledge.",
+      "estimated_hours": 5,
+      "sections": [
+        "Vocabulary",
+        "Grammar",
+        "Exercises",
+        "Pronunciation"
+      ]
+    },
+    {
+      "id": "education-career",
+      "title": "Education & Career Development",
+      "description": "Talk about university studies, career paths, professional development, and job interviews. Discuss academic programs, work experience, and career goals. Master the imperfect subjunctive for hypothetical career situations and conditional expressions for professional advice.",
+      "estimated_hours": 5,
+      "sections": [
+        "Vocabulary",
+        "Grammar",
+        "Exercises",
+        "Pronunciation"
+      ]
+    },
+    {
+      "id": "entertainment-media",
+      "title": "Entertainment & Media Consumption",
+      "description": "Talk about entertainment, media consumption, gaming, films, books, and cultural activities. Express preferences, share opinions about movies and music, and discuss your free time. Master the imperfect tense for past entertainment habits, the future tense for plans, and the imperative for recommendations.",
+      "estimated_hours": 5,
+      "sections": [
+        "Vocabulary",
+        "Grammar",
+        "Exercises",
+        "Pronunciation"
+      ]
+    },
+    {
+      "id": "environment-sustainability",
+      "title": "Environment & Sustainability",
+      "description": "Talk about the environment, climate change, recycling, conservation, and sustainable living. Express concerns about nature, describe environmental problems, and discuss eco-friendly habits. Master the present subjunctive for environmental wishes, 'ser/estar' for environmental descriptions, and comparative/superlative structures for evaluating impact.",
+      "estimated_hours": 5,
+      "sections": [
+        "Vocabulary",
+        "Grammar",
+        "Exercises",
+        "Pronunciation"
+      ]
+    },
+    {
+      "id": "future-irregular",
+      "title": "Future \u2014 Irregular Stems",
+      "description": "Learn the irregular future stems: tendr-, dir-, pondr-, podr-, querr-, har-, sabr-, vendr-, saldr-.",
+      "estimated_hours": 2,
+      "sections": [
+        "Vocabulary",
+        "Grammar",
+        "Exercises"
+      ]
+    },
+    {
+      "id": "future-regular",
+      "title": "Simple Future \u2014 Regular Conjugation",
+      "description": "Add future endings to the full infinitive to express actions that will happen.",
+      "estimated_hours": 2,
+      "sections": [
+        "Vocabulary",
+        "Grammar",
+        "Exercises",
+        "Pronunciation"
+      ]
+    },
+    {
+      "id": "health-wellness",
+      "title": "Health & Wellness",
+      "description": "Talk about health, fitness, nutrition, and preventive care. Discuss physical and mental well-being, visit the doctor, and understand medical advice. Master the present subjunctive for health-related wishes and the passive reflexive for health procedures.",
+      "estimated_hours": 5,
+      "sections": [
+        "Vocabulary",
+        "Grammar",
+        "Exercises",
+        "Pronunciation"
+      ]
+    },
+    {
+      "id": "past-perfect",
+      "title": "Past Perfect (Pluscuamperfecto)",
+      "description": "Describe actions that happened before another past action using hab\u00eda + past participle.",
+      "estimated_hours": 2,
+      "sections": [
+        "Vocabulary",
+        "Grammar",
+        "Exercises",
+        "Pronunciation"
+      ]
+    },
+    {
+      "id": "past-subjunctive",
+      "title": "Past Subjunctive",
+      "description": "Master the imperfect subjunctive (past subjunctive) for unreal or hypothetical situations in the past.",
+      "estimated_hours": 5,
+      "sections": [
+        "Vocabulary",
+        "Grammar",
+        "Exercises",
+        "Pronunciation"
+      ]
+    },
+    {
+      "id": "politics-society",
+      "title": "Politics & Society",
+      "description": "Talk about government, elections, social issues, and citizenship. Understand news about politics, discuss social topics, and express your views on community and civic matters. Master the conditional for hypothetical political situations, object pronouns in formal contexts, and the future for political promises.",
+      "estimated_hours": 5,
+      "sections": [
+        "Vocabulary",
+        "Grammar",
+        "Exercises",
+        "Pronunciation"
+      ]
+    },
+    {
+      "id": "present-subjunctive",
+      "title": "Present Subjunctive",
+      "description": "Learn to conjugate and use the present subjunctive mood for uncertainty, doubt, and will in Spanish.",
+      "estimated_hours": 5,
+      "sections": [
+        "Vocabulary",
+        "Grammar",
+        "Exercises",
+        "Pronunciation"
+      ]
+    },
+    {
+      "id": "pronoun-combinations",
+      "title": "Object Pronoun Combinations",
+      "description": "Combine direct and indirect object pronouns into single words (se lo, te lo, me la).",
+      "estimated_hours": 2,
+      "sections": [
+        "Vocabulary",
+        "Grammar",
+        "Exercises",
+        "Pronunciation"
+      ]
+    },
+    {
+      "id": "relative-pronouns",
+      "title": "Relative Pronouns",
+      "description": "Learn to use relative pronouns (que, quien, el cual, donde, cuyo) to connect ideas in Spanish.",
+      "estimated_hours": 5,
+      "sections": [
+        "Vocabulary",
+        "Grammar",
+        "Exercises",
+        "Pronunciation"
+      ]
+    },
+    {
+      "id": "technology-innovation",
+      "title": "Technology & Innovation",
+      "description": "Talk about technology, artificial intelligence, smartphones, apps, digital transformation, and innovation. Express opinions about new technology, describe how technology has changed daily life, and discuss the benefits and drawbacks of digital tools. Master the future tense for predictions, the conditional for hypotheticals about technology, and 'deber' / 'tener que' for obligations in the digital age.",
+      "estimated_hours": 4,
+      "sections": [
+        "Vocabulary",
+        "Grammar",
+        "Exercises",
+        "Pronunciation"
+      ]
+    },
+    {
+      "id": "verb-prepositions",
+      "title": "Verbs + Prepositions",
+      "description": "Master fixed verb+preposition combinations: pensar en, salir con, depender de, so\u00f1ar con.",
+      "estimated_hours": 2,
+      "sections": [
+        "Vocabulary",
+        "Grammar",
+        "Exercises"
+      ]
+    }
+  ]
+}

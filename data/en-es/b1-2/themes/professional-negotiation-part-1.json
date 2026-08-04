@@ -1,0 +1,586 @@
+{
+  "theme": "professional-negotiation",
+  "level": "b1-2",
+  "part": 1,
+  "vocabulary": [
+    {
+      "id": 1,
+      "target": "la negociación",
+      "source": "negotiation",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 2,
+      "target": "el contrato",
+      "source": "contract",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 3,
+      "target": "la cláusula",
+      "source": "clause",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 4,
+      "target": "la remuneración",
+      "source": "compensation",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 5,
+      "target": "el salario",
+      "source": "salary",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 6,
+      "target": "la indemnización",
+      "source": "severance / compensation",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 7,
+      "target": "el beneficio",
+      "source": "benefit / profit",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 8,
+      "target": "la compensación",
+      "source": "compensation",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 9,
+      "target": "la contrapartida",
+      "source": "counterpart / quid pro quo",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 10,
+      "target": "el acuerdo",
+      "source": "agreement",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 11,
+      "target": "el desacuerdo",
+      "source": "disagreement",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 12,
+      "target": "el compromiso",
+      "source": "compromise",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 13,
+      "target": "la mediación",
+      "source": "mediation",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 14,
+      "target": "la arbitraje",
+      "source": "arbitration",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 15,
+      "target": "la conciliación",
+      "source": "conciliation",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 16,
+      "target": "la propuesta",
+      "source": "proposal",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 17,
+      "target": "la oferta",
+      "source": "offer",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 18,
+      "target": "la contraoferta",
+      "source": "counteroffer",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 19,
+      "target": "el plazo",
+      "source": "deadline / term",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 20,
+      "target": "la vigencia",
+      "source": "validity period",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 21,
+      "target": "la renovación",
+      "source": "renewal",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 22,
+      "target": "la resolución",
+      "source": "resolution",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 23,
+      "target": "la mediador",
+      "source": "mediator",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 24,
+      "target": "la mediadora",
+      "source": "mediator (f)",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 25,
+      "target": "el árbitro",
+      "source": "arbitrator",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 26,
+      "target": "el demandante",
+      "source": "plaintiff",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 27,
+      "target": "el demandado",
+      "source": "defendant",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 28,
+      "target": "la firma",
+      "source": "signature",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 29,
+      "target": "el aval",
+      "source": "guarantee / endorsement",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 30,
+      "target": "la garantía",
+      "source": "warranty / guarantee",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 31,
+      "target": "la penalización",
+      "source": "penalty",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 32,
+      "target": "la renegociación",
+      "source": "renegotiation",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 33,
+      "target": "la disolución",
+      "source": "dissolution",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 34,
+      "target": "negociar",
+      "source": "to negotiate",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 35,
+      "target": "firmar",
+      "source": "to sign",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 36,
+      "target": "aceptar",
+      "source": "to accept",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 37,
+      "target": "rechazar",
+      "source": "to reject",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 38,
+      "target": "proponer",
+      "source": "to propose",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 39,
+      "target": "ofrecer",
+      "source": "to offer",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 40,
+      "target": "ceder",
+      "source": "to yield / to concede",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 41,
+      "target": "insistir",
+      "source": "to insist",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 42,
+      "target": "rechazar",
+      "source": "to refuse",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 43,
+      "target": "renegociar",
+      "source": "to renegotiate",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 44,
+      "target": "mediar",
+      "source": "to mediate",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 45,
+      "target": "arbitrar",
+      "source": "to arbitrate",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 46,
+      "target": "comprometerse",
+      "source": "to commit / to compromise",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 47,
+      "target": "llegar a un acuerdo",
+      "source": "to reach an agreement",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 48,
+      "target": "resolver el conflicto",
+      "source": "to resolve the conflict",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 49,
+      "target": "equilibrado",
+      "source": "balanced",
+      "gender": "m/adj.",
+      "type": "adj"
+    }
+  ],
+  "grammar": [
+    {
+      "title": "Conditional Sentences in Negotiation Contexts",
+      "content": "Negotiation inherently involves hypothetical scenarios, conditions, and contingencies. Mastering conditional structures is essential for professional negotiations in Spanish.\n\n**First conditional (real conditions — actual negotiations):**\nStructure: Si + present → future / imperative\n- Si aceptamos esta propuesta, firmaremos el contrato mañana. (If we accept this proposal, we will sign the contract tomorrow.)\n- Si no llegan a un acuerdo, el plazo se ampliará. (If they don't reach an agreement, the deadline will be extended.)\n- Si firma hoy, le ofrecemos un descuento adicional. (If you sign today, we offer you an additional discount.)\n\n**Second conditional (hypothetical — exploring options):**\nStructure: Si + imperfect subjunctive → conditional\n- Si pudiéramos ampliar el plazo, llegaríamos a un acuerdo más fácilmente. (If we could extend the deadline, we would reach an agreement more easily.)\n- Si el salario fuera más competitivo, aceptaríamos la oferta. (If the salary were more competitive, we would accept the offer.)\n- Si las condiciones fueran favorables, estaríamos dispuestos a firmar. (If the conditions were favorable, we would be willing to sign.)\n\n**Third conditional (counterfactual — discussing what should have been):**\nStructure: Si + pluperfect subjunctive → conditional perfect\n- Si hubiéramos negociado los términos antes, ahora tendríamos un acuerdo mejor. (If we had negotiated the terms earlier, we would now have a better agreement.)\n- Si no se hubiera incluido esa cláusula, no habría conflicto. (If that clause hadn't been included, there would be no conflict.)\n- Si la empresa hubiera propuesto mejores condiciones, habríamos aceptado. (If the company had proposed better conditions, we would have accepted.)\n\n**Mixed conditionals (negotiation-specific):**\n- Si hubiéramos leído el contrato con más detalle, ahora no estaríamos en esta situación. (If we had read the contract more carefully, we wouldn't be in this situation now.)\n- Si el acuerdo fuera vinculante desde el principio, no necesitaríamos mediación. (If the agreement had been binding from the beginning, we wouldn't need mediation.)\n\nNote for Romanian speakers: Romanian conditionals map almost perfectly:\n- 'Dacă acceptăm, vom semna' = 'Si aceptamos, firmaremos'\n- 'Dacă am putea... am ajunge' = 'Si pudiéramos... llegaríamos'\n- 'Dacă am fi negociat... am fi avut' = 'Si hubiéramos negociado... tendríamos'",
+      "table": {
+        "headers": [
+          "Type",
+          "Si clause",
+          "Result",
+          "Negotiation Example"
+        ],
+        "rows": [
+          [
+            "Real",
+            "present",
+            "future",
+            "Si aceptamos, firmaremos hoy."
+          ],
+          [
+            "Hypothetical",
+            "imperfect subj.",
+            "conditional",
+            "Si el salario fuera mayor, aceptaríamos."
+          ],
+          [
+            "Counterfactual",
+            "pluperfect subj.",
+            "cond. perfect",
+            "Si hubiéramos leído el contrato, no habría disputa."
+          ],
+          [
+            "Mixed",
+            "pluperfect subj.",
+            "conditional",
+            "Si hubiéramos negociado mejor, estaríamos satisfechos."
+          ]
+        ]
+      },
+      "examples": [
+        "Si las condiciones son razonables, estamos dispuestos a cerrar el acuerdo.",
+        "Si pudiéramos revisar la cláusula de confidencialidad, llegaríamos a un entendimiento.",
+        "Si no se hubiera establecido ese plazo, el proyecto habría avanzado mejor.",
+        "Si hubieran sido más transparentes desde el inicio, no necesitaríamos mediación."
+      ],
+      "aid_note": "Romanian conditional structures are nearly identical to Spanish: 'Dacă + present → viitor' = 'Si + present → futuro'; 'Dacă ar fi + subjunctive → condițional' = 'Si + imperfect subjunctive → condicional'. This makes conditional negotiation language much easier for Romanian speakers."
+    }
+  ],
+  "pronunciation": [],
+  "exercises": [
+    {
+      "type": "multiple-choice",
+      "question": "Which conditional structure is used for exploring hypothetical negotiation options?",
+      "options": [
+        "Si aceptamos, firmaremos el contrato.",
+        "Si pudiéramos ampliar el plazo, llegaríamos a un acuerdo.",
+        "Si hubiéramos negociado mejor, tendríamos un acuerdo mejor.",
+        "Si hubieran sido más transparentes, no necesitaríamos mediación."
+      ],
+      "correct": 1,
+      "explanation": "Second conditional (Si + imperfect subjunctive → conditional) is used for hypothetical exploration in negotiations: 'Si pudiéramos' (if we could) + 'llegaríamos' (we would reach). This expresses a possibility being considered."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete the contractual phrase: 'Las partes _____ lo siguiente:' (agree)",
+      "correct": "acuerdan",
+      "explanation": "'Las partes acuerdan lo siguiente' is the standard opening formula in Spanish contracts. 'Acuerdan' is the 3rd person plural present indicative of acordar."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Which is the most diplomatic way to refuse a negotiation proposal?",
+      "options": [
+        "Eso es inaceptable.",
+        "No podemos aceptar eso.",
+        "Lamentablemente, esa propuesta no nos parece viable.",
+        "Eso no funciona."
+      ],
+      "correct": 2,
+      "explanation": "'Lamentablemente, esa propuesta no nos parece viable' is the most diplomatic refusal. It expresses regret ('lamentablemente') and frames the refusal as an objective assessment ('no nos parece viable') rather than a personal rejection."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: 'Si no _____ (llegar) a un acuerdo, el plazo se ampliará.' (reach)",
+      "correct": "llegan",
+      "explanation": "First conditional: 'Si + present indicative (llegan) → future (se ampliará).' This expresses a real, possible scenario in a negotiation context."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What does 'sin perjuicio de los derechos de las partes' mean?",
+      "options": [
+        "Without prejudice to the rights of the parties",
+        "To the benefit of the parties",
+        "In addition to the rights of the parties",
+        "After considering the rights of the parties"
+      ],
+      "correct": 0,
+      "explanation": "'Sin perjuicio de' = 'without prejudice to'. This is a standard legal formula meaning that the rights of the parties are not affected or diminished by the current agreement."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete with the correct conditional: 'Si el salario _____ (ser) más competitivo, aceptaríamos la oferta.'",
+      "correct": "fuera / fuese",
+      "explanation": "Second conditional: 'Si + imperfect subjunctive (fuera/fuese) → conditional (aceptaríamos).' Both 'fuera' and 'fuese' are acceptable imperfect subjunctive forms."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Which phrase expresses a condition in legal Spanish?",
+      "options": [
+        "En caso de que",
+        "A pesar de que",
+        "A causa de que",
+        "En vez de que"
+      ],
+      "correct": 0,
+      "explanation": "'En caso de que' (in case that / in the event that) is used to introduce conditions in legal and contractual language. It triggers the subjunctive: 'En caso de que se incumpla, se aplicará la penalización.'"
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete the formal request: 'Le agradecería si _____ (poder) revisar los términos del contrato.'",
+      "correct": "pudiera / pudiese",
+      "explanation": "'Le agradecería si + imperfect subjunctive' is a formal politeness formula. Both 'pudiera' and 'pudiese' are acceptable. This structure is the most diplomatic way to make a request in professional Spanish."
+    },
+    {
+      "type": "exercise",
+      "question": "What does 'previo aviso' mean in a contractual context?",
+      "options": [
+        "Prior notice",
+        "Previous advice",
+        "Advance notice period",
+        "Prior warning"
+      ],
+      "correct": 0,
+      "explanation": "'Previo aviso' = 'with prior notice' or 'prior notice'. In contracts, 'bajo previo aviso' means the agreement can be terminated or modified with advance notice given."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Which expression is used to propose finding common ground in a negotiation?",
+      "options": [
+        "Nosotros tenemos razón.",
+        "Encontramos terreno común en...",
+        "Usted no entiende.",
+        "Eso no es negociable."
+      ],
+      "correct": 1,
+      "explanation": "'Encontramos terreno común en...' (We find common ground in...) is a diplomatic expression used in negotiations to identify areas of agreement before addressing points of disagreement."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: '_____ de que las condiciones sean favorables, firmaremos el contrato.' (Provided that)",
+      "correct": "Siempre y cuando",
+      "explanation": "'Siempre y cuando' = 'provided that / as long as'. It introduces a condition and always triggers the subjunctive: 'Siempre y cuando las condiciones sean favorables...'"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "In legal Spanish, which mood is used for obligations in contracts?",
+      "options": [
+        "Indicative",
+        "Subjunctive",
+        "Imperative",
+        "Infinitive"
+      ],
+      "correct": 1,
+      "explanation": "The subjunctive is used for obligations and commitments in contracts: 'Las partes se comprometan a...' (The parties commit to...). This reflects that the obligation is contingent on the contract being in effect."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete the diplomatic refusal: 'Nos _____ (temer) que esa opción no sea viable.'",
+      "correct": "tememos",
+      "explanation": "'Nos tememos que' is a diplomatic softening expression. The indicative 'tememos' is used because the speaker is stating their own feeling, but it softens the refusal before the subjunctive clause 'no sea viable'."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What is 'el conveno colectivo'?",
+      "options": [
+        "A collective agreement between employers and employees",
+        "A joint venture",
+        "A group purchase agreement",
+        "A team-building exercise"
+      ],
+      "correct": 0,
+      "explanation": "'El convenio colectivo' = collective bargaining agreement. It's a legally binding agreement negotiated between employers (or employer associations) and workers' unions that sets working conditions, salaries, and benefits."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: '_____ disposición en contrario, todas las cláusulas permanecerán vigentes.' (Unless otherwise provided)",
+      "correct": "Salvo",
+      "explanation": "'Salvo disposición en contrario' = 'Unless otherwise provided'. This is a standard legal formula that preserves the default position unless explicitly changed."
+    },
+    {
+      "type": "exercise",
+      "question": "What does 'el preaviso' refer to in employment negotiation?",
+      "options": [
+        "The advance notice period before termination",
+        "The preliminary agreement",
+        "The pre-contractual phase",
+        "The initial salary proposal"
+      ],
+      "correct": 0,
+      "explanation": "'El preaviso' = the advance notice period. In employment law, both employers and employees must typically give a specified notice period (e.g., 15 days) before terminating a contract."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Which sentence uses the correct mixed conditional for a negotiation context?",
+      "options": [
+        "Si negociamos bien, tendremos un buen acuerdo.",
+        "Si hubiéramos leído el contrato con más detalle, ahora no estaríamos en esta situación.",
+        "Si el salario fuera mayor, aceptaríamos.",
+        "Si hubieran sido más claros, no habría habido confusión."
+      ],
+      "correct": 1,
+      "explanation": "Mixed conditional: past condition (Si hubiéramos leído) → present result (ahora no estaríamos). This expresses a past failure (not reading the contract carefully) with a present consequence (being in the current situation)."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete with the correct subjunctive: 'En caso de que el acuerdo _____ (no ser) vinculante, necesitamos una garantía adicional.'",
+      "correct": "sea",
+      "explanation": "'En caso de que' always triggers the subjunctive. 'Sea' is the present subjunctive of ser (3rd person singular)."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What is 'la huelga'?",
+      "options": [
+        "A strike (workers refusing to work)",
+        "A holiday",
+        "A work stoppage for maintenance",
+        "A company retreat"
+      ],
+      "correct": 0,
+      "explanation": "'La huelga' = strike. It's a work stoppage organized by workers to protest working conditions, wages, or other employment issues. The corresponding employer action is 'el cierre patronal' (lockout)."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete the formal opening: '_____ (dirigirse) a usted para presentar nuestra propuesta.' (We are writing to you to)",
+      "correct": "Nos dirigimos",
+      "explanation": "'Nos dirigimos a usted para...' is a standard formal opening in professional correspondence. 'Dirigimos' is the 1st person plural present indicative of dirigirse."
+    }
+  ]
+}

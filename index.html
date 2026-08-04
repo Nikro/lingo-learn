@@ -22,13 +22,11 @@
   </script>
   <style>
     [x-cloak] { display: none !important; }
-    .sidebar-transition { transition: transform 0.3s ease; }
     .pillar-content { animation: pillarFadeIn 0.3s ease-in-out; }
     @keyframes pillarFadeIn {
       from { opacity: 0; transform: translateY(8px); }
       to { opacity: 1; transform: translateY(0); }
     }
-    .tab-active { background-color: var(--fallback-bc, oklch(var(--bc) / 0.1)); color: inherit; }
     /* Quiz visual feedback animations */
     @keyframes shake {
       0%, 100% { transform: translateX(0); }
@@ -52,41 +50,23 @@
 </head>
 <body class="bg-base-200 min-h-screen" x-data="app()" x-init="init()">
 
-  <!-- Mobile Header -->
-  <div class="lg:hidden navbar bg-base-100 shadow-md sticky top-0 z-40">
-    <div class="flex-none">
-      <button @click="sidebarOpen = !sidebarOpen" class="btn btn-square btn-ghost">
-        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" class="inline-block w-5 h-5 stroke-current"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path></svg>
-      </button>
-    </div>
-    <div class="flex-1">
-      <h1 class="text-xl font-bold text-primary">🇪🇸 LingoLearn</h1>
-    </div>
-    <div class="flex-none">
-      <div class="flex items-center gap-1">
-        <button x-show="canInstallApp" @click="handleInstall()" class="btn btn-primary btn-xs" title="Install App">
-          <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
-          </svg>
-          <span class="hidden sm:inline">Install</span>
-        </button>
-        <div class="badge badge-primary badge-outline" x-text="xp"></div>
-        <div class="badge badge-warning badge-outline badge-sm" x-show="streak > 0" x-text="'🔥' + streak"></div>
-        <div class="badge badge-info badge-outline badge-sm" x-show="getStreakMultiplier() > 1" x-text="getStreakMultiplier() + '×'"></div>
-      </div>
-    </div>
-  </div>
-
+  <!-- App Layout — flex sidebar + content -->
   <div class="flex h-screen overflow-hidden">
-
-    <!-- Sidebar -->
-    <aside :class="sidebarOpen ? 'translate-x-0' : '-translate-x-full lg:translate-x-0'"
-           class="sidebar-transition fixed lg:relative inset-y-0 left-0 z-50 w-72 bg-base-100 shadow-xl flex flex-col lg:z-0">
+    <!-- Sidebar — fixed overlay on mobile, flex on desktop -->
+    <aside
+      x-show="sidebarOpen || !isMobile"
+      :class="{
+        'fixed inset-y-0 left-0 z-50 -translate-x-full': isMobile && !sidebarOpen,
+        'fixed inset-y-0 left-0 z-50 translate-x-0': isMobile && sidebarOpen,
+        'w-72': !isMobile
+      }"
+      class="w-72 bg-base-100 shadow-xl flex flex-col transition-transform duration-200"
+      id="sidebar">
       <!-- Sidebar Header -->
       <div class="p-4 border-b border-base-300">
         <div class="flex items-center justify-between mb-3">
           <h1 class="text-xl font-bold text-primary">🇪🇸 LingoLearn</h1>
-          <button @click="sidebarOpen = false" class="lg:hidden btn btn-ghost btn-sm btn-square">✕</button>
+          <button x-show="isMobile" @click="sidebarOpen = false" class="btn btn-ghost btn-sm btn-square">✕</button>
         </div>
         
         <!-- Locale Switcher -->
@@ -102,44 +82,61 @@
         </div>
       </div>
 
-      <!-- Levels & Stages -->
-      <div class="flex-1 overflow-y-auto p-4">
-        <template x-for="level in appLevels" :key="level.id">
-          <div class="mb-2">
-            <button @click="toggleLevel(level.id)" 
-                    class="btn btn-ghost btn-sm w-full justify-between text-base font-semibold">
-              <span x-text="level.name"></span>
-              <span x-text="level.id === expandedLevel ? '▾' : '▸'"></span>
-            </button>
-            
-            <div x-show="level.id === expandedLevel" class="ml-4 mt-1 overflow-hidden transition-[max-height] duration-300 ease-in-out"
-                 :style="level.id === expandedLevel ? 'max-height: 1000px;' : 'max-height: 0;'">
-              <template x-for="stage in level.stages" :key="stage.id">
-                <div>
-                  <button @click="navigateTo(level.id, stage.id, 'grammar')"
-                          :class="isStageActive(level.id, stage.id) ? 'btn-primary sidebar-btn-hover' : 'btn-ghost sidebar-btn-hover'"
-                          class="btn btn-sm w-full justify-start text-sm mb-1">
-                    <span x-text="stage.name"></span>
-                    <span class="text-xs opacity-60 ml-auto" x-show="isStageActive(level.id, stage.id) && getStageProgress(level.id, stage.id) > 0"
-                          x-text="getStageProgress(level.id, stage.id) + '%'"></span>
-                  </button>
-                  <!-- Pillar-level progress breakdown for active stage -->
-                  <div x-show="isStageActive(level.id, stage.id) && stageData" class="ml-4 mt-1 space-y-1 text-xs opacity-70">
-                    <template x-for="pillar in ['grammar', 'vocabulary', 'verbs', 'pronunciation']" :key="pillar">
-                      <div class="flex items-center gap-1">
-                        <span x-text="pillar.charAt(0).toUpperCase() + pillar.slice(1, 2) + ':'"></span>
-                        <progress class="progress progress-xs flex-1 h-1"
-                                  :value="getPillarProgress(stage.id, pillar)"
-                                  max="100"></progress>
-                        <span x-text="getPillarProgress(stage.id, pillar) + '%'"></span>
-                      </div>
-                    </template>
-                  </div>
-                </div>
-              </template>
-            </div>
-          </div>
-        </template>
+      <!-- Curriculum Menu — DaisyUI menu component -->
+      <div class="flex-1 overflow-y-auto px-3 py-2">
+        <ul class="menu menu-sm w-full">
+          <template x-for="level in appLevels" :key="level.id">
+            <li>
+              <!-- Level Header -->
+              <div class="menu-title uppercase tracking-wider text-[10px] font-extrabold"
+                   @click="toggleLevel(level.id)"
+                   :class="expandedLevel === level.id ? 'text-primary' : 'text-base-content/60'">
+                <span x-text="level.name"></span>
+                <span class="ml-auto" x-text="expandedLevel === level.id ? '▾' : '▸'"></span>
+              </div>
+              
+              <!-- Level Content (Stages) -->
+              <ul x-show="expandedLevel === level.id" x-cloak class="menu menu-sm">
+                <template x-for="stage in level.stages" :key="stage.id">
+                  <li>
+                    <!-- Stage Row -->
+                    <div @click="toggleStage(stage.id)"
+                         tabindex="0"
+                         :class="isStageActive(level.id, stage.id) ? 'active bg-primary/20 text-primary' : 'hover:bg-base-300/40'">
+                      <span x-text="stage.name" :title="stage.name" class="truncate block"></span>
+                      <span x-show="(sidebarThemes[stage.id] || []).length > 0" 
+                            class="text-[10px] opacity-40 ml-1" x-text="(sidebarThemes[stage.id] || []).length"></span>
+                    </div>
+                    
+                    <!-- Themes List -->
+                    <ul x-show="expandedStage === stage.id" x-cloak class="menu menu-xs">
+                      <!-- Loading indicator -->
+                      <li x-show="sidebarThemes[stage.id] === undefined">
+                        <span class="text-[10px] opacity-40 italic py-1">Loading...</span>
+                      </li>
+                      
+                      <!-- No themes -->
+                      <li x-show="sidebarThemes[stage.id] === null">
+                        <span class="text-[10px] opacity-40 italic py-1">No themes</span>
+                      </li>
+                      
+                      <!-- Theme items -->
+                      <template x-for="theme in (sidebarThemes[stage.id] || [])" :key="theme.id">
+                        <li>
+                          <button @click="loadThemeDirectly(stage.id, theme.id)"
+                                  :class="currentTheme === theme.id ? 'active bg-primary/20 text-primary font-medium' : 'hover:bg-base-300/40'">
+                            <span x-text="theme.title" :title="theme.title" class="truncate block"></span>
+                            <span x-show="theme.estimatedHours" class="ml-auto text-[10px] opacity-40" x-text="theme.estimatedHours + 'h'"></span>
+                          </button>
+                        </li>
+                      </template>
+                    </ul>
+                  </li>
+                </template>
+              </ul>
+            </li>
+          </template>
+        </ul>
       </div>
 
       <!-- Install Prompt (sidebar) -->
@@ -170,15 +167,38 @@
       </div>
     </aside>
 
-    <!-- Overlay for mobile -->
-    <div x-show="sidebarOpen" @click="sidebarOpen = false" 
-         class="fixed inset-0 bg-black/50 z-40 lg:hidden" x-cloak></div>
+    <!-- Mobile overlay when sidebar is open -->
+    <div x-show="isMobile && sidebarOpen" @click="sidebarOpen = false" x-transition.opacity class="fixed inset-0 bg-black/50 z-40" x-cloak></div>
 
-    <!-- Main Content -->
-    <main class="flex-1 overflow-y-auto p-4 lg:p-8">
-      
-      <!-- Loading State — Skeleton Screens -->
-      <div x-show="loading" x-cloak class="space-y-6">
+    <!-- Main Content Area -->
+    <div class="flex-1 flex flex-col overflow-hidden">
+      <!-- Mobile Header -->
+      <div x-show="isMobile" class="navbar bg-base-100 shadow-md sticky top-0 z-10">
+        <div class="flex-none">
+          <button @click="sidebarOpen = true" class="btn btn-square btn-ghost">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" class="inline-block w-5 h-5 stroke-current"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path></svg>
+          </button>
+        </div>
+        <div class="flex-1">
+          <h1 class="text-xl font-bold text-primary">🇪🇸 LingoLearn</h1>
+        </div>
+        <div class="flex-none">
+          <div class="flex items-center gap-1">
+            <button x-show="canInstallApp" @click="handleInstall()" class="btn btn-primary btn-xs" title="Install App">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+              </svg>
+              <span class="hidden sm:inline">Install</span>
+            </button>
+            <div class="badge badge-primary badge-outline" x-text="xp"></div>
+            <div class="badge badge-warning badge-outline badge-sm" x-show="streak > 0" x-text="'🔥' + streak"></div>
+            <div class="badge badge-info badge-outline badge-sm" x-show="getStreakMultiplier() > 1" x-text="getStreakMultiplier() + '×'"></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Main Content (scrollable) -->
+      <main class="flex-1 overflow-y-auto p-4">
         <!-- Stage header skeleton -->
         <div class="card bg-base-100 shadow-md mb-6">
           <div class="card-body p-6 space-y-4">
@@ -240,13 +260,19 @@
                 <h2 class="text-2xl font-bold" x-text="stageTitle"></h2>
                 <p class="text-sm opacity-70 mt-1" x-text="stageDescription"></p>
               </div>
-              <div class="text-right">
-                <div class="flex items-center gap-2">
-                  <div class="text-3xl font-bold text-accent" x-text="xp"></div>
-                  <div class="badge badge-warning badge-sm" x-show="streak > 0" x-text="'🔥' + streak"></div>
-                  <div class="badge badge-info badge-sm" x-show="getStreakMultiplier() > 1" x-text="getStreakMultiplier() + '×'"></div>
+              <!-- XP Stats — DaisyUI stat component -->
+              <div class="stats shadow">
+                <div class="stat">
+                  <div class="stat-figure text-accent">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" class="inline-block w-8 h-8 stroke-current"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg>
+                  </div>
+                  <div class="stat-title">XP</div>
+                  <div class="stat-value text-accent" x-text="xp"></div>
+                  <div class="stat-desc flex items-center gap-1">
+                    <span x-show="streak > 0" class="badge badge-warning badge-sm">🔥<span x-text="streak"></span></span>
+                    <span x-show="getStreakMultiplier() > 1" class="badge badge-info badge-sm" x-text="getStreakMultiplier() + '×'"></span>
+                  </div>
                 </div>
-                <div class="text-xs opacity-70">XP</div>
               </div>
             </div>
             
@@ -276,7 +302,7 @@
         <div x-show="themeView === 'theme-detail'" x-cloak class="space-y-4">
           <div class="flex items-center gap-2 mb-4">
             <button @click="exitTheme()" class="btn btn-ghost btn-sm">← Back to Themes</button>
-            <h2 class="text-xl font-bold" x-text="currentTheme"></h2>
+            <h2 class="text-xl font-bold" x-text="themeTitle || currentTheme"></h2>
           </div>
           <p class="text-sm opacity-70 mb-4" x-show="themeData" x-text="themeData?.description"></p>
 
@@ -295,7 +321,7 @@
                 <h3 class="text-xl font-bold mb-4">Vocabulary</h3>
                 <p class="text-sm opacity-60 mb-4">Tap a card to reveal the English translation.</p>
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
-                  <template x-for="word in themeData?.vocabulary || []" :key="word.id">
+                  <template x-for="word in (pillarContent.vocabulary || [])" :key="word.id">
                     <div class="card bg-base-200 shadow-sm cursor-pointer" @click="word.revealed = !word.revealed">
                       <div class="card-body p-4">
                         <div class="flex justify-between items-center mb-2">
@@ -637,64 +663,62 @@
               <div class="text-6xl mb-2" x-text="quizCompletionEmoji"></div>
               <h3 class="text-2xl font-bold">Quiz Complete!</h3>
               
-              <!-- Score Display -->
-              <div class="text-5xl font-bold text-primary">
-                <span x-text="quizScore"></span> / <span x-text="quizQuestions.length"></span>
+              <!-- Score Display — DaisyUI stat -->
+              <div class="stats shadow-lg max-w-md mx-auto">
+                <div class="stat place-items-center">
+                  <div class="stat-title">Score</div>
+                  <div class="stat-value text-primary text-5xl">
+                    <span x-text="quizScore"></span>/<span x-text="quizQuestions.length"></span>
+                  </div>
+                  <div class="stat-desc">
+                    <progress class="progress progress-primary w-32" 
+                              :value="quizQuestions.length > 0 ? (quizScore / quizQuestions.length) * 100 : 0" max="100"></progress>
+                    <span :class="quizQuestions.length > 0 ? ((quizScore / quizQuestions.length) >= 0.8 ? 'text-success' : (quizScore / quizQuestions.length) >= 0.5 ? 'text-warning' : 'text-error') : 'text-warning'">
+                      <span x-text="quizQuestions.length > 0 ? Math.round((quizScore / quizQuestions.length) * 100) : 0"></span>%
+                    </span>
+                  </div>
+                </div>
               </div>
               
-              <!-- Percentage bar -->
-              <div class="max-w-md mx-auto">
-                <progress class="progress progress-primary w-full" 
-                          :value="quizQuestions.length > 0 ? (quizScore / quizQuestions.length) * 100 : 0" max="100"></progress>
-                <p class="text-sm font-medium mt-1" 
-                   :class="quizQuestions.length > 0 ? ((quizScore / quizQuestions.length) >= 0.8 ? 'text-success' : (quizScore / quizQuestions.length) >= 0.5 ? 'text-warning' : 'text-error') : 'text-warning'">
-                  <span x-text="quizQuestions.length > 0 ? Math.round((quizScore / quizQuestions.length) * 100) : 0"></span>%
-                </p>
-              </div>
-              
-              <!-- XP Breakdown -->
-              <div class="bg-base-200 rounded-lg p-4 max-w-md mx-auto text-left space-y-1 text-sm">
-                <h4 class="font-bold mb-2">XP Breakdown</h4>
-                <p>Base: <span class="font-bold text-accent">+<span x-text="quizScore * 10"></span></span> (correct × 10)</p>
+              <!-- XP Breakdown — DaisyUI stats with lines -->
+              <div class="stats stats-horizontal shadow max-w-md mx-auto bg-base-200">
+                <div class="stat">
+                  <div class="stat-figure text-secondary">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" class="inline-block w-8 h-8 stroke-current"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                  </div>
+                  <div class="stat-title">Base</div>
+                  <div class="stat-value text-secondary">+<span x-text="quizScore * 10"></span></div>
+                </div>
                 <template x-if="quizScore > 0 && streak > 0">
-                  <p>Streak Bonus: <span class="font-bold text-accent">+<span x-text="quizScore * 10 * (getStreakMultiplier() - 1)"></span></span> (🔥<span x-text="streak"></span> days × <span x-text="getStreakMultiplier()"></span>×)</p>
-                </template>
-                <p class="font-bold text-accent text-base">Total: +<span x-text="quizScore > 0 ? Math.round(quizScore * 10 * getStreakMultiplier()) : 0"></span></p>
-              </div>
-              
-              <!-- Previous Score Comparison -->
-              <div x-show="lastQuizResult?.length > 0" class="bg-base-200 rounded-lg p-4 max-w-md mx-auto text-left space-y-2">
-                <h4 class="font-bold text-sm uppercase tracking-wide opacity-60">Previous Attempts</h4>
-                <template x-for="(attempt, i) in lastQuizResult" :key="'attempt-' + i">
-                  <div class="flex items-center justify-between text-sm">
-                    <span class="opacity-70">Attempt <span x-text="i + 1"></span> — <span x-text="attempt.score"></span>/<span x-text="attempt.total"></span> (<span x-text="attempt.date"></span>)</span>
-                    <span :class="attempt.score === quizScore && i === (lastQuizResult?.length - 1) ? 'text-success font-bold' : 'font-bold'" x-text="attempt.score + '/' + attempt.total"></span>
+                  <div class="stat">
+                    <div class="stat-figure text-accent">
+                      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" class="inline-block w-8 h-8 stroke-current"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 18.657A8 8 0 016.343 7.343S7 9 9 10c0-2 .5-5 2.986-7C14 5 16.09 5.777 17.656 7.343A7.975 7.975 0 0120 13a7.975 7.975 0 01-2.343 5.657z"></path></svg>
+                    </div>
+                    <div class="stat-title">Streak</div>
+                    <div class="stat-value text-accent">+<span x-text="quizScore * 10 * (getStreakMultiplier() - 1)"></span></div>
                   </div>
                 </template>
-                <p class="text-xs opacity-60 mt-2">
-                  <template x-if="lastQuizResult?.length > 0 && lastQuizResult[lastQuizResult.length - 1].score === quizScore">
-                    <span>Same score as last time! 🤝</span>
-                  </template>
-                  <template x-if="lastQuizResult?.length > 0 && lastQuizResult[lastQuizResult.length - 1].score < quizScore">
-                    <span>Improved by <span x-text="quizScore - lastQuizResult[lastQuizResult.length - 1].score"></span>! 📈</span>
-                  </template>
-                  <template x-if="lastQuizResult?.length > 0 && lastQuizResult[lastQuizResult.length - 1].score > quizScore">
-                    <span>Last time was better. Try again! 💪</span>
-                  </template>
-                </p>
-              </div>
-              
-              <!-- Per-Pillar Breakdown -->
-              <div x-show="quizPillarBreakdown && quizPillarBreakdown.length > 0" class="bg-base-200 rounded-lg p-4 max-w-md mx-auto text-left">
-                <h4 class="font-bold text-sm uppercase tracking-wide opacity-60 mb-2">By Pillar</h4>
-                <template x-for="pillar in quizPillarBreakdown" :key="pillar.pillar">
-                  <div class="flex items-center gap-2 mb-1">
-                    <span class="text-xs w-24" x-text="pillar.emoji + ' ' + pillar.name"></span>
-                    <progress class="progress flex-1 h-2" :value="(pillar.total && pillar.total > 0) ? (pillar.score / pillar.total) * 100 : 0" max="100">
-                              :class="(pillar.total && pillar.total > 0) ? ((pillar.score / pillar.total) >= 0.8 ? 'progress-success' : (pillar.score / pillar.total) >= 0.5 ? 'progress-warning' : 'progress-error') : 'progress-warning'"></progress>
-                    <span class="text-xs font-mono w-12 text-right" x-text="pillar.score + '/' + pillar.total"></span>
+                <div class="stat">
+                  <div class="stat-figure text-primary">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" class="inline-block w-8 h-8 stroke-current"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
                   </div>
-                </template>
+                  <div class="stat-title">Total</div>
+                  <div class="stat-value text-primary">+<span x-text="quizScore > 0 ? Math.round(quizScore * 10 * getStreakMultiplier()) : 0"></span></div>
+                </div>
+              </div>
+
+              <!-- Per-Pillar Breakdown — DaisyUI stat components -->
+              <div x-show="quizPillarBreakdown && quizPillarBreakdown.length > 0" class="max-w-md mx-auto">
+                <h4 class="font-bold text-sm uppercase tracking-wide opacity-60 mb-2 text-left">By Pillar</h4>
+                <div class="stats shadow bg-base-200">
+                  <template x-for="pillar in quizPillarBreakdown" :key="pillar.pillar">
+                    <div class="stat">
+                      <div class="stat-title" x-text="pillar.emoji + ' ' + pillar.name"></div>
+                      <div class="stat-value" :class="(pillar.total && pillar.total > 0) ? ((pillar.score / pillar.total) >= 0.8 ? 'text-success' : (pillar.score / pillar.total) >= 0.5 ? 'text-warning' : 'text-error') : 'text-warning'" x-text="pillar.score + '/' + pillar.total"></div>
+                      <progress class="progress progress-xs mt-1" :value="(pillar.total && pillar.total > 0) ? (pillar.score / pillar.total) * 100 : 0" max="100" :class="(pillar.total && pillar.total > 0) ? ((pillar.score / pillar.total) >= 0.8 ? 'progress-success' : (pillar.score / pillar.total) >= 0.5 ? 'progress-warning' : 'progress-error') : 'progress-warning'"></progress>
+                    </div>
+                  </template>
+                </div>
               </div>
               
               <div class="flex gap-2 justify-center">
@@ -762,76 +786,9 @@
 
     </main>
   </div>
-
-  <!-- Settings Modal -->
-  <div class="modal modal-open" x-show="settingsOpen" x-cloak x-transition.opacity.duration.200ms>
-    <div class="modal-box w-11/12 max-w-2xl">
-      <h3 class="text-lg font-bold mb-4">Settings</h3>
-      
-      <div class="space-y-4">
-        <!-- Locale Switcher -->
-        <div class="form-control">
-          <label class="label"><span class="label-text font-semibold">Language Pair</span></label>
-          <select class="select select-bordered w-full" 
-                  x-model="currentLocale"
-                  @change="switchLocale(currentLocale)">
-            <template x-for="locale in registry.locales" :key="locale.code">
-              <option :value="locale.code" :disabled="!locale.active" x-text="locale.name"></option>
-            </template>
-          </select>
-        </div>
-
-        <!-- Aid Language -->
-        <div class="form-control">
-          <label class="label"><span class="label-text font-semibold">Aid Language (Comparative)</span></label>
-          <select class="select select-bordered w-full"
-                  x-model="aidLanguage"
-                  @change="saveSettings()">
-            <template x-for="lang in registry.aid_languages" :key="lang.code">
-              <option :value="lang.code" x-text="lang.name"></option>
-            </template>
-          </select>
-        </div>
-
-        <!-- Theme -->
-        <div class="form-control">
-          <label class="label"><span class="label-text font-semibold">Theme</span></label>
-          <div class="flex gap-2">
-            <button @click="setTheme('dark')" :class="theme === 'dark' ? 'btn-primary' : 'btn-outline'" class="btn btn-sm">Dark</button>
-            <button @click="setTheme('light')" :class="theme === 'light' ? 'btn-primary' : 'btn-outline'" class="btn btn-sm">Light</button>
-          </div>
-        </div>
-
-        <!-- Data Management -->
-        <div class="divider"></div>
-        <div class="grid grid-cols-2 gap-4">
-          <button class="btn btn-outline btn-sm" @click="exportProgress()">
-            Export Progress
-          </button>
-          <button class="btn btn-outline btn-sm" @click="importProgress()">
-            Import Progress
-          </button>
-          <button class="btn btn-error btn-outline btn-sm col-span-2" @click="resetProgress()">
-            Reset All Progress
-          </button>
-        </div>
-      </div>
-
-      <div class="modal-action">
-        <button class="btn" @click="settingsOpen = false">Close</button>
-      </div>
-    </div>
-    <!-- Click backdrop to close -->
-    <div class="modal-backdrop" @click="settingsOpen = false">
-      <button>close</button>
-    </div>
-  </div>
-
-  <!-- Hidden file input for import -->
-  <input type="file" id="importFile" accept=".json" class="hidden" @change="handleImport($event)">
-
-  <script src="js/storage.js?v=20"></script>
-  <script src="js/app.js?v=20"></script>
+  
+  <script src="js/storage.js?v=25"></script>
+  <script src="js/app.js?v=35"></script>
   <script>
     // Service Worker disabled for dev to prevent stale caching issues
     // if ('serviceWorker' in navigator) {

@@ -1,0 +1,448 @@
+{
+  "id": "arts-culture-heritage",
+  "level": "a2-2",
+  "title": "Arts, Culture & Heritage",
+  "description": "Talk about museums, galleries, historical sites, and cultural traditions. Describe artworks, express opinions about culture, and discuss heritage and identity. Master the preterite tense for cultural experiences, 'gustar' and similar verbs for expressing preferences, and relative pronouns for describing places and things.",
+  "vocabulary": [
+    {"id": 1, "target": "el museo", "source": "museum", "gender": "m", "type": "noun"},
+    {"id": 2, "target": "la galería de arte", "source": "art gallery", "gender": "f", "type": "phrase"},
+    {"id": 3, "target": "la pintura", "source": "painting", "gender": "f", "type": "noun"},
+    {"id": 4, "target": "el pintor", "source": "painter (male)", "gender": "m", "type": "noun"},
+    {"id": 5, "target": "la pintora", "source": "painter (female)", "gender": "f", "type": "noun"},
+    {"id": 6, "target": "la escultura", "source": "sculpture", "gender": "f", "type": "noun"},
+    {"id": 7, "target": "el escultor", "source": "sculptor (male)", "gender": "m", "type": "noun"},
+    {"id": 8, "target": "la escultora", "source": "sculptor (female)", "gender": "f", "type": "noun"},
+    {"id": 9, "target": "el artista", "source": "artist", "gender": "m/f", "type": "noun"},
+    {"id": 10, "target": "el artista plástico", "source": "visual artist", "gender": "m", "type": "phrase"},
+    {"id": 11, "target": "el cuadro", "source": "painting / picture", "gender": "m", "type": "noun"},
+    {"id": 12, "target": "el lienzo", "source": "canvas", "gender": "m", "type": "noun"},
+    {"id": 13, "target": "la tela", "source": "fabric / canvas", "gender": "f", "type": "noun"},
+    {"id": 14, "target": "el lienzo en blanco", "source": "blank canvas", "gender": "m", "type": "phrase"},
+    {"id": 15, "target": "el pincel", "source": "paintbrush", "gender": "m", "type": "noun"},
+    {"id": 16, "target": "el caballete", "source": "easel", "gender": "m", "type": "noun"},
+    {"id": 17, "target": "la paleta", "source": "palette", "gender": "f", "type": "noun"},
+    {"id": 18, "target": "el color", "source": "color", "gender": "m", "type": "noun"},
+    {"id": 19, "target": "el colorante", "source": "dye / pigment", "gender": "m", "type": "noun"},
+    {"id": 20, "target": "el pigmento", "source": "pigment", "gender": "m", "type": "noun"},
+    {"id": 21, "target": "el óleo", "source": "oil paint", "gender": "m", "type": "noun"},
+    {"id": 22, "target": "la acuarela", "source": "watercolor", "gender": "f", "type": "noun"},
+    {"id": 23, "target": "el acrílico", "source": "acrylic paint", "gender": "m", "type": "noun"},
+    {"id": 24, "target": "el arte", "source": "art", "gender": "m", "type": "noun"},
+    {"id": 25, "target": "las artes", "source": "the arts", "gender": "f", "type": "noun"},
+    {"id": 26, "target": "las bellas artes", "source": "fine arts", "gender": "f", "type": "phrase"},
+    {"id": 27, "target": "la cultura", "source": "culture", "gender": "f", "type": "noun"},
+    {"id": 28, "target": "el patrimonio", "source": "heritage / patrimony", "gender": "m", "type": "noun"},
+    {"id": 29, "target": "el patrimonio cultural", "source": "cultural heritage", "gender": "m", "type": "phrase"},
+    {"id": 30, "target": "el patrimonio histórico", "source": "historical heritage", "gender": "m", "type": "phrase"},
+    {"id": 31, "target": "el patrimonio natural", "source": "natural heritage", "gender": "m", "type": "phrase"},
+    {"id": 32, "target": "la herencia cultural", "source": "cultural heritage / inheritance", "gender": "f", "type": "phrase"},
+    {"id": 33, "target": "la tradición", "source": "tradition", "gender": "f", "type": "noun"},
+    {"id": 34, "target": "las tradiciones", "source": "traditions", "gender": "f", "type": "noun"},
+    {"id": 35, "target": "la costumbre", "source": "custom / tradition", "gender": "f", "type": "noun"},
+    {"id": 36, "target": "la fiesta", "source": "festival / party / celebration", "gender": "f", "type": "noun"},
+    {"id": 37, "target": "las fiestas", "source": "festivals / parties", "gender": "f", "type": "noun"},
+    {"id": 38, "target": "la celebración", "source": "celebration", "gender": "f", "type": "noun"},
+    {"id": 39, "target": "el festival", "source": "festival", "gender": "m", "type": "noun"},
+    {"id": 40, "target": "el concierto", "source": "concert", "gender": "m", "type": "noun"},
+    {"id": 41, "target": "el festival de música", "source": "music festival", "gender": "m", "type": "phrase"},
+    {"id": 42, "target": "la ópera", "source": "opera", "gender": "f", "type": "noun"},
+    {"id": 43, "target": "el teatro", "source": "theater", "gender": "m", "type": "noun"},
+    {"id": 44, "target": "el actor", "source": "actor (male)", "gender": "m", "type": "noun"},
+    {"id": 45, "target": "la actriz", "source": "actress (female)", "gender": "f", "type": "noun"},
+    {"id": 46, "target": "la actuación", "source": "performance / acting", "gender": "f", "type": "noun"},
+    {"id": 47, "target": "la danza", "source": "dance", "gender": "f", "type": "noun"},
+    {"id": 48, "target": "el baile", "source": "dance / dancing", "gender": "m", "type": "noun"},
+    {"id": 49, "target": "la danza folklórica", "source": "folk dance", "gender": "f", "type": "phrase"},
+    {"id": 50, "target": "el folclore", "source": "folklore", "gender": "m", "type": "noun"},
+    {"id": 51, "target": "la cultura popular", "source": "popular culture", "gender": "f", "type": "phrase"},
+    {"id": 52, "target": "la cultura tradicional", "source": "traditional culture", "gender": "f", "type": "phrase"},
+    {"id": 53, "target": "la identidad cultural", "source": "cultural identity", "gender": "f", "type": "phrase"},
+    {"id": 54, "target": "la identidad nacional", "source": "national identity", "gender": "f", "type": "phrase"},
+    {"id": 55, "target": "el monumento", "source": "monument", "gender": "m", "type": "noun"},
+    {"id": 56, "target": "el sitio histórico", "source": "historical site", "gender": "m", "type": "phrase"},
+    {"id": 57, "target": "el lugar histórico", "source": "historic place", "gender": "m", "type": "phrase"},
+    {"id": 58, "target": "las ruinas", "source": "ruins", "gender": "f", "type": "noun"},
+    {"id": 59, "target": "la ruina", "source": "ruin", "gender": "f", "type": "noun"},
+    {"id": 60, "target": "el castillo", "source": "castle", "gender": "m", "type": "noun"},
+    {"id": 61, "target": "la catedral", "source": "cathedral", "gender": "f", "type": "noun"},
+    {"id": 62, "target": "la iglesia", "source": "church", "gender": "f", "type": "noun"},
+    {"id": 63, "target": "la mezquita", "source": "mosque", "gender": "f", "type": "noun"},
+    {"id": 64, "target": "la sinagoga", "source": "synagogue", "gender": "f", "type": "noun"},
+    {"id": 65, "target": "la plaza mayor", "source": "main square", "gender": "f", "type": "phrase"},
+    {"id": 66, "target": "la calle principal", "source": "main street", "gender": "f", "type": "phrase"},
+    {"id": 67, "target": "el centro histórico", "source": "historic center", "gender": "m", "type": "phrase"},
+    {"id": 68, "target": "el barrio antiguo", "source": "old quarter / old town", "gender": "m", "type": "phrase"},
+    {"id": 69, "target": "la antigua ciudad", "source": "ancient city", "gender": "f", "type": "phrase"},
+    {"id": 70, "target": "la ciudad antigua", "source": "old city", "gender": "f", "type": "phrase"},
+    {"id": 71, "target": "la arquitectura", "source": "architecture", "gender": "f", "type": "noun"},
+    {"id": 72, "target": "el edificio", "source": "building", "gender": "m", "type": "noun"},
+    {"id": 73, "target": "el edificio antiguo", "source": "old building", "gender": "m", "type": "phrase"},
+    {"id": 74, "target": "la construcción", "source": "construction / building", "gender": "f", "type": "noun"},
+    {"id": 75, "target": "el estilo arquitectónico", "source": "architectural style", "gender": "m", "type": "phrase"},
+    {"id": 76, "target": "la arquitectura colonial", "source": "colonial architecture", "gender": "f", "type": "phrase"},
+    {"id": 77, "target": "la arquitectura moderna", "source": "modern architecture", "gender": "f", "type": "phrase"},
+    {"id": 78, "target": "la arquitectura gótica", "source": "Gothic architecture", "gender": "f", "type": "phrase"},
+    {"id": 79, "target": "la arquitectura renacentista", "source": "Renaissance architecture", "gender": "f", "type": "phrase"},
+    {"id": 80, "target": "la arquitectura barroca", "source": "Baroque architecture", "gender": "f", "type": "phrase"},
+    {"id": 81, "target": "el arte moderno", "source": "modern art", "gender": "m", "type": "phrase"},
+    {"id": 82, "target": "el arte contemporáneo", "source": "contemporary art", "gender": "m", "type": "phrase"},
+    {"id": 83, "target": "el arte clásico", "source": "classical art", "gender": "m", "type": "phrase"},
+    {"id": 84, "target": "el arte abstracto", "source": "abstract art", "gender": "m", "type": "phrase"},
+    {"id": 85, "target": "el arte popular", "source": "folk art / popular art", "gender": "m", "type": "phrase"},
+    {"id": 86, "target": "el artesano", "source": "artisan / craftsman", "gender": "m", "type": "noun"},
+    {"id": 87, "target": "la artesanía", "source": "craft / handmade art", "gender": "f", "type": "noun"},
+    {"id": 88, "target": "los trabajos manuales", "source": "handicrafts", "gender": "m", "type": "phrase"},
+    {"id": 89, "target": "el mercado artesanal", "source": "artisan market", "gender": "m", "type": "phrase"},
+    {"id": 90, "target": "la exposición", "source": "exhibition", "gender": "f", "type": "noun"},
+    {"id": 91, "target": "la muestra", "source": "show / exhibition", "gender": "f", "type": "noun"},
+    {"id": 92, "target": "el catálogo", "source": "catalog / catalogue", "gender": "m", "type": "noun"},
+    {"id": 93, "target": "la entrada", "source": "entrance / ticket", "gender": "f", "type": "noun"},
+    {"id": 94, "target": "la entrada gratis", "source": "free entry", "gender": "f", "type": "phrase"},
+    {"id": 95, "target": "la entrada de pago", "source": "paid entry", "gender": "f", "type": "phrase"},
+    {"id": 96, "target": "el guía turístico", "source": "tour guide", "gender": "m", "type": "noun"},
+    {"id": 97, "target": "la guía turística", "source": "tour guide (female) / guidebook", "gender": "f", "type": "noun"},
+    {"id": 98, "target": "el turista", "source": "tourist", "gender": "m/f", "type": "noun"},
+    {"id": 99, "target": "el viaje cultural", "source": "cultural trip", "gender": "m", "type": "phrase"},
+    {"id": 100, "target": "el viaje cultural", "source": "cultural travel experience", "gender": "m", "type": "phrase"}
+  ],
+  "grammar": [
+    {
+      "title": "Pretérito Indefinido — Describing Cultural Experiences",
+      "content": "The preterite (pretérito indefinido) is used to talk about completed actions in the past — essential for describing cultural experiences you've had: visiting museums, attending concerts, exploring historic sites.\\n\\nFormation:\\n- AR verbs: -é, -aste, -ó, -amos, -asteis, -aron\\n- ER verbs: -í, -iste, -ió, -imos, -isteis, -ieron\\n- IR verbs: -í, -iste, -ió, -imos, -isteis, -ieron\\n\\nRegular conjugation examples:\\n- visitar → visité, visitaste, visitó, visitamos, visitasteis, visitaron\\n- ver → vi, viste, vio, vimos, visteis, vieron\\n- hacer → hice, hiciste, hizo, hicimos, hicisteis, hicieron\\n- ir → fui, fuiste, fue, fuimos, fuisteis, fueron\\n- estar → estuve, estuviste, estuvo, estuvimos, estuvisteis, estuvieron\\n- tener → tuve, tuviste, tuvo, tuvimos, tuvisteis, tuvieron\\n- poder → pude, pudiste, pudo, pudimos, pudisteis, pudieron\\n- saber → supe, supiste, supo, supimos, supisteis, supieron\\n- querer → quise, quisiste, quiso, quisimos, quisisteis, quisieron\\n\\nTime expressions that trigger the preterite:\\n- ayer (yesterday)\\n- la semana pasada (last week)\\n- el año pasado (last year)\\n- en 2020 (in 2020)\\n- el mes pasado (last month)\\n- hace dos días (two days ago)\\n- entonces / aquel día (then / that day)\\n- una vez (once)\\n- anoche (last night)\\n\\nUsage with culture:\\n- Ayer visité el Museo del Prado. (Yesterday I visited the Prado Museum.)\\n- La semana pasada fuimos a una exposición. (Last week we went to an exhibition.)\\n- El año pasado viajamos a Granada. (Last year we traveled to Granada.)\\n- Anoche vimos un concierto de flamenco. (Last night we saw a flamenco concert.)",
+      "examples": [
+        "Ayer visité el museo de arte moderno. (Yesterday I visited the modern art museum.)",
+        "La semana pasada fuimos a ver la exposición de Dalí. (Last week we went to see the Dalí exhibition.)",
+        "El año pasado viajé a España y visité la Alhambra. (Last year I traveled to Spain and visited the Alhambra.)",
+        "Anoche vimos una actuación de flamenco. (Last night we saw a flamenco performance.)",
+        "Visité el centro histórico de la ciudad. (I visited the historic center of the city.)",
+        "Hace dos días asistimos a un concierto de música clásica. (Two days ago we attended a classical music concert.)"
+      ]
+    },
+    {
+      "title": "Verbos con 'Gustar' y Similares — Expressing Cultural Preferences",
+      "content": "The verb 'gustar' and similar verbs (encantar, interesar, importar, fascinar, molestar) work differently from English. In Spanish, the thing you like is the subject, and the person is the indirect object.\\n\\nStructure:\\n- Me gusta + singular noun / infinitive (I like it)\\n- Me gustan + plural noun (I like them)\\n- Te gusta / Te gustan (you like)\\n- Le gusta / Le gustan (he/she/you formal likes)\\n- Nos gusta / Nos gustan (we like)\\n- Les gusta / Les gustan (they/you all like)\\n\\nOther similar verbs:\\n- encantar (to love / to be very much liked): Me encanta el arte. (I love art.)\\n- interesar (to interest): Me interesa la cultura. (Culture interests me.)\\n- fascinar (to fascinate): Me fascinan las esculturas. (Sculptures fascinate me.)\\n- molestar (to bother): Me molesta el ruido. (The noise bothers me.)\\n- importar (to matter / to care about): No me importa la arquitectura. (Architecture doesn't matter to me.)\\n- divertir (to amuse / to be fun): Nos divierte la danza folklórica. (Folk dance amuses us.)\\n- sorprender (to surprise): Nos sorprende el arte moderno. (Modern art surprises us.)\\n\\nKey differences from English:\\n- NOT: 'Yo gusto el museo' ✗\\n- YES: 'Me gusta el museo' ✓ (The museum pleases me)\\n- NOT: 'Yo gusto los cuadros' ✗\\n- YES: 'Me gustan los cuadros' ✓ (The pictures please me — plural)\\n\\nUsage with culture:\\n- Me gusta mucho el flamenco. (I really like flamenco.)\\n- Nos encantan las fiestas tradicionales. (We love traditional festivals.)\\n- Le interesa la arquitectura colonial. (Colonial architecture interests her.)\\n- Nos fascina el arte abstracto. (Abstract art fascinates us.)",
+      "examples": [
+        "Me gusta mucho el teatro. (I really like theater.)",
+        "Nos encantan las tradiciones culturales. (We love cultural traditions.)",
+        "Le interesa la historia del arte. (Art history interests her.)",
+        "Me fascinan los museos de arte. (I'm fascinated by art museums.)",
+        "Nos gusta la danza folklórica. (We like folk dance.)",
+        "Les encanta visitar monumentos históricos. (They love visiting historical monuments.)"
+      ]
+    },
+    {
+      "title": "Pronombres Relativos — Describing Places and Things",
+      "content": "Relative pronouns connect ideas and allow you to describe museums, artworks, and cultural sites in detail. They introduce relative clauses that give more information about a noun.\\n\\nKey relative pronouns:\\n- QUE (that/which/who) — most common, refers to people and things\\n  - El museo que visité era increíble. (The museum that I visited was incredible.)\\n  - La pintura que me gustó era de Picasso. (The painting I liked was by Picasso.)\\n\\n- QUIÉN/QUIÉNES (who/whom) — refers only to people (with preposition)\\n  - El artista de quien hablo es famoso. (The artist I'm talking about is famous.)\\n  - ¿Quién es el escultor que hizo esa obra? (Who is the sculptor who made that work?)\\n\\n- DONDE (where) — refers to places\\n  - El barrio donde vive el artista es bonito. (The neighborhood where the artist lives is nice.)\\n  - La ciudad donde está el museo es antigua. (The city where the museum is located is old.)\\n\\n- CUYO(CUYA/CUYOS/CUYAS) (whose) — shows possession\\n  - El pintor, cuya obra es famosa, nació en España. (The painter, whose work is famous, was born in Spain.)\\n\\n- EL CUAL / LA CUAL / LOS CUALES / LAS CUALES (which/that) — more formal, after prepositions\\n  - La galería en la cual trabajé era pequeña. (The gallery I worked in was small.)\\n\\nUsage with culture:\\n- El museo donde estuve fue increíble. (The museum I was in was incredible.)\\n- La obra que vi en la galería me gustó mucho. (The work I saw in the gallery I liked a lot.)\\n- El artista cuyo cuadro vimos es de México. (The artist whose painting we saw is from Mexico.)\\n- El sitio que visitamos fue el centro histórico. (The site we visited was the historic center.)\\n- La fiesta a la que asistimos fue fantástica. (The festival we attended was fantastic.)",
+      "examples": [
+        "El museo que visité ayer tenía obras de Picasso. (The museum I visited yesterday had works by Picasso.)",
+        "La ciudad donde viví es muy cultural. (The city I lived in is very cultural.)",
+        "El artista cuya obra vimos es muy famoso. (The artist whose work we saw is very famous.)",
+        "La galería en la que trabajé era pequeña pero bonita. (The gallery I worked in was small but beautiful.)",
+        "El concierto al que fuimos fue increíble. (The concert we went to was incredible.)",
+        "La plaza donde está la catedral es preciosa. (The square where the cathedral is located is beautiful.)"
+      ]
+    }
+  ],
+  "pronunciation": [
+    {
+      "title": "Pronunciation of Cultural and Art Vocabulary",
+      "content": "Key pronunciation patterns for arts, culture, and heritage vocabulary:\\n\\n1. The 'll' sound (yeísmo):\\n   - The 'll' is pronounced like 'y' in most of Spain and Latin America:\\n   - la plaza → LAH plah-syah (pl-LAH-syah in some areas)\\n   - el baile → el BAH-yeh (not 'bah-ee-leh')\\n   - la calle → LAH kah-yeh\\n   - el pueblo → el PWEH-blyoh\\n\\n2. The 'j' / 'g' soft sound (like 'h' in 'hello'):\\n   - The letter 'j' is ALWAYS pronounced like 'h':\\n   - la jota → HOH-tah\\n   - el jarrón → el YAH-ron\\n   - el traje → el TRAH-heh\\n   - la caja → LAH kah-hah\\n\\n   - The letter 'g' before 'e' or 'i' is the soft 'h' sound:\\n   - el género → el HEN-ree-oh\\n   - la gente → LAH HEN-teh\\n   - la cultura → kool-TOOH-rah (g before 'u' is hard 'g')\\n\\n3. The 'ñ' sound (ny):\\n   - The 'ñ' makes a 'ny' sound like in 'onion':\\n   - el año → el AH-nyoh\\n   - la niña → la NEE-nyah\\n   - el lienzo → el LYEN-soh\\n   - el peñón → el PEH-nyohn\\n\\n4. Stress patterns in cultural terms:\\n   - esdrújulas (stress on antepenult, always accented):\\n     - la exposición (ek-spo-see-ON) — stress on -ON\\n     - la cultura (kool-TOOH-rah) — llana ending in vowel, no accent\\n     - la arquitectura (ar-kee-tehk-TOO-rah) — stress on -TOOH\\n     - el monumento (mo-no-MEN-toh) — llana ending in -o, no accent\\n   - agudas (stress on last syllable, accented if ending in consonant other than -n, -s):\\n     - el baile (bah-yeh) — llana ending in -e\\n     - la plaza (plah-syah) — llana ending in -a\\n\\n5. Double consonants:\\n   - When a prefix ends in the same consonant that the root starts with, it stays doubled:\\n   - sub-básico → subbásico (sub-ba-SEE-koh)\\n   - anti-inflacionario → antiinflacionario (an-tee-in-f lah-see-oh-NAH-ree-oh)\\n\\n6. Special art vocabulary sounds:\\n   - 'qu' before 'e' or 'i' = hard 'k' sound: el cuadro (el KWAH-droh)\\n   - 'g' before 'u' = hard 'g' sound: el género (el HEN-ree-oh, g before e is soft)\\n   - 'gu' before 'e' or 'i' = hard 'g' + 'w' sound: la guitarra (lee-TEH-brah)\\n   - 'c' before 'e' or 'i' = soft 's' (Latin America) or 'th' (Spain): el arte (el AR-teh / AR-theh)\\n   - 'z' = always soft 's' (Latin America) or 'th' (Spain): la danza (LAH DAH-sah / LAH DAH-thah)",
+      "examples": [
+        "el museo = el MOO-say-oh (stress on 'saa')\\n",
+        "la galería = la gah-leh-REE-ah (stress on 'REE', esdrújula compound)\\n",
+        "la escultura = la es-kool-TOO-rah (stress on 'too')\\n",
+        "el folclore = el فول-KLOH-reh (stress on 'kloh')\\n",
+        "la arquitectura = ar-kee-tehk-TOO-rah (stress on 'too')\\n",
+        "el patrimonio = el pah-tree-MOH-nee-oh (stress on 'moh')\\n",
+        "la tradición = lah troh-dee-ON (stress on 'on')\\n",
+        "el barrio = el BAH-ree-oh (ll = y sound)\\n",
+        "la plaza = LAH plah-syah (ll = y sound)\\n",
+        "el cuadro = el KWAH-droh (qu = hard k)"
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "multiple-choice",
+      "question": "Which Spanish word means 'museum'?",
+      "options": [
+        "la galería",
+        "el museo",
+        "el teatro",
+        "la biblioteca"
+      ],
+      "correct": 1,
+      "explanation": "'El museo' means museum. 'La galería' is an art gallery, 'el teatro' is theater, and 'la biblioteca' is library."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What does 'el patrimonio cultural' mean?",
+      "options": [
+        "Cultural policy",
+        "Cultural heritage",
+        "Cultural festival",
+        "Cultural center"
+      ],
+      "correct": 1,
+      "explanation": "'El patrimonio cultural' means cultural heritage. 'Patrimonio' = heritage/patrimony, 'cultural' = cultural."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete with the correct preterite of 'visitar': 'Ayer yo ___ el Museo del Prado.' (Yesterday I visited the Prado Museum.)",
+      "correct": "visité",
+      "explanation": "'Visité' is the first-person preterite (pretérito indefinido) of 'visitar' (to visit). The time marker 'ayer' (yesterday) signals a completed past action, which requires the preterite tense."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Which verb form is correct? 'Nos ___ mucho el arte moderno.' (We really like modern art.)",
+      "options": [
+        "gusta",
+        "gustan",
+        "gustamos",
+        "gustar"
+      ],
+      "correct": 0,
+      "explanation": "'Gusta' is correct because 'el arte moderno' is singular. The structure is 'Nos gusta + singular noun.' If it were plural (e.g., 'los cuadros'), it would be 'gustan.'"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What does 'la escultura' mean?",
+      "options": [
+        "Painting",
+        "Sculpture",
+        "Drawing",
+        "Photography"
+      ],
+      "correct": 1,
+      "explanation": "'La escultura' means sculpture. 'La pintura' means painting, 'el dibujo' means drawing, and 'la fotografía' means photography."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete with the correct relative pronoun: 'El museo ___ visité ayer es increíble.' (The museum that I visited yesterday is incredible.)",
+      "correct": "que",
+      "explanation": "'Que' is the most common relative pronoun and can refer to both people and things. Here it refers to 'el museo' (the museum), meaning 'that' or 'which.'"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What does 'la danza folklórica' mean?",
+      "options": [
+        "Modern dance",
+        "Ballet dance",
+        "Folk dance",
+        "Street dance"
+      ],
+      "correct": 2,
+      "explanation": "'La danza folklórica' means folk dance. 'Folklor' = folklore, and the suffix '-ica' makes it an adjective: folklórica (folk/folksy)."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete with the correct form of 'encantar': 'A ellas ___ mucho las tradiciones.' (They really love traditions.)",
+      "correct": "encantan",
+      "explanation": "'Encantan' (plural) is used because 'las tradiciones' is plural. 'A ellas' means 'to them (feminine).' The structure is: A ellas encantan + plural noun."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What does 'el centro histórico' mean?",
+      "options": [
+        "The historic center",
+        "The historical center",
+        "The central station",
+        "The central market"
+      ],
+      "correct": 0,
+      "explanation": "'El centro histórico' means the historic center. 'Centro' = center, 'histórico' = historic/historical. This refers to the old part of a city with historical significance."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete with the correct preterite of 'ir': 'El año pasado ___ a una exposición de arte.' (Last year I went to an art exhibition.)",
+      "correct": "fui",
+      "explanation": "'Fui' is the first-person preterite of 'ir' (to go). 'Ir' is highly irregular in the preterite: fui, fuiste, fue, fuimos, fuisteis, fueron."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Which phrase means 'art gallery'?",
+      "options": [
+        "el museo",
+        "la galería de arte",
+        "el teatro",
+        "el mercado"
+      ],
+      "correct": 1,
+      "explanation": "'La galería de arte' means art gallery. 'Galería' = gallery, 'de arte' = of art."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete with the correct relative pronoun: 'La ciudad ___ vivimos es muy cultural.' (The city we live in is very cultural.)",
+      "correct": "donde",
+      "explanation": "'Donde' means 'where' and is used for places. 'La ciudad donde vivimos' = The city where we live."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What does 'el patrimonio histórico' mean?",
+      "options": [
+        "Historical heritage",
+        "Historical event",
+        "Historical document",
+        "Historical novel"
+      ],
+      "correct": 0,
+      "explanation": "'El patrimonio histórico' means historical heritage. 'Patrimonio' = heritage, 'histórico' = historical."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Which Spanish word means 'architecture'?",
+      "options": [
+        "el edificio",
+        "la construcción",
+        "la arquitectura",
+        "el monumento"
+      ],
+      "correct": 2,
+      "explanation": "'La arquitectura' means architecture. 'El edificio' is a building, 'la construcción' is construction, and 'el monumento' is a monument."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete with the correct form of 'gustar': '¿Te ___ la ópera?' (Do you like opera?)",
+      "correct": "gusta",
+      "explanation": "'Gusta' is used because 'la ópera' is singular. The question structure is '¿Te gusta + singular noun?' — literally 'Does opera please you?'"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What does 'la artesanía' mean?",
+      "options": [
+        "Art museum",
+        "Art history",
+        "Craft / handmade art",
+        "Art supply store"
+      ],
+      "correct": 2,
+      "explanation": "'La artesanía' means craft or handmade art. It refers to objects made by hand using traditional techniques."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete with the correct preterite of 'hacer': 'La semana pasada ___ un concierto de jazz.' (Last week we went to a jazz concert.)",
+      "correct": "hicimos",
+      "explanation": "'Hicimos' is the first-person preterite (nosotros) of 'hacer' (to do/make). Note: 'hacer un concierto' is an idiom meaning 'to attend/go to a concert.' It's irregular in the preterite."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Which verb means 'to fascinate' in Spanish?",
+      "options": [
+        "interesar",
+        "encantar",
+        "fascinar",
+        "divertir"
+      ],
+      "correct": 2,
+      "explanation": "'Fascinar' means to fascinate. 'Interesar' = to interest, 'encantar' = to love/to be greatly liked, 'divertir' = to amuse/to be fun."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete with the correct relative pronoun: 'El pintor ___ obra vimos es famoso.' (The artist whose work we saw is famous.)",
+      "correct": "cuya",
+      "explanation": "'Cuya' (feminine singular of 'cuyo') means 'whose' and agrees in gender and number with the noun it modifies. 'Obra' is feminine singular, so we use 'cuya': 'El pintor cuya obra vimos' = The artist whose work we saw."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What does 'las bellas artes' mean?",
+      "options": [
+        "Beautiful art",
+        "Fine arts",
+        "Great art",
+        "Modern art"
+      ],
+      "correct": 1,
+      "explanation": "'Las bellas artes' means fine arts — a traditional term for artistic disciplines like painting, sculpture, music, and architecture."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete with the correct form of 'fascinar': 'A mí ___ los museos de arte.' (I'm fascinated by art museums.)",
+      "correct": "fascinan",
+      "explanation": "'Fascinan' (plural) agrees with 'los museos' (plural noun). The structure is 'A mí fascinan + plural noun' — literally 'Art museums fascinate me.'"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What does 'el folclore' mean?",
+      "options": [
+        "Folklore",
+        "Folk music",
+        "Folk dance",
+        "Folk art"
+      ],
+      "correct": 0,
+      "explanation": "'El folclore' means folklore — the traditional customs, stories, music, and beliefs of a community or culture."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete with the correct preterite of 'ver': 'El mes pasado ___ una exposición de esculturas.' (Last month I saw an exhibition of sculptures.)",
+      "correct": "vi",
+      "explanation": "'Vi' is the first-person preterite of 'ver' (to see). 'Ver' is irregular in the preterite: vi, viste, vio, vimos, visteis, vieron. It looks like the preterite of 'ir' (to go)."
+    },
+    {
+      "type": "matching",
+      "question": "Match the Spanish cultural terms with their English meanings:\\n\\n1. el museo\\n2. la danza folklórica\\n3. el patrimonio\\n4. la arquitectura",
+      "options": [
+        "museum / folk dance / heritage / architecture",
+        "architecture / heritage / museum / folk dance",
+        "folk dance / museum / architecture / heritage",
+        "heritage / architecture / folk dance / museum"
+      ],
+      "correct": 0,
+      "explanation": "el museo = museum, la danza folklórica = folk dance, el patrimonio = heritage, la arquitectura = architecture."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Which term refers to 'colonial architecture'?",
+      "options": [
+        "la arquitectura moderna",
+        "la arquitectura colonial",
+        "la arquitectura gótica",
+        "la arquitectura barroca"
+      ],
+      "correct": 1,
+      "explanation": "'La arquitectura colonial' means colonial architecture. 'La arquitectura moderna' = modern architecture, 'la arquitectura gótica' = Gothic architecture, 'la arquitectura barroca' = Baroque architecture."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete with the correct form of 'encantar': 'Nos ___ visitar monumentos históricos.' (We love visiting historical monuments.)",
+      "correct": "encanta",
+      "explanation": "'Encanta' is used because what we love is the act of visiting (an infinitive verb phrase), which is treated as singular. 'Nos encanta + infinitive' = We love to [verb]."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What does 'el artesano' mean?",
+      "options": [
+        "Art teacher",
+        "Art collector",
+        "Artisan / craftsman",
+        "Art critic"
+      ],
+      "correct": 2,
+      "explanation": "'El artesano' means artisan or craftsman — a person who makes objects by hand, especially using traditional techniques."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete with the correct relative pronoun: 'El sitio ___ estuvimos fue el centro histórico.' (The place we were at was the historic center.)",
+      "correct": "donde",
+      "explanation": "'Donde' means 'where' and is used to refer to places. 'El sitio donde estuvimos' = The place where we were."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Which preterite form is correct? 'Ella ___ una fiesta tradicional.' (She attended a traditional festival.)",
+      "options": [
+        "asistió",
+        "asistía",
+        "asistir",
+        "asiste"
+      ],
+      "correct": 0,
+      "explanation": "'Asistió' is the third-person preterite of 'asistir' (to attend). The preterite is used for completed actions. 'Asistía' is the imperfect (ongoing past), 'asistir' is the infinitive, and 'asiste' is present tense."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete with the correct form of 'gustar': '___ gusta mucho la música tradicional.'",
+      "correct": "Me",
+      "explanation": "'Me' is the first-person indirect object pronoun meaning 'to me.' 'Me gusta' = 'it pleases me' = 'I like it.' The full sentence is 'Me gusta mucho la música tradicional' = I really like traditional music."
+    }
+  ]
+}

@@ -1,0 +1,528 @@
+{
+  "id": "scientific-communication",
+  "level": "b1-2",
+  "title": "Scientific Communication",
+  "description": "Communicate scientific concepts in Spanish. Learn to describe research processes, present data findings, write about scientific topics, and discuss research with precision. This theme covers the language of science from laboratory to publication.",
+  "vocabulary": [
+    {"id": 1, "target": "la comunicación científica", "source": "scientific communication", "gender": "f", "type": "noun"},
+    {"id": 2, "target": "el experimento", "source": "experiment", "gender": "m", "type": "noun"},
+    {"id": 3, "target": "la hipótesis", "source": "hypothesis", "gender": "f", "type": "noun"},
+    {"id": 4, "target": "la variable", "source": "variable", "gender": "f", "type": "noun"},
+    {"id": 5, "target": "el dato", "source": "data point", "gender": "m", "type": "noun"},
+    {"id": 6, "target": "los datos", "source": "data", "gender": "m", "type": "noun"},
+    {"id": 7, "target": "la evidencia", "source": "evidence", "gender": "f", "type": "noun"},
+    {"id": 8, "target": "el resultado", "source": "result", "gender": "m", "type": "noun"},
+    {"id": 9, "target": "la conclusión", "source": "conclusion", "gender": "f", "type": "noun"},
+    {"id": 10, "target": "la metodología", "source": "methodology", "gender": "f", "type": "noun"},
+    {"id": 11, "target": "el método científico", "source": "scientific method", "gender": "m", "type": "noun"},
+    {"id": 12, "target": "la observación", "source": "observation", "gender": "f", "type": "noun"},
+    {"id": 13, "target": "la inferencia", "source": "inference", "gender": "f", "type": "noun"},
+    {"id": 14, "target": "la correlación", "source": "correlation", "gender": "f", "type": "noun"},
+    {"id": 15, "target": "la causalidad", "source": "causality", "gender": "f", "type": "noun"},
+    {"id": 16, "target": "la muestra", "source": "sample", "gender": "f", "type": "noun"},
+    {"id": 17, "target": "el sesgo", "source": "bias", "gender": "m", "type": "noun"},
+    {"id": 18, "target": "el error", "source": "error", "gender": "m", "type": "noun"},
+    {"id": 19, "target": "la precisión", "source": "precision", "gender": "f", "type": "noun"},
+    {"id": 20, "target": "la validez", "source": "validity", "gender": "f", "type": "noun"},
+    {"id": 21, "target": "la fiabilidad", "source": "reliability", "gender": "f", "type": "noun"},
+    {"id": 22, "target": "el control", "source": "control", "gender": "m", "type": "noun"},
+    {"id": 23, "target": "el grupo experimental", "source": "experimental group", "gender": "m", "type": "noun"},
+    {"id": 24, "target": "el grupo de control", "source": "control group", "gender": "m", "type": "noun"},
+    {"id": 25, "target": "la reproducibilidad", "source": "reproducibility", "gender": "f", "type": "noun"},
+    {"id": 26, "target": "el análisis estadístico", "source": "statistical analysis", "gender": "m", "type": "noun"},
+    {"id": 27, "target": "publicar", "source": "to publish", "gender": "v.", "type": "verb"},
+    {"id": 28, "target": "observar", "source": "to observe", "gender": "v.", "type": "verb"},
+    {"id": 29, "target": "medir", "source": "to measure", "gender": "v.", "type": "verb"},
+    {"id": 30, "target": "analizar", "source": "to analyze", "gender": "v.", "type": "verb"},
+    {"id": 31, "target": "interpretar", "source": "to interpret", "gender": "v.", "type": "verb"},
+    {"id": 32, "target": "concluir", "source": "to conclude", "gender": "v.", "type": "verb"},
+    {"id": 33, "target": "demostrar", "source": "to demonstrate / prove", "gender": "v.", "type": "verb"},
+    {"id": 34, "target": "refutar", "source": "to refute", "gender": "v.", "type": "verb"},
+    {"id": 35, "target": "confirmar", "source": "to confirm", "gender": "v.", "type": "verb"},
+    {"id": 36, "target": "plantear", "source": "to propose / formulate", "gender": "v.", "type": "verb"},
+    {"id": 37, "target": "exponer", "source": "to present (data)", "gender": "v.", "type": "verb"},
+    {"id": 38, "target": "graficar", "source": "to graph", "gender": "v.", "type": "verb"},
+    {"id": 39, "target": "categorizar", "source": "to categorize", "gender": "v.", "type": "verb"},
+    {"id": 40, "target": "cuantificar", "source": "to quantify", "gender": "v.", "type": "verb"},
+    {"id": 41, "target": "calibrar", "source": "to calibrate", "gender": "v.", "type": "verb"},
+    {"id": 42, "target": "validar", "source": "to validate", "gender": "v.", "type": "verb"},
+    {"id": 43, "target": "sistematizar", "source": "to systematize", "gender": "v.", "type": "verb"},
+    {"id": 44, "target": "científico", "source": "scientific", "gender": "m/adj.", "type": "adj"},
+    {"id": 45, "target": "empírico", "source": "empirical", "gender": "m/adj.", "type": "adj"},
+    {"id": 46, "target": "significativo", "source": "significant", "gender": "m/adj.", "type": "adj"},
+    {"id": 47, "target": "estadístico", "source": "statistical", "gender": "m/adj.", "type": "adj"},
+    {"id": 48, "target": "cuantitativo", "source": "quantitative", "gender": "m/adj.", "type": "adj"},
+    {"id": 49, "target": "cualitativo", "source": "qualitative", "gender": "m/adj.", "type": "adj"},
+    {"id": 50, "target": "hipotético", "source": "hypothetical", "gender": "m/adj.", "type": "adj"},
+    {"id": 51, "target": "objetivo", "source": "objective", "gender": "m/adj.", "type": "adj"},
+    {"id": 52, "target": "subjetivo", "source": "subjective", "gender": "m/adj.", "type": "adj"},
+    {"id": 53, "target": "riguroso", "source": "rigorous", "gender": "m/adj.", "type": "adj"},
+    {"id": 54, "target": "sistemático", "source": "systematic", "gender": "m/adj.", "type": "adj"},
+    {"id": 55, "target": "concluyente", "source": "conclusive", "gender": "m/adj.", "type": "adj"},
+    {"id": 56, "target": "tangible", "source": "tangible", "gender": "m/adj.", "type": "adj"},
+    {"id": 57, "target": "abstracto", "source": "abstract", "gender": "m/adj.", "type": "adj"},
+    {"id": 58, "target": "concreto", "source": "concrete", "gender": "m/adj.", "type": "adj"},
+    {"id": 59, "target": "el laboratorio", "source": "laboratory", "gender": "m", "type": "noun"},
+    {"id": 60, "target": "el instrumento", "source": "instrument", "gender": "m", "type": "noun"},
+    {"id": 61, "target": "el prototipo", "source": "prototype", "gender": "m", "type": "noun"},
+    {"id": 62, "target": "la teoría", "source": "theory", "gender": "f", "type": "noun"},
+    {"id": 63, "target": "la ley científica", "source": "scientific law", "gender": "f", "type": "noun"},
+    {"id": 64, "target": "el modelo", "source": "model", "gender": "m", "type": "noun"},
+    {"id": 65, "target": "el parámetro", "source": "parameter", "gender": "m", "type": "noun"},
+    {"id": 66, "target": "el gráfico", "source": "graph / chart", "gender": "m", "type": "noun"},
+    {"id": 67, "target": "la tabla", "source": "table", "gender": "f", "type": "noun"},
+    {"id": 68, "target": "el porcentaje", "source": "percentage", "gender": "m", "type": "noun"},
+    {"id": 69, "target": "la tendencia", "source": "trend", "gender": "f", "type": "noun"},
+    {"id": 70, "target": "la distribución", "source": "distribution", "gender": "f", "type": "noun"},
+    {"id": 71, "target": "el promedio", "source": "average", "gender": "m", "type": "noun"},
+    {"id": 72, "target": "la desviación estándar", "source": "standard deviation", "gender": "f", "type": "noun"},
+    {"id": 73, "target": "el eje", "source": "axis", "gender": "m", "type": "noun"},
+    {"id": 74, "target": "la escala", "source": "scale", "gender": "f", "type": "noun"},
+    {"id": 75, "target": "el rango", "source": "range", "gender": "m", "type": "noun"},
+    {"id": 76, "target": "el pico", "source": "peak", "gender": "m", "type": "noun"},
+    {"id": 77, "target": "el mínimo", "source": "minimum", "gender": "m", "type": "noun"},
+    {"id": 78, "target": "el máximo", "source": "maximum", "gender": "m", "type": "noun"},
+    {"id": 79, "target": "la proporción", "source": "proportion", "gender": "f", "type": "noun"},
+    {"id": 80, "target": "el aumento", "source": "increase", "gender": "m", "type": "noun"},
+    {"id": 81, "target": "la disminución", "source": "decrease", "gender": "f", "type": "noun"},
+    {"id": 82, "target": "la estabilidad", "source": "stability", "gender": "f", "type": "noun"},
+    {"id": 83, "target": "el incremento", "source": "increment", "gender": "m", "type": "noun"},
+    {"id": 84, "target": "la fluctuación", "source": "fluctuation", "gender": "f", "type": "noun"},
+    {"id": 85, "target": "constante", "source": "constant", "gender": "f/adj.", "type": "noun"},
+    {"id": 86, "target": "proporcional", "source": "proportional", "gender": "m/adj.", "type": "adj"},
+    {"id": 87, "target": "exponencial", "source": "exponential", "gender": "m/adj.", "type": "adj"},
+    {"id": 88, "target": "lineal", "source": "linear", "gender": "m/adj.", "type": "adj"},
+    {"id": 89, "target": "el resumen ejecutivo", "source": "executive summary", "gender": "m", "type": "noun"},
+    {"id": 90, "target": "el resumen", "source": "abstract", "gender": "m", "type": "noun"},
+    {"id": 91, "target": "las palabras clave", "source": "keywords", "gender": "f pl.", "type": "noun"},
+    {"id": 92, "target": "la referencia bibliográfica", "source": "bibliographic reference", "gender": "f", "type": "noun"},
+    {"id": 93, "target": "el artículo científico", "source": "scientific paper", "gender": "m", "type": "noun"},
+    {"id": 94, "target": "la revista de alto impacto", "source": "high-impact journal", "gender": "f", "type": "noun"},
+    {"id": 95, "target": "la revisión por pares", "source": "peer review", "gender": "f", "type": "noun"}
+  ],
+  "grammar": [
+    {
+      "title": "Describing Data Trends and Changes",
+      "content": "Scientific communication requires precise language for describing data trends, changes, and relationships. At B1.2 level, you need to express increases, decreases, stability, and proportions with accuracy.\n\n**Verbs for describing changes:**\n- Aumentar / Subir / Crecer → to increase\n  - Los niveles aumentaron un 15% durante el estudio.\n  - Las temperaturas subieron considerablemente.\n- Disminuir / Bajar / Reducir → to decrease\n  - La población disminuyó drásticamente.\n  - Los errores se redujeron a la mitad.\n- Mantenerse estable / Permanecer constante → to remain stable\n  - Los resultados se mantuvieron estables durante todo el experimento.\n  - La tasa de reacción permaneció constante.\n- Fluctuar → to fluctuate\n  - Los precios fluctuaron durante todo el trimestre.\n- Doblar / Triplicar / Reducir a la mitad → to double/triple/halve\n  - La producción se duplicó en seis meses.\n  - El consumo se redujo a la mitad.\n\n**Adverbs for precision:**\n- Significativamente → significantly\n  - Los resultados mejoraron significativamente.\n- Drásticamente / Radicalmente → drastically\n  - La población disminuyó drásticamente.\n- Levemente / Ligeramente → slightly\n  - La temperatura subió levemente.\n- Constantemente / De manera constante → constantly\n  - Los niveles fluctuaron de manera constante.\n- Proporcionalmente → proportionally\n  - El costo aumentó proporcionalmente al tamaño.\n- Aproximadamente → approximately\n  - El promedio fue de aproximadamente 150 unidades.\n\n**Prepositions and connectors:**\n- En comparación con / En relación con → Compared to / In relation to\n  - En comparación con 2020, las emisiones bajaron un 10%.\n- De ... a ... → From ... to ...\n  - El rango varió de 0 a 100.\n- En un 20% / Un 20% más → By 20% / 20% more\n  - La producción creció en un 20%.\n- Dos veces más que / El doble de → Twice as much as / Double\n  - El grupo experimental mostró el doble de mejoras.\n\n**Romanian parallel:** Romanian also has specific verbs for trends: a crește (to increase), a scădea (to decrease), a fluctua. The adverbial patterns are similar: semnificativ = significativamente, drastic = drásticamente.",
+      "table": {
+        "headers": ["Direction", "Verb", "Adverb", "Example"],
+        "rows": [
+          ["Up", "Aumentar", "significativamente", "Los datos aumentaron significativamente."],
+          ["Down", "Disminuir", "drásticamente", "La tasa disminuyó drásticamente."],
+          ["Flat", "Mantenerse", "establemente", "Se mantuvo establemente."],
+          ["Variable", "Fluctuar", "constantemente", "Fluctuó constantemente."],
+          ["Proportional", "Incrementar", "proporcionalmente", "Creció proporcionalmente."],
+          ["Doubling", "Duplicar", "-", "Se duplicó en un año."],
+          ["Halving", "Reducir a la mitad", "-", "Se redujo a la mitad."],
+          ["From-to", "Variar", "de ... a ...", "Varió de 0 a 100."],
+          ["Comparison", "Comparar", "En comparación con", "En comparación con 2020..."]
+        ]
+      },
+      "examples": [
+        "Los resultados mostraron un aumento significativo entre enero y marzo.",
+        "La temperatura disminuyó drásticamente después del cambio de estación.",
+        "En comparación con el grupo control, el grupo experimental mejoró en un 30%.",
+        "Los niveles de contaminantes fluctuaron constantemente durante todo el año.",
+        "El porcentaje de éxito se duplicó después de implementar el nuevo protocolo."
+      ],
+      "aid_note": "Romanian trend verbs: a crește = aumentar, a scădea = disminuir, a fluctua = fluctuar. Adverbs: semnificativ = significativamente, drastic = drásticamente. The grammar structures are nearly identical."
+    },
+    {
+      "title": "Passive Voice and Impersonal Constructions in Scientific Writing",
+      "content": "Scientific writing in Spanish relies heavily on passive voice and impersonal constructions to maintain objectivity and focus on the research rather than the researcher. These are essential for B1.2 level scientific communication.\n\n**Passive with 'ser' (canonical passive):**\nStructure: ser (conjugated) + past participle (agrees in gender/number) + por + agent\n- El experimento fue realizado en condiciones controladas. (The experiment was conducted under controlled conditions.)\n- Los resultados fueron publicados en una revista de alto impacto. (The results were published in a high-impact journal.)\n- La hipótesis fue refutada por la evidencia empírica. (The hypothesis was refuted by empirical evidence.)\n\n**Passive reflexive (se pasiva) — MOST COMMON in scientific writing:**\nStructure: se + verb (3rd person) + subject\n- Se realizó el experimento en tres fases. (The experiment was conducted in three phases.)\n- Se observó una correlación significativa. (A significant correlation was observed.)\n- Se han publicado múltiples estudios al respecto. (Multiple studies have been published on this subject.)\n\n**Impersonal 'se' with infinitive (general statements):**\n- Se dice que el cambio climático afecta a todos los ecosistemas. (It is said that climate change affects all ecosystems.)\n- Se cree que la biodiversidad está disminuyendo. (It is believed that biodiversity is decreasing.)\n- Se sabe que los datos deben verificarse. (It is known that data must be verified.)\n\n**Se + haber + past participle (present perfect impersonal):**\n- Se ha demostrado que el tratamiento es efectivo. (It has been shown that the treatment is effective.)\n- Se han realizado numerosas investigaciones al respecto. (Numerous investigations have been conducted on this subject.)\n- Se ha confirmado la existencia de la partícula. (The existence of the particle has been confirmed.)\n\n**Key distinction:**\n- Passive reflexive (se pasiva): used when the verb has a grammatical subject (the thing being acted upon)\n  - Se publicaron los resultados. (The results were published — plural subject)\n- Impersonal 'se' with infinitive: used for general, universal statements\n  - Se come bien aquí. (One eats well here / You eat well here)\n  - Se dice que... (It is said that...)\n\n**Romanian parallel:** Romanian uses 'se' for passive reflexive in the same way: 's-a realizat' = 'se realizó'; 'se publică' = 'se publica'. The structures map almost identically. Both languages use impersonal 'se' for general statements.\n\n**Note for Romanian speakers:** In Romanian, the passive with 'fi' (a fi + past participle) maps directly to Spanish 'ser' + past participle. Both languages also use 'se' for impersonal/passive constructions. This is a major advantage for Romanian speakers learning scientific Spanish.",
+      "table": {
+        "headers": ["Construction", "Spanish Example", "English", "Romanian Equivalent"],
+        "rows": [
+          ["ser + participio", "El dato fue verificado.", "The data was verified.", "Datuul a fost verificat."],
+          ["se pasiva", "Se observó el cambio.", "The change was observed.", "S-a observat schimbarea."],
+          ["se + haber", "Se ha demostrado.", "It has been proven.", "S-a demonstrat."],
+          ["se + inf.", "Se dice que...", "It is said that...", "Se spune că..."],
+          ["refleja", "Se publicaron los hallazgos.", "The findings were published.", "S-au publicat descoperirile."]
+        ]
+      },
+      "examples": [
+        "El estudio fue diseñado para minimizar los errores sistemáticos.",
+        "Se han realizado tres ensayos clínicos para validar el tratamiento.",
+        "Se cree que la variable tiene un impacto significativo en el resultado.",
+        "Los parámetros fueron calibrados antes de cada medición.",
+        "Se observó una tendencia ascendente durante todo el período de estudio."
+      ],
+      "aid_note": "Romanian 'se' constructions map directly: 's-a observat' = 'se observó', 's-a publicat' = 'se publicó'. The Romanian passive with 'fi' = Spanish passive with 'ser'. Both languages favor impersonal constructions in formal/academic writing."
+    },
+    {
+      "title": "Formal Connectors for Scientific Argumentation",
+      "content": "Scientific argumentation in Spanish requires formal connectors to structure hypotheses, evidence, reasoning, and conclusions. These connectors signal the logical relationship between ideas.\n\n**Introducing hypotheses and objectives:**\n- La hipótesis plantea que... (The hypothesis proposes that...)\n- El objetivo de este estudio es... (The objective of this study is...)\n- Se plantea la siguiente pregunta: ¿...? (The following question is posed: ...?)\n- Con base en la teoría de..., se propone que... (Based on the theory of..., it is proposed that...)\n\n**Presenting evidence and data:**\n- Los datos muestran que... (The data show that...)\n- Según los resultados obtenidos, ... (According to the results obtained, ...)\n- La evidencia sugiere que... (The evidence suggests that...)\n- Como se puede observar en la Figura 1, ... (As can be observed in Figure 1, ...)\n- Los resultados indican que... (The results indicate that...)\n\n**Expressing cause and effect:**\n- Debido a que / A causa de... (Because / Due to...)\n- Por lo tanto / En consecuencia → Therefore / Consequently\n  - Los niveles bajaron; por lo tanto, se descarta la hipótesis.\n- Esto se debe a que → This is because\n- Dado que / Puesto que → Given that / Since\n  - Dado que la muestra es pequeña, los resultados deben interpretarse con cautela.\n\n**Contrasting and qualifying:**\n- Sin embargo / No obstante → However / Nevertheless\n- A pesar de que → Despite the fact that\n- Si bien es cierto que... → While it is true that...\n- Por el contrario → On the contrary\n- En cambio → On the other hand\n- Cabe destacar que → It should be noted that\n\n**Concluding and summarizing:**\n- En conclusión, ... (In conclusion, ...)\n- En resumen, ... (In summary, ...)\n- Por consiguiente, ... (Accordingly, ...)\n- A la luz de estos resultados, ... (In light of these results, ...)\n- Se puede concluir que... (It can be concluded that...)\n- En definitiva, ... (Ultimately, ...)\n\n**Hedging and caution (critical in scientific writing):**\n- Es probable que... (It is likely that...)\n- Parece ser que... (It appears that...)\n- Podría interpretarse como... (It could be interpreted as...)\n- Con mayor probabilidad, ... (More likely, ...)\n- Es posible que... (It is possible that...)\n\n**Key rule:** Scientific Spanish favors formal connectors over informal ones. Use 'sin embargo' instead of 'pero', 'por lo tanto' instead of 'entonces', 'además' instead of 'también'.\n\n**Romanian parallel:** Romanian scientific connectors are very similar: 'sin embargo' = 'totuși'/'însă'; 'por lo tanto' = 'prin urmare'; 'en conclusión' = 'în concluzie'; 'debido a que' = 'din cauza că'; 'sin embargo' = 'însă'. The register and formality level align closely.",
+      "table": {
+        "headers": ["Function", "Connector", "Example", "Romanian"],
+        "rows": [
+          ["Hypothesis", "La hipótesis plantea que...", "La hipótesis plantea que...", "Ipoteza susține că..."],
+          ["Evidence", "Los datos muestran que...", "Los datos muestran que...", "Datele arată că..."],
+          ["Cause", "Por lo tanto...", "Los niveles bajaron. Por lo tanto...", "Prin urmare..."],
+          ["Contrast", "Sin embargo...", "Los resultados fueron positivos. Sin embargo...", "Totuși... / Însă..."],
+          ["Conclusion", "En conclusión...", "En conclusión, se verifica la hipótesis.", "În concluzie..."],
+          ["Hedging", "Es probable que...", "Es probable que los resultados varíen.", "Este probabil că..."],
+          ["Addition", "Además / Asimismo...", "Además, se observó un efecto secundario.", "De asemenea..."]
+        ]
+      },
+      "examples": [
+        "La hipótesis inicial planteaba que los niveles de pH afectarían la reacción. Sin embargo, los resultados no confirmaron esta predicción.",
+        "Los datos muestran un aumento significativo. Por lo tanto, se acepta la hipótesis nula.",
+        "A pesar de que la muestra fue limitada, los resultados fueron consistentes.",
+        "En conclusión, la evidencia respalda la teoría propuesta, aunque se requieren más estudios.",
+        "Es probable que los resultados fluctúen en futuras replicaciones del experimento."
+      ],
+      "aid_note": "Romanian formal connectors: 'prin urmare' = 'por lo tanto', 'totuși' = 'sin embargo', 'în concluzie' = 'în concluzie', 'de asemenea' = 'además', 'este probabil' = 'es probable'. The academic register maps very well between Romanian and Spanish."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "exercise",
+      "question": "Which verb best describes a steady rise in data?",
+      "options": ["Disminuir", "Aumentar", "Fluctuar", "Reducir"],
+      "correct": 1,
+      "explanation": "'Aumentar' (to increase) describes a steady rise in data. 'Disminuir' = to decrease, 'fluctuar' = to go up and down, 'reducir' = to reduce/decrease."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete with the correct form: 'Los resultados fueron ____ (publicar) en una revista de alto impacto.'",
+      "correct": "publicados",
+      "explanation": "'Los resultados fueron publicados' — past participle 'publicados' is masculine plural to agree with 'los resultados' (masculine plural subject)."
+    },
+    {
+      "type": "exercise",
+      "question": "Choose the correct passive reflexive construction:",
+      "options": [
+        "Se realizó el experimento en el laboratorio.",
+        "Se realizaron el experimento en el laboratorio.",
+        "Se realizar el experimento en el laboratorio.",
+        "Se realizando el experimento en el laboratorio."
+      ],
+      "correct": 0,
+      "explanation": "'Se realizó el experimento' — the verb agrees with the singular subject 'el experimento'. In passive reflexive with 'se', the verb is 3rd person singular when the subject is singular."
+    },
+    {
+      "type": "exercise",
+      "question": "What does 'significativamente' mean in a scientific context?",
+      "options": ["In a very large way", "In a statistically meaningful way", "In an unusual way", "In a small way"],
+      "correct": 1,
+      "explanation": "In scientific contexts, 'significativamente' typically refers to statistical significance — meaning the observed effect is unlikely to be due to chance."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete with the correct connector: 'Los datos fueron inconsistentes; ______, se repitió el experimento.' (therefore)",
+      "correct": "por lo tanto",
+      "explanation": "'Por lo therefore' introduces a conclusion drawn from previous information. The inconsistent data led to the decision to repeat the experiment."
+    },
+    {
+      "type": "exercise",
+      "question": "Which construction is used for general statements in scientific writing?",
+      "options": [
+        "Se + infinitive",
+        "Se + past participle",
+        "Ser + infinitive",
+        "Estar + gerund"
+      ],
+      "correct": 0,
+      "explanation": "'Se + infinitive' is used for general, universal statements: 'Se dice que...', 'Se cree que...', 'Se sabe que...'."
+    },
+    {
+      "type": "exercise",
+      "question": "What is 'la correlación' in scientific terms?",
+      "options": [
+        "A cause-and-effect relationship",
+        "A statistical relationship between two variables",
+        "The conclusion of an experiment",
+        "The methodology of a study"
+      ],
+      "correct": 1,
+      "explanation": "'Correlación' refers to a statistical relationship between two variables — when one changes, the other tends to change in a predictable way. It does NOT imply causality."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: 'El experimento fue ____ (realizar) en condiciones controladas.'",
+      "correct": "realizado",
+      "explanation": "'El experimento fue realizado' — past participle 'realizado' agrees with 'el experimento' (masculine singular)."
+    },
+    {
+      "type": "exercise",
+      "question": "Which adjective means 'quantitative' in Spanish?",
+      "options": ["Cualitativo", "Cuantitativo", "Hipotético", "Empírico"],
+      "correct": 1,
+      "explanation": "'Cuantitativo' = quantitative (related to quantities/numbers). 'Cualitativo' = qualitative (related to qualities), 'hipotético' = hypothetical, 'empírico' = empirical."
+    },
+    {
+      "type": "exercise",
+      "question": "Choose the correct impersonal 'se' construction:",
+      "options": [
+        "Se ha demostrado que el tratamiento es efectivo.",
+        "Se han demostrado que el tratamiento es efectivo.",
+        "Se ha demostraron que el tratamiento es efectivo.",
+        "Se han demuestra que el tratamiento es efectivo."
+      ],
+      "correct": 0,
+      "explanation": "'Se ha demostrado' — impersonal 'se' + 'ha' (3rd person singular of haber) + past participle 'demostrado' (invariable after 'haber')."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete with the correct connector: '______, los niveles de contaminación han disminuido un 20%.' (in conclusion)",
+      "correct": "En conclusión",
+      "explanation": "'En conclusión' (in conclusion) introduces the final summary of the findings."
+    },
+    {
+      "type": "exercise",
+      "question": "What does 'el grupo de control' mean?",
+      "options": [
+        "The group that receives the treatment",
+        "The group used for comparison that does not receive treatment",
+        "The researchers conducting the study",
+        "The statistical analysis team"
+      ],
+      "correct": 1,
+      "explanation": "'El grupo de control' is the baseline group that does NOT receive the experimental treatment, used for comparison with the experimental group."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: 'La temperatura ____ (fluctuar) constantemente durante el experimento.' (past)",
+      "correct": "fluctuó",
+      "explanation": "'La temperatura fluctuó' — preterite 3rd person singular of fluctuar."
+    },
+    {
+      "type": "exercise",
+      "question": "Which phrase is appropriate for hedging in scientific writing?",
+      "options": [
+        "Es cierto que...",
+        "Es probable que...",
+        "Sin duda...",
+        "Claramente..."
+      ],
+      "correct": 1,
+      "explanation": "'Es probable que' (it is likely that) is hedging language — it expresses uncertainty appropriately in scientific writing. The others are too definitive."
+    },
+    {
+      "type": "exercise",
+      "question": "What does 'la validez' refer to in research?",
+      "options": [
+        "How consistent the results are",
+        "Whether the study measures what it claims to measure",
+        "The number of participants",
+        "The speed of the experiment"
+      ],
+      "correct": 1,
+      "explanation": "'Validez' (validity) refers to whether a study actually measures what it claims to measure. 'Fiabilidad' (reliability) is about consistency."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete with the correct connector: 'Los niveles subieron en enero; ______, bajaron en febrero.' (on the other hand)",
+      "correct": "en cambio",
+      "explanation": "'En cambio' (on the other hand / conversely) introduces a contrast between two different outcomes in different time periods."
+    },
+    {
+      "type": "exercise",
+      "question": "Which is the correct translation of 'standard deviation'?",
+      "options": [
+        "El desvío normal",
+        "La desviación estándar",
+        "El desvío estándar",
+        "La desviación normal"
+      ],
+      "correct": 1,
+      "explanation": "'La desviación estándar' is the standard scientific term. 'Desviación' = deviation, 'estándar' = standard."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: 'Los datos ____ (indicar) una correlación significativa entre las variables.' (present)",
+      "correct": "indican",
+      "explanation": "'Los datos indican' — present tense, 3rd person plural of indicar."
+    },
+    {
+      "type": "exercise",
+      "question": "What does 'refutar' mean in a scientific context?",
+      "options": [
+        "To support a hypothesis",
+        "To disprove or contradict a hypothesis",
+        "To design an experiment",
+        "To publish findings"
+      ],
+      "correct": 1,
+      "explanation": "'Refutar' means to refute — to disprove or contradict a hypothesis using evidence. This is the opposite of 'confirmar' (to confirm)."
+    },
+    {
+      "type": "exercise",
+      "question": "Choose the correct phrase for 'according to the data':",
+      "options": [
+        "Según los datos",
+        "De acuerdo con los datos",
+        "Ambas son correctas",
+        "Ninguna es correcta"
+      ],
+      "correct": 2,
+      "explanation": "Both 'Según los datos' and 'De acuerdo con los datos' are correct and commonly used in scientific Spanish to introduce data-based claims."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: 'Se ____ (observar) una tendencia al alza en las mediciones.' (past impersonal)",
+      "correct": "observó",
+      "explanation": "'Se observó una tendencia' — impersonal 'se' with 3rd person singular past tense, agreeing with the singular subject 'una tendencia'."
+    },
+    {
+      "type": "exercise",
+      "question": "What does 'proporcional' mean?",
+      "options": [
+        "Changing randomly",
+        "In direct or inverse ratio to another factor",
+        "Constant and unchanging",
+        "Statistically insignificant"
+      ],
+      "correct": 1,
+      "explanation": "'Proporcional' means in a proportional relationship — when one factor changes, the other changes at a corresponding rate (either directly or inversely proportional)."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete with the correct connector: '______ la muestra era pequeña, los resultados fueron claros.' (Although)",
+      "correct": "Aunque",
+      "explanation": "'Aunque la muestra era pequeña' = Although the sample was small. 'Aunque' introduces a concession that does not negate the main clause."
+    },
+    {
+      "type": "exercise",
+      "question": "Which word means 'reproducibility' in scientific Spanish?",
+      "options": ["Validez", "Fiabilidad", "Reproducibilidad", "Precisión"],
+      "correct": 2,
+      "explanation": "'Reproducibilidad' = reproducibility — the ability to obtain the same results when an experiment is repeated under the same conditions."
+    },
+    {
+      "type": "exercise",
+      "question": "What is 'la desviación estándar' used for?",
+      "options": [
+        "To measure the average value",
+        "To measure how spread out the data is from the mean",
+        "To determine the cause of an effect",
+        "To select the experimental group"
+      ],
+      "correct": 1,
+      "explanation": "'La desviación estándar' measures how spread out data points are from the average (mean). A low standard deviation means data is clustered close to the mean."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: 'La hipótesis se ____ (verificar) si los resultados son consistentes.' (conditional)",
+      "correct": "verificaría",
+      "explanation": "'La hipótesis se verificaría' — conditional tense, passive reflexive. The hypothesis would be verified if the results are consistent."
+    },
+    {
+      "type": "exercise",
+      "question": "Which is the correct way to say 'the results were significant'?",
+      "options": [
+        "Los resultados fueron significativo.",
+        "Los resultados fueron significativos.",
+        "Los resultados fue significativos.",
+        "Los resultados fueron significativamente."
+      ],
+      "correct": 1,
+      "explanation": "'Los resultados fueron significativos' — past participle 'significativos' is masculine plural to agree with 'los resultados'."
+    },
+    {
+      "type": "exercise",
+      "question": "What does 'el sesgo' refer to in research?",
+      "options": [
+        "A type of statistical test",
+        "A systematic error that skews results",
+        "The conclusion of a study",
+        "A research methodology"
+      ],
+      "correct": 1,
+      "explanation": "'El sesgo' (bias) is a systematic error that consistently skews results in one direction, potentially invalidating the study's conclusions."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete with the correct connector: 'Los niveles de pH bajaron; ______, la reacción se detuvo.' (consequently)",
+      "correct": "en consecuencia",
+      "explanation": "'En consecuencia' (consequently) introduces the result or consequence of the previous statement — lowered pH caused the reaction to stop."
+    },
+    {
+      "type": "exercise",
+      "question": "Which adjective describes data that can be measured numerically?",
+      "options": ["Cualitativo", "Cuantitativo", "Hipotético", "Subjetivo"],
+      "correct": 1,
+      "explanation": "'Cuantitativo' (quantitative) refers to data that can be counted or measured numerically. 'Cualitativo' describes qualities rather than quantities."
+    },
+    {
+      "type": "exercise",
+      "question": "What does 'se ha confirmado' mean?",
+      "options": [
+        "It was confirmed (simple past)",
+        "It has been confirmed (present perfect)",
+        "It will be confirmed",
+        "It is being confirmed"
+      ],
+      "correct": 1,
+      "explanation": "'Se ha confirmado' — 'ha' (3rd person singular of haber) + past participle = present perfect tense. 'It has been confirmed.' This is very common in scientific writing for recent findings."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: 'El estudio ____ (categorizar) los participantes por edad y género.' (past)",
+      "correct": "categorizó",
+      "explanation": "'El estudio categorizó' — preterite 3rd person singular of categorizar."
+    },
+    {
+      "type": "exercise",
+      "question": "Which connector introduces a contrast in formal scientific writing?",
+      "options": ["Y", "Pero", "Sin embargo", "O"],
+      "correct": 2,
+      "explanation": "'Sin embargo' is the formal academic connector for contrast. 'Y' = and, 'Pero' is too informal for academic writing (use 'sin embargo' instead), 'O' = or."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: 'Los niveles de contaminación han ____ (disminuir) un 20% este año.' (past participle with haber)",
+      "correct": "disminuido",
+      "explanation": "'Han disminuido' — present perfect: han (haber, 3rd person plural) + diminuido (past participle, invariable after haber)."
+    },
+    {
+      "type": "exercise",
+      "question": "What does 'la causalidad' mean?",
+      "options": [
+        "A relationship between two variables",
+        "A cause-and-effect relationship",
+        "The method of data collection",
+        "The sample size of a study"
+      ],
+      "correct": 1,
+      "explanation": "'Causalidad' = causality — a cause-and-effect relationship where one variable directly produces a change in another. This is stronger than 'correlación' (correlation)."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete with the correct connector: '______ de que el experimento sea repetido, los resultados serán más confiables.' (Given)",
+      "correct": "Dado",
+      "explanation": "'Dado que' = given that / since. It introduces a premise or condition that supports the main clause."
+    },
+    {
+      "type": "exercise",
+      "question": "Which word means 'the peak' in a graph?",
+      "options": ["El mínimo", "El pico", "El promedio", "El rango"],
+      "correct": 1,
+      "explanation": "'El pico' = the peak — the highest point on a graph. 'El mínimo' = minimum (lowest point), 'el promedio' = average, 'el rango' = range."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: '______ el análisis estadístico, los resultados fueron consistentes.' (Based on)",
+      "correct": "En base a",
+      "explanation": "'En base al análisis estadístico' = Based on the statistical analysis. Also acceptable: 'A partir del' (starting from / based on)."
+    }
+  ],
+  "pronunciation": [
+    {
+      "title": "Pronunciation of Scientific Communication Vocabulary",
+      "content": "Key pronunciation patterns for scientific communication vocabulary:\n\n1. **The '-ción / -sión' endings (extremely common in scientific Spanish):**\n   - Pronounced 'theen' (Spain) or 'see-en' (Latin America)\n   - hipótesis → ee-poh-TEE-thes\n   - metodología → me-tah-doh-LOH-see-ah\n   - variable → bahr-YAH-beh\n   - correlación → ko-reh-la-THYOHN / ko-reh-la-SYOHN\n   - evidencia → eh-bee-DEN-see-ah\n   - conclusión → koon-kloo-SEE-ohn\n\n2. **The '-logía' ending:**\n   - Always stressed on the antepenultimate syllable\n   - metodología → me-tah-doh-LOH-see-ah\n   - biología → bee-oh-LOH-hee-ah\n   - tecnología → tek-noh-LOH-hee-ah\n\n3. **The 'j' sound (always like English 'h'):**\n   - resultado → reh-suhl-TAH-hoh\n   - variable → bahr-YAH-beh\n   - proyecto → proh-YEK-toh\n   - objetivo → ob-hee-TEE-vo (Spain) / ob-hee-TEE-vo (LA)\n\n4. **Stress on '-ico' words:**\n   - empírico → em-PEE-ree-koh (accent on í)\n   - estadístico → eh-stah-TEE-stee-koh\n   - crítico → KREE-tee-koh\n   - sistemático → sis-teh-mah-TEE-koh\n\n5. **The 'v' and 'b' sound (identical in Spanish):**\n   - variable → bahr-YAH-beh (both v and b sound like soft b)\n   - validez → bah-LEE-dehs\n   - evidencia → eh-bee-DEN-see-ah\n\n6. **Silent letters:**\n   - 'h' is ALWAYS silent: hipótesis → ee-POH-TEE-thes\n   - The 'c' in '-cción' is always 'th' (Spain) or 's' (LA)\n   - Final 'd' is often weakened: verdad → ber-DAD\n\n7. **Stress on '-dad / -tad' endings:**\n   - validez → vah-LEE-dehs\n   - fiabilidad → fee-ah-bee-lee-DAD\n   - precisión → preh-see-OHN\n   - causalidad → kows-ah-lee-DAD",
+      "examples": [
+        "hipótesis = ee-poh-TEE-thes (stress on 'te')",
+        "metodología = me-tah-doh-LOH-see-ah (stress on 'loh')",
+        "variable = bahr-YAH-beh (both v and b sound like soft 'b')",
+        "estadístico = eh-stah-TEE-stee-koh (stress on 'tee')",
+        "correlación = ko-reh-la-THYOHN (Spain) / ko-reh-la-SYOHN (LA)",
+        "evidencia = eh-bee-DEN-see-ah (stress on 'den')",
+        "conclusión = koon-kloo-SEE-ohn (stress on 'see')",
+        "validez = bah-LEE-dehs (stress on 'lee')",
+        "empírico = em-PEE-ree-koh (accent on í)",
+        "reproducibilidad = reh-pro-oo-kee-bee-lee-DAD"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1181 @@
+{
+  "id": "economy-finance",
+  "level": "b2-2",
+  "title": "Economy & Finance",
+  "description": "Vocabulary, grammar, pronunciation, and exercises about personal finance, investments, taxes, economic systems, and financial markets.",
+  "vocabulary": [
+    {
+      "id": 1,
+      "target": "la economía",
+      "source": "economy",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 2,
+      "target": "las finanzas",
+      "source": "finance",
+      "gender": "f",
+      "type": "noun (pl)"
+    },
+    {
+      "id": 3,
+      "target": "el mercado",
+      "source": "market",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 4,
+      "target": "la inversión",
+      "source": "investment",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 5,
+      "target": "el inversor",
+      "source": "investor",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 6,
+      "target": "el ahorro",
+      "source": "savings",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 7,
+      "target": "el ahorro",
+      "source": "saving",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 8,
+      "target": "el gasto",
+      "source": "expense",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 9,
+      "target": "el ingreso",
+      "source": "income",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 10,
+      "target": "el salario",
+      "source": "salary",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 11,
+      "target": "el sueldo",
+      "source": "payroll",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 12,
+      "target": "el presupuesto",
+      "source": "budget",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 13,
+      "target": "el déficit",
+      "source": "deficit",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 14,
+      "target": "el superávit",
+      "source": "surplus",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 15,
+      "target": "la inflación",
+      "source": "inflation",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 16,
+      "target": "la deflación",
+      "source": "deflation",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 17,
+      "target": "el desempleo",
+      "source": "unemployment",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 18,
+      "target": "el empleo",
+      "source": "employment",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 19,
+      "target": "el PIB",
+      "source": "GDP",
+      "gender": "m",
+      "type": "abbreviation"
+    },
+    {
+      "id": 20,
+      "target": "el producto interior bruto",
+      "source": "gross domestic product",
+      "gender": "m",
+      "type": "noun phrase"
+    },
+    {
+      "id": 21,
+      "target": "el tipo de interés",
+      "source": "interest rate",
+      "gender": "m",
+      "type": "noun phrase"
+    },
+    {
+      "id": 22,
+      "target": "la tasa de interés",
+      "source": "interest rate",
+      "gender": "f",
+      "type": "noun phrase"
+    },
+    {
+      "id": 23,
+      "target": "el tipo de cambio",
+      "source": "exchange rate",
+      "gender": "m",
+      "type": "noun phrase"
+    },
+    {
+      "id": 24,
+      "target": "el banco",
+      "source": "bank",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 25,
+      "target": "la cuenta bancaria",
+      "source": "bank account",
+      "gender": "f",
+      "type": "noun phrase"
+    },
+    {
+      "id": 26,
+      "target": "la tarjeta de crédito",
+      "source": "credit card",
+      "gender": "f",
+      "type": "noun phrase"
+    },
+    {
+      "id": 27,
+      "target": "la tarjeta de débito",
+      "source": "debit card",
+      "gender": "f",
+      "type": "noun phrase"
+    },
+    {
+      "id": 28,
+      "target": "la hipoteca",
+      "source": "mortgage",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 29,
+      "target": "el préstamo",
+      "source": "loan",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 30,
+      "target": "el crédito",
+      "source": "credit",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 31,
+      "target": "el interés compuesto",
+      "source": "compound interest",
+      "gender": "m",
+      "type": "noun phrase"
+    },
+    {
+      "id": 32,
+      "target": "la acción",
+      "source": "stock",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 33,
+      "target": "la bolsa de valores",
+      "source": "stock exchange",
+      "gender": "f",
+      "type": "noun phrase"
+    },
+    {
+      "id": 34,
+      "target": "el dividendo",
+      "source": "dividend",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 35,
+      "target": "el fondo de inversión",
+      "source": "investment fund",
+      "gender": "m",
+      "type": "noun phrase"
+    },
+    {
+      "id": 36,
+      "target": "la renta fija",
+      "source": "fixed income",
+      "gender": "f",
+      "type": "noun phrase"
+    },
+    {
+      "id": 37,
+      "target": "la renta variable",
+      "source": "variable income",
+      "gender": "f",
+      "type": "noun phrase"
+    },
+    {
+      "id": 38,
+      "target": "el bono",
+      "source": "bond",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 39,
+      "target": "el bono del estado",
+      "source": "government bond",
+      "gender": "m",
+      "type": "noun phrase"
+    },
+    {
+      "id": 40,
+      "target": "la moneda",
+      "source": "currency",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 41,
+      "target": "el euro",
+      "source": "euro",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 42,
+      "target": "el dólar",
+      "source": "dollar",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 43,
+      "target": "la divisas",
+      "source": "foreign exchange",
+      "gender": "f",
+      "type": "noun (pl)"
+    },
+    {
+      "id": 44,
+      "target": "el mercado de divisas",
+      "source": "forex market",
+      "gender": "m",
+      "type": "noun phrase"
+    },
+    {
+      "id": 45,
+      "target": "el activo",
+      "source": "asset",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 46,
+      "target": "el pasivo",
+      "source": "liability",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 47,
+      "target": "el patrimonio neto",
+      "source": "net worth",
+      "gender": "m",
+      "type": "noun phrase"
+    },
+    {
+      "id": 48,
+      "target": "la deuda",
+      "source": "debt",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 49,
+      "target": "la deuda pública",
+      "source": "public debt",
+      "gender": "f",
+      "type": "noun phrase"
+    },
+    {
+      "id": 50,
+      "target": "la deuda privada",
+      "source": "private debt",
+      "gender": "f",
+      "type": "noun phrase"
+    },
+    {
+      "id": 51,
+      "target": "el impuesto",
+      "source": "tax",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 52,
+      "target": "el impuesto sobre la renta",
+      "source": "income tax",
+      "gender": "m",
+      "type": "noun phrase"
+    },
+    {
+      "id": 53,
+      "target": "el IVA",
+      "source": "VAT",
+      "gender": "m",
+      "type": "abbreviation"
+    },
+    {
+      "id": 54,
+      "target": "el impuesto indirecto",
+      "source": "indirect tax",
+      "gender": "m",
+      "type": "noun phrase"
+    },
+    {
+      "id": 55,
+      "target": "la evasión fiscal",
+      "source": "tax evasion",
+      "gender": "f",
+      "type": "noun phrase"
+    },
+    {
+      "id": 56,
+      "target": "la elusión fiscal",
+      "source": "tax avoidance",
+      "gender": "f",
+      "type": "noun phrase"
+    },
+    {
+      "id": 57,
+      "target": "la recaudación",
+      "source": "revenue collection",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 58,
+      "target": "la economía global",
+      "source": "global economy",
+      "gender": "f",
+      "type": "noun phrase"
+    },
+    {
+      "id": 59,
+      "target": "la economía digital",
+      "source": "digital economy",
+      "gender": "f",
+      "type": "noun phrase"
+    },
+    {
+      "id": 60,
+      "target": "la economía solidaria",
+      "source": "solidarity economy",
+      "gender": "f",
+      "type": "noun phrase"
+    },
+    {
+      "id": 61,
+      "target": "el comercio internacional",
+      "source": "international trade",
+      "gender": "m",
+      "type": "noun phrase"
+    },
+    {
+      "id": 62,
+      "target": "la exportación",
+      "source": "export",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 63,
+      "target": "la importación",
+      "source": "import",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 64,
+      "target": "la balanza comercial",
+      "source": "trade balance",
+      "gender": "f",
+      "type": "noun phrase"
+    },
+    {
+      "id": 65,
+      "target": "el arancel",
+      "source": "tariff",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 66,
+      "target": "el tratado de libre comercio",
+      "source": "free trade agreement",
+      "gender": "m",
+      "type": "noun phrase"
+    },
+    {
+      "id": 67,
+      "target": "la competencia",
+      "source": "competition",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 68,
+      "target": "el monopolio",
+      "source": "monopoly",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 69,
+      "target": "el oligopolio",
+      "source": "oligopoly",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 70,
+      "target": "la oferta",
+      "source": "supply",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 71,
+      "target": "la demanda",
+      "source": "demand",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 72,
+      "target": "el precio de mercado",
+      "source": "market price",
+      "gender": "m",
+      "type": "noun phrase"
+    },
+    {
+      "id": 73,
+      "target": "el precio justo",
+      "source": "fair price",
+      "gender": "m",
+      "type": "noun phrase"
+    },
+    {
+      "id": 74,
+      "target": "el poder adquisitivo",
+      "source": "purchasing power",
+      "gender": "m",
+      "type": "noun phrase"
+    },
+    {
+      "id": 75,
+      "target": "el nivel de vida",
+      "source": "standard of living",
+      "gender": "m",
+      "type": "noun phrase"
+    },
+    {
+      "id": 76,
+      "target": "la pobreza",
+      "source": "poverty",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 77,
+      "target": "la riqueza",
+      "source": "wealth",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 78,
+      "target": "la desigualdad",
+      "source": "inequality",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 79,
+      "target": "el bienestar social",
+      "source": "social welfare",
+      "gender": "m",
+      "type": "noun phrase"
+    },
+    {
+      "id": 80,
+      "target": "el seguro",
+      "source": "insurance",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 81,
+      "target": "el seguro de vida",
+      "source": "life insurance",
+      "gender": "m",
+      "type": "noun phrase"
+    },
+    {
+      "id": 82,
+      "target": "el seguro médico",
+      "source": "health insurance",
+      "gender": "m",
+      "type": "noun phrase"
+    },
+    {
+      "id": 83,
+      "target": "el plan de pensiones",
+      "source": "pension plan",
+      "gender": "m",
+      "type": "noun phrase"
+    },
+    {
+      "id": 84,
+      "target": "la jubilación",
+      "source": "retirement",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 85,
+      "target": "la pensión",
+      "source": "pension",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 86,
+      "target": "la criptomoneda",
+      "source": "cryptocurrency",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 87,
+      "target": "la cadena de bloques",
+      "source": "blockchain",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 88,
+      "target": "el crowdfunding",
+      "source": "crowdfunding",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 89,
+      "target": "la economía colaborativa",
+      "source": "sharing economy",
+      "gender": "f",
+      "type": "noun phrase"
+    },
+    {
+      "id": 90,
+      "target": "el emprendedor",
+      "source": "entrepreneur",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 91,
+      "target": "la empresa",
+      "source": "company",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 92,
+      "target": "el emprendimiento",
+      "source": "entrepreneurship",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 93,
+      "target": "la startup",
+      "source": "startup",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 94,
+      "target": "la rentabilidad",
+      "source": "profitability",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 95,
+      "target": "el beneficio",
+      "source": "profit",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 96,
+      "target": "la pérdida",
+      "source": "loss",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 97,
+      "target": "el crecimiento económico",
+      "source": "economic growth",
+      "gender": "m",
+      "type": "noun phrase"
+    },
+    {
+      "id": 98,
+      "target": "la recesión",
+      "source": "recession",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 99,
+      "target": "la expansión económica",
+      "source": "economic expansion",
+      "gender": "f",
+      "type": "noun phrase"
+    },
+    {
+      "id": 100,
+      "target": "en términos económicos",
+      "source": "in economic terms",
+      "gender": "—",
+      "type": "phrase"
+    }
+  ],
+  "grammar": [
+    {
+      "id": 1,
+      "title": "Conditional for Economic Scenarios",
+      "description": "Using the conditional to discuss hypothetical economic situations.",
+      "examples": [
+        {
+          "sentence": "Si los tipos de interés subieran, los préstamos serían más caros.",
+          "translation": "If interest rates rose, loans would be more expensive."
+        },
+        {
+          "sentence": "La inflación podría reducir el poder adquisitivo de los ciudadanos.",
+          "translation": "Inflation could reduce citizens' purchasing power."
+        },
+        {
+          "sentence": "Los inversores tendrían más beneficios si el mercado creciera.",
+          "translation": "Investors would have more profit if the market grew."
+        },
+        {
+          "sentence": "El desempleo disminuiría si se crearan más empresas.",
+          "translation": "Unemployment would decrease if more companies were created."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Subjunctive for Financial Advice and Recommendations",
+      "description": "Using the subjunctive after expressions of recommendation, necessity, and doubt in finance.",
+      "examples": [
+        {
+          "sentence": "Es importante que ahorres para el futuro.",
+          "translation": "It is important that you save for the future."
+        },
+        {
+          "sentence": "Recomiendo que inviertas en fondos de índice.",
+          "translation": "I recommend that you invest in index funds."
+        },
+        {
+          "sentence": "No es aconsejable que gastes más de lo que ganas.",
+          "translation": "It is not advisable to spend more than you earn."
+        },
+        {
+          "sentence": "Dudo que la bolsa suba en el corto plazo.",
+          "translation": "I doubt that the stock market will rise in the short term."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Formal Connectors for Economic Analysis",
+      "description": "Connectors for structured economic and financial writing.",
+      "examples": [
+        {
+          "sentence": "En primer lugar, es necesario analizar la situación macroeconómica.",
+          "translation": "First, it is necessary to analyze the macroeconomic situation."
+        },
+        {
+          "sentence": "Por otra parte, hay que considerar los indicadores del empleo.",
+          "translation": "On the other hand, employment indicators must be considered."
+        },
+        {
+          "sentence": "En consecuencia, la política monetaria debe ajustarse.",
+          "translation": "As a consequence, monetary policy must be adjusted."
+        },
+        {
+          "sentence": "A pesar de ello, el crecimiento económico continúa.",
+          "translation": "Despite this, economic growth continues."
+        }
+      ]
+    }
+  ],
+  "pronunciation": [
+    {
+      "id": 1,
+      "title": "Pronunciation: Spanish Economics & Finance",
+      "sections": [
+        {
+          "focus": "The ll sound",
+          "examples": [
+            "el ahorro",
+            "la moneda",
+            "la economía"
+          ]
+        },
+        {
+          "focus": "The rr sound",
+          "examples": [
+            "el mercado",
+            "la renta",
+            "el interés"
+          ]
+        },
+        {
+          "focus": "Silent h",
+          "examples": [
+            "hipoteca",
+            "el hipotético",
+            "el hardware"
+          ]
+        },
+        {
+          "focus": "Stress patterns",
+          "examples": [
+            "la eco-nó-mi-a",
+            "la in-fla-ción",
+            "el suel-do",
+            "el presu-pues-to"
+          ]
+        }
+      ],
+      "practice_sentences": [
+        "La inflación afecta al poder adquisitivo de todos.",
+        "Es importante ahorrar para la jubilación.",
+        "El PIB creció un tres por ciento este trimestre.",
+        "Los inversores deben diversificar sus activos."
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": 1,
+      "type": "matching",
+      "title": "Match financial terms",
+      "instructions": "Match each Spanish term with its correct English translation.",
+      "items": [
+        {
+          "spanish": "la inflación",
+          "english": "inflation"
+        },
+        {
+          "spanish": "el desempleo",
+          "english": "unemployment"
+        },
+        {
+          "spanish": "el PIB",
+          "english": "GDP"
+        },
+        {
+          "spanish": "la inversión",
+          "english": "investment"
+        },
+        {
+          "spanish": "el déficit",
+          "english": "deficit"
+        },
+        {
+          "spanish": "el superávit",
+          "english": "surplus"
+        },
+        {
+          "spanish": "la acción",
+          "english": "stock"
+        },
+        {
+          "spanish": "el bono",
+          "english": "bond"
+        },
+        {
+          "spanish": "la hipoteca",
+          "english": "mortgage"
+        },
+        {
+          "spanish": "el préstamo",
+          "english": "loan"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "type": "fill-in-blank",
+      "title": "Complete with financial vocabulary",
+      "instructions": "Fill in the blanks with the correct financial term.",
+      "items": [
+        {
+          "sentence": "La _____ es el aumento generalizado de precios en una economía.",
+          "answer": "inflación",
+          "hints": [
+            "one word",
+            "starts with i"
+          ]
+        },
+        {
+          "sentence": "Cuando hay _____, muchas personas no tienen trabajo.",
+          "answer": "desempleo",
+          "hints": [
+            "one word",
+            "starts with d"
+          ]
+        },
+        {
+          "sentence": "El _____ mide el valor total de bienes y servicios producidos.",
+          "answer": "PIB",
+          "hints": [
+            "abbreviation",
+            "three letters"
+          ]
+        },
+        {
+          "sentence": "Poner dinero en el banco para el futuro es un _____.",
+          "answer": "ahorro",
+          "hints": [
+            "one word",
+            "starts with a"
+          ]
+        },
+        {
+          "sentence": "Cuando los gastos superan los ingresos, hay un _____.",
+          "answer": "déficit",
+          "hints": [
+            "one word",
+            "starts with d"
+          ]
+        },
+        {
+          "sentence": "Una _____ permite comprar una casa pagando a lo largo de años.",
+          "answer": "hipoteca",
+          "hints": [
+            "one word",
+            "starts with h"
+          ]
+        },
+        {
+          "sentence": "El _____ es el dinero que ganas por trabajar.",
+          "answer": "salario",
+          "hints": [
+            "one word",
+            "starts with s"
+          ]
+        },
+        {
+          "sentence": "Comprar _____ es comprar una parte de una empresa.",
+          "answer": "acción",
+          "hints": [
+            "one word",
+            "starts with a"
+          ]
+        },
+        {
+          "sentence": "La _____ fiscal es ilegal y puede tener consecuencias penales.",
+          "answer": "evasión",
+          "hints": [
+            "one word",
+            "starts with e"
+          ]
+        },
+        {
+          "sentence": "El _____ comercial mide la diferencia entre exportaciones e importaciones.",
+          "answer": "déficit",
+          "hints": [
+            "one word",
+            "starts with d"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "type": "translation",
+      "title": "Translate to Spanish",
+      "instructions": "Translate the following English sentences into Spanish.",
+      "items": [
+        {
+          "english": "Inflation reduces purchasing power.",
+          "answer": "La inflación reduce el poder adquisitivo."
+        },
+        {
+          "english": "The government needs to reduce the deficit.",
+          "answer": "El gobierno necesita reducir el déficit."
+        },
+        {
+          "english": "Investing in stocks carries risk.",
+          "answer": "Invertir en acciones conlleva riesgo."
+        },
+        {
+          "english": "The interest rate has increased.",
+          "answer": "El tipo de interés ha aumentado."
+        },
+        {
+          "english": "Savings are essential for retirement.",
+          "answer": "Los ahorros son esenciales para la jubilación."
+        },
+        {
+          "english": "The unemployment rate is decreasing.",
+          "answer": "La tasa de desempleo está disminuyendo."
+        },
+        {
+          "english": "Exporting goods generates revenue.",
+          "answer": "Exportar bienes genera ingresos."
+        },
+        {
+          "english": "The company reported record profits.",
+          "answer": "La empresa reportó beneficios récord."
+        },
+        {
+          "english": "Cryptocurrency is a volatile investment.",
+          "answer": "La criptomoneda es una inversión volátil."
+        },
+        {
+          "english": "Economic growth depends on innovation.",
+          "answer": "El crecimiento económico depende de la innovación."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "type": "exercise",
+      "title": "Financial advice: use the subjunctive",
+      "instructions": "Complete each sentence with the correct subjunctive form.",
+      "items": [
+        {
+          "stem": "Es necesario que tú (ahorrar) para el futuro.",
+          "answer": "ahorres"
+        },
+        {
+          "stem": "Recomiendo que el banco (reducir) los intereses.",
+          "answer": "reduzca"
+        },
+        {
+          "stem": "No creo que la bolsa (subir) mañana.",
+          "answer": "suba"
+        },
+        {
+          "stem": "Es importante que todos (pagar) los impuestos.",
+          "answer": "paguen"
+        },
+        {
+          "stem": "Dudo que el gobierno (resolver) el déficit.",
+          "answer": "resuelva"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "type": "exercise",
+      "title": "Conditional economic scenarios",
+      "instructions": "Complete with the correct conditional form.",
+      "items": [
+        {
+          "stem": "Si el gobierno (reducir) los impuestos, los ciudadanos tendrían más poder adquisitivo.",
+          "answer": "redujera"
+        },
+        {
+          "stem": "Las empresas (contratar) más personal si la economía creciera.",
+          "answer": "contratarían"
+        },
+        {
+          "stem": "Si las empresas (invertir) en tecnología, serían más productivas.",
+          "answer": "invirtieran"
+        },
+        {
+          "stem": "El desempleo (disminuir) si se crearan más puestos de trabajo.",
+          "answer": "disminuiría"
+        },
+        {
+          "stem": "Si los bancos (bajar) los tipos de interés, más personas pedirían préstamos.",
+          "answer": "bajaran"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "type": "fill-in-blank",
+      "title": "Economic terms in context",
+      "instructions": "Read and fill in the missing words.",
+      "items": [
+        {
+          "text": "La ________ ha aumentado un dos por ciento este año. Sin embargo, la ________ sigue siendo un problema serio: una de cada diez personas no tiene empleo. El gobierno ha decidido aplicar nuevas políticas para estimular la ________ y crear puestos de trabajo.",
+          "word_bank": [
+            "inflación",
+            "desempleo",
+            "crecimiento"
+          ]
+        },
+        {
+          "text": "Los ________ invierten en la ________ para obtener beneficios a largo plazo. Algunos prefieren la ________ que ofrece rentabilidad estable, mientras que otros buscan la ________ con mayor riesgo pero también mayor recompensa.",
+          "word_bank": [
+            "inversores",
+            "inversión",
+            "renta fija",
+            "renta variable"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "type": "exercise",
+      "title": "True or false: economic facts",
+      "instructions": "Read each statement and decide if it is true or false.",
+      "items": [
+        {
+          "statement": "La inflación siempre es buena para la economía.",
+          "answer": "false",
+          "explanation": "La inflación moderada puede ser positiva, pero la inflación alta erosiona el poder adquisitivo."
+        },
+        {
+          "statement": "El PIB mide la riqueza total de un país.",
+          "answer": "false",
+          "explanation": "El PIB mide la producción de bienes y servicios, no la riqueza total."
+        },
+        {
+          "statement": "Un bono es un tipo de inversión de renta fija.",
+          "answer": "true"
+        },
+        {
+          "statement": "La hipoteca es un préstamo para comprar un coche.",
+          "answer": "false",
+          "explanation": "La hipoteca es un préstamo para comprar una propiedad."
+        },
+        {
+          "statement": "El superávit ocurre cuando los ingresos superan los gastos.",
+          "answer": "true"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "type": "fill-in-blank",
+      "title": "Grammar: prepositions with finance",
+      "instructions": "Complete with the correct preposition (en, por, para, con, de).",
+      "items": [
+        {
+          "stem": "El inversor invierte _____ acciones tecnológicas.",
+          "answer": "en"
+        },
+        {
+          "stem": "La inflación subió _____ un cinco por ciento.",
+          "answer": "en"
+        },
+        {
+          "stem": "El ahorro es importante _____ el futuro.",
+          "answer": "para"
+        },
+        {
+          "stem": "El salario depende _____ la experiencia.",
+          "answer": "de"
+        },
+        {
+          "stem": "El préstamo se paga _____ cuotas mensuales.",
+          "answer": "en"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "type": "exercise",
+      "title": "Reading comprehension: Personal Finance",
+      "instructions": "Read the text and answer the questions.",
+      "items": [
+        {
+          "text": "La educación financiera es fundamental para tomar buenas decisiones económicas. Muchas personas no comprenden la diferencia entre ahorro e inversión, lo que les lleva a tomar decisiones incorrectas. Un presupuesto adecuado permite controlar los gastos y planificar el futuro. Además, diversificar las inversiones reduce el riesgo y aumenta la rentabilidad a largo plazo.",
+          "questions": [
+            {
+              "question": "¿Por qué es importante la educación financiera?",
+              "answer": "Para tomar buenas decisiones económicas."
+            },
+            {
+              "question": "¿Qué confunden muchas personas?",
+              "answer": "La diferencia entre ahorro e inversión."
+            },
+            {
+              "question": "¿Qué permite un presupuesto adecuado?",
+              "answer": "Controlar los gastos y planificar el futuro."
+            },
+            {
+              "question": "¿Cómo se reduce el riesgo de inversión?",
+              "answer": "Diversificando las inversiones."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,260 @@
+{
+  "id": "health-wellness",
+  "level": "a2-2",
+  "title": "Health & Wellness",
+  "description": "Talk about health, fitness, nutrition, and preventive care. Discuss physical and mental well-being, visit the doctor, and understand medical advice. Master the present subjunctive for health-related wishes and the passive reflexive for health procedures.",
+  "vocabulary": [
+    {"id": 1, "target": "la salud", "source": "health", "gender": "f", "type": "noun"},
+    {"id": 2, "target": "el bienestar", "source": "well-being", "gender": "m", "type": "noun"},
+    {"id": 3, "target": "el bienestar mental", "source": "mental health / mental well-being", "gender": "m", "type": "phrase"},
+    {"id": 4, "target": "la salud mental", "source": "mental health", "gender": "f", "type": "noun"},
+    {"id": 5, "target": "la salud física", "source": "physical health", "gender": "f", "type": "noun"},
+    {"id": 6, "target": "el cuerpo", "source": "body", "gender": "m", "type": "noun"},
+    {"id": 7, "target": "la mente", "source": "mind", "gender": "f", "type": "noun"},
+    {"id": 8, "target": "el estrés", "source": "stress", "gender": "m", "type": "noun"},
+    {"id": 9, "target": "la ansiedad", "source": "anxiety", "gender": "f", "type": "noun"},
+    {"id": 10, "target": "la depresión", "source": "depression", "gender": "f", "type": "noun"},
+    {"id": 11, "target": "estar estresado/a", "source": "to be stressed", "gender": "—", "type": "phrase"},
+    {"id": 12, "target": "preocuparse", "source": "to worry", "gender": "v", "type": "verb"},
+    {"id": 13, "target": "relajarse", "source": "to relax", "gender": "v", "type": "verb"},
+    {"id": 14, "target": "el descanso", "source": "rest", "gender": "m", "type": "noun"},
+    {"id": 15, "target": "dormir bien", "source": "to sleep well", "gender": "—", "type": "phrase"},
+    {"id": 16, "target": "el sueño", "source": "sleep", "gender": "m", "type": "noun"},
+    {"id": 17, "target": "tener sueño", "source": "to be sleepy", "gender": "—", "type": "phrase"},
+    {"id": 18, "target": "el insomnio", "source": "insomnia", "gender": "m", "type": "noun"},
+    {"id": 19, "target": "el deporte", "source": "sport", "gender": "m", "type": "noun"},
+    {"id": 20, "target": "el ejercicio físico", "source": "physical exercise", "gender": "m", "type": "phrase"},
+    {"id": 21, "target": "hacer deporte", "source": "to play sports", "gender": "—", "type": "phrase"},
+    {"id": 22, "target": "hacer ejercicio", "source": "to exercise", "gender": "—", "type": "phrase"},
+    {"id": 23, "target": "ir al gimnasio", "source": "to go to the gym", "gender": "—", "type": "phrase"},
+    {"id": 24, "target": "el gimnasio", "source": "gym", "gender": "m", "type": "noun"},
+    {"id": 25, "target": "la natación", "source": "swimming", "gender": "f", "type": "noun"},
+    {"id": 26, "target": "nadar", "source": "to swim", "gender": "v", "type": "verb"},
+    {"id": 27, "target": "correr", "source": "to run", "gender": "v", "type": "verb"},
+    {"id": 28, "target": "el running", "source": "running", "gender": "m", "type": "noun"},
+    {"id": 29, "target": "caminar", "source": "to walk", "gender": "v", "type": "verb"},
+    {"id": 30, "target": "la caminata", "source": "walk / hike", "gender": "f", "type": "noun"},
+    {"id": 31, "target": "yoga", "source": "yoga", "gender": "m", "type": "noun"},
+    {"id": 32, "target": "meditar", "source": "to meditate", "gender": "v", "type": "verb"},
+    {"id": 33, "target": "la meditación", "source": "meditation", "gender": "f", "type": "noun"},
+    {"id": 34, "target": "estirar", "source": "to stretch", "gender": "v", "type": "verb"},
+    {"id": 35, "target": "los músculos", "source": "muscles", "gender": "m", "type": "noun"},
+    {"id": 36, "target": "el estiramiento", "source": "stretching", "gender": "m", "type": "noun"},
+    {"id": 37, "target": "la resistencia", "source": "endurance / stamina", "gender": "f", "type": "noun"},
+    {"id": 38, "target": "el cardio", "source": "cardio", "gender": "m", "type": "noun"},
+    {"id": 39, "target": "la pesa", "source": "dumbbell / weight", "gender": "f", "type": "noun"},
+    {"id": 40, "target": "levantar pesas", "source": "to lift weights", "gender": "—", "type": "phrase"},
+    {"id": 41, "target": "la alimentación", "source": "diet / nutrition", "gender": "f", "type": "noun"},
+    {"id": 42, "target": "la dieta", "source": "diet", "gender": "f", "type": "noun"},
+    {"id": 43, "target": "comer sano", "source": "to eat healthy", "gender": "—", "type": "phrase"},
+    {"id": 44, "target": "comer saludable", "source": "to eat healthily", "gender": "—", "type": "phrase"},
+    {"id": 45, "target": "las frutas", "source": "fruits", "gender": "f", "type": "noun"},
+    {"id": 46, "target": "las verduras", "source": "vegetables", "gender": "f", "type": "noun"},
+    {"id": 47, "target": "la fruta", "source": "fruit", "gender": "f", "type": "noun"},
+    {"id": 48, "target": "la verdura", "source": "vegetable", "gender": "f", "type": "noun"},
+    {"id": 49, "target": "la proteína", "source": "protein", "gender": "f", "type": "noun"},
+    {"id": 50, "target": "los carbohidratos", "source": "carbohydrates", "gender": "m", "type": "noun"},
+    {"id": 51, "target": "la grasa", "source": "fat", "gender": "f", "type": "noun"},
+    {"id": 52, "target": "la fibra", "source": "fiber", "gender": "f", "type": "noun"},
+    {"id": 53, "target": "las vitaminas", "source": "vitamins", "gender": "f", "type": "noun"},
+    {"id": 54, "target": "el mineral", "source": "mineral", "gender": "m", "type": "noun"},
+    {"id": 55, "target": "el agua", "source": "water", "gender": "f", "type": "noun"},
+    {"id": 56, "target": "beber agua", "source": "to drink water", "gender": "—", "type": "phrase"},
+    {"id": 57, "target": "hidratarse", "source": "to stay hydrated", "gender": "v", "type": "verb"},
+    {"id": 58, "target": "el azúcar", "source": "sugar", "gender": "m", "type": "noun"},
+    {"id": 59, "target": "comer menos azúcar", "source": "to eat less sugar", "gender": "—", "type": "phrase"},
+    {"id": 60, "target": "el calorías", "source": "calories", "gender": "f", "type": "noun"},
+    {"id": 61, "target": "contar las calorías", "source": "to count calories", "gender": "—", "type": "phrase"},
+    {"id": 62, "target": "el desayuno", "source": "breakfast", "gender": "m", "type": "noun"},
+    {"id": 63, "target": "el almuerzo", "source": "lunch", "gender": "m", "type": "noun"},
+    {"id": 64, "target": "la cena", "source": "dinner", "gender": "f", "type": "noun"},
+    {"id": 65, "target": "un snack saludable", "source": "a healthy snack", "gender": "m", "type": "phrase"},
+    {"id": 66, "target": "la comida chatarra", "source": "junk food", "gender": "f", "type": "phrase"},
+    {"id": 67, "target": "procesado", "source": "processed (food)", "gender": "m", "type": "adj"},
+    {"id": 68, "target": "orgánico", "source": "organic", "gender": "m", "type": "adj"},
+    {"id": 69, "target": "la prevención", "source": "prevention", "gender": "f", "type": "noun"},
+    {"id": 70, "target": "la revisión médica", "source": "medical check-up", "gender": "f", "type": "phrase"},
+    {"id": 71, "target": "la revisión", "source": "check-up / review", "gender": "f", "type": "noun"},
+    {"id": 72, "target": "ir al médico", "source": "to go to the doctor", "gender": "—", "type": "phrase"},
+    {"id": 73, "target": "la cita médica", "source": "medical appointment", "gender": "f", "type": "phrase"},
+    {"id": 74, "target": "pedir una cita", "source": "to book an appointment", "gender": "—", "type": "phrase"},
+    {"id": 75, "target": "la vacuna", "source": "vaccine", "gender": "f", "type": "noun"},
+    {"id": 76, "target": "vacunarse", "source": "to get vaccinated", "gender": "v", "type": "verb"},
+    {"id": 77, "target": "el análisis de sangre", "source": "blood test", "gender": "m", "type": "phrase"},
+    {"id": 78, "target": "la analítica", "source": "blood test / lab work", "gender": "f", "type": "noun"},
+    {"id": 79, "target": "la receta médica", "source": "prescription", "gender": "f", "type": "phrase"},
+    {"id": 80, "target": "recetar", "source": "to prescribe", "gender": "v", "type": "verb"},
+    {"id": 81, "target": "el medicamento", "source": "medicine / medication", "gender": "m", "type": "noun"},
+    {"id": 82, "target": "la pastilla", "source": "pill", "gender": "f", "type": "noun"},
+    {"id": 83, "target": "el jarabe", "source": "syrup", "gender": "m", "type": "noun"},
+    {"id": 84, "target": "doler", "source": "to hurt / to ache", "gender": "v", "type": "verb"},
+    {"id": 85, "target": "me duele la cabeza", "source": "my head hurts / I have a headache", "gender": "—", "type": "phrase"},
+    {"id": 86, "target": "el dolor de cabeza", "source": "headache", "gender": "m", "type": "noun"},
+    {"id": 87, "target": "la fiebre", "source": "fever", "gender": "f", "type": "noun"},
+    {"id": 88, "target": "tener fiebre", "source": "to have a fever", "gender": "—", "type": "phrase"},
+    {"id": 89, "target": "la tos", "source": "cough", "gender": "f", "type": "noun"},
+    {"id": 90, "target": "tener tos", "source": "to have a cough", "gender": "—", "type": "phrase"},
+    {"id": 91, "target": "el resfriado", "source": "cold", "gender": "m", "type": "noun"},
+    {"id": 92, "target": "la gripe", "source": "flu", "gender": "f", "type": "noun"},
+    {"id": 93, "target": "el resfriado común", "source": "common cold", "gender": "m", "type": "phrase"},
+    {"id": 94, "target": "la gripe estacional", "source": "seasonal flu", "gender": "f", "type": "phrase"},
+    {"id": 95, "target": "sentirse bien", "source": "to feel well", "gender": "—", "type": "phrase"},
+    {"id": 96, "target": "sentirse mal", "source": "to feel unwell", "gender": "—", "type": "phrase"},
+    {"id": 97, "target": "recuperarse", "source": "to recover", "gender": "v", "type": "verb"},
+    {"id": 98, "target": "el reposo", "source": "rest (recovery)", "gender": "m", "type": "noun"},
+    {"id": 99, "target": "tomar el sol", "source": "to sunbathe", "gender": "—", "type": "phrase"},
+    {"id": 100, "target": "una vida saludable", "source": "a healthy lifestyle", "gender": "f", "type": "phrase"}
+  ],
+  "grammar": [
+    {
+      "title": "Present Subjunctive for Health Wishes & Advice",
+      "content": "The present subjunctive is used to express wishes, hopes, advice, and recommendations — very common when talking about health:\n\nFormation (regular):\n-AR verbs: -e, -es, -e, -emos, -éis, -en\n-ER verbs: -a, -as, -a, -amos, -áis, -an\n-IR verbs: -a, -as, -a, -amos, -áis, -an\n\nEspero que te mejores pronto. (I hope you feel better soon.)\nQuiero que descanses más. (I want you to rest more.)\nEs importante que comas verduras. (It's important that you eat vegetables.)\n\nCommon irregular forms:\n- ser → sea, seas, sea, seamos, seáis, sean\n- estar → esté, estés, esté, estemos, estéis, estén\n- ir → vaya, vayas, vaya, vayamos, vayáis, vayan\n- saber → sepa, sepas, sepa, sepamos, sepáis, sepan\n- tener → tenga, tengas, tenga, tengamos, tengáis, tengan\n- poder → pueda, puedas, pueda, podamos, podáis, puedan\n- hacer → haga, hagas, haga, hagamos, hagáis, hagan\n\nExpressions that trigger the subjunctive:\n- Espero que... (I hope that...)\n- Quiero que... (I want that...)\n- Es importante que... (It's important that...)\n- Es necesario que... (It's necessary that...)\n- Te recomiendo que... (I recommend that you...)\n- Es bueno que... (It's good that...)\n- Es malo que... (It's bad that...)\n- Sugiero que... (I suggest that...)\n- Deseo que... (I wish that...)",
+      "examples": [
+        "Espero que tu padre se mejore de la operación. (I hope your father recovers from the surgery.)",
+        "Te recomiendo que hagas más ejercicio. (I recommend that you exercise more.)",
+        "Es importante que duermas ocho horas. (It's important that you sleep eight hours.)",
+        "Mi médico dice que no beba tanto café. (My doctor says I shouldn't drink so much coffee.)",
+        "Quiero que cuides tu salud mental. (I want you to take care of your mental health.)"
+      ]
+    },
+    {
+      "title": "Passive Reflexive (Se Pasiva) for Health Procedures",
+      "content": "The passive reflexive is used to describe health procedures, medical treatments, and general health facts without specifying who performs the action:\n\nStructure: se + conjugated verb + noun (the 'subject')\n\nThe verb agrees with the noun that follows:\n\nSe receta una pastilla. (A pill is prescribed.) — singular\nSe recetan pastillas. (Pills are prescribed.) — plural\nSe vacuna a los niños. (Children are vaccinated.)\nSe operan los pacientes. (Patients are operated on.)\n\nHealth context examples:\n\nSe recomienda hacer ejercicio diariamente. (Exercise is recommended daily.)\nSe necesita una receta para el medicamento. (A prescription is needed for the medicine.)\nSe practica yoga en el gimnasio. (Yoga is practiced at the gym.)\nSe toman las vitaminas por la mañana. (Vitamins are taken in the morning.)\n\nNote: When the noun is a person, use 'a' (personal a):\nSe vacuna a los niños contra la gripe. (Children are vaccinated against the flu.)\nSe opera a los pacientes cada mañana. (Patients are operated on every morning.)\n\nThis structure is very common in health information, medical websites, and wellness advice.",
+      "examples": [
+        "Se recomienda beber ocho vasos de agua al día. (Eight glasses of water per day is recommended.)",
+        "Se practica natación en la piscina municipal. (Swimming is practiced at the municipal pool.)",
+        "Se vacuna a los niños a los dos años. (Children are vaccinated at age two.)",
+        "Se necesita reposo para recuperarse. (Rest is needed to recover.)",
+        "Se estudian las vitaminas en la escuela de medicina. (Vitamins are studied at medical school.)"
+      ]
+    },
+    {
+      "title": "Comparatives & Superlatives for Health Comparisons",
+      "content": "Comparatives and superlatives are used to compare health habits, conditions, and lifestyle choices:\n\nComparative structure:\n- más + adjective/noun + que (more ... than)\n- menos + adjective/noun + que (less ... than)\n- tan + adjective/noun + como (as ... as)\n\nIrregular comparatives:\n- bueno → mejor (better)\n- malo → peor (worse)\n- grande → mayor (greater/larger)\n- pequeño → menor (smaller/lesser)\n\nExamples:\n- Correr es más sano que estar sentado. (Running is healthier than sitting.)\n- La fruta es más nutritiva que la comida chatarra. (Fruit is more nutritious than junk food.)\n- El ejercicio es menos importante que el descanso. (Exercise is less important than rest.)\n- Esta dieta es tan efectiva como la anterior. (This diet is as effective as the previous one.)\n\nSuperlative structure:\n- el/la/los/las + más + adjective (+ de)\n- el/la/los/las + menos + adjective (+ de)\n\nExamples:\n- El yoga es el mejor ejercicio para la mente. (Yoga is the best exercise for the mind.)\n- La fruta es lo más nutritivo de la comida. (Fruit is the most nutritious thing to eat.)\n- El descanso es lo menos importante para algunos. (Rest is the least important thing for some people.)\n\nIrregular superlatives:\n- bueno → el mejor (the best)\n- malo → el peor (the worst)\n\nNote: 'mejor' and 'peor' are invariable in gender but change in number (mejores, peores).",
+      "examples": [
+        "La natación es el mejor ejercicio para las articulaciones. (Swimming is the best exercise for the joints.)",
+        "El azúcar es lo peor para la salud dental. (Sugar is the worst thing for dental health.)",
+        "El ejercicio es más importante que la dieta. (Exercise is more important than diet.)",
+        "La meditación es tan efectiva como el yoga para reducir el estrés. (Meditation is as effective as yoga for reducing stress.)",
+        "Comer frutas es lo más saludable que puedes hacer. (Eating fruit is the healthiest thing you can do.)"
+      ]
+    }
+  ],
+  "pronunciation": [
+    {
+      "title": "Stress Patterns in Health Vocabulary",
+      "content": "Key pronunciation rules for health and wellness vocabulary:\n\n1. Palabras agudas (stress on last syllable) — marked if ending in consonant other than -n or -s:\n   - el estrés (ES-trés) — has accent, ends in -s\n   - la ansiedad (an-sie-DAD) — has accent, ends in -d\n   - el insomnio (in-SOM-nyo) — no accent, ends in -o\n   - la depresión (de-pre-SYON) — has accent, ends in -n\n\n2. Palabras llanas (stress on penult) — marked if NOT ending in vowel, -n, or -s:\n   - el gimnasio (gim-NAH-see-oh) — no accent, ends in -o\n   - la nutrición (noo-tree-see-ON) — has accent, ends in -n\n   - el ejercicio (e-her-SY-see-oh) — no accent, ends in -o\n   - la alimentación (ah-lee-men-tah-SYON) — has accent, ends in -n\n\n3. Palabras esdrújulas (stress on antepenult) — ALWAYS have an accent:\n   - el análisis (ah-NA-lis) — wait, this is llana ending in -s, no accent: ah-NA-lis\n   - Let me use correct examples:\n   - la analítica (ah-nah-LEE-tee-kah) — llana, no accent\n   - es-drú-ju-la (es-DROO-joo-lah) — esdrújula, always accented\n\n4. Special health sounds:\n   - -ción → -SYON: la nutrición (noo-tree-see-ON)\n   - -sión → -SYON: la depresión (de-pre-SYON)\n   - -mente (adverb ending) → MEN-te: mental (men-TAL)\n   - -illo/-illa → Y-yo/yah: el ejercicio (e-her-SY-see-oh)\n\nKey pronunciation practice words:\n- salud = sah-LOOD (the 'u' is fully pronounced)\n- bienestar = bye-en-ES-tar (stress on penult)\n- estrés = ES-trés (stress on last, has accent)\n- ejercicio = e-her-SY-see-oh (stress on penult)\n- alimentación = ah-lee-men-tah-SYON (stress on -SYON)\n- recuperación = roo-per-ah-SYON (stress on -SYON)\n- ansiedad = an-sie-DAD (stress on last, has accent)",
+      "examples": [
+        "salud = sah-LOOD (stress on last syllable, no accent — ends in -d)\n",
+        "estrés = ES-trés (stress on last syllable, HAS accent — ends in -s)\n",
+        "ejercicio = e-jer-SY-see-oh (stress on penult, no accent — ends in -o)\n",
+        "depresión = de-pre-SYON (stress on last syllable, HAS accent — ends in -n)\n",
+        "ansiedad = an-sye-DAD (stress on last syllable, HAS accent — ends in -d)"
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "multiple-choice",
+      "question": "Which sentence uses the correct present subjunctive? 'Es importante que tú ___ más verduras.' (It's important that you eat more vegetables.)",
+      "options": [
+        "comes",
+        "comas",
+        "comiste",
+        "comerás"
+      ],
+      "correct": 1,
+      "explanation": "'Comas' is the present subjunctive of 'comer' (tú form). After 'es importante que', we need the subjunctive mood because it expresses a recommendation. 'Comes' is indicative (present), 'comiste' is preterite, 'comerás' is future."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete with the subjunctive of 'estar': 'Espero que tú te ___ mejor pronto.' (I hope you feel better soon.)",
+      "correct": "estés",
+      "explanation": "'Estés' is the present subjunctive tú form of 'estar'. 'Espero que' triggers the subjunctive because it expresses a hope/wish. 'Estar' is irregular in the subjunctive: esté, estés, esté, estemos, estéis, estén."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What does 'Se recomienda hacer ejercicio' mean?",
+      "options": [
+        "Someone recommends exercising",
+        "Exercise is recommended",
+        "You must exercise",
+        "I recommend exercising"
+      ],
+      "correct": 1,
+      "explanation": "This is the passive reflexive (se pasiva): 'Exercise is recommended.' It doesn't specify WHO recommends it — it's a general health recommendation. The subject is 'hacer ejercicio' (to exercise) and the verb 'recomienda' agrees with it in singular."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete the comparative: 'El yoga es ___ sano que ver televisión.' (Yoga is healthier than watching TV.)",
+      "correct": "más",
+      "explanation": "'Más sano que' = 'healthier than'. The comparative structure is 'más + adjective + que'. The opposite would be 'menos sano que' (less healthy than)."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What is the superlative of 'bueno'?",
+      "options": [
+        "buenísimo",
+        "el mejor",
+        "el bueno",
+        "más bueno"
+      ],
+      "correct": 1,
+      "explanation": "'El mejor' is the irregular superlative of 'bueno' (the best). Spanish has several irregular comparatives and superlatives: bueno → mejor → el mejor; malo → peor → el peor."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Which word means 'anxiety' in Spanish?",
+      "options": [
+        "el estrés",
+        "la depresión",
+        "la ansiedad",
+        "el insomnio"
+      ],
+      "correct": 2,
+      "explanation": "'La ansiedad' means anxiety. 'El estrés' is stress, 'la depresión' is depression, and 'el insomnio' is insomnia. All four are related to mental health but have distinct meanings."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete with the passive reflexive: '___ receta una pastilla para el dolor de cabeza.' (A pill is prescribed for headaches.)",
+      "correct": "Se",
+      "explanation": "'Se receta' is the passive reflexive form. It means 'A pill is prescribed' without saying who prescribes it. The verb 'receta' agrees with 'una pastilla' (singular subject)."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "How do you say 'to have a fever' in Spanish?",
+      "options": [
+        "tener calor",
+        "tener fiebre",
+        "tener frío",
+        "tener sudor"
+      ],
+      "correct": 1,
+      "explanation": "'Tener fiebre' = to have a fever. Don't confuse it with 'tener calor' (to be hot/hot weather) or 'tener frío' (to be cold). 'Fiebre' specifically refers to a medical fever."
+    },
+    {
+      "type": "matching",
+      "question": "Match the Spanish health terms with their English meanings:\n\n1. el resfriado\n2. la gripe\n3. la fiebre\n4. el insomnio",
+      "options": [
+        "cold / flu / fever / insomnia",
+        "fever / insomnia / cold / flu",
+        "flu / cold / insomnia / fever",
+        "insomnia / fever / flu / cold"
+      ],
+      "correct": 0,
+      "explanation": "el resfriado = cold; la gripe = flu; la fiebre = fever; el insomnio = insomnia. These are common health conditions you might discuss with a doctor."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Which is the correct passive reflexive for 'Children are vaccinated'? (Note the personal 'a')",
+      "options": [
+        "Se vacuna niños",
+        "Se vacuna a los niños",
+        "Se vacunan a los niños",
+        "Se vacuna niños a"
+      ],
+      "correct": 1,
+      "explanation": "'Se vacuna a los niños' — the verb is singular ('vacuna') because the action is viewed as a general health practice (vaccination in general). The personal 'a' is required before 'los niños' because it refers to people. 'Se vacunan' would imply 'they are being vaccinated' as individual events."
+    }
+  ]
+}

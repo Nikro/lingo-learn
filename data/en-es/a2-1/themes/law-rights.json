@@ -1,0 +1,310 @@
+{
+  "id": "law-rights",
+  "level": "a2-1",
+  "title": "Law & Rights",
+  "description": "Discuss legal rights, duties, and bureaucracy. Learn vocabulary for legal terms, rights, duties, and everyday interactions with institutions. Practice the present subjunctive for rights and obligations, formal commands, and passive constructions.",
+  "vocabulary": [
+    {"id": 1, "target": "la ley", "source": "law", "gender": "f", "type": "noun"},
+    {"id": 2, "target": "el derecho", "source": "right / law", "gender": "m", "type": "noun"},
+    {"id": 3, "target": "los derechos", "source": "the rights", "gender": "m", "type": "noun"},
+    {"id": 4, "target": "el deber", "source": "duty / obligation", "gender": "m", "type": "noun"},
+    {"id": 5, "target": "los deberes", "source": "duties / obligations", "gender": "m", "type": "noun"},
+    {"id": 6, "target": "la ley fundamental", "source": "the fundamental law", "gender": "f", "type": "noun"},
+    {"id": 7, "target": "el gobierno", "source": "government", "gender": "m", "type": "noun"},
+    {"id": 8, "target": "el estado", "source": "the state", "gender": "m", "type": "noun"},
+    {"id": 9, "target": "la nación", "source": "the nation", "gender": "f", "type": "noun"},
+    {"id": 10, "target": "el país", "source": "the country", "gender": "m", "type": "noun"},
+    {"id": 11, "target": "el ciudadano", "source": "citizen (m)", "gender": "m", "type": "noun"},
+    {"id": 12, "target": "la ciudadana", "source": "citizen (f)", "gender": "f", "type": "noun"},
+    {"id": 13, "target": "la ciudadanía", "source": "citizenship", "gender": "f", "type": "noun"},
+    {"id": 14, "target": "la constitución", "source": "constitution", "gender": "f", "type": "noun"},
+    {"id": 15, "target": "la justicia", "source": "justice", "gender": "f", "type": "noun"},
+    {"id": 16, "target": "el juez", "source": "judge (m)", "gender": "m", "type": "noun"},
+    {"id": 17, "target": "la jueza", "source": "judge (f)", "gender": "f", "type": "noun"},
+    {"id": 18, "target": "el tribunal", "source": "court / tribunal", "gender": "m", "type": "noun"},
+    {"id": 19, "target": "la corte", "source": "court", "gender": "f", "type": "noun"},
+    {"id": 20, "target": "el abogado", "source": "lawyer (m)", "gender": "m", "type": "noun"},
+    {"id": 21, "target": "la abogada", "source": "lawyer (f)", "gender": "f", "type": "noun"},
+    {"id": 22, "target": "el derecho humano", "source": "human right", "gender": "m", "type": "noun"},
+    {"id": 23, "target": "los derechos humanos", "source": "human rights", "gender": "m", "type": "noun"},
+    {"id": 24, "target": "el derecho civil", "source": "civil rights", "gender": "m", "type": "noun"},
+    {"id": 25, "target": "la libertad", "source": "freedom / liberty", "gender": "f", "type": "noun"},
+    {"id": 26, "target": "la igualdad", "source": "equality", "gender": "f", "type": "noun"},
+    {"id": 27, "target": "la protección", "source": "protection", "gender": "f", "type": "noun"},
+    {"id": 28, "target": "la seguridad", "source": "security / safety", "gender": "f", "type": "noun"},
+    {"id": 29, "target": "el documento", "source": "document", "gender": "m", "type": "noun"},
+    {"id": 30, "target": "el contrato", "source": "contract", "gender": "m", "type": "noun"},
+    {"id": 31, "target": "el formulario", "source": "form (document)", "gender": "m", "type": "noun"},
+    {"id": 32, "target": "la licencia", "source": "license / permit", "gender": "f", "type": "noun"},
+    {"id": 33, "target": "el permiso", "source": "permission / permit", "gender": "m", "type": "noun"},
+    {"id": 34, "target": "el registro", "source": "registration / record", "gender": "m", "type": "noun"},
+    {"id": 35, "target": "el certificado", "source": "certificate", "gender": "m", "type": "noun"},
+    {"id": 36, "target": "la identificación", "source": "identification", "gender": "f", "type": "noun"},
+    {"id": 37, "target": "el pasaporte", "source": "passport", "gender": "m", "type": "noun"},
+    {"id": 38, "target": "la tarjeta de identidad", "source": "ID card", "gender": "f", "type": "noun"},
+    {"id": 39, "target": "el número de identidad", "source": "identification number", "gender": "m", "type": "noun"},
+    {"id": 40, "target": "la oficina", "source": "office (government)", "gender": "f", "type": "noun"},
+    {"id": 41, "target": "el despacho", "source": "office / desk", "gender": "m", "type": "noun"},
+    {"id": 42, "target": "el funcionario", "source": "civil servant (m)", "gender": "m", "type": "noun"},
+    {"id": 43, "target": "la funcionaria", "source": "civil servant (f)", "gender": "f", "type": "noun"},
+    {"id": 44, "target": "la oficina de registro", "source": "registry office", "gender": "f", "type": "noun"},
+    {"id": 45, "target": "el ayuntamiento", "source": "town hall / city council", "gender": "m", "type": "noun"},
+    {"id": 46, "target": "la oficina de impuestos", "source": "tax office", "gender": "f", "type": "noun"},
+    {"id": 47, "target": "la oficina de extranjería", "source": "immigration office", "gender": "f", "type": "noun"},
+    {"id": 48, "target": "la fila", "source": "line / queue", "gender": "f", "type": "noun"},
+    {"id": 49, "target": "el turno", "source": "turn / shift", "gender": "m", "type": "noun"},
+    {"id": 50, "target": "la cita", "source": "appointment", "gender": "f", "type": "noun"},
+    {"id": 51, "target": "la multa", "source": "fine / penalty", "gender": "f", "type": "noun"},
+    {"id": 52, "target": "la sanción", "source": "sanction / penalty", "gender": "f", "type": "noun"},
+    {"id": 53, "target": "el delito", "source": "crime / offense", "gender": "m", "type": "noun"},
+    {"id": 54, "target": "la infracción", "source": "violation / offense", "gender": "f", "type": "noun"},
+    {"id": 55, "target": "la pena", "source": "penalty / sentence", "gender": "f", "type": "noun"},
+    {"id": 56, "target": "el delito", "source": "crime", "gender": "m", "type": "noun"},
+    {"id": 57, "target": "la responsabilidad", "source": "responsibility", "gender": "f", "type": "noun"},
+    {"id": 58, "target": "la autoridad", "source": "authority", "gender": "f", "type": "noun"},
+    {"id": 59, "target": "el reglamento", "source": "regulation", "gender": "m", "type": "noun"},
+    {"id": 60, "target": "la norma", "source": "rule / standard", "gender": "f", "type": "noun"},
+    {"id": 61, "target": "la regla", "source": "rule", "gender": "f", "type": "noun"},
+    {"id": 62, "target": "el privilegio", "source": "privilege", "gender": "m", "type": "noun"},
+    {"id": 63, "target": "el voto", "source": "vote", "gender": "m", "type": "noun"},
+    {"id": 64, "target": "votar", "source": "to vote", "gender": "v", "type": "verb"},
+    {"id": 65, "target": "elir", "source": "to elect / choose", "gender": "v", "type": "verb"},
+    {"id": 66, "target": "cumplir la ley", "source": "to comply with the law", "gender": "—", "type": "phrase"},
+    {"id": 67, "target": "defender los derechos", "source": "to defend rights", "gender": "—", "type": "phrase"},
+    {"id": 68, "target": "respetar las leyes", "source": "to respect the laws", "gender": "—", "type": "phrase"},
+    {"id": 69, "target": "proteger", "source": "to protect", "gender": "v", "type": "verb"},
+    {"id": 70, "target": "cumplir", "source": "to comply / to fulfill", "gender": "v", "type": "verb"},
+    {"id": 71, "target": "exigir", "source": "to demand", "gender": "v", "type": "verb"},
+    {"id": 72, "target": "garantizar", "source": "to guarantee", "gender": "v", "type": "verb"},
+    {"id": 73, "target": "impugnar", "source": "to challenge / appeal", "gender": "v", "type": "verb"},
+    {"id": 74, "target": "firmar", "source": "to sign", "gender": "v", "type": "verb"},
+    {"id": 75, "target": "presentar", "source": "to submit / to file", "gender": "v", "type": "verb"},
+    {"id": 76, "target": "trámiten", "source": "to process paperwork", "gender": "v", "type": "verb"},
+    {"id": 77, "target": "pagar", "source": "to pay", "gender": "v", "type": "verb"},
+    {"id": 78, "target": "denunciar", "source": "to report / to denounce", "gender": "v", "type": "verb"},
+    {"id": 79, "target": "informarse", "source": "to get informed", "gender": "v", "type": "verb"},
+    {"id": 80, "target": "reclamar", "source": "to claim / to complain", "gender": "v", "type": "verb"},
+    {"id": 81, "target": "legal", "source": "legal", "gender": "adj", "type": "adj"},
+    {"id": 82, "target": "ilegal", "source": "illegal", "gender": "adj", "type": "adj"},
+    {"id": 83, "target": "obligatorio", "source": "mandatory / obligatory", "gender": "adj", "type": "adj"},
+    {"id": 84, "target": "obligatoria", "source": "mandatory / obligatory (f)", "gender": "f", "type": "adj"},
+    {"id": 85, "target": "opcional", "source": "optional", "gender": "adj", "type": "adj"},
+    {"id": 86, "target": "válido", "source": "valid", "gender": "m", "type": "adj"},
+    {"id": 87, "target": "inválido", "source": "invalid", "gender": "m", "type": "adj"},
+    {"id": 88, "target": "constitucional", "source": "constitutional", "gender": "adj", "type": "adj"},
+    {"id": 89, "target": "constitucionales", "source": "constitutional (pl)", "gender": "adj", "type": "adj"},
+    {"id": 90, "target": "justo", "source": "fair / just", "gender": "m", "type": "adj"},
+    {"id": 91, "target": "justa", "source": "fair / just (f)", "gender": "f", "type": "adj"},
+    {"id": 92, "target": "injusto", "source": "unfair / unjust", "gender": "m", "type": "adj"},
+    {"id": 93, "target": "injusta", "source": "unfair / unjust (f)", "gender": "f", "type": "adj"},
+    {"id": 94, "target": "democrático", "source": "democratic", "gender": "m", "type": "adj"},
+    {"id": 95, "target": "democrática", "source": "democratic (f)", "gender": "f", "type": "adj"},
+    {"id": 96, "target": "el plazo", "source": "deadline / time limit", "gender": "m", "type": "noun"},
+    {"id": 97, "target": "el proceso", "source": "process", "gender": "m", "type": "noun"},
+    {"id": 98, "target": "la decisión", "source": "decision / ruling", "gender": "f", "type": "noun"},
+    {"id": 99, "target": "la petición", "source": "request / petition", "gender": "f", "type": "noun"},
+    {"id": 100, "target": "la protesta", "source": "protest", "gender": "f", "type": "noun"}
+  ],
+  "grammar": [
+    {
+      "title": "Present Subjunctive for Rights and Obligations",
+      "content": "The present subjunctive is essential for discussing rights, duties, and legal situations in Spanish.\n\nFormation:\n- Start with yo form of present indicative\n- Remove -o\n- Add opposite vowel endings\n\nFor -AR verbs (cumplir, pagar, firmar):\n  yo form: cumplo → cump- → cumppla, cumpplas, cumppla, cumpplamos, cumpplais, cumpplan\n\nFor -ER/-IR verbs (exigir, votar, denunciar):\n  yo form: exigo → exig- → exija, exijas, exija, exijamos, exijais, exijan\n\nKey expressions with subjunctive:\n\n1. ES NECESARIO QUE — It's necessary that\n   - Es necesario que los ciudadanos cumplan la ley. (It's necessary that citizens comply with the law.)\n   - Es necesario que presente los documentos. (It's necessary that you submit the documents.)\n\n2. ES OBLIGATORIO QUE — It's mandatory that\n   - Es obligatorio que todos paguen los impuestos. (It's mandatory that everyone pays taxes.)\n   - Es obligatorio que firme el contrato. (It's mandatory that you sign the contract.)\n\n3. TIENE DERECHO A QUE — Has the right to\n   - Todo ciudadano tiene derecho a que se le trate con respeto. (Every citizen has the right to be treated with respect.)\n   - Tiene derecho a que le expliquen sus derechos. (You have the right to have your rights explained to you.)\n\n4. SE ESTABLECE QUE — It's established that\n   - La constitución establece que todos tienen derecho a la educación. (The constitution establishes that everyone has the right to education.)\n\n5. ES IMPORTANTE QUE — It's important that\n   - Es importante que informarse sobre sus derechos. (It's important to get informed about your rights.)\n\nIrregular subjunctive forms you need:\n  ser → sea, seas, sea, seamos, seáis, sean\n  estar → esté, estés, esté, estemos, estéis, estén\n  haber → haya, hayas, haya, hayamos, hayáis, hayan\n  tener → tenga, tengas, tenga, tengamos, tengáis, tengan\n  ir → vaya, vayas, vaya, vayamos, vayáis, vayan",
+      "examples": [
+        "Es necesario que los ciudadanos respeten las leyes. (It's necessary that citizens respect the laws.)",
+        "Todo ciudadano tiene derecho a que le den información. (Every citizen has the right to be given information.)",
+        "Es obligatorio que firme todos los documentos. (It's mandatory that you sign all the documents.)",
+        "La constitución garantiza que se protejan los derechos. (The constitution guarantees that rights are protected.)",
+        "Es importante que se cumplan los plazos. (It's important that deadlines are met.)",
+        "Todos tienen derecho a que se les escuche. (Everyone has the right to be heard.)"
+      ],
+      "aid_note": "Romanian uses 'să + conjugated verb' for subjunctive, just like Spanish uses subjunctive after 'es necesario que': 'Es necesario que cumpla' = 'Este necesar să cumpăr.' Spanish subjunctive endings (-a for -AR verbs, -a for -ER/-IR verbs) correspond roughly to Romanian subjunctive forms. Key difference: Spanish subjunctive is triggered by specific expressions of necessity, rights, and obligation, just like Romanian 'să' after similar expressions."
+    },
+    {
+      "title": "Formal Commands (Usted/Ustedes) for Official Situations",
+      "content": "Formal commands (usted/ustedes) are used when speaking to officials, in offices, and in legal contexts.\n\nFormation — AFIRMATIVO:\n- -AR verbs: take yo form, drop -o, add -e (singular) / -en (plural)\n  hablar → hable / hablen\n  firmar → firme / firmen\n  pagar → pague / paguen\n- -ER/-IR verbs: take yo form, drop -o, add -a (singular) / -an (plural)\n  presentar → presente / presenten\n  cumplir → cumpla / cumplan\n  denunciar → denuncie / denuncien\n\nFormation — NEGATIVO:\n- -AR verbs: add -e (singular) / -en (plural)\n- -ER/-IR verbs: add -a (singular) / -an (plural)\n  No hable. / No hablen. (Don't speak.)\n  No firme. / No firmen. (Don't sign.)\n\nImportant formal commands for bureaucracy:\n  - Presente su documento. (Present your document.)\n  - firme aquí, por favor. (Sign here, please.)\n  - Pague la multa. (Pay the fine.)\n  - Espere su turno. (Wait for your turn.)\n  - Espere un momento. (Wait a moment.)\n  - Espere en la fila. (Wait in line.)\n  - Llame al funcionario. (Call the clerk.)\n  - Cumpla las normas. (Follow the rules.)\n\nIrregular formal commands:\n  estar → esté / estén (wait, be here)\n  tener → tenga / tengan (have, hold)\n  poner → ponga / pongan (put, place)\n  salir → salga / salgan (leave, go out)\n  hacer → haga / hagan (do, make)\n  venir → venga / vengan (come)\n  decir → diga / digan (say, tell)\n  ir → vaya / vayan (go)\n\nOffice dialogue:\n  Funcionario: ¿Tiene su documento de identidad?\n  Ciudadano: Sí, aquí lo tiene.\n  Funcionario: Firme aquí, por favor.\n  Ciudadano: ¿Dónde?\n  Funcionario: Aquí, al lado de su nombre.",
+      "examples": [
+        "Presente su pasaporte al funcionario. (Present your passport to the clerk.)",
+        "Firme en la línea inferior del formulario. (Sign on the bottom line of the form.)",
+        "No firmen hasta que les expliquen todo. (Don't sign until they explain everything to you.)",
+        "Por favor, espere en la sala. (Please wait in the room.)",
+        "Cumpla con los requisitos necesarios. (Meet the necessary requirements.)",
+        "No tenga miedo de preguntar. (Don't be afraid to ask.)"
+      ],
+      "aid_note": "Romanian formal commands use 'să + conjugated verb' (să vorbiți, să semnați, să așteptați). The pattern is very similar to Spanish usted commands. Key similarity: both languages use a formal form for addressing officials. 'Firme aquí' = 'Semnați aici', 'Espere' = 'Așteptați', 'Presente' = 'Prezentați.' The Romanian 'să' form and Spanish subjunctive-based commands are conceptually parallel."
+    },
+    {
+      "title": "Passive 'Se' for Official and Bureaucratic Language",
+      "content": "The passive 'se' is used extensively in bureaucratic and legal language to describe what happens in official settings — without specifying who does it.\n\nFormation:\n- Singular subject: se + verb (3rd person singular)\n- Plural subject: se + verb (3rd person plural)\n\nExamples in official contexts:\n\n1. DOCUMENTS AND PAPERWORK:\n   - Se presentan los formularios en la oficina. (The forms are submitted at the office.)\n   - Se firma el contrato en presencia del funcionario. (The contract is signed in the presence of the clerk.)\n   - Se aceptan las solicitudes por correo. (Applications are accepted by mail.)\n\n2. RULES AND LAWS:\n   - Se establece que todos deben cumplir la ley. (It's established that everyone must comply with the law.)\n   - Se prohíbe fumar en las oficinas. (Smoking is prohibited in the offices.)\n   - Se exige la identificación en la entrada. (Identification is required at the entrance.)\n\n3. OFFICE PROCEDURES:\n   - Se atiende al público de nueve a cinco. (The public is served from nine to five.)\n   - Se procesan los trámites en cinco días. (Paperwork is processed in five days.)\n   - Se publican las nuevas regulaciones en el diario oficial. (New regulations are published in the official journal.)\n\nKey bureaucratic verbs in passive se:\n  - se requiere = it's required\n  - se necesita = it's needed\n  - se permite = it's allowed\n  - se prohíbe = it's prohibited\n  - se recomienda = it's recommended\n  - se acepta = it's accepted\n  - se rechaza = it's rejected\n  - se notifica = it's notified\n\nImportant: The verb MUST agree with the subject in number.\n  Se publica la norma. (singular — the rule is published)\n  Se publican las normas. (plural — the rules are published)\n  Se requiere el documento. (singular — the document is required)\n  Se requieren los documentos. (plural — the documents are required)",
+      "examples": [
+        "Se presenta la solicitud en la oficina de registro. (The application is submitted at the registry office.)",
+        "Se exigen los documentos originales. (Original documents are required.)",
+        "Se permite el acceso solo con identificación. (Access is allowed only with identification.)",
+        "Se publican las nuevas leyes en el diario oficial. (New laws are published in the official journal.)",
+        "Se notificará la decisión por correo. (The decision will be notified by mail.)",
+        "Se procesarán los trámites en dos semanas. (Paperwork will be processed in two weeks.)"
+      ],
+      "aid_note": "Romanian uses 'se' in a very similar way: 'se cere documentul' (the document is required), 'se publică' (it is published), 'se permite' (it is allowed). Romanian and Spanish passive 'se' are almost identical in structure and usage. The key difference is: Spanish requires the verb to agree with the subject in number (se publican las normas), while Romanian 'se' is often used in singular even for plural subjects (se publică normele). For Romanian speakers: the pattern is nearly the same — just remember to match verb number to subject number in Spanish."
+    },
+    {
+      "title": "Conditional and 'Si' Clauses for Legal Hypotheticals",
+      "content": "The conditional tense and 'si' clauses are used to discuss what would happen under certain legal or bureaucratic conditions.\n\nConditional tense formation:\n- Take the full infinitive + endings: -ía, -ías, -ía, -íamos, -íais, -ían\n  pagar → pagaría, pagarías, pagaría, pagaríamos, pagaríais, pagarían\n  firmar → firmaría, firmarías, firmaría, firmaríamos, firmaríais, firmarían\n  cumplir → cumpliría, cumplirías, cumpliría, cumpliríamos, cumpliríais, cumplirían\n- Irregulars: tener → tendría, poder → podría, deber → debería, salir → saldría\n\nConditional uses in legal contexts:\n\n1. RIGHTS AND POSSIBILITIES:\n   - Los ciudadanos podrían votar si se registraran. (Citizens could vote if they registered.)\n   - Tendría derecho a la protección si presentara los documentos. (You would have the right to protection if you submitted the documents.)\n   - Se aplicaría una multa si no cumpliera la ley. (A fine would be applied if you didn't comply with the law.)\n\n2. 'SI' CLAUSES (present unreal):\n   - SI + present indicative → conditional\n   - Si paga la multa, no habrá problemas. (If you pay the fine, there will be no problems.)\n   - Si presenta los documentos, el trámite será más rápido. (If you submit the documents, the process will be faster.)\n   - Si respeta las normas, no recibirá sanciones. (If you follow the rules, you won't receive penalties.)\n\n3. LEGAL CONDITIONS:\n   - En caso de que + subjunctive (In case that)\n     - En caso de que haya un problema, llame al abogado. (In case there's a problem, call the lawyer.)\n   - A menos que + subjunctive (Unless)\n     - No se aprobará el contrato a menos que lo firme. (The contract won't be approved unless you sign it.)\n   - Siempre que + subjunctive (As long as)\n     - Se aprobará siempre que cumpla los requisitos. (It will be approved as long as you meet the requirements.)\n\nCommon conditional legal phrases:\n  - Usted podría... (You could...)\n  - Tendría derecho a... (You would have the right to...)\n  - Se aplicaría... (A [penalty] would be applied...)\n  - Sería necesario... (It would be necessary...)\n  - Se consideraría... (It would be considered...)",
+      "examples": [
+        "Si presenta todos los documentos, el trámite será rápido. (If you submit all the documents, the process will be quick.)",
+        "Los ciudadanos tendrían más derechos si participaran. (Citizens would have more rights if they participated.)",
+        "Se aplicaría una sanción si no cumpliera el plazo. (A sanction would be applied if you didn't meet the deadline.)",
+        "En caso de que necesite ayuda, llame al funcionario. (In case you need help, call the clerk.)",
+        "No se aprobará la solicitud a menos que firme el contrato. (The application won't be approved unless you sign the contract.)"
+      ],
+      "aid_note": "Romanian conditional uses 'aș + infinitive' (aș putea, aș avea, aș plăti) — similar to Spanish conditional (podría, tendría, pagaría). Romanian 'si' clauses work the same way: 'Dacă plătești amenda, nu va fi probleme' = 'Si paga la multa, no habrá problemas.' The conditional tense and si-clause patterns are nearly identical in structure between Romanian and Spanish."
+    }
+  ],
+  "pronunciation": {
+    "title": "Law & Rights Pronunciation — Legal and Bureaucratic Vocabulary",
+    "content": "Clear pronunciation of legal and bureaucratic terms helps you navigate official situations and understand your rights.\n\nKey pronunciation patterns:\n\n1. Trailing '-ción' and '-sión' (stress on the 's' sound):\n   - la constitución = kon-sti-tu-see-OHN\n   - la justicia = hee-stee-see-ah\n   - la protección = proh-teh-ksee-OHN\n   - la ciudadanía = see-oo-dah-see-OHN\n   Note: '-ción' and '-sión' are stressed on the 's' sound\n\n2. Trailing '-miento' (stress on 'mien'):\n   - el nacimiento = nah-see-MYEN-toh\n   - el consentimiento = kon-sen-tee-MYEN-toh\n   - el procedimiento = proh-seh-ee-EE-myen-toh\n\n3. The 'j' and 'g' before 'e/i' (soft g, like harsh 'h'):\n   - la justicia = hee-STEE-see-ah (j = harsh h)\n   - el juez = heh-es (j = harsh h)\n   - el gobierno = go-BYER-noh (g before e = harsh h)\n   - el ciudadano = see-oo-dah-NAH-hoh (c before i = soft th/s)\n\n4. The 'll' (y sound in most regions):\n   - la ley = ley (y sound, like 'lei')\n   - el ciudadano = see-oo-dah-NAH-hoh\n   - la ciudadanía = see-oo-dah-see-OHN\n\n5. Rolled 'r' at the beginning of words:\n   - el derecho = deh-REH-choh (rolled r)\n   - el registro = reh-EEST-roh (rolled r)\n   - la regulación = reh-goo-lah-see-OHN (rolled r)\n\n6. Stress on '-al' endings:\n   - el ciudadano = see-oo-dah-NAH-hoh\n   - la autoridad = ow-toh-ree-DAHD\n   - el contrato = kon-TRAH-toh\n\n7. The 'ñ' (ny sound):\n   - la ciudadanía = see-oo-dah-see-OHN\n   - el procedimiento = proh-seh-ee-EE-myen-toh\n\n8. The 'qu' before 'e/i' (hard k sound):\n   - la petición = keh-tee-OHN\n   - el requisito = reh-keez-EE-toh\n   - la igualdad = ee-goo-DAHD (no qu here, but good practice)\n\n9. Silent 'h':\n   - el hijo = EEO-hoh\n   - el hombre = OM-breh\n   - derecho = deh-REH-choh\n   - funcionario = foohn-ear-ee-OH-noh\n\n10. Diphthongs:\n    - la ley = ley (single syllable, diphthong ey)\n    - el voto = BOH-toh (o-o not a diphthong)\n    - la decisión = deh-see-OHN (i-o = separate syllables)\n\nPractice sentences:\n- Los ciudadanos tienen derecho a la justicia. (Citizens have the right to justice.)\n- Es obligatorio cumplir la ley. (It's mandatory to comply with the law.)\n- El juez decidió en favor del ciudadano. (The judge decided in favor of the citizen.)",
+    "examples": [
+      "constitución = kon-sti-tu-see-OHN (stress on 'see-OHN')",
+      "justicia = hee-STEE-see-ah (j = harsh h sound, stress on 'STEE')",
+      "ciudadanía = see-oo-dah-see-OHN (stress on 'see-OHN', ñ = ny sound)",
+      "obligatorio = oh-blee-gah-TOH-ree-oh (stress on 'TOH')",
+      "derecho = deh-REH-choh (rolled r, stress on 'REH')",
+      "protección = proh-teh-see-OHN (stress on 'see-OHN')",
+      "funcionario = foohn-ear-ee-OH-noh (silent h, stress on 'OH')",
+      "multa = MOOL-tah (stress on 'MOOL')",
+      "contrato = kon-TRAH-toh (stress on 'TRAH')",
+      "votar = bo-TAHR (rolled r at start, stress on 'TAHR')"
+    ]
+  },
+  "exercises": [
+    {
+      "type": "multiple-choice",
+      "question": "What is the Spanish word for 'the law'?",
+      "options": ["la regla", "la ley", "la norma", "la orden"],
+      "correct": 1,
+      "explanation": "'La ley' means 'the law.' 'La regla' = rule, 'la norma' = standard/rule, 'la orden' = order."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Which expression requires the subjunctive?",
+      "options": ["Es necesario que...", "Es cierto que...", "Es verdad que...", "Es obvio que..."],
+      "correct": 0,
+      "explanation": "'Es necesario que...' (It's necessary that...) triggers the subjunctive. The other options express facts and use the indicative."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete with the correct present subjunctive: 'Es obligatorio que los ciudadanos ____ (respetar) las leyes.'",
+      "correct": "respeten",
+      "explanation": "'Respetar' is an -AR verb. Present subjunctive ellos/ellas form: respeten. 'Es obligatorio que los ciudadanos respeten las leyes.' = It's mandatory that citizens respect the laws."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What is the formal command (usted) of 'firmar' (to sign)?",
+      "options": ["firms", "firmar", "firme", "firmo"],
+      "correct": 2,
+      "explanation": "'Firme' is the usted command of firmar. For -AR verbs: yo form (firmo) → drop -o → firm + e = firme."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete with the correct formal command: '____ (presentar) su documento, por favor.' (Present your document, please.)",
+      "correct": "Presente",
+      "explanation": "'Presente' is the usted command of presentar (-ER verb: yo form presento → drop -o → present + e = presente)."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What does 'la constitución' mean?",
+      "options": ["The construction", "The constitution", "The construction site", "The building"],
+      "correct": 1,
+      "explanation": "'La constitución' means 'the constitution.' Be careful — it does NOT mean 'construction' (that would be 'la construcción' with a different word)."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete with passive se: 'Se ____ (exigir) los documentos en la oficina.' (Documents are required at the office.)",
+      "correct": "exigen",
+      "explanation": "'Los documentos' is plural, so the verb must be plural: 'exigen.' 'Se exigen los documentos' = Documents are required."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What does 'ilegal' mean?",
+      "options": ["Legal", "Illegal", "Legalized", "Legalizing"],
+      "correct": 1,
+      "explanation": "'Ilegal' means 'illegal.' The prefix 'i-' or 'in-' negates adjectives in Spanish, similar to 'il-' or 'un-' in English."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete with the conditional: 'Si firma el contrato, usted ____ (tener) derechos.' (If you sign the contract, you will have rights.)",
+      "correct": "tendrá",
+      "explanation": "'Tendrá' is the usted form of tener in the conditional. 'Si firma el contrato, usted tendrá derechos.' = If you sign the contract, you will have rights."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What does 'el ayuntamiento' mean?",
+      "options": ["The town hall / city council", "The town center", "The city hall", "The town square"],
+      "correct": 0,
+      "explanation": "'El ayuntamiento' means 'the town hall' or 'city council.' It's the local government building where you go for many official procedures."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete with the correct subjunctive: 'Tiene derecho a que le ____ (explicar) sus derechos.' (You have the right to have your rights explained to you.)",
+      "correct": "expliquen",
+      "explanation": "'Expliquen' is the ellos/ellas form of explicar in the present subjunctive. The 'u' after 'q' is needed to keep the hard k sound (explique, no explice)."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What does 'la multa' mean?",
+      "options": ["The letter", "The fine / penalty", "The meeting", "The form"],
+      "correct": 1,
+      "explanation": "'La multa' means 'the fine' or 'penalty.' It's what you pay for breaking a rule or law."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete with 'si' + present indicative: 'Si ____ (presentar) los documentos, el trámite será más rápido.' (If you submit the documents, the process will be faster.)",
+      "correct": "presenta",
+      "explanation": "'Presenta' is the tú form of presentar in the present indicative. 'Si presenta los documentos' = If you submit the documents. The main clause uses future (será)."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What does 'cumplir la ley' mean?",
+      "options": ["To create the law", "To comply with the law", "To break the law", "To explain the law"],
+      "correct": 1,
+      "explanation": "'Cumplir la ley' means 'to comply with the law.' 'Cumplir' = to fulfill, to comply. The opposite would be 'violación de la ley' (breaking the law)."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete with the formal negative command: 'No ____ (pagar) hasta que le den el recibo.' (Don't pay until they give you the receipt.)",
+      "correct": "pague",
+      "explanation": "'Pague' is the negative usted command of pagar. For -AR verbs in negative commands: no + present subjunctive. 'No pague' = Don't pay."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What does 'el plazo' mean?",
+      "options": ["The place", "The deadline / time limit", "The plan", "The place (geography)"],
+      "correct": 1,
+      "explanation": "'El plazo' means 'the deadline' or 'time limit.' It's a very common term in bureaucracy and official procedures."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete with passive se: 'Se ____ (atender) al público de nueve a cinco.' (The public is served from nine to five.)",
+      "correct": "atiende",
+      "explanation": "'Atiende' is the 3rd person singular of atender. 'Se atiende al público' = The public is served (passive se, singular because 'el público' is singular)."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Which word means 'citizenship' in Spanish?",
+      "options": ["el ciudadano", "la ciudadanía", "la ciudad", "el ciudadano"],
+      "correct": 1,
+      "explanation": "'La ciudadanía' means 'citizenship.' 'El ciudadano' = citizen, 'la ciudad' = city."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete with the conditional: 'Usted ____ (podría) impugnar la decisión en un plazo de 30 días.' (You could appeal the decision within 30 days.)",
+      "correct": "podría",
+      "explanation": "'Podría' is the usted form of poder in the conditional. 'Usted podría impugnar' = You could appeal."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What does 'la infracción' mean?",
+      "options": ["The violation / offense", "The infraction", "The infection", "The infringement"],
+      "correct": 0,
+      "explanation": "'La infracción' means 'the violation' or 'offense.' It's used for both legal violations and rules that have been broken."
+    }
+  ]
+}

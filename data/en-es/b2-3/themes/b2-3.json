@@ -1,0 +1,127 @@
+{
+  "stage_id": "b2-3",
+  "title": "B2.3 \u2014 Academic Writing & Cultural Fluency",
+  "description": "Master academic writing conventions, cultural references, advanced idiomatic expressions, and specialized vocabulary for professional and intellectual discourse.",
+  "themes": [
+    {
+      "id": "academic-writing",
+      "title": "Academic Writing & Research",
+      "description": "Master formal writing structures, citations, and the academic register in Spanish.",
+      "estimated_hours": 2,
+      "sections": [
+        "Vocabulary",
+        "Grammar",
+        "Exercises",
+        "Pronunciation"
+      ]
+    },
+    {
+      "id": "advanced-idioms",
+      "title": "Advanced Idioms & Figurative Language",
+      "description": "B2-level idiomatic expressions, metaphors, and figurative language for natural, expressive communication.",
+      "estimated_hours": 2,
+      "sections": [
+        "Vocabulary",
+        "Grammar",
+        "Exercises",
+        "Pronunciation"
+      ]
+    },
+    {
+      "id": "business-professional",
+      "title": "Business & Professional Correspondence",
+      "description": "Formal business communication, professional vocabulary, and correspondence.",
+      "estimated_hours": 2,
+      "sections": [
+        "Vocabulary",
+        "Grammar",
+        "Exercises",
+        "Pronunciation"
+      ]
+    },
+    {
+      "id": "cultural-references",
+      "title": "Cultural References & Proverbs",
+      "description": "Spanish and Latin American cultural knowledge, proverbs, and shared references.",
+      "estimated_hours": 2,
+      "sections": [
+        "Vocabulary",
+        "Grammar",
+        "Exercises",
+        "Pronunciation"
+      ]
+    },
+    {
+      "id": "economics-trade",
+      "title": "Advanced Economics & Trade",
+      "description": "Vocabulary, grammar, pronunciation, and exercises about international economics, trade policy, global markets, and financial systems.",
+      "estimated_hours": 5,
+      "sections": [
+        "Vocabulary",
+        "Grammar",
+        "Exercises",
+        "Pronunciation"
+      ]
+    },
+    {
+      "id": "law-citizenship",
+      "title": "Law & Civic Engagement",
+      "description": "Legal vocabulary, civic terminology, and democratic participation.",
+      "estimated_hours": 2,
+      "sections": [
+        "Vocabulary",
+        "Grammar",
+        "Exercises",
+        "Pronunciation"
+      ]
+    },
+    {
+      "id": "literature",
+      "title": "Literature & Literary Analysis",
+      "description": "Literary vocabulary, genres, and analysis concepts.",
+      "estimated_hours": 2,
+      "sections": [
+        "Vocabulary",
+        "Grammar",
+        "Exercises",
+        "Pronunciation"
+      ]
+    },
+    {
+      "id": "literature-arts",
+      "title": "Advanced Literature & Arts",
+      "description": "Vocabulary, grammar, pronunciation, and exercises about advanced literary criticism, contemporary art movements, multimedia analysis, and artistic theory.",
+      "estimated_hours": 5,
+      "sections": [
+        "Vocabulary",
+        "Grammar",
+        "Exercises",
+        "Pronunciation"
+      ]
+    },
+    {
+      "id": "media-journalism",
+      "title": "Advanced Media & Journalism",
+      "description": "Vocabulary, grammar, pronunciation, and exercises about investigative journalism, editorial analysis, media ethics, digital platforms, and press freedom.",
+      "estimated_hours": 5,
+      "sections": [
+        "Vocabulary",
+        "Grammar",
+        "Exercises",
+        "Pronunciation"
+      ]
+    },
+    {
+      "id": "science-technology",
+      "title": "Science & Research Terminology",
+      "description": "Scientific vocabulary, research methods, and academic terminology.",
+      "estimated_hours": 2,
+      "sections": [
+        "Vocabulary",
+        "Grammar",
+        "Exercises",
+        "Pronunciation"
+      ]
+    }
+  ]
+}

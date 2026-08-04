@@ -1,0 +1,276 @@
+{
+  "id": "technology-innovation",
+  "level": "a2-2",
+  "title": "Technology & Innovation",
+  "description": "Talk about technology, artificial intelligence, smartphones, apps, digital transformation, and innovation. Express opinions about new technology, describe how technology has changed daily life, and discuss the benefits and drawbacks of digital tools. Master the future tense for predictions, the conditional for hypotheticals about technology, and 'deber' / 'tener que' for obligations in the digital age.",
+  "vocabulary": [
+    {"id": 1, "target": "la tecnología", "source": "technology", "gender": "f", "type": "noun"},
+    {"id": 2, "target": "el dispositivo", "source": "device", "gender": "m", "type": "noun"},
+    {"id": 3, "target": "el teléfono móvil", "source": "mobile phone", "gender": "m", "type": "noun"},
+    {"id": 4, "target": "el smartphone", "source": "smartphone", "gender": "m", "type": "noun"},
+    {"id": 5, "target": "la aplicación", "source": "app", "gender": "f", "type": "noun"},
+    {"id": 6, "target": "la app", "source": "app (short)", "gender": "f", "type": "noun"},
+    {"id": 7, "target": "la inteligencia artificial", "source": "artificial intelligence", "gender": "f", "type": "noun"},
+    {"id": 8, "target": "la IA", "source": "AI (short)", "gender": "f", "type": "noun"},
+    {"id": 9, "target": "la computadora", "source": "computer (LatAm)", "gender": "f", "type": "noun"},
+    {"id": 10, "target": "el ordenador", "source": "computer (Spain)", "gender": "m", "type": "noun"},
+    {"id": 11, "target": "el portátil", "source": "laptop", "gender": "m", "type": "noun"},
+    {"id": 12, "target": "la tablet", "source": "tablet", "gender": "f", "type": "noun"},
+    {"id": 13, "target": "la internet", "source": "internet", "gender": "f", "type": "noun"},
+    {"id": 14, "target": "el acceso a internet", "source": "internet access", "gender": "m", "type": "phrase"},
+    {"id": 15, "target": "la conexión", "source": "connection", "gender": "f", "type": "noun"},
+    {"id": 16, "target": "la wifi", "source": "Wi-Fi", "gender": "f", "type": "noun"},
+    {"id": 17, "target": "la señal", "source": "signal", "gender": "f", "type": "noun"},
+    {"id": 18, "target": "la señal es débil", "source": "the signal is weak", "gender": "—", "type": "phrase"},
+    {"id": 19, "target": "la pantalla", "source": "screen", "gender": "f", "type": "noun"},
+    {"id": 20, "target": "el teclado", "source": "keyboard", "gender": "m", "type": "noun"},
+    {"id": 21, "target": "el ratón", "source": "mouse", "gender": "m", "type": "noun"},
+    {"id": 22, "target": "el cargador", "source": "charger", "gender": "m", "type": "noun"},
+    {"id": 23, "target": "la batería", "source": "battery", "gender": "f", "type": "noun"},
+    {"id": 24, "target": "la memoria", "source": "memory / storage", "gender": "f", "type": "noun"},
+    {"id": 25, "target": "el software", "source": "software", "gender": "m", "type": "noun"},
+    {"id": 26, "target": "el hardware", "source": "hardware", "gender": "m", "type": "noun"},
+    {"id": 27, "target": "el sistema operativo", "source": "operating system", "gender": "m", "type": "phrase"},
+    {"id": 28, "target": "actualizar", "source": "to update", "gender": "v", "type": "verb"},
+    {"id": 29, "target": "descargar", "source": "to download", "gender": "v", "type": "verb"},
+    {"id": 30, "target": "subir", "source": "to upload", "gender": "v", "type": "verb"},
+    {"id": 31, "target": "instalar", "source": "to install", "gender": "v", "type": "verb"},
+    {"id": 32, "target": "eliminar", "source": "to delete", "gender": "v", "type": "verb"},
+    {"id": 33, "target": "enviar", "source": "to send", "gender": "v", "type": "verb"},
+    {"id": 34, "target": "recibir", "source": "to receive", "gender": "v", "type": "verb"},
+    {"id": 35, "target": "compartir", "source": "to share", "gender": "v", "type": "verb"},
+    {"id": 36, "target": "conectar", "source": "to connect", "gender": "v", "type": "verb"},
+    {"id": 37, "target": "navegar", "source": "to browse (the internet)", "gender": "v", "type": "verb"},
+    {"id": 38, "target": "buscar en internet", "source": "to search online", "gender": "—", "type": "phrase"},
+    {"id": 39, "target": "la red social", "source": "social media / social network", "gender": "f", "type": "noun"},
+    {"id": 40, "target": "publicar", "source": "to post (online)", "gender": "v", "type": "verb"},
+    {"id": 41, "target": "el mensaje", "source": "message", "gender": "m", "type": "noun"},
+    {"id": 42, "target": "el correo electrónico", "source": "email", "gender": "m", "type": "noun"},
+    {"id": 43, "target": "el correo electrónico", "source": "email", "gender": "m", "type": "noun"},
+    {"id": 44, "target": "la dirección de correo", "source": "email address", "gender": "f", "type": "phrase"},
+    {"id": 45, "target": "el hashtag", "source": "hashtag", "gender": "m", "type": "noun"},
+    {"id": 46, "target": "el algoritmo", "source": "algorithm", "gender": "m", "type": "noun"},
+    {"id": 47, "target": "la plataforma digital", "source": "digital platform", "gender": "f", "type": "phrase"},
+    {"id": 48, "target": "la transformación digital", "source": "digital transformation", "gender": "f", "type": "phrase"},
+    {"id": 49, "target": "la innovación", "source": "innovation", "gender": "f", "type": "noun"},
+    {"id": 50, "target": "innovador / innovadora", "source": "innovative", "gender": "m/f", "type": "adj"},
+    {"id": 51, "target": "el invento", "source": "invention", "gender": "m", "type": "noun"},
+    {"id": 52, "target": "el gadget", "source": "gadget", "gender": "m", "type": "noun"},
+    {"id": 53, "target": "la cámara", "source": "camera", "gender": "f", "type": "noun"},
+    {"id": 54, "target": "la selfie", "source": "selfie", "gender": "f", "type": "noun"},
+    {"id": 55, "target": "el audio", "source": "audio", "gender": "m", "type": "noun"},
+    {"id": 56, "target": "el video", "source": "video", "gender": "m", "type": "noun"},
+    {"id": 57, "target": "la contraseña", "source": "password", "gender": "f", "type": "noun"},
+    {"id": 58, "target": "el usuario", "source": "user", "gender": "m", "type": "noun"},
+    {"id": 59, "target": "la cuenta", "source": "account", "gender": "f", "type": "noun"},
+    {"id": 60, "target": "iniciar sesión", "source": "to log in", "gender": "—", "type": "phrase"},
+    {"id": 61, "target": "cerrar sesión", "source": "to log out", "gender": "—", "type": "phrase"},
+    {"id": 62, "target": "la ciberseguridad", "source": "cybersecurity", "gender": "f", "type": "noun"},
+    {"id": 63, "target": "el virus informático", "source": "computer virus", "gender": "m", "type": "phrase"},
+    {"id": 64, "target": "la protección de datos", "source": "data protection", "gender": "f", "type": "phrase"},
+    {"id": 65, "target": "los datos personales", "source": "personal data", "gender": "m", "type": "phrase"},
+    {"id": 66, "target": "privado / privada", "source": "private", "gender": "m/f", "type": "adj"},
+    {"id": 67, "target": "público / pública", "source": "public", "gender": "m/f", "type": "adj"},
+    {"id": 68, "target": "la automatización", "source": "automation", "gender": "f", "type": "noun"},
+    {"id": 69, "target": "la robótica", "source": "robotics", "gender": "f", "type": "noun"},
+    {"id": 70, "target": "el robot", "source": "robot", "gender": "m", "type": "noun"},
+    {"id": 71, "target": "el asistente virtual", "source": "virtual assistant", "gender": "m", "type": "phrase"},
+    {"id": 72, "target": "el altavoz", "source": "speaker / smart speaker", "gender": "m", "type": "noun"},
+    {"id": 73, "target": "reconocimiento de voz", "source": "voice recognition", "gender": "m", "type": "phrase"},
+    {"id": 74, "target": "la realidad virtual", "source": "virtual reality", "gender": "f", "type": "noun"},
+    {"id": 75, "target": "la realidad aumentada", "source": "augmented reality", "gender": "f", "type": "noun"},
+    {"id": 76, "target": "el código", "source": "code (programming)", "gender": "m", "type": "noun"},
+    {"id": 77, "target": "programar", "source": "to code / to program", "gender": "v", "type": "verb"},
+    {"id": 78, "target": "el código fuente", "source": "source code", "gender": "m", "type": "phrase"},
+    {"id": 79, "target": "la base de datos", "source": "database", "gender": "f", "type": "noun"},
+    {"id": 80, "target": "el almacenamiento en la nube", "source": "cloud storage", "gender": "m", "type": "phrase"}
+  ],
+  "grammar": [
+    {
+      "title": "Futuro Simple — Making Predictions About Technology",
+      "content": "The future tense is essential for talking about how technology will change our lives. It expresses predictions, plans, and possibilities related to technology and innovation.\\n\\nFormation (regular verbs):\\n- Keep the infinitive, add the future endings:\\n  -é, -ás, -á, -emos, -éis, -án\\n\\nExamples:\\n- hablar → hablaré, hablarás, hablará, hablaremos, hablaréis, hablarán\\n- tener → tendré, tendrás, tendrá, tendremos, tendréis, tendrán (irregular: stem 'tend-')\\n- poder → podré, podrás, podrá, podremos, podréis, podrán (irregular: stem 'podr-')\\n- salir → saldré, saldrás, saldrá, saldremos, saldréis, saldrán (irregular: stem 'saldr-')\\n- poner → pondré, pondrás, pondrá, pondremos, pondréis, pondrán (irregular: stem 'pondr-')\\n- hacer → haré, harás, hará, haremos, haréis, harán (irregular: stem 'har-')\\n- decir → diré, dirás, dirá, diremos, diréis, dirán (irregular: stem 'dir-')\\n\\nTechnology predictions:\\n- En el futuro, todos los coches serán eléctricos. (In the future, all cars will be electric.)\\n- La inteligencia artificial cambiará el mundo. (Artificial intelligence will change the world.)\\n- Las máquinas trabajarán en lugar de las personas. (Machines will work instead of people.)\\n- Tendremos casas inteligentes en todos los países. (We will have smart homes in all countries.)",
+      "examples": [
+        "En diez años, la tecnología será mucho más avanzada. (In ten years, technology will be much more advanced.)",
+        "La inteligencia artificial resolverá muchos problemas. (Artificial intelligence will solve many problems.)",
+        "Todos tendrán un teléfono inteligente. (Everyone will have a smartphone.)",
+        "Las robots harán el trabajo de las personas. (Robots will do people's work.)",
+        "Las ciudades serán más inteligentes. (Cities will be smarter.)"
+      ]
+    },
+    {
+      "title": "Condicional — Hypothetical Scenarios with Technology",
+      "content": "The conditional tense is used to express what WOULD happen with technology — hypothetical situations, polite requests about devices, and speculative thinking about digital futures.\\n\\nFormation (regular verbs):\\n- Keep the infinitive, add the conditional endings:\\n  -ía, -ías, -ía, -íamos, -íais, -ían\\n\\nExamples:\\n- hablar → hablaría, hablarías, hablaría, hablaríamos, hablaríais, hablarían\\n- tener → tendría, tendrías, tendría, tendríamos, tendríais, tendrían\\n- poder → podría, podrías, podría, podríamos, podríais, podrían\\n\\nTechnology hypotheticals:\\n- Con más tecnología, la vida sería más fácil. (With more technology, life would be easier.)\\n- Si tuviera un robot, me ayudaría en casa. (If I had a robot, it would help me at home.)\\n- ¿Podrías enseñarme a usar esta aplicación? (Could you teach me to use this app?)\\n\\nCommon irregular stems in conditional are the same as in the future tense (tendr-, podr-, saldr-, pondr-, har-, dir-).",
+      "examples": [
+        "Si tuviera más dinero, compraría el último smartphone. (If I had more money, I would buy the latest smartphone.)",
+        "¿Podrías ayudarme a instalar esta app? (Could you help me install this app?)",
+        "Con la nueva tecnología, los trabajos serían más eficientes. (With the new technology, jobs would be more efficient.)",
+        "Si no hubiera internet, ¿cómo viviríamos? (If there were no internet, how would we live?)",
+        "Los robots podrían cuidar a los ancianos. (Robots could care for the elderly.)"
+      ]
+    },
+    {
+      "title": "Deber / Tener Que — Digital Obligations and Responsibilities",
+      "content": "Both 'deber' and 'tener que' express obligation, but with different nuances in the context of technology and digital life.\\n\\nTENER QUE + infinitive (stronger obligation = 'have to'):\\n- Used for external obligations and practical necessities\\n- I have to / I need to\\n- Debo usar una contraseña segura. (I must use a secure password.)\\n- Tengo que descargar la actualización. (I have to download the update.)\\n\\nDEBER + infinitive (moral obligation = 'should'):\\n- Used for advice, recommendations, and moral duties\\n- Should / ought to\\n- Deberíamos proteger nuestros datos personales. (We should protect our personal data.)\\n- Debe actualizar su software regularmente. (You should update your software regularly.)\\n\\nDeber + haber + participio (probability about the past = 'must have'):\\n- Debe haber subido los archivos. (He/She must have uploaded the files.)\\n- Deben haber cambiado el algoritmo. (They must have changed the algorithm.)\\n\\nCommon digital obligations:\\n- Tener que cambiar la contraseña (to have to change the password)\\n- Deber cerrar sesión (to should log out)\\n- Tener que actualizar el sistema (to have to update the system)\\n- Deber proteger los datos personales (to should protect personal data)",
+      "examples": [
+        "Tengo que actualizar mi teléfono porque está muy lento. (I have to update my phone because it's very slow.)",
+        "Deberíamos usar contraseñas más seguras. (We should use more secure passwords.)",
+        "Tiene que descargar la aplicación primero. (You have to download the app first.)",
+        "Debemos proteger la privacidad en internet. (We must protect privacy on the internet.)",
+        "Tengo que enviar el correo electrónico antes de las cinco. (I have to send the email before five o'clock.)"
+      ]
+    }
+  ],
+  "pronunciation": [
+    {
+      "title": "Pronunciation of Technology Terms",
+      "content": "Key pronunciation tips for technology and innovation vocabulary:\\n\\n1. Stress on the penult (second-to-last syllable) — most common pattern:\\n   - la tec-nolo-gía (stress on -lo-gía) — esdrújula, accent needed\\n   - la apli-ca-ción (stress on -ca-ción) — esdrújula, accent needed\\n   - el dis-po-si-tivo (stress on -po-si-) — llana, ends in -vo so no accent\\n   - el al-go-rít-mo (stress on -rí-) — esdrújula, accent needed\\n   - la pla-ta-for-ma (stress on -for-) — llana, ends in -ma so no accent\\n\\n2. The -ción / -sión ending (always -SYON):\\n   - la aplicación → ah-plee-kah-SEE-on\\n   - la innovación → in-oh-vah-see-OHN\\n   - la automatización → ah-to-mah-tee-sah-SEE-ohn\\n   - el algoritmo → ah-lgo-REE-toh-moh\\n\\n3. Trilled R sounds:\\n   - The single 'r' between vowels is a tap (flap): el robot (reh-BOHT), la batería (bah-TEH-ree-ah)\\n   - The 'rr' or initial 'r' is a trill: el robot (ROH-bot) — wait, here it's at the start of the second syllable. Let me be clear:\\n   - Initial R always trills: robot, red, realidad\\n   - RR always trills: innovación, innovación\\n   - Single R between vowels is a tap: robot (the R at the start of bot), batería\\n\\n4. The soft 'g' (before e/i):\\n   - el gadget → geh-GAHT (g sounds like h)\\n   - la conexión → kohn-HEK-see-ohn (c before e sounds like s in LatAm, th in Spain)\\n   - la información → in-for-mah-SEE-ohn (c before i sounds like s in LatAm, th in Spain)\\n\\n5. The 'j' sound (harsh h):\\n   - el dispositivo → dis-POH-shee-tih-vo\\n   Wait — no 'j' here. Let me use real examples:\\n   - la información → in-for-mah-SEE-ohn (j is not present, but 'c' before 'i' has the same sound in Spain)\\n   - The 'j' sound: el proyecto (PROH-yek-toh), la red (reh — no j, it's a soft r)\\n   - Real j words: el trabajo (trah-BAH-hoh), la jirafa (hee-RAH-fah)\\n\\n6. Silent 'h':\\n   - el hardware → har-DWAR (h is silent — this is an English loanword so pronunciation may vary)\\n   - The h is always silent in native Spanish words: hablar, hogar, hombre",
+      "examples": [
+        "tecnología = teh-knah-LOH-see-ah (stress on antepenult — esdrújula)\\n",
+        "inteligencia artificial = een-tah-lee-HEHN-see-ah ah-rtee-fee-see-AHL (stress on HEHN- and fee-AHL)\\n",
+        "aplicación = ah-plee-kah-SEE-ohn (stress on antepenult — esdrújula)\\n",
+        "innovación = in-oh-vah-see-OHN (stress on antepenult — esdrújula)\\n",
+        "contraseña = kohn-trah-SEHN-yah (stress on penult — llana, ends in vowel)"
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "multiple-choice",
+      "question": "What does 'la inteligencia artificial' mean?",
+      "options": [
+        "Artificial intelligence",
+        "Artificial nature",
+        "Digital system",
+        "Computer network"
+      ],
+      "correct": 0,
+      "explanation": "'Inteligencia artificial' literally means 'artificial intelligence.' 'Inteligencia' = intelligence, 'artificial' = artificial."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Which verb means 'to download' in Spanish?",
+      "options": [
+        "subir",
+        "instalar",
+        "descargar",
+        "enviar"
+      ],
+      "correct": 2,
+      "explanation": "'Descargar' means to download. 'Subir' = to upload, 'instalar' = to install, 'enviar' = to send."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What does 'el código' mean in a tech context?",
+      "options": [
+        "A lock / code (lock)",
+        "Code (programming)",
+        "A password only",
+        "A zip file"
+      ],
+      "correct": 1,
+      "explanation": "In a tech context, 'el código' means programming code. While 'código' can also mean a code for a lock, in technology it refers to source code."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete with the future tense: 'En el futuro, las máquinas ___ más inteligente.' (In the future, machines will be smarter.)",
+      "correct": "serán",
+      "explanation": "'Serán' is the future tense (ellos/ellas/ustedes) of 'ser' (to be). The future tense is used for predictions about technology."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete with the correct form: 'Yo ___ (tener) que actualizar mi teléfono.' (I have to update my phone.)",
+      "correct": "tengo",
+      "explanation": "'Tengo' is the first-person singular present of 'tener' (to have). 'Tener que + infinitive' expresses obligation: 'I have to update.'"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What does 'la transformación digital' mean?",
+      "options": [
+        "Digital transformation",
+        "Digital photography",
+        "Digital camera",
+        "Digital clock"
+      ],
+      "correct": 0,
+      "explanation": "'La transformación digital' means digital transformation. 'Transformación' = transformation, 'digital' = digital."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete with the conditional: 'Con más tecnología, la vida ___ más fácil.' (With more technology, life would be easier.)",
+      "correct": "sería",
+      "explanation": "'Sería' is the conditional form of 'ser' (to be). The conditional is used for hypothetical situations: 'With more technology, life would be easier.'"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Which word means 'to connect' in Spanish?",
+      "options": [
+        "desconectar",
+        "conectar",
+        "activar",
+        "sincronizar"
+      ],
+      "correct": 1,
+      "explanation": "'Conectar' means to connect. 'Desconectar' means to disconnect, 'activar' means to activate, 'sincronizar' means to synchronize."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete with 'deber' or 'tener que': '___ usar una contraseña segura.' (You must use a secure password.)",
+      "correct": "debes",
+      "explanation": "'Debes' (from deber) expresses a moral obligation/advice — you should use a secure password. It's about digital responsibility, not a forced external requirement."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What is 'el almacenamiento en la nube'?",
+      "options": [
+        "Cloud storage",
+        "Cloud computing",
+        "Cloud network",
+        "Cloud backup"
+      ],
+      "correct": 0,
+      "explanation": "'El almacenamiento en la nube' literally means 'storage in the cloud' = cloud storage. 'Almacenamiento' = storage, 'nube' = cloud."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete with the future: 'La IA ___ muchos trabajos en el futuro.' (AI will change many jobs in the future.)",
+      "correct": "cambiará",
+      "explanation": "'Cambiará' is the future tense (él/ella/usted) of 'cambiar' (to change). The future tense expresses predictions about technology's impact."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What does 'la ciberseguridad' mean?",
+      "options": [
+        "Cybersecurity",
+        "Cyber cafe",
+        "Cyber crime",
+        "Cyber space"
+      ],
+      "correct": 0,
+      "explanation": "'La ciberseguridad' means cybersecurity. 'Ciber-' is a prefix from 'cyber', and 'seguridad' = security."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete with the conditional: '___ tú me ayudarías a instalar la aplicación?' (Would you help me install the app?)",
+      "correct": "Podrías",
+      "explanation": "'Podrías' is the conditional of 'poder' (can/to be able to). It's used for polite requests: 'Could/Would you help me...?'"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Which term refers to 'the battery' of a device?",
+      "options": [
+        "la pantalla",
+        "la memoria",
+        "la batería",
+        "el cargador"
+      ],
+      "correct": 2,
+      "explanation": "'La batería' means the battery. 'La pantalla' = the screen, 'la memoria' = memory/storage, 'el cargador' = the charger."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: 'Tengo ___ cerrar sesión antes de salir.' (I have to log out before leaving.)",
+      "correct": "que",
+      "explanation": "'Tener que + infinitive' expresses obligation. 'Tengo que cerrar sesión' = 'I have to log out.' The word 'que' connects 'tener' to the infinitive 'cerrar'."
+    }
+  ]
+}

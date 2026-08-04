@@ -1,0 +1,493 @@
+{
+  "id": "professional-communication",
+  "level": "b1-1",
+  "title": "Professional Communication",
+  "description": "Master the language of business and professional settings. Build vocabulary and grammar skills for meetings, presentations, emails, negotiations, and general business communication in Spanish. Develop the ability to participate in workplace interactions, convey ideas clearly, and handle professional situations with confidence.",
+  "vocabulary": [
+    {"id": 1, "target": "la reunión", "source": "meeting", "gender": "f", "type": "noun"},
+    {"id": 2, "target": "la presentación", "source": "presentation", "gender": "f", "type": "noun"},
+    {"id": 3, "target": "el correo electrónico", "source": "email", "gender": "m", "type": "noun"},
+    {"id": 4, "target": "el jefe / la jefa", "source": "boss / female boss", "gender": "m/f", "type": "noun"},
+    {"id": 5, "target": "el empleado / la empleada", "source": "employee", "gender": "m/f", "type": "noun"},
+    {"id": 6, "target": "el cliente / la cliente", "source": "client", "gender": "m/f", "type": "noun"},
+    {"id": 7, "target": "el colega", "source": "colleague", "gender": "m", "type": "noun"},
+    {"id": 8, "target": "el jefe de departamento", "source": "department head", "gender": "m", "type": "noun"},
+    {"id": 9, "target": "el gerente", "source": "manager", "gender": "m", "type": "noun"},
+    {"id": 10, "target": "la directora", "source": "director (female)", "gender": "f", "type": "noun"},
+    {"id": 11, "target": "el horario", "source": "schedule / work hours", "gender": "m", "type": "noun"},
+    {"id": 12, "target": "la jornada laboral", "source": "workday", "gender": "f", "type": "noun"},
+    {"id": 13, "target": "la oficina", "source": "office", "gender": "f", "type": "noun"},
+    {"id": 14, "target": "el escritorio", "source": "desk", "gender": "m", "type": "noun"},
+    {"id": 15, "target": "el contrato", "source": "contract", "gender": "m", "type": "noun"},
+    {"id": 16, "target": "la negociación", "source": "negotiation", "gender": "f", "type": "noun"},
+    {"id": 17, "target": "la propuesta", "source": "proposal", "gender": "f", "type": "noun"},
+    {"id": 18, "target": "el informe", "source": "report", "gender": "m", "type": "noun"},
+    {"id": 19, "target": "el presupuesto", "source": "budget", "gender": "m", "type": "noun"},
+    {"id": 20, "target": "el objetivo", "source": "goal / objective", "gender": "m", "type": "noun"},
+    {"id": 21, "target": "la meta", "source": "goal / target", "gender": "f", "type": "noun"},
+    {"id": 22, "target": "el plazo", "source": "deadline", "gender": "m", "type": "noun"},
+    {"id": 23, "target": "la agenda", "source": "agenda / schedule", "gender": "f", "type": "noun"},
+    {"id": 24, "target": "la agenda del día", "source": "daily agenda", "gender": "f", "type": "phrase"},
+    {"id": 25, "target": "el asunto", "source": "subject (email)", "gender": "m", "type": "noun"},
+    {"id": 26, "target": "la tarjeta de presentación", "source": "business card", "gender": "f", "type": "noun"},
+    {"id": 27, "target": "la tarjeta de visita", "source": "business card", "gender": "f", "type": "noun"},
+    {"id": 28, "target": "el currículum (vitae)", "source": "resume / CV", "gender": "m", "type": "noun"},
+    {"id": 29, "target": "la entrevista", "source": "interview", "gender": "f", "type": "noun"},
+    {"id": 30, "target": "la entrevista de trabajo", "source": "job interview", "gender": "f", "type": "phrase"},
+    {"id": 31, "target": "la promoción", "source": "promotion", "gender": "f", "type": "noun"},
+    {"id": 32, "target": "el despido", "source": "dismissal / firing", "gender": "m", "type": "noun"},
+    {"id": 33, "target": "la jubilación", "source": "retirement", "gender": "f", "type": "noun"},
+    {"id": 34, "target": "la baja por enfermedad", "source": "sick leave", "gender": "f", "type": "phrase"},
+    {"id": 35, "target": "las vacaciones", "source": "vacations", "gender": "f", "type": "noun"},
+    {"id": 36, "target": "el sueldo / el salario", "source": "salary", "gender": "m", "type": "noun"},
+    {"id": 37, "target": "el salario mínimo", "source": "minimum wage", "gender": "m", "type": "phrase"},
+    {"id": 38, "target": "el bono", "source": "bonus", "gender": "m", "type": "noun"},
+    {"id": 39, "target": "la remuneración", "source": "remuneration / pay", "gender": "f", "type": "noun"},
+    {"id": 40, "target": "la formación", "source": "training", "gender": "f", "type": "noun"},
+    {"id": 41, "target": "la capacitación", "source": "training / skills development", "gender": "f", "type": "noun"},
+    {"id": 42, "target": "la reunión de equipo", "source": "team meeting", "gender": "f", "type": "phrase"},
+    {"id": 43, "target": "la videoconferencia", "source": "video conference", "gender": "f", "type": "noun"},
+    {"id": 44, "target": "el teletrabajo", "source": "remote work", "gender": "m", "type": "noun"},
+    {"id": 45, "target": "la reunión telefónica", "source": "phone call meeting", "gender": "f", "type": "phrase"},
+    {"id": 46, "target": "el orden del día", "source": "agenda / order of the day", "gender": "m", "type": "phrase"},
+    {"id": 47, "target": "el acta", "source": "meeting minutes", "gender": "f", "type": "noun"},
+    {"id": 48, "target": "la estrategia", "source": "strategy", "gender": "f", "type": "noun"},
+    {"id": 49, "target": "el plan de acción", "source": "action plan", "gender": "m", "type": "phrase"},
+    {"id": 50, "target": "la competencia", "source": "competition", "gender": "f", "type": "noun"},
+    {"id": 51, "target": "el mercado", "source": "market", "gender": "m", "type": "noun"},
+    {"id": 52, "target": "el sector", "source": "sector / industry", "gender": "m", "type": "noun"},
+    {"id": 53, "target": "la industria", "source": "industry", "gender": "f", "type": "noun"},
+    {"id": 54, "target": "el emprendedor / la emprendedora", "source": "entrepreneur", "gender": "m/f", "type": "noun"},
+    {"id": 55, "target": "la empresa", "source": "company / business", "gender": "f", "type": "noun"},
+    {"id": 56, "target": "la compañía", "source": "company", "gender": "f", "type": "noun"},
+    {"id": 57, "target": "la corporación", "source": "corporation", "gender": "f", "type": "noun"},
+    {"id": 58, "target": "el socio / la socia", "source": "partner / business partner", "gender": "m/f", "type": "noun"},
+    {"id": 59, "target": "el inversionista", "source": "investor", "gender": "m", "type": "noun"},
+    {"id": 60, "target": "la inversión", "source": "investment", "gender": "f", "type": "noun"},
+    {"id": 61, "target": "reunirse", "source": "to meet (as a group)", "gender": "v.", "type": "verb"},
+    {"id": 62, "target": "presentar", "source": "to present", "gender": "v.", "type": "verb"},
+    {"id": 63, "target": "informar", "source": "to inform / report", "gender": "v.", "type": "verb"},
+    {"id": 64, "target": "negociar", "source": "to negotiate", "gender": "v.", "type": "verb"},
+    {"id": 65, "target": "proponer", "source": "to propose", "gender": "v.", "type": "verb"},
+    {"id": 66, "target": "acordar", "source": "to agree on / to settle", "gender": "v.", "type": "verb"},
+    {"id": 67, "target": "decidir", "source": "to decide", "gender": "v.", "type": "verb"},
+    {"id": 68, "target": "organizar", "source": "to organize", "gender": "v.", "type": "verb"},
+    {"id": 69, "target": "gestionar", "source": "to manage / to handle", "gender": "v.", "type": "verb"},
+    {"id": 70, "target": "implementar", "source": "to implement", "gender": "v.", "type": "verb"},
+    {"id": 71, "target": "cumplir (con un plazo)", "source": "to meet (a deadline)", "gender": "v.", "type": "verb"},
+    {"id": 72, "target": "seguir una instrucción", "source": "to follow instructions", "gender": "v.", "type": "phrase"},
+    {"id": 73, "target": "dar las gracias", "source": "to thank (formal)", "gender": "v.", "type": "phrase"},
+    {"id": 74, "target": "pedir permiso", "source": "to ask for permission", "gender": "v.", "type": "phrase"},
+    {"id": 75, "target": "tomar la palabra", "source": "to take the floor", "gender": "v.", "type": "phrase"},
+    {"id": 76, "target": "intervenir en la reunión", "source": "to intervene in the meeting", "gender": "v.", "type": "phrase"},
+    {"id": 77, "target": "solicitar", "source": "to request (formal)", "gender": "v.", "type": "verb"},
+    {"id": 78, "target": "autorizar", "source": "to authorize", "gender": "v.", "type": "verb"},
+    {"id": 79, "target": "aprobar", "source": "to approve", "gender": "v.", "type": "verb"},
+    {"id": 80, "target": "rechazar", "source": "to reject / to decline", "gender": "v.", "type": "verb"},
+    {"id": 81, "target": "profesional", "source": "professional", "gender": "—", "type": "adj"},
+    {"id": 82, "target": "eficiente", "source": "efficient", "gender": "—", "type": "adj"},
+    {"id": 83, "target": "productivo/a", "source": "productive", "gender": "m/adj.", "type": "adj"},
+    {"id": 84, "target": "exigente", "source": "demanding (challenging)", "gender": "—", "type": "adj"},
+    {"id": 85, "target": "responsable", "source": "responsible", "gender": "—", "type": "adj"},
+    {"id": 86, "target": "comprometido/a", "source": "committed / dedicated", "gender": "m/adj.", "type": "adj"},
+    {"id": 87, "target": "confiable", "source": "reliable / trustworthy", "gender": "—", "type": "adj"},
+    {"id": 88, "target": "competente", "source": "competent", "gender": "—", "type": "adj"},
+    {"id": 89, "target": "formal", "source": "formal", "gender": "—", "type": "adj"},
+    {"id": 90, "target": "cortés", "source": "polite", "gender": "—", "type": "adj"},
+    {"id": 91, "target": "educado/a", "source": "polite / well-mannered", "gender": "m/adj.", "type": "adj"},
+    {"id": 92, "target": "amable", "source": "kind / friendly", "gender": "—", "type": "adj"},
+    {"id": 93, "target": "claro/a", "source": "clear", "gender": "m/adj.", "type": "adj"},
+    {"id": 94, "target": "detallado/a", "source": "detailed", "gender": "m/adj.", "type": "adj"},
+    {"id": 95, "target": "urgente", "source": "urgent", "gender": "—", "type": "adj"},
+    {"id": 96, "target": "importante", "source": "important", "gender": "—", "type": "adj"},
+    {"id": 97, "target": "necesario/a", "source": "necessary", "gender": "m/adj.", "type": "adj"},
+    {"id": 98, "target": "obligatorio/a", "source": "mandatory / obligatory", "gender": "m/adj.", "type": "adj"},
+    {"id": 99, "target": "disponible", "source": "available", "gender": "—", "type": "adj"},
+    {"id": 100, "target": "disponer de algo", "source": "to have something available", "gender": "v.", "type": "phrase"}
+  ],
+  "grammar": [
+    {
+      "title": "Formal Address — Usted, Ustedes, and Polite Commands in Professional Settings",
+      "content": "In professional Spanish, the formal register (usted/ustedes) is essential. Understanding when and how to use formal address is crucial for workplace communication.\n\n**Usted (formal singular 'you')**\nConjugation follows the third-person singular (él/ella):\n- ¿Podría ayudarme, señor García? (Could you help me, Mr. García?)\n- La señora López dice que la reunión es a las nueve. (Ms. López says the meeting is at nine.)\n- ¿Dónde está el informe que usted solicitó? (Where is the report you requested?)\n\n**Ustedes (formal plural 'you')**\nConjugation follows the third-person plural (ellos/ellas):\n- ¿Podrían firmar este documento? (Could you sign this document?)\n- Los clientes esperan una respuesta. (The clients are expecting a response.)\n- ¿Han recibido el correo electrónico que les enviamos? (Have you received the email we sent you?)\n\n**Polite Imperative (Usted/Ustedes commands)**\n- Usted: -e for -ar verbs, -a for -er/-ir verbs\n  - presente el informe (present the report)\n  - firme aquí (sign here)\n  - espere un momento (wait a moment)\n- Ustedes: -en for -ar verbs, -an for -er/-ir verbs\n  - firmen todos (everyone sign)\n  - revisen el documento (review the document)\n\n**Polite Expressions in Professional Communication:**\n- Por favor, ¿podría...? (Could you please...?)\n- Le agradecería si... (I would appreciate it if you...)\n- Sería posible...? (Would it be possible...?)\n- Agradecemos su atención. (We thank you for your attention.)\n- Quedo a su disposición. (I remain at your disposal.)",
+      "table": {
+        "headers": ["Context", "Informal (Tú)", "Formal (Usted)", "Translation"],
+        "rows": [
+          ["Request", "¿Me ayudas?", "¿Podría ayudarme?", "Could you help me?"],
+          ["Command", "Firma aquí", "Firme aquí", "Sign here (formal)"],
+          ["Question", "¿Dónde está tu informe?", "¿Dónde está su informe?", "Where is your report?"],
+          ["Thank you", "Gracias por tu ayuda", "Le agradezco su ayuda", "Thank you for your help"],
+          ["Invitation", "Ven a la reunión", "Venga a la reunión", "Come to the meeting (formal)"],
+          ["Acknowledgment", "Entiendo lo que dices", "Entiendo lo que dice usted", "I understand what you're saying"]
+        ]
+      },
+      "examples": [
+        "Señor Martínez, le agradecería si pudiera revisar el informe antes de la reunión de mañana. Sería posible enviarlo hoy por la tarde? Quedo a su disposición para cualquier consulta.",
+        "Buenos días, señores. Les informo que la reunión del equipo se ha pospuesto para las tres de la tarde. Por favor, preparen sus presentaciones antes de la sesión.",
+        "Estimada Directora López, me comunico con usted para informarle que el presupuesto del proyecto ha sido aprobado. Le adjunto el documento detallado para su revisión. Atentamente, [Nombre]"
+      ],
+      "aid_note": "Romanian also uses formal address: 'dumneavoastră' = usted, 'dumneavoastră (plural)' = ustedes. The formal imperative in Romanian uses 'să + verb': 'Vă rog să semnați aici' → 'Por favor, firme aquí'. Romanian formal pronouns mirror Spanish formality in professional contexts, making this grammar point transferable."
+    },
+    {
+      "title": "Business Emails — Structure, Formulas, and Register",
+      "content": "Writing professional emails in Spanish follows specific conventions. Understanding email structure, formal openings, and closings is essential for workplace communication.\n\n**Email Structure:**\n\n1. **Saludo (Greeting):**\n   - Estimado/a [Nombre]: (Dear [Name]:) — most common formal\n   - Estimados señores: (Dear Sir/Madam:) — formal group\n   - Buenos días/tardes, [Nombre]: (Good morning/afternoon,) — semi-formal\n   - Hola [Nombre]: (Hi [Name],) — informal, close colleagues\n\n2. **Cuerpo (Body):**\n   - State purpose clearly: 'Le escribo para...' (I am writing to...)\n   - Provide details: 'Quisiera informarle que...' (I would like to inform you that...)\n   - Request action: 'Le agradecería si pudiera...' (I would appreciate it if you could...)\n   - Express gratitude: 'Agradeciendo de antemano su respuesta...' (Thanking you in advance for your response...)\n\n3. **Cierre (Closing):**\n   - Atentamente, (Sincerely,) — most common\n   - Cordialmente, (Kind regards,) — semi-formal\n   - Saludos cordiales, (Best regards,) — formal\n   - Quedo a la espera de su respuesta. (I await your response.)\n   - Sin otro particular, quedo a su disposición. (Without further ado, I remain at your disposal.)\n\n**Key Email Phrases:**\n- Adjunto encontrará... (Attached you will find...)\n- Le informo que... (I inform you that...)\n- Le comunico que... (I communicate to you that...)\n- Le rogamos que... (We request that you...)\n- Le agradecemos su colaboración. (We thank you for your cooperation.)\n- Le reitero mi consideración. (I reiterate my regards.)\n\n**Common Email Subject Lines (Asunto):**\n- Asunto: Informe mensual — [Mes, Año]\n- Asunto: Solicitud de reunión\n- Asunto: Re: Presupuesto del proyecto\n- Asunto: Urgente: Confirmación de asistencia",
+      "table": {
+        "headers": ["Element", "Formal Expression", "Usage"],
+        "rows": [
+          ["Greeting", "Estimado Sr. García:", "Standard formal opening"],
+          ["Purpose", "Le escribo para informarle...", "State reason for writing"],
+          ["Request", "Le agradecería si pudiera...", "Polite request"],
+          ["Attachment", "Adjunto encontrará el informe", "Reference attachment"],
+          ["Closing", "Atentamente,", "Standard formal closing"],
+          ["Follow-up", "Quedo a la espera de su respuesta", "Prompt for response"]
+        ]
+      },
+      "examples": [
+        "Estimada Sra. Rodríguez:\n\nLe escribo para informarle que el informe de ventas del segundo trimestre ha sido completado. Adjunto encontrará el documento con todos los datos detallados y las recomendaciones para el próximo trimestre.\n\nLe agradecería si pudiera revisarlo antes de la reunión del viernes. Quedo a su disposición para cualquier consulta.\n\nAtentamente,\nCarlos Méndez",
+        "Estimados señores:\n\nNos ponemos en contacto con ustedes para solicitar una reunión con el fin de discutir la propuesta de colaboración que les enviamos la semana pasada.\n\nLes rogamos que nos indiquen su disponibilidad para la próxima semana. Agradecemos de antemano su respuesta.\n\nSaludos cordiales,\nEquipo de Desarrollo"
+      ],
+      "aid_note": "Romanian formal emails follow similar structure: 'Stimate domnule/stimată doamnă' → 'Estimado Sr./Sra.'; 'Vă scriu pentru a vă informa că' → 'Le escribo para informarle que'; 'Vă mulțumesc anticipat' → 'Agradeciendo de antemano'. Both languages use formal 'you' consistently in professional email communication."
+    },
+    {
+      "title": "Meeting Vocabulary and Turn-Taking Expressions",
+      "content": "Participating effectively in meetings requires knowing how to enter the conversation, express agreement or disagreement, and guide the discussion. These skills are essential at B1 level.\n\n**Opening a Meeting:**\n- Buenas tardes a todos. Gracias por venir. (Good afternoon everyone. Thank you for coming.)\n- Comencemos la reunión. (Let's start the meeting.)\n- El orden del día de hoy es... (Today's agenda is...)\n- Antes de empezar, tengo que presentar a [Persona]. (Before starting, I need to introduce [Person].)\n\n**Intervening in a Meeting:**\n- ¿Podría añadir algo? (Could I add something?)\n- Me gustaría comentar... (I would like to comment...)\n- Si me permiten, quisiera hacer una pregunta. (If you allow me, I'd like to ask a question.)\n- Quisiera intervenir en este punto. (I would like to intervene on this point.)\n- ¿Podemos volver al tema del...? (Can we return to the topic of...?)\n\n**Expressing Agreement:**\n- Estoy de acuerdo con usted. (I agree with you.)\n- Comparto esa opinión. (I share that opinion.)\n- Creo que tiene razón. (I think you are right.)\n- Exacto / Precisamente. (Exactly / Precisely.)\n- Eso es correcto. (That's correct.)\n\n**Expressing Disagreement (Politely):**\n- No estoy de acuerdo con esa opinión. (I don't agree with that opinion.)\n- Me temo que no comparto esa visión. (I'm afraid I don't share that view.)\n- Permítame discrepar. (Allow me to disagree.)\n- Entiendo su punto de vista, pero... (I understand your point of view, but...)\n- Tengo una perspectiva diferente. (I have a different perspective.)\n\n**Summarizing and Concluding:**\n- Para resumir, lo más importante es... (To summarize, the most important thing is...)\n- En conclusión, hemos acordado que... (In conclusion, we have agreed that...)\n- Para cerrar la reunión, les recuerdo que... (To close the meeting, I remind you that...)\n- La próxima reunión será el... (The next meeting will be on...)\n- Muchas gracias a todos por su participación. (Thank you all for your participation.)\n\n**Guiding the Discussion:**\n- Pasemos al siguiente punto. (Let's move to the next point.)\n- ¿Alguien tiene algo que añadir? (Does anyone have anything to add?)\n- Dejemos ese tema para más tarde. (Let's leave that topic for later.)\n- Hemos agotado este tema. (We have exhausted this topic.)",
+      "table": {
+        "headers": ["Function", "Spanish Expression", "Context"],
+        "rows": [
+          ["Opening", "Comencemos la reunión", "Starting the meeting"],
+          ["Intervening", "¿Podría añadir algo?", "Wanting to contribute"],
+          ["Agreeing", "Estoy de acuerdo con usted", "Formal agreement"],
+          ["Disagreeing", "Me temo que no comparto esa visión", "Polite disagreement"],
+          ["Summarizing", "Para resumir, lo más importante es...", "Wrapping up discussion"],
+          ["Concluding", "La próxima reunión será el...", "Setting next meeting"]
+        ]
+      },
+      "examples": [
+        "Buenos días a todos. Gracias por asistir a esta reunión. El orden del día de hoy es revisar el presupuesto del tercer trimestre y planificar las actividades para octubre. Comencemos con el primer punto.",
+        "— Señor Martínez, ¿qué opinión tiene sobre la propuesta?\n— Me gustaría intervenir en este punto. Estoy de acuerdo con la dirección general, pero me temo que no comparto la visión sobre el presupuesto asignado. Creo que necesitamos más recursos.",
+        "Para resumir, hemos acordado que el equipo de marketing presentará una nueva propuesta para el viernes. La próxima reunión será el lunes a las diez de la mañana. Muchas gracias a todos por su participación."
+      ],
+      "aid_note": "Romanian meetings use similar conventions: 'Să începem ședința' → 'Comencemos la reunión'; 'Aș dori să adaug ceva' → 'Me gustaría añadir algo'; 'Sunt de acord cu dumneavoastră' → 'Estoy de acuerdo con usted'; 'Îmi pare rău, dar nu sunt de acord' → 'Me temo que no comparto'. The formal register is equally important in Romanian professional meetings."
+    },
+    {
+      "title": "Negotiation Language and Conditional Structures",
+      "content": "Negotiation at B1 level involves expressing conditions, making offers, and handling compromises using conditional structures and the subjunctive for hypothetical situations.\n\n**Conditional for Polite Offers and Requests:**\n- ¿Sería posible ampliar el plazo? (Would it be possible to extend the deadline?)\n- Nos gustaría proponer un precio diferente. (We would like to propose a different price.)\n- Podríamos ofrecer un descuento del diez por ciento. (We could offer a ten percent discount.)\n- ¿Qué tal si firmamos un contrato de dos años? (What if we signed a two-year contract?)\n- Aceptaríamos la propuesta si se incluyera el servicio técnico. (We would accept the proposal if technical service were included.)\n\n**Subjunctive in Conditional Clauses (Si + Imperfect Subjunctive + Conditional):**\n- Si contratáramos más personal, podríamos cumplir los plazos. (If we hired more staff, we could meet the deadlines.)\n- Si el precio fuera más bajo, estaríamos interesados. (If the price were lower, we would be interested.)\n- Si nos proporcionaran más información, podríamos tomar una decisión. (If they provided us with more information, we could make a decision.)\n\n**Negotiation Vocabulary:**\n- Hacer una oferta: to make an offer\n- Contraoferta: counteroffer\n- Llegar a un acuerdo: to reach an agreement\n- Hacer concesiones: to make concessions\n- Negociar los términos: to negotiate the terms\n- Las condiciones del contrato: the contract terms\n- Un acuerdo mutuamente beneficioso: a mutually beneficial agreement\n\n**Key Negotiation Expressions:**\n- Estamos dispuestos a... (We are willing to...)\n- Nuestra propuesta es... (Our proposal is...)\n- ¿Qué puede ofrecer a cambio? (What can you offer in return?)\n- Necesitamos llegar a un acuerdo. (We need to reach an agreement.)\n- Propongo lo siguiente: (I propose the following:)\n- Podemos ser flexibles en... (We can be flexible on...)\n- Eso es inaceptable. (That's unacceptable.)",
+      "table": {
+        "headers": ["Situation", "Conditional Expression", "Subjunctive Condition"],
+        "rows": [
+          ["Making an offer", "Nos gustaría proponer...", "Si aceptan nuestra oferta,"],
+          ["Counteroffer", "Podríamos ofrecer...", "Si bajaran el precio,"],
+          ["Accepting", "Aceptaríamos la propuesta...", "Si incluyeran el servicio,"],
+          ["Rejecting", "Lamentablemente, no podemos...", "Si no pueden mejorar,"],
+          ["Compromise", "Estamos dispuestos a...", "Si llegamos a un acuerdo,"],
+          ["Deadline", "El plazo sería de...", "Si firmamos hoy,"]
+        ]
+      },
+      "examples": [
+        "Estimado señor Ramírez, nos gustaría proponer las siguientes condiciones para la colaboración: un contrato de dos años con un descuento del quince por ciento para pedidos mensuales superiores a cinco mil euros. ¿Sería posible considerar esta propuesta?\n\nSi contratáramos a su empresa como proveedor oficial, podríamos garantizar pedidos regulares. Sin embargo, si el precio fuera demasiado elevado, tendríamos que considerar otras opciones.",
+        "— Nuestra contraoferta es de ochocientos euros mensuales, incluyendo el mantenimiento técnico.\n— Entiendo su posición, pero nos gustaría llegar a un acuerdo mutuamente beneficioso. ¿Qué tal si firmamos un contrato de tres años a novecientos euros?\n— Si firmamos un contrato de esa duración, estaríamos dispuestos a aceptar su propuesta."
+      ],
+      "aid_note": "Romanian conditionals map directly: 'Am dori să propunem' → 'Nos gustaría proponer'; 'Dacă am angaja mai mulți oameni' → 'Si contratáramos más personal'; 'Am accepta oferta dacă' → 'Aceptaríamos la propuesta si'; 'Am fi dispuși să' → 'Estamos dispuestos a'. Romanian also uses 'dacă + subjunctive' for hypothetical conditions, very similar to Spanish 'si + imperfect subjunctive.'"
+    },
+    {
+      "title": "Presenting Data and Ideas — Sequence Connectors and Reporting Verbs",
+      "content": "Effective presentations at B1 level require clear structure, appropriate connectors, and the ability to report information. This grammar covers reporting verbs and sequencing language.\n\n**Reporting Verbs for Presenting Information:**\n- El informe muestra que... (The report shows that...)\n- Los datos indican que... (The data indicate that...)\n- Podemos observar que... (We can observe that...)\n- Según nuestro estudio, ... (According to our study,...)\n- Se ha detectado un aumento de... (An increase in... has been detected)\n- Hay que tener en cuenta que... (We must take into account that...)\n- Es importante señalar que... (It is important to note that...)\n\n**Sequences in Presentations:**\n- Primera diapositiva: En primer lugar, vamos a ver... (First slide: First, let's look at...)\n- Segunda diapositiva: En segundo lugar,... / A continuación,... (Second slide: Second,... / Next,...)\n- Tercera diapositiva: En tercer lugar,... / Por último,... (Third slide: Third,... / Finally,...)\n- Introducción: Antes de empezar, me gustaría presentar... (Introduction: Before starting, I'd like to present...)\n- Desarrollo: Vamos a analizar los datos del último trimestre. (Body: Let's analyze last quarter's data.)\n- Conclusión: Para terminar, quiero destacar que... (Conclusion: To finish, I want to highlight that...)\n\n**Describing Trends (Very important for business presentations):**\n- Aumentar: to increase — Los ingresos aumentaron un diez por ciento.\n- Disminuir: to decrease — Las ventas disminuyeron en un cinco por ciento.\n- Estabilizarse: to stabilize — Los precios se estabilizaron.\n- Fluctuar: to fluctuate — Los precios fluctuaron durante todo el año.\n- Crecer: to grow — La empresa ha crecido un quince por ciento.\n- Caer: to fall — Los beneficios cayeron un diez por ciento.\n\n**Reference Expressions:**\n- Como pueden ver en esta diapositiva,... (As you can see on this slide,...)\n- La gráfica muestra que,... (The chart shows that,...)\n- El gráfico indica una tendencia al alza/baja. (The graph indicates an upward/downward trend.)\n- Respecto a... / En cuanto a... (Regarding... / As for...)\n- En comparación con... (Compared with...)\n- Un porcentaje significativo de... (A significant percentage of...)",
+      "table": {
+        "headers": ["Function", "Spanish Expression", "Example"],
+        "rows": [
+          ["Opening", "En primer lugar, vamos a...", "First, let's look at..."],
+          ["Presenting data", "Los datos muestran que...", "The data shows that..."],
+          ["Describing trend", "Los ingresos aumentaron un 10%", "Revenue increased by 10%"],
+          ["Comparing", "En comparación con el año anterior", "Compared to last year"],
+          ["Concluding", "Para terminar, quiero destacar", "To finish, I want to highlight"]
+        ]
+      },
+      "examples": [
+        "Buenas tardes. Antes de empezar, me gustaría presentar el objetivo de esta presentación: analizar los resultados del primer trimestre y proponer estrategias para el segundo. En primer lugar, vamos a ver los datos de ventas. Los datos indican que los ingresos aumentaron un doce por ciento respecto al trimestre anterior. En segundo lugar, analizaremos los gastos. Como pueden observar en esta gráfica, los costos se estabilizaron gracias a las medidas de eficiencia implementadas. Para terminar, quiero destacar que, según nuestras proyecciones, el próximo trimestre será positivo si mantenemos esta estrategia.",
+        "Según nuestro estudio de mercado, hay que tener en cuenta que los consumidores están cambiando sus hábitos de compra. Es importante señalar que el comercio electrónico ha crecido un veinticinco por ciento. En cuanto a la competencia, podemos observar que nuestros principales competidores están invirtiendo fuertemente en tecnología. Respecto a las proyecciones, el mercado muestra una tendencia al alza sostenida."
+      ],
+      "aid_note": "Romanian presentations use similar sequencing: 'În primul rând' → 'En primer lugar'; 'Conform studiului nostru' → 'Según nuestro estudio'; 'Datele arată că' → 'Los datos muestran que'; 'Pentru a încheia' → 'Para terminar'. Romanian reporting verbs work similarly: 'datele indică' → 'los datos indican'; 'putem observa' → 'podemos observar'. Both languages follow the same presentation structure conventions in professional settings."
+    }
+  ],
+  "pronunciation": [
+    {
+      "title": "Pronunciation of Professional and Business Vocabulary",
+      "content": "Business Spanish includes many loanwords and specific pronunciation patterns. Mastering these sounds ensures clear professional communication.\n\n1. **The 'ñ' sound (palatal nasal):**\n   - El niño (child) → nyeh-NYO (palatal nasal, like 'ny' in 'canyon')\n   - La reunión (meeting) → reh-oo-NEE-ohn\n   - Ingeniero (engineer) → een-hay-nee-EH-roh\n   - Corriente (current/flow) → ko-REE-en-teh\n\n2. **The 'll' / 'y' sound (yeísmo):**\n   - La oficina → lah oh-fee-SEE-na (ll = y sound)\n   - El año → el AH-nyo (ll = y sound)\n   - La reunión → reh-oo-NEE-ohn (ll not present, but note the ü is silent)\n   - In most Spanish regions, 'll' and 'y' are pronounced identically\n\n3. **Silent 'u' after 'q' and 'g' (the diaeresis ü):**\n   - La negociación → lah neh-go-see-ah-SEE-ohn (ü is silent)\n   - Cambiar → cam-BYAR (ü is silent before e/i)\n   - Pingüino → peen-gee-EE-no (ü IS pronounced — breaks the rule)\n\n4. **Stress in business vocabulary:**\n   - El contrato → el kon-TRAH-toh (stress on penultimate)\n   - La negociación → lah neh-go-see-ah-SEE-ohn (stress on last, written accent)\n   - El presupuesto → el preh-su-pwee-STOH (stress on penultimate)\n   - El cliente → el KLEE-en-teh (stress on penultimate)\n   - La estrategia → lah eh-stra-TEH-hee-ah (stress on penultimate)\n   - El horario → el oh-RAH-ree-oh (stress on penultimate)\n\n5. **The 'c' before 'e'/'i' (Spain: th, Latin America: s):**\n   - El cliente → el KLEE-en-teh (LatAm: KLEE-SEN-teh)\n   - La negociación → lah neh-go-see-ah-SEE-ohn (both: th/s)\n   - El correo → el ko-REH-oh (no c before e/i issue — it's before 'o')\n\n6. **The 'j' sound (hard 'h'):**\n   - La jornada → lah HOR-hah-dah\n   - El jefe → el JHEH-feh (hard h, like 'h' in 'hat')\n   - El horario → el oh-RAH-ree-oh (j before o = hard h)\n   - La reunión → reh-oo-NEE-ohn (no j)\n\n7. **The 'v' / 'b' sound (identical in most regions):**\n   - El contrato → el kon-TRAH-toh (b = soft 'b' between vowels)\n   - El trabajo → el trah-BAH-hoh (b = soft 'b' between vowels)\n   - La oferta → lah oh-FER-tah (b/v = same sound)\n\n8. **Silent 'h':**\n   - La hoja → lah OH-hah (h is silent)\n   - El horario → el oh-RAH-ree-oh (h is silent)\n   - La empresa → lah em-PREH-sah (h is silent)\n   - El hotel → el oh-TEL (h is silent)",
+      "examples": [
+        "reunión = reh-oo-NEE-ohn (stress on 'nee', ü is silent, ó has written accent)",
+        "negociación = neh-go-see-ah-SEE-ohn (stress on 'see', ó has written accent)",
+        "contrato = kon-TRAH-toh (stress on 'trah', c before o = hard 'k')",
+        "cliente = KLEE-en-teh (Spain: KLYEH-en-teh, Latin America: KLEE-SEN-teh)",
+        "horario = oh-RAH-ree-oh (h is silent, j = hard h)",
+        "oferta = oh-FER-tah (f between vowels = soft f)",
+        "estrategia = eh-stra-TEH-hee-ah (stress on 'teh', g = soft 'h' sound before e)",
+        "informativo = een-for-mah-TEE-vo (f after m = soft f, v = same as b)"
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "fill-in-blank",
+      "question": "Complete the email: 'Estimado Sr. García, le escribo para informarle que el informe está ___________ (ready/available).' (listo)",
+      "correct": "listo",
+      "explanation": "'Listo' means 'ready' or 'done'. 'El informe está listo' = 'The report is ready.'"
+    },
+    {
+      "type": "exercise",
+      "question": "Which is the correct formal command (usted) for 'firmar' (to sign)?",
+      "options": [
+        "¡Firma aquí!",
+        "¡Firme aquí!",
+        "¡Firmas aquí!",
+        "¡Firmen aquí!"
+      ],
+      "correct": 1,
+      "explanation": "The usted command of 'firmar' is 'firme' (-e ending for -ar verbs). '¡Firme aquí!' = 'Sign here (formal).'"
+    },
+    {
+      "type": "exercise",
+      "question": "How do you say 'I would like to propose' formally?",
+      "options": [
+        "Quiero proponer",
+        "Me gustaría proponer",
+        "Voy a proponer",
+        "Quiero que propongas"
+      ],
+      "correct": 1,
+      "explanation": "'Me gustaría proponer' uses the conditional form of 'gustar', which is the most polite and professional way to express a proposal."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete the meeting expression: 'Buenos días a todos. Gracias por ___________ a esta reunión. (venir/attend)' (venir)",
+      "correct": "venir",
+      "explanation": "'Gracias por venir' = 'Thanks for coming'. 'Venir' is the infinitive of 'to come'. In formal contexts, 'asistir' could also be used: 'Gracias por asistir'."
+    },
+    {
+      "type": "exercise",
+      "question": "Which sentence correctly uses the conditional for a polite request?",
+      "options": [
+        "¿Podría ayudarme con este informe?",
+        "¿Puede ayudarme con este informe?",
+        "¿Puedes ayudarme con este informe?",
+        "¿Podías ayudarme con este informe?"
+      ],
+      "correct": 0,
+      "explanation": "'¿Podría ayudarme?' uses the conditional (would you be able to) plus the formal usted command, making it the most polite request form."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: 'Para ___________, quiero destacar que los ingresos aumentaron un 10%. (resumir/summarize)' (resumir)",
+      "correct": "resumir",
+      "explanation": "'Para resumir' = 'To summarize'. This is a common phrase used to conclude or summarize a presentation or meeting."
+    },
+    {
+      "type": "exercise",
+      "question": "What does 'la negociación' mean?",
+      "options": [
+        "negotiation",
+        "negligence",
+        "negotiator",
+        "negotiable"
+      ],
+      "correct": 0,
+      "explanation": "'La negociación' = 'the negotiation'. It comes from the verb 'negociar' (to negotiate)."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete the email closing: '___________ a su disposición. (Quedar)' (Quedo)",
+      "correct": "Quedo",
+      "explanation": "'Quedo a su disposición' = 'I remain at your disposal.' This is a standard formal email closing in Spanish business communication."
+    },
+    {
+      "type": "exercise",
+      "question": "Which expression means 'to reach an agreement'?",
+      "options": [
+        "llegar a un acuerdo",
+        "llegar a un fin",
+        "llegar a una conclusión",
+        "llegar a un resultado"
+      ],
+      "correct": 0,
+      "explanation": "'Llegar a un acuerdo' = 'to reach an agreement'. This is the standard phrase used in business and negotiation contexts."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete the conditional clause: 'Si ___________ (contratar) más personal, podríamos cumplir los plazos.' (contratáramos)",
+      "correct": "contratáramos",
+      "explanation": "The imperfect subjunctive 'contratáramos' (if we hired) is used with the conditional 'podríamos' (we could) to express a hypothetical situation."
+    },
+    {
+      "type": "exercise",
+      "question": "Which is the correct way to express 'to present a report' in a professional context?",
+      "options": [
+        "hacer un informe",
+        "presentar un informe",
+        "dar un informe",
+        "mostrar un informe"
+      ],
+      "correct": 1,
+      "explanation": "'Presentar un informe' = 'to present a report'. This is the standard professional expression for giving a formal presentation of data or findings."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: 'Los datos ___________ que las ventas aumentaron. (indicate)' (indican)",
+      "correct": "indican",
+      "explanation": "'Indican' is the third-person plural of 'indicar' (to indicate). 'Los datos indican que' = 'The data indicate that.'"
+    },
+    {
+      "type": "exercise",
+      "question": "What is the formal plural command for 'revisar' (to review)?",
+      "options": [
+        "¡Revisa!",
+        "¡Revise!",
+        "¡Revisen!",
+        "¡Revisáis!"
+      ],
+      "correct": 2,
+      "explanation": "The ustedes command of 'revisar' is 'revisen' (-en ending for -ar verbs). '¡Revisen el documento!' = 'Review the document!'"
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete the email opening: '___________ Sr. Martínez, le escribo para...' (Estimado)",
+      "correct": "Estimado",
+      "explanation": "'Estimado Sr. Martínez' = 'Dear Mr. Martínez'. This is the most common formal email opening in Spanish business communication."
+    },
+    {
+      "type": "exercise",
+      "question": "Which phrase means 'to take the floor' (in a meeting)?",
+      "options": [
+        "tomar la palabra",
+        "tomar la decisión",
+        "tomar el control",
+        "tomar la reunión"
+      ],
+      "correct": 0,
+      "explanation": "'Tomar la palabra' = 'to take the floor'. This is the standard expression used in meetings when someone wants to speak."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: '___________ a su disposición para cualquier consulta. (Quedar)' (Quedo)",
+      "correct": "Quedo",
+      "explanation": "'Quedo a su disposición' = 'I remain at your disposal'. This is a formal closing phrase used in professional emails and letters."
+    },
+    {
+      "type": "exercise",
+      "question": "Which expression means 'urgent'?",
+      "options": [
+        "importante",
+        "necesario",
+        "urgente",
+        "obligatorio"
+      ],
+      "correct": 2,
+      "explanation": "'Urgente' = 'urgent'. While 'importante' means important and 'necesario' means necessary, 'urgente' specifically means urgent."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: 'Si el precio ___________ (ser) más bajo, estaríamos interesados. (fuera/fuese)' (fuera)",
+      "correct": "fuera",
+      "explanation": "The imperfect subjunctive 'fuera' or 'fuese' of 'ser' is used in the si-clause with a conditional result. 'Si fuera más bajo' = 'If it were lower.'"
+    },
+    {
+      "type": "exercise",
+      "question": "What does 'el presupuesto' mean?",
+      "options": [
+        "the president",
+        "the budget",
+        "the prescription",
+        "the purpose"
+      ],
+      "correct": 1,
+      "explanation": "'El presupuesto' = 'the budget'. This is a fundamental term in business and financial contexts."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete the presentation: 'En primer ___________, vamos a ver los datos de ventas.' (lugar)",
+      "correct": "lugar",
+      "explanation": "'En primer lugar' = 'First' / 'First of all'. This is the standard opening sequence in Spanish presentations and formal speeches."
+    },
+    {
+      "type": "exercise",
+      "question": "Which is the correct formal greeting for a business email?",
+      "options": [
+        "Hola, ¿qué tal?",
+        "Estimado Sr. García:",
+        "Bueno, te escribo...",
+        "Hey, te mando el informe."
+      ],
+      "correct": 1,
+      "explanation": "'Estimado Sr. García:' is the standard formal business email greeting. The colon (:) after the name is the correct punctuation in Spanish formal correspondence."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: '___________ a todos por su participación. (Dar/Thank)' (Dar las gracias a)",
+      "correct": "Dar las gracias a",
+      "explanation": "'Dar las gracias a todos' = 'To thank everyone'. In the imperative: 'Den las gracias a todos' (ustedes) or in infinitive context: 'Quiero dar las gracias a todos'."
+    },
+    {
+      "type": "exercise",
+      "question": "How do you say 'the agenda' in Spanish?",
+      "options": [
+        "el orden del día",
+        "la lista",
+        "el calendario",
+        "el programa"
+      ],
+      "correct": 0,
+      "explanation": "'El orden del día' = 'the agenda' / 'the order of the day'. While 'la agenda' also means schedule/agenda, 'el orden del día' is the specific term for a meeting agenda."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete the negotiation: 'Estamos ___________ a firmar un contrato de dos años. (estar/ready to be willing)' (dispuestos)",
+      "correct": "dispuestos",
+      "explanation": "'Estamos dispuestos a' = 'We are willing to'. This is a key negotiation expression used to show flexibility and openness to compromise."
+    },
+    {
+      "type": "exercise",
+      "question": "What is the pronunciation of the 'ñ' in 'inglés' (English)?",
+      "options": [
+        "Like 'n' in 'no'",
+        "Like 'ny' in 'canyon'",
+        "Like 'gn' in 'sign'",
+        "Like 'nn' in 'cannon'"
+      ],
+      "correct": 1,
+      "explanation": "The Spanish 'ñ' is pronounced like 'ny' in 'canyon'. 'Inglés' = IN-glehss (Spain) or IN-gles (Latin America)."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete the presentation conclusion: 'Para ___________, quiero destacar que el equipo ha trabajado muy bien. (terminar)' (terminar)",
+      "correct": "terminar",
+      "explanation": "'Para terminar' = 'To finish' / 'To conclude'. This is a standard phrase used to wrap up presentations and meetings."
+    },
+    {
+      "type": "exercise",
+      "question": "Which verb means 'to manage' in a professional context?",
+      "options": [
+        "gestionar",
+        "generar",
+        "gastar",
+        "generar"
+      ],
+      "correct": 0,
+      "explanation": "'Gestionar' = 'to manage' / 'to handle'. It's used for managing projects, budgets, teams, and other professional responsibilities."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete the polite disagreement: 'Entiendo su punto de vista, pero tengo una ___________ diferente. (perspectiva)' (perspectiva)",
+      "correct": "perspectiva",
+      "explanation": "'Perspectiva' = 'perspective'. 'Tengo una perspectiva diferente' = 'I have a different perspective'. This is a polite way to express disagreement in professional settings."
+    },
+    {
+      "type": "exercise",
+      "question": "What does 'adjunto' mean in an email context?",
+      "options": [
+        "adjacent",
+        "attached (as a file)",
+        "adjourned",
+        "adjunct"
+      ],
+      "correct": 1,
+      "explanation": "In email context, 'adjunto' means 'attached' (a file). 'Adjunto encontrará el informe' = 'Attached you will find the report.'"
+    }
+  ]
+}

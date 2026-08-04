@@ -1,0 +1,370 @@
+{
+  "id": "cultural-criticism",
+  "level": "b1-2",
+  "title": "Cultural Criticism",
+  "description": "Critique and analyze cultural phenomena in Spanish — art, film, music, literature, and social practices. Learn the language of aesthetic judgment, cultural commentary, and critical thinking. This theme equips you to express informed opinions about the cultural products and practices of the Spanish-speaking world.",
+  "vocabulary": [
+    {"id": 1, "target": "la crítica cultural", "source": "cultural criticism", "gender": "f", "type": "noun"},
+    {"id": 2, "target": "la obra de arte", "source": "work of art", "gender": "f", "type": "noun"},
+    {"id": 3, "target": "la película", "source": "film / movie", "gender": "f", "type": "noun"},
+    {"id": 4, "target": "el artista", "source": "artist", "gender": "m", "type": "noun"},
+    {"id": 5, "target": "la artista", "source": "artist (female)", "gender": "f", "type": "noun"},
+    {"id": 6, "target": "el director", "source": "director (film/theater)", "gender": "m", "type": "noun"},
+    {"id": 7, "target": "la directora", "source": "director (film/theater, female)", "gender": "f", "type": "noun"},
+    {"id": 8, "target": "el actor", "source": "actor", "gender": "m", "type": "noun"},
+    {"id": 9, "target": "la actriz", "source": "actress", "gender": "f", "type": "noun"},
+    {"id": 10, "target": "la música", "source": "music", "gender": "f", "type": "noun"},
+    {"id": 11, "target": "el músico", "source": "musician", "gender": "m", "type": "noun"},
+    {"id": 12, "target": "la canción", "source": "song", "gender": "f", "type": "noun"},
+    {"id": 13, "target": "el álbum", "source": "album", "gender": "m", "type": "noun"},
+    {"id": 14, "target": "la escultura", "source": "sculpture", "gender": "f", "type": "noun"},
+    {"id": 15, "target": "la pintura", "source": "painting", "gender": "f", "type": "noun"},
+    {"id": 16, "target": "el cuadro", "source": "painting / picture", "gender": "m", "type": "noun"},
+    {"id": 17, "target": "el museo", "source": "museum", "gender": "m", "type": "noun"},
+    {"id": 18, "target": "la galería", "source": "gallery", "gender": "f", "type": "noun"},
+    {"id": 19, "target": "la exposición", "source": "exhibition", "gender": "f", "type": "noun"},
+    {"id": 20, "target": "el festival", "source": "festival", "gender": "m", "type": "noun"},
+    {"id": 21, "target": "la cultura popular", "source": "popular culture", "gender": "f", "type": "noun"},
+    {"id": 22, "target": "la alta cultura", "source": "high culture", "gender": "f", "type": "noun"},
+    {"id": 23, "target": "el patrimonio cultural", "source": "cultural heritage", "gender": "m", "type": "noun"},
+    {"id": 24, "target": "la identidad cultural", "source": "cultural identity", "gender": "f", "type": "noun"},
+    {"id": 25, "target": "la globalización", "source": "globalization", "gender": "f", "type": "noun"},
+    {"id": 26, "target": "el cine", "source": "cinema / film industry", "gender": "m", "type": "noun"},
+    {"id": 27, "target": "el teatro", "source": "theater", "gender": "m", "type": "noun"},
+    {"id": 28, "target": "la danza", "source": "dance", "gender": "f", "type": "noun"},
+    {"id": 29, "target": "la literatura", "source": "literature", "gender": "f", "type": "noun"},
+    {"id": 30, "target": "el género", "source": "genre", "gender": "m", "type": "noun"},
+    {"id": 31, "target": "la narrativa", "source": "narrative", "gender": "f", "type": "noun"},
+    {"id": 32, "target": "la estética", "source": "aesthetics", "gender": "f", "type": "noun"},
+    {"id": 33, "target": "el estilo", "source": "style", "gender": "m", "type": "noun"},
+    {"id": 34, "target": "la técnica", "source": "technique", "gender": "f", "type": "noun"},
+    {"id": 35, "target": "el movimiento artístico", "source": "art movement", "gender": "m", "type": "noun"},
+    {"id": 36, "target": "la vanguardia", "source": "avant-garde", "gender": "f", "type": "noun"},
+    {"id": 37, "target": "el realismo mágico", "source": "magical realism", "gender": "m", "type": "noun"},
+    {"id": 38, "target": "el surrealismo", "source": "surrealism", "gender": "m", "type": "noun"},
+    {"id": 39, "target": "el impresionismo", "source": "impressionism", "gender": "m", "type": "noun"},
+    {"id": 40, "target": "la abstracción", "source": "abstraction", "gender": "f", "type": "noun"},
+    {"id": 41, "target": "el muralismo", "source": "muralism", "gender": "m", "type": "noun"},
+    {"id": 42, "target": "la crítica de arte", "source": "art criticism", "gender": "f", "type": "noun"},
+    {"id": 43, "target": "la crítica cinematográfica", "source": "film criticism", "gender": "f", "type": "noun"},
+    {"id": 44, "target": "la crítica literaria", "source": "literary criticism", "gender": "f", "type": "noun"},
+    {"id": 45, "target": "el crítico", "source": "critic (male)", "gender": "m", "type": "noun"},
+    {"id": 46, "target": "la crítica", "source": "critic (female) / criticism", "gender": "f", "type": "noun"},
+    {"id": 47, "target": "el juicio estético", "source": "aesthetic judgment", "gender": "m", "type": "noun"},
+    {"id": 48, "target": "el gusto", "source": "taste (aesthetic)", "gender": "m", "type": "noun"},
+    {"id": 49, "target": "lo bello", "source": "the beautiful", "gender": "m", "type": "noun"},
+    {"id": 50, "target": "lo feo", "source": "the ugly", "gender": "m", "type": "noun"},
+    {"id": 51, "target": "la originalidad", "source": "originality", "gender": "f", "type": "noun"},
+    {"id": 52, "target": "la innovación", "source": "innovation", "gender": "f", "type": "noun"},
+    {"id": 53, "target": "la tradición", "source": "tradition", "gender": "f", "type": "noun"},
+    {"id": 54, "target": "la víspera", "source": "eve / threshold", "gender": "f", "type": "noun"},
+    {"id": 55, "target": "el mensaje", "source": "message", "gender": "m", "type": "noun"},
+    {"id": 56, "target": "la alegoría", "source": "allegory", "gender": "f", "type": "noun"},
+    {"id": 57, "target": "la sátira", "source": "satire", "gender": "f", "type": "noun"},
+    {"id": 58, "target": "la ironía", "source": "irony", "gender": "f", "type": "noun"},
+    {"id": 59, "target": "el simbolismo", "source": "symbolism", "gender": "m", "type": "noun"},
+    {"id": 60, "target": "la metáfora", "source": "metaphor", "gender": "f", "type": "noun"},
+    {"id": 61, "target": "la metonimia", "source": "metonymy", "gender": "f", "type": "noun"},
+    {"id": 62, "target": "la hipérbole", "source": "hyperbole", "gender": "f", "type": "noun"},
+    {"id": 63, "target": "la parodia", "source": "parody", "gender": "f", "type": "noun"},
+    {"id": 64, "target": "el cliché", "source": "cliché", "gender": "m", "type": "noun"},
+    {"id": 65, "target": "el estereotipo", "source": "stereotype", "gender": "m", "type": "noun"},
+    {"id": 66, "target": "la hegemonía cultural", "source": "cultural hegemony", "gender": "f", "type": "noun"},
+    {"id": 67, "target": "la apropiación cultural", "source": "cultural appropriation", "gender": "f", "type": "noun"},
+    {"id": 68, "target": "la diversidad cultural", "source": "cultural diversity", "gender": "f", "type": "noun"},
+    {"id": 69, "target": "la homogenización", "source": "homogenization", "gender": "f", "type": "noun"},
+    {"id": 70, "target": "la comercialización", "source": "commercialization", "gender": "f", "type": "noun"},
+    {"id": 71, "target": "criticar", "source": "to criticize", "gender": "v.", "type": "verb"},
+    {"id": 72, "target": "analizar", "source": "to analyze", "gender": "v.", "type": "verb"},
+    {"id": 73, "target": "interpretar", "source": "to interpret", "gender": "v.", "type": "verb"},
+    {"id": 74, "target": "comentar", "source": "to comment on", "gender": "v.", "type": "verb"},
+    {"id": 75, "target": "evaluar", "source": "to evaluate", "gender": "v.", "type": "verb"},
+    {"id": 76, "target": "valorar", "source": "to value / assess", "gender": "v.", "type": "verb"},
+    {"id": 77, "target": "juzgar", "source": "to judge", "gender": "v.", "type": "verb"},
+    {"id": 78, "target": "apreciar", "source": "to appreciate", "gender": "v.", "type": "verb"},
+    {"id": 79, "target": "cuestionar", "source": "to question / challenge", "gender": "v.", "type": "verb"},
+    {"id": 80, "target": "reflejar", "source": "to reflect", "gender": "v.", "type": "verb"},
+    {"id": 81, "target": "representar", "source": "to represent", "gender": "v.", "type": "verb"},
+    {"id": 82, "target": "transmitir", "source": "to convey / transmit", "gender": "v.", "type": "verb"},
+    {"id": 83, "target": "desafiar", "source": "to challenge", "gender": "v.", "type": "verb"},
+    {"id": 84, "target": "subvertir", "source": "to subvert", "gender": "v.", "type": "verb"},
+    {"id": 85, "target": "promover", "source": "to promote", "gender": "v.", "type": "verb"},
+    {"id": 86, "target": "conservar", "source": "to preserve", "gender": "v.", "type": "verb"},
+    {"id": 87, "target": "transformar", "source": "to transform", "gender": "v.", "type": "verb"},
+    {"id": 88, "target": "influir", "source": "to influence", "gender": "v.", "type": "verb"},
+    {"id": 89, "target": "impactar", "source": "to impact", "gender": "v.", "type": "verb"},
+    {"id": 90, "target": "suscitar", "source": "to evoke / arouse", "gender": "v.", "type": "verb"},
+    {"id": 91, "target": "innovador", "source": "innovative", "gender": "m/adj.", "type": "adj"},
+    {"id": 92, "target": "tradicional", "source": "traditional", "gender": "m/adj.", "type": "adj"},
+    {"id": 93, "target": "contemporáneo", "source": "contemporary", "gender": "m/adj.", "type": "adj"},
+    {"id": 94, "target": "clásico", "source": "classic", "gender": "m/adj.", "type": "adj"},
+    {"id": 95, "target": "vanguardista", "source": "avant-garde", "gender": "m/adj.", "type": "adj"},
+    {"id": 96, "target": "auténtico", "source": "authentic", "gender": "m/adj.", "type": "adj"},
+    {"id": 97, "target": "superficial", "source": "superficial", "gender": "m/adj.", "type": "adj"},
+    {"id": 98, "target": "profundo", "source": "deep / profound", "gender": "m/adj.", "type": "adj"},
+    {"id": 99, "target": "significativo", "source": "meaningful", "gender": "m/adj.", "type": "adj"},
+    {"id": 100, "target": "relevante", "source": "relevant", "gender": "m/adj.", "type": "adj"}
+  ],
+  "grammar": [
+    {
+      "title": "Subjunctive for Expressing Aesthetic Judgment",
+      "content": "At B1.2 level, expressing opinions about art, culture, and aesthetics heavily relies on the subjunctive. This is one of the most important grammar points for cultural criticism.\\n\\n**Subjunctive after expressions of opinion, judgment, and evaluation:**\\n- Me gusta que el artista __sea__ (ser) auténtico. (I like it that the artist is authentic.)\\n- Es importante que la obra __transmita__ (transmitir) un mensaje claro. (It is important that the work conveys a clear message.)\\n- No me parece que la película __mereza__ (merecer) tanto elogio. (It doesn't seem to me that the movie deserves so much praise.)\\n- Creo que... (indicative — when stating what you believe as fact)\\n- No creo que... (subjunctive — when doubting or negating)\\n\\n**Key rule:** 'Creo que' + indicative vs. 'No creo que' + subjunctive. Also apply to 'me parece que' / 'no me parece que'.\\n- Creo que el cuadro es hermoso. (indicative)\\n- No creo que el cuadro sea hermoso. (subjunctive)\\n- Me parece que la novela es relevante. (indicative)\\n- No me parece que la novela sea relevante. (subjunctive)\\n\\n**Subjunctive after impersonal expressions of evaluation:**\\n- Es necesario que se __proteja__ (proteger) el patrimonio cultural. (It is necessary that cultural heritage be protected.)\\n- Es lamentable que la tradición __se pierda__ (perder) con la globalización. (It is regrettable that tradition is lost with globalization.)\\n- Es bueno que los artistas __cuestionen__ (cuestionar) los estereotipos. (It is good that artists question stereotypes.)\\n- Es increíble que el muralismo __haya__ (haber) influenciado tanto. (It is incredible that muralism has influenced so much.)\\n\\n**Subjunctive in relative clauses with evaluative meaning:**\\n- Busco una exposición que __sea__ (ser) provocadora. (I'm looking for an exhibition that is provocative.)\\n- No hay ningún artista que __entienda__ (entender) lo que significa ser contemporáneo. (There is no artist who understands what it means to be contemporary.)",
+      "table": {
+        "headers": ["Expression", "Example", "Mood"],
+        "rows": [
+          ["Creo que...", "Creo que es innovador.", "Indicative"],
+          ["No creo que...", "No creo que sea innovador.", "Subjunctive"],
+          ["Me parece que...", "Me parece que es relevante.", "Indicative"],
+          ["No me parece que...", "No me parece que sea relevante.", "Subjunctive"],
+          ["Es importante que...", "Es importante que se conserve.", "Subjunctive"],
+          ["Es lamentable que...", "Es lamentable que se pierda.", "Subjunctive"],
+          ["Es bueno que...", "Es bueno que se cuestione.", "Subjunctive"],
+          ["Es increíble que...", "Es increíble que haya influido.", "Subjunctive"]
+        ]
+      },
+      "examples": [
+        "No creo que esta película merezca el premio que recibió.",
+        "Me parece que el artista transmite un mensaje profundo.",
+        "Es importante que se preserve el patrimonio cultural.",
+        "Es lamentable que la cultura popular sea tan comercializada.",
+        "No me parece que el estereotipo sea representativo de la realidad.",
+        "Es bueno que los jóvenes cuestionen la alta cultura."
+      ],
+      "aid_note": "Romanian parallel: 'Cred că...' (indicative) vs. 'Nu cred că...' + subjunctive. Also: 'Este important ca...' + subjunctive. The negation triggers the mood shift in both languages."
+    },
+    {
+      "title": "Past Tenses for Cultural Commentary",
+      "content": "When analyzing cultural products and their historical context, you need to use past tenses to describe when cultural movements emerged, what artists did, and how cultural phenomena evolved.\\n\\n**Preterite (pretérito indefinido) — completed cultural events:**\\n- Picasso pintó Guernica en 1937.\\n- El movimiento muralista surgió en México después de la revolución.\\n- Use the preterite to describe specific cultural events that are completed.\\n\\n**Imperfect (pretérito imperfecto) — background, ongoing cultural states:**\\n- La cultura precolombina era muy rica en simbolismo.\\n- Los artistas buscaban expresar la identidad latinoamericana.\\n- Use the imperfect to describe the cultural context, ongoing practices, or characteristics of a cultural period.\\n\\n**Pluperfect (pretérito pluscuamperfecto) — cultural events before other events:**\\n- Cuando llegó la globalización, muchas tradiciones ya se habían perdido.\\n- El artista ya había explorado la abstracción antes del surrealismo.\\n- Use the pluperfect to show that one cultural event happened before another.\\n\\n**Key contrast: Preterite vs. Imperfect in cultural analysis:**\\n- Mientras el realismo __dominaba__ (dominar) el arte europeo, el impresionismo __surgió__ (surgir) en Francia. (While realism dominated European art, impressionism emerged in France.)\\n- The imperfect (dominaba) describes the background state; the preterite (surgió) describes a specific event that happened within that context.\\n- This distinction is essential for cultural historiography.\\n\\n**Pretérito perfecto for recent cultural relevance:**\\n- Este artista ha influenciado la cultura contemporánea.\\n- Hemos visto cómo la globalización ha transformado el arte.\\n- Use the pretérito perfecto (he + participio) for cultural phenomena that are still relevant today.",
+      "table": {
+        "headers": ["Tense", "Cultural Use", "Example"],
+        "rows": [
+          ["Pretérito indefinido", "Specific cultural events", "El muralismo surgió en 1920."],
+          ["Pretérito imperfecto", "Cultural background/context", "El arte precolombino era muy simbólico."],
+          ["Pretérito pluscuamperfecto", "Cultural event before another", "Ya se había perdido cuando llegó la modernidad."],
+          ["Pretérito perfecto", "Recent cultural relevance", "Ha transformado la cultura popular."],
+          ["Futuro simple", "Cultural projections", "La globalización seguirá transformando la cultura."],
+          ["Condicional", "Cultural speculation", "El arte digital influiría en las próximas generaciones."]
+        ]
+      },
+      "examples": [
+        "Cuando era joven, Frida Kahlo pintaba autorretratos que reflejaban su identidad.",
+        "El movimiento surrealista surgió en Europa y se extendió a Latinoamérica.",
+        "Cuando llegó la televisión, las tradiciones orales ya habían disminuido.",
+        "Este festival ha reunido a artistas de más de veinte países.",
+        "Mientras la alta cultura se desarrollaba en las cortes, la cultura popular florecía en las calles."
+      ],
+      "aid_note": "Romanian parallel: 'a fost' (preterite) = 'fue'; 'era' (imperfect) = 'era'; 'trăia' (imperfect) = 'vivía'; 'a influențat' (preterite) = 'influenció'. The Spanish past tense system maps well to Romanian narrative tenses."
+    },
+    {
+      "title": "Connectors for Cultural Analysis and Argumentation",
+      "content": "To write and speak effectively about cultural criticism, you need sophisticated connectors that allow you to structure arguments, express nuanced opinions, and reference cultural evidence.\\n\\n**Introducing cultural observations:**\\n- Según la crítica, ... (According to critics, ...)\\n- En la última exposición, se observó que... (In the last exhibition, one observed that...)\\n- Desde una perspectiva cultural, ... (From a cultural perspective, ...)\\n- Al analizar la obra, se nota que... (When analyzing the work, one notes that...)\\n- En el contexto de la globalización, ... (In the context of globalization, ...)\\n\\n**Expressing cultural evaluation:**\\n- Me parece que la obra __transmite__ un mensaje significativo. (I think the work conveys a significant message.)\\n- Podría argumentarse que... (It could be argued that...)\\n- Esto sugiere que la cultura popular está influenciada por... (This suggests that popular culture is influenced by...)\\n- Desde mi punto de vista, el artista desafía los estereotipos. (From my point of view, the artist challenges stereotypes.)\\n- A mi juicio, la película es superficial pero entretenida. (In my judgment, the film is superficial but entertaining.)\\n\\n**Comparing cultural phenomena:**\\n- Por un lado, la globalización __promueve__ la homogenización; por otro lado, también __permite__ la diversidad. (On one hand, globalization promotes homogenization; on the other, it also allows diversity.)\\n- Mientras que el arte clásico valoraba la belleza idealizada, el arte contemporáneo cuestiona ese ideal. (While classical art valued idealized beauty, contemporary art questions that ideal.)\\n- En contraste con la alta cultura, la cultura popular es más accesible. (In contrast with high culture, popular culture is more accessible.)\\n- A diferencia de Europa, Latinoamérica tiene una fuerte tradición muralista. (Unlike Europe, Latin America has a strong muralism tradition.)\\n\\n**Referencing cultural evidence:**\\n- En la página __ del catálogo, el crítico escribe que... (On page __ of the catalog, the critic writes that...)\\n- Según el documental, ... (According to the documentary, ...)\\n- Hacia el final de la película, el director muestra que... (Towards the end of the film, the director shows that...)\\n- La obra más emblemática del movimiento es... (The most emblematic work of the movement is...)\\n\\n**Concluding cultural observations:**\\n- En definitiva, el patrimonio cultural nos invita a reflexionar sobre... (Ultimately, cultural heritage invites us to reflect on...)\\n- Para concluir, el arte contemporáneo presenta una visión... (To conclude, contemporary art presents a vision of...)\\n- En resumen, la diversidad cultural es fundamental para... (In summary, cultural diversity is fundamental for...)\\n- En definitiva, la apropiación cultural plantea un debate necesario. (Ultimately, cultural appropriation raises a necessary debate.)",
+      "table": {
+        "headers": ["Function", "Connector", "Example"],
+        "rows": [
+          ["Cultural perspective", "Desde una perspectiva cultural", "Desde una perspectiva cultural, el muralismo es revolucionario."],
+          ["Evaluation", "A mi juicio", "A mi juicio, la película es profunda."],
+          ["Comparison", "Mientras que...", "Mientras que el arte clásico valoraba la belleza, el contemporáneo cuestiona."],
+          ["Evidence", "Según el crítico", "Según el crítico, el artista es innovador."],
+          ["Conclusion", "En definitiva", "En definitiva, la diversidad cultural enriquece a todos."],
+          ["Argument", "Podría argumentarse que", "Podría argumentarse que la globalización homogeniza la cultura."],
+          ["Contrast", "En contraste con", "En contraste con la alta cultura, el arte callejero es accesible."],
+          ["Speculation", "Podría ser que", "Podría ser que la próxima generación redefine lo que es el arte."]
+        ]
+      },
+      "examples": [
+        "Desde una perspectiva cultural, el realismo mágico refleja la identidad latinoamericana.",
+        "Según la crítica, la película desafía los estereotipos de género.",
+        "Mientras que la alta cultura se conserva en los museos, la cultura popular vive en las calles.",
+        "En definitiva, la apropiación cultural plantea un debate necesario sobre quién tiene derecho a representar quién.",
+        "Podría argumentarse que la globalización tanto enriquece como homogeniza la cultura."
+      ],
+      "aid_note": "Romanian academic connectors map almost perfectly: 'conform criticilor' = 'según la crítica'; 'în definitiva' = 'en definitiva'; 'în timp ce' = 'mientras que'; 'de o manieră' = 'desde una perspectiva'. The register and function are nearly identical."
+    }
+  ],
+  "pronunciation": [
+    {
+      "title": "Pronunciation for Cultural Criticism Vocabulary",
+      "content": "Key pronunciation patterns for cultural criticism vocabulary:\\n\\n1. **The '-ción / -sión' endings (extremely common in cultural terms):**\\n   - crítica → KREE-ti-kah (stress on 'ti')\\n   - cultura → KOOL-tu-rah\\n   - globalización → gloh-bal-ee-see-AHYOHN / gloh-bal-ee-SYOHN (Spain)\\n   - homogenización → oh-moh-heh-nee-see-AHYOHN\\n   - comercialización → koh-mer-see-al-ee-see-AHYOHN\\n   - patrimonio → pah-tee-MOH-nee-oh\\n   - identidad → ee-dehn-tee-DAH\\n\\n2. **The '-ia / -ía' endings (very common in cultural terms):**\\n   - Always stressed on the 'í' (penultimate syllable with written accent)\\n   - ironía → ee-ro-NEE-ah\\n   - poesía → poh-EE-see-ah\\n   - melodía → meh-oh-DEE-ah\\n   - ironía → ee-ro-NEE-ah\\n   - crítica → KREE-ti-kah (note: the 'a' is not accented here, stress is on the second syllable)\\n\\n3. **The 'rr' sound (trilled R — important in cultural vocabulary):**\\n   -rr- requires a strong trill, like the 'rr' in 'perro'\\n   - cultura → KOOL-tu-rah (note: this is 'r' not 'rr')\\n   - narrativo → na-rra-TEE-voh (trilled 'rr')\\n   - guerrilla → gweh-REE-yah (trilled 'rr')\\n   - error → eh-ROHR (trilled 'rr' at the beginning)\\n\\n4. **The 'j' sound (always like English 'h'):**\\n   - juicio → HUEE-see-oh\\n   - proyecto → proh-YEK-toh\\n   - objetivo → ob-hee-TEE-vo\\n   - majestuoso → mah-hes-TWO-so\\n\\n5. **The 'ñ' sound (unique to Spanish):**\\n   - A nasal 'ny' sound, like the 'ny' in 'canyon'\\n   - español → es-pah-NYOL\\n   - año → AH-nyoh\\n   - mañana → mah-NYAH-nah\\n   - niño → NEEN-yoh\\n\\n6. **Silent letters to watch for:**\\n   - 'h' is ALWAYS silent: la historia → la EE-stor-ee-ah\\n   - 'b' and 'v' are pronounced identically (between vowels: like a soft 'v')\\n   - Final 'd' is often weakened: la verdad → la ber-DAH\\n   - 'u' after 'g' or 'q' before 'e' or 'i' is silent: quiero → KEE-roh\\n   - 'g' before 'e' or 'i' is like Spanish 'j' (h-like): género → HEH-nroh\\n\\n7. **Stress patterns in cultural terms:**\\n   - Words ending in 'o/a/n/s' are stressed on the penultimate syllable: cultura, crítica\\n   - Words ending in a vowel, 'n', or 's' without accent: penultimate syllable\\n   - Words with written accent: stress falls on the accented syllable\\n   - palíndromo → pah-LEE-dro-moh (accent on 'í')",
+      "examples": [
+        "crítica = KREE-ti-kah (stress on 'ti')",
+        "globalización = gloh-bal-ee-see-AHYOHN (Spain) / gloh-bal-ee-SYOHN (LA)",
+        "identidad = ee-dehn-tee-DAH (stress on 'da')",
+        "patrimonio = pah-tee-MOH-nee-oh (stress on 'mo')",
+        "ironía = ee-ro-NEE-ah (accent on í)",
+        "género = HEH-nroh (g before e = 'h' sound)",
+        "español = es-pah-NYOL (ñ = 'ny' sound)",
+        "historia = EE-stor-ee-ah (h is silent)",
+        "muralismo = mu-rah-LEE-smoh (stress on 'lee')",
+        "vanguardia = bah-nahr-DEE-gyah (stress on 'dee')"
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "exercise",
+      "question": "Choose the correct translation of 'cultural criticism':",
+      "options": ["la crítica cultural", "la cultura crítica", "el crítico cultural", "la cultura criticada"],
+      "correct": 0,
+      "explanation": "'La crítica cultural' = cultural criticism. 'Crítica' comes first because in Spanish, the noun that is being modified (crítica) typically comes first, and the modifier (cultural) follows."
+    },
+    {
+      "type": "exercise",
+      "question": "Which word means 'the aesthetic judgment' in Spanish?",
+      "options": ["el juicio de gusto", "el juicio estético", "la evaluación artística", "el análisis cultural"],
+      "correct": 1,
+      "explanation": "'El juicio estético' = aesthetic judgment. 'Estético' is the adjective form of 'estética' (aesthetics). This is a standard term in art and cultural criticism."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: 'No creo que la película ____ (merecer) el premio.' (subjunctive of merecer)",
+      "correct": "mereza",
+      "explanation": "'No creo que' triggers the subjunctive. 'Mereza' = present subjunctive of merecer, 3rd person singular. This is the same pattern as 'no creo que sea', 'no creo que tenga', etc."
+    },
+    {
+      "type": "exercise",
+      "question": "What does 'la apropiación cultural' mean?",
+      "options": ["Cultural appreciation", "Cultural appropriation — taking elements from another culture without understanding or respect", "Cultural exchange", "Cultural preservation"],
+      "correct": 1,
+      "explanation": "'La apropiación cultural' = cultural appropriation, when someone from a dominant culture takes elements from a marginalized culture without understanding, respect, or permission. It is a controversial and important topic in cultural criticism."
+    },
+    {
+      "type": "exercise",
+      "question": "Which past tense would you use to describe when a cultural movement emerged?",
+      "options": ["Pretérito imperfecto", "Pretérito indefinido", "Pretérito pluscuamperfecto", "Pretérito perfecto"],
+      "correct": 1,
+      "explanation": "The pretérito indefinido (preterite) is used for specific, completed past events. For example: 'El movimiento muralista surgió en México en 1920.' — 'surgió' is preterite because it's a specific event that happened at a specific time."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: 'La cultura precolombina ____ (ser) muy rica en simbolismo.' (imperfect)",
+      "correct": "era",
+      "explanation": "'La cultura precolombina era muy rica en simbolismo' — imperfect tense because you're describing a characteristic/state of the past, not a completed action. 'Era' = imperfect of ser, 3rd person singular."
+    },
+    {
+      "type": "exercise",
+      "question": "Which word means 'the avant-garde' in Spanish?",
+      "options": ["la vanguardia", "el vanguardismo", "la avanzada", "el movimiento"],
+      "correct": 0,
+      "explanation": "'La vanguardia' = the avant-garde. This term is used to describe innovative or experimental art, literature, or culture that pushes boundaries and challenges conventions."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: '______ del crítico, la película es innovadora.' (According to)",
+      "correct": "Según",
+      "explanation": "'Según el crítico, la película es innovadora' = According to the critic, the film is innovative. 'Según' is the standard connector for referencing someone's opinion or a source."
+    },
+    {
+      "type": "exercise",
+      "question": "What does 'el realismo mágico' refer to?",
+      "options": ["A photographic technique", "A literary style that presents magical elements as part of everyday reality", "A painting style from the 19th century", "A type of documentary filmmaking"],
+      "correct": 1,
+      "explanation": "'El realismo mágico' = magical realism, a literary and artistic style that presents magical or supernatural elements as ordinary parts of everyday reality. It is most associated with Latin American literature (Gabriel García Márquez, Isabel Allende)."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: 'Es importante que se ____ (conservar) el patrimonio cultural.' (subjunctive)",
+      "correct": " conserve",
+      "explanation": "'Es importante que se conserve el patrimonio cultural' — 'Es importante que' triggers the subjunctive. 'Conserve' = present subjunctive of conservar, 3rd person singular. This is a reflexive construction with 'se' for passive/impersonal."
+    },
+    {
+      "type": "exercise",
+      "question": "Which connector means 'on the one hand... on the other hand'?",
+      "options": ["Por un lado... por otro lado", "Primero... segundo", "Al principio... al final", "Al principio... después"],
+      "correct": 0,
+      "explanation": "'Por un lado... por otro lado' = on one hand... on the other hand. This is used to present two contrasting or complementary points in a cultural analysis or argument."
+    },
+    {
+      "type": "exercise",
+      "question": "What does 'la hegemonía cultural' mean?",
+      "options": ["Cultural diversity", "Cultural dominance — when one group's culture is considered superior or standard", "Cultural exchange between nations", "The study of ancient cultures"],
+      "correct": 1,
+      "explanation": "'La hegemonía cultural' = cultural hegemony, a concept from sociology (Antonio Gramsci) describing how a dominant group's culture becomes the norm or standard, marginalizing other cultural expressions."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: 'Mientras el impresionismo __dominaba__ (dominar), el realismo __surgió__ (surgir).' (Which is imperfect, which is preterite?)",
+      "correct": "dominaba = imperfect, surgió = preterite",
+      "explanation": "'Dominaba' is imperfect (background state — impressionism was the dominant style); 'surgió' is preterite (specific event — realism emerged within that context). This contrast is essential for cultural analysis."
+    },
+    {
+      "type": "exercise",
+      "question": "Which word means 'cultural appropriation' in Spanish?",
+      "options": ["la herencia cultural", "la apropiación cultural", "la influencia cultural", "el intercambio cultural"],
+      "correct": 1,
+      "explanation": "'La apropiación cultural' = cultural appropriation. This is a key concept in contemporary cultural criticism, referring to the adoption of elements from a minority culture by members of the dominant culture."
+    },
+    {
+      "type": "exercise",
+      "question": "What does 'lo bello' mean in the context of aesthetics?",
+      "options": ["The beautiful (abstract concept)", "A beautiful object", "A beautiful person", "Beautiful things in general"],
+      "correct": 0,
+      "explanation": "'Lo bello' = the beautiful (as an abstract concept). In Spanish, 'lo + adjective' creates a neuter abstract noun referring to the quality or concept itself. 'Lo bello' = beauty/beautiful-ness as an idea, not specific beautiful things."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete with the correct connector: '______, el arte contemporáneo plantea un debate necesario.' (Ultimately)",
+      "correct": "En definitiva",
+      "explanation": "'En definitiva' = ultimately / in the end. This is a common concluding phrase in cultural criticism to summarize the main takeaway."
+    },
+    {
+      "type": "exercise",
+      "question": "What does 'la sátira' mean?",
+      "options": ["A serious documentary", "A work that uses humor, irony, or exaggeration to criticize society", "A romantic poem", "A type of abstract art"],
+      "correct": 1,
+      "explanation": "'La sátira' = satire, a form of cultural criticism that uses humor, irony, exaggeration, or ridicule to expose and criticize people's vices, particularly in politics and social issues."
+    },
+    {
+      "type": "exercise",
+      "question": "Which word means 'to subvert' in Spanish?",
+      "options": ["subvertir", "substituir", "subrayar", "subordinar"],
+      "correct": 0,
+      "explanation": "'Subvertir' = to subvert, to overturn or undermine something established (like social norms, artistic conventions, or cultural expectations). It is a key verb in cultural criticism."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: 'No me parece que la película ____ (ser) profunda.' (subjunctive)",
+      "correct": "sea",
+      "explanation": "'No me parece que' triggers the subjunctive. 'Sea' = present subjunctive of ser. Just like 'no creo que', negating 'parecer que' requires the subjunctive mood."
+    },
+    {
+      "type": "exercise",
+      "question": "What does 'el muralismo' refer to?",
+      "options": ["A type of painting on small canvases", "A large-scale public mural painting movement, especially Mexican muralism", "A technique for creating 3D art", "A type of photography"],
+      "correct": 1,
+      "explanation": "'El muralismo' = muralism, a large-scale public mural painting movement. Mexican muralism (Diego Rivera, José Clemente Orozco, David Alfaro Siqueiros) is the most famous example, using murals to communicate social and political messages to the public."
+    },
+    {
+      "type": "exercise",
+      "question": "Which is the correct pronunciation of 'crítica'?",
+      "options": ["KREE-ti-kah", "cri-TI-kah", "KREE-tee-kah", "CRI-ti-kah"],
+      "correct": 0,
+      "explanation": "'Crítica' = KREE-ti-kah. The accent on the 'í' indicates stress on the second syllable (the 'ti'). Without the accent, words ending in 'a' would be stressed on the penultimate syllable by default — which happens to be the same position here, but the accent marks the stress for clarity."
+    },
+    {
+      "type": "exercise",
+      "question": "What does 'la vanguardia' mean in art?",
+      "options": ["The back of an art gallery", "The avant-garde — innovative, experimental, boundary-pushing art", "A type of classical art", "The entrance to a museum"],
+      "correct": 1,
+      "explanation": "'La vanguardia' = the avant-garde. In art and culture, this refers to innovative, experimental works that challenge conventional approaches and push boundaries. It comes from the military term for 'vanguard' (the front line of an army)."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: '______ la globalización, muchas culturas locales han desaparecido.' (In the context of)",
+      "correct": "En el contexto de",
+      "explanation": "'En el contexto de la globalización, muchas culturas locales han desaparecido' = In the context of globalization, many local cultures have disappeared. This phrase sets up the broader cultural framework for your analysis."
+    },
+    {
+      "type": "exercise",
+      "question": "Which word means 'the stereotype' in Spanish?",
+      "options": ["la estereotipación", "el estereotipo", "el estereoscopio", "la estereofonía"],
+      "correct": 1,
+      "explanation": "'El estereotipo' = the stereotype. A stereotype is a fixed, oversimplified image or idea about a particular type of person or thing. Cultural criticism often challenges stereotypes."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: 'Es lamentable que la tradición oral ____ (perder) con la modernización.' (subjunctive)",
+      "correct": "se pierda",
+      "explanation": "'Es lamentable que' triggers the subjunctive. 'Se pierda' = present subjunctive of perder with 'se' (impersonal/passive). The 'se' indicates that the tradition is being lost (passive construction)."
+    }
+  ]
+}

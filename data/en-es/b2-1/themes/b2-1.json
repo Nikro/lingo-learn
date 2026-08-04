@@ -1,0 +1,229 @@
+{
+  "stage_id": "b2-1",
+  "title": "B2.1 \u2014 Hypotheticals & Professional Communication",
+  "description": "Master Type 2 and Type 3 conditionals (hypotheticals in present and past), advanced gerund uses, object pronoun placement with non-finite verbs, and professional/business vocabulary.",
+  "themes": [
+    {
+      "id": "advanced-creative-expression-part-1",
+      "title": "Advanced Creative Expression",
+      "description": "Vocabulary, grammar, and exercises for creative writing, artistic expression, storytelling, and narrative techniques at the B2.1 CEFR level.",
+      "estimated_hours": 2,
+      "sections": [
+        "Vocabulary",
+        "Grammar",
+        "Exercises",
+        "Pronunciation"
+      ]
+    },
+    {
+      "id": "advanced-creative-expression-part-2",
+      "title": "Advanced Creative Expression",
+      "description": "Vocabulary, grammar, and exercises for creative writing, artistic expression, storytelling, and narrative techniques at the B2.1 CEFR level.",
+      "estimated_hours": 2,
+      "sections": [
+        "Vocabulary",
+        "Grammar",
+        "Exercises",
+        "Pronunciation"
+      ]
+    },
+    {
+      "id": "advanced-gerundio",
+      "title": "Advanced Gerundio \u2014 Progresivo, Per\u00edfrasis, y Posterioridad",
+      "description": "Learn advanced gerundio uses including progresivo, per\u00edfrasis, posterioridad, and progressive changes.",
+      "estimated_hours": 2,
+      "sections": [
+        "Vocabulary",
+        "Grammar",
+        "Exercises",
+        "Pronunciation"
+      ]
+    },
+    {
+      "id": "advanced-idioms",
+      "title": "Advanced Idioms & Fixed Expressions",
+      "description": "Learn B2-level idiomatic expressions for work, social situations, opinions, and daily life.",
+      "estimated_hours": 2,
+      "sections": [
+        "Vocabulary",
+        "Grammar",
+        "Exercises"
+      ]
+    },
+    {
+      "id": "advanced-literary-analysis-part-1",
+      "title": "Advanced Literary Analysis Part 1",
+      "description": "",
+      "estimated_hours": 2,
+      "sections": [
+        "Vocabulary",
+        "Grammar",
+        "Exercises",
+        "Pronunciation"
+      ]
+    },
+    {
+      "id": "advanced-literary-analysis-part-2",
+      "title": "Advanced Literary Analysis Part 2",
+      "description": "",
+      "estimated_hours": 2,
+      "sections": [
+        "Vocabulary"
+      ]
+    },
+    {
+      "id": "advanced-professional-communication-part-1",
+      "title": "Advanced Professional Communication",
+      "description": "Vocabulary, grammar, and exercises for executive communication, strategic messaging, and stakeholder presentations at the B2.1 CEFR level.",
+      "estimated_hours": 2,
+      "sections": [
+        "Vocabulary",
+        "Grammar",
+        "Exercises",
+        "Pronunciation"
+      ]
+    },
+    {
+      "id": "advanced-professional-communication-part-2",
+      "title": "Advanced Professional Communication",
+      "description": "Vocabulary, grammar, and exercises for executive communication, strategic messaging, and stakeholder presentations at the B2.1 CEFR level.",
+      "estimated_hours": 2,
+      "sections": [
+        "Vocabulary",
+        "Grammar",
+        "Exercises",
+        "Pronunciation"
+      ]
+    },
+    {
+      "id": "civic-engagement-public-policy-part-1",
+      "title": "Civic Engagement & Public Policy",
+      "description": "Vocabulary, grammar, and exercises for discussing civic participation, public policy debate, governance, and community engagement at the B2.1 CEFR level.",
+      "estimated_hours": 2,
+      "sections": [
+        "Vocabulary",
+        "Grammar",
+        "Exercises",
+        "Pronunciation"
+      ]
+    },
+    {
+      "id": "civic-engagement-public-policy-part-2",
+      "title": "Civic Engagement & Public Policy",
+      "description": "Vocabulary, grammar, and exercises for discussing civic participation, public policy debate, governance, and community engagement at the B2.1 CEFR level.",
+      "estimated_hours": 2,
+      "sections": [
+        "Vocabulary",
+        "Grammar",
+        "Exercises",
+        "Pronunciation"
+      ]
+    },
+    {
+      "id": "critical-thinking-reasoning",
+      "title": "Critical Thinking & Reasoning",
+      "description": "Develop the ability to analyze arguments, construct logical reasoning, evaluate claims critically, and express nuanced opinions. Learn vocabulary and structures for logical reasoning, critical analysis, and advanced argumentation \u2014 essential for academic, professional, and intellectual discourse in Spanish.",
+      "estimated_hours": 4,
+      "sections": [
+        "Vocabulary",
+        "Grammar",
+        "Exercises",
+        "Pronunciation"
+      ]
+    },
+    {
+      "id": "cross-cultural-leadership",
+      "title": "Cross-Cultural Leadership",
+      "description": "Master the vocabulary and structures needed for leading diverse teams, navigating cultural differences, and communicating across cultures. Develop the ability to manage international teams, resolve cross-cultural conflicts, and adapt leadership styles to different cultural contexts.",
+      "estimated_hours": 3,
+      "sections": [
+        "Vocabulary",
+        "Grammar",
+        "Exercises",
+        "Pronunciation"
+      ]
+    },
+    {
+      "id": "global-perspectives-international-relations",
+      "title": "Global Perspectives & International Relations",
+      "description": "Core vocabulary and grammar for discussing international diplomacy, global issues, and cross-cultural understanding at the B2.1 level.",
+      "estimated_hours": 5,
+      "sections": [
+        "Vocabulary",
+        "Grammar",
+        "Exercises",
+        "Pronunciation"
+      ]
+    },
+    {
+      "id": "philosophical-discourse-ethics",
+      "title": "Philosophical Discourse & Ethics",
+      "description": "Explore the vocabulary and grammar needed for philosophical discourse, ethical reasoning, and moral philosophy. Learn to express abstract concepts, analyze ethical dilemmas, and engage in nuanced philosophical debates in Spanish. This theme covers epistemology, metaphysics, ethics, existentialism, and the philosophical frameworks used to discuss fundamental questions about existence, knowledge, values, and meaning.",
+      "estimated_hours": 4,
+      "sections": [
+        "Vocabulary",
+        "Grammar",
+        "Exercises",
+        "Pronunciation"
+      ]
+    },
+    {
+      "id": "professional-spanish",
+      "title": "Professional & Business Spanish Vocabulary",
+      "description": "Core vocabulary for workplace communication, job applications, meetings, and professional correspondence.",
+      "estimated_hours": 2,
+      "sections": [
+        "Vocabulary",
+        "Exercises"
+      ]
+    },
+    {
+      "id": "pronouns-gerundio-infinitivo",
+      "title": "Object Pronouns with Gerundio and Infinitivo",
+      "description": "Master pronoun placement and attachment rules with non-finite verb forms.",
+      "estimated_hours": 2,
+      "sections": [
+        "Vocabulary",
+        "Grammar",
+        "Exercises",
+        "Pronunciation"
+      ]
+    },
+    {
+      "id": "scientific-literacy-data-analysis",
+      "title": "Scientific Literacy & Data Analysis",
+      "description": "Develop the vocabulary and structures needed to discuss scientific data, interpret statistical results, and engage in evidence-based arguments. Learn to read, analyze, and communicate scientific information effectively in Spanish.",
+      "estimated_hours": 3,
+      "sections": [
+        "Vocabulary",
+        "Grammar",
+        "Exercises",
+        "Pronunciation"
+      ]
+    },
+    {
+      "id": "type-2-conditionals",
+      "title": "Type 2 Conditionals \u2014 Si + Imperfect Subjunctive + Conditional",
+      "description": "Express hypothetical or unlikely situations in the present or future \u2014 the realm of dreams, advice, and counterfactual statements.",
+      "estimated_hours": 2,
+      "sections": [
+        "Vocabulary",
+        "Grammar",
+        "Exercises",
+        "Pronunciation"
+      ]
+    },
+    {
+      "id": "type-3-conditionals",
+      "title": "Type 3 Conditionals \u2014 Si + Pluperfect Subjunctive + Conditional Perfect",
+      "description": "Express hypothetical situations in the past that did NOT happen \u2014 regrets, missed opportunities, and alternate histories.",
+      "estimated_hours": 2,
+      "sections": [
+        "Vocabulary",
+        "Grammar",
+        "Exercises",
+        "Pronunciation"
+      ]
+    }
+  ]
+}

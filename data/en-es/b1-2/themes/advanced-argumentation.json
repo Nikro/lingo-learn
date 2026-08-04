@@ -1,0 +1,525 @@
+{
+  "id": "advanced-argumentation",
+  "level": "b1-2",
+  "title": "Advanced Argumentation",
+  "description": "Master the art of debate and persuasion in Spanish. Learn to construct logical arguments, present counterarguments, use rhetorical devices, and engage in sophisticated discussions on complex topics. This theme equips you with the language tools needed for formal debate, persuasive writing, and nuanced opinion expression.",
+  "vocabulary": [
+    {"id": 1, "target": "el argumento", "source": "argument", "gender": "m", "type": "noun"},
+    {"id": 2, "target": "la contraargumentación", "source": "counterargument", "gender": "f", "type": "noun"},
+    {"id": 3, "target": "la premisa", "source": "premise", "gender": "f", "type": "noun"},
+    {"id": 4, "target": "la conclusión lógica", "source": "logical conclusion", "gender": "f", "type": "noun"},
+    {"id": 5, "target": "la falacia", "source": "fallacy", "gender": "f", "type": "noun"},
+    {"id": 6, "target": "el sofisma", "source": "sophistry", "gender": "m", "type": "noun"},
+    {"id": 7, "target": "la evidencia", "source": "evidence", "gender": "f", "type": "noun"},
+    {"id": 8, "target": "el testimonio", "source": "testimony", "gender": "m", "type": "noun"},
+    {"id": 9, "target": "el consenso", "source": "consensus", "gender": "m", "type": "noun"},
+    {"id": 10, "target": "el disenso", "source": "dissent", "gender": "m", "type": "noun"},
+    {"id": 11, "target": "el debate", "source": "debate", "gender": "m", "type": "noun"},
+    {"id": 12, "target": "la controversia", "source": "controversy", "gender": "f", "type": "noun"},
+    {"id": 13, "target": "la postura", "source": "stance / position", "gender": "f", "type": "noun"},
+    {"id": 14, "target": "el planteamiento", "source": "statement / proposition", "gender": "m", "type": "noun"},
+    {"id": 15, "target": "la tesis", "source": "thesis", "gender": "f", "type": "noun"},
+    {"id": 16, "target": "el refuerzo", "source": "reinforcement / support", "gender": "m", "type": "noun"},
+    {"id": 17, "target": "la refutación", "source": "refutation", "gender": "f", "type": "noun"},
+    {"id": 18, "target": "el contraargumento", "source": "counterargument", "gender": "m", "type": "noun"},
+    {"id": 19, "target": "el persuadir", "source": "to persuade", "gender": "v.", "type": "verb"},
+    {"id": 20, "target": "convencer", "source": "to convince", "gender": "v.", "type": "verb"},
+    {"id": 21, "target": "refutar", "source": "to refute", "gender": "v.", "type": "verb"},
+    {"id": 22, "target": "objecionar", "source": "to object", "gender": "v.", "type": "verb"},
+    {"id": 23, "target": "sostener", "source": "to maintain / to uphold", "gender": "v.", "type": "verb"},
+    {"id": 24, "target": "debatir", "source": "to debate", "gender": "v.", "type": "verb"},
+    {"id": 25, "target": "discutir", "source": "to discuss / to argue", "gender": "v.", "type": "verb"},
+    {"id": 26, "target": "concordar", "source": "to agree", "gender": "v.", "type": "verb"},
+    {"id": 27, "target": "disentir", "source": "to disagree", "gender": "v.", "type": "verb"},
+    {"id": 28, "target": "matizar", "source": "to qualify / to nuance", "gender": "v.", "type": "verb"},
+    {"id": 29, "target": "cuestionar", "source": "to question / to challenge", "gender": "v.", "type": "verb"},
+    {"id": 30, "target": "demonstrar", "source": "to demonstrate", "gender": "v.", "type": "verb"},
+    {"id": 31, "target": "validar", "source": "to validate", "gender": "v.", "type": "verb"},
+    {"id": 32, "target": "invalidar", "source": "to invalidate", "gender": "v.", "type": "verb"},
+    {"id": 33, "target": "inferir", "source": "to infer", "gender": "v.", "type": "verb"},
+    {"id": 34, "target": "deducir", "source": "to deduce", "gender": "v.", "type": "verb"},
+    {"id": 35, "target": "raciocinar", "source": "to reason", "gender": "v.", "type": "verb"},
+    {"id": 36, "target": "lógico", "source": "logical", "gender": "m/adj.", "type": "adj"},
+    {"id": 37, "target": "fundamentado", "source": "well-founded / substantiated", "gender": "m/adj.", "type": "adj"},
+    {"id": 38, "target": "convincente", "source": "convincing", "gender": "m/adj.", "type": "adj"},
+    {"id": 39, "target": "plausible", "source": "plausible", "gender": "m/adj.", "type": "adj"},
+    {"id": 40, "target": "coherente", "source": "coherent", "gender": "m/adj.", "type": "adj"},
+    {"id": 41, "target": "consistent", "source": "consistent", "gender": "m/adj.", "type": "adj"},
+    {"id": 42, "target": "arbitrario", "source": "arbitrary", "gender": "m/adj.", "type": "adj"},
+    {"id": 43, "target": "subjetivo", "source": "subjective", "gender": "m/adj.", "type": "adj"},
+    {"id": 44, "target": "objetivo", "source": "objective", "gender": "m/adj.", "type": "adj"},
+    {"id": 45, "target": "pertinente", "source": "pertinent", "gender": "m/adj.", "type": "adj"},
+    {"id": 46, "target": "relevante", "source": "relevant", "gender": "m/adj.", "type": "adj"},
+    {"id": 47, "target": "la falacia ad hominem", "source": "ad hominem fallacy", "gender": "f", "type": "noun"},
+    {"id": 48, "target": "la falacia del hombre de paja", "source": "straw man fallacy", "gender": "f", "type": "noun"},
+    {"id": 49, "target": "el falso dilema", "source": "false dilemma", "gender": "m", "type": "noun"},
+    {"id": 50, "target": "la generalización apresurada", "source": "hasty generalization", "gender": "f", "type": "noun"},
+    {"id": 51, "target": "la analogía", "source": "analogy", "gender": "f", "type": "noun"},
+    {"id": 52, "target": "la generalización", "source": "generalization", "gender": "f", "type": "noun"},
+    {"id": 53, "target": "el ejemplo paradigmático", "source": "paradigmatic example", "gender": "m", "type": "noun"},
+    {"id": 54, "target": "el precedente", "source": "precedent", "gender": "m", "type": "noun"},
+    {"id": 55, "target": "la correlación", "source": "correlation", "gender": "f", "type": "noun"},
+    {"id": 56, "target": "la causalidad", "source": "causality", "gender": "f", "type": "noun"},
+    {"id": 57, "target": "la excepción", "source": "exception", "gender": "f", "type": "noun"},
+    {"id": 58, "target": "la regla", "source": "rule", "gender": "f", "type": "noun"},
+    {"id": 59, "target": "el matiz", "source": "nuance", "gender": "m", "type": "noun"},
+    {"id": 60, "target": "el término medio", "source": "middle ground", "gender": "m", "type": "noun"},
+    {"id": 61, "target": "por lo tanto", "source": "therefore", "gender": "—", "type": "phrase"},
+    {"id": 62, "target": "en consecuencia", "source": "consequently", "gender": "—", "type": "phrase"},
+    {"id": 63, "target": "así pues", "source": "thus / so", "gender": "—", "type": "phrase"},
+    {"id": 64, "target": "en cambio", "source": "however / on the other hand", "gender": "—", "type": "phrase"},
+    {"id": 65, "target": "por el contrario", "source": "on the contrary", "gender": "—", "type": "phrase"},
+    {"id": 66, "target": "si bien es cierto que", "source": "while it is true that", "gender": "—", "type": "phrase"},
+    {"id": 67, "target": "no cabe duda de que", "source": "there is no doubt that", "gender": "—", "type": "phrase"},
+    {"id": 68, "target": "a tenor de", "source": "in light of", "gender": "—", "type": "phrase"},
+    {"id": 69, "target": "en virtud de", "source": "by virtue of", "gender": "—", "type": "phrase"},
+    {"id": 70, "target": "con arreglo a", "source": "in accordance with", "gender": "—", "type": "phrase"},
+    {"id": 71, "target": "en último término", "source": "ultimately", "gender": "—", "type": "phrase"},
+    {"id": 72, "target": "a fin de cuentas", "source": "all things considered", "gender": "—", "type": "phrase"},
+    {"id": 73, "target": "más allá de eso", "source": "beyond that", "gender": "—", "type": "phrase"},
+    {"id": 74, "target": "por más que", "source": "however much / no matter how", "gender": "—", "type": "phrase"},
+    {"id": 75, "target": "a despecho de", "source": "despite", "gender": "—", "type": "phrase"},
+    {"id": 76, "target": "bajo ninguna circunstancia", "source": "under no circumstances", "gender": "—", "type": "phrase"},
+    {"id": 77, "target": "en ningún caso", "source": "under no circumstances", "gender": "—", "type": "phrase"},
+    {"id": 78, "target": "en cualquier caso", "source": "in any case", "gender": "—", "type": "phrase"},
+    {"id": 79, "target": "de cualquier manera", "source": "anyway / in any case", "gender": "—", "type": "phrase"},
+    {"id": 80, "target": "aunque no lo parezca", "source": "however it may seem", "gender": "—", "type": "phrase"},
+    {"id": 81, "target": "desde luego", "source": "of course / undoubtedly", "gender": "—", "type": "phrase"},
+    {"id": 82, "target": "sin lugar a dudas", "source": "without a doubt", "gender": "—", "type": "phrase"},
+    {"id": 83, "target": "a mi juicio", "source": "in my opinion", "gender": "—", "type": "phrase"},
+    {"id": 84, "target": "a mi parecer", "source": "in my view", "gender": "—", "type": "phrase"},
+    {"id": 85, "target": "en mi opinión", "source": "in my opinion", "gender": "—", "type": "phrase"},
+    {"id": 86, "target": "a mi entender", "source": "in my understanding", "gender": "—", "type": "phrase"},
+    {"id": 87, "target": "cabe señalar que", "source": "it should be noted that", "gender": "—", "type": "phrase"},
+    {"id": 88, "target": "resulta evidente que", "source": "it is evident that", "gender": "—", "type": "phrase"},
+    {"id": 89, "target": "parece innegable que", "source": "it seems undeniable that", "gender": "—", "type": "phrase"},
+    {"id": 90, "target": "se admite que", "source": "it is admitted that", "gender": "—", "type": "phrase"},
+    {"id": 91, "target": "recurrir a una falacia", "source": "to resort to a fallacy", "gender": "—", "type": "phrase"},
+    {"id": 92, "target": "sacar conclusiones precipitadas", "source": "to draw hasty conclusions", "gender": "—", "type": "phrase"},
+    {"id": 93, "target": "eludir el problema central", "source": "to avoid the central issue", "gender": "—", "type": "phrase"},
+    {"id": 94, "target": "llegar a un acuerdo", "source": "to reach an agreement", "gender": "—", "type": "phrase"},
+    {"id": 95, "target": "encontrar un terreno común", "source": "to find common ground", "gender": "—", "type": "phrase"},
+    {"id": 96, "target": "desestimar un argumento", "source": "to dismiss an argument", "gender": "—", "type": "phrase"},
+    {"id": 97, "target": "reforzar la posición", "source": "to strengthen one's position", "gender": "—", "type": "phrase"},
+    {"id": 98, "target": "modificar el argumento", "source": "to modify one's argument", "gender": "—", "type": "phrase"},
+    {"id": 99, "target": "ganar la discusión", "source": "to win the argument", "gender": "—", "type": "phrase"}
+  ],
+  "grammar": [
+    {
+      "title": "Conditional Clauses for Hypothetical Arguments",
+      "content": "Conditional sentences are essential for presenting hypothetical scenarios, counterfactual arguments, and speculative reasoning — all crucial for advanced debate.\n\n**First conditional (real possibility):**\nStructure: Si + present indicative → future / imperative / present\n- Si la evidencia es contundente, la teoría se acepta. (If the evidence is conclusive, the theory is accepted.)\n- Si continuamos así, el problema se agravará. (If we continue like this, the problem will worsen.)\n\n**Second conditional (unlikely / hypothetical):**\nStructure: Si + imperfect subjunctive → conditional\n- Si tuviera más datos, presentaría un argumento más sólido. (If I had more data, I would present a stronger argument.)\n- Si el gobierno actuara con más rapidez, la situación sería diferente. (If the government acted more quickly, the situation would be different.)\n\n**Third conditional (counterfactual past):**\nStructure: Si + pluperfect subjunctive → conditional perfect\n- Si se hubieran analizado los datos correctamente, la conclusión habría sido distinta. (If the data had been analyzed correctly, the conclusion would have been different.)\n- Si hubiera conocido esa información, habría argumentado de otra manera. (If I had known that information, I would have argued differently.)\n\n**Mixed conditionals (past cause → present result):**\nStructure: Si + pluperfect subjunctive → conditional\n- Si el estudio hubiera sido más riguroso, nuestras conclusiones serían más fiables. (If the study had been more rigorous, our conclusions would be more reliable.)\n\nNote for Romanian speakers: Romanian conditionals work very similarly!\n- 'Dacă ar fi' = 'Si + imperfect subjunctive'\n- 'Afi fi + past participle' = 'Si + pluperfect subjunctive'\n- 'Ar + present' = 'conditional' — the pattern is nearly identical.",
+      "table": {
+        "headers": ["Type", "Si clause", "Result clause", "Example"],
+        "rows": [
+          ["Real", "present indicative", "future", "Si llueve, cancelaré el evento."],
+          ["Hypothetical", "imperfect subjunctive", "conditional", "Si fuera posible, lo haría."],
+          ["Counterfactual", "pluperfect subjunctive", "conditional perfect", "Si hubiera sabido, habría venido."],
+          ["Mixed", "pluperfect subjunctive", "conditional", "Si hubiera estudiado, sabría más."]
+        ]
+      },
+      "examples": [
+        "Si la sociedad fuera más consciente del problema, las políticas cambiarían.",
+        "Si los economistas hubieran previsto la crisis, las medidas habrían sido diferentes.",
+        "Si el debate se centrara en los hechos, sería mucho más productivo.",
+        "Si todos participaran, podríamos llegar a un consenso más fácilmente."
+      ],
+      "aid_note": "Romanian parallels: 'Dacă ar fi posible, l-aș face' = 'Si fuera posible, lo haría'; 'Dacă ar fi știut, ar fi venit' = 'Si hubiera sabido, habría venido.' The conditional structures are remarkably similar between Romanian and Spanish."
+    },
+    {
+      "title": "Subjunctive for Opinion, Doubt, and Persuasion",
+      "content": "The subjunctive mood is essential for expressing opinions, doubts, and persuasive language in advanced argumentation. Different triggers change the tone from factual to subjective.\n\n**After expressions of opinion:**\n- Creo que es correcto → (indicative, firm opinion)\n- No creo que sea correcto → (subjunctive, negated opinion)\n- Opino que es necesario → (indicative, firm opinion)\n- No opino que sea necesario → (subjunctive, negated)\n- Me parece que tiene razón → (indicative)\n- No me parece que tenga razón → (subjunctive)\n\n**After expressions of doubt/denial:**\n- Dudo que la teoría sea correcta. (I doubt the theory is correct.)\n- Es improbable que los datos sean fiables. (It is unlikely that the data are reliable.)\n- Es imposible que no hayan cometido errores. (It is impossible that they made no errors.)\n- No es cierto que el consenso sea universal. (It is not true that the consensus is universal.)\n\n**After expressions of persuasion/influence:**\n- Quiero que acepten los resultados. (I want them to accept the results.)\n- Insisto en que se revise la metodología. (I insist that the methodology be reviewed.)\n- Les pido que consideren esta posibilidad. (I ask you to consider this possibility.)\n- Les sugiero que consulten la bibliografía. (I suggest that you consult the bibliography.)\n- Les recomiendo que argumenten con evidencia. (I recommend that you argue with evidence.)\n\n**After conjunctions of purpose and concession:**\n- Para que se comprenda mejor... (In order for it to be better understood...)\n- A menos que se demuestre lo contrario... (Unless the contrary is demonstrated...)\n- Aunque sea difícil de aceptar... (Although it may be difficult to accept...)\n- Por más que intenten refutarlo... (No matter how hard they try to refute it...)\n\n**Key pattern:** Negation of opinion = subjunctive; affirmation of opinion = indicative. This is a cornerstone of Spanish argumentation.",
+      "table": {
+        "headers": ["Trigger", "Mood", "Example"],
+        "rows": [
+          ["Creo que...", "indicative", "Creo que es importante."],
+          ["No creo que...", "subjunctive", "No creo que sea importante."],
+          ["Es probable que...", "subjunctive", "Es probable que cambien."],
+          ["Quiero que...", "subjunctive", "Quiero que entiendan."],
+          ["Aunque...", "subjunctive (if uncertain)", "Aunque sea difícil, lo intentaremos."],
+          ["Para que...", "subjunctive", "Para que se analice, necesitamos datos."],
+          ["A menos que...", "subjunctive", "A menos que prueben lo contrario, lo aceptamos."]
+        ]
+      },
+      "examples": [
+        "No creo que esa falacia sea válida en este contexto.",
+        "Insisto en que los argumentos deben basarse en evidencia verificable.",
+        "Aunque sea controvertido, el enfoque merece consideración.",
+        "Para que el debate sea productivo, debemos respetar las distintas posturas.",
+        "Es dudoso que el consenso refleje la realidad completa."
+      ],
+      "aid_note": "Romanian has a similar pattern: 'Nu cred că' (I don't believe that) often triggers subjunctive-like constructions in Romanian too. 'Nu cred să' = 'No creo que'. The structural logic of negation triggering a non-indicative mood is shared."
+    },
+    {
+      "title": "Discourse Markers for Structuring Arguments",
+      "content": "Advanced argumentation requires sophisticated discourse markers to structure your reasoning clearly. These markers signal relationships between ideas: addition, contrast, cause, concession, and conclusion.\n\n**Adding arguments (secundary support):**\n- Además, ... (Furthermore, ...)\n- Asimismo, ... (Likewise, ...)\n- Por otra parte, ... (On the other hand, ...)\n- En el mismo orden de ideas, ... (In the same vein of thought, ...)\n- Del mismo modo, ... (In the same way, ...)\n- Igualmente, ... (Similarly, ...)\n- En igual medida, ... (To the same extent, ...)\n- Cabe añadir que... (It should also be added that...)\n\n**Contrasting arguments:**\n- Sin embargo, ... (However, ...)\n- No obstante, ... (Nevertheless, ...)\n- Por el contrario, ... (On the contrary, ...)\n- En cambio, ... (On the other hand, ...)\n- A diferencia de..., ... (Unlike..., ...)\n- Por más que..., ... (However much..., ...)\n- Si bien es cierto que..., ... (While it is true that..., ...)\n- Por un lado..., por otro lado..., ... (On one hand..., on the other hand..., ...)\n\n**Showing cause and effect:**\n- Debido a que... (Due to the fact that...)\n- Dado que... (Given that...)\n- Puesto que... (Since...)\n- En razón de que... (In light of the fact that...)\n- En consecuencia, ... (Consequently, ...)\n- Por consiguiente, ... (Accordingly, ...)\n- Como resultado, ... (As a result, ...)\n- De ahí que... (Which is why... + subjunctive)\n\n**Concessive markers (concession):**\n- Aunque..., ... (Although..., ...)\n- Aun cuando..., ... (Even when..., ...)\n- Pese a que..., ... (Despite the fact that..., ...)\n- A pesar de que..., ... (Despite the fact that..., ...)\n- Por más que..., ... (No matter how much..., ...)\n- Sin que..., ... (Without..., ...)\n- Por muy + adjetivo + que..., ... (However + adjective + ..., ...)\n\n**Concluding markers:**\n- En conclusión, ... (In conclusion, ...)\n- En definitiva, ... (Ultimately, ...)\n- A fin de cuentas, ... (All things considered, ...)\n- Para rematar, ... (To round off, ...)\n- En última instancia, ... (In the last instance, ...)\n- Dicho todo esto, ... (Having said all this, ...)\n\n**Key rule:** The choice of discourse marker signals your relationship to the argument — whether you are supporting, contrasting, conceding, or concluding.",
+      "table": {
+        "headers": ["Function", "Marker", "Example"],
+        "rows": [
+          ["Addition", "Además", "Además, hay evidencia empírica."],
+          ["Contrast", "Sin embargo", "Sin embargo, el debate continúa."],
+          ["Cause", "Dado que", "Dado que los datos son claros, la conclusión es evidente."],
+          ["Concession", "Aunque sea difícil", "Aunque sea difícil de aceptar, debemos reconocerlo."],
+          ["Conclusion", "En definitiva", "En definitiva, la evidencia apoya nuestra postura."]
+        ]
+      },
+      "examples": [
+        "Por un lado, se argumenta que la economía crecerá; por otro lado, los indicadores sugieren lo contrario.",
+        "Dado que la evidencia es abrumadora, resulta difícil sostener la postura contraria.",
+        "Aunque reconozco los puntos válidos de su argumento, considero que la conclusión es prematura.",
+        "En definitiva, el debate requiere un análisis más profundo de las variables involucradas.",
+        "Dicho todo esto, cabe señalar que hay aspectos que aún no han sido debidamente explorados."
+      ],
+      "aid_note": "Romanian discourse markers are very similar: 'în plus' = 'además'; 'totuși'/'însă' = 'sin embargo'; 'în concluzie' = 'en conclusión'. The pragmatic function of these markers is nearly identical in both languages."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "multiple-choice",
+      "question": "Which sentence correctly uses the subjunctive after a negated opinion?",
+      "options": [
+        "No creo que el argumento es válido.",
+        "No creo que el argumento sea válido.",
+        "No creo que el argumento fue válido.",
+        "No creo que el argumento será válido."
+      ],
+      "correct": 1,
+      "explanation": "'No creo que' triggers the subjunctive. 'Sea' is the present subjunctive of ser. The indicative 'es' would be used only in the affirmative: 'Creo que el argumento es válido.'"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Which discourse marker is best for contrasting two opposing arguments?",
+      "options": [
+        "Además",
+        "Sin embargo",
+        "En conclusión",
+        "Por ejemplo"
+      ],
+      "correct": 1,
+      "explanation": "'Sin embargo' (however) is used to introduce a contrast or contradiction to a previously stated argument. 'Además' adds support; 'En conclusión' signals a conclusion; 'Por ejemplo' introduces an example."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete with the correct conditional: 'Si los datos ____ (ser) más precisos, la conclusión sería más fiable.'",
+      "correct": "fueran",
+      "explanation": "Second conditional: 'Si + imperfect subjunctive (fueran) → conditional (sería).' This expresses a hypothetical scenario that is unlikely but being considered."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Identify the fallacy: 'You can't trust his argument because he's not a scientist.'",
+      "options": [
+        "Falacia del hombre de paja (straw man)",
+        "Falacia ad hominem",
+        "Falso dilema (false dilemma)",
+        "Generalización apresurada (hasty generalization)"
+      ],
+      "correct": 1,
+      "explanation": "This is an ad hominem fallacy — attacking the person making the argument rather than the argument itself. The person's credentials are irrelevant to whether their specific argument is valid."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete with the appropriate discourse marker: '______ es cierto que existen dificultades, las soluciones son viables.' (While it is true that)",
+      "correct": "Si bien es cierto que",
+      "explanation": "'Si bien es cierto que' introduces a concession — acknowledging a valid point before presenting a counter-point. It's a sophisticated marker for advanced argumentation."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Which sentence demonstrates the third conditional (counterfactual past)?",
+      "options": [
+        "Si estudiamos, aprobaremos el examen.",
+        "Si estudiáramos, aprobaríamos el examen.",
+        "Si hubiéramos estudiado, habríamos aprobado el examen.",
+        "Si estudiamos, aprobaríamos el examen."
+      ],
+      "correct": 2,
+      "explanation": "Third conditional: 'Si + pluperfect subjunctive (hubiéramos estudiado) → conditional perfect (habríamos aprobado).' This refers to an unreal past situation — we didn't study, so we didn't pass."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "The fallacy 'either we ban all technology or we accept the risks' is an example of:",
+      "options": [
+        "Ad hominem",
+        "Falacia del hombre de paja",
+        "Falso dilema (false dilemma)",
+        "Falacia de autoridad"
+      ],
+      "correct": 2,
+      "explanation": "A false dilemma (falso dilema) presents only two extreme options when in fact there are many intermediate possibilities. It's a common fallacy in polarized debates."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete with the correct subjunctive: 'Insisto en que los participantes ____ (presentar) sus argumentos con evidencia.'",
+      "correct": "presenten",
+      "explanation": "'Insistir en que' triggers the subjunctive because it expresses a desire/persuasion. 'Presenten' is the 3rd person plural present subjunctive of presentar."
+    },
+    {
+      "type": "exercise",
+      "question": "Which conjunction triggers the subjunctive in the sentence '______ se hagan los ajustes necesarios, el proyecto avanzará'?",
+      "options": [
+        "Aunque",
+        "A menos que",
+        "Porque",
+        "Cuando"
+      ],
+      "correct": 1,
+      "explanation": "'A menos que' (unless) always triggers the subjunctive because it refers to a future condition that is uncertain. 'Aunque' can take either mood depending on certainty; 'porque' takes indicative; 'cuando' takes indicative for habitual actions."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete with the correct subjunctive: 'Es improbable que la evidencia ____ (suficientemente) para validar la teoría.'",
+      "correct": "sea",
+      "explanation": "'Es improbable que' triggers the subjunctive because it expresses doubt/uncertainty. 'Sea' is the present subjunctive of ser."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Which phrase is the best way to introduce a counterargument in formal debate?",
+      "options": [
+        "Pero yo digo...",
+        "Sin embargo, es importante considerar que...",
+        "No, eso es incorrecto.",
+        "Otra vez repitiendo lo mismo..."
+      ],
+      "correct": 1,
+      "explanation": "'Sin embargo, es importante considerar que...' is the most formal and persuasive way to introduce a counterargument. The other options are too informal or aggressive for a formal debate context."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: 'Por muy ____ (difícil) que sea el debate, debemos mantener la cordialidad.' (no matter how difficult)",
+      "correct": "difícil",
+      "explanation": "'Por muy + adjective + que' is a concessive construction that always triggers the subjunctive. The adjective doesn't change form, but the verb (sea) must be subjunctive."
+    },
+    {
+      "type": "exercise",
+      "question": "What does 'la falacia del hombre de paja' mean?",
+      "options": [
+        "Attacking the person instead of the argument",
+        "Misrepresenting someone's argument to make it easier to attack",
+        "Assuming that because one event followed another, the first caused the second",
+        "Drawing a conclusion from insufficient evidence"
+      ],
+      "correct": 1,
+      "explanation": "The straw man fallacy (falacia del hombre de paja) occurs when someone distorts or exaggerates an opponent's argument to make it easier to refute, rather than addressing the actual argument."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete with the correct subjunctive: 'Dudo que ______ (haya) consenso sobre este tema.'",
+      "correct": "haya",
+      "explanation": "'Dudar que' triggers the subjunctive. 'Haya' is the present subjunctive of haber (3rd person singular). 'Dudo que haya consenso' = I doubt there is consensus."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Which structure is correct for a mixed conditional (past cause → present result)?",
+      "options": [
+        "Si estudio, entenderé mejor.",
+        "Si estudiara, entendería mejor.",
+        "Si hubiera estudiado, entendería mejor ahora.",
+        "Si hubiese estudiado, habré entendido."
+      ],
+      "correct": 2,
+      "explanation": "Mixed conditional: past condition (Si hubiera estudiado) → present result (entendería mejor ahora). The pluperfect subjunctive in the 'if' clause refers to a past action, while the conditional in the result clause refers to a present consequence."
+    },
+    {
+      "type": "exercise",
+      "question": "Which sentence correctly uses 'de ahí que' + subjunctive?",
+      "options": [
+        "Los datos son claros, de ahí que la conclusión es evidente.",
+        "Los datos son claros, de ahí que la conclusión sea evidente.",
+        "Los datos son claros, de ahí que la conclusión fue evidente.",
+        "Los datos son claros, de ahí que la conclusión será evidente."
+      ],
+      "correct": 1,
+      "explanation": "'De ahí que' (which is why) always triggers the subjunctive because it expresses a consequence that is inferred rather than stated as a fact. 'Sea' is the subjunctive form."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete with the correct subjunctive: 'Les pido que _____ (respetar) las distintas opiniones durante el debate.'",
+      "correct": "respeten",
+      "explanation": "'Pedir que' triggers the subjunctive. 'Respeten' is the 3rd person plural present subjunctive of respetar."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "The statement 'If we don't allow free speech, we'll have a totalitarian government' exemplifies:",
+      "options": [
+        "A well-reasoned argument",
+        "Falacia del hombre de paja",
+        "Falso dilema (slippery slope)",
+        "Falacia ad hominem"
+      ],
+      "correct": 2,
+      "explanation": "This is a slippery slope argument — a type of false dilemma that claims one small step will inevitably lead to extreme consequences without providing evidence for that chain of causation."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: '______ que los datos sean contradictorios, la tendencia general es clara.' (Even though)",
+      "correct": "Aunque",
+      "explanation": "'Aunque' + subjunctive (sean) expresses concession — acknowledging one point (contradictory data) while maintaining a different conclusion (the general trend is clear)."
+    },
+    {
+      "type": "exercise",
+      "question": "Which phrase is used to concede a valid point before presenting a counterargument?",
+      "options": [
+        "No hay duda de que",
+        "Cabe reconocer que",
+        "Es innegable que",
+        "All of the above"
+      ],
+      "correct": 3,
+      "explanation": "All three phrases ('No hay duda de que', 'Cabe reconocer que', 'Es innegable que') are used to concede a valid point before pivoting to a counterargument. They show intellectual honesty while maintaining your position."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete with the correct subjunctive: 'A fin de que todos ____ (comprender) el argumento, se explicará de nuevo.'",
+      "correct": "comprendan",
+      "explanation": "'A fin de que' (in order that) always triggers the subjunctive because it expresses purpose/intention. 'Comprendan' is the 3rd person plural present subjunctive of comprender."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Which sentence demonstrates proper use of 'por un lado... por otro lado'?",
+      "options": [
+        "Por un lado quiero ir; por otro lado, necesito trabajar.",
+        "Por un lado quiero ir y por otro lado necesito trabajar.",
+        "Por un lado, quiero ir por otro lado.",
+        "Por un lado, pero por otro lado también."
+      ],
+      "correct": 0,
+      "explanation": "'Por un lado..., por otro lado...' requires a semicolon or period between the two clauses, and the second clause must start with 'por otro lado,'. This structure presents two contrasting perspectives fairly."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: '______ de que los resultados sean confirmados, mantenemos nuestra postura.' (Pending / Until)",
+      "correct": "A la espera",
+      "explanation": "'A la espera de que' (pending / awaiting) is a formal phrase used in argumentation to indicate that you maintain your position while waiting for additional evidence. It requires the subjunctive."
+    },
+    {
+      "type": "exercise",
+      "question": "Which sentence correctly uses the third conditional?",
+      "options": [
+        "Si el gobierno actúa rápido, la crisis se resuelve.",
+        "Si el gobierno actuara rápido, la crisis sería diferente.",
+        "Si el gobierno hubiera actuado rápido, la crisis habría sido diferente.",
+        "Si el gobierno actuara rápido, la crisis sería diferente."
+      ],
+      "correct": 2,
+      "explanation": "Third conditional: 'Si + pluperfect subjunctive (hubiera actuado) → conditional perfect (habría sido).' This refers to an unreal past — the government didn't act fast, and the crisis wasn't different."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Which is NOT a valid discourse marker for adding arguments?",
+      "options": [
+        "Además",
+        "Asimismo",
+        "Sin embargo",
+        "Por otra parte"
+      ],
+      "correct": 2,
+      "explanation": "'Sin embargo' is a contrast marker, not an addition marker. The others (además, asimismo, por otra parte) all serve to add supporting arguments to your position."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete with the correct subjunctive: '______ (ser) lo que ____ (decir), no puedo aceptar esa conclusión.' (Be that as it may / Whatever they may say)",
+      "correct": "Sea / digan",
+      "explanation": "'Sea lo que diga' (be that as it may / whatever they say) uses the subjunctive in both clauses. 'Sea' is the 3rd person singular subjunctive of ser; 'digan' is the 3rd person plural subjunctive of decir."
+    },
+    {
+      "type": "exercise",
+      "question": "The statement 'You're either with us or against us' is an example of which fallacy?",
+      "options": [
+        "Ad hominem",
+        "Falacia del hombre de paja",
+        "Falso dilema",
+        "Falacia de autoridad"
+      ],
+      "correct": 2,
+      "explanation": "This is a classic false dilemma — it presents only two extreme positions when there are many possible stances (neutral, partially agreeing, etc.). It forces a binary choice where none is necessary."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: 'No ______ (caber) duda de que la evidencia es contundente.' (there can be no doubt)",
+      "correct": "cabe",
+      "explanation": "'No cabe duda de que' takes the indicative because it expresses certainty. 'Cabe' is the 3rd person singular present indicative of caber (to fit/admit of). Note: this is one of the few cases where certainty triggers indicative, not subjunctive."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Which sentence correctly uses 'por más que' + subjunctive?",
+      "options": [
+        "Por más que ellos intentan refutarlo, el argumento se mantiene.",
+        "Por más que ellos intenten refutarlo, el argumento se mantiene.",
+        "Por más que ellos intentaron refutarlo, el argumento se mantiene.",
+        "Por más que ellos intentarían refutarlo, el argumento se mantiene."
+      ],
+      "correct": 1,
+      "explanation": "'Por más que' always triggers the subjunctive because it refers to an unlimited degree of an action. 'Intenten' is the present subjunctive, expressing that no matter how much they try (present/future), the argument holds."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete with the correct subjunctive: 'A menos que se ____ (revisar) la metodología, no podemos aceptar los resultados.'",
+      "correct": "revise",
+      "explanation": "'A menos que' (unless) always triggers the subjunctive. 'Revise' is the 3rd person singular present subjunctive of revisar."
+    },
+    {
+      "type": "exercise",
+      "question": "Which phrase is the most formal way to express 'in my opinion' in a debate?",
+      "options": [
+        "Yo creo que...",
+        "A mi juicio...",
+        "En mi opinión...",
+        "Pienso que..."
+      ],
+      "correct": 1,
+      "explanation": "'A mi juicio' is the most formal and literary expression of personal opinion, commonly used in academic and formal debate contexts. 'En mi opinión' is also formal but slightly less so; 'Yo creo' and 'Pienso' are more conversational."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: '______ (ser) necesaria una revisión profunda, los resultados actuales son significativos.' (Even though it may be necessary)",
+      "correct": "Aunque sea",
+      "explanation": "'Aunque' + subjunctive (sea) expresses concession — acknowledging a possible need for revision while maintaining that the current results are significant. This is a sophisticated argumentation technique."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Which discourse marker introduces a cause in formal argumentation?",
+      "options": [
+        "Además",
+        "Dado que",
+        "Sin embargo",
+        "En conclusión"
+      ],
+      "correct": 1,
+      "explanation": "'Dado que' (given that) is a formal cause marker used to introduce the reasoning behind a claim. 'Además' adds information, 'Sin embargo' contrasts, and 'En conclusión' signals the end."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete with the correct subjunctive: 'Les sugiero que ____ (consultar) los datos antes de sacar conclusiones.'",
+      "correct": "consulten",
+      "explanation": "'Sugerir que' triggers the subjunctive because it expresses a recommendation. 'Consulten' is the 3rd person plural present subjunctive of consultar."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Identify the fallacy: 'Thousands of people believe it, so it must be true.'",
+      "options": [
+        "Ad hominem",
+        "Falacia ad populum (appeal to the people)",
+        "Falso dilema",
+        "Falacia del hombre de paja"
+      ],
+      "correct": 1,
+      "explanation": "The ad populum fallacy (falacia ad populum / appeal to popularity) claims something is true simply because many people believe it. The number of believers has no bearing on factual accuracy."
+    }
+  ],
+  "pronunciation": [
+    {
+      "title": "Pronunciation of Argumentation Vocabulary",
+      "content": "Key pronunciation patterns for argumentation and debate vocabulary:\n\n1. **The '-ción / -sión' endings (extremely common):**\n   - Pronounced 'theen' (Spain) or 'see-en' (Latin America)\n   - argumento → ar-goo-MEN-toh\n   - contraargumentación → koon-tra-ar-goo-men-tah-THYOHN\n   - falacia → fah-LAH-see-ah\n   - evidencia → ev-ee-DEN-see-ah\n   - consenso → koon-SEN-soh\n   - postura → poh-STOO-rah\n   - refutación → reh-foo-tah-THYOHN\n\n2. **Stress on '-ía' endings (conditional/tense endings):**\n   - Always stressed on the 'i'\n   - conclusión → koon-kloo-SEE-ohn (but the conditional conjugations like 'concluiría' are different)\n   - The key words in this theme don't have this pattern, but watch for conditional verbs in debate.\n\n3. **The 'y' sound (written as 'y', 'll', or 'i' between vowels):**\n   - argumento → ar-goo-MEN-toh (the 'y' sound appears in 'argumento' when linking)\n   - consenso → koon-SEN-soh (no y, but note the 's' before consonant)\n   - disenso → dee-SEN-soh\n\n4. **The 'j' and 'g' before 'e/i' (always like English 'h'):**\n   - argumento → ar-goo-MEN-toh (g before u, so normal 'g')\n   - refutación → reh-foo-tah-THYOHN (t before i, soft 'th'/'s')\n   - objeto → ob-HEH-toh\n\n5. **Double consonants:**\n   - consenso → koon-SEN-soh (the 'ns' is pronounced clearly)\n   - disenso → dee-SEN-soh\n   - refutación → the 'tu' is two separate syllables, not 'chew'\n\n6. **Important stress patterns:**\n   - Palabras agudas (stress on last syllable, accent or ending in n/s/vowel): falacia (fah-LAH-see-ah), evidencia (ev-ee-DEN-see-ah), refutación (reh-foo-tah-THYOHN)\n   - Palabras llanas (stress on second-to-last): argumento (ar-goo-MEN-toh), consenso (koon-SEN-soh), postura (poh-STOO-rah)\n   - Palabras esdrújulas (stress on third-to-last, ALWAYS accented): refutación (reh-foo-tah-THYOHN), sofisma (so-FIS-mah)",
+      "examples": [
+        "argumento = ar-goo-MEN-toh",
+        "contraargumentación = koon-tra-ar-goo-men-tah-THYOHN / SYOHN",
+        "falacia = fah-LAH-see-ah",
+        "evidencia = ev-ee-DEN-see-ah",
+        "consenso = koon-SEN-soh",
+        "refutación = reh-foo-tah-THYOHN / SYOHN",
+        "sofisma = so-FIS-mah",
+        "postura = poh-STOO-rah",
+        "conclusión = koon-kloo-SEE-ohn",
+        "falacia ad hominem = fah-LAH-see-ah ad oh-MEE-nem"
+      ]
+    }
+  ]
+}

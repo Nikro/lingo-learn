@@ -1,0 +1,856 @@
+{
+  "id": "politics-society",
+  "level": "a2-2",
+  "title": "Politics & Society",
+  "description": "Talk about government, elections, social issues, and citizenship. Understand news about politics, discuss social topics, and express your views on community and civic matters. Master the conditional for hypothetical political situations, object pronouns in formal contexts, and the future for political promises.",
+  "vocabulary": [
+    {
+      "id": 1,
+      "target": "el gobierno",
+      "source": "government",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 2,
+      "target": "la política",
+      "source": "politics / political policy",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 3,
+      "target": "el político",
+      "source": "politician (male)",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 4,
+      "target": "la política",
+      "source": "politician (female)",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 5,
+      "target": "el partido político",
+      "source": "political party",
+      "gender": "m",
+      "type": "phrase"
+    },
+    {
+      "id": 6,
+      "target": "la izquierda",
+      "source": "left (political)",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 7,
+      "target": "la derecha",
+      "source": "right (political)",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 8,
+      "target": "el centro",
+      "source": "center (political)",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 9,
+      "target": "las elecciones",
+      "source": "elections",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 10,
+      "target": "votar",
+      "source": "to vote",
+      "gender": "v",
+      "type": "verb"
+    },
+    {
+      "id": 11,
+      "target": "el voto",
+      "source": "vote",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 12,
+      "target": "el candidato",
+      "source": "candidate (male)",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 13,
+      "target": "la candidata",
+      "source": "candidate (female)",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 14,
+      "target": "la campaña electoral",
+      "source": "election campaign",
+      "gender": "f",
+      "type": "phrase"
+    },
+    {
+      "id": 15,
+      "target": "la papeleta",
+      "source": "ballot paper",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 16,
+      "target": "el candidato vencedor",
+      "source": "winning candidate",
+      "gender": "m",
+      "type": "phrase"
+    },
+    {
+      "id": 17,
+      "target": "la victoria",
+      "source": "victory",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 18,
+      "target": "la derrota",
+      "source": "defeat",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 19,
+      "target": "el presidente",
+      "source": "president",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 20,
+      "target": "la presidenta",
+      "source": "president (female)",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 21,
+      "target": "el primer ministro",
+      "source": "prime minister",
+      "gender": "m",
+      "type": "phrase"
+    },
+    {
+      "id": 22,
+      "target": "el parlamento",
+      "source": "parliament",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 23,
+      "target": "el congreso",
+      "source": "congress",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 24,
+      "target": "la constitución",
+      "source": "constitution",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 25,
+      "target": "la ley",
+      "source": "law",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 26,
+      "target": "la legislación",
+      "source": "legislation",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 27,
+      "target": "aprobar una ley",
+      "source": "to pass a law",
+      "gender": "—",
+      "type": "phrase"
+    },
+    {
+      "id": 28,
+      "target": "el derecho",
+      "source": "right / law",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 29,
+      "target": "los derechos humanos",
+      "source": "human rights",
+      "gender": "m",
+      "type": "phrase"
+    },
+    {
+      "id": 30,
+      "target": "el derecho al voto",
+      "source": "right to vote",
+      "gender": "m",
+      "type": "phrase"
+    },
+    {
+      "id": 31,
+      "target": "la libertad",
+      "source": "freedom / liberty",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 32,
+      "target": "la igualdad",
+      "source": "equality",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 33,
+      "target": "la justicia",
+      "source": "justice",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 34,
+      "target": "el ciudadano",
+      "source": "citizen (male)",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 35,
+      "target": "la ciudadana",
+      "source": "citizen (female)",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 36,
+      "target": "la ciudadanía",
+      "source": "citizenship",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 37,
+      "target": "obtener la ciudadanía",
+      "source": "to obtain citizenship",
+      "gender": "—",
+      "type": "phrase"
+    },
+    {
+      "id": 38,
+      "target": "el inmigrante",
+      "source": "immigrant",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 39,
+      "target": "la inmigrante",
+      "source": "immigrant (female)",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 40,
+      "target": "el refugiado",
+      "source": "refugee (male)",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 41,
+      "target": "la refugiada",
+      "source": "refugee (female)",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 42,
+      "target": "el asilo político",
+      "source": "political asylum",
+      "gender": "m",
+      "type": "phrase"
+    },
+    {
+      "id": 43,
+      "target": "el desempleo",
+      "source": "unemployment",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 44,
+      "target": "el empleo",
+      "source": "employment / job",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 45,
+      "target": "la pobreza",
+      "source": "poverty",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 46,
+      "target": "la riqueza",
+      "source": "wealth",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 47,
+      "target": "la desigualdad",
+      "source": "inequality",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 48,
+      "target": "el bienestar social",
+      "source": "social welfare",
+      "gender": "m",
+      "type": "phrase"
+    },
+    {
+      "id": 49,
+      "target": "la salud pública",
+      "source": "public health",
+      "gender": "f",
+      "type": "phrase"
+    },
+    {
+      "id": 50,
+      "target": "la educación pública",
+      "source": "public education",
+      "gender": "f",
+      "type": "phrase"
+    },
+    {
+      "id": 51,
+      "target": "el servicio público",
+      "source": "public service",
+      "gender": "m",
+      "type": "phrase"
+    },
+    {
+      "id": 52,
+      "target": "la seguridad social",
+      "source": "social security",
+      "gender": "f",
+      "type": "phrase"
+    },
+    {
+      "id": 53,
+      "target": "el subsidio",
+      "source": "subsidy / benefit",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 54,
+      "target": "el impuesto",
+      "source": "tax",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 55,
+      "target": "pagar impuestos",
+      "source": "to pay taxes",
+      "gender": "—",
+      "type": "phrase"
+    },
+    {
+      "id": 56,
+      "target": "el presupuesto",
+      "source": "budget",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 57,
+      "target": "la economía",
+      "source": "economy",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 58,
+      "target": "el inflation",
+      "source": "inflation",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 59,
+      "target": "la inflación",
+      "source": "inflation",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 60,
+      "target": "el crecimiento económico",
+      "source": "economic growth",
+      "gender": "m",
+      "type": "phrase"
+    },
+    {
+      "id": 61,
+      "target": "la crisis económica",
+      "source": "economic crisis",
+      "gender": "f",
+      "type": "phrase"
+    },
+    {
+      "id": 62,
+      "target": "el problema social",
+      "source": "social problem",
+      "gender": "m",
+      "type": "phrase"
+    },
+    {
+      "id": 63,
+      "target": "la solución",
+      "source": "solution",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 64,
+      "target": "la solución del problema",
+      "source": "the solution to the problem",
+      "gender": "f",
+      "type": "phrase"
+    },
+    {
+      "id": 65,
+      "target": "la protesta",
+      "source": "protest",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 66,
+      "target": "manifestarse",
+      "source": "to protest / demonstrate",
+      "gender": "v",
+      "type": "verb"
+    },
+    {
+      "id": 67,
+      "target": "la huelga",
+      "source": "strike",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 68,
+      "target": "declarar una huelga",
+      "source": "to go on strike",
+      "gender": "—",
+      "type": "phrase"
+    },
+    {
+      "id": 69,
+      "target": "el sindicato",
+      "source": "trade union",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 70,
+      "target": "la manifestación",
+      "source": "demonstration / march",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 71,
+      "target": "la opinión pública",
+      "source": "public opinion",
+      "gender": "f",
+      "type": "phrase"
+    },
+    {
+      "id": 72,
+      "target": "la encuesta de opinión",
+      "source": "opinion poll",
+      "gender": "f",
+      "type": "phrase"
+    },
+    {
+      "id": 73,
+      "target": "el periódico",
+      "source": "newspaper",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 74,
+      "target": "las noticias",
+      "source": "news",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 75,
+      "target": "la noticia",
+      "source": "news item / story",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 76,
+      "target": "informar",
+      "source": "to inform / report",
+      "gender": "v",
+      "type": "verb"
+    },
+    {
+      "id": 77,
+      "target": "el informe",
+      "source": "report",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 78,
+      "target": "la verdad",
+      "source": "truth",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 79,
+      "target": "la mentira",
+      "source": "lie",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 80,
+      "target": "decir la verdad",
+      "source": "to tell the truth",
+      "gender": "—",
+      "type": "phrase"
+    },
+    {
+      "id": 81,
+      "target": "confiar en",
+      "source": "to trust in",
+      "gender": "—",
+      "type": "verb"
+    },
+    {
+      "id": 82,
+      "target": "la confianza",
+      "source": "trust",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 83,
+      "target": "la desconfianza",
+      "source": "distrust",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 84,
+      "target": "el debate",
+      "source": "debate",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 85,
+      "target": "discutir",
+      "source": "to discuss / argue",
+      "gender": "v",
+      "type": "verb"
+    },
+    {
+      "id": 86,
+      "target": "estar de acuerdo",
+      "source": "to agree",
+      "gender": "—",
+      "type": "phrase"
+    },
+    {
+      "id": 87,
+      "target": "estar en desacuerdo",
+      "source": "to disagree",
+      "gender": "—",
+      "type": "phrase"
+    },
+    {
+      "id": 88,
+      "target": "apoyar",
+      "source": "to support",
+      "gender": "v",
+      "type": "verb"
+    },
+    {
+      "id": 89,
+      "target": "oponerse a",
+      "source": "to oppose",
+      "gender": "—",
+      "type": "verb"
+    },
+    {
+      "id": 90,
+      "target": "el cambio social",
+      "source": "social change",
+      "gender": "m",
+      "type": "phrase"
+    },
+    {
+      "id": 91,
+      "target": "la reforma",
+      "source": "reform",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 92,
+      "target": "la revolución",
+      "source": "revolution",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 93,
+      "target": "la democracia",
+      "source": "democracy",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 94,
+      "target": "el sistema democrático",
+      "source": "democratic system",
+      "gender": "m",
+      "type": "phrase"
+    },
+    {
+      "id": 95,
+      "target": "el voto electrónico",
+      "source": "electronic vote",
+      "gender": "m",
+      "type": "phrase"
+    },
+    {
+      "id": 96,
+      "target": "la transparencia",
+      "source": "transparency",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 97,
+      "target": "la corrupción",
+      "source": "corruption",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 98,
+      "target": "luchar contra",
+      "source": "to fight against",
+      "gender": "—",
+      "type": "verb"
+    },
+    {
+      "id": 99,
+      "target": "la comunidad",
+      "source": "community",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 100,
+      "target": "participar en",
+      "source": "to participate in",
+      "gender": "—",
+      "type": "verb"
+    }
+  ],
+  "grammar": [
+    {
+      "title": "Conditional Tense for Hypothetical Political Situations",
+      "content": "The conditional tense is used to talk about hypothetical situations, polite requests, and what someone would do in a certain situation — very common in political discourse:\n\nFormation (regular): infinitive + endings\n-ía, -ías, -ía, -íamos, -íais, -ían\n\nConditional of regular verbs:\ncambiar → cambiaría, cambiarías, cambiaría, cambiaríamos, cambiaríais, cambiarían\nvotar → votaría, votarías, votaría, votaríamos, votaríais, votarían\nmejorar → mejoraría, mejorarías, mejoraría, mejoraríamos, mejoraríais, mejorarían\n\nCommon irregular stems:\n- tener → tendr- (tendría, tendrías...)\n- poder → podr- (podría, podrías...)\n- decir → dir- (diría, dirías...)\n- hacer → har- (haría, harías...)\n- salir → saldr- (saldría, saldrías...)\n- poner → pondr- (pondría, pondrías...)\n- saber → sabr- (sabría, sabrías...)\n- venir → vendr- (vendría, vendrías...)\n- querer → querr- (querría, querrías...)\n- haber → habr- (habría, habrías...)\n\nKey uses in politics:\n1. Hypothetical: \"Si fuera presidente, cambiaría la ley.\" (If I were president, I would change the law.)\n2. Polite requests: \"¿Podría ayudarme con el formulario?\" (Could you help me with the form?)\n3. Future in the past: \"Dijo que vendría mañana.\" (He said he would come tomorrow.)\n4. Politician promises: \"Prometió que mejoraría la economía.\" (He promised that he would improve the economy.)",
+      "examples": [
+        "Si tuviera más dinero, votaría por el partido de centro. (If I had more money, I would vote for the center party.)",
+        "¿Podría explicar su propuesta económica? (Could you explain your economic proposal?)",
+        "El candidato prometió que crearía más empleos. (The candidate promised that he would create more jobs.)",
+        "Si fuera el presidente, cambiaría la ley de educación. (If I were president, I would change the education law.)",
+        "El gobierno dijo que apoyaría a los desempleados. (The government said it would support the unemployed.)"
+      ]
+    },
+    {
+      "title": "Direct & Indirect Object Pronouns in Formal Government Contexts",
+      "content": "Object pronouns are essential for understanding government services, official documents, and formal political language:\n\nDirect object pronouns (replaces the direct object):\n- me, te, lo/la, nos, os, los/las\n\nIndirect object pronouns (replaces the indirect object):\n- me, te, le, nos, os, les\n\nCombined pronouns (direct + indirect):\n- me lo/la, te lo/la, se lo/la, nos lo/la, os lo/la, se los/las\n\nNote: When both pronouns start with \"l\" or \"le/les\", the first becomes \"se\":\n- le + lo → se lo (not \"le lo\")\n- les + la → se la (not \"les la\")\n\nPosition: Before conjugated verb OR attached to infinitive/gerund\n- El gobierno LO necesita. / El gobierno necesita LO.\n- Necesitan ayudarlos. / Los necesitan ayudar.\n\nGovernment context examples:\n- El gobierno les paga los subsidios. (The government pays them subsidies.)\n- Se lo debemos a la ciudadanía. (We owe it to the citizens.)\n- ¿Me puede informar sobre la ley? (Can you inform me about the law?)\n- El parlamento los aprobó ayer. (Parliament passed them yesterday.)\n- La presidenta les prometió mejores condiciones. (The president promised them better conditions.)",
+      "examples": [
+        "El gobierno les entrega los subsidios a las familias. → El gobierno se los entrega.",
+        "¿Puede informarme sobre la nueva ley? → ¿Puede informarme? / ¿Me puede informar?",
+        "El parlamentario prometió ayudarlos a los ciudadanos. → El parlamentario prometió ayudarlos.",
+        "La Constitución les garantiza los derechos a todos. → La Constitución se los garantiza.",
+        "El partido político quiere apoyar a la comunidad. → El partido político quiere apoyarla."
+      ]
+    },
+    {
+      "title": "Future Tense for Political Promises & Predictions",
+      "content": "The future tense is used for political promises, predictions about the future, and what will happen — common in political speeches and news:\n\nFormation (regular): infinitive + endings\n-é, -ás, -á, -emos, -éis, -án\n\nFuture of regular verbs:\nvotar → votaré, votarás, votará, votaremos, votaréis, votarán\ncambiar → cambiaré, cambiarás, cambiará, cambiaremos, cambiaréis, cambiarán\ncrear → crearé, crearás, creará, crearemos, crearéis, crearán\n\nIrregular stems (same as other future/conditional):\n- tener → tendré, tendrás, tendrá, tendremos, tendrán\n- poder → podré, podrás, podrá, podremos, podrán\n- hacer → haré, harás, hará, haremos, harán\n- decir → diré, dirás, dirá, diremos, dirán\n- salir → saldré, saldrás, saldrá, saldremos, saldrán\n- poner → pondré, pondrás, pondrá, pondremos, pondrán\n- saber → sabré, sabrás, sabrá, sabremos, sabrán\n- querer → querré, querrás, querrá, querrán\n\nKey uses in politics:\n1. Promises: \"Prometo que mejoraré la educación.\" (I promise that I will improve education.)\n2. Predictions: \"La economía crecerá el próximo año.\" (The economy will grow next year.)\n3. Certainty about the future: \"El gobierno aprobará la ley mañana.\" (The government will pass the law tomorrow.)",
+      "examples": [
+        "El presidente prometió que mejorará la salud pública. (The president promised that he will improve public health.)",
+        "Creo que la democracia se fortalecerá con las nuevas reformas. (I believe that democracy will strengthen with the new reforms.)",
+        "El próximo año, el gobierno creará 50.000 nuevos empleos. (Next year, the government will create 50,000 new jobs.)",
+        "¿Cree usted que habrá menos pobreza en diez años? (Do you believe there will be less poverty in ten years?)",
+        "La oposición no aceptará los cambios propuestos. (The opposition will not accept the proposed changes.)"
+      ]
+    }
+  ],
+  "pronunciation": [
+    {
+      "title": "Stress Patterns in Political & Social Vocabulary",
+      "content": "Key pronunciation rules for political and social vocabulary:\n\n1. Palabras agudas (stress on last syllable) — marked if ending in consonant other than -n or -s:\n   - la justicia (justi-CIA) — no accent, ends in -a\n   - el presidente (pre-si-DEN-te) — no accent, ends in -e\n   - la democracia (de-mo-cra-CIA) — no accent, ends in -a\n   - el desempleo (des-em-PLE-o) — no accent, ends in -o\n\n2. Palabras llanas (stress on penult) — marked if NOT ending in vowel, -n, or -s:\n   - la pobreza (po-BER-tah) — no accent, ends in -a\n   - la riqueza (RIE-thes-ah) — no accent, ends in -a\n   - la solución (so-lu-THON) — HAS accent, ends in -n\n   - la legislación (lee-slee-ah-SEE-ohn) — HAS accent, ends in -n\n   - la ciudadanía (see-oo-dah-da-NEE-ah) — HAS accent, ends in -n\n\n3. Palabras esdrújulas (stress on antepenult) — ALWAYS have an accent:\n   - el inmigrante (im-mee-GRAHN-teh) — this is llana, no accent\n   - la democracia (de-mo-cra-CIA) — this is aguda, no accent\n\n4. Special sounds for politics:\n   - -ción → -SYON: la legislación (lee-slee-ah-SYON)\n   - -dad → -DAD: la justicia (hoo-STEES-yah), la igualdad (ee-gwah-lee-DAD)\n   - -ente → -EN-te: el presidente (pre-si-DEN-te)\n   - ll → Y sound: la ley (leh)\n   - j → harsh H: la justicia (hoo-STEES-yah)\n   - g before e/i → harsh H: gobierno (GEE-bar-no)",
+      "examples": [
+        "justicia = hoo-STEES-yah (stress on last syllable, no accent — ends in -a)",
+        "democracia = de-mo-cra-SYAH (stress on last syllable, no accent — ends in -a)",
+        "solución = so-loo-THYON (stress on last syllable, HAS accent — ends in -n)",
+        "ciudadanía = see-oo-dah-da-NEE-ah (stress on last syllable, HAS accent — ends in -n)",
+        "gobierno = GEE-bar-no (the g before i sounds like English h)",
+        "ley = leh (the y at the end sounds like English ay)",
+        "desempleo = des-em-PLE-o (stress on penult, no accent)"
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "multiple-choice",
+      "question": "What does votar mean in Spanish?",
+      "options": [
+        "to talk",
+        "to vote",
+        "to work",
+        "to travel"
+      ],
+      "correct": 1,
+      "explanation": "Votar means to vote. It is a regular -AR verb. Example: \"Voto por el candidato que tiene mejores ideas.\" (I vote for the candidate who has better ideas.)"
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete with the conditional of ser: Si yo ___ presidente, cambiaría la ley. (If I were president, I would change the law.)",
+      "correct": "fuera",
+      "explanation": "Fuera is the imperfect subjunctive of ser. In the si clause of a hypothetical conditional, we use the imperfect subjunctive. The structure is: Si + imperfect subjunctive + conditional."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What is the correct form: El gobierno ___ los subsidios a los ciudadanos. (The government gives subsidies to citizens.)",
+      "options": [
+        "les da",
+        "le da",
+        "les doy",
+        "le doy"
+      ],
+      "correct": 0,
+      "explanation": "Les da — los ciudadanos is plural, so we need the plural indirect object pronoun les. Da is the third-person singular of dar (to give)."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete the future tense: El próximo año, el gobierno ___ más empleos. (Next year, the government will create more jobs.)",
+      "correct": "creará",
+      "explanation": "Creará is the future tense (third-person singular) of crear (to create). Future tense for regular -AR verbs adds -á to the infinitive: crear + á = creará."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What does la ciudadanía mean?",
+      "options": [
+        "the city",
+        "citizenship",
+        "the citizen",
+        "the community"
+      ],
+      "correct": 1,
+      "explanation": "La ciudadanía means citizenship (the status of being a citizen). La ciudad is the city, el ciudadano is the citizen (male), and la comunidad is the community."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Which sentence uses the conditional correctly? Los políticos ___ más impuestos si la economía mejorara. (Politicians would raise more taxes if the economy improved.)",
+      "options": [
+        "subirán",
+        "subirían",
+        "subían",
+        "suben"
+      ],
+      "correct": 1,
+      "explanation": "Subirían is the conditional tense (third-person plural). The sentence describes a hypothetical situation: si + imperfect subjunctive (mejorara) + conditional (subirían)."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Replace the direct object with a pronoun: El gobierno ayuda a los ciudadanos. → El gobierno ___ ayuda.",
+      "correct": "los",
+      "explanation": "Los is the direct object pronoun (third-person plural masculine) that replaces a los ciudadanos. The sentence becomes El gobierno los ayuda (The government helps them)."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What does la corrupción mean?",
+      "options": [
+        "the corruption",
+        "the correction",
+        "the conversation",
+        "the construction"
+      ],
+      "correct": 0,
+      "explanation": "La corrupción means corruption. The c before o makes a hard k sound. This is a major social and political issue discussed in Spanish-speaking countries."
+    },
+    {
+      "type": "matching",
+      "question": "Match the Spanish political terms with their English meanings:\n\n1. la izquierda\n2. la derecha\n3. el centro\n4. el parlamento",
+      "options": [
+        "left / right / center / parliament",
+        "parliament / center / right / left",
+        "center / left / right / parliament",
+        "right / left / parliament / center"
+      ],
+      "correct": 0,
+      "explanation": "1. la izquierda = left (political) — 2. la derecha = right (political) — 3. el centro = center (political) — 4. el parlamento = parliament."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete with the correct combined pronoun: El gobierno da la información a la ciudadanía. El gobierno ___ da. (The government gives the information to the citizens. The government gives it to them.)",
+      "correct": "se la",
+      "explanation": "Se la — la información is feminine singular direct object (la), and a la ciudadanía is the indirect object (le). When le/les combines with lo/la/los/las, it becomes se: le + la → se la."
+    }
+  ]
+}

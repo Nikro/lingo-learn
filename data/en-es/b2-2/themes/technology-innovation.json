@@ -1,0 +1,1321 @@
+{
+  "id": "technology-innovation",
+  "level": "b2-2",
+  "title": "Technology & Innovation",
+  "description": "Vocabulary, grammar, pronunciation, and exercises about AI, smartphones, apps, digital transformation, and innovation in modern society.",
+  "vocabulary": [
+    {
+      "id": 1,
+      "target": "la inteligencia artificial",
+      "source": "artificial intelligence",
+      "gender": "f",
+      "type": "noun phrase"
+    },
+    {
+      "id": 2,
+      "target": "la inteligencia artificial",
+      "source": "AI",
+      "gender": "f",
+      "type": "abbreviation"
+    },
+    {
+      "id": 3,
+      "target": "el algoritmo",
+      "source": "algorithm",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 4,
+      "target": "la aplicación",
+      "source": "app",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 5,
+      "target": "el teléfono inteligente",
+      "source": "smartphone",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 6,
+      "target": "la transformación digital",
+      "source": "digital transformation",
+      "gender": "f",
+      "type": "noun phrase"
+    },
+    {
+      "id": 7,
+      "target": "la innovación",
+      "source": "innovation",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 8,
+      "target": "el dispositivo",
+      "source": "device",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 9,
+      "target": "la red social",
+      "source": "social network",
+      "gender": "f",
+      "type": "noun phrase"
+    },
+    {
+      "id": 10,
+      "target": "la nube",
+      "source": "the cloud",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 11,
+      "target": "la cibernética",
+      "source": "cybernetics",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 12,
+      "target": "la ciberseguridad",
+      "source": "cybersecurity",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 13,
+      "target": "el ciberacoso",
+      "source": "cyberbullying",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 14,
+      "target": "el big data",
+      "source": "big data",
+      "gender": "m",
+      "type": "noun phrase"
+    },
+    {
+      "id": 15,
+      "target": "la computación en la nube",
+      "source": "cloud computing",
+      "gender": "f",
+      "type": "noun phrase"
+    },
+    {
+      "id": 16,
+      "target": "la realidad virtual",
+      "source": "virtual reality",
+      "gender": "f",
+      "type": "noun phrase"
+    },
+    {
+      "id": 17,
+      "target": "la realidad aumentada",
+      "source": "augmented reality",
+      "gender": "f",
+      "type": "noun phrase"
+    },
+    {
+      "id": 18,
+      "target": "el internet de las cosas",
+      "source": "Internet of Things",
+      "gender": "m",
+      "type": "noun phrase"
+    },
+    {
+      "id": 19,
+      "target": "el robot",
+      "source": "robot",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 20,
+      "target": "la automatización",
+      "source": "automation",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 21,
+      "target": "el aprendizaje automático",
+      "source": "machine learning",
+      "gender": "m",
+      "type": "noun phrase"
+    },
+    {
+      "id": 22,
+      "target": "la programación",
+      "source": "programming",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 23,
+      "target": "el código fuente",
+      "source": "source code",
+      "gender": "m",
+      "type": "noun phrase"
+    },
+    {
+      "id": 24,
+      "target": "la plataforma digital",
+      "source": "digital platform",
+      "gender": "f",
+      "type": "noun phrase"
+    },
+    {
+      "id": 25,
+      "target": "el software",
+      "source": "software",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 26,
+      "target": "el hardware",
+      "source": "hardware",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 27,
+      "target": "el sistema operativo",
+      "source": "operating system",
+      "gender": "m",
+      "type": "noun phrase"
+    },
+    {
+      "id": 28,
+      "target": "la memoria",
+      "source": "memory",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 29,
+      "target": "el procesador",
+      "source": "processor",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 30,
+      "target": "la conexión a internet",
+      "source": "internet connection",
+      "gender": "f",
+      "type": "noun phrase"
+    },
+    {
+      "id": 31,
+      "target": "la velocidad de descarga",
+      "source": "download speed",
+      "gender": "f",
+      "type": "noun phrase"
+    },
+    {
+      "id": 32,
+      "target": "el ancho de banda",
+      "source": "bandwidth",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 33,
+      "target": "el firewall",
+      "source": "firewall",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 34,
+      "target": "la contraseña",
+      "source": "password",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 35,
+      "target": "la autenticación de dos factores",
+      "source": "two-factor authentication",
+      "gender": "f",
+      "type": "noun phrase"
+    },
+    {
+      "id": 36,
+      "target": "el virus informático",
+      "source": "computer virus",
+      "gender": "m",
+      "type": "noun phrase"
+    },
+    {
+      "id": 37,
+      "target": "el malware",
+      "source": "malware",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 38,
+      "target": "el ransomware",
+      "source": "ransomware",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 39,
+      "target": "la privacidad en línea",
+      "source": "online privacy",
+      "gender": "f",
+      "type": "noun phrase"
+    },
+    {
+      "id": 40,
+      "target": "los datos personales",
+      "source": "personal data",
+      "gender": "m",
+      "type": "noun phrase"
+    },
+    {
+      "id": 41,
+      "target": "la huella digital",
+      "source": "digital footprint",
+      "gender": "f",
+      "type": "noun phrase"
+    },
+    {
+      "id": 42,
+      "target": "la brecha digital",
+      "source": "digital divide",
+      "gender": "f",
+      "type": "noun phrase"
+    },
+    {
+      "id": 43,
+      "target": "la exclusión digital",
+      "source": "digital exclusion",
+      "gender": "f",
+      "type": "noun phrase"
+    },
+    {
+      "id": 44,
+      "target": "la tecnología móvil",
+      "source": "mobile technology",
+      "gender": "f",
+      "type": "noun phrase"
+    },
+    {
+      "id": 45,
+      "target": "la pantalla táctil",
+      "source": "touchscreen",
+      "gender": "f",
+      "type": "noun phrase"
+    },
+    {
+      "id": 46,
+      "target": "la batería",
+      "source": "battery",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 47,
+      "target": "el cargador",
+      "source": "charger",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 48,
+      "target": "el altavoz",
+      "source": "speaker",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 49,
+      "target": "el micrófono",
+      "source": "microphone",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 50,
+      "target": "la cámara web",
+      "source": "webcam",
+      "gender": "f",
+      "type": "noun phrase"
+    },
+    {
+      "id": 51,
+      "target": "el teclado",
+      "source": "keyboard",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 52,
+      "target": "el ratón",
+      "source": "mouse",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 53,
+      "target": "el monitor",
+      "source": "monitor",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 54,
+      "target": "el disco duro",
+      "source": "hard drive",
+      "gender": "m",
+      "type": "noun phrase"
+    },
+    {
+      "id": 55,
+      "target": "el disco de estado sólido",
+      "source": "solid-state drive",
+      "gender": "m",
+      "type": "noun phrase"
+    },
+    {
+      "id": 56,
+      "target": "la memoria USB",
+      "source": "USB drive",
+      "gender": "f",
+      "type": "noun phrase"
+    },
+    {
+      "id": 57,
+      "target": "el cable HDMI",
+      "source": "HDMI cable",
+      "gender": "m",
+      "type": "noun phrase"
+    },
+    {
+      "id": 58,
+      "target": "la actualización del software",
+      "source": "software update",
+      "gender": "f",
+      "type": "noun phrase"
+    },
+    {
+      "id": 59,
+      "target": "la vulnerabilidad",
+      "source": "vulnerability",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 60,
+      "target": "el cifrado",
+      "source": "encryption",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 61,
+      "target": "el asistente virtual",
+      "source": "virtual assistant",
+      "gender": "m",
+      "type": "noun phrase"
+    },
+    {
+      "id": 62,
+      "target": "el reconocimiento facial",
+      "source": "facial recognition",
+      "gender": "m",
+      "type": "noun phrase"
+    },
+    {
+      "id": 63,
+      "target": "la impresión 3D",
+      "source": "3D printing",
+      "gender": "f",
+      "type": "noun phrase"
+    },
+    {
+      "id": 64,
+      "target": "el dron",
+      "source": "drone",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 65,
+      "target": "la moneda digital",
+      "source": "digital currency",
+      "gender": "f",
+      "type": "noun phrase"
+    },
+    {
+      "id": 66,
+      "target": "la criptomoneda",
+      "source": "cryptocurrency",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 67,
+      "target": "la cadena de bloques",
+      "source": "blockchain",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 68,
+      "target": "la billetera digital",
+      "source": "digital wallet",
+      "gender": "f",
+      "type": "noun phrase"
+    },
+    {
+      "id": 69,
+      "target": "la telemedicina",
+      "source": "telemedicine",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 70,
+      "target": "la educación en línea",
+      "source": "online education",
+      "gender": "f",
+      "type": "noun phrase"
+    },
+    {
+      "id": 71,
+      "target": "el teletrabajo",
+      "source": "remote work",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 72,
+      "target": "la videoconferencia",
+      "source": "video conference",
+      "gender": "f",
+      "type": "noun phrase"
+    },
+    {
+      "id": 73,
+      "target": "la inteligencia artificial generativa",
+      "source": "generative AI",
+      "gender": "f",
+      "type": "noun phrase"
+    },
+    {
+      "id": 74,
+      "target": "el chatbot",
+      "source": "chatbot",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 75,
+      "target": "la ética tecnológica",
+      "source": "tech ethics",
+      "gender": "f",
+      "type": "noun phrase"
+    },
+    {
+      "id": 76,
+      "target": "el impacto tecnológico",
+      "source": "technological impact",
+      "gender": "m",
+      "type": "noun phrase"
+    },
+    {
+      "id": 77,
+      "target": "la revolución tecnológica",
+      "source": "technological revolution",
+      "gender": "f",
+      "type": "noun phrase"
+    },
+    {
+      "id": 78,
+      "target": "el avance tecnológico",
+      "source": "technological advancement",
+      "gender": "m",
+      "type": "noun phrase"
+    },
+    {
+      "id": 79,
+      "target": "el progreso tecnológico",
+      "source": "technological progress",
+      "gender": "m",
+      "type": "noun phrase"
+    },
+    {
+      "id": 80,
+      "target": "el futuro de la tecnología",
+      "source": "the future of technology",
+      "gender": "m",
+      "type": "noun phrase"
+    },
+    {
+      "id": 81,
+      "target": "el desarrollo tecnológico",
+      "source": "technological development",
+      "gender": "m",
+      "type": "noun phrase"
+    },
+    {
+      "id": 82,
+      "target": "la disrupción tecnológica",
+      "source": "technological disruption",
+      "gender": "f",
+      "type": "noun phrase"
+    },
+    {
+      "id": 83,
+      "target": "la disrupción",
+      "source": "disruption",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 84,
+      "target": "el ecosistema tecnológico",
+      "source": "technology ecosystem",
+      "gender": "m",
+      "type": "noun phrase"
+    },
+    {
+      "id": 85,
+      "target": "la tendencia tecnológica",
+      "source": "tech trend",
+      "gender": "f",
+      "type": "noun phrase"
+    },
+    {
+      "id": 86,
+      "target": "la tecnología emergente",
+      "source": "emerging technology",
+      "gender": "f",
+      "type": "noun phrase"
+    },
+    {
+      "id": 87,
+      "target": "el gadget",
+      "source": "gadget",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 88,
+      "target": "la tecnología portátil",
+      "source": "wearable technology",
+      "gender": "f",
+      "type": "noun phrase"
+    },
+    {
+      "id": 89,
+      "target": "el reloj inteligente",
+      "source": "smartwatch",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 90,
+      "target": "en la era digital",
+      "source": "in the digital age",
+      "gender": "—",
+      "type": "phrase"
+    },
+    {
+      "id": 91,
+      "target": "el procesador de lenguaje natural",
+      "source": "natural language processor",
+      "gender": "m",
+      "type": "noun phrase"
+    },
+    {
+      "id": 92,
+      "target": "la interfaz de usuario",
+      "source": "user interface",
+      "gender": "f",
+      "type": "noun phrase"
+    },
+    {
+      "id": 93,
+      "target": "el navegador web",
+      "source": "web browser",
+      "gender": "m",
+      "type": "noun phrase"
+    },
+    {
+      "id": 94,
+      "target": "el motor de búsqueda",
+      "source": "search engine",
+      "gender": "m",
+      "type": "noun phrase"
+    },
+    {
+      "id": 95,
+      "target": "la descarga",
+      "source": "download",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 96,
+      "target": "la subida",
+      "source": "upload",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 97,
+      "target": "la suscripción",
+      "source": "subscription",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 98,
+      "target": "la licencia",
+      "source": "license",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 99,
+      "target": "el espacio de almacenamiento",
+      "source": "storage space",
+      "gender": "m",
+      "type": "noun phrase"
+    },
+    {
+      "id": 100,
+      "target": "la tecnología de vanguardia",
+      "source": "cutting-edge technology",
+      "gender": "f",
+      "type": "noun phrase"
+    }
+  ],
+  "grammar": [
+    {
+      "id": 1,
+      "title": "Comparatives and Superlatives for Technology",
+      "description": "Comparing technological innovations and their impact.",
+      "examples": [
+        {
+          "sentence": "La inteligencia artificial es más avanzada que hace diez años.",
+          "translation": "Artificial intelligence is more advanced than it was ten years ago."
+        },
+        {
+          "sentence": "El internet de las cosas es la tecnología más disruptiva del siglo XXI.",
+          "translation": "The Internet of Things is the most disruptive technology of the 21st century."
+        },
+        {
+          "sentence": "Los smartphones son tan importantes como las herramientas de trabajo.",
+          "translation": "Smartphones are as important as work tools."
+        },
+        {
+          "sentence": "Esta aplicación es menos eficiente que la versión anterior.",
+          "translation": "This app is less efficient than the previous version."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Subjunctive for Technological Possibilities",
+      "description": "Using the subjunctive to express doubt about technological developments.",
+      "examples": [
+        {
+          "sentence": "Es posible que la inteligencia artificial reemplace muchos trabajos.",
+          "translation": "It is possible that AI will replace many jobs."
+        },
+        {
+          "sentence": "No creo que el big data proteja adecuadamente la privacidad.",
+          "translation": "I don't think big data adequately protects privacy."
+        },
+        {
+          "sentence": "Es necesario que los gobiernos regulen las redes sociales.",
+          "translation": "It is necessary that governments regulate social media."
+        },
+        {
+          "sentence": "Dudo que la realidad virtual se convierta en la norma.",
+          "translation": "I doubt that virtual reality will become the norm."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Formal Connectors for Technical Discussion",
+      "description": "Connectors used in technical writing and presentations about technology.",
+      "examples": [
+        {
+          "sentence": "En primer lugar, debemos considerar el impacto de la automatización.",
+          "translation": "First, we must consider the impact of automation."
+        },
+        {
+          "sentence": "Por un lado, la tecnología mejora la vida; por otro lado, crea dependencias.",
+          "translation": "On one hand, technology improves life; on the other, it creates dependencies."
+        },
+        {
+          "sentence": "En consecuencia, las empresas deben invertir en ciberseguridad.",
+          "translation": "As a consequence, companies must invest in cybersecurity."
+        },
+        {
+          "sentence": "Por el contrario, algunos argumentan que la tecnología nos aísla.",
+          "translation": "On the contrary, some argue that technology isolates us."
+        }
+      ]
+    }
+  ],
+  "pronunciation": [
+    {
+      "id": 1,
+      "title": "Pronunciation: Spanish Tech Vocabulary",
+      "sections": [
+        {
+          "focus": "The ll sound",
+          "examples": [
+            "el algoritmo",
+            "la inteligencia artificial",
+            "el procesamiento"
+          ]
+        },
+        {
+          "focus": "The rr sound",
+          "examples": [
+            "el ordenador",
+            "la carrera tecnológica"
+          ]
+        },
+        {
+          "focus": "Silent h",
+          "examples": [
+            "hardware",
+            "el hardware"
+          ]
+        },
+        {
+          "focus": "Stress patterns",
+          "examples": [
+            "el al-GOR-itmo",
+            "la ap-li-CA-ción",
+            "la in-no-VA-ción"
+          ]
+        }
+      ],
+      "practice_sentences": [
+        "La inteligencia artificial transforma la sociedad digital.",
+        "El algoritmo procesa los datos en la nube.",
+        "La transformación digital afecta a todas las empresas.",
+        "La ciberseguridad es fundamental en la era digital."
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": 1,
+      "type": "matching",
+      "title": "Match Spanish tech terms with English",
+      "instructions": "Match each Spanish term with its correct English translation.",
+      "items": [
+        {
+          "spanish": "la inteligencia artificial",
+          "english": "artificial intelligence"
+        },
+        {
+          "spanish": "el algoritmo",
+          "english": "algorithm"
+        },
+        {
+          "spanish": "la transformación digital",
+          "english": "digital transformation"
+        },
+        {
+          "spanish": "la ciberseguridad",
+          "english": "cybersecurity"
+        },
+        {
+          "spanish": "la realidad virtual",
+          "english": "virtual reality"
+        },
+        {
+          "spanish": "el internet de las cosas",
+          "english": "Internet of Things"
+        },
+        {
+          "spanish": "la criptomoneda",
+          "english": "cryptocurrency"
+        },
+        {
+          "spanish": "el teletrabajo",
+          "english": "remote work"
+        },
+        {
+          "spanish": "la brecha digital",
+          "english": "digital divide"
+        },
+        {
+          "spanish": "la impresión 3D",
+          "english": "3D printing"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "type": "fill-in-blank",
+      "title": "Complete with tech vocabulary",
+      "instructions": "Fill in the blanks with the correct tech vocabulary word.",
+      "items": [
+        {
+          "sentence": "La _____ es una rama de la informática que crea máquinas inteligentes.",
+          "answer": "inteligencia artificial",
+          "hints": [
+            "starts with i",
+            "three words"
+          ]
+        },
+        {
+          "sentence": "Los datos almacenados en la _____ no están en un servidor físico.",
+          "answer": "nube",
+          "hints": [
+            "one word",
+            "weather-related"
+          ]
+        },
+        {
+          "sentence": "El _____ es un conjunto de reglas que toma decisiones automáticamente.",
+          "answer": "algoritmo",
+          "hints": [
+            "one word",
+            "starts with a"
+          ]
+        },
+        {
+          "sentence": "La _____ digital divide a quienes tienen acceso de quienes no.",
+          "answer": "brecha",
+          "hints": [
+            "one word",
+            "gap-related"
+          ]
+        },
+        {
+          "sentence": "La _____ permite a los empleados trabajar desde casa.",
+          "answer": "teletrabajo",
+          "hints": [
+            "tele- prefix"
+          ]
+        },
+        {
+          "sentence": "La _____ protege los sistemas de ataques maliciosos.",
+          "answer": "ciberseguridad",
+          "hints": [
+            "ciber- prefix"
+          ]
+        },
+        {
+          "sentence": "La _____ permite crear objetos tridimensionales.",
+          "answer": "impresión 3D",
+          "hints": [
+            "printing-related"
+          ]
+        },
+        {
+          "sentence": "La moneda digital se basa en la _____ para funcionar.",
+          "answer": "cadena de bloques",
+          "hints": [
+            "block-related"
+          ]
+        },
+        {
+          "sentence": "El _____ analiza grandes cantidades de datos.",
+          "answer": "big data",
+          "hints": [
+            "size-related"
+          ]
+        },
+        {
+          "sentence": "Los dispositivos del _____ se comunican entre sí.",
+          "answer": "internet de las cosas",
+          "hints": [
+            "IoT"
+          ]
+        },
+        {
+          "sentence": "La _____ permite a los médicos atender pacientes a distancia.",
+          "answer": "telemedicina",
+          "hints": [
+            "tele- prefix"
+          ]
+        },
+        {
+          "sentence": "El _____ es un programa que conversa con usuarios.",
+          "answer": "chatbot",
+          "hints": [
+            "chat + bot"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "type": "translation",
+      "title": "Translate to Spanish",
+      "instructions": "Translate the following English sentences into Spanish.",
+      "items": [
+        {
+          "english": "Artificial intelligence is changing the way we work.",
+          "answer": "La inteligencia artificial está cambiando la forma en que trabajamos."
+        },
+        {
+          "english": "The digital divide is a serious social problem.",
+          "answer": "La brecha digital es un grave problema social."
+        },
+        {
+          "english": "Companies need to invest in cybersecurity.",
+          "answer": "Las empresas necesitan invertir en ciberseguridad."
+        },
+        {
+          "english": "Virtual reality will revolutionize education.",
+          "answer": "La realidad virtual revolucionará la educación."
+        },
+        {
+          "english": "Cloud computing allows access from anywhere.",
+          "answer": "La computación en la nube permite el acceso desde cualquier lugar."
+        },
+        {
+          "english": "The algorithm processes millions of data points.",
+          "answer": "El algoritmo procesa millones de puntos de datos."
+        },
+        {
+          "english": "Cryptocurrency is based on blockchain technology.",
+          "answer": "La criptomoneda se basa en la tecnología de cadena de bloques."
+        },
+        {
+          "english": "Remote work has increased since the pandemic.",
+          "answer": "El teletrabajo ha aumentado desde la pandemia."
+        },
+        {
+          "english": "The smartphone has transformed daily communication.",
+          "answer": "El teléfono inteligente ha transformado la comunicación diaria."
+        },
+        {
+          "english": "3D printing can create complex medical devices.",
+          "answer": "La impresión 3D puede crear dispositivos médicos complejos."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "type": "exercise",
+      "title": "Technology debate: pros and cons",
+      "instructions": "Read the arguments and identify whether they are for or against.",
+      "items": [
+        {
+          "argument": "La IA puede reemplazar trabajos humanos, causando desempleo masivo.",
+          "stance": "against"
+        },
+        {
+          "argument": "La telemedicina permite acceder a atención médica en zonas rurales.",
+          "stance": "for"
+        },
+        {
+          "argument": "El big data permite vender datos personales sin consentimiento.",
+          "stance": "against"
+        },
+        {
+          "argument": "La automatización aumenta la productividad y reduce errores.",
+          "stance": "for"
+        },
+        {
+          "argument": "Las redes sociales crean adicción y reducen la interacción social.",
+          "stance": "against"
+        },
+        {
+          "argument": "La realidad virtual permite experiencias educativas inmersivas.",
+          "stance": "for"
+        },
+        {
+          "argument": "Los algoritmos pueden perpetuar sesgos raciales.",
+          "stance": "against"
+        },
+        {
+          "argument": "La impresión 3D permite fabricar órganos para trasplantes.",
+          "stance": "for"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "type": "fill-in-blank",
+      "title": "Complete with correct gender",
+      "instructions": "Write each tech term with the correct article.",
+      "items": [
+        {
+          "item": "inteligencia artificial",
+          "answer": "la inteligencia artificial"
+        },
+        {
+          "item": "algoritmo",
+          "answer": "el algoritmo"
+        },
+        {
+          "item": "aplicación",
+          "answer": "la aplicación"
+        },
+        {
+          "item": "hardware",
+          "answer": "el hardware"
+        },
+        {
+          "item": "software",
+          "answer": "el software"
+        },
+        {
+          "item": "realidad virtual",
+          "answer": "la realidad virtual"
+        },
+        {
+          "item": "ciberseguridad",
+          "answer": "la ciberseguridad"
+        },
+        {
+          "item": "cadena de bloques",
+          "answer": "la cadena de bloques"
+        },
+        {
+          "item": "robot",
+          "answer": "el robot"
+        },
+        {
+          "item": "batería",
+          "answer": "la batería"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "type": "exercise",
+      "title": "Tech predictions",
+      "instructions": "Complete with será or no será + adjective.",
+      "items": [
+        {
+          "stem": "En 2030, la inteligencia artificial será más inteligente.",
+          "answer": "será"
+        },
+        {
+          "stem": "Los smartphones no serán necesarios en el futuro.",
+          "answer": "no serán"
+        },
+        {
+          "stem": "La realidad virtual será importante en la educación.",
+          "answer": "será"
+        },
+        {
+          "stem": "El teletrabajo será la forma principal de trabajar.",
+          "answer": "será"
+        },
+        {
+          "stem": "La blockchain no será usada solo para criptomonedas.",
+          "answer": "no será"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "type": "fill-in-blank",
+      "title": "Tech definitions",
+      "instructions": "Match each definition with the correct term.",
+      "items": [
+        {
+          "definition": "Sistema que ejecuta instrucciones automáticamente",
+          "answer": "algoritmo"
+        },
+        {
+          "definition": "Tecnología que simula un entorno virtual",
+          "answer": "realidad virtual"
+        },
+        {
+          "definition": "Moneda digital basada en cadena de bloques",
+          "answer": "criptomoneda"
+        },
+        {
+          "definition": "Trabajo realizado desde otro lugar",
+          "answer": "teletrabajo"
+        },
+        {
+          "definition": "Protección de sistemas de ataques",
+          "answer": "ciberseguridad"
+        },
+        {
+          "definition": "Datos en servidores remotos",
+          "answer": "nube"
+        },
+        {
+          "definition": "Crear objetos físicos de modelos digitales",
+          "answer": "impresión 3D"
+        },
+        {
+          "definition": "Brecha de acceso tecnológico",
+          "answer": "brecha digital"
+        },
+        {
+          "definition": "Programa que conversa con usuarios",
+          "answer": "chatbot"
+        },
+        {
+          "definition": "Medicina a distancia",
+          "answer": "telemedicina"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "type": "exercise",
+      "title": "Opinion expressions about technology",
+      "instructions": "Complete with an opinion expression.",
+      "items": [
+        {
+          "stem": "Estoy convencido de que la tecnología mejora nuestra vida.",
+          "answer": "Estoy convencido de que"
+        },
+        {
+          "stem": "No estoy de acuerdo con la idea de que la tecnología es siempre positiva.",
+          "answer": "la idea de que"
+        },
+        {
+          "stem": "Considero que es necesario regular las redes sociales.",
+          "answer": "Considero que"
+        },
+        {
+          "stem": "Personalmente no creo que la IA sea peligrosa.",
+          "answer": "Personalmente"
+        },
+        {
+          "stem": "Desde mi punto de vista, la brecha digital es el mayor problema.",
+          "answer": "Desde mi punto de vista"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "type": "fill-in-blank",
+      "title": "Tech vocabulary in context",
+      "instructions": "Read the paragraph and fill in the missing words.",
+      "items": [
+        {
+          "text": "La ________ digital está transformando todas las industrias. Las empresas utilizan el ________ para tomar mejores decisiones. Sin embargo, la ________ es cada vez más importante. Muchas organizaciones invierten en ________ para proteger sus datos. La ________ entre quienes tienen acceso y quienes no es un problema.",
+          "word_bank": [
+            "transformación",
+            "big data",
+            "ciberseguridad",
+            "brecha digital"
+          ]
+        },
+        {
+          "text": "El ________ permite a los médicos atender pacientes a distancia. La ________ hace posible la educación virtual. Muchos empleados prefieren el ________ por su flexibilidad. Pero no todos tienen una ________ estable.",
+          "word_bank": [
+            "telemedicina",
+            "educación en línea",
+            "teletrabajo",
+            "conexión a internet"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "type": "exercise",
+      "title": "Past tense narrative",
+      "instructions": "Complete using pretérito or imperfecto.",
+      "items": [
+        {
+          "text": "Hace diez años, los teléfonos inteligentes fueron menos poderosos. Las personas usaban teléfonos básicos. Cuando llegó la primera red social, todo el mundo quedó sorprendido. La tecnología cambió rápidamente.",
+          "answer": "fueron / usaban / llegó / quedó / cambió"
+        },
+        {
+          "text": "Cuando yo compré mi primer ordenador, la memoria era muy limitada. La velocidad era más lenta. Mis amigos pasaron horas descargando archivos. No había internet de banda ancha.",
+          "answer": "compré / era / era / pasaron / había"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "type": "fill-in-blank",
+      "title": "Gender agreement",
+      "instructions": "Complete with correctly gendered adjective.",
+      "items": [
+        {
+          "stem": "La tecnología es moderna.",
+          "answer": "moderna"
+        },
+        {
+          "stem": "El software es actual.",
+          "answer": "actual"
+        },
+        {
+          "stem": "La innovación es fundamental.",
+          "answer": "fundamental"
+        },
+        {
+          "stem": "Los avances son importantes.",
+          "answer": "importantes"
+        },
+        {
+          "stem": "La IA es potente.",
+          "answer": "potente"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "type": "exercise",
+      "title": "Reading comprehension",
+      "instructions": "Read and answer.",
+      "items": [
+        {
+          "text": "La transformación digital ha cambiado radicalmente la forma en que las empresas operan. Las organizaciones que no se adaptan corren el riesgo de quedar obsoletas. La automatización, el big data y la inteligencia artificial son herramientas clave. Sin embargo, este avance plantea desafíos éticos significativos.",
+          "questions": [
+            {
+              "question": "¿Qué riesgo enfrentan las empresas que no se adaptan?",
+              "answer": "Quedar obsoletas."
+            },
+            {
+              "question": "¿Cuáles son las herramientas clave?",
+              "answer": "Automatización, big data e inteligencia artificial."
+            },
+            {
+              "question": "¿Qué desafíos plantea el avance tecnológico?",
+              "answer": "Desafíos éticos significativos."
+            }
+          ]
+        },
+        {
+          "text": "El teletrabajo se ha convertido en realidad para millones desde la pandemia. Las videoconferencias reemplazan reuniones presenciales. Las plataformas digitales permiten colaboración a distancia. Aunque muchos valoran la flexibilidad, otros extrañan la interacción social.",
+          "questions": [
+            {
+              "question": "¿Qué reemplaza a las reuniones presenciales?",
+              "answer": "Las videoconferencias."
+            },
+            {
+              "question": "¿Qué permiten las plataformas digitales?",
+              "answer": "Colaboración a distancia."
+            },
+            {
+              "question": "¿Por qué algunos extrañan la oficina?",
+              "answer": "Por la interacción social."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

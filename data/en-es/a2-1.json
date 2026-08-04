@@ -105,6 +105,12 @@
       "title": "Relationships & Social Life",
       "description": "Talk about friendships, dating, family dynamics, social events, and interpersonal relationships in Spanish.",
       "estimated_hours": 6
+    },
+    {
+      "id": "law-rights",
+      "title": "Law & Rights",
+      "description": "Discuss legal rights, duties, and bureaucracy. Learn vocabulary for legal terms, rights, duties, and everyday interactions with institutions.",
+      "estimated_hours": 8
     }
   ]
 }

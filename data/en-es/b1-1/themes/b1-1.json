@@ -1,0 +1,126 @@
+{
+  "stage_id": "b1-1",
+  "title": "B1.1 \u2014 Advanced Subjunctive, Passives, & Complex Narratives",
+  "description": "Master the imperfect subjunctive, passive constructions, relative pronouns, and advanced connectors. Transition from basic narratives to complex, nuanced Spanish.",
+  "themes": [
+    {
+      "id": "abstract-thinking-opinions",
+      "title": "Abstract Thinking & Opinions",
+      "description": "Express opinions, hypotheses, and thoughts on abstract concepts. Discuss ideas beyond the concrete and immediate, using the subjunctive to express doubt, possibility, and subjectivity. Master connectors for argumentation and vocabulary for abstract thinking \u2014 a hallmark of B1 competence.",
+      "estimated_hours": 4,
+      "sections": [
+        "Vocabulary",
+        "Grammar",
+        "Exercises",
+        "Pronunciation"
+      ]
+    },
+    {
+      "id": "advanced-connectors",
+      "title": "Advanced Connectors (Conectores Avanzados)",
+      "description": "Master discourse markers for contrast, cause, addition, clarification, and conclusion.",
+      "estimated_hours": 2,
+      "sections": [
+        "Vocabulary",
+        "Grammar",
+        "Exercises",
+        "Pronunciation"
+      ]
+    },
+    {
+      "id": "complex-travel-navigation",
+      "title": "Complex Travel & Navigation",
+      "description": "Navigate complex travel situations: extended journeys, cultural immersion, and problem-solving on the go. Master vocabulary for transportation, accommodations, directions, emergencies, and cultural interactions. Develop the ability to describe travel experiences in detail and handle real-world travel scenarios in Spanish.",
+      "estimated_hours": 5,
+      "sections": [
+        "Vocabulary",
+        "Grammar",
+        "Exercises",
+        "Pronunciation"
+      ]
+    },
+    {
+      "id": "imperfect-subjunctive",
+      "title": "Imperfect Subjunctive (Pret\u00e9rito Imperfecto de Subjuntivo)",
+      "description": "Express hypothetical actions, wishes, or conditions in the past using the imperfect subjunctive (-ra/-se forms).",
+      "estimated_hours": 2,
+      "sections": [
+        "Vocabulary",
+        "Grammar",
+        "Exercises",
+        "Pronunciation"
+      ]
+    },
+    {
+      "id": "literature-arts",
+      "title": "Literature & Arts",
+      "description": "Vocabulary, grammar, pronunciation, and exercises focused on literary analysis, art criticism, cultural movements, and creative expression at the B1.1 CEFR level.",
+      "estimated_hours": 4,
+      "sections": [
+        "Vocabulary",
+        "Grammar",
+        "Exercises",
+        "Pronunciation"
+      ]
+    },
+    {
+      "id": "passive-voice",
+      "title": "Passive Voice (Voz Pasiva: Ser + Participio)",
+      "description": "Learn the formal passive voice using ser + past participle, with agreement in gender and number.",
+      "estimated_hours": 2,
+      "sections": [
+        "Vocabulary",
+        "Grammar",
+        "Exercises",
+        "Pronunciation"
+      ]
+    },
+    {
+      "id": "professional-communication",
+      "title": "Professional Communication",
+      "description": "Master the language of business and professional settings. Build vocabulary and grammar skills for meetings, presentations, emails, negotiations, and general business communication in Spanish. Develop the ability to participate in workplace interactions, convey ideas clearly, and handle professional situations with confidence.",
+      "estimated_hours": 5,
+      "sections": [
+        "Vocabulary",
+        "Grammar",
+        "Exercises",
+        "Pronunciation"
+      ]
+    },
+    {
+      "id": "relative-pronouns",
+      "title": "Relative Pronouns (Pronombres Relativos)",
+      "description": "Master the full range of relative pronouns: que, el cual, cuyo, donde, lo que/lo cual.",
+      "estimated_hours": 2,
+      "sections": [
+        "Vocabulary",
+        "Grammar",
+        "Exercises",
+        "Pronunciation"
+      ]
+    },
+    {
+      "id": "se-passive",
+      "title": "Se Passive (Pasiva Refleja)",
+      "description": "The most common way to express passive ideas in everyday Spanish \u2014 use 'se' + verb + subject.",
+      "estimated_hours": 2,
+      "sections": [
+        "Vocabulary",
+        "Grammar",
+        "Exercises",
+        "Pronunciation"
+      ]
+    },
+    {
+      "id": "subjunctive-vs-indicative",
+      "title": "Subjunctive vs. Indicative in Complex Clauses",
+      "description": "Understand when subordinate clauses require the subjunctive vs. indicative based on the main clause verb.",
+      "estimated_hours": 2,
+      "sections": [
+        "Vocabulary",
+        "Grammar",
+        "Exercises"
+      ]
+    }
+  ]
+}

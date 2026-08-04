@@ -1,0 +1,436 @@
+{
+  "id": "complex-travel-navigation",
+  "level": "b1-1",
+  "title": "Complex Travel & Navigation",
+  "description": "Navigate complex travel situations: extended journeys, cultural immersion, and problem-solving on the go. Master vocabulary for transportation, accommodations, directions, emergencies, and cultural interactions. Develop the ability to describe travel experiences in detail and handle real-world travel scenarios in Spanish.",
+  "vocabulary": [
+    {"id": 1, "target": "el viaje", "source": "trip / journey", "gender": "m", "type": "noun"},
+    {"id": 2, "target": "el destino", "source": "destination", "gender": "m", "type": "noun"},
+    {"id": 3, "target": "el itinerario", "source": "itinerary", "gender": "m", "type": "noun"},
+    {"id": 4, "target": "la reserva", "source": "reservation / booking", "gender": "f", "type": "noun"},
+    {"id": 5, "target": "la maleta", "source": "suitcase", "gender": "f", "type": "noun"},
+    {"id": 6, "target": "el equipaje", "source": "luggage / baggage", "gender": "m", "type": "noun"},
+    {"id": 7, "target": "el pasaporte", "source": "passport", "gender": "m", "type": "noun"},
+    {"id": 8, "target": "la visa", "source": "visa", "gender": "f", "type": "noun"},
+    {"id": 9, "target": "el billete", "source": "ticket", "gender": "m", "type": "noun"},
+    {"id": 10, "target": "la entrada", "source": "entrance / ticket", "gender": "f", "type": "noun"},
+    {"id": 11, "target": "la aduana", "source": "customs", "gender": "f", "type": "noun"},
+    {"id": 12, "target": "el mostrador", "source": "counter (check-in)", "gender": "m", "type": "noun"},
+    {"id": 13, "target": "la puerta de embarque", "source": "boarding gate", "gender": "f", "type": "noun"},
+    {"id": 14, "target": "la plataforma", "source": "platform (train)", "gender": "f", "type": "noun"},
+    {"id": 15, "target": "el andén", "source": "platform (train)", "gender": "m", "type": "noun"},
+    {"id": 16, "target": "la terminal", "source": "terminal", "gender": "f", "type": "noun"},
+    {"id": 17, "target": "la estación", "source": "station", "gender": "f", "type": "noun"},
+    {"id": 18, "target": "la parada", "source": "bus stop", "gender": "f", "type": "noun"},
+    {"id": 19, "target": "el aeropuerto", "source": "airport", "gender": "m", "type": "noun"},
+    {"id": 20, "target": "la terminal de equipaje", "source": "baggage claim", "gender": "f", "type": "noun"},
+    {"id": 21, "target": "el hotel", "source": "hotel", "gender": "m", "type": "noun"},
+    {"id": 22, "target": "el hostal", "source": "hostel", "gender": "m", "type": "noun"},
+    {"id": 23, "target": "el albergue", "source": "hostel / shelter", "gender": "m", "type": "noun"},
+    {"id": 24, "target": "la habitación", "source": "room", "gender": "f", "type": "noun"},
+    {"id": 25, "target": "la recepción", "source": "reception", "gender": "f", "type": "noun"},
+    {"id": 26, "target": "la check-in", "source": "check-in", "gender": "f", "type": "noun"},
+    {"id": 27, "target": "el desayuno", "source": "breakfast", "gender": "m", "type": "noun"},
+    {"id": 28, "target": "la cena", "source": "dinner", "gender": "f", "type": "noun"},
+    {"id": 29, "target": "la factura", "source": "bill / invoice", "gender": "f", "type": "noun"},
+    {"id": 30, "target": "el cambio de moneda", "source": "currency exchange", "gender": "m", "type": "noun"},
+    {"id": 31, "target": "el mapa", "source": "map", "gender": "m", "type": "noun"},
+    {"id": 32, "target": "la brújula", "source": "compass", "gender": "f", "type": "noun"},
+    {"id": 33, "target": "el GPS", "source": "GPS", "gender": "m", "type": "noun"},
+    {"id": 34, "target": "la calle", "source": "street", "gender": "f", "type": "noun"},
+    {"id": 35, "target": "la intersección", "source": "intersection", "gender": "f", "type": "noun"},
+    {"id": 36, "target": "la esquina", "source": "corner", "gender": "f", "type": "noun"},
+    {"id": 37, "target": "el semáforo", "source": "traffic light", "gender": "m", "type": "noun"},
+    {"id": 38, "target": "el cruce", "source": "crossing / intersection", "gender": "m", "type": "noun"},
+    {"id": 39, "target": "el puente", "source": "bridge", "gender": "m", "type": "noun"},
+    {"id": 40, "target": "la autopista", "source": "highway / freeway", "gender": "f", "type": "noun"},
+    {"id": 41, "target": "la carretera", "source": "road / highway", "gender": "f", "type": "noun"},
+    {"id": 42, "target": "a la derecha", "source": "to the right", "gender": "—", "type": "phrase"},
+    {"id": 43, "target": "a la izquierda", "source": "to the left", "gender": "—", "type": "phrase"},
+    {"id": 44, "target": "todo recto", "source": "straight ahead", "gender": "—", "type": "phrase"},
+    {"id": 45, "target": "al final de la calle", "source": "at the end of the street", "gender": "—", "type": "phrase"},
+    {"id": 46, "target": "al lado de", "source": "next to", "gender": "—", "type": "phrase"},
+    {"id": 47, "target": "enfrente de", "source": "in front of", "gender": "—", "type": "phrase"},
+    {"id": 48, "target": "entre", "source": "between", "gender": "—", "type": "phrase"},
+    {"id": 49, "target": "cerca de", "source": "near / close to", "gender": "—", "type": "phrase"},
+    {"id": 50, "target": "lejos de", "source": "far from", "gender": "—", "type": "phrase"},
+    {"id": 51, "target": "doblar a la derecha", "source": "turn right", "gender": "—", "type": "phrase"},
+    {"id": 52, "target": "doblar a la izquierda", "source": "turn left", "gender": "—", "type": "phrase"},
+    {"id": 53, "target": "cruzar la calle", "source": "cross the street", "gender": "—", "type": "phrase"},
+    {"id": 54, "target": "continuar por", "source": "continue on", "gender": "—", "type": "phrase"},
+    {"id": 55, "target": "tomar el primer camino", "source": "take the first road", "gender": "—", "type": "phrase"},
+    {"id": 56, "target": "perderse", "source": "to get lost", "gender": "v.", "type": "verb"},
+    {"id": 57, "target": "encontrarse con", "source": "to meet / run into", "gender": "v.", "type": "verb"},
+    {"id": 58, "target": "explorar", "source": "to explore", "gender": "v.", "type": "verb"},
+    {"id": 59, "target": "visitar", "source": "to visit", "gender": "v.", "type": "verb"},
+    {"id": 60, "target": "recorrer", "source": "to travel through / to tour", "gender": "v.", "type": "verb"},
+    {"id": 61, "target": "llegar a", "source": "to arrive at", "gender": "v.", "type": "verb"},
+    {"id": 62, "target": "salir de", "source": "to leave / depart from", "gender": "v.", "type": "verb"},
+    {"id": 63, "target": "transbordar", "source": "to transfer (train/plane)", "gender": "v.", "type": "verb"},
+    {"id": 64, "target": "retrasarse", "source": "to be delayed", "gender": "v.", "type": "verb"},
+    {"id": 65, "target": "cancelar", "source": "to cancel", "gender": "v.", "type": "verb"},
+    {"id": 66, "target": "posponer", "source": "to postpone", "gender": "v.", "type": "verb"},
+    {"id": 67, "target": "reservar", "source": "to reserve / book", "gender": "v.", "type": "verb"},
+    {"id": 68, "target": "registrar (equipaje)", "source": "to check in (luggage)", "gender": "v.", "type": "verb"},
+    {"id": 69, "target": "abrirse paso", "source": "to make one's way", "gender": "v.", "type": "verb"},
+    {"id": 70, "target": "detenerse", "source": "to stop", "gender": "v.", "type": "verb"},
+    {"id": 71, "target": "turístico/a", "source": "tourist (adj.)", "gender": "m/adj.", "type": "adj"},
+    {"id": 72, "target": "exótico/a", "source": "exotic", "gender": "m/adj.", "type": "adj"},
+    {"id": 73, "target": "acogedor/a", "source": "cozy / welcoming", "gender": "m/adj.", "type": "adj"},
+    {"id": 74, "target": "tranquilo/a", "source": "quiet / peaceful", "gender": "m/adj.", "type": "adj"},
+    {"id": 75, "target": "concurrido/a", "source": "crowded", "gender": "m/adj.", "type": "adj"},
+    {"id": 76, "target": "remoto/a", "source": "remote", "gender": "m/adj.", "type": "adj"},
+    {"id": 77, "target": "histórico/a", "source": "historic", "gender": "m/adj.", "type": "adj"},
+    {"id": 78, "target": "impresionante", "source": "impressive", "gender": "—", "type": "adj"},
+    {"id": 79, "target": "increíble", "source": "incredible", "gender": "—", "type": "adj"},
+    {"id": 80, "target": "maravilloso/a", "source": "wonderful", "gender": "m/adj.", "type": "adj"},
+    {"id": 81, "target": "la cultura local", "source": "local culture", "gender": "f", "type": "phrase"},
+    {"id": 82, "target": "la gastronomía", "source": "gastronomy / cuisine", "gender": "f", "type": "phrase"},
+    {"id": 83, "target": "las costumbres", "source": "customs / traditions", "gender": "f", "type": "phrase"},
+    {"id": 84, "target": "el folclore", "source": "folklore", "gender": "m", "type": "noun"},
+    {"id": 85, "target": "la tradición", "source": "tradition", "gender": "f", "type": "noun"},
+    {"id": 86, "target": "el monumento", "source": "monument", "gender": "m", "type": "noun"},
+    {"id": 87, "target": "la plaza", "source": "square / plaza", "gender": "f", "type": "noun"},
+    {"id": 88, "target": "la catedral", "source": "cathedral", "gender": "f", "type": "noun"},
+    {"id": 89, "target": "el mercado", "source": "market", "gender": "m", "type": "noun"},
+    {"id": 90, "target": "el museo", "source": "museum", "gender": "m", "type": "noun"},
+    {"id": 91, "target": "la guía turística", "source": "tour guide", "gender": "f", "type": "noun"},
+    {"id": 92, "target": "el guía turístico", "source": "tour guide (male)", "gender": "m", "type": "noun"},
+    {"id": 93, "target": "la emergencia", "source": "emergency", "gender": "f", "type": "noun"},
+    {"id": 94, "target": "la policía", "source": "police", "gender": "f", "type": "noun"},
+    {"id": 95, "target": "el hospital", "source": "hospital", "gender": "m", "type": "noun"},
+    {"id": 96, "target": "la farmacia", "source": "pharmacy", "gender": "f", "type": "noun"},
+    {"id": 97, "target": "el consulado", "source": "consulate", "gender": "m", "type": "noun"},
+    {"id": 98, "target": "perder algo", "source": "to lose something", "gender": "—", "type": "phrase"},
+    {"id": 99, "target": "llamar a una ambulancia", "source": "to call an ambulance", "gender": "—", "type": "phrase"},
+    {"id": 100, "target": "hacer una denuncia", "source": "to file a report (theft)", "gender": "—", "type": "phrase"}
+  ],
+  "grammar": [
+    {
+      "title": "Giving and Asking for Directions — Imperative and Periphrastic Future",
+      "content": "When traveling, giving and receiving directions is essential. Spanish uses the imperative (commands) and periphrastic future (ir + a + infinitive) for directions and travel plans.\n\n**Commands (Imperative) for Directions:**\n- Affirmative commands (tú form): -a for -ar verbs, -e for -er/-ir verbs\n  - dobla a la derecha (turn right)\n  - continúa todo recto (continue straight ahead)\n  - cruza la calle (cross the street)\n  - toma el primer camino (take the first road)\n- Negative commands (tú form):\n  - no dobles a la izquierda (don't turn left)\n  - no pierdas el mapa (don't lose the map)\n\n**Irregular imperative commands:**\n- ir → ve (go)\n- ser → sé (be)\n- tener → ten (have)\n- salir → sal (leave)\n- venir → ven (come)\n- poner → pon (put)\n- hacer → haz (do/make)\n- decir → di (say)\n\n**Periphrastic Future for Plans: ir + a + infinitive**\n- Voy a visitar Madrid mañana. (I'm going to visit Madrid tomorrow.)\n- ¿Vas a tomar el tren o el autobús? (Are you going to take the train or the bus?)\n- Pensamos ir a explorar el centro histórico. (We're going to explore the historic center.)\n\n**Key expressions for asking directions:**\n- ¿Podría decirme cómo llegar a...? (Could you tell me how to get to...?)\n- ¿Está lejos de aquí? (Is it far from here?)\n- ¿A cuántos kilómetros está? (How many kilometers away is it?)\n- ¿Cuánto tiempo se tarda en ir a...? (How long does it take to get to...?)\n- ¿Hay alguna parada de autobús cerca? (Is there any bus stop nearby?)",
+      "table": {
+        "headers": ["Expression", "Type", "Example"],
+        "rows": [
+          ["doble a la derecha", "command (usted)", "Doble a la derecha en la intersección."],
+          ["continúa recto", "command (tú)", "Continúa recto hasta el semáforo."],
+          ["crucemos la calle", "command (nosotros)", "Crucemos la calle por el paso de peatones."],
+          ["ir + a + infinitivo", "periphrastic future", "Voy a tomar la autopista número 5."],
+          ["¿cómo puedo llegar a...?", "asking directions", "¿Cómo puedo llegar a la estación de tren?"],
+          ["a pie / en coche / en autobús", "transport mode", "La plaza está a cinco minutos a pie."]
+        ]
+      },
+      "examples": [
+        "Para llegar al museo, dobla a la izquierda en la primera intersección, continúa recto dos cuadras y cruza la calle. El museo está enfrente de la plaza principal.",
+        "Voy a tomar el primer tren disponible hacia Barcelona. ¿Sabes a qué hora sale el próximo?",
+        "¿Podría indicarme cómo llegar a la playa? — Claro, sigue esta calle hasta el final, gira a la derecha y verás el mar.",
+        "Pensamos ir a recorrer toda la costa. ¿Hay algún camino que nos permita explorar las playas más cercanas?"
+      ],
+      "aid_note": "Romanian directions use similar structures: 'Întoarceți la dreapta' → 'Doble a la derecha'; 'Mergeți drept' → 'Continúa recto'; 'Merg la' → 'Voy a'. The imperative forms are different but the functional vocabulary overlaps significantly."
+    },
+    {
+      "title": "Narrating Travel Experiences — Preterite vs. Imperfect",
+      "content": "Describing past travel experiences requires mastering the distinction between the preterite (completed actions) and the imperfect (ongoing situations, descriptions, habits). This is one of the most important grammar skills at B1 level.\n\n**Preterite (pretérito indefinido): Completed actions**\nUsed for specific, completed events in your travel story:\n- Llegué a Madrid el lunes. (I arrived in Madrid on Monday.)\n- Visitamos tres museos en dos días. (We visited three museums in two days.)\n- Perdí mi pasaporte en la estación. (I lost my passport at the station.)\n\n**Imperfect (pretérito imperfecto): Background, descriptions, habits**\nUsed for setting the scene, describing weather, states of mind, and habitual actions:\n- Hacía sol y hacía buen tiempo. (It was sunny and the weather was nice.)\n- El hotel era muy acogedor. (The hotel was very cozy.)\n- Siempre salíamos a explorar por la mañana. (We always used to go exploring in the morning.)\n- La gente era muy amable. (The people were very friendly.)\n\n**Common time markers:**\n- Preterite: ayer (yesterday), el año pasado (last year), en 2020 (in 2020), una vez (once), de repente (suddenly)\n- Imperfect: siempre (always), cada día (every day), mientras (while), cuando (when — in descriptions), todos los días (every day)\n\n**The classic narrative formula:**\n1. Set the scene (imperfect): weather, location, mood\n2. Describe what was happening (imperfect): ongoing actions\n3. Introduce specific events (preterite): what happened\n4. Continue with events (preterite) and background (imperfect)\n5. Conclude (preterite): how it ended\n\n**Key irregular preterite verbs for travel:**\n- ser → fui, fuiste, fue, fuimos, fueron (I went, you went, he went...)\n- ir → fui, fuiste, fue, fuimos, fueron (I went, you went, he went...)\n- hacer → hice, hiciste, hizo, hicimos, hicieron\n- ver → vi, viste, vio, vimos, vieron\n- estar → estuve, estuviste, estuvo, estuvimos, estuvieron\n- tener → tuve, tuviste, tuvo, tuvimos, tuvieron\n- poder → pude, pudiste, pudo, pudimos, pudieron",
+      "table": {
+        "headers": ["Tense", "Use", "Example", "Translation"],
+        "rows": [
+          ["Imperfect", "Setting the scene", "Hacía un día maravilloso.", "It was a wonderful day."],
+          ["Imperfect", "Description", "La ciudad era muy bonita.", "The city was very beautiful."],
+          ["Imperfect", "Habit", "Siempre visitaba mercados locales.", "I always used to visit local markets."],
+          ["Preterite", "Specific event", "Llegué al aeropuerto a las 6.", "I arrived at the airport at 6."],
+          ["Preterite", "Completed action", "Perdí mi maleta en el vuelo.", "I lost my luggage on the flight."],
+          ["Preterite", "Sudden event", "De repente, empezó a llover.", "Suddenly, it started to rain."]
+        ]
+      },
+      "examples": [
+        "El verano pasado viajé a Perú. Hacía buen tiempo y el paisaje era impresionante. Visitamos Cusco, Machu Picchu y el lago Titicaca. En Cusco, la gente era muy acogedora y siempre nos invitaban a probar la comida local.",
+        "De repente, perdimos el autobús. Estábamos cansados y el calor era intenso. Mientras buscábamos otro transporte, encontramos una cafetería acogedora. Después de descansar, tomamos un taxi y llegamos al hotel.",
+        "Siempre que viajaba a España, visitaba la Sagrada Familia. Un día, sin embargo, estaba cerrada por obras. Estuve decepcionado, pero descubrí una galería de arte que era incluso mejor que esperaba."
+      ],
+      "aid_note": "Romanian past tense distinction works similarly: imperfect (imperfectul) for ongoing/habitual past, perfectul simplu for completed actions. Romanian doesn't have a direct preterite/imperfect distinction like Spanish, but the conceptual mapping works: 'mergeam des' (I used to go) → 'siempre visitaba'; 'am mers' (I went) → 'visité'."
+    },
+    {
+      "title": "Problem-Solving and Emergencies — Modal Verbs and Subjunctive",
+      "content": "Travel doesn't always go as planned. At B1 level, you must be able to express problems, request help, and navigate emergency situations using modal verbs (deber, poder, tener que) and the subjunctive for recommendations.\n\n**Modal verbs for travel problems:**\n\n1. **Poder (can/to be able to):**\n   - ¿Puedo cambiar mi reserva? (Can I change my reservation?)\n   - No pude encontrar el hotel. (I couldn't find the hotel.)\n   - ¿Sería posible...? (Would it be possible...?) — Polite request form\n\n2. **Deber (should/must):**\n   - Debo registrar mi equipaje. (I must check my luggage.)\n   - No deberías perder tu pasaporte. (You shouldn't lose your passport.)\n   - Debería hablar con un abogado. (I should speak with a lawyer.) — Polite suggestion\n\n3. **Tener que (have to):**\n   - Tengo que tomar otro vuelo. (I have to take another flight.)\n   - Tenía que reportar la pérdida. (I had to report the loss.)\n   - ¿Tengo que esperar aquí? (Do I have to wait here?)\n\n4. **Querer (want to):**\n   - Quiero cancelar mi reserva. (I want to cancel my reservation.)\n   - Quería hablar con el gerente. (I would like to speak with the manager.) — Polite\n\n**Subjunctive for recommendations and wishes:**\n- Es necesario que lleves tu pasaporte. (It's necessary that you bring your passport.)\n- Te sugiero que reserves con anticipación. (I suggest that you book in advance.)\n- Espero que no se retrase el vuelo. (I hope the flight doesn't get delayed.)\n- Ojalá podamos encontrar un hotel. (Hopefully we can find a hotel.)\n\n**Common emergency expressions:**\n- Necesito ayuda. (I need help.)\n- ¿Dónde está el hospital más cercano? (Where is the nearest hospital?)\n- Me robaron la billetera. (They stole my wallet.)\n- Perdí mi pasaporte. (I lost my passport.)\n- ¿Dónde puedo llamar a una ambulancia? (Where can I call an ambulance?)\n- Mi vuelo fue cancelado. (My flight was cancelled.)\n- Necesito hablar con el consulado. (I need to speak with the consulate.)",
+      "table": {
+        "headers": ["Situation", "Expression", "Subjunctive/Modal"],
+        "rows": [
+          ["Lost luggage", "Necesito encontrar mi maleta.", "Es urgente que busquen mi equipaje."],
+          ["Flight delay", "Mi vuelo se retrasó dos horas.", "Espero que no se retrase más."],
+          ["Lost passport", "Perdí mi pasaporte.", "Es necesario que vaya al consulado."],
+          ["Medical emergency", "Me siento mal.", "Necesito que me lleven al hospital."],
+          ["Stolen wallet", "Me robaron la billetera.", "Debo hacer una denuncia urgente."],
+          ["Cancelled flight", "Cancelaron mi vuelo.", "Quiero un reembolso o otro vuelo."],
+          ["Bad accommodation", "El hotel no es como esperaba.", "Debería cambiar de alojamiento."]]
+      },
+      "examples": [
+        "Llegué al aeropuerto y me enteré de que mi vuelo había sido cancelado. Tenía que buscar otra opción inmediatamente. Llamé a la aerolínea y me dijeron que el próximo vuelo disponible era al día siguiente. Tuve que reservar un hotel porque no podía esperar.",
+        "Me robaron la cartera en la plaza mayor. Perdí mi pasaporte, mi tarjeta de crédito y todo el dinero que llevaba. Tuve que ir a la comisaría a hacer una denuncia y luego fui al consulado para pedir un pasaporte de emergencia. Fue la peor experiencia de mi viaje.",
+        "Es importante que lleves un seguro de viaje cuando viajas al extranjero. Te sugiero que copies tus documentos importantes y los guardes en un lugar seguro. Además, es necesario que guardes el número de emergencia de tu país."
+      ],
+      "aid_note": "Romanian uses modal verbs similarly: 'trebuie să' (must/have to) → 'tener que'; 'ar trebui' (should) → 'deber'; 'pot' (can) → 'poder'. The subjunctive for recommendations maps to Romanian 'să + form': 'trebuie să mergi' → 'tienes que ir', 'sugerez să rezervi' → 'te sugiero que reserves.'"
+    },
+    {
+      "title": "Extended Travel Narratives — Compound Tenses and Connectors",
+      "content": "Telling detailed travel stories at B1 level requires mastering compound tenses (perfect, pluperfect) and using a rich variety of connectors to link events chronologically.\n\n**Present Perfect (Pretérito perfecto): Past actions connected to present**\nUsed for recent past events, especially with 'hoy', 'esta semana', 'este viaje':\n- He visitado tres museos esta semana. (I have visited three museums this week.)\n- Hemos recorrido toda la ciudad a pie. (We have walked all over the city.)\n- Nunca he estado en un lugar tan hermoso. (I have never been in such a beautiful place.)\n- ¿Has perdido alguna vez tu pasaporte? (Have you ever lost your passport?)\n\n**Pluperfect (Pluscuamperfecto): Past-before-the-past**\nUsed when describing something that happened before another past event:\n- Cuando llegué al aeropuerto, el vuelo ya había salido. (When I arrived at the airport, the flight had already left.)\n- Había reservado el hotel antes de viajar. (I had booked the hotel before traveling.)\n- Cuando encontramos el hotel, ya se había llenado. (When we found the hotel, it had already been full.)\n\n**Connectors for Narrative Flow:**\n\nChronological order:\n- Primero... luego... después... (First... then... after that...)\n- Al principio... al final... (At first... at the end...)\n- Mientras tanto... (Meanwhile...)\n- Más tarde... (Later...)\n- Finalmente... (Finally...)\n\nAdding detail:\n- Además... (In addition...)\n- Por cierto... (By the way...)\n- Para ser honesto... (To be honest...)\n- En realidad... (Actually...)\n- Como era de esperar... (As expected...)\n\nContrast and surprise:\n- Sin embargo... (However...)\n- Por el contrario... (On the contrary...)\n- Sorprendentemente... (Surprisingly...)\n- A pesar de que... (Despite the fact that...)\n- Lo más increíble fue que... (The most incredible thing was that...)\n\nReflection:\n- En retrospectiva... (Looking back...)\n- Lo que más me gustó fue... (What I liked most was...)\n- La experiencia más memorable fue... (The most memorable experience was...)\n- Aprendí que... (I learned that...)\n- Me di cuenta de que... (I realized that...)",
+      "table": {
+        "headers": ["Tense", "Form", "Example", "Usage"],
+        "rows": [
+          ["Present perfect", "he + participio", "He explorado la ciudad antigua.", "Recent past, relevant to now"],
+          ["Pluperfect", "había + participio", "Ya había visitado ese museo.", "Action before another past action"],
+          ["Chronological connector", "primero... luego...", "Primero llegamos al hotel, luego exploramos.", "Sequencing events"],
+          ["Reflection connector", "lo que más me gustó fue...", "Lo que más me gustó fue la gastronomía.", "Expressing highlights"],
+          ["Surprise connector", "sorprendentemente...", "Sorprendentemente, no necesitaba visa.", "Expressing unexpected outcomes"],
+          ["Meanwhile connector", "mientras tanto...", "Mientras tanto, mis amigos fueron al museo.", "Parallel events"]
+        ]
+      },
+      "examples": [
+        "Este verano he viajado a cinco países diferentes. Primero visité Portugal, luego España, después Francia, luego Italia y finalmente Grecia. Lo que más me gustó fue la gastronomía griega. Nunca había comido tan bien en toda mi vida.",
+        "Cuando llegamos al pueblo, ya había anochecido. Estaba llovía y no había nadie en las calles. Sin embargo, encontramos una pequeña taberna abierta. Sorprendentemente, el dueño nos recibió con los brazos abiertos y nos invitó a cenar.",
+        "Este viaje ha sido increíble. He conocido personas maravillosas, he probado comida deliciosa y he descubierto lugares que nunca hubiera imaginado. Aprendí que viajar no es solo ver nuevos lugares, sino también ver el mundo con ojos nuevos."
+      ],
+      "aid_note": "Romanian present perfect (perfectul compus) uses 'am + past participle': 'am vizitat' → 'he visitado'. The pluperfect (mai mult ca perfectul) uses 'avusem + past participle': 'avusesem vizitat' → 'había visitado'. Both languages use compound tenses in similar contexts for travel narratives."
+    }
+  ],
+  "pronunciation": [
+    {
+      "title": "Pronunciation of Travel and Navigation Vocabulary",
+      "content": "Travel vocabulary in Spanish includes many words with specific pronunciation patterns that are important for clear communication in real-world situations.\n\n1. **The 'rr' and rolled R:**\n   - Viajar → bee-ah-HAR (Spain: bee-ah-HAR / Latin America: bee-ah-HAR — no double R here)\n   - El aeropuerto → eh ah-eh-pwr-TOH (single r between vowels = soft)\n   - La carretera → lah kah-reh-TEH-ra (single r = soft)\n   - El transporte → el trans-POR-te (single r = soft)\n   - The double 'rr' only appears between vowels: carro (KAH-rro), perro (PEH-rro)\n\n2. **The 'll' / 'y' sound (yeísmo):**\n   - La playa → LAH plah-yah (ll = y sound)\n   - El vuelo → el BWEH-loh (ll = y)\n   - La calle → LAH kah-yeh (ll = y)\n   - All Spanish speakers pronounce 'll' and 'y' the same way in most regions\n\n3. **Stress patterns in travel words:**\n   - la maleta → lah mah-LEH-tah (stress on penultimate, ends in 'a')\n   - el equipaje → el eh-kee-PAH-heh (stress on penultimate, ends in 'e')\n   - el pasaporte → el pah-sah-POR-teh (stress on penultimate, ends in 'e')\n   - la aduana → lah ah-doo-NAH (stress on last syllable, ends in 'a')\n   - la terminal → lah ter-mee-NAHL (stress on penultimate)\n   - el andén → el ahn-DEN (stress on last syllable, written accent)\n\n4. **The 'n' before consonants:**\n   - Sometimes 'n' is pronounced as 'm' before 'p' or 'b':\n     - un barco → oom BAR-koh\n     - una bandera → oo-mah ban-DEH-ra\n\n5. **Important pronunciation distinctions:**\n   - derecho (right) → deh-REH-choh (c = th/s) — direction\n   - derecho (right/law) → deh-REH-choh — same word!\n   - calle (street) → kah-yeh (ll = y)\n   - caballo (horse) → kah-BYAH-boh (ll = y, b = soft between vowels)\n   - caballo vs. caballero → the 'll' is the same sound\n\n6. **Silent 'h':**\n   - El hotel → el oh-TEL (h is silent)\n   - La habitación → lah ah-bee-TAH-see-ohn (h is silent)\n   - La historia → lah EE-stor-ee-ah (h is silent)\n   - El horario → el oh-RAH-ree-oh (h is silent)\n\n7. **The 'v' and 'b' sound:**\n   - In Spanish, 'v' and 'b' are pronounced identically\n   - La visa → lah BEE-sah (v = b sound)\n   - El viaje → bee-ah-HAR (v = b sound)\n   - La vaca → LAH BAH-kah (v = b sound)",
+      "examples": [
+        "aeropuerto = ah-eh-pwr-TOH (stress on 'to', single 'r' between vowels is soft)",
+        "carretera = kah-reh-TEH-ra (stress on 'te', single 'r' is soft)",
+        "pasaporte = pah-sah-POR-teh (stress on 'por', double 'r' = rolled)",
+        "maleta = mah-LEH-tah (stress on penultimate syllable)",
+        "hostal = OHST-ahl (h is silent, st = st cluster)",
+        "destino = deh-SEE-noh (stress on penultimate, ends in 'o')",
+        "impresionante = im-preh-see-ohn-TAHN-teh (stress on penultimate)",
+        "concurrido = kon-koo-REE-doh (stress on penultimate, double r = rolled)"
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "fill-in-blank",
+      "question": "Complete the directions: 'Doble a la _____ en la intersección y luego todo recto dos cuadras.' (left)",
+      "correct": "izquierda",
+      "explanation": "'Doble a la izquierda' means 'turn left'. This is the formal (usted) command form of 'doblar'."
+    },
+    {
+      "type": "exercise",
+      "question": "Which sentence uses the correct periphrastic future?",
+      "options": [
+        "Voy a visitar el museo mañana.",
+        "Voy visitar el museo mañana.",
+        "Voy de visitar el museo mañana.",
+        "Voy con visitar el museo mañana."
+      ],
+      "correct": 0,
+      "explanation": "The periphrastic future is 'ir + a + infinitive': 'Voy a visitar' = 'I'm going to visit'. The other options are missing the required 'a'."
+    },
+    {
+      "type": "exercise",
+      "question": "Choose the correct tense: 'El verano pasado, yo _____ (viajar) a México.'",
+      "options": ["viajo", "viajaba", "viajé", "viajaré"],
+      "correct": 2,
+      "explanation": "'Viajé' is the preterite (completed action in the past). 'El verano pasado' indicates a specific, completed event."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete with the imperfect: 'Cuando éramos niños, siempre _____ (ir) de vacaciones a la playa.' (iba)",
+      "correct": "iba",
+      "explanation": "'Íbamos' would be 'we used to go', but the subject is implied as 'we' (éramos). Actually, 'íbamos' = we used to go. Wait — the pronoun 'yo' is implied: 'siempre íbamos' refers to 'we'. But 'éramos niños' → 'we were children', so the subject is 'nosotros': íbamos."
+    },
+    {
+      "type": "exercise",
+      "question": "How do you ask for directions politely?",
+      "options": [
+        "¿Dónde es el museo?",
+        "¿Podría decirme cómo llegar al museo?",
+        "¿Dónde está el museo? ¿Sí?",
+        "¡Dígame dónde está el museo!"
+      ],
+      "correct": 1,
+      "explanation": "'¿Podría decirme cómo llegar al museo?' (Could you tell me how to get to the museum?) is the most polite and appropriate way to ask for directions."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete with the present perfect: 'Esta semana _____ (visitar) cuatro museos en Madrid.' (he visitado)",
+      "correct": "he visitado",
+      "explanation": "The present perfect 'he visitado' is used with 'esta semana' (this week) because the time period includes the present moment."
+    },
+    {
+      "type": "exercise",
+      "question": "Which modal verb expresses necessity in a travel context?",
+      "options": [
+        "Tengo que registrar mi equipaje.",
+        "Quiero registrar mi equipaje.",
+        "Puedo registrar mi equipaje.",
+        "Debo registrar mi equipaje."
+      ],
+      "correct": 0,
+      "explanation": "'Tengo que' expresses necessity (have to). While 'debo' also expresses obligation, 'tener que' is more common for practical travel necessities like checking luggage."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete with the pluperfect: 'Cuando llegamos al hotel, ya se _____ (llenar). (había llenado)",
+      "correct": "había llenado",
+      "explanation": "The pluperfect 'había llenado' describes an action that happened before another past event. The hotel had already filled up before we arrived."
+    },
+    {
+      "type": "exercise",
+      "question": "What does 'perderse' mean?",
+      "options": [
+        "to lose (something)",
+        "to get lost",
+        "to forget",
+        "to miss (a bus)"
+      ],
+      "correct": 1,
+      "explanation": "'Perderse' (reflexive) means 'to get lost'. 'Perder' without the reflexive 'se' means 'to lose (something)'."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete the direction: '______ todo recto hasta la plaza.' (Continúa)",
+      "correct": "Continúa",
+      "explanation": "'Continúa' is the tú command meaning 'continue'. 'Continúa todo recto' = 'Continue straight ahead'."
+    },
+    {
+      "type": "exercise",
+      "question": "Which word is a past participle?",
+      "options": [
+        "viajar",
+        "viajado",
+        "viajero",
+        "viajera"
+      ],
+      "correct": 1,
+      "explanation": "'Viajado' is the past participle of 'viajar' (to travel). It's used in compound tenses: 'he viajado' (I have traveled)."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: '______ de que el vuelo se retrase.' (Ojalá)",
+      "correct": "Ojalá",
+      "explanation": "'Ojalá' (hopefully / God willing) always triggers the subjunctive: 'Ojalá de que el vuelo se retrase' = Hopefully the flight doesn't get delayed."
+    },
+    {
+      "type": "exercise",
+      "question": "Which expression means 'at the end of the street'?",
+      "options": [
+        "al principio de la calle",
+        "al final de la calle",
+        "al medio de la calle",
+        "al lado de la calle"
+      ],
+      "correct": 1,
+      "explanation": "'Al final de la calle' = at the end of the street. 'Al principio' = at the beginning, 'al medio' = in the middle, 'al lado de' = next to."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete with the correct connector: 'Primero visitamos el museo. ______, fuimos al mercado local.' (luego / después)",
+      "correct": "Luego",
+      "explanation": "'Luego' (then) is the standard chronological connector used to sequence events in a narrative."
+    },
+    {
+      "type": "exercise",
+      "question": "Which sentence uses the subjunctive correctly for a recommendation?",
+      "options": [
+        "Te sugiero que reservas con anticipación.",
+        "Te sugiero que reserves con anticipación.",
+        "Te sugiero que reservas con anticipación.",
+        "Te sugiero que reservar con anticipación."
+      ],
+      "correct": 1,
+      "explanation": "'Sugerir que' triggers the subjunctive: 'reserves' (subjunctive of reservar). The other options use the indicative or infinitive incorrectly."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: '______ (ir) al consulado para reportar la pérdida.' (Tengo que)",
+      "correct": "Tengo que ir",
+      "explanation": "'Tengo que ir' = 'I have to go'. This expresses necessity using the tener que construction."
+    },
+    {
+      "type": "exercise",
+      "question": "What is the correct pronunciation of 'aeropuerto'?",
+      "options": [
+        "ah-eh-pwr-TOH (r between vowels = soft)",
+        "ah-eh-PWR-toh (r is rolled)",
+        "ah-eh-pwer-TOH (trilled r at start)",
+        "ah-eh-pwr-TO (no accent)"
+      ],
+      "correct": 0,
+      "explanation": "'Aeropuerto' = ah-eh-pwr-TOH. The single 'r' between vowels is soft (not rolled). Stress is on the penultimate syllable 'TO'."
+    },
+    {
+      "type": "exercise",
+      "question": "Which connector expresses contrast in a travel narrative?",
+      "options": [
+        "Además",
+        "Sin embargo",
+        "Primero",
+        "Finalmente"
+      ],
+      "correct": 1,
+      "explanation": "'Sin embargo' (however) is a contrast connector. 'Además' adds information, 'Primero' indicates sequence, and 'Finalmente' indicates conclusion."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete the emergency expression: 'Necesito ir a la ________ más cercana. Me siento muy mal.' (farmacia)",
+      "correct": "farmacia",
+      "explanation": "'La farmacia más cercana' = the nearest pharmacy. This is a common emergency expression when you need medication or medical assistance."
+    },
+    {
+      "type": "exercise",
+      "question": "Which sentence correctly uses the preterite?",
+      "options": [
+        "Viajaba a Roma el año pasado.",
+        "Viajé a Roma el año pasado.",
+        "Viajo a Roma el año pasado.",
+        "Viajaré a Roma el año pasado."
+      ],
+      "correct": 1,
+      "explanation": "'Viajé' is the preterite form, correct for a specific completed action ('el año pasado'). The imperfect 'viajaba' would imply a habitual or ongoing past action."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete with the correct vocabulary: 'Tiene que pasar por la _____ antes de abordar el avión.' (aduana)",
+      "correct": "aduana",
+      "explanation": "'La aduana' = customs. You must go through customs before boarding the plane when arriving from another country."
+    },
+    {
+      "type": "exercise",
+      "question": "What does 'transbordar' mean?",
+      "options": [
+        "to cancel",
+        "to transfer (a flight/train)",
+        "to delay",
+        "to check in"
+      ],
+      "correct": 1,
+      "explanation": "'Transbordar' means to transfer between flights or trains. It's essential vocabulary when planning multi-leg journeys."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete with the present perfect: 'Nunca _____ (estar) en un lugar tan hermoso.' (he estado)",
+      "correct": "he estado",
+      "explanation": "The present perfect 'he estado' with 'nunca' (never) expresses an experience up to the present moment."
+    },
+    {
+      "type": "exercise",
+      "question": "Which phrase means 'to arrive at'?",
+      "options": [
+        "salir de",
+        "llegar a",
+        "perderse en",
+        "transbordar en"
+      ],
+      "correct": 1,
+      "explanation": "'Llegar a' = to arrive at. 'Salir de' = to leave/depart from. 'Perderse en' = to get lost in. 'Transbordar en' = to transfer at."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: 'Lo que más me _____ (gustar) fue explorar las calles antiguas.' (gustó)",
+      "correct": "gustó",
+      "explanation": "'Lo que más me gustó' = 'What I liked most'. The preterite 'gustó' is used because it refers to a specific, completed experience during the trip."
+    }
+  ]
+}

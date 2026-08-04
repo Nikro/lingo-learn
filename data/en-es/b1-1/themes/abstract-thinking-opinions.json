@@ -1,0 +1,418 @@
+{
+  "id": "abstract-thinking-opinions",
+  "level": "b1-1",
+  "title": "Abstract Thinking & Opinions",
+  "description": "Express opinions, hypotheses, and thoughts on abstract concepts. Discuss ideas beyond the concrete and immediate, using the subjunctive to express doubt, possibility, and subjectivity. Master connectors for argumentation and vocabulary for abstract thinking — a hallmark of B1 competence.",
+  "vocabulary": [
+    {"id": 1, "target": "la opinión", "source": "opinion", "gender": "f", "type": "noun"},
+    {"id": 2, "target": "opinar", "source": "to opine / to have an opinion", "gender": "v.", "type": "verb"},
+    {"id": 3, "target": "creer", "source": "to believe", "gender": "v.", "type": "verb"},
+    {"id": 4, "target": "pensar", "source": "to think", "gender": "v.", "type": "verb"},
+    {"id": 5, "target": "considerar", "source": "to consider", "gender": "v.", "type": "verb"},
+    {"id": 6, "target": "pensar en", "source": "to think about", "gender": "—", "type": "phrase"},
+    {"id": 7, "target": "estar de acuerdo (con)", "source": "to agree (with)", "gender": "—", "type": "phrase"},
+    {"id": 8, "target": "estar en desacuerdo (con)", "source": "to disagree (with)", "gender": "—", "type": "phrase"},
+    {"id": 9, "target": "la idea", "source": "idea", "gender": "f", "type": "noun"},
+    {"id": 10, "target": "el concepto", "source": "concept", "gender": "m", "type": "noun"},
+    {"id": 11, "target": "la perspectiva", "source": "perspective", "gender": "f", "type": "noun"},
+    {"id": 12, "target": "el punto de vista", "source": "point of view", "gender": "m", "type": "phrase"},
+    {"id": 13, "target": "la perspectiva personal", "source": "personal perspective", "gender": "f", "type": "phrase"},
+    {"id": 14, "target": "la postura", "source": "stance / position", "gender": "f", "type": "noun"},
+    {"id": 15, "target": "la tesis", "source": "thesis", "gender": "f", "type": "noun"},
+    {"id": 16, "target": "el argumento", "source": "argument", "gender": "m", "type": "noun"},
+    {"id": 17, "target": "argumentar", "source": "to argue", "gender": "v.", "type": "verb"},
+    {"id": 18, "target": "la evidencia", "source": "evidence", "gender": "f", "type": "noun"},
+    {"id": 19, "target": "la prueba", "source": "proof / evidence", "gender": "f", "type": "noun"},
+    {"id": 20, "target": "la hipótesis", "source": "hypothesis", "gender": "f", "type": "noun"},
+    {"id": 21, "target": "hipotéticamente", "source": "hypothetically", "gender": "—", "type": "adverb"},
+    {"id": 22, "target": "la libertad", "source": "freedom / liberty", "gender": "f", "type": "noun"},
+    {"id": 23, "target": "la igualdad", "source": "equality", "gender": "f", "type": "noun"},
+    {"id": 24, "target": "la justicia", "source": "justice", "gender": "f", "type": "noun"},
+    {"id": 25, "target": "la moral", "source": "morals / morality", "gender": "f", "type": "noun"},
+    {"id": 26, "target": "la ética", "source": "ethics / ethics", "gender": "f", "type": "noun"},
+    {"id": 27, "target": "los valores", "source": "values", "gender": "m", "type": "noun"},
+    {"id": 28, "target": "el principio", "source": "principle", "gender": "m", "type": "noun"},
+    {"id": 29, "target": "el deber", "source": "duty / obligation", "gender": "m", "type": "noun"},
+    {"id": 30, "target": "el derecho", "source": "right / law", "gender": "m", "type": "noun"},
+    {"id": 31, "target": "los derechos humanos", "source": "human rights", "gender": "m", "type": "phrase"},
+    {"id": 32, "target": "la responsabilidad", "source": "responsibility", "gender": "f", "type": "noun"},
+    {"id": 33, "target": "la conciencia", "source": "conscience", "gender": "f", "type": "noun"},
+    {"id": 34, "target": "el pensamiento crítico", "source": "critical thinking", "gender": "m", "type": "phrase"},
+    {"id": 35, "target": "analizar", "source": "to analyze", "gender": "v.", "type": "verb"},
+    {"id": 36, "target": "evaluar", "source": "to evaluate", "gender": "v.", "type": "verb"},
+    {"id": 37, "target": "reflexionar (sobre)", "source": "to reflect (on)", "gender": "—", "type": "phrase"},
+    {"id": 38, "target": "la reflexión", "source": "reflection / deep thought", "gender": "f", "type": "noun"},
+    {"id": 39, "target": "la duda", "source": "doubt", "gender": "f", "type": "noun"},
+    {"id": 40, "target": "dudar", "source": "to doubt", "gender": "v.", "type": "verb"},
+    {"id": 41, "target": "la incertidumbre", "source": "uncertainty", "gender": "f", "type": "noun"},
+    {"id": 42, "target": "el hecho", "source": "fact", "gender": "m", "type": "noun"},
+    {"id": 43, "target": "la realidad", "source": "reality", "gender": "f", "type": "noun"},
+    {"id": 44, "target": "la apariencia", "source": "appearance", "gender": "f", "type": "noun"},
+    {"id": 45, "target": "la creencia", "source": "belief", "gender": "f", "type": "noun"},
+    {"id": 46, "target": "la superstición", "source": "superstition", "gender": "f", "type": "noun"},
+    {"id": 47, "target": "la verdad", "source": "truth", "gender": "f", "type": "noun"},
+    {"id": 48, "target": "la mentira", "source": "lie / falsehood", "gender": "f", "type": "noun"},
+    {"id": 49, "target": "objetivo", "source": "objective / objective (adj.)", "gender": "m/adj.", "type": "adj"},
+    {"id": 50, "target": "subjetivo", "source": "subjective", "gender": "m/adj.", "type": "adj"},
+    {"id": 51, "target": "concreto", "source": "concrete", "gender": "m/adj.", "type": "adj"},
+    {"id": 52, "target": "abstracto", "source": "abstract", "gender": "m/adj.", "type": "adj"},
+    {"id": 53, "target": "la abstracción", "source": "abstraction", "gender": "f", "type": "noun"},
+    {"id": 54, "target": "la generalización", "source": "generalization", "gender": "f", "type": "noun"},
+    {"id": 55, "target": "la excepción", "source": "exception", "gender": "f", "type": "noun"},
+    {"id": 56, "target": "la regla general", "source": "general rule", "gender": "f", "type": "phrase"},
+    {"id": 57, "target": "en general", "source": "in general", "gender": "—", "type": "phrase"},
+    {"id": 58, "target": "en particular", "source": "in particular", "gender": "—", "type": "phrase"},
+    {"id": 59, "target": "por lo general", "source": "usually / generally", "gender": "—", "type": "phrase"},
+    {"id": 60, "target": "desde mi punto de vista", "source": "from my point of view", "gender": "—", "type": "phrase"},
+    {"id": 61, "target": "en mi opinión", "source": "in my opinion", "gender": "—", "type": "phrase"},
+    {"id": 62, "target": "a mi juicio", "source": "in my judgment", "gender": "—", "type": "phrase"},
+    {"id": 63, "target": "personalmente", "source": "personally", "gender": "—", "type": "adverb"},
+    {"id": 64, "target": "en mi caso", "source": "in my case", "gender": "—", "type": "phrase"},
+    {"id": 65, "target": "por un lado... por otro lado", "source": "on one hand... on the other hand", "gender": "—", "type": "phrase"},
+    {"id": 66, "target": "sin embargo", "source": "however", "gender": "—", "type": "adverb"},
+    {"id": 67, "target": "no obstante", "source": "nevertheless", "gender": "—", "type": "adverb"},
+    {"id": 68, "target": "por lo tanto", "source": "therefore / as a result", "gender": "—", "type": "phrase"},
+    {"id": 69, "target": "en cambio", "source": "instead / on the contrary", "gender": "—", "type": "phrase"},
+    {"id": 70, "target": "además", "source": " furthermore / in addition", "gender": "—", "type": "adverb"},
+    {"id": 71, "target": "por ejemplo", "source": "for example", "gender": "—", "type": "phrase"},
+    {"id": 72, "target": "es decir", "source": "that is to say / in other words", "gender": "—", "type": "phrase"},
+    {"id": 73, "target": "en resumen", "source": "in summary", "gender": "—", "type": "phrase"},
+    {"id": 74, "target": "en conclusión", "source": "in conclusion", "gender": "—", "type": "phrase"},
+    {"id": 75, "target": "suponer que", "source": "to suppose that / to assume", "gender": "—", "type": "phrase"},
+    {"id": 76, "target": "imaginarse", "source": "to imagine", "gender": "v.", "type": "verb"},
+    {"id": 77, "target": "el escenario", "source": "scenario / setting", "gender": "m", "type": "noun"},
+    {"id": 78, "target": "la posibilidad", "source": "possibility", "gender": "f", "type": "noun"},
+    {"id": 79, "target": "la probabilidad", "source": "probability", "gender": "f", "type": "noun"},
+    {"id": 80, "target": "siempre que", "source": "whenever / as long as", "gender": "—", "type": "phrase"}
+  ],
+  "grammar": [
+    {
+      "title": "Expressing Opinions — Formulas and Structures",
+      "content": "At B1 level, you need to express and justify opinions clearly. Spanish has a rich set of fixed expressions for this purpose, ranging from formal to informal.\n\n**Strong opinions:**\n- Creo que... (I believe that...)\n- Estoy convencido(a) de que... (I'm convinced that...)\n- Estoy seguro(a) de que... (I'm sure that...)\n- Tengo la certeza de que... (I'm certain that...)\n- Es evidente que... (It's evident that...)\n\n**Moderate opinions:**\n- Me parece que... (It seems to me that...)\n- En mi opinión, ... (In my opinion, ...)\n- Desde mi punto de vista, ... (From my point of view, ...)\n- A mi juicio, ... (In my judgment, ...)\n- Personalmente, pienso que... (Personally, I think that...)\n\n**Expressing disagreement:**\n- No estoy de acuerdo con... (I don't agree with...)\n- No comparto esa opinión (I don't share that opinion)\n- No creo que... (I don't believe that...)\n- No me parece bien que... (It doesn't seem right to me that...)\n- La verdad es que... (The truth is that...)\n\n**Key rule:** After 'creer que', 'pensar que', 'estar seguro de que' — use INDICATIVE (expressing certainty). After 'no creo que', 'no pienso que' — use SUBJUNCTIVE (expressing negation/doubt).\n\nNote for Romanian speakers: This works similarly to Romanian — 'cred că (+indicativ)' vs 'nu cred că (+conjunctiv). The conceptual mapping is nearly identical.",
+      "table": {
+        "headers": ["Expression", "Mood of Subordinate", "Example"],
+        "rows": [
+          ["creer que", "indicative", "Creo que es justo."],
+          ["no creer que", "subjunctive", "No creo que sea justo."],
+          ["estar seguro de que", "indicative", "Estoy seguro de que funciona."],
+          ["me parece que", "indicative", "Me parece que tiene razón."],
+          ["no me parece que", "subjunctive", "No me parece que sea correcto."],
+          ["es evidente que", "indicative", "Es evidente que es importante."],
+          ["dudo que", "subjunctive", "Dudo que sea verdad."]
+        ]
+      },
+      "examples": [
+        "En mi opinión, la educación es fundamental para el progreso de una sociedad.",
+        "Desde mi punto de vista, no es justo que haya tanta desigualdad.",
+        "No estoy de acuerdo con esa idea porque no tiene en cuenta las diferencias culturales.",
+        "Me parece que deberíamos reflexionar antes de tomar una decisión.",
+        "A mi juicio, la justicia debería aplicarse por igual a todos."
+      ],
+      "aid_note": "Romanian parallel: 'în opinia mea' = 'en mi opinión'; 'din punctul meu de vedere' = 'desde mi punto de vista'. These are direct cognates — use them as bridges."
+    },
+    {
+      "title": "Hypotheses and Possibility — Conditional & 'si' Clauses",
+      "content": "B1 learners must handle hypothetical situations — discussing what COULD happen under certain conditions. This requires the conditional tense and the 'si' (if) clause structure.\n\n**Present/Future hypothetical (si + present → conditional):**\nStructure: Si + present tense → conditional tense\nExample: Si tuviera más tiempo, viajaría por Latinoamérica. (If I had more time, I would travel through Latin America.)\nWait — correction: Si + present → future/conditional: Si tengo tiempo, viajaré. (If I have time, I will travel.)\nSi tuviera tiempo, viajaría. (If I had time, I would travel.) — This uses imperfect subjunctive in the 'si' clause.\n\n**Key structures:**\n- Si + presente → futuro/condicional: Si llueve, me quedaré en casa. (If it rains, I will stay home.)\n- Si + imperfect subjunctive → conditional: Si lloviera/lloviese, me quedaría en casa. (If it rained, I would stay home.)\n- NO use 'si' + conditional: ❌ Si tendría tiempo... ✅ Si tuviera tiempo...\n\n**Expressing possibility:**\n- Es posible que... (+ subjunctive)\n- Quizás / Tal vez... (+ subjunctive or indicative)\n- Podría ser que... (+ subjunctive)\n- Hay posibilidades de que... (+ subjunctive)\n\n**Conditional tense conjugation (regular):**\n- -ar verbs: hablaría, hablarías, hablaría, hablaríamos, hablaríais, hablarían\n- -er/-ir verbs: comería, comerías, comería, comeríamos, comeríais, comerían\n\n**Key irregular conditionals** (same stem as future): poder (podría), querer (querría), hacer (haría), tener (tendría), decir (diría), salir (saldría), venir (vendría), poner (pondría), saber (sabría), necesitar (necesitaría — regular), tener (tendría).\n\nNote: 'Quizás' and 'tal vez' can go before or after the verb, and can take either subjunctive (more common for future/uncertain) or indicative (for present certainty).",
+      "table": {
+        "headers": ["Structure", "Example", "Meaning"],
+        "rows": [
+          ["Si + presente → futuro", "Si estudio, aprobaré.", "If I study, I will pass."],
+          ["Si + presente → condicional", "Si tengo dinero, lo compraré.", "If I have money, I'll buy it."],
+          ["Si + imperfect subj. → cond.", "Si tuviera dinero, lo compraría.", "If I had money, I would buy it."],
+          ["Es posible que + subj.", "Es posible que llueva.", "It's possible it will rain."],
+          ["Quizás + subj.", "Quizás sea verdad.", "Perhaps it's true."],
+          ["Podría ser que + subj.", "Podría ser que tenga razón.", "It could be that he's right."]
+        ]
+      },
+      "examples": [
+        "Si pudiera elegir, estudiaría ciencias políticas.",
+        "Hipotéticamente, si cambiamos el sistema educativo, los resultados mejorarían.",
+        "Es posible que la igualdad de género se logre en las próximas décadas.",
+        "Quizás el futuro de la economía sea más sostenible.",
+        "Si no actuamos ahora, las consecuencias serán graves."
+      ],
+      "aid_note": "Romanian conditional uses the particle 'aș/ai/ar/am/ati/ar' + infinitive, while Spanish uses a single-word form (-ía ending). Romanian 'aș putea' = Spanish 'podría'. The 'si' clauses work the same way conceptually."
+    },
+    {
+      "title": "The Subjunctive for Abstract Concepts — Doubt, Desire, and Judgment",
+      "content": "At B1, the subjunctive is used extensively when discussing abstract concepts because they are often subjective by nature. The subjunctive appears after expressions of doubt, emotion, judgment, desire, and possibility.\n\n**Key triggers for subjunctive with abstract concepts:**\n\n1. **Doubt/uncertainty:**\n   - dudo que... (I doubt that...)\n   - no estoy seguro de que... (I'm not sure that...)\n   - es incierto que... (it's uncertain that...)\n   - puede ser que... (it may be that...)\n\n2. **Emotion/value judgment:**\n   - es importante que... (it's important that...)\n   - es lamentable que... (it's regrettable that...)\n   - me alegra que... (I'm glad that...)\n   - es injusto que... (it's unfair that...)\n   - es necesario que... (it's necessary that...)\n\n3. **Desire/will:**\n   - quiero que... (I want that...)\n   - deseo que... (I desire that...)\n   - espero que... (I hope that...)\n   - sugerir que... (to suggest that...)\n\n4. **Impersonal expressions (often subjunctive):**\n   - es posible que... (it's possible that...)\n   - es probable que... (it's probable that...)\n   - es bueno que... (it's good that...)\n   - es malo que... (it's bad that...)\n   - es mejor que... (it's better that...)\n\n**Present subjunctive conjugation:**\n- -ar → -e, -es, -e, -emos, -éis, -en\n  Example: hablar → hable, hables, hable, hablemos, habléis, hablen\n- -er → -a, -as, -a, -amos, -áis, -an\n  Example: pensar → piense, pienses, piense, pensemos, penséis, piensen\n- -ir → -a, -as, -a, -amos, -áis, -an\n  Example: vivir → viva, vivas, viva, vivamos, viváis, vivan\n\n**Stem-changing subjunctive:** e→ie, o→ue, e→i\n- pensar → piense, pienses, piense...\n- poder → pueda, puedas, pueda...\n- dormir → duerma, duermas, duerma...\n- preferir → prefiera, prefieras, prefiera...\n\n**Key irregulars in present subjunctive:**\n- ser → sea, seas, sea, seamos, seáis, sean\n- ir → vaya, vayas, vaya, vayamos, vayáis, vayan\n- saber → sepa, sepas, sepa, sepamos, sepáis, sepan\n- estar → esté, estés, esté, estemos, estéis, estén\n- tener → tenga, tengas, tenga, tengamos, tengáis, tengan\n- haber → haya, hayas, haya, hayamos, hayáis, hayan",
+      "table": {
+        "headers": ["Trigger", "Mood", "Example"],
+        "rows": [
+          ["Creo que", "indicative", "Creo que es justo."],
+          ["No creo que", "subjunctive", "No creo que sea justo."],
+          ["Es importante que", "subjunctive", "Es importante que la gente reflexione."],
+          ["Es evidente que", "indicative", "Es evidente que es necesario."],
+          ["Dudo que", "subjunctive", "Dudo que sea verdad."],
+          ["Quiero que", "subjunctive", "Quiero que todos tengan derechos."],
+          ["Es posible que", "subjunctive", "Es posible que haya cambios."],
+          ["Es seguro que", "indicative", "Es seguro que es importante."]
+        ]
+      },
+      "examples": [
+        "Es necesario que todos reflexionemos sobre los valores de nuestra sociedad.",
+        "Dudo que la justicia sea siempre imparcial.",
+        "Es importante que se respeten los derechos humanos.",
+        "Espero que la igualdad de oportunidades mejore en el futuro.",
+        "No creo que la mentira sea aceptable en ninguna circunstancia.",
+        "Es lamentable que haya tanta desigualdad en el mundo."
+      ],
+      "aid_note": "Romanian subjunctive ('să' + form) works very similarly to Spanish subjunctive. 'Nu cred că să fie adevărat' (awkward but shows the parallel) → 'No creo que sea verdad.' The Romanian 'să' particle maps to Spanish subjunctive mood in almost all the same contexts."
+    }
+  ],
+  "pronunciation": [
+    {
+      "title": "Pronunciation of Abstract and Academic Vocabulary",
+      "content": "Key pronunciation patterns for abstract thinking and opinion vocabulary:\n\n1. **The 'c' before 'e' and 'i':**\n   - In Spain: pronounced 'th' (like 'think')\n     - la opinión → lah o-pee-EEN (the 'c' sound doesn't apply here, but 'ción' = 'theen')\n     - la evidencia → leh-en-THYE-NGY-ah (Spain) / en-vee-DEN-see-ah (Latin America)\n   - In Latin America: pronounced 's'\n     - la justicia → lah hoo-SEE-tee-ah (Spain: JOO-see-ah) / lah hoo-SEE-tee-ah (Latin America)\n\n2. **The 'ción / sión' ending:**\n   - Pronounced 'theen' (Spain) or 'see-en' (Latin America)\n   - la opinión → lah o-pee-EEN (stress on the last syllable)\n   - la evidencia → en-vee-DEN-see-ah or en-vee-DEN-thyah\n   - la abstracción → ahs-trak-TEE-ohn (always stressed on -ción)\n   - la reflexión → reh-flek-SEE-ohn\n   - la justicia → hoo-SEE-tee-ah or hoo-THSEE-ah\n   - la posibilidad → poh-see-bee-LEE-dahd (d at end is soft, like 'th')\n   - la probabilidad → proh-bee-ah-bee-LEE-dahd\n\n3. **Stress on '-sión' words:**\n   - la perspectiva → pehr-spek-TEE-vah (llana, stress on penultimate, no accent because ends in 'a')\n   - la igualdad → ee-gwah-LEE-dahd (llana, stress on penultimate)\n   - la libertad → lee-behr-TAHD (aguda, stress on last syllable)\n   - la moral → mo-RAL (aguda, stress on last syllable)\n   - la ética → EE-tee-kah (aguda, stress on last syllable, written with accent)\n\n4. **The 'll' / 'y' sound (yeísmo):**\n   - la opinión → lah o-pee-EEN (no 'll' here)\n   - but: el pueblo → el PWEH-blyoh (ll = y)\n   - la calle → LAH kah-yeh (ll = y)\n\n5. **The 'g' before 'e' and 'i':**\n   - The 'g' is pronounced like 'h' (aspirated)\n   - la ética → EE-tee-kah (g before 'i' = soft h, often dropped in pronunciation)\n   - el género → el HEN-ree-oh\n   - la gente → LAH HEN-teh\n\n6. **Silent letters to watch for:**\n   - The 'h' is ALWAYS silent: el hecho → el FEH-koh (not 'heh-koh')\n   - The final 'd' is often weakened or dropped in speech: la verdad → la ber-DAD or la ber-DA\n   - The 'b' and 'v' sound identical: la verdad (b) and la verdad (v) sound the same\n\n7. **Word stress in opinion phrases:**\n   - desde mi punto de vista → DEHS-deh mee PWN-toh deh bEE-stah\n   - en mi opinión → en mee o-pee-EEN (stress on last syllable of opinión)\n   - por un lado... por otro lado → por oon LAH-doh... por OT-roh LAH-doh",
+      "examples": [
+        "la opinión = lah o-pee-EEN (stress on last syllable, -ción = theen/see-en)",
+        "la ética = EE-tee-kah (g before i = soft h, often silent)",
+        "el hecho = el FEH-koh (h is silent)",
+        "la libertad = lee-behr-TAHD (stress on last syllable)",
+        "la reflexión = reh-flek-SEE-ohn (stress on penultimate, -ción)",
+        "subjetivo = soo-beh-tee-EE-boh (stress on penultimate)",
+        "la posibilidad = poh-see-bee-LEE-dahd (stress on penultimate, final d soft)",
+        "hipotéticamente = ee-poh-teh-teh-KAH-men-teh (stress on penultimate)"
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "exercise",
+      "question": "Choose the correct opinion expression: '______, creo que la educación es importante.'",
+      "options": ["En mi opinión", "Sin embargo", "Por lo tanto", "En conclusión"],
+      "correct": 0,
+      "explanation": "'En mi opinión' (In my opinion) introduces a personal viewpoint. 'Sin embargo' (however) and 'Por lo tanto' (therefore) are connectors for contrast/conclusion, not opinion markers."
+    },
+    {
+      "type": "exercise",
+      "question": "Choose the correct mood: 'No creo que la justicia ____ (ser) siempre imparcial.'",
+      "options": ["es", "sea", "fuera", "será"],
+      "correct": 1,
+      "explanation": "'No creo que' (I don't believe that) expresses doubt/negation, triggering the subjunctive. 'Sea' is the present subjunctive of ser."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete with the correct conditional: 'Si tuviera más tiempo, ____ (viajar) por Latinoamérica.'",
+      "correct": "viajaría",
+      "explanation": "Si + imperfect subjunctive → conditional. 'Viajaría' = conditional of viajar (I would travel)."
+    },
+    {
+      "type": "exercise",
+      "question": "Choose the correct subjunctive form: 'Es importante que todos ____ (reflexionar) sobre los valores.'",
+      "options": ["reflexionamos", "reflexionemos", "reflexionan", "reflexionemos"],
+      "correct": 1,
+      "explanation": "'Es importante que' triggers subjunctive. 'Reflexionemos' = present subjunctive, first person plural of reflexionar."
+    },
+    {
+      "type": "exercise",
+      "question": "Which sentence expresses a hypothesis?",
+      "options": [
+        "Creo que es justo.",
+        "Hipotéticamente, si cambiamos el sistema, los resultados mejorarían.",
+        "Me gusta la música.",
+        "Voy al supermercado mañana."
+      ],
+      "correct": 1,
+      "explanation": "The second sentence uses 'hipotéticamente' and a conditional structure ('mejorarían'), expressing a hypothetical situation."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: '______ de que la igualdad de género se logre pronto.' (Estoy seguro/a)",
+      "correct": "Estoy segura",
+      "explanation": "'Estoy seguro(a) de que' expresses certainty and takes the indicative. 'Segura' agrees with the speaker if female."
+    },
+    {
+      "type": "exercise",
+      "question": "Choose the correct connector: '______, creo que deberíamos cambiar el sistema educativo.'",
+      "options": ["En mi opinión", "En general", "Además", "Por ejemplo"],
+      "correct": 0,
+      "explanation": "'En mi opinión' introduces a personal opinion, which matches 'creo que' (I believe that)."
+    },
+    {
+      "type": "exercise",
+      "question": "Identify the incorrect sentence:",
+      "options": [
+        "Es posible que llueva mañana.",
+        "Si tuviera tiempo, viajaría.",
+        "Si tendría tiempo, viajaría.",
+        "Dudo que sea verdad."
+      ],
+      "correct": 2,
+      "explanation": "You NEVER use 'si' + conditional. The correct form is 'Si tuviera tiempo, viajaría' (Si + imperfect subjunctive → conditional)."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete with the correct subjunctive: 'Es necesario que los jóvenes ____ (tener) conciencia social.'",
+      "correct": "tengan",
+      "explanation": "'Es necesario que' triggers subjunctive. 'Tengan' = present subjunctive of tener (irregular stem change)."
+    },
+    {
+      "type": "exercise",
+      "question": "Which word is an abstract noun?",
+      "options": ["la mesa", "la justicia", "el libro", "el perro"],
+      "correct": 1,
+      "explanation": "'La justicia' (justice) is an abstract noun — you can't touch or see it directly. The others are concrete nouns."
+    },
+    {
+      "type": "exercise",
+      "question": "Choose the correct disagreement expression: 'No estoy ____ con esa idea.'",
+      "options": ["de acuerdo", "en opinión", "por ejemplo", "en cambio"],
+      "correct": 0,
+      "explanation": "'No estoy de acuerdo' (I don't agree) is the standard disagreement formula."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete with the conditional: 'Si pudiera elegir, ____ (estudiar) ciencias políticas.'",
+      "correct": "estudiaría",
+      "explanation": "Si + imperfect subjunctive (tuviera/pudiera) → conditional (estudiaría = I would study)."
+    },
+    {
+      "type": "exercise",
+      "question": "Choose the correct sentence with subjunctive:",
+      "options": [
+        "Creo que es injusto.",
+        "Es evidente que es justo.",
+        "Dudo que sea justo.",
+        "Es seguro que es correcto."
+      ],
+      "correct": 2,
+      "explanation": "'Dudo que' triggers subjunctive: 'sea' (subjunctive of ser). The others express certainty and use indicative."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: 'Quizás ____ (ser) necesario cambiar las leyes.'",
+      "correct": "sea",
+      "explanation": "'Quizás' can trigger subjunctive when expressing uncertainty about the future. 'Sea' = present subjunctive of ser."
+    },
+    {
+      "type": "exercise",
+      "question": "Which is NOT an abstract concept?",
+      "options": ["la libertad", "la mesa", "la justicia", "los valores"],
+      "correct": 1,
+      "explanation": "'La mesa' (the table) is a concrete noun — you can physically touch it. The others are abstract concepts."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete with the correct subjunctive: 'Me alegra que tú ____ (venir) a la discusión.'",
+      "correct": "vengas",
+      "explanation": "'Me alegra que' (I'm glad that) triggers subjunctive. 'Vengas' = present subjunctive of venir (irregular)."
+    },
+    {
+      "type": "exercise",
+      "question": "Choose the correct hypothesis structure:",
+      "options": [
+        "Si puedo, estudiaré.",
+        "Si podré, estudiaré.",
+        "Si podría, estudiaré.",
+        "Si podría, estudiaría."
+      ],
+      "correct": 0,
+      "explanation": "Present/future hypothesis: Si + present → future. 'Si puedo, estudiaré' (If I can, I will study)."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete with the subjunctive: 'Es injusto que la gente ____ (sufrir) por pobreza.'",
+      "correct": "sufra",
+      "explanation": "'Es injusto que' triggers subjunctive. 'Sufra' = present subjunctive of sufrir."
+    },
+    {
+      "type": "exercise",
+      "question": "Choose the correct connector for contrast:",
+      "options": ["Por lo tanto", "Sin embargo", "Además", "Por ejemplo"],
+      "correct": 1,
+      "explanation": "'Sin embargo' (however) expresses contrast. 'Por lo tanto' = therefore, 'Además' = furthermore, 'Por ejemplo' = for example."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: 'Es posible que ____ (haber) más desigualdad en el futuro.'",
+      "correct": "haya",
+      "explanation": "'Es posible que' triggers subjunctive. 'Haya' = present subjunctive of haber."
+    },
+    {
+      "type": "exercise",
+      "question": "Which sentence uses the subjunctive correctly for abstract thought?",
+      "options": [
+        "Creo que la verdad existe.",
+        "Es cierto que la justicia existe.",
+        "Dudo que la verdad exista.",
+        "Sé que la verdad existe."
+      ],
+      "correct": 2,
+      "explanation": "'Dudo que' triggers subjunctive: 'exista' (subjunctive of existir). The others express certainty → indicative."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete with the correct form: 'Si ____ (poder) viajar a cualquier país, iría a España.'",
+      "correct": "pudiera / pudiese",
+      "explanation": "Si + imperfect subjunctive → conditional. 'Pudiera' or 'pudiese' = imperfect subjunctive of poder."
+    },
+    {
+      "type": "exercise",
+      "question": "Choose the correct opinion formula (most formal):",
+      "options": [
+        "Yo pienso que...",
+        "A mi juicio, ...",
+        "Me parece que...",
+        "Creo que..."
+      ],
+      "correct": 1,
+      "explanation": "'A mi juicio' (in my judgment) is the most formal opinion formula. The others are common but less formal."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: '______ que la educación es un derecho, no un privilegio.' (Es evidente)",
+      "correct": "Es evidente",
+      "explanation": "'Es evidente que' = It's evident that — expresses certainty → takes indicative."
+    },
+    {
+      "type": "exercise",
+      "question": "Which word is the subjunctive of 'querer'?",
+      "options": ["quiero", "quiera", "quería", "querría"],
+      "correct": 1,
+      "explanation": "'Quiera' is the present subjunctive of querer. 'Quiero' = present indicative, 'quería' = imperfect indicative, 'querría' = conditional."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete with subjunctive: 'Sugiero que todos ____ (participar) en el debate.'",
+      "correct": "participen",
+      "explanation": "'Sugiero que' (I suggest that) triggers subjunctive. 'Participen' = present subjunctive of participar."
+    },
+    {
+      "type": "exercise",
+      "question": "Choose the correct pronunciation of 'ética':",
+      "options": [
+        "EE-tee-kah (g is silent)",
+        "EH-guh-tah (g is hard)",
+        "EH-tee-kah (h is pronounced)",
+        "EE-jee-kah (g = j sound)"
+      ],
+      "correct": 0,
+      "explanation": "'Ética' = EE-tee-kah. The 'g' before 'i' is a soft aspirated sound, often dropped entirely in speech."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: '______ de que la libertad sea un derecho universal.' (Tengo la certeza)",
+      "correct": "Tengo la certeza",
+      "explanation": "'Tengo la certeza de que' = I'm certain that — takes indicative (but here 'sea' is subjunctive because the clause itself uses subjunctive for the abstract concept of freedom)."
+    },
+    {
+      "type": "exercise",
+      "question": "Choose the correct hypothesis about the future:",
+      "options": [
+        "Si tuviera dinero, compraré una casa.",
+        "Si tengo dinero, compraré una casa.",
+        "Si tendré dinero, compraré una casa.",
+        "Si tendría dinero, compraré una casa."
+      ],
+      "correct": 1,
+      "explanation": "Present/future real hypothesis: Si + present → future. 'Si tengo dinero, compraré una casa' = If I have money, I will buy a house."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete with the correct subjunctive: 'No es cierto que la mentira ____ (estar) justificada nunca.'",
+      "correct": "esté",
+      "explanation": "'No es cierto que' triggers subjunctive. 'Esté' = present subjunctive of estar."
+    }
+  ]
+}

@@ -1,15 +1,11 @@
 {
   "stage_id": "b2-2",
-  "title": "B2.2 — Abstract Discourse & Argumentation",
-  "description": "Express complex opinions, debate social and political topics, analyze media content, and argue with sophisticated connectors and rhetorical devices.",
+  "title": "B2.2 — Abstract & Argumentation",
+  "description": "Advanced stage for abstract discourse, argumentation, and nuanced expression at the B2.2 CEFR level.",
   "estimated_weeks": 6,
   "themes": [
-    { "id": "expressing-opinions", "title": "Expressing Nuanced Opinions", "description": "Go beyond 'creo que' — master hedging, emphasis, and persuasive language.", "estimated_hours": 5 },
-    { "id": "politics-society", "title": "Politics & Society", "description": "Discuss governance, rights, social movements, and civic participation.", "estimated_hours": 5 },
-    { "id": "media-technology", "title": "Media, Technology & Society", "description": "Analyze the impact of technology, social media, and AI on society.", "estimated_hours": 5 },
-    { "id": "environment", "title": "Environment & Climate Change", "description": "Discuss sustainability, pollution, biodiversity, and climate policy.", "estimated_hours": 5 },
-    { "id": "health-wellness", "title": "Health, Wellness & Ethics", "description": "Talk about healthcare systems, medical ethics, and lifestyle choices.", "estimated_hours": 4 },
-    { "id": "education-society", "title": "Education & Social Mobility", "description": "Discuss educational systems, inequality, and lifelong learning.", "estimated_hours": 4 },
-    { "id": "debate-argumentation", "title": "Debate & Argumentation Structure", "description": "Learn the architecture of a persuasive argument in Spanish.", "estimated_hours": 5 }
+    {"id": "arts-culture-heritage", "title": "Arts, Culture & Heritage", "estimated_hours": 12},
+    {"id": "economy-finance", "title": "Economy & Finance", "estimated_hours": 12},
+    {"id": "technology-innovation", "title": "Technology & Innovation", "estimated_hours": 12}
   ]
 }

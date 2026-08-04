@@ -1,0 +1,233 @@
+{
+  "level": "B2.1",
+  "stage": "B2.1",
+  "theme_number": 10,
+  "title": "Advanced Creative Expression",
+  "title_es": "Expresión Creativa Avanzada",
+  "description": "Vocabulary, grammar, and exercises for creative writing, artistic expression, storytelling, and narrative techniques at the B2.1 CEFR level.",
+  "description_es": "Vocabulario, gramática y ejercicios para la escritura creativa, la expresión artística, la narración y las técnicas narrativas al nivel B2.1 del Marco Común Europeo.",
+  "aligned_topic": "Tema 26: Expresión Creativa y Técnicas Narrativas",
+  "instituto_cervantes_reference": "Plan Curricular del Instituto Cervantes — Producción escrita creativa (B2): relatos, poesía, ensayo literario; Funciones: narrar historias, describir escenas con detalle, expresar emociones y percepciones, crear atmósferas literarias; Nociones: estructura narrativa, punto de vista, ritmo narrativo, estilo, figuras retóricas",
+  "created_at": "2026-08-03",
+  "part": 1,
+  "vocabulary": {
+    "total_count": 103,
+    "nouns": [
+      {"word": "la narrativa", "english": "narrative", "category": "literatura", "example": "La narrativa latinoamericana ha influido en la literatura mundial."},
+      {"word": "la trama", "english": "plot", "category": "literatura", "example": "La trama se torció inesperadamente en el tercer acto."},
+      {"word": "el argumento", "english": "plot / argument", "category": "literatura", "example": "El argumento del libro gira en torno a la identidad."},
+      {"word": "el personaje", "english": "character", "category": "literatura", "example": "El personaje principal evoluciona a lo largo de la historia."},
+      {"word": "el protagonista", "english": "protagonist", "category": "literatura", "example": "El protagonista enfrenta un conflicto interno profundo."},
+      {"word": "el antagonista", "english": "antagonist", "category": "literatura", "example": "El antagonista representa la fuerza opuesta al protagonista."},
+      {"word": "el narrador", "english": "narrator", "category": "literatura", "example": "El narrador en primera persona revela sus propios pensamientos."},
+      {"word": "el punto de vista", "english": "point of view", "category": "literatura", "example": "Cada capítulo está contado desde un punto de vista diferente."},
+      {"word": "la atmósfera", "english": "atmosphere / mood", "category": "literatura", "example": "La atmósfera del cuento es melancólica y envolvente."},
+      {"word": "el conflicto", "english": "conflict", "category": "literatura", "example": "El conflicto central impulsa toda la trama."},
+      {"word": "el clímax", "english": "climax", "category": "literatura", "example": "El clímax de la novela ocurre cuando se revela el secreto."},
+      {"word": "el desenlace", "english": "resolution / denouement", "category": "literatura", "example": "El desenlace dejó a los lectores con mucho que reflexionar."},
+      {"word": "el relato corto", "english": "short story", "category": "literatura", "example": "El relato corto requiere concentración de efectos."},
+      {"word": "la crónica", "english": "chronicle / news report", "category": "literatura", "example": "La crónica periodística mezcla hechos y opinión."},
+      {"word": "el ensayo literario", "english": "literary essay", "category": "literatura", "example": "El ensayo literario explora ideas a través de la reflexión."},
+      {"word": "la metáfora", "english": "metaphor", "category": "retórica", "example": "La metáfora del río como símbolo del tiempo es poderosa."},
+      {"word": "la sinécdoque", "english": "synecdoche", "category": "retórica", "example": "La sinécdoque utiliza la parte para representar el todo."},
+      {"word": "la prosa poética", "english": "poetic prose", "category": "literatura", "example": "La prosa poética borra los límites entre narrativa y poesía."},
+      {"word": "el monólogo interior", "english": "stream of consciousness", "category": "literatura", "example": "El monólogo interior permite acceder a los pensamientos del personaje."},
+      {"word": "el flashback / la escena retrospectiva", "english": "flashback / retrospective scene", "category": "literatura", "example": "Los flashbacks revelan el pasado del protagonista gradualmente."},
+      {"word": "el estilo indirecto libre", "english": "free indirect discourse", "category": "literatura", "example": "El estilo indirecto libre fusiona la voz del narrador con la del personaje."},
+      {"word": "el ritmo narrativo", "english": "narrative pacing", "category": "literatura", "example": "El ritmo narrativo se acelera en los momentos de tensión."},
+      {"word": "la descripción sensorial", "english": "sensory description", "category": "literatura", "example": "La descripción sensorial transporta al lector al escenario."},
+      {"word": "el símbolo", "english": "symbol", "category": "literatura", "example": "El mar funciona como símbolo de libertad en la obra."},
+      {"word": "la alegoría", "english": "allegory", "category": "literatura", "example": "La alegoría permite leer múltiples niveles de significado."},
+      {"word": "la ironía dramática", "english": "dramatic irony", "category": "literatura", "example": "La ironía dramática crea tensión cuando el público sabe más que los personajes."},
+      {"word": "el foreshadowing / la presagiación", "english": "foreshadowing", "category": "literatura", "example": "El foreshadowing prepara al lector para el giro final."},
+      {"word": "la voz narrativa", "english": "narrative voice", "category": "literatura", "example": "La voz narrativa es irreverente y cargada de humor negro."},
+      {"word": "el subtexto", "english": "subtext", "category": "literatura", "example": "El subtexto de la conversación revela los verdaderos sentimientos."},
+      {"word": "el arco del personaje", "english": "character arc", "category": "literatura", "example": "El arco del personaje muestra una transformación radical."},
+      {"word": "el universo narrativo", "english": "narrative universe", "category": "literatura", "example": "El universo narrativo es rico en detalles históricos."},
+      {"word": "el worldbuilding / la construcción del mundo", "english": "world-building", "category": "literatura", "example": "El worldbuilding es fundamental en la literatura de fantasía."},
+      {"word": "el realismo mágico", "english": "magical realism", "category": "literatura", "example": "El realismo mágico fusiona lo cotidiano con lo sobrenatural."},
+      {"word": "la vanguardia literaria", "english": "literary avant-garde", "category": "literatura", "example": "La vanguardia literaria rompió con las convenciones del siglo XX."},
+      {"word": "el experimento literario", "english": "literary experiment", "category": "literatura", "example": "El experimento literario desafía las estructuras tradicionales."},
+      {"word": "la inspiración creativa", "english": "creative inspiration", "category": "creatividad", "example": "La inspiración creativa llega en los momentos más inesperados."},
+      {"word": "el proceso creativo", "english": "creative process", "category": "creatividad", "example": "El proceso creativo incluye borradores, revisiones y reescrituras."},
+      {"word": "la expresión artística", "english": "artistic expression", "category": "arte", "example": "La expresión artística trasciende las barreras del lenguaje."},
+      {"word": "la sensibilidad literaria", "english": "literary sensitivity", "category": "literatura", "example": "La sensibilidad literaria se desarrolla con la lectura constante."},
+      {"word": "la creatividad", "english": "creativity", "category": "creatividad", "example": "La creatividad fluye cuando se eliminan las restricciones internas."},
+      {"word": "la obra", "english": "work (artistic/literary)", "category": "literatura", "example": "La obra de García Márquez transformó la literatura latinoamericana."},
+      {"word": "el género literario", "english": "literary genre", "category": "literatura", "example": "El género narrativo incluye novelas, relatos y cuentos."},
+      {"word": "el texto", "english": "text", "category": "literatura", "example": "El texto se presta a múltiples interpretaciones."},
+      {"word": "la interpretación", "english": "interpretation", "category": "literatura", "example": "Cada lector construye su propia interpretación del texto."},
+      {"word": "la ficción", "english": "fiction", "category": "literatura", "example": "La ficción permite explorar verdades que la realidad no muestra."},
+      {"word": "la realidad", "english": "reality", "category": "literatura", "example": "La novela difumina los límites entre ficción y realidad."},
+      {"word": "la fantasía", "english": "fantasy", "category": "literatura", "example": "La fantasía abre las puertas a mundos imposibles."},
+      {"word": "la memoria", "english": "memory", "category": "literatura", "example": "La memoria es el motor de casi toda la gran narrativa."},
+      {"word": "el sueño", "english": "dream", "category": "literatura", "example": "El sueño funciona como eje del relato onírico."},
+      {"word": "el mito", "english": "myth", "category": "literatura", "example": "El mito de Prometeo ha inspirado innumerables obras."},
+      {"word": "la leyenda", "english": "legend", "category": "literatura", "example": "La leyenda local se transmite de generación en generación."},
+      {"word": "el cuento", "english": "short story", "category": "literatura", "example": "El cuento breve exige economía expresiva."},
+      {"word": "la novela", "english": "novel", "category": "literatura", "example": "La novela permite un desarrollo extenso de personajes y tramas."},
+      {"word": "la poesía", "english": "poetry", "category": "literatura", "example": "La poesía condensa emociones en versos breves."},
+      {"word": "el verso", "english": "verse", "category": "literatura", "example": "El verso libre rompe con las métricas tradicionales."}
+    ],
+    "verbs": [
+      {"word": "narrar", "english": "to narrate", "category": "literatura", "example": "La novela narra la historia de una familia durante tres generaciones."},
+      {"word": "relatar", "english": "to relate / recount", "category": "literatura", "example": "El testigo relató los hechos con gran precisión."},
+      {"word": "describir", "english": "to describe", "category": "literatura", "example": "La autora describe el paisaje con detalle exquisito."},
+      {"word": "evocar", "english": "to evoke", "category": "literatura", "example": "El poema evoca recuerdos de la infancia."},
+      {"word": "imaginar", "english": "to imagine", "category": "creatividad", "example": "Un buen escritor debe saber imaginar mundos distintos."},
+      {"word": "crear", "english": "to create", "category": "creatividad", "example": "La autora creó personajes que resonaron con millones de lectores."},
+      {"word": "construir (una historia)", "english": "to build (a story)", "category": "literatura", "example": "El autor construyó la historia pieza por pieza."},
+      {"word": "entrelazar", "english": "to interweave / intertwine", "category": "literatura", "example": "El autor entrelazó las tramas de tres personajes diferentes."},
+      {"word": "transcender", "english": "to transcend", "category": "literatura", "example": "La obra trasciende las fronteras del género literario."},
+      {"word": "profundizar en", "english": "to delve into", "category": "literatura", "example": "El ensayo profundiza en la condición humana."},
+      {"word": "reinterpretar", "english": "to reinterpret", "category": "literatura", "example": "La película reinterpretó el clásico desde una perspectiva moderna."},
+      {"word": "transformar", "english": "to transform", "category": "literatura", "example": "La autora transformó sus experiencias personales en ficción."},
+      {"word": "desdibujar", "english": "to blur", "category": "literatura", "example": "El autor desdibuja la línea entre realidad y ficción."},
+      {"word": "encarnar", "english": "to embody", "category": "literatura", "example": "El personaje encarna los ideales de resistencia."},
+      {"word": "gestar", "english": "to gestate / conceive", "category": "literatura", "example": "La idea del libro se gestó durante años de reflexión."},
+      {"word": "dar vida a", "english": "to bring to life", "category": "literatura", "example": "La escritora dio vida a personajes que parecen reales."},
+      {"word": "tejer (una trama)", "english": "to weave (a plot)", "category": "literatura", "example": "El autor teje una trama densa y compleja."},
+      {"word": "desglosar", "english": "to break down", "category": "literatura", "example": "El ensayo desglosa las capas de significado del texto."},
+      {"word": "conectar con", "english": "to connect with", "category": "literatura", "example": "La obra conecta con el lector a un nivel emocional profundo."},
+      {"word": "susurrar", "english": "to whisper", "category": "literatura", "example": "El narrador susurra confidencias al lector como un confidente."}
+    ],
+    "adjectives": [
+      {"word": "creativo / creativa", "english": "creative", "category": "creatividad", "example": "El ejercicio creativo invitaba a experimentar con formas narrativas."},
+      {"word": "narrativo / narrativa", "english": "narrative", "category": "literatura", "example": "El dispositivo narrativo era innovador."},
+      {"word": "descriptivo / descriptiva", "english": "descriptive", "category": "literatura", "example": "Los pasajes descriptivos son de una belleza extraordinaria."},
+      {"word": "evocador / evocadora", "english": "evocative", "category": "literatura", "example": "Las imágenes evocadoras transportan al lector a otra época."},
+      {"word": "poético / poética", "english": "poetic", "category": "literatura", "example": "El lenguaje poético enriquece la experiencia de lectura."},
+      {"word": "imaginativo / imaginativa", "english": "imaginative", "category": "creatividad", "example": "La propuesta imaginativa sorprendió a todos los jueces."},
+      {"word": "intrincado / intrincada", "english": "intricate", "category": "literatura", "example": "La trama intrincada recompensa la lectura atenta."},
+      {"word": "sutil / sutiles", "english": "subtle", "category": "literatura", "example": "La ironía sutil se revela en la relectura."},
+      {"word": "expresivo / expresiva", "english": "expressive", "category": "literatura", "example": "La prosa expresiva transmite la intensidad emocional."},
+      {"word": "innovador / innovadora", "english": "innovative", "category": "literatura", "example": "El enfoque innovador renovó el género narrativo."},
+      {"word": "fragmentario / fragmentaria", "english": "fragmentary", "category": "literatura", "example": "La estructura fragmentaria refleja la dispersión de la memoria."},
+      {"word": "lírico / lírica", "english": "lyrical", "category": "literatura", "example": "La prosa lírica se acerca a la poesía en su musicalidad."},
+      {"word": "simbólico / simbólica", "english": "symbolic", "category": "literatura", "example": "Cada elemento de la escena tiene un valor simbólico."},
+      {"word": "vanguardista", "english": "avant-garde", "category": "literatura", "example": "La novela vanguardista desafía las expectativas del lector."},
+      {"word": "contemplativo / contemplativa", "english": "contemplative", "category": "literatura", "example": "El tono contemplativo invita a la reflexión profunda."},
+      {"word": "onírico / onírica", "english": "dreamlike", "category": "literatura", "example": "El relato onírico sumerge al lector en un mundo de sueños."},
+      {"word": "reflexivo / reflexiva", "english": "reflective", "category": "literatura", "example": "Los párrafos reflexivos dan ritmo al relato."},
+      {"word": "sensitivo / sensitiva", "english": "sensitive", "category": "literatura", "example": "La mirada sensitiva capta los matices del mundo cotidiano."}
+    ],
+    "phrases_and_connectors": [
+      {"phrase": "a modo de introducción", "english": "by way of introduction", "category": "narrativa", "example": "A modo de introducción, el autor nos presenta al escenario principal."},
+      {"phrase": "en el transcurso de la narración", "english": "throughout the narrative", "category": "narrativa", "example": "En el transcurso de la narración, el tono cambia radicalmente."},
+      {"phrase": "bajo la superficie del texto", "english": "beneath the surface of the text", "category": "narrativa", "example": "Bajo la superficie del texto se esconde una crítica social."},
+      {"phrase": "en clave de", "english": "in the key of / in terms of", "category": "literatura", "example": "El libro se lee en clave de aventura y descubrimiento."},
+      {"phrase": "a través de los ojos de", "english": "through the eyes of", "category": "narrativa", "example": "La historia se cuenta a través de los ojos de un niño."},
+      {"phrase": "más allá de lo literal", "english": "beyond the literal", "category": "narrativa", "example": "La obra opera más allá de lo literal, en el plano simbólico."},
+      {"phrase": "en un registro de", "english": "in a register of", "category": "literatura", "example": "El narrador adopta un registro de ironía y desdén."},
+      {"phrase": "en un tono que evoca", "english": "in a tone that evokes", "category": "literatura", "example": "El texto adopta un tono que evoca la nostalgia y la pérdida."},
+      {"phrase": "con una prosa que se desliza como", "english": "with prose that flows like", "category": "literatura", "example": "Con una prosa que se desliza como un río, la autora nos lleva por su mundo."},
+      {"phrase": "en el umbral de", "english": "on the threshold of", "category": "literatura", "example": "La novela se sitúa en el umbral entre lo real y lo fantástico."}
+    ]
+  },
+  "grammar": [
+    {
+      "id": "g1",
+      "title": "Pretérito imperfecto de subjuntivo en narración literaria",
+      "title_en": "Past imperfect subjunctive in literary narration",
+      "description": "B2.1: Si + hubiera/hubiese + participio / hubiera/hubiese + infinitivo. Used in literary narratives to construct hypothetical pasts: 'Si hubiera conocido a tiempo, habría cambiado todo.' Also used for narrative speculation: 'Quizá fuera el último día de su vida.' Essential for storytelling that explores alternative realities.",
+      "description_es": "B2.1: Si + hubiera/hubiese + participio. Se usa en narración literaria para construir hipotéticas del pasado: 'Si hubiera conocido a tiempo, habría cambiado todo.' Esencial para relatos que exploran realidades alternativas.",
+      "examples": [
+        "Si hubiera sabido que era su última visita, le habría abrazado con más fuerza.",
+        "Quizá fuera el viento el que agitaba las cortinas, no alguien dentro de la casa.",
+        "Como si el tiempo se hubiera detenido, todos quedaron inmóviles.",
+        "Hubiese querido decirle mil cosas, pero las palabras se quedaron atascadas.",
+        "Si la vida fuera un libro, aquel día sería el capítulo más largo.",
+        "Tal vez existiera un mundo donde las cosas salieran bien."
+      ]
+    },
+    {
+      "id": "g2",
+      "title": "Pretérito pluscuamperfecto de indicativo para capas temporales",
+      "title_en": "Past perfect indicative for temporal layers",
+      "description": "B2.1: Había + participio (había dicho, había visto, había sido). Creates depth in narrative by establishing actions anterior to the main narrative timeline. 'Cuando llegó, ya había llovido toda la noche.' Essential for layered storytelling and memory sequences.",
+      "description_es": "B2.1: Había + participio. Crea profundidad en la narrativa estableciendo acciones anteriores a la línea temporal principal. Esencial para relatos con capas temporales.",
+      "examples": [
+        "Cuando entró en la habitación, ya había desaparecido todo rastro de la pelea.",
+        "Había aprendido a no confiar en las apariencias después de aquel incidente.",
+        "La ciudad había cambiado tanto que ya no reconocía las calles que antes recorría.",
+        "Había olvidado el sonido de su risa, pero no la forma en que iluminaba el cuarto.",
+        "Cuando encontró la carta, ya habían pasado veinte años desde la última vez que se escribieron.",
+        "Había vivido allí durante décadas, pero nunca se sintió en casa."
+      ]
+    },
+    {
+      "id": "g3",
+      "title": "Conectores narrativos de secuencia y transición",
+      "title_en": "Narrative sequence and transition connectors",
+      "description": "B2.1: De pronto, Repentinamente, Al cabo de un momento, Mientras tanto, Paralelamente, No bien..., Apenas..., En el instante en que..., A medida que..., Para entonces. These connectors control narrative pacing and guide readers through complex temporal structures.",
+      "description_es": "B2.1: De pronto, mientras tanto, paralelamente, no bien, apenas, etc. Estos conectores controlan el ritmo narrativo y guían al lector a través de estructuras temporales complejas.",
+      "examples": [
+        "De pronto, el silencio se rompió con un golpe sordo.",
+        "Mientras tanto, en el otro lado de la ciudad, la noticia comenzaba a extenderse.",
+        "Paralelamente, la protagonista reflexionaba sobre lo que acababa de ocurrir.",
+        "No bien cruzó el umbral, supo que algo había cambiado.",
+        "A medida que avanzaba por el pasillo, los recuerdos afloraban uno a uno.",
+        "Para entonces, ya había tomado una decisión que cambiaría todo."
+      ]
+    }
+  ],
+  "pronunciation": [
+    {
+      "id": "p1",
+      "title": "Acentuación de términos literarios y narrativos",
+      "title_en": "Stress patterns of literary and narrative terms",
+      "description": "Practice stress in literary vocabulary: narrativa, metáfora, sinécdoque, prosa, personaje, argumento, narrador, relato, clímax, ironía. Focus on the variety of accentuation patterns in literary terminology.",
+      "description_es": "Practicar la acentuación del vocabulario literario: narrativa, metáfora, sinécdoque, prosa, personaje, argumento, narrador, relato, clímax, ironía."
+    },
+    {
+      "id": "p2",
+      "title": "Pronunciación de palabras de origen griego",
+      "title_en": "Pronunciation of Greek-origin literary terms",
+      "description": "Practice pronunciation of Greek-origin literary terms: sinécdoque /si-néc-do-ke/, sinestesia /si-nes-te-si-a/, parangón /pa-rán-go/, onomatopeya /o-no-ma-to-pe-ya/, alegoría /a-le-go-rí-a/, sátira /sá-ti-ra/, épica /é-pi-ka/. Spanish adapts Greek diphthongs to its own phonological system.",
+      "description_es": "Practicar la pronunciación de términos literarios de origen griego: sinécdoque, sinestesia, parangón, onomatopeya, alegoría, sátira, épica."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "vocabulary_matching",
+      "title": "Términos narrativos: asociar con definición",
+      "title_en": "Narrative terms: match with definition",
+      "instructions": "Asocia cada término narrativo con su definición correcta.",
+      "instructions_en": "Match each narrative term with its correct definition.",
+      "items": [
+        {"term": "el estilo indirecto libre", "definition": "Técnica narrativa que fusiona la voz del narrador con los pensamientos del personaje sin marcas de citado"},
+        {"term": "el foreshadowing", "definition": "Técnica que prepara al lector para eventos futuros mediante pistas sutiles"},
+        {"term": "la ironía dramática", "definition": "Situación en la que el público conoce información que los personajes ignoran"},
+        {"term": "el monólogo interior", "definition": "Técnica que reproduce el flujo de pensamientos de un personaje"},
+        {"term": "el realismo mágico", "definition": "Género que presenta eventos sobrenaturales como parte de la vida cotidiana"}
+      ]
+    },
+    {
+      "id": "e2",
+      "type": "fill_in_the_blank",
+      "title": "Completar con conectores narrativos",
+      "title_en": "Complete with narrative connectors",
+      "instructions": "Completa las oraciones con el conector narrativo adecuado: De pronto, Mientras tanto, A medida que, Para entonces, No bien.",
+      "instructions_en": "Complete the sentences with the appropriate narrative connector.",
+      "items": [
+        {"sentence": "______, la puerta se abrió sin que nadie la empujara.", "answer": "De pronto"},
+        {"sentence": "______, en el jardín, las flores se mecían con la brisa.", "answer": "Mientras tanto"},
+        {"sentence": "______ avanzaba por el bosque, los sonidos se volvían más intensos.", "answer": "A medida que"},
+        {"sentence": "______, ya no quedaba duda de lo que había sucedido.", "answer": "Para entonces"},
+        {"sentence": "______ cruzó el umbral, supo que no volvería atrás.", "answer": "No bien"}
+      ]
+    },
+    {
+      "id": "e3",
+      "type": "creative_writing",
+      "title": "Escritura creativa: escena retrospectiva",
+      "title_en": "Creative writing: retrospective scene",
+      "instructions": "Escribe un párrafo (80-120 palabras) describiendo una escena retrospectiva usando el pluscuamperfecto de indicativo y al menos tres conectores narrativos.",
+      "instructions_en": "Write a paragraph (80-120 words) describing a retrospective scene using the past perfect indicative and at least three narrative connectors.",
+      "items": [
+        {"prompt": "Describe un momento en que un personaje regresa a un lugar que ya no reconoce.", "expected_guidance": "Usa había + participio (había cambiado, había desaparecido, había sido) y conectores como mientras tanto, para entonces, a medida que."}
+      ]
+    }
+  ]
+}

@@ -1,0 +1,916 @@
+{
+  "id": "literature-arts",
+  "level": "b1-1",
+  "title": "Literature & Arts",
+  "description": "Vocabulary, grammar, pronunciation, and exercises focused on literary analysis, art criticism, cultural movements, and creative expression at the B1.1 CEFR level.",
+  "vocabulary": [
+    {
+      "id": 1,
+      "target": "la obra literaria",
+      "source": "literary work",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 2,
+      "target": "el poema",
+      "source": "poem",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 3,
+      "target": "la novela",
+      "source": "novel",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 4,
+      "target": "el cuento",
+      "source": "short story",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 5,
+      "target": "la obra de teatro",
+      "source": "theatrical work",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 6,
+      "target": "el género literario",
+      "source": "literary genre",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 7,
+      "target": "la crítica de arte",
+      "source": "art criticism",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 8,
+      "target": "el movimiento cultural",
+      "source": "cultural movement",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 9,
+      "target": "la expresión creativa",
+      "source": "creative expression",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 10,
+      "target": "la apreciación artística",
+      "source": "art appreciation",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 11,
+      "target": "el autor",
+      "source": "author",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 12,
+      "target": "el narrador",
+      "source": "narrator",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 13,
+      "target": "el personaje",
+      "source": "character",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 14,
+      "target": "la trama",
+      "source": "plot",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 15,
+      "target": "el argumento",
+      "source": "argument/plot",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 16,
+      "target": "el tema",
+      "source": "theme/topic",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 17,
+      "target": "el símbolo",
+      "source": "symbol",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 18,
+      "target": "la metáfora",
+      "source": "metaphor",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 19,
+      "target": "la comparación",
+      "source": "simile/comparison",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 20,
+      "target": "el estilo",
+      "source": "style",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 21,
+      "target": "el lenguaje figurado",
+      "source": "figurative language",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 22,
+      "target": "la escena",
+      "source": "scene",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 23,
+      "target": "el escenario",
+      "source": "stage/setting",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 24,
+      "target": "el diálogo",
+      "source": "dialogue",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 25,
+      "target": "el monólogo",
+      "source": "monologue",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 26,
+      "target": "la obra maestra",
+      "source": "masterpiece",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 27,
+      "target": "el pintor",
+      "source": "painter",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 28,
+      "target": "la escultura",
+      "source": "sculpture",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 29,
+      "target": "la música",
+      "source": "music",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 30,
+      "target": "la danza",
+      "source": "dance",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 31,
+      "target": "analizar",
+      "source": "to analyze",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 32,
+      "target": "interpretar",
+      "source": "to interpret",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 33,
+      "target": "criticar",
+      "source": "to critique",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 34,
+      "target": "expresar",
+      "source": "to express",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 35,
+      "target": "apreciar",
+      "source": "to appreciate",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 36,
+      "target": "escribir",
+      "source": "to write",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 37,
+      "target": "crear",
+      "source": "to create",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 38,
+      "target": "representar",
+      "source": "to represent",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 39,
+      "target": "describe",
+      "source": "to describe",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 40,
+      "target": "reflejar",
+      "source": "to reflect",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 41,
+      "target": "simbolizar",
+      "source": "to symbolize",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 42,
+      "target": "influenciar",
+      "source": "to influence",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 43,
+      "target": "inspirar",
+      "source": "to inspire",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 44,
+      "target": "transformar",
+      "source": "to transform",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 45,
+      "target": "contar",
+      "source": "to tell (a story)",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 46,
+      "target": "imaginarse",
+      "source": "to imagine",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 47,
+      "target": "sentir",
+      "source": "to feel",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 48,
+      "target": "entender",
+      "source": "to understand",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 49,
+      "target": "comparar",
+      "source": "to compare",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 50,
+      "target": "evaluar",
+      "source": "to evaluate",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 51,
+      "target": "literario",
+      "source": "literary",
+      "gender": "adj.",
+      "type": "adjective"
+    },
+    {
+      "id": 52,
+      "target": "artístico",
+      "source": "artistic",
+      "gender": "adj.",
+      "type": "adjective"
+    },
+    {
+      "id": 53,
+      "target": "creativo",
+      "source": "creative",
+      "gender": "adj.",
+      "type": "adjective"
+    },
+    {
+      "id": 54,
+      "target": "figurado",
+      "source": "figurative",
+      "gender": "adj.",
+      "type": "adjective"
+    },
+    {
+      "id": 55,
+      "target": "metafórico",
+      "source": "metaphorical",
+      "gender": "adj.",
+      "type": "adjective"
+    },
+    {
+      "id": 56,
+      "target": "simbólico",
+      "source": "symbolic",
+      "gender": "adj.",
+      "type": "adjective"
+    },
+    {
+      "id": 57,
+      "target": "dramático",
+      "source": "dramatic",
+      "gender": "adj.",
+      "type": "adjective"
+    },
+    {
+      "id": 58,
+      "target": "poético",
+      "source": "poetic",
+      "gender": "adj.",
+      "type": "adjective"
+    },
+    {
+      "id": 59,
+      "target": "realista",
+      "source": "realistic",
+      "gender": "adj.",
+      "type": "adjective"
+    },
+    {
+      "id": 60,
+      "target": "fantástico",
+      "source": "fantastic",
+      "gender": "adj.",
+      "type": "adjective"
+    },
+    {
+      "id": 61,
+      "target": "emotivo",
+      "source": "emotional",
+      "gender": "adj.",
+      "type": "adjective"
+    },
+    {
+      "id": 62,
+      "target": "expresivo",
+      "source": "expressive",
+      "gender": "adj.",
+      "type": "adjective"
+    },
+    {
+      "id": 63,
+      "target": "visual",
+      "source": "visual",
+      "gender": "adj.",
+      "type": "adjective"
+    },
+    {
+      "id": 64,
+      "target": "abstracto",
+      "source": "abstract",
+      "gender": "adj.",
+      "type": "adjective"
+    },
+    {
+      "id": 65,
+      "target": "concreto",
+      "source": "concrete",
+      "gender": "adj.",
+      "type": "adjective"
+    },
+    {
+      "id": 66,
+      "target": "tradicional",
+      "source": "traditional",
+      "gender": "adj.",
+      "type": "adjective"
+    },
+    {
+      "id": 67,
+      "target": "contemporáneo",
+      "source": "contemporary",
+      "gender": "adj.",
+      "type": "adjective"
+    },
+    {
+      "id": 68,
+      "target": "moderno",
+      "source": "modern",
+      "gender": "adj.",
+      "type": "adjective"
+    },
+    {
+      "id": 69,
+      "target": "clásico",
+      "source": "classic",
+      "gender": "adj.",
+      "type": "adjective"
+    },
+    {
+      "id": 70,
+      "target": "innovador",
+      "source": "innovative",
+      "gender": "adj.",
+      "type": "adjective"
+    },
+    {
+      "id": 71,
+      "target": "una obra maestra",
+      "source": "a masterpiece",
+      "gender": "exp.",
+      "type": "phrase"
+    },
+    {
+      "id": 72,
+      "target": "tener talento artístico",
+      "source": "to have artistic talent",
+      "gender": "exp.",
+      "type": "phrase"
+    },
+    {
+      "id": 73,
+      "target": "expresar emociones",
+      "source": "to express emotions",
+      "gender": "exp.",
+      "type": "phrase"
+    },
+    {
+      "id": 74,
+      "target": "reflejar la realidad",
+      "source": "to reflect reality",
+      "gender": "exp.",
+      "type": "phrase"
+    },
+    {
+      "id": 75,
+      "target": "usar metáforas",
+      "source": "to use metaphors",
+      "gender": "exp.",
+      "type": "phrase"
+    },
+    {
+      "id": 76,
+      "target": "interpretar una obra",
+      "source": "to interpret a work",
+      "gender": "exp.",
+      "type": "phrase"
+    },
+    {
+      "id": 77,
+      "target": "crear algo original",
+      "source": "to create something original",
+      "gender": "exp.",
+      "type": "phrase"
+    },
+    {
+      "id": 78,
+      "target": "apreciar el arte",
+      "source": "to appreciate art",
+      "gender": "exp.",
+      "type": "phrase"
+    },
+    {
+      "id": 79,
+      "target": "describir una escena",
+      "source": "to describe a scene",
+      "gender": "exp.",
+      "type": "phrase"
+    },
+    {
+      "id": 80,
+      "target": "influir en otros",
+      "source": "to influence others",
+      "gender": "exp.",
+      "type": "phrase"
+    },
+    {
+      "id": 81,
+      "target": "inspirar a otros",
+      "source": "to inspire others",
+      "gender": "exp.",
+      "type": "phrase"
+    },
+    {
+      "id": 82,
+      "target": "analizar un texto",
+      "source": "to analyze a text",
+      "gender": "exp.",
+      "type": "phrase"
+    },
+    {
+      "id": 83,
+      "target": "contar una historia",
+      "source": "to tell a story",
+      "gender": "exp.",
+      "type": "phrase"
+    },
+    {
+      "id": 84,
+      "target": "representar un papel",
+      "source": "to play a role / to represent",
+      "gender": "exp.",
+      "type": "phrase"
+    },
+    {
+      "id": 85,
+      "target": "evaluar una obra",
+      "source": "to evaluate a work",
+      "gender": "exp.",
+      "type": "phrase"
+    }
+  ],
+  "grammar": [
+    {
+      "title": "Describing and Analyzing Art and Literature",
+      "content": "At B1.1 level, you need to describe artistic works, express opinions about literature and art, and use descriptive language with appropriate vocabulary. Spanish offers rich structures for describing what you see, feel, and think about creative works.",
+      "table": {
+        "headers": [
+          "Function",
+          "Structure",
+          "Example"
+        ],
+        "rows": [
+          [
+            "Describing appearance",
+            "Es + adj. / Tiene + noun / Se ve que...",
+            "La obra es muy emotiva. / El cuadro tiene muchos colores."
+          ],
+          [
+            "Expressing opinion",
+            "Me parece que... / Creo que... / Me gusta/No me gusta...",
+            "Me parece que esta novela refleja la realidad."
+          ],
+          [
+            "Comparing works",
+            "En comparación con... / Más... que... / Tan... como...",
+            "Este estilo es más realista que el anterior."
+          ],
+          [
+            "Expressing preference",
+            "Prefiero... / Me gusta más... / Me interesa...",
+            "Prefiero la poesía a la prosa."
+          ],
+          [
+            "Describing impact",
+            "Me hace sentir... / Me inspira... / Me impresiona...",
+            "Esta obra me inspira a crear algo nuevo."
+          ],
+          [
+            "Describing technique",
+            "Usa + noun / Se basa en... / Está inspirado en...",
+            "El artista usa metáforas para expresar sus ideas."
+          ]
+        ]
+      },
+      "examples": [
+        "La obra es muy emotiva y expresiva. (The work is very emotional and expressive.)",
+        "Me parece que esta novela refleja la realidad social. (I think this novel reflects social reality.)",
+        "Este estilo es más realista que el anterior. (This style is more realistic than the previous one.)",
+        "Prefiero la poesía a la prosa. (I prefer poetry to prose.)",
+        "Esta obra me inspira a crear algo nuevo. (This work inspires me to create something new.)",
+        "El artista usa metáforas para expresar sus ideas. (The artist uses metaphors to express ideas.)"
+      ],
+      "aid_note": "Romanian speakers: Romanian has similar descriptive structures — opera este foarte emoționantă ≈ la obra es muy emotiva, mi se pare că ≈ me parece que, prefer... la... ≈ prefiero... a... The subjunctive after me parece que uses indicative in Spanish (unlike Romanian which uses subjunctive)."
+    },
+    {
+      "title": "Past Tenses for Literary Analysis",
+      "content": "When discussing literature, you need to describe plot events (preterite), set the scene and describe ongoing states (imperfect), and express reactions or feelings about works.",
+      "table": {
+        "headers": [
+          "Tense",
+          "Use",
+          "Example"
+        ],
+        "rows": [
+          [
+            "Preterite",
+            "Completed actions in the plot",
+            "Don Quijote luchó contra molinos de viento."
+          ],
+          [
+            "Imperfect (description)",
+            "Setting the scene, describing characters",
+            "Era una noche oscura y la casa era grande."
+          ],
+          [
+            "Imperfect (habitual)",
+            "Repeated actions, character traits",
+            "El protagonista siempre ayudaba a los demás."
+          ],
+          [
+            "Imperfect + Preterite",
+            "Interrupted action",
+            "Estaba leyendo cuando llegó la noticia."
+          ],
+          [
+            "Ser (imperfect)",
+            "Description of characters/setting",
+            "El narrador era joven y optimista."
+          ],
+          [
+            "Estar (imperfect)",
+            "Ongoing emotional states",
+            "Estaba triste porque perdió a su familia."
+          ]
+        ]
+      },
+      "examples": [
+        "Don Quijote luchó contra molinos de viento. (Don Quixote fought against windmills.)",
+        "Era una noche oscura y la casa era grande. (It was a dark night and the house was big.)",
+        "El protagonista siempre ayudaba a los demás. (The protagonist always helped others.)",
+        "Estaba leyendo cuando llegó la noticia. (He was reading when the news arrived.)",
+        "El narrador era joven y optimista. (The narrator was young and optimistic.)"
+      ],
+      "aid_note": "Romanian speakers: Romanian imperfect (era, avea) maps directly to Spanish imperfect (era, tenía). The preterite (luchó vs. luta) distinguishes completed vs ongoing actions, similar to Romanian perfectul simplu vs imperfect."
+    },
+    {
+      "title": "Expressing Literary and Artistic Opinions",
+      "content": "B1.1 learners should be able to express nuanced opinions about literature and art using appropriate connectors and evaluative language.",
+      "table": {
+        "headers": [
+          "Function",
+          "Structure",
+          "Example"
+        ],
+        "rows": [
+          [
+            "Agreeing with criticism",
+            "Estoy de acuerdo con... / Coincido con...",
+            "Estoy de acuerdo con la crítica de esta obra."
+          ],
+          [
+            "Disagreeing politely",
+            "No estoy seguro de que... / No creo que...",
+            "No creo que esta obra sea una obra maestra."
+          ],
+          [
+            "Adding perspective",
+            "Además / También / Por otro lado...",
+            "Además, la música complementa perfectamente la escena."
+          ],
+          [
+            "Making a judgment",
+            "A mi juicio... / En mi opinión...",
+            "A mi juicio, el autor expresa muy bien sus ideas."
+          ],
+          [
+            "Conceding a point",
+            "Es cierto que... / Reconozco que...",
+            "Es cierto que la técnica es mejorable, pero la idea es original."
+          ],
+          [
+            "Concluding",
+            "En resumen / En definitiva...",
+            "En definitiva, es una obra que vale la pena leer."
+          ]
+        ]
+      },
+      "examples": [
+        "Estoy de acuerdo con la crítica de esta obra. (I agree with the criticism of this work.)",
+        "No creo que esta obra sea una obra maestra. (I don't think this work is a masterpiece. [subjunctive])",
+        "Además, la música complementa perfectamente la escena. (Moreover, the music perfectly complements the scene.)",
+        "A mi juicio, el autor expresa muy bien sus ideas. (In my judgment, the author expresses ideas very well.)",
+        "En definitiva, es una obra que vale la pena leer. (Ultimately, it is a work worth reading.)"
+      ],
+      "aid_note": "Romanian speakers: A meu judițiu ≈ a mi juicio, în opinia mea ≈ en mi opinión, sunt de acord cu ≈ estoy de acuerdo cu. The subjunctive after no creo que works like Romanian nu cred că + conjunctiv."
+    }
+  ],
+  "pronunciation": [
+    {
+      "title": "Stress Patterns in Art and Literature Vocabulary",
+      "content": "Spanish literary vocabulary features consistent stress patterns. Many words end in -ción, -dad, -ismo, -ista which have predictable stress patterns.",
+      "examples": [
+        {
+          "target": "novela",
+          "source": "no-VEH-lah (llana, no accent)"
+        },
+        {
+          "target": "poema",
+          "source": "po-EMAH (llana, no accent — note: in Spanish, not po-EMA with Greek accent)"
+        },
+        {
+          "target": "crítica",
+          "source": "KREE-tee-kah (aguda, accent on i)"
+        },
+        {
+          "target": "realista",
+          "source": "reh-ah-LEES-tah (esdrújula, accented)"
+        },
+        {
+          "target": "técnica",
+          "source": "TEH-nee-kah (esdrújula, accented)"
+        },
+        {
+          "target": "escritor",
+          "source": "es-KREE-tor (llana, no accent)"
+        },
+        {
+          "target": "poesía",
+          "source": "po-eh-SEE-ah (aguda, accent on i)"
+        },
+        {
+          "target": "dramático",
+          "source": "drah-MAH-tee-koh (esdrújula, accented)"
+        },
+        {
+          "target": "escena",
+          "source": "ESH-en-ah (llana, no accent)"
+        },
+        {
+          "target": "diálogo",
+          "source": "dee-AH-loh (aguda, accent on a)"
+        }
+      ],
+      "aid_note": "Romanian speakers: Spanish -ción ends in -see-on (not -tsi-on like Italian). The Spanish 'y' in poesía sounds like English 'y' in 'yes', not like Romanian 'î'. Spanish 'r' at word end is a single tap."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "exercise",
+      "id": 1,
+      "question": "¿Qué significa \"una obra maestra\"?",
+      "options": [
+        "A master class",
+        "A masterpiece",
+        "A masterwork of engineering",
+        "A master's thesis"
+      ],
+      "correct": 1,
+      "explanation": "Una obra maestra means a masterpiece — a work of outstanding artistry, skill, or result."
+    },
+    {
+      "type": "exercise",
+      "id": 2,
+      "question": "¿Cuál es el género literario de un cuento?",
+      "options": [
+        "La poesía",
+        "La prosa narrativa",
+        "El teatro",
+        "El ensayo"
+      ],
+      "correct": 1,
+      "explanation": "Un cuento belongs to prosa narrativa (narrative prose), along with the novela."
+    },
+    {
+      "type": "fill-in-blank",
+      "id": 3,
+      "question": "Complete: Me parece que esta novela _____ la realidad social. (I think this novel reflects social reality.)",
+      "correct": "refleja",
+      "explanation": "After me parece que + indicative: refleja (3rd person singular of reflejar). Unlike no creo que + subjunctive, me parece que takes indicative."
+    },
+    {
+      "type": "exercise",
+      "id": 4,
+      "question": "¿Cuál estructura expresa una opinión sobre una obra de arte?",
+      "options": [
+        "La obra es grande.",
+        "Me parece que la obra es emotiva.",
+        "Hoy es lunes.",
+        "Quiero comer."
+      ],
+      "correct": 1,
+      "explanation": "Me parece que + clause is the standard structure for expressing an opinion about something in Spanish."
+    },
+    {
+      "type": "fill-in-blank",
+      "id": 5,
+      "question": "Complete: El protagonista siempre _____ a los demás. (The protagonist always helped others.)",
+      "correct": "ayudaba",
+      "explanation": "The imperfect ayudaba expresses a habitual/repeated past action — \"always helped\" uses the imperfect because it describes a recurring behavior, not a single completed event."
+    },
+    {
+      "type": "exercise",
+      "id": 6,
+      "question": "¿Qué tipo de palabra es \"metáfora\"?",
+      "options": [
+        "Un verbo",
+        "Un sustantivo femenino",
+        "Un adjetivo",
+        "Un adverbio"
+      ],
+      "correct": 1,
+      "explanation": "Metáfora is a feminine noun (la metáfora) — it ends in -a and takes the feminine article \"la\"."
+    },
+    {
+      "type": "fill-in-blank",
+      "id": 7,
+      "question": "Complete: _____ de acuerdo con la crítica de esta obra. (I agree with the criticism of this work.)",
+      "correct": "Estoy",
+      "explanation": "Estoy de acuerdo con + noun phrase expresses agreement. The verb estar is used for temporary states of agreement, not ser."
+    },
+    {
+      "type": "exercise",
+      "id": 8,
+      "question": "¿Cuál es el antónimo de \"realista\" en el contexto artístico?",
+      "options": [
+        "Clásico",
+        "Fantástico/abstracto",
+        "Moderno",
+        "Tradicional"
+      ],
+      "correct": 1,
+      "explanation": "In art context, realista (realistic) contrasts with fantástico or abstracto (fantastic/abstract) — depicting things as they are vs. how they could be."
+    },
+    {
+      "type": "fill-in-blank",
+      "id": 9,
+      "question": "Complete: La obra es muy emotiva y _____. (The work is very emotional and expressive.)",
+      "correct": "expresiva",
+      "explanation": "Expresiva agrees in gender and number with la obra (feminine singular). Both emotiva and expresiva end in -a to match."
+    },
+    {
+      "type": "exercise",
+      "id": 10,
+      "question": "¿Qué estructura expresa una conclusión sobre una obra?",
+      "options": [
+        "Ayer leí un libro.",
+        "En definitiva, es una obra que vale la pena.",
+        "Quiero escribir.",
+        "Es mi libro favorito."
+      ],
+      "correct": 1,
+      "explanation": "En definitiva is a concluding marker meaning \"ultimately\" or \"in the end,\" used to summarize your assessment of a work."
+    }
+  ]
+}

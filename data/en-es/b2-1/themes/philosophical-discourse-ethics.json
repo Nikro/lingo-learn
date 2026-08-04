@@ -1,0 +1,281 @@
+{
+  "id": "philosophical-discourse-ethics",
+  "level": "b2-1",
+  "title": "Philosophical Discourse & Ethics",
+  "description": "Explore the vocabulary and grammar needed for philosophical discourse, ethical reasoning, and moral philosophy. Learn to express abstract concepts, analyze ethical dilemmas, and engage in nuanced philosophical debates in Spanish. This theme covers epistemology, metaphysics, ethics, existentialism, and the philosophical frameworks used to discuss fundamental questions about existence, knowledge, values, and meaning.",
+  "vocabulary": [
+    {"id": 1, "target": "la filosofía", "source": "philosophy", "gender": "f", "type": "noun"},
+    {"id": 2, "target": "la ética", "source": "ethics / morality", "gender": "f", "type": "noun"},
+    {"id": 3, "target": "la moral", "source": "morals / moral code", "gender": "f", "type": "noun"},
+    {"id": 4, "target": "la metafísica", "source": "metaphysics", "gender": "f", "type": "noun"},
+    {"id": 5, "target": "la epistemología", "source": "epistemology", "gender": "f", "type": "noun"},
+    {"id": 6, "target": "la ontología", "source": "ontology", "gender": "f", "type": "noun"},
+    {"id": 7, "target": "la lógica", "source": "logic", "gender": "f", "type": "noun"},
+    {"id": 8, "target": "la estética", "source": "aesthetics", "gender": "f", "type": "noun"},
+    {"id": 9, "target": "la axiología", "source": "axiology (study of values)", "gender": "f", "type": "noun"},
+    {"id": 10, "target": "la dialéctica", "source": "dialectics / dialectic method", "gender": "f", "type": "noun"},
+    {"id": 11, "target": "el existencialismo", "source": "existentialism", "gender": "m", "type": "noun"},
+    {"id": 12, "target": "el racionalismo", "source": "rationalism", "gender": "m", "type": "noun"},
+    {"id": 13, "target": "el empirismo", "source": "empiricism", "gender": "m", "type": "noun"},
+    {"id": 14, "target": "el idealismo", "source": "idealism", "gender": "m", "type": "noun"},
+    {"id": 15, "target": "el materialismo", "source": "materialism", "gender": "m", "type": "noun"},
+    {"id": 16, "target": "el utilitarismo", "source": "utilitarianism", "gender": "m", "type": "noun"},
+    {"id": 17, "target": "el nihilismo", "source": "nihilism", "gender": "m", "type": "noun"},
+    {"id": 18, "target": "el positivismo", "source": "positivism", "gender": "m", "type": "noun"},
+    {"id": 19, "target": "la fenomenología", "source": "phenomenology", "gender": "f", "type": "noun"},
+    {"id": 20, "target": "la hermenéutica", "source": "hermeneutics (interpretation theory)", "gender": "f", "type": "noun"},
+    {"id": 21, "target": "la existencia", "source": "existence", "gender": "f", "type": "noun"},
+    {"id": 22, "target": "la esencia", "source": "essence", "gender": "f", "type": "noun"},
+    {"id": 23, "target": "la realidad", "source": "reality", "gender": "f", "type": "noun"},
+    {"id": 24, "target": "la verdad", "source": "truth", "gender": "f", "type": "noun"},
+    {"id": 25, "target": "el conocimiento", "source": "knowledge", "gender": "m", "type": "noun"},
+    {"id": 26, "target": "la conciencia", "source": "consciousness", "gender": "f", "type": "noun"},
+    {"id": 27, "target": "el libre albedrío", "source": "free will", "gender": "m", "type": "noun"},
+    {"id": 28, "target": "el destino", "source": "fate / destiny", "gender": "m", "type": "noun"},
+    {"id": 29, "target": "el propósito", "source": "purpose", "gender": "m", "type": "noun"},
+    {"id": 30, "target": "el significado", "source": "meaning / significance", "gender": "m", "type": "noun"},
+    {"id": 31, "target": "el bien", "source": "the good / goodness", "gender": "m", "type": "noun"},
+    {"id": 32, "target": "el mal", "source": "evil", "gender": "m", "type": "noun"},
+    {"id": 33, "target": "la justicia", "source": "justice", "gender": "f", "type": "noun"},
+    {"id": 34, "target": "la libertad", "source": "freedom / liberty", "gender": "f", "type": "noun"},
+    {"id": 35, "target": "la responsabilidad", "source": "responsibility", "gender": "f", "type": "noun"},
+    {"id": 36, "target": "la virtud", "source": "virtue", "gender": "f", "type": "noun"},
+    {"id": 37, "target": "el vicio", "source": "vice", "gender": "m", "type": "noun"},
+    {"id": 38, "target": "el deber", "source": "duty", "gender": "m", "type": "noun"},
+    {"id": 39, "target": "la dignidad", "source": "dignity", "gender": "f", "type": "noun"},
+    {"id": 40, "target": "la autonomía", "source": "autonomy", "gender": "f", "type": "noun"},
+    {"id": 41, "target": "el imperativo categórico", "source": "categorical imperative", "gender": "m", "type": "noun"},
+    {"id": 42, "target": "la voluntad", "source": "will / volition", "gender": "f", "type": "noun"},
+    {"id": 43, "target": "la razón", "source": "reason / reasoning", "gender": "f", "type": "noun"},
+    {"id": 44, "target": "la intuición", "source": "intuition", "gender": "f", "type": "noun"},
+    {"id": 45, "target": "la experiencia", "source": "experience", "gender": "f", "type": "noun"},
+    {"id": 46, "target": "la abstracción", "source": "abstraction", "gender": "f", "type": "noun"},
+    {"id": 47, "target": "el dilema ético", "source": "ethical dilemma", "gender": "m", "type": "noun"},
+    {"id": 48, "target": "la reflexión moral", "source": "moral reflection", "gender": "f", "type": "noun"},
+    {"id": 49, "target": "el principio de utilidad", "source": "principle of utility", "gender": "m", "type": "noun"},
+    {"id": 50, "target": "la norma ética", "source": "ethical norm", "gender": "f", "type": "noun"},
+    {"id": 51, "target": "el postulado", "source": "postulate / assumption", "gender": "m", "type": "noun"},
+    {"id": 52, "target": "la paradoja", "source": "paradox", "gender": "f", "type": "noun"},
+    {"id": 53, "target": "la contradicción", "source": "contradiction", "gender": "f", "type": "noun"},
+    {"id": 54, "target": "la dualidad", "source": "duality", "gender": "f", "type": "noun"},
+    {"id": 55, "target": "el dualismo", "source": "dualism", "gender": "m", "type": "noun"},
+    {"id": 56, "target": "el monismo", "source": "monism", "gender": "m", "type": "noun"},
+    {"id": 57, "target": "la relatividad", "source": "relativity (philosophical)", "gender": "f", "type": "noun"},
+    {"id": 58, "target": "el absolutismo", "source": "absolutism", "gender": "m", "type": "noun"},
+    {"id": 59, "target": "el determinismo", "source": "determinism", "gender": "m", "type": "noun"},
+    {"id": 60, "target": "el indeterminismo", "source": "indeterminism", "gender": "m", "type": "noun"},
+    {"id": 61, "target": "ser / estar", "source": "to be (essential / temporary)", "gender": "—", "type": "verb"},
+    {"id": 62, "target": "existir", "source": "to exist", "gender": "v.", "type": "verb"},
+    {"id": 63, "target": "sostener que", "source": "to assert / maintain that", "gender": "—", "type": "phrase"},
+    {"id": 64, "target": "suscitar (un debate)", "source": "to provoke / spark (a debate)", "gender": "v.", "type": "verb"},
+    {"id": 65, "target": "reflexionar sobre", "source": "to reflect on", "gender": "—", "type": "phrase"},
+    {"id": 66, "target": "plantear una cuestión", "source": "to raise / pose a question", "gender": "—", "type": "phrase"},
+    {"id": 67, "target": "cuestionar", "source": "to question", "gender": "v.", "type": "verb"},
+    {"id": 68, "target": "refutar", "source": "to refute", "gender": "v.", "type": "verb"},
+    {"id": 69, "target": "defender una postura", "source": "to defend a position", "gender": "—", "type": "phrase"},
+    {"id": 70, "target": "admitir", "source": "to admit", "gender": "v.", "type": "verb"},
+    {"id": 71, "target": "distinguir entre", "source": "to distinguish between", "gender": "—", "type": "phrase"},
+    {"id": 72, "target": "conciliar", "source": "to reconcile", "gender": "v.", "type": "verb"},
+    {"id": 73, "target": "postular", "source": "to postulate", "gender": "v.", "type": "verb"},
+    {"id": 74, "target": "presuponer", "source": "to presuppose", "gender": "v.", "type": "verb"},
+    {"id": 75, "target": "absoluto/a", "source": "absolute", "gender": "m/f", "type": "adj"},
+    {"id": 76, "target": "relativo/a", "source": "relative", "gender": "m/f", "type": "adj"},
+    {"id": 77, "target": "intrínseco/a", "source": "intrinsic", "gender": "m/f", "type": "adj"},
+    {"id": 78, "target": "intrínseco/a", "source": "intrinsic / inherent", "gender": "m/f", "type": "adj"},
+    {"id": 79, "target": "objetivo/a", "source": "objective", "gender": "m/f", "type": "adj"},
+    {"id": 80, "target": "subjetivo/a", "source": "subjective", "gender": "m/f", "type": "adj"},
+    {"id": 81, "target": "ético/a", "source": "ethical", "gender": "m/f", "type": "adj"},
+    {"id": 82, "target": "moralmente", "source": "morally", "gender": "—", "type": "adverb"},
+    {"id": 83, "target": "filosóficamente", "source": "philosophically", "gender": "—", "type": "adverb"},
+    {"id": 84, "target": "fundamental", "source": "fundamental", "gender": "m/f", "type": "adj"},
+    {"id": 85, "target": "esencial", "source": "essential", "gender": "m/f", "type": "adj"},
+    {"id": 86, "target": "abstracto/a", "source": "abstract", "gender": "m/f", "type": "adj"},
+    {"id": 87, "target": "concreto/a", "source": "concrete", "gender": "m/f", "type": "adj"},
+    {"id": 88, "target": "coherente", "source": "coherent", "gender": "m/f", "type": "adj"},
+    {"id": 89, "target": "irrefutable", "source": "irrefutable", "gender": "m/f", "type": "adj"},
+    {"id": 90, "target": "plausibilidad", "source": "plausibility", "gender": "f", "type": "noun"},
+    {"id": 91, "target": "la escuela de pensamiento", "source": "school of thought", "gender": "f", "type": "noun"},
+    {"id": 92, "target": "el pensador / la pensadora", "source": "thinker", "gender": "m/f", "type": "noun"},
+    {"id": 93, "target": "el filósofo / la filósofa", "source": "philosopher", "gender": "m/f", "type": "noun"},
+    {"id": 94, "target": "el dogma", "source": "dogma", "gender": "m", "type": "noun"},
+    {"id": 95, "target": "la creencia", "source": "belief", "gender": "f", "type": "noun"},
+    {"id": 96, "target": "la convicción", "source": "conviction / deep belief", "gender": "f", "type": "noun"},
+    {"id": 97, "target": "el axioma", "source": "axiom", "gender": "m", "type": "noun"},
+    {"id": 98, "target": "la teología", "source": "theology", "gender": "f", "type": "noun"}
+  ],
+  "grammar": [
+    {
+      "title": "Expressing Philosophical Hypotheses & Abstract Reasoning",
+      "content": "At B2.1 level, philosophical discourse requires the ability to formulate and evaluate hypotheses about abstract concepts. Spanish offers sophisticated structures for expressing philosophical reasoning, including complex conditional sentences and subjunctive constructions.\\n\\nKey structures:\\n\\n1. HYPOTHETICAL REASONING — Discussing philosophical possibilities:\\n   - Si + imperfect subjunctive + conditional: 'Si existiera Dios, la moral tendría un fundamento objetivo.'\\n   - Si + pluperfect subjunctive + conditional perfect: 'Si Descartes no hubiera postulado la duda metódica, la epistemología moderna habría sido distinta.'\\n   - De ser así... (If that were the case...) — formal alternative\\n\\n2. SUBJUNCTIVE FOR PHILOSOPHICAL DOUBT:\\n   - 'Es posible que la realidad sea una construcción social.'\\n   - 'No es cierto que exista una verdad absoluta.'\\n   - 'Dudo que el libre albedrío sea compatible con el determinismo.'\\n   - 'Es dudoso que podamos conocer la esencia de las cosas.'\\n\\n3. IMPERSONAL CONSTRUCTIONS FOR ABSTRACT CLAIMS:\\n   - 'Se sostiene que...' (It is maintained that...)\\n   - 'Se argumenta que...' (It is argued that...)\\n   - 'Es discutible que...' (It is debatable that...)\\n   - 'Cabe preguntar si...' (One may wonder whether...)\\n   - 'Puede sostenerse que...' (It can be maintained that...)\\n\\n⚠️ KEY DISTINCTION: Philosophical claims about abstract entities often use the subjunctive because the existence or nature of the entity is uncertain or contested. Compare: 'Existe una verdad absoluta' (asserting it exists) vs. 'Es posible que exista una verdad absoluta' (expressing uncertainty).",
+      "table": {
+        "headers": ["Structure", "Function", "Example"],
+        "rows": [
+          ["Si + imperf. subj. + cond.", "Hypothesis about present", "Si la conciencia fuera material, sería measurable."],
+          ["Si + pluscuamperf. subj. + cond. perf.", "Hypothesis about past", "Si Kant no hubiera escrito la Crítica, la filosofía sería distinta."],
+          ["Es posible que + subj.", "Philosophical uncertainty", "Es posible que el universo carezca de propósito."],
+          ["Se sostiene que + ind.", "Attributing a position", "Se sostiene que la ética es universal."],
+          ["Dudo que + subj.", "Expressing philosophical doubt", "Dudo que podamos conocer la verdad absoluta."],
+          ["Cabe preguntar si + ind.", "Inviting philosophical reflection", "Cabe preguntar si el determinismo es compatible con la libertad."]
+        ]
+      },
+      "examples": [
+        "Si el libre albedrío no existiera, la responsabilidad moral carecería de fundamento. (If free will didn't exist, moral responsibility would lack a foundation.)",
+        "Es posible que la realidad sea algo más complejo de lo que percibimos. (It's possible that reality is something more complex than what we perceive.)",
+        "Se argumenta que la ética utilitarista maximiza el bienestar general. (It is argued that utilitarian ethics maximizes general welfare.)",
+        "Si Descartes no hubiera postulado la duda metódica, la epistemología moderna habría sido distinta. (If Descartes hadn't postulated methodological doubt, modern epistemology would have been different.)",
+        "Dudo que exista una moral absoluta válida para todas las culturas. (I doubt that there exists an absolute morality valid for all cultures.)"
+      ],
+      "aid_note": "Romanian uses similar conditional structures: 'Dacă aș fi' + 'aș' ≈ 'Si fuera / fuese' + 'condicional'. Romanian conditional is formed with 'aș / ai / ar / am / ați / ar' + past participle, while Spanish uses the simple conditional form of the main verb. Both languages use subjunctive after 'si/dacă' in hypothetical conditions."
+    },
+    {
+      "title": "Advanced Connectors for Philosophical Discourse",
+      "content": "Philosophical discourse in Spanish requires precise connectors to structure complex arguments, express logical relationships, and navigate between competing theories. At B2.1, learners must master both common and advanced connectors for academic and philosophical writing.\\n\\nKey connectors by function:\\n\\n1. EXPANDING / ADDING arguments:\\n   - 'Además' (Moreover) — standard addition\\n   - 'No solo... sino también...' (Not only... but also...) — emphatic addition\\n   - 'Por otra parte' (On the other hand) — introducing another perspective\\n   - 'Igualmente' (Similarly / Likewise) — drawing parallels\\n   - 'Del mismo modo' (In the same way) — establishing analogy\\n\\n2. CONTRASTING / CONCEDING:\\n   - 'Sin embargo' (However) — standard contrast\\n   - 'No obstante' (Nevertheless) — formal contrast\\n   - 'Por el contrario' (On the contrary) — strong opposition\\n   - 'Aun cuando' (Even though / Even when) — concessive\\n   - 'Pese a que' (Despite the fact that) — formal concessive\\n   - 'A pesar de que' (Despite) — common concessive\\n\\n3. CAUSAL / EXPLANATORY:\\n   - 'Dado que' (Given that) — formal cause\\n   - 'En virtud de' (By virtue of) — formal justification\\n   - 'En razón de' (By reason of) — formal cause\\n   - 'Por consiguiente' (Consequently) — formal consequence\\n   - 'De ahí que' (That is why / Hence) — cause + subjunctive result\\n\\n4. CONCLUDING / SYNTHESIZING:\\n   - 'En definitiva' (Ultimately / In the final analysis)\\n   - 'En última instancia' (Ultimately / At the end of the day)\\n   - 'En síntesis' (In summary / In synthesis)\\n   - 'En conclusión' (In conclusion)\\n   - 'En suma' (In sum)\\n   - 'En definitiva' (Ultimately)\\n\\n⚠️ CRITICAL: 'De ahí que' ALWAYS triggers the subjunctive in the main clause, because it introduces a consequence that is presented as uncertain or debatable. Compare: 'El argumento es sólido, de ahí que sea convincente' (incorrect — indicative) vs. 'El argumento es sólido, de ahí que sea aceptado' (correct — subjunctive, because acceptance is uncertain).",
+      "table": {
+        "headers": ["Function", "Connector", "Example"],
+        "rows": [
+          ["Addition (formal)", "Por otra parte", "Por otra parte, la ética kantiana propone un enfoque diferente."],
+          ["Contrast (formal)", "No obstante", "El argumento parece sólido; no obstante, presenta contradicciones."],
+          ["Concession", "Aun cuando", "Aun cuando sea difícil, hay que cuestionar los dogmas."],
+          ["Cause (formal)", "Dado que", "Dado que no podemos acceder a la cosa en sí, el conocimiento es limitado."],
+          ["Consequence + subj.", "De ahí que", "La verdad es relativa, de ahí que no pueda ser universal."],
+          ["Conclusion", "En definitiva", "En definitiva, la filosofía nos invita a cuestionar todo."],
+          ["Emphatic addition", "No solo... sino también", "No solo es importante la teoría, sino también su aplicación práctica."]
+        ]
+      },
+      "examples": [
+        "Por otra parte, el empirismo sostiene que todo conocimiento proviene de la experiencia sensorial. (On the other hand, empiricism holds that all knowledge comes from sensory experience.)",
+        "El argumento kantiano es riguroso; no obstante, algunos filósofos han objetado que es demasiado abstracto. (Kant's argument is rigorous; nevertheless, some philosophers have objected that it is too abstract.)",
+        "Aun cuando el libre albedrío sea una ilusión, la sociedad necesita mantener la noción de responsabilidad. (Even if free will is an illusion, society needs to maintain the notion of responsibility.)",
+        "De ahí que la ética requiera una fundamentación sólida. (That is why ethics requires a solid foundation.)",
+        "En definitiva, la pregunta filosófica más importante es: ¿qué significa existir?"
+      ],
+      "aid_note": "Romanian uses 'cu toate că' / 'deși' ≈ 'aunque / aun cuando', 'prin urmare' ≈ 'por consiguiente', 'sin embargo' ≈ 'cu toate acestea / totuși'. Spanish connectors 'por otra parte' and 'por otro lado' have direct equivalents: 'pe de altă parte' and 'pe de altă parte'. The subjunctive after 'de ahí que' has no direct Romanian equivalent — Romanian uses indicative: 'De aceea, este necesar ca...' doesn't require a mood shift."
+    }
+  ],
+  "pronunciation": [
+    {
+      "title": "Stress Patterns in Philosophical & Abstract Vocabulary",
+      "content": "Philosophical vocabulary in Spanish is dominated by learned, often Greek/Latin-derived words with distinctive stress patterns. Mastering these patterns is essential for clear, academic Spanish.\\n\\nKey patterns:\\n\\n1. AGUDAS (stressed on last syllable) — ALWAYS carry a written accent:\\n   - 'metafísica' (met-ah-FEE-see-kah)\\n   - 'epistemología' (eh-pes-teh-moh-loh-HEE-ah)\\n   - 'ontología' (on-toh-loh-HEE-ah)\\n   - 'fenomenología' (feh-no-meh-nol-oh-HEE-ah)\\n   - 'hermenéutica' (er-meh-neh-OO-tee-kah)\\n   - 'conciencia' (kon-see-EN-see-ah)\\n   - 'realidad' (reh-ah-lee-DAHD)\\n   - 'verdad' (beh-DAHD) — note: monosyllabic 'verdad' keeps the accent on the 'd' because it ends in a consonant other than 'n' or 's'\\n\\n2. LLANAS / GRAVES (stressed on second-to-last syllable) — carry accent ONLY if they don't end in 'n', 's', or a vowel:\\n   - 'filosofía' (fee-loh-SOH-ee-ah) — ends in 'a', so no accent needed\\n   - 'lógica' (LOH-hi-kah) — ends in 'k' sound... actually 'lógica' ends in 'a', but is LLANA: LOH-hi-kah (stress on 'go')\\n   - 'ética' (EH-tee-kah) — LLANA, ends in 'a', stress on 'é'\\n   - 'moral' (moh-RAHL) — LLANA, ends in 'l', stress on 'a', NO accent\\n   - 'absoluto' (ab-soh-LOO-toh) — LLANA, ends in 'o', stress on 'o', NO accent\\n   - 'axiología' (ah-hee-ol-oh-HEE-ah) — wait: this is AGUDA: ah-hee-ol-oh-HEE-ah — actually 'axiología' = ah-hee-ol-oh-HEE-ah (stress on 'lo' = LLANA, ends in 'a', NO accent needed... but it has an accent: axiología — this is because of the diphthong 'ió' creating a hiatus situation)\\n\\n3. ESDRÚJULAS (stressed on third-to-last syllable) — ALWAYS carry an accent:\\n   - 'lógica' is NOT esdrújula. Esdrújulas in philosophical vocabulary:\\n   - 'históricamente' (is-tor-ee-KAH-men-teh)\\n   - 'filosóficamente' (fee-lo-soh-fee-KAH-men-teh)\\n   - 'moralmente' (moh-RAHL-men-teh) — LLANA, stress on 'a', NO accent\\n   - 'epistemológico' (eh-pes-teh-mol-oh-HEE-koh) — wait: eh-pes-teh-mol-oh-HEE-koh, stress on 'hee' = LLANA\\n\\n⚠️ CRITICAL FOR ROMANIAN SPEAKERS: Spanish stress patterns are MORE REGULAR than Romanian. Once you know the three rules (aguda, llana, esdrújula), you can predict the accent of virtually any Spanish word. Romanian has more irregular stress patterns.\\n\\n⚠️ CRITICAL FOR SPEAKERS OF ENGLISH: Spanish 'g' before 'e' or 'i' is a guttural sound (like Scottish 'loch'), NOT a 'j' or 'zh' sound:\\n   - 'lógica' = LOH-hi-kah (with guttural g)\\n   - 'ética' = EH-tee-kah (with guttural g)\\n   - 'filosofía' = fee-loh-SOH-ee-ah (hard g, like 'k')\\n\\n⚠️ VOWEL CLARITY IN ABSTRACT TERMS: Spanish philosophical vocabulary often contains many vowels in sequence. Each vowel must be pronounced fully and separately:\\n   - 'ontología' = on-tol-oh-hee-ah (5 separate vowel sounds, NOT 'on-tol-jee-ah')\\n   - 'epistemología' = e-pes-teh-mol-oh-hee-ah (NOT 'ehpes-tuh-mol-uh-jee-ah')",
+      "examples": [
+        { "target": "metafísica", "source": "met-ah-FEE-see-kah (aguda, accent on 'fi')"},
+        { "target": "epistemología", "source": "eh-pes-teh-mol-oh-HEE-ah (aguda, accent on 'lo')"},
+        { "target": "ontología", "source": "on-toh-loh-HEE-ah (aguda, accent on 'lo')"},
+        { "target": "ética", "source": "EH-tee-kah (llana, accent on 'é')"},
+        { "target": "lógica", "source": "LOH-hi-kah (llana, accent on 'o')"},
+        { "target": "hermenéutica", "source": "er-meh-neh-OO-tee-kah (aguda, accent on 'ú')"},
+        { "target": "axiología", "source": "ah-hee-ol-oh-HEE-ah (aguda, accent on 'ó')"},
+        { "target": "filosóficamente", "source": "fee-lo-soh-fee-KAH-men-teh (esdrújula, accent on 'fe')"},
+        { "target": "moralmente", "source": "moh-RAHL-men-teh (llana, no accent, stress on 'a')"},
+        { "target": "conciencia", "source": "kon-see-EN-see-ah (aguda, accent on 'e')"}
+      ],
+      "aid_note": "Romanian stress is generally on the penultimate syllable (like Spanish llanas), but Romanian has more exceptions and movable stress in conjugated forms. Spanish stress is predictable from the spelling rules alone. For Romanian speakers: 'filosofie' → 'filosofía' (add written accent because Spanish llanas ending in vowel keep the accent when stress is NOT on the last syllable — but wait, 'filosofía' IS stressed on penultimate, so it should NOT have an accent... Actually 'filosofía' has the accent because the stress is on the 'so' syllable: fee-loh-SOH-ee-ah, which IS the penultimate syllable of 4 syllables. Spanish llanas ending in vowel do NOT normally carry an accent. So why does 'filosofía' have one? Because the 'o' and 'a' form a diphthong, making 'filosofía' effectively 4 syllables with stress on 2nd = llana, but the written accent marks the syllable break in the diphthong. This is a special case Spanish speakers learn by convention.)"
+    },
+    {
+      "title": "The Spanish 'J' and 'G' Sounds in Philosophical Vocabulary",
+      "content": "Spanish philosophical vocabulary contains many words with 'j' and 'g' (before 'e', 'i') that produce the same guttural sound — the voiceless velar fricative [x]. This sound does not exist in Romanian or standard English, making it one of the most important pronunciation challenges.\\n\\nThe sound [x] is produced by constricting airflow at the back of the throat, creating a friction similar to clearing your throat gently. It is NOT the English 'h' (which is much weaker) and NOT the Romanian 'g' (which is a plosive [g]).\\n\\nKey words from this theme:\\n- 'filosofía' — the 'g' before 'o' is a hard [g] (like English 'go'), NOT the guttural [x]\\n- 'lógica' — the 'g' before 'i' is guttural [x]\\n- 'ética' — no 'j' or 'g'\\n- 'justicia' — 'j' = guttural [x]\\n- 'objetivo' — 'j' = guttural [x]\\n- 'subjetivo' — 'j' = guttural [x]\\n- 'dialéctica' — no 'j' or 'g'\\n- 'dialéctica' — no 'j' or 'g'\\n- 'dogma' — 'g' before 'o' = hard [g]\\n- 'negar' — 'g' before 'a' = hard [g]\\n- 'exigir' — 'g' before 'i' = guttural [x]\\n- 'relatividad' — no 'j' or 'g'\\n- 'absolutismo' — no 'j' or 'g'\\n\\n⚠️ CRITICAL RULE: 'g' before 'e' or 'i' = guttural [x]. 'g' before 'a', 'o', 'u' = hard [g] like English 'go'. 'j' is ALWAYS guttural [x], regardless of the following vowel.\\n\\nPractice pairs (minimal pairs showing hard vs. guttural 'g'):\\n- 'gato' (hard [g]) vs. 'geometría' (guttural [x])\\n- 'golpe' (hard [g]) vs. 'género' (guttural [x])\\n- 'jugo' (guttural [x]) vs. 'juego' (guttural [x]) — both are guttural!\\n\\n⚠️ For Romanian speakers: the closest sound is the 'g' in some southern Romanian dialects or the 'h' in certain words. But the Spanish [x] is MORE FRICATIVE (more friction) and produced FURTHER BACK in the throat. Practice by saying 'ja' with your tongue pulled back as far as possible.",
+      "examples": [
+        { "target": "justicia", "source": "hoo-SEE-tee-ah (j = guttural [x], like a strong 'h' from the back of the throat)"},
+        { "target": "objetivo", "source": "ob-heh-TEE-boh (j = guttural [x])"},
+        { "target": "lógica", "source": "loh-HEE-kah (g before i = guttural [x])"},
+        { "target": "dogma", "source": "DOG-mah (g before o = hard [g])"},
+        { "target": "exigir", "source": "eh-HEE-heer (g before i = guttural [x])"},
+        { "target": "filosofía", "source": "fee-loh-SOH-ee-ah (g before o = hard [g])"}
+      ],
+      "aid_note": "Romanian speakers: the Spanish 'j' and 'g' (before e/i) produce a sound similar to the Romanian 'h' in 'haine' or the 'g' in some regional pronunciations. The key difference is that Spanish [x] is stronger and more fricative. English speakers: this is NOT the English 'h' (which is too weak) and NOT the Scottish 'loch' 'ch' (which is produced further back, at the uvula). The Spanish [x] is produced at the velum (soft palate) with significant friction."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "exercise",
+      "question": "Which branch of philosophy studies the nature of knowledge?",
+      "options": ["La metafísica", "La epistemología", "La estética", "La axiología"],
+      "correct": 1,
+      "explanation": "'La epistemología' = epistemology, the study of knowledge (its origins, methods, validity). 'La metafísica' = metaphysics (nature of reality). 'La estética' = aesthetics (beauty and art). 'La axiología' = axiology (study of values)."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: '_____ que la realidad sea algo más complejo de lo que percibimos.' (It is possible that reality is something more complex than what we perceive.)",
+      "correct": "Es posible",
+      "explanation": "'Es posible que...' requires the subjunctive: 'Es posible que la realidad sea...' Expressions of possibility always trigger the subjunctive mood in Spanish."
+    },
+    {
+      "type": "exercise",
+      "question": "What does 'el libre albedrío' mean?",
+      "options": ["Free will", "Free speech", "Free market", "Free time"],
+      "correct": 0,
+      "explanation": "'El libre albedrío' = free will. 'Albedrío' comes from 'libre albedrío', a philosophical concept central to debates about moral responsibility. This is distinct from 'libertad de expresión' (free speech)."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: '_____ la verdad sea relativa, no puede ser universal.' (Even though the truth may be relative, it cannot be universal.)",
+      "correct": "Aun cuando / Aunque",
+      "explanation": "'Aun cuando' (even though) or 'Aunque' (although) introduce a concessive clause. Both are correct: 'Aun cuando la verdad sea relativa' uses the subjunctive because the speaker is uncertain about the premise."
+    },
+    {
+      "type": "exercise",
+      "question": "Which philosophical school holds that all knowledge comes from sensory experience?",
+      "options": ["El racionalismo", "El idealismo", "El empirismo", "El existencialismo"],
+      "correct": 2,
+      "explanation": "'El empirismo' (empiricism) holds that all knowledge comes from sensory experience (Locke, Hume, Berkeley). 'El racionalismo' (rationalism) holds that reason is the primary source of knowledge. 'El idealismo' (idealism) holds that reality is fundamentally mental. 'El existencialismo' (existentialism) focuses on individual existence and freedom."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: 'Dudo que _____ una moral absoluta válida para todas las culturas.' (I doubt that there exists an absolute morality valid for all cultures.)",
+      "correct": "exista",
+      "explanation": "'Dudo que...' requires the subjunctive: 'Dudo que exista...' The subjunctive 'exista' (from 'existir') is triggered by expressions of doubt. Note: 'Dudo que existe' (indicative) would be grammatically incorrect."
+    },
+    {
+      "type": "exercise",
+      "question": "Which connector means 'nevertheless' in formal Spanish?",
+      "options": ["Por lo tanto", "No obstante", "Debido a", "Además"],
+      "correct": 1,
+      "explanation": "'No obstante' = nevertheless / however (formal). 'Por lo tanto' = therefore. 'Debido a' = due to. 'Además' = moreover / in addition."
+    },
+    {
+      "type": "exercise",
+      "question": "What mood follows 'De ahí que'?",
+      "options": ["Indicative", "Subjunctive", "Infinitive", "Imperative"],
+      "correct": 1,
+      "explanation": "'De ahí que' ALWAYS triggers the subjunctive because it introduces a consequence that is presented as uncertain or debatable. Example: 'La verdad es relativa, de ahí que no pueda ser universal.' (The truth is relative, hence it cannot be universal.)"
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: '_____ la verdad absoluta, necesitamos un sistema ético sólido.' (In the absence of absolute truth, we need a solid ethical system.)",
+      "correct": "En ausencia de / Ante la falta de",
+      "explanation": "'En ausencia de la verdad absoluta' (In the absence of absolute truth) or 'Ante la falta de' (Facing the lack of) both work. 'En ausencia de' is the more formal and philosophically precise construction."
+    },
+    {
+      "type": "exercise",
+      "question": "What is the correct pronunciation of the 'g' in 'ética'?",
+      "options": ["Hard 'g' like in 'go'", "Guttural [x] sound, like a strong throat-clearing", "A 'j' sound like in 'jump'", "A 'zh' sound like in 'pleasure'"],
+      "correct": 1,
+      "explanation": "The 'g' in 'ética' is before the vowel 'e', so it produces the guttural [x] sound — similar to Scottish 'loch' or Spanish 'ja'. It is NOT a hard 'g' (which only occurs before 'a', 'o', 'u'): 'gato', 'golpe', 'gusto'."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: 'Si el determinismo _____ cierto, la responsabilidad moral carecería de fundamento.' (If determinism were true, moral responsibility would lack a foundation.)",
+      "correct": "fuera / fuese",
+      "explanation": "The structure 'Si + imperfect subjunctive + conditional' expresses a hypothetical about the present: 'Si el determinismo fuera/fuese cierto... la responsabilidad moral carecería de fundamento.' Both 'fuera' and 'fuese' are correct imperfect subjunctive forms of 'ser'."
+    },
+    {
+      "type": "exercise",
+      "question": "What does 'la paradoja' mean?",
+      "options": ["A logical fallacy", "A statement that seems contradictory but may contain truth", "A scientific theory", "A moral principle"],
+      "correct": 1,
+      "explanation": "'La paradoja' = a paradox — a statement or situation that seems contradictory but may contain a deeper truth. Example: 'Esta oración es falsa' (This sentence is false) is a famous paradox."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: '_____ que la ética kantiana propone un enfoque diferente al utilitarismo.' (On the other hand, Kantian ethics proposes a different approach from utilitarianism.)",
+      "correct": "Por otra parte / Por otro lado",
+      "explanation": "'Por otra parte' or 'Por otro lado' = 'On the other hand' — both introduce an alternative perspective in philosophical argumentation. 'Por otra parte' is slightly more formal."
+    },
+    {
+      "type": "exercise",
+      "question": "Which word means 'intrinsic' in Spanish?",
+      "options": ["Extrínseco", "Intrínseco", "Objetivo", "Subjetivo"],
+      "correct": 1,
+      "explanation": "'Intrínseco/a' = intrinsic / inherent. 'Extrínseco/a' = extrinsic / external. 'Objetivo/a' = objective. 'Subjetivo/a' = subjective. These are key terms in ethical philosophy: intrinsic value (valor intrínseco) vs. extrinsic value (valor extrínseco)."
+    }
+  ]
+}

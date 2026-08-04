@@ -1,0 +1,254 @@
+{
+  "id": "entertainment-media",
+  "level": "a2-2",
+  "title": "Entertainment & Media Consumption",
+  "description": "Talk about entertainment, media consumption, gaming, films, books, and cultural activities. Express preferences, share opinions about movies and music, and discuss your free time. Master the imperfect tense for past entertainment habits, the future tense for plans, and the imperative for recommendations.",
+  "vocabulary": [
+    {"id": 1, "target": "el entretenimiento", "source": "entertainment", "gender": "m", "type": "noun"},
+    {"id": 2, "target": "el ocio", "source": "leisure / free time", "gender": "m", "type": "noun"},
+    {"id": 3, "target": "el tiempo libre", "source": "free time", "gender": "m", "type": "noun"},
+    {"id": 4, "target": "la afición", "source": "hobby / interest", "gender": "f", "type": "noun"},
+    {"id": 5, "target": "el pasatiempo", "source": "pastime", "gender": "m", "type": "noun"},
+    {"id": 6, "target": "la afición", "source": "hobby", "gender": "f", "type": "noun"},
+    {"id": 7, "target": "hacer algo en el tiempo libre", "source": "to do something in free time", "gender": "—", "type": "phrase"},
+    {"id": 8, "target": "tener afición por", "source": "to have a passion for", "gender": "—", "type": "phrase"},
+    {"id": 9, "target": "gustar", "source": "to like / to be pleasing to", "gender": "v", "type": "verb"},
+    {"id": 10, "target": "encantar", "source": "to love / to be crazy about", "gender": "v", "type": "verb"},
+    {"id": 11, "target": "disfrutar de", "source": "to enjoy", "gender": "v", "type": "verb"},
+    {"id": 12, "target": "aburrirse", "source": "to be bored", "gender": "v", "type": "verb"},
+    {"id": 13, "target": "divertirse", "source": "to have fun", "gender": "v", "type": "verb"},
+    {"id": 14, "target": "entretenido", "source": "entertaining", "gender": "m", "type": "adj"},
+    {"id": 15, "target": "aburrido", "source": "boring", "gender": "m", "type": "adj"},
+    {"id": 16, "target": "interesante", "source": "interesting", "gender": "m/f", "type": "adj"},
+    {"id": 17, "target": "emocionante", "source": "exciting", "gender": "m/f", "type": "adj"},
+    {"id": 18, "target": "fantástico", "source": "fantastic", "gender": "m", "type": "adj"},
+    {"id": 19, "target": "monótono", "source": "monotonous / dull", "gender": "m", "type": "adj"},
+    {"id": 20, "target": "la streaming", "source": "streaming", "gender": "f", "type": "noun"},
+    {"id": 21, "target": "la plataforma de streaming", "source": "streaming platform", "gender": "f", "type": "phrase"},
+    {"id": 22, "target": "ver una serie", "source": "to watch a series", "gender": "—", "type": "phrase"},
+    {"id": 23, "target": "la serie", "source": "TV series", "gender": "f", "type": "noun"},
+    {"id": 24, "target": "la temporada", "source": "season (of a show)", "gender": "f", "type": "noun"},
+    {"id": 25, "target": "el episodio", "source": "episode", "gender": "m", "type": "noun"},
+    {"id": 26, "target": "la última temporada", "source": "the latest season", "gender": "f", "type": "phrase"},
+    {"id": 27, "target": "el final de temporada", "source": "season finale", "gender": "m", "type": "phrase"},
+    {"id": 28, "target": "la temporada alta", "source": "peak season", "gender": "f", "type": "phrase"},
+    {"id": 29, "target": "maratonar una serie", "source": "to binge-watch a series", "gender": "—", "type": "phrase"},
+    {"id": 30, "target": "el cine", "source": "cinema / movie theater", "gender": "m", "type": "noun"},
+    {"id": 31, "target": "ir al cine", "source": "to go to the movies", "gender": "—", "type": "phrase"},
+    {"id": 32, "target": "la película", "source": "movie / film", "gender": "f", "type": "noun"},
+    {"id": 33, "target": "la entrada", "source": "ticket (for event)", "gender": "f", "type": "noun"},
+    {"id": 34, "target": "reservar una entrada", "source": "to book a ticket", "gender": "—", "type": "phrase"},
+    {"id": 35, "target": "el género cinematográfico", "source": "film genre", "gender": "m", "type": "phrase"},
+    {"id": 36, "target": "el género de acción", "source": "action genre", "gender": "m", "type": "phrase"},
+    {"id": 37, "target": "el drama", "source": "drama", "gender": "m", "type": "noun"},
+    {"id": 38, "target": "la comedia", "source": "comedy", "gender": "f", "type": "noun"},
+    {"id": 39, "target": "el thriller / suspenso", "source": "thriller", "gender": "m", "type": "noun"},
+    {"id": 40, "target": "el documental", "source": "documentary", "gender": "m", "type": "noun"},
+    {"id": 41, "target": "la animación", "source": "animation", "gender": "f", "type": "noun"},
+    {"id": 42, "target": "la ciencia ficción", "source": "science fiction", "gender": "f", "type": "noun"},
+    {"id": 43, "target": "el terror", "source": "horror", "gender": "m", "type": "noun"},
+    {"id": 44, "target": "la romántica", "source": "romantic (genre)", "gender": "f", "type": "noun"},
+    {"id": 45, "target": "el actor / la actriz", "source": "actor / actress", "gender": "m/f", "type": "noun"},
+    {"id": 46, "target": "el director / la directora", "source": "director", "gender": "m/f", "type": "noun"},
+    {"id": 47, "target": "la trama", "source": "plot / storyline", "gender": "f", "type": "noun"},
+    {"id": 48, "target": "el guion", "source": "script", "gender": "m", "type": "noun"},
+    {"id": 49, "target": "la banda sonora", "source": "soundtrack", "gender": "f", "type": "noun"},
+    {"id": 50, "target": "la reseña", "source": "review", "gender": "f", "type": "noun"},
+    {"id": 51, "target": "la crítica", "source": "critic / critique", "gender": "f", "type": "noun"},
+    {"id": 52, "target": "el videojuego", "source": "video game", "gender": "m", "type": "noun"},
+    {"id": 53, "target": "jugar videojuegos", "source": "to play video games", "gender": "—", "type": "phrase"},
+    {"id": 54, "target": "el videojuego en línea", "source": "online video game", "gender": "m", "type": "phrase"},
+    {"id": 55, "target": "la consola", "source": "gaming console", "gender": "f", "type": "noun"},
+    {"id": 56, "target": "la partida", "source": "game (match)", "gender": "f", "type": "noun"},
+    {"id": 57, "target": "ganar / perder", "source": "to win / to lose", "gender": "v", "type": "verb"},
+    {"id": 58, "target": "el nivel", "source": "level (game)", "gender": "m", "type": "noun"},
+    {"id": 59, "target": "subir de nivel", "source": "to level up", "gender": "—", "type": "phrase"},
+    {"id": 60, "target": "el multijugador", "source": "multiplayer", "gender": "m", "type": "noun"},
+    {"id": 61, "target": "el modo solitario", "source": "single-player mode", "gender": "m", "type": "phrase"},
+    {"id": 62, "target": "la pantalla", "source": "screen", "gender": "f", "type": "noun"},
+    {"id": 63, "target": "la consola portátil", "source": "portable console", "gender": "f", "type": "phrase"},
+    {"id": 64, "target": "el libro", "source": "book", "gender": "m", "type": "noun"},
+    {"id": 65, "target": "leer un libro", "source": "to read a book", "gender": "—", "type": "phrase"},
+    {"id": 66, "target": "la novela", "source": "novel", "gender": "f", "type": "noun"},
+    {"id": 67, "target": "la novela gráfica", "source": "graphic novel", "gender": "f", "type": "phrase"},
+    {"id": 68, "target": "el cómic", "source": "comic book", "gender": "m", "type": "noun"},
+    {"id": 69, "target": "el género literario", "source": "literary genre", "gender": "m", "type": "phrase"},
+    {"id": 70, "target": "la poesía", "source": "poetry", "gender": "f", "type": "noun"},
+    {"id": 71, "target": "el poema", "source": "poem", "gender": "m", "type": "noun"},
+    {"id": 72, "target": "el capítulo", "source": "chapter", "gender": "m", "type": "noun"},
+    {"id": 73, "target": "el autor / la autora", "source": "author", "gender": "m/f", "type": "noun"},
+    {"id": 74, "target": "la editorial", "source": "publishing house", "gender": "f", "type": "noun"},
+    {"id": 75, "target": "la librería", "source": "bookstore", "gender": "f", "type": "noun"},
+    {"id": 76, "target": "la biblioteca", "source": "library", "gender": "f", "type": "noun"},
+    {"id": 77, "target": "pedir un libro en la biblioteca", "source": "to request a book at the library", "gender": "—", "type": "phrase"},
+    {"id": 78, "target": "la música", "source": "music", "gender": "f", "type": "noun"},
+    {"id": 79, "target": "escuchar música", "source": "to listen to music", "gender": "—", "type": "phrase"},
+    {"id": 80, "target": "el género musical", "source": "music genre", "gender": "m", "type": "phrase"},
+    {"id": 81, "target": "el rock", "source": "rock", "gender": "m", "type": "noun"},
+    {"id": 82, "target": "el pop", "source": "pop", "gender": "m", "type": "noun"},
+    {"id": 83, "target": "el hip-hop", "source": "hip-hop", "gender": "m", "type": "noun"},
+    {"id": 84, "target": "la música clásica", "source": "classical music", "gender": "f", "type": "phrase"},
+    {"id": 85, "target": "el flamenco", "source": "flamenco", "gender": "m", "type": "noun"},
+    {"id": 86, "target": "el concierto", "source": "concert", "gender": "m", "type": "noun"},
+    {"id": 87, "target": "asistir a un concierto", "source": "to attend a concert", "gender": "—", "type": "phrase"},
+    {"id": 88, "target": "la canción", "source": "song", "gender": "f", "type": "noun"},
+    {"id": 89, "target": "la letra", "source": "lyrics", "gender": "f", "type": "noun"},
+    {"id": 90, "target": "el artista", "source": "artist", "gender": "m", "type": "noun"},
+    {"id": 91, "target": "el grupo musical", "source": "band / music group", "gender": "m", "type": "phrase"},
+    {"id": 92, "target": "tocar un instrumento", "source": "to play an instrument", "gender": "—", "type": "phrase"},
+    {"id": 93, "target": "la cultura", "source": "culture", "gender": "f", "type": "noun"},
+    {"id": 94, "target": "el consumo cultural", "source": "cultural consumption", "gender": "m", "type": "phrase"},
+    {"id": 95, "target": "la exposición", "source": "exhibition", "gender": "f", "type": "noun"},
+    {"id": 96, "target": "el museo", "source": "museum", "gender": "m", "type": "noun"},
+    {"id": 97, "target": "ir de visita al museo", "source": "to visit the museum", "gender": "—", "type": "phrase"},
+    {"id": 98, "target": "el teatro", "source": "theater", "gender": "m", "type": "noun"},
+    {"id": 99, "target": "la obra de teatro", "source": "play / theater performance", "gender": "f", "type": "phrase"},
+    {"id": 100, "target": "una vida cultural", "source": "cultural life", "gender": "f", "type": "phrase"}
+  ],
+  "grammar": [
+    {
+      "title": "Pretérito Imperfecto — Describing Past Entertainment Habits",
+      "content": "The imperfect tense is used to describe habitual past actions, ongoing states, and background descriptions — essential for talking about what you used to do for entertainment.\n\nFormation (regular):\n-AR verbs: -aba, -abas, -aba, -ábamos, -abais, -aban\n-ER verbs: -ía, -ías, -ía, -íamos, -íais, -ían\n-IR verbs: -ía, -ías, -ía, -íamos, -íais, -ían\n\nIrregular verbs (only 3):\n- ser → era, eras, era, éramos, erais, eran\n- ir → iba, ibas, iba, íbamos, ibais, iban\n- ver → veía, veías, veía, veíamos, veíais, veían\n\nUsage with entertainment:\n- Había un cine al lado de mi casa. (There was a cinema next to my house.)\n- Mis padres veían la televisión por la noche. (My parents watched TV at night.)\n- Yo jugaba a los videojuegos todos los fines de semana. (I used to play video games every weekend.)\n- Leíamos libros en la biblioteca cada semana. (We used to read books at the library every week.)\n\nTime expressions that commonly appear:\n- antes (before)\n- generalmente / normalmente / habitualmente (generally / usually / habitually)\n- todos los días / fines de semana (every day / weekends)\n- mientras (while)\n- cuando era niño/a (when I was a child)",
+      "examples": [
+        "Antes, yo veía una serie nueva cada semana. (Before, I used to watch a new series each week.)",
+        "Mi hermano siempre jugaba al fútbol con sus amigos. (My brother always used to play soccer with his friends.)",
+        "Cuando éramos niños, íbamos al cine cada domingo. (When we were children, we went to the movies every Sunday.)",
+        "Nos gustaba escuchar música latina por la tarde. (We used to like listening to Latin music in the afternoon.)",
+        "Ella leía novelas de misterio antes de dormir. (She used to read mystery novels before sleeping.)"
+      ]
+    },
+    {
+      "title": "Futuro Simple — Entertainment Plans & Predictions",
+      "content": "The simple future tense is used to talk about future plans, predictions, and intentions — perfect for discussing upcoming entertainment events and plans.\n\nFormation (regular): infinitive + endings\n-é, -ás, -á, -emos, -éis, -án\n\nAll verbs use the same endings:\n- ver → veré, verás, verá, veremos, veréis, verán\n- escuchar → escucharé, escucharás, escuchará, escucharemos, escucharéis, escucharán\n- jugar → jugaré, jugarás, jugará, jugaremos, jugaréis, jugarán\n- ir → iré, irás, irá, iremos, iréis, irán\n\nIrregular stems (same endings as above):\n- hacer → har- (haré, harás, hará...)\n- poner → pondr- (pondré, pondrás, pondrá...)\n- salir → saldr- (saldré, saldrás, saldrá...)\n- tener → tendr- (tendré, tendrás, tendrá...)\n- querer → querr- (querré, querrás, querrá...)\n- decir → dir- (diré, dirás, dirá...)\n- poder → podr- (podré, podrás, podrá...)\n- saber → sabr- (sabré, sabrás, sabrá...)\n- venir → vendr- (vendré, vendrás, vendrá...)\n- valer → valdr- (valdré, valdrás, valdrá...)\n- necesitar → necesitaré (regular)\n\nUsage with entertainment:\n- El próximo viernes iré al cine con mis amigos. (Next Friday I will go to the movies with my friends.)\n- La nueva temporada de esa serie sale el mes que viene. (The new season of that show comes out next month.)\n- ¿Vas a asistir al concierto? (Are you going to attend the concert?)\n- Creo que la película será muy interesante. (I think the movie will be very interesting.)\n\nAlternative: ir + a + infinitive (going to) — also very common:\n- Voy a ver la película mañana. (I'm going to watch the movie tomorrow.)",
+      "examples": [
+        "El sábado iré al museo con mi hermana. (On Saturday I will go to the museum with my sister.)",
+        "¿Vas a jugar al nuevo videojuego? (Are you going to play the new video game?)",
+        "La obra de teatro empieza a las ocho. (The play starts at eight.) — using present for scheduled events",
+        "Creo que la banda sonará en el festival. (I think the band will perform at the festival.)",
+        "El próximo mes lanzarán la nueva novela del autor. (Next month they will release the author's new novel.)"
+      ]
+    },
+    {
+      "title": "Imperativo — Making Recommendations & Suggestions",
+      "content": "The imperative is used to give advice, recommendations, and suggestions — very useful when recommending entertainment to friends and family.\n\nAffirmative tú form:\n-AR verbs: change -ar to -e (hablar → habla)\n-ER verbs: change -er to -e (comer → come)\n-IR verbs: change -ir to -e (vivir → vive)\n\nAffirmative usted form:\n-AR verbs: change -ar to -e (hablar → hable)\n-ER verbs: change -er to -e (comer → coma)\n-IR verbs: change -ir to -e (vivir → viva)\n\nIrregular affirmative tú forms:\n- decir → di\n- hacer → haz\n- ir → ve\n- poner → pon\n- salir → sal\n- ser → sé\n- tener → ten\n- venir → ven\n\nNegative tú form (use present subjunctive):\n- No hables tan alto. (Don't speak so loudly.)\n- No comas tan rápido. (Don't eat so fast.)\n- No vivas así. (Don't live like that.)\n\nUsage with entertainment:\n- ¡Ve esa película! Es increíble. (Watch that movie! It's amazing.)\n- Te recomiendo que leas el libro. (I recommend that you read the book.)\n- No te pierdas el concierto. (Don't miss the concert.)\n- Escucha este álbum. Tiene buena música. (Listen to this album. It has good music.)\n- Asiste a la exposición de arte. (Go to the art exhibition.)\n\nNote: Many entertainment recommendations use 'te recomiendo que + subjunctive' instead of the imperative for politeness.",
+      "examples": [
+        "¡Mira ese documental! Habla de la cultura española. (Watch that documentary! It's about Spanish culture.)",
+        "No te pierdas la última temporada de la serie. (Don't miss the latest season of the series.)",
+        "Ve al teatro esta noche. Hay una obra nueva. (Go to the theater tonight. There's a new play.)",
+        "Te recomiendo que leas la novela del autor. (I recommend that you read the author's novel.)",
+        "Escucha la banda sonora de la película. Está genial. (Listen to the movie soundtrack. It's great.)"
+      ]
+    }
+  ],
+  "pronunciation": [
+    {
+      "title": "Stress Patterns in Entertainment Vocabulary",
+      "content": "Key pronunciation rules for entertainment and media vocabulary:\n\n1. Palabras esdrújulas (stress on antepenult) — ALWAYS have an accent:\n   - la afición (ah-fee-SEE-on) — always stressed on -SEE-\n   - el episodio (eh-PO-see-oh) — always stressed on -PO-\n   - la película (peh-lee-KOO-lah) — always stressed on -KOO-\n   - el escenario (ehs-keh-NAH-ree-oh) — always stressed on -NAH-\n\n2. Palabras agudas (stress on last syllable) — marked if ending in consonant other than -n or -s:\n   - la trama (TRAH-mah) — no accent, ends in -ma (vowel)\n   - el guion (GWE-on) — no accent, ends in -n\n   - el drama (DRAH-mah) — no accent, ends in -ma (vowel)\n   - la comedia (koh-MEH-dyah) — no accent, ends in -a (vowel)\n\n3. Palabras llanas (stress on penult) — marked if NOT ending in vowel, -n, or -s:\n   - la exposición (ehs-poh-see-ON) — has accent, ends in -n\n   - el género (HEN-roh) — no accent, ends in -o\n   - el teatro (teh-AH-troh) — no accent, ends in -o\n   - la cultura (kool-TOO-rah) — no accent, ends in -a\n\n4. Special sounds:\n   - -ción → -SYON: la afición (ah-fee-SEE-on)\n   - -sión → -SYON: la explosión (eh-SPLO-see-on)\n   - -co/-ca (before e/i) → hard k: el cómic (koh-MEEK)\n   - -gu/-gi → hard g: el guion (GWE-on), el género (HEN-roh)\n   - -ll → y sound: la novela (noh-VEL-ah)\n\n5. Diphthongs:\n   - ia/ie/iu = one syllable: afición, película, guion\n   - Strong vowel + weak vowel with accent on weak = two syllables: café, avión",
+      "examples": [
+        "película = peh-lee-KOO-lah (stress on antepenult, esdrújula)\n",
+        "afición = ah-fee-SEE-on (stress on antepenult, esdrújula)\n",
+        "episodio = eh-PO-see-oh (stress on antepenult, esdrújula)\n",
+        "cine = SEE-nay (stress on penult, llana, ends in -e)\n",
+        "videojuego = bee-de-oh-HWEH-gwah (diphthong ue in one syllable)"
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "multiple-choice",
+      "question": "Which sentence correctly uses the imperfect to describe a past entertainment habit? 'De niño/a, yo ___ series de animación todos los días.' (As a child, I used to watch animation series every day.)",
+      "options": [
+        "veo",
+        "veía",
+        "vi",
+        "voy a ver"
+      ],
+      "correct": 1,
+      "explanation": "'Veía' is the imperfect form of 'ver' (yo form). The imperfect is used for habitual past actions ('used to watch'). 'Veo' is present indicative, 'vi' is preterite (one-time action), and 'voy a ver' is future plan."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete with the future simple: 'El sábado ___ al cine con mis amigos.' (On Saturday I will go to the cinema with my friends.)",
+      "correct": "iré",
+      "explanation": "'Iré' is the future simple form of 'ir' (yo form): iré, irás, irá, iremos, iréis, irán. It expresses a future plan to go to the cinema."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What does 'maratonar una serie' mean?",
+      "options": [
+        "To marathon run while watching TV",
+        "To binge-watch a series",
+        "To produce a TV series",
+        "To write a series"
+      ],
+      "correct": 1,
+      "explanation": "'Maratonar una serie' means to binge-watch a series — watching multiple episodes in one sitting, like running a marathon of content. It's a modern Spanish usage from English 'binge-watch'."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete the affirmative tú imperative: '___ esa película, es muy buena.' (Watch that movie, it's very good.)",
+      "correct": "Ve",
+      "explanation": "'Ve' is the irregular affirmative tú imperative of 'ver' (to watch). Most regular verbs follow the pattern: -AR → -e, -ER → -e, -IR → -e. But 'ver' is irregular: ve."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Which genre matches 'terror'? (The film is scary with monsters and ghosts.)",
+      "options": [
+        "comedia",
+        "drama",
+        "terror",
+        "ciencia ficción"
+      ],
+      "correct": 2,
+      "explanation": "'Terror' means horror. 'Comedia' is comedy, 'drama' is drama, and 'ciencia ficción' is science fiction. Horror films typically feature scary elements like monsters and ghosts."
+    },
+    {
+      "type": "matching",
+      "question": "Match the entertainment activities with their Spanish descriptions:\n\n1. ver una serie\n2. jugar videojuegos\n3. ir al cine\n4. asistir a un concierto",
+      "options": [
+        "watch a TV series / play video games / go to the movies / attend a concert",
+        "go to the movies / watch a TV series / attend a concert / play video games",
+        "play video games / go to the movies / watch a series / attend a concert",
+        "attend a concert / play video games / go to the movies / watch a series"
+      ],
+      "correct": 0,
+      "explanation": "ver una serie = watch a TV series; jugar videojuegos = play video games; ir al cine = go to the movies; asistir a un concierto = attend a concert. These are common entertainment activities in Spanish."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Which word means 'to binge-watch' in the context of entertainment?",
+      "options": [
+        "ver",
+        "maratonar",
+        "leer",
+        "escuchar"
+      ],
+      "correct": 1,
+      "explanation": "'Maratonar' means to binge-watch (watching many episodes of a series in one sitting). It comes from 'maratón' (marathon), suggesting watching continuously like an endurance sport. It's a modern loan usage in Spanish."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete with the correct imperfect form: 'De pequeños, nosotros ___ al teatro cada mes.' (When we were little, we used to go to the theater every month.)",
+      "correct": "íbamos",
+      "explanation": "'Íbamos' is the imperfect form of 'ir' (nosotros form): iba, ibas, iba, íbamos, ibais, iban. The imperfect is used here because it describes a habitual past action ('used to go')."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What is the correct negative tú command for 'divertirse' (to have fun)? '___ tanto en la fiesta.' (Don't party too much.)",
+      "options": [
+        "no diviértete",
+        "no te diviertas",
+        "no te diviertas",
+        "no diviertas"
+      ],
+      "correct": 1,
+      "explanation": "'No te diviertas' is the negative tú command. Negative commands use the present subjunctive: divierta, diviertas, divierta, divirtamos, divirtáis, diviertan. The reflexive pronoun 'te' goes before the verb in negative commands. Note: the stem changes e→ie."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete with the future simple of 'salir': 'El próximo viernes ___ una película nueva en el cine.' (Next Friday a new movie will come out at the cinema.)",
+      "correct": "saldrá",
+      "explanation": "'Saldrá' is the future simple of 'salir' (él/ella/usted form): saldré, saldrás, saldrá, saldremos, saldréis, saldrán. 'Salir' has the irregular stem 'saldr-'. Here it means 'will come out / will be released' (about a film)."
+    }
+  ]
+}

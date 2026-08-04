@@ -1,0 +1,390 @@
+{
+  "id": "global-perspectives-international-relations",
+  "title": "Global Perspectives & International Relations",
+  "description": "Core vocabulary and grammar for discussing international diplomacy, global issues, and cross-cultural understanding at the B2.1 level.",
+  "vocabulary": [
+    { "id": 1, "target": "la diplomacia", "source": "diplomacy", "gender": "f.", "type": "noun" },
+    { "id": 2, "target": "el tratado", "source": "treaty", "gender": "m.", "type": "noun" },
+    { "id": 3, "target": "el acuerdo", "source": "agreement", "gender": "m.", "type": "noun" },
+    { "id": 4, "target": "la cumbre", "source": "summit", "gender": "f.", "type": "noun" },
+    { "id": 5, "target": "el organismo internacional", "source": "international organization", "gender": "m.", "type": "noun" },
+    { "id": 6, "target": "la ONU", "source": "UN (United Nations)", "gender": "f.", "type": "noun" },
+    { "id": 7, "target": "la OTAN", "source": "NATO", "gender": "f.", "type": "noun" },
+    { "id": 8, "target": "la Unión Europea", "source": "European Union", "gender": "f.", "type": "noun" },
+    { "id": 9, "target": "la comunidad internacional", "source": "international community", "gender": "f.", "type": "noun" },
+    { "id": 10, "target": "la soberanía", "source": "sovereignty", "gender": "f.", "type": "noun" },
+    { "id": 11, "target": "el conflicto armado", "source": "armed conflict", "gender": "m.", "type": "noun" },
+    { "id": 12, "target": "la mediación", "source": "mediation", "gender": "f.", "type": "noun" },
+    { "id": 13, "target": "la negociación", "source": "negotiation", "gender": "f.", "type": "noun" },
+    { "id": 14, "target": "el embajador / la embajadora", "source": "ambassador", "gender": "m./f.", "type": "noun" },
+    { "id": 15, "target": "el canciller / la canciller", "source": "foreign minister / chancellor", "gender": "m./f.", "type": "noun" },
+    { "id": 16, "target": "el representante", "source": "representative", "gender": "m.", "type": "noun" },
+    { "id": 17, "target": "la sanción", "source": "sanction", "gender": "f.", "type": "noun" },
+    { "id": 18, "target": "el bloqueo económico", "source": "economic blockade", "gender": "m.", "type": "noun" },
+    { "id": 19, "target": "la crisis humanitaria", "source": "humanitarian crisis", "gender": "f.", "type": "noun" },
+    { "id": 20, "target": "la ayuda humanitaria", "source": "humanitarian aid", "gender": "f.", "type": "noun" },
+    { "id": 21, "target": "el refugiado / la refugiada", "source": "refugee", "gender": "m./f.", "type": "noun" },
+    { "id": 22, "target": "el asilo político", "source": "political asylum", "gender": "m.", "type": "noun" },
+    { "id": 23, "target": "la migración", "source": "migration", "gender": "f.", "type": "noun" },
+    { "id": 24, "target": "el desplazamiento forzado", "source": "forced displacement", "gender": "m.", "type": "noun" },
+    { "id": 25, "target": "el cambio climático", "source": "climate change", "gender": "m.", "type": "noun" },
+    { "id": 26, "target": "la emisión de gases de efecto invernadero", "source": "greenhouse gas emissions", "gender": "f.pl.", "type": "noun" },
+    { "id": 27, "target": "la energía renovable", "source": "renewable energy", "gender": "f.", "type": "noun" },
+    { "id": 28, "target": "la biodiversidad", "source": "biodiversity", "gender": "f.", "type": "noun" },
+    { "id": 29, "target": "la deforestación", "source": "deforestation", "gender": "f.", "type": "noun" },
+    { "id": 30, "target": "la contaminación", "source": "pollution", "gender": "f.", "type": "noun" },
+    { "id": 31, "target": "la desigualdad", "source": "inequality", "gender": "f.", "type": "noun" },
+    { "id": 32, "target": "la pobreza extrema", "source": "extreme poverty", "gender": "f.", "type": "noun" },
+    { "id": 33, "target": "el desarrollo sostenible", "source": "sustainable development", "gender": "m.", "type": "noun" },
+    { "id": 34, "target": "los Objetivos de Desarrollo Sostenible (ODS)", "source": "Sustainable Development Goals (SDGs)", "gender": "m.pl.", "type": "noun" },
+    { "id": 35, "target": "la cooperación internacional", "source": "international cooperation", "gender": "f.", "type": "noun" },
+    { "id": 36, "target": "la asistencia al desarrollo", "source": "development aid", "gender": "f.", "type": "noun" },
+    { "id": 37, "target": "el país en vías de desarrollo", "source": "developing country", "gender": "m.", "type": "noun" },
+    { "id": 38, "target": "el país desarrollado", "source": "developed country", "gender": "m.", "type": "noun" },
+    { "id": 39, "target": "el mundo desarrollado", "source": "the developed world", "gender": "m.", "type": "noun" },
+    { "id": 40, "target": "el sur global", "source": "Global South", "gender": "m.", "type": "noun" },
+    { "id": 41, "target": "la brecha norte-sur", "source": "North-South gap", "gender": "f.", "type": "noun" },
+    { "id": 42, "target": "la globalización", "source": "globalization", "gender": "f.", "type": "noun" },
+    { "id": 43, "target": "la interdependencia", "source": "interdependence", "gender": "f.", "type": "noun" },
+    { "id": 44, "target": "el multilateralismo", "source": "multilateralism", "gender": "m.", "type": "noun" },
+    { "id": 45, "target": "el proteccionismo", "source": "protectionism", "gender": "m.", "type": "noun" },
+    { "id": 46, "target": "el libre comercio", "source": "free trade", "gender": "m.", "type": "noun" },
+    { "id": 47, "target": "la balanza comercial", "source": "trade balance", "gender": "f.", "type": "noun" },
+    { "id": 48, "target": "la inversión extranjera", "source": "foreign investment", "gender": "f.", "type": "noun" },
+    { "id": 49, "target": "la cultura local", "source": "local culture", "gender": "f.", "type": "noun" },
+    { "id": 50, "target": "el intercambio cultural", "source": "cultural exchange", "gender": "m.", "type": "noun" },
+    { "id": 51, "target": "el mestizaje", "source": "cultural mixing / fusion", "gender": "m.", "type": "noun" },
+    { "id": 52, "target": "la identidad cultural", "source": "cultural identity", "gender": "f.", "type": "noun" },
+    { "id": 53, "target": "el etnocentrismo", "source": "ethnocentrism", "gender": "m.", "type": "noun" },
+    { "id": 54, "target": "la competencia intercultural", "source": "intercultural competence", "gender": "f.", "type": "noun" },
+    { "id": 55, "target": "el prejuicio", "source": "prejudice", "gender": "m.", "type": "noun" },
+    { "id": 56, "target": "el estereotipo", "source": "stereotype", "gender": "m.", "type": "noun" },
+    { "id": 57, "target": "la discriminación", "source": "discrimination", "gender": "f.", "type": "noun" },
+    { "id": 58, "target": "la tolerancia", "source": "tolerance", "gender": "f.", "type": "noun" },
+    { "id": 59, "target": "la convivencia", "source": "coexistence", "gender": "f.", "type": "noun" },
+    { "id": 60, "target": "el respeto mutuo", "source": "mutual respect", "gender": "m.", "type": "noun" },
+    { "id": 61, "target": "el diálogo intercultural", "source": "intercultural dialogue", "gender": "m.", "type": "noun" },
+    { "id": 62, "target": "el diálogo político", "source": "political dialogue", "gender": "m.", "type": "noun" },
+    { "id": 63, "target": "el acercamiento diplomático", "source": "diplomatic rapprochement", "gender": "m.", "type": "noun" },
+    { "id": 64, "target": "la ruptura de relaciones", "source": "severing of diplomatic relations", "gender": "f.", "type": "noun" },
+    { "id": 65, "target": "la resolución de conflictos", "source": "conflict resolution", "gender": "f.", "type": "noun" },
+    { "id": 66, "target": "la paz", "source": "peace", "gender": "f.", "type": "noun" },
+    { "id": 67, "target": "la tregua", "source": "truce", "gender": "f.", "type": "noun" },
+    { "id": 68, "target": "la cesación del fuego", "source": "ceasefire", "gender": "f.", "type": "noun" },
+    { "id": 69, "target": "la fuerza de paz", "source": "peacekeeping force", "gender": "f.", "type": "noun" },
+    { "id": 70, "target": "el genocidio", "source": "genocide", "gender": "m.", "type": "noun" },
+    { "id": 71, "target": "los crímenes de guerra", "source": "war crimes", "gender": "m.pl.", "type": "noun" },
+    { "id": 72, "target": "la justicia internacional", "source": "international justice", "gender": "f.", "type": "noun" },
+    { "id": 73, "target": "la Corte Internacional de Justicia", "source": "International Court of Justice", "gender": "f.", "type": "noun" },
+    { "id": 74, "target": "la Corte Penal Internacional", "source": "International Criminal Court", "gender": "f.", "type": "noun" },
+    { "id": 75, "target": "el derecho internacional", "source": "international law", "gender": "m.", "type": "noun" },
+    { "id": 76, "target": "la ley internacional", "source": "international law", "gender": "f.", "type": "noun" },
+    { "id": 77, "target": "los derechos humanos", "source": "human rights", "gender": "m.pl.", "type": "noun" },
+    { "id": 78, "target": "la libertad de expresión", "source": "freedom of expression", "gender": "f.", "type": "noun" },
+    { "id": 79, "target": "la democracia", "source": "democracy", "gender": "f.", "type": "noun" },
+    { "id": 80, "target": "la dictadura", "source": "dictatorship", "gender": "f.", "type": "noun" },
+    { "id": 81, "target": "la opresión", "source": "oppression", "gender": "f.", "type": "noun" },
+    { "id": 82, "target": "la represión", "source": "repression", "gender": "f.", "type": "noun" },
+    { "id": 83, "target": "la protestas pacíficas", "source": "peaceful protests", "gender": "f.pl.", "type": "noun" },
+    { "id": 84, "target": "la movilización social", "source": "social mobilization", "gender": "f.", "type": "noun" },
+    { "id": 85, "target": "la solidaridad", "source": "solidarity", "gender": "f.", "type": "noun" },
+    { "id": 86, "target": "la empatía", "source": "empathy", "gender": "f.", "type": "noun" },
+    { "id": 87, "target": "la perspectiva", "source": "perspective", "gender": "f.", "type": "noun" },
+    { "id": 88, "target": "el punto de vista", "source": "point of view", "gender": "m.", "type": "noun" },
+    { "id": 89, "target": "la postura", "source": "stance / position", "gender": "f.", "type": "noun" },
+    { "id": 90, "target": "la postura política", "source": "political stance", "gender": "f.", "type": "noun" },
+    { "id": 91, "target": "la postura ideológica", "source": "ideological position", "gender": "f.", "type": "noun" },
+    { "id": 92, "target": "el equilibrio de poder", "source": "balance of power", "gender": "m.", "type": "noun" },
+    { "id": 93, "target": "la hegemonía", "source": "hegemony", "gender": "f.", "type": "noun" },
+    { "id": 94, "target": "la geopolítica", "source": "geopolitics", "gender": "f.", "type": "noun" },
+    { "id": 95, "target": "el territorio", "source": "territory / land", "gender": "m.", "type": "noun" },
+    { "id": 96, "target": "la frontera", "source": "border", "gender": "f.", "type": "noun" },
+    { "id": 97, "target": "la disputa territorial", "source": "territorial dispute", "gender": "f.", "type": "noun" },
+    { "id": 98, "target": "la anexión", "source": "annexation", "gender": "f.", "type": "noun" },
+    { "id": 99, "target": "el reconocimiento diplomático", "source": "diplomatic recognition", "gender": "m.", "type": "noun" },
+    { "id": 100, "target": "la expulsión del país", "source": "expulsion from the country", "gender": "f.", "type": "noun" }
+  ],
+  "grammar": [
+    {
+      "title": "Imperfect Subjunctive in Diplomatic & Formal Contexts",
+      "content": "The imperfect subjunctive (-ra/-se forms) is essential at B2.1 for expressing hypothetical situations, wishes, and formal diplomatic language.\n\nConjugation (tener, ser, haber):\n- yo tuviera / tuve, fuera / fuese, hubiera / hubiese\n- tú tuvieras / tuveses, fueras / fueses, hubieras / hubieses\n- él tuviera / tuviese, fuera / fuese, hubiera / hubiese\n- nosotros tuviéramos / tuviésemos, fuéramos / fuésemos, hubiéramos / hubiésemos\n- vosotros tuvierais / tuvieis, fuerais / fueseis, hubierais / hubieseis\n- ellos tuvieran / tuviesen, fueran / fuesen, hubieran / hubiesen\n\nKey uses:\n1. Hypothetical (si + imperfect subjunctive + conditional): \"Si hubiera más cooperación internacional, la crisis se resolvería más rápido.\"\n2. Formal wishes & diplomatic formulas: \"Ojalá se lograra la paz. / Que se respetaran los derechos humanos.\"\n3. Formal requests: \"Pedimos que se adoptaran medidas más firmes.\"\n4. After expressions of doubt/emotion in the past: \"Dudaban que existiera un acuerdo.\"",
+      "examples": [
+        "Si los países hubieran firmado el tratado, la crisis no habría ocurrido.",
+        "Es fundamental que las naciones cooperen en materia de medio ambiente.",
+        "Ojalá se resolviera el conflicto mediante la negociación pacífica.",
+        "El embajador insistió en que se respetaran las normas internacionales.",
+        "Los dirigentes acordaron que se enviaran fuerzas de paz a la región."
+      ]
+    },
+    {
+      "title": "Se Pasiva (Passive Se) for General Statements",
+      "content": "At B2.1, learners use \"se pasiva\" extensively to make general statements about policies, international agreements, and social phenomena without specifying a subject.\n\nStructure: se + verb (3rd person singular/plural) + complement\n\nThe verb agrees with the noun that follows it:\n- Se + singular verb + singular noun: \"Se firmó el acuerdo.\"\n- Se + plural verb + plural noun: \"Se firmaron los tratados.\"\n\nCommon in formal/diplomatic contexts:\n- \"Se considera que...\" (It is considered that...)\n- \"Se ha reconocido que...\" (It has been recognized that...)\n- \"Se recomienda que...\" (It is recommended that...)\n- \"Se exige que...\" (It is demanded that...)\n\nUsage notes:\n- More natural than the passive \"ser + participle\" in spoken and journalistic Spanish.\n- The passive \"ser\" is used for emphasis on the agent: \"Los tratados fueron firmados por 50 países.\"",
+      "examples": [
+        "Se ha acordado que se reduzcan las emisiones de gases de efecto invernadero.",
+        "Se reconoce que la migración es un fenómeno complejo.",
+        "Se exigieron sanciones a los países que violaron el acuerdo.",
+        "Se considera que la cooperación internacional es esencial.",
+        "Se ha demostrado que la educación reduce la desigualdad."
+      ]
+    },
+    {
+      "title": "Advanced Relative Pronouns (el cual, quien, lo cual)",
+      "content": "B2.1 introduces more sophisticated relative pronouns for formal and written Spanish, particularly in political and diplomatic discourse.\n\nKey pronouns:\n1. **El cual / la cual / los cuales / las cuales** — used after prepositions for clarity, especially when the antecedent could be ambiguous. More formal than \"que\".\n   - \"El tratado, del cual dependen cientos de personas, fue ratificado.\"\n2. **Quien / quienes** — used for people, especially after prepositions.\n   - \"Los delegados, quienes representaban a sus países, votaron a favor.\"\n3. **Lo cual** — neuter relative pronoun referring to an entire preceding clause.\n   - \"Los países no alcanzaron un consenso, lo cual generó tensión.\"\n4. **Lo que** — also refers to an entire preceding clause, but more common in spoken register.\n   - \"Se firmó el acuerdo, lo que alegró a la comunidad internacional.\"\n\nWhen to use which:\n- Use \"el cual\" when there's ambiguity about the antecedent.\n- Use \"quien/quienes\" for people after prepositions (a quien, con quienes).\n- Use \"lo cual/lo que\" for entire clauses (\"lo cual\" is more formal).",
+      "examples": [
+        "La cumbre, a la cual asistieron más de 190 países, concluyó sin un acuerdo definitivo.",
+        "El embajador, quien negoció durante semanas, dimitió el viernes.",
+        "La comunidad internacional condenó la agresión, lo cual provocó nuevas sanciones.",
+        "Se establecieron los Objetivos de Desarrollo Sostenible, los cuales deben alcanzarse para 2030.",
+        "Los refugiados, a quienes se les negó el asilo, fueron devueltos a la frontera."
+      ]
+    },
+    {
+      "title": "Hypothetical Constructions with \"Si\" (Third Conditional)",
+      "content": "At B2.1, learners master the third conditional (past unreal/hypothetical) for discussing historical events, policy outcomes, and counterfactual scenarios — essential for diplomatic analysis.\n\nStructure: Si + pluperfect subjunctive (hubiera + past participle) + perfect conditional (habría + past participle)\n\nConjugation pattern:\n- Si hubiera habido más diálogo, no se habría producido la crisis.\n- Si los líderes hubieran actuado antes, habrían evitado el conflicto.\n- Si no se hubieran impuesto las sanciones, la situación habría empeorado.\n\nAdditional patterns:\n- Si + imperfect subjunctive + conditional (present/future hypothetical): \"Si se firmara el acuerdo, se acabarían las hostilidades.\"\n- Si + present indicative + future (real future): \"Si se aprueba la ley, entrará en vigor el próximo año.\"\n\nUsage in context:\n- Analyzing past diplomatic decisions: \"Si no hubiera habido mediación, la guerra habría continuado.\"\n- Proposing policy alternatives: \"Si se invirtiera más en educación, la desigualdad disminuiría.\"\n- Evaluating agreements: \"Si todos los países hubieran cumplido el tratado, el cambio climático no sería tan grave.\"",
+      "examples": [
+        "Si se hubieran respetado los derechos humanos, la crisis no habría escalado.",
+        "Si la ONU hubiera actuado antes, millones de vidas se habrían salvado.",
+        "Si no se hubiera firmado el acuerdo de paz, el conflicto seguiría vigente.",
+        "Si los países ricos hubieran cumplido su promesa de ayuda, la pobreza extrema habría disminuido.",
+        "Si se aplicaran las sanciones desde el principio, la situación podría haber sido diferente."
+      ]
+    }
+  ],
+  "pronunciation": [
+    {
+      "id": 1,
+      "target": "diplomacia",
+      "phonetic": "/di.plɔˈma.θja/ (Spain) or /di.plɔˈma.sja/ (Latin America)",
+      "note": "Stress on 'ma'. The 'c' is pronounced 'th' in Spain (castellano) and 's' in Latin America."
+    },
+    {
+      "id": 2,
+      "target": "soberanía",
+      "phonetic": "/so.beˈɾa.ni.a/",
+      "note": "Five syllables: so-be-RÁ-ni-a. The stress falls on the antepenultimate syllable. Diphthong 'ia' at the end is NOT broken — it stays as one syllable: so-be-RA-nia."
+    },
+    {
+      "id": 3,
+      "target": "globalización",
+      "phonetic": "/ɡlo.ba.liˈθa.θjon/ or /ɡlo.ba.liˈsa.θjon/",
+      "note": "Stress on 'ta'. The 'z' is 'th' in Spain, 's' in Latin America."
+    },
+    {
+      "id": 4,
+      "target": "conflicto",
+      "phonetic": "/konˈflik.to/",
+      "note": "Stress on 'flik'. Double consonants (ff, ll, rr, tt, zz) don't exist in Spanish. The 'c' before 'o' is always hard [k]."
+    },
+    {
+      "id": 5,
+      "target": "negociación",
+      "phonetic": "/ne.ɣo.θjaˈθjon/ or /ne.ɣo.saˈsjon/",
+      "note": "Stress on 'tion'. The 'c' before 'i' is 'th' (Spain) or 's' (LatAm). The accent mark indicates the stressed syllable."
+    },
+    {
+      "id": 6,
+      "target": "desarrollo",
+      "phonetic": "/de.saˈro.ʎo/ or /de.saˈro.jo/",
+      "note": "The 'll' is pronounced 'y' (yeísmo) in most of the Spanish-speaking world. Some regions (Rioplatense) use 'zh' sound."
+    },
+    {
+      "id": 7,
+      "target": "multilateralismo",
+      "phonetic": "/mul.ta.li.teˈɾal.is.mo/",
+      "note": "Stress on 'ter'. The 's' is always pronounced in Spanish, unlike in English."
+    },
+    {
+      "id": 8,
+      "target": "interdependencia",
+      "phonetic": "/in.teɾ.de.penˈθjen.θja/ or /in.teɾ.de.penˈsjen.sja/",
+      "note": "Stress on 'jen'. The 'c' before 'i' is 'th' or 's'. The 'n' before 'j' becomes 'ñ' sound."
+    },
+    {
+      "id": 9,
+      "target": "derechos humanos",
+      "phonetic": "/deˈɾe.tʃos ˈu.ma.nos/",
+      "note": "The 'ch' is always a hard [tʃ] sound (like English 'ch'). 'H' is always silent in Spanish."
+    },
+    {
+      "id": 10,
+      "target": "tregua",
+      "phonetic": "/ˈtre.ɣwa/",
+      "note": "Stress on 'tre'. The 'g' between vowels is a soft [ɣ] sound (like a soft English 'g' in 'go', but weaker). The 'ua' is a diphthong."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "multiple-choice",
+      "question": "What does 'la cumbre' mean?",
+      "options": ["The summit (meeting of world leaders)", "The summit (mountain peak)", "The summit (end of something)", "The summit (conference room)"],
+      "correct": 0,
+      "explanation": "\"La cumbre\" in a diplomatic context means the summit — a meeting between heads of state or government. While it can also mean a mountain peak, in international relations it always refers to the meeting."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Complete: \"Si los países ____ más cooperación, la crisis se habría resuelto más rápido.\" (If the countries had cooperated more, the crisis would have been resolved faster.)",
+      "options": ["hubieran ofrecido", "ofrecían", "ofrecieron", "ofrecerían"],
+      "correct": 0,
+      "explanation": "This is a third conditional (past unreal): \"Si + pluperfect subjunctive + perfect conditional.\" \"Hubieran ofrecido\" (pluperfect subjunctive) is the correct form after \"Si\" for a past hypothetical."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: \"____ (It is considered that) la cooperación internacional es fundamental para la paz global.\" (Use: se considera que)",
+      "correct": "Se considera que",
+      "explanation": "\"Se considera que\" is the se pasiva construction meaning \"It is considered that.\" This is a common formal/diplomatic expression."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What does \"la hegemonía\" mean in international relations?",
+      "options": ["Balance of power", "Dominance/supremacy of one state over others", "Multilateral cooperation", "Economic sanctions"],
+      "correct": 1,
+      "explanation": "\"La hegemonía\" = hegemony — the dominance or supremacy of one state over others. It's a key concept in geopolitics and international relations theory."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: \"Los delegados, ____ representaban a sus países, votaron a favor.\" (The delegates, who represented their countries, voted in favor. Use: quienes)",
+      "correct": "quienes",
+      "explanation": "\"Quienes\" is used for people after a comma (non-restrictive relative clause). \"Los delegados, quienes representaban a sus países, votaron a favor.\" — Since the subject is plural (los delegados), we use \"quienes\" not \"quien\"."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Which sentence correctly uses the imperfect subjunctive?",
+      "options": [
+        "Ojalá se lograra la paz entre las naciones.",
+        "Ojalá se lograba la paz entre las naciones.",
+        "Ojalá se logrará la paz entre las naciones.",
+        "Ojalá se logra la paz entre las naciones."
+      ],
+      "correct": 0,
+      "explanation": "\"Ojalá\" requires the subjunctive mood. \"Se lograra\" is the imperfect subjunctive (3rd person singular), expressing a wish about a hypothetical or uncertain outcome. \"Lograba\" is imperfect indicative, \"logrará\" is future, and \"logra\" is present indicative."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What does \"el sur global\" refer to?",
+      "options": [
+        "The southern hemisphere geographically",
+        "Developing countries, primarily in Africa, Latin America, and parts of Asia",
+        "Countries in the Southern Cone of South America",
+        "Tropical countries near the equator"
+      ],
+      "correct": 1,
+      "explanation": "\"El sur global\" (Global South) is a term for developing countries, primarily in Africa, Latin America, and parts of Asia. It's a geopolitical and economic term, not a strictly geographic one."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: \"La cumbre, a la ____ asistieron más de 190 países, concluyó sin un acuerdo.\" (The summit, to which more than 190 countries attended, concluded without an agreement. Use: cual)",
+      "correct": "cual",
+      "explanation": "\"A la cual\" is the formal relative pronoun after the preposition \"a.\" It refers to \"la cumbre\" (feminine singular). This is more precise than \"que\" when there could be ambiguity about the antecedent."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What does \"la cesación del fuego\" mean?",
+      "options": ["The ceasefire", "The surrender", "The peace treaty", "The withdrawal of troops"],
+      "correct": 0,
+      "explanation": "\"La cesación del fuego\" = ceasefire / cessation of hostilities. \"Cesación\" comes from the verb \"cesar\" (to cease). It's a temporary halt to fighting, distinct from a permanent peace treaty."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: \"Si la comunidad internacional ____ (actuar) antes, se habrían salvado miles de vidas.\" (If the international community had acted earlier, thousands of lives would have been saved.)",
+      "correct": "hubiera actuado",
+      "explanation": "Third conditional: \"Si + pluperfect subjunctive (hubiera actuado) + perfect conditional (se habrían salvado).\" The pluperfect subjunctive of \"actuar\" is \"hubiera actuado\" (hubiera + past participle)."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What does \"el multilateralismo\" mean?",
+      "options": [
+        "Economic policies that affect multiple countries",
+        "Cooperation among three or more states, typically through international institutions",
+        "The use of military force by multiple countries",
+        "A trade agreement between several nations"
+      ],
+      "correct": 1,
+      "explanation": "\"El multilateralismo\" = multilateralism — cooperation among three or more states, typically through international institutions like the UN, WTO, or EU. Its opposite is \"el unilateralismo\" (acting alone)."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Which construction is the \"se pasiva\"?",
+      "options": [
+        "Se han firmado los tratados internacionales.",
+        "Los tratados internacionales se firman.",
+        "Se firmó el acuerdo de paz.",
+        "All of the above"
+      ],
+      "correct": 3,
+      "explanation": "All three examples use \"se pasiva\": \"Se han firmado\" (present perfect), \"se firman\" (present), and \"se firmó\" (preterite). The se pasiva uses se + a conjugated verb (3rd person) to express an action without specifying who performs it."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: \"____ (It is recommended that) se adopten medidas urgentes para proteger los derechos humanos.\" (Use: Se recomienda que)",
+      "correct": "Se recomienda que",
+      "explanation": "\"Se recomienda que\" = \"It is recommended that.\" This triggers the subjunctive in the subordinate clause (\"se adopten\" — present subjunctive, 3rd person plural)."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What is the difference between \"lo cual\" and \"lo que\"?",
+      "options": [
+        "\"Lo cual\" is more formal; both refer to an entire preceding clause",
+        "\"Lo que\" is used only for people; \"lo cual\" for things",
+        "They are completely interchangeable with no difference",
+        "\"Lo cual\" is used in questions; \"lo que\" in statements"
+      ],
+      "correct": 0,
+      "explanation": "\"Lo cual\" and \"lo que\" both refer to an entire preceding clause (not just a noun). However, \"lo cual\" is more formal and is preferred in written/diplomatic Spanish. They are NOT completely interchangeable — \"lo cual\" is restricted to formal register."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What does \"el etnocentrismo\" mean?",
+      "options": [
+        "The belief that one's own culture is superior to others",
+        "The study of ancient cultures",
+        "The mixing of different cultural traditions",
+        "The preservation of indigenous languages"
+      ],
+      "correct": 0,
+      "explanation": "\"El etnocentrismo\" = ethnocentrism — judging another culture solely by the values and standards of one's own culture, with the belief that one's own culture is superior. Its opposite would be \"la tolerancia\" or \"la competencia intercultural\"."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: \"Si se ____ (firmar) el acuerdo, las hostilidades ____ (acabar) inmediatamente.\" (If the agreement were signed, the hostilities would end immediately.)",
+      "correct": "firmara / acabarían",
+      "explanation": "Second conditional (present/future hypothetical): \"Si + imperfect subjunctive (firmara) + conditional (acabarían).\" This expresses a hypothetical situation in the present or future — if the agreement were signed (but it hasn't been yet), the hostilities would end."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What does \"la balanza comercial\" mean?",
+      "options": [
+        "The trade balance (difference between exports and imports)",
+        "A balance scale used in markets",
+        "The currency exchange rate",
+        "The total value of goods in a country"
+      ],
+      "correct": 0,
+      "explanation": "\"La balanza comercial\" = trade balance. It measures the difference between a country's exports and imports. A positive trade balance (exports > imports) is \"superávit comercial\"; negative is \"déficit comercial\"."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: \"Los refugiados, a ____ se les negó el asilo, fueron devueltos a la frontera.\" (The refugees, to whom asylum was denied, were sent back to the border.)",
+      "correct": "quienes",
+      "explanation": "After the preposition \"a\" referring to people (los refugiados), we use \"quienes\": \"Los refugiados, a quienes se les negó el asilo...\" This is a non-restrictive relative clause (the information is additional, not essential to identifying the refugees)."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Which word means \"sustainable development\"?",
+      "options": ["El desarrollo sostenible", "El desarrollo permanente", "El desarrollo continuo", "El desarrollo infinito"],
+      "correct": 0,
+      "explanation": "\"El desarrollo sostenible\" = sustainable development. This is the official term used in the UN's Sustainable Development Goals (ODS — Objetivos de Desarrollo Sostenible). \"Sostenible\" comes from the verb \"sostener\" (to sustain/support)."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What does \"la tregua\" mean?",
+      "options": [
+        "A temporary truce or cessation of hostilities",
+        "A permanent peace treaty",
+        "A military alliance",
+        "A humanitarian corridor"
+      ],
+      "correct": 0,
+      "explanation": "\"La tregua\" = truce — a temporary pause in fighting. It is different from \"la paz\" (peace), which implies a permanent resolution. \"La tregua\" is often a step toward a lasting peace agreement."
+    }
+  ]
+}

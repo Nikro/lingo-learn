@@ -1,0 +1,254 @@
+{
+  "id": "advanced-travel",
+  "level": "a2-2",
+  "title": "Advanced Travel Scenarios",
+  "description": "Navigate complex travel situations including emergencies, accommodations, and transportation problems. Handle conversations about delays, lost luggage, medical issues, and complaints. Master the past subjunctive for hypothetical travel scenarios and conditional for polite requests.",
+  "vocabulary": [
+    {"id": 1, "target": "el retraso", "source": "delay", "gender": "m", "type": "noun"},
+    {"id": 2, "target": "el vuelo cancelado", "source": "cancelled flight", "gender": "m", "type": "phrase"},
+    {"id": 3, "target": "el equipaje perdido", "source": "lost luggage", "gender": "m", "type": "phrase"},
+    {"id": 4, "target": "la maleta", "source": "suitcase", "gender": "f", "type": "noun"},
+    {"id": 5, "target": "el equipaje de mano", "source": "carry-on luggage", "gender": "m", "type": "phrase"},
+    {"id": 6, "target": "la bolsa de mano", "source": "handbag", "gender": "f", "type": "noun"},
+    {"id": 7, "target": "facturar equipaje", "source": "to check luggage", "gender": "—", "type": "phrase"},
+    {"id": 8, "target": "la tarjeta de embarque", "source": "boarding pass", "gender": "f", "type": "noun"},
+    {"id": 9, "target": "el mostrador", "source": "check-in counter", "gender": "m", "type": "noun"},
+    {"id": 10, "target": "la puerta de embarque", "source": "boarding gate", "gender": "f", "type": "noun"},
+    {"id": 11, "target": "la aduana", "source": "customs", "gender": "f", "type": "noun"},
+    {"id": 12, "target": "el pasaporte", "source": "passport", "gender": "m", "type": "noun"},
+    {"id": 13, "target": "la visa", "source": "visa", "gender": "f", "type": "noun"},
+    {"id": 14, "target": "el visado", "source": "visa", "gender": "m", "type": "noun"},
+    {"id": 15, "target": "la frontera", "source": "border", "gender": "f", "type": "noun"},
+    {"id": 16, "target": "el control de pasaportes", "source": "passport control", "gender": "m", "type": "phrase"},
+    {"id": 17, "target": "el aeropuerto", "source": "airport", "gender": "m", "type": "noun"},
+    {"id": 18, "target": "la terminal", "source": "terminal", "gender": "f", "type": "noun"},
+    {"id": 19, "target": "el vuelo", "source": "flight", "gender": "m", "type": "noun"},
+    {"id": 20, "target": "el despegue", "source": "takeoff", "gender": "m", "type": "noun"},
+    {"id": 21, "target": "el aterrizaje", "source": "landing", "gender": "m", "type": "noun"},
+    {"id": 22, "target": "aterrizar", "source": "to land", "gender": "v", "type": "verb"},
+    {"id": 23, "target": "despegar", "source": "to take off", "gender": "v", "type": "verb"},
+    {"id": 24, "target": "escalear", "source": "to transit / connect", "gender": "v", "type": "verb"},
+    {"id": 25, "target": "la escala", "source": "layover / stopover", "gender": "f", "type": "noun"},
+    {"id": 26, "target": "directo", "source": "direct (nonstop)", "gender": "m", "type": "adj"},
+    {"id": 27, "target": "con escala", "source": "with a layover", "gender": "—", "type": "phrase"},
+    {"id": 28, "target": "la cancelación", "source": "cancellation", "gender": "f", "type": "noun"},
+    {"id": 29, "target": "reprogramar un vuelo", "source": "to reschedule a flight", "gender": "—", "type": "phrase"},
+    {"id": 30, "target": "el billete", "source": "ticket", "gender": "m", "type": "noun"},
+    {"id": 31, "target": "el boleto", "source": "ticket", "gender": "m", "type": "noun"},
+    {"id": 32, "target": "reservar", "source": "to book / reserve", "gender": "v", "type": "verb"},
+    {"id": 33, "target": "el alojamiento", "source": "accommodation", "gender": "m", "type": "noun"},
+    {"id": 34, "target": "el hotel", "source": "hotel", "gender": "m", "type": "noun"},
+    {"id": 35, "target": "la habitación", "source": "room", "gender": "f", "type": "noun"},
+    {"id": 36, "target": "la reserva", "source": "reservation", "gender": "f", "type": "noun"},
+    {"id": 37, "target": "hacer una reserva", "source": "to make a reservation", "gender": "—", "type": "phrase"},
+    {"id": 38, "target": "el check-in", "source": "check-in", "gender": "m", "type": "noun"},
+    {"id": 39, "target": "el check-out", "source": "check-out", "gender": "m", "type": "noun"},
+    {"id": 40, "target": "la recepción", "source": "reception", "gender": "f", "type": "noun"},
+    {"id": 41, "target": "el recepcionista", "source": "receptionist", "gender": "m", "type": "noun"},
+    {"id": 42, "target": "la llave de la habitación", "source": "room key", "gender": "f", "type": "phrase"},
+    {"id": 43, "target": "la cama individual", "source": "single bed", "gender": "f", "type": "phrase"},
+    {"id": 44, "target": "la cama doble", "source": "double bed", "gender": "f", "type": "phrase"},
+    {"id": 45, "target": "la habitación doble", "source": "double room", "gender": "f", "type": "phrase"},
+    {"id": 46, "target": "la suite", "source": "suite", "gender": "f", "type": "noun"},
+    {"id": 47, "target": "la vista al mar", "source": "sea view", "gender": "f", "type": "phrase"},
+    {"id": 48, "target": "desayuno incluido", "source": "breakfast included", "gender": "—", "type": "phrase"},
+    {"id": 49, "target": "la factura", "source": "invoice / bill", "gender": "f", "type": "noun"},
+    {"id": 50, "target": "la factura de la habitación", "source": "room bill", "gender": "f", "type": "phrase"},
+    {"id": 51, "target": "una queja", "source": "a complaint", "gender": "f", "type": "noun"},
+    {"id": 52, "target": "quejarse de", "source": "to complain about", "gender": "v", "type": "verb"},
+    {"id": 53, "target": "el problema", "source": "problem", "gender": "m", "type": "noun"},
+    {"id": 54, "target": "la avería", "source": "breakdown / malfunction", "gender": "f", "type": "noun"},
+    {"id": 55, "target": "el agua caliente", "source": "hot water", "gender": "f", "type": "phrase"},
+    {"id": 56, "target": "la calefacción", "source": "heating", "gender": "f", "type": "noun"},
+    {"id": 57, "target": "el aire acondicionado", "source": "air conditioning", "gender": "m", "type": "phrase"},
+    {"id": 58, "target": "la limpieza", "source": "cleaning", "gender": "f", "type": "noun"},
+    {"id": 59, "target": "cambiar de habitación", "source": "to change rooms", "gender": "—", "type": "phrase"},
+    {"id": 60, "target": "la emergencia", "source": "emergency", "gender": "f", "type": "noun"},
+    {"id": 61, "target": "emergencias", "source": "emergencies (number)", "gender": "f", "type": "noun"},
+    {"id": 62, "target": "la ambulancia", "source": "ambulance", "gender": "f", "type": "noun"},
+    {"id": 63, "target": "el hospital", "source": "hospital", "gender": "m", "type": "noun"},
+    {"id": 64, "target": "el médico", "source": "doctor (m)", "gender": "m", "type": "noun"},
+    {"id": 65, "target": "la médica", "source": "doctor (f)", "gender": "f", "type": "noun"},
+    {"id": 66, "target": "la farmacia", "source": "pharmacy", "gender": "f", "type": "noun"},
+    {"id": 67, "target": "la cruz verde", "source": "green cross (pharmacy sign)", "gender": "f", "type": "phrase"},
+    {"id": 68, "target": "la policía", "source": "police", "gender": "f", "type": "noun"},
+    {"id": 69, "target": "el comisaría", "source": "police station", "gender": "f", "type": "noun"},
+    {"id": 70, "target": "la embajada", "source": "embassy", "gender": "f", "type": "noun"},
+    {"id": 71, "target": "el consulado", "source": "consulate", "gender": "m", "type": "noun"},
+    {"id": 72, "target": "el seguro de viaje", "source": "travel insurance", "gender": "m", "type": "phrase"},
+    {"id": 73, "target": "la póliza", "source": "insurance policy", "gender": "f", "type": "noun"},
+    {"id": 74, "target": "el robo", "source": "theft / robbery", "gender": "m", "type": "noun"},
+    {"id": 75, "target": "el atraco", "source": "robbery (armed)", "gender": "m", "type": "noun"},
+    {"id": 76, "target": "denunciar un robo", "source": "to report a theft", "gender": "—", "type": "phrase"},
+    {"id": 77, "target": "el objeto robado", "source": "stolen item", "gender": "m", "type": "phrase"},
+    {"id": 78, "target": "el cartel", "source": "sign", "gender": "m", "type": "noun"},
+    {"id": 79, "target": "el mapa", "source": "map", "gender": "m", "type": "noun"},
+    {"id": 80, "target": "el itinerario", "source": "itinerary", "gender": "m", "type": "noun"},
+    {"id": 81, "target": "la guía turística", "source": "tourist guide (book)", "gender": "f", "type": "noun"},
+    {"id": 82, "target": "el guía turístico", "source": "tour guide (person)", "gender": "m", "type": "noun"},
+    {"id": 83, "target": "la atracción turística", "source": "tourist attraction", "gender": "f", "type": "phrase"},
+    {"id": 84, "target": "el monumento", "source": "monument", "gender": "m", "type": "noun"},
+    {"id": 85, "target": "el museo", "source": "museum", "gender": "m", "type": "noun"},
+    {"id": 86, "target": "la entrada", "source": "entrance / ticket", "gender": "f", "type": "noun"},
+    {"id": 87, "target": "el precio de entrada", "source": "entrance fee", "gender": "m", "type": "phrase"},
+    {"id": 88, "target": "la entrada gratuita", "source": "free entry", "gender": "f", "type": "phrase"},
+    {"id": 89, "target": "la guía", "source": "guide (person)", "gender": "f", "type": "noun"},
+    {"id": 90, "target": "hacer turismo", "source": "to do tourism / sightsee", "gender": "—", "type": "phrase"},
+    {"id": 91, "target": "la mochila", "source": "backpack", "gender": "f", "type": "noun"},
+    {"id": 92, "target": "la brújula", "source": "compass", "gender": "f", "type": "noun"},
+    {"id": 93, "target": "la brújula", "source": "compass", "gender": "f", "type": "noun"},
+    {"id": 94, "target": "izquierda", "source": "left", "gender": "f", "type": "noun"},
+    {"id": 95, "target": "derecha", "source": "right", "gender": "f", "type": "noun"},
+    {"id": 96, "target": "todo recto", "source": "straight ahead", "gender": "—", "type": "phrase"},
+    {"id": 97, "target": "a la vuelta de la esquina", "source": "around the corner", "gender": "—", "type": "phrase"},
+    {"id": 98, "target": "enfrente de", "source": "opposite / in front of", "gender": "—", "type": "phrase"},
+    {"id": 99, "target": "al lado de", "source": "next to", "gender": "—", "type": "phrase"},
+    {"id": 100, "target": "cerca de / lejos de", "source": "near / far from", "gender": "—", "type": "phrase"}
+  ],
+  "grammar": [
+    {
+      "title": "Condicional for Polite Requests",
+      "content": "The conditional tense is used to make polite requests, especially in service situations:\n\nRegular endings (add to infinitive):\n-AR, -ER, -IR: -ía, -ías, -ía, -íamos, -íais, -ían\n\nPedir → Pediría (I would ask)\nQuerer → Querría (I would want)\nPoder → Podría (I could)\nNecesitar → Necesitaría (I would need)\nTener → Tendría (I would have)\n\nPolite phrases:\n\n¿Podría ayudarme, por favor?\n(I could help you, please? → Could you help me, please?)\n\nQuerría reservar una habitación.\n(I would want to book a room.)\n\n¿Sería posible cambiar de vuelo?\n(Would it be possible to change flights?)\n\nMe gustaría saber la hora del check-out.\n(I would like to know the check-out time.)\n\nNote: Many conditional forms are irregular — they use the same stem as the future tense:\n\ntener → tendr- (tendría)\nvenir → vendr- (vendría)\npoder → podr- (podría)\nquerer → querr- (querría)\nhacer → har- (haría)\ndecir → dir- (diría)\nsaber → sabr- (sabría)",
+      "examples": [
+        "¿Podría darme una habitación con vista al mar? (Could you give me a room with a sea view?)",
+        "Me gustaría cambiar la fecha de la reserva. (I would like to change the reservation date.)",
+        "¿Sería posible facturar esta maleta? (Would it be possible to check this suitcase?)",
+        "¿Tendría información sobre el itinerario del autobús? (Would you have information about the bus schedule?)",
+        "Querría hablar con el gerente. (I would like to speak with the manager.)"
+      ]
+    },
+    {
+      "title": "Pretérito Imperfecto de Subjuntivo for Hypotheticals",
+      "content": "The imperfect subjunctive is used for hypothetical situations, especially in travel contexts. It has two forms (both are correct and interchangeable):\n\n-RA form (more common): -ra, -ras, -ra, -ramos, -rais, -ran\n\n-SE form: -se, -ses, -se, -semos, -seis, -sen\n\nFrom the infinitive stem (3rd person plural preterite):\n\nhablaron → hablar- → hablara / hablase\ncomieron → comie- → comiera / comiese\nvivieron → vivie- → viviera / viviese\n\nCommon irregular stems:\n\nser → fuera / fuese\nir → fuera / fuese\ntener → tuviera / tuviese\ndecir → dijera / dijese\npoder → pudiera / pudiese\nhacer → hiciera / hiciese\nsaber → supiera / supiese\nquerer → quisiera / quisiese\nestar → estuviera / estuviese\n\nUsage in travel:\n\nSi tuviera más tiempo, visitaría más museos.\n(If I had more time, I would visit more museums.)\n\nQuisiera que me cambiara de habitación. (I would like you to change my room.)\n\nSi hubiera un problema, llamaría a la embajada.\n(If there were a problem, I would call the embassy.)\n\nOjalá (que) el vuelo no se retrasara más. (I hope the flight doesn't get delayed any more.)\n\nNote: After 'ojalá' and 'ojalá que', use imperfect subjunctive to express hope for something uncertain.",
+      "examples": [
+        "Si no hubiera perdido el equipaje, estaría más tranquilo. (If I hadn't lost my luggage, I would be calmer.)",
+        "Quisiera que el hotel me ofreciera un descuento. (I would like the hotel to offer me a discount.)",
+        "Ojalá encontraran mi pasaporte. (I hope they find my passport.)",
+        "Si hubiera sabido que hacía frío, habría llevado más ropa. (If I had known it was cold, I would have brought more clothes.)",
+        "Me gustaría que me explicara el itinerario completo. (I would like you to explain the full itinerary to me.)"
+      ]
+    },
+    {
+      "title": "Complex Relative Clauses with Quien, Donde, Donde",
+      "content": "Advanced relative pronouns for more sophisticated descriptions while travelling:\n\n1. Quien / Quienes (who, whom) — used after prepositions and for specific people\n   The person I spoke to → La persona con quien hablé\n   My friends, who are from Madrid → Mis amigos, quienes son de Madrid\n\n2. Donde (where) — for places\n   The hotel where I stayed → El hotel donde me alojé\n   The city where I arrived → La ciudad donde llegué\n\n3. Donde (where) with prepositions: en donde, de donde, por donde\n   The town from which we came → El pueblo de donde venimos\n   The road by which we traveled → El camino por donde viajamos\n\n4. Lo que / Lo cual (what, which) — for abstract ideas or non-specific references\n   Lo que más me gustó fue la comida. (What I liked most was the food.)\n   El vuelo, lo cual me sorprendió, llegó tarde. (The flight, which surprised me, arrived late.)\n\n5. El cual / La cual / Los cuales / Las cuales — formal alternative to 'que', especially after prepositions\n   El hotel, en el cual nos alojamos, era perfecto. (The hotel, in which we stayed, was perfect.)\n\n6. Cuyo / Cuya / Cuyos / Cuyas (whose, which belongs to)\n   El guía cuyo mapa perdimos... (The guide whose map we lost...)\n   La ciudad cuyas calles exploramos... (The city whose streets we explored...)\n\nExamples:\n\nLa agencia de viajes con la que reservé estaba muy organizada.\nThe travel agency with which I booked was very organized.\n\nEl aeropuerto donde aterrizamos tiene una terminal moderna.\nThe airport where we landed has a modern terminal.\n\nLa ciudad de donde vengo está muy lejos.\nThe city I come from is very far away.",
+      "examples": [
+        "El hotel en el que nos alojamos tenía una vista increíble. (The hotel where we stayed had an incredible view.)",
+        "El guía, quien nos acompañó toda la semana, era muy amable. (The guide, who accompanied us all week, was very kind.)",
+        "Las atracciones cuyo precio era alto no las visitamos. (The attractions whose price was high, we didn't visit.)",
+        "Lo que más necesitaba era un descanso. (What I needed most was a rest.)",
+        "La persona a quien llamamos de la embajada fue muy servicial. (The person we called from the embassy was very helpful.)"
+      ]
+    }
+  ],
+  "pronunciation": [
+    {
+      "title": "Stress Patterns in Travel Vocabulary",
+      "content": "Spanish pronunciation rules for travel-related vocabulary:\n\n1. Words ending in a vowel, -n, or -s are stressed on the second-to-last syllable:\n   la ma-ke-TA (but this is the exception — actually 'maleta' ends in -a so it IS stressed on the penult: ma-LE-ta)\n   Correct: ma-LE-ta (penult stress, ends in -a)\n   pa-PA-soft (stress on -soft because it ends in consonant not -n or -s)\n   ae-ropUER-to (stress on -uer-to because it ends in -o, so penult: ae-ro-PUEr-to... actually:\n   a-e-ro-PUER-to — the written accent on 'ue' is because it's a diphthong, the stress falls on 'puer' which is the penult, so NO accent mark needed. But the word IS written: aeropuerto. No accent because it follows the default rule.)\n\nLet me clarify with correct examples:\n\nPalabras agudas (stress on LAST syllable, marked if ending in consonant other than -n/-s):\n   el avión (stress: a-VIÓN, has accent because ends in -n)\n   el avión (a-VIÓN)\n   el equipaje (e-qui-PA-je, no accent — ends in -e)\n\nPalabras llanas/gravas (stress on penult, marked if NOT ending in vowel/-n/-s):\n   la maleta (ma-LE-ta, no accent — ends in -a)\n   la habitación (ha- bi-TA-ción... actually: ha-bi-TA-ción — wait, 'habitación' has accent on -ción: ha-bi-TA-cIÓN... no:\n   ha-bi-TA-ción → stress on 'ta'? No. Written accent on 'ó' → stress on 'ción': ha-bi-ta-CIÓN\n   This is aguda (last syllable) because of accent. Ends in -n → needs accent. Correct: ha-bi-ta-CIÓN.\n\nPalabras esdrújulas (stress on antepenult, ALWAYS have an accent):\n   el teléfono (te-LÉ-fo-no → no wait: te-LÉ-fo-no is llana... esdrújula would be:\n   la farmacéutica (far-ma-CÉ-u-ti-ca → actually: far-ma-CEU-ti-ca... this is tricky:\n   Let me use clear examples:\n\n   es-drú-ju-la (es-DROO-joo-lah) — always accented\n   el aeropuerto (ae-ro-PUEHR-to) — llana, no accent\n   la ambulancia (am-boo-LAHN-see-ah) — llana, no accent\n   el médico (meh-DEE-koh) — llana, no accent\n\nKey travel pronunciation points:\n\n2. The letter 'h' is ALWAYS silent:\n   el hotel → eh-OH-tel\n   la habitación → ah-bee-tah-see-OHN\n   el hotelero → eh-oh-leh-ROH\n\n3. 'll' as in 'pollo' (y sound in most of Spain, 'll' sound in parts of South America):\n   la llave → yah-beh / yeh-beh\n   la calle → cah-yeh / cah-yeh\n\n4. 'ñ' sound (ny as in 'canyon'):\n   el español → eh-spah-NYOL\n   la piña → pee-NYAH\n\n5. Double consonant clusters:\n   el aeropuerto → ae-ro-PUEHR-to (the 'puer' sounds like 'pweh' — ue is a diphthong)\n   la aduana → ah-oo-AH-nah\n\n6. 'c' before e/i sounds like 'th' in Spain, 's' in Latin America:\n   la ciudad → thoo-DAHD / soo-DAHD\n   el centro → TSEN-troh / SEN-troh",
+      "examples": [
+        "avión = ah-BYON (stress on last syllable, accent mark indicates this)",
+        "maleta = mah-LEH-tah (stress on middle syllable, no accent — follows default rule)",
+        "farmacia = far-MAH-see-ah (stress on penult, no accent)",
+        "teléfono = te-LÉ-fo-no (esdrújula, always has accent)",
+        "hotel = oh-THEL (h is silent, l is clear)"
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "multiple-choice",
+      "question": "Which is the conditional form of 'poder' in '___ usted ayudarme?' (Could you help me?)",
+      "options": [
+        "podía",
+        "podría",
+        "podré",
+        "podía"
+      ],
+      "correct": 1,
+      "explanation": "Podría is the conditional form of poder (I could / Would you be able to). It's used for polite requests. 'Podía' is imperfect indicative (I was able to), 'podré' is future (I will be able to)."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete with the imperfect subjunctive of 'tener': 'Si ___ más tiempo, visitaría más museos.' (If I had more time, I would visit more museums.)",
+      "correct": "tuviera",
+      "explanation": "'Tuviera' is the imperfect subjunctive of 'tener' (yo form). After 'si' expressing a hypothetical condition, use imperfect subjunctive. Note: 'si tuviera' is NOT followed by conditional in Spanish — it uses 'would' in English but 'visitaría' (conditional) in Spanish."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What is the correct relative pronoun? 'El hotel ___ reservamos era perfecto.' (The hotel where we booked was perfect.)",
+      "options": [
+        "quien",
+        "donde",
+        "cuyo",
+        "cual"
+      ],
+      "correct": 1,
+      "explanation": "Where is 'donde' — the relative adverb for places. 'El hotel donde reservamos era perfecto' = The hotel where we booked was perfect. 'Quien' is for people, 'cuyo' means 'whose', 'cual' is a relative pronoun for things but doesn't indicate place."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: '___ me gustaría saber el horario del autobús. (I would like to know the bus schedule.)'",
+      "correct": "Me",
+      "explanation": "'Me gustaría' = I would like. This is the conditional of 'gustar' used for polite requests. The subject is 'me' (to me) and the verb is 'gustaría' (would please)."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What does 'facturar equipaje' mean?",
+      "options": [
+        "To check luggage",
+        "To steal luggage",
+        "To pack luggage",
+        "To lose luggage"
+      ],
+      "correct": 0,
+      "explanation": "'Facturar equipaje' means to check luggage (at the airport). 'Facturar' comes from 'factura' (invoice/receipt) — you get a baggage receipt when you check your luggage."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Which word means 'emergency' in Spanish?",
+      "options": [
+        "la urgencia",
+        "la emergencia",
+        "el accidente",
+        "el peligro"
+      ],
+      "correct": 1,
+      "explanation": "'La emergencia' is the direct translation of 'emergency.' Note: 'la urgencia' is used for medical emergencies specifically. 'El accidente' means accident. 'El peligro' means danger. The emergency number in most Spanish-speaking countries is 112."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete the conditional: '¿Sería posible que me ___ de habitación?' (Would it be possible that you change my room?) — use imperfect subjunctive of 'cambiar'",
+      "correct": "cambiaran / cambiara / cambiase / cambiaran",
+      "explanation": "Both 'cambiara' and 'cambiase' are correct imperfect subjunctive forms of 'cambiar' (they form of the subjunctive). The -ra form is more common in everyday speech. The sentence uses the subjunctive because 'sería posible que' triggers the subjunctive mood."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "How do you say 'boarding pass' in Spanish?",
+      "options": [
+        "el pasaje",
+        "la tarjeta de embarque",
+        "el boleto",
+        "el billete"
+      ],
+      "correct": 1,
+      "explanation": "'La tarjeta de embarque' is the boarding pass. 'El pasaje', 'el boleto', and 'el billete' all refer to tickets in general but not specifically the boarding pass shown at the gate."
+    },
+    {
+      "type": "matching",
+      "question": "Match the Spanish travel terms with their English meanings:\n\n1. el retraso\n2. la cancelación\n3. el equipaje perdido\n4. la puerta de embarque",
+      "options": [
+        "delay / cancellation / lost luggage / boarding gate",
+        "boarding gate / lost luggage / delay / cancellation",
+        "cancellation / delay / boarding gate / lost luggage",
+        "lost luggage / boarding gate / cancellation / delay"
+      ],
+      "correct": 0,
+      "explanation": "el retraso = delay; la cancelación = cancellation; el equipaje perdido = lost luggage; la puerta de embarque = boarding gate. These are the most common terms you'll encounter at the airport."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete with the correct relative pronoun: 'La persona ___ habló en la embajada fue muy amable.' (The person I spoke to at the embassy was very kind.)",
+      "correct": "con quien",
+      "explanation": "'Con quien' = 'with whom.' When the verb requires a preposition (hablar CON alguien), use 'quien' rather than 'que' in formal/written Spanish. 'La persona con quien hablé' = The person with whom I spoke."
+    }
+  ]
+}

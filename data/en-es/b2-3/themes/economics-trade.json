@@ -1,0 +1,1177 @@
+{
+  "id": "economics-trade",
+  "level": "b2-3",
+  "title": "Advanced Economics & Trade",
+  "description": "Vocabulary, grammar, pronunciation, and exercises about international economics, trade policy, global markets, and financial systems.",
+  "vocabulary": [
+    {
+      "id": 1,
+      "target": "la economía internacional",
+      "source": "international economics",
+      "gender": "f",
+      "type": "noun phrase"
+    },
+    {
+      "id": 2,
+      "target": "el comercio internacional",
+      "source": "international trade",
+      "gender": "m",
+      "type": "noun phrase"
+    },
+    {
+      "id": 3,
+      "target": "la política comercial",
+      "source": "trade policy",
+      "gender": "f",
+      "type": "noun phrase"
+    },
+    {
+      "id": 4,
+      "target": "el mercado global",
+      "source": "global market",
+      "gender": "m",
+      "type": "noun phrase"
+    },
+    {
+      "id": 5,
+      "target": "el sistema financiero",
+      "source": "financial system",
+      "gender": "m",
+      "type": "noun phrase"
+    },
+    {
+      "id": 6,
+      "target": "la economía global",
+      "source": "global economy",
+      "gender": "f",
+      "type": "noun phrase"
+    },
+    {
+      "id": 7,
+      "target": "la economía emergente",
+      "source": "emerging economy",
+      "gender": "f",
+      "type": "noun phrase"
+    },
+    {
+      "id": 8,
+      "target": "la economía desarrollada",
+      "source": "developed economy",
+      "gender": "f",
+      "type": "noun phrase"
+    },
+    {
+      "id": 9,
+      "target": "la economía en desarrollo",
+      "source": "developing economy",
+      "gender": "f",
+      "type": "noun phrase"
+    },
+    {
+      "id": 10,
+      "target": "el país en desarrollo",
+      "source": "developing country",
+      "gender": "m",
+      "type": "noun phrase"
+    },
+    {
+      "id": 11,
+      "target": "el país desarrollado",
+      "source": "developed country",
+      "gender": "m",
+      "type": "noun phrase"
+    },
+    {
+      "id": 12,
+      "target": "la balanza comercial",
+      "source": "trade balance",
+      "gender": "f",
+      "type": "noun phrase"
+    },
+    {
+      "id": 13,
+      "target": "el déficit comercial",
+      "source": "trade deficit",
+      "gender": "m",
+      "type": "noun phrase"
+    },
+    {
+      "id": 14,
+      "target": "el superávit comercial",
+      "source": "trade surplus",
+      "gender": "m",
+      "type": "noun phrase"
+    },
+    {
+      "id": 15,
+      "target": "la exportación",
+      "source": "export",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 16,
+      "target": "la importación",
+      "source": "import",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 17,
+      "target": "el arancel",
+      "source": "tariff",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 18,
+      "target": "la cuota de importación",
+      "source": "import quota",
+      "gender": "f",
+      "type": "noun phrase"
+    },
+    {
+      "id": 19,
+      "target": "el subsidio",
+      "source": "subsidy",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 20,
+      "target": "la barrera comercial",
+      "source": "trade barrier",
+      "gender": "f",
+      "type": "noun phrase"
+    },
+    {
+      "id": 21,
+      "target": "el tratado de libre comercio",
+      "source": "free trade agreement",
+      "gender": "m",
+      "type": "noun phrase"
+    },
+    {
+      "id": 22,
+      "target": "la zona de libre comercio",
+      "source": "free trade zone",
+      "gender": "f",
+      "type": "noun phrase"
+    },
+    {
+      "id": 23,
+      "target": "la unión aduanera",
+      "source": "customs union",
+      "gender": "f",
+      "type": "noun phrase"
+    },
+    {
+      "id": 24,
+      "target": "el mercado común",
+      "source": "common market",
+      "gender": "m",
+      "type": "noun phrase"
+    },
+    {
+      "id": 25,
+      "target": "la Organización Mundial del Comercio",
+      "source": "World Trade Organization",
+      "gender": "f",
+      "type": "noun phrase"
+    },
+    {
+      "id": 26,
+      "target": "la OMC",
+      "source": "WTO",
+      "gender": "f",
+      "type": "abbreviation"
+    },
+    {
+      "id": 27,
+      "target": "el Fondo Monetario Internacional",
+      "source": "International Monetary Fund",
+      "gender": "m",
+      "type": "noun phrase"
+    },
+    {
+      "id": 28,
+      "target": "el FMI",
+      "source": "IMF",
+      "gender": "m",
+      "type": "abbreviation"
+    },
+    {
+      "id": 29,
+      "target": "el Banco Mundial",
+      "source": "World Bank",
+      "gender": "m",
+      "type": "proper noun"
+    },
+    {
+      "id": 30,
+      "target": "el Banco Central",
+      "source": "Central Bank",
+      "gender": "m",
+      "type": "proper noun"
+    },
+    {
+      "id": 31,
+      "target": "la política monetaria",
+      "source": "monetary policy",
+      "gender": "f",
+      "type": "noun phrase"
+    },
+    {
+      "id": 32,
+      "target": "la política fiscal",
+      "source": "fiscal policy",
+      "gender": "f",
+      "type": "noun phrase"
+    },
+    {
+      "id": 33,
+      "target": "el tipo de interés",
+      "source": "interest rate",
+      "gender": "m",
+      "type": "noun phrase"
+    },
+    {
+      "id": 34,
+      "target": "la política de tipos de interés",
+      "source": "interest rate policy",
+      "gender": "f",
+      "type": "noun phrase"
+    },
+    {
+      "id": 35,
+      "target": "el tipo de cambio",
+      "source": "exchange rate",
+      "gender": "m",
+      "type": "noun phrase"
+    },
+    {
+      "id": 36,
+      "target": "la flotación cambiaria",
+      "source": "floating exchange rate",
+      "gender": "f",
+      "type": "noun phrase"
+    },
+    {
+      "id": 37,
+      "target": "el tipo de cambio fijo",
+      "source": "fixed exchange rate",
+      "gender": "m",
+      "type": "noun phrase"
+    },
+    {
+      "id": 38,
+      "target": "la devaluación",
+      "source": "devaluation",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 39,
+      "target": "la revaluación",
+      "source": "revaluation",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 40,
+      "target": "la apreciación",
+      "source": "appreciation",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 41,
+      "target": "la depreciación",
+      "source": "depreciation",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 42,
+      "target": "la reserva de divisas",
+      "source": "foreign exchange reserves",
+      "gender": "f",
+      "type": "noun phrase"
+    },
+    {
+      "id": 43,
+      "target": "el capital",
+      "source": "capital",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 44,
+      "target": "la inversión extranjera directa",
+      "source": "foreign direct investment",
+      "gender": "f",
+      "type": "noun phrase"
+    },
+    {
+      "id": 45,
+      "target": "el flujo de capitales",
+      "source": "capital flow",
+      "gender": "m",
+      "type": "noun phrase"
+    },
+    {
+      "id": 46,
+      "target": "la fuga de capitales",
+      "source": "capital flight",
+      "gender": "f",
+      "type": "noun phrase"
+    },
+    {
+      "id": 47,
+      "target": "la economía informal",
+      "source": "informal economy",
+      "gender": "f",
+      "type": "noun phrase"
+    },
+    {
+      "id": 48,
+      "target": "la economía sumergida",
+      "source": "shadow economy",
+      "gender": "f",
+      "type": "noun phrase"
+    },
+    {
+      "id": 49,
+      "target": "el desarrollo sostenible",
+      "source": "sustainable development",
+      "gender": "m",
+      "type": "noun phrase"
+    },
+    {
+      "id": 50,
+      "target": "la ayuda al desarrollo",
+      "source": "development aid",
+      "gender": "f",
+      "type": "noun phrase"
+    },
+    {
+      "id": 51,
+      "target": "la deuda externa",
+      "source": "external debt",
+      "gender": "f",
+      "type": "noun phrase"
+    },
+    {
+      "id": 52,
+      "target": "la deuda soberana",
+      "source": "sovereign debt",
+      "gender": "f",
+      "type": "noun phrase"
+    },
+    {
+      "id": 53,
+      "target": "el programa de ajuste estructural",
+      "source": "structural adjustment program",
+      "gender": "m",
+      "type": "noun phrase"
+    },
+    {
+      "id": 54,
+      "target": "la globalización económica",
+      "source": "economic globalization",
+      "gender": "f",
+      "type": "noun phrase"
+    },
+    {
+      "id": 55,
+      "target": "el proteccionismo",
+      "source": "protectionism",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 56,
+      "target": "el libre comercio",
+      "source": "free trade",
+      "gender": "m",
+      "type": "noun phrase"
+    },
+    {
+      "id": 57,
+      "target": "la desglobalización",
+      "source": "deglobalization",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 58,
+      "target": "la regionalización económica",
+      "source": "economic regionalization",
+      "gender": "f",
+      "type": "noun phrase"
+    },
+    {
+      "id": 59,
+      "target": "la integración económica",
+      "source": "economic integration",
+      "gender": "f",
+      "type": "noun phrase"
+    },
+    {
+      "id": 60,
+      "target": "la cooperación económica",
+      "source": "economic cooperation",
+      "gender": "f",
+      "type": "noun phrase"
+    },
+    {
+      "id": 61,
+      "target": "la crisis financiera",
+      "source": "financial crisis",
+      "gender": "f",
+      "type": "noun phrase"
+    },
+    {
+      "id": 62,
+      "target": "la crisis económica",
+      "source": "economic crisis",
+      "gender": "f",
+      "type": "noun phrase"
+    },
+    {
+      "id": 63,
+      "target": "la recesión económica",
+      "source": "economic recession",
+      "gender": "f",
+      "type": "noun phrase"
+    },
+    {
+      "id": 64,
+      "target": "la estanflación",
+      "source": "stagflation",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 65,
+      "target": "la hiperinflación",
+      "source": "hyperinflation",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 66,
+      "target": "el crecimiento económico",
+      "source": "economic growth",
+      "gender": "m",
+      "type": "noun phrase"
+    },
+    {
+      "id": 67,
+      "target": "la estancamiento económico",
+      "source": "economic stagnation",
+      "gender": "f",
+      "type": "noun phrase"
+    },
+    {
+      "id": 68,
+      "target": "la desigualdad económica",
+      "source": "economic inequality",
+      "gender": "f",
+      "type": "noun phrase"
+    },
+    {
+      "id": 69,
+      "target": "la pobreza extrema",
+      "source": "extreme poverty",
+      "gender": "f",
+      "type": "noun phrase"
+    },
+    {
+      "id": 70,
+      "target": "el PIB per cápita",
+      "source": "GDP per capita",
+      "gender": "m",
+      "type": "noun phrase"
+    },
+    {
+      "id": 71,
+      "target": "el índice de desarrollo humano",
+      "source": "human development index",
+      "gender": "m",
+      "type": "noun phrase"
+    },
+    {
+      "id": 72,
+      "target": "el IDH",
+      "source": "HDI",
+      "gender": "m",
+      "type": "abbreviation"
+    },
+    {
+      "id": 73,
+      "target": "el salario mínimo",
+      "source": "minimum wage",
+      "gender": "m",
+      "type": "noun phrase"
+    },
+    {
+      "id": 74,
+      "target": "el salario máximo",
+      "source": "maximum wage",
+      "gender": "m",
+      "type": "noun phrase"
+    },
+    {
+      "id": 75,
+      "target": "la brecha salarial",
+      "source": "wage gap",
+      "gender": "f",
+      "type": "noun phrase"
+    },
+    {
+      "id": 76,
+      "target": "la movilidad social",
+      "source": "social mobility",
+      "gender": "f",
+      "type": "noun phrase"
+    },
+    {
+      "id": 77,
+      "target": "la redistribución de la renta",
+      "source": "income redistribution",
+      "gender": "f",
+      "type": "noun phrase"
+    },
+    {
+      "id": 78,
+      "target": "el impuesto progresivo",
+      "source": "progressive tax",
+      "gender": "m",
+      "type": "noun phrase"
+    },
+    {
+      "id": 79,
+      "target": "el impuesto regresivo",
+      "source": "regressive tax",
+      "gender": "m",
+      "type": "noun phrase"
+    },
+    {
+      "id": 80,
+      "target": "la fiscalidad",
+      "source": "taxation",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 81,
+      "target": "la evasión fiscal",
+      "source": "tax evasion",
+      "gender": "f",
+      "type": "noun phrase"
+    },
+    {
+      "id": 82,
+      "target": "el paraíso fiscal",
+      "source": "tax haven",
+      "gender": "m",
+      "type": "noun phrase"
+    },
+    {
+      "id": 83,
+      "target": "la competencia fiscal",
+      "source": "tax competition",
+      "gender": "f",
+      "type": "noun phrase"
+    },
+    {
+      "id": 84,
+      "target": "la economía verde",
+      "source": "green economy",
+      "gender": "f",
+      "type": "noun phrase"
+    },
+    {
+      "id": 85,
+      "target": "la economía circular",
+      "source": "circular economy",
+      "gender": "f",
+      "type": "noun phrase"
+    },
+    {
+      "id": 86,
+      "target": "la economía del conocimiento",
+      "source": "knowledge economy",
+      "gender": "f",
+      "type": "noun phrase"
+    },
+    {
+      "id": 87,
+      "target": "la economía digital",
+      "source": "digital economy",
+      "gender": "f",
+      "type": "noun phrase"
+    },
+    {
+      "id": 88,
+      "target": "la economía compartida",
+      "source": "sharing economy",
+      "gender": "f",
+      "type": "noun phrase"
+    },
+    {
+      "id": 89,
+      "target": "el sector primario",
+      "source": "primary sector",
+      "gender": "m",
+      "type": "noun phrase"
+    },
+    {
+      "id": 90,
+      "target": "el sector secundario",
+      "source": "secondary sector",
+      "gender": "m",
+      "type": "noun phrase"
+    },
+    {
+      "id": 91,
+      "target": "el sector terciario",
+      "source": "tertiary sector",
+      "gender": "m",
+      "type": "noun phrase"
+    },
+    {
+      "id": 92,
+      "target": "la industria",
+      "source": "industry",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 93,
+      "target": "la manufactura",
+      "source": "manufacturing",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 94,
+      "target": "el sector agrícola",
+      "source": "agricultural sector",
+      "gender": "m",
+      "type": "noun phrase"
+    },
+    {
+      "id": 95,
+      "target": "la agricultura",
+      "source": "agriculture",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 96,
+      "target": "la ganadería",
+      "source": "livestock farming",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 97,
+      "target": "la pesca",
+      "source": "fishing",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 98,
+      "target": "la minería",
+      "source": "mining",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 99,
+      "target": "la energía renovable",
+      "source": "renewable energy",
+      "gender": "f",
+      "type": "noun phrase"
+    },
+    {
+      "id": 100,
+      "target": "en términos comerciales",
+      "source": "in trade terms",
+      "gender": "—",
+      "type": "phrase"
+    }
+  ],
+  "grammar": [
+    {
+      "id": 1,
+      "title": "Conditional Perfect for Economic Hypotheticals",
+      "description": "Using conditional perfect to discuss what would have happened in economic scenarios.",
+      "examples": [
+        {
+          "sentence": "Si no se hubiera aplicado la política monetaria, la crisis habría sido peor.",
+          "translation": "If monetary policy had not been applied, the crisis would have been worse."
+        },
+        {
+          "sentence": "Los países en desarrollo habrían crecido más si hubieran tenido mejor acceso al capital.",
+          "translation": "Developing countries would have grown more if they had better access to capital."
+        },
+        {
+          "sentence": "El comercio internacional habría disminuido si se hubieran impuesto más aranceles.",
+          "translation": "International trade would have decreased if more tariffs had been imposed."
+        },
+        {
+          "sentence": "La inflación habría sido controlada si el banco central hubiera actuado antes.",
+          "translation": "Inflation would have been controlled if the central bank had acted earlier."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Subjunctive in Economic Predictions and Policy",
+      "description": "Using the subjunctive after expressions of economic prediction and policy recommendation.",
+      "examples": [
+        {
+          "sentence": "Es probable que el crecimiento económico disminuya el próximo año.",
+          "translation": "It is likely that economic growth will decrease next year."
+        },
+        {
+          "sentence": "Los economistas esperan que el gobierno implemente reformas fiscales.",
+          "translation": "Economists expect the government to implement tax reforms."
+        },
+        {
+          "sentence": "No es seguro que la deuda externa sea sostenible a largo plazo.",
+          "translation": "It is not certain that external debt will be sustainable long-term."
+        },
+        {
+          "sentence": "Es fundamental que se reduzca la desigualdad económica.",
+          "translation": "It is essential that economic inequality be reduced."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Advanced Connectors for Trade Analysis",
+      "description": "Complex connectors for structured economic and trade writing.",
+      "examples": [
+        {
+          "sentence": "Si bien el libre comercio beneficia a las economías desarrolladas, no siempre favorece a las economías emergentes.",
+          "translation": "While free trade benefits developed economies, it does not always favor emerging economies."
+        },
+        {
+          "sentence": "Por un lado, la globalización ha generado crecimiento; por otro, ha aumentado la desigualdad.",
+          "translation": "On one hand, globalization has generated growth; on the other, it has increased inequality."
+        },
+        {
+          "sentence": "A pesar de los tratados de libre comercio, las barreras no arancelarias continúan existiendo.",
+          "translation": "Despite free trade agreements, non-tariff barriers continue to exist."
+        },
+        {
+          "sentence": "En consecuencia, la política comercial debe reequilibrarse.",
+          "translation": "As a consequence, trade policy must be rebalanced."
+        }
+      ]
+    }
+  ],
+  "pronunciation": [
+    {
+      "id": 1,
+      "title": "Pronunciation: Advanced Economics & Trade",
+      "sections": [
+        {
+          "focus": "The ll sound",
+          "examples": [
+            "la balanza",
+            "el mercado",
+            "la globalización"
+          ]
+        },
+        {
+          "focus": "The rr sound",
+          "examples": [
+            "el comercio",
+            "la renta",
+            "el arancel"
+          ]
+        },
+        {
+          "focus": "Silent h",
+          "examples": [
+            "histórico",
+            "el hábito",
+            "la historia"
+          ]
+        },
+        {
+          "focus": "Stress patterns",
+          "examples": [
+            "la eco-nó-mi-a",
+            "el co-mer-cio",
+            "la glo-ba-li-za-ción",
+            "la po-lí-ti-ca"
+          ]
+        }
+      ],
+      "practice_sentences": [
+        "El comercio internacional genera riqueza para los países.",
+        "La política monetaria afecta al tipo de cambio.",
+        "La globalización ha transformado los mercados globales.",
+        "La deuda externa es un desafío para los países en desarrollo."
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": 1,
+      "type": "matching",
+      "title": "Match trade terms",
+      "instructions": "Match each Spanish term with its correct English translation.",
+      "items": [
+        {
+          "spanish": "la balanza comercial",
+          "english": "trade balance"
+        },
+        {
+          "spanish": "el arancel",
+          "english": "tariff"
+        },
+        {
+          "spanish": "el tratado de libre comercio",
+          "english": "free trade agreement"
+        },
+        {
+          "spanish": "la política monetaria",
+          "english": "monetary policy"
+        },
+        {
+          "spanish": "el tipo de cambio",
+          "english": "exchange rate"
+        },
+        {
+          "spanish": "la devaluación",
+          "english": "devaluation"
+        },
+        {
+          "spanish": "el proteccionismo",
+          "english": "protectionism"
+        },
+        {
+          "spanish": "la globalización económica",
+          "english": "economic globalization"
+        },
+        {
+          "spanish": "la crisis financiera",
+          "english": "financial crisis"
+        },
+        {
+          "spanish": "el FMI",
+          "english": "IMF"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "type": "fill-in-blank",
+      "title": "Complete with trade vocabulary",
+      "instructions": "Fill in the blanks with the correct trade term.",
+      "items": [
+        {
+          "sentence": "La _____ mide la diferencia entre exportaciones e importaciones.",
+          "answer": "balanza comercial",
+          "hints": [
+            "three words",
+            "starts with b"
+          ]
+        },
+        {
+          "sentence": "El _____ es un impuesto sobre los productos importados.",
+          "answer": "arancel",
+          "hints": [
+            "one word",
+            "starts with a"
+          ]
+        },
+        {
+          "sentence": "El _____ facilita el comercio entre países miembros.",
+          "answer": "tratado de libre comercio",
+          "hints": [
+            "five words",
+            "starts with t"
+          ]
+        },
+        {
+          "sentence": "La _____ controla la cantidad de dinero en circulación.",
+          "answer": "política monetaria",
+          "hints": [
+            "three words",
+            "starts with p"
+          ]
+        },
+        {
+          "sentence": "La _____ es el precio de una moneda respecto a otra.",
+          "answer": "tipo de cambio",
+          "hints": [
+            "four words",
+            "starts with t"
+          ]
+        },
+        {
+          "sentence": "La _____ ocurre cuando una moneda pierde valor frente a otras.",
+          "answer": "devaluación",
+          "hints": [
+            "one word",
+            "starts with d"
+          ]
+        },
+        {
+          "sentence": "El _____ protege la producción nacional de la competencia exterior.",
+          "answer": "proteccionismo",
+          "hints": [
+            "one word",
+            "starts with p"
+          ]
+        },
+        {
+          "sentence": "La _____ conecta las economías de todo el mundo.",
+          "answer": "globalización económica",
+          "hints": [
+            "three words",
+            "starts with g"
+          ]
+        },
+        {
+          "sentence": "La _____ de 2008 afectó a todas las economías del mundo.",
+          "answer": "crisis financiera",
+          "hints": [
+            "three words",
+            "starts with c"
+          ]
+        },
+        {
+          "sentence": "El _____ proporciona préstamos a países con dificultades.",
+          "answer": "FMI",
+          "hints": [
+            "abbreviation",
+            "three letters"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "type": "translation",
+      "title": "Translate to Spanish",
+      "instructions": "Translate to Spanish.",
+      "items": [
+        {
+          "english": "Free trade benefits all participating countries.",
+          "answer": "El libre comercio beneficia a todos los países participantes."
+        },
+        {
+          "english": "The central bank raised interest rates to fight inflation.",
+          "answer": "El banco central subió los tipos de interés para combatir la inflación."
+        },
+        {
+          "english": "Protectionism harms global economic growth.",
+          "answer": "El proteccionismo daña el crecimiento económico global."
+        },
+        {
+          "english": "The trade deficit widened significantly this year.",
+          "answer": "El déficit comercial se amplió significativamente este año."
+        },
+        {
+          "english": "Emerging economies are experiencing rapid growth.",
+          "answer": "Las economías emergentes están experimentando un crecimiento rápido."
+        },
+        {
+          "english": "The World Bank finances development projects.",
+          "answer": "El Banco Mundial financia proyectos de desarrollo."
+        },
+        {
+          "english": "Currency devaluation makes exports cheaper.",
+          "answer": "La devaluación de la moneda hace las exportaciones más baratas."
+        },
+        {
+          "english": "Sustainable development requires environmental awareness.",
+          "answer": "El desarrollo sostenible requiere conciencia ambiental."
+        },
+        {
+          "english": "Tax competition between countries is increasing.",
+          "answer": "La competencia fiscal entre países está aumentando."
+        },
+        {
+          "english": "The circular economy reduces waste and conserves resources.",
+          "answer": "La economía circular reduce los residuos y conserva los recursos."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "type": "fill-in-blank",
+      "title": "Conditional perfect for economic analysis",
+      "instructions": "Complete with conditional perfect.",
+      "items": [
+        {
+          "stem": "Si el banco central (subir) los tipos, la inflación habría disminuido.",
+          "answer": "hubiera subido"
+        },
+        {
+          "stem": "Las empresas habrían (invertir) más si la economía fuera estable.",
+          "answer": "invertido"
+        },
+        {
+          "stem": "El comercio internacional habría (crecer) más sin la crisis.",
+          "answer": "crecido"
+        },
+        {
+          "stem": "Los países en desarrollo habrían (mejorar) su situación sin la deuda externa.",
+          "answer": "mejorado"
+        },
+        {
+          "stem": "La recesión habría (evitarse) con políticas fiscales adecuadas.",
+          "answer": "evitarse"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "type": "exercise",
+      "title": "Subjunctive in economic discourse",
+      "instructions": "Complete with correct subjunctive.",
+      "items": [
+        {
+          "stem": "Es probable que el crecimiento económico (disminuir) el próximo año.",
+          "answer": "disminuya"
+        },
+        {
+          "stem": "Es fundamental que los países (reducir) la deuda externa.",
+          "answer": "reduzcan"
+        },
+        {
+          "stem": "No es seguro que la crisis (terminar) pronto.",
+          "answer": "termine"
+        },
+        {
+          "stem": "Es importante que se (implementar) reformas estructurales.",
+          "answer": "implementen"
+        },
+        {
+          "stem": "Dudo que el libre comercio (beneficiar) a todos por igual.",
+          "answer": "beneficie"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "type": "exercise",
+      "title": "Trade policy analysis",
+      "instructions": "Read each position and identify if it supports free trade or protectionism.",
+      "items": [
+        {
+          "position": "Los aranceles protegen la industria nacional del dumping.",
+          "stance": "proteccionismo"
+        },
+        {
+          "position": "El libre comercio aumenta la eficiencia y reduce precios.",
+          "stance": "libre comercio"
+        },
+        {
+          "position": "Las economías emergentes necesitan protección temporal.",
+          "stance": "proteccionismo"
+        },
+        {
+          "position": "La globalización crea empleo en todos los países.",
+          "stance": "libre comercio"
+        },
+        {
+          "position": "Los subsidios agrícolas son necesarios para la seguridad alimentaria.",
+          "stance": "proteccionismo"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "type": "fill-in-blank",
+      "title": "Trade in context",
+      "instructions": "Read and fill in.",
+      "items": [
+        {
+          "text": "La _____ ha transformado la economía mundial. Por un lado, ha permitido que los productos circulen libremente; por otro, ha generado _____ entre países ricos y pobres. Algunos economistas argumentan que es necesario un nuevo modelo de _____ que equilibre eficiencia y equidad.",
+          "word_bank": [
+            "globalización económica",
+            "desigualdad",
+            "cooperación económica"
+          ]
+        },
+        {
+          "text": "La _____ afecta al poder adquisitivo de los ciudadanos. Cuando la moneda se _____, las importaciones son más caras y la inflación aumenta. Los bancos centrales utilizan la _____ para controlar esta situación.",
+          "word_bank": [
+            "devaluación",
+            "devalúa",
+            "política monetaria"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "type": "exercise",
+      "title": "Reading comprehension: Global Trade",
+      "instructions": "Read and answer.",
+      "items": [
+        {
+          "text": "El comercio internacional ha experimentado un crecimiento sin precedentes en las últimas décadas. La creación de la Organización Mundial del Comercio en 1995 marcó un punto de inflexión en la liberalización del comercio. Sin embargo, la globalización económica ha generado debates intensos. Mientras que los defensores del libre comercio argumentan que genera bienestar económico, los críticos señalan que amplía la brecha entre países desarrollados y en desarrollo. Además, la crisis financiera de 2008 demostró la interconexión de los mercados globales y la necesidad de una regulación financiera internacional más efectiva.",
+          "questions": [
+            {
+              "question": "¿Qué marcó un punto de inflexión en 1995?",
+              "answer": "La creación de la OMC."
+            },
+            {
+              "question": "¿Qué argumentan los defensores del libre comercio?",
+              "answer": "Que genera bienestar económico."
+            },
+            {
+              "question": "¿Qué señalan los críticos?",
+              "answer": "Que amplía la brecha entre países desarrollados y en desarrollo."
+            },
+            {
+              "question": "¿Qué demostró la crisis de 2008?",
+              "answer": "La interconexión de los mercados globales y la necesidad de regulación."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "type": "exercise",
+      "title": "Prepositions with economics",
+      "instructions": "Complete with correct preposition.",
+      "items": [
+        {
+          "stem": "El país depende _____ las exportaciones de petróleo.",
+          "answer": "de"
+        },
+        {
+          "stem": "El comercio _____ China _____ Estados Unidos es significativo.",
+          "answer": "con / entre"
+        },
+        {
+          "stem": "La política monetaria es importante _____ la estabilidad económica.",
+          "answer": "para"
+        },
+        {
+          "stem": "El país firmó un tratado _____ libre comercio _____ la Unión Europea.",
+          "answer": "de / con"
+        },
+        {
+          "stem": "La deuda externa afecta _____ el crecimiento económico.",
+          "answer": "al"
+        }
+      ]
+    }
+  ]
+}

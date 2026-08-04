@@ -1,0 +1,476 @@
+{
+  "id": "academic-research",
+  "level": "b1-2",
+  "title": "Academic Research",
+  "description": "Conduct and discuss academic research in Spanish. Learn to describe research methods, write thesis statements, use citations and references, and participate in academic discourse. This theme equips you with the formal language needed for university-level writing and presentations in Spanish.",
+  "vocabulary": [
+    {"id": 1, "target": "la investigación", "source": "research", "gender": "f", "type": "noun"},
+    {"id": 2, "target": "la metodología", "source": "methodology", "gender": "f", "type": "noun"},
+    {"id": 3, "target": "la tesis", "source": "thesis", "gender": "f", "type": "noun"},
+    {"id": 4, "target": "la cita", "source": "citation", "gender": "f", "type": "noun"},
+    {"id": 5, "target": "la bibliografía", "source": "bibliography", "gender": "f", "type": "noun"},
+    {"id": 6, "target": "el artículo científico", "source": "scientific article", "gender": "m", "type": "noun"},
+    {"id": 7, "target": "el ensayo", "source": "essay", "gender": "m", "type": "noun"},
+    {"id": 8, "target": "el resumen", "source": "abstract / summary", "gender": "m", "type": "noun"},
+    {"id": 9, "target": "el objetivo", "source": "objective", "gender": "m", "type": "noun"},
+    {"id": 10, "target": "la hipótesis", "source": "hypothesis", "gender": "f", "type": "noun"},
+    {"id": 11, "target": "la variable", "source": "variable", "gender": "f", "type": "noun"},
+    {"id": 12, "target": "el dato", "source": "data point / fact", "gender": "m", "type": "noun"},
+    {"id": 13, "target": "los datos", "source": "data", "gender": "m", "type": "noun"},
+    {"id": 14, "target": "el resultado", "source": "result", "gender": "m", "type": "noun"},
+    {"id": 15, "target": "la conclusión", "source": "conclusion", "gender": "f", "type": "noun"},
+    {"id": 16, "target": "el marco teórico", "source": "theoretical framework", "gender": "m", "type": "noun"},
+    {"id": 17, "target": "la revisión bibliográfica", "source": "literature review", "gender": "f", "type": "noun"},
+    {"id": 18, "target": "el plagio", "source": "plagiarism", "gender": "m", "type": "noun"},
+    {"id": 19, "target": "la autoría", "source": "authorship", "gender": "f", "type": "noun"},
+    {"id": 20, "target": "la revista académica", "source": "academic journal", "gender": "f", "type": "noun"},
+    {"id": 21, "target": "investigar", "source": "to research / to investigate", "gender": "v.", "type": "verb"},
+    {"id": 22, "target": "analizar", "source": "to analyze", "gender": "v.", "type": "verb"},
+    {"id": 23, "target": "hipotetizar", "source": "to hypothesize", "gender": "v.", "type": "verb"},
+    {"id": 24, "target": "sintetizar", "source": "to synthesize", "gender": "v.", "type": "verb"},
+    {"id": 25, "target": "documentar", "source": "to document", "gender": "v.", "type": "verb"},
+    {"id": 26, "target": "citar", "source": "to cite", "gender": "v.", "type": "verb"},
+    {"id": 27, "target": "referenciar", "source": "to reference", "gender": "v.", "type": "verb"},
+    {"id": 28, "target": "redactar", "source": "to draft / to write", "gender": "v.", "type": "verb"},
+    {"id": 29, "target": "verificar", "source": "to verify", "gender": "v.", "type": "verb"},
+    {"id": 30, "target": "contrastar", "source": "to compare / to contrast", "gender": "v.", "type": "verb"},
+    {"id": 31, "target": "inferir", "source": "to infer", "gender": "v.", "type": "verb"},
+    {"id": 32, "target": "generalizar", "source": "to generalize", "gender": "v.", "type": "verb"},
+    {"id": 33, "target": "cuestionar", "source": "to question / to challenge", "gender": "v.", "type": "verb"},
+    {"id": 34, "target": "argumentar", "source": "to argue", "gender": "v.", "type": "verb"},
+    {"id": 35, "target": "sustentar", "source": "to substantiate / to support", "gender": "v.", "type": "verb"},
+    {"id": 36, "target": "plagiar", "source": "to plagiarize", "gender": "v.", "type": "verb"},
+    {"id": 37, "target": "académico", "source": "academic", "gender": "m/adj.", "type": "adj"},
+    {"id": 38, "target": "riguroso", "source": "rigorous", "gender": "m/adj.", "type": "adj"},
+    {"id": 39, "target": "pertinente", "source": "pertinent / relevant", "gender": "m/adj.", "type": "adj"},
+    {"id": 40, "target": "significativo", "source": "significant", "gender": "m/adj.", "type": "adj"},
+    {"id": 41, "target": "concluyente", "source": "conclusive", "gender": "m/adj.", "type": "adj"},
+    {"id": 42, "target": "empírico", "source": "empirical", "gender": "m/adj.", "type": "adj"},
+    {"id": 43, "target": "teórico", "source": "theoretical", "gender": "m/adj.", "type": "adj"},
+    {"id": 44, "target": "objetivo", "source": "objective", "gender": "m/adj.", "type": "adj"},
+    {"id": 45, "target": "crítico", "source": "critical", "gender": "m/adj.", "type": "adj"},
+    {"id": 46, "target": "original", "source": "original", "gender": "m/adj.", "type": "adj"},
+    {"id": 47, "target": "concreto", "source": "concrete", "gender": "m/adj.", "type": "adj"},
+    {"id": 48, "target": "sistemático", "source": "systematic", "gender": "m/adj.", "type": "adj"},
+    {"id": 49, "target": "la muestra", "source": "sample", "gender": "f", "type": "noun"},
+    {"id": 50, "target": "la encuesta", "source": "survey", "gender": "f", "type": "noun"},
+    {"id": 51, "target": "la entrevista", "source": "interview", "gender": "f", "type": "noun"},
+    {"id": 52, "target": "el experimento", "source": "experiment", "gender": "m", "type": "noun"},
+    {"id": 53, "target": "el estudio de caso", "source": "case study", "gender": "m", "type": "noun"},
+    {"id": 54, "target": "la observación", "source": "observation", "gender": "f", "type": "noun"},
+    {"id": 55, "target": "el análisis cualitativo", "source": "qualitative analysis", "gender": "m", "type": "noun"},
+    {"id": 56, "target": "el análisis cuantitativo", "source": "quantitative analysis", "gender": "m", "type": "noun"},
+    {"id": 57, "target": "la correlación", "source": "correlation", "gender": "f", "type": "noun"},
+    {"id": 58, "target": "la tendencia", "source": "trend", "gender": "f", "type": "noun"},
+    {"id": 59, "target": "el índice", "source": "index / rate", "gender": "m", "type": "noun"},
+    {"id": 60, "target": "el porcentaje", "source": "percentage", "gender": "m", "type": "noun"},
+    {"id": 61, "target": "en primer lugar", "source": "first of all / firstly", "gender": "—", "type": "phrase"},
+    {"id": 62, "target": "en segundo lugar", "source": "secondly", "gender": "—", "type": "phrase"},
+    {"id": 63, "target": "por un lado... por otro lado", "source": "on one hand... on the other hand", "gender": "—", "type": "phrase"},
+    {"id": 64, "target": "a diferencia de", "source": "unlike / in contrast to", "gender": "—", "type": "phrase"},
+    {"id": 65, "target": "en contraste con", "source": "in contrast with", "gender": "—", "type": "phrase"},
+    {"id": 66, "target": "según", "source": "according to", "gender": "—", "type": "phrase"},
+    {"id": 67, "target": "de acuerdo con", "source": "in accordance with", "gender": "—", "type": "phrase"},
+    {"id": 68, "target": "en virtud de", "source": "by virtue of", "gender": "—", "type": "phrase"},
+    {"id": 69, "target": "en base a", "source": "based on", "gender": "—", "type": "phrase"},
+    {"id": 70, "target": "a partir de", "source": "starting from / based on", "gender": "—", "type": "phrase"},
+    {"id": 71, "target": "a saber", "source": "namely / that is", "gender": "—", "type": "phrase"},
+    {"id": 72, "target": "en otras palabras", "source": "in other words", "gender": "—", "type": "phrase"},
+    {"id": 73, "target": "en particular", "source": "in particular", "gender": "—", "type": "phrase"},
+    {"id": 74, "target": "en general", "source": "in general", "gender": "—", "type": "phrase"},
+    {"id": 75, "target": "por consiguiente", "source": "consequently / as a result", "gender": "—", "type": "phrase"},
+    {"id": 76, "target": "en consecuencia", "source": "as a consequence", "gender": "—", "type": "phrase"},
+    {"id": 77, "target": "no obstante", "source": "nevertheless", "gender": "—", "type": "phrase"},
+    {"id": 78, "target": "sin embargo", "source": "however", "gender": "—", "type": "phrase"},
+    {"id": 79, "target": "a pesar de que", "source": "despite the fact that", "gender": "—", "type": "phrase"},
+    {"id": 80, "target": "bajo la premisa de que", "source": "on the premise that", "gender": "—", "type": "phrase"},
+    {"id": 81, "target": "la fuente", "source": "source", "gender": "f", "type": "noun"},
+    {"id": 82, "target": "la referencia", "source": "reference", "gender": "f", "type": "noun"},
+    {"id": 83, "target": "el autor", "source": "author", "gender": "m", "type": "noun"},
+    {"id": 84, "target": "el editor", "source": "editor / publisher", "gender": "m", "type": "noun"},
+    {"id": 85, "target": "la publicación", "source": "publication", "gender": "f", "type": "noun"},
+    {"id": 86, "target": "el año de publicación", "source": "year of publication", "gender": "m", "type": "noun"},
+    {"id": 87, "target": "(et al.)", "source": "(and others)", "gender": "—", "type": "phrase"},
+    {"id": 88, "target": "en línea", "source": "online", "gender": "—", "type": "adj"},
+    {"id": 89, "target": "el acceso abierto", "source": "open access", "gender": "m", "type": "noun"},
+    {"id": 90, "target": "la base de datos", "source": "database", "gender": "f", "type": "noun"},
+    {"id": 91, "target": "la bibliometría", "source": "bibliometrics", "gender": "f", "type": "noun"},
+    {"id": 92, "target": "el índice de impacto", "source": "impact factor", "gender": "m", "type": "noun"},
+    {"id": 93, "target": "la revisión por pares", "source": "peer review", "gender": "f", "type": "noun"},
+    {"id": 94, "target": "el seminario", "source": "seminar", "gender": "m", "type": "noun"},
+    {"id": 95, "target": "la ponencia", "source": "presentation / paper", "gender": "f", "type": "noun"},
+    {"id": 96, "target": "la defensa de tesis", "source": "thesis defense", "gender": "f", "type": "noun"},
+    {"id": 97, "target": "el director de investigación", "source": "research supervisor", "gender": "m", "type": "noun"},
+    {"id": 98, "target": "el congreso", "source": "conference", "gender": "m", "type": "noun"},
+    {"id": 99, "target": "el simposio", "source": "symposium", "gender": "m", "type": "noun"}
+  ],
+  "grammar": [
+    {
+      "title": "The Passive Voice in Academic Writing",
+      "content": "Academic writing in Spanish frequently uses the passive voice and impersonal constructions to maintain objectivity. At B1.2 level, you need to master these formal constructions.\n\n**Passive with 'ser' (canonical passive):**\nStructure: ser (conjugated) + past participle (agrees in gender and number with the subject) + por + agent\n- El estudio fue publicado en una revista académica. (The study was published in an academic journal.)\n- La hipótesis fue verificada por los investigadores. (The hypothesis was verified by the researchers.)\n- Los datos fueron analizados utilizando un software estadístico. (The data were analyzed using statistical software.)\n\n**Impersonal 'se' (se pasiva):**\nStructure: se + verb (3rd person) + subject\n- Se realizó un análisis de los datos. (An analysis of the data was conducted.)\n- Se observó una correlación significativa entre las variables. (A significant correlation between the variables was observed.)\n- Se han publicado varios estudios al respecto. (Several studies have been published on this subject.)\n\n**Impersonal 'se' with infinitive (for general statements):**\n- Se dice que... (It is said that...)\n- Se cree que... (It is believed that...)\n- Se sabe que... (It is known that...)\n- Se recomienda que... (It is recommended that...)\n\n**Key rule:** The past participle in the canonical passive MUST agree with the subject in gender and number. In the impersonal 'se' construction, the verb agrees with the grammatical subject.\n\nNote for Romanian speakers: Romanian also uses passive constructions (a fi + past participle) similarly. The impersonal 'se' in Spanish corresponds to Romanian's impersonal constructions with 'se' or the 3rd person plural (e.g., 'se spune' = 'se spune' in Romanian — very similar!).",
+      "table": {
+        "headers": ["Construction", "Example", "Meaning"],
+        "rows": [
+          ["ser + participio", "El trabajo fue corregido.", "The work was corrected."],
+          ["se pasiva", "Se realizó la encuesta.", "The survey was conducted."],
+          ["se + infinitivo", "Se dice que es así.", "It is said to be so."],
+          ["pasiva refleja", "Se publicaron los resultados.", "The results were published."]
+        ]
+      },
+      "examples": [
+        "La tesis doctoral fue defendida con éxito ante el tribunal.",
+        "Se ha demostrado que el cambio climático afecta a la biodiversidad.",
+        "Los participantes fueron seleccionados mediante un muestreo aleatorio.",
+        "Se afirma que la educación es clave para el desarrollo social."
+      ],
+      "aid_note": "Romanian parallel: 'studiuul a fost publicat' = 'el estudio fue publicado'; 's-a realizat' = 'se realizó'. The structures map very closely."
+    },
+    {
+      "title": "Thesis Writing Structure and Formal Connectors",
+      "content": "Academic writing follows a structured format: introduction, development (body), and conclusion. At B1.2 level, you need to use formal connectors to organize your arguments logically.\n\n**Introduction:**\n- El objetivo de esta investigación es... (The objective of this research is...)\n- El presente estudio tiene como propósito... (The present study aims to...)\n- Este trabajo se centra en... (This work focuses on...)\n- La hipótesis que se propone es... (The hypothesis proposed is...)\n\n**Development — introducing arguments:**\n- En primer lugar, ... (First of all, ...)\n- En segundo lugar, ... (Secondly, ...)\n- En tercer lugar, ... (Thirdly, ...)\n- Por un lado, ... por otro lado, ... (On one hand, ... on the other hand, ...)\n- Además, ... / Asimismo, ... / Igualmente, ... (Furthermore, ... / Likewise, ...)\n\n**Development — presenting evidence:**\n- Según [autor], ... (According to [author], ...)\n- De acuerdo con los datos de..., ... (In accordance with the data from..., ...)\n- Los resultados indican que... (The results indicate that...)\n- Como señala [autor], ... (As [author] notes, ...)\n\n**Development — contrast and concession:**\n- Sin embargo, ... (However, ...)\n- No obstante, ... (Nevertheless, ...)\n- Por el contrario, ... (On the contrary, ...)\n- A pesar de que... (Despite the fact that...)\n- Aunque es cierto que..., ... (Although it is true that..., ...)\n\n**Conclusion:**\n- En conclusión, ... (In conclusion, ...)\n- Para finalizar, ... (To conclude, ...)\n- A la luz de estos resultados, ... (In light of these results, ...)\n- Se puede concluir que... (It can be concluded that...)\n- En resumen, ... (In summary, ...)\n\n**Key tip:** Always use formal connectors in academic writing. Avoid colloquial alternatives like 'pero' (use 'sin embargo'), 'y' (use 'además' or 'asimismo'), or 'entonces' (use 'por lo tanto' or 'en consecuencia').",
+      "table": {
+        "headers": ["Function", "Connector", "Example"],
+        "rows": [
+          ["Addition", "Además", "Además, se observó una tendencia al alza."],
+          ["Contrast", "Sin embargo", "Los resultados fueron positivos. Sin embargo, se requiere más investigación."],
+          ["Cause", "Por lo tanto", "Los datos son inconclusos. Por lo tanto, se recomienda repetir el estudio."],
+          ["Example", "Por ejemplo", "Existen varios enfoques. Por ejemplo, el análisis cualitativo."],
+          ["Conclusion", "En conclusión", "En conclusión, la hipótesis se ha verificado."],
+          ["Sequence", "En primer lugar", "En primer lugar, se revisó la literatura."]
+        ]
+      },
+      "examples": [
+        "El objetivo de esta investigación es analizar la correlación entre educación y desarrollo económico.",
+        "Según García (2020), los resultados indican un cambio significativo en el comportamiento social.",
+        "Sin embargo, es importante señalar que la muestra fue limitada.",
+        "En conclusión, se puede afirmar que la hipótesis inicial se ha verificado parcialmente."
+      ],
+      "aid_note": "Romanian academic connectors work similarly: 'în primul rând' = 'en primer lugar'; 'sin embargo' = 'totuși'/'însă'; 'în concluzie' = 'în concluzie'. The academic register in Romanian and Spanish share many cognates."
+    },
+    {
+      "title": "Citations and Academic References",
+      "content": "Proper citation is essential in academic writing. At B1.2, you need to be able to refer to sources within your text and construct bibliographic references.\n\n**In-text citations:**\n- APA-style (author, year): Según Martínez (2019), la investigación muestra que... / La investigación de Martínez (2019) demuestra que...\n- Author-date format: (Martínez, 2019) / (García & López, 2020)\n- Multiple authors: (Smith et al., 2021) → (Smith et al., 2021) in Spanish — 'et al.' is universal\n- Secondary source: (Martínez, 2019, como se cita en López, 2021)\n- Paraphrasing: Diversos estudios (Martínez, 2019; García, 2020; López, 2021) han demostrado que...\n- Direct quote with page number: «La educación es el arma más poderosa...» (Mandela, 2003, p. 45)\n\n**Bibliographic references (APA style):**\n- Book: Autor, A. A. (Año). Título del libro en cursiva. Editorial.\n- Example: Martínez, J. R. (2019). Metodología de la investigación científica. Ediciones Académicas.\n- Journal article: Autor, A. A. (Año). Título del artículo. Nombre de la Revista, volumen(número), páginas.\n- Example: García, L. M., & López, P. S. (2020). Análisis comparativo de sistemas educativos. Revista Iberoamericana de Educación, 45(2), 123-145.\n- Online source: Autor, A. A. (Año). Título. Recuperado de URL\n\n**Introducing sources in text:**\n- [Autor] afirma que... ([Author] asserts that...)\n- Según [Autor], ... (According to [Author], ...)\n- [Autor] sostiene que... ([Author] maintains that...)\n- De acuerdo con [Autor], ... (In accordance with [Author], ...)\n- Como se menciona en [Autor] (Año), ... (As mentioned in [Author] (Year), ...)\n- [Autor] argumenta que... ([Author] argues that...)\n- [Autor] concluye que... ([Author] concludes that...)\n\n**Avoiding plagiarism:**\n- Plagiarism (el plagio) is presenting someone else's work as your own.\n- Always cite sources properly.\n- Paraphrase by restructuring sentences AND citing the source.\n- Use quotation marks for direct quotes.\n\n**Key rule:** In Spanish academic writing, the author's name often appears in the narrative flow (unlike English where it's often in parentheses). Both styles are acceptable.\n\nNote for Romanian speakers: Romanian academic citations use a very similar APA format. 'Conform lui Popescu (2020), ...' maps directly to 'Según Popescu (2020), ...'.",
+      "table": {
+        "headers": ["Element", "Format", "Example"],
+        "rows": [
+          ["Book", "Apellido, Inicial. (Año). Título. Editorial.", "Pérez, M. (2018). Lingüística aplicada. Gredos."],
+          ["Journal", "Apellido, Inicial. (Año). Título. Revista, vol(núm), pp-pp.", "López, A. (2020). Estudio sobre... Anales, 15(3), 45-67."],
+          ["In-text author-year", "(Apellido, Año)", "(Martínez, 2019)"],
+          ["Multiple authors", "(Apellido et al., Año)", "(Smith et al., 2021)"]
+        ]
+      },
+      "examples": [
+        "Según Hernández (2021), la metodología cualitativa permite un análisis más profundo.",
+        "Múltiples estudios (García, 2019; Martínez, 2020; López, 2021) confirman esta tendencia.",
+        "El autor sostiene que «el acceso abierto a la información es fundamental para la investigación científica» (Rodríguez, 2022, p. 34).",
+        "La base de datos Scopus contiene más de 70 millones de referencias bibliográficas (Elsevier, 2023)."
+      ],
+      "aid_note": "Romanian citations use the same APA format. 'Conform Ivanov (2020)' = 'Según Ivanov (2020)'. The structural pattern is identical — the main difference is just the connector word."
+    }
+  ],
+  "pronunciation": [
+    {
+      "title": "Pronunciation of Academic Research Vocabulary",
+      "content": "Key pronunciation patterns for academic research vocabulary:\n\n1. **The '-ción / -sión' endings (very common in academic Spanish):**\n   - Pronounced 'theen' (Spain) or 'see-en' (Latin America)\n   - investigación → in-ves-ti-ga-THYOHN / in-ves-ti-ga-SYOHN (stress on -ción)\n   - metodología → me-tah-doh-LOH-see-ah or me-tah-doh-LOH-thyah\n   - hipótesis → ee-poh-TEE-thes (plural: ee-POH-tees)\n   - bibliografía → bee-blee-oh-GRAF-ee-ah\n   - conclusión → koon-kloo-SEE-ohn\n   - correlación → ko-reh-la-THYOHN / ko-reh-la-SYOHN\n   - variable → bahr-YAH-beh (note: no '-ción' here, but common in academic contexts)\n\n2. **The '-logía' ending:**\n   - Always stressed on the antepenultimate syllable with accent mark\n   - metodología → me-tah-doh-LOH-see-ah\n   - bibliografía → bee-blee-oh-GRAF-ee-ah\n   - tecnología → tek-noh-LOH-hee-ah\n   - sociología → so-see-oh-LOH-hee-ah\n\n3. **The 'j' sound (always like English 'h'):**\n   - investigación → in-ves-ti-ga-HYOHN (Spain) / in-ves-ti-ga-SYOHN (LA)\n   - resultado → reh-suhl-TAH-hoh\n   - sujeto → SOOH-toh\n   - proyecto → proh-YEK-toh\n   - objetivo → ob-hee-THEE-vo (Spain) / ob-hee-TEE-vo (LA)\n\n4. **Stress on '-ico' words:**\n   - académico → ah-kah-DEH-mee-koh\n   - empírico → em-PEE-ree-koh (note the accent on 'í')\n   - teórico → teh-OH-ree-koh\n   - crítico → KREE-tee-koh\n   - sistemático → sis-teh-mah-TEE-koh\n\n5. **The 'll' in 'investigación' and similar words:**\n   - 'll' = 'y' sound (yeísmo) in most of the Spanish-speaking world\n   - investigación → in-ves-ti-ga-THYOHN / SYOHN\n   - The 'g' before 'i' in 'ig-' is a soft 'h' sound\n\n6. **Silent letters to watch for:**\n   - 'h' is ALWAYS silent: el hecho → el FEH-koh\n   - 'b' and 'v' are pronounced identically (like a soft 'b')\n   - Final 'd' is often weakened: la verdad → la ber-DAD or la ber-DAH",
+      "examples": [
+        "investigación = in-ves-ti-ga-THYOHN (Spain) / in-ves-ti-ga-SYOHN (LA)",
+        "metodología = me-tah-doh-LOH-see-ah",
+        "hipótesis = ee-poh-TEE-thes",
+        "empírico = em-PEE-ree-koh (accent on í)",
+        "resultado = reh-suhl-TAH-hoh",
+        "conclusión = koon-kloo-SEE-ohn",
+        "objetivo = ob-hee-TEE-vo (h is silent)",
+        "bibliografía = bee-blee-oh-GRAF-ee-ah"
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "exercise",
+      "question": "Choose the correct translation of 'the data were analyzed':",
+      "options": ["Los datos fueron analizados.", "Los datos fueron analizar.", "Los datos fueron analizando.", "Los datos fue analizado."],
+      "correct": 0,
+      "explanation": "'Los datos fueron analizados' uses the correct passive voice: 'fueron' (ser, 3rd person plural past) + 'analizados' (past participle, masculine plural to agree with 'datos')."
+    },
+    {
+      "type": "exercise",
+      "question": "Which connector expresses contrast?",
+      "options": ["Además", "Por lo tanto", "Sin embargo", "En conclusión"],
+      "correct": 2,
+      "explanation": "'Sin embargo' (however) expresses contrast. 'Además' = furthermore, 'Por lo tanto' = therefore, 'En conclusión' = in conclusion."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: 'Los resultados ____ (indicar) una correlación significativa entre las variables.' (present tense)",
+      "correct": "indican",
+      "explanation": "'Los resultados indican' — present tense, 3rd person plural of indicar."
+    },
+    {
+      "type": "exercise",
+      "question": "Choose the correct passive construction:",
+      "options": [
+        "Se realizó un análisis de los datos.",
+        "Se realizar un análisis de los datos.",
+        "Se realizan un análisis de los datos.",
+        "Se realizaron de los datos."
+      ],
+      "correct": 0,
+      "explanation": "'Se realizó un análisis' uses the impersonal 'se' construction with the verb in 3rd person singular past (realizó) to agree with 'un análisis' (singular subject)."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete with the correct form of 'ser' + participle: 'La hipótesis fue ____ (verificar) por el equipo de investigación.'",
+      "correct": "verificada",
+      "explanation": "'La hipótesis fue verificada' — past participle 'verificada' agrees with the feminine singular subject 'la hipótesis'."
+    },
+    {
+      "type": "exercise",
+      "question": "Which is the correct APA in-text citation format?",
+      "options": [
+        "Según Martínez (2019), ...",
+        "Según Martínez 2019, ...",
+        "Según (2019) Martínez, ...",
+        "Según Martínez de 2019, ..."
+      ],
+      "correct": 0,
+      "explanation": "APA format in narrative citations: 'Según [Autor] (Año), ...' — the author's name appears in the text followed by the year in parentheses."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete with the correct connector: '______, se realizó una revisión bibliográfica exhaustiva.' (first of all)",
+      "correct": "En primer lugar",
+      "explanation": "'En primer lugar' (first of all) is the formal academic connector used to introduce the first point in a sequence."
+    },
+    {
+      "type": "exercise",
+      "question": "Choose the correct impersonal 'se' construction:",
+      "options": [
+        "Se ha demostrado que es efectivo.",
+        "Se han demostrado que es efectivo.",
+        "Se ha demostraron que es efectivo.",
+        "Se han demuestra que es efectivo."
+      ],
+      "correct": 0,
+      "explanation": "'Se ha demostrado que es efectivo' — 'se ha' + past participle (demostrado, invariable after 'haber') + 'que' clause. After 'haber', the past participle does NOT agree with the subject."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: '______ de que la metodología sea rigurosa.' (Es importante)",
+      "correct": "Es importante",
+      "explanation": "'Es importante de que' — actually, this construction takes a direct clause without 'de': 'Es importante que la metodología sea rigurosa.' The subjunctive 'sea' is triggered by 'es importante que'."
+    },
+    {
+      "type": "exercise",
+      "question": "What does 'et al.' stand for?",
+      "options": ["et aliis (and others)", "et alia (and other things)", "et aliunde (from elsewhere)", "et aliter (in another way)"],
+      "correct": 0,
+      "explanation": "'Et al.' is short for the Latin 'et alii' or 'et aliae' (and others), used in academic citations when a work has three or more authors."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete with the correct subjunctive: 'Es necesario que los datos ____ (ser) verificados antes de publicar.'",
+      "correct": "sean",
+      "explanation": "'Es necesario que' triggers subjunctive. 'Sean' = present subjunctive of ser, 3rd person plural to agree with 'los datos'."
+    },
+    {
+      "type": "exercise",
+      "question": "Which sentence uses the correct academic register?",
+      "options": [
+        "Se puede ver que los resultados son muy buenos.",
+        "Los resultados indican una tendencia positiva.",
+        "Los resultados son top.",
+        "Se puede adivinar que pasará algo."
+      ],
+      "correct": 1,
+      "explanation": "'Los resultados indican una tendencia positiva' uses formal academic register. 'Muy buenos' is too informal, 'top' is slang, and 'adivinar' is imprecise for academic writing."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: 'Según el autor, el estudio ____ (realizar) en tres fases.' (past passive)",
+      "correct": "fue realizado",
+      "explanation": "'El estudio fue realizado en tres fases' — canonical passive in past tense: fue (ser, 3rd person singular) + realizado (past participle, masculine singular to agree with 'estudio')."
+    },
+    {
+      "type": "exercise",
+      "question": "Choose the correct phrase for introducing a contrast:",
+      "options": ["Por lo tanto", "No obstante", "Además", "En conclusión"],
+      "correct": 1,
+      "explanation": "'No obstante' (nevertheless) introduces a contrast. 'Por lo tanto' = consequently, 'Además' = furthermore, 'En conclusión' = in conclusion."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete with the correct connector: 'Los resultados fueron positivos; ______, se requiere más investigación.' (however)",
+      "correct": "sin embargo",
+      "explanation": "'Sin embargo' (however) introduces a contrast or limitation. Note: it's typically preceded by a semicolon or period, not a comma."
+    },
+    {
+      "type": "exercise",
+      "question": "Which word is NOT an academic research term?",
+      "options": ["la bibliografía", "la revisión por pares", "el plagio", "la merienda"],
+      "correct": 3,
+      "explanation": "'La merienda' = afternoon snack — not an academic term. The others are all related to academic research: bibliography, peer review, and plagiarism."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: 'La hipótesis se ____ (verificar) si los resultados son consistentes.' (conditional)",
+      "correct": "verificaría",
+      "explanation": "'La hipótesis se verificaría' — conditional passive with 'se': la hipótesis would be verified."
+    },
+    {
+      "type": "exercise",
+      "question": "Choose the correct pronunciation of 'metodología':",
+      "options": [
+        "me-tah-doh-LOH-see-ah",
+        "me-tah-doh-lo-gee-AH",
+        "me-toh-dol-oh-LOH-jee-ah",
+        "ma-tah-doh-LOH-gah-lee-ah"
+      ],
+      "correct": 0,
+      "explanation": "'Metodología' = me-tah-doh-LOH-see-ah. The stress is on the antepenultimate syllable (lo), and '-logía' is always stressed that way."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: '______ los datos recabados, la tendencia es al alza.' (According to)",
+      "correct": "Según",
+      "explanation": "'Según los datos recabados' = According to the data collected. 'Según' is the standard academic connector for citing sources."
+    },
+    {
+      "type": "exercise",
+      "question": "Which sentence correctly uses the impersonal 'se'?",
+      "options": [
+        "Se dice que los resultados son concluyentes.",
+        "Se dice que los resultados son concluyente.",
+        "Se dicen que los resultados son concluyentes.",
+        "Se dijo que los resultados son concluyentes."
+      ],
+      "correct": 0,
+      "explanation": "'Se dice que...' uses the impersonal 'se' construction with the verb in 3rd person singular. 'Concluyentes' is the adjective (agrees with 'resultados' which is the subject of the subordinate clause)."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete with the correct form of 'ser' + participle: 'El estudio fue ____ (publicar) en una revista de acceso abierto.'",
+      "correct": "publicado",
+      "explanation": "'El estudio fue publicado' — past participle 'publicado' agrees with the masculine singular subject 'el estudio'."
+    },
+    {
+      "type": "exercise",
+      "question": "What is 'la revisión por pares'?",
+      "options": [
+        "A type of research methodology",
+        "The peer review process",
+        "A statistical method",
+        "A type of bibliography"
+      ],
+      "correct": 1,
+      "explanation": "'La revisión por pares' = the peer review process, where other experts in the field evaluate a research paper before publication."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: '______ el análisis cualitativo y el cuantitativo, ambos enfoques son válidos.' (Between)",
+      "correct": "Entre",
+      "explanation": "'Entre el análisis cualitativo y el cuantitativo' = Between qualitative and quantitative analysis. 'Entre... y...' = 'between... and...'."
+    },
+    {
+      "type": "exercise",
+      "question": "Which construction is used to express 'it is known that' in academic writing?",
+      "options": [
+        "Se sabe que",
+        "Se saben que",
+        "Se sabido que",
+        "Se saben de que"
+      ],
+      "correct": 0,
+      "explanation": "'Se sabe que' uses the impersonal 'se' with the 3rd person singular of saber. When 'se' is used impersonally, the verb is always 3rd person singular."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete with the correct connector: 'La muestra fue limitada; ______, los resultados son significativos.' (however)",
+      "correct": "sin embargo",
+      "explanation": "'Sin embargo' introduces a contrast between two ideas — a limited sample vs. significant results."
+    },
+    {
+      "type": "exercise",
+      "question": "Choose the correct passive form: 'Los artículos ____ (citare) en la bibliografía.' (were cited)",
+      "options": [
+        "fueron citados",
+        "fueron citado",
+        "fueron citada",
+        "fueron citadas"
+      ],
+      "correct": 0,
+      "explanation": "'Los artículos fueron citados' — past participle 'citados' is masculine plural to agree with 'los artículos' (masculine plural subject)."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: '______ el marco teórico, se identificaron las variables clave.' (Based on)",
+      "correct": "En base a",
+      "explanation": "'En base a' (based on) introduces the reference point for the research. Also acceptable: 'A partir de' (starting from / based on)."
+    },
+    {
+      "type": "exercise",
+      "question": "Which pronunciation is correct for 'hipótesis'?",
+      "options": [
+        "ee-poh-TEE-thes",
+        "ee-POH-teh-SEE-ees",
+        "ee-poh-TEH-see-ahs",
+        "ee-poh-THAY-thes"
+      ],
+      "correct": 0,
+      "explanation": "'Hipótesis' = ee-poh-TEE-thes (singular). The stress is on the second 'e', and the accent mark indicates this. The 'th' is the Spanish 'θ' sound (Spain) or 's' (Latin America)."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: 'Los investigadores ____ (concluir) que la hipótesis se ha verificado.' (past)",
+      "correct": "concluyeron",
+      "explanation": "'Los investigadores concluyeron' — preterite tense, 3rd person plural of concluir. Note the spelling change: u→y to maintain the 'u' sound after 'g'."
+    },
+    {
+      "type": "exercise",
+      "question": "What does 'el acceso abierto' mean?",
+      "options": [
+        "Open access to research",
+        "Open door policy",
+        "Public access to libraries",
+        "Open source software"
+      ],
+      "correct": 0,
+      "explanation": "'El acceso abierto' = open access, referring to freely available academic publications. This is a key concept in modern academic publishing."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete with the correct connector: '______, los resultados no son concluyentes.' (in conclusion)",
+      "correct": "En conclusión",
+      "explanation": "'En conclusión' (in conclusion) introduces the final summary of the research findings."
+    },
+    {
+      "type": "exercise",
+      "question": "Choose the correct academic phrase for 'according to the data':",
+      "options": [
+        "De acuerdo con los datos",
+        "Con los datos de acuerdo",
+        "Según los datos de acuerdo",
+        "De acuerdo los datos"
+      ],
+      "correct": 0,
+      "explanation": "'De acuerdo con los datos' = In accordance with the data. The preposition 'con' is required after 'de acuerdo'."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: 'Se ____ (observar) una tendencia al alza en las últimas publicaciones.' (past impersonal)",
+      "correct": "observó",
+      "explanation": "'Se observó una tendencia' — impersonal 'se' construction with 3rd person singular past tense to agree with the singular subject 'una tendencia'."
+    },
+    {
+      "type": "exercise",
+      "question": "Which sentence uses the subjunctive correctly in an academic context?",
+      "options": [
+        "Es necesario que los datos sean verificados.",
+        "Es necesario que los datos son verificados.",
+        "Es necesario que los datos fueron verificados.",
+        "Es necesario que los datos serán verificados."
+      ],
+      "correct": 0,
+      "explanation": "'Es necesario que' triggers the subjunctive. 'Sean' is the present subjunctive of ser. The other options use indicative (son), preterite (fueron), or future (serán) — none trigger subjunctive correctly."
+    }
+  ]
+}

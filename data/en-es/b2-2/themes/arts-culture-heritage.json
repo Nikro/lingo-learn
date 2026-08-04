@@ -1,0 +1,1173 @@
+{
+  "id": "arts-culture-heritage",
+  "level": "b2-2",
+  "title": "Arts, Culture & Heritage",
+  "description": "Vocabulary, grammar, pronunciation, and exercises about museums, historical sites, cultural identity, heritage preservation, and the arts.",
+  "vocabulary": [
+    {
+      "id": 1,
+      "target": "el museo",
+      "source": "museum",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 2,
+      "target": "la exposición",
+      "source": "exhibition",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 3,
+      "target": "el cuadro",
+      "source": "painting",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 4,
+      "target": "la pintura",
+      "source": "painting",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 5,
+      "target": "el escultor",
+      "source": "sculptor",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 6,
+      "target": "la escultura",
+      "source": "sculpture",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 7,
+      "target": "el pintor",
+      "source": "painter",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 8,
+      "target": "la artista",
+      "source": "artist",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 9,
+      "target": "el artista",
+      "source": "artist",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 10,
+      "target": "la arquitectura",
+      "source": "architecture",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 11,
+      "target": "el edificio histórico",
+      "source": "historic building",
+      "gender": "m",
+      "type": "noun phrase"
+    },
+    {
+      "id": 12,
+      "target": "la catedral",
+      "source": "cathedral",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 13,
+      "target": "la fortaleza",
+      "source": "fortress",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 14,
+      "target": "el castillo",
+      "source": "castle",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 15,
+      "target": "la ruina",
+      "source": "ruin",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 16,
+      "target": "el yacimiento arqueológico",
+      "source": "archaeological site",
+      "gender": "m",
+      "type": "noun phrase"
+    },
+    {
+      "id": 17,
+      "target": "el patrimonio cultural",
+      "source": "cultural heritage",
+      "gender": "m",
+      "type": "noun phrase"
+    },
+    {
+      "id": 18,
+      "target": "la herencia cultural",
+      "source": "cultural heritage",
+      "gender": "f",
+      "type": "noun phrase"
+    },
+    {
+      "id": 19,
+      "target": "la identidad cultural",
+      "source": "cultural identity",
+      "gender": "f",
+      "type": "noun phrase"
+    },
+    {
+      "id": 20,
+      "target": "la tradición",
+      "source": "tradition",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 21,
+      "target": "la costumbre",
+      "source": "custom",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 22,
+      "target": "el folclore",
+      "source": "folklore",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 23,
+      "target": "la música tradicional",
+      "source": "traditional music",
+      "gender": "f",
+      "type": "noun phrase"
+    },
+    {
+      "id": 24,
+      "target": "el baile tradicional",
+      "source": "traditional dance",
+      "gender": "m",
+      "type": "noun phrase"
+    },
+    {
+      "id": 25,
+      "target": "el festival",
+      "source": "festival",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 26,
+      "target": "la fiesta popular",
+      "source": "popular festival",
+      "gender": "f",
+      "type": "noun phrase"
+    },
+    {
+      "id": 27,
+      "target": "el Carnaval",
+      "source": "Carnival",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 28,
+      "target": "el teatro",
+      "source": "theater",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 29,
+      "target": "la obra de teatro",
+      "source": "play",
+      "gender": "f",
+      "type": "noun phrase"
+    },
+    {
+      "id": 30,
+      "target": "la ópera",
+      "source": "opera",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 31,
+      "target": "el ballet",
+      "source": "ballet",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 32,
+      "target": "la danza",
+      "source": "dance",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 33,
+      "target": "el cine",
+      "source": "cinema",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 34,
+      "target": "la literatura",
+      "source": "literature",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 35,
+      "target": "el libro",
+      "source": "book",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 36,
+      "target": "el poema",
+      "source": "poem",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 37,
+      "target": "el poema",
+      "source": "poem",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 38,
+      "target": "la novela",
+      "source": "novel",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 39,
+      "target": "el novelista",
+      "source": "novelist",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 40,
+      "target": "la poeta",
+      "source": "poet",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 41,
+      "target": "el poeta",
+      "source": "poet",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 42,
+      "target": "el pintor",
+      "source": "painter",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 43,
+      "target": "la galería de arte",
+      "source": "art gallery",
+      "gender": "f",
+      "type": "noun phrase"
+    },
+    {
+      "id": 44,
+      "target": "la colección",
+      "source": "collection",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 45,
+      "target": "la pieza",
+      "source": "piece",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 46,
+      "target": "la obra maestra",
+      "source": "masterpiece",
+      "gender": "f",
+      "type": "noun phrase"
+    },
+    {
+      "id": 47,
+      "target": "el lienzo",
+      "source": "canvas",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 48,
+      "target": "el óleo",
+      "source": "oil painting",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 49,
+      "target": "el acuarela",
+      "source": "watercolor",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 50,
+      "target": "el grafiti",
+      "source": "graffiti",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 51,
+      "target": "la fotografía",
+      "source": "photography",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 52,
+      "target": "el fotógrafo",
+      "source": "photographer",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 53,
+      "target": "el monumento",
+      "source": "monument",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 54,
+      "target": "el templo",
+      "source": "temple",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 55,
+      "target": "la basílica",
+      "source": "basilica",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 56,
+      "target": "la mezquita",
+      "source": "mosque",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 57,
+      "target": "la sinagoga",
+      "source": "synagogue",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 58,
+      "target": "el templo",
+      "source": "temple",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 59,
+      "target": "la arqueología",
+      "source": "archaeology",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 60,
+      "target": "el arqueólogo",
+      "source": "archaeologist",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 61,
+      "target": "la preservación",
+      "source": "preservation",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 62,
+      "target": "la restauración",
+      "source": "restoration",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 63,
+      "target": "la conservación",
+      "source": "conservation",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 64,
+      "target": "la destrucción del patrimonio",
+      "source": "heritage destruction",
+      "gender": "f",
+      "type": "noun phrase"
+    },
+    {
+      "id": 65,
+      "target": "el saqueo",
+      "source": "looting",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 66,
+      "target": "la museografía",
+      "source": "museography",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 67,
+      "target": "la pieza de museo",
+      "source": "museum piece",
+      "gender": "f",
+      "type": "noun phrase"
+    },
+    {
+      "id": 68,
+      "target": "el catálogo",
+      "source": "catalog",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 69,
+      "target": "la entrada",
+      "source": "entrance ticket",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 70,
+      "target": "la guía turística",
+      "source": "tour guide",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 71,
+      "target": "el turismo cultural",
+      "source": "cultural tourism",
+      "gender": "m",
+      "type": "noun phrase"
+    },
+    {
+      "id": 72,
+      "target": "el turismo de masas",
+      "source": "mass tourism",
+      "gender": "m",
+      "type": "noun phrase"
+    },
+    {
+      "id": 73,
+      "target": "la cultura popular",
+      "source": "popular culture",
+      "gender": "f",
+      "type": "noun phrase"
+    },
+    {
+      "id": 74,
+      "target": "la alta cultura",
+      "source": "high culture",
+      "gender": "f",
+      "type": "noun phrase"
+    },
+    {
+      "id": 75,
+      "target": "la cultura de masas",
+      "source": "mass culture",
+      "gender": "f",
+      "type": "noun phrase"
+    },
+    {
+      "id": 76,
+      "target": "el arte moderno",
+      "source": "modern art",
+      "gender": "m",
+      "type": "noun phrase"
+    },
+    {
+      "id": 77,
+      "target": "el arte contemporáneo",
+      "source": "contemporary art",
+      "gender": "m",
+      "type": "noun phrase"
+    },
+    {
+      "id": 78,
+      "target": "el arte clásico",
+      "source": "classical art",
+      "gender": "m",
+      "type": "noun phrase"
+    },
+    {
+      "id": 79,
+      "target": "el impresionismo",
+      "source": "impressionism",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 80,
+      "target": "el surrealismo",
+      "source": "surrealism",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 81,
+      "target": "el cubismo",
+      "source": "cubism",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 82,
+      "target": "el renacimiento",
+      "source": "Renaissance",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 83,
+      "target": "el barroco",
+      "source": "baroque",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 84,
+      "target": "el gótico",
+      "source": "Gothic",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 85,
+      "target": "el románico",
+      "source": "Romanesque",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 86,
+      "target": "el estilo artístico",
+      "source": "art style",
+      "gender": "m",
+      "type": "noun phrase"
+    },
+    {
+      "id": 87,
+      "target": "la vanguardia",
+      "source": "avant-garde",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 88,
+      "target": "el movimiento artístico",
+      "source": "art movement",
+      "gender": "m",
+      "type": "noun phrase"
+    },
+    {
+      "id": 89,
+      "target": "la influencia cultural",
+      "source": "cultural influence",
+      "gender": "f",
+      "type": "noun phrase"
+    },
+    {
+      "id": 90,
+      "target": "el intercambio cultural",
+      "source": "cultural exchange",
+      "gender": "m",
+      "type": "noun phrase"
+    },
+    {
+      "id": 91,
+      "target": "la diversidad cultural",
+      "source": "cultural diversity",
+      "gender": "f",
+      "type": "noun phrase"
+    },
+    {
+      "id": 92,
+      "target": "la asimilación cultural",
+      "source": "cultural assimilation",
+      "gender": "f",
+      "type": "noun phrase"
+    },
+    {
+      "id": 93,
+      "target": "el mestizaje",
+      "source": "cultural mixing",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 94,
+      "target": "la globalización cultural",
+      "source": "cultural globalization",
+      "gender": "f",
+      "type": "noun phrase"
+    },
+    {
+      "id": 95,
+      "target": "la pérdida cultural",
+      "source": "cultural loss",
+      "gender": "f",
+      "type": "noun phrase"
+    },
+    {
+      "id": 96,
+      "target": "el rescate cultural",
+      "source": "cultural rescue",
+      "gender": "m",
+      "type": "noun phrase"
+    },
+    {
+      "id": 97,
+      "target": "el idioma indígena",
+      "source": "indigenous language",
+      "gender": "m",
+      "type": "noun phrase"
+    },
+    {
+      "id": 98,
+      "target": "el dialecto",
+      "source": "dialect",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 99,
+      "target": "la lengua materna",
+      "source": "mother tongue",
+      "gender": "f",
+      "type": "noun phrase"
+    },
+    {
+      "id": 100,
+      "target": "en el ámbito cultural",
+      "source": "in the cultural sphere",
+      "gender": "—",
+      "type": "phrase"
+    }
+  ],
+  "grammar": [
+    {
+      "id": 1,
+      "title": "Relative Clauses for Describing Art and Heritage",
+      "description": "Using qui, que, donde, cuyo/cuya for cultural descriptions.",
+      "examples": [
+        {
+          "sentence": "El museo, que fue construido en el siglo XIX, alberga más de mil obras.",
+          "translation": "The museum, which was built in the 19th century, houses more than a thousand works."
+        },
+        {
+          "sentence": "La escultura, cuya autoría se desconoce, es de gran valor.",
+          "translation": "The sculpture, whose authorship is unknown, is of great value."
+        },
+        {
+          "sentence": "La ciudad donde nació el artista es un sitio turístico.",
+          "translation": "The city where the artist was born is a tourist site."
+        },
+        {
+          "sentence": "El cuadro que compró la galería es una obra maestra.",
+          "translation": "The painting that the gallery bought is a masterpiece."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Subjunctive for Cultural Opinions and Values",
+      "description": "Using the subjunctive after expressions of opinion, value judgment, and doubt about culture.",
+      "examples": [
+        {
+          "sentence": "Es importante que se conserven los monumentos históricos.",
+          "translation": "It is important that historical monuments are preserved."
+        },
+        {
+          "sentence": "No creo que el turismo de masas beneficie al patrimonio cultural.",
+          "translation": "I don't think mass tourism benefits cultural heritage."
+        },
+        {
+          "sentence": "Es lamentable que muchas tradiciones se pierdan.",
+          "translation": "It is regrettable that many traditions are lost."
+        },
+        {
+          "sentence": "Es posible que el gobierno invierta más en cultura.",
+          "translation": "It is possible that the government will invest more in culture."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Formal Connectors for Cultural Analysis",
+      "description": "Connectors for structured cultural writing.",
+      "examples": [
+        {
+          "sentence": "En primer lugar, es necesario definir qué es el patrimonio cultural.",
+          "translation": "First, it is necessary to define what cultural heritage is."
+        },
+        {
+          "sentence": "Por consiguiente, la preservación del patrimonio requiere acción.",
+          "translation": "Consequently, heritage preservation requires action."
+        },
+        {
+          "sentence": "A pesar de los esfuerzos, la destrucción del patrimonio continúa.",
+          "translation": "Despite efforts, heritage destruction continues."
+        },
+        {
+          "sentence": "En resumen, la cultura es fundamental para la identidad nacional.",
+          "translation": "In summary, culture is fundamental for national identity."
+        }
+      ]
+    }
+  ],
+  "pronunciation": [
+    {
+      "id": 1,
+      "title": "Pronunciation: Arts & Culture Vocabulary",
+      "sections": [
+        {
+          "focus": "The ll sound",
+          "examples": [
+            "el folclore",
+            "la calle",
+            "el baile"
+          ]
+        },
+        {
+          "focus": "The rr sound",
+          "examples": [
+            "el renacimiento",
+            "la carretera",
+            "el barroco"
+          ]
+        },
+        {
+          "focus": "Silent h",
+          "examples": [
+            "histórico",
+            "herencia",
+            "la herencia"
+          ]
+        },
+        {
+          "focus": "Stress patterns",
+          "examples": [
+            "la ex-po-si-ción",
+            "el mu-se-o",
+            "la ar-qui-tec-tu-ra",
+            "el pa-tri-mo-nio"
+          ]
+        }
+      ],
+      "practice_sentences": [
+        "El museo alberga obras de arte del renacimiento.",
+        "La preservación del patrimonio cultural es fundamental.",
+        "El escultor creó una obra maestra.",
+        "El festival celebra las tradiciones locales."
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": 1,
+      "type": "matching",
+      "title": "Match cultural terms",
+      "instructions": "Match each Spanish term with its correct English translation.",
+      "items": [
+        {
+          "spanish": "el museo",
+          "english": "museum"
+        },
+        {
+          "spanish": "la escultura",
+          "english": "sculpture"
+        },
+        {
+          "spanish": "la arquitectura",
+          "english": "architecture"
+        },
+        {
+          "spanish": "el patrimonio cultural",
+          "english": "cultural heritage"
+        },
+        {
+          "spanish": "la identidad cultural",
+          "english": "cultural identity"
+        },
+        {
+          "spanish": "la obra maestra",
+          "english": "masterpiece"
+        },
+        {
+          "spanish": "el renacimiento",
+          "english": "Renaissance"
+        },
+        {
+          "spanish": "el impresionismo",
+          "english": "impressionism"
+        },
+        {
+          "spanish": "la arqueología",
+          "english": "archaeology"
+        },
+        {
+          "spanish": "la restauración",
+          "english": "restoration"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "type": "fill-in-blank",
+      "title": "Complete with cultural vocabulary",
+      "instructions": "Fill in the blanks with the correct cultural term.",
+      "items": [
+        {
+          "sentence": "El _____ es un edificio donde se exponen obras de arte.",
+          "answer": "museo",
+          "hints": [
+            "one word",
+            "starts with m"
+          ]
+        },
+        {
+          "sentence": "La _____ es una forma de arte en tres dimensiones.",
+          "answer": "escultura",
+          "hints": [
+            "one word",
+            "starts with e"
+          ]
+        },
+        {
+          "sentence": "El _____ es el conjunto de tradiciones y creaciones de un pueblo.",
+          "answer": "patrimonio cultural",
+          "hints": [
+            "two words",
+            "starts with p"
+          ]
+        },
+        {
+          "sentence": "La _____ es el movimiento artístico del siglo XV al XVII.",
+          "answer": "renacimiento",
+          "hints": [
+            "one word",
+            "starts with r"
+          ]
+        },
+        {
+          "sentence": "La _____ es el estudio de los restos del pasado humano.",
+          "answer": "arqueología",
+          "hints": [
+            "one word",
+            "starts with a"
+          ]
+        },
+        {
+          "sentence": "La _____ es el proceso de reparar obras dañadas.",
+          "answer": "restauración",
+          "hints": [
+            "one word",
+            "starts with r"
+          ]
+        },
+        {
+          "sentence": "Un _____ es un edificio histórico muy grande e importante.",
+          "answer": "monumento",
+          "hints": [
+            "one word",
+            "starts with m"
+          ]
+        },
+        {
+          "sentence": "La _____ es un estilo artístico del siglo XII al XVI.",
+          "answer": "gótico",
+          "hints": [
+            "one word",
+            "starts with g"
+          ]
+        },
+        {
+          "sentence": "La _____ es una forma de arte que usa la luz para capturar imágenes.",
+          "answer": "fotografía",
+          "hints": [
+            "one word",
+            "starts with f"
+          ]
+        },
+        {
+          "sentence": "El _____ es una pieza de gran valor artístico.",
+          "answer": "obra maestra",
+          "hints": [
+            "two words",
+            "starts with o"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "type": "translation",
+      "title": "Translate to Spanish",
+      "instructions": "Translate the following English sentences into Spanish.",
+      "items": [
+        {
+          "english": "The museum has over ten thousand visitors per year.",
+          "answer": "El museo tiene más de diez mil visitantes por año."
+        },
+        {
+          "english": "Cultural heritage must be preserved for future generations.",
+          "answer": "El patrimonio cultural debe preservarse para las futuras generaciones."
+        },
+        {
+          "english": "The sculpture was created by a famous artist.",
+          "answer": "La escultura fue creada por un artista famoso."
+        },
+        {
+          "english": "The Renaissance was a period of great cultural flourishing.",
+          "answer": "El Renacimiento fue un período de gran florecimiento cultural."
+        },
+        {
+          "english": "The cathedral is a masterpiece of Gothic architecture.",
+          "answer": "La catedral es una obra maestra de la arquitectura gótica."
+        },
+        {
+          "english": "Traditional music is an important part of our identity.",
+          "answer": "La música tradicional es una parte importante de nuestra identidad."
+        },
+        {
+          "english": "The restoration of the building took three years.",
+          "answer": "La restauración del edificio took tres años."
+        },
+        {
+          "english": "Cultural diversity enriches society.",
+          "answer": "La diversidad cultural enriquece a la sociedad."
+        },
+        {
+          "english": "The artist's work was exhibited in Paris.",
+          "answer": "La obra del artista fue expuesta en París."
+        },
+        {
+          "english": "Mass tourism threatens historical sites.",
+          "answer": "El turismo de masas amenaza los sitios históricos."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "type": "fill-in-blank",
+      "title": "Relative clauses in cultural texts",
+      "instructions": "Complete with qui, que, donde, or cuyo/cuya.",
+      "items": [
+        {
+          "stem": "El museo _____ fue inaugurado en 1920 es el más antiguo.",
+          "answer": "que"
+        },
+        {
+          "stem": "La ciudad _____ nació el artista tiene un museo en su honor.",
+          "answer": "donde"
+        },
+        {
+          "stem": "El pintor, _____ obras se encuentran en todo el mundo, vivió en España.",
+          "answer": "cuyas"
+        },
+        {
+          "stem": "La escultura _____ está en la plaza fue donada por la ciudad.",
+          "answer": "que"
+        },
+        {
+          "stem": "El edificio _____ patrimonio es protegido por la UNESCO.",
+          "answer": "cuyo"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "type": "exercise",
+      "title": "Subjunctive for cultural values",
+      "instructions": "Complete with the correct subjunctive form.",
+      "items": [
+        {
+          "stem": "Es importante que el gobierno (proteger) el patrimonio cultural.",
+          "answer": "proteja"
+        },
+        {
+          "stem": "No creo que la globalización (preservar) las tradiciones locales.",
+          "answer": "preserve"
+        },
+        {
+          "stem": "Es necesario que los museos (abrir) nuevos espacios.",
+          "answer": "abran"
+        },
+        {
+          "stem": "Dudo que el turismo de masas (beneficiar) a las comunidades.",
+          "answer": "beneficie"
+        },
+        {
+          "stem": "Es posible que se (encontrar) nuevos yacimientos arqueológicos.",
+          "answer": "encuentren"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "type": "exercise",
+      "title": "Art movements matching",
+      "instructions": "Match each art movement with its correct description.",
+      "items": [
+        {
+          "movement": "el renacimiento",
+          "description": "Período de gran florecimiento artístico del siglo XV al XVI"
+        },
+        {
+          "movement": "el barroco",
+          "description": "Estilo dramático y ornamentado del siglo XVII"
+        },
+        {
+          "movement": "el gótico",
+          "description": "Estilo arquitectónico con arcos puntiagudos (siglos XII-XVI)"
+        },
+        {
+          "movement": "el impresionismo",
+          "description": "Movimiento que captura la luz y el movimiento (siglo XIX)"
+        },
+        {
+          "movement": "el cubismo",
+          "description": "Movimiento que descompone formas en ángulos (siglo XX)"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "type": "fill-in-blank",
+      "title": "Cultural vocabulary in context",
+      "instructions": "Read and fill in missing words.",
+      "items": [
+        {
+          "text": "La _____ es fundamental para mantener la identidad de un pueblo. Sin embargo, la _____ puede amenazar las tradiciones locales cuando se impone una cultura dominante. Por otro lado, el _____ permite el enriquecimiento mutuo entre diferentes culturas.",
+          "word_bank": [
+            "identidad cultural",
+            "globalización cultural",
+            "intercambio cultural"
+          ]
+        },
+        {
+          "text": "La _____ del edificio histórico tomó cinco años. Los _____ trabajaron con cuidado para preservar cada detalle. Ahora, los _____ pueden visitar el edificio restaurado.",
+          "word_bank": [
+            "restauración",
+            "restauradores",
+            "visitantes"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "type": "exercise",
+      "title": "Reading comprehension: Heritage Preservation",
+      "instructions": "Read and answer.",
+      "items": [
+        {
+          "text": "El patrimonio cultural de un país es el conjunto de bienes materiales e inmateriales que heredaron de sus antepasados. Este patrimonio incluye monumentos, obras de arte, tradiciones, idiomas y costumbres. Su preservación es esencial porque nos permite entender quiénes somos y de dónde venimos. Sin embargo, la destrucción del patrimonio cultural sigue siendo una amenaza debido a guerras, desastres naturales y la indiferencia.",
+          "questions": [
+            {
+              "question": "¿Qué incluye el patrimonio cultural?",
+              "answer": "Monumentos, obras de arte, tradiciones, idiomas y costumbres."
+            },
+            {
+              "question": "¿Por qué es importante preservarlo?",
+              "answer": "Para entender quiénes somos y de dónde venimos."
+            },
+            {
+              "question": "¿Cuáles son las amenazas al patrimonio?",
+              "answer": "Guerras, desastres naturales e indiferencia."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "type": "exercise",
+      "title": "Prepositions with culture",
+      "instructions": "Complete with correct preposition.",
+      "items": [
+        {
+          "stem": "El artista es famoso _____ sus esculturas.",
+          "answer": "por"
+        },
+        {
+          "stem": "La obra se expone _____ el museo nacional.",
+          "answer": "en"
+        },
+        {
+          "stem": "El festival se celebra _____ honor de los antepasados.",
+          "answer": "en"
+        },
+        {
+          "stem": "La influencia del arte italiano _____ España es significativa.",
+          "answer": "en"
+        },
+        {
+          "stem": "El artista recibió el premio _____ su contribución al arte.",
+          "answer": "por"
+        }
+      ]
+    }
+  ]
+}

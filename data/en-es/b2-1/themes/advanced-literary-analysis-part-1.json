@@ -1,0 +1,1046 @@
+{
+  "metadata": {
+    "level": "B2.1",
+    "theme_id": 3,
+    "theme_title": "Advanced Literary Analysis",
+    "theme_english": "Advanced Literary Analysis",
+    "theme_spanish": "Análisis Literario Avanzado",
+    "description": "Advanced vocabulary, grammar, pronunciation, and exercises for literary analysis, narrative techniques, poetic devices, and critical reading at the B2.1 CEFR level.",
+    "topics": [
+      "literary theory",
+      "narrative techniques",
+      "poetic analysis",
+      "textual interpretation",
+      "figure of speech",
+      "narrative voice",
+      "literary movements",
+      "critical reading"
+    ],
+    "cefr_alignment": {
+      "level": "B2.1",
+      "can_do_statements": [
+        "Comprender prosa literaria contemporánea y textos críticos sobre literatura",
+        "Analizar técnicas narrativas y su efecto en el lector",
+        "Interpretar simbolismo y metáfora en textos literarios",
+        "Expresar opiniones fundamentadas sobre obras literarias y movimientos culturales",
+        "Comparar diferentes perspectivas interpretativas de un mismo texto"
+      ]
+    },
+    "created_at": "2026-08-03T00:00:00Z",
+    "version": "1.0"
+  },
+  "vocabulary": {
+    "total_count": 70,
+    "categories": {
+      "nouns": [
+        {
+          "spanish": "el análisis literario",
+          "english": "literary analysis",
+          "phonetic": "/el aˈna.lis.li.teˈɾa.ɾjo/",
+          "gender": "masculine",
+          "example": "El análisis literario revela capas de significado."
+        },
+        {
+          "spanish": "la narrativa",
+          "english": "narrative, storytelling",
+          "phonetic": "/la na.ɾaˈti.βa/",
+          "gender": "feminine",
+          "example": "La narrativa latinoamericana ha revolucionado la literatura."
+        },
+        {
+          "spanish": "el narrador",
+          "english": "narrator",
+          "phonetic": "/el naɾ.ɾaˈðoɾ/",
+          "gender": "masculine",
+          "example": "El narrador omnisciente conoce todos los pensamientos."
+        },
+        {
+          "spanish": "la narradora",
+          "english": "narrator (female)",
+          "phonetic": "/la naɾ.ɾaˈðoɾa/",
+          "gender": "feminine",
+          "example": "La narradora eligió contar la historia desde su perspectiva."
+        },
+        {
+          "spanish": "el narrador omnisciente",
+          "english": "omniscient narrator",
+          "phonetic": "/el naɾ.ɾaˈðoɾ om.niˈsjjen.te/",
+          "gender": "masculine",
+          "example": "El narrador omnisciente describe lo que piensan todos los personajes."
+        },
+        {
+          "spanish": "el narrador protagonista",
+          "english": "protagonist narrator",
+          "phonetic": "/el naɾ.ɾaˈðoɾ pɾo.taˈɰi.ta/",
+          "gender": "masculine",
+          "example": "El narrador protagonista vive los acontecimientos en primera persona."
+        },
+        {
+          "spanish": "el narrador testigo",
+          "english": "witness narrator",
+          "phonetic": "/el naɾ.ɾaˈðoɾ ˈtes.βo/",
+          "gender": "masculine",
+          "example": "El narrador testigo observa pero no controla la trama."
+        },
+        {
+          "spanish": "la voz narrativa",
+          "english": "narrative voice",
+          "phonetic": "/la βoθ na.ɾaˈti.βa/",
+          "gender": "feminine",
+          "example": "La voz narrativa de Bolaño es irreconocible."
+        },
+        {
+          "spanish": "el punto de vista",
+          "english": "point of view",
+          "phonetic": "/el ˈpunto ðe ˈβista/",
+          "gender": "masculine",
+          "example": "El relato cambia de punto de vista en cada capítulo."
+        },
+        {
+          "spanish": "el protagonista",
+          "english": "protagonist, main character",
+          "phonetic": "/el pɾo.taˈɰi.ta/",
+          "gender": "masculine",
+          "example": "El protagonista enfrenta un conflicto moral."
+        },
+        {
+          "spanish": "el antagonista",
+          "english": "antagonist",
+          "phonetic": "/el an.taˈɰi.ta/",
+          "gender": "masculine",
+          "example": "El antagonista representa la fuerza que se opone al héroe."
+        },
+        {
+          "spanish": "el conflicto",
+          "english": "conflict",
+          "phonetic": "/el konˈflik.to/",
+          "gender": "masculine",
+          "example": "El conflicto interno del personaje es más profundo que el externo."
+        },
+        {
+          "spanish": "el clímax",
+          "english": "climax",
+          "phonetic": "/el ˈkli.maks/",
+          "gender": "masculine",
+          "example": "El clímax de la novela ocurre en el último capítulo."
+        },
+        {
+          "spanish": "el desenlace",
+          "english": "resolution, denouement",
+          "phonetic": "/el des.enˈla.θe/",
+          "gender": "masculine",
+          "example": "El desenlace sorprende al lector."
+        },
+        {
+          "spanish": "el flashback",
+          "english": "flashback",
+          "phonetic": "/el ˈflaʃ.bak/",
+          "gender": "masculine",
+          "note": "anglicismo aceptado",
+          "example": "El flashback revela el pasado del personaje."
+        },
+        {
+          "spanish": "la retrospectiva",
+          "english": "retrospective, flashback",
+          "phonetic": "/la ɾet.ro.spekˈti.βa/",
+          "gender": "feminine",
+          "example": "La retrospectiva sitúa la historia en su contexto."
+        },
+        {
+          "spanish": "el simbolismo",
+          "english": "symbolism",
+          "phonetic": "/el sim.boˈlis.mo/",
+          "gender": "masculine",
+          "example": "El simbolismo de Borges es denso y multifacético."
+        },
+        {
+          "spanish": "el símbolo",
+          "english": "symbol",
+          "phonetic": "/el ˈsim.bo.lo/",
+          "gender": "masculine",
+          "example": "El mar simboliza la libertad en la poesía de Neruda."
+        },
+        {
+          "spanish": "la metáfora",
+          "english": "metaphor",
+          "phonetic": "/la me.taˈfo.ɾa/",
+          "gender": "feminine",
+          "example": "La metáfora 'el tiempo es un ladrón' es muy utilizada."
+        },
+        {
+          "spanish": "la comparación",
+          "english": "simile, comparison",
+          "phonetic": "/la kom.pa.ɾaˈθjon/",
+          "gender": "feminine",
+          "example": "A diferencia de la metáfora, la comparación usa 'como' o 'cual'."
+        },
+        {
+          "spanish": "la ironía",
+          "english": "irony",
+          "phonetic": "/la i.ɾoˈnja/",
+          "gender": "feminine",
+          "example": "La ironía socrática consiste en fingir ignorancia."
+        },
+        {
+          "spanish": "el sarcasmo",
+          "english": "sarcasm",
+          "phonetic": "/el saɾ.kaˈsmo/",
+          "gender": "masculine",
+          "example": "El sarcasmo de Cervantes es afilado y mordaz."
+        },
+        {
+          "spanish": "la hipérbole",
+          "english": "hyperbole",
+          "phonetic": "/la i.peɾˈBo.le/",
+          "gender": "feminine",
+          "example": "La hipérbole exagera para enfatizar un punto."
+        },
+        {
+          "spanish": "la alusión",
+          "english": "allusion",
+          "phonetic": "/la aˈlu.sjon/",
+          "gender": "feminine",
+          "example": "La alusión mitológica enriquece el texto."
+        },
+        {
+          "spanish": "el intertexto",
+          "english": "intertext",
+          "phonetic": "/el in.teɾˈtek.to/",
+          "gender": "masculine",
+          "note": "término literario",
+          "example": "El intertexto dialoga con obras clásicas."
+        },
+        {
+          "spanish": "la parodia",
+          "english": "parody",
+          "phonetic": "/la pa.ɾoˈðja/",
+          "gender": "feminine",
+          "example": "La parodia imita el estilo de otra obra con intención cómica."
+        },
+        {
+          "spanish": "la sátira",
+          "english": "satire",
+          "phonetic": "/la ˈsa.ti.ɾa/",
+          "gender": "feminine",
+          "example": "La sátira social de Quevedo es feroz."
+        },
+        {
+          "spanish": "el subtexto",
+          "english": "subtext",
+          "phonetic": "/el subˈteksto/",
+          "gender": "masculine",
+          "example": "El subtexto revela lo que los personajes no dicen."
+        },
+        {
+          "spanish": "el tono",
+          "english": "tone",
+          "phonetic": "/el ˈto.no/",
+          "gender": "masculine",
+          "example": "El tono irónico del autor se percibe en cada página."
+        },
+        {
+          "spanish": "el estilo",
+          "english": "style",
+          "phonetic": "/el ˈes.ti.lo/",
+          "gender": "masculine",
+          "example": "El estilo de García Márquez es reconocible al instante."
+        },
+        {
+          "spanish": "la prosa",
+          "english": "prose",
+          "phonetic": "/la ˈpɾo.sa/",
+          "gender": "feminine",
+          "example": "La prosa poética de Rubén Darío es luminosa."
+        },
+        {
+          "spanish": "el verso",
+          "english": "verse, line of poetry",
+          "phonetic": "/el ˈbeɾ.so/",
+          "gender": "masculine",
+          "example": "Cada verso de este poema es una imagen completa."
+        },
+        {
+          "spanish": "la estrofa",
+          "english": "stanza",
+          "phonetic": "/la ˈes.tɾo.fa/",
+          "gender": "feminine",
+          "example": "La estrofa tiene una estructura de cuatro versos."
+        },
+        {
+          "spanish": "el ritmo",
+          "english": "rhythm",
+          "phonetic": "/el ˈrit.mo/",
+          "gender": "masculine",
+          "example": "El ritmo del poema imita el latido del corazón."
+        },
+        {
+          "spanish": "la rima",
+          "english": "rhyme",
+          "phonetic": "/la ˈri.ma/",
+          "gender": "feminine",
+          "example": "La rima consonante es más estricta que la asonante."
+        },
+        {
+          "spanish": "el poema",
+          "english": "poem",
+          "phonetic": "/el poˈe.ma/",
+          "gender": "masculine",
+          "example": "El poema de Lorca tiene una musicalidad extraordinaria."
+        },
+        {
+          "spanish": "la poesía",
+          "english": "poetry",
+          "phonetic": "/la poˈe.sja/",
+          "gender": "feminine",
+          "example": "La poesía española del siglo XX es rica y diversa."
+        },
+        {
+          "spanish": "el poema épico",
+          "english": "epic poem",
+          "phonetic": "/el poˈe.ma ˈe.piko/",
+          "gender": "masculine",
+          "example": "El Poema del Mio Cid es un poema épico medieval."
+        },
+        {
+          "spanish": "el soneto",
+          "english": "sonnet",
+          "phonetic": "/el soˈne.to/",
+          "gender": "masculine",
+          "example": "El soneto tiene catorce versos de arte mayor."
+        },
+        {
+          "spanish": "la oda",
+          "english": "ode",
+          "phonetic": "/la ˈo.ða/",
+          "gender": "feminine",
+          "example": "La oda a la vida sencilla es una obra de Darío."
+        },
+        {
+          "spanish": "el elegía",
+          "english": "elegy, lament",
+          "phonetic": "/e.ˈle.xja/",
+          "gender": "feminine",
+          "note": "femenino: la elegía",
+          "example": "La elegía expresa dolor y nostalgia."
+        },
+        {
+          "spanish": "la fábula",
+          "english": "fable",
+          "phonetic": "/la ˈfa.βu.la/",
+          "gender": "feminine",
+          "example": "La fábula transmite una moraleja a través de animales."
+        },
+        {
+          "spanish": "el mito",
+          "english": "myth",
+          "phonetic": "/el ˈmi.to/",
+          "gender": "masculine",
+          "example": "El mito de Prometeo alude al sacrificio por la humanidad."
+        },
+        {
+          "spanish": "la alegoría",
+          "english": "allegory",
+          "phonetic": "/la a.leˈxo.ɾja/",
+          "gender": "feminine",
+          "example": "La alegoría permite leer un segundo nivel de significado."
+        },
+        {
+          "spanish": "el realismo mágico",
+          "english": "magical realism",
+          "phonetic": "/el ɾe.aˈlis.mo ˈma.xi.ko/",
+          "gender": "masculine",
+          "example": "El realismo mágico funde lo cotidiano con lo fantástico."
+        },
+        {
+          "spanish": "el boom latinoamericano",
+          "english": "Latin American Boom",
+          "phonetic": "/el bum la.tino.a.me.ɾiˈka.no/",
+          "gender": "masculine",
+          "example": "El boom latinoamericano transformó la literatura mundial."
+        },
+        {
+          "spanish": "la literatura fantástica",
+          "english": "fantasy literature",
+          "phonetic": "/la li.te.ɾaˈtu.ɾa fanˈtas.ti.ka/",
+          "gender": "feminine",
+          "example": "La literatura fantástica explora mundos alternativos."
+        },
+        {
+          "spanish": "la obra literaria",
+          "english": "literary work",
+          "phonetic": "/la ˈobɾa li.teˈɾa.ɾja/",
+          "gender": "feminine",
+          "example": "Esta obra literaria cambió la percepción de su época."
+        },
+        {
+          "spanish": "el género literario",
+          "english": "literary genre",
+          "phonetic": "/el ˈxene.ɾo li.teˈɾa.ɾjo/",
+          "gender": "masculine",
+          "example": "El género de la novela negra tiene raíces antiguas."
+        },
+        {
+          "spanish": "el cuento corto",
+          "english": "short story",
+          "phonetic": "/el ˈkwen.to ˈkoɾ.to/",
+          "gender": "masculine",
+          "example": "El cuento corto exige economía narrativa."
+        },
+        {
+          "spanish": "la novela",
+          "english": "novel",
+          "phonetic": "/la noˈβe.la/",
+          "gender": "feminine",
+          "example": "La novela contemporánea desdibuja los géneros."
+        },
+        {
+          "spanish": "la trama",
+          "english": "plot",
+          "phonetic": "/la ˈtɾa.ma/",
+          "gender": "feminine",
+          "example": "La trama se entrelaza con la historia del personaje."
+        },
+        {
+          "spanish": "el argumento",
+          "english": "plot, storyline",
+          "phonetic": "/el aɾ.ɰuˈmen.to/",
+          "gender": "masculine",
+          "example": "El argumento se desarrolla en tres tiempos narrativos."
+        },
+        {
+          "spanish": "el escenario",
+          "english": "setting",
+          "phonetic": "/el es.kaˈɾjo.no/",
+          "gender": "masculine",
+          "example": "El escenario urbano es un personaje en sí mismo."
+        },
+        {
+          "spanish": "la caracterización",
+          "english": "characterization",
+          "phonetic": "/la ka.ɾakte.ɾi.θaˈθjon/",
+          "gender": "feminine",
+          "example": "La caracterización psicológica del villano es profunda."
+        },
+        {
+          "spanish": "el tema central",
+          "english": "central theme",
+          "phonetic": "/el ˈte.ma θenˈtɾal/",
+          "gender": "masculine",
+          "example": "El tema central es la identidad cultural."
+        },
+        {
+          "spanish": "el mensaje",
+          "english": "message, theme",
+          "phonetic": "/el ˈme.na.xe/",
+          "gender": "masculine",
+          "example": "El mensaje de la obra es universal."
+        },
+        {
+          "spanish": "el contexto histórico",
+          "english": "historical context",
+          "phonetic": "/el konˈteksto isˈtɾoɾi.ko/",
+          "gender": "masculine",
+          "example": "El contexto histórico es clave para entender la obra."
+        },
+        {
+          "spanish": "la interpretación",
+          "english": "interpretation",
+          "phonetic": "/la in.teɾ.peɾ.taˈθjon/",
+          "gender": "feminine",
+          "example": "Cada interpretación revela algo nuevo sobre el texto."
+        },
+        {
+          "spanish": "el crítico literario",
+          "english": "literary critic",
+          "phonetic": "/el ˈkɾi.ti.ko li.teˈɾa.ɾjo/",
+          "gender": "masculine",
+          "example": "El crítico literario analiza las capas de significado."
+        },
+        {
+          "spanish": "la crítica",
+          "english": "critique, literary criticism",
+          "phonetic": "/la ˈkɾi.ti.ka/",
+          "gender": "feminine",
+          "example": "La crítica feminista reveló nuevas lecturas posibles."
+        },
+        {
+          "spanish": "la hermenéutica",
+          "english": "hermeneutics",
+          "phonetic": "/la eɾ.meˈne.utika/",
+          "gender": "feminine",
+          "note": "término académico",
+          "example": "La hermenéutica estudia los principios de la interpretación."
+        },
+        {
+          "spanish": "el ensayo",
+          "english": "essay",
+          "phonetic": "/el enˈsa.ʝo/",
+          "gender": "masculine",
+          "example": "El ensayo de Borges fusiona ficción y filosofía."
+        },
+        {
+          "spanish": "el diálogo",
+          "english": "dialogue",
+          "phonetic": "/el ˈðja.lo.xo/",
+          "gender": "masculine",
+          "example": "El diálogo revela las tensiones entre los personajes."
+        },
+        {
+          "spanish": "el monólogo",
+          "english": "monologue",
+          "phonetic": "/el moˈno.lo.ɣo/",
+          "gender": "masculine",
+          "example": "El monólogo interior explora la conciencia del personaje."
+        },
+        {
+          "spanish": "el flujo de conciencia",
+          "english": "stream of consciousness",
+          "phonetic": "/el ˈflu.xo ðe konˈsjjen.θja/",
+          "gender": "masculine",
+          "example": "El flujo de conciencia imita el pensamiento humano."
+        },
+        {
+          "spanish": "el tiempo narrativo",
+          "english": "narrative time",
+          "phonetic": "/el ˈtmpe.no na.ɾaˈti.βo/",
+          "gender": "masculine",
+          "example": "El tiempo narrativo puede diferir del tiempo real."
+        },
+        {
+          "spanish": "el espacio literario",
+          "english": "literary space",
+          "phonetic": "/el esˈpa.θjo li.teˈɾa.ɾjo/",
+          "gender": "masculine",
+          "example": "El espacio literario construye el mundo de la historia."
+        },
+        {
+          "spanish": "el lector",
+          "english": "reader",
+          "phonetic": "/el leˈkoɾ/",
+          "gender": "masculine",
+          "example": "El lector completa el significado del texto."
+        },
+        {
+          "spanish": "el autor",
+          "english": "author",
+          "phonetic": "/el auˈtoɾ/",
+          "gender": "masculine",
+          "note": "feminine: la autora",
+          "example": "El autor intencional no es la única fuente de significado."
+        }
+      ]
+    }
+  },
+  "grammar": [
+    {
+      "title": "Imperfect Subjunctive in Literary Analysis",
+      "content": "The imperfect subjunctive (-ra/-se forms) is essential in B2.1 literary analysis for expressing hypothetical situations, counterfactual statements, and polite suggestions — all common in literary criticism.\n\nThe -ra form (most common in Latin America and increasingly in Spain):\n- yo: -ra\n- tú: -ras\n- él/ella/usted: -ra\n- nosotros: -ramos\n- vosotros: -rais\n- ellos/ellas/ustedes: -ran\n\nThe -se form (traditional, still used in Spain and literary contexts):\n- yo: -se\n- tú: -ses\n- él/ella/usted: -se\n- nosotros: -semos\n- vosotros: -seis\n- ellos/ellas/ustedes: -sen\n\nBoth forms are interchangeable in almost all contexts. The -ra form is slightly more common in modern usage.",
+      "table": {
+        "headers": [
+          "Subject",
+          "-ra form (hablar)",
+          "-se form (hablar)",
+          "Usage"
+        ],
+        "rows": [
+          [
+            "yo",
+            "hablara",
+            "hablase",
+            "Hypothetical: Si hablara/hablase español..."
+          ],
+          [
+            "tú",
+            "hablaras",
+            "hablases",
+            "Advice: Si hablaras/hablases crítico..."
+          ],
+          [
+            "él/ella/usted",
+            "hablara",
+            "hablase",
+            "Counterfactual: Ojalara/ojalase hubiera..."
+          ],
+          [
+            "nosotros",
+            "habláramos",
+            "hablásemos",
+            "Suggestion: Propongo que habláramos/hablásemos..."
+          ],
+          [
+            "vosotros",
+            "hablarais",
+            "hablaseis",
+            "Hypothetical collective: Si hablarais/hablaseis..."
+          ],
+          [
+            "ellos/ellas/ustedes",
+            "hablaran",
+            "hablasen",
+            "Unreal past: Si hablaran/hablasen más..."
+          ]
+        ]
+      },
+      "examples": [
+        "Si el narrador hablara/hablase en primera persona, la historia cambiaría por completo. (If the narrator spoke in first person, the story would change completely.)",
+        "Ojalara ojalase hubiera existido un movimiento literario que combinara el realismo y el surrealismo. (I wish there had existed a literary movement combining realism and surrealism.)",
+        "Sería interesante si la crítica hablara/hablase más de la literatura latinoamericana. (It would be interesting if critics spoke more about Latin American literature.)",
+        "Los autores del Boom hubieran/hubiesen cambiado la literatura mundial si no existieran restricciones políticas. (The Boom authors would have changed world literature if political restrictions hadn't existed.)"
+      ],
+      "aid_note": "Romanian uses 'dacă aș vorbi' (if I were to speak) for the same function — the conditional equivalent in the si-clause. Spanish is unique in using the imperfect subjunctive in si-clauses for hypotheticals, which Romanian approximates with the conditional. This is a key structural difference Spanish learners must internalize."
+    },
+    {
+      "title": "Advanced Narrative Tenses — Preterite vs. Imperfect in Literary Texts",
+      "content": "At B2.1, students must distinguish how authors use the preterite and imperfect to construct narrative time. The preterite marks completed actions and plot progression; the imperfect sets scenes, describes states, and provides background.\n\nPreterite (pretérito indefinido):\n- Completed, bounded actions: El protagonista cruzó la frontera.\n- Sequential plot events: Llegó, miró alrededor y se escondió.\n- Sudden changes: De repente, el cielo se oscureció.\n\nImperfect (pretérito imperfecto):\n- Ongoing states: Era una noche oscura y ventosa.\n- Repeated actions: Siempre caminaba por el mismo camino.\n- Background description: La casa tenía ventanas grandes y puertas de madera.\n- Time/weather/age: Eran las tres de la tarde. Hacía frío. Tenía veinte años.",
+      "table": {
+        "headers": [
+          "Function",
+          "Preterite",
+          "Imperfect",
+          "Example"
+        ],
+        "rows": [
+          [
+            "Completed action",
+            "✓",
+            "—",
+            "El autor escribió la novela en un año."
+          ],
+          [
+            "Background/scene-setting",
+            "—",
+            "✓",
+            "El pueblo era pequeño y tranquilo."
+          ],
+          [
+            "Sudden event",
+            "✓",
+            "—",
+            "De repente, sonó una explosión."
+          ],
+          [
+            "Ongoing state",
+            "—",
+            "✓",
+            "La protagonista estaba asustada."
+          ],
+          [
+            "Sequential events",
+            "✓",
+            "—",
+            "Entró, caminó y se sentó."
+          ],
+          [
+            "Habitual past",
+            "—",
+            "✓",
+            "Siempre soñaba con viajar."
+          ],
+          [
+            "Interruption",
+            "✓ interrupts",
+            "✓ ongoing",
+            "Leía cuando sonó el teléfono."
+          ],
+          [
+            "Age/Time/Weather",
+            "—",
+            "✓",
+            "Tenía veinte años y hacía frío."
+          ]
+        ]
+      },
+      "examples": [
+        "La casa era vieja y estaba abandonada. Un día, alguien entró y la restauró. (The house was old and abandoned. One day, someone entered and restored it.)",
+        "Mientras el protagonista caminaba por la ciudad, escuchó una voz que lo llamó por su nombre. (While the protagonist walked through the city, he heard a voice calling his name.)",
+        "Cuando llegué al pueblo, todo era diferente a como lo recordaba. (When I arrived in town, everything was different from how I remembered it.)"
+      ],
+      "aid_note": "Romanian has a similar distinction: the perfect tense (am citit = I read) for completed actions vs. imperfectul (citeam = I was reading) for ongoing/habitual past. The Spanish preterite maps roughly to Romanian perfect, while the imperfect maps directly to the Romanian imperfect."
+    },
+    {
+      "title": "Subjunctive in Literary Evaluation",
+      "content": "B2.1 students use the subjunctive to express subjective literary evaluations, opinions about artistic merit, and hypothetical judgments about texts.\n\nTriggers for subjunctive in literary contexts:\n- Expressions of judgment: Es importante que el autor... (It is important that the author...)\n- Expressions of doubt: No creo que la obra... (I don't believe the work...)\n- Expressions of desire: Quiero que el lector... (I want the reader to...)\n- Expressions of emotion: Me alegra que la novela... (I'm glad that the novel...)\n- Impersonal expressions: Es necesario que se analice... (It is necessary that it be analyzed...)",
+      "table": {
+        "headers": [
+          "Trigger",
+          "Indicative (fact)",
+          "Subjunctive (subjective)",
+          "Example"
+        ],
+        "rows": [
+          [
+            "Certainty",
+            "Es cierto que...",
+            "No es cierto que... (+ subj.)",
+            "No es cierto que sea mala obra."
+          ],
+          [
+            "Opinion",
+            "Creo que...",
+            "No creo que... (+ subj.)",
+            "No creo que el final funcione."
+          ],
+          [
+            "Emotion",
+            "Me gusta que...",
+            "Me sorprende que... (+ subj.)",
+            "Me sorprende que haya tantos símbolos."
+          ],
+          [
+            "Desire",
+            "Quiero que... (+ subj.)",
+            "Espero que... (+ subj.)",
+            "Espero que el lector interprete el símbolo."
+          ],
+          [
+            "Necessity",
+            "Es necesario que... (+ subj.)",
+            "Es fundamental que... (+ subj.)",
+            "Es fundamental que se contextualice."
+          ]
+        ]
+      },
+      "examples": [
+        "No creo que la interpretación del crítico sea válida. (I don't believe the critic's interpretation is valid.)",
+        "Es importante que los lectores analicen el simbolismo antes de sacar conclusiones. (It is important that readers analyze the symbolism before drawing conclusions.)",
+        "Me alegra que la novela haya ganado tanto reconocimiento. (I'm glad that the novel has gained so much recognition.)",
+        "Quiero que el autor explique mejor la motivación del personaje. (I want the author to better explain the character's motivation.)"
+      ],
+      "aid_note": "Romanian uses the subjunctive (să + present) in very similar contexts: 'Nu cred că opera să fie bună' = I don't believe the work is good. The structural parallel is strong — both languages require subjunctive after expressions of doubt, emotion, desire, and judgment."
+    }
+  ],
+  "pronunciation": [
+    {
+      "title": "Phonetic Patterns in Literary Spanish",
+      "content": "Literary Spanish at B2.1 level introduces several pronunciation challenges:\n\n1. The letter 'x' in literary terms:\n   - Before consonant: /s/ — 'psicología' = /psi.ko.loˈxi.a/\n   - Before vowel: /ks/ — 'examen' = /ekˈsa.men/\n   - In American Spanish (Mexico): /x/ — 'México' = /ˈme.xi.ko/\n\n2. The letter 'll' in some regions (yeísmo vs. voseo):\n   - Most of Spain: 'll' = /ʝ/ (like French 'j')\n   - Argentina/Uruguay: 'll' = /ʒ/ or /ʃ/ (like English 'sh')\n\n3. The letter 'y' at the end of words:\n   - 'rey' = /reʝ/ (like 'll' in most of Spain)\n   - 'rey' = /reʃ/ or /reʒ/ (in Argentina)\n\n4. Consonant clusters in literary vocabulary:\n   - 'psicología' — the 'p' is silent\n   - 'crítico' — 'cr' cluster at start\n   - 'tema' — stress on first syllable",
+      "examples": [
+        {
+          "target": "psicología",
+          "source": "/psi.ko.loˈxi.a/ — the 'p' is silent, stress on 'xi'"
+        },
+        {
+          "target": "análisis",
+          "source": "/aˈna.lis.is/ — stress on first 'a', double 's' pronounced once"
+        },
+        {
+          "target": "narrativa",
+          "source": "/na.ɾaˈti.βa/ — 'rr' is trilled, stress on 'ti'"
+        },
+        {
+          "target": "simbolismo",
+          "source": "/sim.boˈlis.mo/ — stress on 'lis', 'b' between vowels is soft /β/"
+        },
+        {
+          "target": "interpretar",
+          "source": "/in.teɾ.peɾˈtaɾ/ — stress on 'tar', final 'r' is light"
+        },
+        {
+          "target": "examinar",
+          "source": "/e.ɡa.miˈnaɾ/ — 'x' before vowel = /ks/, but here /ɡa/"
+        }
+      ],
+      "aid_note": "Romanian has no equivalent for the Spanish trilled 'rr'. Spanish 'rr' in 'narrativa' requires a strong trill — practice by saying 'pero' (light r) vs. 'perro' (trilled rr). The soft /β/ sound in 'narrativa' (between vowels) is similar to Romanian 'v' — very close but not identical."
+    },
+    {
+      "title": "Stress and Accentuation in Literary Terms",
+      "content": "Spanish literary vocabulary follows specific accentuation rules:\n\n- Words ending in -ción, -sión, -dad, -tad, -tud: stress on the second-to-last syllable, always written with an accent.\n  - 'narrativa' = na-rra-TI-va (accent on TI)\n  - 'interpretación' = in-ter-pre-ta-CIÓN (accent on CI)\n  - 'caracterización' = ca-rac-te-ri-za-CIÓN\n\n- Verbs in infinitive: stress on the last syllable, no accent.\n  - 'analizar', 'interpretar', 'reflejar'\n\n- Adverbs in -mente: carry the stress pattern of the adjective.\n  - 'claramente' = stressed on 'ra' (like 'claro')\n  - 'naturalmente' = stressed on 'ru' (like 'natural')\n\n- Accent marks distinguish homophones:\n  - 'él' (he) vs 'el' (the)\n  - 'sí' (yes/self) vs 'si' (if)\n  - 'tú' (you) vs 'tu' (your)\n  - 'mí' (me) vs 'mi' (my)",
+      "examples": [
+        {
+          "target": "narrativa",
+          "source": "na-rra-TI-va (tildada — written accent required)"
+        },
+        {
+          "target": "interpretación",
+          "source": "in-ter-pre-ta-CIÓN (tildada — ending -ción requires accent)"
+        },
+        {
+          "target": "claramente",
+          "source": "cla-ramen-TE (stress follows the adjective 'claro')"
+        },
+        {
+          "target": "naturalmente",
+          "source": "na-tu-ral-MEN-te (stress follows 'natural')"
+        },
+        {
+          "target": "sí",
+          "source": "accented = yes / self; unaccented si = if"
+        },
+        {
+          "target": "él",
+          "source": "accented = he; unaccented el = the"
+        }
+      ],
+      "aid_note": "Romanian accentuation is much simpler — always on the first syllable for native words. Spanish stress is more varied and must be learned for each word. The written accent in Spanish is a visual cue for stress, unlike Romanian where the first-syllable rule applies consistently."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "exercise",
+      "question": "Which narrative perspective uses 'yo' (I) as the narrator?",
+      "options": [
+        "Narrador omnisciente (omniscient narrator)",
+        "Narrador protagonista (protagonist narrator)",
+        "Narrador testigo (witness narrator)",
+        "Narrador externo (external narrator)"
+      ],
+      "correct": 1,
+      "explanation": "The narrator protagonista uses first-person perspective ('yo'). The narrator omnisciente uses third person and knows everything. The narrator testigo observes but doesn't participate."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete the imperfect subjunctive: 'Si el narrador ____ (hablar) en primera persona, la historia cambiaría.' (If the narrator spoke in first person, the story would change.)",
+      "correct": "hablara",
+      "explanation": "Imperfect subjunctive (-ra form) of hablar: yo hablara. Type 2 conditional structure: Si + imperfect subjunctive, conditional."
+    },
+    {
+      "type": "exercise",
+      "question": "What is the difference between 'la metáfora' and 'la comparación' in literary analysis?",
+      "options": [
+        "The metaphor uses 'como'; the comparison doesn't",
+        "The comparison uses 'como'; the metaphor doesn't",
+        "They are the same thing",
+        "Neither is used in Spanish literature"
+      ],
+      "correct": 1,
+      "explanation": "La comparación (simile) explicitly uses 'como' or 'cual' to compare two things ('es fuerte como un roble'). La metáfora (metaphor) directly equates them ('sus ojos son dos luceros') without a connector."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: 'El narrador ____ (imperfect) era tímido cuando ____ (preterite) llegó al pueblo.' (The narrator was shy when he arrived at the town.)",
+      "correct": "era",
+      "explanation": "The imperfect 'era' describes the narrator's ongoing state (shyness). The preterite 'llegó' marks a completed, punctual event (arrival). This is the classic imperfect-for-background + preterite-for-eventual-interruption pattern."
+    },
+    {
+      "type": "exercise",
+      "question": "What does 'realismo mágico' (magical realism) refer to?",
+      "options": [
+        "A movement that only describes magical events",
+        "A style that presents magical elements as part of everyday reality",
+        "A genre of fantasy novels",
+        "A type of poetry about magic"
+      ],
+      "correct": 1,
+      "explanation": "Magical realism presents magical or fantastical elements as ordinary parts of everyday reality. It's associated with authors like García Márquez, Borges, and Cortázar. The supernatural is treated matter-of-factly."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete with the correct subjunctive: 'No creo que esta ____ (interpretar) del poema sea correcta.' (I don't believe this interpretation of the poem is correct.)",
+      "correct": "interpretación",
+      "explanation": "'Interpretación' is the noun form meaning 'interpretation.' The subjunctive 'sea' is triggered by 'No creo que...' (expression of doubt)."
+    },
+    {
+      "type": "exercise",
+      "question": "Which of these is a literary device where an object represents a deeper meaning?",
+      "options": [
+        "La hipérbole (hyperbole)",
+        "El símbolo (symbol)",
+        "La ironía (irony)",
+        "El sarcasmo (sarcasm)"
+      ],
+      "correct": 1,
+      "explanation": "El símbolo (symbol) is when an object, person, or situation represents a deeper, abstract meaning. For example, 'el mar simboliza la libertad' — the sea represents freedom."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: '____ (First of all), analicemos la estructura narrativa.' (First of all, let's analyze the narrative structure.)",
+      "correct": "En primer lugar",
+      "explanation": "'En primer lugar' = 'First of all / Firstly.' It's a common connector for organizing arguments in literary analysis essays."
+    },
+    {
+      "type": "exercise",
+      "question": "What is the difference between 'el realismo' and 'el realismo mágico'?",
+      "options": [
+        "They are the same",
+        "Realism includes magic; magical realism doesn't",
+        "Magical realism presents magic as everyday reality; realism shows life as it is without magical elements",
+        "Magical realism is only for children's literature"
+      ],
+      "correct": 2,
+      "explanation": "Realism depicts life as it appears without supernatural elements. Magical realism (associated with Latin American literature) presents magical events as normal, everyday occurrences."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete with the correct tense: 'Cuando ____ (llegar) el protagonista al castillo, todo ____ (ser) diferente.' (When the protagonist arrived at the castle, everything was different.)",
+      "correct": "llegó",
+      "explanation": "The preterite 'llegó' marks a completed punctual action (arrival). The imperfect 'era' describes the state that existed at that time. This is a classic past-tense pairing in Spanish narrative."
+    },
+    {
+      "type": "matching",
+      "question": "Match the literary term with its definition:",
+      "pairs": [
+        {
+          "target": "El narrador omnisciente",
+          "source": "Knows all characters' thoughts"
+        },
+        {
+          "target": "La metáfora",
+          "source": "Direct comparison without 'como'"
+        },
+        {
+          "target": "El simbolismo",
+          "source": "Objects representing deeper meanings"
+        },
+        {
+          "target": "El realismo mágico",
+          "source": "Magic presented as everyday reality"
+        },
+        {
+          "target": "La ironía",
+          "source": "Saying the opposite of what is meant"
+        }
+      ],
+      "explanation": "Literary analysis requires understanding key terms: omniscient narrator (knows everything), metaphor (direct comparison), symbolism (objects as meaning), magical realism (fantastic + ordinary), irony (opposite meaning)."
+    },
+    {
+      "type": "exercise",
+      "question": "In the sentence 'El río simboliza el paso del tiempo,' what literary device is being used?",
+      "options": [
+        "La hipérbole",
+        "El simbolismo",
+        "La ironía",
+        "La parodia"
+      ],
+      "correct": 1,
+      "explanation": "This is a clear example of symbolism: the river (concrete object) symbolizes the passage of time (abstract concept). The verb 'simboliza' explicitly marks this device."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: '____ (Unlike) la sátira, la parodia no es necesariamente agresiva.' (Unlike satire, parody is not necessarily aggressive.)",
+      "correct": "A diferencia de",
+      "explanation": "'A diferencia de' = 'Unlike / As opposed to.' It's a key connector for comparing and contrasting literary elements in analysis."
+    },
+    {
+      "type": "conjugation",
+      "question": "Conjugate 'ANALIZAR' in the imperfect subjunctive (-ra form) for 'nosotros':",
+      "verb": "ANALIZAR",
+      "correct": "analizáramos",
+      "explanation": "Imperfect subjunctive -ra form for nosotros: take the preterite 'analizaron', drop -ron, add -ramos → 'analizáramos'. Note the accent on 'á' to maintain stress."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete with the correct word: 'El ____ de la obra es la búsqueda de identidad.' (The central theme of the work is the search for identity.)",
+      "correct": "tema central",
+      "explanation": "'El tema central' = 'the central theme.' Identifying themes is a core skill in literary analysis."
+    },
+    {
+      "type": "exercise",
+      "question": "What does 'leer entre líneas' mean?",
+      "options": [
+        "To read very quickly",
+        "To read between the lines (find hidden meaning)",
+        "To read aloud",
+        "To read only the first line"
+      ],
+      "correct": 1,
+      "explanation": "'Leer entre líneas' literally means 'to read between the lines' — to find deeper or hidden meaning that isn't explicitly stated. It's a fundamental skill in literary analysis."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete with the correct imperfect subjunctive: 'Ojalara ojalase ____ (ser) posible escribir como Borges.' (I wish it were possible to write like Borges.)",
+      "correct": "fuera",
+      "explanation": "'Fuera' — imperfect subjunctive of ser for yo/él/ella/usted. 'Ojalara ojalase' expresses a wish, requiring the subjunctive in the dependent clause."
+    },
+    {
+      "type": "exercise",
+      "question": "Which literary movement is associated with García Márquez, Cortázar, and Vargas Llosa?",
+      "options": [
+        "El modernismo",
+        "El boom latinoamericano",
+        "El romanticismo",
+        "El surrealismo"
+      ],
+      "correct": 1,
+      "explanation": "El boom latinoamericano (1960s-70s) brought Latin American literature to worldwide attention. Key authors: García Márquez, Cortázar, Vargas Llosa, Fuentes, and Bolaño. Magical realism was one of its signature styles."
+    },
+    {
+      "type": "matching",
+      "question": "Match the Spanish literary term with its English equivalent:",
+      "pairs": [
+        {
+          "target": "El flashback",
+          "source": "Retrospective scene"
+        },
+        {
+          "target": "El subtexto",
+          "source": "Hidden meaning beneath dialogue"
+        },
+        {
+          "target": "La hipérbole",
+          "source": "Intentional exaggeration"
+        },
+        {
+          "target": "El intertexto",
+          "source": "Reference to another text"
+        },
+        {
+          "target": "El flujo de conciencia",
+          "source": "Stream of consciousness"
+        }
+      ],
+      "explanation": "Understanding these literary terms is essential for B2.1 analysis. Note: 'flashback' is an accepted anglicismo in Spanish literary terminology."
+    },
+    {
+      "type": "exercise",
+      "question": "What is the pronunciation of the Spanish 'rr' in 'narrativa'?",
+      "options": [
+        "A soft 'r' like English 'r'",
+        "A trilled 'rr' — the tongue vibrates against the palate",
+        "Like the French 'r'",
+        "Like the Romanian 'r'"
+      ],
+      "correct": 1,
+      "explanation": "The 'rr' in Spanish is a strong trill — the tongue vibrates rapidly against the upper palate. This is produced by air pushing the tongue tip against the ridge behind the upper teeth. Practice with 'perro' (dog) vs. 'pero' (but)."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: '____ (As for) la estructura, el poema sigue un patrón regular.' (As for the structure, the poem follows a regular pattern.)",
+      "correct": "En cuanto a",
+      "explanation": "'En cuanto a' = 'As for / Regarding.' It's used to introduce a new topic of discussion in literary analysis."
+    },
+    {
+      "type": "exercise",
+      "question": "In 'Si el narrador hablara en primera persona, la historia cambiaría,' which two tenses are used?",
+      "options": [
+        "Indicative present + future",
+        "Imperfect subjunctive + conditional",
+        "Preterite + imperfect",
+        "Perfect + conditional"
+      ],
+      "correct": 1,
+      "explanation": "Type 2 conditional: Si + imperfect subjunctive (hablara) + conditional (cambiaría). This expresses a hypothetical situation — if the narrator spoke in first person, the story would change (but currently it doesn't)."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: 'No es cierto que la crítica ____ (tener) razón siempre.' (It is not true that the critic is always right.)",
+      "correct": "tenga",
+      "explanation": "The subjunctive 'tenga' is triggered by 'No es cierto que...' — an expression of negation/doubt. Present subjunctive of tener: yo tenga, tú tengas, él/ella tenga, nosotros tengamos, vosotros tengáis, ellos tengan."
+    },
+    {
+      "type": "matching",
+      "question": "Match the genre with its description:",
+      "pairs": [
+        {
+          "target": "El soneto",
+          "source": "14-line poem, often with specific rhyme scheme"
+        },
+        {
+          "target": "La fábula",
+          "source": "Short story with animals, moral at end"
+        },
+        {
+          "target": "El ensayo",
+          "source": "Prose work presenting an argument or analysis"
+        },
+        {
+          "target": "La oda",
+          "source": "Lyric poem praising or celebrating a subject"
+        },
+        {
+          "target": "El cuento corto",
+          "source": "Brief narrative requiring economy of words"
+        }
+      ],
+      "explanation": "Literary genres at B2.1 level: sonnet (14 lines, structured), fable (moral tale), essay (argumentative prose), ode (praising lyric poem), short story (concise narrative)."
+    }
+  ]
+}

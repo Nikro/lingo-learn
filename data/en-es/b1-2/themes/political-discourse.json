@@ -1,0 +1,1135 @@
+{
+  "id": "political-discourse",
+  "level": "b1-2",
+  "title": "Political Discourse",
+  "description": "Navigate political analysis, policy debate, and international relations in Spanish. Learn the language of governance, diplomacy, and civic participation. This theme equips you to discuss political systems, evaluate policies, and engage with international affairs in Spanish.",
+  "vocabulary": [
+    {
+      "id": 1,
+      "target": "el gobierno",
+      "source": "government",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 2,
+      "target": "el parlamento",
+      "source": "parliament",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 3,
+      "target": "la legislación",
+      "source": "legislation",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 4,
+      "target": "la constitución",
+      "source": "constitution",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 5,
+      "target": "la elección",
+      "source": "election",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 6,
+      "target": "el debate",
+      "source": "debate",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 7,
+      "target": "la campaña electoral",
+      "source": "election campaign",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 8,
+      "target": "la votación",
+      "source": "voting / vote",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 9,
+      "target": "el partido político",
+      "source": "political party",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 10,
+      "target": "la oposición",
+      "source": "opposition",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 11,
+      "target": "la coalición",
+      "source": "coalition",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 12,
+      "target": "la mayoría",
+      "source": "majority",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 13,
+      "target": "la minoría",
+      "source": "minority",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 14,
+      "target": "la democracia",
+      "source": "democracy",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 15,
+      "target": "la dictadura",
+      "source": "dictatorship",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 16,
+      "target": "la república",
+      "source": "republic",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 17,
+      "target": "el régimen",
+      "source": "regime",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 18,
+      "target": "la autoridad",
+      "source": "authority",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 19,
+      "target": "la soberanía",
+      "source": "sovereignty",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 20,
+      "target": "la independencia",
+      "source": "independence",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 21,
+      "target": "la política exterior",
+      "source": "foreign policy",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 22,
+      "target": "la política interna",
+      "source": "domestic policy",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 23,
+      "target": "la política pública",
+      "source": "public policy",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 24,
+      "target": "la reforma",
+      "source": "reform",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 25,
+      "target": "la regulación",
+      "source": "regulation",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 26,
+      "target": "el subsidio",
+      "source": "subsidy",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 27,
+      "target": "el impuesto",
+      "source": "tax",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 28,
+      "target": "el presupuesto",
+      "source": "budget",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 29,
+      "target": "el déficit",
+      "source": "deficit",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 30,
+      "target": "el superávit",
+      "source": "surplus",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 31,
+      "target": "el tratado",
+      "source": "treaty",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 32,
+      "target": "la diplomacia",
+      "source": "diplomacy",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 33,
+      "target": "el embajador",
+      "source": "ambassador",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 34,
+      "target": "la embajada",
+      "source": "embassy",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 35,
+      "target": "la misión diplomática",
+      "source": "diplomatic mission",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 36,
+      "target": "las relaciones internacionales",
+      "source": "international relations",
+      "gender": "f (pl.)",
+      "type": "noun"
+    },
+    {
+      "id": 37,
+      "target": "la organización internacional",
+      "source": "international organization",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 38,
+      "target": "la ONU",
+      "source": "UN (United Nations)",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 39,
+      "target": "la OTAN",
+      "source": "NATO",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 40,
+      "target": "la Unión Europea",
+      "source": "European Union",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 41,
+      "target": "el conflicto armado",
+      "source": "armed conflict",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 42,
+      "target": "la guerra civil",
+      "source": "civil war",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 43,
+      "target": "la paz",
+      "source": "peace",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 44,
+      "target": "el armisticio",
+      "source": "armistice",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 45,
+      "target": "la resolución",
+      "source": "resolution",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 46,
+      "target": "el discurso político",
+      "source": "political speech",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 47,
+      "target": "el argumento",
+      "source": "argument",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 48,
+      "target": "la retórica",
+      "source": "rhetoric",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 49,
+      "target": "la propaganda",
+      "source": "propaganda",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 50,
+      "target": "la opinión pública",
+      "source": "public opinion",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 51,
+      "target": "el electorado",
+      "source": "electorate",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 52,
+      "target": "el candidato",
+      "source": "candidate",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 53,
+      "target": "la candidata",
+      "source": "candidate (female)",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 54,
+      "target": "el presidente",
+      "source": "president",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 55,
+      "target": "la presidenta",
+      "source": "president (female)",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 56,
+      "target": "el primer ministro",
+      "source": "prime minister",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 57,
+      "target": "el diputado",
+      "source": "deputy / congressman",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 58,
+      "target": "la senadora",
+      "source": "senator (female)",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 59,
+      "target": "el activista",
+      "source": "activist",
+      "gender": "m/adj.",
+      "type": "noun"
+    },
+    {
+      "id": 60,
+      "target": "la ONG",
+      "source": "NGO (non-governmental organization)",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 61,
+      "target": "el movimiento social",
+      "source": "social movement",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 62,
+      "target": "la manifestación",
+      "source": "demonstration / protest",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 63,
+      "target": "la huelga",
+      "source": "strike",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 64,
+      "target": "el derecho de voto",
+      "source": "right to vote / suffrage",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 65,
+      "target": "los derechos humanos",
+      "source": "human rights",
+      "gender": "m (pl.)",
+      "type": "noun"
+    },
+    {
+      "id": 66,
+      "target": "la igualdad",
+      "source": "equality",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 67,
+      "target": "la libertad de expresión",
+      "source": "freedom of speech",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 68,
+      "target": "la censura",
+      "source": "censorship",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 69,
+      "target": "la corrupción",
+      "source": "corruption",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 70,
+      "target": "la rendición de cuentas",
+      "source": "accountability",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 71,
+      "target": "el conservador",
+      "source": "conservative",
+      "gender": "m/adj.",
+      "type": "noun"
+    },
+    {
+      "id": 72,
+      "target": "el progresista",
+      "source": "progressive",
+      "gender": "m/adj.",
+      "type": "noun"
+    },
+    {
+      "id": 73,
+      "target": "el liberal",
+      "source": "liberal",
+      "gender": "m/adj.",
+      "type": "noun"
+    },
+    {
+      "id": 74,
+      "target": "el izquierdista",
+      "source": "left-wing",
+      "gender": "m/adj.",
+      "type": "noun"
+    },
+    {
+      "id": 75,
+      "target": "el derechista",
+      "source": "right-wing",
+      "gender": "m/adj.",
+      "type": "noun"
+    },
+    {
+      "id": 76,
+      "target": "el populista",
+      "source": "populist",
+      "gender": "m/adj.",
+      "type": "noun"
+    },
+    {
+      "id": 77,
+      "target": "el nacionalista",
+      "source": "nationalist",
+      "gender": "m/adj.",
+      "type": "noun"
+    },
+    {
+      "id": 78,
+      "target": "el independentista",
+      "source": "independence supporter",
+      "gender": "m/adj.",
+      "type": "noun"
+    },
+    {
+      "id": 79,
+      "target": "gobernar",
+      "source": "to govern",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 80,
+      "target": "debatir",
+      "source": "to debate",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 81,
+      "target": "legislar",
+      "source": "to legislate",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 82,
+      "target": "votar",
+      "source": "to vote",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 83,
+      "target": "negociar",
+      "source": "to negotiate",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 84,
+      "target": "imponer",
+      "source": "to impose",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 85,
+      "target": "revocar",
+      "source": "to revoke / recall",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 86,
+      "target": "promulgar",
+      "source": "to promulgate",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 87,
+      "target": "derogar",
+      "source": "to repeal",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 88,
+      "target": "apoyar",
+      "source": "to support",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 89,
+      "target": "criticar",
+      "source": "to criticize",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 90,
+      "target": "defender",
+      "source": "to defend",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 91,
+      "target": "argumentar",
+      "source": "to argue",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 92,
+      "target": "sancionar",
+      "source": "to sanction / to sign into law",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 93,
+      "target": "proponer",
+      "source": "to propose",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 94,
+      "target": "alcanzar",
+      "source": "to achieve / reach",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 95,
+      "target": "legítimo",
+      "source": "legitimate",
+      "gender": "m/adj.",
+      "type": "adj"
+    },
+    {
+      "id": 96,
+      "target": "ilegítimo",
+      "source": "illegitimate",
+      "gender": "m/adj.",
+      "type": "adj"
+    },
+    {
+      "id": 97,
+      "target": "transparente",
+      "source": "transparent",
+      "gender": "m/adj.",
+      "type": "adj"
+    },
+    {
+      "id": 98,
+      "target": "partidista",
+      "source": "partisan",
+      "gender": "m/adj.",
+      "type": "adj"
+    },
+    {
+      "id": 99,
+      "target": "imparcial",
+      "source": "impartial",
+      "gender": "m/adj.",
+      "type": "adj"
+    },
+    {
+      "id": 100,
+      "target": "soberano",
+      "source": "sovereign",
+      "gender": "m/adj.",
+      "type": "adj"
+    }
+  ],
+  "grammar": [
+    {
+      "title": "Subjunctive in Political Demands and Desires",
+      "content": "At B1.2 level, expressing political opinions, demands, and evaluations requires mastery of the subjunctive mood — especially after verbs of influence, desire, and evaluation. This is the primary grammar tool for political discourse.\n\n**Verbs of demand, request, and influence + subjunctive:**\n- El gobierno quiere que los ciudadanos __voten__ (votar) más. (The government wants citizens to vote more.)\n- La oposición exige que se __revoque__ (revocar) la ley. (The opposition demands that the law be repealed.)\n- Los activistas piden que se __proteja__ (proteger) los derechos humanos. (Activists are asking that human rights be protected.)\n- El presidente propone que se __reforme__ (reformar) el sistema educativo. (The president proposes that the education system be reformed.)\n- Es necesario que el parlamento __apruebe__ (aprobar) el presupuesto. (It is necessary that parliament approves the budget.)\n\n**Verbs of opinion, doubt, and evaluation + subjunctive:**\n- No creo que la corrupción __sea__ (ser) un problema menor. (I don't think corruption is a minor problem.)\n- Es dudoso que el candidato __cumpla__ (cumplir) sus promesas. (It is doubtful that the candidate will keep his promises.)\n- Me preocupa que la democracia __esté__ (estar) en peligro. (I'm worried that democracy is in danger.)\n- Es importante que se __garantice__ (garantizar) la libertad de expresión. (It is important that freedom of speech be guaranteed.)\n\n**Expressions of necessity, importance, and possibility:**\n- Es urgente que se __tomen__ (tomar) medidas contra la corrupción. (It is urgent that measures be taken against corruption.)\n- Es posible que la coalición __se__ __desintegre__ (desintegrarse). (It is possible that the coalition will break apart.)\n- Es improbable que se __alcance__ (alcanzar) la paz en el corto plazo. (It is unlikely that peace will be achieved in the short term.)\n\n**Key rule:** When the subject of the main clause is different from the subject of the subordinate clause, the subjunctive is almost always required after these expressions.",
+      "table": {
+        "headers": [
+          "Expression Type",
+          "Example",
+          "Mood"
+        ],
+        "rows": [
+          [
+            "Querer que...",
+            "Quiero que voten más.",
+            "Subjunctive"
+          ],
+          [
+            "Exigir que...",
+            "Exijo que se respete la ley.",
+            "Subjunctive"
+          ],
+          [
+            "Proponer que...",
+            "Propongo que se reforme.",
+            "Subjunctive"
+          ],
+          [
+            "Es necesario que...",
+            "Es necesario que se actúe.",
+            "Subjunctive"
+          ],
+          [
+            "No creo que...",
+            "No creo que sea verdad.",
+            "Subjunctive"
+          ],
+          [
+            "Es dudoso que...",
+            "Es dudoso que cumpla.",
+            "Subjunctive"
+          ],
+          [
+            "Es urgente que...",
+            "Es urgente que se tome acción.",
+            "Subjunctive"
+          ],
+          [
+            "Me preocupa que...",
+            "Me preocupa que esté en riesgo.",
+            "Subjunctive"
+          ]
+        ]
+      },
+      "examples": [
+        "La oposición exige que el gobierno sea más transparente.",
+        "Es necesario que los diputados aprueben la nueva ley.",
+        "No creo que la propaganda política sea efectiva a largo plazo.",
+        "Es importante que se protejan los derechos de las minorías.",
+        "El presidente propone que se reforme el sistema electoral.",
+        "Me preocupa que la corrupción debilite la democracia."
+      ],
+      "aid_note": "Romanian parallel: 'Vreau să...' (subjunctive marker 'să'); 'Este necesar ca...' + subjunctive; 'Nu cred că...' + subjunctive. The subjunctive mood functions very similarly in both languages for expressing desire, necessity, and doubt."
+    },
+    {
+      "title": "Formal Connectors for Political Argumentation",
+      "content": "Political discourse demands sophisticated connectors to structure arguments, present evidence, and navigate complex policy debates. These connectors allow you to present well-reasoned positions on political issues.\n\n**Introducing a political position:**\n- En mi opinión, la política exterior debe ser más activa.\n- Desde mi punto de vista, la reforma es necesaria.\n- A mi juicio, el gobierno ha fracasado en proteger los derechos humanos.\n- En primer lugar / En segundo lugar (Firstly / Secondly) — structuring an argument.\n- Cabe señalar que... (It is worth noting that...)\n\n**Presenting evidence and supporting arguments:**\n- Según los datos, el desempleo ha aumentado un 5%.\n- Los estudios demuestran que la educación reduce la pobreza.\n- En consecuencia, es necesario tomar medidas urgentes.\n- Por lo tanto, la reforma es indispensable.\n- En efecto, la corrupción socava la confianza pública.\n\n**Contrasting political positions:**\n- Por un lado, la reforma económica promete crecimiento; por otro, aumenta la desigualdad.\n- Sin embargo, la oposición argumenta que la medida afectará a los más vulnerables.\n- A pesar de esto, el gobierno sostiene que la medida es necesaria.\n- En cambio, el partido progresista propone un enfoque diferente.\n- No obstante, es importante considerar los costos sociales.\n\n**Expressing concession:**\n- Aunque el programa tiene errores, contiene algunos aspectos positivos.\n- Pese a las críticas, la medida ha sido apoyada por la mayoría.\n- Si bien la economía ha mejorado, la desigualdad persiste.\n\n**Concluding political analysis:**\n- En definitiva, la democracia requiere participación ciudadana activa.\n- En conclusión, la reforma legislativa es necesaria.\n- En resumen, los datos respaldan la postura del gobierno.\n- Para terminar, es evidente que se necesita un cambio de paradigma.\n\n**Hedging and caution (important in political discourse):**\n- Podría argumentarse que... (One could argue that...)\n- Es razonable pensar que... (It is reasonable to think that...)\n- Parece que la situación va a mejorar. (It seems that the situation will improve.)\n- Tal vez sea necesario reconsiderar la política actual.",
+      "table": {
+        "headers": [
+          "Function",
+          "Connector",
+          "Example"
+        ],
+        "rows": [
+          [
+            "Introduce position",
+            "En mi opinión",
+            "En mi opinión, la reforma es necesaria."
+          ],
+          [
+            "Present evidence",
+            "Según los datos",
+            "Según los datos, la pobreza ha bajado."
+          ],
+          [
+            "Consequence",
+            "Por lo tanto",
+            "Por lo tanto, se debe actuar."
+          ],
+          [
+            "Contrast",
+            "Sin embargo",
+            "Sin embargo, la oposición se opone."
+          ],
+          [
+            "Concession",
+            "Aunque",
+            "Aunque es difícil, es posible."
+          ],
+          [
+            "Conclusion",
+            "En definitiva",
+            "En definitiva, hay que tomar acción."
+          ],
+          [
+            "Hedging",
+            "Podría argumentarse que",
+            "Podría argumentarse que la medida es insuficiente."
+          ]
+        ]
+      },
+      "examples": [
+        "En mi opinión, la política exterior debe priorizar los derechos humanos.",
+        "Según los datos del INE, el desempleo juvenil sigue siendo muy alto.",
+        "Por lo tanto, es urgente que el gobierno implemente nuevas medidas.",
+        "Por un lado, la liberalización del mercado genera crecimiento; por otro, aumenta la desigualdad.",
+        "Aunque la reforma tiene defectos, contiene avances importantes.",
+        "En definitiva, la participación ciudadana fortalece la democracia."
+      ],
+      "aid_note": "Romanian academic connectors map almost perfectly: 'în opinia mea' = 'en mi opinión'; 'conform datelor' = 'según los datos'; 'prin urmare' = 'por lo tanto'; 'cu toate acestea' = 'sin embargo'; 'deși' = 'aunque'; 'în concluzie' = 'en conclusión'. The register and function are nearly identical."
+    },
+    {
+      "title": "Conditional Structures for Policy Proposals",
+      "content": "Policy proposals, diplomatic negotiations, and political analysis frequently use conditional structures to describe what would happen under certain conditions. This grammar point is essential for discussing political scenarios and policy outcomes.\n\n**Conditional sentences (Si + imperfect subjunctive → conditional):**\n- Si se __redujera__ (reducir) el impuesto, muchas empresas __crecerían__ (crecer). (If taxes were reduced, many businesses would grow.)\n- Si el parlamento __aprobára__ (aprobar) la ley, la reforma __tendría__ (tener) efecto inmediato. (If parliament approved the law, the reform would take immediate effect.)\n- Si no se __tratara__ (tratar) de una crisis grave, no se __tomarían__ (tomar) medidas tan drásticas. (If it weren't a serious crisis, such drastic measures wouldn't be taken.)\n\n**Conditional for hypothetical political analysis:**\n- Un gobierno __más transparente generaría__ (generar) más confianza en las instituciones.\n- Si __hubiera__ (haber) más inversión en educación, la desigualdad __disminuiría__ (disminuir).\n- Los países que __respetaran__ (respetar) los derechos humanos tendrían mejor relación internacional.\n\n**Conditional for diplomatic language (more polite/formal):**\n- __Quisiéramos__ (querer) señalar que... (We would like to point out that...)\n- __Nos gustaría__ (gustar) proponer una solución alternativa. (We would like to propose an alternative solution.)\n- __Sería__ (ser) beneficioso para ambas partes. (It would be beneficial for both sides.)\n\n**Conditional perfect for criticizing past policy decisions:**\n- Si se __hubiera__ (haber) actuado antes, la crisis __se podría haber evitado__ (poder evitar). (If action had been taken earlier, the crisis could have been avoided.)\n- El gobierno __habría ganado__ (ganar) más apoyo si __hubiera__ (haber) consultado a la oposición. (The government would have gained more support if it had consulted the opposition.)\n- __Hubiera sido__ mejor __tomar__ (tomar) medidas preventivas. (It would have been better to take preventive measures.)\n\n**Conditional for political projections:**\n- Se __prevé__ que la economía __crecerá__ (crecer) un 2% el próximo año. (It is predicted that the economy will grow 2% next year.)\n- Se __espera__ que se __alcance__ (alcanzar) la paz en las próximas semanas. (It is expected that peace will be reached in the coming weeks.)\n- Se __calcula__ que la reforma __afectará__ (afectar) a millones de ciudadanos.",
+      "table": {
+        "headers": [
+          "Structure",
+          "Example",
+          "Use"
+        ],
+        "rows": [
+          [
+            "Si + imperfect subj. + conditional",
+            "Si hubiera más inversión, crecería la economía.",
+            "Hypothetical policy scenarios"
+          ],
+          [
+            "Conditional (diplomatic)",
+            "Quisiéramos proponer una solución.",
+            "Polite/formal proposals"
+          ],
+          [
+            "Cond. perfect + past subj.",
+            "Si hubiera actuado antes, se habría evitado.",
+            "Criticizing past decisions"
+          ],
+          [
+            "Se prevé que + future",
+            "Se prevé que crezca un 2%.",
+            "Policy projections"
+          ],
+          [
+            "Si bien + indicative",
+            "Si bien es difícil, es posible.",
+            "Concession in analysis"
+          ]
+        ]
+      },
+      "examples": [
+        "Si se redujera el déficit, el país podría invertir más en educación.",
+        "Nos gustaría proponer una alternativa que proteja a los más vulnerables.",
+        "Si se hubiera consultado a la oposición, la ley hubiera sido mejor recibida.",
+        "Un gobierno más transparente generaría más confianza en las instituciones.",
+        "Si bien la reforma tiene costos, a largo plazo generará beneficios."
+      ],
+      "aid_note": "Romanian conditional maps directly: 'dacă ar fi...' + conditional = 'si hubiera...' + conditional. 'Dacă' = 'si'. The conditional mood for politeness also maps: 'Am dori să...' = 'Quisiéramos...'."
+    }
+  ],
+  "pronunciation": [
+    {
+      "title": "Pronunciation for Political Discourse Vocabulary",
+      "content": "Key pronunciation patterns for political discourse vocabulary:\n\n1. **The '-ción / -sión' endings (extremely common in political terms):**\n   - elección → ehl-see-OHN (stress on 'OH')\n   - legislación → lee-see-ah-see-OHN\n   - constitución → kohn-sti-too-see-OHN\n   - democracia → dem-oh-KRAH-see-ah\n   - dictadura → deek-tah-OO-rah\n   - corrupción → korr-oo-pee-OHN\n   - negociación → neh-oh-see-AHS-yohn / neh-oh-see-SYON (Spain)\n   - resolución → reh-oh-loo-see-OHN\n\n2. **The '-ado / -ida' participles (very common in political language):**\n   - elegido → ehl-ee-HOH-doh (elected)\n   - aprobada → ah-proh-BAH-dah (approved)\n   - derogado → deh-rog-AH-doh (repealed)\n   - protegida → proh-teh-HEE-dah (protected)\n   - Promulgado → proh-mool-GAH-doh (promulgated)\n\n3. **The rolled 'rr' in political vocabulary:**\n   - reforma → reh-FOR-mah (single 'r')\n   - error → eh-ROHR (trilled 'rr' at start)\n   - guerrilla → gweh-REE-yah (trilled 'rr')\n   - terror → teh-ROHR (trilled 'rr' at start)\n\n4. **The 'j' / 'g' (before e/i) sounds (always like English 'h')**: \n   - juicio → HUEE-see-oh (judgment)\n   - gobierno → GOH-behr-noh (g before 'e' = soft 'h')\n   - elegir → ehl-ee-HIR (to elect)\n   - justicia → HOO-see-tee-ah (justice)\n   - proyecto → proh-YEK-toh (project)\n\n5. **Stress patterns in political terms:**\n   - Words ending in n, s, or a vowel → stress on penultimate syllable by default:\n     - gobierno → GOH-behr-noh\n     - elecciones → ehl-see-oh-KYOH-nehs\n     - democracia → dem-oh-KRAH-see-ah\n   - Words ending in a consonant (not n or s) → stress on final syllable:\n     - partido → par-TEE-doh\n     - gobierno → GOH-behr-noh\n   - Words with written accent → stress on the accented syllable:\n     - presidente → preh-see-DEHN-teh\n     - candidata → kahn-EE-dah-tah\n\n6. **Silent 'h' (always silent in Spanish):**\n   - el héroe → ehl EH-roh (hero)\n   - la historia → la EE-stor-ee-ah (history)\n   - human rights → derechos humanos → deh-Reh-tohs oh-mah-NOHS\n\n7. **The 'ñ' sound (ny):**\n   - español → es-pah-NYOL\n   - español → es-pah-NYOL (Spanish)\n   - año → AH-nyoh (year)\n   - español → es-pah-NYOL",
+      "examples": [
+        "elección = ehl-see-OHN (stress on 'OH')",
+        "legislación = lee-see-ah-see-OHN (stress on 'OH')",
+        "democracia = dem-oh-KRAH-see-ah (stress on 'RAH')",
+        "gobierno = GOH-behr-noh (g before 'e' = soft sound)",
+        "derechos humanos = deh-Reh-tohs oh-mah-NOHS (h is silent)",
+        "presidente = preh-see-DEHN-teh (accent on 'DEHN')",
+        "negociación = neh-oh-see-AHS-yohn (Spain) / neh-oh-see-SYON (LA)",
+        "constitución = kohn-sti-too-see-OHN (stress on 'OH')",
+        "corrupción = korr-oo-pee-OHN (stress on 'OH')",
+        "impuesto = im-PUES-toh (stress on 'PUE')"
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "exercise",
+      "question": "What does 'la oposición' mean in politics?",
+      "options": [
+        "The opposition — political parties not in government",
+        "The constitution",
+        "The judiciary",
+        "The election campaign"
+      ],
+      "correct": 0,
+      "explanation": "'La oposición' = the opposition, referring to political parties and legislators not part of the ruling government. They play a crucial role in democratic systems by scrutinizing government actions and proposing alternatives."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: 'La oposición exige que se ____ (revocar) la ley.' (subjunctive of revocar)",
+      "correct": "revogue",
+      "explanation": "'La oposición exige que se revogue la ley.' — 'Exigir que' triggers the subjunctive. 'Revogue' = present subjunctive of revocar, 3rd person singular."
+    },
+    {
+      "type": "exercise",
+      "question": "Which term refers to 'foreign policy' in Spanish?",
+      "options": [
+        "la política externa",
+        "la política exterior",
+        "la política internacional",
+        "la política global"
+      ],
+      "correct": 1,
+      "explanation": "'La política exterior' = foreign policy. While 'externa' is also used in some regions, 'exterior' is the standard term in most Spanish-speaking countries. 'Internacional' means international, not specifically foreign."
+    },
+    {
+      "type": "exercise",
+      "question": "What does 'el presupuesto' mean?",
+      "options": [
+        "The constitution",
+        "The budget",
+        "The treaty",
+        "The election"
+      ],
+      "correct": 1,
+      "explanation": "'El presupuesto' = the budget. In politics, this refers to the government's financial plan — how it intends to collect and spend public money. It is one of the most important documents a parliament debates."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: 'No creo que la corrupción ____ (ser) un problema menor.' (subjunctive of ser)",
+      "correct": "sea",
+      "explanation": "'No creo que la corrupción sea un problema menor.' — 'No creo que' triggers the subjunctive. 'Sea' = present subjunctive of ser, 3rd person singular."
+    },
+    {
+      "type": "exercise",
+      "question": "Which word means 'the diplomat' in Spanish?",
+      "options": [
+        "el diplomático",
+        "el diplomado",
+        "el diplomado",
+        "el diplomar"
+      ],
+      "correct": 0,
+      "explanation": "'El diplomático' = the diplomat. 'Diplomacia' = diplomacy. A diplomat is a person who represents their country in international relations, working in embassies and negotiating treaties."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: 'Es necesario que el parlamento ____ (aprobar) el presupuesto.' (subjunctive of aprobar)",
+      "correct": "aprobe",
+      "explanation": "'Es necesario que el parlamento apruebe el presupuesto.' — 'Es necesario que' triggers the subjunctive. 'Apruebe' = present subjunctive of aprobar, 3rd person singular."
+    },
+    {
+      "type": "exercise",
+      "question": "What does 'la manifestación' mean?",
+      "options": [
+        "A political debate",
+        "A demonstration / protest",
+        "An election campaign",
+        "A court ruling"
+      ],
+      "correct": 1,
+      "explanation": "'La manifestación' = a demonstration or protest — a public gathering where people express their opinions, often to demand political or social change. 'Manifestar' = to demonstrate, to protest."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: '______ los datos, el desempleo ha aumentado un 5%.' (According to)",
+      "correct": "Según",
+      "explanation": "'Según los datos, el desempleo ha aumentado un 5%.' — 'Según' = according to. This is the standard connector for referencing data, reports, or expert opinions in political discourse."
+    },
+    {
+      "type": "exercise",
+      "question": "Which term means 'the right to vote / suffrage'?",
+      "options": [
+        "el derecho de expresión",
+        "el derecho de voto",
+        "el derecho de asociación",
+        "el derecho de reunión"
+      ],
+      "correct": 1,
+      "explanation": "'El derecho de voto' = the right to vote (suffrage). It is a fundamental democratic right that allows citizens to choose their representatives through elections."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: 'Si se ____ (reducir) el impuesto, las empresas crecerían.' (imperfect subjunctive)",
+      "correct": "redujera",
+      "explanation": "'Si se redujera el impuesto, las empresas crecerían.' — This is a conditional sentence (Si + imperfect subjunctive → conditional). 'Reduciera' = imperfect subjunctive of reducir, impersonal 3rd person."
+    },
+    {
+      "type": "exercise",
+      "question": "What does 'el déficit' mean in economic/political terms?",
+      "options": [
+        "A budget surplus",
+        "A budget deficit — spending exceeds revenue",
+        "A tax increase",
+        "An economic boom"
+      ],
+      "correct": 1,
+      "explanation": "'El déficit' = a deficit, when government spending exceeds revenue. The opposite is 'el superávit' (surplus). Deficit is a key topic in political and economic debates."
+    },
+    {
+      "type": "exercise",
+      "question": "What does 'el populista' mean?",
+      "options": [
+        "A supporter of population control",
+        "A populist — a politician who appeals directly to popular emotions, often against elites",
+        "A specialist in demographics",
+        "A member of parliament"
+      ],
+      "correct": 1,
+      "explanation": "'El populista' = a populist — a politician who claims to represent the ordinary people against the established elite. Populism can appear on both the left and right of the political spectrum."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: '______ la reforma tiene defectos, contiene avances importantes.' (Although)",
+      "correct": "Aunque",
+      "explanation": "'Aunque la reforma tiene defectos, contiene avances importantes.' — 'Aunque' = although/even though. It introduces a concession, acknowledging something negative while maintaining a positive claim."
+    },
+    {
+      "type": "exercise",
+      "question": "What does 'la rendición de cuentas' mean?",
+      "options": [
+        "Accounting report",
+        "Accountability — the obligation of officials to answer for their actions",
+        "A vote of no confidence",
+        "A constitutional amendment"
+      ],
+      "correct": 1,
+      "explanation": "'La rendición de cuentas' = accountability, the obligation of public officials to explain and justify their decisions and use of resources. It is a cornerstone of democratic governance."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: 'Nos ____ (gustar) proponer una solución alternativa.' (conditional of gustar)",
+      "correct": "gustaría",
+      "explanation": "'Nos gustaría proponer una solución alternativa.' — Conditional of gustar for diplomatic/polite language. 'Nos gustaría' = We would like to. The conditional softens the statement and is standard in formal political contexts."
+    },
+    {
+      "type": "exercise",
+      "question": "Which term refers to 'the European Union' in Spanish?",
+      "options": [
+        "la Unión Europea",
+        "Europa Unida",
+        "la Federación Europea",
+        "la Comunidad Europea"
+      ],
+      "correct": 0,
+      "explanation": "'La Unión Europea' = the European Union (EU). The EU is a political and economic union of 27 European countries. It is one of the most important international organizations in the world."
+    },
+    {
+      "type": "exercise",
+      "question": "What is the correct pronunciation of 'constitución'?",
+      "options": [
+        "kohn-sti-too-see-OHN",
+        "kon-sti-TOO-see-ohn",
+        "kohns-ti-too-see-ON",
+        "koons-ti-too-SYOHN"
+      ],
+      "correct": 0,
+      "explanation": "'Constitución' = kohn-sti-too-see-OHN. The written accent on the final 'ó' indicates that the stress falls on the last syllable. Without the accent, words ending in 'n' would be stressed on the penultimate syllable by default."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: 'Si el parlamento ____ (aprobar) la ley, la reforma tendría efecto inmediato.' (imperfect subjunctive)",
+      "correct": "aprobara",
+      "explanation": "'Si el parlamento aprobara la ley, la reforma tendría efecto inmediato.' — Conditional sentence: Si + imperfect subjunctive (aprobara) → conditional (tendría). 'Aprobara' = imperfect subjunctive of aprobar."
+    },
+    {
+      "type": "exercise",
+      "question": "What does 'la propaganda' mean in politics?",
+      "options": [
+        "Public information campaign",
+        "Propaganda — biased or misleading information used to promote a political cause",
+        "A scientific study",
+        "A diplomatic treaty"
+      ],
+      "correct": 1,
+      "explanation": "'La propaganda' = propaganda — information (often biased or misleading) used to promote a political cause or point of view. In democratic societies, distinguishing propaganda from factual information is a key skill."
+    },
+    {
+      "type": "exercise",
+      "question": "Which connector would you use to introduce a conclusion in political analysis?",
+      "options": [
+        "En primer lugar",
+        "En definitiva",
+        "Por un lado",
+        "En cambio"
+      ],
+      "correct": 1,
+      "explanation": "'En definitiva' = in conclusion / ultimately. It signals that you are drawing a final conclusion from the arguments you have presented. 'En primer lugar' = firstly, 'Por un lado' = on one hand, 'En cambio' = in contrast."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: 'Me preocupa que la democracia ____ (estar) en peligro.' (subjunctive of estar)",
+      "correct": "esté",
+      "explanation": "'Me preocupa que la democracia esté en peligro.' — 'Me preocupa que' triggers the subjunctive. 'Esté' = present subjunctive of estar, 3rd person singular."
+    },
+    {
+      "type": "exercise",
+      "question": "What does 'el izquierdista' mean?",
+      "options": [
+        "A right-wing politician",
+        "A left-wing politician/activist",
+        "A centrist politician",
+        "An independent voter"
+      ],
+      "correct": 1,
+      "explanation": "'El izquierdista' = a left-wing person. The political spectrum ranges from left (izquierda — advocating for equality, social welfare, progressive reform) to right (derecha — advocating for tradition, free markets, limited government)."
+    },
+    {
+      "type": "exercise",
+      "question": "What does 'el armisticio' mean?",
+      "options": [
+        "A peace treaty",
+        "An armistice — a temporary suspension of hostilities, usually to negotiate a peace",
+        "A military alliance",
+        "A declaration of war"
+      ],
+      "correct": 1,
+      "explanation": "'El armisticio' = an armistice, a formal agreement to stop fighting temporarily. It is different from a peace treaty (el tratado de paz), which ends the state of war permanently. The 1953 Korean Armistice is the most famous example."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: '______ el gobierno ha fracasado en proteger los derechos humanos, a mi ____.' (judgment)",
+      "correct": "A mi juicio",
+      "explanation": "'A mi juicio' = in my judgment / in my opinion. It is a formal way to express a personal opinion, commonly used in political analysis and debate."
+    }
+  ]
+}

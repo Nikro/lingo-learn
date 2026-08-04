@@ -1,0 +1,293 @@
+{
+  "id": "economic-analysis",
+  "level": "b1-2",
+  "title": "Economic Analysis",
+  "description": "Analyze and discuss economic phenomena in Spanish. Learn to describe economic theories, interpret market data, make financial forecasts, and debate economic policies. This theme equips you with the formal language needed for economics discussions in professional and academic settings.",
+  "vocabulary": [
+    {"id": 1, "target": "la economía", "source": "economy", "gender": "f", "type": "noun"},
+    {"id": 2, "target": "el mercado", "source": "market", "gender": "m", "type": "noun"},
+    {"id": 3, "target": "la oferta", "source": "supply", "gender": "f", "type": "noun"},
+    {"id": 4, "target": "la demanda", "source": "demand", "gender": "f", "type": "noun"},
+    {"id": 5, "target": "el precio", "source": "price", "gender": "m", "type": "noun"},
+    {"id": 6, "target": "el producto", "source": "product", "gender": "m", "type": "noun"},
+    {"id": 7, "target": "el servicio", "source": "service", "gender": "m", "type": "noun"},
+    {"id": 8, "target": "el consumo", "source": "consumption", "gender": "m", "type": "noun"},
+    {"id": 9, "target": "la producción", "source": "production", "gender": "f", "type": "noun"},
+    {"id": 10, "target": "el crecimiento", "source": "growth", "gender": "m", "type": "noun"},
+    {"id": 11, "target": "la recesión", "source": "recession", "gender": "f", "type": "noun"},
+    {"id": 12, "target": "la inflación", "source": "inflation", "gender": "f", "type": "noun"},
+    {"id": 13, "target": "la deflación", "source": "deflation", "gender": "f", "type": "noun"},
+    {"id": 14, "target": "el desempleo", "source": "unemployment", "gender": "m", "type": "noun"},
+    {"id": 15, "target": "el empleo", "source": "employment", "gender": "m", "type": "noun"},
+    {"id": 16, "target": "el PIB", "source": "GDP", "gender": "m", "type": "noun"},
+    {"id": 17, "target": "el presupuesto", "source": "budget", "gender": "m", "type": "noun"},
+    {"id": 18, "target": "el gasto", "source": "spending", "gender": "m", "type": "noun"},
+    {"id": 19, "target": "el ingreso", "source": "income / revenue", "gender": "m", "type": "noun"},
+    {"id": 20, "target": "el impuesto", "source": "tax", "gender": "m", "type": "noun"},
+    {"id": 21, "target": "la inversión", "source": "investment", "gender": "f", "type": "noun"},
+    {"id": 22, "target": "el activo", "source": "asset", "gender": "m", "type": "noun"},
+    {"id": 23, "target": "el pasivo", "source": "liability", "gender": "m", "type": "noun"},
+    {"id": 24, "target": "el beneficio", "source": "profit / benefit", "gender": "m", "type": "noun"},
+    {"id": 25, "target": "la pérdida", "source": "loss", "gender": "f", "type": "noun"},
+    {"id": 26, "target": "el tipo de interés", "source": "interest rate", "gender": "m", "type": "noun"},
+    {"id": 27, "target": "la tasa de interés", "source": "interest rate", "gender": "f", "type": "noun"},
+    {"id": 28, "target": "la moneda", "source": "currency", "gender": "f", "type": "noun"},
+    {"id": 29, "target": "el tipo de cambio", "source": "exchange rate", "gender": "m", "type": "noun"},
+    {"id": 30, "target": "la divisa", "source": "foreign currency", "gender": "f", "type": "noun"},
+    {"id": 31, "target": "el banco central", "source": "central bank", "gender": "m", "type": "noun"},
+    {"id": 32, "target": "la política monetaria", "source": "monetary policy", "gender": "f", "type": "noun"},
+    {"id": 33, "target": "la política fiscal", "source": "fiscal policy", "gender": "f", "type": "noun"},
+    {"id": 34, "target": "la deuda pública", "source": "public debt", "gender": "f", "type": "noun"},
+    {"id": 35, "target": "el déficit", "source": "deficit", "gender": "m", "type": "noun"},
+    {"id": 36, "target": "el superávit", "source": "surplus", "gender": "m", "type": "noun"},
+    {"id": 37, "target": "el comercio exterior", "source": "foreign trade", "gender": "m", "type": "noun"},
+    {"id": 38, "target": "la exportación", "source": "export", "gender": "f", "type": "noun"},
+    {"id": 39, "target": "la importación", "source": "import", "gender": "f", "type": "noun"},
+    {"id": 40, "target": "el arancel", "source": "tariff", "gender": "m", "type": "noun"},
+    {"id": 41, "target": "la globalización", "source": "globalization", "gender": "f", "type": "noun"},
+    {"id": 42, "target": "el libre comercio", "source": "free trade", "gender": "m", "type": "noun"},
+    {"id": 43, "target": "el proteccionismo", "source": "protectionism", "gender": "m", "type": "noun"},
+    {"id": 44, "target": "el mercado de valores", "source": "stock market", "gender": "m", "type": "noun"},
+    {"id": 45, "target": "la bolsa", "source": "stock exchange", "gender": "f", "type": "noun"},
+    {"id": 46, "target": "la acción", "source": "share / stock", "gender": "f", "type": "noun"},
+    {"id": 47, "target": "el bono", "source": "bond", "gender": "m", "type": "noun"},
+    {"id": 48, "target": "la materia prima", "source": "raw material", "gender": "f", "type": "noun"},
+    {"id": 49, "target": "el petróleo", "source": "oil / petroleum", "gender": "m", "type": "noun"},
+    {"id": 50, "target": "el oro", "source": "gold", "gender": "m", "type": "noun"},
+    {"id": 51, "target": "el capital", "source": "capital", "gender": "m", "type": "noun"},
+    {"id": 52, "target": "la riqueza", "source": "wealth", "gender": "f", "type": "noun"},
+    {"id": 53, "target": "la pobreza", "source": "poverty", "gender": "f", "type": "noun"},
+    {"id": 54, "target": "la desigualdad", "source": "inequality", "gender": "f", "type": "noun"},
+    {"id": 55, "target": "el salario", "source": "salary / wage", "gender": "m", "type": "noun"},
+    {"id": 56, "target": "el costo de vida", "source": "cost of living", "gender": "m", "type": "noun"},
+    {"id": 57, "target": "el poder adquisitivo", "source": "purchasing power", "gender": "m", "type": "noun"},
+    {"id": 58, "target": "el sector primario", "source": "primary sector", "gender": "m", "type": "noun"},
+    {"id": 59, "target": "el sector secundario", "source": "secondary sector", "gender": "m", "type": "noun"},
+    {"id": 60, "target": "el sector terciario", "source": "tertiary sector", "gender": "m", "type": "noun"},
+    {"id": 61, "target": "la empresa", "source": "company / enterprise", "gender": "f", "type": "noun"},
+    {"id": 62, "target": "el emprendedor", "source": "entrepreneur", "gender": "m", "type": "noun"},
+    {"id": 63, "target": "el consumidor", "source": "consumer", "gender": "m", "type": "noun"},
+    {"id": 64, "target": "el competidor", "source": "competitor", "gender": "m", "type": "noun"},
+    {"id": 65, "target": "el monopolio", "source": "monopoly", "gender": "m", "type": "noun"},
+    {"id": 66, "target": "la competencia", "source": "competition", "gender": "f", "type": "noun"},
+    {"id": 67, "target": "la crisis económica", "source": "economic crisis", "gender": "f", "type": "noun"},
+    {"id": 68, "target": "la expansión económica", "source": "economic expansion", "gender": "f", "type": "noun"},
+    {"id": 69, "target": "la estabilización", "source": "stabilization", "gender": "f", "type": "noun"},
+    {"id": 70, "target": "el pronóstico financiero", "source": "financial forecast", "gender": "m", "type": "noun"},
+    {"id": 71, "target": "el pronóstico económico", "source": "economic forecast", "gender": "m", "type": "noun"},
+    {"id": 72, "target": "la tendencia", "source": "trend", "gender": "f", "type": "noun"},
+    {"id": 73, "target": "al alza", "source": "upward / rising", "gender": "—", "type": "phrase"},
+    {"id": 74, "target": "a la baja", "source": "downward / falling", "gender": "—", "type": "phrase"},
+    {"id": 75, "target": "estable", "source": "stable", "gender": "m/adj.", "type": "adj"},
+    {"id": 76, "target": "fluctuante", "source": "fluctuating", "gender": "m/adj.", "type": "adj"},
+    {"id": 77, "target": "voluminoso", "source": "large-scale / voluminous", "gender": "m/adj.", "type": "adj"},
+    {"id": 78, "target": "sólido", "source": "solid / sound", "gender": "m/adj.", "type": "adj"},
+    {"id": 79, "target": "rentable", "source": "profitable", "gender": "m/adj.", "type": "adj"},
+    {"id": 80, "target": "insostenible", "source": "unsustainable", "gender": "m/adj.", "type": "adj"},
+    {"id": 81, "target": "la economía", "source": "the economy", "gender": "f", "type": "noun"},
+    {"id": 82, "target": "inflacionario", "source": "inflationary", "gender": "m/adj.", "type": "adj"},
+    {"id": 83, "target": "recesivo", "source": "recessionary", "gender": "m/adj.", "type": "adj"},
+    {"id": 84, "target": "deflacionario", "source": "deflationary", "gender": "m/adj.", "type": "adj"},
+    {"id": 85, "target": "equilibrado", "source": "balanced", "gender": "m/adj.", "type": "adj"},
+    {"id": 86, "target": "vulnerable", "source": "vulnerable", "gender": "m/adj.", "type": "adj"},
+    {"id": 87, "target": "dinámico", "source": "dynamic", "gender": "m/adj.", "type": "adj"},
+    {"id": 88, "target": "saturado", "source": "saturated", "gender": "m/adj.", "type": "adj"},
+    {"id": 89, "target": "el economista", "source": "economist", "gender": "m/f", "type": "noun"},
+    {"id": 90, "target": "el analista", "source": "analyst", "gender": "m/f", "type": "noun"},
+    {"id": 91, "target": "el inversionista", "source": "investor", "gender": "m/f", "type": "noun"},
+    {"id": 92, "target": "el banquero", "source": "banker", "gender": "m", "type": "noun"},
+    {"id": 93, "target": "el contador", "source": "accountant", "gender": "m", "type": "noun"},
+    {"id": 94, "target": "el trader", "source": "trader", "gender": "m", "type": "noun"},
+    {"id": 95, "target": "el economista", "source": "economist", "gender": "m", "type": "noun"},
+    {"id": 96, "target": "el gobierno", "source": "government", "gender": "m", "type": "noun"},
+    {"id": 97, "target": "la autoridad monetaria", "source": "monetary authority", "gender": "f", "type": "noun"},
+    {"id": 98, "target": "el organismo regulador", "source": "regulatory body", "gender": "m", "type": "noun"},
+    {"id": 99, "target": "el fondo de inversión", "source": "investment fund", "gender": "m", "type": "noun"},
+    {"id": 100, "target": "el riesgo", "source": "risk", "gender": "m", "type": "noun"}
+  ],
+  "grammar": [
+    {
+      "title": "Expressing Economic Trends and Changes",
+      "content": "When analyzing economic data, you need to describe trends (upward, downward, stable) and changes over time. Spanish uses a variety of verbs and expressions for this purpose.\\n\\n**Verbs of increase and decrease:**\\n- Aumentar / Crecer / Subir / Escalar → to increase / grow / rise / climb\\n- Disminuir / Bajar / Caer / Descender → to decrease / drop / fall / descend\\n- Mantenerse / Estabilizarse → to remain / stabilize\\n- Fluctuar → to fluctuate\\n\\n**Example sentences:**\\n- El PIB aumentó un 2,5% en el último trimestre. (GDP increased by 2.5% last quarter.)\\n- La inflación bajó desde el 8% hasta el 3%. (Inflation dropped from 8% to 3%.)\\n- El desempleo se ha mantenido estable durante los últimos seis meses. (Unemployment has remained stable for the last six months.)\\n- Los precios fluctúan según la demanda del mercado. (Prices fluctuate according to market demand.)\\n\\n**Prepositional phrases for changes:**\\n- De... a... → from... to... (La inflación pasó de un 8% a un 3%)\\n- En un X% / En un X puntos porcentuales → by X% / by X percentage points\\n- Respecto al período anterior → Compared to the previous period\\n- En comparación con → In comparison with\\n\\n**Adverbs of degree:**\\n- Significativamente → significantly\\n- Marginalmente → marginally\\n- Drásticamente / Brusca / Rápidamente → drastically / sharply / rapidly\\n- Gradualmente / Poco a poco → gradually\\n- Establemente → stably\\n\\n**Key distinction:** 'Aumentar un 10%' (increase by 10%) vs. 'aumentar al 10%' (increase to 10%). Similarly, 'bajó un 10%' (dropped by 10%) vs. 'bajó al 10%' (dropped to 10%).\\n\\nNote for Romanian speakers: Romanian uses similar structures — 'a crește' = 'a crește/a urca', 'a scădea' = 'a scădea/a coborî'. The prepositional patterns are very similar: 'de la X la Y' = 'de la X la Y'.",
+      "table": {
+        "headers": ["Verb", "Meaning", "Example", "Direction"],
+        "rows": [
+          ["aumentar", "to increase", "Los precios aumentaron un 5%.", "upward"],
+          ["disminuir", "to decrease", "La demanda disminuyó en enero.", "downward"],
+          ["fluctuar", "to fluctuate", "El tipo de cambio fluctúa diariamente.", "both"],
+          ["estabilizarse", "to stabilize", "La inflación se estabilizó en el 2%.", "stable"]
+        ]
+      },
+      "examples": [
+        "El PIB creció un 3,2% respecto al año anterior.",
+        "Los precios de las materias primas cayeron drásticamente tras la decisión del banco central.",
+        "El empleo se mantuvo estable durante el segundo trimestre.",
+        "La inflación fluctuó entre el 3% y el 5% durante el último año."
+      ],
+      "aid_note": "Romanian parallel: 'PIB-ul a crescut cu 3,2%' = 'El PIB creció un 3,2%'; 'inflația a scăzut' = 'la inflación bajó'. The structures are nearly identical."
+    },
+    {
+      "title": "Subjunctive in Economic Predictions and Opinions",
+      "content": "The subjunctive is essential when discussing economic predictions, forecasts, opinions, and evaluations — all common in economic analysis. At B1.2 level, you should be comfortable using the subjunctive in these contexts.\\n\\n**Triggers for the subjunctive in economic contexts:**\\n\\n1. **Verbs of opinion/evaluation:**\\n   - Creo que el mercado subirá. (indicative — certainty)\\n   - No creo que el mercado suba. (subjunctive — doubt/negation)\\n   - Es posible que la recesión sea más larga de lo esperado. (subjunctive — possibility)\\n   - Es improbable que la inflación baje pronto. (subjunctive — improbability)\\n\\n2. **Verbs of prediction/forecasting:**\\n   - Los analistas pronostican que la economía crecerá. (indicative — confident prediction)\\n   - Es probable que la economía crezca. (subjunctive — uncertain prediction)\\n   - Es probable que el crecimiento sea del 2%. (subjunctive after 'es probable que')\\n\\n3. **Expressions of necessity/want:**\\n   - Es necesario que el gobierno reduzca el déficit. (subjunctive — necessity)\\n   - Es importante que se tomen medidas. (subjunctive — importance)\\n   - Los inversistas quieren que el banco central baje los tipos. (subjunctive — desire)\\n\\n4. **Conjunctions with subjunctive:**\\n   - Antes de que el mercado reaccione... (before the market reacts...)\\n   - Para que la economía se recupere... (for the economy to recover...)\\n   - A menos que haya un cambio de política... (unless there is a policy change...)\\n   - Siempre y cuando el gobierno mantenga... (as long as the government maintains...)\\n\\n**Key rule:** When the main clause expresses doubt, possibility, necessity, or emotion, the subordinate clause uses the subjunctive. When the main clause expresses certainty or fact, the subordinate clause uses the indicative.\\n\\nRomanian speakers: Romanian uses similar patterns with 'să' + subjunctive: 'Este posibil să crească' = 'Es posible que crezca'.",
+      "table": {
+        "headers": ["Main Clause", "Subordinate Clause", "Mood"],
+        "rows": [
+          ["Es posible que...", "la inflación suba", "subjunctive"],
+          ["Creo que...", "la economía crecerá", "indicative"],
+          ["No creo que...", "la economía crezca", "subjunctive"],
+          ["Es necesario que...", "el gobierno actúe", "subjunctive"]
+        ]
+      },
+      "examples": [
+        "Es probable que los tipos de interés aumenten en el próximo trimestre.",
+        "Los economistas creen que el crecimiento será moderado.",
+        "No estoy seguro de que el mercado de valores se recupere rápidamente.",
+        "Es fundamental que se reforme el sistema fiscal para promover la inversión."
+      ],
+      "aid_note": "Romanian parallel: 'Este posibil să crească' = 'Es posible que crezca'; 'Es necesar să se reducă' = 'Es necesario que se reduzca'. The subjunctive trigger pattern is remarkably similar."
+    },
+    {
+      "title": "Comparative and Superlative Structures in Economic Analysis",
+      "content": "Economic analysis requires comparing data across time, countries, and sectors. At B1.2, you need to master comparative and superlative constructions in Spanish.\\n\\n**Basic comparisons:**\\n- Más + adjetivo + que → more... than\\n- Menos + adjetivo + que → less... than\\n- Tan + adjetivo + como → as... as\\n\\nExamples:\\n- España tiene más desempleo que Alemania. (Spain has more unemployment than Germany.)\\n- La inflación en Turquía es menor que en la zona euro. (Inflation in Turkey is lower than in the eurozone.)\\n- El PIB de Japón es tan alto como el de Francia. (Japan's GDP is as high as France's.)\\n\\n**Irregular comparatives:**\\n- bueno → mejor (better) → El sector tecnológico es mejor que el tradicional.\\n- malo → peor (worse) → La economía del país es peor que la del vecino.\\n- grande → mayor (larger/greater) → Estados Unidos tiene la mayor economía del mundo.\\n- pequeño → menor (smaller/lesser) → La inflación menor fue en Suiza.\\n\\n**Superlatives:**\\n- el/la más + adjetivo + (de) → the most... (of)\\n- el/la menor + adjetivo (of) → the least...\\n- el/la más... del mundo → the most... in the world\\n- un máximo de → a maximum of\\n- un mínimo de → a minimum of\\n\\nExamples:\\n- China es el mayor productor de manufacturas del mundo. (China is the largest manufacturer in the world.)\\n- La zona euro tiene la menor tasa de crecimiento de la OCDE. (The eurozone has the lowest growth rate in the OECD.)\\n- El costo de vida en Zúrich es el más alto del mundo. (The cost of living in Zurich is the highest in the world.)\\n\\n**Relative comparisons with numbers:**\\n- Un X% mayor que → X% higher than\\n- Un X% inferior a → X% lower than\\n- El doble de... que → twice as... as\\n- La mitad de... que → half as... as\\n\\nRomanian speakers: Romanian comparatives use similar structures: 'mai mare decât' = 'más... que'; 'cel mai mare' = 'el más grande'. The irregular forms map closely: 'mai bun' = 'mejor', 'mai rău' = 'peor'.",
+      "table": {
+        "headers": ["Structure", "Example", "Meaning"],
+        "rows": [
+          ["más... que", "La inflación es mayor que el año pasado.", "Inflation is higher than last year."],
+          ["menos... que", "El empleo es menor que en 2019.", "Employment is lower than in 2019."],
+          ["tan... como", "El crecimiento es tan alto como el estimado.", "Growth is as high as estimated."],
+          ["mejor que", "El sector servicios es mejor que el industrial.", "The services sector is better than the industrial one."],
+          ["el más... de", "España tiene el mayor PIB de la periferia europea.", "Spain has the largest GDP in peripheral Europe."]
+        ]
+      },
+      "examples": [
+        "La tasa de desempleo en España es el doble de la que hay en Alemania.",
+        "El sector primario representa la menor parte del PIB en los países desarrollados.",
+        "La inflación en Argentina es mucho mayor que en cualquier otro país de la región.",
+        "Los ingresos de los hogares más pobres han disminuido un 15% en términos reales."
+      ],
+      "aid_note": "Romanian parallel: 'mai mult decât' = 'más... que'; 'cel mai mare' = 'el más grande/mayor'; 'de două ori mai mare' = 'el doble de... que'. The comparative structures are very similar."
+    }
+  ],
+  "pronunciation": [
+    {
+      "title": "Pronunciation of Economic Analysis Vocabulary",
+      "content": "Key pronunciation patterns for economic analysis vocabulary:\\n\\n1. **The '-ción / -sión' endings (extremely common in economic Spanish):**\\n   - Pronounced 'theen' (Spain) or 'see-en' (Latin America)\\n   - economía → e-koh-NOH-mee-ah (note: no '-ción', but common root)\\n   - inflación → in-flah-THYOHN / in-flah-SYOHN (stress on -ción)\\n   - deflación → deef-lah-THYOHN / deef-lah-SYOHN\\n   - exportación → ex-por-tah-THYOHN / ex-por-tah-SYOHN\\n   - importación → im-por-tah-THYOHN / im-por-tah-SYOHN\\n   - recesión → reh-see-OHN / reh-see-OHN (note: -sión = 'SYOHN' in Spain, 'see-OHN' in LA)\\n   - inversión → in-ver-see-OHN / in-ver-SYOHN (note: -sión ending)\\n   - demanda → deh-MAHN-dah (note: no '-ción', ends in -da)\\n   - oferta → oh-FEH-tah (note: no '-ción')\\n\\n2. **The '-ismo / -ista' endings (economic ideologies):**\\n   - proteccionismo → proh-tehk-see-OH-moh (stress on -so)\\n   - globalización → gloh-bah-lee-sah-THYOHN / -SYOHN (note: -ción)\\n   - El prefijo '-ismo' se pronuncia 'EE-smoh'\\n   - Los adjetivos en '-ista' se pronuncian 'EE-stah': economista → e-koh-NOH-mee-stah\\n\\n3. **The 'll' and 'y' sounds:**\\n   - mercado → mair-KAH-doh (no 'll' here)\\n   - salario → sah-RAH-ee-oh (note the 'y' sound for 'i' between vowels in some dialects, though standard is 'ee')\\n   - diferencia → dee-fe-REHN-see-ah (no 'll')\\n\\n4. **The 'j' / 'g' soft sounds (like English 'h'):**\\n   - gasto → GAH-stoh\\n   - precio → PREE-see-oh\\n   - producto → proh-DOOK-toh\\n   - empleo → em-PLEH-oh\\n   - injunfo (not used) → but: ingreso → in-GREH-soh\\n   - gasto público → GAH-stoh POH-bee-koh\\n\\n5. **The 'r' and 'rr' sounds:**\\n   - El 'r' simple entre vocales es suave: mercado → mair-KAH-doh (flapped 'r')\\n   - El 'r' al inicio es fuerte: renta → REHN-tah\\n   - El 'rr' siempre es fuerte: arancel → ah-RAHN-sel\\n   - crecimiento → kreh-see-MAH-en-toh (the 'c' before 'i' is soft)\\n\\n6. **Silent letters to watch for:**\\n   - 'h' is ALWAYS silent: el gasto → el GAH-stoh\\n   - 'b' and 'v' are pronounced identically\\n   - 'd' between vowels is often weakened: el mercado → el mair-ka-Doh (softened 'd')\\n\\n7. **Common tricky words:**\\n   - el PIB (pronounced: pee-ee-bee, the acronym)\\n   - la bolsa (BOHL-sah, not 'bos-ya')\\n   - el bono (BOH-noh)\\n   - el petróleo (peh-TRoh-lyoh — the 'll' = 'y' sound)\\n   - el arancel (ah-RAHN-sel — double 'r' at start)\\n   - el volumen (boh-LEE-men)",
+      "examples": [
+        "inflación = in-flah-THYOHN (Spain) / in-flah-SYOHN (LA)",
+        "exportación = ex-por-tah-THYOHN / ex-por-tah-SYOHN",
+        "recesión = reh-see-OHN (Spain) / reh-see-SYOHN (LA)",
+        "proteccionismo = proh-tehk-see-OH-moh",
+        "rentable = ren-TAH-beh",
+        "competencia = kom-peh-TEHN-see-ah",
+        "capital = kah-PEE-tahl",
+        "riesgo = ree-EH-goh (g is soft like 'h' in Spain)",
+        "salario = sah-RAH-ee-oh",
+        "poder adquisitivo = poh-DER ah-dkee-see-TEE-vo"
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "exercise",
+      "question": "Which term refers to 'the rate at which prices increase'?",
+      "options": ["la recesión", "la inflación", "el desempleo", "el superávit"],
+      "correct": 1,
+      "explanation": "'La inflación' = inflation, the rate at which prices increase. 'La recesión' = recession, 'el desempleo' = unemployment, 'el superávit' = surplus."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: 'El PIB _____ un 2,5% en el último trimestre.' (increased)",
+      "correct": "aumentó",
+      "explanation": "'El PIB aumentó' — past tense (pretérito) of aumentar, 3rd person singular, describing a completed economic event."
+    },
+    {
+      "type": "exercise",
+      "question": "Which expression means 'downward / falling' in economic context?",
+      "options": ["al alza", "a la baja", "al nivel", "al máximo"],
+      "correct": 1,
+      "explanation": "'A la baja' means downward or falling. 'Al alza' means upward or rising. These are the two standard directional expressions in economic Spanish."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: 'Los analistas _____ que la inflación será baja.' (forecast)",
+      "correct": "pronostican",
+      "explanation": "'Los analistas pronostican' — present tense, 3rd person plural of pronosticar. This is the standard verb for economic forecasting."
+    },
+    {
+      "type": "exercise",
+      "question": "What does 'el tipo de cambio' mean?",
+      "options": ["Interest rate", "Exchange rate", "Exchange volume", "Trade balance"],
+      "correct": 1,
+      "explanation": "'El tipo de cambio' = exchange rate, the price of one currency in terms of another. The interest rate is 'el tipo de interés'."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: 'Es probable que el gobierno _____ (reducir) los impuestos.'",
+      "correct": "reduzca",
+      "explanation": "'Es probable que' triggers the subjunctive. 'Reduzca' = present subjunctive of reducir, 3rd person singular. Note the u→z spelling change to maintain the hard 'c' sound."
+    },
+    {
+      "type": "exercise",
+      "question": "Which is the correct comparative: 'The economy is better than expected'?",
+      "options": ["La economía es mejor que la esperada.", "La economía es más buena que esperada.", "La economía es el bueno que la esperada.", "La economía es más mejor que la esperada."],
+      "correct": 0,
+      "explanation": "'Mejor' is the irregular comparative of 'bueno'. You never say 'más bueno' or 'más mejor' — 'mejor' already means 'better'. This is a key irregular form."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: 'La oferta y la _____ determinan el precio de mercado.'",
+      "correct": "demanda",
+      "explanation": "'La oferta y la demanda' = supply and demand, the fundamental forces that determine market prices in economic theory."
+    },
+    {
+      "type": "exercise",
+      "question": "What does 'la política monetaria' refer to?",
+      "options": ["Government spending policy", "Central bank policies on money supply and interest rates", "Tax policy", "Trade policy"],
+      "correct": 1,
+      "explanation": "'La política monetaria' = monetary policy, which involves the central bank's management of money supply and interest rates to control inflation and stimulate growth."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: 'El desempleo ha _____ un 0,5% este mes.' (decreased)",
+      "correct": "disminuido",
+      "explanation": "'Ha disminuido' — present perfect tense. 'Disminuido' is the past participle of disminuir. The participle doesn't change because it's used with 'haber' (the past participle is invariable after haber)."
+    },
+    {
+      "type": "exercise",
+      "question": "Choose the correct superlative: 'China has the largest economy in the world.'",
+      "options": ["China tiene la mayor economía del mundo.", "China tiene la más grande economía del mundo.", "China tiene el más economía del mundo.", "China tiene el mejor economía del mundo."],
+      "correct": 0,
+      "explanation": "'La mayor' is the irregular superlative of 'grande'. 'Economía' is feminine, so we use 'la mayor'. 'Mayor' in this context means 'largest' (in size/scope), not 'older'."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: 'El banco central decidió _____ los tipos de interés.' (raise)",
+      "correct": "subir",
+      "explanation": "'Decidió subir' — after a verb of decision, the second verb stays in the infinitive. 'Subir los tipos de interés' = to raise interest rates."
+    },
+    {
+      "type": "exercise",
+      "question": "Which word means 'unemployment' in Spanish?",
+      "options": ["el empleo", "la ocupación", "el desempleo", "la desocupación"],
+      "correct": 2,
+      "explanation": "'El desempleo' = unemployment. 'El empleo' = employment (the opposite). The prefix 'des-' in Spanish typically negates or reverses the meaning of a word."
+    },
+    {"type": "fill-in-blank", "question": "Complete: 'La inflación pasó de un 8% _____ un 3% en un año.' (to)", "correct": "a", "explanation": "'De... a...' = from... to... in Spanish. 'La inflación pasó de un 8% a un 3%' = Inflation went from 8% to 3%."},
+    {"type": "exercise", "question": "What does 'el tipo de interés' mean?", "options": ["Exchange rate", "Interest rate", "Profit margin", "Growth rate"], "correct": 1, "explanation": "'El tipo de interés' = interest rate, the rate at which interest is charged on loans or paid on deposits. 'Tipo de cambio' = exchange rate."},
+    {"type": "fill-in-blank", "question": "Complete: 'Los inversores quieren que el mercado _____ más estable.' (be)", "correct": "sea", "explanation": "'Quieren que' triggers the subjunctive. 'Sea' = present subjunctive of ser, 3rd person singular. Desire/want expressions require subjunctive in the subordinate clause."},
+    {"type": "exercise", "question": "Which term refers to 'the stock market'?", "options": ["el mercado de valores", "la bolsa de valores", "ambas son correctas", "ninguna es correcta"], "correct": 2, "explanation": "Both 'el mercado de valores' (more formal) and 'la bolsa' (colloquial, literally 'the exchange') refer to the stock market. 'Bolsa' is short for 'bolsa de valores'."},
+    {"type": "fill-in-blank", "question": "Complete: 'El país tiene un _____ público de un 100% del PIB.' (debt)", "correct": "déficit", "explanation": "'El déficit público' = public deficit/debt. While 'deuda' is also used, 'déficit' refers specifically to the gap between government revenue and spending. The phrase 'déficit del 100% del PIB' is standard economic terminology."},
+    {"type": "exercise", "question": "What does 'al alza' mean in economic context?", "options": ["Falling", "Upward / rising", "Stable", "Fluctuating"], "correct": 1, "explanation": "'Al alza' means upward or rising. It's the standard economic expression: 'precios al alza' = rising prices, 'tendencia al alza' = upward trend."},
+    {"type": "fill-in-blank", "question": "Complete: '_____ que la economía se recupere, hay que tomar medidas urgentes.' (For / In order for)", "correct": "Para", "explanation": "'Para que la economía se recupere' = For the economy to recover. 'Para que' triggers the subjunctive ('se recupere')."},
+    {"type": "exercise", "question": "Which sentence correctly uses the comparative 'más... que'?", "options": ["La inflación es más alta que el año pasado.", "La inflación es más alto que el año pasado.", "La inflación es la más alta que el año pasado.", "La inflación es más alta del año pasado."], "correct": 0, "explanation": "'Más alta que' — 'inflación' is feminine, so the adjective agrees as 'alta'. 'Más... que' is the correct comparative structure."},
+    {"type": "fill-in-blank", "question": "Complete: 'El sector terciario es el _____ del PIB en España.' (largest part)", "correct": "mayor parte", "explanation": "'El sector terciario representa la mayor parte del PIB en España' — the irregular superlative of grande: mayor = largest/greatest."},
+    {"type": "exercise", "question": "What does 'el déficit comercial' mean?", "options": ["Trade deficit", "Budget surplus", "Fiscal deficit", "Trade surplus"], "correct": 0, "explanation": "'El déficit comercial' = trade deficit, when a country imports more than it exports. 'Superávit comercial' would be trade surplus."},
+    {"type": "fill-in-blank", "question": "Complete: 'Es necesario que el gobierno _____ (tomar) medidas para controlar la inflación.'", "correct": "tome", "explanation": "'Es necesario que' triggers the subjunctive. 'Tome' = present subjunctive of tomar, 3rd person singular."},
+    {"type": "exercise", "question": "Which word is the correct translation of 'investment'?", "options": ["la inversión", "la invención", "la inventiva", "la inversión"], "correct": 0, "explanation": "'La inversión' = investment. 'La invención' = invention (something completely different!). These are classic false friends for Spanish learners."},
+    {"type": "fill-in-blank", "question": "Complete: 'Los precios _____ (fluctuar) según la oferta y la demanda.' (present tense)", "correct": "fluctúan", "explanation": "'Los precios fluctúan' — present tense, 3rd person plural of fluctuar. The 'u' after 'g' is silent in Spanish (like 'gu' before e/i is pronounced 'g')."},
+    {"type": "exercise", "question": "What does 'el PIB per cápita' mean?", "options": ["Total GDP", "GDP per person / per capita", "GDP growth rate", "GDP deflator"], "correct": 1, "explanation": "'El PIB per cápita' = GDP per capita (per person). It's a measure of average economic output per person, used to compare living standards across countries."},
+    {"type": "fill-in-blank", "question": "Complete: 'El salario mínimo _____ (estar) por debajo del costo de vida.' (is)", "correct": "está", "explanation": "'El salario mínimo está por debajo del costo de vida' — present indicative, 3rd person singular of estar. This states a fact, not a possibility or doubt."},
+    {"type": "exercise", "question": "Choose the correct expression for 'inflationary pressures':", "options": ["presiones inflacionarias", "presiones inflacionables", "presiones inflatables", "presiones infladas"], "correct": 0, "explanation": "'Presiones inflacionarias' = inflationary pressures. The suffix '-ario/-aria' forms adjectives meaning 'related to'. 'Inflacionables' would mean 'able to be inflated' (like a balloon!)."},
+    {"type": "fill-in-blank", "question": "Complete: 'A _____ de que el mercado caiga, los inversores deben diversificar.' (unless / in case)", "correct": "menos", "explanation": "'A menos que' = unless. This conjunction ALWAYS triggers the subjunctive: 'A menos que el mercado caiga...'. Note the subjunctive 'caiga'."}
+  ]
+}

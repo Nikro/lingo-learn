@@ -1,0 +1,724 @@
+{
+  "id": "cross-cultural-leadership",
+  "level": "b2-1",
+  "title": "Cross-Cultural Leadership",
+  "description": "Master the vocabulary and structures needed for leading diverse teams, navigating cultural differences, and communicating across cultures. Develop the ability to manage international teams, resolve cross-cultural conflicts, and adapt leadership styles to different cultural contexts.",
+  "vocabulary": [
+    {
+      "id": 1,
+      "target": "el liderazgo",
+      "source": "leadership",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 2,
+      "target": "la cultura organizacional",
+      "source": "organizational culture",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 3,
+      "target": "la diversidad cultural",
+      "source": "cultural diversity",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 4,
+      "target": "la competencia intercultural",
+      "source": "cross-cultural competence",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 5,
+      "target": "la negociación intercultural",
+      "source": "cross-cultural negotiation",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 6,
+      "target": "la adaptación cultural",
+      "source": "cultural adaptation",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 7,
+      "target": "el conflicto intercultural",
+      "source": "cross-cultural conflict",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 8,
+      "target": "la comunicación no verbal",
+      "source": "non-verbal communication",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 9,
+      "target": "el estereotipo",
+      "source": "stereotype",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 10,
+      "target": "el prejuicio",
+      "source": "prejudice",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 11,
+      "target": "el sesgo cultural",
+      "source": "cultural bias",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 12,
+      "target": "la competencia lingüística",
+      "source": "linguistic competence",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 13,
+      "target": "el equipo multilingüe",
+      "source": "multilingual team",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 14,
+      "target": "la delegación",
+      "source": "delegation",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 15,
+      "target": "la motivación del equipo",
+      "source": "team motivation",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 16,
+      "target": "la resolución de conflictos",
+      "source": "conflict resolution",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 17,
+      "target": "la retroalimentación",
+      "source": "feedback",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 18,
+      "target": "el consenso",
+      "source": "consensus",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 19,
+      "target": "la jerarquía",
+      "source": "hierarchy",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 20,
+      "target": "la colaboración",
+      "source": "collaboration",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 21,
+      "target": "el enfoque cultural",
+      "source": "cultural approach",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 22,
+      "target": "la sensibilidad cultural",
+      "source": "cultural sensitivity",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 23,
+      "target": "el marco cultural",
+      "source": "cultural framework",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 24,
+      "target": "la identidad cultural",
+      "source": "cultural identity",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 25,
+      "target": "la asimilación",
+      "source": "assimilation",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 26,
+      "target": "la integración",
+      "source": "integration",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 27,
+      "target": "la segregación",
+      "source": "segregation",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 28,
+      "target": "la inclusión",
+      "source": "inclusion",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 29,
+      "target": "el respeto mutuo",
+      "source": "mutual respect",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 30,
+      "target": "la empatía intercultural",
+      "source": "cross-cultural empathy",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 31,
+      "target": "liderar",
+      "source": "to lead",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 32,
+      "target": "negociar",
+      "source": "to negotiate",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 33,
+      "target": "adaptarse",
+      "source": "to adapt",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 34,
+      "target": "respetar",
+      "source": "to respect",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 35,
+      "target": "comprender",
+      "source": "to understand",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 36,
+      "target": "mediar",
+      "source": "to mediate",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 37,
+      "target": "coordinar",
+      "source": "to coordinate",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 38,
+      "target": "fomentar",
+      "source": "to foster",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 39,
+      "target": "integrar",
+      "source": "to integrate",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 40,
+      "target": "resolver",
+      "source": "to resolve",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 41,
+      "target": "delegar",
+      "source": "to delegate",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 42,
+      "target": "motivar",
+      "source": "to motivate",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 43,
+      "target": "colaborar",
+      "source": "to collaborate",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 44,
+      "target": "adaptar",
+      "source": "to adapt",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 45,
+      "target": "cooperar",
+      "source": "to cooperate",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 46,
+      "target": "multicultural",
+      "source": "multicultural",
+      "gender": "adj.",
+      "type": "adjective"
+    },
+    {
+      "id": 47,
+      "target": "intercultural",
+      "source": "cross-cultural",
+      "gender": "adj.",
+      "type": "adjective"
+    },
+    {
+      "id": 48,
+      "target": "diverso",
+      "source": "diverse",
+      "gender": "adj.",
+      "type": "adjective"
+    },
+    {
+      "id": 49,
+      "target": "inclusivo",
+      "source": "inclusive",
+      "gender": "adj.",
+      "type": "adjective"
+    },
+    {
+      "id": 50,
+      "target": "sensible",
+      "source": "sensitive",
+      "gender": "adj.",
+      "type": "adjective"
+    },
+    {
+      "id": 51,
+      "target": "jerárquico",
+      "source": "hierarchical",
+      "gender": "adj.",
+      "type": "adjective"
+    },
+    {
+      "id": 52,
+      "target": "colaborativo",
+      "source": "collaborative",
+      "gender": "adj.",
+      "type": "adjective"
+    },
+    {
+      "id": 53,
+      "target": "adaptativo",
+      "source": "adaptive",
+      "gender": "adj.",
+      "type": "adjective"
+    },
+    {
+      "id": 54,
+      "target": "empático",
+      "source": "empathetic",
+      "gender": "adj.",
+      "type": "adjective"
+    },
+    {
+      "id": 55,
+      "target": "respetuoso",
+      "source": "respectful",
+      "gender": "adj.",
+      "type": "adjective"
+    },
+    {
+      "id": 56,
+      "target": "tener en cuenta la cultura",
+      "source": "to take culture into account",
+      "gender": "exp.",
+      "type": "phrase"
+    },
+    {
+      "id": 57,
+      "target": "navegar entre culturas",
+      "source": "to navigate between cultures",
+      "gender": "exp.",
+      "type": "phrase"
+    },
+    {
+      "id": 58,
+      "target": "superar las barreras culturales",
+      "source": "to overcome cultural barriers",
+      "gender": "exp.",
+      "type": "phrase"
+    },
+    {
+      "id": 59,
+      "target": "gestionar equipos diversos",
+      "source": "to manage diverse teams",
+      "gender": "exp.",
+      "type": "phrase"
+    },
+    {
+      "id": 60,
+      "target": "fomentar la inclusión",
+      "source": "to foster inclusion",
+      "gender": "exp.",
+      "type": "phrase"
+    },
+    {
+      "id": 61,
+      "target": "adaptar el estilo de liderazgo",
+      "source": "to adapt leadership style",
+      "gender": "exp.",
+      "type": "phrase"
+    },
+    {
+      "id": 62,
+      "target": "crear un entorno inclusivo",
+      "source": "to create an inclusive environment",
+      "gender": "exp.",
+      "type": "phrase"
+    },
+    {
+      "id": 63,
+      "target": "resolver malentendidos culturales",
+      "source": "to resolve cultural misunderstandings",
+      "gender": "exp.",
+      "type": "phrase"
+    },
+    {
+      "id": 64,
+      "target": "valorar la diversidad",
+      "source": "to value diversity",
+      "gender": "exp.",
+      "type": "phrase"
+    },
+    {
+      "id": 65,
+      "target": "construir confianza intercultural",
+      "source": "to build cross-cultural trust",
+      "gender": "exp.",
+      "type": "phrase"
+    }
+  ],
+  "grammar": [
+    {
+      "title": "Expressing Cultural Observations and Leadership Strategies",
+      "content": "At B2.1 level, you need to articulate cultural observations with nuance and express leadership strategies that account for cultural differences. Spanish offers specific structures for comparing cultures and expressing adaptive leadership approaches.",
+      "table": {
+        "headers": [
+          "Structure",
+          "Function",
+          "Example"
+        ],
+        "rows": [
+          [
+            "Cultural observation",
+            "Se nota que / Se observa que...",
+            "Se observa que las jerarquías son más rígidas en algunas culturas."
+          ],
+          [
+            "Comparative assessment",
+            "En comparación con... / A diferencia de...",
+            "En comparación con el modelo norteamericano, el europeo es más consensual."
+          ],
+          [
+            "Adaptive recommendation",
+            "Sería aconsejable + subj. / Conviene + inf.",
+            "Conviene adaptar el estilo de comunicación al contexto cultural."
+          ],
+          [
+            "Cultural generalization",
+            "Suele / Tiende a + inf.",
+            "Los equipos latinoamericanos suelen valorar más la relación personal."
+          ],
+          [
+            "Conditional strategy",
+            "Si se quiere + inf. / Para lograr...",
+            "Si se quiere fomentar la inclusión, hay que adaptar las reuniones."
+          ],
+          [
+            "Evaluative judgment",
+            "Es fundamental que + subj. / Resulta crucial...",
+            "Es fundamental que los líderes desarrollen sensibilidad intercultural."
+          ]
+        ]
+      },
+      "examples": [
+        "Se observa que los equipos multiculturales funcionan mejor cuando hay un liderazgo adaptativo.",
+        "Conviene adaptar el estilo de comunicación para cada cultura del equipo.",
+        "Es fundamental que los líderes desarrollen empatía intercultural.",
+        "Para lograr un consenso, hay que tener en cuenta las diferencias culturales.",
+        "Si se quiere fomentar la inclusión, hay que valorar todas las perspectivas."
+      ],
+      "aid_note": "Romanian speakers: Romanian has similar structures for cultural comparison — se observă că ≈ se observa que, în comparație cu ≈ en comparación con. The subjunctive after es fundamental que works like Romanian este fundamental să + conjunctiv."
+    },
+    {
+      "title": "Advanced Subjunctive in Cross-Cultural Contexts",
+      "content": "Leading cross-cultural teams requires expressing uncertainty, making recommendations, and evaluating cultural approaches. These all trigger the subjunctive in Spanish.",
+      "table": {
+        "headers": [
+          "Expression Type",
+          "Structure",
+          "Example"
+        ],
+        "rows": [
+          [
+            "Recommendation",
+            "Es necesario que + subj.",
+            "Es necesario que se fomente la diversidad en los puestos de liderazgo."
+          ],
+          [
+            "Doubt about cultural norms",
+            "No creo que + subj. / Dudo que + subj.",
+            "No creo que el mismo estilo de liderazgo funcione en todas las culturas."
+          ],
+          [
+            "Emotional/Cultural reaction",
+            "Me sorprende que + subj. / Me alegra que + subj.",
+            "Me alegra que el equipo haya logrado integrar las diferentes perspectivas."
+          ],
+          [
+            "Impersonal evaluation",
+            "Es posible que + subj. / Es probable que + subj.",
+            "Es probable que surjan malentendidos por diferencias culturales."
+          ],
+          [
+            "Purpose/Goal",
+            "Para que + subj. / A fin de que + subj.",
+            "Para que todos se sientan incluidos, hay que adaptar las reuniones."
+          ],
+          [
+            "Concession",
+            "Aunque + subj. / Por más que + subj.",
+            "Aunque los líderes intenten ser inclusivos, puede haber malentendidos."
+          ]
+        ]
+      },
+      "examples": [
+        "Es necesario que se fomente la diversidad en los puestos de liderazgo.",
+        "No creo que el mismo estilo de liderazgo funcione en todas las culturas.",
+        "Me alegra que el equipo haya logrado integrar las diferentes perspectivas.",
+        "Es probable que surjan malentendidos por diferencias culturales.",
+        "Aunque los líderes intenten ser inclusivos, puede haber malentendidos."
+      ],
+      "aid_note": "Romanian speakers: The Romanian subjunctive (să + verb) is used in similar contexts. Es necesario que se fomente ≈ Este necesar să se încurajeze. Romanian deși ≈ Spanish aunque + subjunctive."
+    }
+  ],
+  "pronunciation": [
+    {
+      "title": "Stress Patterns in Leadership Vocabulary",
+      "content": "Spanish leadership vocabulary contains many words with consistent stress patterns. Pay attention to esdrújulas and agudas, which carry written accents.",
+      "examples": [
+        {
+          "target": "liderazgo",
+          "source": "li-DE-rah-zoh (llana, no accent)"
+        },
+        {
+          "target": "cultura",
+          "source": "Kool-TOO-rah (llana, no accent)"
+        },
+        {
+          "target": "diversidad",
+          "source": "dee-ver-see-DAH-dad (llana, no accent)"
+        },
+        {
+          "target": "estrategia",
+          "source": "es-trah-HEE-see-ah (esdrújula, accented)"
+        },
+        {
+          "target": "jerarquía",
+          "source": "he-rah-KY-ah (aguda, accent on a)"
+        },
+        {
+          "target": "negociación",
+          "source": "ne-go-see-AH-son (aguda, accent on o)"
+        },
+        {
+          "target": "empatía",
+          "source": "em-PAH-tee-ah (aguda, accent on i)"
+        },
+        {
+          "target": "consenso",
+          "source": "kon-SEN-soh (llana, no accent)"
+        },
+        {
+          "target": "mediación",
+          "source": "me-ee-ah-see-AH-son (aguda, accent on o)"
+        },
+        {
+          "target": "colaboración",
+          "source": "ko-lah-bo-rah-see-AH-son (aguda, accent on o)"
+        }
+      ],
+      "aid_note": "Romanian speakers: Spanish r at the beginning of words like liderazgo needs a rolled r — stronger than Romanian. The Spanish y in jerarquía sounds like English y in yes."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "exercise",
+      "id": 1,
+      "question": "What does la competencia intercultural refer to?",
+      "options": [
+        "Cultural competence in a single language",
+        "The ability to navigate and lead across different cultures",
+        "The study of different cultures",
+        "Cultural assimilation"
+      ],
+      "correct": 1,
+      "explanation": "La competencia intercultural refers to the ability to work and lead effectively across different cultural contexts."
+    },
+    {
+      "type": "exercise",
+      "id": 2,
+      "question": "What is the antonym of la inclusión in a business context?",
+      "options": [
+        "La diversidad",
+        "La segregación",
+        "La colaboración",
+        "La integración"
+      ],
+      "correct": 1,
+      "explanation": "La segregación is the opposite of inclusion — separating rather than integrating."
+    },
+    {
+      "type": "fill-in-blank",
+      "id": 3,
+      "question": "Complete: Sería aconsejable _____ el estilo de liderazgo al contexto cultural. (It would be advisable to adapt the leadership style to the cultural context.)",
+      "correct": "adaptar",
+      "explanation": "After seria aconsejable, use the infinitive: adaptar."
+    },
+    {
+      "type": "exercise",
+      "id": 4,
+      "question": "Which phrase best expresses a recommendation for managing multicultural teams?",
+      "options": [
+        "Los equipos multiculturales son difíciles.",
+        "Conviene fomentar la sensibilidad cultural.",
+        "No hay nada que hacer.",
+        "El liderazgo es igual en todas partes."
+      ],
+      "correct": 1,
+      "explanation": "Conviene + infinitive expresses a recommendation, especially in professional contexts."
+    },
+    {
+      "type": "fill-in-blank",
+      "id": 5,
+      "question": "Complete: Es necesario que los líderes _____ empatía intercultural. (It is necessary that leaders develop cross-cultural empathy.)",
+      "correct": "desarrollen",
+      "explanation": "After es necesario que, use the subjunctive: desarrollen (3rd person plural subjunctive of desarrollar)."
+    },
+    {
+      "type": "exercise",
+      "id": 6,
+      "question": "What does navegar entre culturas mean?",
+      "options": [
+        "Travel between countries",
+        "Adapt and communicate effectively in different cultural contexts",
+        "Browse the internet",
+        "Study foreign languages"
+      ],
+      "correct": 1,
+      "explanation": "Navegar entre culturas is a metaphor for the ability to move and communicate effectively across different cultural contexts."
+    },
+    {
+      "type": "fill-in-blank",
+      "id": 7,
+      "question": "Complete: _____ que los líderes intenten ser inclusivos, puede haber malentendidos. (Even though leaders try to be inclusive, there may be misunderstandings.)",
+      "correct": "Aunque",
+      "explanation": "Aunque + subjunctive expresses concession."
+    },
+    {
+      "type": "exercise",
+      "id": 8,
+      "question": "Which is NOT a key cross-cultural leadership competency?",
+      "options": [
+        "Cultural sensitivity",
+        "Linguistic competence",
+        "Technical competence",
+        "Cultural adaptation"
+      ],
+      "correct": 2,
+      "explanation": "While cultural sensitivity, linguistic competence, and cultural adaptation are key cross-cultural skills, technical competence is specific to each professional field."
+    },
+    {
+      "type": "fill-in-blank",
+      "id": 9,
+      "question": "Complete: Para que todos se _____ incluidos, hay que adaptar las reuniones. (So that everyone feels included, meetings must be adapted.)",
+      "correct": "sientan",
+      "explanation": "After para que, use the subjunctive: sientan (subjunctive of sentir)."
+    },
+    {
+      "type": "exercise",
+      "id": 10,
+      "question": "Which structure expresses an impersonal evaluation about a cultural phenomenon?",
+      "options": [
+        "Yo creo que...",
+        "Es probable que + subj.",
+        "Ayer vi que...",
+        "Me gusta que..."
+      ],
+      "correct": 1,
+      "explanation": "Es probable que + subjunctive is an impersonal structure expressing evaluation or prediction about a phenomenon, common in cultural and business analysis."
+    }
+  ]
+}

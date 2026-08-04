@@ -1,7 +1,7 @@
 {
   "name": "LingoLearn — Learn Spanish",
   "short_name": "LingoLearn",
-  "description": "A gamified Spanish learning app with multi-language support",
+  "description": "Interactive Spanish learning app with CEFR-aligned vocabulary, grammar, and exercises.",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#1e293b",

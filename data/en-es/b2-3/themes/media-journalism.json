@@ -1,0 +1,1184 @@
+{
+  "id": "media-journalism",
+  "level": "b2-3",
+  "title": "Advanced Media & Journalism",
+  "description": "Vocabulary, grammar, pronunciation, and exercises about investigative journalism, editorial analysis, media ethics, digital platforms, and press freedom.",
+  "vocabulary": [
+    {
+      "id": 1,
+      "target": "el periodismo",
+      "source": "journalism",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 2,
+      "target": "el periodista",
+      "source": "journalist",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 3,
+      "target": "la periodista",
+      "source": "journalist",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 4,
+      "target": "la noticia",
+      "source": "news",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 5,
+      "target": "el reportaje",
+      "source": "report",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 6,
+      "target": "la entrevista",
+      "source": "interview",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 7,
+      "target": "la crónica",
+      "source": "chronicle",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 8,
+      "target": "el editorial",
+      "source": "editorial",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 9,
+      "target": "la columna",
+      "source": "column",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 10,
+      "target": "la denuncia",
+      "source": "exposé",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 11,
+      "target": "la investigación",
+      "source": "investigation",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 12,
+      "target": "el investigador",
+      "source": "investigator",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 13,
+      "target": "la fuente",
+      "source": "source",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 14,
+      "target": "la fuente anónima",
+      "source": "anonymous source",
+      "gender": "f",
+      "type": "noun phrase"
+    },
+    {
+      "id": 15,
+      "target": "el periodista de investigación",
+      "source": "investigative journalist",
+      "gender": "m",
+      "type": "noun phrase"
+    },
+    {
+      "id": 16,
+      "target": "la prensa",
+      "source": "press",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 17,
+      "target": "el medio de comunicación",
+      "source": "media outlet",
+      "gender": "m",
+      "type": "noun phrase"
+    },
+    {
+      "id": 18,
+      "target": "el diario",
+      "source": "newspaper",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 19,
+      "target": "el semanario",
+      "source": "weekly newspaper",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 20,
+      "target": "la revista",
+      "source": "magazine",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 21,
+      "target": "el canal de televisión",
+      "source": "TV channel",
+      "gender": "m",
+      "type": "noun phrase"
+    },
+    {
+      "id": 22,
+      "target": "la radio",
+      "source": "radio",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 23,
+      "target": "el portal de noticias",
+      "source": "news portal",
+      "gender": "m",
+      "type": "noun phrase"
+    },
+    {
+      "id": 24,
+      "target": "la plataforma digital",
+      "source": "digital platform",
+      "gender": "f",
+      "type": "noun phrase"
+    },
+    {
+      "id": 25,
+      "target": "el redactor",
+      "source": "editor",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 26,
+      "target": "el editor",
+      "source": "editor",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 27,
+      "target": "el director",
+      "source": "director",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 28,
+      "target": "el corresponsal",
+      "source": "correspondent",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 29,
+      "target": "el cronista",
+      "source": "chronicler",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 30,
+      "target": "el columnista",
+      "source": "columnist",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 31,
+      "target": "la redacción",
+      "source": "editorial office",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 32,
+      "target": "la titular",
+      "source": "headline",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 33,
+      "target": "la bajada",
+      "source": "subheadline",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 34,
+      "target": "la agencia de noticias",
+      "source": "news agency",
+      "gender": "f",
+      "type": "noun phrase"
+    },
+    {
+      "id": 35,
+      "target": "laAssociated Press",
+      "source": "Associated Press",
+      "gender": "f",
+      "type": "proper noun"
+    },
+    {
+      "id": 36,
+      "target": "la agencia",
+      "source": "agency",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 37,
+      "target": "la desinformación",
+      "source": "disinformation",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 38,
+      "target": "la fake news",
+      "source": "fake news",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 39,
+      "target": "la manipulación informativa",
+      "source": "information manipulation",
+      "gender": "f",
+      "type": "noun phrase"
+    },
+    {
+      "id": 40,
+      "target": "la propaganda",
+      "source": "propaganda",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 41,
+      "target": "la censura",
+      "source": "censorship",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 42,
+      "target": "la libertad de prensa",
+      "source": "press freedom",
+      "gender": "f",
+      "type": "noun phrase"
+    },
+    {
+      "id": 43,
+      "target": "la libertad de expresión",
+      "source": "freedom of expression",
+      "gender": "f",
+      "type": "noun phrase"
+    },
+    {
+      "id": 44,
+      "target": "el derecho a la información",
+      "source": "right to information",
+      "gender": "m",
+      "type": "noun phrase"
+    },
+    {
+      "id": 45,
+      "target": "la verificación de hechos",
+      "source": "fact-checking",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 46,
+      "target": "el contraste de fuentes",
+      "source": "source verification",
+      "gender": "m",
+      "type": "noun phrase"
+    },
+    {
+      "id": 47,
+      "target": "la ética periodística",
+      "source": "journalistic ethics",
+      "gender": "f",
+      "type": "noun phrase"
+    },
+    {
+      "id": 48,
+      "target": "el conflicto de intereses",
+      "source": "conflict of interest",
+      "gender": "m",
+      "type": "noun phrase"
+    },
+    {
+      "id": 49,
+      "target": "el sesgo informativo",
+      "source": "informational bias",
+      "gender": "m",
+      "type": "noun phrase"
+    },
+    {
+      "id": 50,
+      "target": "la objetividad",
+      "source": "objectivity",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 51,
+      "target": "la imparcialidad",
+      "source": "impartiality",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 52,
+      "target": "la parcialidad",
+      "source": "partisanship",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 53,
+      "target": "la difamación",
+      "source": "defamation",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 54,
+      "target": "la calumnia",
+      "source": "slander",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 55,
+      "target": "la injuria",
+      "source": "insult",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 56,
+      "target": "el derecho al honor",
+      "source": "right to honor",
+      "gender": "m",
+      "type": "noun phrase"
+    },
+    {
+      "id": 57,
+      "target": "la privacidad",
+      "source": "privacy",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 58,
+      "target": "la protección de datos",
+      "source": "data protection",
+      "gender": "f",
+      "type": "noun phrase"
+    },
+    {
+      "id": 59,
+      "target": "el discurso de odio",
+      "source": "hate speech",
+      "gender": "m",
+      "type": "noun phrase"
+    },
+    {
+      "id": 60,
+      "target": "la incitación al odio",
+      "source": "incitement to hatred",
+      "gender": "f",
+      "type": "noun phrase"
+    },
+    {
+      "id": 61,
+      "target": "las redes sociales",
+      "source": "social media",
+      "gender": "f",
+      "type": "noun phrase"
+    },
+    {
+      "id": 62,
+      "target": "la viralidad",
+      "source": "viral spread",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 63,
+      "target": "el algoritmo de recomendación",
+      "source": "recommendation algorithm",
+      "gender": "m",
+      "type": "noun phrase"
+    },
+    {
+      "id": 64,
+      "target": "la burbuja de filtros",
+      "source": "filter bubble",
+      "gender": "f",
+      "type": "noun phrase"
+    },
+    {
+      "id": 65,
+      "target": "la cámara de eco",
+      "source": "echo chamber",
+      "gender": "f",
+      "type": "noun phrase"
+    },
+    {
+      "id": 66,
+      "target": "la posverdad",
+      "source": "post-truth",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 67,
+      "target": "el clickbait",
+      "source": "clickbait",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 68,
+      "target": "la monetización de contenido",
+      "source": "content monetization",
+      "gender": "f",
+      "type": "noun phrase"
+    },
+    {
+      "id": 69,
+      "target": "el influencer",
+      "source": "influencer",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 70,
+      "target": "la divulgación",
+      "source": "dissemination",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 71,
+      "target": "el fact-checking",
+      "source": "fact-checking",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 72,
+      "target": "el periodismo de datos",
+      "source": "data journalism",
+      "gender": "m",
+      "type": "noun phrase"
+    },
+    {
+      "id": 73,
+      "target": "el periodismo de datos",
+      "source": "data journalism",
+      "gender": "m",
+      "type": "noun phrase"
+    },
+    {
+      "id": 74,
+      "target": "la visualización de datos",
+      "source": "data visualization",
+      "gender": "f",
+      "type": "noun phrase"
+    },
+    {
+      "id": 75,
+      "target": "el periodismo ciudadano",
+      "source": "citizen journalism",
+      "gender": "m",
+      "type": "noun phrase"
+    },
+    {
+      "id": 76,
+      "target": "el ciudadano periodista",
+      "source": "citizen journalist",
+      "gender": "m",
+      "type": "noun phrase"
+    },
+    {
+      "id": 77,
+      "target": "la transmisión en directo",
+      "source": "live broadcast",
+      "gender": "f",
+      "type": "noun phrase"
+    },
+    {
+      "id": 78,
+      "target": "el streaming",
+      "source": "streaming",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 79,
+      "target": "el podcast",
+      "source": "podcast",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 80,
+      "target": "el boletín informativo",
+      "source": "newsletter",
+      "gender": "m",
+      "type": "noun phrase"
+    },
+    {
+      "id": 81,
+      "target": "el contenido generado por usuarios",
+      "source": "user-generated content",
+      "gender": "m",
+      "type": "noun phrase"
+    },
+    {
+      "id": 82,
+      "target": "la deepfake",
+      "source": "deepfake",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 83,
+      "target": "la manipulación digital",
+      "source": "digital manipulation",
+      "gender": "f",
+      "type": "noun phrase"
+    },
+    {
+      "id": 84,
+      "target": "el ciberperiodismo",
+      "source": "cyberjournalism",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 85,
+      "target": "el derecho de réplica",
+      "source": "right of reply",
+      "gender": "m",
+      "type": "noun phrase"
+    },
+    {
+      "id": 86,
+      "target": "la rectificación",
+      "source": "correction",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 87,
+      "target": "la contra-información",
+      "source": "counter-information",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 88,
+      "target": "el análisis editorial",
+      "source": "editorial analysis",
+      "gender": "m",
+      "type": "noun phrase"
+    },
+    {
+      "id": 89,
+      "target": "el comentario",
+      "source": "commentary",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 90,
+      "target": "la opinión pública",
+      "source": "public opinion",
+      "gender": "f",
+      "type": "noun phrase"
+    },
+    {
+      "id": 91,
+      "target": "la esfera pública",
+      "source": "public sphere",
+      "gender": "f",
+      "type": "noun phrase"
+    },
+    {
+      "id": 92,
+      "target": "la democracia",
+      "source": "democracy",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 93,
+      "target": "el poder judicial",
+      "source": "judicial power",
+      "gender": "m",
+      "type": "noun phrase"
+    },
+    {
+      "id": 94,
+      "target": "el poder ejecutivo",
+      "source": "executive power",
+      "gender": "m",
+      "type": "noun phrase"
+    },
+    {
+      "id": 95,
+      "target": "el poder legislativo",
+      "source": "legislative power",
+      "gender": "m",
+      "type": "noun phrase"
+    },
+    {
+      "id": 96,
+      "target": "la transparencia",
+      "source": "transparency",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 97,
+      "target": "la rendición de cuentas",
+      "source": "accountability",
+      "gender": "f",
+      "type": "noun phrase"
+    },
+    {
+      "id": 98,
+      "target": "la corrupción",
+      "source": "corruption",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 99,
+      "target": "el escándalo",
+      "source": "scandal",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 100,
+      "target": "en el ámbito informativo",
+      "source": "in the media sphere",
+      "gender": "—",
+      "type": "phrase"
+    }
+  ],
+  "grammar": [
+    {
+      "id": 1,
+      "title": "Passive Voice and Se Pasiva in Media Context",
+      "description": "Using passive and se pasiva for formal media reporting.",
+      "examples": [
+        {
+          "sentence": "La noticia fue publicada por el diario más importante del país.",
+          "translation": "The news was published by the country's most important newspaper."
+        },
+        {
+          "sentence": "Se descubrió que los datos eran falsos.",
+          "translation": "It was discovered that the data were false."
+        },
+        {
+          "sentence": "El artículo fue censurado por el gobierno.",
+          "translation": "The article was censored by the government."
+        },
+        {
+          "sentence": "Se ha verificado la información de la fuente oficial.",
+          "translation": "The information from the official source has been verified."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Subjunctive in Media Ethics and Reporting",
+      "description": "Using the subjunctive for reporting uncertain or debated media topics.",
+      "examples": [
+        {
+          "sentence": "Es dudoso que la red social proteja la privacidad de los usuarios.",
+          "translation": "It is doubtful that the social media protects user privacy."
+        },
+        {
+          "sentence": "Los periodistas exigen que se respete la libertad de prensa.",
+          "translation": "Journalists demand that press freedom be respected."
+        },
+        {
+          "sentence": "No es cierto que la noticia sea veraz.",
+          "translation": "It is not true that the news is truthful."
+        },
+        {
+          "sentence": "Es posible que la desinformación afecte las elecciones.",
+          "translation": "It is possible that disinformation will affect the elections."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Connectors for Editorial Analysis",
+      "description": "Advanced connectors for analyzing and critiquing media content.",
+      "examples": [
+        {
+          "sentence": "Si bien la prensa es libre, también es responsable de la veracidad de los hechos.",
+          "translation": "While the press is free, it is also responsible for the truthfulness of facts."
+        },
+        {
+          "sentence": "Por un lado, las redes sociales democratizan la información; por otro, facilitan la desinformación.",
+          "translation": "On one hand, social media democratizes information; on the other, it facilitates disinformation."
+        },
+        {
+          "sentence": "Aunque se ha avanzado en transparencia, la rendición de cuentas sigue siendo insuficiente.",
+          "translation": "Although progress has been made in transparency, accountability remains insufficient."
+        },
+        {
+          "sentence": "Por lo tanto, es necesario fortalecer las instituciones periodísticas.",
+          "translation": "Therefore, it is necessary to strengthen journalistic institutions."
+        }
+      ]
+    }
+  ],
+  "pronunciation": [
+    {
+      "id": 1,
+      "title": "Pronunciation: Media & Journalism Vocabulary",
+      "sections": [
+        {
+          "focus": "The ll sound",
+          "examples": [
+            "el periodista",
+            "la noticia",
+            "la investigación"
+          ]
+        },
+        {
+          "focus": "The rr sound",
+          "examples": [
+            "el reportaje",
+            "el corresponsal",
+            "la redacción"
+          ]
+        },
+        {
+          "focus": "Silent h",
+          "examples": [
+            "histórico",
+            "la investigación",
+            "el hecho"
+          ]
+        },
+        {
+          "focus": "Stress patterns",
+          "examples": [
+            "la no-ti-cia",
+            "el pe-rio-dis-mo",
+            "la de-sin-for-ma-ción",
+            "la li-ber-tad"
+          ]
+        }
+      ],
+      "practice_sentences": [
+        "El periodismo de investigación revela la corrupción.",
+        "La libertad de prensa es fundamental para la democracia.",
+        "La desinformación es un problema grave en la era digital.",
+        "Los periodistas necesitan proteger sus fuentes."
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": 1,
+      "type": "matching",
+      "title": "Match media terms",
+      "instructions": "Match each Spanish term with its correct English translation.",
+      "items": [
+        {
+          "spanish": "el periodismo de investigación",
+          "english": "investigative journalism"
+        },
+        {
+          "spanish": "la libertad de prensa",
+          "english": "press freedom"
+        },
+        {
+          "spanish": "la desinformación",
+          "english": "disinformation"
+        },
+        {
+          "spanish": "la censura",
+          "english": "censorship"
+        },
+        {
+          "spanish": "la fuente anónima",
+          "english": "anonymous source"
+        },
+        {
+          "spanish": "el editorial",
+          "english": "editorial"
+        },
+        {
+          "spanish": "la burbuja de filtros",
+          "english": "filter bubble"
+        },
+        {
+          "spanish": "la posverdad",
+          "english": "post-truth"
+        },
+        {
+          "spanish": "la verificación de hechos",
+          "english": "fact-checking"
+        },
+        {
+          "spanish": "el periodismo ciudadano",
+          "english": "citizen journalism"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "type": "fill-in-blank",
+      "title": "Complete with media vocabulary",
+      "instructions": "Fill in the blanks with the correct media term.",
+      "items": [
+        {
+          "sentence": "La _____ es la publicación falsa que se difunde como información real.",
+          "answer": "desinformación",
+          "hints": [
+            "one word",
+            "starts with d"
+          ]
+        },
+        {
+          "sentence": "La _____ protege el derecho de los medios a publicar sin interferencia.",
+          "answer": "libertad de prensa",
+          "hints": [
+            "three words",
+            "starts with l"
+          ]
+        },
+        {
+          "sentence": "La _____ es el control gubernamental sobre los medios de comunicación.",
+          "answer": "censura",
+          "hints": [
+            "one word",
+            "starts with c"
+          ]
+        },
+        {
+          "sentence": "El _____ es un artículo de opinión en un periódico.",
+          "answer": "editorial",
+          "hints": [
+            "one word",
+            "starts with e"
+          ]
+        },
+        {
+          "sentence": "La _____ ocurre cuando los algoritmos muestran solo contenido que confirma nuestras creencias.",
+          "answer": "burbuja de filtros",
+          "hints": [
+            "three words",
+            "starts with b"
+          ]
+        },
+        {
+          "sentence": "La _____ es el concepto donde las emociones importan más que los hechos.",
+          "answer": "posverdad",
+          "hints": [
+            "one word",
+            "starts with p"
+          ]
+        },
+        {
+          "sentence": "El _____ es el proceso de verificar la veracidad de una noticia.",
+          "answer": "fact-checking",
+          "hints": [
+            "one word",
+            "starts with f"
+          ]
+        },
+        {
+          "sentence": "La _____ es cuando un gobierno prohíbe publicar cierta información.",
+          "answer": "censura",
+          "hints": [
+            "one word",
+            "starts with c"
+          ]
+        },
+        {
+          "sentence": "El _____ es un ciudadano que reporta noticias sin ser periodista profesional.",
+          "answer": "periodismo ciudadano",
+          "hints": [
+            "three words",
+            "starts with p"
+          ]
+        },
+        {
+          "sentence": "La _____ es la ética que guía a los periodistas en su trabajo.",
+          "answer": "ética periodística",
+          "hints": [
+            "three words",
+            "starts with e"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "type": "translation",
+      "title": "Translate to Spanish",
+      "instructions": "Translate to Spanish.",
+      "items": [
+        {
+          "english": "Press freedom is essential for democracy.",
+          "answer": "La libertad de prensa es esencial para la democracia."
+        },
+        {
+          "english": "The journalist used an anonymous source.",
+          "answer": "El periodista usó una fuente anónima."
+        },
+        {
+          "english": "Fact-checking is crucial in the digital age.",
+          "answer": "La verificación de hechos es crucial en la era digital."
+        },
+        {
+          "english": "Disinformation spreads rapidly on social media.",
+          "answer": "La desinformación se difunde rápidamente en las redes sociales."
+        },
+        {
+          "english": "The editorial criticized the government's policy.",
+          "answer": "El editorial criticó la política del gobierno."
+        },
+        {
+          "english": "Citizen journalism has changed how news is produced.",
+          "answer": "El periodismo ciudadano ha cambiado la forma en que se producen las noticias."
+        },
+        {
+          "english": "Censorship violates the right to information.",
+          "answer": "La censura viola el derecho a la información."
+        },
+        {
+          "english": "The filter bubble limits exposure to diverse viewpoints.",
+          "answer": "La burbuja de filtros limita la exposición a puntos de vista diversos."
+        },
+        {
+          "english": "Journalistic ethics require objectivity and impartiality.",
+          "answer": "La ética periodística requiere objetividad e imparcialidad."
+        },
+        {
+          "english": "The investigation revealed widespread corruption.",
+          "answer": "La investigación reveló corrupción generalizada."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "type": "fill-in-blank",
+      "title": "Passive voice in journalism",
+      "instructions": "Convert to passive or se pasiva.",
+      "items": [
+        {
+          "stem": "El diario publicó la noticia ayer.",
+          "answer": "La noticia fue publicada por el diario ayer."
+        },
+        {
+          "stem": "Los periodistas encontraron la información.",
+          "answer": "La información fue encontrada por los periodistas."
+        },
+        {
+          "stem": "Alguien filtró el documento.",
+          "answer": "Se filtró el documento."
+        },
+        {
+          "stem": "El gobierno censuró el artículo.",
+          "answer": "El artículo fue censurado por el gobierno."
+        },
+        {
+          "stem": "Alguien ha publicado las fotos.",
+          "answer": "Se han publicado las fotos."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "type": "exercise",
+      "title": "Subjunctive for media ethics",
+      "instructions": "Complete with correct subjunctive.",
+      "items": [
+        {
+          "stem": "Es necesario que los periodistas (verificar) las fuentes.",
+          "answer": "verifiquen"
+        },
+        {
+          "stem": "No creo que la red social (proteger) los datos.",
+          "answer": "proteja"
+        },
+        {
+          "stem": "Es importante que el gobierno (respetar) la libertad de prensa.",
+          "answer": "respete"
+        },
+        {
+          "stem": "Dudo que la noticia (ser) veraz.",
+          "answer": "sea"
+        },
+        {
+          "stem": "Es probable que la censura (aumentar) en el próximo año.",
+          "answer": "aumente"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "type": "exercise",
+      "title": "Media ethics scenarios",
+      "instructions": "Read and decide: is this ethical journalism?",
+      "items": [
+        {
+          "scenario": "Un periodista publica información sin verificarla para ser el primero en difundirla.",
+          "ethical": "no",
+          "reason": "Violates fact-checking principle"
+        },
+        {
+          "scenario": "Un periodista protege la identidad de su fuente confidencial.",
+          "ethical": "si",
+          "reason": "Respects source protection"
+        },
+        {
+          "scenario": "Un medio publica la identidad de una víctima de crimen sin consentimiento.",
+          "ethical": "no",
+          "reason": "Violates privacy rights"
+        },
+        {
+          "scenario": "Un periodista revela un conflicto de intereses antes de publicar.",
+          "ethical": "si",
+          "reason": "Promotes transparency"
+        },
+        {
+          "scenario": "Un medio usa una imagen manipulado digitalmente sin advertencia.",
+          "ethical": "no",
+          "reason": "Violates truthfulness principle"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "type": "fill-in-blank",
+      "title": "Media in context",
+      "instructions": "Read and fill in.",
+      "items": [
+        {
+          "text": "La _____ es un problema creciente en las democracias modernas. La _____ de los algoritmos de redes sociales crea _____ donde los usuarios solo ven contenido que confirma sus creencias. Para combatir esto, es necesario fortalecer el _____ y promover la _____ como herramienta fundamental.",
+          "word_bank": [
+            "desinformación",
+            "manipulación",
+            "burbujas de filtros",
+            "periodismo de datos",
+            "verificación de hechos"
+          ]
+        },
+        {
+          "text": "El _____ es fundamental para una sociedad democrática. Sin embargo, la _____ puede amenazar este derecho cuando los gobiernos controlan los medios. Por eso, la _____ es un derecho humano protegido por organizaciones internacionales.",
+          "word_bank": [
+            "libertad de prensa",
+            "censura",
+            "libertad de expresión"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "type": "exercise",
+      "title": "Reading comprehension: Digital Media",
+      "instructions": "Read and answer.",
+      "items": [
+        {
+          "text": "La era digital ha transformado radicalmente el periodismo. Las redes sociales se han convertido en una fuente primaria de noticias para millones de personas. Sin embargo, esta democratización de la información tiene un lado oscuro: la desinformación se propaga más rápido que los hechos verificables. Las burbujas de filtros y las cámaras de eco refuerzan las creencias existentes, mientras que la posverdad hace que las emociones prevalezcan sobre la realidad. En este contexto, el periodismo de datos y la verificación de hechos son herramientas esenciales para contrarrestar la manipulación informativa.",
+          "questions": [
+            {
+              "question": "¿Cómo han cambiado las redes sociales el periodismo?",
+              "answer": "Se han convertido en una fuente primaria de noticias."
+            },
+            {
+              "question": "¿Qué problema genera la democratización de la información?",
+              "answer": "La desinformación se propaga más rápido que los hechos."
+            },
+            {
+              "question": "¿Qué son las burbujas de filtros?",
+              "answer": "Algoritmos que muestran solo contenido que confirma las creencias del usuario."
+            },
+            {
+              "question": "¿Qué herramientas contrarrestan la manipulación?",
+              "answer": "Periodismo de datos y verificación de hechos."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "type": "exercise",
+      "title": "Prepositions with media",
+      "instructions": "Complete with correct preposition.",
+      "items": [
+        {
+          "stem": "El periodista trabaja _____ un diario nacional.",
+          "answer": "en"
+        },
+        {
+          "stem": "La noticia fue publicada _____ la agencia de noticias.",
+          "answer": "por"
+        },
+        {
+          "stem": "El editorial fue escrito _____ el director del periódico.",
+          "answer": "por"
+        },
+        {
+          "stem": "La libertad de prensa es importante _____ la democracia.",
+          "answer": "para"
+        },
+        {
+          "stem": "El periodista confió _____ la fuente anónima.",
+          "answer": "en"
+        }
+      ]
+    }
+  ]
+}

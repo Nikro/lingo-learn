@@ -14,15 +14,16 @@ function app() {
     // Global UI state
     loading: true,           // Overall loading indicator (true during init & data fetch)
     sidebarOpen: false,      // Whether the sidebar is expanded (mobile)
+    isMobile: window.innerWidth < 1024,  // Reactive viewport check
     settingsOpen: false,     // Whether the settings modal is visible
     dataError: false,        // True when stage data fails to load
     registry: [],            // Locale registry (levels, stages, pillar ordering)
     aidLanguages: [],        // Available aid language options from the registry
     appLevels: [
-      { id: 'A1', name: 'A1 — Beginner', stages: [{ id: 'a1-1', name: 'A1.1 — Greetings', sections: ['Greetings', 'Numbers', 'Colors', 'Family'] }, { id: 'a1-2', name: 'A1.2 — Daily Life', sections: ['Daily Routines', 'Time & Days', 'Weather'] }] },
-      { id: 'A2', name: 'A2 — Elementary', stages: [{ id: 'a2-1', name: 'A2.1 — Shopping & Food', sections: ['Shopping', 'Food & Drink'] }, { id: 'a2-2', name: 'A2.2 — Travel & Health', sections: ['Travel', 'Health'] }] },
-      { id: 'B1', name: 'B1 — Intermediate', stages: [{ id: 'b1-1', name: 'B1 — Work & Opinions', sections: ['Work', 'Opinions'] }] },
-      { id: 'B2', name: 'B2 — Upper Intermediate', stages: [{ id: 'b2-1', name: 'B2 — Society & Abstract', sections: ['Society', 'Abstract'] }] }
+      { id: 'A1', name: 'A1 — Beginner', stages: [{ id: 'a1-1', name: 'A1.1 — Greetings & Intros' }, { id: 'a1-2', name: 'A1.2 — Past Tenses & Daily Life' }] },
+      { id: 'A2', name: 'A2 — Elementary', stages: [{ id: 'a2-1', name: 'A2.1 — Imperfect & Subjunctive' }, { id: 'a2-2', name: 'A2.2 — Future & Conditional' }] },
+      { id: 'B1', name: 'B1 — Intermediate', stages: [{ id: 'b1-1', name: 'B1.1 — Subjunctive & Passives' }, { id: 'b1-2', name: 'B1.2' }] },
+      { id: 'B2', name: 'B2 — Upper Intermediate', stages: [{ id: 'b2-1', name: 'B2.1 — Hypotheticals & Professional' }, { id: 'b2-2', name: 'B2.2 — Abstract & Argumentation' }, { id: 'b2-3', name: 'B2.3 — Academic Writing' }] }
     ],
 
     // ═══════════════════════════════════════════
@@ -45,9 +46,12 @@ function app() {
     currentTheme: null,         // Active theme within the current stage
     themeData: null,            // Full theme data object (vocab, grammar, exercises)
     themeView: null,            // null | 'themes' | 'theme-detail' — controls theme navigation view
+    themeTitle: null,           // Display title for the current theme (from JSON data)
     levelData: [],             // Data for the current level (not currently used)
 
     expandedLevel: null,       // Currently expanded CEFR level in sidebar (null = all collapsed)
+    expandedStage: null,       // Currently expanded stage ID in sidebar (e.g., 'a1-1' — shows themes)
+    sidebarThemes: {},         // stageId -> theme manifest array (loaded on expand)
     theme: 'dark',             // Active DaisyUI theme name
     aidLanguage: 'none',       // Aid language setting: none | english | spanish | bilingual
     xp: 0,                     // Total experience points earned (persisted to localStorage)
@@ -199,6 +203,9 @@ function app() {
       // Listen for hash changes
       window.addEventListener('hashchange', function() { this.parseRoute() }.bind(this));
 
+      // Listen for resize to update mobile/desktop state
+      window.addEventListener('resize', function() { this.isMobile = window.innerWidth < 1024; }.bind(this));
+
       // Record daily activity
       Storage.recordActivity();
 
@@ -334,6 +341,7 @@ function app() {
           // No themes found or manifest invalid — fall through to pillar view
         }
         this.renderPillar();
+        this.loading = false;
       } catch (e) {
         console.error('Failed to load stage data:', e);
         this.stageData = {
@@ -359,6 +367,64 @@ function app() {
       this.expandedLevel = this.expandedLevel === levelId ? null : levelId;
     },
 
+    // Toggle expansion of a stage within a level (shows themes)
+    toggleStage(stageId) {
+      if (this.expandedStage === stageId) {
+        this.expandedStage = null;
+        delete this.sidebarThemes[stageId];
+      } else {
+        this.expandedStage = stageId;
+        // Load themes for this stage if not already loaded
+        if (!this.sidebarThemes[stageId]) {
+          this.loadStageThemes(stageId);
+        }
+      }
+    },
+
+    // Load theme manifest for a stage (for sidebar display)
+    async loadStageThemes(stageId) {
+      try {
+        var themesDir = 'data/' + this.currentLocale + '/' + stageId + '/themes/';
+        var response = await fetch(themesDir + stageId + '.json');
+        if (response.ok) {
+          var manifest = await response.json();
+          if (manifest && manifest.themes) {
+            this.sidebarThemes[stageId] = manifest.themes;
+            return;
+          }
+        }
+        // No themes — clear the key so we know
+        this.sidebarThemes[stageId] = null;
+      } catch(e) {
+        this.sidebarThemes[stageId] = null;
+      }
+    },
+
+    // Navigate to a theme directly from sidebar
+    async loadThemeDirectly(stageId, themeId) {
+      this.expandedStage = null;
+      this.currentLevel = this.getCurrentLevelForStage(stageId);
+      this.currentStage = stageId;
+      this.themeView = 'theme-detail';
+      this.currentTheme = themeId;
+      this.themeData = null;
+      this.themeTitle = null;
+      this.loading = true;
+      this.dataError = false;
+      window.location.hash = '/' + this.currentLocale + '/' + this.currentLevel + '/' + this.currentStage + '/theme/' + themeId;
+      await this.loadTheme(themeId);
+    },
+
+    // Helper: find which level a stage belongs to
+    getCurrentLevelForStage(stageId) {
+      for (var i = 0; i < this.appLevels.length; i++) {
+        for (var j = 0; j < this.appLevels[i].stages.length; j++) {
+          if (this.appLevels[i].stages[j].id === stageId) return this.appLevels[i].id;
+        }
+      }
+      return null;
+    },
+
     // Navigate to a specific level/stage/pillar:
     // update state, set hash URL, close sidebar, load stage data
     navigateTo(levelId, stageId, pillar) {
@@ -374,6 +440,7 @@ function app() {
     },
 
     // Parse URL hash into route parameters (locale, level, stage, pillar).
+    // Also handles theme routes: /{locale}/{level}/{stage}/theme/{themeId}
     // Validates each level against the loaded registry; invalid entries reset to welcome.
     parseRoute() {
       var hash = window.location.hash.slice(1) || '/' + this.currentLocale;
@@ -382,6 +449,21 @@ function app() {
       if (parts.length >= 1) this.currentLocale = parts[0] || this.currentLocale;
       if (parts.length >= 2) this.currentLevel = parts[1];
       if (parts.length >= 3) this.currentStage = parts[2];
+
+      // Theme route: /{locale}/{level}/{stage}/theme/{themeId}
+      if (parts.length >= 5 && parts[3] === 'theme') {
+        this.currentTheme = parts[4];
+        this.themeView = 'theme-detail';
+        this.themeData = null;
+        this.themeTitle = null;
+        if (this.currentLevel && this.currentStage) {
+          this.loading = true;
+          this.dataError = false;
+          this.loadTheme(this.currentTheme);
+        }
+        return;
+      }
+
       if (parts.length >= 4) this.currentPillar = parts[3];
 
       // Validate level against known app levels
@@ -466,18 +548,111 @@ function app() {
       this.themeView = 'themes';
       this.currentTheme = null;
       this.themeData = null;
+      this.themeTitle = null;
+      this.expandedStage = null;
+      this.sidebarThemes = {};
     },
     
-    // Load a specific theme's data and show its content
+    // Load a specific theme's data (handles both single-file and chunked/partitioned JSON)
     async loadTheme(themeId) {
       this.loading = true;
+      this.dataError = false;
       this.themeView = 'theme-detail';
       this.currentTheme = themeId;
       try {
-        var response = await fetch('data/' + this.currentLocale + '/' + this.currentStage + '/themes/' + themeId + '.json');
+        var baseDir = 'data/' + this.currentLocale + '/' + this.currentStage + '/themes/';
+        // Check if chunked/partitioned files exist (e.g., themeId-part-1.json, themeId-part-2.json)
+        var chunked = false;
+        var partNum = 1;
+        while (true) {
+          var chunkUrl = baseDir + themeId + '-part-' + partNum + '.json';
+          var chunkResponse = await fetch(chunkUrl);
+          if (!chunkResponse.ok) {
+            // No more chunks found
+            break;
+          }
+          if (!chunked) {
+            this.themeData = await chunkResponse.json();
+            // Normalize vocabulary: if dict-based (categories), flatten into array
+            if (typeof this.themeData.vocabulary === 'object' && !Array.isArray(this.themeData.vocabulary)) {
+              var flatVocab = [];
+              var nextId = 1;
+              for (var cat in this.themeData.vocabulary) {
+                if (Array.isArray(this.themeData.vocabulary[cat])) {
+                  this.themeData.vocabulary[cat].forEach(function(item) {
+                    item.id = item.id || nextId++;
+                    item.target = item.target || item.word || '';
+                    item.source = item.source || item.english || '';
+                    item.gender = item.gender || '—';
+                    item.type = item.type || cat;
+                    flatVocab.push(item);
+                  });
+                }
+              }
+              this.themeData.vocabulary = flatVocab;
+              // Also set the theme title from JSON if not set
+              if (this.themeData.title && typeof this.themeData.title === 'string') {
+                this.themeTitle = this.themeData.title;
+              }
+            }
+            chunked = true;
+            partNum++;
+            continue;
+          }
+          var chunkData = await chunkResponse.json();
+          // Handle dict-based vocabulary (e.g., b2-1 themes with nouns/verbs categories)
+          var chunkVocab = chunkData.vocabulary;
+          if (Array.isArray(chunkVocab)) {
+            this.themeData.vocabulary.push(...chunkVocab);
+          } else if (typeof chunkVocab === 'object') {
+            // Merge category arrays into flat vocabulary array, adding IDs
+            var vocab = this.themeData.vocabulary;
+            var nextId = vocab.length + 1;
+            for (var cat in chunkVocab) {
+              if (Array.isArray(chunkVocab[cat])) {
+                chunkVocab[cat].forEach(function(item) {
+                  item.id = item.id || nextId++;
+                  item.target = item.target || item.word || '';
+                  item.source = item.source || item.english || '';
+                  item.gender = item.gender || '—';
+                  item.type = item.type || cat;
+                  vocab.push(item);
+                }.bind(this));
+              }
+            }
+          }
+          // Handle dict-based grammar/pronunciation/exercises
+          var chunkGrammar = chunkData.grammar;
+          if (Array.isArray(chunkGrammar)) {
+            this.themeData.grammar.push(...chunkGrammar);
+          }
+          var chunkExercises = chunkData.exercises;
+          if (Array.isArray(chunkExercises)) {
+            this.themeData.exercises.push(...chunkExercises);
+          }
+          var chunkPron = chunkData.pronunciation;
+          if (Array.isArray(chunkPron)) {
+            this.themeData.pronunciation.push(...chunkPron);
+          }
+          partNum++;
+        }
+        if (chunked) {
+          // Remove chunking metadata
+          delete this.themeData.part;
+          this.currentPillar = 'vocabulary';
+          this.renderThemePillar();
+          this.loading = false;
+          return;
+        }
+        // Fallback: single-file format for backward compatibility
+        var response = await fetch(baseDir + themeId + '.json');
         if (!response.ok) throw new Error('HTTP ' + response.status);
         this.themeData = await response.json();
-        this.currentPillar = 'vocabulary'; // Default to vocabulary pillar for theme detail
+        // Set theme title from JSON if available
+        if (this.themeData.title && typeof this.themeData.title === 'string') {
+          this.themeTitle = this.themeData.title;
+        }
+        this.currentPillar = 'vocabulary';
         this.renderThemePillar();
       } catch (e) {
         console.error('Failed to load theme data:', e);
@@ -493,7 +668,10 @@ function app() {
       this.themeView = 'themes';
       this.currentTheme = null;
       this.themeData = null;
+      this.themeTitle = null;
       this.currentPillar = 'grammar';
+      this.expandedStage = null;
+      this.sidebarThemes = {};
     },
     
     // Exit theme navigation entirely and return to stage pillars
@@ -501,6 +679,9 @@ function app() {
       this.themeView = null;
       this.currentTheme = null;
       this.themeData = null;
+      this.themeTitle = null;
+      this.expandedStage = null;
+      this.sidebarThemes = {};
       this.renderPillar();
     },
     

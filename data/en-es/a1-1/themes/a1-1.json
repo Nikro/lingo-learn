@@ -1,0 +1,189 @@
+{
+  "stage_id": "a1-1",
+  "title": "A1.1 \u2014 Greetings & Introductions",
+  "description": "Master the fundamentals: greetings, numbers, colors, family vocabulary, and basic introductions.",
+  "themes": [
+    {
+      "id": "animals-nature",
+      "title": "Animals & Nature",
+      "description": "Vocabulary and grammar for talking about animals, nature elements, outdoor spaces, and basic nature-related expressions.",
+      "estimated_hours": 5,
+      "sections": [
+        "Vocabulary",
+        "Grammar",
+        "Exercises",
+        "Pronunciation",
+        "Dialogues",
+        "Cultural Notes"
+      ]
+    },
+    {
+      "id": "city-exploring",
+      "title": "City & Directions",
+      "description": "Navigate any Spanish-speaking city: ask for and give directions, describe places, talk about neighborhoods, and understand maps and signage.",
+      "estimated_hours": 5,
+      "sections": [
+        "Vocabulary",
+        "Grammar",
+        "Exercises",
+        "Pronunciation"
+      ]
+    },
+    {
+      "id": "city-places",
+      "title": "City & Places",
+      "description": "Learn to talk about your city, describe places and landmarks, ask for and understand directions, and discuss transportation in Spanish.",
+      "estimated_hours": 5,
+      "sections": [
+        "Vocabulary",
+        "Grammar",
+        "Exercises",
+        "Pronunciation"
+      ]
+    },
+    {
+      "id": "clothing-appearance",
+      "title": "Clothing & Appearance",
+      "description": "Learn to describe what people are wearing, talk about physical appearance, express size and age, and identify clothing items and accessories in Spanish.",
+      "estimated_hours": 5,
+      "sections": [
+        "Vocabulary",
+        "Grammar",
+        "Exercises",
+        "Pronunciation"
+      ]
+    },
+    {
+      "id": "coffee-shop-ordering",
+      "title": "Coffee Shop & Ordering",
+      "description": "Order food and drinks confidently, ask for the bill, understand menus, handle payments, and navigate restaurants, caf\u00e9s, bars, and bakeries.",
+      "estimated_hours": 5,
+      "sections": [
+        "Vocabulary",
+        "Grammar",
+        "Exercises",
+        "Pronunciation"
+      ]
+    },
+    {
+      "id": "daily-routines",
+      "title": "Daily Routines",
+      "description": "Master reflexive verbs to describe your daily schedule, learn time-telling expressions, and talk about habits and routines using frequency adverbs and sequence words.",
+      "estimated_hours": 5,
+      "sections": [
+        "Vocabulary",
+        "Grammar",
+        "Exercises",
+        "Pronunciation"
+      ]
+    },
+    {
+      "id": "family-people",
+      "title": "Family & People",
+      "description": "Learn to describe your family tree, introduce family members, talk about relationships, and use possessive adjectives to describe people and things that belong to you.",
+      "estimated_hours": 5,
+      "sections": [
+        "Vocabulary",
+        "Grammar",
+        "Exercises",
+        "Pronunciation"
+      ]
+    },
+    {
+      "id": "food-drink",
+      "title": "Food & Drink",
+      "description": "Master food vocabulary, learn to order at restaurants, describe tastes, and talk about meals and preferences.",
+      "estimated_hours": 5,
+      "sections": [
+        "Vocabulary",
+        "Grammar",
+        "Exercises",
+        "Pronunciation"
+      ]
+    },
+    {
+      "id": "greetings-introductions",
+      "title": "Greetings & Introductions",
+      "description": "Master the essentials of greeting people, introducing yourself, and handling basic social interactions in Spanish. Learn formal and informal expressions, time-based greetings, and how to ask about someone's well-being.",
+      "estimated_hours": 5,
+      "sections": [
+        "Vocabulary",
+        "Grammar",
+        "Exercises",
+        "Pronunciation"
+      ]
+    },
+    {
+      "id": "home-house",
+      "title": "Home & House",
+      "description": "Learn to describe your home, talk about rooms and furniture, use prepositions of place to describe where things are, and understand your living space in Spanish.",
+      "estimated_hours": 5,
+      "sections": [
+        "Vocabulary",
+        "Grammar",
+        "Exercises",
+        "Pronunciation"
+      ]
+    },
+    {
+      "id": "numbers-colors",
+      "title": "Numbers & Colors",
+      "description": "Master counting from 0 to 100, learn all colors, describe quantities, sizes, and use numbers in everyday situations like prices, ages, and phone numbers.",
+      "estimated_hours": 5,
+      "sections": [
+        "Vocabulary",
+        "Grammar",
+        "Exercises",
+        "Pronunciation"
+      ]
+    },
+    {
+      "id": "tourist-essentials",
+      "title": "Tourist Essentials",
+      "description": "Handle all tourist situations: booking hotels, asking for help, emergencies, shopping, and navigating cultural differences in Spanish-speaking countries.",
+      "estimated_hours": 5,
+      "sections": [
+        "Vocabulary",
+        "Grammar",
+        "Exercises",
+        "Pronunciation"
+      ]
+    },
+    {
+      "id": "weather-nature",
+      "title": "Weather & Nature",
+      "description": "Talk about weather conditions, seasons, natural phenomena, and describe landscapes, climates, and outdoor activities.",
+      "estimated_hours": 5,
+      "sections": [
+        "Vocabulary",
+        "Grammar",
+        "Exercises",
+        "Pronunciation"
+      ]
+    },
+    {
+      "id": "weather-seasons",
+      "title": "Weather & Seasons",
+      "description": "Learn to talk about the weather, describe seasons, express temperature, and understand weather forecasts in Spanish.",
+      "estimated_hours": 5,
+      "sections": [
+        "Vocabulary",
+        "Grammar",
+        "Exercises",
+        "Pronunciation"
+      ]
+    },
+    {
+      "id": "work-introductions",
+      "title": "Work & Introductions",
+      "description": "Talk about your profession, workplace, schedule, and career. Master job-related vocabulary, professional greetings, and workplace communication.",
+      "estimated_hours": 5,
+      "sections": [
+        "Vocabulary",
+        "Grammar",
+        "Exercises",
+        "Pronunciation"
+      ]
+    }
+  ]
+}

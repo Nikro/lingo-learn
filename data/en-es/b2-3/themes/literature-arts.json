@@ -1,0 +1,1176 @@
+{
+  "id": "literature-arts",
+  "level": "b2-3",
+  "title": "Advanced Literature & Arts",
+  "description": "Vocabulary, grammar, pronunciation, and exercises about advanced literary criticism, contemporary art movements, multimedia analysis, and artistic theory.",
+  "vocabulary": [
+    {
+      "id": 1,
+      "target": "la crítica literaria",
+      "source": "literary criticism",
+      "gender": "f",
+      "type": "noun phrase"
+    },
+    {
+      "id": 2,
+      "target": "el análisis literario",
+      "source": "literary analysis",
+      "gender": "m",
+      "type": "noun phrase"
+    },
+    {
+      "id": 3,
+      "target": "el movimiento artístico",
+      "source": "art movement",
+      "gender": "m",
+      "type": "noun phrase"
+    },
+    {
+      "id": 4,
+      "target": "la vanguardia",
+      "source": "avant-garde",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 5,
+      "target": "el modernismo",
+      "source": "modernism",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 6,
+      "target": "el postmodernismo",
+      "source": "postmodernism",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 7,
+      "target": "el realismo mágico",
+      "source": "magical realism",
+      "gender": "m",
+      "type": "noun phrase"
+    },
+    {
+      "id": 8,
+      "target": "el surrealismo",
+      "source": "surrealism",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 9,
+      "target": "el expresionismo",
+      "source": "expressionism",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 10,
+      "target": "el cubismo",
+      "source": "cubism",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 11,
+      "target": "el impresionismo",
+      "source": "impressionism",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 12,
+      "target": "el romanticismo",
+      "source": "romanticism",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 13,
+      "target": "el naturalismo",
+      "source": "naturalism",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 14,
+      "target": "el realismo",
+      "source": "realism",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 15,
+      "target": "el simbolismo",
+      "source": "symbolism",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 16,
+      "target": "la literatura latinoamericana",
+      "source": "Latin American literature",
+      "gender": "f",
+      "type": "noun phrase"
+    },
+    {
+      "id": 17,
+      "target": "la narrativa",
+      "source": "narrative",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 18,
+      "target": "el narrador",
+      "source": "narrator",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 19,
+      "target": "el narrador omnisciente",
+      "source": "omniscient narrator",
+      "gender": "m",
+      "type": "noun phrase"
+    },
+    {
+      "id": 20,
+      "target": "el narrador testigo",
+      "source": "witness narrator",
+      "gender": "m",
+      "type": "noun phrase"
+    },
+    {
+      "id": 21,
+      "target": "el narrador protagonista",
+      "source": "protagonist narrator",
+      "gender": "m",
+      "type": "noun phrase"
+    },
+    {
+      "id": 22,
+      "target": "el narrador en primera persona",
+      "source": "first-person narrator",
+      "gender": "m",
+      "type": "noun phrase"
+    },
+    {
+      "id": 23,
+      "target": "el narrador en tercera persona",
+      "source": "third-person narrator",
+      "gender": "m",
+      "type": "noun phrase"
+    },
+    {
+      "id": 24,
+      "target": "la trama",
+      "source": "plot",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 25,
+      "target": "la intriga",
+      "source": "intrigue",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 26,
+      "target": "el conflicto",
+      "source": "conflict",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 27,
+      "target": "el clímax",
+      "source": "climax",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 28,
+      "target": "el desenlace",
+      "source": "resolution",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 29,
+      "target": "el personaje",
+      "source": "character",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 30,
+      "target": "el protagonista",
+      "source": "protagonist",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 31,
+      "target": "el antagonista",
+      "source": "antagonist",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 32,
+      "target": "el personaje secundario",
+      "source": "secondary character",
+      "gender": "m",
+      "type": "noun phrase"
+    },
+    {
+      "id": 33,
+      "target": "el arquetipo",
+      "source": "archetype",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 34,
+      "target": "el símbolo",
+      "source": "symbol",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 35,
+      "target": "la metáfora",
+      "source": "metaphor",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 36,
+      "target": "la alegoría",
+      "source": "allegory",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 37,
+      "target": "la ironía",
+      "source": "irony",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 38,
+      "target": "el sarcasmo",
+      "source": "sarcasm",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 39,
+      "target": "el tono",
+      "source": "tone",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 40,
+      "target": "el estilo literario",
+      "source": "literary style",
+      "gender": "m",
+      "type": "noun phrase"
+    },
+    {
+      "id": 41,
+      "target": "la prosa",
+      "source": "prose",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 42,
+      "target": "el verso",
+      "source": "verse",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 43,
+      "target": "la estrofa",
+      "source": "stanza",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 44,
+      "target": "el soneto",
+      "source": "sonnet",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 45,
+      "target": "la oda",
+      "source": "ode",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 46,
+      "target": "el romance",
+      "source": "ballad",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 47,
+      "target": "la epopeya",
+      "source": "epic",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 48,
+      "target": "el ensayo",
+      "source": "essay",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 49,
+      "target": "la biografía",
+      "source": "biography",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 50,
+      "target": "la autobiografía",
+      "source": "autobiography",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 51,
+      "target": "la novela corta",
+      "source": "novella",
+      "gender": "f",
+      "type": "noun phrase"
+    },
+    {
+      "id": 52,
+      "target": "el cuento",
+      "source": "short story",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 53,
+      "target": "la fábula",
+      "source": "fable",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 54,
+      "target": "la leyenda",
+      "source": "legend",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 55,
+      "target": "el mito",
+      "source": "myth",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 56,
+      "target": "la obra dramática",
+      "source": "dramatic work",
+      "gender": "f",
+      "type": "noun phrase"
+    },
+    {
+      "id": 57,
+      "target": "el monólogo",
+      "source": "monologue",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 58,
+      "target": "el diálogo",
+      "source": "dialogue",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 59,
+      "target": "el soliloquio",
+      "source": "soliloquy",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 60,
+      "target": "la escena",
+      "source": "scene",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 61,
+      "target": "el acto",
+      "source": "act",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 62,
+      "target": "el marco narrativo",
+      "source": "narrative frame",
+      "gender": "m",
+      "type": "noun phrase"
+    },
+    {
+      "id": 63,
+      "target": "el flashback",
+      "source": "flashback",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 64,
+      "target": "el monólogo interior",
+      "source": "stream of consciousness",
+      "gender": "m",
+      "type": "noun phrase"
+    },
+    {
+      "id": 65,
+      "target": "el interior monólogo",
+      "source": "interior monologue",
+      "gender": "m",
+      "type": "noun phrase"
+    },
+    {
+      "id": 66,
+      "target": "elipsis narrativa",
+      "source": "narrative ellipsis",
+      "gender": "f",
+      "type": "noun phrase"
+    },
+    {
+      "id": 67,
+      "target": "la alusión",
+      "source": "allusion",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 68,
+      "target": "la intertextualidad",
+      "source": "intertextuality",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 69,
+      "target": "la posmodernidad",
+      "source": "postmodernity",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 70,
+      "target": "la deconstrucción",
+      "source": "deconstruction",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 71,
+      "target": "la hermeneutica",
+      "source": "hermeneutics",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 72,
+      "target": "la estética",
+      "source": "aesthetics",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 73,
+      "target": "la belleza",
+      "source": "beauty",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 74,
+      "target": "el arte abstracto",
+      "source": "abstract art",
+      "gender": "m",
+      "type": "noun phrase"
+    },
+    {
+      "id": 75,
+      "target": "el arte figurativo",
+      "source": "figurative art",
+      "gender": "m",
+      "type": "noun phrase"
+    },
+    {
+      "id": 76,
+      "target": "el arte conceptual",
+      "source": "conceptual art",
+      "gender": "m",
+      "type": "noun phrase"
+    },
+    {
+      "id": 77,
+      "target": "el arte performático",
+      "source": "performance art",
+      "gender": "m",
+      "type": "noun phrase"
+    },
+    {
+      "id": 78,
+      "target": "el arte multimedia",
+      "source": "multimedia art",
+      "gender": "m",
+      "type": "noun phrase"
+    },
+    {
+      "id": 79,
+      "target": "el videoarte",
+      "source": "video art",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 80,
+      "target": "la instalación artística",
+      "source": "art installation",
+      "gender": "f",
+      "type": "noun phrase"
+    },
+    {
+      "id": 81,
+      "target": "la performance",
+      "source": "performance",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 82,
+      "target": "el grafiti urbano",
+      "source": "urban graffiti",
+      "gender": "m",
+      "type": "noun phrase"
+    },
+    {
+      "id": 83,
+      "target": "la street art",
+      "source": "street art",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 84,
+      "target": "la fotografía artística",
+      "source": "art photography",
+      "gender": "f",
+      "type": "noun phrase"
+    },
+    {
+      "id": 85,
+      "target": "la escultura contemporánea",
+      "source": "contemporary sculpture",
+      "gender": "f",
+      "type": "noun phrase"
+    },
+    {
+      "id": 86,
+      "target": "la pintura abstracta",
+      "source": "abstract painting",
+      "gender": "f",
+      "type": "noun phrase"
+    },
+    {
+      "id": 87,
+      "target": "el pop art",
+      "source": "pop art",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 88,
+      "target": "el arte digital",
+      "source": "digital art",
+      "gender": "m",
+      "type": "noun phrase"
+    },
+    {
+      "id": 89,
+      "target": "la inteligencia artificial artística",
+      "source": "AI art",
+      "gender": "f",
+      "type": "noun phrase"
+    },
+    {
+      "id": 90,
+      "target": "la fusión de disciplinas",
+      "source": "disciplinary fusion",
+      "gender": "f",
+      "type": "noun phrase"
+    },
+    {
+      "id": 91,
+      "target": "la creatividad",
+      "source": "creativity",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 92,
+      "target": "la inspiración",
+      "source": "inspiration",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 93,
+      "target": "la técnica artística",
+      "source": "artistic technique",
+      "gender": "f",
+      "type": "noun phrase"
+    },
+    {
+      "id": 94,
+      "target": "el legado artístico",
+      "source": "artistic legacy",
+      "gender": "m",
+      "type": "noun phrase"
+    },
+    {
+      "id": 95,
+      "target": "el canon literario",
+      "source": "literary canon",
+      "gender": "m",
+      "type": "noun phrase"
+    },
+    {
+      "id": 96,
+      "target": "la obra maestra",
+      "source": "masterpiece",
+      "gender": "f",
+      "type": "noun phrase"
+    },
+    {
+      "id": 97,
+      "target": "el crítico de arte",
+      "source": "art critic",
+      "gender": "m",
+      "type": "noun phrase"
+    },
+    {
+      "id": 98,
+      "target": "el crítico literario",
+      "source": "literary critic",
+      "gender": "m",
+      "type": "noun phrase"
+    },
+    {
+      "id": 99,
+      "target": "el contexto cultural",
+      "source": "cultural context",
+      "gender": "m",
+      "type": "noun phrase"
+    },
+    {
+      "id": 100,
+      "target": "en el ámbito artístico",
+      "source": "in the artistic sphere",
+      "gender": "—",
+      "type": "phrase"
+    }
+  ],
+  "grammar": [
+    {
+      "id": 1,
+      "title": "Complex Relative Clauses for Literary Analysis",
+      "description": "Using whose, whom, wherein, whereby for sophisticated analysis.",
+      "examples": [
+        {
+          "sentence": "El autor, cuyo estilo influyó en toda una generación, murió joven.",
+          "translation": "The author, whose style influenced an entire generation, died young."
+        },
+        {
+          "sentence": "La obra, en la que se exploran temas existenciales, es fundamental.",
+          "translation": "The work, in which existential themes are explored, is fundamental."
+        },
+        {
+          "sentence": "El personaje, a quien el narrador presenta como héroe, resulta ser trágico.",
+          "translation": "The character, whom the narrator presents as a hero, turns out to be tragic."
+        },
+        {
+          "sentence": "La novela, mediante la cual el autor critica la sociedad, es una obra maestra.",
+          "translation": "The novel, through which the author critiques society, is a masterpiece."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Subjunctive for Artistic Evaluation and Judgment",
+      "description": "Using subjunctive after expressions of artistic evaluation.",
+      "examples": [
+        {
+          "sentence": "Es necesario que se reconozca el valor del arte contemporáneo.",
+          "translation": "It is necessary that contemporary art's value be recognized."
+        },
+        {
+          "sentence": "No creo que la obra cumpla con las expectativas del público.",
+          "translation": "I don't think the work meets the public's expectations."
+        },
+        {
+          "sentence": "Es sorprendente que un artista pueda expresar tanto con tan poco.",
+          "translation": "It is surprising that an artist can express so much with so little."
+        },
+        {
+          "sentence": "Dudo que el arte digital reemplace el arte tradicional.",
+          "translation": "I doubt that digital art will replace traditional art."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Connectors for Literary Criticism",
+      "description": "Advanced connectors for structured literary and artistic analysis.",
+      "examples": [
+        {
+          "sentence": "Si bien la obra posee virtudes estilísticas, adolece de coherencia narrativa.",
+          "translation": "While the work possesses stylistic virtues, it lacks narrative coherence."
+        },
+        {
+          "sentence": "Por un lado, el simbolismo enriquece la lectura; por otro, puede dificultar la comprensión.",
+          "translation": "On one hand, symbolism enriches the reading; on the other, it can hinder understanding."
+        },
+        {
+          "sentence": "A pesar de la complejidad del texto, su mensaje es universal.",
+          "translation": "Despite the text's complexity, its message is universal."
+        },
+        {
+          "sentence": "Por consiguiente, la obra merece ser estudiada desde múltiples perspectivas.",
+          "translation": "Consequently, the work deserves to be studied from multiple perspectives."
+        }
+      ]
+    }
+  ],
+  "pronunciation": [
+    {
+      "id": 1,
+      "title": "Pronunciation: Advanced Literature & Arts",
+      "sections": [
+        {
+          "focus": "The ll sound",
+          "examples": [
+            "el símbolo",
+            "la obra",
+            "el estilo"
+          ]
+        },
+        {
+          "focus": "The rr sound",
+          "examples": [
+            "el romanticismo",
+            "la narrativa",
+            "el surrealismo"
+          ]
+        },
+        {
+          "focus": "Silent h",
+          "examples": [
+            "histórico",
+            "la herencia",
+            "el humor"
+          ]
+        },
+        {
+          "focus": "Stress patterns",
+          "examples": [
+            "la crí-ti-ca",
+            "el mo-ve-mien-to",
+            "el nar-ra-dor",
+            "la po-e-sí-a"
+          ]
+        }
+      ],
+      "practice_sentences": [
+        "La crítica literaria analiza los símbolos de la obra.",
+        "El realismo mágico es un movimiento literario latinoamericano.",
+        "La deconstrucción es un enfoque del postmodernismo.",
+        "El arte conceptual desafía las convenciones tradicionales."
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": 1,
+      "type": "matching",
+      "title": "Match literary terms",
+      "instructions": "Match each Spanish term with its correct English translation.",
+      "items": [
+        {
+          "spanish": "la crítica literaria",
+          "english": "literary criticism"
+        },
+        {
+          "spanish": "el realismo mágico",
+          "english": "magical realism"
+        },
+        {
+          "spanish": "el narrador omnisciente",
+          "english": "omniscient narrator"
+        },
+        {
+          "spanish": "la metáfora",
+          "english": "metaphor"
+        },
+        {
+          "spanish": "la alegoría",
+          "english": "allegory"
+        },
+        {
+          "spanish": "el soliloquio",
+          "english": "soliloquy"
+        },
+        {
+          "spanish": "la deconstrucción",
+          "english": "deconstruction"
+        },
+        {
+          "spanish": "el simbolismo",
+          "english": "symbolism"
+        },
+        {
+          "spanish": "la intertextualidad",
+          "english": "intertextuality"
+        },
+        {
+          "spanish": "la posmodernidad",
+          "english": "postmodernity"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "type": "fill-in-blank",
+      "title": "Complete with literary vocabulary",
+      "instructions": "Fill in the blanks with the correct term.",
+      "items": [
+        {
+          "sentence": "La _____ examina las obras literarias desde diferentes enfoques teóricos.",
+          "answer": "crítica literaria",
+          "hints": [
+            "two words",
+            "starts with c"
+          ]
+        },
+        {
+          "sentence": "El _____ combina elementos reales con elementos fantásticos.",
+          "answer": "realismo mágico",
+          "hints": [
+            "two words",
+            "starts with r"
+          ]
+        },
+        {
+          "sentence": "El narrador _____ conoce todos los pensamientos de todos los personajes.",
+          "answer": "omnisciente",
+          "hints": [
+            "one word",
+            "starts with o"
+          ]
+        },
+        {
+          "sentence": "La _____ es una comparación implícita entre dos cosas distintas.",
+          "answer": "metáfora",
+          "hints": [
+            "one word",
+            "starts with m"
+          ]
+        },
+        {
+          "sentence": "La _____ es una narrativa con un significado oculto o simbólico.",
+          "answer": "alegoría",
+          "hints": [
+            "one word",
+            "starts with a"
+          ]
+        },
+        {
+          "sentence": "El _____ es un discurso que un personaje se dirige a sí mismo en el escenario.",
+          "answer": "soliloquio",
+          "hints": [
+            "one word",
+            "starts with s"
+          ]
+        },
+        {
+          "sentence": "La _____ consiste en analizar textos revelando sus contradicciones.",
+          "answer": "deconstrucción",
+          "hints": [
+            "one word",
+            "starts with d"
+          ]
+        },
+        {
+          "sentence": "El _____ usa objetos concretos para representar ideas abstractas.",
+          "answer": "simbolismo",
+          "hints": [
+            "one word",
+            "starts with s"
+          ]
+        },
+        {
+          "sentence": "La _____ es la relación entre diferentes textos literarios.",
+          "answer": "intertextualidad",
+          "hints": [
+            "one word",
+            "starts with i"
+          ]
+        },
+        {
+          "sentence": "La _____ es la época caracterizada por la fragmentación y el escepticismo.",
+          "answer": "posmodernidad",
+          "hints": [
+            "one word",
+            "starts with p"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "type": "translation",
+      "title": "Translate to Spanish",
+      "instructions": "Translate to Spanish.",
+      "items": [
+        {
+          "english": "The novel's use of magical realism creates a unique atmosphere.",
+          "answer": "El uso del realismo mágico en la novela crea una atmósfera única."
+        },
+        {
+          "english": "The omniscient narrator reveals the character's deepest thoughts.",
+          "answer": "El narrador omnisciente revela los pensamientos más profundos del personaje."
+        },
+        {
+          "english": "Metaphors and symbols enrich the literary analysis.",
+          "answer": "Las metáforas y los símbolos enriquecen el análisis literario."
+        },
+        {
+          "english": "Postmodernism challenges traditional narrative structures.",
+          "answer": "El postmodernismo desafía las estructuras narrativas tradicionales."
+        },
+        {
+          "english": "The critic deconstructed the text to reveal hidden meanings.",
+          "answer": "El crítico deconstruyó el texto para revelar significados ocultos."
+        },
+        {
+          "english": "The soliloquy reveals the character's inner conflict.",
+          "answer": "El soliloquio revela el conflicto interior del personaje."
+        },
+        {
+          "english": "Intertextuality connects different literary works.",
+          "answer": "La intertextualidad conecta diferentes obras literarias."
+        },
+        {
+          "english": "The symbolism in the painting represents the artist's philosophy.",
+          "answer": "El simbolismo en la pintura representa la filosofía del artista."
+        },
+        {
+          "english": "Literary criticism requires an understanding of cultural context.",
+          "answer": "La crítica literaria requiere una comprensión del contexto cultural."
+        },
+        {
+          "english": "The contemporary art movement challenges conventional aesthetics.",
+          "answer": "El movimiento de arte contemporáneo desafía la estética convencional."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "type": "fill-in-blank",
+      "title": "Complex relative clauses in literary analysis",
+      "instructions": "Complete with cuyo/cuya/cuyos/cuyas, donde, a quien, en el que.",
+      "items": [
+        {
+          "stem": "El autor, _____ obra más famosa fue un éxito, murió en 1999.",
+          "answer": "cuya"
+        },
+        {
+          "stem": "La novela, _____ se desarrolla la historia, es de García Márquez.",
+          "answer": "en la que"
+        },
+        {
+          "stem": "El crítico, _____ análisis es muy respetado, escribe para El País.",
+          "answer": "cuyo"
+        },
+        {
+          "stem": "El personaje, _____ motivación es unclear, actúa de forma contradictoria.",
+          "answer": "cuya"
+        },
+        {
+          "stem": "La obra, _____ se basó la película, es una novela clásica.",
+          "answer": "en la que"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "type": "exercise",
+      "title": "Subjunctive for artistic evaluation",
+      "instructions": "Complete with correct subjunctive.",
+      "items": [
+        {
+          "stem": "Es importante que el crítico (analizar) el contexto cultural.",
+          "answer": "analice"
+        },
+        {
+          "stem": "No creo que la obra (lograr) su objetivo artístico.",
+          "answer": "logre"
+        },
+        {
+          "stem": "Es fundamental que se (reconocer) el valor del arte contemporáneo.",
+          "answer": "reconozca"
+        },
+        {
+          "stem": "Dudo que el simbolismo (ser) intencional.",
+          "answer": "sea"
+        },
+        {
+          "stem": "Es posible que la deconstrucción (revelar) nuevos significados.",
+          "answer": "revele"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "type": "exercise",
+      "title": "Literary movements matching",
+      "instructions": "Match each movement with its correct description.",
+      "items": [
+        {
+          "movement": "el realismo mágico",
+          "description": "Combina lo real con lo fantástico, típico de la literatura latinoamericana"
+        },
+        {
+          "movement": "el surrealismo",
+          "description": "Explora el subconsciente y lo irracional, inspirado en Freud"
+        },
+        {
+          "movement": "el modernismo",
+          "description": "Busca la belleza estética y el refinamiento del lenguaje"
+        },
+        {
+          "movement": "el postmodernismo",
+          "description": "Cuestiona las grandes narrativas y la verdad absoluta"
+        },
+        {
+          "movement": "el expresionismo",
+          "description": "Expresa emociones intensas mediante la distorsión de la realidad"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "type": "fill-in-blank",
+      "title": "Literary analysis in context",
+      "instructions": "Read and fill in.",
+      "items": [
+        {
+          "text": "La _____ es esencial para comprender las capas de significado de una obra literaria. Los críticos utilizan enfoques como la deconstrucción, el análisis simbólico y la _____ para revelar lo que el texto dice implícitamente. Sin embargo, es importante considerar el _____ en el que fue escrita la obra.",
+          "word_bank": [
+            "crítica literaria",
+            "intertextualidad",
+            "contexto cultural"
+          ]
+        },
+        {
+          "text": "El narrador _____ es aquella voz que todo lo sabe: piensa en todos los personajes y conoce el pasado y el futuro. Este tipo de narrador permite una comprensión total de la _____, aunque a veces puede resultar artificioso.",
+          "word_bank": [
+            "omnisciente",
+            "trama"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "type": "exercise",
+      "title": "Reading comprehension: Literary Theory",
+      "instructions": "Read and answer.",
+      "items": [
+        {
+          "text": "La crítica literaria contemporánea ha evolucionado significativamente desde el enfoque tradicional centrado en el autor y la biografía. Los enfoques actuales, como el estructuralismo, el postestructuralismo y la teoría feminista, proponen nuevas formas de leer y analizar textos. La deconstrucción, desarrollada por Jacques Derrida, cuestiona la estabilidad del significado y revela las contradicciones internas de los textos. Por otro lado, la intertextualidad, concepto desarrollado por Julia Kristeva, destaca cómo todos los textos dialogan con otros textos anteriores. En el ámbito del arte contemporáneo, la fusión de disciplinas — como el videoarte, el arte performático y el arte digital — ha ampliado las fronteras de lo que se considera arte.",
+          "questions": [
+            {
+              "question": "¿Qué enfoque ha desplazado la crítica centrada en el autor?",
+              "answer": "Los enfoques actuales como el estructuralismo y la teoría feminista."
+            },
+            {
+              "question": "¿Qué hace la deconstrucción?",
+              "answer": "Cuestiona la estabilidad del significado y revela contradicciones internas."
+            },
+            {
+              "question": "¿Qué destaca la intertextualidad?",
+              "answer": "Que todos los textos dialogan con otros textos anteriores."
+            },
+            {
+              "question": "¿Qué ha ampliado las fronteras del arte?",
+              "answer": "La fusión de disciplinas como videoarte, performance y arte digital."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "type": "exercise",
+      "title": "Prepositions with literary analysis",
+      "instructions": "Complete with correct preposition.",
+      "items": [
+        {
+          "stem": "El autor escribe _____ la primera persona.",
+          "answer": "en"
+        },
+        {
+          "stem": "La crítica se centra _____ los símbolos del texto.",
+          "answer": "en"
+        },
+        {
+          "stem": "El narrador se dirige _____ los personajes en el soliloquio.",
+          "answer": "a"
+        },
+        {
+          "stem": "La obra fue escrita _____ un contexto de crisis política.",
+          "answer": "en"
+        },
+        {
+          "stem": "El simbolismo se refiere _____ ideas abstractas.",
+          "answer": "a"
+        }
+      ]
+    }
+  ]
+}

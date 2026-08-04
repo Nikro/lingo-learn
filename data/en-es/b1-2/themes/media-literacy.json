@@ -1,0 +1,376 @@
+{
+  "id": "media-literacy",
+  "level": "b1-2",
+  "title": "Media Literacy",
+  "description": "Analyze and critically evaluate media content in Spanish — news, social media, advertising, and digital communication. Learn to detect fake news, evaluate sources, understand media bias, and navigate the digital information landscape with ethical awareness. This theme equips you to be an informed, critical consumer of media in Spanish.",
+  "vocabulary": [
+    {"id": 1, "target": "los medios de comunicación", "source": "media / mass media", "gender": "m", "type": "noun"},
+    {"id": 2, "target": "la noticia falsa", "source": "fake news", "gender": "f", "type": "noun"},
+    {"id": 3, "target": "la desinformación", "source": "disinformation", "gender": "f", "type": "noun"},
+    {"id": 4, "target": "la manipulación mediática", "source": "media manipulation", "gender": "f", "type": "noun"},
+    {"id": 5, "target": "el sesgo", "source": "bias", "gender": "m", "type": "noun"},
+    {"id": 6, "target": "la fuente de información", "source": "source of information", "gender": "f", "type": "noun"},
+    {"id": 7, "target": "el medio de comunicación", "source": "media outlet", "gender": "m", "type": "noun"},
+    {"id": 8, "target": "la red social", "source": "social media / social network", "gender": "f", "type": "noun"},
+    {"id": 9, "target": "el titular", "source": "headline", "gender": "m", "type": "noun"},
+    {"id": 10, "target": "la titular", "source": "headline (fem, less common)", "gender": "f", "type": "noun"},
+    {"id": 11, "target": "la prensa", "source": "press / journalism", "gender": "f", "type": "noun"},
+    {"id": 12, "target": "el periodismo", "source": "journalism", "gender": "m", "type": "noun"},
+    {"id": 13, "target": "el periodista", "source": "journalist (male)", "gender": "m", "type": "noun"},
+    {"id": 14, "target": "la periodista", "source": "journalist (female)", "gender": "f", "type": "noun"},
+    {"id": 15, "target": "la entrevista", "source": "interview", "gender": "f", "type": "noun"},
+    {"id": 16, "target": "la denuncia", "source": "exposé / whistleblowing", "gender": "f", "type": "noun"},
+    {"id": 17, "target": "la investigación periodística", "source": "investigative journalism", "gender": "f", "type": "noun"},
+    {"id": 18, "target": "el corresponsal", "source": "correspondent", "gender": "m", "type": "noun"},
+    {"id": 19, "target": "el editor", "source": "editor", "gender": "m", "type": "noun"},
+    {"id": 20, "target": "la editora", "source": "editor (female)", "gender": "f", "type": "noun"},
+    {"id": 21, "target": "el medio digital", "source": "digital media", "gender": "m", "type": "noun"},
+    {"id": 22, "target": "la plataforma digital", "source": "digital platform", "gender": "f", "type": "noun"},
+    {"id": 23, "target": "el algoritmo", "source": "algorithm", "gender": "m", "type": "noun"},
+    {"id": 24, "target": "la burbuja de filtros", "source": "filter bubble", "gender": "f", "type": "noun"},
+    {"id": 25, "target": "la cámara de eco", "source": "echo chamber", "gender": "f", "type": "noun"},
+    {"id": 26, "target": "la viralización", "source": "viralization", "gender": "f", "type": "noun"},
+    {"id": 27, "target": "el clickbait", "source": "clickbait", "gender": "m", "type": "noun"},
+    {"id": 28, "target": "la publicidad", "source": "advertising", "gender": "f", "type": "noun"},
+    {"id": 29, "target": "la propaganda", "source": "propaganda", "gender": "f", "type": "noun"},
+    {"id": 30, "target": "el spot publicitario", "source": "ad / commercial", "gender": "m", "type": "noun"},
+    {"id": 31, "target": "el influencer", "source": "influencer", "gender": "m", "type": "noun"},
+    {"id": 32, "target": "el contenido generado por usuarios", "source": "user-generated content", "gender": "m", "type": "noun"},
+    {"id": 33, "target": "la desinformación", "source": "disinformation", "gender": "f", "type": "noun"},
+    {"id": 34, "target": "la información errónea", "source": "misinformation", "gender": "f", "type": "noun"},
+    {"id": 35, "target": "la verificación", "source": "verification / fact-checking", "gender": "f", "type": "noun"},
+    {"id": 36, "target": "el fact-checking", "source": "fact-checking", "gender": "m", "type": "noun"},
+    {"id": 37, "target": "la credibilidad", "source": "credibility", "gender": "f", "type": "noun"},
+    {"id": 38, "target": "la confiabilidad", "source": "reliability", "gender": "f", "type": "noun"},
+    {"id": 39, "target": "la ética periodística", "source": "journalistic ethics", "gender": "f", "type": "noun"},
+    {"id": 40, "target": "el derecho a la información", "source": "right to information", "gender": "m", "type": "noun"},
+    {"id": 41, "target": "la libertad de prensa", "source": "press freedom", "gender": "f", "type": "noun"},
+    {"id": 42, "target": "la censura", "source": "censorship", "gender": "f", "type": "noun"},
+    {"id": 43, "target": "el ciberacoso", "source": "cyberbullying", "gender": "m", "type": "noun"},
+    {"id": 44, "target": "la privacidad", "source": "privacy", "gender": "f", "type": "noun"},
+    {"id": 45, "target": "los datos personales", "source": "personal data", "gender": "m", "type": "noun"},
+    {"id": 46, "target": "la huella digital", "source": "digital footprint", "gender": "f", "type": "noun"},
+    {"id": 47, "target": "la deepfake", "source": "deepfake", "gender": "f", "type": "noun"},
+    {"id": 48, "target": "la edición digital", "source": "digital editing", "gender": "f", "type": "noun"},
+    {"id": 49, "target": "la fake news", "source": "fake news (Anglicism)", "gender": "f", "type": "noun"},
+    {"id": 50, "target": "el boletín informativo", "source": "newsletter", "gender": "m", "type": "noun"},
+    {"id": 51, "target": "el podcast", "source": "podcast", "gender": "m", "type": "noun"},
+    {"id": 52, "target": "el blog", "source": "blog", "gender": "m", "type": "noun"},
+    {"id": 53, "target": "el artículo de opinión", "source": "opinion piece", "gender": "m", "type": "noun"},
+    {"id": 54, "target": "la columna", "source": "column / op-ed", "gender": "f", "type": "noun"},
+    {"id": 55, "target": "la crónica", "source": "chronicle / report", "gender": "f", "type": "noun"},
+    {"id": 56, "target": "la reportaje", "source": "feature story", "gender": "m", "type": "noun"},
+    {"id": 57, "target": "la fotografía de prensa", "source": "press photography", "gender": "f", "type": "noun"},
+    {"id": 58, "target": "el reportaje gráfico", "source": "photo essay", "gender": "m", "type": "noun"},
+    {"id": 59, "target": "la infografía", "source": "infographic", "gender": "f", "type": "noun"},
+    {"id": 60, "target": "el gráfico estadístico", "source": "statistical chart", "gender": "m", "type": "noun"},
+    {"id": 61, "target": "el titular sensacionalista", "source": "sensationalist headline", "gender": "m", "type": "noun"},
+    {"id": 62, "target": "la provocación mediática", "source": "media provocation", "gender": "f", "type": "noun"},
+    {"id": 63, "target": "el sesgo de confirmación", "source": "confirmation bias", "gender": "m", "type": "noun"},
+    {"id": 64, "target": "la descontextualización", "source": "decontextualization", "gender": "f", "type": "noun"},
+    {"id": 65, "target": "la manipulación de datos", "source": "data manipulation", "gender": "f", "type": "noun"},
+    {"id": 66, "target": "el discurso de odio", "source": "hate speech", "gender": "m", "type": "noun"},
+    {"id": 67, "target": "la incitación al odio", "source": "incitement to hatred", "gender": "f", "type": "noun"},
+    {"id": 68, "target": "la responsabilidad digital", "source": "digital responsibility", "gender": "f", "type": "noun"},
+    {"id": 69, "target": "la alfabetización mediática", "source": "media literacy", "gender": "f", "type": "noun"},
+    {"id": 70, "target": "el consumo responsable de medios", "source": "responsible media consumption", "gender": "m", "type": "noun"},
+    {"id": 71, "target": "informar", "source": "to inform / to report", "gender": "v.", "type": "verb"},
+    {"id": 72, "target": "publicar", "source": "to publish", "gender": "v.", "type": "verb"},
+    {"id": 73, "target": "difundir", "source": "to spread / to broadcast", "gender": "v.", "type": "verb"},
+    {"id": 74, "target": "verificar", "source": "to verify", "gender": "v.", "type": "verb"},
+    {"id": 75, "target": "desmentir", "source": "to debunk / to disprove", "gender": "v.", "type": "verb"},
+    {"id": 76, "target": "manipular", "source": "to manipulate", "gender": "v.", "type": "verb"},
+    {"id": 77, "target": "censurar", "source": "to censor", "gender": "v.", "type": "verb"},
+    {"id": 78, "target": "criticar", "source": "to criticize", "gender": "v.", "type": "verb"},
+    {"id": 79, "target": "analizar", "source": "to analyze", "gender": "v.", "type": "verb"},
+    {"id": 80, "target": "evaluar", "source": "to evaluate", "gender": "v.", "type": "verb"},
+    {"id": 81, "target": "compartir", "source": "to share", "gender": "v.", "type": "verb"},
+    {"id": 82, "target": "buscar", "source": "to search", "gender": "v.", "type": "verb"},
+    {"id": 83, "target": "confirmar", "source": "to confirm", "gender": "v.", "type": "verb"},
+    {"id": 84, "target": "dubitarse", "source": "to doubt / to be skeptical", "gender": "v.", "type": "verb"},
+    {"id": 85, "target": "contextualizar", "source": "to contextualize", "gender": "v.", "type": "verb"},
+    {"id": 86, "target": "promocionar", "source": "to promote (advertising)", "gender": "v.", "type": "verb"},
+    {"id": 87, "target": "influir", "source": "to influence", "gender": "v.", "type": "verb"},
+    {"id": 88, "target": "convencer", "source": "to convince", "gender": "v.", "type": "verb"},
+    {"id": 89, "target": "persuadir", "source": "to persuade", "gender": "v.", "type": "verb"},
+    {"id": 90, "target": "alertar", "source": "to warn", "gender": "v.", "type": "verb"},
+    {"id": 91, "target": "fiable", "source": "reliable", "gender": "m/adj.", "type": "adj"},
+    {"id": 92, "target": "falso", "source": "false", "gender": "m/adj.", "type": "adj"},
+    {"id": 93, "target": "auténtico", "source": "authentic / genuine", "gender": "m/adj.", "type": "adj"},
+    {"id": 94, "target": "confiable", "source": "trustworthy", "gender": "m/adj.", "type": "adj"},
+    {"id": 95, "target": "sensacionalista", "source": "sensationalist", "gender": "m/adj.", "type": "adj"},
+    {"id": 96, "target": "objetivo", "source": "objective", "gender": "m/adj.", "type": "adj"},
+    {"id": 97, "target": "subjetivo", "source": "subjective", "gender": "m/adj.", "type": "adj"},
+    {"id": 98, "target": "neutral", "source": "neutral", "gender": "m/adj.", "type": "adj"},
+    {"id": 99, "target": "creíble", "source": "credible", "gender": "m/adj.", "type": "adj"},
+    {"id": 100, "target": "digital", "source": "digital", "gender": "m/adj.", "type": "adj"}
+  ],
+  "grammar": [
+    {
+      "title": "Passive Voice and Se Pasiva for Reporting",
+      "content": "Media analysis and reporting in Spanish frequently uses the passive voice and 'se pasiva' to attribute information without specifying the source. This is crucial for understanding how news is presented and for recognizing when media is obscuring accountability.\\\\n\\\\n**Se pasiva with third-person verbs (most common in news):**\\\\n- Se publicaron los resultados de la encuesta. (The survey results were published.)\\\\n- Se difundió la información en redes sociales. (The information was spread on social media.)\\\\n- Se verifican los datos antes de publicarlos. (The data is verified before publishing.)\\\\n- Se considera que la noticia es falsa. (The news is considered false.)\\\\n\\\\n**Passive with ser (formal news reporting, academic writing):**\\\\n- La noticia fue publicada por el periódico. (The news was published by the newspaper.)\\\\n- Las fotos fueron manipuladas digitalmente. (The photos were digitally edited.)\\\\n- El artículo fue escrito por un corresponsal. (The article was written by a correspondent.)\\\\n\\\\n**Se impersonal (no subject, general statements — common in editorials):**\\\\n- Se dice que la empresa está en crisis. (They say the company is in crisis. / It is said that...)\\\\n- Se cree que los datos son falsos. (It is believed that the data is false.)\\\\n- Se sabe que la empresa ocultó información. (It is known that the company hid information.)\\\\n- Se informa de que las elecciones fueron manipuladas. (It is reported that the elections were manipulated.)\\\\n\\\\n**Distinguishing reliable vs. unreliable reporting:**\\\\n- La fuente confirma que... (The source confirms that...) — strong attribution\\\\n- Según fuentes no verificadas, ... (According to unverified sources, ...) — weak attribution\\\\n- Se alega que... (It is alleged that...) — unconfirmed claim\\\\n- Se afirma sin pruebas que... (It is claimed without evidence that...) — weak/unsubstantiated claim",
+      "table": {
+        "headers": ["Construction", "Function", "Example"],
+        "rows": [
+          ["Se + 3rd person", "General passive reporting", "Se publicó la investigación."],
+          ["Fue + participio + por", "Specific agent (formal passive)", "La noticia fue difundida por la TV."],
+          ["Se dice que", "General rumor/report", "Se dice que los datos son falsos."],
+          ["Se afirma que", "Claim (often unverified)", "Se afirma que la empresa miente."],
+          ["Se alega que", "Allegation", "Se alega corrupción sin pruebas."],
+          ["Según + source", "Attributed source", "Según el periódico, la empresa desmintió."]
+        ]
+      },
+      "examples": [
+        "Se publicaron las imágenes que desmienten la versión oficial.",
+        "Los datos fueron manipulados para influir en la opinión pública.",
+        "Se dice que la red social oculta la información a sus usuarios.",
+        "Según los expertos, la desinformación amenaza la democracia.",
+        "Se afirma sin pruebas que el candidato cometió fraude.",
+        "La noticia fue compartida millones de veces antes de ser verificada."
+      ],
+      "aid_note": "Romanian parallel: 'Se publică...' (se pasiva) = 'se publicó'; 'Foi publicată...' (passive) = 'was published'; 'Se spune că...' (impersonal) = 'se dice que'; 'Se afirmă că...' = 'se afirma que'. The Romanian media language maps directly to Spanish constructions."
+    },
+    {
+      "title": "Subjunctive for Doubt, Disbelief, and Evaluating Information",
+      "content": "When evaluating media content and questioning the reliability of information, the subjunctive is essential. Spanish speakers use the subjunctive to express doubt about what they've seen online, to question news sources, and to evaluate the credibility of information.\\\\n\\\\n**Subjunctive with expressions of doubt about information:**\\\\n- Dudo que la noticia sea verdadera. (I doubt the news is true.)\\\\n- No creo que el artículo sea fiable. (I don't think the article is reliable.)\\\\n- Es improbable que los datos sean correctos. (It's unlikely the data is correct.)\\\\n- Es imposible que esta información sea real. (It's impossible that this information is real.)\\\\n- No es cierto que la empresa haya manipulado los datos. (It's not true that the company manipulated the data.)\\\\n\\\\n**Subjunctive after 'buscar / necesitar' when questioning sources:**\\\\n- Necesito una fuente que confirme la información. (I need a source that confirms the information.)\\\\n- Busco un periodista que haya investigado el tema. (I'm looking for a journalist who has investigated the topic.)\\\\n- Requiere evidencia que demuestre los alegatos. (It requires evidence that demonstrates the claims.)\\\\n\\\\n**Subjunctive after impersonal expressions of evaluation of media:**\\\\n- Es preocupante que se difunda información falsa. (It's concerning that false information is being spread.)\\\\n- Es alarmante que las redes sociales permitan la desinformación. (It's alarming that social media allows disinformation.)\\\\n- Es lamentable que la censura limite la libertad de prensa. (It's regrettable that censorship limits press freedom.)\\\\n- Es esencial que los ciudadanos verifiquen las fuentes. (It's essential that citizens verify sources.)\\\\n\\\\n**Subjunctive for evaluating digital ethics:**\\\\n- No es ético que se utilicen datos personales sin consentimiento. (It's not ethical that personal data is used without consent.)\\\\n- Es irresponsable que se compartan noticias sin verificar. (It's irresponsible to share news without verifying.)\\\\n- Es importante que las plataformas regulen el discurso de odio. (It's important that platforms regulate hate speech.)",
+      "table": {
+        "headers": ["Expression", "Example", "Mood"],
+        "rows": [
+          ["Dudo que...", "Dudo que sea verdadera.", "Subjunctive"],
+          ["No creo que...", "No creo que sea fiable.", "Subjunctive"],
+          ["Es improbable que...", "Es improbable que sean correctos.", "Subjunctive"],
+          ["Es esencial que...", "Es esencial que verifiquen las fuentes.", "Subjunctive"],
+          ["Es preocupante que...", "Es preocupante que se difunda falso.", "Subjunctive"],
+          ["Es irresponsable que...", "Es irresponsable que compartan sin verificar.", "Subjunctive"]
+        ]
+      },
+      "examples": [
+        "Dudo que la fuente sea confiable porque no cita ningún documento.",
+        "No creo que las redes sociales estén regulando adecuadamente la desinformación.",
+        "Es alarmante que se difundan deepfakes en las campañas electorales.",
+        "Es esencial que los ciudadanos tengan alfabetización mediática.",
+        "No es ético que las plataformas vendan datos personales a anunciantes.",
+        "Es irresponsable que se comparta una noticia sin verificarla primero."
+      ],
+      "aid_note": "Romanian parallel: 'Mă îndoiesc că...' + subjunctive = 'Dudo que...'; 'Nu cred că...' + subjunctive = 'No creo que...'; 'Este important ca...' + subjunctive = 'Es esencial que...'. Both languages use negation to trigger subjunctive in information-evaluation contexts."
+    },
+    {
+      "title": "Connectors for Media Analysis and Critical Evaluation",
+      "content": "To write and speak effectively about media literacy, you need connectors that allow you to evaluate sources, express skepticism, contrast perspectives, and draw conclusions about media content.\\\\n\\\\n**Evaluating source reliability:**\\\\n- Según la fuente, ... (According to the source, ...)\\\\n- La fuente no especifica de dónde obtuvo la información. (The source doesn't specify where the information came from.)\\\\n- Las fuentes son contradictorias. (The sources are contradictory.)\\\\n- No hay fuentes verificables. (There are no verifiable sources.)\\\\n- La información carece de fuentes. (The information lacks sources.)\\\\n\\\\n**Expressing skepticism and doubt:**\\\\n- Sin embargo, ... (However, ...)\\\\n- Por otro lado, ... (On the other hand, ...)\\\\n- A pesar de lo que se dice, ... (Despite what is said, ...)\\\\n- En realidad, ... (In reality, ...)\\\\n- Al parecer, ... (Apparently, ...) — used when you're not sure\\\\n- Según parece, ... (It seems that, ...) — also expresses uncertainty\\\\n\\\\n**Contrasting perspectives and biases:**\\\\n- Mientras que un medio afirma que..., otro afirma lo contrario. (While one outlet claims..., another claims the opposite.)\\\\n- Por un lado, la empresa dice que...; por otro, los empleados denuncian... (On one hand, the company says...; on the other, employees are denouncing...)\\\\n- En contraste con... (In contrast with...)\\\\n- A diferencia de... (Unlike...)\\\\n\\\\n**Drawing conclusions about media content:**\\\\n- En conclusión, ... (In conclusion, ...)\\\\n- En definitiva, ... (Ultimately, ...)\\\\n- Esto sugiere que... (This suggests that...)\\\\n- Se puede inferir que... (It can be inferred that...)\\\\n- Todo indica que... (Everything indicates that...)\\\\n- Los hechos parecen indicar que... (The facts seem to indicate that...)\\\\n\\\\n**Identifying manipulation and bias:**\\\\n- El titular es sensacionalista, pero el artículo es objetivo. (The headline is sensationalist, but the article is objective.)\\\\n- La foto fue sacada de contexto. (The photo was taken out of context.)\\\\n- Se manipularon los datos estadísticos. (The statistical data was manipulated.)\\\\n- El medio tiene un sesgo político claro. (The outlet has a clear political bias.)",
+      "table": {
+        "headers": ["Function", "Connector", "Example"],
+        "rows": [
+          ["Source attribution", "Según la fuente", "Según la fuente, la noticia es falsa."],
+          ["Skepticism", "Sin embargo", "Según la fuente, pero no cita documentos."],
+          ["Contrast", "Por un lado... por otro lado", "Por un lado dicen X, por otro dicen Y."],
+          ["Uncertainty", "Al parecer", "Al parecer, los datos fueron alterados."],
+          ["Inference", "Esto sugiere que", "Esto sugiere que el medio tiene un sesgo."],
+          ["Conclusion", "En conclusión", "En conclusión, la fuente no es confiable."],
+          ["Bias identification", "Tiene un sesgo de...", "Tiene un sesgo de confirmación."]
+        ]
+      },
+      "examples": [
+        "Según la fuente, la empresa desmintió las acusaciones, pero no proporciona documentos.",
+        "Al parecer, la noticia fue compartida antes de ser verificada por ningún periodista.",
+        "Por un lado, el medio afirma que los datos son confiables; por otro, los expertos los cuestionan.",
+        "Esto sugiere que la empresa tiene un interés económico en ocultar la información.",
+        "En conclusión, sin fuentes verificables, no se puede dar por buena la noticia.",
+        "Todo indica que la burbuja de filtros nos mantiene informados solo sobre lo que ya creemos."
+      ],
+      "aid_note": "Romanian media analysis connectors map closely: 'conform sursei' = 'según la fuente'; 'cu toate acestea' = 'sin embargo'; 'pe de o parte... pe de altă parte' = 'por un lado... por otro lado'; 'în concluzie' = 'en conclusión'; 'sugerează că' = 'sugiere que'. The register is nearly identical."
+    }
+  ],
+  "pronunciation": [
+    {
+      "title": "Pronunciation for Media Literacy Vocabulary",
+      "content": "Key pronunciation patterns for media literacy vocabulary:\\\\n\\\\n1. **The '-ción / -sión / -ción' endings (dominant in media vocabulary):**\\\\n   - desinformación → dehs-in-for-mah-see-AHYOHN / dehs-in-for-mah-SYOHN (Spain)\\\\n   - manipulación → mah-nee-poo-lah-see-AHYOHN\\\\n   - información → ee-for-mah-see-OHN / ee-for-mah-SYOHN\\\\n   - verificación → beh-ree-fee-kah-see-OHN\\\\n   - publicidad → poo-blee-see-DAH\\\\n   - credibilidad → kreh-dee-bee-lee-DAH\\\\n   - confiable → con-fee-AH-bleh (not 'con-FYAH-bleh')\\\\n\\\\n2. **The '-ismo / -ista' endings (very common in media/journalism terms):**\\\\n   - periodismo → peh-ree-OD-is-moh (stress on 'OD')\\\\n   - sensacionalista → seh-n-Sah-see-o-NAH-tah (stress on 'NA')\\\\n   - objetivista → ob-heh-tee-bee-STA (rare)\\\\n   - digital → dee-hee-TAH-ahl (stress on 'ta')\\\\n\\\\n3. **The 'll' sound in some contexts and 'y':**\\\\n   - However, note that 'll' does NOT appear frequently in media vocabulary. More common: the 'y' sound (written as 'y' or 'll' in some dialects)\\\\n   - y → y (like English 'y' in 'yes')\\\\n   - información → no 'y' or 'll', just be careful with the 'f' sound\\\\n\\\\n4. **The 'j' / 'g' before 'e, i' sounds (always like English 'h'):**\\\\n   - jurídico → HOO-ree-DEE-koh\\\\n   - género → HEH-nroh\\\\n   - objetivo → ob-hee-TEE-vo\\\\n   - periodista → peh-ree-o-DAH-tah (note: 'j' before 'a' = 'h' sound, not 'j')\\\\n   - censura → seh-SOO-rah\\\\n\\\\n5. **Silent 'h':**\\\\n   - humano → OO-mah-no (h is silent)\\\\n   - historia → EE-stor-ee-ah (h is silent)\\\\n   - But: 'humanitario' is NOT a common media term — focus on the ones above.\\\\n\\\\n6. **The 'v' / 'b' merger:**\\\\n   - Both are pronounced identically: like a soft 'v' between vowels, like 'b' before consonants\\\\n   - verificar → beh-ree-fee-KAH (b sound — v and b merge)\\\\n   - veracidad → beh-rah-see-DAHD (b sound)\\\\n\\\\n7. **Stress patterns to watch:**\\\\n   - Words ending in 'n', 's', or a vowel: stress on penultimate syllable by default\\\\n     - noticia → no-TEE-see-ah (default stress on 'ci')\\\\n     - medios → MEH-dee-ohs (default stress on first 'e')\\\\n   - Words with written accent: stress on the accented syllable\\\\n     - titular → too-tee-NAHR (accent on 'ar')\\\\n     - ética → EH-tee-kah (accent on 'ti')",
+      "examples": [
+        "desinformación = dehs-in-for-mah-see-AHYOHN (Spain) / dehs-in-for-mah-SYOHN (LA)",
+        "periodismo = peh-ree-OD-is-moh (stress on 'OD')",
+        "credibilidad = kreh-dee-bee-lee-DAH (stress on 'lee')",
+        "verificar = beh-ree-fee-KAH (v = b sound)",
+        "objetivo = ob-hee-TEE-vo (g before 'e' = 'h' sound)",
+        "ética = EH-tee-kah (accent on 'ti')",
+        "sensacionalista = seh-n-Sah-see-o-NAH-tah (stress on 'NA')",
+        "confiable = con-fee-AH-bleh (not 'con-FYAH-bleh')",
+        "censura = seh-SOO-rah (stress on 'soo')",
+        "algoritmo = al-lee-GOR-tee-moh (stress on 'gor')"
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "exercise",
+      "question": "What does 'la noticia falsa' mean in English?",
+      "options": ["The false note", "Fake news", "The fake newspaper", "False reporting"],
+      "correct": 1,
+      "explanation": "'La noticia falsa' = fake news. 'Noticia' = news/information, 'falsa' = false. This is the standard Spanish term for intentionally false information presented as news."
+    },
+    {
+      "type": "exercise",
+      "question": "Which word means 'the filter bubble' in Spanish?",
+      "options": ["la burbuja de filtros", "la burbuja digital", "el filtro de aire", "la capa de información"],
+      "correct": 0,
+      "explanation": "'La burbuja de filtros' = the filter bubble. This is the phenomenon where algorithms show you content that confirms your existing beliefs, creating an echo chamber of information."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: '______ que la noticia sea verdadera, pero no tengo pruebas.' (I doubt)",
+      "correct": "Dudo",
+      "explanation": "'Dudo que...' = I doubt that... This triggers the subjunctive ('sea') because it expresses doubt. 'Dudo que la noticia sea verdadera' = I doubt the news is true."
+    },
+    {
+      "type": "exercise",
+      "question": "What does 'el sesgo de confirmación' mean?",
+      "options": ["Confirmation bias", "Confirmatory bias", "The bias of confirmation", "Confirmation of bias"],
+      "correct": 0,
+      "explanation": "'El sesgo de confirmación' = confirmation bias. This is the tendency to seek out and believe information that confirms pre-existing beliefs while ignoring contradictory evidence. It is a major factor in echo chambers."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: 'Se ______ (publicar) la investigación ayer.' (passive — preterite of ser)",
+      "correct": "publicó",
+      "explanation": "'Se publicó la investigación ayer.' This is 'se pasiva' with the preterite tense. The third-person singular verb agrees with 'la investigación' (singular). Note: 'publicó' is preterite (yesterday), not present."
+    },
+    {
+      "type": "exercise",
+      "question": "Which connector means 'however' in Spanish?",
+      "options": ["Sin embargo", "Además", "Por otro lado", "En conclusión"],
+      "correct": 0,
+      "explanation": "'Sin embargo' = however. It is the most common adversative connector in Spanish, used to introduce a contrast or contradiction to what was just stated. It's essential for media analysis."
+    },
+    {
+      "type": "exercise",
+      "question": "What does 'la burbuja de filtros' mean in the context of social media?",
+      "options": ["A bubble wrap for protecting phones", "An algorithmic effect that limits exposure to diverse viewpoints", "A social media filter for photos", "A privacy setting"],
+      "correct": 1,
+      "explanation": "'La burbuja de filtros' (filter bubble) is the algorithmic effect where social media platforms show users only content that aligns with their existing views, limiting exposure to diverse or opposing perspectives."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: 'Es esencial que los ciudadanos ______ (verificar) las fuentes.' (subjunctive)",
+      "correct": "verifiquen",
+      "explanation": "'Es esencial que los ciudadanos verifiquen las fuentes.' — 'Es esencial que' triggers the subjunctive. 'Verifiquen' = present subjunctive of verificar, 3rd person plural (ellos/ellas/ustedes)."
+    },
+    {
+      "type": "exercise",
+      "question": "Which word means 'censorship' in Spanish?",
+      "options": ["la censura", "la prohibición", "la restricción", "la limitación"],
+      "correct": 0,
+      "explanation": "'La censura' = censorship. It refers to the suppression or control of information, speech, or media by authorities. Press censorship is a violation of freedom of the press."
+    },
+    {
+      "type": "exercise",
+      "question": "What does 'la desinformación' mean?",
+      "options": ["Lack of information", "Disinformation — deliberate spreading of false information", "Poor quality information", "Too much information"],
+      "correct": 1,
+      "explanation": "'La desinformación' = disinformation — the deliberate, intentional spread of false or misleading information. It is different from 'la información errónea' (misinformation), which is unintentional. The key distinction is intent."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: 'No creo que la empresa ______ (ser) honesta con los datos.' (subjunctive)",
+      "correct": "sea",
+      "explanation": "'No creo que la empresa sea honesta con los datos.' — 'No creo que' triggers the subjunctive because you are expressing doubt/negation of belief. 'Sea' = present subjunctive of ser, 3rd person singular."
+    },
+    {
+      "type": "exercise",
+      "question": "Which term describes sensationalist headlines designed to attract clicks?",
+      "options": ["El clickbait", "La publicidad", "El titular", "La propaganda"],
+      "correct": 0,
+      "explanation": "'El clickbait' = clickbait. These are headlines or thumbnails designed to attract clicks, often using sensationalism, exaggeration, or withholding key information. They are a hallmark of low-quality online media."
+    },
+    {
+      "type": "exercise",
+      "question": "What does 'la cámara de eco' mean?",
+      "options": ["An echo chamber — a situation where beliefs are amplified by repetition", "A recording studio", "A soundproof room", "A newsroom"],
+      "correct": 0,
+      "explanation": "'La cámara de eco' = echo chamber. This describes an environment where a person only encounters information or opinions that reflect and reinforce their own. Social media algorithms can create echo chambers."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: 'Al parecer, la noticia ______ (publicar) antes de verificarse.' (passive preterite)",
+      "correct": "fue publicada",
+      "explanation": "'Al parecer, la noticia fue publicada antes de verificarse.' = Apparently, the news was published before being verified. 'Fue publicada' is the passive voice (ser + past participle) in the preterite tense."
+    },
+    {
+      "type": "exercise",
+      "question": "What does 'la huella digital' mean?",
+      "options": ["A fingerprint scan", "A digital footprint — the trail of data you leave online", "A digital signature", "A password"],
+      "correct": 1,
+      "explanation": "'La huella digital' = digital footprint. It refers to all the data you leave behind when using the internet: social media activity, search history, purchased items, location data, etc."
+    },
+    {
+      "type": "exercise",
+      "question": "Which word means 'to debunk' in Spanish?",
+      "options": ["desmentir", "desinformar", "describir", "desconocer"],
+      "correct": 0,
+      "explanation": "'Desmentir' = to debunk / to disprove / to deny. In media literacy, it means to prove that a claim or piece of information is false. For example: 'Los expertos desmintieron la teoría conspirativa.'"
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: '______ la fuente, la información es falsa, pero no tienen pruebas.' (According to)",
+      "correct": "Según",
+      "explanation": "'Según la fuente, la información es falsa, pero no tienen pruebas.' = According to the source, the information is false, but they have no proof. 'Según' is the standard connector for attributing information to a source."
+    },
+    {
+      "type": "exercise",
+      "question": "What does 'el sesgo' mean in the context of media?",
+      "options": ["A style of writing", "A bias — a tendency to present information in a one-sided way", "A type of news", "A social media trend"],
+      "correct": 1,
+      "explanation": "'El sesgo' = bias. In media, it refers to a tendency to present information in a one-sided way, favoring a particular perspective or ideology. Recognizing bias is a core skill of media literacy."
+    },
+    {
+      "type": "exercise",
+      "question": "Which connector introduces a contrast in Spanish?",
+      "options": ["Por otro lado", "Además", "En primer lugar", "En resumen"],
+      "correct": 0,
+      "explanation": "'Por otro lado' = on the other hand. It is used to introduce a contrasting or alternative perspective. Essential for presenting multiple sides of a media analysis."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: 'Es alarmante que las redes sociales ______ (permitir) la desinformación.' (subjunctive)",
+      "correct": "permitan",
+      "explanation": "'Es alarmante que las redes sociales permitan la desinformación.' — 'Es alarmante que' triggers the subjunctive. 'Permitan' = present subjunctive of permitir, 3rd person plural (ellas)."
+    },
+    {
+      "type": "exercise",
+      "question": "What does 'la deepfake' refer to?",
+      "options": ["A deep-sea fishing technique", "AI-generated fake media that makes people appear to say or do things they never did", "A deep analysis of news", "A type of encryption"],
+      "correct": 1,
+      "explanation": "'La deepfake' = deepfake. AI-generated synthetic media that makes it appear as though someone said or did something they never actually did. It is one of the most serious challenges to media credibility today."
+    },
+    {
+      "type": "exercise",
+      "question": "Which adjective means 'reliable' in Spanish?",
+      "options": ["fiable / confiable", "falso", "sensacionalista", "subjetivo"],
+      "correct": 0,
+      "explanation": "'Fiable' or 'confiable' = reliable/trustworthy. These are key adjectives for evaluating sources. A reliable source is 'una fuente fiable/confiable'. Unreliable = 'no fiable / no confiable'."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: 'Los datos ______ (manipular) para influir en la opinión pública.' (passive preterite)",
+      "correct": "fueron manipulados",
+      "explanation": "'Los datos fueron manipulados para influir en la opinión pública.' = The data was manipulated to influence public opinion. 'Fueron manipulados' is the passive voice in the preterite, agreeing with the plural subject 'los datos'."
+    },
+    {
+      "type": "exercise",
+      "question": "What does 'alfabetización mediática' mean?",
+      "options": ["Learning to read media articles", "Media literacy — the ability to critically analyze media content", "Learning to write news", "Media production skills"],
+      "correct": 1,
+      "explanation": "'Alfabetización mediática' = media literacy. It refers to the ability to critically analyze, evaluate, and create media content. In today's digital age, media literacy is essential for navigating information responsibly."
+    },
+    {
+      "type": "exercise",
+      "question": "Which term refers to 'hate speech' in Spanish?",
+      "options": ["el discurso de odio", "la violencia verbal", "la agresión mediática", "el lenguaje vulgar"],
+      "correct": 0,
+      "explanation": "'El discurso de odio' = hate speech. This refers to language that attacks or uses derogatory language toward a person or group based on characteristics like race, religion, ethnicity, gender, etc. Many social media platforms prohibit hate speech."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete with the correct connector: '______, sin fuentes verificables, no se puede dar por buena la noticia.' (In conclusion)",
+      "correct": "En conclusión",
+      "explanation": "'En conclusión, sin fuentes verificables, no se puede dar por buena la noticia.' = In conclusion, without verifiable sources, the news cannot be considered valid. This is a standard concluding phrase for media analysis."
+    }
+  ]
+}

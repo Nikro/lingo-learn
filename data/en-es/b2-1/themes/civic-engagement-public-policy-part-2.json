@@ -1,0 +1,212 @@
+{
+  "level": "B2.1",
+  "stage": "B2.1",
+  "theme_number": 8,
+  "title": "Civic Engagement & Public Policy",
+  "title_es": "Participación Ciudadana y Política Pública",
+  "description": "Vocabulary, grammar, and exercises for discussing civic participation, public policy debate, governance, and community engagement at the B2.1 CEFR level.",
+  "description_es": "Vocabulario, gramática y ejercicios para discutir la participación ciudadana, el debate de política pública, la gobernanza y el compromiso comunitario al nivel B2.1 del Marco Común Europeo.",
+  "aligned_topic": "Tema 21: Participación Ciudadana y Política Pública",
+  "instituto_cervantes_reference": "Plan Curricular del Instituto Cervantes — Sociedad y participación ciudadana (B2): debate de temas de actualidad, argumentación sobre políticas públicas, roles en la comunidad; Funciones: expresar opinión sobre políticas, argumentar a favor/en contra, proponer soluciones ciudadanas; Nociones: democracia, participación, gobernanza, bien común, interés público",
+  "created_at": "2026-08-03",
+  "vocabulary": {
+    "total_count": 60,
+    "nouns": [
+      {"word": "el diputado / la diputada", "english": "member of parliament / representative", "category": "gobierno", "example": "La diputada presentó una enmienda al proyecto de ley de vivienda."},
+      {"word": "el senador / la senadora", "english": "senator", "category": "gobierno", "example": "El senador defendió la postura del partido durante el debate."},
+      {"word": "el alcalde / la alcaldesa", "english": "mayor", "category": "gobierno", "example": "La alcaldesa inauguró el nuevo centro comunitario."},
+      {"word": "el concejal / la concejala", "english": "city councilor", "category": "gobierno", "example": "Los concejales votaron a favor de la nueva ordenanza."},
+      {"word": "el ministerio", "english": "ministry", "category": "gobierno", "example": "El Ministerio de Educación anunció nuevas medidas."},
+      {"word": "el departamento", "english": "department", "category": "gobierno", "example": "El departamento de urbanismo aprobó el plan general."},
+      {"word": "la agencia gubernamental", "english": "government agency", "category": "gobierno", "example": "La agencia reguladora supervisa el sector energético."},
+      {"word": "la junta electoral", "english": "election board", "category": "gobernanza", "example": "La junta electoral certificó los resultados de las elecciones."},
+      {"word": "el cabildo abierto", "english": "open town hall", "category": "gobernanza", "example": "El cabildo abierto fue convocado para debatir el plan urbanístico."},
+      {"word": "el cabildo municipal", "english": "city council", "category": "gobierno", "example": "El cabildo municipal aprobó el presupuesto anual."},
+      {"word": "la alcaldía", "english": "mayor's office / city hall", "category": "gobierno", "example": "La alcaldía presentó el plan de movilidad sostenible."},
+      {"word": "la concejalía", "english": "city council department", "category": "gobierno", "example": "La concejalía de Medio Ambiente lanzó una campaña de reciclaje."},
+      {"word": "la corporación local", "english": "local government body", "category": "gobierno", "example": "La corporación local coordinó la respuesta ante la emergencia."},
+      {"word": "el órgano de participación", "english": "participatory body", "category": "gobernanza", "example": "El órgano de participación reunió a representantes de la comunidad."},
+      {"word": "la asamblea ciudadana", "english": "citizen assembly", "category": "gobernanza", "example": "La asamblea ciudadana formuló recomendaciones sobre la política de vivienda."},
+      {"word": "el consejo consultivo", "english": "advisory council", "category": "gobierno", "example": "El consejo consultivo emitió un dictamen favorable."},
+      {"word": "el síndico de agravios", "english": "ombudsman", "category": "gobierno", "example": "El síndico de agravios investigó las quejas de los ciudadanos."},
+      {"word": "la veeduría ciudadana", "english": "citizen oversight board", "category": "gobernanza", "example": "La veeduría ciudadana monitoreó la ejecución del proyecto."},
+      {"word": "el comité de ética", "english": "ethics committee", "category": "gobierno", "example": "El comité de ética evaluó la conducta de los funcionarios."},
+      {"word": "el fondo social", "english": "social fund", "category": "sociedad", "example": "El fondo social financia proyectos comunitarios en barrios desfavorecidos."},
+      {"word": "la subvención", "english": "subsidy / grant", "category": "gobierno", "example": "La subvención permitió que la ONG ampliara sus programas."},
+      {"word": "el impuesto", "english": "tax", "category": "gobierno", "example": "El impuesto sobre la renta financia los servicios públicos."},
+      {"word": "la recaudación fiscal", "english": "tax collection", "category": "gobierno", "example": "La recaudación fiscal aumentó un 5% respecto al año anterior."},
+      {"word": "el déficit presupuestario", "english": "budget deficit", "category": "gobierno", "example": "El déficit presupuestario obligó a recortar gastos."},
+      {"word": "la deuda pública", "english": "public debt", "category": "gobierno", "example": "La deuda pública del país aumentó durante la crisis económica."}
+    ],
+    "verbs": [
+      {"word": "votar", "english": "to vote", "category": "gobernanza", "example": "Los ciudadanos votaron por mayoría en el referéndum."},
+      {"word": "candidatar", "english": "to run for office", "category": "gobernanza", "example": "La candidata se presentó a las elecciones municipales."},
+      {"word": "gobernar", "english": "to govern", "category": "gobierno", "example": "Gobernar requiere equilibrio entre diferentes intereses."},
+      {"word": "administrar", "english": "to administer", "category": "gobierno", "example": "La nueva administración administró los recursos con eficiencia."},
+      {"word": "delegar", "english": "to delegate", "category": "gobierno", "example": "El alcalde delegó competencias en los concejales."},
+      {"word": "rendir cuentas", "english": "to account for / report", "category": "gobierno", "example": "Los funcionarios deben rendir cuentas sobre el uso de los fondos."},
+      {"word": "impugnar", "english": "to challenge / contest", "category": "gobierno", "example": "La oposición impugnó la constitucionalidad de la ley."},
+      {"word": "aplicar", "english": "to apply / implement", "category": "gobierno", "example": "Es necesario aplicar las nuevas normas de forma uniforme."},
+      {"word": "suplir", "english": "to supplement / fill in", "category": "gobierno", "example": "La comunidad debe suplir las carencias del servicio público."},
+      {"word": "abogar por", "english": "to advocate for", "category": "sociedad", "example": "Las ONG abogan por una política social más inclusiva."},
+      {"word": "denunciar", "english": "to denounce / report", "category": "sociedad", "example": "Los ciudadanos denunciaron irregularidades en la contratación pública."},
+      {"word": "proponer", "english": "to propose", "category": "gobierno", "example": "La asociación propuso mejoras para el transporte público."},
+      {"word": "convocar", "english": "to call / convene", "category": "gobernanza", "example": "La alcaldesa convocó una reunión extraordinaria del consejo."},
+      {"word": "ratificar", "english": "to ratify", "category": "gobierno", "example": "El parlamento ratificó el acuerdo internacional sobre el clima."},
+      {"word": "derogar", "english": "to repeal", "category": "gobierno", "example": "La oposición presentó una moción para derogar la ley de vivienda."}
+    ],
+    "adjectives": [
+      {"word": "constitucional / constitucional", "english": "constitutional", "category": "gobierno", "example": "El Tribunal Constitucional declaró la ley inconstitucional."},
+      {"word": "electoral", "english": "electoral", "category": "gobernanza", "example": "La campaña electoral fue muy intensa en las redes sociales."},
+      {"word": "legislativo / legislativa", "english": "legislative", "category": "gobierno", "example": "La sesión legislativa duró toda la tarde."},
+      {"word": "ejecutivo / ejecutiva", "english": "executive", "category": "gobierno", "example": "El poder ejecutivo presentó el presupuesto anual."},
+      {"word": "judicial", "english": "judicial", "category": "gobierno", "example": "El poder judicial es independiente del ejecutivo."},
+      {"word": "autónomo / autónoma", "english": "autonomous", "category": "gobierno", "example": "La comunidad autónoma tiene competencias en educación."},
+      {"word": "descentralizado / descentralizada", "english": "decentralized", "category": "gobierno", "example": "El proceso descentralizado acerca la administración a los ciudadanos."},
+      {"word": "corrupto / corrupta", "english": "corrupt", "category": "gobierno", "example": "El escándalo corrupto sacudió la confianza pública."},
+      {"word": "transparente", "english": "transparent", "category": "gobierno", "example": "La gestión transparente fortalece la democracia."},
+      {"word": "participativo / participativa", "english": "participatory", "category": "gobernanza", "example": "El modelo participativo integra a la comunidad en la toma de decisiones."},
+      {"word": "rendidor / rendidora", "english": "accountable", "category": "gobierno", "example": "La administración rendidora responde ante la ciudadanía."},
+      {"word": "eficaz / eficaz", "english": "effective", "category": "gobierno", "example": "Las políticas eficaces requieren planificación a largo plazo."}
+    ],
+    "phrases_and_connectors": [
+      {"phrase": "en el ejercicio de", "english": "in the exercise of", "category": "gobierno", "example": "En el ejercicio de su mandato, el diputado presentó una enmienda."},
+      {"phrase": "en virtud de", "english": "by virtue of", "category": "gobierno", "example": "En virtud de la Constitución, el rey es el jefe del Estado."},
+      {"phrase": "en caso de que", "english": "in case that / if", "category": "conectores", "example": "En caso de que no se apruebe la ley, habrá que buscar otra vía."},
+      {"phrase": "por cuanto", "english": "since / given that", "category": "conectores", "example": "La propuesta fue retirada, por cuanto no reunía los requisitos."},
+      {"phrase": "sin perjuicio de", "english": "without prejudice to", "category": "gobierno", "example": "Se aprobaron las enmiendas, sin perjuicio del informe del comité."},
+      {"phrase": "de acuerdo con", "english": "in accordance with", "category": "gobierno", "example": "El procedimiento se realizó de acuerdo con la legislación vigente."},
+      {"phrase": "a tenor de", "english": "in light of / according to", "category": "gobierno", "example": "A tenor de los resultados, se propone una modificación de la ley."},
+      {"phrase": "bajo la responsabilidad de", "english": "under the responsibility of", "category": "gobierno", "example": "La ejecución del proyecto quedó bajo la responsabilidad del departamento."},
+      {"phrase": "en cumplimiento de", "english": "in compliance with", "category": "gobierno", "example": "En cumplimiento de la ley, se publicó el acta en el diario oficial."},
+      {"phrase": "a sabiendas de que", "english": "knowing that", "category": "conectores", "example": "A sabiendas de que los fondos son limitados, se priorizó la inversión social."}
+    ]
+  },
+  "grammar": [
+    {
+      "id": "g4",
+      "title": "Subjuntivo en oraciones subordinadas de propósito",
+      "title_en": "Subjunctive in purpose clauses",
+      "description": "B2.1: Para que + subjuntivo, con el fin de que + subjuntivo, a fin de que + subjuntivo, de manera que + subjuntivo. Used when proposing solutions or expressing intended outcomes of policies.",
+      "description_es": "B2.1: Para que + subjuntivo, con el fin de que + subjuntivo, a fin de que + subjuntivo. Se usa al proponer soluciones o expresar resultados esperados de políticas.",
+      "examples": [
+        "Es necesario aumentar la inversión pública para que los servicios mejoren.",
+        "Se propuso la reforma con el fin de que todos los ciudadanos se beneficien.",
+        "Los ciudadanos exigen participación a fin de que las decisiones sean más legítimas.",
+        "El gobierno implementó el programa de manera que llegue a todos los barrios.",
+        "Se creó el consejo consultivo para que la sociedad civil tenga voz en las decisiones.",
+        "La ley fue modificada de manera que los derechos de los consumidores sean protegidos."
+      ]
+    },
+    {
+      "id": "g5",
+      "title": "Oraciones comparativas con estructuras de grado",
+      "title_en": "Comparative clauses with degree structures",
+      "description": "B2.1: tan... como, más... que, menos... que, tanto como, lo mismo que, a diferencia de, mientras que. Essential for comparing policy outcomes and governance models.",
+      "description_es": "B2.1: tan... como, más... que, menos... que, tanto como, a diferencia de, mientras que. Esenciales para comparar resultados de políticas y modelos de gobernanza.",
+      "examples": [
+        "El presupuesto de educación es más alto que el de defensa.",
+        "La participación ciudadana es tan importante como la representación electoral.",
+        "Este modelo es menos eficiente que el anterior.",
+        "Los municipios pequeños tienen tanto derecho a recursos como las grandes ciudades.",
+        "A diferencia del sistema anterior, el nuevo es más transparente.",
+        "Mientras que la oposición critica la gestión, la mayoría la defiende."
+      ]
+    },
+    {
+      "id": "g6",
+      "title": "Voz pasiva y pasiva refleja en textos formales de política",
+      "title_en": "Passive voice and reflexive passive in formal policy texts",
+      "description": "B2.1: Pasiva (fue aprobada, fueron modificadas) y pasiva refleja con 'se' (se estableció, se determinó, se concluyó). Common in legislative and administrative language.",
+      "description_es": "B2.1: Pasiva (fue aprobada) y pasiva refleja con 'se' (se estableció). Común en lenguaje legislativo y administrativo.",
+      "examples": [
+        "La ley fue aprobada por el parlamento con una mayoría del 60%.",
+        "Se estableció un plazo de treinta días para la consulta pública.",
+        "El presupuesto fue modificado tres veces durante el ejercicio fiscal.",
+        "Se determinó que la propuesta no cumplía los requisitos constitucionales.",
+        "Las medidas fueron implementadas gradualmente para minimizar el impacto.",
+        "Se concluyó que la participación ciudadana mejora la legitimidad de las decisiones."
+      ]
+    }
+  ],
+  "pronunciation": [
+    {
+      "id": "p3",
+      "title": "Acentuación de términos legislativos y administrativos",
+      "title_en": "Stress patterns of legislative and administrative terms",
+      "description": "Practice stress in administrative vocabulary: constitución (cons-ti-tu-**ción**), ley (/léi), decreto (de-**cre**-to), norma (/nór-ma), reglamento (/re-glá-mén-to), ordenanza (or-de-**nán**-za), resolución (re-so-lu-**ción**), sentencia (sen-**ten**-cia), juramento (ju-ra-**mén**-to), trámite (trá-**mi**-te). Focus on the distinction between llana, aguda and esdrújula words in formal contexts.",
+      "description_es": "Practicar la acentuación del vocabulario administrativo: constitución, decreto, reglamento, ordenanza, resolución, sentencia, juramento, trámite."
+    },
+    {
+      "id": "p4",
+      "title": "Entonación en debates públicos: énfasis y pausas",
+      "title_en": "Intonation in public debates: emphasis and pauses",
+      "description": "Practice intonation patterns for formal debate: rising intonation at the end of rhetorical questions ('¿Es justo que se recorten los servicios básicos?'), falling intonation for definitive statements ('La reforma es necesaria'), strategic pauses before key points ('La población, [pausa] requiere, [pausa] una solución urgente').",
+      "description_es": "Practicar patrones de entonación para debates formales: entonación ascendente en preguntas retóricas, entonación descendente en afirmaciones, pausas estratégicas antes de puntos clave."
+    },
+    {
+      "id": "p5",
+      "title": "Pronunciación de dígrafos y grupos consonánticos formales",
+      "title_en": "Pronunciation of formal digraphs and consonant clusters",
+      "description": "Practice Spanish sounds in formal vocabulary: participación (/par-ti-si-**pa**-ción), gestión (/xes-**tion** con /x/ suave), administración (/ad-mi-nis-tra-**ción** con /θ/ o /s/ según región), legislatura (/le-xis-la-**tu**-ra / le-si-sla-**tu**-ra), constitucional (/cons-ti-tu-sio-**nal** / cons-ti-tu-θio-**nal**).",
+      "description_es": "Practicar los sonidos del español en vocabulario formal: participación, gestión, administración, legislatura, constitucional."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e4",
+      "type": "vocabulary_matching",
+      "title": "Instituciones y cargos: asociar con descripción",
+      "title_en": "Institutions and roles: match with description",
+      "instructions": "Asocia cada institución o cargo con su descripción correcta.",
+      "instructions_en": "Match each institution or role with its correct description.",
+      "items": [
+        {"term": "el síndico de agravios", "definition": "Funcionario independiente que recibe y investiga las quejas de los ciudadanos contra la administración"},
+        {"term": "la veeduría ciudadana", "definition": "Grupo de ciudadanos que monitorean la ejecución de proyectos públicos"},
+        {"term": "el cabildo abierto", "definition": "Reunión pública donde los ciudadanos debaten directamente con las autoridades"},
+        {"term": "el presupuesto participativo", "definition": "Mecanismo que permite a los ciudadanos decidir parte de los gastos municipales"},
+        {"term": "la iniciativa popular", "definition": "Procedimiento que permite a los ciudadanos proponer leyes mediante firmas"}
+      ]
+    },
+    {
+      "id": "e5",
+      "type": "fill_in_the_blank",
+      "title": "Completar con conectores formales",
+      "title_en": "Complete with formal connectors",
+      "instructions": "Completa las oraciones con el conector formal adecuado.",
+      "instructions_en": "Complete the sentences with the appropriate formal connector.",
+      "items": [
+        {"sentence": "______ los fondos son limitados, se priorizó la inversión social.", "answer": "Por cuanto"},
+        {"sentence": "Se aprobaron las enmiendas, ______ del informe del comité.", "answer": "Sin perjuicio"},
+        {"sentence": "______ no se apruebe la ley, habrá que buscar otra vía.", "answer": "En caso de que"},
+        {"sentence": "El procedimiento se realizó ______ la legislación vigente.", "answer": "De acuerdo con"}
+      ]
+    },
+    {
+      "id": "e6",
+      "type": "translation",
+      "title": "Traducción: lenguaje formal de política pública",
+      "title_en": "Translation: formal language of public policy",
+      "instructions": "Traduce al español las siguientes oraciones con lenguaje formal de política pública.",
+      "instructions_en": "Translate the following sentences with formal public policy language into Spanish.",
+      "items": [
+        {"english": "The reform must be implemented in such a way that all citizens benefit.", "expected": "La reforma debe implementarse de manera que todos los ciudadanos se beneficien."},
+        {"english": "It was established that a thirty-day period was set for public consultation.", "expected": "Se estableció un plazo de treinta días para la consulta pública."},
+        {"english": "Although the reform is necessary, it must be implemented gradually.", "expected": "Aunque la reforma es necesaria, debe implementarse gradualmente."}
+      ]
+    },
+    {
+      "id": "e7",
+      "type": "sentence_completion",
+      "title": "Completar oraciones con subjuntivo de propósito",
+      "title_en": "Complete sentences with purpose subjunctive",
+      "instructions": "Completa las oraciones usando 'para que + subjuntivo' o 'con el fin de que + subjuntivo'.",
+      "instructions_en": "Complete the sentences using 'para que + subjunctive' or 'con el fin de que + subjunctive'.",
+      "items": [
+        {"stem": "Se creó el consejo consultivo", "continuation": "______ la sociedad civil tenga representación en las decisiones."},
+        {"stem": "Es necesario aumentar la inversión pública", "continuation": "______ los servicios mejoren para toda la población."},
+        {"stem": "Los ciudadanos exigen transparencia", "continuation": "______ los funcionarios rindan cuentas."}
+      ]
+    }
+  ]
+}

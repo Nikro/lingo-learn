@@ -1,0 +1,468 @@
+{
+  "metadata": {
+    "level": "B2.1",
+    "theme_title": "Advanced Literary Analysis",
+    "theme_english": "Advanced Literary Analysis",
+    "theme_spanish": "Análisis Literario Avanzado",
+    "description": "Advanced vocabulary, grammar, pronunciation, and exercises for literary analysis, narrative techniques, poetic devices, and critical reading at the B2.1 CEFR level.",
+    "topics": [
+      "literary theory",
+      "narrative techniques",
+      "poetic analysis",
+      "textual interpretation",
+      "figure of speech",
+      "narrative voice",
+      "literary movements",
+      "critical reading"
+    ],
+    "cefr_alignment": {
+      "level": "B2.1",
+      "can_do_statements": [
+        "Comprender prosa literaria contemporánea y textos críticos sobre literatura",
+        "Analizar técnicas narrativas y su efecto en el lector",
+        "Interpretar simbolismo y metáfora en textos literarios",
+        "Expresar opiniones fundamentadas sobre obras literarias y movimientos culturales",
+        "Comparar diferentes perspectivas interpretativas de un mismo texto"
+      ]
+    },
+    "created_at": "2026-08-03T00:00:00Z",
+    "version": "1.0",
+    "part": 2,
+    "parent_theme": "Advanced Literary Analysis"
+  },
+  "vocabulary": {
+    "total_count": 60,
+    "categories": {
+      "verbs": [
+        {
+          "spanish": "interpretar",
+          "english": "to interpret",
+          "phonetic": "/in.teɾ.peɾˈtaɾ/",
+          "conjugation": "regular -ar",
+          "example": "Cada lector puede interpretar el texto de manera diferente."
+        },
+        {
+          "spanish": "analizar",
+          "english": "to analyze",
+          "phonetic": "/a.na.liˈzaɾ/",
+          "conjugation": "regular -ar",
+          "example": "Debemos analizar las técnicas narrativas del autor."
+        },
+        {
+          "spanish": "interpretar",
+          "english": "to interpret, to perform",
+          "phonetic": "/in.teɾ.peɾˈtaɾ/",
+          "conjugation": "regular -ar",
+          "example": "El crítico interpretó el simbolismo de la obra."
+        },
+        {
+          "spanish": "simbolizar",
+          "english": "to symbolize",
+          "phonetic": "/sim.bo.liˈzaɾ/",
+          "conjugation": "regular -ar",
+          "example": "El río simboliza el paso del tiempo."
+        },
+        {
+          "spanish": "reflejar",
+          "english": "to reflect",
+          "phonetic": "/ɾe.ˈlex.xaɾ/",
+          "conjugation": "regular -ar",
+          "example": "La obra refleja las tensiones sociales de su época."
+        },
+        {
+          "spanish": "evocar",
+          "english": "to evoke",
+          "phonetic": "/e.boˈkaɾ/",
+          "conjugation": "regular -ar",
+          "example": "El poema evoca recuerdos de la infancia."
+        },
+        {
+          "spanish": "representar",
+          "english": "to represent, to portray",
+          "phonetic": "/ɾe.pɾe.senˈtaɾ/",
+          "conjugation": "regular -ar",
+          "example": "El personaje representa la lucha por la libertad."
+        },
+        {
+          "spanish": "expresar",
+          "english": "to express",
+          "phonetic": "/eks.peˈsaɾ/",
+          "conjugation": "regular -ar",
+          "example": "El autor expresa su descontento a través de la sátira."
+        },
+        {
+          "spanish": "describir",
+          "english": "to describe",
+          "phonetic": "/des.kɾiˈbiɾ/",
+          "conjugation": "regular -ir",
+          "example": "La autora describe el paisaje con precisión."
+        },
+        {
+          "spanish": "criticar",
+          "english": "to critique",
+          "phonetic": "/kɾi.tiˈkaɾ/",
+          "conjugation": "regular -car",
+          "example": "La crítica feminista analizó la representación de género."
+        },
+        {
+          "spanish": "comparar",
+          "english": "to compare",
+          "phonetic": "/kom.paˈɾaɾ/",
+          "conjugation": "regular -ar",
+          "example": "Se puede comparar esta obra con el realismo mágico."
+        },
+        {
+          "spanish": "interpretar",
+          "english": "to interpret",
+          "phonetic": "/in.teɾ.peɾˈtaɾ/",
+          "conjugation": "regular -ar",
+          "example": "Interpretar un texto requiere sensibilidad y contexto."
+        },
+        {
+          "spanish": "enfatizar",
+          "english": "to emphasize",
+          "phonetic": "/en.fatiˈθaɾ/",
+          "conjugation": "regular -ar",
+          "example": "El autor enfatiza el conflicto moral del protagonista."
+        },
+        {
+          "spanish": "sugerir",
+          "english": "to suggest, to imply",
+          "phonetic": "/su.xeˈɾiɾ/",
+          "conjugation": "regular -ir",
+          "example": "El texto sugiere múltiples interpretaciones."
+        },
+        {
+          "spanish": "aludir",
+          "english": "to allude",
+          "phonetic": "/a.luˈðiɾ/",
+          "conjugation": "regular -ir",
+          "example": "El autor alude a la mitología griega en varios pasajes."
+        },
+        {
+          "spanish": "contrastar",
+          "english": "to contrast",
+          "phonetic": "/kon.tsˈta.ɾaɾ/",
+          "conjugation": "regular -ar",
+          "example": "El poema contrasta la luz con la oscuridad."
+        },
+        {
+          "spanish": "subrayar",
+          "english": "to underline, to stress",
+          "phonetic": "/sub.ɾaˈʝaɾ/",
+          "conjugation": "regular -ar",
+          "example": "Queremos subrayar la importancia del contexto histórico."
+        },
+        {
+          "spanish": "transmitir",
+          "english": "to transmit, to convey",
+          "phonetic": "/tɾans.miˈtiɾ/",
+          "conjugation": "regular -ir",
+          "example": "La obra transmite un mensaje universal sobre la libertad."
+        },
+        {
+          "spanish": "descifrar",
+          "english": "to decipher",
+          "phonetic": "/des.θiˈβɾaɾ/",
+          "conjugation": "regular -ar",
+          "example": "Descifrar el simbolismo de Borges es un reto intelectual."
+        },
+        {
+          "spanish": "examinar",
+          "english": "to examine",
+          "phonetic": "/e.ɡa.miˈnaɾ/",
+          "conjugation": "regular -ar",
+          "example": "Examinemos la estructura del poema paso a paso."
+        },
+        {
+          "spanish": "argumentar",
+          "english": "to argue, to make an argument",
+          "phonetic": "/aɾ.ɰu.menˈtaɾ/",
+          "conjugation": "regular -ar",
+          "example": "El autor argumenta que la identidad es fluida."
+        },
+        {
+          "spanish": "concluir",
+          "english": "to conclude",
+          "phonetic": "/kon.kluˈθiɾ/",
+          "conjugation": "regular -ir",
+          "example": "Podemos concluir que el símbolo del agua representa purificación."
+        },
+        {
+          "spanish": "deconstruir",
+          "english": "to deconstruct",
+          "phonetic": "/de.kons.tɾuˈiɾ/",
+          "conjugation": "regular -ir",
+          "example": "La deconstrucción revela las suposiciones del texto."
+        },
+        {
+          "spanish": "reinterpretar",
+          "english": "to reinterpret",
+          "phonetic": "/ɾe.in.teɾ.peɾˈtaɾ/",
+          "conjugation": "regular -ar",
+          "example": "Las nuevas generaciones reinterpretan los clásicos."
+        },
+        {
+          "spanish": "contextualizar",
+          "english": "to contextualize",
+          "phonetic": "/kon.tek.stu.a.liˈθaɾ/",
+          "conjugation": "regular -ar",
+          "example": "Hay que contextualizar la obra dentro del Boom latinoamericano."
+        }
+      ],
+      "adjectives": [
+        {
+          "spanish": "contemporáneo/a",
+          "english": "contemporary",
+          "phonetic": "/kon.tem.poˈɾa.ɲo/a/",
+          "gender": "masculine/feminine",
+          "example": "La literatura contemporánea desafía las convenciones."
+        },
+        {
+          "spanish": "subyacente",
+          "english": "underlying, latent",
+          "phonetic": "/sub.ʝaˈθen.te/",
+          "gender": "invariable",
+          "example": "El tema subyacente es la búsqueda de identidad."
+        },
+        {
+          "spanish": "multifacético/a",
+          "english": "multifaceted",
+          "phonetic": "/mul.tifaˈθe.tiko/a/",
+          "gender": "masculine/feminine",
+          "example": "La obra es multifacética y se presta a múltiples lecturas."
+        },
+        {
+          "spanish": "ambiguo/a",
+          "english": "ambiguous",
+          "phonetic": "/am.biˈɰwo/a/",
+          "gender": "masculine/feminine",
+          "example": "El final ambiguo provoca debates entre los lectores."
+        },
+        {
+          "spanish": "intrincado/a",
+          "english": "intricate, complex",
+          "phonetic": "/in.tɾinˈka.do/a/",
+          "gender": "masculine/feminine",
+          "example": "La trama intrincada recompensa la lectura atenta."
+        },
+        {
+          "spanish": "vago/a",
+          "english": "vague",
+          "phonetic": "/ˈβa.ɣo/a/",
+          "gender": "masculine/feminine",
+          "example": "Las referencias vagas invitan a la interpretación personal."
+        },
+        {
+          "spanish": "explícito/a",
+          "english": "explicit",
+          "phonetic": "/eksˈplis.to/a/",
+          "gender": "masculine/feminine",
+          "example": "El mensaje explícito es la defensa de la libertad."
+        },
+        {
+          "spanish": "implícito/a",
+          "english": "implicit",
+          "phonetic": "/imˈplis.to/a/",
+          "gender": "masculine/feminine",
+          "example": "El subtexto implícito revela tensiones no dichas."
+        },
+        {
+          "spanish": "universal",
+          "english": "universal",
+          "phonetic": "/u.ni.βeɾˈsal/",
+          "gender": "invariable",
+          "example": "El tema de la muerte tiene resonancia universal."
+        },
+        {
+          "spanish": "particular",
+          "english": "particular, specific",
+          "phonetic": "/paɾ.tiˈkju.laɾ/",
+          "gender": "invariable",
+          "example": "La perspectiva particular del autor enriquece el texto."
+        },
+        {
+          "spanish": "figurado/a",
+          "english": "figurative",
+          "phonetic": "/fi.ɰuˈɾa.ðo/a/",
+          "gender": "masculine/feminine",
+          "example": "La expresión es figurada, no literal."
+        },
+        {
+          "spanish": "literal",
+          "english": "literal",
+          "phonetic": "/li.teˈɾal/",
+          "gender": "invariable",
+          "example": "La lectura literal pasa por alto las metáforas."
+        },
+        {
+          "spanish": "alegórico/a",
+          "english": "allegorical",
+          "phonetic": "/a.leˈɰo.ɾi.ko/a/",
+          "gender": "masculine/feminine",
+          "example": "La lectura alegórica descubre un segundo nivel."
+        },
+        {
+          "spanish": "simbólico/a",
+          "english": "symbolic",
+          "phonetic": "/sim.boˈli.ko/a/",
+          "gender": "masculine/feminine",
+          "example": "El símbolo del agua tiene connotaciones purificadoras."
+        },
+        {
+          "spanish": "narrativo/a",
+          "english": "narrative",
+          "phonetic": "/na.ɾaˈti.βo/a/",
+          "gender": "masculine/feminine",
+          "example": "La estructura narrativa es no lineal."
+        },
+        {
+          "spanish": "poético/a",
+          "english": "poetic",
+          "phonetic": "/poˈe.ti.ko/a/",
+          "gender": "masculine/feminine",
+          "example": "El lenguaje poético crea imágenes vívidas."
+        },
+        {
+          "spanish": "intertextual",
+          "english": "intertextual",
+          "phonetic": "/in.teɾ.tekˈtual/",
+          "gender": "invariable",
+          "example": "El texto es profundamente intertextual."
+        },
+        {
+          "spanish": "metaficcional",
+          "english": "metafictional",
+          "phonetic": "/meta.fiˈθjo.nal/",
+          "gender": "invariable",
+          "note": "término literario",
+          "example": "La novela metaficcional juega con la relación autor-lector."
+        },
+        {
+          "spanish": "experimentar",
+          "english": "to experiment",
+          "phonetic": "/eks.peɾi.menˈtaɾ/",
+          "conjugation": "regular -ar",
+          "example": "Los autores del Boom experimentaron con la narrativa."
+        },
+        {
+          "spanish": "reconocible",
+          "english": "recognizable",
+          "phonetic": "/ɾe.koniˈθi.ble/",
+          "gender": "invariable",
+          "example": "El estilo de Cortázar es inconfundible."
+        }
+      ],
+      "expressions": [
+        {
+          "spanish": "leer entre líneas",
+          "english": "to read between the lines",
+          "phonetic": "/leˈɾaɾ en.tɾe ˈli.ɲas/",
+          "type": "idiom",
+          "example": "Hay que leer entre líneas para captar el significado real."
+        },
+        {
+          "spanish": "dar en el clavo",
+          "english": "to hit the nail on the head",
+          "phonetic": "/daɾ en el ˈkla.βo/",
+          "type": "idiom",
+          "example": "El crítico dio en el clavo al analizar el simbolismo."
+        },
+        {
+          "spanish": "cortar por lo sano",
+          "english": "to cut to the chase",
+          "phonetic": "/koˈtaɾ por lo ˈsano/",
+          "type": "idiom",
+          "example": "El autor corta por lo sano y va directo al punto."
+        },
+        {
+          "spanish": "bajo su mano",
+          "english": "under one's hand (understatement)",
+          "phonetic": "/ˈβa.xo su ˈma.no/",
+          "type": "idiom",
+          "example": "Es un pequeño error, bajo su mano."
+        },
+        {
+          "spanish": "hacerse eco de",
+          "english": "to echo, to take up (a theme)",
+          "phonetic": "/aˈθeɾ ˈe.ko ðe/",
+          "type": "phrase",
+          "example": "Esta obra hace eco de los temas del realismo mágico."
+        },
+        {
+          "spanish": "basarse en",
+          "english": "to be based on",
+          "phonetic": "/baˈsa.ɾe en/",
+          "type": "phrase",
+          "example": "La novela se basa en hechos históricos reales."
+        },
+        {
+          "spanish": "darse cuenta de",
+          "english": "to realize",
+          "phonetic": "/ˈdaɾ.se ˈkwen.ta ðe/",
+          "type": "phrase",
+          "example": "El lector se da cuenta del giro al final."
+        },
+        {
+          "spanish": "en primer lugar",
+          "english": "first of all, firstly",
+          "phonetic": "/en ˈpɾi.meɾ lo.ˈɰaɾ/",
+          "type": "connector",
+          "example": "En primer lugar, analicemos la estructura narrativa."
+        },
+        {
+          "spanish": "por otro lado",
+          "english": "on the other hand",
+          "phonetic": "/poɾ ˈo.tɾo ˈla.ðo/",
+          "type": "connector",
+          "example": "Por otro lado, el simbolismo sugiere una lectura alternativa."
+        },
+        {
+          "spanish": "en conclusión",
+          "english": "in conclusion",
+          "phonetic": "/en kon.kluˈθjon/",
+          "type": "connector",
+          "example": "En conclusión, la obra trasciende su género."
+        },
+        {
+          "spanish": "a diferencia de",
+          "english": "unlike, as opposed to",
+          "phonetic": "/a ði.feˈɾen.θja ðe/",
+          "type": "connector",
+          "example": "A diferencia de la sátira, la parodia no es agresiva."
+        },
+        {
+          "spanish": "en lugar de",
+          "english": "instead of",
+          "phonetic": "/en ˈlu.ɣaɾ ðe/",
+          "type": "connector",
+          "example": "El autor usa la ironía en lugar de la descripción directa."
+        },
+        {
+          "spanish": "no solo... sino también",
+          "english": "not only... but also",
+          "phonetic": "/no ˈsolo... ˈsino tamˈbjen/",
+          "type": "connector",
+          "example": "La obra no solo entretiene, sino que también cuestiona."
+        },
+        {
+          "spanish": "a pesar de que",
+          "english": "despite the fact that",
+          "phonetic": "/a peˈsaɾ ðe ke/",
+          "type": "connector",
+          "example": "A pesar de que es breve, el cuento es profundo."
+        },
+        {
+          "spanish": "en cuanto a",
+          "english": "as for, regarding",
+          "phonetic": "/en ˈkwan.to a/",
+          "type": "connector",
+          "example": "En cuanto a la estructura, el poema sigue un patrón regular."
+        }
+      ]
+    }
+  },
+  "grammar": [],
+  "pronunciation": [],
+  "exercises": []
+}

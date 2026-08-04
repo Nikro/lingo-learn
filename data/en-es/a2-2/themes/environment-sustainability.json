@@ -1,0 +1,272 @@
+{
+  "id": "environment-sustainability",
+  "level": "a2-2",
+  "title": "Environment & Sustainability",
+  "description": "Talk about the environment, climate change, recycling, conservation, and sustainable living. Express concerns about nature, describe environmental problems, and discuss eco-friendly habits. Master the present subjunctive for environmental wishes, 'ser/estar' for environmental descriptions, and comparative/superlative structures for evaluating impact.",
+  "vocabulary": [
+    {"id": 1, "target": "el medio ambiente", "source": "environment", "gender": "m", "type": "noun"},
+    {"id": 2, "target": "la naturaleza", "source": "nature", "gender": "f", "type": "noun"},
+    {"id": 3, "target": "el medio natural", "source": "natural environment", "gender": "m", "type": "phrase"},
+    {"id": 4, "target": "proteger el medio ambiente", "source": "to protect the environment", "gender": "—", "type": "phrase"},
+    {"id": 5, "target": "el clima", "source": "climate", "gender": "m", "type": "noun"},
+    {"id": 6, "target": "el cambio climático", "source": "climate change", "gender": "m", "type": "phrase"},
+    {"id": 7, "target": "el calentamiento global", "source": "global warming", "gender": "m", "type": "phrase"},
+    {"id": 8, "target": "el efecto invernadero", "source": "greenhouse effect", "gender": "m", "type": "phrase"},
+    {"id": 9, "target": "el gas de efecto invernadero", "source": "greenhouse gas", "gender": "m", "type": "phrase"},
+    {"id": 10, "target": "la capa de ozono", "source": "ozone layer", "gender": "f", "type": "phrase"},
+    {"id": 11, "target": "la contaminación", "source": "pollution", "gender": "f", "type": "noun"},
+    {"id": 12, "target": "la contaminación del aire", "source": "air pollution", "gender": "f", "type": "phrase"},
+    {"id": 13, "target": "la contaminación del agua", "source": "water pollution", "gender": "f", "type": "phrase"},
+    {"id": 14, "target": "la contaminación acústica", "source": "noise pollution", "gender": "f", "type": "phrase"},
+    {"id": 15, "target": "el humo", "source": "smoke", "gender": "m", "type": "noun"},
+    {"id": 16, "target": "los gases tóxicos", "source": "toxic gases", "gender": "m", "type": "phrase"},
+    {"id": 17, "target": "los residuos", "source": "waste / refuse", "gender": "m", "type": "noun"},
+    {"id": 18, "target": "los desechos", "source": "dumps / debris", "gender": "m", "type": "noun"},
+    {"id": 19, "target": "el reciclaje", "source": "recycling", "gender": "m", "type": "noun"},
+    {"id": 20, "target": "reciclar", "source": "to recycle", "gender": "v", "type": "verb"},
+    {"id": 21, "target": "reutilizar", "source": "to reuse", "gender": "v", "type": "verb"},
+    {"id": 22, "target": "reducir el consumo", "source": "to reduce consumption", "gender": "—", "type": "phrase"},
+    {"id": 23, "target": "el contenedor de reciclaje", "source": "recycling bin", "gender": "m", "type": "phrase"},
+    {"id": 24, "target": "el contenedor azul", "source": "blue bin (for paper/plastic)", "gender": "m", "type": "phrase"},
+    {"id": 25, "target": "el contenedor amarillo", "source": "yellow bin (for plastic/metal)", "gender": "m", "type": "phrase"},
+    {"id": 26, "target": "el contenedor verde", "source": "green bin (for glass)", "gender": "m", "type": "phrase"},
+    {"id": 27, "target": "la basura", "source": "garbage / trash", "gender": "f", "type": "noun"},
+    {"id": 28, "target": "la basura orgánica", "source": "organic waste", "gender": "f", "type": "phrase"},
+    {"id": 29, "target": "la basura inorgánica", "source": "inorganic waste", "gender": "f", "type": "phrase"},
+    {"id": 30, "target": "el compost", "source": "compost", "gender": "m", "type": "noun"},
+    {"id": 31, "target": "el medio ambiente", "source": "the environment", "gender": "m", "type": "noun"},
+    {"id": 32, "target": "la conservación", "source": "conservation", "gender": "f", "type": "noun"},
+    {"id": 33, "target": "proteger la fauna", "source": "to protect wildlife", "gender": "—", "type": "phrase"},
+    {"id": 34, "target": "proteger la flora", "source": "to protect plant life", "gender": "—", "type": "phrase"},
+    {"id": 35, "target": "la especie en peligro", "source": "endangered species", "gender": "f", "type": "phrase"},
+    {"id": 36, "target": "la extinción", "source": "extinction", "gender": "f", "type": "noun"},
+    {"id": 37, "target": "la deforestación", "source": "deforestation", "gender": "f", "type": "noun"},
+    {"id": 38, "target": "el bosque", "source": "forest", "gender": "m", "type": "noun"},
+    {"id": 39, "target": "el océano", "source": "ocean", "gender": "m", "type": "noun"},
+    {"id": 40, "target": "el mar", "source": "sea", "gender": "m", "type": "noun"},
+    {"id": 41, "target": "el río", "source": "river", "gender": "m", "type": "noun"},
+    {"id": 42, "target": "el lago", "source": "lake", "gender": "m", "type": "noun"},
+    {"id": 43, "target": "la montaña", "source": "mountain", "gender": "f", "type": "noun"},
+    {"id": 44, "target": "el bosque tropical", "source": "rainforest", "gender": "m", "type": "phrase"},
+    {"id": 45, "target": "la selva", "source": "jungle", "gender": "f", "type": "noun"},
+    {"id": 46, "target": "el desierto", "source": "desert", "gender": "m", "type": "noun"},
+    {"id": 47, "target": "la energía solar", "source": "solar energy", "gender": "f", "type": "phrase"},
+    {"id": 48, "target": "la energía eólica", "source": "wind energy", "gender": "f", "type": "phrase"},
+    {"id": 49, "target": "la energía renovable", "source": "renewable energy", "gender": "f", "type": "phrase"},
+    {"id": 50, "target": "la energía limpia", "source": "clean energy", "gender": "f", "type": "phrase"},
+    {"id": 51, "target": "la energía nuclear", "source": "nuclear energy", "gender": "f", "type": "phrase"},
+    {"id": 52, "target": "los combustibles fósiles", "source": "fossil fuels", "gender": "m", "type": "phrase"},
+    {"id": 53, "target": "el petróleo", "source": "oil / petroleum", "gender": "m", "type": "noun"},
+    {"id": 54, "target": "el gas natural", "source": "natural gas", "gender": "m", "type": "phrase"},
+    {"id": 55, "target": "el carbón", "source": "coal", "gender": "m", "type": "noun"},
+    {"id": 56, "target": "sostenible", "source": "sustainable", "gender": "m/f", "type": "adj"},
+    {"id": 57, "target": "ecológico / ecológica", "source": "ecological / eco-friendly", "gender": "m/f", "type": "adj"},
+    {"id": 58, "target": "el producto ecológico", "source": "eco-friendly product", "gender": "m", "type": "phrase"},
+    {"id": 59, "target": "el consumo sostenible", "source": "sustainable consumption", "gender": "m", "type": "phrase"},
+    {"id": 60, "target": "la huella de carbono", "source": "carbon footprint", "gender": "f", "type": "phrase"},
+    {"id": 61, "target": "reducir la huella de carbono", "source": "to reduce one's carbon footprint", "gender": "—", "type": "phrase"},
+    {"id": 62, "target": "el transporte público", "source": "public transport", "gender": "m", "type": "phrase"},
+    {"id": 63, "target": "el coche eléctrico", "source": "electric car", "gender": "m", "type": "phrase"},
+    {"id": 64, "target": "la bicicleta", "source": "bicycle", "gender": "f", "type": "noun"},
+    {"id": 65, "target": "ir en bicicleta", "source": "to go by bike", "gender": "—", "type": "phrase"},
+    {"id": 66, "target": "ahorrar agua", "source": "to save water", "gender": "—", "type": "phrase"},
+    {"id": 67, "target": "ahorrar energía", "source": "to save energy", "gender": "—", "type": "phrase"},
+    {"id": 68, "target": "el agua potable", "source": "drinking water", "gender": "f", "type": "phrase"},
+    {"id": 69, "target": "el agua limpia", "source": "clean water", "gender": "f", "type": "phrase"},
+    {"id": 70, "target": "el aire limpio", "source": "clean air", "gender": "m", "type": "phrase"},
+    {"id": 71, "target": "el aire contaminado", "source": "polluted air", "gender": "m", "type": "phrase"},
+    {"id": 72, "target": "la tierra", "source": "earth / soil / ground", "gender": "f", "type": "noun"},
+    {"id": 73, "target": "el suelo", "source": "soil / ground", "gender": "m", "type": "noun"},
+    {"id": 74, "target": "el árbol", "source": "tree", "gender": "m", "type": "noun"},
+    {"id": 75, "target": "plantar un árbol", "source": "to plant a tree", "gender": "—", "type": "phrase"},
+    {"id": 76, "target": "el animal", "source": "animal", "gender": "m", "type": "noun"},
+    {"id": 77, "target": "la planta", "source": "plant", "gender": "f", "type": "noun"},
+    {"id": 78, "target": "el planeta", "source": "planet / Earth", "gender": "m", "type": "noun"},
+    {"id": 79, "target": "salvar el planeta", "source": "to save the planet", "gender": "—", "type": "phrase"},
+    {"id": 80, "target": "la reserva natural", "source": "nature reserve", "gender": "f", "type": "phrase"},
+    {"id": 81, "target": "el parque nacional", "source": "national park", "gender": "m", "type": "phrase"},
+    {"id": 82, "target": "la temperatura", "source": "temperature", "gender": "f", "type": "noun"},
+    {"id": 83, "target": "la temperatura aumenta", "source": "the temperature is rising", "gender": "—", "type": "phrase"},
+    {"id": 84, "target": "el nivel del mar", "source": "sea level", "gender": "m", "type": "phrase"},
+    {"id": 85, "target": "subir el nivel del mar", "source": "sea level rising", "gender": "—", "type": "phrase"},
+    {"id": 86, "target": "la sequía", "source": "drought", "gender": "f", "type": "noun"},
+    {"id": 87, "target": "las inundaciones", "source": "floods", "gender": "f", "type": "noun"},
+    {"id": 88, "target": "el desastre natural", "source": "natural disaster", "gender": "m", "type": "phrase"},
+    {"id": 89, "target": "la crisis climática", "source": "climate crisis", "gender": "f", "type": "phrase"},
+    {"id": 90, "target": "la cumbre climática", "source": "climate summit", "gender": "f", "type": "phrase"},
+    {"id": 91, "target": "la iniciativa medioambiental", "source": "environmental initiative", "gender": "f", "type": "phrase"},
+    {"id": 92, "target": "ser respetuoso con el medio ambiente", "source": "to be environmentally friendly", "gender": "—", "type": "phrase"},
+    {"id": 93, "target": "dañar el medio ambiente", "source": "to harm the environment", "gender": "—", "type": "phrase"},
+    {"id": 94, "target": "contribuir al calentamiento global", "source": "to contribute to global warming", "gender": "—", "type": "phrase"},
+    {"id": 95, "target": "el impacto ambiental", "source": "environmental impact", "gender": "m", "type": "phrase"},
+    {"id": 96, "target": "el impacto negativo", "source": "negative impact", "gender": "m", "type": "phrase"},
+    {"id": 97, "target": "el impacto positivo", "source": "positive impact", "gender": "m", "type": "phrase"},
+    {"id": 98, "target": "cuidar la naturaleza", "source": "to take care of nature", "gender": "—", "type": "phrase"},
+    {"id": 99, "target": "la biodiversidad", "source": "biodiversity", "gender": "f", "type": "noun"},
+    {"id": 100, "target": "la economía circular", "source": "circular economy", "gender": "f", "type": "phrase"}
+  ],
+  "grammar": [
+    {
+      "title": "Presente de Subjuntivo — Expressing Environmental Wishes & Concerns",
+      "content": "The present subjunctive is used to express wishes, hopes, doubts, and concerns about the environment — essential for talking about environmental problems and what we want to see happen.\\n\\nFormation:\\n- Start with the yo form of the present indicative\\n- Drop the -o ending\\n- Add opposite endings:\\n  -AR verbs: -e, -es, -e, -emos, -éis, -en\\n  -ER verbs: -a, -as, -a, -amos, -áis, -an\\n  -IR verbs: -a, -as, -a, -amos, -áis, -an\\n\\nExamples:\\n- hablar → hable, hables, hable, hablemos, habléis, hablen\\n- comer → coma, comas, coma, comamos, comáis, coman\\n- vivir → viva, vivas, viva, vivamos, viváis, vivan\\n\\nIrregular subjunctive forms:\\n- ser → sea, seas, sea, seamos, seáis, sean\\n- ir → vaya, vayas, vaya, vayamos, vayáis, vayan\\n- haber → haya, hayas, haya, hayamos, hayáis, hayan\\n- saber → sepa, sepas, sepa, sepamos, sepáis, sepan\\n\\nTrigger phrases for environmental contexts:\\n- Quiero que... (I want that...)\\n- Espero que... (I hope that...)\\n- Es importante que... (It is important that...)\\n- Necesitamos que... (We need that...)\\n- Es necesario que... (It is necessary that...)\\n- Es urgente que... (It is urgent that...)\\n- Me preocupa que... (I am worried that...)\\n- Ojalá que... (I hope that...)\\n\\nUsage with environment:\\n- Espero que el gobierno proteja el medio ambiente. (I hope the government protects the environment.)\\n- Es importante que reciclemos más. (It is important that we recycle more.)\\n- Quiero que sea un mundo más limpio. (I want it to be a cleaner world.)",
+      "examples": [
+        "Espero que la contaminación mejore pronto. (I hope the pollution improves soon.)",
+        "Quiero que todos reciclen en casa. (I want everyone to recycle at home.)",
+        "Es importante que protejamos los océanos. (It is important that we protect the oceans.)",
+        "Ojalá que el cambio climático se detenga. (I hope climate change stops.)",
+        "Necesitamos que los gobiernos actúen ahora. (We need governments to act now.)"
+      ]
+    },
+    {
+      "title": "Ser vs Estar — Describing Environmental States",
+      "content": "Both 'ser' and 'estar' mean 'to be' in English, but they are used differently. Understanding when to use each is essential for describing environmental conditions.\\n\\nSER (permanent/defining characteristics):\\n- Identity and nature\\n- Permanent characteristics\\n- Qualities that define something\\n- Time and origin\\n\\nEstar (temporary/conditional states):\\n- Temporary conditions\\n- Locations\\n- Physical and emotional states\\n- Results of actions\\n- Progressive actions\\n\\nKey rules:\\n- SER + adjective = inherent quality: El río es sucio. (The river is dirty — by nature.)\\n- ESTAR + adjective = temporary state: El río está sucio. (The river is dirty — right now.)\\n- SER + location = event location: La cumbre es en Madrid. (The summit is in Madrid.)\\n- ESTAR + location = position: La ciudad está en la montaña. (The city is in the mountains.)\\n\\nCommon environmental patterns:\\n- estar + contaminado(a) — is polluted (temporary condition)\\n- ser + peligroso(a) — is dangerous (inherent quality)\\n- estar + limpio(a) — is clean (current state)\\n- ser + importante — is important (defining quality)\\n- estar + aumentando — is increasing (progressive)\\n- ser + necesario — is necessary (defining quality)\\n\\nUsage with environment:\\n- El aire está contaminado en la ciudad. (The air is polluted in the city.)\\n- La energía solar es limpia. (Solar energy is clean.)\\n- El bosque está en peligro de extinción. (The forest is endangered.)\\n- Es urgente que actuemos. (It is urgent that we act.)",
+      "examples": [
+        "El agua está contaminada en este río. (The water is polluted in this river.)",
+        "El calentamiento global es un problema serio. (Global warming is a serious problem.)",
+        "El parque está muy limpio hoy. (The park is very clean today.)",
+        "La energía renovable es el futuro. (Renewable energy is the future.)",
+        "Los niveles del mar están subiendo. (Sea levels are rising.)"
+      ]
+    },
+    {
+      "title": "Comparativos y Superlativos — Evaluating Environmental Impact",
+      "content": "Comparative and superlative structures allow you to compare environmental conditions, evaluate impacts, and express the degree of problems or solutions.\\n\\nComparatives (more/less/as ... as):\\n- más + adjective/adverb + que (more ... than)\\n- menos + adjective/adverb + que (less ... than)\\n- tan + adjective/adverb + como (as ... as)\\n\\nIrregular comparatives:\\n- bueno(a) → mejor que (better than)\\n- malo(a) → peor que (worse than)\\n- grande → mayor que (bigger/greater than)\\n- pequeño(a) → menor que (smaller/lesser than)\\n- mucho(a) → más que (more than)\\n- poco(a) → menos que (less than)\\n\\nSuperlatives (the most/the least):\\n- el/la/los/las + más + adjective (+ de) (the most ... [of])\\n- el/la/los/las + menos + adjective (+ de) (the least ... [of])\\n- el/la + [noun]ísimo/a (extremely ...)\\n\\nSuperlative suffix examples:\\n- importante → importantísimo/a (extremely important)\\n- peligroso → peligrosísimo/a (extremely dangerous)\\n- limpio → limísimo/a (extremely clean)\\n- contaminado → contaminadísimo/a (extremely polluted)\\n\\nUsage with environment:\\n- La energía solar es más limpia que el petróleo. (Solar energy is cleaner than oil.)\\n- Este río es menos contaminado que el otro. (This river is less polluted than the other one.)\\n- El cambio climático es el mayor problema del mundo. (Climate change is the greatest problem in the world.)\\n- La sequía es importantísima en esta región. (The drought is extremely important in this region.)",
+      "examples": [
+        "El reciclaje es más importante que tirar la basura. (Recycling is more important than throwing away trash.)",
+        "Este es el peor impacto ambiental de la fábrica. (This is the worst environmental impact of the factory.)",
+        "La contaminación acústica es tan grave como la del aire. (Noise pollution is as serious as air pollution.)",
+        "Es el parque más bonito de la ciudad. (It is the most beautiful park in the city.)",
+        "Los animales están en peligro. (Animals are in danger.) — using 'en peligro' as a fixed phrase"
+      ]
+    }
+  ],
+  "pronunciation": [
+    {
+      "title": "Stress Patterns in Environmental Vocabulary",
+      "content": "Key pronunciation rules for environmental and sustainability vocabulary:\\n\\n1. Palabras esdrújulas (stress on antepenult) — ALWAYS have an accent:\\n   - el medio ambiente (meh-dee-oh am-by-en-TEH) — stress on -TEN-\\n   - la contaminación (kohn-tah-mee-NAH-see-on) — stress on -NAH-\\n   - el reciclaje (reh-see-KLAH-heh) — stress on -KLAH-\\n   - la deforestación (deh-fo-reh-stah-SEE-on) — stress on -SEE-\\n   - la biodiversidad (bee-oh-dih-ver-see-DAHD) — stress on -DAHD-\\n\\n2. Palabras agudas (stress on last syllable) — marked if ending in consonant other than -n or -s:\\n   - el clima (KLEE-mah) — no accent, ends in -a (vowel)\\n   - el desierto (deh-see-EHR-toh) — has accent, ends in -r\\n   - la sequía (seh-KEE-ah) — has accent, ends in vowel but diphthong\\n\\n3. Palabras llanas (stress on penult) — marked if NOT ending in vowel, -n, or -s:\\n   - la naturaleza (nah-too-rah-SEE-thah) — no accent, ends in -z (consonant) — wait, this IS accented! It's llana ending in consonant... actually 'naturaleza' is llana ending in -z, so it should be accented. Let me correct: la naturaleza (nah-too-rah-SEE-thah) — has accent, ends in -z\\n   - el planeta (plah-neh-TAH) — no accent, ends in -a\\n   - el animal (ah-nee-MAHL) — no accent, ends in -l? No... animal is llana ending in -l, which is a consonant other than -n or -s, so it should have an accent. Actually 'animal' is pronounced ah-nee-MAHL and ends in -l, a consonant, so it does have an accent: animal.\\n   - The key: llana = stressed on second-to-last syllable. If the word ends in a vowel, -n, or -s, NO accent mark. If it ends in any other consonant, YES accent mark.\\n\\n4. Special environmental sounds:\\n   - -ción / -sión → -SYON: la contaminación (kohn-tah-mee-NAH-see-on)\\n   - -lla → y sound: la naturaleza (nah-too-rah-SEE-thah) — actually -za gives the 'th'/'s' sound depending on region\\n   - -que / -qui → hard k: el equipo, el equilibrio\\n   - -gu/-gi → hard g: el gas, el gusto\\n   - ñ → ny sound: la contaminación (the ñ is NOT in this word — correction: it's -ción not -ñon)\\n   - ll → y sound: reciclaje (no ll here — correction: use a different example)\\n\\n5. Diphthongs in environmental vocabulary:\\n   - ia/ie/iu = one syllable: sequía (two syllables because accent on i breaks diphthong), clima (one syllable for -ma)\\n   - Strong vowel combinations: energía (eh-NEHR-jee-ah) — the 'e' and 'a' are separate syllables\\n\\n6. Regional pronunciation differences:\\n   - 'contaminación' in Spain: kohn-tah-mee-NAH-see-own (th for z/c before e/i)\\n   - 'contaminación' in Latin America: kohn-tah-mee-NAH-see-on (s for z/c)",
+      "examples": [
+        "medio ambiente = meh-dee-oh am-byen-TEH (stress on antepenult of 'ambiente', esdrújula compound)\\n",
+        "contaminación = kohn-tah-mee-NAH-see-on (stress on antepenult, esdrújula)\\n",
+        "reciclaje = reh-see-KLAH-heh (stress on penult, llana, ends in -j consonant — has accent)\\n",
+        "deforestación = deh-fo-reh-stah-SEE-on (stress on antepenult, esdrújula)\\n",
+        "sostenible = sos-te-NEE-bleh (stress on penult, llana, ends in vowel — no accent)"
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "multiple-choice",
+      "question": "Which phrase means 'to recycle' in Spanish?",
+      "options": [
+        "contaminar",
+        "reciclar",
+        "destruir",
+        "quemar"
+      ],
+      "correct": 1,
+      "explanation": "'Reciclar' means to recycle. 'Contaminar' means to pollute, 'destruir' means to destroy, and 'quemar' means to burn."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Choose the correct subjunctive form: 'Es importante que nosotros ___ más.' (It is important that we recycle more.)",
+      "options": [
+        "reciclamos",
+        "reciclamos",
+        "reciclemos",
+        "reciclaremos"
+      ],
+      "correct": 2,
+      "explanation": "'Reciclemos' is the present subjunctive nosotros form of 'reciclar' (to recycle). The subjunctive is triggered by 'Es importante que...' which expresses importance/wish."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete with ser or estar: 'La energía solar ___ limpia.' (Solar energy is clean.)",
+      "correct": "es",
+      "explanation": "'Es' (from ser) is used because being clean is an inherent quality of solar energy — a defining characteristic, not a temporary state."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete with the correct comparative: 'El petróleo es ___ contaminante que la energía solar.' (Oil is more polluting than solar energy.)",
+      "correct": "más",
+      "explanation": "'Más' means 'more' in Spanish. The structure is 'más + adjective + que' for comparisons: más contaminante que (more polluting than)."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What does 'el cambio climático' mean?",
+      "options": [
+        "Climate change",
+        "Weather forecast",
+        "Climate control",
+        "Climate zone"
+      ],
+      "correct": 0,
+      "explanation": "'El cambio climático' literally means 'the climate change.' 'Cambio' = change, 'climático' = climatic/climate-related."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete with ser or estar: 'El aire ___ contaminado en la ciudad.' (The air is polluted in the city.)",
+      "correct": "está",
+      "explanation": "'Está' (from estar) is used because pollution is a temporary, conditional state of the air — it can change depending on conditions."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Which word means 'deforestation'?",
+      "options": [
+        "la contaminación",
+        "la deforestación",
+        "la conservación",
+        "la biodiversidad"
+      ],
+      "correct": 1,
+      "explanation": "'La deforestación' means deforestation. 'La contaminación' is pollution, 'la conservación' is conservation, and 'la biodiversidad' is biodiversity."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete with the correct subjunctive: 'Quiero que el gobierno ___ más parques.' (I want the government to create more parks.)",
+      "correct": "crea",
+      "explanation": "'Crea' is the present subjunctive él/ella/usted form of 'crear' (to create). It follows the pattern: crear → creo → crea, creas, crea, creemos, creáis, creen."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What does 'la huella de carbono' mean?",
+      "options": [
+        "Carbon copy",
+        "Carbon footprint",
+        "Carbon copy (document)",
+        "Carbon fiber"
+      ],
+      "correct": 1,
+      "explanation": "'La huella de carbono' means carbon footprint — literally 'carbon trace/imprint.' It refers to the total amount of greenhouse gases produced by human activities."
+    },
+    {
+      "type": "matching",
+      "question": "Match the Spanish terms with their English meanings:\\n\\n1. la energía solar\\n2. el reciclaje\\n3. la sequía\\n4. el océano",
+      "options": [
+        "solar energy / recycling / drought / ocean",
+        "ocean / drought / solar energy / recycling",
+        "recycling / solar energy / ocean / drought",
+        "drought / ocean / recycling / solar energy"
+      ],
+      "correct": 0,
+      "explanation": "la energía solar = solar energy; el reciclaje = recycling; la sequía = drought; el océano = ocean. These are key environmental vocabulary terms."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Which is the superlative form of 'importante' (important)?",
+      "options": [
+        "importantrísimo",
+        "importantísimo",
+        "más importante",
+        "importantón"
+      ],
+      "correct": 1,
+      "explanation": "'Importantísimo' is the superlative form using the -ísimo suffix, meaning 'extremely important.' 'Más importante' is the comparative 'more important,' not the superlative."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete with the subjunctive: 'Ojalá que ___ un mundo mejor.' (I hope there will be a better world.)",
+      "correct": "haya",
+      "explanation": "'Haya' is the present subjunctive of 'haber' (there is/are). 'Ojalá que' always triggers the subjunctive. 'Ojalá que haya' = I hope there will be."
+    }
+  ]
+}

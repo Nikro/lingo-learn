@@ -1,0 +1,191 @@
+{
+  "level": "B2.1",
+  "stage": "B2.1",
+  "theme_number": 9,
+  "title": "Advanced Professional Communication",
+  "title_es": "Comunicación Profesional Avanzada",
+  "description": "Vocabulary, grammar, and exercises for executive communication, strategic messaging, and stakeholder presentations at the B2.1 CEFR level.",
+  "description_es": "Vocabulario, gramática y ejercicios para comunicación ejecutiva, mensajería estratégica y presentaciones ante grupos de interés al nivel B2.1 del Marco Común Europeo.",
+  "aligned_topic": "Tema 22: Comunicación Profesional Avanzada",
+  "instituto_cervantes_reference": "Plan Curricular del Instituto Cervantes — Comunicación profesional (B2): reuniones ejecutivas, presentaciones estratégicas, gestión de stakeholders; Funciones: dirigir reuniones, presentar propuestas, negociar posiciones, comunicar resultados; Nociones: comunicación estratégica, liderazgo comunicativo, gestión de expectativas, mensajería clave",
+  "created_at": "2026-08-03",
+  "part": 2,
+  "vocabulary": {
+    "total_count": 42,
+    "nouns": [
+      {"word": "la negociación estratégica", "english": "strategic negotiation", "category": "negocios", "example": "La negociación estratégica requiere preparación previa y conocimiento del mercado."},
+      {"word": "el acuerdo marco", "english": "framework agreement", "category": "negocios", "example": "El acuerdo marco establece las condiciones generales de la colaboración."},
+      {"word": "el memorando de entendimiento", "english": "memorandum of understanding (MoU)", "category": "negocios", "example": "El memorando de entendimiento formaliza la cooperación entre ambas instituciones."},
+      {"word": "la cláusula contractual", "english": "contractual clause", "category": "negocios", "example": "La cláusula contractual protege los intereses de ambas partes."},
+      {"word": "el plazo de vigencia", "english": "validity period", "category": "negocios", "example": "El plazo de vigencia del contrato es de dos años."},
+      {"word": "la contraparte", "english": "the other party", "category": "negocios", "example": "La contraparte aceptó nuestras condiciones de pago."},
+      {"word": "el beneficio mutuo", "english": "mutual benefit", "category": "negocios", "example": "Buscamos acuerdos basados en el beneficio mutuo."},
+      {"word": "la compensación económica", "english": "financial compensation", "category": "negocios", "example": "La compensación económica se determinará según los resultados obtenidos."},
+      {"word": "el derecho contractual", "english": "contractual right", "category": "negocios", "example": "Cada parte tiene el derecho contractual de rescindir el acuerdo."},
+      {"word": "la responsabilidad contractual", "english": "contractual liability", "category": "negocios", "example": "La responsabilidad contractual se extiende a todas las fases del proyecto."},
+      {"word": "la confidencialidad", "english": "confidentiality", "category": "negocios", "example": "El acuerdo incluye un compromiso estricto de confidencialidad."},
+      {"word": "la confidencialidad", "english": "confidentiality agreement", "category": "negocios", "example": "Firmamos el acuerdo de confidencialidad antes de compartir los datos."},
+      {"word": "la due diligence", "english": "due diligence", "category": "negocios", "example": "La due diligence reveló aspectos importantes sobre la empresa objetivo."},
+      {"word": "la fusión", "english": "merger", "category": "negocios", "example": "La fusión entre ambas empresas creará valor para los accionistas."},
+      {"word": "la adquisición", "english": "acquisition", "category": "negocios", "example": "La adquisición de la startup complementó nuestro portafolio tecnológico."},
+      {"word": "la escisión", "english": "spin-off / carve-out", "category": "negocios", "example": "La escisión del departamento de tecnología permitió mayor agilidad."},
+      {"word": "la reestructuración", "english": "restructuring", "category": "negocios", "example": "La reestructuración organizacional mejoró la eficiencia operativa."},
+      {"word": "la optimización", "english": "optimization", "category": "gestión", "example": "La optimización de procesos redujo los costos operativos en un 20%."},
+      {"word": "la transformación digital", "english": "digital transformation", "category": "negocios", "example": "La transformación digital es prioridad para la industria actual."},
+      {"word": "la disrupción tecnológica", "english": "technological disruption", "category": "negocios", "example": "La disrupción tecnológica obliga a las empresas a reinventarse."},
+      {"word": "la agilidad organizacional", "english": "organizational agility", "category": "gestión", "example": "La agilidad organizacional permite responder rápidamente al cambio."},
+      {"word": "el networking", "english": "networking", "category": "negocios", "example": "El networking profesional es clave para abrir nuevas oportunidades."},
+      {"word": "la marca empleadora", "english": "employer brand", "category": "gestión", "example": "Fortalecer la marca empleadora atrae a los mejores talentos."},
+      {"word": "el desarrollo profesional", "english": "professional development", "category": "gestión", "example": "El desarrollo profesional continuo es una inversión en el equipo."},
+      {"word": "la capacitación", "english": "training / upskilling", "category": "gestión", "example": "La capacitación en liderazgo es fundamental para los mandos intermedios."},
+      {"word": "el coaching ejecutivo", "english": "executive coaching", "category": "gestión", "example": "El coaching ejecutivo mejora las habilidades de comunicación del líder."},
+      {"word": "la evaluación de desempeño", "english": "performance evaluation", "category": "gestión", "example": "La evaluación de desempeño se realiza trimestralmente."},
+      {"word": "el plan de sucesión", "english": "succession plan", "category": "gestión", "example": "El plan de sucesión garantiza la continuidad del liderazgo."},
+      {"word": "la gestión del conocimiento", "english": "knowledge management", "category": "gestión", "example": "La gestión del conocimiento preserva el expertise de la organización."},
+      {"word": "la innovación abierta", "english": "open innovation", "category": "negocios", "example": "La innovación abierta fomenta la colaboración con startups externas."},
+      {"word": "el ecosistema empresarial", "english": "business ecosystem", "category": "negocios", "example": "El ecosistema empresarial incluye proveedores, clientes y competidores."},
+      {"word": "la gobernanza corporativa", "english": "corporate governance", "category": "gestión", "example": "La gobernanza corporativa asegura la transparencia y rendición de cuentas."},
+      {"word": "el comité directivo", "english": "executive committee", "category": "gestión", "example": "El comité directivo aprueba las decisiones estratégicas mayores."},
+      {"word": "la junta directiva", "english": "board of directors", "category": "gestión", "example": "La junta directiva supervisa la estrategia de la organización."},
+      {"word": "el accionista mayoritario", "english": "majority shareholder", "category": "negocios", "example": "El accionista mayoritario influye en las decisiones estratégicas."},
+      {"word": "el informe anual", "english": "annual report", "category": "documentos", "example": "El informe anual presenta los resultados financieros de la empresa."},
+      {"word": "el balance financiero", "english": "financial balance sheet", "category": "documentos", "example": "El balance financiero refleja la situación económica de la empresa."},
+      {"word": "el flujo de caja", "english": "cash flow", "category": "documentos", "example": "Un flujo de caja positivo es esencial para la salud financiera."},
+      {"word": "el margen de beneficio", "english": "profit margin", "category": "documentos", "example": "El margen de beneficio aumentó gracias a la optimización de costos."},
+      {"word": "el retorno de inversión", "english": "return on investment (ROI)", "category": "documentos", "example": "El retorno de inversión superó las expectativas del primer año."},
+      {"word": "la proyección financiera", "english": "financial projection", "category": "documentos", "example": "La proyección financiera estima un crecimiento del 12% para el próximo año."},
+      {"word": "la auditoría interna", "english": "internal audit", "category": "documentos", "example": "La auditoría interna verificó el cumplimiento de los procedimientos."},
+      {"word": "la compliance normativa", "english": "regulatory compliance", "category": "documentos", "example": "La compliance normativa es obligatoria para todas las operaciones."},
+      {"word": "el canal de comunicación", "english": "communication channel", "category": "comunicación", "example": "Establecimos un canal de comunicación directo con los clientes."},
+      {"word": "la comunicación interna", "english": "internal communication", "category": "comunicación", "example": "La comunicación interna eficiente reduce la rotación de personal."},
+      {"word": "la comunicación externa", "english": "external communication", "category": "comunicación", "example": "La comunicación externa debe ser consistente con la marca."}
+    ],
+    "verbs": [
+      {"word": "presentar (un informe)", "english": "to present (a report)", "category": "presentaciones", "example": "El director financiero presentará el informe trimestral el jueves."},
+      {"word": "liderar (una iniciativa)", "english": "to lead (an initiative)", "category": "gestión", "example": "Ella lideró la iniciativa de transformación digital con éxito."},
+      {"word": "impulsar (un proyecto)", "english": "to drive / champion (a project)", "category": "gestión", "example": "La gerencia impulsó el proyecto de modernización tecnológica."},
+      {"word": "gestionar (un equipo)", "english": "to manage (a team)", "category": "gestión", "example": "Gestionar un equipo multicultural requiere habilidades de comunicación."},
+      {"word": "motivar", "english": "to motivate", "category": "gestión", "example": "Un buen líder sabe motivar al equipo en momentos difíciles."},
+      {"word": "orientar", "english": "to guide / steer", "category": "gestión", "example": "Las reuniones semanales orientan al equipo sobre los próximos pasos."},
+      {"word": "resumir (conclusiones)", "english": "to summarize (conclusions)", "category": "comunicación", "example": "Para resumir, los resultados superaron las expectativas iniciales."},
+      {"word": "sintetizar (información)", "english": "to synthesize (information)", "category": "comunicación", "example": "Es necesario sintetizar los datos antes de la presentación."},
+      {"word": "exponer (una idea)", "english": "to present / set forth (an idea)", "category": "presentaciones", "example": "Durante la conferencia expuso las nuevas tendencias del mercado."},
+      {"word": "sustentar (una propuesta)", "english": "to substantiate (a proposal)", "category": "comunicación", "example": "Es necesario sustentar la propuesta con datos del mercado."},
+      {"word": "validar", "english": "to validate", "category": "gestión", "example": "Los resultados del piloto validaron la viabilidad del proyecto."},
+      {"word": "documentar", "english": "to document", "category": "gestión", "example": "Todo proceso debe documentarse para garantizar la trazabilidad."},
+      {"word": "formalizar (un acuerdo)", "english": "to formalize (an agreement)", "category": "negocios", "example": "Las partes formalizaron el acuerdo mediante un contrato escrito."},
+      {"word": "ratificar", "english": "to ratify", "category": "negocios", "example": "El consejo ratificó los términos de la fusión."},
+      {"word": "renegociar", "english": "to renegotiate", "category": "negocios", "example": "La empresa optó por renegociar los términos del contrato."},
+      {"word": "canalizar (energías)", "english": "to channel (efforts)", "category": "gestión", "example": "Debemos canalizar los recursos hacia las áreas de mayor impacto."},
+      {"word": "desarrollar (competencias)", "english": "to develop (skills)", "category": "gestión", "example": "El programa desarrolla competencias de liderazgo en los mandos intermedios."},
+      {"word": "incorporar (feedback)", "english": "to incorporate (feedback)", "category": "comunicación", "example": "Incorporamos las sugerencias del comité en la versión final."},
+      {"word": "alinearse con", "english": "to align with", "category": "gestión", "example": "El equipo debe alinearse con la estrategia corporativa."},
+      {"word": "dar seguimiento a", "english": "to follow up on", "category": "gestión", "example": "El gerente da seguimiento semanal al progreso del proyecto."}
+    ],
+    "adjectives": [
+      {"word": "estratégico / estratégica", "english": "strategic", "category": "gestión", "example": "La decisión estratégica se tomó en la reunión del comité directivo."},
+      {"word": "operativo / operativa", "english": "operational", "category": "gestión", "example": "Los objetivos operativos deben ser específicos y medibles."},
+      {"word": "táctico / táctica", "english": "tactical", "category": "gestión", "example": "Las acciones tácticas implementan la estrategia general."},
+      {"word": "transversal", "english": "cross-functional", "category": "gestión", "example": "El proyecto requiere una colaboración transversal entre departamentos."},
+      {"word": "escalable", "english": "scalable", "category": "negocios", "example": "El modelo de negocio debe ser escalable para crecer internacionalmente."},
+      {"word": "competitivo / competitiva", "english": "competitive", "category": "negocios", "example": "La propuesta competitiva se basa en calidad y precio."},
+      {"word": "diferenciador / diferenciadora", "english": "differentiating", "category": "negocios", "example": "La calidad del servicio es nuestro factor diferenciador."},
+      {"word": "adaptativo / adaptativa", "english": "adaptive", "category": "gestión", "example": "Un modelo adaptativo permite responder a las condiciones cambiantes."},
+      {"word": "colaborativo / colaborativa", "english": "collaborative", "category": "gestión", "example": "Un entorno colaborativo incrementa la productividad del equipo."},
+      {"word": "resiliente", "english": "resilient", "category": "gestión", "example": "La organización resiliente se recupera rápidamente de las crisis."},
+      {"word": "flexible", "english": "flexible", "category": "gestión", "example": "La política flexible de trabajo mejora la satisfacción del empleado."},
+      {"word": "integral", "english": "comprehensive", "category": "gestión", "example": "Se requiere una solución integral que aborde todos los aspectos."},
+      {"word": "sustancial", "english": "substantial", "category": "negocios", "example": "La inversión sustancial generó resultados significativos."},
+      {"word": "significativo / significativa", "english": "significant", "category": "negocios", "example": "Se observó un crecimiento significativo en las ventas."},
+      {"word": "relevante", "english": "relevant", "category": "comunicación", "example": "Los hallazgos relevantes se incluyeron en el informe ejecutivo."},
+      {"word": "concluyente", "english": "conclusive", "category": "comunicación", "example": "Los datos obtenidos son concluyentes a favor de la propuesta."},
+      {"word": "factible", "english": "feasible", "category": "gestión", "example": "Se requiere un estudio de factibilidad antes de avanzar."},
+      {"word": "viable", "english": "viable", "category": "gestión", "example": "El plan propuesto es financieramente viable a largo plazo."}
+    ],
+    "phrases_and_connectors": [
+      {"phrase": "con el propósito de", "english": "with the purpose of", "category": "formal", "example": "Se convocó la reunión con el propósito de definir la estrategia."},
+      {"phrase": "a modo de", "english": "by way of / as a", "category": "formal", "example": "A modo de resumen, los principales hallazgos son los siguientes."},
+      {"phrase": "a tenor de", "english": "in light of / in accordance with", "category": "formal", "example": "A tenor de los últimos resultados, se ajusta el plan de acción."},
+      {"phrase": "sin perjuicio de", "english": "without prejudice to", "category": "formal", "example": "Se aprueba el presupuesto, sin perjuicio de la auditoría posterior."},
+      {"phrase": "a sabiendas de que", "english": "knowing that / with full awareness that", "category": "formal", "example": "A sabiendas de los riesgos, se procedió con la inversión."},
+      {"phrase": "bajo el principio de", "english": "under the principle of", "category": "formal", "example": "La colaboración se basa bajo el principio de beneficio mutuo."},
+      {"phrase": "en consonancia con", "english": "in consonance with / in line with", "category": "formal", "example": "Las decisiones se tomaron en consonancia con la misión institucional."},
+      {"phrase": "a partir de", "english": "starting from / based on", "category": "formal", "example": "A partir de los resultados del Q2, redefinimos los objetivos."},
+      {"phrase": "en función de", "english": "depending on / based on", "category": "formal", "example": "Los recursos se asignan en función de las prioridades establecidas."},
+      {"phrase": "a despecho de", "english": "in spite of", "category": "formal", "example": "El proyecto avanzó, a despecho de las dificultades iniciales."},
+      {"phrase": "por encima de", "english": "above / beyond", "category": "formal", "example": "Se colocó la seguridad del cliente por encima del beneficio inmediato."},
+      {"phrase": "en pos de", "english": "in pursuit of", "category": "formal", "example": "Se implementó la nueva estrategia en pos de la eficiencia operativa."}
+    ]
+  },
+  "grammar": [
+    {
+      "id": "g4",
+      "title": "Condicional compuesto para resultados hipotéticos en retrospectiva",
+      "title_en": "Conditional perfect for hypothetical results in retrospective analysis",
+      "description": "B2.1: Habría + participio (habríamos crecido, habría generado, habrían aumentado). Used in strategic post-mortems and retrospective analysis: 'Si hubiéramos actuado antes, habríamos capturado mayor cuota de mercado.' Paired with past perfect subjunctive (g2) to describe alternative business histories.",
+      "description_es": "B2.1: Habría + participio. Se usa en análisis retrospectivos estratégicos: 'Si hubiéramos actuado antes, habríamos capturado mayor cuota de mercado.' Combinado con pluscuamperfecto de subjuntivo.",
+      "examples": [
+        "Habríamos crecido un 20% si hubiéramos invertido en marketing digital antes.",
+        "El proyecto habría generado más ingresos con una planificación más temprana.",
+        "Habríamos capturado mayor cuota de mercado si el lanzamiento hubiera sido más agresivo.",
+        "El equipo habría sido más productivo con herramientas de colaboración adecuadas.",
+        "Los resultados habrían sido superiores con una comunicación más fluida entre áreas.",
+        "Habríamos evitado el retraso si hubiéramos identificado los riesgos a tiempo."
+      ]
+    },
+    {
+      "id": "g5",
+      "title": "Subjuntivo con verbos de influencia, pedido y sugerencia en contextos ejecutivos",
+      "title_en": "Subjunctive with verbs of influence, request and suggestion in executive contexts",
+      "description": "B2.1: Que + subjuntivo después de verbos como solicitar que, pedir que, recomendar que, sugerir que, instar que, exigir que, insistir en que. Essential for formal requests, recommendations, and directives in professional communication: 'El comité recomienda que se revise la estrategia' or 'Exigimos que se implementen las mejoras propuestas.'",
+      "description_es": "B2.1: Que + subjuntivo después de verbos como solicitar que, recomendar que, sugerir que, exigir que. Esencial para solicitudes formales, recomendaciones y directivas en comunicación profesional.",
+      "examples": [
+        "El director recomienda que se revise la estrategia de comunicación para el próximo trimestre.",
+        "Los accionistas exigen que se aumente la transparencia en los informes financieros.",
+        "Solicitamos que se priorice la inversión en infraestructura tecnológica.",
+        "La consultora sugiere que se implemente un programa de desarrollo del liderazgo.",
+        "Insistimos en que se consideren los impactos sociales de la reestructuración.",
+        "El comité de auditoría recomienda que se fortalezcan los controles internos."
+      ]
+    }
+  ],
+  "pronunciation": [
+    {
+      "id": "p3",
+      "title": "Acentuación de términos financieros y de informes",
+      "title_en": "Stress patterns of financial and reporting terms",
+      "description": "Practice stress in financial vocabulary: beneficio (be-**ne**-fi-cio), inversión (in-ver-**sión**), rendimiento (ren-di-**mien**-to), balance (ba-**lán**-ce), flujo (flújo), margen (mar-**gen**), auditoría (au-di-**tó**-ría), proyección (pro-yec-**ción**), presupuesto (pre-su-**pes**-to), trimestre (trimes-**tre**), anual (a-**nu**-al), contabilidad (con-ta-bi-li-**dad**), financiero (fi-nan-cie-**ro**), contable (con-**ta**-ble), rentable (ren-**ta**-ble), fiscal (fis-**cal**), contabilidad (kon-ta-bi-li-**dad**). Focus on the distinction between -ción, -dad, and -miento endings.",
+      "description_es": "Practicar la acentuación del vocabulario financiero: beneficio, inversión, rendimiento, balance, auditoría, proyección, presupuesto, trimestre, contabilidad, financiero, rentable, fiscal."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e4",
+      "type": "vocabulary_matching",
+      "title": "Contratos y acuerdos: asociar término con definición",
+      "title_en": "Contracts and agreements: match term with definition",
+      "instructions": "Asocia cada término contractual con su definición correcta.",
+      "instructions_en": "Match each contractual term with its correct definition.",
+      "items": [
+        {"term": "el memorando de entendimiento", "definition": "Documento que establece un compromiso informal entre partes antes de un contrato formal"},
+        {"term": "la cláusula de confidencialidad", "definition": "Disposición que obliga a las partes a mantener la información en secreto"},
+        {"term": "la due diligence", "definition": "Proceso de investigación exhaustiva antes de cerrar una transacción"},
+        {"term": "el plazo de vigencia", "definition": "Período durante el cual un contrato o acuerdo permanece en efecto"},
+        {"term": "la responsabilidad contractual", "definition": "Obligaciones legales que asume cada parte al firmar un contrato"}
+      ]
+    },
+    {
+      "id": "e5",
+      "type": "translation",
+      "title": "Traducción: subjuntivo en recomendaciones ejecutivas",
+      "title_en": "Translation: subjunctive in executive recommendations",
+      "instructions": "Traduce al español las siguientes recomendaciones usando el subjuntivo después de verbos de influencia.",
+      "instructions_en": "Translate the following recommendations into Spanish using the subjunctive after influence verbs.",
+      "items": [
+        {"english": "The committee recommends that the strategy be reviewed before implementation.", "expected": "El comité recomienda que se revise la estrategia antes de la implementación."},
+        {"english": "We request that priority be given to the technology investment.", "expected": "Solicitamos que se priorice la inversión en tecnología."},
+        {"english": "Shareholders demand that transparency be increased in financial reports.", "expected": "Los accionistas exigen que se aumente la transparencia en los informes financieros."}
+      ]
+    }
+  ]
+}

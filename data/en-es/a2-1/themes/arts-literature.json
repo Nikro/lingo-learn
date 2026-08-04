@@ -1,0 +1,322 @@
+{
+  "id": "arts-literature",
+  "level": "a2-1",
+  "title": "Arts & Literature",
+  "description": "Discuss art forms, literature, music, cinema, and creative expression. Learn vocabulary for museums, galleries, books, instruments, and artistic activities. Practice the present tense for describing art and cultural routines, 'gustar' for expressing preferences, the preterite for cultural experiences, and demonstratives for describing visual art.",
+  "vocabulary": [
+    {"id": 1, "target": "el arte", "source": "art", "gender": "m", "type": "noun"},
+    {"id": 2, "target": "la artesanía", "source": "crafts / handicrafts", "gender": "f", "type": "noun"},
+    {"id": 3, "target": "la pintura", "source": "painting", "gender": "f", "type": "noun"},
+    {"id": 4, "target": "el pintor", "source": "painter (m)", "gender": "m", "type": "noun"},
+    {"id": 5, "target": "la pintora", "source": "painter (f)", "gender": "f", "type": "noun"},
+    {"id": 6, "target": "el cuadro", "source": "painting / picture / painting (artwork)", "gender": "m", "type": "noun"},
+    {"id": 7, "target": "la escultura", "source": "sculpture", "gender": "f", "type": "noun"},
+    {"id": 8, "target": "el escultor", "source": "sculptor (m)", "gender": "m", "type": "noun"},
+    {"id": 9, "target": "la escultora", "source": "sculptor (f)", "gender": "f", "type": "noun"},
+    {"id": 10, "target": "la fotografía", "source": "photography / photograph", "gender": "f", "type": "noun"},
+    {"id": 11, "target": "el fotógrafo", "source": "photographer (m)", "gender": "m", "type": "noun"},
+    {"id": 12, "target": "la fotógrafa", "source": "photographer (f)", "gender": "f", "type": "noun"},
+    {"id": 13, "target": "la música", "source": "music", "gender": "f", "type": "noun"},
+    {"id": 14, "target": "el músico", "source": "musician (m)", "gender": "m", "type": "noun"},
+    {"id": 15, "target": "la música", "source": "musician (f)", "gender": "f", "type": "noun"},
+    {"id": 16, "target": "el instrumento", "source": "instrument", "gender": "m", "type": "noun"},
+    {"id": 17, "target": "la guitarra", "source": "guitar", "gender": "f", "type": "noun"},
+    {"id": 18, "target": "el piano", "source": "piano", "gender": "m", "type": "noun"},
+    {"id": 19, "target": "la flauta", "source": "flute", "gender": "f", "type": "noun"},
+    {"id": 20, "target": "el violín", "source": "violin", "gender": "m", "type": "noun"},
+    {"id": 21, "target": "el tambor", "source": "drum", "gender": "m", "type": "noun"},
+    {"id": 22, "target": "el canto", "source": "singing", "gender": "m", "type": "noun"},
+    {"id": 23, "target": "la canción", "source": "song", "gender": "f", "type": "noun"},
+    {"id": 24, "target": "el baile", "source": "dance", "gender": "m", "type": "noun"},
+    {"id": 25, "target": "la danza", "source": "dance (art form)", "gender": "f", "type": "noun"},
+    {"id": 26, "target": "el bailarín", "source": "dancer (m)", "gender": "m", "type": "noun"},
+    {"id": 27, "target": "la bailarina", "source": "dancer (f)", "gender": "f", "type": "noun"},
+    {"id": 28, "target": "la literatura", "source": "literature", "gender": "f", "type": "noun"},
+    {"id": 29, "target": "el libro", "source": "book", "gender": "m", "type": "noun"},
+    {"id": 30, "target": "la novela", "source": "novel", "gender": "f", "type": "noun"},
+    {"id": 31, "target": "el cuento", "source": "short story", "gender": "m", "type": "noun"},
+    {"id": 32, "target": "el poema", "source": "poem", "gender": "m", "type": "noun"},
+    {"id": 33, "target": "la poesía", "source": "poetry", "gender": "f", "type": "noun"},
+    {"id": 34, "target": "el poeta", "source": "poet (m/f)", "gender": "m", "type": "noun"},
+    {"id": 35, "target": "el escritor", "source": "writer / author (m)", "gender": "m", "type": "noun"},
+    {"id": 36, "target": "la escritora", "source": "writer / author (f)", "gender": "f", "type": "noun"},
+    {"id": 37, "target": "la página", "source": "page", "gender": "f", "type": "noun"},
+    {"id": 38, "target": "la portada", "source": "cover (of a book)", "gender": "f", "type": "noun"},
+    {"id": 39, "target": "el capítulo", "source": "chapter", "gender": "m", "type": "noun"},
+    {"id": 40, "target": "el autor", "source": "author (m)", "gender": "m", "type": "noun"},
+    {"id": 41, "target": "la autora", "source": "author (f)", "gender": "f", "type": "noun"},
+    {"id": 42, "target": "el cine", "source": "cinema / movies", "gender": "m", "type": "noun"},
+    {"id": 43, "target": "la película", "source": "movie / film", "gender": "f", "type": "noun"},
+    {"id": 44, "target": "el director", "source": "director (m)", "gender": "m", "type": "noun"},
+    {"id": 45, "target": "la directora", "source": "director (f)", "gender": "f", "type": "noun"},
+    {"id": 46, "target": "el actor", "source": "actor (m)", "gender": "m", "type": "noun"},
+    {"id": 47, "target": "la actriz", "source": "actress (f)", "gender": "f", "type": "noun"},
+    {"id": 48, "target": "el teatro", "source": "theater", "gender": "m", "type": "noun"},
+    {"id": 49, "target": "el museo", "source": "museum", "gender": "m", "type": "noun"},
+    {"id": 50, "target": "la galería", "source": "gallery", "gender": "f", "type": "noun"},
+    {"id": 51, "target": "la exposición", "source": "exhibition", "gender": "f", "type": "noun"},
+    {"id": 52, "target": "el artista", "source": "artist (m/f)", "gender": "m", "type": "noun"},
+    {"id": 53, "target": "el color", "source": "color", "gender": "m", "type": "noun"},
+    {"id": 54, "target": "el rojo", "source": "red", "gender": "m", "type": "adj"},
+    {"id": 55, "target": "el azul", "source": "blue", "gender": "m", "type": "adj"},
+    {"id": 56, "target": "el verde", "source": "green", "gender": "m", "type": "adj"},
+    {"id": 57, "target": "el amarillo", "source": "yellow", "gender": "m", "type": "adj"},
+    {"id": 58, "target": "el blanco", "source": "white", "gender": "m", "type": "adj"},
+    {"id": 59, "target": "el negro", "source": "black", "gender": "m", "type": "adj"},
+    {"id": 60, "target": "el pincel", "source": "paintbrush", "gender": "m", "type": "noun"},
+    {"id": 61, "target": "el lienzo", "source": "canvas", "gender": "m", "type": "noun"},
+    {"id": 62, "target": "el lápiz", "source": "pencil", "gender": "m", "type": "noun"},
+    {"id": 63, "target": "el papel", "source": "paper", "gender": "m", "type": "noun"},
+    {"id": 64, "target": "dibujar", "source": "to draw", "gender": "v", "type": "verb"},
+    {"id": 65, "target": "pintar", "source": "to paint", "gender": "v", "type": "verb"},
+    {"id": 66, "target": "leer", "source": "to read", "gender": "v", "type": "verb"},
+    {"id": 67, "target": "escribir", "source": "to write", "gender": "v", "type": "verb"},
+    {"id": 68, "target": "cantar", "source": "to sing", "gender": "v", "type": "verb"},
+    {"id": 69, "target": "bailar", "source": "to dance", "gender": "v", "type": "verb"},
+    {"id": 70, "target": "tocar", "source": "to play (instrument)", "gender": "v", "type": "verb"},
+    {"id": 71, "target": "escuchar", "source": "to listen (to)", "gender": "v", "type": "verb"},
+    {"id": 72, "target": "mirar", "source": "to look at / watch", "gender": "v", "type": "verb"},
+    {"id": 73, "target": "ver", "source": "to see / watch", "gender": "v", "type": "verb"},
+    {"id": 74, "target": "asistir", "source": "to attend", "gender": "v", "type": "verb"},
+    {"id": 75, "target": "crear", "source": "to create", "gender": "v", "type": "verb"},
+    {"id": 76, "target": "diseñar", "source": "to design", "gender": "v", "type": "verb"},
+    {"id": 77, "target": "la galería de arte", "source": "art gallery", "gender": "f", "type": "phrase"},
+    {"id": 78, "target": "el concierto", "source": "concert", "gender": "m", "type": "noun"},
+    {"id": 79, "target": "el festival", "source": "festival", "gender": "m", "type": "noun"},
+    {"id": 80, "target": "el género", "source": "genre", "gender": "m", "type": "noun"},
+    {"id": 81, "target": "la comedia", "source": "comedy", "gender": "f", "type": "noun"},
+    {"id": 82, "target": "el drama", "source": "drama", "gender": "m", "type": "noun"},
+    {"id": 83, "target": "la aventura", "source": "adventure", "gender": "f", "type": "noun"},
+    {"id": 84, "target": "el romance", "source": "romance", "gender": "m", "type": "noun"},
+    {"id": 85, "target": "el misterio", "source": "mystery", "gender": "m", "type": "noun"},
+    {"id": 86, "target": "la ópera", "source": "opera", "gender": "f", "type": "noun"},
+    {"id": 87, "target": "el folclore", "source": "folklore", "gender": "m", "type": "noun"},
+    {"id": 88, "target": "la tradición", "source": "tradition", "gender": "f", "type": "noun"},
+    {"id": 89, "target": "el monumento", "source": "monument", "gender": "m", "type": "noun"},
+    {"id": 90, "target": "el retrato", "source": "portrait", "gender": "m", "type": "noun"},
+    {"id": 91, "target": "el paisaje", "source": "landscape", "gender": "m", "type": "noun"},
+    {"id": 92, "target": "la obra", "source": "work (artistic) / play", "gender": "f", "type": "noun"},
+    {"id": 93, "target": "el escenario", "source": "stage", "gender": "m", "type": "noun"},
+    {"id": 94, "target": "la entrada", "source": "ticket / entrance", "gender": "f", "type": "noun"},
+    {"id": 95, "target": "la butaca", "source": "seat (theater)", "gender": "f", "type": "noun"},
+    {"id": 96, "target": "el programa", "source": "program (show)", "gender": "m", "type": "noun"},
+    {"id": 97, "target": "la crítica", "source": "critic / review", "gender": "f", "type": "noun"},
+    {"id": 98, "target": "la inspiración", "source": "inspiration", "gender": "f", "type": "noun"},
+    {"id": 99, "target": "la creatividad", "source": "creativity", "gender": "f", "type": "noun"},
+    {"id": 100, "target": "el talento", "source": "talent", "gender": "m", "type": "noun"}
+  ],
+  "grammar": [
+    {
+      "title": "Present Tense for Artistic Activities and Routines",
+      "content": "The present tense describes daily artistic activities, creative habits, and cultural routines.\\\\n\\\\nRegular conjugations:\\\\n\\\\n-AR verbs (pintar, dibujar, bailar):\\\\n  yo pinto / tú pintas / usted pinta / nosotros pintamos / vosotros pintáis / ellos pintan\\\\n  yo dibujo / tú dibujas / usted dibuja / nosotros dibujamos / vosotros dibujáis / ellos dibujan\\\\n  yo bailo / tú bailas / usted baila / nosotros bailamos / vosotros bailáis / ellos bailan\\\\n\\\\n-ER verbs (leer, ver, hacer):\\\\n  yo leo / tú lees / usted lee / nosotros leemos / vosotros leéis / ellos leen\\\\n  yo veo / tú ves / usted ve / nosotros vemos / vosotros veis / ellos ven\\\\n  yo hago / tú haces / usted hace / nosotros hacemos / vosotros hacéis / ellos hacen\\\\n\\\\n-IR verbs (escribir, vivir, asistir):\\\\n  yo escribo / tú escribes / usted escribe / nosotros escribimos / vosotros escribís / ellos escriben\\\\n  yo asisto / tú asistes / usted asiste / nosotros asistimos / vosotros asistís / ellos asisten\\\\n\\\\nEssential expressions:\\\\n\\\\n1. I go to the museum on Sundays:\\\\n   Voy al museo los domingos.\\\\n\\\\n2. I like to read before sleeping:\\\\n   Me gusta leer antes de dormir.\\\\n\\\\n3. My sister plays the guitar:\\\\n   Mi hermana toca la guitarra.\\\\n\\\\n4. We watch movies every Friday:\\\\n   Nosotros vemos películas todos los viernes.\\\\n\\\\n5. I draw landscapes in the park:\\\\n   Pinto paisajes en el parque.\\\\n\\\\nIrregular present tense you need:\\\\n  ser → soy, eres, es, somos, sois, son (I am an artist)\\\\n  tener → tengo, tienes, tiene, tenemos, tenéis, tienen (I have a book)\\\\n  ir → voy, vas, va, vamos, vais, van (to go to the cinema)\\\\n  hacer → hago, haces, hace, hacemos, hacéis, hacen (to create art)\\\\n  decir → digo, dices, dice, decimos, decís, dicen (to say a poem)\\\\n  venir → vengo, vienes, viene, venimos, venís, vienen (to come to the concert)\\\\n  conocer → conozco, conoces, conoce, conocemos, conocéis, conocen (to know the artist)\\\\n  poner → pongo, pones, pone, ponemos, ponéis, ponen (to put on a play)\\\\n  salir → salgo, sales, sale, salimos, salís, salen (to go out to the theater)\\\\n  estar → estoy, estás, está, estamos, estáis, están (I am at the museum)\\\\n  dar → doy, das, da, damos, dais, dan (to give a performance)",
+      "examples": [
+        "Pinto cuadros en mi tiempo libre. (I paint pictures in my free time.)",
+        "Mi madre lee novelas cada semana. (My mother reads novels every week.)",
+        "Nosotros vamos al cine los viernes. (We go to the cinema on Fridays.)",
+        "Mi hermano toca la guitarra en una banda. (My brother plays guitar in a band.)",
+        "Asisto a una clase de baile todos los martes. (I attend a dance class every Tuesday.)",
+        "Escribo poemas en mi cuaderno. (I write poems in my notebook.)"
+      ],
+      "aid_note": "Romanian present tense is very similar to Spanish — both use the subject pronoun (often dropped) + conjugated verb ending. Romanian: 'eu citesc' = Spanish 'leo', 'eu pintez' = Spanish 'pinto', 'eu scriu' = Spanish 'escribo'. The key difference is Spanish has many more irregular verbs in the present. Romanian speakers will find -ER and -IR verb endings nearly identical: Romanian 'eu citesc' (I read) = Spanish 'yo leo' (I read), Romanian 'eu scriu' (I write) = Spanish 'yo escribo' (I write). The irregular forms (hago, veo, doy) must be memorized separately."
+    },
+    {
+      "title": "Gustar and Similar Verbs for Artistic Preferences",
+      "content": "'Gustar' and similar verbs are used to express preferences about art, music, literature, and cinema. These verbs work differently from English — the thing you like is the subject, and the person is the indirect object.\\\\n\\\\nFormation:\\\\n- Gustar + singular noun/infinitive: Me gusta el arte. (Art is pleasing to me.)\\\\n- Gustar + plural noun: Me gustan los cuadros. (The paintings are pleasing to me.)\\\\n- With infinitive (always singular): Me gusta bailar. (I like to dance.)\\\\n\\\\nIndirect object pronouns:\\\\n  me (to me) / te (to you) / le (to him/her/you formal) / nos (to us) / os (to you all) / les (to them/you all formal)\\\\n\\\\nCommon preferences:\\\\n\\\\n1. I like classical music:\\\\n   Me gusta la música clásica.\\\\n\\\\n2. I like mystery novels:\\\\n   Me gustan las novelas de misterio.\\\\n\\\\n3. I like to draw:\\\\n   Me gusta dibujar.\\\\n\\\\n4. She likes theater:\\\\n   Le gusta el teatro.\\\\n\\\\n5. We like to listen to folk music:\\\\n   Nos gusta escuchar música folclórica.\\\\n\\\\nNegative form:\\\\n- No me gusta el cine. (I don't like cinema.)\\\\n- No me gustan las canciones tristes. (I don't like sad songs.)\\\\n\\\\nEmphasis with 'a + pronoun':\\\\n- A mí me gusta la ópera. (I like opera.)\\\\n- A ella le gusta la literatura. (She likes literature.)\\\\n- ¿A ti te gusta el ballet? (Do you like ballet?)\\\\n\\\\nSimilar verbs:\\\\n- Encantar (to love — much stronger than gustar): Me encanta la pintura. (I love painting.)\\\\n- Interesar (to interest): Me interesa la poesía. (Poetry interests me.)\\\\n- Importar (to matter): No me importa la música pop. (Pop music doesn't matter to me.)\\\\n- Divertir (to entertain): El cine nos divierte. (Cinema entertains us.)",
+      "examples": [
+        "Me gusta mucho la música. (I like music a lot.)",
+        "Me encantan las películas de aventuras. (I love adventure movies.)",
+        "¿Te gusta leer poesía? (Do you like reading poetry?)",
+        "A ella le encanta el ballet clásico. (She loves classical ballet.)",
+        "No me gusta la ópera italiana. (I don't like Italian opera.)",
+        "Nosotros nos divertimos en el teatro. (We have fun at the theater.)",
+        "Me interesa mucho la fotografía moderna. (Modern photography really interests me.)"
+      ],
+      "aid_note": "Romanian uses 'îmi place' / 'îmi plac' + noun for liking things, which works similarly to Spanish gustar. Romanian: 'îmi place muzica' = Spanish 'me gusta la música', 'îmi plac cărțile' = Spanish 'me gustan los libros'. Romanian 'îmi place să + infinitive' = Spanish 'me gusta + infinitive'. The structure is nearly identical — both languages put the person on the 'receiving' side and the liked thing as the subject. For Romanian speakers: 'îmi place foarte mult' = Spanish 'me gusta mucho', 'îmi place foarte puțin' = Spanish 'no me gusta mucho'. The only major difference is Spanish has more verbs like 'encantar', 'interesar', 'importar' that work the same way."
+    },
+    {
+      "title": "Pretérito Indefinido for Cultural Experiences",
+      "content": "The preterite tense describes completed cultural experiences — visiting museums, attending concerts, watching movies, and reading books in the past.\\\\n\\\\nRegular conjugations:\\\\n\\\\n-AR verbs (ir, visitar, asistir):\\\\n  yo visité / tú visitaste / usted visitó / nosotros visitamos / vosotros visitasteis / ellos visitaron\\\\n  yo asistí / tú asististe / usted asistió / nosotros asistimos / vosotros asististeis / ellos asistieron\\\\n\\\\n-ER/-IR verbs (ver, escuchar, escribir):\\\\n  yo vi / tú viste / usted vio / nosotros vimos / vosotros visteis / ellos vieron\\\\n  yo escuché / tú escuchaste / usted escuchó / nosotros escuchamos / vosotros escuchasteis / ellos escucharon\\\\n  yo escribí / tú escribiste / usted escribió / nosotros escribimos / vosotros escribisteis / ellos escribieron\\\\n\\\\nImportant: -AR verb endings use accents on first and third person (-é, -ó). -ER/-IR verbs use an accent on first person (-í).\\\\n\\\\nCompleted cultural experiences:\\\\n\\\\n1. I visited the museum yesterday:\\\\n   Visité el museo ayer.\\\\n\\\\n2. We watched a great movie last night:\\\\n   Vimos una película excelente anoche.\\\\n\\\\n3. My friend attended a concert:\\\\n   Mi amigo asistió a un concierto.\\\\n\\\\n4. I read a novel in one week:\\\\n   Leí una novela en una semana.\\\\n\\\\n5. They painted beautiful landscapes:\\\\n   Pintaron paisajes hermosos.\\\\n\\\\nIrregular preterite verbs:\\\\n  ser/ir → fui, fuiste, fue, fuimos, fuisteis, fueron (I went to the theater)\\\\n  ver → vi, viste, vio, vimos, visteis, vieron (I watched a movie)\\\\n  hacer → hice, hiciste, hizo, hicimos, hicisteis, hicieron (I made a painting)\\\\n  tener → tuve, tuviste, tuvo, tuvimos, tuvisteis, tuvieron (I had a concert)\\\\n  poner → puse, pusiste, puso, pusimos, pusisteis, pusieron (I put on a play)\\\\n  decir → dije, dijiste, dijo, dijimos, dijisteis, dijeron (I said a poem)\\\\n  poder → pude, pudiste, pudo, pudimos, pudisteis, pudieron (I could go to the museum)\\\\n  saber → supe, supiste, supo, supimos, supisteis, supieron (I learned about art)",
+      "examples": [
+        "El año pasado fui al Museo del Prado en Madrid. (Last year I went to the Prado Museum in Madrid.)",
+        "Vi una película de Almodóvar el fin de semana. (I watched an Almodóvar movie on the weekend.)",
+        "Asistí a un concierto de música latina. (I attended a Latin music concert.)",
+        "Mi hermana escribió un cuento corto. (My sister wrote a short story.)",
+        "Pintamos cuadros para la exposición escolar. (We painted paintings for the school exhibition.)",
+        "Leímos poesía de García Lorca en clase. (We read poetry by García Lorca in class.)"
+      ],
+      "aid_note": "Romanian perfect (perfectul compus) corresponds to Spanish preterite for completed actions: Romanian 'am vizitat' = Spanish 'visité', 'am văzut' = Spanish 'vi', 'am citit' = Spanish 'cité'. The main difference: Romanian uses 'am + past participle' (compound form) while Spanish uses a single word (simple past). Romanian 'am citit o carte' = Spanish 'leí un libro', 'am fost la muzeu' = Spanish 'fui al museo'. For Romanian speakers, the Spanish preterite endings are new patterns to learn, but the concept of a completed past action is the same."
+    },
+    {
+      "title": "Demonstratives for Describing Visual Art",
+      "content": "Demonstrative adjectives and pronouns are used to point at and describe art pieces, books, and objects when discussing visual art.\\\\n\\\\nDemonstrative adjectives (before noun):\\\\n- Este (this, near speaker): este cuadro (this painting)\\\\n- Ese (that, near listener): ese libro (that book)\\\\n- Aquel (that over there, far from both): aquel monumento (that monument over there)\\\\n\\\\nPlural forms:\\\\n- estos / esas / aquellos (these / those / those over there)\\\\n\\\\nDemonstrative pronouns (replace noun):\\\\n- este / esta (this one) / estos / estas (these ones)\\\\n- ese / esa (that one) / esos / esas (those ones)\\\\n- aquel / aquella (that one over there) / aquellos / aquellas (those over there)\\\\n\\\\nUsing demonstratives at a museum:\\\\n\\\\n1. This painting is beautiful:\\\\n   Este cuadro es hermoso.\\\\n\\\\n2. I prefer that sculpture:\\\\n   Prefiero esa escultura.\\\\n\\\\n3. Those sculptures over there are incredible:\\\\n   Aquellas esculturas allí son increíbles.\\\\n\\\\n4. I like this one more:\\\\n   Me gusta esta más. (feminine)\\\\n   Me gusta este más. (masculine)\\\\n\\\\n5. Those books are interesting:\\\\n   Esos libros son interesantes.\\\\n\\\\n6. I want to buy that one:\\\\n   Quiero comprar ese. (masculine)\\\\n   Quiero comprar esa. (feminine)\\\\n\\\\nNote: Demonstrative pronouns require an accent mark (éste, ésa, ésos, ésas) in formal writing, though the RAE now considers the accent optional.\\\\n\\\\nWith 'de + pronoun' for distance:\\\\n- este de ahí (this one over there)\\\\n- ese de aquí (that one from here)\\\\n- aquel de allá (that one over there)",
+      "examples": [
+        "¿Ves este cuadro rojo? (Do you see this red painting?)",
+        "Ese museo es el más grande de la ciudad. (That museum is the largest in the city.)",
+        "Me gusta más aquella escultura del jardín. (I like that sculpture in the garden better.)",
+        "Estos libros son de mi autor favorito. (These books are by my favorite author.)",
+        "Aquella película fue excelente. (That movie was excellent.)",
+        "Quiero comprar ese cuadro. (I want to buy that painting.)"
+      ],
+      "aid_note": "Romanian demonstratives work very similarly to Spanish: 'acest' = 'este' (this), 'acest' = 'ese' (that), 'acel' = 'aquel' (that over there). Romanian: 'această pictură' = Spanish 'esta pintura', 'acele sculpturi' = Spanish 'aquellas esculturas'. The three-distance system (near speaker / near listener / far from both) is identical between Romanian and Spanish. For Romanian speakers, the demonstrative forms are nearly direct translations: 'acest' → 'este/ese', 'acel' → 'aquel', 'aceste' → 'estos/esas', 'acei' → 'aquellos'. This makes demonstratives easy for Romanian speakers to master."
+    }
+  ],
+  "pronunciation": {
+    "title": "Arts & Literature Pronunciation — Artistic, Cultural and Literary Vocabulary",
+    "content": "Clear pronunciation of artistic and cultural terms is essential for discussing art, literature, music, cinema, and creative expression.\\\\n\\\\nKey pronunciation patterns:\\\\n\\\\n1. Trailing '-ción', '-sión', '-sión' (stress on the 's' sound):\\\\n   - la fotografía = fo-toh-GRA-fee-ah\\\\n   - la escultura = es-kool-TOO-rah (no sibilant, but practice the 'cc' = 'ks')\\\\n   - la exposición = es-po-see-OHN\\\\n   - la inspiración = een-speh-rah-see-OHN\\\\n   - la creatividad = kree-ah-tih-VEE-dad\\\\n\\\\n2. The 'll' (y sound in most regions):\\\\n   - el lienzo = LYEH-nsoh (y sound)\\\\n   - la billetera = bye-ee-TEH-rah (not 'billy')\\\\n\\\\n3. The 'ñ' (ny sound):\\\\n   - el pintor = PEEN-tor (no ñ)\\\\n   - la flauta = flah-TOH-rah (no ñ, but 'fl' cluster)\\\\n   - el lienzo = LYEH-nsoh (ñ = ny)\\\\n\\\\n4. The 'qu' before 'e/i' (hard k sound):\\\\n   - la quimera = keh-MEH-rah (not 'key')\\\\n   - el equipo = eh-POH-yoh (kw sound)\\\\n   - la obra maestra = OH-brah mah-ES-trah (not present here, but good practice)\\\\n\\\\n5. Rolled 'r' patterns:\\\\n   - el pintor = PEEN-tor (single r = quick tap)\\\\n   - el escultor = es-kool-TOHR (single r = quick tap)\\\\n   - el actor = ak-TOHR (single r = quick tap)\\\\n   - el arte = AR-teh (single r = quick tap)\\\\n   - la obra = OH-brah (no r, but common word)\\\\n\\\\n6. The 'g' before 'e/i' (soft g, harsh 'h' sound):\\\\n   - el género = HEH-neh-roh (g before e = harsh h)\\\\n   - el artista = ar-TEE-stah (no g)\\\\n   - el folclore = foil-KOH-reh (no g)\\\\n\\\\n7. Diphthongs with 'ie' and 'ue':\\\\n   - el cine = SEE-neh (no diphthong, ei = ee)\\\\n   - el escenario = es-neh-AR-ee-oh (ie = diphthong)\\\\n   - la película = peh-lee-KOO-lah (no diphthong)\\\\n   - el teatro = teh-AT-roh (no diphthong)\\\\n\\\\n8. Silent 'h':\\\\n   - el artista = ar-TEES-tah\\\\n   - el teatro = teh-AT-roh\\\\n   - la obra = OH-brah\\\\n   - el horizonte = oh-reh-ZOH-nreh (not in this theme, but common pattern)\\\\n\\\\n9. The 'b' and 'v' (same sound):\\\\n   - el baile = BYAH-leh (b = soft bilabial)\\\\n   - la bailarina = bye-lah-REE-nah\\\\n   - la novela = no-HEH-lah (v = same as b)\\\\n\\\\n10. The 'ch' (sharp 'ch' sound):\\\\n   - el cuento = KWEN-toh (no ch here)\\\\n   - la obra = OH-brah\\\\n   - el retrato = reh-TRAH-toh (no ch here)\\\\n   - el teatro = teh-AT-roh\\\\n\\\\n11. Stress on '-co', '-go' endings:\\\\n   - el cine = SEE-neh (no -co/-go)\\\\n   - el folclore = foil-KOH-reh (stress on KOH)\\\\n   - el paisaje = PAH-see-heh (or PAH-see-geh in Spain, j = harsh h)\\\\n\\\\n12. The 't' and 'd' between vowels (soft d, like 'th' in 'the'):\\\\n   - la obra = OH-brah (not between vowels)\\\\n   - el escenario = es-neh-AR-ee-oh (d not present)\\\\n   - la ciudad = see-VAH-dah (d between vowels = soft 'th' in Spain)\\\\n\\\\n13. Trailing '-ar', '-er', '-ir' stress patterns:\\\\n   - el bailar = bye-lahr (stress on last syllable)\\\\n   - el cantar = kahn-TAHR (stress on last syllable)\\\\n   - el cantar = kahn-TAHR (stress on last syllable)\\\\n   - el escribir = es-kree-BEER (stress on last syllable)\\\\n   - el pintar = peen-TAHR (stress on last syllable)\\\\n   - el leer = leh-EHR (stress on last syllable)\\\\n   - el ver = VEHR (stress on last syllable)\\\\n\\\\n14. The 'x' (ks sound):\\\\n   - no words with 'x' in this theme, but common pattern:\\\\n   - el examen = eks-AH-men\\\\n   - el boxeador = bok-seh-DAHR\\\\n\\\\n15. The 'z' (s in LatAm, th in Spain):\\\\n   - el libro = LEE-broh (no z, but common word)\\\\n   - la novela = no-HEH-lah (no z)\\\\n   - el actor = ak-TOHR (no z)",
+    "examples": [
+      "arte = AR-teh (rolled r, stress on 'AR')",
+      "pintura = peen-TOO-rah (stress on 'TOO')",
+      "escultura = es-kool-TOO-rah (cc = ks sound, stress on 'TOO')",
+      "fotografía = fo-toh-GRA-fee-ah (stress on 'GRA', trailing -grafía)",
+      "música = MOO-see-kah (stress on 'MOO', trailing -ca)",
+      "guitarra = ghee-TAH-rah (double r = strong roll, stress on 'TAH')",
+      "literatura = lee-tseh-RAH-too-rah (stress on 'RAH')",
+      "novela = no-HEH-lah (v = b sound, stress on 'HEH')",
+      "película = peh-lee-KOO-lah (stress on 'KOO', acute accent tells you)",
+      "teatro = teh-AT-roh (silent h, stress on 'AT')",
+      "museo = moo-SEH-oh (stress on 'SEH', diphthong eo)",
+      "galería = gah-leh-REE-ah (stress on 'REE', trailing -ía)",
+      "canción = kahn-see-OHN (stress on 'SSEE', trailing -ción)",
+      "escritor = es-kree-TOHR (stress on 'TOHR', rolled r)",
+      "actor = ak-TOHR (stress on 'TOHR', rolled r)",
+      "paísaje = PAH-see-heh (j = harsh h in Spain) / PAH-see-say (j = s in LatAm)",
+      "retrato = reh-TRAH-toh (stress on 'TRAH')",
+      "concierto = kon-CEE-rtoh (stress on 'CEE', double r roll)",
+      "ballet = bah-LAY (stress on 'LAY', French loanword)",
+      "folclore = foil-KOH-reh (stress on 'KOH')"
+    ]
+  },
+  "exercises": [
+    {
+      "type": "multiple-choice",
+      "question": "What is the Spanish word for 'art'?",
+      "options": ["la artesanía", "el arte", "el artista", "la pintura"],
+      "correct": 1,
+      "explanation": "'El arte' means 'art.' 'La artesanía' = crafts/handicrafts, 'el artista' = artist, 'la pintura' = painting."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What is the Spanish word for 'guitar'?",
+      "options": ["el piano", "el violín", "la guitarra", "el tambor"],
+      "correct": 2,
+      "explanation": "'La guitarra' means 'guitar.' 'El piano' = piano, 'el violín' = violin, 'el tambor' = drum."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete with the present tense: 'Yo ____ (pintar) cuadros en mi tiempo libre.' (I paint pictures in my free time.)",
+      "correct": "pinto",
+      "explanation": "'Pinto' is the yo form of pintar. -AR verbs in yo present end in -o: pintar → pinto."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What does 'el museo' mean?",
+      "options": ["The gallery", "The museum", "The theater", "The cinema"],
+      "correct": 1,
+      "explanation": "'El museo' means 'the museum.' 'La galería' = gallery, 'el teatro' = theater, 'el cine' = cinema."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete with gustar: 'A mí ____ (gustar) mucho la música.' (I really like music.)",
+      "correct": "me gusta",
+      "explanation": "'Me gusta' = I like (literally: music is pleasing to me). 'A mí' emphasizes 'to me.' 'Gusta' is singular because 'música' is singular."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What is the Spanish word for 'novel'?",
+      "options": ["el cuento", "la novela", "el poema", "la poesía"],
+      "correct": 1,
+      "explanation": "'La novela' means 'novel.' 'El cuento' = short story, 'el poema' = poem, 'la poesía' = poetry."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete with the preterite: 'El año pasado ____ (visitar) el museo del Prado.' (Last year I visited the Prado Museum.)",
+      "correct": "visité",
+      "explanation": "'Visité' is the yo form of visitar in the preterite. -AR verbs in yo preterite end in -é: visitar → visité."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What does 'el lienzo' mean?",
+      "options": ["The paintbrush", "The canvas", "The palette", "The sketch"],
+      "correct": 1,
+      "explanation": "'El lienzo' means 'the canvas.' 'El pincel' = paintbrush, 'la paleta' = palette, 'el boceto' = sketch."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete with the correct demonstrative: '____ cuadro rojo es hermoso.' (This red painting is beautiful.)",
+      "correct": "Este",
+      "explanation": "'Este' means 'this' (masculine, near speaker). 'Cuadro' is masculine, so we use 'Este cuadro' = This painting."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What is the Spanish word for 'sculpture'?",
+      "options": ["la pintura", "la escultura", "la fotografía", "la artesanía"],
+      "correct": 1,
+      "explanation": "'La escultura' means 'sculpture.' 'La pintura' = painting, 'la fotografía' = photography, 'la artesanía' = crafts."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete with gustar: '____ gusta leer novelas de misterio.' (I like mystery novels.)",
+      "correct": "Me",
+      "explanation": "'Me gusta' = I like. 'Me' is the indirect object pronoun meaning 'to me.' 'Me gusta leer' = I like to read."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What does 'la película' mean?",
+      "options": ["The movie", "The actor", "The director", "The script"],
+      "correct": 0,
+      "explanation": "'La película' means 'the movie' or 'film.' 'El actor' = actor, 'el director' = director, 'el guion' = script."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete with the present tense: 'Mi hermano ____ (tocar) la guitarra.' (My brother plays the guitar.)",
+      "correct": "toca",
+      "explanation": "'Toca' is the usted/él/ella form of tocar. 'Mi hermano toca la guitarra' = My brother plays the guitar."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What is the Spanish word for 'museum'? (Note: 'galería' is also listed)",
+      "options": ["el teatro", "la galería", "el museo", "el monumento"],
+      "correct": 2,
+      "explanation": "'El museo' means 'museum.' 'La galería' = art gallery, 'el teatro' = theater, 'el monumento' = monument."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete with gustar: 'A ella le ____ (encantar) la ópera.' (She loves opera.)",
+      "correct": "encanta",
+      "explanation": "'Encanta' is the 3rd person singular of encantar (to love). 'A ella le encanta' = She loves (literally: opera is very pleasing to her)."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What does 'el folclore' mean?",
+      "options": ["The folklore", "The festival", "The tradition", "The monument"],
+      "correct": 0,
+      "explanation": "'El folclore' means 'folklore.' 'El festival' = festival, 'la tradición' = tradition, 'el monumento' = monument."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete with the preterite: 'Nosotros ____ (ver) una película excelente.' (We watched an excellent movie.)",
+      "correct": "vimos",
+      "explanation": "'Vimos' is the nosotros form of ver in the preterite. Ver is irregular: vi, viste, vio, vimos, visteis, vieron."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What does 'el retrato' mean?",
+      "options": ["The landscape", "The portrait", "The still life", "The abstract"],
+      "correct": 1,
+      "explanation": "'El retrato' means 'portrait.' 'El paisaje' = landscape, 'el bodegón' = still life, 'el arte abstracto' = abstract art."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete with the correct demonstrative: 'Prefiero ____ escultura, no aquella.' (I prefer that sculpture, not that one over there.)",
+      "correct": "esa",
+      "explanation": "'Esa' means 'that' (feminine, near the listener). 'Escultura' is feminine, so we use 'esa escultura' = that sculpture."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What is the Spanish word for 'paintbrush'?",
+      "options": ["el pincel", "el lienzo", "el papel", "el lápiz"],
+      "correct": 0,
+      "explanation": "'El pincel' means 'paintbrush.' 'El lienzo' = canvas, 'el papel' = paper, 'el lápiz' = pencil."
+    }
+  ]
+}

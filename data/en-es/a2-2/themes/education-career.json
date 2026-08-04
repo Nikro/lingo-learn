@@ -1,0 +1,255 @@
+{
+  "id": "education-career",
+  "level": "a2-2",
+  "title": "Education & Career Development",
+  "description": "Talk about university studies, career paths, professional development, and job interviews. Discuss academic programs, work experience, and career goals. Master the imperfect subjunctive for hypothetical career situations and conditional expressions for professional advice.",
+  "vocabulary": [
+    {"id": 1, "target": "la educación", "source": "education", "gender": "f", "type": "noun"},
+    {"id": 2, "target": "la enseñanza", "source": "teaching", "gender": "f", "type": "noun"},
+    {"id": 3, "target": "el aprendizaje", "source": "learning", "gender": "m", "type": "noun"},
+    {"id": 4, "target": "la universidad", "source": "university", "gender": "f", "type": "noun"},
+    {"id": 5, "target": "el colegio", "source": "school", "gender": "m", "type": "noun"},
+    {"id": 6, "target": "la escuela", "source": "school (primary)", "gender": "f", "type": "noun"},
+    {"id": 7, "target": "el instituto", "source": "high school / institute", "gender": "m", "type": "noun"},
+    {"id": 8, "target": "la facultad", "source": "faculty / school of studies", "gender": "f", "type": "noun"},
+    {"id": 9, "target": "la carrera", "source": "degree / major / career", "gender": "f", "type": "noun"},
+    {"id": 10, "target": "el grado", "source": "undergraduate degree", "gender": "m", "type": "noun"},
+    {"id": 11, "target": "el máster", "source": "master's degree", "gender": "m", "type": "noun"},
+    {"id": 12, "target": "el doctorado", "source": "PhD / doctorate", "gender": "m", "type": "noun"},
+    {"id": 13, "target": "la licenciatura", "source": "undergraduate degree (Spain)", "gender": "f", "type": "noun"},
+    {"id": 14, "target": "el título", "source": "degree / diploma / title", "gender": "m", "type": "noun"},
+    {"id": 15, "target": "la asignatura", "source": "subject / course", "gender": "f", "type": "noun"},
+    {"id": 16, "target": "la materia", "source": "subject / topic", "gender": "f", "type": "noun"},
+    {"id": 17, "target": "la clase", "source": "class / lesson", "gender": "f", "type": "noun"},
+    {"id": 18, "target": "la lección", "source": "lesson", "gender": "f", "type": "noun"},
+    {"id": 19, "target": "el examen", "source": "exam", "gender": "m", "type": "noun"},
+    {"id": 20, "target": "el test", "source": "test", "gender": "m", "type": "noun"},
+    {"id": 21, "target": "el trabajo práctico", "source": "practical assignment", "gender": "m", "type": "phrase"},
+    {"id": 22, "target": "la tarea", "source": "homework / assignment", "gender": "f", "type": "noun"},
+    {"id": 23, "target": "la tesis", "source": "thesis", "gender": "f", "type": "noun"},
+    {"id": 24, "target": "la beca", "source": "scholarship", "gender": "f", "type": "noun"},
+    {"id": 25, "target": "la beca de estudio", "source": "study scholarship", "gender": "f", "type": "phrase"},
+    {"id": 26, "target": "la matrícula", "source": "tuition / enrollment", "gender": "f", "type": "noun"},
+    {"id": 27, "target": "el matrícula", "source": "matriculation", "gender": "m", "type": "noun"},
+    {"id": 28, "target": "inscribirse", "source": "to enroll / to register", "gender": "v", "type": "verb"},
+    {"id": 29, "target": "graduarse", "source": "to graduate", "gender": "v", "type": "verb"},
+    {"id": 30, "target": "aprobar", "source": "to pass (an exam)", "gender": "v", "type": "verb"},
+    {"id": 31, "target": "suspender", "source": "to fail (an exam)", "gender": "v", "type": "verb"},
+    {"id": 32, "target": "repetir un curso", "source": "to repeat a year", "gender": "—", "type": "phrase"},
+    {"id": 33, "target": "la asistencia", "source": "attendance", "gender": "f", "type": "noun"},
+    {"id": 34, "target": "el profesor", "source": "teacher / professor", "gender": "m", "type": "noun"},
+    {"id": 35, "target": "la profesora", "source": "teacher / professor (female)", "gender": "f", "type": "noun"},
+    {"id": 36, "target": "el estudiante", "source": "student", "gender": "m/f", "type": "noun"},
+    {"id": 37, "target": "el alumno", "source": "pupil / student", "gender": "m", "type": "noun"},
+    {"id": 38, "target": "la alumno", "source": "student (female)", "gender": "f", "type": "noun"},
+    {"id": 39, "target": "la educación profesional", "source": "vocational education", "gender": "f", "type": "phrase"},
+    {"id": 40, "target": "la formación profesional", "source": "vocational training", "gender": "f", "type": "phrase"},
+    {"id": 41, "target": "el empleo", "source": "job / employment", "gender": "m", "type": "noun"},
+    {"id": 42, "target": "el trabajo", "source": "work / job", "gender": "m", "type": "noun"},
+    {"id": 43, "target": "la profesión", "source": "profession", "gender": "f", "type": "noun"},
+    {"id": 44, "target": "la carrera profesional", "source": "career path", "gender": "f", "type": "phrase"},
+    {"id": 45, "target": "el desarrollo profesional", "source": "professional development", "gender": "m", "type": "phrase"},
+    {"id": 46, "target": "la experiencia laboral", "source": "work experience", "gender": "f", "type": "phrase"},
+    {"id": 47, "target": "el currículum vitae", "source": "CV / résumé", "gender": "m", "type": "phrase"},
+    {"id": 48, "target": "el CV", "source": "CV", "gender": "m", "type": "noun"},
+    {"id": 49, "target": "la carta de presentación", "source": "cover letter", "gender": "f", "type": "phrase"},
+    {"id": 50, "target": "la entrevista de trabajo", "source": "job interview", "gender": "f", "type": "phrase"},
+    {"id": 51, "target": "entrevistar", "source": "to interview", "gender": "v", "type": "verb"},
+    {"id": 52, "target": "entrevistarse", "source": "to have an interview", "gender": "v", "type": "verb"},
+    {"id": 53, "target": "solicitar un empleo", "source": "to apply for a job", "gender": "—", "type": "phrase"},
+    {"id": 54, "target": "presentar una solicitud", "source": "to submit an application", "gender": "—", "type": "phrase"},
+    {"id": 55, "target": "la oferta de trabajo", "source": "job offer", "gender": "f", "type": "phrase"},
+    {"id": 56, "target": "el contrato", "source": "contract", "gender": "m", "type": "noun"},
+    {"id": 57, "target": "el contrato temporal", "source": "temporary contract", "gender": "m", "type": "phrase"},
+    {"id": 58, "target": "el contrato indefinido", "source": "permanent contract", "gender": "m", "type": "phrase"},
+    {"id": 59, "target": "el salario", "source": "salary", "gender": "m", "type": "noun"},
+    {"id": 60, "target": "el sueldo", "source": "salary / wage", "gender": "m", "type": "noun"},
+    {"id": 61, "target": "el sueldo neto", "source": "net salary", "gender": "m", "type": "phrase"},
+    {"id": 62, "target": "la nómina", "source": "pay slip", "gender": "f", "type": "noun"},
+    {"id": 63, "target": "las vacaciones", "source": "vacation / holidays", "gender": "f", "type": "noun"},
+    {"id": 64, "target": "el día libre", "source": "day off", "gender": "m", "type": "phrase"},
+    {"id": 65, "target": "la promoción", "source": "promotion", "gender": "f", "type": "noun"},
+    {"id": 66, "target": "ascender", "source": "to be promoted", "gender": "v", "type": "verb"},
+    {"id": 67, "target": "renunciar", "source": "to resign / quit", "gender": "v", "type": "verb"},
+    {"id": 68, "target": "despedir", "source": "to fire / lay off", "gender": "v", "type": "verb"},
+    {"id": 69, "target": "ser despedido/a", "source": "to be fired / laid off", "gender": "—", "type": "phrase"},
+    {"id": 70, "target": "el jefe", "source": "boss", "gender": "m", "type": "noun"},
+    {"id": 71, "target": "la jefa", "source": "boss (female)", "gender": "f", "type": "noun"},
+    {"id": 72, "target": "el compañero", "source": "coworker", "gender": "m", "type": "noun"},
+    {"id": 73, "target": "la compañera", "source": "coworker (female)", "gender": "f", "type": "noun"},
+    {"id": 74, "target": "el subordinado", "source": "subordinate", "gender": "m", "type": "noun"},
+    {"id": 75, "target": "la reunión", "source": "meeting", "gender": "f", "type": "noun"},
+    {"id": 76, "target": "la jornada laboral", "source": "working hours", "gender": "f", "type": "phrase"},
+    {"id": 77, "target": "la media jornada", "source": "part-time", "gender": "f", "type": "phrase"},
+    {"id": 78, "target": "la jornada completa", "source": "full-time", "gender": "f", "type": "phrase"},
+    {"id": 79, "target": "el teletrabajo", "source": "remote work", "gender": "m", "type": "noun"},
+    {"id": 80, "target": "trabajar desde casa", "source": "to work from home", "gender": "—", "type": "phrase"},
+    {"id": 81, "target": "la habilidad", "source": "skill", "gender": "f", "type": "noun"},
+    {"id": 82, "target": "la competencia", "source": "competence / skill", "gender": "f", "type": "noun"},
+    {"id": 83, "target": "la cualificación", "source": "qualification", "gender": "f", "type": "noun"},
+    {"id": 84, "target": "el curso de formación", "source": "training course", "gender": "m", "type": "phrase"},
+    {"id": 85, "target": "capacitarse", "source": "to get trained / upskill", "gender": "v", "type": "verb"},
+    {"id": 86, "target": "actualizar habilidades", "source": "to update skills", "gender": "—", "type": "phrase"},
+    {"id": 87, "target": "el portafolio", "source": "portfolio", "gender": "m", "type": "noun"},
+    {"id": 88, "target": "la red profesional", "source": "professional network", "gender": "f", "type": "phrase"},
+    {"id": 89, "target": "hacer networking", "source": "to network", "gender": "—", "type": "phrase"},
+    {"id": 90, "target": "el objetivo profesional", "source": "career goal", "gender": "m", "type": "phrase"},
+    {"id": 91, "target": "el plan de carrera", "source": "career plan", "gender": "m", "type": "phrase"},
+    {"id": 92, "target": "cambiar de carrera", "source": "to change careers", "gender": "—", "type": "phrase"},
+    {"id": 93, "target": "el autoempleo", "source": "self-employment", "gender": "m", "type": "noun"},
+    {"id": 94, "target": "emprender", "source": "to start a business / be an entrepreneur", "gender": "v", "type": "verb"},
+    {"id": 95, "target": "la empresa", "source": "company / business", "gender": "f", "type": "noun"},
+    {"id": 96, "target": "la startup", "source": "startup", "gender": "f", "type": "noun"},
+    {"id": 97, "target": "el sector", "source": "sector / industry", "gender": "m", "type": "noun"},
+    {"id": 98, "target": "el sector tecnológico", "source": "tech sector", "gender": "m", "type": "phrase"},
+    {"id": 99, "target": "la posición", "source": "position / role", "gender": "f", "type": "noun"},
+    {"id": 100, "target": "las perspectivas laborales", "source": "job prospects", "gender": "f", "type": "phrase"}
+  ],
+  "grammar": [
+    {
+      "title": "Imperfect Subjunctive for Hypothetical Career Situations",
+      "content": "The imperfect subjunctive expresses hypothetical situations, wishes, and polite suggestions — very useful for career discussions:\\n\\nFormation (two forms, both correct — -ra form is more common in speech):\\n- Take the 3rd person plural preterite (ellos/ellas form), drop -ron, add:\\n  -ra form: -ra, -ras, -ra, -ramos, -rais, -ran\\n  -se form: -se, -ses, -se, -semos, -seis, -sen\\n\\nCommon irregular preterite stems for imperfect subjunctive:\\n- ser → fuera / fuese\\n- ir → fuera / fuese\\n- tener → tuviera / tuviese\\n- poder → pudiera / pudiese\\n- hacer → hiciera / hiciera\\n- saber → supiera / supiese\\n- ser → fuera / fuese\\n- haber → hubiera / hubiese\\n\\nUsage contexts:\\n- If clauses (hypotheticals): Si tuviera más experiencia, pediría un ascenso. (If I had more experience, I would ask for a promotion.)\\n- Wishes: Ojalá pudiera estudiar un máster. (I wish I could study a master's.)\\n- Polite requests: Me gustaría que me ayudaran con el currículum. (I would like you to help me with the CV.)\\n- Suggestions: Sería bueno que aprendieras programación. (It would be good if you learned to program.)",
+      "examples": [
+        "Si tuviera más experiencia, solicitaría ese puesto. (If I had more experience, I would apply for that position.)",
+        "Ojalá pudiera cambiar de carrera. (I wish I could change careers.)",
+        "Sería ideal que me contrataran como desarrollador. (It would be ideal if they hired me as a developer.)",
+        "Me encantaría que me financiara la universidad. (I would love it if they funded my university education.)",
+        "Si hubiera ganado la beca, habría estudiado en Madrid. (If I had won the scholarship, I would have studied in Madrid.)"
+      ]
+    },
+    {
+      "title": "Conditional Tense for Career Advice & Hypotheticals",
+      "content": "The conditional tense expresses what would happen under certain conditions — essential for career discussions and giving advice:\\n\\nFormation: infinitive + endings\\n-ía, -ías, -ía, -íamos, -íais, -ían\\n\\nRegular examples:\\n- trabajar → trabajaría (I would work)\\n- estudiar → estudiaría (I would study)\\n- conseguir → conseguiría (I would achieve)\\n- necesitar → necesitaría (I would need)\\n\\nIrregular stems (same as future tense):\\n- poder → podría (I could)\\n- tener → tendría (I would have)\\n- salir → saldría (I would leave)\\n- poner → pondría (I would put)\\n- hacer → haría (I would do)\\n- saber → sabría (I would know)\\n- querer → querría (I would want)\\n- decir → diría (I would say)\\n- venir → vendría (I would come)\\n- haber → habría (I would have)\\n- necesitar → necesitaría (I would need)\\n\\nUsage contexts:\\n- Conditional sentences (si + imperfect subjunctive): Si estudiara más, tendría mejores notas. (If I studied more, I would have better grades.)\\n- Career advice: Sería mejor que hicieras un curso de formación. (It would be better if you took a training course.)\\n- Polite requests: ¿Podría ayudarme con mi carta de presentación? (Could you help me with my cover letter?)\\n- Future in the past: Dijo que conseguiría el empleo. (He said he would get the job.)",
+      "examples": [
+        "Con más experiencia, conseguiría un mejor salario. (With more experience, I would get a better salary.)",
+        "Si aprendiera un segundo idioma, trabajaría en una empresa internacional. (If I learned a second language, I would work at an international company.)",
+        "Te sugeriría que actualizaras tu currículum. (I would suggest you update your résumé.)",
+        "¿Podría asistir a la entrevista mañana? (Could I attend the interview tomorrow?)",
+        "Sería útil capacitarse en línea. (It would be useful to train online.)"
+      ]
+    },
+    {
+      "title": "Ser vs. Estar in Professional Contexts",
+      "content": "Knowing when to use 'ser' and 'estar' is crucial in professional Spanish:\\n\\n'Ser' for professional identity and permanent/defining characteristics:\\n- Ser + profession: Soy ingeniero. (I am an engineer.)\\n- Ser + company: Trabajo en Google / Soy de Google. (I work at Google / I'm from Google.)\\n- Ser + characteristics of the job: Es un trabajo difícil. (It's a difficult job.)\\n- Ser + time: Son las nueve de la mañana. (It's 9 AM.)\\n\\n'Estar' for temporary states and job locations:\\n- Estar + adjectives (temporary state): Estoy cansado/a del trabajo. (I'm tired of work.)\\n- Estar + employed: Estoy trabajando en una startup. (I'm working at a startup.)\\n- Estar + location: Estoy en la oficina. (I'm at the office.)\\n- Estar + doing (gerund): Estoy buscando empleo. (I'm looking for a job.)\\n\\nCommon expressions:\\n- Estoy employed/unemployed: Estoy empleado / estoy desempleado/a\\n- I'm busy with work: Estoy ocupado con el trabajo\\n- I'm in charge of: Estoy a cargo de\\n- I'm responsible for: Soy responsable de / Estoy encargado de\\n- I'm on vacation: Estoy de vacaciones\\n- I'm on sick leave: Estoy de baja / Estoy enfermo/a\\n\\nKey distinction:\\n- Soy médico. = I am a doctor (profession — permanent identity)\\n- Estoy médico de guardia. = I'm on doctor duty (temporary assignment)",
+      "examples": [
+        "Soy profesor de matemáticas. (I am a math teacher.)",
+        "Estoy buscando un nuevo empleo. (I am looking for a new job.)",
+        "Es una empresa muy importante. (It is a very important company.)",
+        "Estoy a cargo del departamento de marketing. (I am in charge of the marketing department.)",
+        "Soy responsable de las ventas en Latinoamérica. (I am responsible for sales in Latin America.)"
+      ]
+    }
+  ],
+  "pronunciation": [
+    {
+      "title": "Stress Patterns in Education & Career Vocabulary",
+      "content": "Key pronunciation rules for education and career vocabulary:\\n\\n1. Palabras esdrújulas (stress on antepenult) — ALWAYS have an accent:\\n   - el currículum (kuh-REE-koo-loom) — has accent\\n   - la universidad (oo-nee-behr-see-DAHD) — stress on penult, NO accent because it ends in -d\\n   - la asignatura (ah-seeg-nah-TOO-rah) — stress on penult, NO accent\\n   - la profesora (pro-feh-SOH-rah) — stress on penult, NO accent\\n\\n2. Palabras agudas (stress on last syllable) — marked if ending in consonant other than -n or -s:\\n   - el máster (MAHS-ter) — has accent, loanword\\n   - el examen (ehg-ZAH-men) — stress on penult (llana), no accent — ends in -n\\n   - la oficina (oh-fee-SEE-nah) — stress on penult (llana), no accent — ends in -n\\n   - el contrato (kon-TRAH-toh) — llana, no accent — ends in -o\\n\\n3. Palabras llanas (stress on penult) — marked if NOT ending in vowel, -n, or -s:\\n   - la carrera (kah-REH-rah) — llana, no accent — ends in -a\\n   - el empleo (ehm-PLEH-oh) — llana, no accent — ends in -o\\n   - la formación (for-mah-see-ON) — aguda, HAS accent — ends in -n\\n   - el trabajo (trah-BAH-oh) — llana, no accent — ends in -o\\n\\n4. Special sounds:\\n   - -ción → -SYON: la formación (for-mah-see-ON), la profesión (pro-feh-see-ON)\\n   - rr (strong trill): la carrera (kah-REH-rah), el currículum\\n   - ll (y-sound in most dialects): la entrevista (en-treh-VEES-tah)\\n   - j (harsh h-sound): el jefe (HEH-feh), la jornada (hor-HAH-dah)\\n   - c before e/i (th in Spain, s in Latin America): carrera (kah-REH-rah), trabajo (trah-BAH-ho / trah-BAH-so)\\n\\nKey practice words:\\n- universidad = oo-nee-behr-see-DAHD\\n- currículum = kuh-REE-koo-loom\\n- entrevista = en-treh-VEES-tah\\n- promoción = proh-MOH-see-ohn\\n- salario = sah-REE-oh\\n- profesión = proh-FEH-see-ohn\\n- formación = for-mah-see-ON",
+      "examples": [
+        "universidad = oo-nee-behr-see-DAHD (stress on last syllable, no accent — ends in -d)\\n",
+        "currículum = kuh-REE-koo-loom (stress on penult, HAS accent — Spanish adaptation of loanword)\\n",
+        "entrevista = en-treh-VEES-tah (stress on penult, no accent — ends in -a)\\n",
+        "formación = for-mah-see-ON (stress on last syllable, HAS accent — ends in -n)\\n",
+        "profesión = proh-FEH-see-ON (stress on last syllable, HAS accent — ends in -n)",
+        "salario = sah-REE-oh (stress on penult, no accent — ends in -o)"
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "multiple-choice",
+      "question": "Which sentence correctly uses the imperfect subjunctive? 'Si ___ más experiencia, pediría un ascenso.' (If I had more experience, I would ask for a promotion.)",
+      "options": [
+        "tengo",
+        "tuviera",
+        "tendría",
+        "tuve"
+      ],
+      "correct": 1,
+      "explanation": "'Tuviera' is the imperfect subjunctive of 'tener'. In si + imperfect subjunctive conditional sentences, the si clause uses the imperfect subjunctive (tuviera) and the main clause uses the conditional (pediría)."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete with the conditional of 'conseguir': 'Con un máster, yo ___ un mejor salario.' (With a master's degree, I would get a better salary.)",
+      "correct": "conseguiría",
+      "explanation": "'Conseguiría' is the conditional of 'conseguir' (I would get/achieve). Formation: infinitive + conditional endings. Conseguir is a regular -ir verb in the conditional."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Which verb should you use? 'Yo ___ ingeniero en una empresa tecnológica.' (I am an engineer at a tech company.)",
+      "options": [
+        "estoy",
+        "soy",
+        "estuve",
+        "estuve"
+      ],
+      "correct": 1,
+      "explanation": "'Soy' (from ser) is used for professions. 'Ser + profession' expresses your professional identity. 'Estar' would be used for temporary states like 'Estoy trabajando como ingeniero' (I'm working as an engineer)."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete with the imperfect subjunctive of 'poder': 'Ojalá ___ estudiar un máster en el extranjero.' (I wish I could study a master's abroad.)",
+      "correct": "pudiera",
+      "explanation": "'Pudiera' (or 'pudiese') is the imperfect subjunctive of 'poder'. 'Ojalá' always triggers the subjunctive. Here the imperfect subjunctive expresses an unreal/unlikely wish."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What does 'currículum vitae' mean?",
+      "options": [
+        "curriculum vitae",
+        "cover letter",
+        "job offer",
+        "CV / résumé"
+      ],
+      "correct": 3,
+      "explanation": "'Currículum vitae' (CV) means CV or résumé — a document summarizing your education, work experience, and skills. 'La carta de presentación' is the cover letter, and 'la oferta de trabajo' is the job offer."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "How do you say 'to apply for a job' in Spanish?",
+      "options": [
+        "presentarse",
+        "solicitar un empleo",
+        "pedir un trabajo",
+        "buscar empleo"
+      ],
+      "correct": 1,
+      "explanation": "'Solicitar un empleo' means to apply for a job. 'Buscar empleo' means to look for a job. Both are related but 'solicitar' is the formal application process."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete with the correct form of 'ser' or 'estar': 'Ella ___ a cargo del departamento de ventas.' (She is in charge of the sales department.)",
+      "correct": "está",
+      "explanation": "'Estar a cargo de' = to be in charge of. This is a temporary assignment or current role, not a permanent identity. 'Ser responsable de' would also be correct but uses a different expression."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What is the meaning of 'teletrabajo'?",
+      "options": [
+        "part-time work",
+        "remote work",
+        "freelance work",
+        "internship"
+      ],
+      "correct": 1,
+      "explanation": "'Teletrabajo' means remote work (working from home or another location via technology). 'Media jornada' is part-time work, 'autoempleo' is self-employment, and 'pasantía' would be an internship."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete the conditional sentence: 'Si aprendiera otro idioma, ___ en una empresa internacional.' (If I learned another language, I would work at an international company.)",
+      "correct": "trabajaría",
+      "explanation": "'Trabajaría' is the conditional form (I would work). The si clause uses the imperfect subjunctive (aprendiera) and the main clause uses the conditional (trabajaría) — a classic second conditional structure."
+    },
+    {
+      "type": "matching",
+      "question": "Match the Spanish employment terms with their English meanings:\\n\\n1. el despido\\n2. la promoción\\n3. la jornada laboral\\n4. la beca",
+      "options": [
+        "dismissal/firing / promotion / working hours / scholarship",
+        "salary / vacation / contract / promotion",
+        "promotion / dismissal / scholarship / working hours",
+        "working hours / scholarship / dismissal / promotion"
+      ],
+      "correct": 0,
+      "explanation": "el despido = dismissal/firing; la promoción = promotion; la jornada laboral = working hours; la beca = scholarship. These are common terms you'll encounter when discussing employment."
+    }
+  ]
+}

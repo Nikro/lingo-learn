@@ -1,0 +1,684 @@
+{
+  "id": "scientific-literacy-data-analysis",
+  "level": "b2-1",
+  "title": "Scientific Literacy & Data Analysis",
+  "description": "Develop the vocabulary and structures needed to discuss scientific data, interpret statistical results, and engage in evidence-based arguments. Learn to read, analyze, and communicate scientific information effectively in Spanish.",
+  "vocabulary": [
+    {
+      "id": 1,
+      "target": "el dato",
+      "source": "data point",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 2,
+      "target": "la estadística",
+      "source": "statistics",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 3,
+      "target": "la correlación",
+      "source": "correlation",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 4,
+      "target": "la causalidad",
+      "source": "causality",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 5,
+      "target": "la hipótesis",
+      "source": "hypothesis",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 6,
+      "target": "la tesis",
+      "source": "thesis",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 7,
+      "target": "el método científico",
+      "source": "scientific method",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 8,
+      "target": "la variable independiente",
+      "source": "independent variable",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 9,
+      "target": "la variable dependiente",
+      "source": "dependent variable",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 10,
+      "target": "el control experimental",
+      "source": "experimental control",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 11,
+      "target": "el sesgo",
+      "source": "bias",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 12,
+      "target": "la muestra",
+      "source": "sample",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 13,
+      "target": "la población",
+      "source": "population",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 14,
+      "target": "el resultado",
+      "source": "result",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 15,
+      "target": "la conclusión",
+      "source": "conclusion",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 16,
+      "target": "la significancia estadística",
+      "source": "statistical significance",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 17,
+      "target": "el error estándar",
+      "source": "standard error",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 18,
+      "target": "la desviación estándar",
+      "source": "standard deviation",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 19,
+      "target": "la tendencia",
+      "source": "trend",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 20,
+      "target": "el gráfico",
+      "source": "chart/graph",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 21,
+      "target": "el porcentaje",
+      "source": "percentage",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 22,
+      "target": "la media",
+      "source": "mean/average",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 23,
+      "target": "la mediana",
+      "source": "median",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 24,
+      "target": "la moda",
+      "source": "mode",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 25,
+      "target": "el intervalo de confianza",
+      "source": "confidence interval",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 26,
+      "target": "correlacionar",
+      "source": "to correlate",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 27,
+      "target": "interpretar",
+      "source": "to interpret",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 28,
+      "target": "analizar",
+      "source": "to analyze",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 29,
+      "target": "demostrar",
+      "source": "to demonstrate",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 30,
+      "target": "sugerir",
+      "source": "to suggest",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 31,
+      "target": "indicar",
+      "source": "to indicate",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 32,
+      "target": "confirmar",
+      "source": "to confirm",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 33,
+      "target": "refutar",
+      "source": "to refute",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 34,
+      "target": "generalizar",
+      "source": "to generalize",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 35,
+      "target": "cuestionar",
+      "source": "to question",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 36,
+      "target": "inferir",
+      "source": "to infer",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 37,
+      "target": "concluir",
+      "source": "to conclude",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 38,
+      "target": "reproducir",
+      "source": "to reproduce",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 39,
+      "target": "controlar",
+      "source": "to control",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 40,
+      "target": "medir",
+      "source": "to measure",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 41,
+      "target": "estadísticamente significativo",
+      "source": "statistically significant",
+      "gender": "adj.",
+      "type": "adjective"
+    },
+    {
+      "id": 42,
+      "target": "significativo",
+      "source": "significant",
+      "gender": "adj.",
+      "type": "adjective"
+    },
+    {
+      "id": 43,
+      "target": "representativo",
+      "source": "representative",
+      "gender": "adj.",
+      "type": "adjective"
+    },
+    {
+      "id": 44,
+      "target": "empírico",
+      "source": "empirical",
+      "gender": "adj.",
+      "type": "adjective"
+    },
+    {
+      "id": 45,
+      "target": "objetivo",
+      "source": "objective",
+      "gender": "adj.",
+      "type": "adjective"
+    },
+    {
+      "id": 46,
+      "target": "subjetivo",
+      "source": "subjective",
+      "gender": "adj.",
+      "type": "adjective"
+    },
+    {
+      "id": 47,
+      "target": "conclusivo",
+      "source": "conclusive",
+      "gender": "adj.",
+      "type": "adjective"
+    },
+    {
+      "id": 48,
+      "target": "provisional",
+      "source": "provisional",
+      "gender": "adj.",
+      "type": "adjective"
+    },
+    {
+      "id": 49,
+      "target": "consistente",
+      "source": "consistent",
+      "gender": "adj.",
+      "type": "adjective"
+    },
+    {
+      "id": 50,
+      "target": "confiable",
+      "source": "reliable",
+      "gender": "adj.",
+      "type": "adjective"
+    },
+    {
+      "id": 51,
+      "target": "los datos sugieren que",
+      "source": "the data suggests that",
+      "gender": "exp.",
+      "type": "phrase"
+    },
+    {
+      "id": 52,
+      "target": "hay una correlación entre",
+      "source": "there is a correlation between",
+      "gender": "exp.",
+      "type": "phrase"
+    },
+    {
+      "id": 53,
+      "target": "no se puede concluir que",
+      "source": "one cannot conclude that",
+      "gender": "exp.",
+      "type": "phrase"
+    },
+    {
+      "id": 54,
+      "target": "según los datos",
+      "source": "according to the data",
+      "gender": "exp.",
+      "type": "phrase"
+    },
+    {
+      "id": 55,
+      "target": "en comparación con",
+      "source": "in comparison with",
+      "gender": "exp.",
+      "type": "phrase"
+    },
+    {
+      "id": 56,
+      "target": "en un porcentaje de",
+      "source": "in a percentage of",
+      "gender": "exp.",
+      "type": "phrase"
+    },
+    {
+      "id": 57,
+      "target": "los resultados son consistentes",
+      "source": "the results are consistent",
+      "gender": "exp.",
+      "type": "phrase"
+    },
+    {
+      "id": 58,
+      "target": "hay una tendencia a",
+      "source": "there is a trend to",
+      "gender": "exp.",
+      "type": "phrase"
+    },
+    {
+      "id": 59,
+      "target": "se puede inferir que",
+      "source": "one can infer that",
+      "gender": "exp.",
+      "type": "phrase"
+    },
+    {
+      "id": 60,
+      "target": "no implica causalidad",
+      "source": "does not imply causality",
+      "gender": "exp.",
+      "type": "phrase"
+    }
+  ],
+  "grammar": [
+    {
+      "title": "Expressing Data Interpretation and Scientific Claims",
+      "content": "At B2.1 level, you need to articulate how data should be interpreted, distinguish between correlation and causation, and express scientific claims with appropriate certainty levels.",
+      "table": {
+        "headers": [
+          "Function",
+          "Structure",
+          "Example"
+        ],
+        "rows": [
+          [
+            "Stating a finding",
+            "Los datos muestran que... / Los resultados indican que...",
+            "Los datos muestran que hay una correlación entre ambos factores."
+          ],
+          [
+            "Expressing uncertainty",
+            "Es posible que + subj. / Podría ser que + subj.",
+            "Es posible que los resultados se deban a otros factores."
+          ],
+          [
+            "Distinguishing correlation/causation",
+            "Correlación no implica causalidad",
+            "La correlación entre X e Y no implica causalidad."
+          ],
+          [
+            "Qualified conclusion",
+            "Se puede concluir que... / Parece que...",
+            "Se puede concluir que hay una tendencia significativa."
+          ],
+          [
+            "Hedging a claim",
+            "En general / Por lo general / En la mayoría de los casos",
+            "En general, los datos apoyan la hipótesis."
+          ],
+          [
+            "Refuting evidence",
+            "Sin embargo / No obstante / Por el contrario",
+            "Los datos sugieren X; sin embargo, otros estudios indican Y."
+          ]
+        ]
+      },
+      "examples": [
+        "Los datos muestran que hay una correlación entre el consumo y los resultados.",
+        "Es posible que los resultados se deban a otros factores.",
+        "La correlación entre X e Y no implica causalidad.",
+        "Se puede concluir que hay una tendencia significativa.",
+        "Los datos sugieren X; sin embargo, otros estudios indican Y."
+      ],
+      "aid_note": "Romanian speakers: Romanian uses similar hedging — datele arată că ≈ los datos muestran que, este posibil ca ≈ es posible que. The structure corelația nu implică causalitatea maps directly."
+    },
+    {
+      "title": "Subjunctive in Scientific Discourse",
+      "content": "Scientific writing requires expressing doubt, possibility, and evaluation of evidence — all of which trigger the subjunctive in Spanish.",
+      "table": {
+        "headers": [
+          "Expression Type",
+          "Structure",
+          "Example"
+        ],
+        "rows": [
+          [
+            "Doubt about findings",
+            "No es concluyente que + subj. / No se sabe si + subj.",
+            "No es concluyente que los resultados sean definitivos."
+          ],
+          [
+            "Evaluative judgment",
+            "Es importante que + subj. / Es esencial que + subj.",
+            "Es importante que se reproduzcan los experimentos."
+          ],
+          [
+            "Possibility",
+            "Es probable que + subj. / Puede ser que + subj.",
+            "Es probable que haya sesgo en la muestra."
+          ],
+          [
+            "Requirement",
+            "Es necesario que + subj. / Hay que + inf.",
+            "Es necesario que se controle la variable dependiente."
+          ],
+          [
+            "Purpose",
+            "Para que + subj. / A fin de que + subj.",
+            "Para que los resultados sean válidos, se necesita una muestra representativa."
+          ]
+        ]
+      },
+      "examples": [
+        "No es concluyente que los resultados sean definitivos.",
+        "Es importante que se reproduzcan los experimentos.",
+        "Es probable que haya sesgo en la muestra.",
+        "Es necesario que se controle la variable dependiente.",
+        "Para que los resultados sean válidos, se necesita una muestra representativa."
+      ],
+      "aid_note": "Romanian speakers: Es probable que haya sesgo ≈ Este posibil să existe bias. Romanian să + conjunctiv maps to Spanish que + subjuntivo."
+    }
+  ],
+  "pronunciation": [
+    {
+      "title": "Stress Patterns in Scientific Vocabulary",
+      "content": "Scientific Spanish vocabulary contains many esdrújulas and agudas with written accents.",
+      "examples": [
+        {
+          "target": "estadística",
+          "source": "es-tah-deh-SEE-kah (aguda, accent on ca)"
+        },
+        {
+          "target": "hipótesis",
+          "source": "ee-poh-TEH-sis (llana, no accent — note: sis with s)"
+        },
+        {
+          "target": "correlación",
+          "source": "ko-reh-lah-SEE-on (aguda, accent on o)"
+        },
+        {
+          "target": "significancia",
+          "source": "see-nee-fee-KAH-see-ah (aguda, accent on a)"
+        },
+        {
+          "target": "estadísticamente",
+          "source": "es-tah-dees-TEE-kah-men-teh (esdrújula, accented)"
+        },
+        {
+          "target": "experimental",
+          "source": "ex-pe-ree-men-TAL (aguda, stress falls naturally)"
+        },
+        {
+          "target": "muestra",
+          "source": "MWEHS-trah (aguda, accent on ue)"
+        },
+        {
+          "target": "intervalo",
+          "source": "in-tehr-VAH-loh (llana, no accent)"
+        },
+        {
+          "target": "representativo",
+          "source": "re-pre-sen-tah-TEE-voh (esdrújula, accented)"
+        },
+        {
+          "target": "significativo",
+          "source": "see-nee-fee-Kah-tee-voh (esdrújula, accented)"
+        }
+      ],
+      "aid_note": "Romanian speakers: Spanish c before e and i sounds like th in Spain or s in Latin America. The Spanish r in experimental is a single tap, not rolled."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "exercise",
+      "id": 1,
+      "question": "What does la correlación no implica causalidad mean?",
+      "options": [
+        "Correlated events always cause each other",
+        "Just because two things are correlated does not mean one causes the other",
+        "Correlation is more important than causation",
+        "Causation is impossible to prove"
+      ],
+      "correct": 1,
+      "explanation": "One of the most important principles in statistics: correlation between two variables does not mean one causes the other."
+    },
+    {
+      "type": "exercise",
+      "id": 2,
+      "question": "Which structure appropriately expresses a cautious scientific conclusion?",
+      "options": [
+        "Los datos prueban definitivamente...",
+        "En general, los datos sugieren...",
+        "Es obvio que...",
+        "Claramente..."
+      ],
+      "correct": 1,
+      "explanation": "Science requires caution: En general, los datos sugieren... expresses a conclusion based on evidence without absolute claims."
+    },
+    {
+      "type": "fill-in-blank",
+      "id": 3,
+      "question": "Complete: Los datos muestran que _____ una correlación entre ambos factores. (The data shows that there is a correlation between both factors.)",
+      "correct": "hay",
+      "explanation": "Los datos muestran que hay... — the verb haber in 3rd person singular to indicate existence."
+    },
+    {
+      "type": "exercise",
+      "id": 4,
+      "question": "Which of these is NOT a type of variable in an experiment?",
+      "options": [
+        "Variable independiente",
+        "Variable dependiente",
+        "Variable aleatoria",
+        "Variable de control"
+      ],
+      "correct": 2,
+      "explanation": "Variable aleatoria is a probabilistic concept, not an experimental variable type. Experimental variables are independent, dependent, and control."
+    },
+    {
+      "type": "fill-in-blank",
+      "id": 5,
+      "question": "Complete: Es probable que haya _____ en la muestra. (It is likely there is bias in the sample.)",
+      "correct": "sesgo",
+      "explanation": "Hay sesgo en la muestra — sesgo is the technical term for bias in Spanish scientific context."
+    },
+    {
+      "type": "exercise",
+      "id": 6,
+      "question": "What does significancia estadística mean?",
+      "options": [
+        "Personal importance of the result",
+        "That the result is not due to chance",
+        "That the result is very large",
+        "That the result is socially important"
+      ],
+      "correct": 1,
+      "explanation": "Statistical significance means results are unlikely to have occurred by chance, usually with a p-value < 0.05."
+    },
+    {
+      "type": "fill-in-blank",
+      "id": 7,
+      "question": "Complete: _____ que se reproduzcan los experimentos. (It is important that the experiments be reproduced.)",
+      "correct": "Es importante",
+      "explanation": "Es importante que + subjunctive — reproduzcan is subjunctive of reproducir in 3rd person plural."
+    },
+    {
+      "type": "exercise",
+      "id": 8,
+      "question": "Which phrase is correct for expressing scientific uncertainty?",
+      "options": [
+        "Los datos son 100% ciertos.",
+        "Es posible que los resultados se deban a otros factores.",
+        "No hay ninguna duda.",
+        "Se puede demostrar sin ambigüedad."
+      ],
+      "correct": 1,
+      "explanation": "Es posible que + subjunctive expresses appropriate uncertainty in scientific context."
+    },
+    {
+      "type": "fill-in-blank",
+      "id": 9,
+      "question": "Complete: Para que los resultados _____ válidos, se necesita una muestra representativa. (For the results to be valid, a representative sample is needed.)",
+      "correct": "sean",
+      "explanation": "After para que, use the subjunctive: sean (subjunctive of ser in 3rd person plural)."
+    },
+    {
+      "type": "exercise",
+      "id": 10,
+      "question": "Which structure correctly compares data?",
+      "options": [
+        "Los datos son como...",
+        "En comparación con, los datos muestran...",
+        "Los datos parecen...",
+        "Según los datos..."
+      ],
+      "correct": 1,
+      "explanation": "En comparación con... is the appropriate structure for comparing results or data in scientific context."
+    }
+  ]
+}

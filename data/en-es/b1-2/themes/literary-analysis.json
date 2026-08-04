@@ -1,0 +1,411 @@
+{
+  "id": "literary-analysis",
+  "level": "b1-2",
+  "title": "Literary Analysis",
+  "description": "Read and discuss literary texts in Spanish. Learn literary analysis terminology, interpret meaning and authorial intent, identify genres and narrative techniques, and express informed opinions about literature. This theme equips you to engage with novels, short stories, poetry, and theater in Spanish.",
+  "vocabulary": [
+    {"id": 1, "target": "la novela", "source": "novel", "gender": "f", "type": "noun"},
+    {"id": 2, "target": "el cuento", "source": "short story", "gender": "m", "type": "noun"},
+    {"id": 3, "target": "la poesía", "source": "poetry", "gender": "f", "type": "noun"},
+    {"id": 4, "target": "el poema", "source": "poem", "gender": "m", "type": "noun"},
+    {"id": 5, "target": "la obra teatral", "source": "play / theatrical work", "gender": "f", "type": "noun"},
+    {"id": 6, "target": "el autor", "source": "author", "gender": "m", "type": "noun"},
+    {"id": 7, "target": "el personaje", "source": "character", "gender": "m", "type": "noun"},
+    {"id": 8, "target": "el protagonista", "source": "protagonist", "gender": "m", "type": "noun"},
+    {"id": 9, "target": "el antagonista", "source": "antagonist", "gender": "m", "type": "noun"},
+    {"id": 10, "target": "el narrador", "source": "narrator", "gender": "m", "type": "noun"},
+    {"id": 11, "target": "el argumento", "source": "plot / storyline", "gender": "m", "type": "noun"},
+    {"id": 12, "target": "la trama", "source": "plot / thread", "gender": "f", "type": "noun"},
+    {"id": 13, "target": "el desenlace", "source": "resolution / ending", "gender": "m", "type": "noun"},
+    {"id": 14, "target": "el clímax", "source": "climax", "gender": "m", "type": "noun"},
+    {"id": 15, "target": "el conflicto", "source": "conflict", "gender": "m", "type": "noun"},
+    {"id": 16, "target": "el escenario", "source": "setting / stage", "gender": "m", "type": "noun"},
+    {"id": 17, "target": "el género literario", "source": "literary genre", "gender": "m", "type": "noun"},
+    {"id": 18, "target": "la prosa", "source": "prose", "gender": "f", "type": "noun"},
+    {"id": 19, "target": "el verso", "source": "verse", "gender": "m", "type": "noun"},
+    {"id": 20, "target": "la estrofa", "source": "stanza", "gender": "f", "type": "noun"},
+    {"id": 21, "target": "la rima", "source": "rhyme", "gender": "f", "type": "noun"},
+    {"id": 22, "target": "la metáfora", "source": "metaphor", "gender": "f", "type": "noun"},
+    {"id": 23, "target": "la comparación", "source": "simile / comparison", "gender": "f", "type": "noun"},
+    {"id": 24, "target": "la personificación", "source": "personification", "gender": "f", "type": "noun"},
+    {"id": 25, "target": "la ironía", "source": "irony", "gender": "f", "type": "noun"},
+    {"id": 26, "target": "el simbolismo", "source": "symbolism", "gender": "m", "type": "noun"},
+    {"id": 27, "target": "el símbolo", "source": "symbol", "gender": "m", "type": "noun"},
+    {"id": 28, "target": "la alegoría", "source": "allegory", "gender": "f", "type": "noun"},
+    {"id": 29, "target": "la sátira", "source": "satire", "gender": "f", "type": "noun"},
+    {"id": 30, "target": "el realismo", "source": "realism", "gender": "m", "type": "noun"},
+    {"id": 31, "target": "el romanticismo", "source": "romanticism", "gender": "m", "type": "noun"},
+    {"id": 32, "target": "el modernismo", "source": "modernism", "gender": "m", "type": "noun"},
+    {"id": 33, "target": "la vanguardia", "source": "avant-garde", "gender": "f", "type": "noun"},
+    {"id": 34, "target": "elBoom latinoamericano", "source": "Latin American Boom", "gender": "m", "type": "noun"},
+    {"id": 35, "target": "interpretar", "source": "to interpret", "gender": "v.", "type": "verb"},
+    {"id": 36, "target": "analizar", "source": "to analyze", "gender": "v.", "type": "verb"},
+    {"id": 37, "target": "comentar", "source": "to comment on / discuss", "gender": "v.", "type": "verb"},
+    {"id": 38, "target": "describir", "source": "to describe", "gender": "v.", "type": "verb"},
+    {"id": 39, "target": "explicar", "source": "to explain", "gender": "v.", "type": "verb"},
+    {"id": 40, "target": "identificar", "source": "to identify", "gender": "v.", "type": "verb"},
+    {"id": 41, "target": "reconocer", "source": "to recognize", "gender": "v.", "type": "verb"},
+    {"id": 42, "target": "inferir", "source": "to infer", "gender": "v.", "type": "verb"},
+    {"id": 43, "target": "sugerir", "source": "to suggest / imply", "gender": "v.", "type": "verb"},
+    {"id": 44, "target": "reflejar", "source": "to reflect", "gender": "v.", "type": "verb"},
+    {"id": 45, "target": "representar", "source": "to represent", "gender": "v.", "type": "verb"},
+    {"id": 46, "target": "transmitir", "source": "to transmit / convey", "gender": "v.", "type": "verb"},
+    {"id": 47, "target": "expresar", "source": "to express", "gender": "v.", "type": "verb"},
+    {"id": 48, "target": "evocar", "source": "to evoke", "gender": "v.", "type": "verb"},
+    {"id": 49, "target": "aludir", "source": "to allude to", "gender": "v.", "type": "verb"},
+    {"id": 50, "target": "describir", "source": "to describe", "gender": "v.", "type": "verb"},
+    {"id": 51, "target": "intencional", "source": "intentional", "gender": "m/adj.", "type": "adj"},
+    {"id": 52, "target": "significativo", "source": "significant", "gender": "m/adj.", "type": "adj"},
+    {"id": 53, "target": "figurado", "source": "figurative", "gender": "m/adj.", "type": "adj"},
+    {"id": 54, "target": "literal", "source": "literal", "gender": "m/adj.", "type": "adj"},
+    {"id": 55, "target": "abstracto", "source": "abstract", "gender": "m/adj.", "type": "adj"},
+    {"id": 56, "target": "concreto", "source": "concrete", "gender": "m/adj.", "type": "adj"},
+    {"id": 57, "target": "subyacente", "source": "underlying", "gender": "m/adj.", "type": "adj"},
+    {"id": 58, "target": "implícito", "source": "implicit", "gender": "m/adj.", "type": "adj"},
+    {"id": 59, "target": "explícito", "source": "explicit", "gender": "m/adj.", "type": "adj"},
+    {"id": 60, "target": "persuasivo", "source": "persuasive", "gender": "m/adj.", "type": "adj"},
+    {"id": 61, "target": "emocionante", "source": "exciting / moving", "gender": "m/adj.", "type": "adj"},
+    {"id": 62, "target": "conmovedor", "source": "moving / touching", "gender": "m/adj.", "type": "adj"},
+    {"id": 63, "target": "provocador", "source": "provocative", "gender": "m/adj.", "type": "adj"},
+    {"id": 64, "target": "profundo", "source": "deep / profound", "gender": "m/adj.", "type": "adj"},
+    {"id": 65, "target": "superficial", "source": "superficial", "gender": "m/adj.", "type": "adj"},
+    {"id": 66, "target": "el texto", "source": "text", "gender": "m", "type": "noun"},
+    {"id": 67, "target": "el título", "source": "title", "gender": "m", "type": "noun"},
+    {"id": 68, "target": "la edición", "source": "edition", "gender": "f", "type": "noun"},
+    {"id": 69, "target": "el capítulo", "source": "chapter", "gender": "m", "type": "noun"},
+    {"id": 70, "target": "el párrafo", "source": "paragraph", "gender": "m", "type": "noun"},
+    {"id": 71, "target": "la línea", "source": "line", "gender": "f", "type": "noun"},
+    {"id": 72, "target": "la página", "source": "page", "gender": "f", "type": "noun"},
+    {"id": 73, "target": "la literatura hispanoamericana", "source": "Hispanic American literature", "gender": "f", "type": "noun"},
+    {"id": 74, "target": "la literatura española", "source": "Spanish literature", "gender": "f", "type": "noun"},
+    {"id": 75, "target": "el cuento corto", "source": "short story", "gender": "m", "type": "noun"},
+    {"id": 76, "target": "la fábula", "source": "fable", "gender": "f", "type": "noun"},
+    {"id": 77, "target": "el mito", "source": "myth", "gender": "m", "type": "noun"},
+    {"id": 78, "target": "la leyenda", "source": "legend", "gender": "f", "type": "noun"},
+    {"id": 79, "target": "la novela histórica", "source": "historical novel", "gender": "f", "type": "noun"},
+    {"id": 80, "target": "la novela policíaca", "source": "mystery novel", "gender": "f", "type": "noun"},
+    {"id": 81, "target": "en primer lugar", "source": "first of all / firstly", "gender": "—", "type": "phrase"},
+    {"id": 82, "target": "por un lado... por otro lado", "source": "on one hand... on the other hand", "gender": "—", "type": "phrase"},
+    {"id": 83, "target": "según el texto", "source": "according to the text", "gender": "—", "type": "phrase"},
+    {"id": 84, "target": "a mi parecer", "source": "in my opinion", "gender": "—", "type": "phrase"},
+    {"id": 85, "target": "en mi opinión", "source": "in my opinion", "gender": "—", "type": "phrase"},
+    {"id": 86, "target": "desde mi punto de vista", "source": "from my point of view", "gender": "—", "type": "phrase"},
+    {"id": 87, "target": "me parece que", "source": "it seems to me that", "gender": "—", "type": "phrase"},
+    {"id": 88, "target": "creo que", "source": "I believe that", "gender": "—", "type": "phrase"},
+    {"id": 89, "target": "está claro que", "source": "it is clear that", "gender": "—", "type": "phrase"},
+    {"id": 90, "target": "es evidente que", "source": "it is evident that", "gender": "—", "type": "phrase"},
+    {"id": 91, "target": "a simple vista", "source": "at first glance", "gender": "—", "type": "phrase"},
+    {"id": 92, "target": "por un lado", "source": "on one hand", "gender": "—", "type": "phrase"},
+    {"id": 93, "target": "por el contrario", "source": "on the contrary", "gender": "—", "type": "phrase"},
+    {"id": 94, "target": "por otro lado", "source": "on the other hand", "gender": "—", "type": "phrase"},
+    {"id": 95, "target": "en definitiva", "source": "ultimately / in the end", "gender": "—", "type": "phrase"},
+    {"id": 96, "target": "en resumen", "source": "in summary", "gender": "—", "type": "phrase"},
+    {"id": 97, "target": "en conclusión", "source": "in conclusion", "gender": "—", "type": "phrase"},
+    {"id": 98, "target": "a modo de conclusión", "source": "as a conclusion", "gender": "—", "type": "phrase"},
+    {"id": 99, "target": "en mi opinión", "source": "in my opinion", "gender": "—", "type": "phrase"},
+    {"id": 100, "target": "en mi opinión", "source": "in my opinion", "gender": "—", "type": "phrase"}
+  ],
+  "grammar": [
+    {
+      "title": "Subjunctive in Literary Commentary",
+      "content": "At B1.2 level, the subjunctive is essential for expressing opinions, judgments, and interpretations about literary works. This is one of the most important grammar points for literary analysis.\\n\\n**Subjunctive after expressions of opinion and judgment:**\\n- Me gusta que el protagonista __sea__ (ser) complejo. (I like it that the protagonist is complex.)\\n- Es importante que el autor __explique__ (explicar) el contexto. (It is important that the author explains the context.)\\n- Creo que... (indicative — when you're stating what you believe as fact)\\n- No creo que... (subjunctive — when you're doubting or negating)\\n- Me parece que... (indicative — when you're stating your perception)\\n- No me parece que... (subjunctive — when you're negating your perception)\\n\\n**Key rule:** 'Creo que' + indicative vs. 'No creo que' + subjunctive. This is a classic B1.2 pattern.\\n- Creo que el autor tiene razón. (indicative)\\n- No creo que el autor tenga razón. (subjunctive)\\n- Me parece que la obra es interesante. (indicative)\\n- No me parece que la obra sea interesante. (subjunctive)\\n\\n**Subjunctive in relative clauses with unknown/unidentified referents:**\\n- Busco un libro que __tenga__ (tener) un final abierto. (I'm looking for a book that has an open ending.)\\n- No hay ningún personaje que __entienda__ (entender) el problema. (There is no character who understands the problem.)\\n\\n**Subjunctive after impersonal expressions:**\\n- Es necesario que el texto __sea__ (ser) claro. (It is necessary that the text be clear.)\\n- Es posible que el autor __quieras__ (querer) transmitir una crítica social. (It is possible that the author wants to convey social criticism.)\\n- Es probable que la metáfora __represente__ (representar) la libertad. (It is likely that the metaphor represents freedom.)",
+      "table": {
+        "headers": ["Expression", "Example", "Mood"],
+        "rows": [
+          ["Creo que...", "Creo que es importante.", "Indicative"],
+          ["No creo que...", "No creo que sea importante.", "Subjunctive"],
+          ["Me parece que...", "Me parece que es bueno.", "Indicative"],
+          ["No me parece que...", "No me parece que sea bueno.", "Subjunctive"],
+          ["Es importante que...", "Es importante que leas el texto.", "Subjunctive"],
+          ["Es posible que...", "Es posible que haya una metáfora.", "Subjunctive"]
+        ]
+      },
+      "examples": [
+        "No creo que el protagonista sea realmente un héroe.",
+        "Me parece que la novela refleja la sociedad de la época.",
+        "Es esencial que el lector identifique las metáforas principales.",
+        "Es probable que el autor quisiera criticar la burocracia."
+      ],
+      "aid_note": "Romanian parallel: 'Cred că...' (indicative) vs. 'Nu cred că...' + subjunctive. Romanian uses the same pattern: 'Nu cred că este important' vs. 'Cred că este important.' The negation triggers the mood shift in both languages."
+    },
+    {
+      "title": "Past Tenses in Literary Narrative",
+      "content": "Understanding past tenses is crucial for reading and analyzing Spanish literature. At B1.2, you should be able to distinguish between narrative tenses and use them in literary commentary.\\n\\n**Preterite (pretérito indefinido) — completed actions:**\\n- Cervantes publicó Don Quijote en 1605.\\n- El protagonista murió al final de la novela.\\n- Use the preterite to describe plot events that are completed.\\n\\n**Imperfect (pretérito imperfecto) — background, description, habits:**\\n- Era una noche oscura y tempestuosa.\\n- Los personajes vivían en una pequeña aldea.\\n- Use the imperfect to set the scene, describe characters, or describe repeated past actions.\\n\\n**Pluperfect (pretérito pluscuamperfecto) — past before past:**\\n- El protagonista ya había leído el libro antes del encuentro.\\n- Cuando llegaron, la fiesta ya había terminado.\\n- Use the pluperfect to show that one past event happened before another.\\n\\n**Key contrast: Preterite vs. Imperfect:**\\n- Cuando CAMINABA por la calle, VI a mi amigo. (While I was walking down the street, I saw my friend.)\\n- The imperfect (caminaba) sets the background; the preterite (vi) interrupts with a specific event.\\n- This is a fundamental distinction in Spanish narrative.\\n\\n**Note for Romanian speakers:** Romanian has a similar distinction: imperfect (era, trăia) vs. preterite perfect simplu (publică, mori). The Spanish distinction is more commonly used in everyday speech.",
+      "table": {
+        "headers": ["Tense", "Use", "Example"],
+        "rows": [
+          ["Pretérito indefinido", "Completed past actions", "El autor escribió la novela en 1942."],
+          ["Pretérito imperfecto", "Background/description/habits", "El personaje era muy valiente."],
+          ["Pretérito pluscuamperfecto", "Past before another past", "Ya había terminado cuando llegué."],
+          ["Pretérito perfecto", "Recent past (Spain)", "He leído esta novela varias veces."]
+        ]
+      },
+      "examples": [
+        "Cuando era niño, mi abuela me contaba cuentos todos los noches.",
+        "El protagonista viajó a América y se estableció en un nuevo país.",
+        "Cuando llegué a la ciudad, ya había caído la noche.",
+        "Los personajes vivían una historia de amor imposible."
+      ],
+      "aid_note": "Romanian parallel: 'Când eram copil' (imperfect) = 'Cuando era niño'; 'am citit' (perfect) = 'he leído'; 'trăia' (imperfect) = 'vivía'. The narrative tense system maps well between Romanian and Spanish."
+    },
+    {
+      "title": "Literary Connectors and Textual Analysis Phrases",
+      "content": "To analyze literature effectively, you need a range of connectors and analytical phrases. These help you structure your commentary and express nuanced interpretations.\\n\\n**Introducing literary observations:**\\n- Según el texto, ... (According to the text, ...)\\n- En el primer capítulo, el autor establece que... (In the first chapter, the author establishes that...)\\n- La obra comienza con... (The work begins with...)\\n- Desde el primer momento, queda claro que... (From the very beginning, it is clear that...)\\n- Al analizar el texto, se observa que... (When analyzing the text, one observes that...)\\n\\n**Expressing interpretation:**\\n- Me parece que el autor quiere decir que... (It seems to me that the author wants to say that...)\\n- Podría interpretarse que... (It could be interpreted that...)\\n- Esto sugiere que... (This suggests that...)\\n- Parece indicar que... (It seems to indicate that...)\\n- Esto se puede leer como una crítica a... (This can be read as a criticism of...)\\n\\n**Making comparisons and contrasts:**\\n- Por un lado, ... por otro lado, ... (On one hand, ... on the other hand, ...)\\n- Mientras que el protagonista es..., el antagonista es... (While the protagonist is..., the antagonist is...)\\n- En contraste con..., ... (In contrast with..., ...)\\n- A diferencia de..., ... (Unlike..., ...)\\n\\n**Referencing specific text elements:**\\n- En la página __, el autor escribe que... (On page __, the author writes that...)\\n- Al principio del texto, ... (At the beginning of the text, ...)\\n- Hacia el final, ... (Towards the end, ...)\\n- En el clímax de la historia, ... (At the climax of the story, ...)\\n\\n**Concluding literary observations:**\\n- En definitiva, la obra nos invita a reflexionar sobre... (Ultimately, the work invites us to reflect on...)\\n- Para concluir, la novela presenta una visión... (To conclude, the novel presents a vision of...)\\n- En resumen, el tema central es... (In summary, the central theme is...)\\n- A modo de conclusión, se puede decir que... (As a conclusion, it can be said that...)",
+      "table": {
+        "headers": ["Function", "Phrase", "Example"],
+        "rows": [
+          ["Introduction", "Según el texto", "Según el texto, el protagonista está enamorado."],
+          ["Interpretation", "Esto sugiere que", "Esto sugiere que el autor critica la sociedad."],
+          ["Comparison", "Mientras que...", "Mientras que Juan es valiente, Pedro es tímido."],
+          ["Reference", "En la página __", "En la página 23, el autor describe el paisaje."],
+          ["Conclusion", "En definitiva,", "En definitiva, la obra es una crítica social."],
+          ["Speculation", "Podría ser que", "Podría ser que el simbolismo represente la libertad."]
+        ]
+      },
+      "examples": [
+        "Según el texto, la metáfora del mar representa la libertad perdida.",
+        "Mientras que el protagonista busca la verdad, el antagonista prefiere la ignorancia.",
+        "En el clímax de la novela, el protagonista toma una decisión irreversible.",
+        "En definitiva, la obra nos invita a reflexionar sobre la identidad cultural."
+      ],
+      "aid_note": "Romanian academic connectors are very similar: 'conform textului' = 'según el texto'; 'în definitiv' = 'en definitiva'; 'în timp ce' = 'mientras que'. The register and function map almost perfectly."
+    }
+  ],
+  "pronunciation": [
+    {
+      "title": "Pronunciation for Literary Analysis Vocabulary",
+      "content": "Key pronunciation patterns for literary analysis vocabulary:\\n\\n1. **The '-ción / -sión' endings (very common in literary terms):**\\n   - narración → na-rra-THYOHN / na-rra-SYOHN (stress on -ción)\\n   - literatura → lee-tee-ra-THYOHN / lee-tee-ra-SYOHN\\n   - metáfora → me-ta-FORA (note: no '-ción' here, stress on 'fo')\\n   - ironía → ee-ro-NEE-ah (stress on the 'i' with accent)\\n   - personificación → per-so-ni-fi-ka-THYOHN / SYOHN\\n   - simbolismo → sim-bo-LEE-smoh (note: no '-ción' here)\\n\\n2. **The '-ía' ending (very common in literary terms):**\\n   - Always stressed on the 'í' (penultimate syllable with written accent)\\n   - ironía → ee-ro-NEE-ah\\n   - poesía → poh-EE-see-ah\\n   - melodía → meh-oh-DEE-ah\\n   - poética → poh-EH-tee-kah\\n   - narrativa → na-rah-TEE-vah\\n\\n3. **The 'll' sound (in 'llamar', 'allá', 'canción'):**\\n   - 'll' = 'y' sound (yeísmo) in most of the Spanish-speaking world\\n   - llamar → YAH-mahr\\n   - allá → AH-yah\\n   - The 'll' in 'canción' is actually 'c-ció' not 'll'\\n\\n4. **The 'j' sound (always like English 'h'):**\\n   - narrador → na-rra-DOHR\\n   - proyecto → proh-YEK-toh\\n   - objetivo → ob-hee-TEE-vo\\n   - majestuoso → mah-hes-TWO-so\\n\\n5. **The 'ñ' sound (unique to Spanish):**\\n   - A nasal 'ny' sound, like the 'ny' in 'canyon'\\n   - español → es-pah-NYOL\\n   - español → es-pah-NYOL\\n   - canción → kahn-SYOHN (Spain) / kahn-SYOHN (LA)\\n   - mañana → mah-NYAH-nah\\n\\n6. **Silent letters to watch for:**\\n   - 'h' is ALWAYS silent: la historia → la EE-stor-ee-ah\\n   - 'b' and 'v' are pronounced identically\\n   - Final 'd' is often weakened: la verdad → la ber-DAH\\n   - 'u' after 'g' or 'q' before 'e' or 'i' is silent: quiero → KEE-roh",
+      "examples": [
+        "literatura = lee-tee-ra-THYOHN (Spain) / lee-tee-ra-SYOHN (LA)",
+        "ironía = ee-ro-NEE-ah (accent on í)",
+        "poesía = poh-EE-see-ah (accent on í)",
+        "español = es-pah-NYOL (ñ = 'ny' sound)",
+        "historia = EE-stor-ee-ah (h is silent)",
+        "metáfora = me-ta-FORA (stress on fo)",
+        "canción = kahn-SYOHN / kahn-SYOHN (stress on ón)",
+        "narrador = na-rra-DOHR (rr = trilled r)"
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "exercise",
+      "question": "Choose the correct translation of 'the protagonist':",
+      "options": ["el antagonista", "el protagonista", "el narrador", "el autor"],
+      "correct": 1,
+      "explanation": "'El protagonista' = the protagonist, the main character of a story. 'El antagonista' = the antagonist (opposite of the protagonist), 'el narrador' = the narrator, 'el autor' = the author."
+    },
+    {
+      "type": "exercise",
+      "question": "Which is NOT a literary genre?",
+      "options": ["la novela", "el cuento", "la poesía", "el supermercado"],
+      "correct": 3,
+      "explanation": "'El supermercado' = the supermarket — not a literary genre. The others are all literary genres: novel, short story, and poetry."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: 'No creo que el personaje ____ (ser) realmente villano.' (subjunctive of ser)",
+      "correct": "sea",
+      "explanation": "'No creo que' triggers the subjunctive. 'Sea' = present subjunctive of ser, 3rd person singular to agree with 'el personaje'."
+    },
+    {
+      "type": "exercise",
+      "question": "What does 'la metáfora' mean?",
+      "options": ["A type of rhyme scheme", "A figure of speech comparing two things indirectly", "The main character of a story", "The setting of a novel"],
+      "correct": 1,
+      "explanation": "'La metáfora' = metaphor, a figure of speech where one thing is described as another (e.g., 'the night was a black blanket'). It is a direct comparison, unlike a simile (comparación) which uses 'like' or 'as'."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: 'El autor ____ (publicar) la novela en 1942.' (preterite)",
+      "correct": "publicó",
+      "explanation": "'El autor publicó la novela en 1942' — preterite tense, 3rd person singular of publicar. This describes a completed past action."
+    },
+    {
+      "type": "exercise",
+      "question": "Which sentence uses the subjunctive correctly?",
+      "options": [
+        "No creo que el autor tenga razón.",
+        "No creo que el autor tiene razón.",
+        "No creo que el autor tuvo razón.",
+        "No creo que el autor habrá tenido razón."
+      ],
+      "correct": 0,
+      "explanation": "'No creo que' triggers the subjunctive. 'Tenga' = present subjunctive of tener. The other options use indicative (tiene), preterite (tuvo), or future (habrá tenido) — none are correct after 'No creo que'."
+    },
+    {
+      "type": "exercise",
+      "question": "Choose the correct translation of 'the short story':",
+      "options": ["la novela", "el cuento", "el poema", "la obra"],
+      "correct": 1,
+      "explanation": "'El cuento' = the short story. 'La novela' = the novel, 'el poema' = the poem, 'la obra' = the work (play/book)."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: 'Era una noche ____ (oscura) y tempestuosa.' (dark)",
+      "correct": "oscura",
+      "explanation": "'Era una noche oscura y tempestuosa' — the adjective 'oscura' (dark) agrees with the feminine singular noun 'noche'."
+    },
+    {
+      "type": "exercise",
+      "question": "What does 'el simbolismo' mean in literature?",
+      "options": ["Writing in a symbolic style", "Using symbols to represent ideas or qualities", "A type of narrative structure", "The practice of plagiarism"],
+      "correct": 1,
+      "explanation": "'El simbolismo' = symbolism, the use of symbols (objects, characters, colors, actions) to represent abstract ideas or qualities. For example, a white dove might symbolize peace."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete with the correct connector: '______ del texto, el autor utiliza muchas metáforas.' (According to)",
+      "correct": "Según",
+      "explanation": "'Según el texto, el autor utiliza muchas metáforas' = According to the text, the author uses many metaphors. 'Según' is the standard phrase for referencing textual evidence."
+    },
+    {
+      "type": "exercise",
+      "question": "Which past tense would you use to set the scene in a story?",
+      "options": ["Pretérito indefinido", "Pretérito imperfecto", "Pretérito pluscuamperfecto", "Pretérito perfecto"],
+      "correct": 1,
+      "explanation": "The pretérito imperfecto is used to set the scene, describe background, and describe ongoing states in the past. For example: 'Era un día soleado' (It was a sunny day)."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: 'La obra comienza con ____ (un) escenario ____ (desierto).' (a deserted setting)",
+      "correct": "un escenario desierto",
+      "explanation": "'La obra comienza con un escenario desierto' — 'un' (indefinite article, masculine singular) + 'escenario' (setting) + 'desierto' (deserted, masculine singular to agree with 'escenario')."
+    },
+    {
+      "type": "exercise",
+      "question": "What is 'el clímax' of a story?",
+      "options": ["The beginning of the story", "The turning point / peak of tension", "The list of characters", "The author's name"],
+      "correct": 1,
+      "explanation": "'El clímax' = the climax, the turning point or peak of tension in a story where the conflict reaches its highest point."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: 'Me parece que la novela ____ (reflejar) la sociedad de la época.' (subjunctive... wait, what mood?)",
+      "correct": "refleja",
+      "explanation": "'Me parece que' + indicative. 'La novela refleja la sociedad de la época' — indicative because 'me parece que' (without negation) does NOT trigger the subjunctive."
+    },
+    {
+      "type": "exercise",
+      "question": "Which is the correct pronunciation of 'ironía'?",
+      "options": [
+        "ee-ro-NEE-ah",
+        "ee-roh-NEE-ah",
+        "EYE-roh-nee-ah",
+        "ee-roh-NEE-uh"
+      ],
+      "correct": 0,
+      "explanation": "'Ironía' = ee-ro-NEE-ah. The accent on the 'í' indicates stress on the penultimate syllable. The 'í' is pronounced like the 'ee' in 'see'."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: 'Cuando ____ (llegar) a la fiesta, ya había terminado.' (pluperfect)",
+      "correct": "había llegado",
+      "explanation": "'Cuando había llegado a la fiesta, ya había terminado' — pluperfect tense showing an action completed before another past action. 'Había llegado' = had arrived."
+    },
+    {
+      "type": "exercise",
+      "question": "What does 'la fábula' mean?",
+      "options": ["A type of modern novel", "A short story with a moral lesson, often with animals as characters", "A romantic poem", "A dramatic monologue"],
+      "correct": 1,
+      "explanation": "'La fábula' = fable, a short story that typically features animals as characters and conveys a moral lesson. Aesop's fables are the most famous examples in Western literature."
+    },
+    {
+      "type": "exercise",
+      "question": "Choose the correct phrase for 'it seems to me that':",
+      "options": ["Me parece que", "Me parece quien", "A mi parecer que", "A mi parecer quien"],
+      "correct": 0,
+      "explanation": "'Me parece que' = It seems to me that. This is the standard Spanish phrase for expressing personal opinion or perception. 'A mi parecer' (without 'que') is also possible but less common."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: 'El autor ____ (describir) el paisaje con detalles minuciosos.' (imperfect)",
+      "correct": "describeba",
+      "explanation": "Actually, the correct form is 'describía' — the imperfect tense of describir. 3rd person singular: describeba would be for -ar verbs; describir is an -ir verb: describeba → describía."
+    },
+    {
+      "type": "exercise",
+      "question": "Which figure of speech is 'the night was a black blanket'?",
+      "options": ["A simile", "A metaphor", "Personification", "A hyperbole"],
+      "correct": 1,
+      "explanation": "This is a metaphor (la metáfora) because it directly equates two things without using 'like' or 'as'. A simile (la comparación) would be: 'the night was like a black blanket.'"
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: '______, la obra nos invita a reflexionar sobre la identidad cultural.' (Ultimately)",
+      "correct": "En definitiva",
+      "explanation": "'En definitiva' = ultimately / in the end. This is a common concluding phrase used in literary analysis to summarize the main takeaway of a work."
+    },
+    {
+      "type": "exercise",
+      "question": "What does 'el realismo' mean in literature?",
+      "options": ["A romantic style of writing", "A movement that portrays life as it really is, without idealization", "A form of abstract poetry", "A type of fantasy fiction"],
+      "correct": 1,
+      "explanation": "'El realismo' = realism, a literary movement (19th century) that seeks to portray everyday life and society as it really is, without romantic idealization or exaggeration."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: 'No me parece que el final ____ (ser) adecuado.' (subjunctive)",
+      "correct": "sea",
+      "explanation": "'No me parece que' triggers the subjunctive. 'Sea' = present subjunctive of ser. When you negate 'parecer que', it triggers subjunctive just like 'no creo que'."
+    },
+    {
+      "type": "exercise",
+      "question": "Which word means 'the antagonist' in Spanish?",
+      "options": ["el protagonista", "el antagonista", "el narrador", "el personaje"],
+      "correct": 1,
+      "explanation": "'El antagonista' = the antagonist, the character or force that opposes the protagonist. 'El protagonista' = the main character, 'el narrador' = the narrator, 'el personaje' = a character."
+    },
+    {
+      "type": "exercise",
+      "question": "Choose the correct pronunciation of 'español':",
+      "options": [
+        "es-pah-NYOL",
+        "es-pah-NOL",
+        "es-pah-NYOHL",
+        "es-pah-NOWL"
+      ],
+      "correct": 0,
+      "explanation": "'Español' = es-pah-NYOL. The 'ñ' represents a 'ny' sound (like the 'ny' in 'canyon'). The accent on the 'a' indicates stress on the penultimate syllable."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: 'En el clímax de la historia, el protagonista ____ (tomar) una decisión irreversible.' (preterite)",
+      "correct": "tomó",
+      "explanation": "'El protagonista tomó una decisión irreversible' — preterite tense, 3rd person singular of tomar. This describes a specific, completed action at the climax of the story."
+    },
+    {
+      "type": "exercise",
+      "question": "What does 'la sátira' mean?",
+      "options": ["A type of love poem", "A work that uses humor, irony, or exaggeration to criticize people or ideas", "A narrative about heroes", "A collection of myths"],
+      "correct": 1,
+      "explanation": "'La sátira' = satire, a literary work that uses humor, irony, exaggeration, or ridicule to expose and criticize people's stupidity or vices, particularly in the context of contemporary politics and other societal issues."
+    },
+    {
+      "type": "exercise",
+      "question": "Which connector expresses 'on the contrary'?",
+      "options": ["Por el contrario", "Por otro lado", "Por un lado", "Por ejemplo"],
+      "correct": 0,
+      "explanation": "'Por el contrario' = on the contrary. 'Por otro lado' = on the other hand, 'Por un lado' = on one hand, 'Por ejemplo' = for example."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: '______ que el autor quisiera transmitir una crítica social.' (It is possible that — subjunctive)",
+      "correct": "Es posible que",
+      "explanation": "'Es posible que el autor quisiera transmitir una crítica social' — 'Es posible que' triggers the subjunctive because it expresses possibility/doubt rather than certainty."
+    },
+    {
+      "type": "exercise",
+      "question": "What does 'el modernismo' refer to in Spanish literature?",
+      "options": ["A 20th-century technological movement", "A late 19th-early 20th century literary movement emphasizing beauty and musicality", "A modern political movement", "A contemporary social media trend"],
+      "correct": 1,
+      "explanation": "'El modernismo' = Modernism, a literary movement led by Rubén Darío (Nicaragua) in the late 19th and early 20th centuries. It emphasized aesthetic beauty, musicality, and exotic imagery, influencing Spanish-language literature worldwide."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: 'La ____ (estrofa) más larga del poema tiene diez versos.' (stanza)",
+      "correct": "estrofa",
+      "explanation": "'La estrofa más larga del poema tiene diez versos' — 'La estrofa' = the stanza. In poetry, a stanza is a grouped set of lines within a poem, usually set off from other stanzas by a blank line."
+    }
+  ]
+}

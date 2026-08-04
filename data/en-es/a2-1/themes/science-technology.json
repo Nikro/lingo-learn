@@ -1,0 +1,299 @@
+{
+  "id": "science-technology",
+  "level": "a2-1",
+  "title": "Science & Technology",
+  "description": "Talk about science, inventions, and technology in daily life. Learn vocabulary for scientific concepts, inventions, and everyday technology. Practice the present perfect for recent discoveries and experiences, comparatives and superlatives for technology comparisons, and the future tense for predictions.",
+  "vocabulary": [
+    {"id": 1, "target": "la ciencia", "source": "science", "gender": "f", "type": "noun"},
+    {"id": 2, "target": "la tecnología", "source": "technology", "gender": "f", "type": "noun"},
+    {"id": 3, "target": "el científico", "source": "scientist (m)", "gender": "m", "type": "noun"},
+    {"id": 4, "target": "la científica", "source": "scientist (f)", "gender": "f", "type": "noun"},
+    {"id": 5, "target": "el inventor", "source": "inventor", "gender": "m", "type": "noun"},
+    {"id": 6, "target": "la invención", "source": "invention", "gender": "f", "type": "noun"},
+    {"id": 7, "target": "el descubrimiento", "source": "discovery", "gender": "m", "type": "noun"},
+    {"id": 8, "target": "la investigación", "source": "research", "gender": "f", "type": "noun"},
+    {"id": 9, "target": "el experimento", "source": "experiment", "gender": "m", "type": "noun"},
+    {"id": 10, "target": "el laboratorio", "source": "laboratory", "gender": "m", "type": "noun"},
+    {"id": 11, "target": "la fórmula", "source": "formula", "gender": "f", "type": "noun"},
+    {"id": 12, "target": "la teoría", "source": "theory", "gender": "f", "type": "noun"},
+    {"id": 13, "target": "el fenómeno", "source": "phenomenon", "gender": "m", "type": "noun"},
+    {"id": 14, "target": "la hipótesis", "source": "hypothesis", "gender": "f", "type": "noun"},
+    {"id": 15, "target": "el resultado", "source": "result", "gender": "m", "type": "noun"},
+    {"id": 16, "target": "la innovación", "source": "innovation", "gender": "f", "type": "noun"},
+    {"id": 17, "target": "el ordenador / la computadora", "source": "computer", "gender": "m/f", "type": "noun"},
+    {"id": 18, "target": "el smartphone / el teléfono inteligente", "source": "smartphone", "gender": "m", "type": "noun"},
+    {"id": 19, "target": "el internet", "source": "the internet", "gender": "m", "type": "noun"},
+    {"id": 20, "target": "la aplicación / la app", "source": "application / app", "gender": "f", "type": "noun"},
+    {"id": 21, "target": "la página web", "source": "website", "gender": "f", "type": "noun"},
+    {"id": 22, "target": "el correo electrónico", "source": "email", "gender": "m", "type": "noun"},
+    {"id": 23, "target": "el mensaje", "source": "message", "gender": "m", "type": "noun"},
+    {"id": 24, "target": "la red social", "source": "social network", "gender": "f", "type": "noun"},
+    {"id": 25, "target": "el dispositivo", "source": "device", "gender": "m", "type": "noun"},
+    {"id": 26, "target": "la pantalla", "source": "screen", "gender": "f", "type": "noun"},
+    {"id": 27, "target": "el teclado", "source": "keyboard", "gender": "m", "type": "noun"},
+    {"id": 28, "target": "el ratón / el mouse", "source": "mouse", "gender": "m", "type": "noun"},
+    {"id": 29, "target": "el botón", "source": "button", "gender": "m", "type": "noun"},
+    {"id": 30, "target": "la memoria", "source": "memory / storage", "gender": "f", "type": "noun"},
+    {"id": 31, "target": "el procesador", "source": "processor", "gender": "m", "type": "noun"},
+    {"id": 32, "target": "el programa", "source": "program", "gender": "m", "type": "noun"},
+    {"id": 33, "target": "el sistema", "source": "system", "gender": "m", "type": "noun"},
+    {"id": 34, "target": "el software", "source": "software", "gender": "m", "type": "noun"},
+    {"id": 35, "target": "el hardware", "source": "hardware", "gender": "m", "type": "noun"},
+    {"id": 36, "target": "descargar", "source": "to download", "gender": "v", "type": "verb"},
+    {"id": 37, "target": "subir", "source": "to upload", "gender": "v", "type": "verb"},
+    {"id": 38, "target": "conectar", "source": "to connect", "gender": "v", "type": "verb"},
+    {"id": 39, "target": "enviar", "source": "to send", "gender": "v", "type": "verb"},
+    {"id": 40, "target": "recibir", "source": "to receive", "gender": "v", "type": "verb"},
+    {"id": 41, "target": "buscar", "source": "to search", "gender": "v", "type": "verb"},
+    {"id": 42, "target": "navegar", "source": "to browse", "gender": "v", "type": "verb"},
+    {"id": 43, "target": "guardar", "source": "to save", "gender": "v", "type": "verb"},
+    {"id": 44, "target": "instalar", "source": "to install", "gender": "v", "type": "verb"},
+    {"id": 45, "target": "actualizar", "source": "to update", "gender": "v", "type": "verb"},
+    {"id": 46, "target": "cambiar", "source": "to change", "gender": "v", "type": "verb"},
+    {"id": 47, "target": "mejorar", "source": "to improve", "gender": "v", "type": "verb"},
+    {"id": 48, "target": "desarrollar", "source": "to develop", "gender": "v", "type": "verb"},
+    {"id": 49, "target": "producir", "source": "to produce", "gender": "v", "type": "verb"},
+    {"id": 50, "target": "funcionar", "source": "to work / to function", "gender": "v", "type": "verb"},
+    {"id": 51, "target": "romperse", "source": "to break (machine)", "gender": "v", "type": "verb"},
+    {"id": 52, "target": "reparar", "source": "to repair", "gender": "v", "type": "verb"},
+    {"id": 53, "target": "la electricidad", "source": "electricity", "gender": "f", "type": "noun"},
+    {"id": 54, "target": "la energía", "source": "energy", "gender": "f", "type": "noun"},
+    {"id": 55, "target": "la batería", "source": "battery", "gender": "f", "type": "noun"},
+    {"id": 56, "target": "la carga", "source": "charge", "gender": "f", "type": "noun"},
+    {"id": 57, "target": "cargar", "source": "to charge", "gender": "v", "type": "verb"},
+    {"id": 58, "target": "la luz", "source": "light", "gender": "f", "type": "noun"},
+    {"id": 59, "target": "el átomo", "source": "atom", "gender": "m", "type": "noun"},
+    {"id": 60, "target": "la molécula", "source": "molecule", "gender": "f", "type": "noun"},
+    {"id": 61, "target": "el carbono", "source": "carbon", "gender": "m", "type": "noun"},
+    {"id": 62, "target": "el agua", "source": "water", "gender": "f", "type": "noun"},
+    {"id": 63, "target": "el oxígeno", "source": "oxygen", "gender": "m", "type": "noun"},
+    {"id": 64, "target": "el hidrógeno", "source": "hydrogen", "gender": "m", "type": "noun"},
+    {"id": 65, "target": "la temperatura", "source": "temperature", "gender": "f", "type": "noun"},
+    {"id": 66, "target": "la gravedad", "source": "gravity", "gender": "f", "type": "noun"},
+    {"id": 67, "target": "la velocidad", "source": "speed", "gender": "f", "type": "noun"},
+    {"id": 68, "target": "la fuerza", "source": "force", "gender": "f", "type": "noun"},
+    {"id": 69, "target": "la materia", "source": "matter", "gender": "f", "type": "noun"},
+    {"id": 70, "target": "el planeta", "source": "planet", "gender": "m", "type": "noun"},
+    {"id": 71, "target": "la estrella", "source": "star", "gender": "f", "type": "noun"},
+    {"id": 72, "target": "la luna", "source": "moon", "gender": "f", "type": "noun"},
+    {"id": 73, "target": "el espacio", "source": "space", "gender": "m", "type": "noun"},
+    {"id": 74, "target": "el cohete", "source": "rocket", "gender": "m", "type": "noun"},
+    {"id": 75, "target": "el robot", "source": "robot", "gender": "m", "type": "noun"},
+    {"id": 76, "target": "automático/a", "source": "automatic", "gender": "adj", "type": "adj"},
+    {"id": 77, "target": "moderno/a", "source": "modern", "gender": "adj", "type": "adj"},
+    {"id": 78, "target": "antiguo/a", "source": "old / ancient", "gender": "adj", "type": "adj"},
+    {"id": 79, "target": "avanzado/a", "source": "advanced", "gender": "adj", "type": "adj"},
+    {"id": 80, "target": "eficiente", "source": "efficient", "gender": "adj", "type": "adj"},
+    {"id": 81, "target": "inteligente", "source": "smart / intelligent", "gender": "adj", "type": "adj"},
+    {"id": 82, "target": "poderoso/a", "source": "powerful", "gender": "adj", "type": "adj"},
+    {"id": 83, "target": "fácil", "source": "easy", "gender": "adj", "type": "adj"},
+    {"id": 84, "target": "difícil", "source": "difficult", "gender": "adj", "type": "adj"},
+    {"id": 85, "target": "útil", "source": "useful", "gender": "adj", "type": "adj"},
+    {"id": 86, "target": "importante", "source": "important", "gender": "adj", "type": "adj"},
+    {"id": 87, "target": "nuevo/a", "source": "new", "gender": "adj", "type": "adj"},
+    {"id": 88, "target": "el teléfono", "source": "telephone", "gender": "m", "type": "noun"},
+    {"id": 89, "target": "la televisión", "source": "television", "gender": "f", "type": "noun"},
+    {"id": 90, "target": "la radio", "source": "radio", "gender": "f", "type": "noun"},
+    {"id": 91, "target": "la cámara", "source": "camera", "gender": "f", "type": "noun"},
+    {"id": 92, "target": "la impresora", "source": "printer", "gender": "f", "type": "noun"},
+    {"id": 93, "target": "la máquina", "source": "machine", "gender": "f", "type": "noun"},
+    {"id": 94, "target": "el coche / el auto", "source": "car", "gender": "m", "type": "noun"},
+    {"id": 95, "target": "el avión", "source": "airplane", "gender": "m", "type": "noun"},
+    {"id": 96, "target": "el tren", "source": "train", "gender": "m", "type": "noun"},
+    {"id": 97, "target": "la bicicleta", "source": "bicycle", "gender": "f", "type": "noun"},
+    {"id": 98, "target": "el invento", "source": "invention", "gender": "m", "type": "noun"},
+    {"id": 99, "target": "el progreso", "source": "progress", "gender": "m", "type": "noun"},
+    {"id": 100, "target": "el mundo", "source": "world", "gender": "m", "type": "noun"}
+  ],
+  "grammar": [
+    {
+      "title": "Present Perfect — Recent Discoveries and Technological Experiences",
+      "content": "The present perfect (pretérito perfecto compuesto) is used to talk about past events that have relevance to the present — very common when discussing scientific discoveries, technological experiences, and recent achievements.\n\nFormation: haber (present) + past participle\n\nConjugation of haber:\nYo he — Tú has — Él/Ella/Usted ha — Nosotros hemos — Vosotros habéis — Ellos/Ellas/Ustedes han\n\nPast participles:\n-AR verbs: hablar → hablado\n-ER verbs: comer → comido\n-IR verbs: vivir → vivido\n\nIrregular participles:\n- escribir → escrito (written)\n- hacer → hecho (done/made)\n- abrir → abierto (opened)\n- romper → roto (broken)\n- ver → visto (seen)\n- decir → dicho (said)\n- morir → muerto (dead)\n- poner → puesto (placed)\n- volver → vuelto (returned)\n\nUse the present perfect for:\n- Recent events: Hoy hemos descubierto una nueva aplicación. (Today we have discovered a new app.)\n- Experiences: ¿Has visitado un museo de ciencia? (Have you visited a science museum?)\n- Achievements: Einstein ha cambiado nuestra comprensión del universo. (Einstein has changed our understanding of the universe.)\n- Recent past with 'hoy,' 'esta semana,' 'este año': Esta semana hemos aprendido sobre el internet.\n\nExamples with technology:\n- Yo he descargado la aplicación nueva. (I have downloaded the new app.)\n- Nosotros hemos mejorado nuestra computadora. (We have improved our computer.)\n- Ellos han inventado una máquina muy útil. (They have invented a very useful machine.)\n- ¿Has visto las noticias científicas hoy? (Have you seen the science news today?)",
+      "examples": [
+        "Hoy hemos descubierto un nuevo planeta. (Today we have discovered a new planet.)",
+        "Ella ha inventado una aplicación muy útil. (She has invented a very useful app.)",
+        "¿Has instalado el programa nuevo? (Have you installed the new program?)",
+        "Nosotros hemos mejorado nuestra computadora. (We have improved our computer.)",
+        "Ellos han descubierto una fórmula importante. (They have discovered an important formula.)",
+        "He visitado el laboratorio de ciencias. (I have visited the science laboratory.)"
+      ],
+      "aid_note": "Romanian uses 'am descărcat/văzut/știut' (perfectul compus) similarly to Spanish: 'am descărcat' = 'he descargado', 'am văzut' = 'he visto'. The structure is very similar: auxiliary (am/ai/a/avem/aveți/au) + past participle. Key difference: Romanian past participles don't change form, but Spanish past participles are always the same (hablado, comido, vivido). For Romanian speakers: haber = am/ai/a/avem/aveți/au, and the participle is regular. 'He descargado' = 'am descărcat', 'Ha inventado' = 'a inventat'. Irregulars like hecho/visto → has făcut/has văzut."
+    },
+    {
+      "title": "Comparatives and Superlatives — Comparing Technology and Innovations",
+      "content": "Comparatives and superlatives are essential when comparing old and new technology, different scientific discoveries, or products.\n\nComparative structures:\n- Más + adjective + que: La tecnología nueva es más rápida que la antigua. (New technology is faster than old technology.)\n- Menos + adjective + que: Este teléfono es menos caro que el otro. (This phone is cheaper than the other one.)\n- Tan + adjective + como: Esta aplicación es tan buena como la otra. (This app is as good as the other one.)\n\nIrregular comparatives:\n- bueno → mejor (better): La computadora nueva es mejor que la vieja. (The new computer is better than the old one.)\n- malo → peor (worse): El teléfono viejo es peor que el nuevo. (The old phone is worse than the new one.)\n- grande → mayor (greater/larger): La innovación es mayor ahora que antes. (The innovation is greater now than before.)\n- pequeño → menor (smaller/lesser): El progreso es menor de lo esperado. (The progress is smaller than expected.)\n\nSuperlative structures:\n- el/la más + adjective + (de): El ordenador es el más rápido del laboratorio. (The computer is the fastest in the laboratory.)\n- el/la menos + adjective + (de): Esta máquina es la menos eficiente del grupo. (This machine is the least efficient in the group.)\n- el/la + adjective + -ísimo/a: Esta tecnología es revolucionarísima. (This technology is extremely revolutionary.)\n\nCommon irregular superlatives:\n- bueno → el/la mejor (the best): La aplicación es la mejor del mercado. (The app is the best on the market.)\n- malo → el/la peor (the worst): El sistema antiguo es el peor que he usado. (The old system is the worst I've used.)\n\nExamples:\n- La ciencia es más fascinante que la ficción. (Science is more fascinating than fiction.)\n- Este teléfono es el más inteligente del mercado. (This phone is the smartest on the market.)\n- La tecnología avanzada es menos accesible para muchos. (Advanced technology is less accessible for many.)\n- La invención de la imprenta fue la mayor innovación de su época. (The invention of the printing press was the greatest innovation of its time.)",
+      "examples": [
+        "El smartphone es más útil que el teléfono antiguo. (The smartphone is more useful than the old telephone.)",
+        "La ciencia moderna es la mejor herramienta que tenemos. (Modern science is the best tool we have.)",
+        "Esta aplicación es menos complicada que la anterior. (This app is less complicated than the previous one.)",
+        "El laboratorio es el más avanzado del país. (The laboratory is the most advanced in the country.)",
+        "Los inventos antiguos son menos eficientes que los modernos. (Ancient inventions are less efficient than modern ones.)"
+      ],
+      "aid_note": "Romanian comparatives use 'mai' (mai bun = better, mai rău = worse, mai mare = larger, mai mic = smaller): 'mai bun ca' = 'mejor que', 'mai rău ca' = 'peor que'. Romanian superlatives use 'cel mai' (cel mai bun = the best): 'cel mai rapid' = 'el más rápido'. The structure is nearly identical! For Romanian speakers, this is very intuitive."
+    },
+    {
+      "title": "Future Tense — Predictions and Future Possibilities",
+      "content": "The simple future tense (futuro simple) is used to express predictions, future plans, and possibilities — very useful when discussing the future of technology and scientific progress.\n\nFormation: infinitive + endings\n-AR, -ER, -IR verbs all use the same endings:\nYo -é — Tú -ás — Él/Ella/Usted -á — Nosotros -emos — Vosotros -éis — Ellos/Ellas/Ustedes -án\n\nRegular future conjugations:\n- hablar: hablaré, hablarás, hablará, hablaremos, hablaréis, hablarán\n- investigar: investigaré, investigarás, investigará, investigaremos, investigaréis, investigarán\n- mejorar: mejoraré, mejorarás, mejorará, mejoraremos, mejoraréis, mejorarán\n\nImportant irregular futures (stem changes, but same endings):\n- poder → podré, podrás, podrá, podremos, podréis, podrán\n- querer → querré, querrás, querrá, querremos, querréis, querrán\n- saber → sabré, sabrás, sabrá, sabremos, sabréis, sabrán\n- hacer → haré, harás, hará, haremos, haréis, harán\n- tener → tendré, tendrás, tendrá, tendremos, tendréis, tendrán\n- poner → pondré, pondrás, pondrá, pondremos, pondréis, pondrán\n- salir → saldré, saldrás, saldrá, saldremos, saldréis, saldrán\n- decir → diré, dirás, dirá, diremos, diréis, dirán\n- venir → vendré, vendrás, vendrá, vendremos, vendréis, vendrán\n- valer → valdré, valdrás, valdrá, valdremos, valdréis, valdrán\n- haber → habrá (impersonal, only 3rd person)\n\nUse the future for:\n- Predictions: En el futuro, los robots harán muchas tareas. (In the future, robots will do many tasks.)\n- Possibilities: La tecnología mejorará mucho en los próximos años. (Technology will improve a lot in the coming years.)\n- Plans: El próximo año visitaremos el museo de ciencia. (Next year we will visit the science museum.)\n\nExamples:\n- La ciencia ayudará a resolver muchos problemas. (Science will help solve many problems.)\n- Los científicos descubrirán nuevas soluciones. (Scientists will discover new solutions.)\n- En el futuro, todos los teléfonos serán más inteligentes. (In the future, all phones will be smarter.)\n- La tecnología avanzará rápidamente. (Technology will advance rapidly.)",
+      "examples": [
+        "En 2050, los coches volarán por el cielo. (In 2050, cars will fly through the sky.)",
+        "Los científicos descubrirán muchas cosas nuevas. (Scientists will discover many new things.)",
+        "La tecnología mejorará nuestras vidas. (Technology will improve our lives.)",
+        "El próximo año aprenderemos sobre física cuántica. (Next year we will learn about quantum physics.)",
+        "En el futuro, todo será más rápido y fácil. (In the future, everything will be faster and easier.)",
+        "¿Crees que la inteligencia artificial cambiará el mundo? (Do you think artificial intelligence will change the world?)"
+      ],
+      "aid_note": "Romanian forms the future with 'voi' + infinitive: 'voi face' (I will do), 'vei face' (you will do), 'va face' (he/she will do). Spanish endings (-é, -ás, -á, -emos, -éis, -án) are quite different from Romanian (voi, vei, va, vom, veți, vor). For Romanian speakers: think of Spanish future as Romanian 'va' (he/she will) + ending. Irregulars like 'podré, querré' don't exist in Romanian — the Romanian future is always regular."
+    },
+    {
+      "title": "Present Subjunctive — Expressing Hopes and Concerns About Technology",
+      "content": "The present subjunctive is used to express hopes, concerns, doubts, and desires about technology, science, and the future — topics very relevant at the A2.1 level.\n\nFormation:\n-AR verbs: take -ER endings → hablar → hable, hables, hable, hablemos, habléis, hablen\n-ER verbs: take -AR endings → investigar → investigue, investigues, investigue, investiguemos, investiguéis, investiguen\n-IR verbs: take -AR endings → vivir → viva, vivas, viva, vivamos, viváis, vivan\n\nStem-changing subjunctive:\n- e → ie: inventar → invente, inventes, invente, inventemos, inventéis, inventen\n- o → ue: poder → pueda, puedas, pueda, podamos, podáis, puedan\n- e → ie: sentir → sienta, sientas, sienta, sintamos, sintáis, sientan\n\nIrregular subjunctive:\n- ser: sea, seas, sea, seamos, seáis, sean\n- estar: esté, estés, esté, estemos, estéis, estén\n- tener: tenga, tengas, tenga, tengamos, tengáis, tengan\n- ir: vaya, vayas, vaya, vayamos, vayáis, vayan\n- saber: sepa, sepas, sepa, sepamos, sepáis, sepan\n- poder: pueda, puedas, pueda, podamos, podáis, puedan\n- haber: haya, hayas, haya, hayamos, hayáis, hayan\n\nTriggers for subjunctive:\n- Esperar que + subjunctive: Esperamos que la tecnología mejore. (We hope technology improves.)\n- Querer que + subjunctive: Quiero que los científicos descubran nuevas soluciones. (I want scientists to discover new solutions.)\n- Es importante que + subjunctive: Es importante que investiguemos más. (It's important that we research more.)\n- Es necesario que + subjunctive: Es necesario que mejoremos el medio ambiente. (It's necessary that we improve the environment.)\n- Me preocupa que + subjunctive: Me preocupa que la tecnología afecte a las personas. (I'm worried that technology affects people.)\n- Ojalá (que) + subjunctive: Ojalá que la ciencia resuelva todos los problemas. (Hopefully science solves all problems.)\n- Quisiéramos que + subjunctive: Quisiéramos que todos tuvieran acceso a la tecnología. (We would like everyone to have access to technology.)\n\nTechnology subjunctive examples:\n- Espero que el internet mejore en mi zona. (I hope the internet improves in my area.)\n- Es importante que los niños aprendan tecnología. (It's important that children learn technology.)\n- Me preocupa que los robots reemplacen a las personas. (I'm worried that robots will replace people.)",
+      "examples": [
+        "Espero que la ciencia avance más rápido. (I hope science advances faster.)",
+        "Es importante que todos tengan acceso a la tecnología. (It's important that everyone has access to technology.)",
+        "Ojalá que los inventos mejoren nuestras vidas. (Hopefully inventions improve our lives.)",
+        "Quiero que los científicos investiguen más. (I want scientists to research more.)",
+        "Me preocupa que el progreso tecnológico sea muy rápido. (I'm worried that technological progress is too fast.)",
+        "Es necesario que aprendamos a usar la tecnología correctamente. (It's necessary that we learn to use technology correctly.)"
+      ],
+      "aid_note": "Romanian uses 'să' + present for subjunctive constructions: 'Sper să avanseze' (I hope it advances) = 'Espero que avance.' The Spanish subjunctive has distinct conjugated forms while Romanian just uses 'să + infinitive form.' For Romanian speakers: whenever you'd say 'să' after expressions like 'sper că,' 'vreau să,' 'e important să,' that's your trigger for Spanish subjunctive."
+    }
+  ],
+  "pronunciation": {
+    "title": "Science & Technology Pronunciation — Scientific and Technical Vocabulary",
+    "content": "Pronouncing science and technology vocabulary clearly helps you discuss modern topics with confidence.\n\nKey pronunciation patterns:\n\n1. Trailing '-ción' and '-sión' (stress on the 's' sound):\n   - la tecnología = lah-teh-koh-lee-AH-see-ah\n   - la invención = een-ven-see-OHN\n   - la investigación = een-ves-tee-ghah-see-OHN\n   - el descubrimiento = deh-skoo-BREE-myen-toh\n   Note: '-ción' sounds like 'see-OHN' (soft s + i + on)\n\n2. Trailing '-miento' (stress on 'mien'):\n   - el descubrimiento = deh-skoo-BREE-myen-toh\n   - el pensamiento = pen-see-MAHEN-toh\n   - el movimiento = meh-vee-MYEN-toh\n\n3. 'll' (y sound in most regions):\n   - la calle = KAH-yeh\n   - el teléfono = te-LE-foh-no\n\n4. 'ñ' (ny sound):\n   - el niño = NEE-nyoh\n   - la montaña = mohn-TAH-nyah\n   - el año = AH-nyoh\n\n5. Silent 'h':\n   - el hardware = AR-dwar (soft h)\n   - la hipótesis = ee-POH-tee-ses (first h is silent)\n   - el héroe = EH-roh\n\n6. 'qu' before 'e/i' (hard k sound):\n   - el químico = KEE-mee-koh\n   - la química = KEH-mee-kah\n   - la tecnología = teh-koh-lee-AH-see-ah\n\n7. 'g' before 'e/i' (soft g, like harsh 'h'):\n   - el género = JEN-roh\n   - la gravedad = gra-vee-DAD\n   - el hidrógeno = een-DROH-heh-noh\n\n8. Stress on '-ia' (three syllables):\n   - la energía = en-er-GEE-ah\n   - la industria = een-DUS-try-ah\n   - el vacío = bah-KEE-oh\n\n9. Double consonants (single clear sound):\n   - el sistema = see-STEM-ah\n   - la información = een-for-mah-SEE-ohn\n\n10. 'rr' (rolled 'r'):\n    - el error = eh-OR (rolled rr)\n    - el robot = ro-BOT (single r)\n\nCommon science words — pronunciation guide:\n- ciencia = SYEN-see-ah (stress on 'SYEN')\n- tecnología = teh-koh-lee-AH-see-ah (stress on 'AH')\n- laboratorio = lah-bo-RAH-toh-ree-oh (stress on 'RAH')\n- investigación = een-ves-tee-ghah-see-OHN (stress on 'see')\n- experimento = ex-pe-ree-MEN-toh (stress on 'MEN')\n- fórmula = FOR-moo-lah (stress on 'FOR')\n- átomo = AH-toh-moh (stress on 'AH')\n- planeta = PLAY-nah-tah (stress on 'PLAY')\n- electricidad = eh-lek-troh-see-DAD\n- automático = ah-toh-MAH-tee-koh (stress on 'MAH')\n- computadora = kohm-poo-tah-DOR-ah (stress on 'DOR')\n- procesador = pro-ce-SA-dor (stress on 'SA')\n- pantalla = PAN-tah-yah (stress on 'PAN')\n- dispositivo = dee-spoh-see-TEE-vo (stress on 'TEE')\n- memoria = meh-MOR-ee-ah (stress on 'MOR')\n- software = SOFT-wair (stress on 'SOFT')\n- internet = een-ter-NET (stress on 'NET')\n- aplicación = ah-plee-ka-see-OHN (stress on 'OH')\n- invento = een-BEN-toh (stress on 'BEN')"
+  },
+  "exercises": [
+    {
+      "type": "multiple-choice",
+      "question": "What is the present perfect of 'descargar' for 'yo'?",
+      "options": ["Yo descargué", "Yo he descargado", "Yo descargando", "Yo descargé"],
+      "correct": 1,
+      "explanation": "The present perfect is formed with 'he' (present of haber) + past participle 'descargado.' 'Yo he descargado' = I have downloaded."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Which sentence correctly uses the present perfect?",
+      "options": ["Hemos descubierto una nueva app.", "Hemos descubriendo una nueva app.", "Hemos descubrir una nueva app.", "Hemos descubierta una nueva app."],
+      "correct": 0,
+      "explanation": "The present perfect uses 'hemos' + past participle 'descubierto.' 'Hemos descubierto una nueva app' = We have discovered a new app."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete with the correct present perfect: 'Nosotros ___ (investigar) sobre la energía solar.' (We have researched solar energy.)",
+      "correct": "hemos investigado",
+      "explanation": "'Hemos' (we have) + 'investigado' (past participle of investigar). 'Nosotros hemos investigado sobre la energía solar' = We have researched solar energy."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What is the comparative form of 'bueno'?",
+      "options": ["buenísimo", "más bueno", "mejor", "malo"],
+      "correct": 2,
+      "explanation": "'Mejor' is the irregular comparative of 'bueno' (good → better). 'Más bueno' is grammatically possible but 'mejor' is the standard irregular form."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Which sentence uses the correct superlative?",
+      "options": ["Este teléfono es el más inteligente del mercado.", "Este teléfono es el mejor inteligente del mercado.", "Este teléfono es el más inteligentísimo del mercado.", "Este teléfono es el inteligentísimo del mercado."],
+      "correct": 0,
+      "explanation": "The superlative is formed with 'el más + adjective + de.' 'El más inteligente del mercado' = the smartest on the market."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete with the correct comparative: 'La tecnología nueva es ___ rápida que la antigua.' (New technology is faster than old technology.)",
+      "correct": "más",
+      "explanation": "The comparative of superiority uses 'más + adjective + que.' 'Más rápida que' = faster than."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What does 'es el menos eficiente del grupo' mean?",
+      "options": ["is the most efficient in the group", "is the least efficient in the group", "is faster than the group", "is as efficient as the group"],
+      "correct": 1,
+      "explanation": "'El menos + adjective + de' is the superlative of inferiority. 'Es el menos eficiente del grupo' = is the least efficient in the group."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Which is the correct future tense form of 'poder' for 'él/ella'?",
+      "options": ["poderá", "podrá", "podrá", "podrá"],
+      "correct": 1,
+      "explanation": "'Poder' is irregular in the future: él/ella 'podrá.' The stem changes from 'poder' to 'podr-' + future ending '-á.' 'Podrá' = he/she will be able to."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete with the correct future tense: 'Los científicos ___ (descubrir) nuevas soluciones en el futuro.'",
+      "correct": "descubrirán",
+      "explanation": "'Descubrir' is a regular -IR verb in the future. Ellos/Ellas form: 'descubrirán.' 'Los científicos descubrirán nuevas soluciones en el futuro' = Scientists will discover new solutions in the future."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What does 'En el futuro, los robots harán muchas tareas' mean?",
+      "options": ["In the past, robots did many tasks.", "In the future, robots will do many tasks.", "In the future, robots should do many tasks.", "In the future, robots might do many tasks."],
+      "correct": 1,
+      "explanation": "'Harán' is the future tense of 'hacer' (to do/make). 'En el futuro, los robots harán muchas tareas' = In the future, robots will do many tasks."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete with the correct future of 'saber': '___ (yo) más sobre ciencia mañana.' (I will know more about science tomorrow.)",
+      "correct": "Sabré",
+      "explanation": "'Saber' is irregular in the future: yo 'sabré.' The stem changes from 'saber' to 'sabr-.' 'Sabré más sobre ciencia mañana' = I will know more about science tomorrow."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Which expression triggers the subjunctive?",
+      "options": ["Es importante que", "Es cierto que", "Es verdad que", "Sabemos que"],
+      "correct": 0,
+      "explanation": "'Es importante que' triggers the subjunctive because it expresses a value judgment/desire, not a fact. 'Es cierto que,' 'Es verdad que,' and 'Sabemos que' all express facts and use the indicative."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete with the correct subjunctive: 'Esperamos que la tecnología ___ (mejorar) nuestras vidas.'",
+      "correct": "mejore",
+      "explanation": "'Esperamos que' triggers the subjunctive. 'Mejorar' (AR verb) in subjunctive ellos/ellas form: 'mejore.' 'Esperamos que la tecnología mejore nuestras vidas' = We hope technology improves our lives."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What is the subjunctive of 'tener' for 'él/ella'?",
+      "options": ["tiene", "tenga", "tuve", "tenía"],
+      "correct": 1,
+      "explanation": "'Tener' is irregular in the subjunctive: él/ella 'tenga.' 'Tiene' is present indicative, 'tuve' is preterite, 'tenía' is imperfect."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete with the correct subjunctive: 'Ojalá que todos ___ (tener) acceso a la tecnología.'",
+      "correct": "tengan",
+      "explanation": "'Ojalá que' always triggers the subjunctive. 'Tener' is irregular: ellos/ellas 'tengan.' 'Ojalá que todos tengan acceso a la tecnología' = Hopefully everyone has access to technology."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "What does 'Me preocupa que la tecnología avance muy rápido' mean?",
+      "options": ["I'm happy that technology advances very fast.", "I'm worried that technology advances too fast.", "I don't care that technology advances fast.", "I believe that technology advances fast."],
+      "correct": 1,
+      "explanation": "'Me preocupa que' = 'I'm worried that.' It triggers the subjunctive 'avance.' The full sentence means 'I'm worried that technology advances too fast.'"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Which word means 'invention' in Spanish?",
+      "options": ["la investigación", "la invención", "el invento", "both b and c"],
+      "correct": 3,
+      "explanation": "Both 'la invención' and 'el invento' mean 'invention.' 'Invención' is the abstract concept, 'invento' is a specific invention. Both are correct translations."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete with the correct present perfect: '¿Has ___ (ver) el documental sobre ciencia?' (Have you seen the documentary about science?)",
+      "correct": "visto",
+      "explanation": "'Ver' is irregular in the past participle: visto (not 'verado'). 'Has visto' = you have seen. This is one of the key irregular participles to memorize."
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Which sentence correctly uses the future tense?",
+      "options": ["La tecnología mejorará nuestras vidas.", "La tecnología mejoramos nuestras vidas.", "La tecnología mejoraría nuestras vidas.", "La tecnología mejorando nuestras vidas."],
+      "correct": 0,
+      "explanation": "'Mejorará' is the future tense (él/ella form) of 'mejorar.' 'La tecnología mejorará nuestras vidas' = Technology will improve our lives."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete with the correct present perfect: 'Ellos han ___ (hacer) una gran invención.' (They have made a great invention.)",
+      "correct": "hecho",
+      "explanation": "'Hacer' is irregular in the past participle: hecho (not 'hacido'). 'Han hecho una gran invención' = They have made a great invention."
+    }
+  ]
+}

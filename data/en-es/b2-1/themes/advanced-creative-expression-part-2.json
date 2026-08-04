@@ -1,0 +1,234 @@
+{
+  "level": "B2.1",
+  "stage": "B2.1",
+  "theme_number": 10,
+  "title": "Advanced Creative Expression",
+  "title_es": "Expresión Creativa Avanzada",
+  "description": "Vocabulary, grammar, and exercises for creative writing, artistic expression, storytelling, and narrative techniques at the B2.1 CEFR level.",
+  "description_es": "Vocabulario, gramática y ejercicios para la escritura creativa, la expresión artística, la narración y las técnicas narrativas al nivel B2.1 del Marco Común Europeo.",
+  "aligned_topic": "Tema 26: Expresión Creativa y Técnicas Narrativas",
+  "instituto_cervantes_reference": "Plan Curricular del Instituto Cervantes — Producción escrita creativa (B2): relatos, poesía, ensayo literario; Funciones: narrar historias, describir escenas con detalle, expresar emociones y percepciones, crear atmósferas literarias; Nociones: estructura narrativa, punto de vista, ritmo narrativo, estilo, figuras retóricas",
+  "created_at": "2026-08-03",
+  "part": 2,
+  "vocabulary": {
+    "total_count": 88,
+    "nouns": [
+      {"word": "la figura retórica", "english": "rhetorical figure", "category": "retórica", "example": "La metáfora es la figura retórica más común en la poesía."},
+      {"word": "la hipérbole", "english": "hyperbole", "category": "retórica", "example": "La hipérbole exagera la realidad para crear un efecto dramático."},
+      {"word": "la personificación", "english": "personification", "category": "retórica", "example": "La personificación otorga cualidades humanas a objetos inertes."},
+      {"word": "el símil / la comparación", "english": "simile / comparison", "category": "retórica", "example": "El símil utiliza 'como' para establecer paralelismos."},
+      {"word": "la aliteración", "english": "alliteration", "category": "retórica", "example": "La aliteración crea musicalidad mediante la repetición de consonantes."},
+      {"word": "la repetición", "english": "repetition", "category": "retórica", "example": "La repetición enfatiza las ideas centrales del poema."},
+      {"word": "la paradoja", "english": "paradox", "category": "retórica", "example": "La paradoja une ideas aparentemente contradictorias para revelar una verdad más profunda."},
+      {"word": "el oxímoron", "english": "oxymoron", "category": "retórica", "example": "El oxímoron combina términos opuestos como 'silencio ensordecedor'."},
+      {"word": "la anáfora", "english": "anaphora", "category": "retórica", "example": "La anáfora repite una palabra al inicio de versos consecutivos."},
+      {"word": "el encabalgamiento", "english": "enjambment", "category": "retórica", "example": "El encabalgamiento separa una sintaxis entre dos versos."},
+      {"word": "el verso blanco", "english": "blank verse", "category": "poesía", "example": "El verso blanco no tiene rima pero mantiene la métrica."},
+      {"word": "el soneto", "english": "sonnet", "category": "poesía", "example": "El soneto tiene catorce versos organizados en dos cuartetos y dos tercetos."},
+      {"word": "la oda", "english": "ode", "category": "poesía", "example": "La oda celebra un tema o personaje con elevación lírica."},
+      {"word": "el haiku", "english": "haiku", "category": "poesía", "example": "El haiku japoneso ha inspirado poetas de todo el mundo."},
+      {"word": "el poema en prosa", "english": "prose poem", "category": "poesía", "example": "El poema en prosa combina la fluidez de la prosa con la intensidad de la poesía."},
+      {"word": "el epígrafe", "english": "epigraph", "category": "literatura", "example": "El epígrafe del capítulo anticipa el tema del texto."},
+      {"word": "el prólogo", "english": "foreword / preface", "category": "literatura", "example": "El prólogo presenta al lector al contexto de la obra."},
+      {"word": "el índice", "english": "table of contents", "category": "literatura", "example": "El índice revela la estructura temática de la obra."},
+      {"word": "la nota del autor", "english": "author's note", "category": "literatura", "example": "La nota del autor explica las fuentes de inspiración de la obra."},
+      {"word": "la dedicatoria", "english": "dedication", "category": "literatura", "example": "La dedicatoria revela a quién el autor dedica su trabajo."},
+      {"word": "el capítulo", "english": "chapter", "category": "literatura", "example": "Cada capítulo explora una faceta diferente del conflicto."},
+      {"word": "la escena", "english": "scene", "category": "literatura", "example": "La escena del tribunal es el clímax de la obra."},
+      {"word": "el diálogo", "english": "dialogue", "category": "literatura", "example": "El diálogo revela las personalidades de los personajes."},
+      {"word": "el monólogo", "english": "monologue", "category": "literatura", "example": "El monólogo permite conocer los pensamientos íntimos del personaje."},
+      {"word": "la narración en primera persona", "english": "first-person narration", "category": "literatura", "example": "La narración en primera persona crea intimidad con el lector."},
+      {"word": "la narración en tercera persona", "english": "third-person narration", "category": "literatura", "example": "La narración en tercera persona ofrece una visión más objetiva de los hechos."},
+      {"word": "el narrador omnisciente", "english": "omniscient narrator", "category": "literatura", "example": "El narrador omnisciente conoce los pensamientos de todos los personajes."},
+      {"word": "el narrador testigo", "english": "witness narrator", "category": "literatura", "example": "El narrador testigo relata los hechos desde su propia experiencia."},
+      {"word": "el narrador protagonista", "english": "protagonist narrator", "category": "literatura", "example": "El narrador protagonista es también el centro de la acción."},
+      {"word": "el narrador en segunda persona", "english": "second-person narrator", "category": "literatura", "example": "El narrador en segunda persona dirige la atención directamente al lector."},
+      {"word": "la estructura circular", "english": "circular structure", "category": "literatura", "example": "La estructura circular cierra el ciclo donde comenzó la historia."},
+      {"word": "la estructura lineal", "english": "linear structure", "category": "literatura", "example": "La estructura lineal sigue un orden cronológico de acontecimientos."},
+      {"word": "la estructura no lineal", "english": "non-linear structure", "category": "literatura", "example": "La estructura no lineal rompe la cronología para crear suspense."},
+      {"word": "el fragmento", "english": "fragment", "category": "literatura", "example": "El fragmento literario sugiere un mundo más amplio."},
+      {"word": "el borrador", "english": "draft", "category": "creatividad", "example": "Todo gran libro pasa por numerosos borradores antes de su publicación."},
+      {"word": "la reescritura", "english": "rewriting", "category": "creatividad", "example": "La reescritura es donde verdaderamente se construye una obra."},
+      {"word": "la revisión", "english": "revision", "category": "creatividad", "example": "La revisión es esencial para pulir el estilo y corregir errores."},
+      {"word": "el boceto", "english": "sketch", "category": "creatividad", "example": "El boceto inicial contiene la semilla de la obra terminada."},
+      {"word": "el manuscrito", "english": "manuscript", "category": "literatura", "example": "El manuscrito original fue publicado póstumamente."},
+      {"word": "la publicación", "english": "publication", "category": "literatura", "example": "La publicación del libro marcó un hito en la literatura del país."},
+      {"word": "el manifiesto literario", "english": "literary manifesto", "category": "literatura", "example": "El manifiesto literario proclamaba la ruptura con la tradición."},
+      {"word": "la escuela literaria", "english": "literary school / movement", "category": "literatura", "example": "La Generación del 27 fue una escuela literaria fundamental."},
+      {"word": "el movimiento literario", "english": "literary movement", "category": "literatura", "example": "El modernismo fue el movimiento literario más influyente de finales del XIX."},
+      {"word": "la corriente literaria", "english": "literary current / trend", "category": "literatura", "example": "La corriente del realismo mágico dominó la literatura latinoamericana."},
+      {"word": "el canon literario", "english": "literary canon", "category": "literatura", "example": "El canon literario ha sido cuestionado por su exclusión de voces minoritarias."}
+    ],
+    "verbs": [
+      {"word": "metforizar", "english": "to metaphorize", "category": "retórica", "example": "El poeta metforiza la ciudad como un organismo vivo."},
+      {"word": "simbolizar", "english": "to symbolize", "category": "literatura", "example": "El reloj simboliza el paso implacable del tiempo."},
+      {"word": "aludir a", "english": "to allude to", "category": "literatura", "example": "El texto alude a eventos históricos sin nombrarlos directamente."},
+      {"word": "insinuar", "english": "to insinuate", "category": "literatura", "example": "El narrador insinúa la verdad sin revelarla explícitamente."},
+      {"word": "sugerir", "english": "to suggest", "category": "literatura", "example": "La imagen sugiere una lectura simbólica del texto."},
+      {"word": "interpetar", "english": "to interpret", "category": "literatura", "example": "Cada generación interpreta las obras clásicas de manera diferente."},
+      {"word": "deconstruir", "english": "to deconstruct", "category": "literatura", "example": "El autor deconstruye los géneros narrativos tradicionales."},
+      {"word": "subvertir", "english": "to subvert", "category": "literatura", "example": "La novela subvierte las convenciones del género policiaco."},
+      {"word": "parodiar", "english": "to parody", "category": "literatura", "example": "El relato parodia las novelas de caballeros andantes."},
+      {"word": "reinterpretar", "english": "to reinterpret", "category": "literatura", "example": "La obra reinterpreta el mito clásico desde una perspectiva feminista."},
+      {"word": "entrelazar", "english": "to interweave", "category": "literatura", "example": "El autor entrelaza la ficción con datos históricos."},
+      {"word": "superponer", "english": "to superimpose", "category": "literatura", "example": "Las capas de significado se superponen como en un palimpsesto."},
+      {"word": "evocar", "english": "to evoke", "category": "literatura", "example": "El poema evoca la nostalgia de un hogar perdido."},
+      {"word": "capturar", "english": "to capture", "category": "literatura", "example": "La autora captura la esencia de la experiencia migratoria."},
+      {"word": "transmutar", "english": "to transmute", "category": "creatividad", "example": "El artista transmuta el dolor en belleza a través de su obra."}
+    ],
+    "adjectives": [
+      {"word": "retórico / retórica", "english": "rhetorical", "category": "retórica", "example": "El uso retórico del silencio es tan potente como las palabras."},
+      {"word": "simbólico / simbólica", "english": "symbolic", "category": "literatura", "example": "Los gestos simbólicos dominan la escena final."},
+      {"word": "alegórico / alegórica", "english": "allegorical", "category": "literatura", "example": "La historia tiene un lectura alegórica sobre la opresión."},
+      {"word": "surrealista", "english": "surrealist", "category": "literatura", "example": "El relato surrealista desafía la lógica convencional."},
+      {"word": "experimenta / experimental", "english": "experimental", "category": "literatura", "example": "La obra experimental rompe todas las normas del género."},
+      {"word": "contemplativo / contemplativa", "english": "contemplative", "category": "literatura", "example": "El tono contemplativo invita a la meditación."},
+      {"word": "introspectivo / introspectiva", "english": "introspective", "category": "literatura", "example": "La obra introspectiva explora las profundidades del alma humana."},
+      {"word": "onírico / onírica", "english": "dreamlike", "category": "literatura", "example": "La atmósfera onírica envuelve todo el relato."},
+      {"word": "fragmentario / fragmentaria", "english": "fragmentary", "category": "literatura", "example": "El texto fragmentario refleja la naturaleza dispersa de la memoria."},
+      {"word": "lírico / lírica", "english": "lyrical", "category": "literatura", "example": "La prosa lírica del autor recuerda a Juan Ramón Jiménez."},
+      {"word": "minimalista", "english": "minimalist", "category": "literatura", "example": "El estilo minimalista de Hemingway influyó en toda una generación."},
+      {"word": "barroco / barroca", "english": "baroque", "category": "literatura", "example": "La prosa barroca abunda en metáforas complejas y estructuras intrincadas."},
+      {"word": "clasicista", "english": "classicist", "category": "literatura", "example": "El enfoque clasicista prioriza la armonía y el equilibrio."},
+      {"word": "vanguardista", "english": "avant-garde", "category": "literatura", "example": "La revista vanguardista publicaba textos revolucionarios."},
+      {"word": "polifónico", "english": "polyphonic", "category": "literatura", "example": "La novela polifónica presenta múltiples voces sin jerarquía."},
+      {"word": "autoral", "english": "authorial / unique to the author", "category": "literatura", "example": "La voz autoral del escritor es inconfundible."},
+      {"word": "efímero / efímera", "english": "ephemeral", "category": "literatura", "example": "La belleza efímera del momento queda inmortalizada en el poema."},
+      {"word": "perenne", "english": "perennial / enduring", "category": "literatura", "example": "Los temas perennes de la literatura trascienden el tiempo."}
+    ],
+    "phrases_and_connectors": [
+      {"phrase": "en el ámbito de", "english": "in the realm of", "category": "literatura", "example": "En el ámbito de la narrativa contemporánea, la frontera entre géneros se difumina."},
+      {"phrase": "desde una perspectiva", "english": "from a perspective", "category": "literatura", "example": "Desde una perspectiva feminista, la obra adquiere nuevas capas de significado."},
+      {"phrase": "en términos de", "english": "in terms of", "category": "literatura", "example": "En términos de innovación formal, la novela es pionera."},
+      {"phrase": "a nivel de", "english": "at the level of", "category": "literatura", "example": "A nivel simbólico, el jardín representa el paraíso perdido."},
+      {"phrase": "en el plano de", "english": "on the plane of", "category": "literatura", "example": "En el plano onírico, los límites de la realidad se disuelven."},
+      {"phrase": "con miras a", "english": "with a view to", "category": "literatura", "example": "El autor escribió la obra con miras a cuestionar las convenciones literarias."},
+      {"phrase": "a tenor de", "english": "in accordance with", "category": "literatura", "example": "A tenor de la crítica recibida, el libro se ha convertido en un clásico."},
+      {"phrase": "por vía de", "english": "by way of", "category": "literatura", "example": "La autora recurre por vía de la alegoría para criticar la sociedad."},
+      {"phrase": "en el orden de", "english": "in the order of", "category": "literatura", "example": "En el orden narrativo, los hechos se presentan de forma cronológica."},
+      {"phrase": "a ras de", "english": "at ground level / in close-up", "category": "literatura", "example": "A ras de suelo, la ciudad se presenta como un laberinto de contrastes."}
+    ]
+  },
+  "grammar": [
+    {
+      "id": "g4",
+      "title": "Condicional compuesto en reflexiones literarias",
+      "title_en": "Compound conditional in literary reflection",
+      "description": "B2.1: Habría + participio (habría sido, habría querido, habrían elegido). Used in literary narratives to express unfulfilled desires, regrets, and counterfactual reflections. 'Si hubiera tomado otro camino, habría sido otra persona.' Central to character introspection and moral questioning in literature.",
+      "description_es": "B2.1: Habría + participio. Se usa en narrativas literarias para expresar deseos incumplidos, arrepentimientos y reflexiones contrafácticas. Central en la introspección del personaje.",
+      "examples": [
+        "Si hubiera tenido valor, habría dicho lo que sentía en aquel momento.",
+        "Habría querido permanecer allí para siempre, pero el tiempo no perdona.",
+        "Si el mundo hubiera sido justo, las cosas habrían sido muy diferentes.",
+        "Habría escrito mil cartas si supiera que alguien las leería.",
+        "Si hubiera conocido el final desde el principio, habría cambiado cada paso.",
+        "Habrían sido suficientes unas pocas palabras si hubieran sido dichas en el momento adecuado."
+      ]
+    },
+    {
+      "id": "g5",
+      "title": "Subjuntivo presente en la expresión de percepciones subjetivas",
+      "title_en": "Present subjunctive in expressions of subjective perception",
+      "description": "B2.1: Espero que, Quien sabe si, Puede que, Ojalá que, Con tal de que. Used to express uncertainty, hope, and subjective perception in literary narratives. 'Puede que el viento susurrara su nombre, o quizás solo fuera el recuerdo.' Essential for creating ambiguity and multiple readings.",
+      "description_es": "B2.1: Espero que, quién sabe si, puede que, ojalá, etc. Se usa para expresar incertidumbre, esperanza y percepción subjetiva. Esencial para crear ambigüedad y múltiples lecturas.",
+      "examples": [
+        "Puede que el silencio fuera más elocuente que cualquier palabra.",
+        "Ojalá pudiera regresar a esos días de inocencia.",
+        "Quien sabe si la verdad existe o solo somos sombras proyectadas por ella.",
+        "Espero que el lector encuentre en estas páginas un reflejo de su propia experiencia.",
+        "Con tal de que no se pierda la esencia, cualquier adaptación es posible.",
+        "Quizá el autor no sabía lo que escribía, pero el texto habla por sí mismo."
+      ]
+    },
+    {
+      "id": "g6",
+      "title": "Pasiva refleja para descripciones impersonales en narrativa",
+      "title_en": "Passive reflexive for impersonal descriptions in narrative",
+      "description": "B2.1: Se + verbo (se dice, se cree, se observa, se percibe). Used to create an impersonal, objective tone in literary description and critical analysis. 'Se percibe una atmósfera de melancolía que envuelve al protagonista.' Essential for establishing narrative distance or objective commentary.",
+      "description_es": "B2.1: Se + verbo. Se usa para crear un tono impersonal y objetivo en la descripción narrativa y el análisis crítico. Esencial para establecer distancia narrativa.",
+      "examples": [
+        "Se percibe una tensión creciente a lo largo de los primeros capítulos.",
+        "Se observa que el protagonista cambia de perspectiva gradualmente.",
+        "Se dice que el autor basó el personaje en una figura histórica real.",
+        "Se intuye un mensaje subyacente que trasciende la trama superficial.",
+        "Se ha interpretado la obra como una alegoría de la condición humana.",
+        "Se reconoce en cada página la mano maestra de un narrador experimentado."
+      ]
+    }
+  ],
+  "pronunciation": [
+    {
+      "id": "p3",
+      "title": "Acentuación de términos de retórica y análisis literario",
+      "title_en": "Stress patterns of rhetoric and literary analysis terms",
+      "description": "Practice stress in rhetoric and analysis vocabulary: hipérbole /hi-per-**bo**-le/, personificación /per-so-ni-fi-ca-**ción**/, aliteración /a-li-te-ra-**ción**/, anáfora /a-ná-**fo**-ra/, paradoja /pa-ra-**do**-ja/, oxímoron /o-ksi-**mó**-ron/, polifónico /po-li-**fó**-ni-co/, minimalista /mi-ni-ma-**lis**-ta/. Focus on the variety of accentuation patterns in literary terminology.",
+      "description_es": "Practicar la acentuación de términos de retórica y análisis literario: hipérbole, personificación, aliteración, anáfora, paradoja, oxímoron, polifónico, minimalista."
+    },
+    {
+      "id": "p4",
+      "title": "Pronunciación de diptongos y triptongos en poesía",
+      "title_en": "Pronunciation of diphthongs and triptongos in poetry",
+      "description": "Practice pronunciation of diphthongs and triptongos common in poetry: verso /ver-so/, poema /po-e-ma-, poeta /po-e-ta/, melodía /me-lo-**dí**-a/, poético /poé**-ti-co, armonía /a-rmo-**ní**-a/, melodía /me-lo-**dí**-a/, ca**i**-da /ca-i-da/, ba**i**-la /bai-la/. These sounds are fundamental for the musicality of Spanish verse.",
+      "description_es": "Practicar la pronunciación de diptongos y triptongos comunes en poesía: verso, poema, poeta, melodía, poético, armonía, caída, baila."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e4",
+      "type": "vocabulary_matching",
+      "title": "Figuras retóricas: identificar en contexto",
+      "title_en": "Rhetorical figures: identify in context",
+      "instructions": "Identifica qué figura retórica se utiliza en cada oración.",
+      "instructions_en": "Identify which rhetorical figure is used in each sentence.",
+      "items": [
+        {"sentence": "El silencio ensordecedor de la noche.", "figure": "oxímoron"},
+        {"sentence": "Las montañas bailaban bajo la luna.", "figure": "personificación"},
+        {"sentence": "Era fuerte como un roble.", "figure": "símil / comparación"},
+        {"sentence": "Ni una hoja cayó sin que el árbol lo supiera.", "figure": "hipérbole"},
+        {"sentence": "Corrí tras el tiempo, pero el tiempo no me esperaba.", "figure": "repetición / anáfora"}
+      ]
+    },
+    {
+      "id": "e5",
+      "type": "grammar_application",
+      "title": "Transformar a narración hipotética",
+      "title_en": "Transform to hypothetical narrative",
+      "instructions": "Reescribe cada oración de indicativo a subjuntivo/imperfecto de subjuntivo para crear un tono hipotético narrativo.",
+      "instructions_en": "Rewrite each indicative sentence into subjunctive/past imperfect subjunctive to create a hypothetical narrative tone.",
+      "items": [
+        {"original": "El personaje sabía la verdad.", "transformed": "Quizá el personaje no supiera la verdad."},
+        {"original": "El autor escribió el libro en un año.", "transformed": "Si hubiera tenido más tiempo, habría escrito el libro en dos."},
+        {"original": "La obra tiene mucho éxito.", "transformed": "Puede que la obra tenga más éxito del que se cree."},
+        {"original": "El final es triste.", "transformed": "Tal vez el final no fuera tan triste como se interpreta."},
+        {"original": "El lector entiende el mensaje.", "transformed": "Ojalá el lector comprenda el mensaje antes de lo previsto."}
+      ]
+    },
+    {
+      "id": "e6",
+      "type": "creative_writing",
+      "title": "Escritura creativa: escena onírica",
+      "title_en": "Creative writing: dreamlike scene",
+      "instructions": "Escribe un párrafo (100-150 palabras) describiendo una escena onírica usando el imperfecto de subjuntivo, la voz pasiva refleja y al menos tres figuras retóricas diferentes.",
+      "instructions_en": "Write a paragraph (100-150 words) describing a dreamlike scene using the past imperfect subjunctive, passive reflexive, and at least three different rhetorical figures.",
+      "items": [
+        {"prompt": "Describe un sueño en el que el tiempo se detiene y los objetos cobran vida.", "expected_guidance": "Usa hubiera/hubiese + participio, se + verbo (impersonal), y figuras como metáfora, personificación e hipérbole."}
+      ]
+    },
+    {
+      "id": "e7",
+      "type": "reading_comprehension",
+      "title": "Análisis de un fragmento narrativo",
+      "title_en": "Narrative fragment analysis",
+      "instructions": "Lee el siguiente fragmento y responde a las preguntas.",
+      "instructions_en": "Read the following fragment and answer the questions.",
+      "fragment": "Se percibe una atmósfera de melancolía que envuelve al protagonista como una niebla espesa. Quizá fuera el otoño el responsable de tanto peso, o tal vez la soledad hubiera encontrado su morada definitiva en su pecho. Cada paso que daba resonaba como un eco en un vacío que se negaba a llenarse.",
+      "questions": [
+        {"question": "¿Qué figura retórica se usa en 'como una niebla espesa'?", "answer": "Símil / comparación"},
+        {"question": "Identifica el uso del imperfecto de subjuntivo y explica su función.", "answer": "'Quizá fuera' — expresa incertidumbre sobre la causa de la melancolía."},
+        {"question": "¿Qué función tiene 'Se percibe'?", "answer": "Voz pasiva refleja que crea un tono objetivo y observacional."},
+        {"question": "¿Qué estructura temporal usa 'hubiera encontrado'?", "answer": "Pluscuamperfecto de subjuntivo: acción hipotética anterior al momento de la narración."},
+        {"question": "¿Qué efecto tiene la metáfora 'un vacío que se negaba a llenarse'?", "answer": "Personifica el vacío como algo activo y resistente, intensificando la sensación de pérdida."}
+      ]
+    }
+  ]
+}
