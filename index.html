@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Spanish Learning App</title>
+  <title>LingoLearn</title>
   <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.14/dist/full.min.css" rel="stylesheet" type="text/css" />
   <script src="https://cdn.tailwindcss.com"></script>
   <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.14.3/dist/cdn.min.js"></script>
@@ -278,7 +278,7 @@
             <button @click="exitTheme()" class="btn btn-ghost btn-sm">← Back to Themes</button>
             <h2 class="text-xl font-bold" x-text="currentTheme"></h2>
           </div>
-          <p class="text-sm opacity-70 mb-4" x-show="themeData && themeData.description" x-text="themeData.description"></p>
+          <p class="text-sm opacity-70 mb-4" x-show="themeData" x-text="themeData?.description"></p>
 
           <!-- Theme Pillar Tabs -->
           <div role="tablist" class="tabs tabs-boxed mb-4">
@@ -764,7 +764,7 @@
   </div>
 
   <!-- Settings Modal -->
-  <dialog class="modal" x-show="settingsOpen" x-cloak>
+  <div class="modal modal-open" x-show="settingsOpen" x-cloak x-transition.opacity.duration.200ms>
     <div class="modal-box w-11/12 max-w-2xl">
       <h3 class="text-lg font-bold mb-4">Settings</h3>
       
@@ -818,15 +818,14 @@
       </div>
 
       <div class="modal-action">
-        <form method="dialog">
-          <button class="btn" @click="settingsOpen = false">Close</button>
-        </form>
+        <button class="btn" @click="settingsOpen = false">Close</button>
       </div>
     </div>
-    <form method="dialog" class="modal-backdrop">
+    <!-- Click backdrop to close -->
+    <div class="modal-backdrop" @click="settingsOpen = false">
       <button>close</button>
-    </form>
-  </dialog>
+    </div>
+  </div>
 
   <!-- Hidden file input for import -->
   <input type="file" id="importFile" accept=".json" class="hidden" @change="handleImport($event)">
