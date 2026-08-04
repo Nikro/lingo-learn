@@ -1,124 +1,70 @@
-# Spanish Learning App — PROJECT PLAN
+# LingoLearn Plan
 
-## Vision
-A progressive, gamified Spanish learning web app (PWA) — multi-language capable from day one. Source→Target language pairs are first-class citizens. English→Spanish, Romanian→English, Romanian→Spanish, Russian→English — all supported via a pluggable locale registry. Deployed on GitHub Pages. Single `index.html` + CDN dependencies. Zero build step.
+## Goal
+Build a static, GitHub Pages deployable PWA for structured language learning. The core product should support source → destination language pairs plus an optional aid language while keeping curriculum content decoupled from UI code.
 
-## Tech Stack
-- **UI:** DaisyUI 4 + Tailwind CSS (CDN)
-- **Reactivity:** Alpine.js 3 (CDN)
-- **Routing:** Hash-based (`#/en-es/a1.1/grammar`) — single-page, no backend
-- **Data:** Flat JSON files in `data/{locale}/` directories
-- **Storage:** `localStorage` (progress, settings, streaks, XP) — all keys locale-prefixed
-- **PWA:** `manifest.json` + `sw.js` (cache shell + data for offline)
-- **Dev:** GitHub Pages, no CI/CD pipeline needed initially
+## Architecture principles
 
-## Architecture: Locale → Levels → Stages → Pillars → Exercises
+1. **Static first**: all app code and curriculum data are served as static files.
+2. **Locale-pair agnostic**: `en-es` is the first real corpus, but the app model should support any source-target pair.
+3. **Data-driven curriculum**: stages and themes live in JSON, not in hardcoded templates.
+4. **Standardized lesson shape**: theme pages should consistently expose vocabulary, grammar, exercises, and optional supporting sections.
+5. **Predictable UX states**: every screen must have explicit loading, loaded, empty, and error behavior.
+6. **No secrets**: the app must not require or store credentials, API keys, or private user data.
 
-### Top-Level Hierarchy
-```
-Locale (en-es, ro-en, ro-es, ro-ru, fr-es...)
- └── Levels (A1, A2, B1, B2)
-      └── Stage (A1.1, A1.2...) — thematic chunks of ~10 learning units
-           ├── Pillar: Grammar
-           ├── Pillar: Vocabulary
-           ├── Pillar: Verbs & Drills
-           ├── Pillar: Pronunciation & Spelling
-           └── Exercises — interactive application
-```
+## Desired information architecture
 
-### Locale Pair Structure
-Each locale folder (`data/{source}-{target}/`) contains its own curriculum. The app loads `registry.json` to discover available pairs and a dropdown to switch between them.
-
-```
+```text
 data/
-├── registry.json              # Available locale pairs + metadata
-├── en-es/                     # English → Spanish (first full set)
-│   ├── a1-1.json
-│   ├── a1-2.json
-│   └── ...
-├── ro-es/                     # Romanian → Spanish
-├── ro-en/                     # Romanian → English
-└── fr-es/                     # French → Spanish
+├── registry.json
+├── schema.json
+└── <source>-<target>/
+    ├── master-structure.json
+    ├── <stage>.json
+    └── <stage>/themes/
+        ├── <stage>.json
+        └── <theme>.json
 ```
 
-### Page Building Blocks (Content UI)
-- **Locale Switcher:** Dropdown in settings to swap source→target pairs
-- **Hero Card:** Stage title, progress bar, XP earned, "Start" button
-- **Pillar Tabs:** Grammar | Vocabulary | Verbs | Pronunciation
-- **Theory Block:** Text explanation, grammar tables, example sentences
-- **Vocab Grid:** Cards with target word, source translation, gender marker
-- **Quiz Engine:** Multiple-choice, fill-in-blank, drag-drop matching, conjugation matrix
-- **Progress Tracker:** Per-pillar completion %, overall level progress bar, XP counter
-- **Settings Panel:** Aid Language selector, locale switcher, reset progress, export/import save data
+A stage should aim for about 10 theme-topics. The current repository has more generated content than the original README described, so cleanup should focus on standardization, validation, and navigation reliability rather than merely adding volume.
 
-## Curriculum Source
-Built from 12+ sources (CVC Instituto Cervantes, CLM Granada, UNIZAR, UB, UNED, Meyster frequency lists, etc.). See `SOURCES.md` for full catalog.
+## Near-term priorities
 
-## Development Phases
+### 1. Establish agent-ready project knowledge
+- Keep `AGENTS.md` as hard rules for contributors and agents.
+- Keep `HINTS.md` as the practical playbook for Alpine.js, DaisyUI, routing, data architecture, and context-window discipline.
+- Record durable decisions in `ops/decisions/` when architecture or workflow choices change.
 
-### Phase 1: Shell (HTML + Navigation)
-- `index.html` with Tailwind + DaisyUI + Alpine CDN
-- Locale switcher in sidebar or settings
-- Sidebar navigation: Locale → Levels (A1→B2) → Stages list
-- Main view: Stage title, pillar tabs, progress display
-- Settings modal: Locale switcher, Aid Language dropdown, progress reset
-- Responsive layout (mobile-first, works as PWA)
+### 2. Stabilize shell and navigation
+- Fix loading skeleton visibility and overlap.
+- Make settings accessible at all times.
+- Keep sidebar context when opening a theme.
+- Keep theme tabs visible when switching vocabulary/grammar/exercises.
+- Replace interactive `x-html` with Alpine templates.
 
-### Phase 2: Data Layer
-- `data/registry.json` — locale pair registry
-- JSON schema definition for stages, pillars, exercises
-- `data/en-es/a1-1.json` — first full stage with real content
-- Exercise renderer engine (multiple choice + fill-in-blank)
-- localStorage save/load for progress and settings (locale-prefixed keys)
+### 3. Normalize data shape and collection rules
+- Decide whether stage root files are summaries or full pillar files.
+- Keep per-theme files small and schema-aligned.
+- Normalize field names: `target`, `source`, `gender`, `type`, `examples`, `aid_note`.
+- Decide how aid-language hints are represented.
+- Define what belongs in collected/generated JSON: learner-useful terms, examples, prompts, answers, explanations, CEFR fit, and source notes when licensing allows.
+- Exclude copyrighted long passages, personal data, credentials, slurs/offensive content unless pedagogically necessary and clearly marked, and unreviewed machine hallucinations.
 
-### Phase 3: Exercise Engine
-- Advanced exercise types: drag-drop, matching, conjugation matrix
-- Validation logic: case-insensitive, fuzzy matching where appropriate
-- Scoring: per-exercise, per-pillar, per-stage
-- Streak tracking + XP system
+### 4. Improve validation and QA
+- Expand `data/schema.json` to match the theme-first model.
+- Ensure `data/validate.js` validates every active stage and theme manifest.
+- Add a lightweight browser smoke-test checklist for routes and settings.
+- Keep a repeatable secret-scan command in documentation/tasks.
 
-### Phase 4: Polish
-- PWA service worker + manifest
-- Install prompt via `beforeinstallprompt`
-- Offline cache for data JSON files
-- UI polish: animations, transitions, error states
-- Populate A1.1 full content from curriculum research
+### 5. PWA readiness and build/deploy ergonomics
+- Re-enable the service worker only after stale-cache behavior is handled.
+- Make cache versioning explicit.
+- Ensure GitHub Pages subpath deployment works.
+- Consider a tiny CI/CD pipeline that validates data, checks JavaScript, copies static assets into `dist/`, and deploys the artifact.
 
-### Phase 5: Deploy
-- GitHub Pages setup
-- Domain configuration (future)
-- Testing across devices
-
-## Key Decisions
-- **No backend.** All data static, all logic client-side.
-- **Single HTML file.** CDN dependencies only. No npm, no bundler.
-- **Hash routing.** `#/locale/level/stage/pillar` for deep links.
-- **JSON data.** Easy to add new locale pairs by dropping a folder into `data/`.
-- **localStorage only.** Keys prefixed with locale (e.g., `spanish_app_en-es_progress`).
-- **Stop at B2.** No C territory. B2 is conversational fluency.
-- **Locale-agnostic.** Any source→target pair works. Content is authored per locale, not hardcoded.
-
-## File Structure
-```
-spanish-app/
-├── index.html          # Main app shell
-├── manifest.json       # PWA manifest
-├── sw.js               # Service worker
-├── data/
-│   ├── registry.json   # Locale pair registry
-│   ├── en-es/          # English → Spanish curriculum
-│   │   ├── a1-1.json
-│   │   ├── a1-2.json
-│   │   └── ...
-│   ├── ro-es/          # Romanian → Spanish (future)
-│   └── ro-en/          # Romanian → English (future)
-├── css/
-│   └── styles.css      # Custom overrides (minimal)
-├── js/
-│   ├── app.js          # Core app logic, routing, locale switching
-│   ├── exercises.js    # Exercise engine
-│   └── storage.js      # localStorage wrapper (locale-aware)
-├── SOURCES.md          # Source research catalog
-├── PLAN.md             # This file
-└── TASKS.md            # Task breakdown
-```
+## Out of scope for now
+- Backend services.
+- User accounts.
+- Remote progress sync.
+- AI-generated content at runtime.
+- Analytics/tracking.

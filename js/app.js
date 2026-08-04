@@ -402,7 +402,7 @@ function app() {
 
     // Navigate to a theme directly from sidebar
     async loadThemeDirectly(stageId, themeId) {
-      this.expandedStage = null;
+      // Keep the stage expanded so users can navigate adjacent themes without losing context.
       this.currentLevel = this.getCurrentLevelForStage(stageId);
       this.currentStage = stageId;
       this.themeView = 'theme-detail';
@@ -464,7 +464,12 @@ function app() {
         return;
       }
 
-      if (parts.length >= 4) this.currentPillar = parts[3];
+      if (parts.length >= 4 && parts[3] === 'themes') {
+        this.themeView = 'themes';
+      } else if (parts.length >= 4) {
+        this.currentPillar = parts[3];
+        this.themeView = null;
+      }
 
       // Validate level against known app levels
       if (this.currentLevel) {
@@ -531,6 +536,10 @@ function app() {
     // Set pillar and update the hash URL
     setPillar(pillar) {
       this.currentPillar = pillar;
+      if (this.themeView === 'theme-detail' && this.currentTheme) {
+        this.renderThemePillar();
+        return;
+      }
       if (this.currentStage) {
         window.location.hash = '/' + this.currentLocale + '/' + this.currentLevel + '/' + this.currentStage + '/' + pillar;
       }
@@ -553,6 +562,14 @@ function app() {
       this.sidebarThemes = {};
     },
     
+    // Navigate from the themes overview into a concrete theme and keep the URL shareable.
+    async loadThemeFromList(themeId) {
+      if (this.currentStage && this.currentLevel) {
+        window.location.hash = '/' + this.currentLocale + '/' + this.currentLevel + '/' + this.currentStage + '/theme/' + themeId;
+      }
+      await this.loadTheme(themeId);
+    },
+
     // Load a specific theme's data (handles both single-file and chunked/partitioned JSON)
     async loadTheme(themeId) {
       this.loading = true;
@@ -672,6 +689,9 @@ function app() {
       this.currentPillar = 'grammar';
       this.expandedStage = null;
       this.sidebarThemes = {};
+      if (this.currentStage && this.currentLevel) {
+        window.location.hash = '/' + this.currentLocale + '/' + this.currentLevel + '/' + this.currentStage + '/themes';
+      }
     },
     
     // Exit theme navigation entirely and return to stage pillars
@@ -682,6 +702,9 @@ function app() {
       this.themeTitle = null;
       this.expandedStage = null;
       this.sidebarThemes = {};
+      if (this.currentStage && this.currentLevel) {
+        window.location.hash = '/' + this.currentLocale + '/' + this.currentLevel + '/' + this.currentStage + '/' + this.currentPillar;
+      }
       this.renderPillar();
     },
     

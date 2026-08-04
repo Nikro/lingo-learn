@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## Unreleased
+
+### Added
+- Added `HINTS.md` as a compact future-agent guide for Alpine.js, DaisyUI, routing, data architecture, deployment, security scans, and context-window management.
+- Added `ops/` decision-log structure for durable architecture and workflow decisions.
+- Added ignored `workspace/` scratch-space guidance for AI/human temporary work.
+
 ## [v1.0.0] — 2026-08-01
 
 ### Added
@@ -42,3 +49,10 @@ Future roadmap items:
 ---
 
 *For contribution guidelines, see [CONTRIBUTING.md](CONTRIBUTING.md).*
+
+## Unreleased
+
+### Added
+- Added `HINTS.md` as a compact future-agent guide for Alpine.js, DaisyUI, routing, data architecture, deployment, security scans, and context-window management.
+- Added `ops/` decision-log structure for durable architecture and workflow decisions.
+- Added ignored `workspace/` scratch-space guidance for AI/human temporary work.
