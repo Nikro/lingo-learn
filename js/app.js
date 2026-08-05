@@ -1517,7 +1517,7 @@ function app() {
               q.options = [item.english || item.target].concat(targets);
               q.options = self.shuffleArray(q.options);
               q.correct = q.options.indexOf(item.english || item.target);
-              q.question = 'What does "' + item.spanish || item.target + '" mean?';
+              q.question = 'What does "' + (item.spanish || item.target) + '" mean?';
             }
             self.quizQuestions.push(q);
           });
@@ -2184,6 +2184,8 @@ function app() {
       this.previousAnswers = [];
       this.currentQuestionAnswer = null;
       this.currentQuestionCorrect = null;
+      // Reset pillar to default so pillar tabs show correct active state
+      this.currentPillar = 'grammar';
     },
 
     finishQuiz: function() {

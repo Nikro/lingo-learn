@@ -796,7 +796,7 @@
               
               <div class="flex gap-2 justify-center">
                 <button class="btn btn-primary" @click="retryQuiz()">🔄 Practice Again</button>
-                <button class="btn btn-ghost" @click="resetQuizView()">← Back to Stage</button>
+                <button class="btn btn-ghost" @click="exitThemes()">← Back to Stage</button>
               </div>
             </div>
 
@@ -898,8 +898,8 @@
     <form method="dialog" class="modal-backdrop" @click.prevent="settingsOpen = false"><button>close</button></form>
   </div>
 
-  <script src="js/storage.js?v=26"></script>
-  <script src="js/app.js?v=48"></script>
+  <script src="js/storage.js?v=27"></script>
+  <script src="js/app.js?v=49"></script>
   <script>
     // Service Worker: Disabled during development to prevent stale caching issues.
     // To enable for production (GitHub Pages), uncomment the block below.
