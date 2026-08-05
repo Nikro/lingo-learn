@@ -891,6 +891,9 @@
           <button class="btn btn-outline" @click="importProgress()">Import Progress</button>
           <button class="btn btn-error btn-outline" @click="resetProgress()">Reset Progress</button>
         </div>
+        <div class="grid grid-cols-1 sm:grid-cols-3 gap-2">
+          <button class="btn btn-warning btn-outline col-span-full" @click="hardReload()">🔄 Flush Cache &amp; Reload</button>
+        </div>
         <input id="importFile" type="file" accept="application/json" class="hidden" @change="handleImport($event)">
       </div>
       <div class="modal-action">
@@ -901,7 +904,7 @@
   </div>
 
   <script src="js/storage.js?v=27"></script>
-  <script src="js/app.js?v=50"></script>
+  <script src="js/app.js?v=51"></script>
   <script>
     // Service Worker: Disabled during development to prevent stale caching issues.
     // To enable for production (GitHub Pages), uncomment the block below.

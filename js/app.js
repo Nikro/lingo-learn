@@ -2310,6 +2310,14 @@ function app() {
       reader.readAsText(file);
     },
 
+    // Hard reload: clears cache and forces fresh fetch
+    hardReload: function() {
+      if (confirm('Flush cache and reload? This will refresh all data from the server.')) {
+        // Bypass browser cache by loading with a fresh URL
+        location.href = window.location.origin + window.location.pathname + '?nocache=' + Date.now();
+      }
+    },
+
     // ─── Helpers ───
     getProgress: function(levelId, stageId) {
       // stageId is already in the correct format (a1-1, a2-3, etc.)
