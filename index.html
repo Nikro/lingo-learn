@@ -50,6 +50,9 @@
     .match-wrong { border-color: #ef4444 !important; background-color: #fee2e2 !important; }
     .matrix-cell-correct { border-color: #22c55e !important; background-color: #dcfce7 !important; }
     .matrix-cell-wrong { border-color: #ef4444 !important; background-color: #fee2e2 !important; }
+    /* Exercise answer feedback */
+    .input-success { border-color: #22c55e !important; background-color: #f0fdf4 !important; }
+    .input-error { border-color: #ef4444 !important; background-color: #fef2f2 !important; }
   </style>
 </head>
 <body class="bg-base-200 min-h-screen" x-data="app()" x-init="init()">
@@ -194,8 +197,8 @@
               </svg>
               <span class="hidden sm:inline">Install</span>
             </button>
-            <div class="badge badge-primary badge-outline" x-text="xp"></div>
-            <div class="badge badge-warning badge-outline badge-sm" x-show="streak > 0" x-text="'🔥' + streak"></div>
+            <div class="badge badge-primary badge-outline badge-sm font-bold" x-text="xp"></div>
+            <div class="badge badge-warning badge-outline badge-sm" x-show="streak > 0" x-text="'🔥 ' + streak"></div>
             <div class="badge badge-info badge-outline badge-sm" x-show="getStreakMultiplier() > 1" x-text="getStreakMultiplier() + '×'"></div>
           </div>
         </div>
@@ -310,7 +313,7 @@
                   <div class="stat-title">XP</div>
                   <div class="stat-value text-accent" x-text="xp"></div>
                   <div class="stat-desc flex items-center gap-1">
-                    <span x-show="streak > 0" class="badge badge-warning badge-sm">🔥<span x-text="streak"></span></span>
+                    <span x-show="streak > 0" class="badge badge-warning badge-sm gap-1">🔥 <span x-text="streak"></span></span>
                     <span x-show="getStreakMultiplier() > 1" class="badge badge-info badge-sm" x-text="getStreakMultiplier() + '×'"></span>
                   </div>
                 </div>
@@ -320,10 +323,11 @@
             <!-- Progress Bar -->
             <div class="flex items-center gap-3">
               <span class="text-sm font-medium">Progress</span>
-              <progress class="progress progress-primary flex-1" 
-                        :value="getProgress(currentLevel || '', currentStage || '')" 
+              <progress class="progress progress-primary flex-1"
+                        :value="getProgress(currentLevel || '', currentStage || '')"
                         max="100"></progress>
-              <span class="text-sm font-medium" x-text="getProgress(currentLevel || '', currentStage || '') + '%'"></span>
+              <span class="text-sm font-medium" x-show="getProgress(currentLevel || '', currentStage || '') > 0" x-text="getProgress(currentLevel || '', currentStage || '') + '%'"></span>
+              <span class="text-sm font-medium opacity-50" x-show="getProgress(currentLevel || '', currentStage || '') === 0">Not started</span>
             </div>
           </div>
         </div>
@@ -497,7 +501,7 @@
         <!-- ─── Quiz View (shown when quizActive) ─── -->
         <div x-show="quizActive" class="space-y-6 pb-24">
               <!-- Quiz Header -->
-              <div x-show="!quizSubmitted" class="flex items-center justify-between mb-2">
+              <div x-show="!quizSubmitted" class="flex items-center justify-between mb-4">
                 <span class="text-sm font-medium opacity-70">Question <span x-text="quizIndex + 1"></span> of <span x-text="quizQuestions.length"></span></span>
                 <div class="flex items-center gap-2">
                   <span class="text-sm font-bold text-primary"><span x-text="quizScore"></span> pts</span>

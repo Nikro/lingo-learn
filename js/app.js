@@ -1100,18 +1100,26 @@ function app() {
     // Render theme grammar content
     renderThemeGrammar: function() {
       if (!this.themeData.grammar || this.themeData.grammar.length === 0) {
-        return '<div class="alert alert-neutral"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" class="stroke-current shrink-0 w-6 h-6"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg><div><h3 class="font-bold">No grammar lessons yet</h3><p class="text-sm">This grammar pillar is coming soon — check back later!</p></div></div>';
+        return '<div class="alert alert-neutral"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" class="stroke-current shrink-0 w-6 h-6"><path stroke-linecap="round" stroke-linejoin="round" width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg><div><h3 class="font-bold">No grammar lessons yet</h3><p class="text-sm">This grammar pillar is coming soon — check back later!</p></div></div>';
       }
       
       var html = '<div class="space-y-4">';
       this.themeData.grammar.forEach(function(item, i) {
-        html += '<div class="bg-base-200 rounded-lg p-4">';
-        html += '<h4 class="font-bold mb-2">' + (i + 1) + '. ' + item.title + '</h4>';
-        if (item.content) html += '<p class="mb-2 whitespace-pre-wrap">' + item.content + '</p>';
+        html += '<div class="bg-base-200 rounded-lg p-5 border border-base-300">';
+        html += '<div class="flex items-center gap-2 mb-3">';
+        html += '<span class="badge badge-primary badge-sm">' + (i + 1) + '</span>';
+        html += '<h4 class="font-bold text-lg">' + (item.title || 'Lesson') + '</h4>';
+        html += '</div>';
+        if (item.content) html += '<div class="prose prose-sm max-w-none mb-3"><p class="whitespace-pre-wrap">' + item.content + '</p></div>';
         if (item.examples) {
-          html += '<div class="mt-2"><strong>Examples:</strong><ul class="list-disc ml-4">';
-          item.examples.forEach(function(e) { html += '<li>' + e + '</li>'; });
+          html += '<div class="bg-base-100 rounded-lg p-3 mt-3">';
+          html += '<h5 class="text-sm font-semibold opacity-70 mb-2 uppercase tracking-wide">Examples</h5>';
+          html += '<ul class="space-y-1">';
+          item.examples.forEach(function(e) { html += '<li class="text-sm flex items-start gap-2"><span class="text-primary mt-1">•</span> <span>' + self.escapeHtml(e) + '</span></li>'; });
           html += '</ul></div>';
+        }
+        if (item.note) {
+          html += '<div class="alert alert-info mt-3 p-3 text-sm"><svg xmlns="http://www.w3.org/2000/svg" class="stroke-current shrink-0 h-5 w-5" fill="none" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg><span>' + self.escapeHtml(item.note) + '</span></div>';
         }
         html += '</div>';
       });
@@ -1141,15 +1149,18 @@ function app() {
         if (normType === 'multiple-choice' && exercise.options && Array.isArray(exercise.options)) {
           html += '<div class="grid grid-cols-1 gap-2 mt-2">';
           exercise.options.forEach(function(opt, oi) {
-            html += '<div class="p-2 rounded bg-base-100"><strong>' + self.escapeHtml(opt) + '</strong></div>';
+            html += '<button class="btn btn-outline w-full justify-start text-left" onclick="window._exerciseSelect(' + i + ',' + oi + ')">';
+            html += '<span class="font-mono font-bold w-6">' + String.fromCharCode(65 + oi) + '.</span>';
+            html += '<span>' + self.escapeHtml(opt) + '</span>';
+            html += '</button>';
           });
           html += '</div>';
         }
         // Fill-in-blank
         else if (normType === 'fill-in-blank' && exercise.correct) {
           html += '<div class="flex gap-2 mt-2">';
-          html += '<input type="text" class="input input-bordered flex-1" placeholder="Your answer..." />';
-          html += '<button class="btn btn-primary">Submit</button>';
+          html += '<input type="text" class="input input-bordered flex-1" data-exercise-fill="' + i + '" placeholder="Type your answer..." />';
+          html += '<button class="btn btn-primary" onclick="window.app._exerciseSubmitFillIn(' + i + ')">Submit</button>';
           html += '</div>';
         }
         // Matching exercise
@@ -2316,6 +2327,65 @@ function app() {
         // Bypass browser cache by loading with a fresh URL
         location.href = window.location.origin + window.location.pathname + '?nocache=' + Date.now();
       }
+    },
+
+    // ─── Exercise Interaction Handlers ───
+
+    // Handle multiple-choice exercise selection
+    _exerciseSelect: function(exerciseIndex, optionIndex) {
+      var exercise = this.flattenThemeExercises()[exerciseIndex];
+      if (!exercise) return;
+      
+      // Visual feedback - highlight selected option
+      var self = this;
+      var buttons = document.querySelectorAll('button');
+      buttons.forEach(function(btn) {
+        if (btn.getAttribute('onclick') && btn.getAttribute('onclick').indexOf('_exerciseSelect') !== -1) {
+          var parts = btn.getAttribute('onclick').match(/_exerciseSelect\((\d+),(\d+)\)/);
+          if (parts && parseInt(parts[1]) === exerciseIndex) {
+            var oi = parseInt(parts[2]);
+            if (exercise.options && exercise.options[oi]) {
+              btn.classList.toggle('btn-success', oi === optionIndex);
+              btn.classList.toggle('text-white', oi === optionIndex);
+              btn.classList.toggle('btn-outline', oi !== optionIndex);
+            }
+          }
+        }
+      });
+      
+      // Show answer
+      setTimeout(function() {
+        var isCorrect = exercise.options && exercise.options[optionIndex] === exercise.correct;
+        var msg = isCorrect ? '✓ Correct!' : '✗ The correct answer is: ' + exercise.correct;
+        alert(msg);
+        // Reset selection
+        buttons.forEach(function(btn) {
+          if (btn.getAttribute('onclick') && btn.getAttribute('onclick').indexOf('_exerciseSelect') !== -1) {
+            var parts = btn.getAttribute('onclick').match(/_exerciseSelect\((\d+),(\d+)\)/);
+            if (parts && parseInt(parts[1]) === exerciseIndex) {
+              btn.classList.remove('btn-success', 'text-white');
+              btn.classList.add('btn-outline');
+            }
+          }
+        });
+      }, 500);
+    },
+
+    // Handle fill-in-blank exercise submission
+    _exerciseSubmitFillIn: function(exerciseIndex) {
+      var input = document.querySelector('[data-exercise-fill="' + exerciseIndex + '"]');
+      if (!input) return;
+      
+      var answer = input.value.trim();
+      var exercise = this.flattenThemeExercises()[exerciseIndex];
+      if (!exercise) return;
+      
+      var isCorrect = answer.toLowerCase() === String(exercise.correct).toLowerCase();
+      var msg = isCorrect ? '✓ Correct!' : '✗ The correct answer is: ' + exercise.correct;
+      alert(msg);
+      input.value = '';
+      input.classList.toggle('input-success', isCorrect);
+      input.classList.toggle('input-error', !isCorrect);
     },
 
     // ─── Helpers ───
