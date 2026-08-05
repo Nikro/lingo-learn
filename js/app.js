@@ -515,6 +515,22 @@ function app() {
       this.errorState.theme = false;
       this.errorState.stage = false;
       this.errorState.level = false;
+      this.invalidThemeId = false;
+      this.invalidThemeMessage = '';
+
+      // /{locale}/themes — no level/stage context
+      if (parts.length >= 2 && parts[1] === 'themes') {
+        if (this.currentStage) {
+          this.themeView = 'themes';
+          window.location.hash = '/' + this.currentLocale + '/' + this.currentLevel + '/' + this.currentStage;
+          return;
+        }
+        this.errorState.stage = true;
+        this.stageTitle = 'No stage selected';
+        this.stageDescription = 'Navigate to a stage to view its themes.';
+        this.loading = false;
+        return;
+      }
 
       // Theme route: /{locale}/{level}/{stage}/theme/{themeId}
       if (parts.length >= 5 && parts[3] === 'theme') {
@@ -532,13 +548,15 @@ function app() {
             if (self.themeView === 'theme-detail') {
               self.loadTheme(self.currentTheme);
             } else if (self.invalidThemeId) {
-              // Invalid theme — set previous view for "Go Back"
+              // Invalid theme — set previous view and error state for "Go Back"
               self.previousView = {
                 level: self.currentLevel,
                 stage: self.currentStage,
                 themeView: 'themes'
               };
+              self.errorState.theme = true;
             }
+            self.loading = false;
           }, themeId);
         } else {
           // No level/stage — set error
@@ -935,7 +953,7 @@ function app() {
       this.renderPillar();
     },
     
-    // Go back from an error state — clears the error and navigates to the locale root
+    // Go back from an error state — clears the error and navigates to the previous view or home
     goBack() {
       this.errorState.themes = false;
       this.errorState.theme = false;
@@ -973,6 +991,27 @@ function app() {
       this.themeData = null;
       this.themeTitle = null;
       this.stageData = null;
+      this.expandedLevel = null;
+      this.expandedStage = null;
+      window.location.hash = '/' + this.currentLocale;
+    },
+
+    // Go directly to the locale root (from error states)
+    goHome() {
+      this.errorState.themes = false;
+      this.errorState.theme = false;
+      this.errorState.stage = false;
+      this.errorState.level = false;
+      this.invalidThemeId = false;
+      this.invalidThemeMessage = '';
+      this.currentLevel = null;
+      this.currentStage = null;
+      this.currentTheme = null;
+      this.themeView = null;
+      this.themeData = null;
+      this.themeTitle = null;
+      this.stageData = null;
+      this.previousView = null;
       this.expandedLevel = null;
       this.expandedStage = null;
       window.location.hash = '/' + this.currentLocale;

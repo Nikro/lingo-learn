@@ -268,26 +268,26 @@
       </div>
 
       <!-- Error State — Invalid Route -->
-      <div x-show="errorState.level || errorState.stage || errorState.themes" x-cloak class="max-w-2xl mx-auto">
+      <div x-show="errorState.level || errorState.stage || errorState.themes || errorState.theme" x-cloak class="max-w-2xl mx-auto">
           <div class="alert alert-warning shadow-md">
             <svg xmlns="http://www.w3.org/2000/svg" class="stroke-current shrink-0 h-6 w-6" fill="none" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z" /></svg>
             <div>
-              <h3 class="font-bold" x-text="errorState.level ? 'Level not found' : errorState.themes ? 'No themes available' : 'Page not found'"></h3>
-              <p class="text-sm" x-text="errorState.level ? 'This learning level does not exist in our curriculum.' : errorState.themes ? 'This stage does not have a themes view — content is organized differently.' : 'The page you requested does not exist.'"></p>
+              <h3 class="font-bold" x-text="errorState.level ? 'Level not found' : errorState.theme ? 'Theme not found' : errorState.themes ? 'No themes available' : 'Page not found'"></h3>
+              <p class="text-sm" x-text="errorState.level ? 'This learning level does not exist in our curriculum.' : errorState.theme ? 'This theme is not available for the current stage.' : errorState.themes ? 'This stage does not have a themes view — content is organized differently.' : 'The page you requested does not exist.'"></p>
             </div>
             <button class="btn btn-sm btn-outline" @click="goBack()">Go Back</button>
           </div>
           <div class="rounded-lg p-6 mt-4 text-center bg-base-100 shadow-sm">
             <div class="text-4xl mb-3">🧭</div>
             <p class="opacity-70 mb-3">Pick a level and stage from the sidebar to begin learning.</p>
-            <button class="btn btn-primary btn-sm" @click="goBack()">🏠 Back to Home</button>
+            <button class="btn btn-primary btn-sm" @click="goHome()">🏠 Back to Home</button>
             <button class="btn btn-ghost btn-sm ml-2" @click="goBack()">Browse Stages</button>
           </div>
         </div>
       </template>
 
       <!-- Stage View -->
-      <div x-show="!loading && !errorState.level && !errorState.stage && !errorState.themes && currentStage" class="max-w-4xl mx-auto">
+      <div x-show="!loading && !errorState.level && !errorState.stage && !errorState.themes && !errorState.theme && currentStage" class="max-w-4xl mx-auto">
         
         <!-- Stage Header -->
         <div class="card bg-base-100 shadow-md mb-6">
@@ -846,7 +846,7 @@
       </div>
 
       <!-- Empty State (no stage selected) -->
-      <div x-show="!loading && !currentStage && !errorState.level && !errorState.stage && !errorState.themes" class="flex flex-col items-center justify-center h-64 text-center">
+      <div x-show="!loading && !currentStage && !errorState.level && !errorState.stage && !errorState.themes && !errorState.theme" class="flex flex-col items-center justify-center h-64 text-center">
         <div class="text-6xl mb-4">📚</div>
         <h2 class="text-2xl font-bold mb-2">Welcome to LingoLearn</h2>
         <p class="opacity-70 max-w-md">Select a stage from the sidebar to begin your Spanish learning journey.</p>
