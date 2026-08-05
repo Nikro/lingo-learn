@@ -241,8 +241,15 @@ function app() {
       // Listen for hash changes
       window.addEventListener('hashchange', function() { this.parseRoute() }.bind(this));
 
-      // Listen for resize to update mobile/desktop state
-      window.addEventListener('resize', function() { this.isMobile = window.innerWidth < 1024; }.bind(this));
+      // Listen for resize to update mobile/desktop state; close sidebar when moving to desktop
+      // so it doesn't stay "open" when resizing back to mobile
+      window.addEventListener('resize', function() {
+        var wasMobile = this.isMobile;
+        this.isMobile = window.innerWidth < 1024;
+        if (wasMobile && !this.isMobile) {
+          this.sidebarOpen = false;
+        }
+      }.bind(this));
 
       // Record daily activity
       Storage.recordActivity();
@@ -477,6 +484,8 @@ function app() {
 
     // Navigate to a theme directly from sidebar
     async loadThemeDirectly(stageId, themeId) {
+      // Close sidebar on mobile after navigation so content is visible
+      this.sidebarOpen = false;
       // Keep the stage expanded so users can navigate adjacent themes without losing context.
       this.currentLevel = this.getCurrentLevelForStage(stageId);
       this.currentStage = stageId;
@@ -818,6 +827,8 @@ function app() {
 
     // Load a specific theme's data (handles both single-file and chunked/partitioned JSON)
     async loadTheme(themeId) {
+      // Close sidebar on mobile so theme content is visible
+      this.sidebarOpen = false;
       this.loading = true;
       this.dataError = false;
       // Track current view as previous for "Go Back" navigation
