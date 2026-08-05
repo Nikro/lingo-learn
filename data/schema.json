@@ -1,41 +1,53 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
   "title": "Spanish Learning App — Stage Data Schema",
-  "description": "Schema for stage-level curriculum content. Each JSON file in data/{locale}/ represents one stage (e.g., a1-1.json = A1.1).",
+  "description": "Schema for stage-level curriculum content. Each JSON file in data/{locale}/ represents one stage (e.g., a1-1.json = A1.1).\n\nRoot stage files are manifests (metadata + theme list). Theme files under data/{locale}/{stage}/themes/ contain full content (vocabulary, grammar, exercises).",
   "type": "object",
-  "required": ["id", "title"],
+  "required": ["title"],
   "properties": {
+    "file_type": {
+      "type": "string",
+      "enum": ["manifest", "content"],
+      "description": "Discriminator: 'manifest' for stage summary files (metadata + theme list only), 'content' for theme files with full curriculum content. Auto-detected if omitted."
+    },
     "id": {
       "type": "string",
-      "description": "Stage identifier in kebab-case: a1-1, a1-2, b1-3, etc. Alias: stage_id",
-      "pattern": "^[a-z]\\d-\\d+$"
+      "description": "Stage/theme identifier in kebab-case. Alias: stage_id",
+      "pattern": "^[a-z][a-z0-9-]+$"
     },
     "stage_id": {
       "type": "string",
-      "description": "Alternative field name for id (used by some stage files)"
+      "description": "Stage/theme identifier in kebab-case: a1-1, a1-2, b1-3, etc.",
+      "pattern": "^[a-z][a-z0-9-]+$"
     },
     "title": {
       "type": "string",
-      "description": "Display title, e.g. 'Stage A1.1 — Greetings & Introductions'"
+      "description": "Display title"
     },
     "description": {
       "type": "string",
-      "description": "Brief description of what the stage covers"
+      "description": "Brief description"
     },
     "estimated_weeks": {
       "type": "integer",
-      "description": "Estimated weeks to complete this stage"
+      "description": "Estimated weeks to complete this stage (manifest only)"
     },
     "themes": {
       "type": "array",
-      "description": "List of themes within this stage (manifest or content file)",
+      "description": "List of theme summaries within this stage (manifest only)",
       "items": {
         "type": "object",
+        "required": ["id", "title"],
         "properties": {
-          "id": { "type": "string" },
-          "title": { "type": "string" },
-          "description": { "type": "string" },
-          "estimated_hours": { "type": "integer" }
+          "id": { "type": "string", "description": "Theme identifier" },
+          "title": { "type": "string", "description": "Theme title" },
+          "description": { "type": "string", "description": "Theme description" },
+          "estimated_hours": { "type": "integer", "description": "Estimated hours to complete this theme" },
+          "sections": {
+            "type": "array",
+            "items": { "type": "string" },
+            "description": "Content sections: vocabulary, grammar, exercises, pronunciation"
+          }
         }
       }
     },
