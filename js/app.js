@@ -162,20 +162,35 @@ function app() {
       return filled;
     },
     // Estimated number of questions in a quiz across all selected pillars
-    // When in theme-detail view, includes theme-level exercises
+    // When in theme-detail view, counts ONLY theme-level exercises (respects pillar selection)
+    // When not in theme-detail view, counts stage-level pillar content
     get estimatedQuizLength() {
       var count = 0;
+      var selectedPillars = this.quizPillars.length > 0 ? this.quizPillars : ['grammar', 'vocabulary', 'verbs', 'pronunciation'];
+
       // Count theme exercises when in theme-detail view
       if (this.themeView === 'theme-detail' && this.themeData) {
+        // Theme vocabulary
+        if (selectedPillars.includes('vocabulary') && this.themeData.vocabulary && Array.isArray(this.themeData.vocabulary)) {
+          count += this.themeData.vocabulary.length;
+        }
+        // Theme grammar
+        if (selectedPillars.includes('grammar') && this.themeData.grammar && Array.isArray(this.themeData.grammar)) {
+          count += this.themeData.grammar.length;
+        }
+        // Theme exercises (filtered by pillar)
         var flatEx = this.flattenThemeExercises();
-        count += flatEx.length;
-        if (this.themeData.vocabulary && Array.isArray(this.themeData.vocabulary)) count += this.themeData.vocabulary.length;
-        if (this.themeData.grammar && Array.isArray(this.themeData.grammar)) count += this.themeData.grammar.length;
+        for (var i = 0; i < flatEx.length; i++) {
+          var ep = flatEx[i].pillar || this.mapExerciseTypeToPillar(flatEx[i].type);
+          if (selectedPillars.includes(ep)) count++;
+        }
+        // No stage-level content in theme-detail view
+        return count;
       }
-      // Also count stage-level pillar content
-      if (!this.stageData || this.quizPillars.length === 0) return count;
+      // Stage view: count only selected pillar content
+      if (!this.stageData) return count;
       var self = this;
-      this.quizPillars.forEach(function(p) {
+      selectedPillars.forEach(function(p) {
         if (self.stageData[p] && Array.isArray(self.stageData[p])) count += self.stageData[p].length;
       });
       return count;
@@ -1214,17 +1229,32 @@ function app() {
       if (!this.stageData && !this.themeData) return false;
       // Check theme exercises first (when in theme-detail view)
       if (this.themeView === 'theme-detail' && this.themeData) {
+        var selectedPillars = this.quizPillars.length > 0 ? this.quizPillars : ['grammar', 'vocabulary', 'verbs', 'pronunciation'];
+        if (selectedPillars.includes('vocabulary') && this.themeData.vocabulary && this.themeData.vocabulary.length > 0) return true;
+        if (selectedPillars.includes('grammar') && this.themeData.grammar && this.themeData.grammar.length > 0) return true;
         var flatEx = this.flattenThemeExercises();
-        if (flatEx.length > 0) return true;
-        if (this.themeData.vocabulary && this.themeData.vocabulary.length > 0) return true;
-        if (this.themeData.grammar && this.themeData.grammar.length > 0) return true;
+        if (flatEx.length > 0) {
+          // Check if any exercises match selected pillars
+          for (var i = 0; i < flatEx.length; i++) {
+            var ep = flatEx[i].pillar || this.mapExerciseTypeToPillar(flatEx[i].type);
+            if (selectedPillars.includes(ep)) return true;
+          }
+        }
+        return false;
       }
       // Fall back to stage-level pillar content
       if (!this.stageData) return false;
       var pillars = ['grammar', 'vocabulary', 'verbs', 'pronunciation'];
-      return pillars.some(function(p) { 
+      return pillars.some(function(p) {
         if (this.stageData[p] && this.stageData[p].length > 0) return true;
       }.bind(this));
+    },
+
+    // Cancel an active quiz and return to the theme/stage view
+    cancelQuiz: function() {
+      if (confirm('Cancel the quiz? Your progress will be lost.')) {
+        this.resetQuizView();
+      }
     },
 
     selectAllPillars: function() {
@@ -1443,60 +1473,70 @@ function app() {
     // Start a quiz: collect exercises from selected pillars, shuffle them,
     // initialize question-specific state for matching/matrix exercises,
     // and begin the quiz loop.
-    // When in theme-detail view, collects theme-level exercises first.
+    // When in theme-detail view, collects ONLY theme-level exercises
+    // (respects pillar selection). When not in theme-detail view, collects
+    // stage-level pillar content (also respects pillar selection).
     startQuiz: function() {
       // Must have at least stage data or theme data to start a quiz
       if (!this.stageData && !this.themeData) return;
 
       this.quizQuestions = [];
       var self = this;
-      
-      // Phase 1: Collect theme-level exercises when in theme-detail view
+
+      // Determine which pillars are selected (default to all if none selected)
+      var selectedPillars = this.quizPillars.length > 0 ? this.quizPillars : ['grammar', 'vocabulary', 'verbs', 'pronunciation'];
+
       if (this.themeView === 'theme-detail' && this.themeData) {
-        // Include theme vocabulary as multiple-choice questions
-        if (this.themeData.vocabulary && Array.isArray(this.themeData.vocabulary)) {
+        // THEME-DETAIL VIEW: Only use theme-level content, filtered by selected pillars
+
+        // Include theme vocabulary as multiple-choice questions (only if 'vocabulary' pillar selected)
+        if (selectedPillars.includes('vocabulary') && this.themeData.vocabulary && Array.isArray(this.themeData.vocabulary)) {
           var vocabItems = this.themeData.vocabulary;
           vocabItems.forEach(function(item, index) {
-            var q = Object.assign({}, item, { 
-              pillar: 'vocabulary', 
+            var q = Object.assign({}, item, {
+              pillar: 'vocabulary',
               index: index,
               type: 'multiple-choice'
             });
             if (!q.options || !Array.isArray(q.options)) {
               var targets = vocabItems
                 .filter(function(v) { return v.spanish !== item.spanish; })
-                .map(function(v) { return v.english; });
+                .map(function(v) { return v.english || v.source; });
               targets = self.shuffleArray(targets).slice(0, 3);
-              q.options = [item.english].concat(targets);
+              q.options = [item.english || item.target].concat(targets);
               q.options = self.shuffleArray(q.options);
-              q.correct = q.options.indexOf(item.english);
-              q.question = 'What does "' + item.spanish + '" mean in English?';
+              q.correct = q.options.indexOf(item.english || item.target);
+              q.question = 'What does "' + item.spanish || item.target + '" mean?';
             }
             self.quizQuestions.push(q);
           });
         }
-        
-        // Include theme grammar items as quiz questions
-        if (this.themeData.grammar && Array.isArray(this.themeData.grammar)) {
+
+        // Include theme grammar items as quiz questions (only if 'grammar' pillar selected)
+        if (selectedPillars.includes('grammar') && this.themeData.grammar && Array.isArray(this.themeData.grammar)) {
           this.themeData.grammar.forEach(function(item, index) {
-            var q = Object.assign({}, item, { 
-              pillar: 'grammar', 
+            var q = Object.assign({}, item, {
+              pillar: 'grammar',
               index: index,
               type: item.type || 'fill-in-blank'
             });
             self.quizQuestions.push(q);
           });
         }
-        
-        // Include theme exercises (the main quiz content) — flattened from dict
+
+        // Include theme exercises (only those matching selected pillars)
         var flatEx = this.flattenThemeExercises();
         flatEx.forEach(function(item, index) {
-          var q = Object.assign({}, item, { 
-            pillar: 'exercises', 
+          // Map exercise type to pillar for filtering
+          var exercisePillar = item.pillar || self.mapExerciseTypeToPillar(item.type);
+          if (!selectedPillars.includes(exercisePillar)) return;
+
+          var q = Object.assign({}, item, {
+            pillar: exercisePillar,
             index: index,
             type: item.type
           });
-          
+
           // For matching exercises, store pairs and shuffled right items on the question object
           if (q.type === 'matching' && item.pairs && Array.isArray(item.pairs)) {
             q.matchPairs = item.pairs;
@@ -1521,13 +1561,16 @@ function app() {
             q._matchAttempts = 0;
           }
 
-          // For conjugation-matrix exercises, look up verb data
-          if (q.type === 'conjugation-matrix' && item.verb && self.stageData && self.stageData.verbs) {
-            var verbObj = self.stageData.verbs.find(function(v) {
-              return v.infinitive.toLowerCase() === item.verb.toLowerCase();
-            });
-            if (verbObj) {
-              q.verbData = verbObj;
+          // For conjugation-matrix exercises, look up verb data from theme verbs
+          if (q.type === 'conjugation-matrix' && item.verb) {
+            var verbs = self.themeData.verbs || self.stageData && self.stageData.verbs;
+            if (verbs) {
+              var verbObj = verbs.find(function(v) {
+                return v.infinitive.toLowerCase() === item.verb.toLowerCase();
+              });
+              if (verbObj) {
+                q.verbData = verbObj;
+              }
             }
             q._matrixAnswers = {};
             q._matrixCorrectAnswers = null;
@@ -1536,62 +1579,61 @@ function app() {
           }
 
           self.quizQuestions.push(q);
+        });
+      } else {
+        // STAGE VIEW: Collect stage-level pillar content (respects pillar selection)
+
+        selectedPillars.forEach(function(pillar) {
+          var items = self.stageData[pillar];
+          if (!items) return;
+          items.forEach(function(item, index) {
+            var q = Object.assign({}, item, { pillar: pillar, index: index });
+
+            // For matching exercises, store pairs and shuffled right items on the question object
+            if (item.type === 'matching' && item.pairs) {
+              q.matchPairs = item.pairs;
+              q.matchRightItems = item.pairs.map(function(p) { return p.source; });
+              // Shuffle right items
+              q.matchRightOriginalIndex = item.pairs.map(function(_, i) { return i; });
+              for (var s = q.matchRightOriginalIndex.length - 1; s > 0; s--) {
+                var r = Math.floor(Math.random() * (s + 1));
+                var tmp = q.matchRightOriginalIndex[s];
+                q.matchRightOriginalIndex[s] = q.matchRightOriginalIndex[r];
+                q.matchRightOriginalIndex[r] = tmp;
+              }
+              var originalPairs = item.pairs;
+              q.matchRightItems = q.matchRightOriginalIndex.map(function(origIdx) {
+                return originalPairs[origIdx].source;
+              });
+              // Reset matching state for this question
+              q._matchSelections = [];
+              q._matchRightMatched = [];
+              q._selectedLeft = null;
+              q._selectedRight = null;
+              q._userMatchAnswers = null;
+              q._matchResults = null;
+              q._matchAttempts = 0;
+            }
+
+            // For conjugation-matrix exercises, look up verb data
+            if (item.type === 'conjugation-matrix' && item.verb && self.stageData && self.stageData.verbs) {
+              var verbObj = self.stageData.verbs.find(function(v) {
+                return v.infinitive.toLowerCase() === item.verb.toLowerCase();
+              });
+              if (verbObj) {
+                q.verbData = verbObj;
+              }
+              // Initialize matrix state on question
+              q._matrixAnswers = {};
+              q._matrixCorrectAnswers = null;
+              q._matrixResults = null;
+              q._matrixCorrectCount = 0;
+            }
+
+            self.quizQuestions.push(q);
+          });
         });
       }
-
-      // Phase 2: Collect stage-level pillar content (always included)
-      var selectedPillars = this.quizPillars.length > 0 ? this.quizPillars : ['grammar', 'vocabulary', 'verbs', 'pronunciation'];
-
-      selectedPillars.forEach(function(pillar) {
-        var items = self.stageData[pillar];
-        if (!items) return;
-        items.forEach(function(item, index) {
-          var q = Object.assign({}, item, { pillar: pillar, index: index });
-
-          // For matching exercises, store pairs and shuffled right items on the question object
-          if (item.type === 'matching' && item.pairs) {
-            q.matchPairs = item.pairs;
-            q.matchRightItems = item.pairs.map(function(p) { return p.source; });
-            // Shuffle right items
-            q.matchRightOriginalIndex = item.pairs.map(function(_, i) { return i; });
-            for (var s = q.matchRightOriginalIndex.length - 1; s > 0; s--) {
-              var r = Math.floor(Math.random() * (s + 1));
-              var tmp = q.matchRightOriginalIndex[s];
-              q.matchRightOriginalIndex[s] = q.matchRightOriginalIndex[r];
-              q.matchRightOriginalIndex[r] = tmp;
-            }
-            var originalPairs = item.pairs;
-            q.matchRightItems = q.matchRightOriginalIndex.map(function(origIdx) {
-              return originalPairs[origIdx].source;
-            });
-            // Reset matching state for this question
-            q._matchSelections = [];
-            q._matchRightMatched = [];
-            q._selectedLeft = null;
-            q._selectedRight = null;
-            q._userMatchAnswers = null;
-            q._matchResults = null;
-            q._matchAttempts = 0;
-          }
-
-          // For conjugation-matrix exercises, look up verb data
-          if (item.type === 'conjugation-matrix' && item.verb && self.stageData && self.stageData.verbs) {
-            var verbObj = self.stageData.verbs.find(function(v) {
-              return v.infinitive.toLowerCase() === item.verb.toLowerCase();
-            });
-            if (verbObj) {
-              q.verbData = verbObj;
-            }
-            // Initialize matrix state on question
-            q._matrixAnswers = {};
-            q._matrixCorrectAnswers = null;
-            q._matrixResults = null;
-            q._matrixCorrectCount = 0;
-          }
-
-          self.quizQuestions.push(q);
-        });
-      });
 
       if (this.quizQuestions.length === 0) {
         alert('No exercises available for the selected pillars yet.');
@@ -1614,6 +1656,21 @@ function app() {
       this.currentQuestionAnswer = null;
       this.currentQuestionCorrect = null;
       this.pillarScoreMap = {};
+    },
+
+    // Map exercise type to a pillar for filtering in theme-detail view
+    mapExerciseTypeToPillar: function(type) {
+      var typeToPillar = {
+        'multiple-choice': 'vocabulary',
+        'fill-in-blank': 'grammar',
+        'conjugation': 'verbs',
+        'conjugation-matrix': 'verbs',
+        'translation': 'vocabulary',
+        'matching': 'vocabulary',
+        'pronunciation': 'pronunciation',
+        'drag-drop': 'vocabulary'
+      };
+      return typeToPillar[type] || 'vocabulary';
     },
 
     shuffleArray: function(array) {

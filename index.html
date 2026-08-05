@@ -495,7 +495,10 @@
               <!-- Quiz Header -->
               <div x-show="!quizSubmitted" class="flex items-center justify-between mb-2">
                 <span class="text-sm font-medium opacity-70">Question <span x-text="quizIndex + 1"></span> of <span x-text="quizQuestions.length"></span></span>
-                <span class="text-sm font-bold text-primary"><span x-text="quizScore"></span> pts</span>
+                <div class="flex items-center gap-2">
+                  <span class="text-sm font-bold text-primary"><span x-text="quizScore"></span> pts</span>
+                  <button @click="cancelQuiz()" class="btn btn-ghost btn-xs text-error">✕ Exit</button>
+                </div>
               </div>
               <progress x-show="!quizSubmitted" class="progress progress-primary w-full mb-4" 
                         :value="quizQuestions.length > 0 ? ((quizIndex + 1) / quizQuestions.length) * 100 : 0" 
