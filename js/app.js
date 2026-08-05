@@ -1410,6 +1410,11 @@ function app() {
       return item.type || 'fill-in-blank';
     },
 
+    // Escape HTML special characters to prevent XSS in rendered content
+    escapeHtml: function(text) {
+      return String(text || '').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;').replace(/'/g, '&#039;');
+    },
+
     // Flatten theme exercises from dict {type: [...]} to array [{...}, ...]
     // with a normalized type field on each item.
     flattenThemeExercises: function() {
