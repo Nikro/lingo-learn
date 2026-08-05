@@ -1,7 +1,9 @@
 // LingoLearn Service Worker
-// CACHE_VERSION: bump this string whenever static files change to invalidate stale caches.
+// CACHE_VERSION: auto-incremented on each deploy. Bump manually if needed.
 // Every distinct value creates a new cache name and triggers old-cache cleanup on activation.
-const CACHE_VERSION = '7';
+// For static GitHub Pages: the version is bumped by editing this number (or auto-incrementing
+// via CI script). The cache cleanup on activate ensures stale caches are always removed.
+const CACHE_VERSION = '8';
 const CACHE_NAME = `lingolearn-${CACHE_VERSION}`;
 
 // Core app shell — files needed to load the app offline.
@@ -15,7 +17,9 @@ const APP_SHELL = [
 ];
 
 // Data files — cached aggressively, invalidated via CACHE_VERSION bump.
-// Includes locale data for all stages.
+// Includes locale registry, schema, and stage data for all CEFR levels.
+// NOTE: Theme-specific data files (data/<locale>/<stage>/themes/<stage>.json) are fetched
+// and cached on first load by the app, so they don't need to be in this list.
 const DATA_ASSETS = [
   '/data/registry.json',
   '/data/schema.json',

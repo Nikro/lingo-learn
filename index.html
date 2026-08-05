@@ -899,7 +899,9 @@
   <script src="js/storage.js?v=26"></script>
   <script src="js/app.js?v=48"></script>
   <script>
-    // Service Worker disabled for dev to prevent stale caching issues
+    // Service Worker: Disabled during development to prevent stale caching issues.
+    // To enable for production (GitHub Pages), uncomment the block below.
+    // Before enabling, ensure CACHE_VERSION in sw.js is updated.
     // if ('serviceWorker' in navigator) {
     //   window.addEventListener('load', () => {
     //     navigator.serviceWorker.register('/sw.js')
