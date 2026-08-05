@@ -47,11 +47,13 @@ function app() {
     themeData: null,            // Full theme data object (vocab, grammar, exercises)
     themeView: null,            // null | 'themes' | 'theme-detail' — controls theme navigation view
     themeTitle: null,           // Display title for the current theme (from JSON data)
+    previousView: null,         // Previous navigation context for "Go Back" (null | {level, stage, themeView})
     levelData: [],             // Data for the current level (not currently used)
 
     expandedLevel: null,       // Currently expanded CEFR level in sidebar (null = all collapsed)
     expandedStage: null,       // Currently expanded stage ID in sidebar (e.g., 'a1-1' — shows themes)
     sidebarThemes: {},         // stageId -> theme manifest array (loaded on expand)
+    stageThemes: [],           // Current stage's themes manifest (for themes grid view)
     theme: 'dark',             // Active DaisyUI theme name
     aidLanguage: 'none',       // Aid language setting: none | english | spanish | bilingual
     xp: 0,                     // Total experience points earned (persisted to localStorage)
@@ -119,6 +121,18 @@ function app() {
     matrixCorrectAnswers: null,    // { "0-0": "soy", ... } — expected answers
     matrixResults: null,           // { "0-0": true, ... } — correctness per cell
     matrixCorrectCount: 0,         // Number of correctly filled cells
+
+    // ═══════════════════════════════════════
+    // ─── State: Error Tracking ───
+    // Track which view had an error so we show actionable messages
+    errorState: {
+      themes: false,     // true when /themes route but stage has no themes manifest
+      theme: false,      // true when theme ID not found in stage manifest
+      stage: false,      // true when stage ID invalid for the selected level
+      level: false,      // true when level ID is not in the known levels list
+    },
+    invalidThemeId: false,       // true when theme ID is invalid — show warning in themes grid
+    invalidThemeMessage: '',     // descriptive message for the invalid theme
 
     // ═══════════════════════════════════════════
     // ─── State: Loading ───
@@ -307,55 +321,92 @@ function app() {
 
     // Fetch stage data from the locale-specific JSON file and render the current pillar.
     // stageId is in filename format (a1-1, a2-3, b1-2, etc.)
-    async loadStageData(levelId, stageId) {
+    // onReady: optional callback invoked when data is loaded (for async route validation)
+    // themeId: optional theme ID to validate against the manifest
+    loadStageData: function(levelId, stageId, onReady, themeId) {
+      var self = this;
       this.loading = true;
       this.dataError = false;
-      try {
-        // stageId is already in filename format (a1-1, a2-3, b1-2, etc.)
-        var response = await fetch('data/' + this.currentLocale + '/' + stageId + '.json');
-        if (!response.ok) throw new Error('HTTP ' + response.status);
-        this.stageData = await response.json();
-        if (!this.stageData || Object.keys(this.stageData).length === 0) {
-          this.dataError = true;
-          this.loading = false;
-          return;
-        }
-        // Check if this stage has a themes directory (granular theme-based curriculum)
-        var themesDir = 'data/' + this.currentLocale + '/' + stageId + '/themes';
-        try {
-          var manifestFile = stageId + '.json';
-          var themesResponse = await fetch(themesDir + '/' + manifestFile);
-          if (themesResponse.ok) {
-            var manifest = await themesResponse.json();
-            if (manifest && manifest.themes) {
-              // Stage has theme-based curriculum — show themes view
-              this.themeView = 'themes';
-              this.stageThemes = manifest.themes;
-              this.stageTitle = manifest.title || this.stageData.title;
-              this.stageDescription = manifest.description || this.stageData.description;
-              this.loading = false;
-              return;
-            }
+      // Use a promise so the caller can optionally wait for completion
+      var complete = function() {
+        self.loading = false;
+        if (onReady) onReady();
+      };
+      // stageId is already in filename format (a1-1, a2-3, b1-2, etc.)
+      fetch('data/' + this.currentLocale + '/' + stageId + '.json')
+        .then(function(response) {
+          if (!response.ok) throw new Error('HTTP ' + response.status);
+          return response.json();
+        })
+        .then(function(data) {
+          self.stageData = data;
+          if (!self.stageData || Object.keys(self.stageData).length === 0) {
+            self.dataError = true;
+            complete();
+            return;
           }
-        } catch(e) {
-          // No themes found or manifest invalid — fall through to pillar view
-        }
-        this.renderPillar();
-        this.loading = false;
-      } catch (e) {
-        console.error('Failed to load stage data:', e);
-        this.stageData = {
-          id: stageId,
-          title: 'Stage ' + stageId,
-          description: 'Content loading...',
-          grammar: [],
-          vocabulary: [],
-          verbs: [],
-          pronunciation: []
-        };
-        this.dataError = true;
-        this.loading = false;
-      }
+          // Check if this stage has a themes directory (granular theme-based curriculum)
+          var themesDir = 'data/' + self.currentLocale + '/' + stageId + '/themes';
+          return fetch(themesDir + '/' + stageId + '.json')
+            .then(function(themesResponse) {
+              if (!themesResponse.ok) {
+                // No themes manifest — fall through to pillar view
+                self.renderPillar();
+                complete();
+                return;
+              }
+              return themesResponse.json();
+            })
+            .then(function(manifest) {
+              if (manifest && manifest.themes) {
+                // Stage has theme-based curriculum — set theme data
+                self.stageThemes = manifest.themes;
+                self.stageTitle = manifest.title || self.stageData.title;
+                self.stageDescription = manifest.description || self.stageData.description;
+
+                // Validate theme ID if one was provided
+                if (themeId) {
+                  var themeFound = manifest.themes.some(function(t) { return t.id === themeId; });
+                  if (!themeFound) {
+                    self.invalidThemeId = true;
+                    self.invalidThemeMessage = '"' + themeId + '" is not a valid theme for this stage.';
+                    self.themeView = 'themes';
+                    self.themeTitle = null;
+                    self.themeData = null;
+                    complete();
+                    return;
+                  }
+                  // Theme valid — proceed to detail view
+                  self.themeView = 'theme-detail';
+                } else {
+                  // No theme requested — show themes list
+                  self.themeView = 'themes';
+                }
+              } else {
+                self.renderPillar();
+              }
+              complete();
+            })
+            .catch(function(e) {
+              // No themes found or manifest invalid — fall through to pillar view
+              self.renderPillar();
+              complete();
+            });
+        })
+        .catch(function(e) {
+          console.error('Failed to load stage data:', e);
+          self.stageData = {
+            id: stageId,
+            title: 'Stage ' + stageId,
+            description: 'Content loading...',
+            grammar: [],
+            vocabulary: [],
+            verbs: [],
+            pronunciation: []
+          };
+          self.dataError = true;
+          complete();
+        });
     },
 
     // ═══════════════════════════════════════════
@@ -441,32 +492,92 @@ function app() {
 
     // Parse URL hash into route parameters (locale, level, stage, pillar).
     // Also handles theme routes: /{locale}/{level}/{stage}/theme/{themeId}
-    // Validates each level against the loaded registry; invalid entries reset to welcome.
-    parseRoute() {
+    // Validates each level against the loaded registry; invalid entries show error state.
+    parseRoute: function() {
       var hash = window.location.hash.slice(1) || '/' + this.currentLocale;
       var parts = hash.split('/').filter(function(b) { return b; });
+
+      // Bare /themes route with no context — show error, can't redirect anywhere
+      if (parts.length === 1 && parts[0] === 'themes') {
+        this.errorState.stage = true;
+        this.stageTitle = 'No stage selected';
+        this.stageDescription = 'Navigate to a stage to view its themes.';
+        this.loading = false;
+        return;
+      }
 
       if (parts.length >= 1) this.currentLocale = parts[0] || this.currentLocale;
       if (parts.length >= 2) this.currentLevel = parts[1];
       if (parts.length >= 3) this.currentStage = parts[2];
 
+      // Clear all error states at the start of each route parse
+      this.errorState.themes = false;
+      this.errorState.theme = false;
+      this.errorState.stage = false;
+      this.errorState.level = false;
+
       // Theme route: /{locale}/{level}/{stage}/theme/{themeId}
       if (parts.length >= 5 && parts[3] === 'theme') {
-        this.currentTheme = parts[4];
-        this.themeView = 'theme-detail';
+        var themeId = parts[4];
+        this.currentTheme = themeId;
         this.themeData = null;
         this.themeTitle = null;
         if (this.currentLevel && this.currentStage) {
-          this.loading = true;
-          this.dataError = false;
-          this.loadTheme(this.currentTheme);
+          // Load stage data with theme validation — themeId is validated inside loadStageData
+          var self = this;
+          self.loading = true;
+          self.dataError = false;
+          self.loadStageData(self.currentLevel, self.currentStage, function() {
+            // If theme was valid, load it now (loadStageData already set themeView to 'themes' or 'theme-detail')
+            if (self.themeView === 'theme-detail') {
+              self.loadTheme(self.currentTheme);
+            } else if (self.invalidThemeId) {
+              // Invalid theme — set previous view for "Go Back"
+              self.previousView = {
+                level: self.currentLevel,
+                stage: self.currentStage,
+                themeView: 'themes'
+              };
+            }
+          }, themeId);
+        } else {
+          // No level/stage — set error
+          this.errorState.stage = true;
+          this.themeView = null;
+          this.loading = false;
         }
         return;
       }
 
+      // Themes route: /{locale}/{level}/{stage}/themes
       if (parts.length >= 4 && parts[3] === 'themes') {
-        this.themeView = 'themes';
-      } else if (parts.length >= 4) {
+        if (this.currentLevel && this.currentStage) {
+          // Load stage data to get the manifest
+          var self2 = this;
+          this.loading = true;
+          this.dataError = false;
+          this.loadStageData(this.currentLevel, this.currentStage, function() {
+            if (self2.stageThemes && Array.isArray(self2.stageThemes) && self2.stageThemes.length > 0) {
+              self2.themeView = 'themes';
+            } else {
+              // Stage has no themes manifest or empty manifest
+              self2.errorState.themes = true;
+              self2.stageTitle = self2.stageData ? (self2.stageTitle || 'Stage ' + self2.currentStage) : 'Stage ' + self2.currentStage;
+              self2.stageDescription = self2.stageDescription || 'This stage does not have a themes view — content is organized differently.';
+              self2.themeView = null;
+            }
+            self2.loading = false;
+          });
+        } else {
+          // No level/stage for themes route
+          this.errorState.stage = true;
+          this.themeView = null;
+          this.loading = false;
+        }
+        return;
+      }
+
+      if (parts.length >= 4) {
         this.currentPillar = parts[3];
         this.themeView = null;
       }
@@ -475,11 +586,16 @@ function app() {
       if (this.currentLevel) {
         var levelExists = this.appLevels.some(function(l) { return l.id === this.currentLevel; }.bind(this));
         if (!levelExists) {
-          // Invalid level — reset state, show welcome
+          // Track locale root as previous for "Go Back"
+          this.previousView = { level: this.currentLevel, stage: null, themeView: null };
+          this.errorState.level = true;
           this.currentLevel = null;
           this.currentStage = null;
           this.expandedLevel = null;
           this.stageData = null;
+          this.stageTitle = 'Invalid level';
+          this.stageDescription = 'This learning level does not exist in our curriculum.';
+          this.loading = false;
           return;
         }
         this.expandedLevel = this.currentLevel;
@@ -496,22 +612,26 @@ function app() {
         }
         var stageExists = currentLevelObj.stages.some(function(s) { return s.id === this.currentStage; }.bind(this));
         if (!stageExists) {
-          // Invalid stage — reset state, show welcome
+          // Track current level as previous for "Go Back"
+          this.previousView = { level: this.currentLevel, stage: null, themeView: null };
+          this.errorState.stage = true;
           this.currentLevel = null;
           this.currentStage = null;
           this.expandedLevel = null;
           this.stageData = null;
+          this.stageTitle = 'Stage not found';
+          this.stageDescription = 'This stage is not available in the curriculum.';
+          this.loading = false;
           return;
         }
 
         this.loadStageData(this.currentLevel, this.currentStage);
       } else if (this.currentLevel && !this.currentStage) {
-        // Level selected but no stage — default to first stage
-        var firstStage = this.appLevels.find(function(l) { return l.id === this.currentLevel; }.bind(this));
-        if (firstStage && firstStage.stages.length > 0) {
-          this.currentStage = firstStage.stages[0].id;
-          this.loadStageData(this.currentLevel, this.currentStage);
-        }
+        // Level selected but no stage — show error instead of silently defaulting
+        this.errorState.stage = true;
+        this.stageTitle = this.currentLevel + ' — No stage selected';
+        this.stageDescription = 'Please select a specific stage to begin learning.';
+        this.loading = false;
       }
     },
 
@@ -658,8 +778,25 @@ function app() {
     async loadTheme(themeId) {
       this.loading = true;
       this.dataError = false;
+      // Track current view as previous for "Go Back" navigation
+      this.previousView = {
+        level: this.currentLevel,
+        stage: this.currentStage,
+        themeView: this.themeView
+      };
       this.themeView = 'theme-detail';
       this.currentTheme = themeId;
+      // Validate theme ID against the stage's manifest if available
+      if (this.currentStage && this.stageThemes && Array.isArray(this.stageThemes)) {
+        var themeExists = this.stageThemes.some(function(t) { return t.id === themeId; });
+        if (!themeExists) {
+          this.errorState.theme = true;
+          this.themeView = 'themes';
+          this.loading = false;
+          console.warn('Theme "' + themeId + '" not found in stage manifest');
+          return;
+        }
+      }
       try {
         var baseDir = 'data/' + this.currentLocale + '/' + this.currentStage + '/themes/';
         // Check if chunked/partitioned files exist (e.g., themeId-part-1.json, themeId-part-2.json)
@@ -766,6 +903,12 @@ function app() {
     
     // Exit theme detail and return to themes view
     exitTheme() {
+      // Track current view as previous for "Go Back" navigation
+      this.previousView = {
+        level: this.currentLevel,
+        stage: this.currentStage,
+        themeView: this.themeView
+      };
       this.themeView = 'themes';
       this.currentTheme = null;
       this.themeData = null;
@@ -792,6 +935,49 @@ function app() {
       this.renderPillar();
     },
     
+    // Go back from an error state — clears the error and navigates to the locale root
+    goBack() {
+      this.errorState.themes = false;
+      this.errorState.theme = false;
+      this.errorState.stage = false;
+      this.errorState.level = false;
+      this.invalidThemeId = false;
+      this.invalidThemeMessage = '';
+
+      // Restore previous view context if available
+      if (this.previousView) {
+        var pv = this.previousView;
+        this.currentLevel = pv.level;
+        this.currentStage = pv.stage;
+        this.themeView = pv.themeView;
+        this.currentTheme = null;
+        this.themeData = null;
+        this.themeTitle = null;
+        this.previousView = null;
+
+        if (pv.themeView === 'themes') {
+          window.location.hash = '/' + this.currentLocale + '/' + this.currentLevel + '/' + this.currentStage;
+        } else if (pv.themeView === 'theme-detail') {
+          window.location.hash = '/' + this.currentLocale + '/' + this.currentLevel + '/' + this.currentStage + '/theme/' + (pv.theme || '');
+        } else {
+          window.location.hash = '/' + this.currentLocale + '/' + this.currentLevel + '/' + this.currentStage;
+        }
+        return;
+      }
+
+      // No previous view — go home
+      this.currentLevel = null;
+      this.currentStage = null;
+      this.currentTheme = null;
+      this.themeView = null;
+      this.themeData = null;
+      this.themeTitle = null;
+      this.stageData = null;
+      this.expandedLevel = null;
+      this.expandedStage = null;
+      window.location.hash = '/' + this.currentLocale;
+    },
+
     // Render the themes grid view
     renderThemes: function() {
       if (!this.stageThemes || this.stageThemes.length === 0) {
