@@ -4,116 +4,715 @@
   "title": "Hace... Que Expressions",
   "description": "Master the hace + time + que construction for talking about duration and time in the past.",
   "vocabulary": [
-    {"id": 1, "target": "hace", "source": "ago", "gender": "v", "type": "expression"},
-    {"id": 2, "target": "que", "source": "that/which", "gender": "conj", "type": "conjunction"},
-    {"id": 3, "target": "ano", "source": "year", "gender": "m", "type": "time"},
-    {"id": 4, "target": "mes", "source": "month", "gender": "m", "type": "time"},
-    {"id": 5, "target": "semana", "source": "week", "gender": "f", "type": "time"},
-    {"id": 6, "target": "dia", "source": "day", "gender": "m", "type": "time"},
-    {"id": 7, "target": "hora", "source": "hour", "gender": "f", "type": "time"},
-    {"id": 8, "target": "minuto", "source": "minute", "gender": "m", "type": "time"},
-    {"id": 9, "target": "segundo", "source": "second", "gender": "m", "type": "time"},
-    {"id": 10, "target": "ayer", "source": "yesterday", "gender": "adv", "type": "time"},
-    {"id": 11, "target": "anoche", "source": "last night", "gender": "adv", "type": "time"},
-    {"id": 12, "target": "la semana pasada", "source": "last week", "gender": "f", "type": "time"},
-    {"id": 13, "target": "el mes pasado", "source": "last month", "gender": "m", "type": "time"},
-    {"id": 14, "target": "el ano pasado", "source": "last year", "gender": "m", "type": "time"},
-    {"id": 15, "target": "hace poco", "source": "a little while ago", "gender": "m", "type": "phrase"},
-    {"id": 16, "target": "hace mucho", "source": "a long time ago", "gender": "m", "type": "phrase"},
-    {"id": 17, "target": "hace un momento", "source": "a moment ago", "gender": "m", "type": "phrase"},
-    {"id": 18, "target": "hace tiempo", "source": "some time ago", "gender": "m", "type": "phrase"},
-    {"id": 19, "target": "desde hace", "source": "since/for", "gender": "m", "type": "phrase"},
-    {"id": 20, "target": "vivir", "source": "to live", "gender": "v", "type": "verb"},
-    {"id": 21, "target": "trabajar", "source": "to work", "gender": "v", "type": "verb"},
-    {"id": 22, "target": "estudiar", "source": "to study", "gender": "v", "type": "verb"},
-    {"id": 23, "target": "conocer", "source": "to know", "gender": "v", "type": "verb"},
-    {"id": 24, "target": "saber", "source": "to know", "gender": "v", "type": "verb"},
-    {"id": 25, "target": "tener", "source": "to have", "gender": "v", "type": "verb"},
-    {"id": 26, "target": "estar", "source": "to be", "gender": "v", "type": "verb"},
-    {"id": 27, "target": "ser", "source": "to be", "gender": "v", "type": "verb"},
-    {"id": 28, "target": "salir", "source": "to leave", "gender": "v", "type": "verb"},
-    {"id": 29, "target": "llegar", "source": "to arrive", "gender": "v", "type": "verb"},
-    {"id": 30, "target": "venir", "source": "to come", "gender": "v", "type": "verb"},
-    {"id": 31, "target": "hacer", "source": "to do/make", "gender": "v", "type": "verb"},
-    {"id": 32, "target": "decir", "source": "to say", "gender": "v", "type": "verb"},
-    {"id": 33, "target": "ver", "source": "to see", "gender": "v", "type": "verb"},
-    {"id": 34, "target": "oir", "source": "to hear", "gender": "v", "type": "verb"},
-    {"id": 35, "target": "leer", "source": "to read", "gender": "v", "type": "verb"},
-    {"id": 36, "target": "escribir", "source": "to write", "gender": "v", "type": "verb"},
-    {"id": 37, "target": "comprar", "source": "to buy", "gender": "v", "type": "verb"},
-    {"id": 38, "target": "vender", "source": "to sell", "gender": "v", "type": "verb"},
-    {"id": 39, "target": "comer", "source": "to eat", "gender": "v", "type": "verb"},
-    {"id": 40, "target": "beber", "source": "to drink", "gender": "v", "type": "verb"},
-    {"id": 41, "target": "dormir", "source": "to sleep", "gender": "v", "type": "verb"},
-    {"id": 42, "target": "llamar", "source": "to call", "gender": "v", "type": "verb"},
-    {"id": 43, "target": "escribir", "source": "to write", "gender": "v", "type": "verb"},
-    {"id": 44, "target": "viajar", "source": "to travel", "gender": "v", "type": "verb"},
-    {"id": 45, "target": "estudiar", "source": "to study", "gender": "v", "type": "verb"},
-    {"id": 46, "target": "graduarse", "source": "to graduate", "gender": "v", "type": "verb"},
-    {"id": 47, "target": "casarse", "source": "to get married", "gender": "v", "type": "verb"},
-    {"id": 48, "target": "mudarse", "source": "to move", "gender": "v", "type": "verb"},
-    {"id": 49, "target": "enfermarse", "source": "to get sick", "gender": "v", "type": "verb"},
-    {"id": 50, "target": "mejorarse", "source": "to get better", "gender": "v", "type": "verb"},
-    {"id": 51, "target": "Madrid", "source": "Madrid", "gender": "m", "type": "place"},
-    {"id": 52, "target": "Barcelona", "source": "Barcelona", "gender": "f", "type": "place"},
-    {"id": 53, "target": "espana", "source": "Spain", "gender": "f", "type": "place"},
-    {"id": 54, "target": "Mexico", "source": "Mexico", "gender": "m", "type": "place"},
-    {"id": 55, "target": "Argentina", "source": "Argentina", "gender": "f", "type": "place"},
-    {"id": 56, "target": "la casa", "source": "the house", "gender": "f", "type": "place"},
-    {"id": 57, "target": "el trabajo", "source": "the work", "gender": "m", "type": "place"},
-    {"id": 58, "target": "la escuela", "source": "the school", "gender": "f", "type": "place"},
-    {"id": 59, "target": "la oficina", "source": "the office", "gender": "f", "type": "place"},
-    {"id": 60, "target": "aqui", "source": "here", "gender": "adv", "type": "adverb"},
-    {"id": 61, "target": "alli", "source": "there", "gender": "adv", "type": "adverb"},
-    {"id": 62, "target": "desde", "source": "since", "gender": "prep", "type": "preposition"},
-    {"id": 63, "target": "hasta", "source": "until", "gender": "prep", "type": "preposition"},
-    {"id": 64, "target": "para", "source": "for", "gender": "prep", "type": "preposition"},
-    {"id": 65, "target": "por", "source": "for/through", "gender": "prep", "type": "preposition"},
-    {"id": 66, "target": "sin", "source": "without", "gender": "prep", "type": "preposition"},
-    {"id": 67, "target": "con", "source": "with", "gender": "prep", "type": "preposition"},
-    {"id": 68, "target": "sin", "source": "without", "gender": "prep", "type": "preposition"},
-    {"id": 69, "target": "todo", "source": "all/every", "gender": "adj", "type": "indefinite"},
-    {"id": 70, "target": "nada", "source": "nothing", "gender": "pron", "type": "indefinite"},
-    {"id": 71, "target": "nadie", "source": "no one", "gender": "pron", "type": "indefinite"},
-    {"id": 72, "target": "siempre", "source": "always", "gender": "adv", "type": "time"},
-    {"id": 73, "target": "nunca", "source": "never", "gender": "adv", "type": "time"},
-    {"id": 74, "target": "ya", "source": "already", "gender": "adv", "type": "time"},
-    {"id": 75, "target": "todavia", "source": "still/yet", "gender": "adv", "type": "time"},
-    {"id": 76, "target": "poco", "source": "little", "gender": "adj/adv", "type": "quantity"},
-    {"id": 77, "target": "mucho", "source": "much/a lot", "gender": "adj/adv", "type": "quantity"},
-    {"id": 78, "target": "menos", "source": "less", "gender": "adj/adv", "type": "quantity"},
-    {"id": 79, "target": "mas", "source": "more", "gender": "adj/adv", "type": "quantity"},
-    {"id": 80, "target": "tanto", "source": "so much", "gender": "adj", "type": "quantity"},
-    {"id": 81, "target": "cuanto", "source": "how much", "gender": "adj", "type": "interrogative"},
-    {"id": 82, "target": "cuando", "source": "when", "gender": "adv", "type": "interrogative"},
-    {"id": 83, "target": "donde", "source": "where", "gender": "adv", "type": "interrogative"},
-    {"id": 84, "target": "como", "source": "how", "gender": "adv", "type": "interrogative"},
-    {"id": 85, "target": "por que", "source": "why", "gender": "adv", "type": "interrogative"},
-    {"id": 86, "target": "el tiempo", "source": "the time/weather", "gender": "m", "type": "noun"},
-    {"id": 87, "target": "la duracion", "source": "the duration", "gender": "f", "type": "noun"},
-    {"id": 88, "target": "el momento", "source": "the moment", "gender": "m", "type": "noun"},
-    {"id": 89, "target": "la vez", "source": "the time", "gender": "f", "type": "noun"},
-    {"id": 90, "target": "primera vez", "source": "first time", "gender": "f", "type": "phrase"},
-    {"id": 91, "target": "ultima vez", "source": "last time", "gender": "f", "type": "phrase"},
-    {"id": 92, "target": "cada vez", "source": "each time", "gender": "f", "type": "phrase"},
-    {"id": 93, "target": "muchas veces", "source": "many times", "gender": "f", "type": "phrase"},
-    {"id": 94, "target": "una vez", "source": "once", "gender": "f", "type": "phrase"},
-    {"id": 95, "target": "dos veces", "source": "twice", "gender": "f", "type": "phrase"},
-    {"id": 96, "target": "tres veces", "source": "three times", "gender": "f", "type": "phrase"},
-    {"id": 97, "target": "todas las veces", "source": "every time", "gender": "f", "type": "phrase"},
-    {"id": 98, "target": "la mayoria", "source": "the majority", "gender": "f", "type": "noun"},
-    {"id": 99, "target": "la vez", "source": "the time", "gender": "f", "type": "noun"},
-    {"id": 100, "target": "el principio", "source": "the beginning", "gender": "m", "type": "noun"}
+    {
+      "id": 1,
+      "target": "hace",
+      "source": "ago",
+      "gender": "v",
+      "type": "expression"
+    },
+    {
+      "id": 2,
+      "target": "que",
+      "source": "that/which",
+      "gender": "conj",
+      "type": "conjunction"
+    },
+    {
+      "id": 3,
+      "target": "ano",
+      "source": "year",
+      "gender": "m",
+      "type": "time"
+    },
+    {
+      "id": 4,
+      "target": "mes",
+      "source": "month",
+      "gender": "m",
+      "type": "time"
+    },
+    {
+      "id": 5,
+      "target": "semana",
+      "source": "week",
+      "gender": "f",
+      "type": "time"
+    },
+    {
+      "id": 6,
+      "target": "dia",
+      "source": "day",
+      "gender": "m",
+      "type": "time"
+    },
+    {
+      "id": 7,
+      "target": "hora",
+      "source": "hour",
+      "gender": "f",
+      "type": "time"
+    },
+    {
+      "id": 8,
+      "target": "minuto",
+      "source": "minute",
+      "gender": "m",
+      "type": "time"
+    },
+    {
+      "id": 9,
+      "target": "segundo",
+      "source": "second",
+      "gender": "m",
+      "type": "time"
+    },
+    {
+      "id": 10,
+      "target": "ayer",
+      "source": "yesterday",
+      "gender": "adv",
+      "type": "time"
+    },
+    {
+      "id": 11,
+      "target": "anoche",
+      "source": "last night",
+      "gender": "adv",
+      "type": "time"
+    },
+    {
+      "id": 12,
+      "target": "la semana pasada",
+      "source": "last week",
+      "gender": "f",
+      "type": "time"
+    },
+    {
+      "id": 13,
+      "target": "el mes pasado",
+      "source": "last month",
+      "gender": "m",
+      "type": "time"
+    },
+    {
+      "id": 14,
+      "target": "el ano pasado",
+      "source": "last year",
+      "gender": "m",
+      "type": "time"
+    },
+    {
+      "id": 15,
+      "target": "hace poco",
+      "source": "a little while ago",
+      "gender": "m",
+      "type": "phrase"
+    },
+    {
+      "id": 16,
+      "target": "hace mucho",
+      "source": "a long time ago",
+      "gender": "m",
+      "type": "phrase"
+    },
+    {
+      "id": 17,
+      "target": "hace un momento",
+      "source": "a moment ago",
+      "gender": "m",
+      "type": "phrase"
+    },
+    {
+      "id": 18,
+      "target": "hace tiempo",
+      "source": "some time ago",
+      "gender": "m",
+      "type": "phrase"
+    },
+    {
+      "id": 19,
+      "target": "desde hace",
+      "source": "since/for",
+      "gender": "m",
+      "type": "phrase"
+    },
+    {
+      "id": 20,
+      "target": "vivir",
+      "source": "to live",
+      "gender": "v",
+      "type": "verb"
+    },
+    {
+      "id": 21,
+      "target": "trabajar",
+      "source": "to work",
+      "gender": "v",
+      "type": "verb"
+    },
+    {
+      "id": 22,
+      "target": "estudiar",
+      "source": "to study",
+      "gender": "v",
+      "type": "verb"
+    },
+    {
+      "id": 23,
+      "target": "conocer",
+      "source": "to know",
+      "gender": "v",
+      "type": "verb"
+    },
+    {
+      "id": 24,
+      "target": "saber",
+      "source": "to know",
+      "gender": "v",
+      "type": "verb"
+    },
+    {
+      "id": 25,
+      "target": "tener",
+      "source": "to have",
+      "gender": "v",
+      "type": "verb"
+    },
+    {
+      "id": 26,
+      "target": "estar",
+      "source": "to be",
+      "gender": "v",
+      "type": "verb"
+    },
+    {
+      "id": 27,
+      "target": "ser",
+      "source": "to be",
+      "gender": "v",
+      "type": "verb"
+    },
+    {
+      "id": 28,
+      "target": "salir",
+      "source": "to leave",
+      "gender": "v",
+      "type": "verb"
+    },
+    {
+      "id": 29,
+      "target": "llegar",
+      "source": "to arrive",
+      "gender": "v",
+      "type": "verb"
+    },
+    {
+      "id": 30,
+      "target": "venir",
+      "source": "to come",
+      "gender": "v",
+      "type": "verb"
+    },
+    {
+      "id": 31,
+      "target": "hacer",
+      "source": "to do/make",
+      "gender": "v",
+      "type": "verb"
+    },
+    {
+      "id": 32,
+      "target": "decir",
+      "source": "to say",
+      "gender": "v",
+      "type": "verb"
+    },
+    {
+      "id": 33,
+      "target": "ver",
+      "source": "to see",
+      "gender": "v",
+      "type": "verb"
+    },
+    {
+      "id": 34,
+      "target": "oir",
+      "source": "to hear",
+      "gender": "v",
+      "type": "verb"
+    },
+    {
+      "id": 35,
+      "target": "leer",
+      "source": "to read",
+      "gender": "v",
+      "type": "verb"
+    },
+    {
+      "id": 36,
+      "target": "escribir",
+      "source": "to write",
+      "gender": "v",
+      "type": "verb"
+    },
+    {
+      "id": 37,
+      "target": "comprar",
+      "source": "to buy",
+      "gender": "v",
+      "type": "verb"
+    },
+    {
+      "id": 38,
+      "target": "vender",
+      "source": "to sell",
+      "gender": "v",
+      "type": "verb"
+    },
+    {
+      "id": 39,
+      "target": "comer",
+      "source": "to eat",
+      "gender": "v",
+      "type": "verb"
+    },
+    {
+      "id": 40,
+      "target": "beber",
+      "source": "to drink",
+      "gender": "v",
+      "type": "verb"
+    },
+    {
+      "id": 41,
+      "target": "dormir",
+      "source": "to sleep",
+      "gender": "v",
+      "type": "verb"
+    },
+    {
+      "id": 42,
+      "target": "llamar",
+      "source": "to call",
+      "gender": "v",
+      "type": "verb"
+    },
+    {
+      "id": 43,
+      "target": "escribir",
+      "source": "to write",
+      "gender": "v",
+      "type": "verb"
+    },
+    {
+      "id": 44,
+      "target": "viajar",
+      "source": "to travel",
+      "gender": "v",
+      "type": "verb"
+    },
+    {
+      "id": 45,
+      "target": "estudiar",
+      "source": "to study",
+      "gender": "v",
+      "type": "verb"
+    },
+    {
+      "id": 46,
+      "target": "graduarse",
+      "source": "to graduate",
+      "gender": "v",
+      "type": "verb"
+    },
+    {
+      "id": 47,
+      "target": "casarse",
+      "source": "to get married",
+      "gender": "v",
+      "type": "verb"
+    },
+    {
+      "id": 48,
+      "target": "mudarse",
+      "source": "to move",
+      "gender": "v",
+      "type": "verb"
+    },
+    {
+      "id": 49,
+      "target": "enfermarse",
+      "source": "to get sick",
+      "gender": "v",
+      "type": "verb"
+    },
+    {
+      "id": 50,
+      "target": "mejorarse",
+      "source": "to get better",
+      "gender": "v",
+      "type": "verb"
+    },
+    {
+      "id": 51,
+      "target": "Madrid",
+      "source": "Madrid",
+      "gender": "m",
+      "type": "place"
+    },
+    {
+      "id": 52,
+      "target": "Barcelona",
+      "source": "Barcelona",
+      "gender": "f",
+      "type": "place"
+    },
+    {
+      "id": 53,
+      "target": "espana",
+      "source": "Spain",
+      "gender": "f",
+      "type": "place"
+    },
+    {
+      "id": 54,
+      "target": "Mexico",
+      "source": "Mexico",
+      "gender": "m",
+      "type": "place"
+    },
+    {
+      "id": 55,
+      "target": "Argentina",
+      "source": "Argentina",
+      "gender": "f",
+      "type": "place"
+    },
+    {
+      "id": 56,
+      "target": "la casa",
+      "source": "the house",
+      "gender": "f",
+      "type": "place"
+    },
+    {
+      "id": 57,
+      "target": "el trabajo",
+      "source": "the work",
+      "gender": "m",
+      "type": "place"
+    },
+    {
+      "id": 58,
+      "target": "la escuela",
+      "source": "the school",
+      "gender": "f",
+      "type": "place"
+    },
+    {
+      "id": 59,
+      "target": "la oficina",
+      "source": "the office",
+      "gender": "f",
+      "type": "place"
+    },
+    {
+      "id": 60,
+      "target": "aqui",
+      "source": "here",
+      "gender": "adv",
+      "type": "adverb"
+    },
+    {
+      "id": 61,
+      "target": "alli",
+      "source": "there",
+      "gender": "adv",
+      "type": "adverb"
+    },
+    {
+      "id": 62,
+      "target": "desde",
+      "source": "since",
+      "gender": "prep",
+      "type": "preposition"
+    },
+    {
+      "id": 63,
+      "target": "hasta",
+      "source": "until",
+      "gender": "prep",
+      "type": "preposition"
+    },
+    {
+      "id": 64,
+      "target": "para",
+      "source": "for",
+      "gender": "prep",
+      "type": "preposition"
+    },
+    {
+      "id": 65,
+      "target": "por",
+      "source": "for/through",
+      "gender": "prep",
+      "type": "preposition"
+    },
+    {
+      "id": 66,
+      "target": "sin",
+      "source": "without",
+      "gender": "prep",
+      "type": "preposition"
+    },
+    {
+      "id": 67,
+      "target": "con",
+      "source": "with",
+      "gender": "prep",
+      "type": "preposition"
+    },
+    {
+      "id": 68,
+      "target": "sin",
+      "source": "without",
+      "gender": "prep",
+      "type": "preposition"
+    },
+    {
+      "id": 69,
+      "target": "todo",
+      "source": "all/every",
+      "gender": "adj",
+      "type": "indefinite"
+    },
+    {
+      "id": 70,
+      "target": "nada",
+      "source": "nothing",
+      "gender": "pron",
+      "type": "indefinite"
+    },
+    {
+      "id": 71,
+      "target": "nadie",
+      "source": "no one",
+      "gender": "pron",
+      "type": "indefinite"
+    },
+    {
+      "id": 72,
+      "target": "siempre",
+      "source": "always",
+      "gender": "adv",
+      "type": "time"
+    },
+    {
+      "id": 73,
+      "target": "nunca",
+      "source": "never",
+      "gender": "adv",
+      "type": "time"
+    },
+    {
+      "id": 74,
+      "target": "ya",
+      "source": "already",
+      "gender": "adv",
+      "type": "time"
+    },
+    {
+      "id": 75,
+      "target": "todavia",
+      "source": "still/yet",
+      "gender": "adv",
+      "type": "time"
+    },
+    {
+      "id": 76,
+      "target": "poco",
+      "source": "little",
+      "gender": "adj/adv",
+      "type": "quantity"
+    },
+    {
+      "id": 77,
+      "target": "mucho",
+      "source": "much/a lot",
+      "gender": "adj/adv",
+      "type": "quantity"
+    },
+    {
+      "id": 78,
+      "target": "menos",
+      "source": "less",
+      "gender": "adj/adv",
+      "type": "quantity"
+    },
+    {
+      "id": 79,
+      "target": "mas",
+      "source": "more",
+      "gender": "adj/adv",
+      "type": "quantity"
+    },
+    {
+      "id": 80,
+      "target": "tanto",
+      "source": "so much",
+      "gender": "adj",
+      "type": "quantity"
+    },
+    {
+      "id": 81,
+      "target": "cuanto",
+      "source": "how much",
+      "gender": "adj",
+      "type": "interrogative"
+    },
+    {
+      "id": 82,
+      "target": "cuando",
+      "source": "when",
+      "gender": "adv",
+      "type": "interrogative"
+    },
+    {
+      "id": 83,
+      "target": "donde",
+      "source": "where",
+      "gender": "adv",
+      "type": "interrogative"
+    },
+    {
+      "id": 84,
+      "target": "como",
+      "source": "how",
+      "gender": "adv",
+      "type": "interrogative"
+    },
+    {
+      "id": 85,
+      "target": "por que",
+      "source": "why",
+      "gender": "adv",
+      "type": "interrogative"
+    },
+    {
+      "id": 86,
+      "target": "el tiempo",
+      "source": "the time/weather",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 87,
+      "target": "la duracion",
+      "source": "the duration",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 88,
+      "target": "el momento",
+      "source": "the moment",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 89,
+      "target": "la vez",
+      "source": "the time",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 90,
+      "target": "primera vez",
+      "source": "first time",
+      "gender": "f",
+      "type": "phrase"
+    },
+    {
+      "id": 91,
+      "target": "ultima vez",
+      "source": "last time",
+      "gender": "f",
+      "type": "phrase"
+    },
+    {
+      "id": 92,
+      "target": "cada vez",
+      "source": "each time",
+      "gender": "f",
+      "type": "phrase"
+    },
+    {
+      "id": 93,
+      "target": "muchas veces",
+      "source": "many times",
+      "gender": "f",
+      "type": "phrase"
+    },
+    {
+      "id": 94,
+      "target": "una vez",
+      "source": "once",
+      "gender": "f",
+      "type": "phrase"
+    },
+    {
+      "id": 95,
+      "target": "dos veces",
+      "source": "twice",
+      "gender": "f",
+      "type": "phrase"
+    },
+    {
+      "id": 96,
+      "target": "tres veces",
+      "source": "three times",
+      "gender": "f",
+      "type": "phrase"
+    },
+    {
+      "id": 97,
+      "target": "todas las veces",
+      "source": "every time",
+      "gender": "f",
+      "type": "phrase"
+    },
+    {
+      "id": 98,
+      "target": "la mayoria",
+      "source": "the majority",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 99,
+      "target": "la vez",
+      "source": "the time",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 100,
+      "target": "el principio",
+      "source": "the beginning",
+      "gender": "m",
+      "type": "noun"
+    }
   ],
   "grammar": [
     {
-      "title": "Hace... Que — Duration in the Past",
-      "content": "HACE... QUE tells how long something has been going on:\\n\\nHace + time + que + verb in past\\n\\nHace dos anos que vive aqui. (He has been living here for two years.)\\nHace tres meses que estudio espanol. (I have been studying Spanish for three months.)\\n\\nAlternative: Verb in present + desde hace + time\\n\\nVivo aqui desde hace dos anos. (I have been living here for two years.)\\nEstudio desde hace tres meses. (I have been studying for three months.)\\n\\nBoth structures are interchangeable:\\nHace un ano que trabajo aqui. = Trabajo aqui desde hace un ano.\\n\\nFor questions:\\nCuanto tiempo hace que...? (How long has it been that...?)\\nCuanto tiempo hace que vive aqui? (How long has he been living here?)",
+      "title": "Desde Hace vs. Hace",
+      "content": "Both 'desde hace' and 'hace... que' express duration:\\n\\nDESDE HACE + time (verb in present or past):\\nVivo aqui desde hace cinco anos. (I have lived here for five years.)\\nEstaba aqui desde hace dos horas. (He had been here for two hours.)\\n\\nHACE + time + QUE + verb:\\nHace cinco anos que vivo aqui. (I have lived here for five years.)\\n\\nNegative with hace... que:\\n\\nHace anos que no la veo. (I haven't seen her for years.)\\nHace mucho que no llueve. (It hasn't rained in a long time.)\\n\\nWith states (ser/estar):\\nHace anos que es doctor. (He has been a doctor for years.)\\nHace meses que esta enfermo. (He has been sick for months.)",
       "examples": [
-        "Hace cinco anos que soy professor. (I have been a professor for five years.)",
-        "Hace dos horas que espero. (I have been waiting for two hours.)",
-        "Cuanto tiempo hace que la conoces? (How long have you known her?)",
-        "Trabajo aqui desde hace tres meses. (I have been working here for three months.)"
+        "Cuanto tiempo hace que trabajas aqui? (How long have you been working here?)",
+        "Hace anos que no veo a Juan. (I haven't seen Juan in years.)",
+        "Estoy aqui desde hace una hora. (I have been here for an hour.)"
       ]
     },
     {
@@ -126,13 +725,64 @@
       ]
     },
     {
-      "title": "Desde Hace vs. Hace",
-      "content": "Both 'desde hace' and 'hace... que' express duration:\\n\\nDESDE HACE + time (verb in present or past):\\nVivo aqui desde hace cinco anos. (I have lived here for five years.)\\nEstaba aqui desde hace dos horas. (He had been here for two hours.)\\n\\nHACE + time + QUE + verb:\\nHace cinco anos que vivo aqui. (I have lived here for five years.)\\n\\nNegative with hace... que:\\n\\nHace anos que no la veo. (I haven't seen her for years.)\\nHace mucho que no llueve. (It hasn't rained in a long time.)\\n\\nWith states (ser/estar):\\nHace anos que es doctor. (He has been a doctor for years.)\\nHace meses que esta enfermo. (He has been sick for months.)",
+      "title": "Hace... Que — Duration in the Past",
+      "content": "HACE... QUE tells how long something has been going on:\\n\\nHace + time + que + verb in past\\n\\nHace dos anos que vive aqui. (He has been living here for two years.)\\nHace tres meses que estudio espanol. (I have been studying Spanish for three months.)\\n\\nAlternative: Verb in present + desde hace + time\\n\\nVivo aqui desde hace dos anos. (I have been living here for two years.)\\nEstudio desde hace tres meses. (I have been studying for three months.)\\n\\nBoth structures are interchangeable:\\nHace un ano que trabajo aqui. = Trabajo aqui desde hace un ano.\\n\\nFor questions:\\nCuanto tiempo hace que...? (How long has it been that...?)\\nCuanto tiempo hace que vive aqui? (How long has he been living here?)",
       "examples": [
-        "Cuanto tiempo hace que trabajas aqui? (How long have you been working here?)",
-        "Hace anos que no veo a Juan. (I haven't seen Juan in years.)",
-        "Estoy aqui desde hace una hora. (I have been here for an hour.)"
+        "Hace cinco anos que soy professor. (I have been a professor for five years.)",
+        "Hace dos horas que espero. (I have been waiting for two hours.)",
+        "Cuanto tiempo hace que la conoces? (How long have you known her?)",
+        "Trabajo aqui desde hace tres meses. (I have been working here for three months.)"
       ]
+    },
+    {
+      "title": "Present Subjunctive in Fixed Expressions",
+      "content": "The subjunctive (subjuntivo) is a mood used to express wishes, doubts, emotions, and hypothetical situations. At A2.1, you'll mainly encounter it in fixed expressions — set phrases where the subjunctive is mandatory.\n\nWishes and blessings:\n- ¡Que tengas un buen día! = Have a good day!\n- ¡Que te vaya bien! = Good luck! (literally: may it go well for you)\n- ¡Que descanses! = Rest well!\n\nWith querer/esperar + que (when the subject changes):\n- Quiero que seas feliz. = I want you to be happy.\n- Espero que llueva. = I hope it rains.\n\nCommon fixed expressions:\n- Ojalá (que)... = I hope that... / God willing...\n- Es importante que... = It's important that...\n- Mejor que... = Better if...\n\nThe present subjunctive yo form is built by taking the yo present indicative form and switching the ending: -o → -e for -AR, -o → -a for -ER/-IR:\n- hablar → hablo → hable\n- comer → como → coma\n- vivir → vivo → viva",
+      "table": {
+        "headers": [
+          "Infinitive",
+          "Yo Present Indicative",
+          "Present Subjunctive Yo"
+        ],
+        "rows": [
+          [
+            "hablar",
+            "hablo",
+            "hable"
+          ],
+          [
+            "comer",
+            "como",
+            "coma"
+          ],
+          [
+            "vivir",
+            "vivo",
+            "viva"
+          ],
+          [
+            "tener",
+            "tengo",
+            "tenga"
+          ],
+          [
+            "estar",
+            "estoy",
+            "esté"
+          ],
+          [
+            "ir",
+            "voy",
+            "vaya"
+          ]
+        ]
+      },
+      "examples": [
+        "¡Que tengas un excelente día! (Have an excellent day!)",
+        "Ojalá llueva mañana. (I hope it rains tomorrow.)",
+        "Quiero que tú vengas a mi fiesta. (I want you to come to my party.)",
+        "Espero que esté bien. (I hope he/she is okay.)"
+      ],
+      "aid_note": "Romanian uses a similar 'optative' mood for wishes: 'Să ai o zi bună!' = '¡Que tengas un buen día!' The 'să' particle marks the subjunctive optative. This makes the Spanish subjunctive much more natural for Romanian speakers than for English speakers."
     }
   ],
   "pronunciation": [
@@ -150,7 +800,12 @@
     {
       "type": "multiple-choice",
       "question": "How do you say 'I have been studying for three months' in Spanish?",
-      "options": ["Hace tres meses que estudio", "Hace tres meses que estudié", " Estudio desde hace tres meses", "Both A and C are correct"],
+      "options": [
+        "Hace tres meses que estudio",
+        "Hace tres meses que estudié",
+        " Estudio desde hace tres meses",
+        "Both A and C are correct"
+      ],
       "correct": 3,
       "explanation": "Both 'Hace tres meses que estudio' and 'Estudio desde hace tres meses' are correct."
     },
@@ -163,7 +818,12 @@
     {
       "type": "multiple-choice",
       "question": "Which is correct for 'How long have you been living here?'",
-      "options": ["Cuanto tiempo hace que vives aqui?", "Cuanto tiempo hace que vivias aqui?", "Desde cuando vives aqui?", "Como tiempo vives aqui?"],
+      "options": [
+        "Cuanto tiempo hace que vives aqui?",
+        "Cuanto tiempo hace que vivias aqui?",
+        "Desde cuando vives aqui?",
+        "Como tiempo vives aqui?"
+      ],
       "correct": 0,
       "explanation": "'Cuanto tiempo hace que vives aqui?' uses present tense for ongoing action."
     },
@@ -176,7 +836,12 @@
     {
       "type": "multiple-choice",
       "question": "How do you say 'I haven't seen her for years' in Spanish?",
-      "options": ["Hace anos que la veo", "Hace anos que no la veo", "Desde hace anos la veo", "Tengo anos que no la veo"],
+      "options": [
+        "Hace anos que la veo",
+        "Hace anos que no la veo",
+        "Desde hace anos la veo",
+        "Tengo anos que no la veo"
+      ],
       "correct": 1,
       "explanation": "Negative: 'Hace anos que no la veo' = I haven't seen her for years."
     },
@@ -189,7 +854,12 @@
     {
       "type": "multiple-choice",
       "question": "Which is correct: 'I have been waiting for two hours'?",
-      "options": ["Hace dos horas que espero", "Espero desde hace dos horas", "Both are correct", "Neither is correct"],
+      "options": [
+        "Hace dos horas que espero",
+        "Espero desde hace dos horas",
+        "Both are correct",
+        "Neither is correct"
+      ],
       "correct": 2,
       "explanation": "Both 'Hace dos horas que espero' and 'Espero desde hace dos horas' are correct."
     },
@@ -202,7 +872,12 @@
     {
       "type": "multiple-choice",
       "question": "Which tense is used with 'hace... que' for ongoing actions in present?",
-      "options": ["preterite", "imperfect", "present", "present perfect"],
+      "options": [
+        "preterite",
+        "imperfect",
+        "present",
+        "present perfect"
+      ],
       "correct": 2,
       "explanation": "Present tense is used with 'hace... que' for ongoing actions in present: 'Hace tres horas que trabajo'."
     },

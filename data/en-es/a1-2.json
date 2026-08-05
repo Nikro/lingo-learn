@@ -7,50 +7,52 @@
     {
       "id": "daily-routines",
       "title": "Daily Routines",
-      "description": "Describe your daily schedule using reflexive verbs and time expressions.",
-      "estimated_hours": 4
+      "description": "Describe your daily schedule using reflexive verbs and time expressions. Learn the vocabulary for morning and evening routines."
     },
     {
-      "id": "food-shopping",
-      "title": "Food & Shopping",
-      "description": "Navigate a supermarket, order food, and talk about meals and prices.",
-      "estimated_hours": 5
+      "id": "demonstratives-possessives",
+      "title": "Demonstratives and Possessives",
+      "description": "Learn to point things out and show ownership — este/ese/aquel and mi/tu/su."
     },
     {
-      "id": "weather-health",
-      "title": "Weather & Health",
-      "description": "Describe the weather, talk about illnesses, and visit the doctor.",
-      "estimated_hours": 4
+      "id": "education-school",
+      "title": "Education & School",
+      "description": "Learn to talk about school, subjects, studying, exams, and academic life in Spanish."
     },
     {
-      "id": "time-calendar",
-      "title": "Time & Calendar",
-      "description": "Tell time, name days and months, and express when things happened using 'hace' and time words.",
-      "estimated_hours": 4
+      "id": "entertainment-leisure",
+      "title": "Entertainment & Leisure",
+      "description": "Learn to talk about hobbies, entertainment, free time activities, sports, and how you spend your leisure time in Spanish."
     },
     {
-      "id": "preterite-regular",
-      "title": "Preterite — Regular Verbs",
-      "description": "Master regular preterite conjugations for -AR, -ER, and -IR verbs to tell stories about the past.",
-      "estimated_hours": 5
+      "id": "health-body",
+      "title": "Health & Body",
+      "description": "Learn to talk about body parts, describe symptoms, visit the doctor, and understand basic health expressions in everyday situations."
     },
     {
       "id": "preterite-irregular",
       "title": "Preterite — Irregular Verbs",
-      "description": "Learn the high-frequency irregular preterite verbs: ESTAR, IR, HACER, TENER, and DECIR.",
-      "estimated_hours": 5
+      "description": "Learn the high-frequency irregular preterite verbs: ESTAR, IR, HACER, TENER, and DECIR."
     },
     {
-      "id": "present-perfect",
-      "title": "Present Perfect",
-      "description": "Use HABER + past participles to talk about recent experiences and actions with present relevance.",
-      "estimated_hours": 5
+      "id": "shopping-prices",
+      "title": "Shopping & Prices",
+      "description": "Learn to shop in Spanish, ask about prices, compare products, and handle transactions at stores and markets."
     },
     {
-      "id": "demonstratives-possessives",
-      "title": "Demonstratives & Possessives",
-      "description": "Point to things at different distances and express ownership with demonstrative and possessive adjectives.",
-      "estimated_hours": 4
+      "id": "social-interactions",
+      "title": "Social Interactions",
+      "description": "Learn to greet, introduce yourself, show politeness, express feelings, and handle common social situations in Spanish."
+    },
+    {
+      "id": "travel-transportation",
+      "title": "Travel & Transportation",
+      "description": "Learn to talk about transportation, book tickets, navigate airports and stations, handle travel situations, and communicate about itineraries and accommodations."
+    },
+    {
+      "id": "work-jobs",
+      "title": "Work & Jobs",
+      "description": "Learn to talk about jobs, workplaces, hiring, professional life, and employment-related situations in Spanish."
     }
   ]
 }

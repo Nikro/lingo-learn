@@ -3,50 +3,755 @@
   "title": "Daily Routines",
   "description": "Describe your daily schedule using reflexive verbs and time expressions. Learn the vocabulary for morning and evening routines.",
   "vocabulary": [
-    { "id": 1, "target": "despertarse", "source": "to wake up", "gender": "v.", "type": "daily_routine" },
-    { "id": 2, "target": "levantarse", "source": "to get up", "gender": "v.", "type": "daily_routine" },
-    { "id": 3, "target": "ducharse", "source": "to take a shower", "gender": "v.", "type": "daily_routine" },
-    { "id": 4, "target": "cepillarse", "source": "to brush", "gender": "v.", "type": "daily_routine" },
-    { "id": 5, "target": "desayunar", "source": "to have breakfast", "gender": "v.", "type": "daily_routine" },
-    { "id": 6, "target": "almorzar", "source": "to have lunch", "gender": "v.", "type": "daily_routine" },
-    { "id": 7, "target": "cenar", "source": "to have dinner", "gender": "v.", "type": "daily_routine" },
-    { "id": 8, "target": "dormir", "source": "to sleep / to go to sleep", "gender": "v.", "type": "daily_routine" },
-    { "id": 9, "target": "irse a la cama", "source": "to go to bed", "gender": "v.", "type": "daily_routine" },
-    { "id": 10, "target": "trabajar", "source": "to work", "gender": "v.", "type": "daily_routine" },
-    { "id": 11, "target": "estudiar", "source": "to study", "gender": "v.", "type": "daily_routine" },
-    { "id": 12, "target": "la almohada", "source": "pillow", "gender": "f.", "type": "bedroom" },
-    { "id": 13, "target": "la manta", "source": "blanket", "gender": "f.", "type": "bedroom" },
-    { "id": 14, "target": "el despertador", "source": "alarm clock", "gender": "m.", "type": "bedroom" },
-    { "id": 15, "target": "a las siete", "source": "at seven o'clock", "gender": "—", "type": "time_expression" },
-    { "id": 16, "target": "por la mañana", "source": "in the morning", "gender": "—", "type": "time_expression" },
-    { "id": 17, "target": "por la tarde", "source": "in the afternoon", "gender": "—", "type": "time_expression" },
-    { "id": 18, "target": "por la noche", "source": "in the evening / at night", "gender": "—", "type": "time_expression" },
-    { "id": 19, "target": "cada día", "source": "every day", "gender": "—", "type": "time_expression" },
-    { "id": 20, "target": "todos los días", "source": "every day", "gender": "—", "type": "time_expression" },
-    { "id": 21, "target": "el café con leche", "source": "coffee with milk", "gender": "m.", "type": "food" },
-    { "id": 22, "target": "el pan", "source": "bread", "gender": "m.", "type": "food" },
-    { "id": 23, "target": "la mantequilla", "source": "butter", "gender": "f.", "type": "food" },
-    { "id": 24, "target": "el queso", "source": "cheese", "gender": "m.", "type": "food" },
-    { "id": 25, "target": "la fruta", "source": "fruit", "gender": "f.", "type": "food" },
-    { "id": 26, "target": "el yogur", "source": "yogurt", "gender": "m.", "type": "food" },
-    { "id": 27, "target": "acostarse", "source": "to go to bed / to lie down", "gender": "v.", "type": "daily_routine" },
-    { "id": 28, "target": "lavarse las manos", "source": "to wash one's hands", "gender": "v.", "type": "daily_routine" },
-    { "id": 29, "target": "peinarse", "source": "to comb one's hair", "gender": "v.", "type": "daily_routine" },
-    { "id": 30, "target": "vestirse", "source": "to get dressed", "gender": "v.", "type": "daily_routine" }
+    {
+      "id": 1,
+      "target": "despertarse",
+      "source": "to wake up",
+      "gender": "v.",
+      "type": "daily_routine"
+    },
+    {
+      "id": 2,
+      "target": "levantarse",
+      "source": "to get up",
+      "gender": "v.",
+      "type": "daily_routine"
+    },
+    {
+      "id": 3,
+      "target": "ducharse",
+      "source": "to take a shower",
+      "gender": "v.",
+      "type": "daily_routine"
+    },
+    {
+      "id": 4,
+      "target": "cepillarse",
+      "source": "to brush",
+      "gender": "v.",
+      "type": "daily_routine"
+    },
+    {
+      "id": 5,
+      "target": "desayunar",
+      "source": "to have breakfast",
+      "gender": "v.",
+      "type": "daily_routine"
+    },
+    {
+      "id": 6,
+      "target": "almorzar",
+      "source": "to have lunch",
+      "gender": "v.",
+      "type": "daily_routine"
+    },
+    {
+      "id": 7,
+      "target": "cenar",
+      "source": "to have dinner",
+      "gender": "v.",
+      "type": "daily_routine"
+    },
+    {
+      "id": 8,
+      "target": "dormir",
+      "source": "to sleep / to go to sleep",
+      "gender": "v.",
+      "type": "daily_routine"
+    },
+    {
+      "id": 9,
+      "target": "irse a la cama",
+      "source": "to go to bed",
+      "gender": "v.",
+      "type": "daily_routine"
+    },
+    {
+      "id": 10,
+      "target": "trabajar",
+      "source": "to work",
+      "gender": "v.",
+      "type": "daily_routine"
+    },
+    {
+      "id": 11,
+      "target": "estudiar",
+      "source": "to study",
+      "gender": "v.",
+      "type": "daily_routine"
+    },
+    {
+      "id": 12,
+      "target": "la almohada",
+      "source": "pillow",
+      "gender": "f.",
+      "type": "bedroom"
+    },
+    {
+      "id": 13,
+      "target": "la manta",
+      "source": "blanket",
+      "gender": "f.",
+      "type": "bedroom"
+    },
+    {
+      "id": 14,
+      "target": "el despertador",
+      "source": "alarm clock",
+      "gender": "m.",
+      "type": "bedroom"
+    },
+    {
+      "id": 15,
+      "target": "a las siete",
+      "source": "at seven o'clock",
+      "gender": "—",
+      "type": "time_expression"
+    },
+    {
+      "id": 16,
+      "target": "por la mañana",
+      "source": "in the morning",
+      "gender": "—",
+      "type": "time_expression"
+    },
+    {
+      "id": 17,
+      "target": "por la tarde",
+      "source": "in the afternoon",
+      "gender": "—",
+      "type": "time_expression"
+    },
+    {
+      "id": 18,
+      "target": "por la noche",
+      "source": "in the evening / at night",
+      "gender": "—",
+      "type": "time_expression"
+    },
+    {
+      "id": 19,
+      "target": "cada día",
+      "source": "every day",
+      "gender": "—",
+      "type": "time_expression"
+    },
+    {
+      "id": 20,
+      "target": "todos los días",
+      "source": "every day",
+      "gender": "—",
+      "type": "time_expression"
+    },
+    {
+      "id": 21,
+      "target": "el café con leche",
+      "source": "coffee with milk",
+      "gender": "m.",
+      "type": "food"
+    },
+    {
+      "id": 22,
+      "target": "el pan",
+      "source": "bread",
+      "gender": "m.",
+      "type": "food"
+    },
+    {
+      "id": 23,
+      "target": "la mantequilla",
+      "source": "butter",
+      "gender": "f.",
+      "type": "food"
+    },
+    {
+      "id": 24,
+      "target": "el queso",
+      "source": "cheese",
+      "gender": "m.",
+      "type": "food"
+    },
+    {
+      "id": 25,
+      "target": "la fruta",
+      "source": "fruit",
+      "gender": "f.",
+      "type": "food"
+    },
+    {
+      "id": 26,
+      "target": "el yogur",
+      "source": "yogurt",
+      "gender": "m.",
+      "type": "food"
+    },
+    {
+      "id": 27,
+      "target": "acostarse",
+      "source": "to go to bed / to lie down",
+      "gender": "v.",
+      "type": "daily_routine"
+    },
+    {
+      "id": 28,
+      "target": "lavarse las manos",
+      "source": "to wash one's hands",
+      "gender": "v.",
+      "type": "daily_routine"
+    },
+    {
+      "id": 29,
+      "target": "peinarse",
+      "source": "to comb one's hair",
+      "gender": "v.",
+      "type": "daily_routine"
+    },
+    {
+      "id": 30,
+      "target": "vestirse",
+      "source": "to get dressed",
+      "gender": "v.",
+      "type": "daily_routine"
+    },
+    {
+      "id": 31,
+      "target": "agosto",
+      "source": "August",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 32,
+      "target": "septiembre",
+      "source": "September",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 33,
+      "target": "octubre",
+      "source": "October",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 34,
+      "target": "noviembre",
+      "source": "November",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 35,
+      "target": "diciembre",
+      "source": "December",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 36,
+      "target": "primavera",
+      "source": "spring",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 37,
+      "target": "verano",
+      "source": "summer",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 38,
+      "target": "otoño",
+      "source": "autumn / fall",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 39,
+      "target": "invierno",
+      "source": "winter",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 40,
+      "target": "mediodía",
+      "source": "midday / noon",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 41,
+      "target": "medianoche",
+      "source": "midnight",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 42,
+      "target": "mañana",
+      "source": "morning",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 43,
+      "target": "puesta del sol",
+      "source": "sunset",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 44,
+      "target": "amanecer",
+      "source": "sunrise",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 45,
+      "target": "despertador",
+      "source": "alarm clock",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 46,
+      "target": "calendario",
+      "source": "calendar",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 47,
+      "target": "reloj",
+      "source": "clock / watch",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 48,
+      "target": "cronómetro",
+      "source": "stopwatch",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 49,
+      "target": "retraso",
+      "source": "delay",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 50,
+      "target": "puntuál",
+      "source": "punctual",
+      "gender": "m",
+      "type": "adjective"
+    },
+    {
+      "id": 51,
+      "target": "temprano",
+      "source": "early",
+      "gender": "m",
+      "type": "adjective"
+    },
+    {
+      "id": 52,
+      "target": "tarde",
+      "source": "late",
+      "gender": "m",
+      "type": "adjective"
+    },
+    {
+      "id": 53,
+      "target": "pronto",
+      "source": "soon / early",
+      "gender": "m",
+      "type": "adverb"
+    },
+    {
+      "id": 54,
+      "target": "siempre",
+      "source": "always",
+      "gender": null,
+      "type": "adverb"
+    },
+    {
+      "id": 55,
+      "target": "nunca",
+      "source": "never",
+      "gender": null,
+      "type": "adverb"
+    },
+    {
+      "id": 56,
+      "target": "a veces",
+      "source": "sometimes",
+      "gender": null,
+      "type": "adverb"
+    },
+    {
+      "id": 57,
+      "target": "a menudo",
+      "source": "often",
+      "gender": null,
+      "type": "adverb"
+    },
+    {
+      "id": 58,
+      "target": "frecuentemente",
+      "source": "frequently",
+      "gender": null,
+      "type": "adverb"
+    },
+    {
+      "id": 59,
+      "target": "cada día",
+      "source": "every day",
+      "gender": null,
+      "type": "adverb"
+    },
+    {
+      "id": 60,
+      "target": "todos los días",
+      "source": "every day (repeated)",
+      "gender": null,
+      "type": "adverb"
+    },
+    {
+      "id": 61,
+      "target": "esta semana",
+      "source": "this week",
+      "gender": null,
+      "type": "adverb"
+    },
+    {
+      "id": 62,
+      "target": "la próxima semana",
+      "source": "next week",
+      "gender": null,
+      "type": "adverb"
+    },
+    {
+      "id": 63,
+      "target": "la semana pasada",
+      "source": "last week",
+      "gender": null,
+      "type": "adverb"
+    },
+    {
+      "id": 64,
+      "target": "este mes",
+      "source": "this month",
+      "gender": null,
+      "type": "adverb"
+    },
+    {
+      "id": 65,
+      "target": "el próximo mes",
+      "source": "next month",
+      "gender": null,
+      "type": "adverb"
+    },
+    {
+      "id": 66,
+      "target": "el mes pasado",
+      "source": "last month",
+      "gender": null,
+      "type": "adverb"
+    },
+    {
+      "id": 67,
+      "target": "este año",
+      "source": "this year",
+      "gender": null,
+      "type": "adverb"
+    },
+    {
+      "id": 68,
+      "target": "el próximo año",
+      "source": "next year",
+      "gender": null,
+      "type": "adverb"
+    },
+    {
+      "id": 69,
+      "target": "hace + tiempo",
+      "source": "ago (time expression)",
+      "gender": null,
+      "type": "phrase"
+    },
+    {
+      "id": 70,
+      "target": "dentro de + tiempo",
+      "source": "in + time (future)",
+      "gender": null,
+      "type": "phrase"
+    },
+    {
+      "id": 71,
+      "target": "durante",
+      "source": "during",
+      "gender": null,
+      "type": "preposition"
+    },
+    {
+      "id": 72,
+      "target": "desde",
+      "source": "since / from",
+      "gender": null,
+      "type": "preposition"
+    },
+    {
+      "id": 73,
+      "target": "hasta",
+      "source": "until / up to",
+      "gender": null,
+      "type": "preposition"
+    },
+    {
+      "id": 74,
+      "target": "entre",
+      "source": "between",
+      "gender": null,
+      "type": "preposition"
+    },
+    {
+      "id": 75,
+      "target": "en punto",
+      "source": "sharp (on the hour)",
+      "gender": null,
+      "type": "adverb"
+    },
+    {
+      "id": 76,
+      "target": "y",
+      "source": "and (time connector)",
+      "gender": null,
+      "type": "conjunction"
+    },
+    {
+      "id": 77,
+      "target": "menos",
+      "source": "less / to (time)",
+      "gender": null,
+      "type": "preposition"
+    },
+    {
+      "id": 78,
+      "target": "cuarto",
+      "source": "quarter (of an hour)",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 79,
+      "target": "media",
+      "source": "half (of an hour)",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 80,
+      "target": "mediodía",
+      "source": "noon / midday",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 81,
+      "target": "desayuno",
+      "source": "breakfast",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 82,
+      "target": "almuerzo",
+      "source": "lunch",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 83,
+      "target": "cena",
+      "source": "dinner",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 84,
+      "target": "acostarse",
+      "source": "to go to bed",
+      "gender": "m",
+      "type": "verb"
+    },
+    {
+      "id": 85,
+      "target": "despertarse",
+      "source": "to wake up",
+      "gender": "m",
+      "type": "verb"
+    },
+    {
+      "id": 86,
+      "target": "esperar",
+      "source": "to wait",
+      "gender": "m",
+      "type": "verb"
+    },
+    {
+      "id": 87,
+      "target": "perderse",
+      "source": "to miss (transport)",
+      "gender": "m",
+      "type": "verb"
+    },
+    {
+      "id": 88,
+      "target": "llegar",
+      "source": "to arrive",
+      "gender": "m",
+      "type": "verb"
+    },
+    {
+      "id": 89,
+      "target": "salir",
+      "source": "to leave / go out",
+      "gender": "m",
+      "type": "verb"
+    },
+    {
+      "id": 90,
+      "target": "empezar",
+      "source": "to begin",
+      "gender": "m",
+      "type": "verb"
+    },
+    {
+      "id": 91,
+      "target": "terminar",
+      "source": "to finish / end",
+      "gender": "m",
+      "type": "verb"
+    },
+    {
+      "id": 92,
+      "target": "pronto",
+      "source": "soon",
+      "gender": null,
+      "type": "adverb"
+    },
+    {
+      "id": 93,
+      "target": "último",
+      "source": "last (most recent)",
+      "gender": "m",
+      "type": "adjective"
+    },
+    {
+      "id": 94,
+      "target": "próximo",
+      "source": "next",
+      "gender": "m",
+      "type": "adjective"
+    },
+    {
+      "id": 95,
+      "target": "pasado",
+      "source": "past / last",
+      "gender": "m",
+      "type": "adjective"
+    },
+    {
+      "id": 96,
+      "target": "fecha",
+      "source": "date",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 97,
+      "target": "cumpleaños",
+      "source": "birthday",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 98,
+      "target": "feriado",
+      "source": "holiday / day off",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 99,
+      "target": "vacaciones",
+      "source": "vacation / holidays",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 100,
+      "target": "trabajo",
+      "source": "work / job",
+      "gender": "m",
+      "type": "noun"
+    }
   ],
   "grammar": [
     {
       "title": "Reflexive Verbs in the Present",
       "content": "Reflexive verbs describe actions that the subject does to themselves. They are formed with a reflexive pronoun (me, te, se, nos, os, se) + the verb conjugation.\n\nReflexive pronouns:\n- me (myself)\n- te (yourself, informal)\n- se (himself/herself/itself/yourselves formal)\n- nos (ourselves)\n- os (yourselves, Spain informal)\n- se (themselves/yourselves formal)\n\nExample: 'Me despierto a las seis' (I wake up at six).\n\nConjugation of 'despertarse' in the present:\n- yo me despierto\n- tú te despiertas\n- él/ella/usted se despierta\n- nosotros nos despertamos\n- vosotros os despertáis\n- ellos/ellas/ustedes se despiertan",
       "table": {
-        "headers": ["Pronoun", "Despertarse", "Levantarse", "Ducharse"],
+        "headers": [
+          "Pronoun",
+          "Despertarse",
+          "Levantarse",
+          "Ducharse"
+        ],
         "rows": [
-          ["yo", "me despierto", "me levanto", "me ducho"],
-          ["tú", "te despiertas", "te levantas", "te duchas"],
-          ["él/ella/usted", "se despierta", "se levanta", "se ducha"],
-          ["nosotros", "nos despertamos", "nos levantamos", "nos duchamos"],
-          ["vosotros", "os despertáis", "os levantáis", "os ducháis"],
-          ["ellos/ellas/ustedes", "se despiertan", "se levantan", "se duchan"]
+          [
+            "yo",
+            "me despierto",
+            "me levanto",
+            "me ducho"
+          ],
+          [
+            "tú",
+            "te despiertas",
+            "te levantas",
+            "te duchas"
+          ],
+          [
+            "él/ella/usted",
+            "se despierta",
+            "se levanta",
+            "se ducha"
+          ],
+          [
+            "nosotros",
+            "nos despertamos",
+            "nos levantamos",
+            "nos duchamos"
+          ],
+          [
+            "vosotros",
+            "os despertáis",
+            "os levantáis",
+            "os ducháis"
+          ],
+          [
+            "ellos/ellas/ustedes",
+            "se despiertan",
+            "se levantan",
+            "se duchan"
+          ]
         ]
       },
       "examples": [
@@ -63,10 +768,22 @@
       "title": "The Rolled R vs Single R",
       "content": "Spanish has a single tap /r/ and a rolled trill /rr/. Understanding the difference is key to being understood.\n\nSingle /r/ (tap — one quick flash of the tongue):\n- Between vowels: caro (expensive), perro (dog)\n- At the start of a word: rojo (red), ramo (bunch)\n- After consonants: azul (blue)\n\nDouble /rr/ or R at the start of a word (trill — multiple rapid flashes):\n- Between vowels: perro (dog), cerveza (beer)\n- At the start: rojo (red), Romeo\n\nTip: The rolled R requires airflow — place your tongue tip behind your upper teeth and blow air. It's like the sound a motor makes.",
       "examples": [
-        { "target": "perro", "source": "dog (rolled R at start)" },
-        { "target": "cerveza", "source": "beer (double R = rolled)" },
-        { "target": "cara", "source": "face (single tap between vowels)" },
-        { "target": "rojo", "source": "red (rolled R at start)" }
+        {
+          "target": "perro",
+          "source": "dog (rolled R at start)"
+        },
+        {
+          "target": "cerveza",
+          "source": "beer (double R = rolled)"
+        },
+        {
+          "target": "cara",
+          "source": "face (single tap between vowels)"
+        },
+        {
+          "target": "rojo",
+          "source": "red (rolled R at start)"
+        }
       ],
       "aid_note": "Romanian also has a single 'r' sound that's similar to the Spanish tap. The rolled trill is an extra skill — practice with words like 'perro' (dog) vs 'pero' (but)."
     }
@@ -76,18 +793,38 @@
       "type": "matching",
       "question": "Match each Spanish daily routine verb with its English meaning:",
       "pairs": [
-        { "target": "despertarse", "source": "to wake up" },
-        { "target": "levantarse", "source": "to get up" },
-        { "target": "ducharse", "source": "to take a shower" },
-        { "target": "desayunar", "source": "to have breakfast" },
-        { "target": "cenar", "source": "to have dinner" }
+        {
+          "target": "despertarse",
+          "source": "to wake up"
+        },
+        {
+          "target": "levantarse",
+          "source": "to get up"
+        },
+        {
+          "target": "ducharse",
+          "source": "to take a shower"
+        },
+        {
+          "target": "desayunar",
+          "source": "to have breakfast"
+        },
+        {
+          "target": "cenar",
+          "source": "to have dinner"
+        }
       ],
       "explanation": "These reflexive and regular verbs are key for describing your daily routine."
     },
     {
       "type": "exercise",
       "question": "What is the reflexive pronoun for 'nosotros'?",
-      "options": ["se", "nos", "nosotros", "nosotras"],
+      "options": [
+        "se",
+        "nos",
+        "nosotros",
+        "nosotras"
+      ],
       "correct": 1,
       "explanation": "'Nos' is the reflexive pronoun for nosotros: 'Nos levantamos a las siete' (We get up at seven)."
     },
@@ -106,7 +843,12 @@
     {
       "type": "exercise",
       "question": "Which of these is a reflexive verb for daily routine?",
-      "options": ["comer", "hablar", "despertarse", "trabajar"],
+      "options": [
+        "comer",
+        "hablar",
+        "despertarse",
+        "trabajar"
+      ],
       "correct": 2,
       "explanation": "'Despertarse' (to wake up) is reflexive — the action reflects back on the subject: yo me despierto."
     },
@@ -114,10 +856,22 @@
       "type": "matching",
       "question": "Match the breakfast items:",
       "pairs": [
-        { "target": "el café con leche", "source": "coffee with milk" },
-        { "target": "el pan", "source": "bread" },
-        { "target": "el yogur", "source": "yogurt" },
-        { "target": "la fruta", "source": "fruit" }
+        {
+          "target": "el café con leche",
+          "source": "coffee with milk"
+        },
+        {
+          "target": "el pan",
+          "source": "bread"
+        },
+        {
+          "target": "el yogur",
+          "source": "yogurt"
+        },
+        {
+          "target": "la fruta",
+          "source": "fruit"
+        }
       ],
       "explanation": "These are common breakfast items you'll encounter in a Spanish-speaking household."
     },

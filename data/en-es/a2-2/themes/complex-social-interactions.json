@@ -4,106 +4,706 @@
   "title": "Complex Social Interactions",
   "description": "Navigate social situations with confidence. Express opinions, negotiate, persuade, and use proper etiquette in Spanish-speaking environments. Master the conditional for polite suggestions, the present subjunctive for opinions, and connectors to structure arguments.",
   "vocabulary": [
-    {"id": 1, "target": "la opinión", "source": "opinion", "gender": "f", "type": "noun"},
-    {"id": 2, "target": "estar de acuerdo", "source": "to agree", "gender": "—", "type": "phrase"},
-    {"id": 3, "target": "estar en desacuerdo", "source": "to disagree", "gender": "—", "type": "phrase"},
-    {"id": 4, "target": "pensar que", "source": "to think that", "gender": "—", "type": "phrase"},
-    {"id": 5, "target": "creer que", "source": "to believe that", "gender": "—", "type": "phrase"},
-    {"id": 6, "target": "considerar que", "source": "to consider that", "gender": "—", "type": "phrase"},
-    {"id": 7, "target": "la sugerencia", "source": "suggestion", "gender": "f", "type": "noun"},
-    {"id": 8, "target": "sugerir", "source": "to suggest", "gender": "v", "type": "verb"},
-    {"id": 9, "target": "proponer", "source": "to propose", "gender": "v", "type": "verb"},
-    {"id": 10, "target": "el acuerdo", "source": "agreement", "gender": "m", "type": "noun"},
-    {"id": 11, "target": "llegar a un acuerdo", "source": "to reach an agreement", "gender": "—", "type": "phrase"},
-    {"id": 12, "target": "negociar", "source": "to negotiate", "gender": "v", "type": "verb"},
-    {"id": 13, "target": "la negociación", "source": "negotiation", "gender": "f", "type": "noun"},
-    {"id": 14, "target": "la propuesta", "source": "proposal", "gender": "f", "type": "noun"},
-    {"id": 15, "target": "rechazar", "source": "to reject", "gender": "v", "type": "verb"},
-    {"id": 16, "target": "aceptar", "source": "to accept", "gender": "v", "type": "verb"},
-    {"id": 17, "target": "el compromiso", "source": "compromise", "gender": "m", "type": "noun"},
-    {"id": 18, "target": "llegar a un compromiso", "source": "to reach a compromise", "gender": "—", "type": "phrase"},
-    {"id": 19, "target": "persuadir", "source": "to persuade", "gender": "v", "type": "verb"},
-    {"id": 20, "target": "convencer", "source": "to convince", "gender": "v", "type": "verb"},
-    {"id": 21, "target": "la razón", "source": "reason", "gender": "f", "type": "noun"},
-    {"id": 22, "target": "dar razones", "source": "to give reasons", "gender": "—", "type": "phrase"},
-    {"id": 23, "target": "el argumento", "source": "argument / point", "gender": "m", "type": "noun"},
-    {"id": 24, "target": "argumentar", "source": "to argue (give reasons)", "gender": "v", "type": "verb"},
-    {"id": 25, "target": "la etiqueta", "source": "etiquette", "gender": "f", "type": "noun"},
-    {"id": 26, "target": "el protocolo", "source": "protocol", "gender": "m", "type": "noun"},
-    {"id": 27, "target": "ser educado", "source": "to be polite", "gender": "—", "type": "phrase"},
-    {"id": 28, "target": "la cortesía", "source": "courtesy", "gender": "f", "type": "noun"},
-    {"id": 29, "target": "por favor", "source": "please", "gender": "—", "type": "phrase"},
-    {"id": 30, "target": "gracias / muchísimas gracias", "source": "thanks / thank you very much", "gender": "—", "type": "phrase"},
-    {"id": 31, "target": "de nada", "source": "you're welcome", "gender": "—", "type": "phrase"},
-    {"id": 32, "target": "perdón / disculpe", "source": "excuse me / sorry", "gender": "—", "type": "phrase"},
-    {"id": 33, "target": "la disculpa", "source": "apology", "gender": "f", "type": "noun"},
-    {"id": 34, "target": "disculparse", "source": "to apologize", "gender": "v", "type": "verb"},
-    {"id": 35, "target": "presentarse", "source": "to introduce oneself", "gender": "—", "type": "phrase"},
-    {"id": 36, "target": "conocerse", "source": "to get to know each other", "gender": "—", "type": "phrase"},
-    {"id": 37, "target": "el saludo", "source": "greeting", "gender": "m", "type": "noun"},
-    {"id": 38, "target": "el brindis", "source": "toast", "gender": "m", "type": "noun"},
-    {"id": 39, "target": "brindar por", "source": "to toast to", "gender": "—", "type": "phrase"},
-    {"id": 40, "target": "el convite", "source": "invitation", "gender": "m", "type": "noun"},
-    {"id": 41, "target": "aceptar un convite", "source": "to accept an invitation", "gender": "—", "type": "phrase"},
-    {"id": 42, "target": "rechazar una invitación", "source": "to decline an invitation", "gender": "—", "type": "phrase"},
-    {"id": 43, "target": "la fiesta", "source": "party", "gender": "f", "type": "noun"},
-    {"id": 44, "target": "la reunión", "source": "meeting / gathering", "gender": "f", "type": "noun"},
-    {"id": 45, "target": "el evento", "source": "event", "gender": "m", "type": "noun"},
-    {"id": 46, "target": "la cena", "source": "dinner", "gender": "f", "type": "noun"},
-    {"id": 47, "target": "el anfitrión / la anfitriona", "source": "host / hostess", "gender": "m/f", "type": "noun"},
-    {"id": 48, "target": "el huésped", "source": "guest", "gender": "m", "type": "noun"},
-    {"id": 49, "target": "llevar un detalle", "source": "to bring a small gift", "gender": "—", "type": "phrase"},
-    {"id": 50, "target": "el regalo", "source": "gift", "gender": "m", "type": "noun"},
-    {"id": 51, "target": "la invitación", "source": "invitation", "gender": "f", "type": "noun"},
-    {"id": 52, "target": "la mesa", "source": "table (for seating)", "gender": "f", "type": "noun"},
-    {"id": 53, "target": "sentarse a la mesa", "source": "to sit at the table", "gender": "—", "type": "phrase"},
-    {"id": 54, "target": "la servilleta", "source": "napkin", "gender": "f", "type": "noun"},
-    {"id": 55, "target": "el cubierto", "source": "cutlery", "gender": "m", "type": "noun"},
-    {"id": 56, "target": "el tenedor", "source": "fork", "gender": "m", "type": "noun"},
-    {"id": 57, "target": "el cuchillo", "source": "knife", "gender": "m", "type": "noun"},
-    {"id": 58, "target": "la cuchara", "source": "spoon", "gender": "f", "type": "noun"},
-    {"id": 59, "target": "el plato principal", "source": "main course", "gender": "m", "type": "phrase"},
-    {"id": 60, "target": "el postre", "source": "dessert", "gender": "m", "type": "noun"},
-    {"id": 61, "target": "la cuenta, por favor", "source": "the check, please", "gender": "—", "type": "phrase"},
-    {"id": 62, "target": "propinar", "source": "to tip", "gender": "v", "type": "verb"},
-    {"id": 63, "target": "la propina", "source": "tip", "gender": "f", "type": "noun"},
-    {"id": 64, "target": "el turno de palabra", "source": "turn to speak", "gender": "m", "type": "phrase"},
-    {"id": 65, "target": "interrumpir", "source": "to interrupt", "gender": "v", "type": "verb"},
-    {"id": 66, "target": "la conversación", "source": "conversation", "gender": "f", "type": "noun"},
-    {"id": 67, "target": "cambiar de tema", "source": "to change the subject", "gender": "—", "type": "phrase"},
-    {"id": 68, "target": "el tema", "source": "topic / theme", "gender": "m", "type": "noun"},
-    {"id": 69, "target": "hablar de", "source": "to talk about", "gender": "—", "type": "phrase"},
-    {"id": 70, "target": "escuchar", "source": "to listen", "gender": "v", "type": "verb"},
-    {"id": 71, "target": "prestar atención", "source": "to pay attention", "gender": "—", "type": "phrase"},
-    {"id": 72, "target": "el consejo", "source": "advice", "gender": "m", "type": "noun"},
-    {"id": 73, "target": "consejar", "source": "to advise", "gender": "v", "type": "verb"},
-    {"id": 74, "target": "pedir consejo", "source": "to ask for advice", "gender": "—", "type": "phrase"},
-    {"id": 75, "target": "la queja", "source": "complaint", "gender": "f", "type": "noun"},
-    {"id": 76, "target": "reclamar", "source": "to complain / claim", "gender": "v", "type": "verb"},
-    {"id": 77, "target": "quejarse de", "source": "to complain about", "gender": "—", "type": "phrase"},
-    {"id": 78, "target": "resolver un problema", "source": "to solve a problem", "gender": "—", "type": "phrase"},
-    {"id": 79, "target": "estar en contra de", "source": "to be against", "gender": "—", "type": "phrase"},
-    {"id": 80, "target": "estar a favor de", "source": "to be in favor of", "gender": "—", "type": "phrase"},
-    {"id": 81, "target": "la postura", "source": "position / stance", "gender": "f", "type": "noun"},
-    {"id": 82, "target": "modificar la opinión", "source": "to change one's opinion", "gender": "—", "type": "phrase"},
-    {"id": 83, "target": "convencer a alguien", "source": "to convince someone", "gender": "—", "type": "phrase"},
-    {"id": 84, "target": "el favor", "source": "favor", "gender": "m", "type": "noun"},
-    {"id": 85, "target": "hacer un favor", "source": "to do a favor", "gender": "—", "type": "phrase"},
-    {"id": 86, "target": "pedir un favor", "source": "to ask for a favor", "gender": "—", "type": "phrase"},
-    {"id": 87, "target": "el trato", "source": "deal / agreement", "gender": "m", "type": "noun"},
-    {"id": 88, "target": "hacer un trato", "source": "to make a deal", "gender": "—", "type": "phrase"},
-    {"id": 89, "target": "la promesa", "source": "promise", "gender": "f", "type": "noun"},
-    {"id": 90, "target": "cumplir una promesa", "source": "to keep a promise", "gender": "—", "type": "phrase"},
-    {"id": 91, "target": "romper una promesa", "source": "to break a promise", "gender": "—", "type": "phrase"},
-    {"id": 92, "target": "respetar", "source": "to respect", "gender": "v", "type": "verb"},
-    {"id": 93, "target": "el respeto", "source": "respect", "gender": "m", "type": "noun"},
-    {"id": 94, "target": "la confianza", "source": "trust / confidence", "gender": "f", "type": "noun"},
-    {"id": 95, "target": "ganarse la confianza", "source": "to earn someone's trust", "gender": "—", "type": "phrase"},
-    {"id": 96, "target": "la amistad", "source": "friendship", "gender": "f", "type": "noun"},
-    {"id": 97, "target": "ser buen amigo", "source": "to be a good friend", "gender": "—", "type": "phrase"},
-    {"id": 98, "target": "la relación", "source": "relationship", "gender": "f", "type": "noun"},
-    {"id": 99, "target": "mantener una relación", "source": "to maintain a relationship", "gender": "—", "type": "phrase"},
-    {"id": 100, "target": "el lazo social", "source": "social bond", "gender": "m", "type": "phrase"}
+    {
+      "id": 1,
+      "target": "la opinión",
+      "source": "opinion",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 2,
+      "target": "estar de acuerdo",
+      "source": "to agree",
+      "gender": "—",
+      "type": "phrase"
+    },
+    {
+      "id": 3,
+      "target": "estar en desacuerdo",
+      "source": "to disagree",
+      "gender": "—",
+      "type": "phrase"
+    },
+    {
+      "id": 4,
+      "target": "pensar que",
+      "source": "to think that",
+      "gender": "—",
+      "type": "phrase"
+    },
+    {
+      "id": 5,
+      "target": "creer que",
+      "source": "to believe that",
+      "gender": "—",
+      "type": "phrase"
+    },
+    {
+      "id": 6,
+      "target": "considerar que",
+      "source": "to consider that",
+      "gender": "—",
+      "type": "phrase"
+    },
+    {
+      "id": 7,
+      "target": "la sugerencia",
+      "source": "suggestion",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 8,
+      "target": "sugerir",
+      "source": "to suggest",
+      "gender": "v",
+      "type": "verb"
+    },
+    {
+      "id": 9,
+      "target": "proponer",
+      "source": "to propose",
+      "gender": "v",
+      "type": "verb"
+    },
+    {
+      "id": 10,
+      "target": "el acuerdo",
+      "source": "agreement",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 11,
+      "target": "llegar a un acuerdo",
+      "source": "to reach an agreement",
+      "gender": "—",
+      "type": "phrase"
+    },
+    {
+      "id": 12,
+      "target": "negociar",
+      "source": "to negotiate",
+      "gender": "v",
+      "type": "verb"
+    },
+    {
+      "id": 13,
+      "target": "la negociación",
+      "source": "negotiation",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 14,
+      "target": "la propuesta",
+      "source": "proposal",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 15,
+      "target": "rechazar",
+      "source": "to reject",
+      "gender": "v",
+      "type": "verb"
+    },
+    {
+      "id": 16,
+      "target": "aceptar",
+      "source": "to accept",
+      "gender": "v",
+      "type": "verb"
+    },
+    {
+      "id": 17,
+      "target": "el compromiso",
+      "source": "compromise",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 18,
+      "target": "llegar a un compromiso",
+      "source": "to reach a compromise",
+      "gender": "—",
+      "type": "phrase"
+    },
+    {
+      "id": 19,
+      "target": "persuadir",
+      "source": "to persuade",
+      "gender": "v",
+      "type": "verb"
+    },
+    {
+      "id": 20,
+      "target": "convencer",
+      "source": "to convince",
+      "gender": "v",
+      "type": "verb"
+    },
+    {
+      "id": 21,
+      "target": "la razón",
+      "source": "reason",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 22,
+      "target": "dar razones",
+      "source": "to give reasons",
+      "gender": "—",
+      "type": "phrase"
+    },
+    {
+      "id": 23,
+      "target": "el argumento",
+      "source": "argument / point",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 24,
+      "target": "argumentar",
+      "source": "to argue (give reasons)",
+      "gender": "v",
+      "type": "verb"
+    },
+    {
+      "id": 25,
+      "target": "la etiqueta",
+      "source": "etiquette",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 26,
+      "target": "el protocolo",
+      "source": "protocol",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 27,
+      "target": "ser educado",
+      "source": "to be polite",
+      "gender": "—",
+      "type": "phrase"
+    },
+    {
+      "id": 28,
+      "target": "la cortesía",
+      "source": "courtesy",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 29,
+      "target": "por favor",
+      "source": "please",
+      "gender": "—",
+      "type": "phrase"
+    },
+    {
+      "id": 30,
+      "target": "gracias / muchísimas gracias",
+      "source": "thanks / thank you very much",
+      "gender": "—",
+      "type": "phrase"
+    },
+    {
+      "id": 31,
+      "target": "de nada",
+      "source": "you're welcome",
+      "gender": "—",
+      "type": "phrase"
+    },
+    {
+      "id": 32,
+      "target": "perdón / disculpe",
+      "source": "excuse me / sorry",
+      "gender": "—",
+      "type": "phrase"
+    },
+    {
+      "id": 33,
+      "target": "la disculpa",
+      "source": "apology",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 34,
+      "target": "disculparse",
+      "source": "to apologize",
+      "gender": "v",
+      "type": "verb"
+    },
+    {
+      "id": 35,
+      "target": "presentarse",
+      "source": "to introduce oneself",
+      "gender": "—",
+      "type": "phrase"
+    },
+    {
+      "id": 36,
+      "target": "conocerse",
+      "source": "to get to know each other",
+      "gender": "—",
+      "type": "phrase"
+    },
+    {
+      "id": 37,
+      "target": "el saludo",
+      "source": "greeting",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 38,
+      "target": "el brindis",
+      "source": "toast",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 39,
+      "target": "brindar por",
+      "source": "to toast to",
+      "gender": "—",
+      "type": "phrase"
+    },
+    {
+      "id": 40,
+      "target": "el convite",
+      "source": "invitation",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 41,
+      "target": "aceptar un convite",
+      "source": "to accept an invitation",
+      "gender": "—",
+      "type": "phrase"
+    },
+    {
+      "id": 42,
+      "target": "rechazar una invitación",
+      "source": "to decline an invitation",
+      "gender": "—",
+      "type": "phrase"
+    },
+    {
+      "id": 43,
+      "target": "la fiesta",
+      "source": "party",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 44,
+      "target": "la reunión",
+      "source": "meeting / gathering",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 45,
+      "target": "el evento",
+      "source": "event",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 46,
+      "target": "la cena",
+      "source": "dinner",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 47,
+      "target": "el anfitrión / la anfitriona",
+      "source": "host / hostess",
+      "gender": "m/f",
+      "type": "noun"
+    },
+    {
+      "id": 48,
+      "target": "el huésped",
+      "source": "guest",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 49,
+      "target": "llevar un detalle",
+      "source": "to bring a small gift",
+      "gender": "—",
+      "type": "phrase"
+    },
+    {
+      "id": 50,
+      "target": "el regalo",
+      "source": "gift",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 51,
+      "target": "la invitación",
+      "source": "invitation",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 52,
+      "target": "la mesa",
+      "source": "table (for seating)",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 53,
+      "target": "sentarse a la mesa",
+      "source": "to sit at the table",
+      "gender": "—",
+      "type": "phrase"
+    },
+    {
+      "id": 54,
+      "target": "la servilleta",
+      "source": "napkin",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 55,
+      "target": "el cubierto",
+      "source": "cutlery",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 56,
+      "target": "el tenedor",
+      "source": "fork",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 57,
+      "target": "el cuchillo",
+      "source": "knife",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 58,
+      "target": "la cuchara",
+      "source": "spoon",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 59,
+      "target": "el plato principal",
+      "source": "main course",
+      "gender": "m",
+      "type": "phrase"
+    },
+    {
+      "id": 60,
+      "target": "el postre",
+      "source": "dessert",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 61,
+      "target": "la cuenta, por favor",
+      "source": "the check, please",
+      "gender": "—",
+      "type": "phrase"
+    },
+    {
+      "id": 62,
+      "target": "propinar",
+      "source": "to tip",
+      "gender": "v",
+      "type": "verb"
+    },
+    {
+      "id": 63,
+      "target": "la propina",
+      "source": "tip",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 64,
+      "target": "el turno de palabra",
+      "source": "turn to speak",
+      "gender": "m",
+      "type": "phrase"
+    },
+    {
+      "id": 65,
+      "target": "interrumpir",
+      "source": "to interrupt",
+      "gender": "v",
+      "type": "verb"
+    },
+    {
+      "id": 66,
+      "target": "la conversación",
+      "source": "conversation",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 67,
+      "target": "cambiar de tema",
+      "source": "to change the subject",
+      "gender": "—",
+      "type": "phrase"
+    },
+    {
+      "id": 68,
+      "target": "el tema",
+      "source": "topic / theme",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 69,
+      "target": "hablar de",
+      "source": "to talk about",
+      "gender": "—",
+      "type": "phrase"
+    },
+    {
+      "id": 70,
+      "target": "escuchar",
+      "source": "to listen",
+      "gender": "v",
+      "type": "verb"
+    },
+    {
+      "id": 71,
+      "target": "prestar atención",
+      "source": "to pay attention",
+      "gender": "—",
+      "type": "phrase"
+    },
+    {
+      "id": 72,
+      "target": "el consejo",
+      "source": "advice",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 73,
+      "target": "consejar",
+      "source": "to advise",
+      "gender": "v",
+      "type": "verb"
+    },
+    {
+      "id": 74,
+      "target": "pedir consejo",
+      "source": "to ask for advice",
+      "gender": "—",
+      "type": "phrase"
+    },
+    {
+      "id": 75,
+      "target": "la queja",
+      "source": "complaint",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 76,
+      "target": "reclamar",
+      "source": "to complain / claim",
+      "gender": "v",
+      "type": "verb"
+    },
+    {
+      "id": 77,
+      "target": "quejarse de",
+      "source": "to complain about",
+      "gender": "—",
+      "type": "phrase"
+    },
+    {
+      "id": 78,
+      "target": "resolver un problema",
+      "source": "to solve a problem",
+      "gender": "—",
+      "type": "phrase"
+    },
+    {
+      "id": 79,
+      "target": "estar en contra de",
+      "source": "to be against",
+      "gender": "—",
+      "type": "phrase"
+    },
+    {
+      "id": 80,
+      "target": "estar a favor de",
+      "source": "to be in favor of",
+      "gender": "—",
+      "type": "phrase"
+    },
+    {
+      "id": 81,
+      "target": "la postura",
+      "source": "position / stance",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 82,
+      "target": "modificar la opinión",
+      "source": "to change one's opinion",
+      "gender": "—",
+      "type": "phrase"
+    },
+    {
+      "id": 83,
+      "target": "convencer a alguien",
+      "source": "to convince someone",
+      "gender": "—",
+      "type": "phrase"
+    },
+    {
+      "id": 84,
+      "target": "el favor",
+      "source": "favor",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 85,
+      "target": "hacer un favor",
+      "source": "to do a favor",
+      "gender": "—",
+      "type": "phrase"
+    },
+    {
+      "id": 86,
+      "target": "pedir un favor",
+      "source": "to ask for a favor",
+      "gender": "—",
+      "type": "phrase"
+    },
+    {
+      "id": 87,
+      "target": "el trato",
+      "source": "deal / agreement",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 88,
+      "target": "hacer un trato",
+      "source": "to make a deal",
+      "gender": "—",
+      "type": "phrase"
+    },
+    {
+      "id": 89,
+      "target": "la promesa",
+      "source": "promise",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 90,
+      "target": "cumplir una promesa",
+      "source": "to keep a promise",
+      "gender": "—",
+      "type": "phrase"
+    },
+    {
+      "id": 91,
+      "target": "romper una promesa",
+      "source": "to break a promise",
+      "gender": "—",
+      "type": "phrase"
+    },
+    {
+      "id": 92,
+      "target": "respetar",
+      "source": "to respect",
+      "gender": "v",
+      "type": "verb"
+    },
+    {
+      "id": 93,
+      "target": "el respeto",
+      "source": "respect",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 94,
+      "target": "la confianza",
+      "source": "trust / confidence",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 95,
+      "target": "ganarse la confianza",
+      "source": "to earn someone's trust",
+      "gender": "—",
+      "type": "phrase"
+    },
+    {
+      "id": 96,
+      "target": "la amistad",
+      "source": "friendship",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 97,
+      "target": "ser buen amigo",
+      "source": "to be a good friend",
+      "gender": "—",
+      "type": "phrase"
+    },
+    {
+      "id": 98,
+      "target": "la relación",
+      "source": "relationship",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 99,
+      "target": "mantener una relación",
+      "source": "to maintain a relationship",
+      "gender": "—",
+      "type": "phrase"
+    },
+    {
+      "id": 100,
+      "target": "el lazo social",
+      "source": "social bond",
+      "gender": "m",
+      "type": "phrase"
+    }
   ],
   "grammar": [
     {
@@ -137,6 +737,39 @@
         "Es importante que vengan, ya que tenemos decisiones que tomar. (It's important that they come, since we have decisions to make.)",
         "No estoy de acuerdo contigo, pero respeto tu opinión. (I disagree with you, but I respect your opinion.)",
         "En conclusión, creo que deberíamos aceptar la propuesta. (In conclusion, I think we should accept the proposal.)"
+      ]
+    },
+    {
+      "title": "Conditional Tense for Hypothetical Political Situations",
+      "content": "The conditional tense is used to talk about hypothetical situations, polite requests, and what someone would do in a certain situation — very common in political discourse:\n\nFormation (regular): infinitive + endings\n-ía, -ías, -ía, -íamos, -íais, -ían\n\nConditional of regular verbs:\ncambiar → cambiaría, cambiarías, cambiaría, cambiaríamos, cambiaríais, cambiarían\nvotar → votaría, votarías, votaría, votaríamos, votaríais, votarían\nmejorar → mejoraría, mejorarías, mejoraría, mejoraríamos, mejoraríais, mejorarían\n\nCommon irregular stems:\n- tener → tendr- (tendría, tendrías...)\n- poder → podr- (podría, podrías...)\n- decir → dir- (diría, dirías...)\n- hacer → har- (haría, harías...)\n- salir → saldr- (saldría, saldrías...)\n- poner → pondr- (pondría, pondrías...)\n- saber → sabr- (sabría, sabrías...)\n- venir → vendr- (vendría, vendrías...)\n- querer → querr- (querría, querrías...)\n- haber → habr- (habría, habrías...)\n\nKey uses in politics:\n1. Hypothetical: \"Si fuera presidente, cambiaría la ley.\" (If I were president, I would change the law.)\n2. Polite requests: \"¿Podría ayudarme con el formulario?\" (Could you help me with the form?)\n3. Future in the past: \"Dijo que vendría mañana.\" (He said he would come tomorrow.)\n4. Politician promises: \"Prometió que mejoraría la economía.\" (He promised that he would improve the economy.)",
+      "examples": [
+        "Si tuviera más dinero, votaría por el partido de centro. (If I had more money, I would vote for the center party.)",
+        "¿Podría explicar su propuesta económica? (Could you explain your economic proposal?)",
+        "El candidato prometió que crearía más empleos. (The candidate promised that he would create more jobs.)",
+        "Si fuera el presidente, cambiaría la ley de educación. (If I were president, I would change the education law.)",
+        "El gobierno dijo que apoyaría a los desempleados. (The government said it would support the unemployed.)"
+      ]
+    },
+    {
+      "title": "Direct & Indirect Object Pronouns in Formal Government Contexts",
+      "content": "Object pronouns are essential for understanding government services, official documents, and formal political language:\n\nDirect object pronouns (replaces the direct object):\n- me, te, lo/la, nos, os, los/las\n\nIndirect object pronouns (replaces the indirect object):\n- me, te, le, nos, os, les\n\nCombined pronouns (direct + indirect):\n- me lo/la, te lo/la, se lo/la, nos lo/la, os lo/la, se los/las\n\nNote: When both pronouns start with \"l\" or \"le/les\", the first becomes \"se\":\n- le + lo → se lo (not \"le lo\")\n- les + la → se la (not \"les la\")\n\nPosition: Before conjugated verb OR attached to infinitive/gerund\n- El gobierno LO necesita. / El gobierno necesita LO.\n- Necesitan ayudarlos. / Los necesitan ayudar.\n\nGovernment context examples:\n- El gobierno les paga los subsidios. (The government pays them subsidies.)\n- Se lo debemos a la ciudadanía. (We owe it to the citizens.)\n- ¿Me puede informar sobre la ley? (Can you inform me about the law?)\n- El parlamento los aprobó ayer. (Parliament passed them yesterday.)\n- La presidenta les prometió mejores condiciones. (The president promised them better conditions.)",
+      "examples": [
+        "El gobierno les entrega los subsidios a las familias. → El gobierno se los entrega.",
+        "¿Puede informarme sobre la nueva ley? → ¿Puede informarme? / ¿Me puede informar?",
+        "El parlamentario prometió ayudarlos a los ciudadanos. → El parlamentario prometió ayudarlos.",
+        "La Constitución les garantiza los derechos a todos. → La Constitución se los garantiza.",
+        "El partido político quiere apoyar a la comunidad. → El partido político quiere apoyarla."
+      ]
+    },
+    {
+      "title": "Future Tense for Political Promises & Predictions",
+      "content": "The future tense is used for political promises, predictions about the future, and what will happen — common in political speeches and news:\n\nFormation (regular): infinitive + endings\n-é, -ás, -á, -emos, -éis, -án\n\nFuture of regular verbs:\nvotar → votaré, votarás, votará, votaremos, votaréis, votarán\ncambiar → cambiaré, cambiarás, cambiará, cambiaremos, cambiaréis, cambiarán\ncrear → crearé, crearás, creará, crearemos, crearéis, crearán\n\nIrregular stems (same as other future/conditional):\n- tener → tendré, tendrás, tendrá, tendremos, tendrán\n- poder → podré, podrás, podrá, podremos, podrán\n- hacer → haré, harás, hará, haremos, harán\n- decir → diré, dirás, dirá, diremos, dirán\n- salir → saldré, saldrás, saldrá, saldremos, saldrán\n- poner → pondré, pondrás, pondrá, pondremos, pondrán\n- saber → sabré, sabrás, sabrá, sabremos, sabrán\n- querer → querré, querrás, querrá, querrán\n\nKey uses in politics:\n1. Promises: \"Prometo que mejoraré la educación.\" (I promise that I will improve education.)\n2. Predictions: \"La economía crecerá el próximo año.\" (The economy will grow next year.)\n3. Certainty about the future: \"El gobierno aprobará la ley mañana.\" (The government will pass the law tomorrow.)",
+      "examples": [
+        "El presidente prometió que mejorará la salud pública. (The president promised that he will improve public health.)",
+        "Creo que la democracia se fortalecerá con las nuevas reformas. (I believe that democracy will strengthen with the new reforms.)",
+        "El próximo año, el gobierno creará 50.000 nuevos empleos. (Next year, the government will create 50,000 new jobs.)",
+        "¿Cree usted que habrá menos pobreza en diez años? (Do you believe there will be less poverty in ten years?)",
+        "La oposición no aceptará los cambios propuestos. (The opposition will not accept the proposed changes.)"
       ]
     }
   ],

@@ -703,6 +703,146 @@
       "source": "neighbor (f)",
       "gender": "f",
       "type": "noun"
+    },
+    {
+      "id": 101,
+      "target": "pasante",
+      "source": "intern",
+      "gender": "m",
+      "type": "person"
+    },
+    {
+      "id": 102,
+      "target": "oficina",
+      "source": "office",
+      "gender": "f",
+      "type": "place"
+    },
+    {
+      "id": 103,
+      "target": "despacho",
+      "source": "office/private office",
+      "gender": "m",
+      "type": "place"
+    },
+    {
+      "id": 104,
+      "target": "escritorio",
+      "source": "desk",
+      "gender": "m",
+      "type": "furniture"
+    },
+    {
+      "id": 105,
+      "target": "silla de oficina",
+      "source": "office chair",
+      "gender": "f",
+      "type": "furniture"
+    },
+    {
+      "id": 106,
+      "target": "ordenador",
+      "source": "computer",
+      "gender": "m",
+      "type": "object"
+    },
+    {
+      "id": 107,
+      "target": "teléfono",
+      "source": "phone",
+      "gender": "m",
+      "type": "object"
+    },
+    {
+      "id": 108,
+      "target": "móvil",
+      "source": "mobile phone",
+      "gender": "m",
+      "type": "object"
+    },
+    {
+      "id": 109,
+      "target": "impresora",
+      "source": "printer",
+      "gender": "f",
+      "type": "object"
+    },
+    {
+      "id": 110,
+      "target": "fax",
+      "source": "fax",
+      "gender": "m",
+      "type": "object"
+    },
+    {
+      "id": 111,
+      "target": "papel",
+      "source": "paper",
+      "gender": "m",
+      "type": "object"
+    },
+    {
+      "id": 112,
+      "target": "archivo",
+      "source": "file",
+      "gender": "m",
+      "type": "object"
+    },
+    {
+      "id": 113,
+      "target": "carpeta",
+      "source": "folder",
+      "gender": "f",
+      "type": "object"
+    },
+    {
+      "id": 114,
+      "target": "documento",
+      "source": "document",
+      "gender": "m",
+      "type": "object"
+    },
+    {
+      "id": 115,
+      "target": "contrato",
+      "source": "contract",
+      "gender": "m",
+      "type": "object"
+    },
+    {
+      "id": 116,
+      "target": "factura",
+      "source": "invoice/bill",
+      "gender": "f",
+      "type": "object"
+    },
+    {
+      "id": 117,
+      "target": "presupuesto",
+      "source": "budget/quote",
+      "gender": "m",
+      "type": "object"
+    },
+    {
+      "id": 118,
+      "target": "informe",
+      "source": "report",
+      "gender": "m",
+      "type": "object"
+    },
+    {
+      "id": 119,
+      "target": "correo electrónico",
+      "source": "email",
+      "gender": "m",
+      "type": "object"
+    },
+    {
+      "id": 120,
+      "target": "e-mail",
+      "source": "email",
+      "gender": "m",
+      "type": "object"
     }
   ],
   "grammar": [

@@ -345,6 +345,356 @@
       "source": "balanced",
       "gender": "m/adj.",
       "type": "adj"
+    },
+    {
+      "id": 50,
+      "target": "favorable",
+      "source": "favorable",
+      "gender": "m/adj.",
+      "type": "adj"
+    },
+    {
+      "id": 51,
+      "target": "desfavorable",
+      "source": "unfavorable",
+      "gender": "m/adj.",
+      "type": "adj"
+    },
+    {
+      "id": 52,
+      "target": "mutuo",
+      "source": "mutual",
+      "gender": "m/adj.",
+      "type": "adj"
+    },
+    {
+      "id": 53,
+      "target": "recíproco",
+      "source": "reciprocal",
+      "gender": "m/adj.",
+      "type": "adj"
+    },
+    {
+      "id": 54,
+      "target": "obligatorio",
+      "source": "mandatory",
+      "gender": "m/adj.",
+      "type": "adj"
+    },
+    {
+      "id": 55,
+      "target": "voluntario",
+      "source": "voluntary",
+      "gender": "m/adj.",
+      "type": "adj"
+    },
+    {
+      "id": 56,
+      "target": "vinculante",
+      "source": "binding",
+      "gender": "m/adj.",
+      "type": "adj"
+    },
+    {
+      "id": 57,
+      "target": "irrevocable",
+      "source": "irrevocable",
+      "gender": "m/adj.",
+      "type": "adj"
+    },
+    {
+      "id": 58,
+      "target": "proporcional",
+      "source": "proportional",
+      "gender": "m/adj.",
+      "type": "adj"
+    },
+    {
+      "id": 59,
+      "target": "razonable",
+      "source": "reasonable",
+      "gender": "m/adj.",
+      "type": "adj"
+    },
+    {
+      "id": 60,
+      "target": "aceptable",
+      "source": "acceptable",
+      "gender": "m/adj.",
+      "type": "adj"
+    },
+    {
+      "id": 61,
+      "target": "inaceptable",
+      "source": "unacceptable",
+      "gender": "m/adj.",
+      "type": "adj"
+    },
+    {
+      "id": 62,
+      "target": "el paquete de beneficios",
+      "source": "benefits package",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 63,
+      "target": "el bono por desempeño",
+      "source": "performance bonus",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 64,
+      "target": "las vacaciones pagadas",
+      "source": "paid vacation",
+      "gender": "f pl.",
+      "type": "noun"
+    },
+    {
+      "id": 65,
+      "target": "el seguro médico",
+      "source": "health insurance",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 66,
+      "target": "el plan de pensiones",
+      "source": "pension plan",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 67,
+      "target": "la jornada laboral",
+      "source": "working hours",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 68,
+      "target": "el teletrabajo",
+      "source": "remote work",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 69,
+      "target": "el turno",
+      "source": "shift",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 70,
+      "target": "la ascensión profesional",
+      "source": "career advancement",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 71,
+      "target": "el despido",
+      "source": "dismissal",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 72,
+      "target": "la dimisión",
+      "source": "resignation",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 73,
+      "target": "la baja voluntaria",
+      "source": "voluntary termination",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 74,
+      "target": "el preaviso",
+      "source": "notice period",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 75,
+      "target": "el convenio colectivo",
+      "source": "collective bargaining agreement",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 76,
+      "target": "la mediación laboral",
+      "source": "labor mediation",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 77,
+      "target": "la huelga",
+      "source": "strike",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 78,
+      "target": "el cierre patronal",
+      "source": "lockout",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 79,
+      "target": "en términos generales",
+      "source": "in general terms",
+      "gender": "—",
+      "type": "phrase"
+    },
+    {
+      "id": 80,
+      "target": "bajo estas condiciones",
+      "source": "under these conditions",
+      "gender": "—",
+      "type": "phrase"
+    },
+    {
+      "id": 81,
+      "target": "a cambio de",
+      "source": "in exchange for",
+      "gender": "—",
+      "type": "phrase"
+    },
+    {
+      "id": 82,
+      "target": "siempre y cuando",
+      "source": "provided that / as long as",
+      "gender": "—",
+      "type": "phrase"
+    },
+    {
+      "id": 83,
+      "target": "siempre que",
+      "source": "as long as",
+      "gender": "—",
+      "type": "phrase"
+    },
+    {
+      "id": 84,
+      "target": "en caso de que",
+      "source": "in case that",
+      "gender": "—",
+      "type": "phrase"
+    },
+    {
+      "id": 85,
+      "target": "a condición de que",
+      "source": "on the condition that",
+      "gender": "—",
+      "type": "phrase"
+    },
+    {
+      "id": 86,
+      "target": "con el fin de",
+      "source": "in order to",
+      "gender": "—",
+      "type": "phrase"
+    },
+    {
+      "id": 87,
+      "target": "a fin de",
+      "source": "in order to",
+      "gender": "—",
+      "type": "phrase"
+    },
+    {
+      "id": 88,
+      "target": "en virtud del",
+      "source": "by virtue of",
+      "gender": "—",
+      "type": "phrase"
+    },
+    {
+      "id": 89,
+      "target": "de conformidad con",
+      "source": "in accordance with",
+      "gender": "—",
+      "type": "phrase"
+    },
+    {
+      "id": 90,
+      "target": "sin perjuicio de",
+      "source": "without prejudice to",
+      "gender": "—",
+      "type": "phrase"
+    },
+    {
+      "id": 91,
+      "target": "previo aviso",
+      "source": "with prior notice",
+      "gender": "—",
+      "type": "phrase"
+    },
+    {
+      "id": 92,
+      "target": "por mutuo acuerdo",
+      "source": "by mutual agreement",
+      "gender": "—",
+      "type": "phrase"
+    },
+    {
+      "id": 93,
+      "target": "en buena fe",
+      "source": "in good faith",
+      "gender": "—",
+      "type": "phrase"
+    },
+    {
+      "id": 94,
+      "target": "de buena fe",
+      "source": "in good faith",
+      "gender": "—",
+      "type": "phrase"
+    },
+    {
+      "id": 95,
+      "target": "de común acuerdo",
+      "source": "by common agreement",
+      "gender": "—",
+      "type": "phrase"
+    },
+    {
+      "id": 96,
+      "target": "en principio",
+      "source": "in principle",
+      "gender": "—",
+      "type": "phrase"
+    },
+    {
+      "id": 97,
+      "target": "en última instancia",
+      "source": "ultimately / in the last instance",
+      "gender": "—",
+      "type": "phrase"
+    },
+    {
+      "id": 98,
+      "target": "en aras de",
+      "source": "in the interest of",
+      "gender": "—",
+      "type": "phrase"
+    },
+    {
+      "id": 99,
+      "target": "a efectos de",
+      "source": "for the purposes of",
+      "gender": "—",
+      "type": "phrase"
     }
   ],
   "grammar": [

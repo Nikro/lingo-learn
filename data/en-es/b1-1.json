@@ -4,14 +4,29 @@
   "description": "Master the imperfect subjunctive, passive constructions, relative pronouns, and advanced connectors. Transition from basic narratives to complex, nuanced Spanish.",
   "themes": [
     {
+      "id": "abstract-thinking-opinions",
+      "title": "Abstract Thinking & Opinions",
+      "description": "Express opinions, hypotheses, and thoughts on abstract concepts. Discuss ideas beyond the concrete and immediate, using the subjunctive to express doubt, possibility, and subjectivity. Master connectors for argumentation and vocabulary for abstract thinking — a hallmark of B1 competence."
+    },
+    {
+      "id": "advanced-connectors",
+      "title": "Advanced Connectors (Conectores Avanzados)",
+      "description": "Master discourse markers for contrast, cause, addition, clarification, and conclusion."
+    },
+    {
+      "id": "complex-travel-navigation",
+      "title": "Complex Travel & Navigation",
+      "description": "Navigate complex travel situations: extended journeys, cultural immersion, and problem-solving on the go. Master vocabulary for transportation, accommodations, directions, emergencies, and cultural interactions. Develop the ability to describe travel experiences in detail and handle real-world travel scenarios in Spanish."
+    },
+    {
       "id": "imperfect-subjunctive",
       "title": "Imperfect Subjunctive (Pretérito Imperfecto de Subjuntivo)",
       "description": "Express hypothetical actions, wishes, or conditions in the past using the imperfect subjunctive (-ra/-se forms)."
     },
     {
-      "id": "subjunctive-vs-indicative",
-      "title": "Subjunctive vs. Indicative in Complex Clauses",
-      "description": "Understand when subordinate clauses require the subjunctive vs. indicative based on the main clause verb."
+      "id": "literature-arts",
+      "title": "Literature & Arts",
+      "description": "Vocabulary, grammar, pronunciation, and exercises focused on literary analysis, art criticism, cultural movements, and creative expression at the B1.1 CEFR level."
     },
     {
       "id": "passive-voice",
@@ -19,9 +34,9 @@
       "description": "Learn the formal passive voice using ser + past participle, with agreement in gender and number."
     },
     {
-      "id": "se-passive",
-      "title": "Se Passive (Pasiva Refleja)",
-      "description": "The most common way to express passive ideas in everyday Spanish — use 'se' + verb + subject."
+      "id": "professional-communication",
+      "title": "Professional Communication",
+      "description": "Master the language of business and professional settings. Build vocabulary and grammar skills for meetings, presentations, emails, negotiations, and general business communication in Spanish. Develop the ability to participate in workplace interactions, convey ideas clearly, and handle professional situations with confidence."
     },
     {
       "id": "relative-pronouns",
@@ -29,90 +44,543 @@
       "description": "Master the full range of relative pronouns: que, el cual, cuyo, donde, lo que/lo cual."
     },
     {
-      "id": "advanced-connectors",
-      "title": "Advanced Connectors (Conectores Avanzados)",
-      "description": "Master discourse markers for contrast, cause, addition, clarification, and conclusion."
+      "id": "se-passive",
+      "title": "Se Passive (Pasiva Refleja)",
+      "description": "The most common way to express passive ideas in everyday Spanish — use 'se' + verb + subject."
+    },
+    {
+      "id": "subjunctive-vs-indicative",
+      "title": "Subjunctive vs. Indicative in Complex Clauses",
+      "description": "Understand when subordinate clauses require the subjunctive vs. indicative based on the main clause verb."
     }
   ],
   "vocabulary": [
-    { "id": 1, "target": "la libertad", "source": "freedom", "gender": "f.", "type": "noun" },
-    { "id": 2, "target": "la justicia", "source": "justice", "gender": "f.", "type": "noun" },
-    { "id": 3, "target": "el medio ambiente", "source": "environment", "gender": "m.", "type": "noun" },
-    { "id": 4, "target": "la igualdad", "source": "equality", "gender": "f.", "type": "noun" },
-    { "id": 5, "target": "la democracia", "source": "democracy", "gender": "f.", "type": "noun" },
-    { "id": 6, "target": "el derecho", "source": "right / law", "gender": "m.", "type": "noun" },
-    { "id": 7, "target": "el deber", "source": "duty", "gender": "m.", "type": "noun" },
-    { "id": 8, "target": "la desigualdad", "source": "inequality", "gender": "f.", "type": "noun" },
-    { "id": 9, "target": "la corrupción", "source": "corruption", "gender": "f.", "type": "noun" },
-    { "id": 10, "target": "la economía", "source": "economy", "gender": "f.", "type": "noun" },
-    { "id": 11, "target": "la inflación", "source": "inflation", "gender": "f.", "type": "noun" },
-    { "id": 12, "target": "el desempleo", "source": "unemployment", "gender": "m.", "type": "noun" },
-    { "id": 13, "target": "el salario", "source": "salary / wage", "gender": "m.", "type": "noun" },
-    { "id": 14, "target": "el presupuesto", "source": "budget", "gender": "m.", "type": "noun" },
-    { "id": 15, "target": "la recaudación de impuestos", "source": "tax collection", "gender": "f.", "type": "noun" },
-    { "id": 16, "target": "la deuda pública", "source": "public debt", "gender": "f.", "type": "noun" },
-    { "id": 17, "target": "el crecimiento económico", "source": "economic growth", "gender": "m.", "type": "noun" },
-    { "id": 18, "target": "la recesión", "source": "recession", "gender": "f.", "type": "noun" },
-    { "id": 19, "target": "el billete / el boleto", "source": "ticket / bill", "gender": "m.", "type": "noun" },
-    { "id": 20, "target": "el equipaje", "source": "luggage", "gender": "m.", "type": "noun" },
-    { "id": 21, "target": "la frontera", "source": "border", "gender": "f.", "type": "noun" },
-    { "id": 22, "target": "la aduana", "source": "customs", "gender": "f.", "type": "noun" },
-    { "id": 23, "target": "la escala", "source": "layover", "gender": "f.", "type": "noun" },
-    { "id": 24, "target": "el visado", "source": "visa", "gender": "m.", "type": "noun" },
-    { "id": 25, "target": "el pasaporte", "source": "passport", "gender": "m.", "type": "noun" },
-    { "id": 26, "target": "la tarjeta de embarque", "source": "boarding pass", "gender": "f.", "type": "noun" },
-    { "id": 27, "target": "cancelar un vuelo", "source": "to cancel a flight", "gender": "—", "type": "verb" },
-    { "id": 28, "target": "hacer el check-in", "source": "to check in", "gender": "—", "type": "verb" },
-    { "id": 29, "target": "el diagnóstico", "source": "diagnosis", "gender": "m.", "type": "noun" },
-    { "id": 30, "target": "el tratamiento", "source": "treatment", "gender": "m.", "type": "noun" },
-    { "id": 31, "target": "la alergia", "source": "allergy", "gender": "f.", "type": "noun" },
-    { "id": 32, "target": "tener fiebre", "source": "to have a fever", "gender": "—", "type": "verb" },
-    { "id": 33, "target": "recuperarse de una enfermedad", "source": "to recover from an illness", "gender": "—", "type": "verb" },
-    { "id": 34, "target": "el seguro médico", "source": "health insurance", "gender": "m.", "type": "noun" },
-    { "id": 35, "target": "la operación", "source": "surgery", "gender": "f.", "type": "noun" },
-    { "id": 36, "target": "la gripe", "source": "the flu", "gender": "f.", "type": "noun" },
-    { "id": 37, "target": "el resfriado", "source": "a cold", "gender": "m.", "type": "noun" },
-    { "id": 38, "target": "el enfermero", "source": "the nurse (male)", "gender": "m.", "type": "noun" },
-    { "id": 39, "target": "la enfermera", "source": "the nurse (female)", "gender": "f.", "type": "noun" },
-    { "id": 40, "target": "el arte moderno", "source": "modern art", "gender": "m.", "type": "noun" },
-    { "id": 41, "target": "la novela gráfica", "source": "graphic novel", "gender": "f.", "type": "noun" },
-    { "id": 42, "target": "el documental", "source": "documentary", "gender": "m.", "type": "noun" },
-    { "id": 43, "target": "criticar", "source": "to criticize / to review", "gender": "v.", "type": "verb" },
-    { "id": 44, "target": "exponer", "source": "to exhibit / expose", "gender": "v.", "type": "verb" },
-    { "id": 45, "target": "la elección", "source": "election", "gender": "f.", "type": "noun" },
-    { "id": 46, "target": "votar", "source": "to vote", "gender": "v.", "type": "verb" },
-    { "id": 47, "target": "el candidato", "source": "candidate", "gender": "m.", "type": "noun" },
-    { "id": 48, "target": "la legislación", "source": "legislation", "gender": "f.", "type": "noun" },
-    { "id": 49, "target": "aprobar una ley", "source": "to pass a law", "gender": "—", "type": "verb" },
-    { "id": 50, "target": "la Constitución", "source": "Constitution", "gender": "f.", "type": "noun" },
-    { "id": 51, "target": "la contaminación", "source": "pollution", "gender": "f.", "type": "noun" },
-    { "id": 52, "target": "el cambio climático", "source": "climate change", "gender": "m.", "type": "noun" },
-    { "id": 53, "target": "la energía renovable", "source": "renewable energy", "gender": "f.", "type": "noun" },
-    { "id": 54, "target": "el reciclaje", "source": "recycling", "gender": "m.", "type": "noun" },
-    { "id": 55, "target": "contaminar", "source": "to pollute", "gender": "v.", "type": "verb" },
-    { "id": 56, "target": "la inmigración", "source": "immigration", "gender": "f.", "type": "noun" },
-    { "id": 57, "target": "la seguridad social", "source": "social security", "gender": "f.", "type": "noun" },
-    { "id": 58, "target": "el bienestar", "source": "well-being", "gender": "m.", "type": "noun" },
-    { "id": 59, "target": "la protesta", "source": "protest", "gender": "f.", "type": "noun" },
-    { "id": 60, "target": "manifestar", "source": "to protest", "gender": "v.", "type": "verb" },
-    { "id": 61, "target": "sin embargo", "source": "however", "gender": "—", "type": "connector" },
-    { "id": 62, "target": "no obstante", "source": "nevertheless", "gender": "—", "type": "connector" },
-    { "id": 63, "target": "a pesar de", "source": "despite", "gender": "—", "type": "connector" },
-    { "id": 64, "target": "por lo tanto", "source": "therefore", "gender": "—", "type": "connector" },
-    { "id": 65, "target": "además", "source": "furthermore", "gender": "—", "type": "connector" },
-    { "id": 66, "target": "debido a", "source": "due to", "gender": "—", "type": "connector" },
-    { "id": 67, "target": "en conclusión", "source": "in conclusion", "gender": "—", "type": "connector" },
-    { "id": 68, "target": "en resumen", "source": "in summary", "gender": "—", "type": "connector" },
-    { "id": 69, "target": "el consenso", "source": "consensus", "gender": "m.", "type": "noun" },
-    { "id": 70, "target": "la opinión pública", "source": "public opinion", "gender": "f.", "type": "noun" }
+    {
+      "id": 1,
+      "target": "la libertad",
+      "source": "freedom",
+      "gender": "f.",
+      "type": "noun"
+    },
+    {
+      "id": 2,
+      "target": "la justicia",
+      "source": "justice",
+      "gender": "f.",
+      "type": "noun"
+    },
+    {
+      "id": 3,
+      "target": "el medio ambiente",
+      "source": "environment",
+      "gender": "m.",
+      "type": "noun"
+    },
+    {
+      "id": 4,
+      "target": "la igualdad",
+      "source": "equality",
+      "gender": "f.",
+      "type": "noun"
+    },
+    {
+      "id": 5,
+      "target": "la democracia",
+      "source": "democracy",
+      "gender": "f.",
+      "type": "noun"
+    },
+    {
+      "id": 6,
+      "target": "el derecho",
+      "source": "right / law",
+      "gender": "m.",
+      "type": "noun"
+    },
+    {
+      "id": 7,
+      "target": "el deber",
+      "source": "duty",
+      "gender": "m.",
+      "type": "noun"
+    },
+    {
+      "id": 8,
+      "target": "la desigualdad",
+      "source": "inequality",
+      "gender": "f.",
+      "type": "noun"
+    },
+    {
+      "id": 9,
+      "target": "la corrupción",
+      "source": "corruption",
+      "gender": "f.",
+      "type": "noun"
+    },
+    {
+      "id": 10,
+      "target": "la economía",
+      "source": "economy",
+      "gender": "f.",
+      "type": "noun"
+    },
+    {
+      "id": 11,
+      "target": "la inflación",
+      "source": "inflation",
+      "gender": "f.",
+      "type": "noun"
+    },
+    {
+      "id": 12,
+      "target": "el desempleo",
+      "source": "unemployment",
+      "gender": "m.",
+      "type": "noun"
+    },
+    {
+      "id": 13,
+      "target": "el salario",
+      "source": "salary / wage",
+      "gender": "m.",
+      "type": "noun"
+    },
+    {
+      "id": 14,
+      "target": "el presupuesto",
+      "source": "budget",
+      "gender": "m.",
+      "type": "noun"
+    },
+    {
+      "id": 15,
+      "target": "la recaudación de impuestos",
+      "source": "tax collection",
+      "gender": "f.",
+      "type": "noun"
+    },
+    {
+      "id": 16,
+      "target": "la deuda pública",
+      "source": "public debt",
+      "gender": "f.",
+      "type": "noun"
+    },
+    {
+      "id": 17,
+      "target": "el crecimiento económico",
+      "source": "economic growth",
+      "gender": "m.",
+      "type": "noun"
+    },
+    {
+      "id": 18,
+      "target": "la recesión",
+      "source": "recession",
+      "gender": "f.",
+      "type": "noun"
+    },
+    {
+      "id": 19,
+      "target": "el billete / el boleto",
+      "source": "ticket / bill",
+      "gender": "m.",
+      "type": "noun"
+    },
+    {
+      "id": 20,
+      "target": "el equipaje",
+      "source": "luggage",
+      "gender": "m.",
+      "type": "noun"
+    },
+    {
+      "id": 21,
+      "target": "la frontera",
+      "source": "border",
+      "gender": "f.",
+      "type": "noun"
+    },
+    {
+      "id": 22,
+      "target": "la aduana",
+      "source": "customs",
+      "gender": "f.",
+      "type": "noun"
+    },
+    {
+      "id": 23,
+      "target": "la escala",
+      "source": "layover",
+      "gender": "f.",
+      "type": "noun"
+    },
+    {
+      "id": 24,
+      "target": "el visado",
+      "source": "visa",
+      "gender": "m.",
+      "type": "noun"
+    },
+    {
+      "id": 25,
+      "target": "el pasaporte",
+      "source": "passport",
+      "gender": "m.",
+      "type": "noun"
+    },
+    {
+      "id": 26,
+      "target": "la tarjeta de embarque",
+      "source": "boarding pass",
+      "gender": "f.",
+      "type": "noun"
+    },
+    {
+      "id": 27,
+      "target": "cancelar un vuelo",
+      "source": "to cancel a flight",
+      "gender": "—",
+      "type": "verb"
+    },
+    {
+      "id": 28,
+      "target": "hacer el check-in",
+      "source": "to check in",
+      "gender": "—",
+      "type": "verb"
+    },
+    {
+      "id": 29,
+      "target": "el diagnóstico",
+      "source": "diagnosis",
+      "gender": "m.",
+      "type": "noun"
+    },
+    {
+      "id": 30,
+      "target": "el tratamiento",
+      "source": "treatment",
+      "gender": "m.",
+      "type": "noun"
+    },
+    {
+      "id": 31,
+      "target": "la alergia",
+      "source": "allergy",
+      "gender": "f.",
+      "type": "noun"
+    },
+    {
+      "id": 32,
+      "target": "tener fiebre",
+      "source": "to have a fever",
+      "gender": "—",
+      "type": "verb"
+    },
+    {
+      "id": 33,
+      "target": "recuperarse de una enfermedad",
+      "source": "to recover from an illness",
+      "gender": "—",
+      "type": "verb"
+    },
+    {
+      "id": 34,
+      "target": "el seguro médico",
+      "source": "health insurance",
+      "gender": "m.",
+      "type": "noun"
+    },
+    {
+      "id": 35,
+      "target": "la operación",
+      "source": "surgery",
+      "gender": "f.",
+      "type": "noun"
+    },
+    {
+      "id": 36,
+      "target": "la gripe",
+      "source": "the flu",
+      "gender": "f.",
+      "type": "noun"
+    },
+    {
+      "id": 37,
+      "target": "el resfriado",
+      "source": "a cold",
+      "gender": "m.",
+      "type": "noun"
+    },
+    {
+      "id": 38,
+      "target": "el enfermero",
+      "source": "the nurse (male)",
+      "gender": "m.",
+      "type": "noun"
+    },
+    {
+      "id": 39,
+      "target": "la enfermera",
+      "source": "the nurse (female)",
+      "gender": "f.",
+      "type": "noun"
+    },
+    {
+      "id": 40,
+      "target": "el arte moderno",
+      "source": "modern art",
+      "gender": "m.",
+      "type": "noun"
+    },
+    {
+      "id": 41,
+      "target": "la novela gráfica",
+      "source": "graphic novel",
+      "gender": "f.",
+      "type": "noun"
+    },
+    {
+      "id": 42,
+      "target": "el documental",
+      "source": "documentary",
+      "gender": "m.",
+      "type": "noun"
+    },
+    {
+      "id": 43,
+      "target": "criticar",
+      "source": "to criticize / to review",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 44,
+      "target": "exponer",
+      "source": "to exhibit / expose",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 45,
+      "target": "la elección",
+      "source": "election",
+      "gender": "f.",
+      "type": "noun"
+    },
+    {
+      "id": 46,
+      "target": "votar",
+      "source": "to vote",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 47,
+      "target": "el candidato",
+      "source": "candidate",
+      "gender": "m.",
+      "type": "noun"
+    },
+    {
+      "id": 48,
+      "target": "la legislación",
+      "source": "legislation",
+      "gender": "f.",
+      "type": "noun"
+    },
+    {
+      "id": 49,
+      "target": "aprobar una ley",
+      "source": "to pass a law",
+      "gender": "—",
+      "type": "verb"
+    },
+    {
+      "id": 50,
+      "target": "la Constitución",
+      "source": "Constitution",
+      "gender": "f.",
+      "type": "noun"
+    },
+    {
+      "id": 51,
+      "target": "la contaminación",
+      "source": "pollution",
+      "gender": "f.",
+      "type": "noun"
+    },
+    {
+      "id": 52,
+      "target": "el cambio climático",
+      "source": "climate change",
+      "gender": "m.",
+      "type": "noun"
+    },
+    {
+      "id": 53,
+      "target": "la energía renovable",
+      "source": "renewable energy",
+      "gender": "f.",
+      "type": "noun"
+    },
+    {
+      "id": 54,
+      "target": "el reciclaje",
+      "source": "recycling",
+      "gender": "m.",
+      "type": "noun"
+    },
+    {
+      "id": 55,
+      "target": "contaminar",
+      "source": "to pollute",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 56,
+      "target": "la inmigración",
+      "source": "immigration",
+      "gender": "f.",
+      "type": "noun"
+    },
+    {
+      "id": 57,
+      "target": "la seguridad social",
+      "source": "social security",
+      "gender": "f.",
+      "type": "noun"
+    },
+    {
+      "id": 58,
+      "target": "el bienestar",
+      "source": "well-being",
+      "gender": "m.",
+      "type": "noun"
+    },
+    {
+      "id": 59,
+      "target": "la protesta",
+      "source": "protest",
+      "gender": "f.",
+      "type": "noun"
+    },
+    {
+      "id": 60,
+      "target": "manifestar",
+      "source": "to protest",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 61,
+      "target": "sin embargo",
+      "source": "however",
+      "gender": "—",
+      "type": "connector"
+    },
+    {
+      "id": 62,
+      "target": "no obstante",
+      "source": "nevertheless",
+      "gender": "—",
+      "type": "connector"
+    },
+    {
+      "id": 63,
+      "target": "a pesar de",
+      "source": "despite",
+      "gender": "—",
+      "type": "connector"
+    },
+    {
+      "id": 64,
+      "target": "por lo tanto",
+      "source": "therefore",
+      "gender": "—",
+      "type": "connector"
+    },
+    {
+      "id": 65,
+      "target": "además",
+      "source": "furthermore",
+      "gender": "—",
+      "type": "connector"
+    },
+    {
+      "id": 66,
+      "target": "debido a",
+      "source": "due to",
+      "gender": "—",
+      "type": "connector"
+    },
+    {
+      "id": 67,
+      "target": "en conclusión",
+      "source": "in conclusion",
+      "gender": "—",
+      "type": "connector"
+    },
+    {
+      "id": 68,
+      "target": "en resumen",
+      "source": "in summary",
+      "gender": "—",
+      "type": "connector"
+    },
+    {
+      "id": 69,
+      "target": "el consenso",
+      "source": "consensus",
+      "gender": "m.",
+      "type": "noun"
+    },
+    {
+      "id": 70,
+      "target": "la opinión pública",
+      "source": "public opinion",
+      "gender": "f.",
+      "type": "noun"
+    }
   ],
   "verbs": [
-    { "id": "tener", "infinitive": "TENER", "translation": "to have" },
-    { "id": "ser", "infinitive": "SER", "translation": "to be (permanent)" },
-    { "id": "estar", "infinitive": "ESTAR", "translation": "to be (temporary)" },
-    { "id": "ir", "infinitive": "IR", "translation": "to go" },
-    { "id": "preferir", "infinitive": "PREFERIR", "translation": "to prefer" },
-    { "id": "conseguir", "infinitive": "CONSEGUIR", "translation": "to obtain / manage" },
-    { "id": "entender", "infinitive": "ENTENDER", "translation": "to understand" }
+    {
+      "id": "tener",
+      "infinitive": "TENER",
+      "translation": "to have"
+    },
+    {
+      "id": "ser",
+      "infinitive": "SER",
+      "translation": "to be (permanent)"
+    },
+    {
+      "id": "estar",
+      "infinitive": "ESTAR",
+      "translation": "to be (temporary)"
+    },
+    {
+      "id": "ir",
+      "infinitive": "IR",
+      "translation": "to go"
+    },
+    {
+      "id": "preferir",
+      "infinitive": "PREFERIR",
+      "translation": "to prefer"
+    },
+    {
+      "id": "conseguir",
+      "infinitive": "CONSEGUIR",
+      "translation": "to obtain / manage"
+    },
+    {
+      "id": "entender",
+      "infinitive": "ENTENDER",
+      "translation": "to understand"
+    }
   ]
 }

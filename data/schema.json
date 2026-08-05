@@ -85,6 +85,10 @@
             "type": "string",
             "enum": ["greeting", "polite", "intro", "feeling", "noun", "adjective", "verb", "adverb", "preposition", "number", "family", "color", "connector", "phrase", "idiom", "other"],
             "description": "Semantic category of the word"
+          },
+          "aid_note": {
+            "type": "string",
+            "description": "Language-aid hint for learners (e.g. comparing to Romanian/Italian). Used only when content explicitly provides it."
           }
         }
       }
@@ -172,6 +176,10 @@
               }
             },
             "description": "Matching pairs (only for type 'matching')"
+          },
+          "aid_note": {
+            "type": "string",
+            "description": "Language-aid hint for learners (e.g. comparing to Romanian/Italian)"
           }
         }
       }
@@ -189,6 +197,48 @@
         "vosotros": { "type": "string" },
         "ellos/ellas/ustedes": { "type": "string" }
       }
+    },
+    "stage_manifest": {
+      "type": "object",
+      "description": "Root stage file — contains metadata and theme list only, NOT content.",
+      "required": ["stage_id", "title"],
+      "properties": {
+        "stage_id": {
+          "type": "string",
+          "description": "Stage identifier in kebab-case: a1-1, a1-2, b1-3, etc.",
+          "pattern": "^[a-z]\\d-\\d+$"
+        },
+        "id": {
+          "type": "string",
+          "description": "Alias for stage_id (some files use 'id' instead of 'stage_id')"
+        },
+        "title": {
+          "type": "string",
+          "description": "Display title, e.g. 'Stage A1.1 — Greetings & Introductions'"
+        },
+        "description": {
+          "type": "string",
+          "description": "Brief description of what the stage covers"
+        },
+        "estimated_weeks": {
+          "type": "integer",
+          "description": "Estimated weeks to complete this stage"
+        },
+        "themes": {
+          "type": "array",
+          "description": "List of theme summaries within this stage",
+          "items": {
+            "type": "object",
+            "properties": {
+              "id": { "type": "string" },
+              "title": { "type": "string" },
+              "description": { "type": "string" },
+              "estimated_hours": { "type": "integer" }
+            }
+          }
+        }
+      },
+      "additionalProperties": false
     }
   }
 }

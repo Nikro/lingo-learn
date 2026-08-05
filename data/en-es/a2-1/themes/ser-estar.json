@@ -4,117 +4,752 @@
   "title": "Ser vs. Estar",
   "description": "Master the crucial difference between ser and estar — two forms of 'to be' in Spanish.",
   "vocabulary": [
-    {"id": 1, "target": "ser", "source": "to be (permanent/essential)", "gender": "v", "type": "verb"},
-    {"id": 2, "target": "estar", "source": "to be (temporary/state)", "gender": "v", "type": "verb"},
-    {"id": 3, "target": "soy", "source": "I am (ser)", "gender": "v", "type": "verb"},
-    {"id": 4, "target": "eres", "source": "you are (ser)", "gender": "v", "type": "verb"},
-    {"id": 5, "target": "es", "source": "he/she is (ser)", "gender": "v", "type": "verb"},
-    {"id": 6, "target": "somos", "source": "we are (ser)", "gender": "v", "type": "verb"},
-    {"id": 7, "target": "sois", "source": "you all are (ser, Spain)", "gender": "v", "type": "verb"},
-    {"id": 8, "target": "son", "source": "they are (ser)", "gender": "v", "type": "verb"},
-    {"id": 9, "target": "estoy", "source": "I am (estar)", "gender": "v", "type": "verb"},
-    {"id": 10, "target": "estas", "source": "you are (estar)", "gender": "v", "type": "verb"},
-    {"id": 11, "target": "esta", "source": "he/she is (estar)", "gender": "v", "type": "verb"},
-    {"id": 12, "target": "estamos", "source": "we are (estar)", "gender": "v", "type": "verb"},
-    {"id": 13, "target": "estais", "source": "you all are (estar, Spain)", "gender": "v", "type": "verb"},
-    {"id": 14, "target": "estan", "source": "they are (estar)", "gender": "v", "type": "verb"},
-    {"id": 15, "target": "profesor", "source": "teacher", "gender": "m", "type": "noun"},
-    {"id": 16, "target": "medico", "source": "doctor", "gender": "m", "type": "noun"},
-    {"id": 17, "target": "estudiante", "source": "student", "gender": "m/f", "type": "noun"},
-    {"id": 18, "target": "español", "source": "Spanish (person)", "gender": "m", "type": "noun"},
-    {"id": 19, "target": "madrid", "source": "Madrid", "gender": "m", "type": "place"},
-    {"id": 20, "target": "la capital", "source": "the capital", "gender": "f", "type": "place"},
-    {"id": 21, "target": "inteligente", "source": "intelligent", "gender": "m", "type": "adjective"},
-    {"id": 22, "target": "alto", "source": "tall", "gender": "m", "type": "adjective"},
-    {"id": 23, "target": "bajo", "source": "short/low", "gender": "m", "type": "adjective"},
-    {"id": 24, "target": "guapo", "source": "handsome", "gender": "m", "type": "adjective"},
-    {"id": 25, "target": "bonito", "source": "pretty", "gender": "m", "type": "adjective"},
-    {"id": 26, "target": "grande", "source": "big/large", "gender": "m", "type": "adjective"},
-    {"id": 27, "target": "pequeno", "source": "small", "gender": "m", "type": "adjective"},
-    {"id": 28, "target": "cansado", "source": "tired", "gender": "m", "type": "adjective"},
-    {"id": 29, "target": "enfermo", "source": "sick", "gender": "m", "type": "adjective"},
-    {"id": 30, "target": "contento", "source": "happy", "gender": "m", "type": "adjective"},
-    {"id": 31, "target": "triste", "source": "sad", "gender": "m", "type": "adjective"},
-    {"id": 32, "target": "nervioso", "source": "nervous", "gender": "m", "type": "adjective"},
-    {"id": 33, "target": "aburrido", "source": "bored", "gender": "m", "type": "adjective"},
-    {"id": 34, "target": "aburrido", "source": "boring", "gender": "m", "type": "adjective"},
-    {"id": 35, "target": "aburrida", "source": "bored (f)", "gender": "f", "type": "adjective"},
-    {"id": 36, "target": "complicado", "source": "complicated", "gender": "m", "type": "adjective"},
-    {"id": 37, "target": "facil", "source": "easy", "gender": "m", "type": "adjective"},
-    {"id": 38, "target": "dificil", "source": "difficult", "gender": "m", "type": "adjective"},
-    {"id": 39, "target": "abierto", "source": "open", "gender": "m", "type": "adjective"},
-    {"id": 40, "target": "cerrado", "source": "closed", "gender": "m", "type": "adjective"},
-    {"id": 41, "target": "lleno", "source": "full", "gender": "m", "type": "adjective"},
-    {"id": 42, "target": "vacio", "source": "empty", "gender": "m", "type": "adjective"},
-    {"id": 43, "target": "limpio", "source": "clean", "gender": "m", "type": "adjective"},
-    {"id": 44, "target": "sucio", "source": "dirty", "gender": "m", "type": "adjective"},
-    {"id": 45, "target": "listo", "source": "ready", "gender": "m", "type": "adjective"},
-    {"id": 46, "target": "de acuerdo", "source": "in agreement", "gender": "m", "type": "phrase"},
-    {"id": 47, "target": "seguro", "source": "sure", "gender": "m", "type": "adjective"},
-    {"id": 48, "target": "presente", "source": "present", "gender": "m", "type": "adjective"},
-    {"id": 49, "target": "ausente", "source": "absent", "gender": "m", "type": "adjective"},
-    {"id": 50, "target": "equivocado", "source": "wrong", "gender": "m", "type": "adjective"},
-    {"id": 51, "target": "correcto", "source": "correct", "gender": "m", "type": "adjective"},
-    {"id": 52, "target": "la hora", "source": "the time", "gender": "f", "type": "noun"},
-    {"id": 53, "target": "el tiempo", "source": "the weather/time", "gender": "m", "type": "noun"},
-    {"id": 54, "target": "el precio", "source": "the price", "gender": "m", "type": "noun"},
-    {"id": 55, "target": "la fecha", "source": "the date", "gender": "f", "type": "noun"},
-    {"id": 56, "target": "la profesion", "source": "the profession", "gender": "f", "type": "noun"},
-    {"id": 57, "target": "la nacionalidad", "source": "the nationality", "gender": "f", "type": "noun"},
-    {"id": 58, "target": "la religion", "source": "the religion", "gender": "f", "type": "noun"},
-    {"id": 59, "target": "el color", "source": "the color", "gender": "m", "type": "noun"},
-    {"id": 60, "target": "el tamano", "source": "the size", "gender": "m", "type": "noun"},
-    {"id": 61, "target": "la forma", "source": "the shape/form", "gender": "f", "type": "noun"},
-    {"id": 62, "target": "la ubicacion", "source": "the location", "gender": "f", "type": "noun"},
-    {"id": 63, "target": "el estado", "source": "the state/condition", "gender": "m", "type": "noun"},
-    {"id": 64, "target": "la salud", "source": "the health", "gender": "f", "type": "noun"},
-    {"id": 65, "target": "el animo", "source": "the mood", "gender": "m", "type": "noun"},
-    {"id": 66, "target": "la disposition", "source": "the disposition", "gender": "f", "type": "noun"},
-    {"id": 67, "target": "la casa", "source": "the house", "gender": "f", "type": "noun"},
-    {"id": 68, "target": "el restaurant", "source": "the restaurant", "gender": "m", "type": "noun"},
-    {"id": 69, "target": "el hotel", "source": "the hotel", "gender": "m", "type": "noun"},
-    {"id": 70, "target": "el aero0puerto", "source": "the airport", "gender": "m", "type": "noun"},
-    {"id": 71, "target": "la oficina", "source": "the office", "gender": "f", "type": "noun"},
-    {"id": 72, "target": "la tienda", "source": "the store", "gender": "f", "type": "noun"},
-    {"id": 73, "target": "aqui", "source": "here", "gender": "adv", "type": "adverb"},
-    {"id": 74, "target": "alli", "source": "there", "gender": "adv", "type": "adverb"},
-    {"id": 75, "target": "ahora", "source": "now", "gender": "adv", "type": "adverb"},
-    {"id": 76, "target": "hoy", "source": "today", "gender": "adv", "type": "adverb"},
-    {"id": 77, "target": "siempre", "source": "always", "gender": "adv", "type": "adverb"},
-    {"id": 78, "target": "aqui", "source": "here", "gender": "adv", "type": "adverb"},
-    {"id": 79, "target": "alli", "source": "there", "gender": "adv", "type": "adverb"},
-    {"id": 80, "target": "en Madrid", "source": "in Madrid", "gender": "prep", "type": "phrase"},
-    {"id": 81, "target": "de aqua", "source": "from here", "gender": "prep", "type": "phrase"},
-    {"id": 82, "target": "aqui", "source": "here", "gender": "adv", "type": "phrase"},
-    {"id": 83, "target": "alli", "source": "there", "gender": "adv", "type": "phrase"},
-    {"id": 84, "target": "por naturaleza", "source": "by nature", "gender": "m", "type": "phrase"},
-    {"id": 85, "target": "por definition", "source": "by definition", "gender": "m", "type": "phrase"},
-    {"id": 86, "target": "en general", "source": "in general", "gender": "m", "type": "phrase"},
-    {"id": 87, "target": "de costumbre", "source": "usually", "gender": "m", "type": "phrase"},
-    {"id": 88, "target": "por ahora", "source": "for now", "gender": "m", "type": "phrase"},
-    {"id": 89, "target": "de acuerdo", "source": "in agreement", "gender": "m", "type": "phrase"},
-    {"id": 90, "target": "equivocado", "source": "wrong", "gender": "m", "type": "adjective"},
-    {"id": 91, "target": "en lo cierto", "source": "right/correct", "gender": "m", "type": "phrase"},
-    {"id": 92, "target": "enfermo", "source": "ill", "gender": "m", "type": "adjective"},
-    {"id": 93, "target": "de buen humor", "source": "in a good mood", "gender": "m", "type": "phrase"},
-    {"id": 94, "target": "de mal humor", "source": "in a bad mood", "gender": "m", "type": "phrase"},
-    {"id": 95, "target": "en forma", "source": "in shape", "gender": "f", "type": "phrase"},
-    {"id": 96, "target": "de pie", "source": "standing", "gender": "m", "type": "phrase"},
-    {"id": 97, "target": "sentado", "source": "seated", "gender": "m", "type": "adjective"},
-    {"id": 98, "target": "acostado", "source": "lying down", "gender": "m", "type": "adjective"},
-    {"id": 99, "target": "despierto", "source": "awake", "gender": "m", "type": "adjective"},
-    {"id": 100, "target": "dormido", "source": "asleep", "gender": "m", "type": "adjective"}
+    {
+      "id": 1,
+      "target": "ser",
+      "source": "to be (permanent/essential)",
+      "gender": "v",
+      "type": "verb"
+    },
+    {
+      "id": 2,
+      "target": "estar",
+      "source": "to be (temporary/state)",
+      "gender": "v",
+      "type": "verb"
+    },
+    {
+      "id": 3,
+      "target": "soy",
+      "source": "I am (ser)",
+      "gender": "v",
+      "type": "verb"
+    },
+    {
+      "id": 4,
+      "target": "eres",
+      "source": "you are (ser)",
+      "gender": "v",
+      "type": "verb"
+    },
+    {
+      "id": 5,
+      "target": "es",
+      "source": "he/she is (ser)",
+      "gender": "v",
+      "type": "verb"
+    },
+    {
+      "id": 6,
+      "target": "somos",
+      "source": "we are (ser)",
+      "gender": "v",
+      "type": "verb"
+    },
+    {
+      "id": 7,
+      "target": "sois",
+      "source": "you all are (ser, Spain)",
+      "gender": "v",
+      "type": "verb"
+    },
+    {
+      "id": 8,
+      "target": "son",
+      "source": "they are (ser)",
+      "gender": "v",
+      "type": "verb"
+    },
+    {
+      "id": 9,
+      "target": "estoy",
+      "source": "I am (estar)",
+      "gender": "v",
+      "type": "verb"
+    },
+    {
+      "id": 10,
+      "target": "estas",
+      "source": "you are (estar)",
+      "gender": "v",
+      "type": "verb"
+    },
+    {
+      "id": 11,
+      "target": "esta",
+      "source": "he/she is (estar)",
+      "gender": "v",
+      "type": "verb"
+    },
+    {
+      "id": 12,
+      "target": "estamos",
+      "source": "we are (estar)",
+      "gender": "v",
+      "type": "verb"
+    },
+    {
+      "id": 13,
+      "target": "estais",
+      "source": "you all are (estar, Spain)",
+      "gender": "v",
+      "type": "verb"
+    },
+    {
+      "id": 14,
+      "target": "estan",
+      "source": "they are (estar)",
+      "gender": "v",
+      "type": "verb"
+    },
+    {
+      "id": 15,
+      "target": "profesor",
+      "source": "teacher",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 16,
+      "target": "medico",
+      "source": "doctor",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 17,
+      "target": "estudiante",
+      "source": "student",
+      "gender": "m/f",
+      "type": "noun"
+    },
+    {
+      "id": 18,
+      "target": "español",
+      "source": "Spanish (person)",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 19,
+      "target": "madrid",
+      "source": "Madrid",
+      "gender": "m",
+      "type": "place"
+    },
+    {
+      "id": 20,
+      "target": "la capital",
+      "source": "the capital",
+      "gender": "f",
+      "type": "place"
+    },
+    {
+      "id": 21,
+      "target": "inteligente",
+      "source": "intelligent",
+      "gender": "m",
+      "type": "adjective"
+    },
+    {
+      "id": 22,
+      "target": "alto",
+      "source": "tall",
+      "gender": "m",
+      "type": "adjective"
+    },
+    {
+      "id": 23,
+      "target": "bajo",
+      "source": "short/low",
+      "gender": "m",
+      "type": "adjective"
+    },
+    {
+      "id": 24,
+      "target": "guapo",
+      "source": "handsome",
+      "gender": "m",
+      "type": "adjective"
+    },
+    {
+      "id": 25,
+      "target": "bonito",
+      "source": "pretty",
+      "gender": "m",
+      "type": "adjective"
+    },
+    {
+      "id": 26,
+      "target": "grande",
+      "source": "big/large",
+      "gender": "m",
+      "type": "adjective"
+    },
+    {
+      "id": 27,
+      "target": "pequeno",
+      "source": "small",
+      "gender": "m",
+      "type": "adjective"
+    },
+    {
+      "id": 28,
+      "target": "cansado",
+      "source": "tired",
+      "gender": "m",
+      "type": "adjective"
+    },
+    {
+      "id": 29,
+      "target": "enfermo",
+      "source": "sick",
+      "gender": "m",
+      "type": "adjective"
+    },
+    {
+      "id": 30,
+      "target": "contento",
+      "source": "happy",
+      "gender": "m",
+      "type": "adjective"
+    },
+    {
+      "id": 31,
+      "target": "triste",
+      "source": "sad",
+      "gender": "m",
+      "type": "adjective"
+    },
+    {
+      "id": 32,
+      "target": "nervioso",
+      "source": "nervous",
+      "gender": "m",
+      "type": "adjective"
+    },
+    {
+      "id": 33,
+      "target": "aburrido",
+      "source": "bored",
+      "gender": "m",
+      "type": "adjective"
+    },
+    {
+      "id": 34,
+      "target": "aburrido",
+      "source": "boring",
+      "gender": "m",
+      "type": "adjective"
+    },
+    {
+      "id": 35,
+      "target": "aburrida",
+      "source": "bored (f)",
+      "gender": "f",
+      "type": "adjective"
+    },
+    {
+      "id": 36,
+      "target": "complicado",
+      "source": "complicated",
+      "gender": "m",
+      "type": "adjective"
+    },
+    {
+      "id": 37,
+      "target": "facil",
+      "source": "easy",
+      "gender": "m",
+      "type": "adjective"
+    },
+    {
+      "id": 38,
+      "target": "dificil",
+      "source": "difficult",
+      "gender": "m",
+      "type": "adjective"
+    },
+    {
+      "id": 39,
+      "target": "abierto",
+      "source": "open",
+      "gender": "m",
+      "type": "adjective"
+    },
+    {
+      "id": 40,
+      "target": "cerrado",
+      "source": "closed",
+      "gender": "m",
+      "type": "adjective"
+    },
+    {
+      "id": 41,
+      "target": "lleno",
+      "source": "full",
+      "gender": "m",
+      "type": "adjective"
+    },
+    {
+      "id": 42,
+      "target": "vacio",
+      "source": "empty",
+      "gender": "m",
+      "type": "adjective"
+    },
+    {
+      "id": 43,
+      "target": "limpio",
+      "source": "clean",
+      "gender": "m",
+      "type": "adjective"
+    },
+    {
+      "id": 44,
+      "target": "sucio",
+      "source": "dirty",
+      "gender": "m",
+      "type": "adjective"
+    },
+    {
+      "id": 45,
+      "target": "listo",
+      "source": "ready",
+      "gender": "m",
+      "type": "adjective"
+    },
+    {
+      "id": 46,
+      "target": "de acuerdo",
+      "source": "in agreement",
+      "gender": "m",
+      "type": "phrase"
+    },
+    {
+      "id": 47,
+      "target": "seguro",
+      "source": "sure",
+      "gender": "m",
+      "type": "adjective"
+    },
+    {
+      "id": 48,
+      "target": "presente",
+      "source": "present",
+      "gender": "m",
+      "type": "adjective"
+    },
+    {
+      "id": 49,
+      "target": "ausente",
+      "source": "absent",
+      "gender": "m",
+      "type": "adjective"
+    },
+    {
+      "id": 50,
+      "target": "equivocado",
+      "source": "wrong",
+      "gender": "m",
+      "type": "adjective"
+    },
+    {
+      "id": 51,
+      "target": "correcto",
+      "source": "correct",
+      "gender": "m",
+      "type": "adjective"
+    },
+    {
+      "id": 52,
+      "target": "la hora",
+      "source": "the time",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 53,
+      "target": "el tiempo",
+      "source": "the weather/time",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 54,
+      "target": "el precio",
+      "source": "the price",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 55,
+      "target": "la fecha",
+      "source": "the date",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 56,
+      "target": "la profesion",
+      "source": "the profession",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 57,
+      "target": "la nacionalidad",
+      "source": "the nationality",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 58,
+      "target": "la religion",
+      "source": "the religion",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 59,
+      "target": "el color",
+      "source": "the color",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 60,
+      "target": "el tamano",
+      "source": "the size",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 61,
+      "target": "la forma",
+      "source": "the shape/form",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 62,
+      "target": "la ubicacion",
+      "source": "the location",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 63,
+      "target": "el estado",
+      "source": "the state/condition",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 64,
+      "target": "la salud",
+      "source": "the health",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 65,
+      "target": "el animo",
+      "source": "the mood",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 66,
+      "target": "la disposition",
+      "source": "the disposition",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 67,
+      "target": "la casa",
+      "source": "the house",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 68,
+      "target": "el restaurant",
+      "source": "the restaurant",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 69,
+      "target": "el hotel",
+      "source": "the hotel",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 70,
+      "target": "el aero0puerto",
+      "source": "the airport",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 71,
+      "target": "la oficina",
+      "source": "the office",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 72,
+      "target": "la tienda",
+      "source": "the store",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 73,
+      "target": "aqui",
+      "source": "here",
+      "gender": "adv",
+      "type": "adverb"
+    },
+    {
+      "id": 74,
+      "target": "alli",
+      "source": "there",
+      "gender": "adv",
+      "type": "adverb"
+    },
+    {
+      "id": 75,
+      "target": "ahora",
+      "source": "now",
+      "gender": "adv",
+      "type": "adverb"
+    },
+    {
+      "id": 76,
+      "target": "hoy",
+      "source": "today",
+      "gender": "adv",
+      "type": "adverb"
+    },
+    {
+      "id": 77,
+      "target": "siempre",
+      "source": "always",
+      "gender": "adv",
+      "type": "adverb"
+    },
+    {
+      "id": 78,
+      "target": "aqui",
+      "source": "here",
+      "gender": "adv",
+      "type": "adverb"
+    },
+    {
+      "id": 79,
+      "target": "alli",
+      "source": "there",
+      "gender": "adv",
+      "type": "adverb"
+    },
+    {
+      "id": 80,
+      "target": "en Madrid",
+      "source": "in Madrid",
+      "gender": "prep",
+      "type": "phrase"
+    },
+    {
+      "id": 81,
+      "target": "de aqua",
+      "source": "from here",
+      "gender": "prep",
+      "type": "phrase"
+    },
+    {
+      "id": 82,
+      "target": "aqui",
+      "source": "here",
+      "gender": "adv",
+      "type": "phrase"
+    },
+    {
+      "id": 83,
+      "target": "alli",
+      "source": "there",
+      "gender": "adv",
+      "type": "phrase"
+    },
+    {
+      "id": 84,
+      "target": "por naturaleza",
+      "source": "by nature",
+      "gender": "m",
+      "type": "phrase"
+    },
+    {
+      "id": 85,
+      "target": "por definition",
+      "source": "by definition",
+      "gender": "m",
+      "type": "phrase"
+    },
+    {
+      "id": 86,
+      "target": "en general",
+      "source": "in general",
+      "gender": "m",
+      "type": "phrase"
+    },
+    {
+      "id": 87,
+      "target": "de costumbre",
+      "source": "usually",
+      "gender": "m",
+      "type": "phrase"
+    },
+    {
+      "id": 88,
+      "target": "por ahora",
+      "source": "for now",
+      "gender": "m",
+      "type": "phrase"
+    },
+    {
+      "id": 89,
+      "target": "de acuerdo",
+      "source": "in agreement",
+      "gender": "m",
+      "type": "phrase"
+    },
+    {
+      "id": 90,
+      "target": "equivocado",
+      "source": "wrong",
+      "gender": "m",
+      "type": "adjective"
+    },
+    {
+      "id": 91,
+      "target": "en lo cierto",
+      "source": "right/correct",
+      "gender": "m",
+      "type": "phrase"
+    },
+    {
+      "id": 92,
+      "target": "enfermo",
+      "source": "ill",
+      "gender": "m",
+      "type": "adjective"
+    },
+    {
+      "id": 93,
+      "target": "de buen humor",
+      "source": "in a good mood",
+      "gender": "m",
+      "type": "phrase"
+    },
+    {
+      "id": 94,
+      "target": "de mal humor",
+      "source": "in a bad mood",
+      "gender": "m",
+      "type": "phrase"
+    },
+    {
+      "id": 95,
+      "target": "en forma",
+      "source": "in shape",
+      "gender": "f",
+      "type": "phrase"
+    },
+    {
+      "id": 96,
+      "target": "de pie",
+      "source": "standing",
+      "gender": "m",
+      "type": "phrase"
+    },
+    {
+      "id": 97,
+      "target": "sentado",
+      "source": "seated",
+      "gender": "m",
+      "type": "adjective"
+    },
+    {
+      "id": 98,
+      "target": "acostado",
+      "source": "lying down",
+      "gender": "m",
+      "type": "adjective"
+    },
+    {
+      "id": 99,
+      "target": "despierto",
+      "source": "awake",
+      "gender": "m",
+      "type": "adjective"
+    },
+    {
+      "id": 100,
+      "target": "dormido",
+      "source": "asleep",
+      "gender": "m",
+      "type": "adjective"
+    }
   ],
   "grammar": [
     {
-      "title": "SER — Essential Characteristics and Origin",
-      "content": "Use SER for:\\n\\n1. IDENTITY/ESSENCE:\\nSoy estudiante. (I am a student.)\\nEs doctor. (He is a doctor.)\\nSomos espanol. (We are Spanish.)\\n\\n2. ORIGIN/SOURCE:\\nSoy de Mexico. (I'm from Mexico.)\\nEs de Buenos Aires. (She's from Buenos Aires.)\\n\\n3. CHARACTERISTICS (permanent):\\nEs alto y moreno. (He's tall and dark-haired.)\\nEs inteligente. (She's intelligent.)\\nSon muy simpticos. (They're very nice.)\\n\\n4. PROFESSION/NATIONALITY/RELIGION:\\nMi madre es profesora. (My mother is a teacher.)\\nSoy catolico. (I'm Catholic.)\\n\\n5. TIME/DATE/PRICE:\\nSon las tres. (It's three o'clock.)\\nEs el 15 de junio. (It's June 15th.)\\nSon diez euros. (It's ten euros.)",
+      "title": "Comparatives and Superlatives",
+      "content": "Compare people, things, and ideas using comparatives and superlatives.\n\nComparative (more/less/as... as):\n- más... que = more... than\n- menos... que = less... than\n- tan... como = as... as\n\nSuperlative (the most/the least):\n- el/la más... = the most...\n- el/la menos... = the least...\n\nIrregular comparatives:\n- bueno → mejor (better than)\n- malo → peor (worse than)\n- grande → mayor (older/greater than)\n- pequeño → menor (younger/lesser than)\n\nFor age comparisons, mayor/menor are used instead of más/menos grande/pequeño when referring to age.",
+      "table": {
+        "headers": [
+          "Type",
+          "Formula",
+          "Example"
+        ],
+        "rows": [
+          [
+            "More than",
+            "más + adjective + que",
+            "Madrid es más grande que Sevilla."
+          ],
+          [
+            "Less than",
+            "menos + adjective + que",
+            "Este libro es menos interesante que aquel."
+          ],
+          [
+            "As... as",
+            "tan + adjective + como",
+            "Ella es tan inteligente como su hermano."
+          ],
+          [
+            "The most",
+            "el/la más + adjective + (de)",
+            "Él es el más alto de la clase."
+          ],
+          [
+            "The least",
+            "el/la menos + adjective + (de)",
+            "Esta película es la menos divertida."
+          ]
+        ]
+      },
       "examples": [
-        "Soy Maria, mucho gusto. (I'm Maria, nice to meet you.)",
-        "De donde eres? Soy de Colombia. (Where are you from? I'm from Colombia.)",
-        "Es medico de profesion. (He's a doctor by profession.)",
-        "Son las ocho de la manana. (It's eight in the morning.)"
-      ]
+        "Mi casa es más bonita que la tuya. (My house is prettier than yours.)",
+        "Ese examen fue más difícil que el anterior. (That exam was harder than the previous one.)",
+        "Mi hermano es mayor que yo. (My brother is older than me.)",
+        "Ella es la más inteligente de todos. (She is the smartest of all.)"
+      ],
+      "aid_note": "Romanian comparatives follow the same pattern: 'mai bun' (better), 'mai frumos' (prettier), 'cel mai' (the most). Spanish 'más que' ≈ Romanian 'mai ... decât'. The irregulars (mejor, peor) are similar to Romanian 'mai bun' and 'mai rău'."
     },
     {
       "title": "ESTAR — States and Locations",
@@ -124,6 +759,16 @@
         "Como estas hoy? Estoy muy bien, gracias. (How are you today? I'm very well, thanks.)",
         "Estas listo? Si, ya estoy listo. (Are you ready? Yes, I'm ready already.)",
         "El examen esta facil. (The exam is easy [this one seems easy to me])"
+      ]
+    },
+    {
+      "title": "SER — Essential Characteristics and Origin",
+      "content": "Use SER for:\\n\\n1. IDENTITY/ESSENCE:\\nSoy estudiante. (I am a student.)\\nEs doctor. (He is a doctor.)\\nSomos espanol. (We are Spanish.)\\n\\n2. ORIGIN/SOURCE:\\nSoy de Mexico. (I'm from Mexico.)\\nEs de Buenos Aires. (She's from Buenos Aires.)\\n\\n3. CHARACTERISTICS (permanent):\\nEs alto y moreno. (He's tall and dark-haired.)\\nEs inteligente. (She's intelligent.)\\nSon muy simpticos. (They're very nice.)\\n\\n4. PROFESSION/NATIONALITY/RELIGION:\\nMi madre es profesora. (My mother is a teacher.)\\nSoy catolico. (I'm Catholic.)\\n\\n5. TIME/DATE/PRICE:\\nSon las tres. (It's three o'clock.)\\nEs el 15 de junio. (It's June 15th.)\\nSon diez euros. (It's ten euros.)",
+      "examples": [
+        "Soy Maria, mucho gusto. (I'm Maria, nice to meet you.)",
+        "De donde eres? Soy de Colombia. (Where are you from? I'm from Colombia.)",
+        "Es medico de profesion. (He's a doctor by profession.)",
+        "Son las ocho de la manana. (It's eight in the morning.)"
       ]
     },
     {
@@ -152,7 +797,12 @@
     {
       "type": "multiple-choice",
       "question": "Which is correct for 'I am from Mexico'?",
-      "options": ["Estoy de Mexico", "Soy de Mexico", "Estoy en Mexico", "Soy en Mexico"],
+      "options": [
+        "Estoy de Mexico",
+        "Soy de Mexico",
+        "Estoy en Mexico",
+        "Soy en Mexico"
+      ],
       "correct": 1,
       "explanation": "Origin uses SER. 'Soy de Mexico' = I'm from Mexico."
     },
@@ -165,7 +815,12 @@
     {
       "type": "multiple-choice",
       "question": "How do you say 'The coffee is cold' in Spanish?",
-      "options": ["El cafe es frio", "El cafe esta frio", "El cafe esta frio", "El cafe soy frio"],
+      "options": [
+        "El cafe es frio",
+        "El cafe esta frio",
+        "El cafe esta frio",
+        "El cafe soy frio"
+      ],
       "correct": 2,
       "explanation": "Temperature/state uses ESTAR. 'El cafe esta frio' = The coffee is cold."
     },
@@ -178,7 +833,12 @@
     {
       "type": "multiple-choice",
       "question": "Which is correct for 'I am a teacher' in Spanish?",
-      "options": ["Estoy professor", "Soy professor", "Esta professor", "Soy de professor"],
+      "options": [
+        "Estoy professor",
+        "Soy professor",
+        "Esta professor",
+        "Soy de professor"
+      ],
       "correct": 1,
       "explanation": "Profession uses SER. 'Soy professor' = I am a teacher."
     },
@@ -191,7 +851,12 @@
     {
       "type": "multiple-choice",
       "question": "Which is correct for 'She is pretty' (permanent characteristic)?",
-      "options": ["Ella esta bonita", "Ella es bonita", "Ella esta bonito", "Ella soy bonita"],
+      "options": [
+        "Ella esta bonita",
+        "Ella es bonita",
+        "Ella esta bonito",
+        "Ella soy bonita"
+      ],
       "correct": 1,
       "explanation": "Physical description as inherent characteristic uses SER. 'Ella es bonita' = She is pretty."
     },
@@ -204,7 +869,12 @@
     {
       "type": "multiple-choice",
       "question": "How do you say 'We are Spanish' in Spanish?",
-      "options": ["Estamos espanol", "Somos espanol", "Estamos de espanol", "Somos de espanol"],
+      "options": [
+        "Estamos espanol",
+        "Somos espanol",
+        "Estamos de espanol",
+        "Somos de espanol"
+      ],
       "correct": 1,
       "explanation": "Nationality uses SER. 'Somos espanol' (masc) or 'Somos espanol' — nationality is a permanent characteristic."
     },

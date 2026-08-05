@@ -4,104 +4,692 @@
   "title": "Health & Body",
   "description": "Learn to talk about body parts, describe symptoms, visit the doctor, and understand basic health expressions in everyday situations.",
   "vocabulary": [
-    {"id": 1, "target": "cuerpo", "source": "body", "gender": "m", "type": "noun"},
-    {"id": 2, "target": "cabeza", "source": "head", "gender": "f", "type": "noun"},
-    {"id": 3, "target": "cuello", "source": "neck", "gender": "m", "type": "noun"},
-    {"id": 4, "target": "hombro", "source": "shoulder", "gender": "m", "type": "noun"},
-    {"id": 5, "target": "brazo", "source": "arm", "gender": "m", "type": "noun"},
-    {"id": 6, "target": "codo", "source": "elbow", "gender": "m", "type": "noun"},
-    {"id": 7, "target": "muñeca", "source": "wrist", "gender": "f", "type": "noun"},
-    {"id": 8, "target": "mano", "source": "hand", "gender": "f", "type": "noun"},
-    {"id": 9, "target": "dedo", "source": "finger / toe", "gender": "m", "type": "noun"},
-    {"id": 10, "target": "pecho", "source": "chest", "gender": "m", "type": "noun"},
-    {"id": 11, "target": "estómago", "source": "stomach", "gender": "m", "type": "noun"},
-    {"id": 12, "target": "pierna", "source": "leg", "gender": "f", "type": "noun"},
-    {"id": 13, "target": "rodilla", "source": "knee", "gender": "f", "type": "noun"},
-    {"id": 14, "target": "tobillo", "source": "ankle", "gender": "m", "type": "noun"},
-    {"id": 15, "target": "pie", "source": "foot", "gender": "m", "type": "noun"},
-    {"id": 16, "target": "cara", "source": "face", "gender": "f", "type": "noun"},
-    {"id": 17, "target": "ojo", "source": "eye", "gender": "m", "type": "noun"},
-    {"id": 18, "target": "oreja", "source": "ear", "gender": "f", "type": "noun"},
-    {"id": 19, "target": "nariz", "source": "nose", "gender": "f", "type": "noun"},
-    {"id": 20, "target": "boca", "source": "mouth", "gender": "f", "type": "noun"},
-    {"id": 21, "target": "diente", "source": "tooth", "gender": "m", "type": "noun"},
-    {"id": 22, "target": "lengua", "source": "tongue", "gender": "f", "type": "noun"},
-    {"id": 23, "target": "cabello", "source": "hair", "gender": "m", "type": "noun"},
-    {"id": 24, "target": "espalda", "source": "back", "gender": "f", "type": "noun"},
-    {"id": 25, "target": "riñón", "source": "kidney", "gender": "m", "type": "noun"},
-    {"id": 26, "target": "corazón", "source": "heart", "gender": "m", "type": "noun"},
-    {"id": 27, "target": "pulmón", "source": "lung", "gender": "m", "type": "noun"},
-    {"id": 28, "target": "sangre", "source": "blood", "gender": "f", "type": "noun"},
-    {"id": 29, "target": "hueso", "source": "bone", "gender": "m", "type": "noun"},
-    {"id": 30, "target": "músculo", "source": "muscle", "gender": "m", "type": "noun"},
-    {"id": 31, "target": "dolor", "source": "pain", "gender": "m", "type": "noun"},
-    {"id": 32, "target": "fiebre", "source": "fever", "gender": "f", "type": "noun"},
-    {"id": 33, "target": "tos", "source": "cough", "gender": "f", "type": "noun"},
-    {"id": 34, "target": "resfriado", "source": "cold", "gender": "m", "type": "noun"},
-    {"id": 35, "target": "gripe", "source": "flu", "gender": "f", "type": "noun"},
-    {"id": 36, "target": "alergia", "source": "allergy", "gender": "f", "type": "noun"},
-    {"id": 37, "target": "médico", "source": "doctor", "gender": "m", "type": "noun"},
-    {"id": 38, "target": "doctora", "source": "doctor (female)", "gender": "f", "type": "noun"},
-    {"id": 39, "target": "enfermera", "source": "nurse", "gender": "f", "type": "noun"},
-    {"id": 40, "target": "hospital", "source": "hospital", "gender": "m", "type": "noun"},
-    {"id": 41, "target": "clínica", "source": "clinic", "gender": "f", "type": "noun"},
-    {"id": 42, "target": "farmacia", "source": "pharmacy", "gender": "f", "type": "noun"},
-    {"id": 43, "target": "botica", "source": "pharmacy (LatAm)", "gender": "f", "type": "noun"},
-    {"id": 44, "target": "urgencias", "source": "emergency room", "gender": "f", "type": "noun"},
-    {"id": 45, "target": "consulta", "source": "appointment / consultation", "gender": "f", "type": "noun"},
-    {"id": 46, "target": "receta", "source": "prescription", "gender": "f", "type": "noun"},
-    {"id": 47, "target": "medicina", "source": "medicine", "gender": "f", "type": "noun"},
-    {"id": 48, "target": "pastilla", "source": "pill", "gender": "f", "type": "noun"},
-    {"id": 49, "target": "jarabe", "source": "syrup", "gender": "m", "type": "noun"},
-    {"id": 50, "target": "inyección", "source": "injection", "gender": "f", "type": "noun"},
-    {"id": 51, "target": "vendaje", "source": "bandage", "gender": "m", "type": "noun"},
-    {"id": 52, "target": "curita", "source": "band-aid", "gender": "f", "type": "noun"},
-    {"id": 53, "target": "herida", "source": "wound", "gender": "f", "type": "noun"},
-    {"id": 54, "target": "corte", "source": "cut", "gender": "m", "type": "noun"},
-    {"id": 55, "target": "quemadura", "source": "burn", "gender": "f", "type": "noun"},
-    {"id": 56, "target": "moretón", "source": "bruise", "gender": "m", "type": "noun"},
-    {"id": 57, "target": "cabeceo", "source": "headache", "gender": "m", "type": "noun"},
-    {"id": 58, "target": "náusea", "source": "nausea", "gender": "f", "type": "noun"},
-    {"id": 59, "target": "mareo", "source": "dizziness", "gender": "m", "type": "noun"},
-    {"id": 60, "target": "calambre", "source": "cramp", "gender": "m", "type": "noun"},
-    {"id": 61, "target": "hambre", "source": "hunger", "gender": "f", "type": "noun"},
-    {"id": 62, "target": "sed", "source": "thirst", "gender": "f", "type": "noun"},
-    {"id": 63, "target": "sueño", "source": "sleepiness", "gender": "m", "type": "noun"},
-    {"id": 64, "target": "fatiga", "source": "fatigue", "gender": "f", "type": "noun"},
-    {"id": 65, "target": "doler", "source": "to hurt / to ache", "gender": "m", "type": "verb"},
-    {"id": 66, "target": "sentir", "source": "to feel", "gender": "m", "type": "verb"},
-    {"id": 67, "target": "tener fiebre", "source": "to have a fever", "gender": "m", "type": "phrase"},
-    {"id": 68, "target": "tener dolor", "source": "to have a pain", "gender": "m", "type": "phrase"},
-    {"id": 69, "target": "toser", "source": "to cough", "gender": "m", "type": "verb"},
-    {"id": 70, "target": "estornudar", "source": "to sneeze", "gender": "m", "type": "verb"},
-    {"id": 71, "target": "respirar", "source": "to breathe", "gender": "m", "type": "verb"},
-    {"id": 72, "target": "dormir", "source": "to sleep", "gender": "m", "type": "verb"},
-    {"id": 73, "target": "comer", "source": "to eat", "gender": "m", "type": "verb"},
-    {"id": 74, "target": "beber", "source": "to drink", "gender": "m", "type": "verb"},
-    {"id": 75, "target": "cuidarse", "source": "to take care of oneself", "gender": "m", "type": "verb"},
-    {"id": 76, "target": "sanar", "source": "to heal", "gender": "m", "type": "verb"},
-    {"id": 77, "target": "enfermo", "source": "sick", "gender": "m", "type": "adjective"},
-    {"id": 78, "target": "enferma", "source": "sick (feminine)", "gender": "f", "type": "adjective"},
-    {"id": 79, "target": "sano", "source": "healthy / healthy (m)", "gender": "m", "type": "adjective"},
-    {"id": 80, "target": "sana", "source": "healthy (feminine)", "gender": "f", "type": "adjective"},
-    {"id": 81, "target": "agudo", "source": "sharp (pain)", "gender": "m", "type": "adjective"},
-    {"id": 82, "target": "aguda", "source": "sharp (feminine)", "gender": "f", "type": "adjective"},
-    {"id": 83, "target": "crónico", "source": "chronic", "gender": "m", "type": "adjective"},
-    {"id": 84, "target": "agudo", "source": "acute / sharp", "gender": "m", "type": "adjective"},
-    {"id": 85, "target": "leve", "source": "mild / slight", "gender": "m", "type": "adjective"},
-    {"id": 86, "target": "grave", "source": "serious / severe", "gender": "m", "type": "adjective"},
-    {"id": 87, "target": "fuerte", "source": "strong (pain)", "gender": "m", "type": "adjective"},
-    {"id": 88, "target": "suave", "source": "mild / soft", "gender": "m", "type": "adjective"},
-    {"id": 89, "target": "rojo", "source": "red", "gender": "m", "type": "adjective"},
-    {"id": 90, "target": "hinchazón", "source": "swelling", "gender": "f", "type": "noun"},
-    {"id": 91, "target": "erupción", "source": "rash", "gender": "f", "type": "noun"},
-    {"id": 92, "target": "picazón", "source": "itching", "gender": "f", "type": "noun"},
-    {"id": 93, "target": "desmayo", "source": "faint / fainting", "gender": "m", "type": "noun"},
-    {"id": 94, "target": "primeros auxilios", "source": "first aid", "gender": "m", "type": "noun"},
-    {"id": 95, "target": "reconocimiento médico", "source": "medical check-up", "gender": "m", "type": "noun"},
-    {"id": 96, "target": "seguro médico", "source": "health insurance", "gender": "m", "type": "noun"},
-    {"id": 97, "target": "síntoma", "source": "symptom", "gender": "m", "type": "noun"},
-    {"id": 98, "target": "tratamiento", "source": "treatment", "gender": "m", "type": "noun"}
+    {
+      "id": 1,
+      "target": "cuerpo",
+      "source": "body",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 2,
+      "target": "cabeza",
+      "source": "head",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 3,
+      "target": "cuello",
+      "source": "neck",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 4,
+      "target": "hombro",
+      "source": "shoulder",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 5,
+      "target": "brazo",
+      "source": "arm",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 6,
+      "target": "codo",
+      "source": "elbow",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 7,
+      "target": "muñeca",
+      "source": "wrist",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 8,
+      "target": "mano",
+      "source": "hand",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 9,
+      "target": "dedo",
+      "source": "finger / toe",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 10,
+      "target": "pecho",
+      "source": "chest",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 11,
+      "target": "estómago",
+      "source": "stomach",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 12,
+      "target": "pierna",
+      "source": "leg",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 13,
+      "target": "rodilla",
+      "source": "knee",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 14,
+      "target": "tobillo",
+      "source": "ankle",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 15,
+      "target": "pie",
+      "source": "foot",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 16,
+      "target": "cara",
+      "source": "face",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 17,
+      "target": "ojo",
+      "source": "eye",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 18,
+      "target": "oreja",
+      "source": "ear",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 19,
+      "target": "nariz",
+      "source": "nose",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 20,
+      "target": "boca",
+      "source": "mouth",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 21,
+      "target": "diente",
+      "source": "tooth",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 22,
+      "target": "lengua",
+      "source": "tongue",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 23,
+      "target": "cabello",
+      "source": "hair",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 24,
+      "target": "espalda",
+      "source": "back",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 25,
+      "target": "riñón",
+      "source": "kidney",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 26,
+      "target": "corazón",
+      "source": "heart",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 27,
+      "target": "pulmón",
+      "source": "lung",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 28,
+      "target": "sangre",
+      "source": "blood",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 29,
+      "target": "hueso",
+      "source": "bone",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 30,
+      "target": "músculo",
+      "source": "muscle",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 31,
+      "target": "dolor",
+      "source": "pain",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 32,
+      "target": "fiebre",
+      "source": "fever",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 33,
+      "target": "tos",
+      "source": "cough",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 34,
+      "target": "resfriado",
+      "source": "cold",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 35,
+      "target": "gripe",
+      "source": "flu",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 36,
+      "target": "alergia",
+      "source": "allergy",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 37,
+      "target": "médico",
+      "source": "doctor",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 38,
+      "target": "doctora",
+      "source": "doctor (female)",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 39,
+      "target": "enfermera",
+      "source": "nurse",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 40,
+      "target": "hospital",
+      "source": "hospital",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 41,
+      "target": "clínica",
+      "source": "clinic",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 42,
+      "target": "farmacia",
+      "source": "pharmacy",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 43,
+      "target": "botica",
+      "source": "pharmacy (LatAm)",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 44,
+      "target": "urgencias",
+      "source": "emergency room",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 45,
+      "target": "consulta",
+      "source": "appointment / consultation",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 46,
+      "target": "receta",
+      "source": "prescription",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 47,
+      "target": "medicina",
+      "source": "medicine",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 48,
+      "target": "pastilla",
+      "source": "pill",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 49,
+      "target": "jarabe",
+      "source": "syrup",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 50,
+      "target": "inyección",
+      "source": "injection",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 51,
+      "target": "vendaje",
+      "source": "bandage",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 52,
+      "target": "curita",
+      "source": "band-aid",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 53,
+      "target": "herida",
+      "source": "wound",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 54,
+      "target": "corte",
+      "source": "cut",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 55,
+      "target": "quemadura",
+      "source": "burn",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 56,
+      "target": "moretón",
+      "source": "bruise",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 57,
+      "target": "cabeceo",
+      "source": "headache",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 58,
+      "target": "náusea",
+      "source": "nausea",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 59,
+      "target": "mareo",
+      "source": "dizziness",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 60,
+      "target": "calambre",
+      "source": "cramp",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 61,
+      "target": "hambre",
+      "source": "hunger",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 62,
+      "target": "sed",
+      "source": "thirst",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 63,
+      "target": "sueño",
+      "source": "sleepiness",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 64,
+      "target": "fatiga",
+      "source": "fatigue",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 65,
+      "target": "doler",
+      "source": "to hurt / to ache",
+      "gender": "m",
+      "type": "verb"
+    },
+    {
+      "id": 66,
+      "target": "sentir",
+      "source": "to feel",
+      "gender": "m",
+      "type": "verb"
+    },
+    {
+      "id": 67,
+      "target": "tener fiebre",
+      "source": "to have a fever",
+      "gender": "m",
+      "type": "phrase"
+    },
+    {
+      "id": 68,
+      "target": "tener dolor",
+      "source": "to have a pain",
+      "gender": "m",
+      "type": "phrase"
+    },
+    {
+      "id": 69,
+      "target": "toser",
+      "source": "to cough",
+      "gender": "m",
+      "type": "verb"
+    },
+    {
+      "id": 70,
+      "target": "estornudar",
+      "source": "to sneeze",
+      "gender": "m",
+      "type": "verb"
+    },
+    {
+      "id": 71,
+      "target": "respirar",
+      "source": "to breathe",
+      "gender": "m",
+      "type": "verb"
+    },
+    {
+      "id": 72,
+      "target": "dormir",
+      "source": "to sleep",
+      "gender": "m",
+      "type": "verb"
+    },
+    {
+      "id": 73,
+      "target": "comer",
+      "source": "to eat",
+      "gender": "m",
+      "type": "verb"
+    },
+    {
+      "id": 74,
+      "target": "beber",
+      "source": "to drink",
+      "gender": "m",
+      "type": "verb"
+    },
+    {
+      "id": 75,
+      "target": "cuidarse",
+      "source": "to take care of oneself",
+      "gender": "m",
+      "type": "verb"
+    },
+    {
+      "id": 76,
+      "target": "sanar",
+      "source": "to heal",
+      "gender": "m",
+      "type": "verb"
+    },
+    {
+      "id": 77,
+      "target": "enfermo",
+      "source": "sick",
+      "gender": "m",
+      "type": "adjective"
+    },
+    {
+      "id": 78,
+      "target": "enferma",
+      "source": "sick (feminine)",
+      "gender": "f",
+      "type": "adjective"
+    },
+    {
+      "id": 79,
+      "target": "sano",
+      "source": "healthy / healthy (m)",
+      "gender": "m",
+      "type": "adjective"
+    },
+    {
+      "id": 80,
+      "target": "sana",
+      "source": "healthy (feminine)",
+      "gender": "f",
+      "type": "adjective"
+    },
+    {
+      "id": 81,
+      "target": "agudo",
+      "source": "sharp (pain)",
+      "gender": "m",
+      "type": "adjective"
+    },
+    {
+      "id": 82,
+      "target": "aguda",
+      "source": "sharp (feminine)",
+      "gender": "f",
+      "type": "adjective"
+    },
+    {
+      "id": 83,
+      "target": "crónico",
+      "source": "chronic",
+      "gender": "m",
+      "type": "adjective"
+    },
+    {
+      "id": 84,
+      "target": "agudo",
+      "source": "acute / sharp",
+      "gender": "m",
+      "type": "adjective"
+    },
+    {
+      "id": 85,
+      "target": "leve",
+      "source": "mild / slight",
+      "gender": "m",
+      "type": "adjective"
+    },
+    {
+      "id": 86,
+      "target": "grave",
+      "source": "serious / severe",
+      "gender": "m",
+      "type": "adjective"
+    },
+    {
+      "id": 87,
+      "target": "fuerte",
+      "source": "strong (pain)",
+      "gender": "m",
+      "type": "adjective"
+    },
+    {
+      "id": 88,
+      "target": "suave",
+      "source": "mild / soft",
+      "gender": "m",
+      "type": "adjective"
+    },
+    {
+      "id": 89,
+      "target": "rojo",
+      "source": "red",
+      "gender": "m",
+      "type": "adjective"
+    },
+    {
+      "id": 90,
+      "target": "hinchazón",
+      "source": "swelling",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 91,
+      "target": "erupción",
+      "source": "rash",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 92,
+      "target": "picazón",
+      "source": "itching",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 93,
+      "target": "desmayo",
+      "source": "faint / fainting",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 94,
+      "target": "primeros auxilios",
+      "source": "first aid",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 95,
+      "target": "reconocimiento médico",
+      "source": "medical check-up",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 96,
+      "target": "seguro médico",
+      "source": "health insurance",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 97,
+      "target": "síntoma",
+      "source": "symptom",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 98,
+      "target": "tratamiento",
+      "source": "treatment",
+      "gender": "m",
+      "type": "noun"
+    }
   ],
   "grammar": [
     {
@@ -183,28 +771,48 @@
     {
       "type": "multiple-choice",
       "question": "What is 'headache' in Spanish?",
-      "options": ["fiebre", "dolor de cabeza", "gripe", "resfriado"],
+      "options": [
+        "fiebre",
+        "dolor de cabeza",
+        "gripe",
+        "resfriado"
+      ],
       "correct": 1,
       "explanation": "Dolor de cabeza = headache. Fiebre = fever. Gripe = flu. Resfriado = cold."
     },
     {
       "type": "multiple-choice",
       "question": "How do you say 'My head hurts' in Spanish?",
-      "options": ["Me duele la cabeza", "Tengo cabeza", "Me duele el cabeza", "Tengo dolor de cabezas"],
+      "options": [
+        "Me duele la cabeza",
+        "Tengo cabeza",
+        "Me duele el cabeza",
+        "Tengo dolor de cabezas"
+      ],
       "correct": 0,
       "explanation": "Me duele la cabeza = My head hurts. Doler uses 'me duele' with singular body parts."
     },
     {
       "type": "multiple-choice",
       "question": "What does 'tener fiebre' mean?",
-      "options": ["to have a cough", "to have a fever", "to have a cold", "to have a headache"],
+      "options": [
+        "to have a cough",
+        "to have a fever",
+        "to have a cold",
+        "to have a headache"
+      ],
       "correct": 1,
       "explanation": "Tener fiebre = to have a fever. Fiebre = fever."
     },
     {
       "type": "multiple-choice",
       "question": "What is 'pharmacy' in Spanish?",
-      "options": ["hospital", "clínica", "farmacia", "urgencias"],
+      "options": [
+        "hospital",
+        "clínica",
+        "farmacia",
+        "urgencias"
+      ],
       "correct": 2,
       "explanation": "Farmacia = pharmacy. Hospital = hospital. Clínica = clinic. Urgencias = emergency room."
     },
@@ -223,14 +831,24 @@
     {
       "type": "multiple-choice",
       "question": "What is 'stomach' in Spanish?",
-      "options": ["corazón", "pulmón", "estómago", "hueso"],
+      "options": [
+        "corazón",
+        "pulmón",
+        "estómago",
+        "hueso"
+      ],
       "correct": 2,
       "explanation": "Estómago = stomach. Corazón = heart. Pulmón = lung. Hueso = bone."
     },
     {
       "type": "multiple-choice",
       "question": "How many times a day is 'tres veces al día'?",
-      "options": ["Once", "Twice", "Three times", "Four times"],
+      "options": [
+        "Once",
+        "Twice",
+        "Three times",
+        "Four times"
+      ],
       "correct": 2,
       "explanation": "Tres veces al día = three times a day. Una vez = once. Dos veces = twice."
     },
@@ -243,14 +861,24 @@
     {
       "type": "multiple-choice",
       "question": "What does 'enfermo' mean?",
-      "options": ["healthy", "sick", "happy", "tired"],
+      "options": [
+        "healthy",
+        "sick",
+        "happy",
+        "tired"
+      ],
       "correct": 1,
       "explanation": "Enfermo = sick. Sano = healthy. Cansado = tired."
     },
     {
       "type": "multiple-choice",
       "question": "What is 'heart' in Spanish?",
-      "options": ["pulmón", "estómago", "corazón", "riñón"],
+      "options": [
+        "pulmón",
+        "estómago",
+        "corazón",
+        "riñón"
+      ],
       "correct": 2,
       "explanation": "Corazón = heart. Pulmón = lung. Estómago = stomach. Riñón = kidney."
     },
@@ -263,14 +891,24 @@
     {
       "type": "multiple-choice",
       "question": "What is 'cough' in Spanish?",
-      "options": ["fiebre", "tos", "gripe", "resfriado"],
+      "options": [
+        "fiebre",
+        "tos",
+        "gripe",
+        "resfriado"
+      ],
       "correct": 1,
       "explanation": "Tos = cough. Fiebre = fever. Gripe = flu. Resfriado = cold."
     },
     {
       "type": "multiple-choice",
       "question": "Which verb is used for 'to have' in 'I have a cold'?",
-      "options": ["estar", "ser", "tener", "doler"],
+      "options": [
+        "estar",
+        "ser",
+        "tener",
+        "doler"
+      ],
       "correct": 2,
       "explanation": "Tener is used for bodily states: Tengo un resfriado = I have a cold."
     },
@@ -283,14 +921,24 @@
     {
       "type": "multiple-choice",
       "question": "What is 'back' (body part) in Spanish?",
-      "options": ["hombro", "cuello", "espalda", "brazo"],
+      "options": [
+        "hombro",
+        "cuello",
+        "espalda",
+        "brazo"
+      ],
       "correct": 2,
       "explanation": "Espalda = back. Hombro = shoulder. Cuello = neck. Brazo = arm."
     },
     {
       "type": "multiple-choice",
       "question": "What does 'beba mucha agua' mean?",
-      "options": ["Eat lots of food", "Drink lots of water", "Rest for three days", "Take medicine twice a day"],
+      "options": [
+        "Eat lots of food",
+        "Drink lots of water",
+        "Rest for three days",
+        "Take medicine twice a day"
+      ],
       "correct": 1,
       "explanation": "Beba mucha agua = Drink lots of water. Beba = drink (formal command). Agua = water."
     },
@@ -303,14 +951,24 @@
     {
       "type": "multiple-choice",
       "question": "What is 'arm' in Spanish?",
-      "options": ["mano", "brazo", "codo", "muñeca"],
+      "options": [
+        "mano",
+        "brazo",
+        "codo",
+        "muñeca"
+      ],
       "correct": 1,
       "explanation": "Brazo = arm. Mano = hand. Codo = elbow. Muñeca = wrist."
     },
     {
       "type": "multiple-choice",
       "question": "How do you say 'I'm feeling better' in Spanish?",
-      "options": ["Estoy peor", "Estoy mejor", "Tengo mejor", "Soy mejor"],
+      "options": [
+        "Estoy peor",
+        "Estoy mejor",
+        "Tengo mejor",
+        "Soy mejor"
+      ],
       "correct": 1,
       "explanation": "Estoy mejor = I'm better. Estar is used for health states. Peor = worse."
     },
@@ -323,14 +981,24 @@
     {
       "type": "multiple-choice",
       "question": "What is 'knee' in Spanish?",
-      "options": ["tobillo", "pierna", "rodilla", "pie"],
+      "options": [
+        "tobillo",
+        "pierna",
+        "rodilla",
+        "pie"
+      ],
       "correct": 2,
       "explanation": "Rodilla = knee. Tobillo = ankle. Pierna = leg. Pie = foot."
     },
     {
       "type": "multiple-choice",
       "question": "What does 'antigripal' mean?",
-      "options": ["antibiotic", "flu medicine", "painkiller", "cough syrup"],
+      "options": [
+        "antibiotic",
+        "flu medicine",
+        "painkiller",
+        "cough syrup"
+      ],
       "correct": 1,
       "explanation": "Antigripal = flu medicine. Anti = against, gripe = flu."
     },
@@ -343,7 +1011,12 @@
     {
       "type": "multiple-choice",
       "question": "What is 'blood' in Spanish?",
-      "options": ["hueso", "músculo", "sangre", "pulmón"],
+      "options": [
+        "hueso",
+        "músculo",
+        "sangre",
+        "pulmón"
+      ],
       "correct": 2,
       "explanation": "Sangre = blood. Hueso = bone. Músculo = muscle. Pulmón = lung."
     }

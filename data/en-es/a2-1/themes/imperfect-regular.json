@@ -3,50 +3,265 @@
   "title": "Imperfect — Regular Verbs",
   "description": "Master regular imperfect conjugations for -AR, -ER, and -IR verbs to describe ongoing and habitual past actions.",
   "vocabulary": [
-    { "id": 1, "target": "de niño/a", "source": "as a child", "gender": "—", "type": "phrase" },
-    { "id": 2, "target": "siempre", "source": "always", "gender": "—", "type": "adverb" },
-    { "id": 3, "target": "antes", "source": "before / earlier", "gender": "—", "type": "adverb" },
-    { "id": 4, "target": "todavía", "source": "still / yet", "gender": "—", "type": "adverb" },
-    { "id": 5, "target": "cada día", "source": "every day", "gender": "—", "type": "phrase" },
-    { "id": 6, "target": "los domingos", "source": "on Sundays", "gender": "m.", "type": "phrase" },
-    { "id": 7, "target": "por la mañana", "source": "in the morning", "gender": "—", "type": "phrase" },
-    { "id": 8, "target": "por la tarde", "source": "in the afternoon", "gender": "—", "type": "phrase" },
-    { "id": 9, "target": "por la noche", "source": "in the evening / at night", "gender": "—", "type": "phrase" },
-    { "id": 10, "target": "a las ocho", "source": "at eight o'clock", "gender": "—", "type": "time" },
-    { "id": 11, "target": "cuando era joven", "source": "when I was young", "gender": "—", "type": "phrase" },
-    { "id": 12, "target": "cuando éramos pequeños", "source": "when we were little", "gender": "—", "type": "phrase" },
-    { "id": 13, "target": "hablar", "source": "to speak", "gender": "v.", "type": "verb" },
-    { "id": 14, "target": "comer", "source": "to eat", "gender": "v.", "type": "verb" },
-    { "id": 15, "target": "vivir", "source": "to live", "gender": "v.", "type": "verb" },
-    { "id": 16, "target": "estudiar", "source": "to study", "gender": "v.", "type": "verb" },
-    { "id": 17, "target": "trabajar", "source": "to work", "gender": "v.", "type": "verb" },
-    { "id": 18, "target": "caminar", "source": "to walk", "gender": "v.", "type": "verb" },
-    { "id": 19, "target": "cocinar", "source": "to cook", "gender": "v.", "type": "verb" },
-    { "id": 20, "target": "jugar", "source": "to play", "gender": "v.", "type": "verb" },
-    { "id": 21, "target": "leer", "source": "to read", "gender": "v.", "type": "verb" },
-    { "id": 22, "target": "escuchar", "source": "to listen", "gender": "v.", "type": "verb" },
-    { "id": 23, "target": "mirar", "source": "to watch / to look at", "gender": "v.", "type": "verb" },
-    { "id": 24, "target": "pensar", "source": "to think", "gender": "v.", "type": "verb" },
-    { "id": 25, "target": "tener", "source": "to have", "gender": "v.", "type": "verb" },
-    { "id": 26, "target": "querer", "source": "to want / to love", "gender": "v.", "type": "verb" },
-    { "id": 27, "target": "poder", "source": "to be able to / can", "gender": "v.", "type": "verb" },
-    { "id": 28, "target": "deber", "source": "to ought to / must / should", "gender": "v.", "type": "verb" },
-    { "id": 29, "target": "venir", "source": "to come", "gender": "v.", "type": "verb" },
-    { "id": 30, "target": "habitar", "source": "to live / to inhabit", "gender": "v.", "type": "verb" }
+    {
+      "id": 1,
+      "target": "de niño/a",
+      "source": "as a child",
+      "gender": "—",
+      "type": "phrase"
+    },
+    {
+      "id": 2,
+      "target": "siempre",
+      "source": "always",
+      "gender": "—",
+      "type": "adverb"
+    },
+    {
+      "id": 3,
+      "target": "antes",
+      "source": "before / earlier",
+      "gender": "—",
+      "type": "adverb"
+    },
+    {
+      "id": 4,
+      "target": "todavía",
+      "source": "still / yet",
+      "gender": "—",
+      "type": "adverb"
+    },
+    {
+      "id": 5,
+      "target": "cada día",
+      "source": "every day",
+      "gender": "—",
+      "type": "phrase"
+    },
+    {
+      "id": 6,
+      "target": "los domingos",
+      "source": "on Sundays",
+      "gender": "m.",
+      "type": "phrase"
+    },
+    {
+      "id": 7,
+      "target": "por la mañana",
+      "source": "in the morning",
+      "gender": "—",
+      "type": "phrase"
+    },
+    {
+      "id": 8,
+      "target": "por la tarde",
+      "source": "in the afternoon",
+      "gender": "—",
+      "type": "phrase"
+    },
+    {
+      "id": 9,
+      "target": "por la noche",
+      "source": "in the evening / at night",
+      "gender": "—",
+      "type": "phrase"
+    },
+    {
+      "id": 10,
+      "target": "a las ocho",
+      "source": "at eight o'clock",
+      "gender": "—",
+      "type": "time"
+    },
+    {
+      "id": 11,
+      "target": "cuando era joven",
+      "source": "when I was young",
+      "gender": "—",
+      "type": "phrase"
+    },
+    {
+      "id": 12,
+      "target": "cuando éramos pequeños",
+      "source": "when we were little",
+      "gender": "—",
+      "type": "phrase"
+    },
+    {
+      "id": 13,
+      "target": "hablar",
+      "source": "to speak",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 14,
+      "target": "comer",
+      "source": "to eat",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 15,
+      "target": "vivir",
+      "source": "to live",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 16,
+      "target": "estudiar",
+      "source": "to study",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 17,
+      "target": "trabajar",
+      "source": "to work",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 18,
+      "target": "caminar",
+      "source": "to walk",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 19,
+      "target": "cocinar",
+      "source": "to cook",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 20,
+      "target": "jugar",
+      "source": "to play",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 21,
+      "target": "leer",
+      "source": "to read",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 22,
+      "target": "escuchar",
+      "source": "to listen",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 23,
+      "target": "mirar",
+      "source": "to watch / to look at",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 24,
+      "target": "pensar",
+      "source": "to think",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 25,
+      "target": "tener",
+      "source": "to have",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 26,
+      "target": "querer",
+      "source": "to want / to love",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 27,
+      "target": "poder",
+      "source": "to be able to / can",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 28,
+      "target": "deber",
+      "source": "to ought to / must / should",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 29,
+      "target": "venir",
+      "source": "to come",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 30,
+      "target": "habitar",
+      "source": "to live / to inhabit",
+      "gender": "v.",
+      "type": "verb"
+    }
   ],
   "grammar": [
     {
       "title": "Imperfect Tense (Pretérito Imperfecto) — Regular Verbs",
       "content": "The imperfect describes past actions that were ongoing, habitual, or used for background descriptions. Unlike the preterite (A1.2), the imperfect doesn't show when something started or ended — it's the 'story-telling' tense used for setting scenes and describing repeated past actions.\n\nFor regular -AR verbs (like hablar), the endings are:\n- yo: -aba\n- tú: -abas\n- él/ella/usted: -aba\n- nosotros: -ábamos\n- vosotros: -abais\n- ellos/ellas/ustedes: -aban\n\nFor regular -ER/-IR verbs (like comer, vivir), the endings are:\n- yo: -ía\n- tú: -ías\n- él/ella/usted: -ía\n- nosotros: -íamos\n- vosotros: -íais\n- ellos/ellas/ustedes: -ían",
       "table": {
-        "headers": ["Pronoun", "-AR (hablar)", "-ER (comer)", "-IR (vivir)"],
+        "headers": [
+          "Pronoun",
+          "-AR (hablar)",
+          "-ER (comer)",
+          "-IR (vivir)"
+        ],
         "rows": [
-          ["yo", "hablaba", "comía", "vivía"],
-          ["tú", "hablabas", "comías", "vivías"],
-          ["él/ella/usted", "hablaba", "comía", "vivía"],
-          ["nosotros", "hablábamos", "comíamos", "vivíamos"],
-          ["vosotros", "hablabais", "comíais", "vivíais"],
-          ["ellos/ellas/ustedes", "hablaban", "comían", "vivían"]
+          [
+            "yo",
+            "hablaba",
+            "comía",
+            "vivía"
+          ],
+          [
+            "tú",
+            "hablabas",
+            "comías",
+            "vivías"
+          ],
+          [
+            "él/ella/usted",
+            "hablaba",
+            "comía",
+            "vivía"
+          ],
+          [
+            "nosotros",
+            "hablábamos",
+            "comíamos",
+            "vivíamos"
+          ],
+          [
+            "vosotros",
+            "hablabais",
+            "comíais",
+            "vivíais"
+          ],
+          [
+            "ellos/ellas/ustedes",
+            "hablaban",
+            "comían",
+            "vivían"
+          ]
         ]
       },
       "examples": [
@@ -56,6 +271,169 @@
         "A las ocho comía con mi familia. (At eight I used to eat with my family.)"
       ],
       "aid_note": "Romanian imperfect endings (-am, -ai, -a, -am, -aţi, -au) are similar in function to Spanish -aba/-ía. Both describe ongoing or habitual past actions. The Spanish -aba ending is especially close to Romanian -am/-au in feeling: 'I was doing'."
+    },
+    {
+      "title": "Imperfect vs. Preterite: When to Use Which",
+      "content": "This is the key decision point for A2.1 learners. The preterite (from A1.2) and imperfect both describe the past, but differently.\n\nUse IMPERFECT for:\n- Habitual/repeated actions: 'De niño, nadaba todos los días.' (As a kid, I swam every day.)\n- Ongoing background descriptions: 'Era una noche oscura y tormentosa.' (It was a dark and stormy night.)\n- Age, time, weather in the past: 'Tenía 20 años. Eran las tres. Llovía.' (I was 20. It was three o'clock. It was raining.)\n- Feelings and emotions in the past: 'Era feliz. Estaba cansado.' (I was happy. I was tired.)\n\nUse PRETERITE for:\n- Completed actions with a start/end: 'Ayer hablé con mi jefe.' (Yesterday I talked with my boss.)\n- A series of completed actions: 'Me levanté, me duché y salí.' (I got up, showered, and left.)\n- One-time specific past events: 'El año pasado fui a Italia.' (Last year I went to Italy.)",
+      "table": {
+        "headers": [
+          "Context",
+          "Imperfect",
+          "Preterite"
+        ],
+        "rows": [
+          [
+            "Repeated past action",
+            "Cada verano viajábamos a Italia.",
+            "Ayer viajamos a Italia."
+          ],
+          [
+            "Background description",
+            "Era alto y rubio.",
+            "Fue alto y rubio (described him as such)"
+          ],
+          [
+            "Specific time reference",
+            "Solía llamar a las ocho.",
+            "Llamó a las ocho."
+          ],
+          [
+            "Age in the past",
+            "Tenía 25 años.",
+            "Tuve 25 años en 2020."
+          ],
+          [
+            "Weather in the past",
+            "Hacía sol.",
+            "Hizo sol ayer."
+          ],
+          [
+            "Interrupting action",
+            "Mientras comía…",
+            "De repente, sonó el teléfono."
+          ]
+        ]
+      },
+      "examples": [
+        "Cuando era niño, jugaba al fútbol. Todos los días. (When I was a child, I used to play soccer. Every day.)",
+        "Ayer jugué al fútbol. Ganamos 3-0. (Yesterday I played soccer. We won 3-0.)",
+        "Mientras ella cocinaba, él lavó los platos. (While she was cooking, he washed the dishes.)"
+      ],
+      "aid_note": "Romanian also distinguishes between imperfect and aorist/preterite, but the distinction is less strictly taught in modern usage. The key intuition: imperfect = 'used to do / was doing', preterite = 'did (once, completed)'. In Romanian: 'făceam' (imperfect) vs 'făcei' (aorist/preterite)."
+    },
+    {
+      "title": "Reflexive Verbs in the Imperfect (Daily Routines in the Past)",
+      "content": "Combine reflexive pronouns (me, te, se, nos, os, se) with imperfect conjugations to describe past daily routines. Reflexive pronouns stay BEFORE the conjugated verb (or attached to the infinitive when using a compound verb form).\n\nReflexive pronouns:\n- me (myself)\n- te (yourself, informal)\n- se (himself/herself/itself/yourselves formal)\n- nos (ourselves)\n- os (yourselves, Spain informal)\n- se (themselves/yourselves formal)",
+      "table": {
+        "headers": [
+          "Pronoun",
+          "Despertarse",
+          "Levantarse",
+          "Ducharse"
+        ],
+        "rows": [
+          [
+            "yo",
+            "me despertaba",
+            "me levantaba",
+            "me duchaba"
+          ],
+          [
+            "tú",
+            "te despertabas",
+            "te levantabas",
+            "te duchabas"
+          ],
+          [
+            "él/ella/usted",
+            "se despertaba",
+            "se levantaba",
+            "se duchaba"
+          ],
+          [
+            "nosotros",
+            "nos despertábamos",
+            "nos levantábamos",
+            "nos duchábamos"
+          ],
+          [
+            "vosotros",
+            "os despertabais",
+            "os levantabais",
+            "os duchabais"
+          ],
+          [
+            "ellos/ellas/ustedes",
+            "se despertaban",
+            "se levantaban",
+            "se duchaban"
+          ]
+        ]
+      },
+      "examples": [
+        "Me despertaba a las seis de la mañana todos los días. (I used to wake up at six every day.)",
+        "Ellos se duchaban después de entrenar. (They used to shower after training.)",
+        "Nosotros nos acostábamos tarde los fines de semana. (We used to go to bed late on weekends.)",
+        "¿Te afeitabas por la mañana o por la noche? (Did you shave in the morning or at night?)"
+      ],
+      "aid_note": "Romanian reflexive verbs also use pronouns (mă, te, se, ne, vă, se) before the verb: 'mă trezeam' = 'me despertaba'. The structure is the same — just swap the verb conjugation."
+    },
+    {
+      "title": "The Three Irregulars: IR, VER, SER",
+      "content": "Only three verbs are irregular in the imperfect:\n\nIR (to go): iba, ibas, iba, íbamos, ibais, iban\nVER (to see): veía, veías, veía, veíamos, veíais, veían\nSER (to be): era, eras, era, éramos, erais, eran\n\nVER is almost regular — it just takes the -ER endings (-ía) with an 'e' in the stem. IR and SER share the same forms, distinguished only by context.",
+      "table": {
+        "headers": [
+          "Pronoun",
+          "IR (to go)",
+          "VER (to see)",
+          "SER (to be)"
+        ],
+        "rows": [
+          [
+            "yo",
+            "iba",
+            "veía",
+            "era"
+          ],
+          [
+            "tú",
+            "ibas",
+            "veías",
+            "eras"
+          ],
+          [
+            "él/ella/usted",
+            "iba",
+            "veía",
+            "era"
+          ],
+          [
+            "nosotros",
+            "íbamos",
+            "veíamos",
+            "éramos"
+          ],
+          [
+            "vosotros",
+            "ibais",
+            "veíais",
+            "erais"
+          ],
+          [
+            "ellos/ellas/ustedes",
+            "iban",
+            "veían",
+            "eran"
+          ]
+        ]
+      },
+      "examples": [
+        "Siempre iba al cine los viernes. (I always went to the cinema on Fridays.)",
+        "De pequeño, veía muchas películas. (When I was little, I watched lots of movies.)",
+        "Él era muy inteligente. (He was very intelligent.)",
+        "Mi madre era profesora. (My mother was a teacher.)"
+      ],
+      "aid_note": "SER irregulars (era, eras, era...) are completely unlike the preterite (fui, fuiste, fue...). Don't confuse them! The Romanian 'era' (he/she was) is actually a cognate of Spanish 'era' — a nice memory boost for Romanian speakers."
     }
   ],
   "pronunciation": [
@@ -63,10 +441,22 @@
       "title": "Stress Patterns with Imperfect Endings",
       "content": "All imperfect endings are naturally stressed on their first syllable:\n\n-AR verbs: hablaba, hablabas, hablaba, hablÁbamos, hablÁBais, hablaban\n-ER/-IR verbs: comÍA, comÍAS, comÍA, comÍAMOS, comÍAIS, comÍAN\n\nThe accent marks on nosotros forms (hablábamos, comíamos) show where the stress falls. Remember that Spanish stress is predictable from spelling — the accent mark tells you if the stress breaks the default rules.",
       "examples": [
-        { "target": "hablábamos", "source": "stress on Á: ha-BLA-ba-MOS" },
-        { "target": "comíamos", "source": "stress on Í: co-MÍa-MOS" },
-        { "target": "íbamos", "source": "stress on Í: Í-ba-MOS" },
-        { "target": "veíamos", "source": "stress on first Í: ve-Ía-MOS (5 syllables)" }
+        {
+          "target": "hablábamos",
+          "source": "stress on Á: ha-BLA-ba-MOS"
+        },
+        {
+          "target": "comíamos",
+          "source": "stress on Í: co-MÍa-MOS"
+        },
+        {
+          "target": "íbamos",
+          "source": "stress on Í: Í-ba-MOS"
+        },
+        {
+          "target": "veíamos",
+          "source": "stress on first Í: ve-Ía-MOS (5 syllables)"
+        }
       ],
       "aid_note": "Romanian stress is more flexible. Spanish imperfect endings are very regular — the stress always hits the ending syllable, never the stem."
     }
@@ -75,14 +465,24 @@
     {
       "type": "exercise",
       "question": "What does the imperfect tense describe?",
-      "options": ["Completed actions with a clear end", "Habitual or ongoing past actions", "Future plans", "Commands and requests"],
+      "options": [
+        "Completed actions with a clear end",
+        "Habitual or ongoing past actions",
+        "Future plans",
+        "Commands and requests"
+      ],
       "correct": 1,
       "explanation": "The imperfect describes habitual or ongoing past actions — things that 'used to happen' or 'were happening' without a defined endpoint."
     },
     {
       "type": "exercise",
       "question": "Which ending is the imperfect 'yo' form for -AR verbs?",
-      "options": ["-í", "-aba", "-ía", "-é"],
+      "options": [
+        "-í",
+        "-aba",
+        "-ía",
+        "-é"
+      ],
       "correct": 1,
       "explanation": "-AR verbs take -aba in the yo imperfect form: hablaba, trabajaba, estudiaba."
     },
@@ -95,7 +495,12 @@
     {
       "type": "exercise",
       "question": "What is the imperfect of 'comer' for 'ellos'?",
-      "options": ["comían", "comaban", "comieron", "comía"],
+      "options": [
+        "comían",
+        "comaban",
+        "comieron",
+        "comía"
+      ],
       "correct": 0,
       "explanation": "'Comían' — regular -ER imperfect for ellos/ellas/ustedes. -ían ending."
     },
@@ -103,13 +508,20 @@
       "type": "conjugation-matrix",
       "question": "Complete the imperfect tense conjugation table for the regular -AR verb HABLAR:",
       "verb": "HABLAR",
-      "tenses": ["imperfect"],
+      "tenses": [
+        "imperfect"
+      ],
       "explanation": "The imperfect of hablar follows the regular -AR pattern: hablaba, hablabas, hablaba, hablábamos, hablabais, hablaban."
     },
     {
       "type": "exercise",
       "question": "Which sentence uses the imperfect correctly?",
-      "options": ["Ayer jugué al fútbol.", "De niño, jugaba al fútbol todos los días.", "El año pasado jugué al fútbol.", "Hoy juego al fútbol."],
+      "options": [
+        "Ayer jugué al fútbol.",
+        "De niño, jugaba al fútbol todos los días.",
+        "El año pasado jugué al fútbol.",
+        "Hoy juego al fútbol."
+      ],
       "correct": 1,
       "explanation": "'De niño, jugaba al fútbol todos los días' uses the imperfect for a habitual past action."
     }

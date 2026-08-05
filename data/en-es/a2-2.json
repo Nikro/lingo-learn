@@ -5,46 +5,44 @@
   "estimated_weeks": 6,
   "themes": [
     {
-      "id": "future-regular",
-      "title": "Simple Future — Regular Conjugation",
-      "description": "Add future endings to the full infinitive to express actions that will happen.",
-      "estimated_hours": 5
-    },
-    {
-      "id": "future-irregular",
-      "title": "Future — Irregular Stems",
-      "description": "Learn the irregular future stems: tendr-, dir-, pondr-, podr-, querr-, har-, sabr-, vendr-, saldr-.",
-      "estimated_hours": 4
+      "id": "complex-social-interactions",
+      "title": "Complex Social Interactions",
+      "description": "Navigate social situations with confidence. Express opinions, negotiate, persuade, and use proper etiquette in Spanish-speaking environments. Master the conditional for polite suggestions, the present subjunctive for opinions, and connectors to structure arguments."
     },
     {
       "id": "conditional-regular",
       "title": "Conditional — Regular Conjugation",
-      "description": "Express hypothetical situations and polite requests using the conditional tense.",
-      "estimated_hours": 5
+      "description": "Express hypothetical situations and polite requests using the conditional tense."
     },
     {
-      "id": "conditional-irregular",
-      "title": "Conditional — Irregular Stems",
-      "description": "Learn conditional irregulars using the same stems as the future (tendr-, dir-, pondr-, etc.).",
-      "estimated_hours": 4
+      "id": "economy-finance",
+      "title": "Economy & Finance",
+      "description": "Talk about personal finance, banking, shopping, budgeting, investments, taxes, and economic systems. Discuss money management, describe financial goals, and understand basic economic concepts. Master the subjunctive for wishes and preferences, the imperfect for past financial situations, and 'saber' vs 'conocer' when talking about financial knowledge."
+    },
+    {
+      "id": "future-regular",
+      "title": "Simple Future — Regular Conjugation",
+      "description": "Add future endings to the full infinitive to express actions that will happen."
     },
     {
       "id": "past-perfect",
       "title": "Past Perfect (Pluscuamperfecto)",
-      "description": "Describe actions that happened before another past action using había + past participle.",
-      "estimated_hours": 4
+      "description": "Describe actions that happened before another past action using había + past participle."
     },
     {
-      "id": "pronoun-combinations",
-      "title": "Object Pronoun Combinations",
-      "description": "Combine direct and indirect object pronouns into single words (se lo, te lo, me la).",
-      "estimated_hours": 5
+      "id": "present-subjunctive",
+      "title": "Present Subjunctive",
+      "description": "Learn to conjugate and use the present subjunctive mood for uncertainty, doubt, and will in Spanish."
+    },
+    {
+      "id": "relative-pronouns",
+      "title": "Relative Pronouns",
+      "description": "Learn to use relative pronouns (que, quien, el cual, donde, cuyo) to connect ideas in Spanish."
     },
     {
       "id": "verb-prepositions",
       "title": "Verbs + Prepositions",
-      "description": "Master fixed verb+preposition combinations: pensar en, salir con, depender de, soñar con.",
-      "estimated_hours": 4
+      "description": "Master fixed verb+preposition combinations: pensar en, salir con, depender de, soñar con."
     }
   ]
 }

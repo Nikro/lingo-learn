@@ -13,102 +13,1419 @@
   "vocabulary": {
     "total_count": 42,
     "nouns": [
-      {"word": "la reunión ejecutiva", "english": "executive meeting", "category": "comunicación", "example": "La reunión ejecutiva se celebró para revisar los objetivos del trimestre."},
-      {"word": "la agenda", "english": "agenda", "category": "reuniones", "example": "La agenda de la reunión incluye tres puntos clave."},
-      {"word": "las actas / las minutas", "english": "minutes (meeting notes)", "category": "reuniones", "example": "Las actas de la reunión fueron distribuidas a todos los asistentes."},
-      {"word": "la presentación estratégica", "english": "strategic presentation", "category": "presentaciones", "example": "La presentación estratégica se dirigió al consejo de administración."},
-      {"word": "el informe ejecutivo", "english": "executive summary/report", "category": "documentos", "example": "El informe ejecutivo resume los resultados del último trimestre."},
-      {"word": "el grupo de interés / el stakeholder", "english": "stakeholder", "category": "gestión", "example": "Identificamos a todos los grupos de interés del proyecto."},
-      {"word": "la comunicación corporativa", "english": "corporate communication", "category": "comunicación", "example": "La comunicación corporativa requiere coherencia en todos los canales."},
-      {"word": "el mensaje clave", "english": "key message", "category": "estrategia", "example": "El mensaje clave debe repetirse en cada presentación."},
-      {"word": "la estrategia de comunicación", "english": "communication strategy", "category": "estrategia", "example": "La estrategia de comunicación abarca redes sociales y prensa."},
-      {"word": "el objetivo estratégico", "english": "strategic objective", "category": "gestión", "example": "El objetivo estratégico para este año es expandir el mercado."},
-      {"word": "la visión corporativa", "english": "corporate vision", "category": "gestión", "example": "La visión corporativa guía todas las decisiones de la empresa."},
-      {"word": "la misión institucional", "english": "institutional mission", "category": "gestión", "example": "La misión institucional define nuestro compromiso con la comunidad."},
-      {"word": "el plan de acción", "english": "action plan", "category": "gestión", "example": "El plan de acción incluye plazos y responsables definidos."},
-      {"word": "el indicador clave de rendimiento", "english": "key performance indicator (KPI)", "category": "gestión", "example": "Los indicadores clave de rendimiento mostraron un crecimiento del 15%."},
-      {"word": "el panorama empresarial", "english": "business landscape", "category": "negocios", "example": "El panorama empresarial ha cambiado significativamente en los últimos años."},
-      {"word": "el mercado objetivo", "english": "target market", "category": "negocios", "example": "El mercado objetivo son consumidores entre 25 y 40 años."},
-      {"word": "la propuesta de valor", "english": "value proposition", "category": "negocios", "example": "Nuestra propuesta de valor se centra en la innovación y calidad."},
-      {"word": "el portafolio de productos", "english": "product portfolio", "category": "negocios", "example": "El portafolio de productos se ha diversificado en los últimos dos años."},
-      {"word": "la cuota de mercado", "english": "market share", "category": "negocios", "example": "Hemos incrementado nuestra cuota de mercado en un cinco por ciento."},
-      {"word": "el competidor directo", "english": "direct competitor", "category": "negocios", "example": "El competidor directo lanzó un producto similar el mes pasado."},
-      {"word": "la ventaja competitiva", "english": "competitive advantage", "category": "negocios", "example": "Nuestra ventaja competitiva radica en la calidad del servicio al cliente."},
-      {"word": "la tendencia del mercado", "english": "market trend", "category": "negocios", "example": "Las tendencias del mercado apuntan hacia la digitalización."},
-      {"word": "la expectativa del cliente", "english": "customer expectation", "category": "negocios", "example": "Superar las expectativas del cliente es nuestra prioridad."},
-      {"word": "la retroalimentación", "english": "feedback", "category": "negocios", "example": "La retroalimentación de los usuarios fue incorporada en la nueva versión."},
-      {"word": "el plazo de entrega", "english": "delivery deadline", "category": "gestión", "example": "El plazo de entrega es inamovible por contrato."},
-      {"word": "el responsable del proyecto", "english": "project manager", "category": "gestión", "example": "El responsable del proyecto coordina a todos los equipos."},
-      {"word": "el cronograma", "english": "schedule / timeline", "category": "gestión", "example": "El cronograma del proyecto se ha retrasado dos semanas."},
-      {"word": "el presupuesto asignado", "english": "allocated budget", "category": "gestión", "example": "El presupuesto asignado cubre todos los gastos operativos."},
-      {"word": "la línea base", "english": "baseline", "category": "gestión", "example": "La línea base del proyecto se estableció en enero."},
-      {"word": "el entregable", "english": "deliverable", "category": "gestión", "example": "El entregable final debe presentarse antes del viernes."},
-      {"word": "el compromiso institucional", "english": "institutional commitment", "category": "gestión", "example": "El compromiso institucional con la sostenibilidad es innegable."},
-      {"word": "la gestión de riesgos", "english": "risk management", "category": "gestión", "example": "La gestión de riesgos incluye identificadores de problemas potenciales."},
-      {"word": "el punto de inflexión", "english": "turning point", "category": "negocios", "example": "El lanzamiento del nuevo producto fue el punto de inflexión de la empresa."},
-      {"word": "la sinergia", "english": "synergy", "category": "negocios", "example": "La fusión creó sinergias significativas entre ambas organizaciones."},
-      {"word": "el cambio organizacional", "english": "organizational change", "category": "gestión", "example": "El cambio organizacional requiere una comunicación clara y constante."},
-      {"word": "la cultura corporativa", "english": "corporate culture", "category": "gestión", "example": "La cultura corporativa influye directamente en la productividad."},
-      {"word": "el liderazgo transformacional", "english": "transformational leadership", "category": "gestión", "example": "El liderazgo transformacional impulsa la innovación en las organizaciones."},
-      {"word": "la toma de decisiones", "english": "decision-making", "category": "gestión", "example": "La toma de decisiones participativa mejora la aceptación del equipo."},
-      {"word": "la delegación de funciones", "english": "delegation of duties", "category": "gestión", "example": "La delegación de funciones permite al equipo ser más autónomo."},
-      {"word": "la alineación estratégica", "english": "strategic alignment", "category": "gestión", "example": "La alineación estratégica entre departamentos es esencial para el éxito."},
-      {"word": "la rendición de cuentas", "english": "accountability", "category": "gestión", "example": "La rendición de cuentas es fundamental en toda organización profesional."},
-      {"word": "el enfoque orientado a resultados", "english": "results-oriented approach", "category": "gestión", "example": "Adoptamos un enfoque orientado a resultados para mejorar la eficiencia."},
-      {"word": "la comunicación asertiva", "english": "assertive communication", "category": "comunicación", "example": "La comunicación asertiva es clave para prevenir conflictos en el equipo."}
+      {
+        "word": "la reunión ejecutiva",
+        "english": "executive meeting",
+        "category": "comunicación",
+        "example": "La reunión ejecutiva se celebró para revisar los objetivos del trimestre."
+      },
+      {
+        "word": "la agenda",
+        "english": "agenda",
+        "category": "reuniones",
+        "example": "La agenda de la reunión incluye tres puntos clave."
+      },
+      {
+        "word": "las actas / las minutas",
+        "english": "minutes (meeting notes)",
+        "category": "reuniones",
+        "example": "Las actas de la reunión fueron distribuidas a todos los asistentes."
+      },
+      {
+        "word": "la presentación estratégica",
+        "english": "strategic presentation",
+        "category": "presentaciones",
+        "example": "La presentación estratégica se dirigió al consejo de administración."
+      },
+      {
+        "word": "el informe ejecutivo",
+        "english": "executive summary/report",
+        "category": "documentos",
+        "example": "El informe ejecutivo resume los resultados del último trimestre."
+      },
+      {
+        "word": "el grupo de interés / el stakeholder",
+        "english": "stakeholder",
+        "category": "gestión",
+        "example": "Identificamos a todos los grupos de interés del proyecto."
+      },
+      {
+        "word": "la comunicación corporativa",
+        "english": "corporate communication",
+        "category": "comunicación",
+        "example": "La comunicación corporativa requiere coherencia en todos los canales."
+      },
+      {
+        "word": "el mensaje clave",
+        "english": "key message",
+        "category": "estrategia",
+        "example": "El mensaje clave debe repetirse en cada presentación."
+      },
+      {
+        "word": "la estrategia de comunicación",
+        "english": "communication strategy",
+        "category": "estrategia",
+        "example": "La estrategia de comunicación abarca redes sociales y prensa."
+      },
+      {
+        "word": "el objetivo estratégico",
+        "english": "strategic objective",
+        "category": "gestión",
+        "example": "El objetivo estratégico para este año es expandir el mercado."
+      },
+      {
+        "word": "la visión corporativa",
+        "english": "corporate vision",
+        "category": "gestión",
+        "example": "La visión corporativa guía todas las decisiones de la empresa."
+      },
+      {
+        "word": "la misión institucional",
+        "english": "institutional mission",
+        "category": "gestión",
+        "example": "La misión institucional define nuestro compromiso con la comunidad."
+      },
+      {
+        "word": "el plan de acción",
+        "english": "action plan",
+        "category": "gestión",
+        "example": "El plan de acción incluye plazos y responsables definidos."
+      },
+      {
+        "word": "el indicador clave de rendimiento",
+        "english": "key performance indicator (KPI)",
+        "category": "gestión",
+        "example": "Los indicadores clave de rendimiento mostraron un crecimiento del 15%."
+      },
+      {
+        "word": "el panorama empresarial",
+        "english": "business landscape",
+        "category": "negocios",
+        "example": "El panorama empresarial ha cambiado significativamente en los últimos años."
+      },
+      {
+        "word": "el mercado objetivo",
+        "english": "target market",
+        "category": "negocios",
+        "example": "El mercado objetivo son consumidores entre 25 y 40 años."
+      },
+      {
+        "word": "la propuesta de valor",
+        "english": "value proposition",
+        "category": "negocios",
+        "example": "Nuestra propuesta de valor se centra en la innovación y calidad."
+      },
+      {
+        "word": "el portafolio de productos",
+        "english": "product portfolio",
+        "category": "negocios",
+        "example": "El portafolio de productos se ha diversificado en los últimos dos años."
+      },
+      {
+        "word": "la cuota de mercado",
+        "english": "market share",
+        "category": "negocios",
+        "example": "Hemos incrementado nuestra cuota de mercado en un cinco por ciento."
+      },
+      {
+        "word": "el competidor directo",
+        "english": "direct competitor",
+        "category": "negocios",
+        "example": "El competidor directo lanzó un producto similar el mes pasado."
+      },
+      {
+        "word": "la ventaja competitiva",
+        "english": "competitive advantage",
+        "category": "negocios",
+        "example": "Nuestra ventaja competitiva radica en la calidad del servicio al cliente."
+      },
+      {
+        "word": "la tendencia del mercado",
+        "english": "market trend",
+        "category": "negocios",
+        "example": "Las tendencias del mercado apuntan hacia la digitalización."
+      },
+      {
+        "word": "la expectativa del cliente",
+        "english": "customer expectation",
+        "category": "negocios",
+        "example": "Superar las expectativas del cliente es nuestra prioridad."
+      },
+      {
+        "word": "la retroalimentación",
+        "english": "feedback",
+        "category": "negocios",
+        "example": "La retroalimentación de los usuarios fue incorporada en la nueva versión."
+      },
+      {
+        "word": "el plazo de entrega",
+        "english": "delivery deadline",
+        "category": "gestión",
+        "example": "El plazo de entrega es inamovible por contrato."
+      },
+      {
+        "word": "el responsable del proyecto",
+        "english": "project manager",
+        "category": "gestión",
+        "example": "El responsable del proyecto coordina a todos los equipos."
+      },
+      {
+        "word": "el cronograma",
+        "english": "schedule / timeline",
+        "category": "gestión",
+        "example": "El cronograma del proyecto se ha retrasado dos semanas."
+      },
+      {
+        "word": "el presupuesto asignado",
+        "english": "allocated budget",
+        "category": "gestión",
+        "example": "El presupuesto asignado cubre todos los gastos operativos."
+      },
+      {
+        "word": "la línea base",
+        "english": "baseline",
+        "category": "gestión",
+        "example": "La línea base del proyecto se estableció en enero."
+      },
+      {
+        "word": "el entregable",
+        "english": "deliverable",
+        "category": "gestión",
+        "example": "El entregable final debe presentarse antes del viernes."
+      },
+      {
+        "word": "el compromiso institucional",
+        "english": "institutional commitment",
+        "category": "gestión",
+        "example": "El compromiso institucional con la sostenibilidad es innegable."
+      },
+      {
+        "word": "la gestión de riesgos",
+        "english": "risk management",
+        "category": "gestión",
+        "example": "La gestión de riesgos incluye identificadores de problemas potenciales."
+      },
+      {
+        "word": "el punto de inflexión",
+        "english": "turning point",
+        "category": "negocios",
+        "example": "El lanzamiento del nuevo producto fue el punto de inflexión de la empresa."
+      },
+      {
+        "word": "la sinergia",
+        "english": "synergy",
+        "category": "negocios",
+        "example": "La fusión creó sinergias significativas entre ambas organizaciones."
+      },
+      {
+        "word": "el cambio organizacional",
+        "english": "organizational change",
+        "category": "gestión",
+        "example": "El cambio organizacional requiere una comunicación clara y constante."
+      },
+      {
+        "word": "la cultura corporativa",
+        "english": "corporate culture",
+        "category": "gestión",
+        "example": "La cultura corporativa influye directamente en la productividad."
+      },
+      {
+        "word": "el liderazgo transformacional",
+        "english": "transformational leadership",
+        "category": "gestión",
+        "example": "El liderazgo transformacional impulsa la innovación en las organizaciones."
+      },
+      {
+        "word": "la toma de decisiones",
+        "english": "decision-making",
+        "category": "gestión",
+        "example": "La toma de decisiones participativa mejora la aceptación del equipo."
+      },
+      {
+        "word": "la delegación de funciones",
+        "english": "delegation of duties",
+        "category": "gestión",
+        "example": "La delegación de funciones permite al equipo ser más autónomo."
+      },
+      {
+        "word": "la alineación estratégica",
+        "english": "strategic alignment",
+        "category": "gestión",
+        "example": "La alineación estratégica entre departamentos es esencial para el éxito."
+      },
+      {
+        "word": "la rendición de cuentas",
+        "english": "accountability",
+        "category": "gestión",
+        "example": "La rendición de cuentas es fundamental en toda organización profesional."
+      },
+      {
+        "word": "el enfoque orientado a resultados",
+        "english": "results-oriented approach",
+        "category": "gestión",
+        "example": "Adoptamos un enfoque orientado a resultados para mejorar la eficiencia."
+      },
+      {
+        "word": "la comunicación asertiva",
+        "english": "assertive communication",
+        "category": "comunicación",
+        "example": "La comunicación asertiva es clave para prevenir conflictos en el equipo."
+      },
+      {
+        "word": "la negociación estratégica",
+        "english": "strategic negotiation",
+        "category": "negocios",
+        "example": "La negociación estratégica requiere preparación previa y conocimiento del mercado."
+      },
+      {
+        "word": "el acuerdo marco",
+        "english": "framework agreement",
+        "category": "negocios",
+        "example": "El acuerdo marco establece las condiciones generales de la colaboración."
+      },
+      {
+        "word": "el memorando de entendimiento",
+        "english": "memorandum of understanding (MoU)",
+        "category": "negocios",
+        "example": "El memorando de entendimiento formaliza la cooperación entre ambas instituciones."
+      },
+      {
+        "word": "la cláusula contractual",
+        "english": "contractual clause",
+        "category": "negocios",
+        "example": "La cláusula contractual protege los intereses de ambas partes."
+      },
+      {
+        "word": "el plazo de vigencia",
+        "english": "validity period",
+        "category": "negocios",
+        "example": "El plazo de vigencia del contrato es de dos años."
+      },
+      {
+        "word": "la contraparte",
+        "english": "the other party",
+        "category": "negocios",
+        "example": "La contraparte aceptó nuestras condiciones de pago."
+      },
+      {
+        "word": "el beneficio mutuo",
+        "english": "mutual benefit",
+        "category": "negocios",
+        "example": "Buscamos acuerdos basados en el beneficio mutuo."
+      },
+      {
+        "word": "la compensación económica",
+        "english": "financial compensation",
+        "category": "negocios",
+        "example": "La compensación económica se determinará según los resultados obtenidos."
+      },
+      {
+        "word": "el derecho contractual",
+        "english": "contractual right",
+        "category": "negocios",
+        "example": "Cada parte tiene el derecho contractual de rescindir el acuerdo."
+      },
+      {
+        "word": "la responsabilidad contractual",
+        "english": "contractual liability",
+        "category": "negocios",
+        "example": "La responsabilidad contractual se extiende a todas las fases del proyecto."
+      },
+      {
+        "word": "la confidencialidad",
+        "english": "confidentiality",
+        "category": "negocios",
+        "example": "El acuerdo incluye un compromiso estricto de confidencialidad."
+      },
+      {
+        "word": "la confidencialidad",
+        "english": "confidentiality agreement",
+        "category": "negocios",
+        "example": "Firmamos el acuerdo de confidencialidad antes de compartir los datos."
+      },
+      {
+        "word": "la due diligence",
+        "english": "due diligence",
+        "category": "negocios",
+        "example": "La due diligence reveló aspectos importantes sobre la empresa objetivo."
+      },
+      {
+        "word": "la fusión",
+        "english": "merger",
+        "category": "negocios",
+        "example": "La fusión entre ambas empresas creará valor para los accionistas."
+      },
+      {
+        "word": "la adquisición",
+        "english": "acquisition",
+        "category": "negocios",
+        "example": "La adquisición de la startup complementó nuestro portafolio tecnológico."
+      },
+      {
+        "word": "la escisión",
+        "english": "spin-off / carve-out",
+        "category": "negocios",
+        "example": "La escisión del departamento de tecnología permitió mayor agilidad."
+      },
+      {
+        "word": "la reestructuración",
+        "english": "restructuring",
+        "category": "negocios",
+        "example": "La reestructuración organizacional mejoró la eficiencia operativa."
+      },
+      {
+        "word": "la optimización",
+        "english": "optimization",
+        "category": "gestión",
+        "example": "La optimización de procesos redujo los costos operativos en un 20%."
+      },
+      {
+        "word": "la transformación digital",
+        "english": "digital transformation",
+        "category": "negocios",
+        "example": "La transformación digital es prioridad para la industria actual."
+      },
+      {
+        "word": "la disrupción tecnológica",
+        "english": "technological disruption",
+        "category": "negocios",
+        "example": "La disrupción tecnológica obliga a las empresas a reinventarse."
+      },
+      {
+        "word": "la agilidad organizacional",
+        "english": "organizational agility",
+        "category": "gestión",
+        "example": "La agilidad organizacional permite responder rápidamente al cambio."
+      },
+      {
+        "word": "el networking",
+        "english": "networking",
+        "category": "negocios",
+        "example": "El networking profesional es clave para abrir nuevas oportunidades."
+      },
+      {
+        "word": "la marca empleadora",
+        "english": "employer brand",
+        "category": "gestión",
+        "example": "Fortalecer la marca empleadora atrae a los mejores talentos."
+      },
+      {
+        "word": "el desarrollo profesional",
+        "english": "professional development",
+        "category": "gestión",
+        "example": "El desarrollo profesional continuo es una inversión en el equipo."
+      },
+      {
+        "word": "la capacitación",
+        "english": "training / upskilling",
+        "category": "gestión",
+        "example": "La capacitación en liderazgo es fundamental para los mandos intermedios."
+      },
+      {
+        "word": "el coaching ejecutivo",
+        "english": "executive coaching",
+        "category": "gestión",
+        "example": "El coaching ejecutivo mejora las habilidades de comunicación del líder."
+      },
+      {
+        "word": "la evaluación de desempeño",
+        "english": "performance evaluation",
+        "category": "gestión",
+        "example": "La evaluación de desempeño se realiza trimestralmente."
+      },
+      {
+        "word": "el plan de sucesión",
+        "english": "succession plan",
+        "category": "gestión",
+        "example": "El plan de sucesión garantiza la continuidad del liderazgo."
+      },
+      {
+        "word": "la gestión del conocimiento",
+        "english": "knowledge management",
+        "category": "gestión",
+        "example": "La gestión del conocimiento preserva el expertise de la organización."
+      },
+      {
+        "word": "la innovación abierta",
+        "english": "open innovation",
+        "category": "negocios",
+        "example": "La innovación abierta fomenta la colaboración con startups externas."
+      },
+      {
+        "word": "el ecosistema empresarial",
+        "english": "business ecosystem",
+        "category": "negocios",
+        "example": "El ecosistema empresarial incluye proveedores, clientes y competidores."
+      },
+      {
+        "word": "la gobernanza corporativa",
+        "english": "corporate governance",
+        "category": "gestión",
+        "example": "La gobernanza corporativa asegura la transparencia y rendición de cuentas."
+      },
+      {
+        "word": "el comité directivo",
+        "english": "executive committee",
+        "category": "gestión",
+        "example": "El comité directivo aprueba las decisiones estratégicas mayores."
+      },
+      {
+        "word": "la junta directiva",
+        "english": "board of directors",
+        "category": "gestión",
+        "example": "La junta directiva supervisa la estrategia de la organización."
+      },
+      {
+        "word": "el accionista mayoritario",
+        "english": "majority shareholder",
+        "category": "negocios",
+        "example": "El accionista mayoritario influye en las decisiones estratégicas."
+      },
+      {
+        "word": "el informe anual",
+        "english": "annual report",
+        "category": "documentos",
+        "example": "El informe anual presenta los resultados financieros de la empresa."
+      },
+      {
+        "word": "el balance financiero",
+        "english": "financial balance sheet",
+        "category": "documentos",
+        "example": "El balance financiero refleja la situación económica de la empresa."
+      },
+      {
+        "word": "el flujo de caja",
+        "english": "cash flow",
+        "category": "documentos",
+        "example": "Un flujo de caja positivo es esencial para la salud financiera."
+      },
+      {
+        "word": "el margen de beneficio",
+        "english": "profit margin",
+        "category": "documentos",
+        "example": "El margen de beneficio aumentó gracias a la optimización de costos."
+      },
+      {
+        "word": "el retorno de inversión",
+        "english": "return on investment (ROI)",
+        "category": "documentos",
+        "example": "El retorno de inversión superó las expectativas del primer año."
+      },
+      {
+        "word": "la proyección financiera",
+        "english": "financial projection",
+        "category": "documentos",
+        "example": "La proyección financiera estima un crecimiento del 12% para el próximo año."
+      },
+      {
+        "word": "la auditoría interna",
+        "english": "internal audit",
+        "category": "documentos",
+        "example": "La auditoría interna verificó el cumplimiento de los procedimientos."
+      },
+      {
+        "word": "la compliance normativa",
+        "english": "regulatory compliance",
+        "category": "documentos",
+        "example": "La compliance normativa es obligatoria para todas las operaciones."
+      },
+      {
+        "word": "el canal de comunicación",
+        "english": "communication channel",
+        "category": "comunicación",
+        "example": "Establecimos un canal de comunicación directo con los clientes."
+      },
+      {
+        "word": "la comunicación interna",
+        "english": "internal communication",
+        "category": "comunicación",
+        "example": "La comunicación interna eficiente reduce la rotación de personal."
+      },
+      {
+        "word": "la comunicación externa",
+        "english": "external communication",
+        "category": "comunicación",
+        "example": "La comunicación externa debe ser consistente con la marca."
+      }
     ],
     "verbs": [
-      {"word": "presentar", "english": "to present", "category": "comunicación", "example": "El director presentará los resultados del trimestre al consejo."},
-      {"word": "dirigir (una reunión)", "english": "to lead / chair (a meeting)", "category": "reuniones", "example": "La gerente dirigió la reunión de forma eficiente."},
-      {"word": "exponer", "english": "to expose / present (ideas)", "category": "presentaciones", "example": "El equipo expuso las nuevas estrategias de mercado."},
-      {"word": "argumentar", "english": "to argue / make a case", "category": "comunicación", "example": "Es necesario argumentar con datos la necesidad de la inversión."},
-      {"word": "negociar", "english": "to negotiate", "category": "gestión", "example": "El equipo negoció los términos del contrato con el proveedor."},
-      {"word": "coordinar", "english": "to coordinate", "category": "gestión", "example": "La coordinadora del proyecto gestiona todas las áreas."},
-      {"word": "implementar", "english": "to implement", "category": "gestión", "example": "Se implementará el nuevo sistema de gestión en el próximo trimestre."},
-      {"word": "alinear", "english": "to align", "category": "gestión", "example": "Debemos alinear los objetivos del equipo con los de la organización."},
-      {"word": "sincronizar", "english": "to synchronize / sync up", "category": "comunicación", "example": "Los equipos se sincronizaron semanalmente para revisar avances."},
-      {"word": "facilitar", "english": "to facilitate", "category": "reuniones", "example": "El moderador facilitó el debate entre los diferentes puntos de vista."},
-      {"word": "resumir", "english": "to summarize", "category": "comunicación", "example": "Para resumir, los principales logros del trimestre han sido positivos."},
-      {"word": "concretar", "english": "to specify / pin down", "category": "comunicación", "example": "Concretamos los detalles de la presentación para la próxima semana."},
-      {"word": "priorizar", "english": "to prioritize", "category": "gestión", "example": "Hay que priorizar las tareas según el impacto en el negocio."},
-      {"word": "desplegar", "english": "to deploy / roll out", "category": "gestión", "example": "Se desplegará la nueva estrategia de marketing en marzo."},
-      {"word": "monitorear / supervisar", "english": "to monitor / oversee", "category": "gestión", "example": "Es necesario monitorear los indicadores de rendimiento semanalmente."},
-      {"word": "antecipar (se)", "english": "to anticipate", "category": "gestión", "example": "Un buen líder anticipa los desafíos antes de que ocurran."},
-      {"word": "responder ante", "english": "to respond to", "category": "comunicación", "example": "Debemos responder ante las preocupaciones de los accionistas."},
-      {"word": "influir en", "english": "to influence", "category": "gestión", "example": "El objetivo es influir en las decisiones del comité directivo."},
-      {"word": "generar consenso", "english": "to generate consensus", "category": "reuniones", "example": "El facilitador logró generar consenso entre los participantes."},
-      {"word": "canalizar", "english": "to channel / direct", "category": "gestión", "example": "Es importante canalizar las energías del equipo hacia los objetivos."}
+      {
+        "word": "presentar",
+        "english": "to present",
+        "category": "comunicación",
+        "example": "El director presentará los resultados del trimestre al consejo."
+      },
+      {
+        "word": "dirigir (una reunión)",
+        "english": "to lead / chair (a meeting)",
+        "category": "reuniones",
+        "example": "La gerente dirigió la reunión de forma eficiente."
+      },
+      {
+        "word": "exponer",
+        "english": "to expose / present (ideas)",
+        "category": "presentaciones",
+        "example": "El equipo expuso las nuevas estrategias de mercado."
+      },
+      {
+        "word": "argumentar",
+        "english": "to argue / make a case",
+        "category": "comunicación",
+        "example": "Es necesario argumentar con datos la necesidad de la inversión."
+      },
+      {
+        "word": "negociar",
+        "english": "to negotiate",
+        "category": "gestión",
+        "example": "El equipo negoció los términos del contrato con el proveedor."
+      },
+      {
+        "word": "coordinar",
+        "english": "to coordinate",
+        "category": "gestión",
+        "example": "La coordinadora del proyecto gestiona todas las áreas."
+      },
+      {
+        "word": "implementar",
+        "english": "to implement",
+        "category": "gestión",
+        "example": "Se implementará el nuevo sistema de gestión en el próximo trimestre."
+      },
+      {
+        "word": "alinear",
+        "english": "to align",
+        "category": "gestión",
+        "example": "Debemos alinear los objetivos del equipo con los de la organización."
+      },
+      {
+        "word": "sincronizar",
+        "english": "to synchronize / sync up",
+        "category": "comunicación",
+        "example": "Los equipos se sincronizaron semanalmente para revisar avances."
+      },
+      {
+        "word": "facilitar",
+        "english": "to facilitate",
+        "category": "reuniones",
+        "example": "El moderador facilitó el debate entre los diferentes puntos de vista."
+      },
+      {
+        "word": "resumir",
+        "english": "to summarize",
+        "category": "comunicación",
+        "example": "Para resumir, los principales logros del trimestre han sido positivos."
+      },
+      {
+        "word": "concretar",
+        "english": "to specify / pin down",
+        "category": "comunicación",
+        "example": "Concretamos los detalles de la presentación para la próxima semana."
+      },
+      {
+        "word": "priorizar",
+        "english": "to prioritize",
+        "category": "gestión",
+        "example": "Hay que priorizar las tareas según el impacto en el negocio."
+      },
+      {
+        "word": "desplegar",
+        "english": "to deploy / roll out",
+        "category": "gestión",
+        "example": "Se desplegará la nueva estrategia de marketing en marzo."
+      },
+      {
+        "word": "monitorear / supervisar",
+        "english": "to monitor / oversee",
+        "category": "gestión",
+        "example": "Es necesario monitorear los indicadores de rendimiento semanalmente."
+      },
+      {
+        "word": "antecipar (se)",
+        "english": "to anticipate",
+        "category": "gestión",
+        "example": "Un buen líder anticipa los desafíos antes de que ocurran."
+      },
+      {
+        "word": "responder ante",
+        "english": "to respond to",
+        "category": "comunicación",
+        "example": "Debemos responder ante las preocupaciones de los accionistas."
+      },
+      {
+        "word": "influir en",
+        "english": "to influence",
+        "category": "gestión",
+        "example": "El objetivo es influir en las decisiones del comité directivo."
+      },
+      {
+        "word": "generar consenso",
+        "english": "to generate consensus",
+        "category": "reuniones",
+        "example": "El facilitador logró generar consenso entre los participantes."
+      },
+      {
+        "word": "canalizar",
+        "english": "to channel / direct",
+        "category": "gestión",
+        "example": "Es importante canalizar las energías del equipo hacia los objetivos."
+      },
+      {
+        "word": "presentar (un informe)",
+        "english": "to present (a report)",
+        "category": "presentaciones",
+        "example": "El director financiero presentará el informe trimestral el jueves."
+      },
+      {
+        "word": "liderar (una iniciativa)",
+        "english": "to lead (an initiative)",
+        "category": "gestión",
+        "example": "Ella lideró la iniciativa de transformación digital con éxito."
+      },
+      {
+        "word": "impulsar (un proyecto)",
+        "english": "to drive / champion (a project)",
+        "category": "gestión",
+        "example": "La gerencia impulsó el proyecto de modernización tecnológica."
+      },
+      {
+        "word": "gestionar (un equipo)",
+        "english": "to manage (a team)",
+        "category": "gestión",
+        "example": "Gestionar un equipo multicultural requiere habilidades de comunicación."
+      },
+      {
+        "word": "motivar",
+        "english": "to motivate",
+        "category": "gestión",
+        "example": "Un buen líder sabe motivar al equipo en momentos difíciles."
+      },
+      {
+        "word": "orientar",
+        "english": "to guide / steer",
+        "category": "gestión",
+        "example": "Las reuniones semanales orientan al equipo sobre los próximos pasos."
+      },
+      {
+        "word": "resumir (conclusiones)",
+        "english": "to summarize (conclusions)",
+        "category": "comunicación",
+        "example": "Para resumir, los resultados superaron las expectativas iniciales."
+      },
+      {
+        "word": "sintetizar (información)",
+        "english": "to synthesize (information)",
+        "category": "comunicación",
+        "example": "Es necesario sintetizar los datos antes de la presentación."
+      },
+      {
+        "word": "exponer (una idea)",
+        "english": "to present / set forth (an idea)",
+        "category": "presentaciones",
+        "example": "Durante la conferencia expuso las nuevas tendencias del mercado."
+      },
+      {
+        "word": "sustentar (una propuesta)",
+        "english": "to substantiate (a proposal)",
+        "category": "comunicación",
+        "example": "Es necesario sustentar la propuesta con datos del mercado."
+      },
+      {
+        "word": "validar",
+        "english": "to validate",
+        "category": "gestión",
+        "example": "Los resultados del piloto validaron la viabilidad del proyecto."
+      },
+      {
+        "word": "documentar",
+        "english": "to document",
+        "category": "gestión",
+        "example": "Todo proceso debe documentarse para garantizar la trazabilidad."
+      },
+      {
+        "word": "formalizar (un acuerdo)",
+        "english": "to formalize (an agreement)",
+        "category": "negocios",
+        "example": "Las partes formalizaron el acuerdo mediante un contrato escrito."
+      },
+      {
+        "word": "ratificar",
+        "english": "to ratify",
+        "category": "negocios",
+        "example": "El consejo ratificó los términos de la fusión."
+      },
+      {
+        "word": "renegociar",
+        "english": "to renegotiate",
+        "category": "negocios",
+        "example": "La empresa optó por renegociar los términos del contrato."
+      },
+      {
+        "word": "canalizar (energías)",
+        "english": "to channel (efforts)",
+        "category": "gestión",
+        "example": "Debemos canalizar los recursos hacia las áreas de mayor impacto."
+      },
+      {
+        "word": "desarrollar (competencias)",
+        "english": "to develop (skills)",
+        "category": "gestión",
+        "example": "El programa desarrolla competencias de liderazgo en los mandos intermedios."
+      },
+      {
+        "word": "incorporar (feedback)",
+        "english": "to incorporate (feedback)",
+        "category": "comunicación",
+        "example": "Incorporamos las sugerencias del comité en la versión final."
+      },
+      {
+        "word": "alinearse con",
+        "english": "to align with",
+        "category": "gestión",
+        "example": "El equipo debe alinearse con la estrategia corporativa."
+      },
+      {
+        "word": "dar seguimiento a",
+        "english": "to follow up on",
+        "category": "gestión",
+        "example": "El gerente da seguimiento semanal al progreso del proyecto."
+      }
     ],
     "adjectives": [
-      {"word": "estratégico / estratégica", "english": "strategic", "category": "gestión", "example": "La planificación estratégica es fundamental para el crecimiento."},
-      {"word": "ejecutivo / ejecutiva", "english": "executive", "category": "gestión", "example": "La reunión ejecutiva se llevará a cabo el próximo lunes."},
-      {"word": "eficaz / eficaz", "english": "effective", "category": "comunicación", "example": "La comunicación eficaz reduce malentendidos en el equipo."},
-      {"word": "transparente", "english": "transparent", "category": "gestión", "example": "La transparencia en la comunicación genera confianza."},
-      {"word": "claro / clara", "english": "clear", "category": "comunicación", "example": "El mensaje debe ser claro y conciso para el público."},
-      {"word": "persuasivo / persuasiva", "english": "persuasive", "category": "comunicación", "example": "La presentación fue lo suficientemente persuasiva para aprobar el presupuesto."},
-      {"word": "conciso / concisa", "english": "concise", "category": "comunicación", "example": "El informe ejecutivo debe ser conciso pero completo."},
-      {"word": "profesional", "english": "professional", "category": "comunicación", "example": "Mantener un tono profesional es esencial en todas las comunicaciones."},
-      {"word": "institucional", "english": "institutional", "category": "gestión", "example": "La postura institucional refleja los valores de la organización."},
-      {"word": "relevante", "english": "relevant", "category": "comunicación", "example": "Solo los datos relevantes deben incluirse en el resumen."},
-      {"word": "pertinente", "english": "pertinent / appropriate", "category": "comunicación", "example": "El argumento presentado fue pertinente al tema de discusión."},
-      {"word": "integral", "english": "comprehensive / holistic", "category": "gestión", "example": "Se requiere un enfoque integral para abordar el problema."},
-      {"word": "sostenible", "english": "sustainable", "category": "gestión", "example": "El modelo de negocio debe ser financieramente sostenible."},
-      {"word": "innovador / innovadora", "english": "innovative", "category": "negocios", "example": "La solución innovadora diferenciaba a la empresa de la competencia."},
-      {"word": "proactivo / proactiva", "english": "proactive", "category": "gestión", "example": "Un enfoque proactivo evita problemas antes de que surjan."}
+      {
+        "word": "estratégico / estratégica",
+        "english": "strategic",
+        "category": "gestión",
+        "example": "La planificación estratégica es fundamental para el crecimiento."
+      },
+      {
+        "word": "ejecutivo / ejecutiva",
+        "english": "executive",
+        "category": "gestión",
+        "example": "La reunión ejecutiva se llevará a cabo el próximo lunes."
+      },
+      {
+        "word": "eficaz / eficaz",
+        "english": "effective",
+        "category": "comunicación",
+        "example": "La comunicación eficaz reduce malentendidos en el equipo."
+      },
+      {
+        "word": "transparente",
+        "english": "transparent",
+        "category": "gestión",
+        "example": "La transparencia en la comunicación genera confianza."
+      },
+      {
+        "word": "claro / clara",
+        "english": "clear",
+        "category": "comunicación",
+        "example": "El mensaje debe ser claro y conciso para el público."
+      },
+      {
+        "word": "persuasivo / persuasiva",
+        "english": "persuasive",
+        "category": "comunicación",
+        "example": "La presentación fue lo suficientemente persuasiva para aprobar el presupuesto."
+      },
+      {
+        "word": "conciso / concisa",
+        "english": "concise",
+        "category": "comunicación",
+        "example": "El informe ejecutivo debe ser conciso pero completo."
+      },
+      {
+        "word": "profesional",
+        "english": "professional",
+        "category": "comunicación",
+        "example": "Mantener un tono profesional es esencial en todas las comunicaciones."
+      },
+      {
+        "word": "institucional",
+        "english": "institutional",
+        "category": "gestión",
+        "example": "La postura institucional refleja los valores de la organización."
+      },
+      {
+        "word": "relevante",
+        "english": "relevant",
+        "category": "comunicación",
+        "example": "Solo los datos relevantes deben incluirse en el resumen."
+      },
+      {
+        "word": "pertinente",
+        "english": "pertinent / appropriate",
+        "category": "comunicación",
+        "example": "El argumento presentado fue pertinente al tema de discusión."
+      },
+      {
+        "word": "integral",
+        "english": "comprehensive / holistic",
+        "category": "gestión",
+        "example": "Se requiere un enfoque integral para abordar el problema."
+      },
+      {
+        "word": "sostenible",
+        "english": "sustainable",
+        "category": "gestión",
+        "example": "El modelo de negocio debe ser financieramente sostenible."
+      },
+      {
+        "word": "innovador / innovadora",
+        "english": "innovative",
+        "category": "negocios",
+        "example": "La solución innovadora diferenciaba a la empresa de la competencia."
+      },
+      {
+        "word": "proactivo / proactiva",
+        "english": "proactive",
+        "category": "gestión",
+        "example": "Un enfoque proactivo evita problemas antes de que surjan."
+      },
+      {
+        "word": "estratégico / estratégica",
+        "english": "strategic",
+        "category": "gestión",
+        "example": "La decisión estratégica se tomó en la reunión del comité directivo."
+      },
+      {
+        "word": "operativo / operativa",
+        "english": "operational",
+        "category": "gestión",
+        "example": "Los objetivos operativos deben ser específicos y medibles."
+      },
+      {
+        "word": "táctico / táctica",
+        "english": "tactical",
+        "category": "gestión",
+        "example": "Las acciones tácticas implementan la estrategia general."
+      },
+      {
+        "word": "transversal",
+        "english": "cross-functional",
+        "category": "gestión",
+        "example": "El proyecto requiere una colaboración transversal entre departamentos."
+      },
+      {
+        "word": "escalable",
+        "english": "scalable",
+        "category": "negocios",
+        "example": "El modelo de negocio debe ser escalable para crecer internacionalmente."
+      },
+      {
+        "word": "competitivo / competitiva",
+        "english": "competitive",
+        "category": "negocios",
+        "example": "La propuesta competitiva se basa en calidad y precio."
+      },
+      {
+        "word": "diferenciador / diferenciadora",
+        "english": "differentiating",
+        "category": "negocios",
+        "example": "La calidad del servicio es nuestro factor diferenciador."
+      },
+      {
+        "word": "adaptativo / adaptativa",
+        "english": "adaptive",
+        "category": "gestión",
+        "example": "Un modelo adaptativo permite responder a las condiciones cambiantes."
+      },
+      {
+        "word": "colaborativo / colaborativa",
+        "english": "collaborative",
+        "category": "gestión",
+        "example": "Un entorno colaborativo incrementa la productividad del equipo."
+      },
+      {
+        "word": "resiliente",
+        "english": "resilient",
+        "category": "gestión",
+        "example": "La organización resiliente se recupera rápidamente de las crisis."
+      },
+      {
+        "word": "flexible",
+        "english": "flexible",
+        "category": "gestión",
+        "example": "La política flexible de trabajo mejora la satisfacción del empleado."
+      },
+      {
+        "word": "integral",
+        "english": "comprehensive",
+        "category": "gestión",
+        "example": "Se requiere una solución integral que aborde todos los aspectos."
+      },
+      {
+        "word": "sustancial",
+        "english": "substantial",
+        "category": "negocios",
+        "example": "La inversión sustancial generó resultados significativos."
+      },
+      {
+        "word": "significativo / significativa",
+        "english": "significant",
+        "category": "negocios",
+        "example": "Se observó un crecimiento significativo en las ventas."
+      },
+      {
+        "word": "relevante",
+        "english": "relevant",
+        "category": "comunicación",
+        "example": "Los hallazgos relevantes se incluyeron en el informe ejecutivo."
+      },
+      {
+        "word": "concluyente",
+        "english": "conclusive",
+        "category": "comunicación",
+        "example": "Los datos obtenidos son concluyentes a favor de la propuesta."
+      },
+      {
+        "word": "factible",
+        "english": "feasible",
+        "category": "gestión",
+        "example": "Se requiere un estudio de factibilidad antes de avanzar."
+      },
+      {
+        "word": "viable",
+        "english": "viable",
+        "category": "gestión",
+        "example": "El plan propuesto es financieramente viable a largo plazo."
+      }
     ],
     "phrases_and_connectors": [
-      {"phrase": "a efectos de", "english": "for the purpose of", "category": "formal", "example": "A efectos de este contrato, se entiende por entregable el producto final."},
-      {"phrase": "con referencia a", "english": "with reference to", "category": "formal", "example": "Con referencia a su solicitud, hemos revisado la propuesta."},
-      {"phrase": "en relación con", "english": "in relation to / regarding", "category": "formal", "example": "En relación con el último informe, presentamos las siguientes observaciones."},
-      {"phrase": "a fin de", "english": "in order to", "category": "formal", "example": "Se ha convocado esta reunión a fin de revisar los resultados."},
-      {"phrase": "en aras de", "english": "in the interest of", "category": "formal", "example": "Tomamos estas medidas en aras de la eficiencia organizacional."},
-      {"phrase": "por lo que respecta a", "english": "as far as ... is concerned", "category": "formal", "example": "Por lo que respecta al presupuesto, se han asignado los recursos necesarios."},
-      {"phrase": "no bien / en cuanto", "english": "as soon as", "category": "formal", "example": "No bien se apruebe el plan, se iniciará la implementación."},
-      {"phrase": "con la salvedad de que", "english": "with the proviso that", "category": "formal", "example": "Se acepta la propuesta, con la salvedad de que se ajusten los plazos."},
-      {"phrase": "siempre que / con tal de que", "english": "provided that / as long as", "category": "formal", "example": "Se financiará el proyecto siempre que cumpla los criterios establecidos."},
-      {"phrase": "de cara a", "english": "looking ahead to / in preparation for", "category": "formal", "example": "De cara al próximo trimestre, redefinimos las metas del equipo."},
-      {"phrase": "en el marco de", "english": "within the framework of", "category": "formal", "example": "La iniciativa se enmarca dentro de la estrategia de digitalización."},
-      {"phrase": "dando por hecho que", "english": "taking for granted that", "category": "formal", "example": "Dando por hecho que todos los equipos están informados, procedemos."}
+      {
+        "phrase": "a efectos de",
+        "english": "for the purpose of",
+        "category": "formal",
+        "example": "A efectos de este contrato, se entiende por entregable el producto final."
+      },
+      {
+        "phrase": "con referencia a",
+        "english": "with reference to",
+        "category": "formal",
+        "example": "Con referencia a su solicitud, hemos revisado la propuesta."
+      },
+      {
+        "phrase": "en relación con",
+        "english": "in relation to / regarding",
+        "category": "formal",
+        "example": "En relación con el último informe, presentamos las siguientes observaciones."
+      },
+      {
+        "phrase": "a fin de",
+        "english": "in order to",
+        "category": "formal",
+        "example": "Se ha convocado esta reunión a fin de revisar los resultados."
+      },
+      {
+        "phrase": "en aras de",
+        "english": "in the interest of",
+        "category": "formal",
+        "example": "Tomamos estas medidas en aras de la eficiencia organizacional."
+      },
+      {
+        "phrase": "por lo que respecta a",
+        "english": "as far as ... is concerned",
+        "category": "formal",
+        "example": "Por lo que respecta al presupuesto, se han asignado los recursos necesarios."
+      },
+      {
+        "phrase": "no bien / en cuanto",
+        "english": "as soon as",
+        "category": "formal",
+        "example": "No bien se apruebe el plan, se iniciará la implementación."
+      },
+      {
+        "phrase": "con la salvedad de que",
+        "english": "with the proviso that",
+        "category": "formal",
+        "example": "Se acepta la propuesta, con la salvedad de que se ajusten los plazos."
+      },
+      {
+        "phrase": "siempre que / con tal de que",
+        "english": "provided that / as long as",
+        "category": "formal",
+        "example": "Se financiará el proyecto siempre que cumpla los criterios establecidos."
+      },
+      {
+        "phrase": "de cara a",
+        "english": "looking ahead to / in preparation for",
+        "category": "formal",
+        "example": "De cara al próximo trimestre, redefinimos las metas del equipo."
+      },
+      {
+        "phrase": "en el marco de",
+        "english": "within the framework of",
+        "category": "formal",
+        "example": "La iniciativa se enmarca dentro de la estrategia de digitalización."
+      },
+      {
+        "phrase": "dando por hecho que",
+        "english": "taking for granted that",
+        "category": "formal",
+        "example": "Dando por hecho que todos los equipos están informados, procedemos."
+      },
+      {
+        "phrase": "con el propósito de",
+        "english": "with the purpose of",
+        "category": "formal",
+        "example": "Se convocó la reunión con el propósito de definir la estrategia."
+      },
+      {
+        "phrase": "a modo de",
+        "english": "by way of / as a",
+        "category": "formal",
+        "example": "A modo de resumen, los principales hallazgos son los siguientes."
+      },
+      {
+        "phrase": "a tenor de",
+        "english": "in light of / in accordance with",
+        "category": "formal",
+        "example": "A tenor de los últimos resultados, se ajusta el plan de acción."
+      },
+      {
+        "phrase": "sin perjuicio de",
+        "english": "without prejudice to",
+        "category": "formal",
+        "example": "Se aprueba el presupuesto, sin perjuicio de la auditoría posterior."
+      },
+      {
+        "phrase": "a sabiendas de que",
+        "english": "knowing that / with full awareness that",
+        "category": "formal",
+        "example": "A sabiendas de los riesgos, se procedió con la inversión."
+      },
+      {
+        "phrase": "bajo el principio de",
+        "english": "under the principle of",
+        "category": "formal",
+        "example": "La colaboración se basa bajo el principio de beneficio mutuo."
+      },
+      {
+        "phrase": "en consonancia con",
+        "english": "in consonance with / in line with",
+        "category": "formal",
+        "example": "Las decisiones se tomaron en consonancia con la misión institucional."
+      },
+      {
+        "phrase": "a partir de",
+        "english": "starting from / based on",
+        "category": "formal",
+        "example": "A partir de los resultados del Q2, redefinimos los objetivos."
+      },
+      {
+        "phrase": "en función de",
+        "english": "depending on / based on",
+        "category": "formal",
+        "example": "Los recursos se asignan en función de las prioridades establecidas."
+      },
+      {
+        "phrase": "a despecho de",
+        "english": "in spite of",
+        "category": "formal",
+        "example": "El proyecto avanzó, a despecho de las dificultades iniciales."
+      },
+      {
+        "phrase": "por encima de",
+        "english": "above / beyond",
+        "category": "formal",
+        "example": "Se colocó la seguridad del cliente por encima del beneficio inmediato."
+      },
+      {
+        "phrase": "en pos de",
+        "english": "in pursuit of",
+        "category": "formal",
+        "example": "Se implementó la nueva estrategia en pos de la eficiencia operativa."
+      }
+    ],
+    "expressions": [],
+    "phrases": [],
+    "other": [],
+    "noun": [
+      {
+        "id": 1,
+        "target": "currículum vitae",
+        "source": "CV / resume",
+        "gender": "m.",
+        "type": "noun"
+      },
+      {
+        "id": 2,
+        "target": "candidatura",
+        "source": "job application",
+        "gender": "f.",
+        "type": "noun"
+      },
+      {
+        "id": 3,
+        "target": "entrevista de trabajo",
+        "source": "job interview",
+        "gender": "f.",
+        "type": "noun"
+      },
+      {
+        "id": 4,
+        "target": "oferta de empleo",
+        "source": "job offer",
+        "gender": "f.",
+        "type": "noun"
+      },
+      {
+        "id": 6,
+        "target": "dimisión",
+        "source": "resignation",
+        "gender": "f.",
+        "type": "noun"
+      },
+      {
+        "id": 7,
+        "target": "nómina",
+        "source": "payslip",
+        "gender": "f.",
+        "type": "noun"
+      },
+      {
+        "id": 8,
+        "target": "contrato indefinido",
+        "source": "permanent contract",
+        "gender": "m.",
+        "type": "noun"
+      },
+      {
+        "id": 9,
+        "target": "contrato temporal",
+        "source": "temporary contract",
+        "gender": "m.",
+        "type": "noun"
+      },
+      {
+        "id": 10,
+        "target": "periodo de prueba",
+        "source": "probationary period",
+        "gender": "m.",
+        "type": "noun"
+      },
+      {
+        "id": 11,
+        "target": "ascenso",
+        "source": "promotion",
+        "gender": "m.",
+        "type": "noun"
+      },
+      {
+        "id": 12,
+        "target": "sueldo / salario",
+        "source": "salary / wage",
+        "gender": "m.",
+        "type": "noun"
+      },
+      {
+        "id": 13,
+        "target": "la reunión",
+        "source": "meeting",
+        "gender": "f.",
+        "type": "noun"
+      },
+      {
+        "id": 14,
+        "target": "el informe",
+        "source": "report",
+        "gender": "m.",
+        "type": "noun"
+      },
+      {
+        "id": 15,
+        "target": "el presupuesto",
+        "source": "budget",
+        "gender": "m.",
+        "type": "noun"
+      },
+      {
+        "id": 16,
+        "target": "los beneficios",
+        "source": "profits / benefits",
+        "gender": "m.pl.",
+        "type": "noun"
+      },
+      {
+        "id": 17,
+        "target": "las pérdidas",
+        "source": "losses",
+        "gender": "f.pl.",
+        "type": "noun"
+      },
+      {
+        "id": 18,
+        "target": "la cuota de mercado",
+        "source": "market share",
+        "gender": "f.",
+        "type": "noun"
+      },
+      {
+        "id": 19,
+        "target": "la competencia",
+        "source": "competition",
+        "gender": "f.",
+        "type": "noun"
+      },
+      {
+        "id": 20,
+        "target": "el cliente",
+        "source": "client / customer",
+        "gender": "m.",
+        "type": "noun"
+      },
+      {
+        "id": 21,
+        "target": "el jefe / la jefa",
+        "source": "boss / manager",
+        "gender": "m./f.",
+        "type": "noun"
+      },
+      {
+        "id": 22,
+        "target": "el colega / el compañero",
+        "source": "colleague",
+        "gender": "m.",
+        "type": "noun"
+      },
+      {
+        "id": 23,
+        "target": "la beca",
+        "source": "scholarship",
+        "gender": "f.",
+        "type": "noun"
+      },
+      {
+        "id": 24,
+        "target": "la tesis",
+        "source": "thesis",
+        "gender": "f.",
+        "type": "noun"
+      },
+      {
+        "id": 25,
+        "target": "el artículo científico",
+        "source": "scientific paper",
+        "gender": "m.",
+        "type": "noun"
+      },
+      {
+        "id": 26,
+        "target": "hipótesis",
+        "source": "hypothesis",
+        "gender": "f.",
+        "type": "noun"
+      },
+      {
+        "id": 27,
+        "target": "el máster / el posgrado",
+        "source": "master's degree / postgraduate",
+        "gender": "m.",
+        "type": "noun"
+      },
+      {
+        "id": 28,
+        "target": "la investigación",
+        "source": "research",
+        "gender": "f.",
+        "type": "noun"
+      },
+      {
+        "id": 36,
+        "target": "los ingresos",
+        "source": "revenue / income",
+        "gender": "m.pl.",
+        "type": "noun"
+      }
+    ],
+    "adjective": [
+      {
+        "id": 5,
+        "target": "despedido/a",
+        "source": "fired / dismissed",
+        "gender": "m./f.",
+        "type": "adjective"
+      }
+    ],
+    "phrase": [
+      {
+        "id": 29,
+        "target": "estimado/a Sr./Sra.",
+        "source": "Dear Mr./Ms.",
+        "gender": "—",
+        "type": "phrase"
+      },
+      {
+        "id": 31,
+        "target": "le escribo para...",
+        "source": "I am writing to...",
+        "gender": "—",
+        "type": "phrase"
+      },
+      {
+        "id": 32,
+        "target": "queda a su disposición",
+        "source": "I remain at your disposal",
+        "gender": "—",
+        "type": "phrase"
+      },
+      {
+        "id": 33,
+        "target": "agradeciendo de antemano",
+        "source": "thanking you in advance",
+        "gender": "—",
+        "type": "phrase"
+      },
+      {
+        "id": 34,
+        "target": "en respuesta a su correo",
+        "source": "in response to your email",
+        "gender": "—",
+        "type": "phrase"
+      },
+      {
+        "id": 35,
+        "target": "el sueldo fijo",
+        "source": "fixed salary",
+        "gender": "m.",
+        "type": "phrase"
+      },
+      {
+        "id": 37,
+        "target": "la reunión de equipo",
+        "source": "team meeting",
+        "gender": "f.",
+        "type": "phrase"
+      },
+      {
+        "id": 38,
+        "target": "ocupar el puesto vacante",
+        "source": "to fill the vacant position",
+        "gender": "—",
+        "type": "phrase"
+      },
+      {
+        "id": 39,
+        "target": "enviar mi candidatura",
+        "source": "to send my application",
+        "gender": "—",
+        "type": "phrase"
+      },
+      {
+        "id": 40,
+        "target": "solicitar información",
+        "source": "to request information",
+        "gender": "—",
+        "type": "phrase"
+      }
+    ],
+    "adverb": [
+      {
+        "id": 30,
+        "target": "atentamente",
+        "source": "sincerely (formal closing)",
+        "gender": "—",
+        "type": "adverb"
+      }
     ]
   },
   "grammar": [
@@ -183,11 +1500,26 @@
       "instructions": "Asocia cada término ejecutivo con su definición correcta.",
       "instructions_en": "Match each executive term with its correct definition.",
       "items": [
-        {"term": "el indicador clave de rendimiento", "definition": "Métrica utilizada para evaluar el desempeño organizacional respecto a objetivos estratégicos"},
-        {"term": "la propuesta de valor", "definition": "Declaración que explica por qué un cliente elegiría un producto o servicio sobre la competencia"},
-        {"term": "la sinergia", "definition": "Cooperación entre organizaciones o departamentos que produce un resultado mayor que la suma individual"},
-        {"term": "el entregable", "definition": "Producto o resultado tangible que debe ser entregado al finalizar una fase del proyecto"},
-        {"term": "la rendición de cuentas", "definition": "Obligación de informar y justificar las acciones realizadas ante las partes interesadas"}
+        {
+          "term": "el indicador clave de rendimiento",
+          "definition": "Métrica utilizada para evaluar el desempeño organizacional respecto a objetivos estratégicos"
+        },
+        {
+          "term": "la propuesta de valor",
+          "definition": "Declaración que explica por qué un cliente elegiría un producto o servicio sobre la competencia"
+        },
+        {
+          "term": "la sinergia",
+          "definition": "Cooperación entre organizaciones o departamentos que produce un resultado mayor que la suma individual"
+        },
+        {
+          "term": "el entregable",
+          "definition": "Producto o resultado tangible que debe ser entregado al finalizar una fase del proyecto"
+        },
+        {
+          "term": "la rendición de cuentas",
+          "definition": "Obligación de informar y justificar las acciones realizadas ante las partes interesadas"
+        }
       ]
     },
     {
@@ -198,10 +1530,22 @@
       "instructions": "Completa las oraciones con el conector de progresión adecuado: en primer lugar, a continuación, posteriormente, para concluir.",
       "instructions_en": "Complete the sentences with the appropriate progression connector.",
       "items": [
-        {"sentence": "______, analizaremos el panorama actual del mercado.", "answer": "En primer lugar"},
-        {"sentence": "______, expondremos nuestra propuesta estratégica.", "answer": "A continuación"},
-        {"sentence": "______, detallaremos el plan de acción y los plazos.", "answer": "Posteriormente"},
-        {"sentence": "______, resumiremos los próximos pasos.", "answer": "Para concluir"}
+        {
+          "sentence": "______, analizaremos el panorama actual del mercado.",
+          "answer": "En primer lugar"
+        },
+        {
+          "sentence": "______, expondremos nuestra propuesta estratégica.",
+          "answer": "A continuación"
+        },
+        {
+          "sentence": "______, detallaremos el plan de acción y los plazos.",
+          "answer": "Posteriormente"
+        },
+        {
+          "sentence": "______, resumiremos los próximos pasos.",
+          "answer": "Para concluir"
+        }
       ]
     },
     {
@@ -212,9 +1556,18 @@
       "instructions": "Traduce al español las siguientes oraciones usando el futuro perfecto.",
       "instructions_en": "Translate the following sentences into Spanish using the future perfect.",
       "items": [
-        {"english": "By next quarter, we will have launched the new product line.", "expected": "Para el próximo trimestre, habremos lanzado la nueva línea de productos."},
-        {"english": "When the board arrives, we will have reviewed all the indicators.", "expected": "Cuando llegue la junta directiva, habremos revisado todos los indicadores."},
-        {"english": "By the time of the presentation, we will have compiled all the data.", "expected": "Para el momento de la presentación, habremos compilado todos los datos."}
+        {
+          "english": "By next quarter, we will have launched the new product line.",
+          "expected": "Para el próximo trimestre, habremos lanzado la nueva línea de productos."
+        },
+        {
+          "english": "When the board arrives, we will have reviewed all the indicators.",
+          "expected": "Cuando llegue la junta directiva, habremos revisado todos los indicadores."
+        },
+        {
+          "english": "By the time of the presentation, we will have compiled all the data.",
+          "expected": "Para el momento de la presentación, habremos compilado todos los datos."
+        }
       ]
     }
   ]

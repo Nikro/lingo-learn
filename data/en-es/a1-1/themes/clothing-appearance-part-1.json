@@ -352,6 +352,356 @@
       "source": "legs",
       "gender": "f",
       "type": "body"
+    },
+    {
+      "id": 51,
+      "target": "los brazos",
+      "source": "arms",
+      "gender": "m",
+      "type": "body"
+    },
+    {
+      "id": 52,
+      "target": "la cara",
+      "source": "face",
+      "gender": "f",
+      "type": "body"
+    },
+    {
+      "id": 53,
+      "target": "la cabeza",
+      "source": "head",
+      "gender": "f",
+      "type": "body"
+    },
+    {
+      "id": 54,
+      "target": "los dientes",
+      "source": "teeth",
+      "gender": "m",
+      "type": "body"
+    },
+    {
+      "id": 55,
+      "target": "la barba",
+      "source": "beard",
+      "gender": "f",
+      "type": "body"
+    },
+    {
+      "id": 56,
+      "target": "el bigote",
+      "source": "moustache",
+      "gender": "m",
+      "type": "body"
+    },
+    {
+      "id": 57,
+      "target": "el pecho",
+      "source": "chest",
+      "gender": "m",
+      "type": "body"
+    },
+    {
+      "id": 58,
+      "target": "los hombros",
+      "source": "shoulders",
+      "gender": "m",
+      "type": "body"
+    },
+    {
+      "id": 59,
+      "target": "la cintura",
+      "source": "waist",
+      "gender": "f",
+      "type": "body"
+    },
+    {
+      "id": 60,
+      "target": "las rodillas",
+      "source": "knees",
+      "gender": "f",
+      "type": "body"
+    },
+    {
+      "id": 61,
+      "target": "alto",
+      "source": "tall",
+      "gender": "m",
+      "type": "adjective"
+    },
+    {
+      "id": 62,
+      "target": "bajo",
+      "source": "short (height)",
+      "gender": "m",
+      "type": "adjective"
+    },
+    {
+      "id": 63,
+      "target": "gordo/a",
+      "source": "fat/chubby",
+      "gender": "m/f",
+      "type": "adjective"
+    },
+    {
+      "id": 64,
+      "target": "delgado/a",
+      "source": "thin/slender",
+      "gender": "m/f",
+      "type": "adjective"
+    },
+    {
+      "id": 65,
+      "target": "fuerte",
+      "source": "strong",
+      "gender": "m",
+      "type": "adjective"
+    },
+    {
+      "id": 66,
+      "target": "joven",
+      "source": "young",
+      "gender": "m",
+      "type": "adjective"
+    },
+    {
+      "id": 67,
+      "target": "viejo/a",
+      "source": "old",
+      "gender": "m/f",
+      "type": "adjective"
+    },
+    {
+      "id": 68,
+      "target": "bonito/a",
+      "source": "pretty/nice",
+      "gender": "m/f",
+      "type": "adjective"
+    },
+    {
+      "id": 69,
+      "target": "guapo/a",
+      "source": "handsome/beautiful",
+      "gender": "m/f",
+      "type": "adjective"
+    },
+    {
+      "id": 70,
+      "target": "rubio/a",
+      "source": "blonde",
+      "gender": "m/f",
+      "type": "adjective"
+    },
+    {
+      "id": 71,
+      "target": "moreno/a",
+      "source": "dark-haired/dark",
+      "gender": "m/f",
+      "type": "adjective"
+    },
+    {
+      "id": 72,
+      "target": "castaño/a",
+      "source": "brown-haired",
+      "gender": "m/f",
+      "type": "adjective"
+    },
+    {
+      "id": 73,
+      "target": "pelirrojo/a",
+      "source": "red-haired",
+      "gender": "m/f",
+      "type": "adjective"
+    },
+    {
+      "id": 74,
+      "target": "calvo/a",
+      "source": "bald",
+      "gender": "m/f",
+      "type": "adjective"
+    },
+    {
+      "id": 75,
+      "target": "alto/a",
+      "source": "tall",
+      "gender": "m/f",
+      "type": "adjective"
+    },
+    {
+      "id": 76,
+      "target": "bajo/a",
+      "source": "short",
+      "gender": "m/f",
+      "type": "adjective"
+    },
+    {
+      "id": 77,
+      "target": "grande",
+      "source": "big/large",
+      "gender": "m",
+      "type": "adjective"
+    },
+    {
+      "id": 78,
+      "target": "pequeño/a",
+      "source": "small",
+      "gender": "m/f",
+      "type": "adjective"
+    },
+    {
+      "id": 79,
+      "target": "largo/a",
+      "source": "long",
+      "gender": "m/f",
+      "type": "adjective"
+    },
+    {
+      "id": 80,
+      "target": "corto/a",
+      "source": "short (length)",
+      "gender": "m/f",
+      "type": "adjective"
+    },
+    {
+      "id": 81,
+      "target": "negro/a",
+      "source": "black",
+      "gender": "m/f",
+      "type": "color"
+    },
+    {
+      "id": 82,
+      "target": "blanco/a",
+      "source": "white",
+      "gender": "m/f",
+      "type": "color"
+    },
+    {
+      "id": 83,
+      "target": "rojo/a",
+      "source": "red",
+      "gender": "m/f",
+      "type": "color"
+    },
+    {
+      "id": 84,
+      "target": "azul",
+      "source": "blue",
+      "gender": "m",
+      "type": "color"
+    },
+    {
+      "id": 85,
+      "target": "verde",
+      "source": "green",
+      "gender": "m",
+      "type": "color"
+    },
+    {
+      "id": 86,
+      "target": "amarillo/a",
+      "source": "yellow",
+      "gender": "m/f",
+      "type": "color"
+    },
+    {
+      "id": 87,
+      "target": "rosa",
+      "source": "pink",
+      "gender": "m",
+      "type": "color"
+    },
+    {
+      "id": 88,
+      "target": "gris",
+      "source": "grey",
+      "gender": "m",
+      "type": "color"
+    },
+    {
+      "id": 89,
+      "target": "marrón",
+      "source": "brown",
+      "gender": "m",
+      "type": "color"
+    },
+    {
+      "id": 90,
+      "target": "naranja",
+      "source": "orange",
+      "gender": "m",
+      "type": "color"
+    },
+    {
+      "id": 91,
+      "target": "la talla",
+      "source": "size (clothing)",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 92,
+      "target": "la S",
+      "source": "size S (small)",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 93,
+      "target": "la M",
+      "source": "size M (medium)",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 94,
+      "target": "la L",
+      "source": "size L (large)",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 95,
+      "target": "el botón",
+      "source": "button",
+      "gender": "m",
+      "type": "clothing"
+    },
+    {
+      "id": 96,
+      "target": "la cremallera",
+      "source": "zipper",
+      "gender": "f",
+      "type": "clothing"
+    },
+    {
+      "id": 97,
+      "target": "el bolsillo",
+      "source": "pocket",
+      "gender": "m",
+      "type": "clothing"
+    },
+    {
+      "id": 98,
+      "target": "la manga",
+      "source": "sleeve",
+      "gender": "f",
+      "type": "clothing"
+    },
+    {
+      "id": 99,
+      "target": "el cuello (de ropa)",
+      "source": "collar/neckline",
+      "gender": "m",
+      "type": "clothing"
+    },
+    {
+      "id": 100,
+      "target": "la tela",
+      "source": "fabric",
+      "gender": "f",
+      "type": "noun"
     }
   ],
   "grammar": [

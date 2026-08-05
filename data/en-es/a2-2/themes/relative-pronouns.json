@@ -4,106 +4,706 @@
   "title": "Relative Pronouns",
   "description": "Learn to use relative pronouns (que, quien, el cual, donde, cuyo) to connect ideas in Spanish.",
   "vocabulary": [
-    {"id": 1, "target": "que", "source": "that/which/who", "gender": "pron", "type": "relative"},
-    {"id": 2, "target": "quien", "source": "who", "gender": "pron", "type": "relative"},
-    {"id": 3, "target": "quienes", "source": "who (pl)", "gender": "pron", "type": "relative"},
-    {"id": 4, "target": "el cual", "source": "which (m)", "gender": "pron", "type": "relative"},
-    {"id": 5, "target": "la cual", "source": "which (f)", "gender": "pron", "type": "relative"},
-    {"id": 6, "target": "los cuales", "source": "which (m pl)", "gender": "pron", "type": "relative"},
-    {"id": 7, "target": "las cuales", "source": "which (f pl)", "gender": "pron", "type": "relative"},
-    {"id": 8, "target": "donde", "source": "where", "gender": "adv", "type": "relative"},
-    {"id": 9, "target": "cuyo", "source": "whose (m)", "gender": "adj", "type": "relative"},
-    {"id": 10, "target": "cuya", "source": "whose (f)", "gender": "adj", "type": "relative"},
-    {"id": 11, "target": "cuyos", "source": "whose (m pl)", "gender": "adj", "type": "relative"},
-    {"id": 12, "target": "cuyas", "source": "whose (f pl)", "gender": "adj", "type": "relative"},
-    {"id": 13, "target": "el hombre", "source": "the man", "gender": "m", "type": "noun"},
-    {"id": 14, "target": "la mujer", "source": "the woman", "gender": "f", "type": "noun"},
-    {"id": 15, "target": "el nino", "source": "the boy", "gender": "m", "type": "noun"},
-    {"id": 16, "target": "la nina", "source": "the girl", "gender": "f", "type": "noun"},
-    {"id": 17, "target": "el libro", "source": "the book", "gender": "m", "type": "noun"},
-    {"id": 18, "target": "la casa", "source": "the house", "gender": "f", "type": "noun"},
-    {"id": 19, "target": "el coche", "source": "the car", "gender": "m", "type": "noun"},
-    {"id": 20, "target": "la ciudad", "source": "the city", "gender": "f", "type": "noun"},
-    {"id": 21, "target": "el tiempo", "source": "the time/weather", "gender": "m", "type": "noun"},
-    {"id": 22, "target": "el dinero", "source": "the money", "gender": "m", "type": "noun"},
-    {"id": 23, "target": "el trabajo", "source": "the work", "gender": "m", "type": "noun"},
-    {"id": 24, "target": "la vida", "source": "the life", "gender": "f", "type": "noun"},
-    {"id": 25, "target": "el mundo", "source": "the world", "gender": "m", "type": "noun"},
-    {"id": 26, "target": "el pais", "source": "the country", "gender": "m", "type": "noun"},
-    {"id": 27, "target": "la empresa", "source": "the company", "gender": "f", "type": "noun"},
-    {"id": 28, "target": "el amigo", "source": "the friend", "gender": "m", "type": "noun"},
-    {"id": 29, "target": "la amiga", "source": "the friend (f)", "gender": "f", "type": "noun"},
-    {"id": 30, "target": "el profesor", "source": "the professor", "gender": "m", "type": "noun"},
-    {"id": 31, "target": "la profesora", "source": "the professor (f)", "gender": "f", "type": "noun"},
-    {"id": 32, "target": "el estudiante", "source": "the student", "gender": "m", "type": "noun"},
-    {"id": 33, "target": "la estudiante", "source": "the student (f)", "gender": "f", "type": "noun"},
-    {"id": 34, "target": "el medico", "source": "the doctor", "gender": "m", "type": "noun"},
-    {"id": 35, "target": "la medica", "source": "the doctor (f)", "gender": "f", "type": "noun"},
-    {"id": 36, "target": "el padre", "source": "the father", "gender": "m", "type": "noun"},
-    {"id": 37, "target": "la madre", "source": "the mother", "gender": "f", "type": "noun"},
-    {"id": 38, "target": "el hijo", "source": "the son", "gender": "m", "type": "noun"},
-    {"id": 39, "target": "la hija", "source": "the daughter", "gender": "f", "type": "noun"},
-    {"id": 40, "target": "el hermano", "source": "the brother", "gender": "m", "type": "noun"},
-    {"id": 41, "target": "la hermana", "source": "the sister", "gender": "f", "type": "noun"},
-    {"id": 42, "target": "el ano", "source": "the year", "gender": "m", "type": "noun"},
-    {"id": 43, "target": "el dia", "source": "the day", "gender": "m", "type": "noun"},
-    {"id": 44, "target": "la noche", "source": "the night", "gender": "f", "type": "noun"},
-    {"id": 45, "target": "la manana", "source": "the morning", "gender": "f", "type": "noun"},
-    {"id": 46, "target": "la tarde", "source": "the afternoon", "gender": "f", "type": "noun"},
-    {"id": 47, "target": "la vez", "source": "the time", "gender": "f", "type": "noun"},
-    {"id": 48, "target": "el momento", "source": "the moment", "gender": "m", "type": "noun"},
-    {"id": 49, "target": "la razon", "source": "the reason", "gender": "f", "type": "noun"},
-    {"id": 50, "target": "el problema", "source": "the problem", "gender": "m", "type": "noun"},
-    {"id": 51, "target": "la solucion", "source": "the solution", "gender": "f", "type": "noun"},
-    {"id": 52, "target": "la idea", "source": "the idea", "gender": "f", "type": "noun"},
-    {"id": 53, "target": "el hecho", "source": "the fact", "gender": "m", "type": "noun"},
-    {"id": 54, "target": "la cosa", "source": "the thing", "gender": "f", "type": "noun"},
-    {"id": 55, "target": "todo", "source": "all", "gender": "adj", "type": "indefinite"},
-    {"id": 56, "target": "mucho", "source": "much", "gender": "adj", "type": "quantity"},
-    {"id": 57, "target": "poco", "source": "little", "gender": "adj", "type": "quantity"},
-    {"id": 58, "target": "bueno", "source": "good", "gender": "adj", "type": "adjective"},
-    {"id": 59, "target": "malo", "source": "bad", "gender": "adj", "type": "adjective"},
-    {"id": 60, "target": "grande", "source": "big", "gender": "adj", "type": "adjective"},
-    {"id": 61, "target": "pequeno", "source": "small", "gender": "adj", "type": "adjective"},
-    {"id": 62, "target": "nuevo", "source": "new", "gender": "adj", "type": "adjective"},
-    {"id": 63, "target": "viejo", "source": "old", "gender": "adj", "type": "adjective"},
-    {"id": 64, "target": "primero", "source": "first", "gender": "adj", "type": "ordinal"},
-    {"id": 65, "target": "ultimo", "source": "last", "gender": "adj", "type": "ordinal"},
-    {"id": 66, "target": "mismo", "source": "same", "gender": "adj", "type": "indefinite"},
-    {"id": 67, "target": "otro", "source": "other", "gender": "adj", "type": "indefinite"},
-    {"id": 68, "target": "alguno", "source": "some", "gender": "adj", "type": "indefinite"},
-    {"id": 69, "target": "ninguno", "source": "none", "gender": "adj", "type": "indefinite"},
-    {"id": 70, "target": "quien", "source": "who", "gender": "pron", "type": "interrogative"},
-    {"id": 71, "target": "que", "source": "what", "gender": "pron", "type": "interrogative"},
-    {"id": 72, "target": "cual", "source": "which", "gender": "pron", "type": "interrogative"},
-    {"id": 73, "target": "donde", "source": "where", "gender": "adv", "type": "interrogative"},
-    {"id": 74, "target": "como", "source": "how", "gender": "adv", "type": "interrogative"},
-    {"id": 75, "target": "cuando", "source": "when", "gender": "adv", "type": "interrogative"},
-    {"id": 76, "target": "porque", "source": "because", "gender": "conj", "type": "conjunction"},
-    {"id": 77, "target": "aunque", "source": "although", "gender": "conj", "type": "conjunction"},
-    {"id": 78, "target": "pero", "source": "but", "gender": "conj", "type": "conjunction"},
-    {"id": 79, "target": "si", "source": "if", "gender": "conj", "type": "conjunction"},
-    {"id": 80, "target": "para", "source": "for/in order to", "gender": "prep", "type": "preposition"},
-    {"id": 81, "target": "por", "source": "for/through", "gender": "prep", "type": "preposition"},
-    {"id": 82, "target": "con", "source": "with", "gender": "prep", "type": "preposition"},
-    {"id": 83, "target": "sin", "source": "without", "gender": "prep", "type": "preposition"},
-    {"id": 84, "target": "de", "source": "of/from", "gender": "prep", "type": "preposition"},
-    {"id": 85, "target": "en", "source": "in/on", "gender": "prep", "type": "preposition"},
-    {"id": 86, "target": "a", "source": "to/at", "gender": "prep", "type": "preposition"},
-    {"id": 87, "target": "sobre", "source": "on/about", "gender": "prep", "type": "preposition"},
-    {"id": 88, "target": "entre", "source": "between", "gender": "prep", "type": "preposition"},
-    {"id": 89, "target": "desde", "source": "since/from", "gender": "prep", "type": "preposition"},
-    {"id": 90, "target": "hasta", "source": "until/to", "gender": "prep", "type": "preposition"},
-    {"id": 91, "target": "hacia", "source": "towards", "gender": "prep", "type": "preposition"},
-    {"id": 92, "target": "contra", "source": "against", "gender": "prep", "type": "preposition"},
-    {"id": 93, "target": "ante", "source": "before/in front of", "gender": "prep", "type": "preposition"},
-    {"id": 94, "target": "bajo", "source": "under", "gender": "prep", "type": "preposition"},
-    {"id": 95, "target": "durante", "source": "during", "gender": "prep", "type": "preposition"},
-    {"id": 96, "target": "mediante", "source": "through", "gender": "prep", "type": "preposition"},
-    {"id": 97, "target": "excepto", "source": "except", "gender": "prep", "type": "preposition"},
-    {"id": 98, "target": "salvo", "source": "except", "gender": "prep", "type": "preposition"},
-    {"id": 99, "target": "segun", "source": "according to", "gender": "prep", "type": "preposition"},
-    {"id": 100, "target": "traves de", "source": "through", "gender": "prep", "type": "preposition"}
+    {
+      "id": 1,
+      "target": "que",
+      "source": "that/which/who",
+      "gender": "pron",
+      "type": "relative"
+    },
+    {
+      "id": 2,
+      "target": "quien",
+      "source": "who",
+      "gender": "pron",
+      "type": "relative"
+    },
+    {
+      "id": 3,
+      "target": "quienes",
+      "source": "who (pl)",
+      "gender": "pron",
+      "type": "relative"
+    },
+    {
+      "id": 4,
+      "target": "el cual",
+      "source": "which (m)",
+      "gender": "pron",
+      "type": "relative"
+    },
+    {
+      "id": 5,
+      "target": "la cual",
+      "source": "which (f)",
+      "gender": "pron",
+      "type": "relative"
+    },
+    {
+      "id": 6,
+      "target": "los cuales",
+      "source": "which (m pl)",
+      "gender": "pron",
+      "type": "relative"
+    },
+    {
+      "id": 7,
+      "target": "las cuales",
+      "source": "which (f pl)",
+      "gender": "pron",
+      "type": "relative"
+    },
+    {
+      "id": 8,
+      "target": "donde",
+      "source": "where",
+      "gender": "adv",
+      "type": "relative"
+    },
+    {
+      "id": 9,
+      "target": "cuyo",
+      "source": "whose (m)",
+      "gender": "adj",
+      "type": "relative"
+    },
+    {
+      "id": 10,
+      "target": "cuya",
+      "source": "whose (f)",
+      "gender": "adj",
+      "type": "relative"
+    },
+    {
+      "id": 11,
+      "target": "cuyos",
+      "source": "whose (m pl)",
+      "gender": "adj",
+      "type": "relative"
+    },
+    {
+      "id": 12,
+      "target": "cuyas",
+      "source": "whose (f pl)",
+      "gender": "adj",
+      "type": "relative"
+    },
+    {
+      "id": 13,
+      "target": "el hombre",
+      "source": "the man",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 14,
+      "target": "la mujer",
+      "source": "the woman",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 15,
+      "target": "el nino",
+      "source": "the boy",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 16,
+      "target": "la nina",
+      "source": "the girl",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 17,
+      "target": "el libro",
+      "source": "the book",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 18,
+      "target": "la casa",
+      "source": "the house",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 19,
+      "target": "el coche",
+      "source": "the car",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 20,
+      "target": "la ciudad",
+      "source": "the city",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 21,
+      "target": "el tiempo",
+      "source": "the time/weather",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 22,
+      "target": "el dinero",
+      "source": "the money",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 23,
+      "target": "el trabajo",
+      "source": "the work",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 24,
+      "target": "la vida",
+      "source": "the life",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 25,
+      "target": "el mundo",
+      "source": "the world",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 26,
+      "target": "el pais",
+      "source": "the country",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 27,
+      "target": "la empresa",
+      "source": "the company",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 28,
+      "target": "el amigo",
+      "source": "the friend",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 29,
+      "target": "la amiga",
+      "source": "the friend (f)",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 30,
+      "target": "el profesor",
+      "source": "the professor",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 31,
+      "target": "la profesora",
+      "source": "the professor (f)",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 32,
+      "target": "el estudiante",
+      "source": "the student",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 33,
+      "target": "la estudiante",
+      "source": "the student (f)",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 34,
+      "target": "el medico",
+      "source": "the doctor",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 35,
+      "target": "la medica",
+      "source": "the doctor (f)",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 36,
+      "target": "el padre",
+      "source": "the father",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 37,
+      "target": "la madre",
+      "source": "the mother",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 38,
+      "target": "el hijo",
+      "source": "the son",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 39,
+      "target": "la hija",
+      "source": "the daughter",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 40,
+      "target": "el hermano",
+      "source": "the brother",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 41,
+      "target": "la hermana",
+      "source": "the sister",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 42,
+      "target": "el ano",
+      "source": "the year",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 43,
+      "target": "el dia",
+      "source": "the day",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 44,
+      "target": "la noche",
+      "source": "the night",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 45,
+      "target": "la manana",
+      "source": "the morning",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 46,
+      "target": "la tarde",
+      "source": "the afternoon",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 47,
+      "target": "la vez",
+      "source": "the time",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 48,
+      "target": "el momento",
+      "source": "the moment",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 49,
+      "target": "la razon",
+      "source": "the reason",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 50,
+      "target": "el problema",
+      "source": "the problem",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 51,
+      "target": "la solucion",
+      "source": "the solution",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 52,
+      "target": "la idea",
+      "source": "the idea",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 53,
+      "target": "el hecho",
+      "source": "the fact",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 54,
+      "target": "la cosa",
+      "source": "the thing",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 55,
+      "target": "todo",
+      "source": "all",
+      "gender": "adj",
+      "type": "indefinite"
+    },
+    {
+      "id": 56,
+      "target": "mucho",
+      "source": "much",
+      "gender": "adj",
+      "type": "quantity"
+    },
+    {
+      "id": 57,
+      "target": "poco",
+      "source": "little",
+      "gender": "adj",
+      "type": "quantity"
+    },
+    {
+      "id": 58,
+      "target": "bueno",
+      "source": "good",
+      "gender": "adj",
+      "type": "adjective"
+    },
+    {
+      "id": 59,
+      "target": "malo",
+      "source": "bad",
+      "gender": "adj",
+      "type": "adjective"
+    },
+    {
+      "id": 60,
+      "target": "grande",
+      "source": "big",
+      "gender": "adj",
+      "type": "adjective"
+    },
+    {
+      "id": 61,
+      "target": "pequeno",
+      "source": "small",
+      "gender": "adj",
+      "type": "adjective"
+    },
+    {
+      "id": 62,
+      "target": "nuevo",
+      "source": "new",
+      "gender": "adj",
+      "type": "adjective"
+    },
+    {
+      "id": 63,
+      "target": "viejo",
+      "source": "old",
+      "gender": "adj",
+      "type": "adjective"
+    },
+    {
+      "id": 64,
+      "target": "primero",
+      "source": "first",
+      "gender": "adj",
+      "type": "ordinal"
+    },
+    {
+      "id": 65,
+      "target": "ultimo",
+      "source": "last",
+      "gender": "adj",
+      "type": "ordinal"
+    },
+    {
+      "id": 66,
+      "target": "mismo",
+      "source": "same",
+      "gender": "adj",
+      "type": "indefinite"
+    },
+    {
+      "id": 67,
+      "target": "otro",
+      "source": "other",
+      "gender": "adj",
+      "type": "indefinite"
+    },
+    {
+      "id": 68,
+      "target": "alguno",
+      "source": "some",
+      "gender": "adj",
+      "type": "indefinite"
+    },
+    {
+      "id": 69,
+      "target": "ninguno",
+      "source": "none",
+      "gender": "adj",
+      "type": "indefinite"
+    },
+    {
+      "id": 70,
+      "target": "quien",
+      "source": "who",
+      "gender": "pron",
+      "type": "interrogative"
+    },
+    {
+      "id": 71,
+      "target": "que",
+      "source": "what",
+      "gender": "pron",
+      "type": "interrogative"
+    },
+    {
+      "id": 72,
+      "target": "cual",
+      "source": "which",
+      "gender": "pron",
+      "type": "interrogative"
+    },
+    {
+      "id": 73,
+      "target": "donde",
+      "source": "where",
+      "gender": "adv",
+      "type": "interrogative"
+    },
+    {
+      "id": 74,
+      "target": "como",
+      "source": "how",
+      "gender": "adv",
+      "type": "interrogative"
+    },
+    {
+      "id": 75,
+      "target": "cuando",
+      "source": "when",
+      "gender": "adv",
+      "type": "interrogative"
+    },
+    {
+      "id": 76,
+      "target": "porque",
+      "source": "because",
+      "gender": "conj",
+      "type": "conjunction"
+    },
+    {
+      "id": 77,
+      "target": "aunque",
+      "source": "although",
+      "gender": "conj",
+      "type": "conjunction"
+    },
+    {
+      "id": 78,
+      "target": "pero",
+      "source": "but",
+      "gender": "conj",
+      "type": "conjunction"
+    },
+    {
+      "id": 79,
+      "target": "si",
+      "source": "if",
+      "gender": "conj",
+      "type": "conjunction"
+    },
+    {
+      "id": 80,
+      "target": "para",
+      "source": "for/in order to",
+      "gender": "prep",
+      "type": "preposition"
+    },
+    {
+      "id": 81,
+      "target": "por",
+      "source": "for/through",
+      "gender": "prep",
+      "type": "preposition"
+    },
+    {
+      "id": 82,
+      "target": "con",
+      "source": "with",
+      "gender": "prep",
+      "type": "preposition"
+    },
+    {
+      "id": 83,
+      "target": "sin",
+      "source": "without",
+      "gender": "prep",
+      "type": "preposition"
+    },
+    {
+      "id": 84,
+      "target": "de",
+      "source": "of/from",
+      "gender": "prep",
+      "type": "preposition"
+    },
+    {
+      "id": 85,
+      "target": "en",
+      "source": "in/on",
+      "gender": "prep",
+      "type": "preposition"
+    },
+    {
+      "id": 86,
+      "target": "a",
+      "source": "to/at",
+      "gender": "prep",
+      "type": "preposition"
+    },
+    {
+      "id": 87,
+      "target": "sobre",
+      "source": "on/about",
+      "gender": "prep",
+      "type": "preposition"
+    },
+    {
+      "id": 88,
+      "target": "entre",
+      "source": "between",
+      "gender": "prep",
+      "type": "preposition"
+    },
+    {
+      "id": 89,
+      "target": "desde",
+      "source": "since/from",
+      "gender": "prep",
+      "type": "preposition"
+    },
+    {
+      "id": 90,
+      "target": "hasta",
+      "source": "until/to",
+      "gender": "prep",
+      "type": "preposition"
+    },
+    {
+      "id": 91,
+      "target": "hacia",
+      "source": "towards",
+      "gender": "prep",
+      "type": "preposition"
+    },
+    {
+      "id": 92,
+      "target": "contra",
+      "source": "against",
+      "gender": "prep",
+      "type": "preposition"
+    },
+    {
+      "id": 93,
+      "target": "ante",
+      "source": "before/in front of",
+      "gender": "prep",
+      "type": "preposition"
+    },
+    {
+      "id": 94,
+      "target": "bajo",
+      "source": "under",
+      "gender": "prep",
+      "type": "preposition"
+    },
+    {
+      "id": 95,
+      "target": "durante",
+      "source": "during",
+      "gender": "prep",
+      "type": "preposition"
+    },
+    {
+      "id": 96,
+      "target": "mediante",
+      "source": "through",
+      "gender": "prep",
+      "type": "preposition"
+    },
+    {
+      "id": 97,
+      "target": "excepto",
+      "source": "except",
+      "gender": "prep",
+      "type": "preposition"
+    },
+    {
+      "id": 98,
+      "target": "salvo",
+      "source": "except",
+      "gender": "prep",
+      "type": "preposition"
+    },
+    {
+      "id": 99,
+      "target": "segun",
+      "source": "according to",
+      "gender": "prep",
+      "type": "preposition"
+    },
+    {
+      "id": 100,
+      "target": "traves de",
+      "source": "through",
+      "gender": "prep",
+      "type": "preposition"
+    }
   ],
   "grammar": [
     {
@@ -135,6 +735,63 @@
         "Los profesores cuyos metodos admiramos vinieron. (The professors whose methods we admire came.)",
         "No recuerdo el nombre del autor cuyo libro perd. (I don't remember the name of the author whose book I lost.)"
       ]
+    },
+    {
+      "title": "Object Pronoun Combinations (DO + IO in One Word)",
+      "content": "When you want to replace BOTH a direct and indirect object with pronouns, they combine into a SINGLE word. The indirect object pronoun (le/les) ALWAYS comes first, followed by the direct object pronoun (lo/la/los/las).\n\nWhen le or les is followed by lo, la, los, or las, they change to SE + DO pronoun. This is one of the most important rules in Spanish pronoun usage.\n\nCombinations:\n- me + lo = melo\n- me + la = mela\n- te + lo = telo\n- te + la = tela\n- le + lo → se lo\n- le + la → se la\n- les + lo → se lo\n- les + la → se la\n- nos + lo = noslo\n- os + lo = oslo (Spain only)\n\nPlacement rules:\n- BEFORE conjugated verb: 'Te lo doy.' (I give it to you.)\n- ATTACHED to infinitive: 'Voy a dártelo.' (I'm going to give it to you.)\n- ATTACHED to gerund: 'Estoy preparándolo.' (I'm preparing it.)\n\nWhen attached to an infinitive or gerund, add an accent mark to maintain proper stress.",
+      "table": {
+        "headers": [
+          "IO + DO",
+          "Combined Form",
+          "Example",
+          "Translation"
+        ],
+        "rows": [
+          [
+            "te + lo",
+            "te lo",
+            "Te lo digo.",
+            "I tell it to you."
+          ],
+          [
+            "le + la",
+            "se la",
+            "Se la di.",
+            "I gave it to him/her."
+          ],
+          [
+            "me + lo",
+            "me lo",
+            "Me lo compró.",
+            "He bought it for me."
+          ],
+          [
+            "les + los",
+            "se los",
+            "Se los envié.",
+            "I sent them to them."
+          ],
+          [
+            "te + las",
+            "te las",
+            "Te las pondré.",
+            "I'll put them on you."
+          ],
+          [
+            "nos + lo",
+            "nos lo",
+            "Nos lo explica.",
+            "He explains it to us."
+          ]
+        ]
+      },
+      "examples": [
+        "¿Me lo puedes prestar? (Can you lend it to me?)",
+        "Se la recomendé al médico. (I recommended it to the doctor.)",
+        "Te lo voy a decir ahora mismo. (I'm going to tell it to you right now.)",
+        "Nos los compró en el mercado. (He bought them for us at the market.)"
+      ],
+      "aid_note": "Romanian combines object pronouns similarly: 'mi-l' (it to me), 'ți-l' (it to you), 'i-l' (it to him/her). Spanish 'se lo' is equivalent to Romanian 'i-l'. The Romanian system is actually more similar to English word-for-word than Spanish."
     }
   ],
   "pronunciation": [
@@ -152,7 +809,12 @@
     {
       "type": "multiple-choice",
       "question": "Which is correct for 'The man who works here'?",
-      "options": ["El hombre quien trabaja aqui", "El hombre que trabaja aqui", "El hombre cual trabaja aqui", "El hombre quien trabaja aqui"],
+      "options": [
+        "El hombre quien trabaja aqui",
+        "El hombre que trabaja aqui",
+        "El hombre cual trabaja aqui",
+        "El hombre quien trabaja aqui"
+      ],
       "correct": 1,
       "explanation": "'Que' is used for both people and things. 'El hombre que trabaja aqui' = The man who works here."
     },
@@ -165,7 +827,12 @@
     {
       "type": "multiple-choice",
       "question": "Which is correct for 'The city where I live'?",
-      "options": ["La ciudad que vivo", "La ciudad donde vivo", "La ciudad cual vivo", "La ciudad quien vivo"],
+      "options": [
+        "La ciudad que vivo",
+        "La ciudad donde vivo",
+        "La ciudad cual vivo",
+        "La ciudad quien vivo"
+      ],
       "correct": 1,
       "explanation": "'Donde' is used for locations. 'La ciudad donde vivo' = The city where I live."
     },
@@ -178,7 +845,12 @@
     {
       "type": "multiple-choice",
       "question": "Which is the possessive relative pronoun?",
-      "options": ["que", "quien", "cuyo", "donde"],
+      "options": [
+        "que",
+        "quien",
+        "cuyo",
+        "donde"
+      ],
       "correct": 2,
       "explanation": "'Cuyo' means 'whose' and indicates possession. It agrees with the noun it modifies."
     },
@@ -191,7 +863,12 @@
     {
       "type": "multiple-choice",
       "question": "Which is correct: 'My father, who lives in Madrid'?",
-      "options": ["Mi padre que vive en Madrid", "Mi padre, quien vive en Madrid", "Mi padre cual vive en Madrid", "Mi padre quien vive en Madrid"],
+      "options": [
+        "Mi padre que vive en Madrid",
+        "Mi padre, quien vive en Madrid",
+        "Mi padre cual vive en Madrid",
+        "Mi padre quien vive en Madrid"
+      ],
       "correct": 1,
       "explanation": "Non-restrictive clause (with comma) for a person: use 'quien'. 'Mi padre, quien vive en Madrid'."
     },
@@ -204,7 +881,12 @@
     {
       "type": "multiple-choice",
       "question": "Which relative pronoun is used after prepositions for things?",
-      "options": ["que", "quien", "el cual", "donde"],
+      "options": [
+        "que",
+        "quien",
+        "el cual",
+        "donde"
+      ],
       "correct": 2,
       "explanation": "'El cual' (and its forms) is used after prepositions, especially in formal Spanish. 'Que' can also be used informally."
     },

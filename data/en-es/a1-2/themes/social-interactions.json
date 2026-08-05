@@ -4,106 +4,706 @@
   "title": "Social Interactions",
   "description": "Learn to greet, introduce yourself, show politeness, express feelings, and handle common social situations in Spanish.",
   "vocabulary": [
-    {"id": 1, "target": "hola", "source": "hello/hi", "gender": "m", "type": "expression"},
-    {"id": 2, "target": "buenos días", "source": "good morning", "gender": "m", "type": "expression"},
-    {"id": 3, "target": "buenas tardes", "source": "good afternoon", "gender": "f", "type": "expression"},
-    {"id": 4, "target": "buenas noches", "source": "good evening/night", "gender": "f", "type": "expression"},
-    {"id": 5, "target": "adiós", "source": "goodbye", "gender": "m", "type": "expression"},
-    {"id": 6, "target": "hasta luego", "source": "see you later", "gender": "m", "type": "expression"},
-    {"id": 7, "target": "hasta mañana", "source": "see you tomorrow", "gender": "m", "type": "expression"},
-    {"id": 8, "target": "hasta pronto", "source": "see you soon", "gender": "m", "type": "expression"},
-    {"id": 9, "target": "hasta siempre", "source": "see you always", "gender": "m", "type": "expression"},
-    {"id": 10, "target": "buenas noches", "source": "good night (farewell)", "gender": "f", "type": "expression"},
-    {"id": 11, "target": "por favor", "source": "please", "gender": "m", "type": "expression"},
-    {"id": 12, "target": "gracias", "source": "thank you", "gender": "m", "type": "expression"},
-    {"id": 13, "target": "muchas gracias", "source": "thank you very much", "gender": "m", "type": "expression"},
-    {"id": 14, "target": "de nada", "source": "you're welcome", "gender": "m", "type": "expression"},
-    {"id": 15, "target": "perdón", "source": "sorry/pardon", "gender": "m", "type": "expression"},
-    {"id": 16, "target": "disculpe", "source": "excuse me (formal)", "gender": "m", "type": "expression"},
-    {"id": 17, "target": "disculpa", "source": "excuse me (informal)", "gender": "m", "type": "expression"},
-    {"id": 18, "target": "lo siento", "source": "I'm sorry", "gender": "m", "type": "expression"},
-    {"id": 19, "target": "¿cómo estás?", "source": "how are you? (informal)", "gender": "m", "type": "expression"},
-    {"id": 20, "target": "¿cómo está usted?", "source": "how are you? (formal)", "gender": "m", "type": "expression"},
-    {"id": 21, "target": "¿cómo te llamas?", "source": "what's your name? (informal)", "gender": "m", "type": "expression"},
-    {"id": 22, "target": "¿cómo se llama usted?", "source": "what's your name? (formal)", "gender": "m", "type": "expression"},
-    {"id": 23, "target": "encantado/a", "source": "nice to meet you (m/f)", "gender": "m", "type": "expression"},
-    {"id": 24, "target": "mucho gusto", "source": "nice to meet you", "gender": "m", "type": "expression"},
-    {"id": 25, "target": "bien", "source": "well/fine", "gender": "m", "type": "adverb"},
-    {"id": 26, "target": "mal", "source": "badly", "gender": "m", "type": "adverb"},
-    {"id": 27, "target": "más o menos", "source": "so-so/so-so", "gender": "m", "type": "expression"},
-    {"id": 28, "target": "genial", "source": "great/awesome", "gender": "m", "type": "adjective"},
-    {"id": 29, "target": "fantástico", "source": "fantastic", "gender": "m", "type": "adjective"},
-    {"id": 30, "target": "cansado/a", "source": "tired", "gender": "m", "type": "adjective"},
-    {"id": 31, "target": "amigo", "source": "friend (m)", "gender": "m", "type": "noun"},
-    {"id": 32, "target": "amiga", "source": "friend (f)", "gender": "f", "type": "noun"},
-    {"id": 33, "target": "compañero", "source": "companion/colleague (m)", "gender": "m", "type": "noun"},
-    {"id": 34, "target": "compañera", "source": "companion/colleague (f)", "gender": "f", "type": "noun"},
-    {"id": 35, "target": "conocido/a", "source": "acquaintance", "gender": "m", "type": "noun"},
-    {"id": 36, "target": "vecino", "source": "neighbor (m)", "gender": "m", "type": "noun"},
-    {"id": 37, "target": "vecina", "source": "neighbor (f)", "gender": "f", "type": "noun"},
-    {"id": 38, "target": "familia", "source": "family", "gender": "f", "type": "noun"},
-    {"id": 39, "target": "pareja", "source": "partner/spouse", "gender": "m/f", "type": "noun"},
-    {"id": 40, "target": "padre", "source": "father", "gender": "m", "type": "noun"},
-    {"id": 41, "target": "madre", "source": "mother", "gender": "f", "type": "noun"},
-    {"id": 42, "target": "hermano", "source": "brother", "gender": "m", "type": "noun"},
-    {"id": 43, "target": "hermana", "source": "sister", "gender": "f", "type": "noun"},
-    {"id": 44, "target": "niño/a", "source": "child/boy/girl", "gender": "m", "type": "noun"},
-    {"id": 45, "target": "persona", "source": "person", "gender": "m/f", "type": "noun"},
-    {"id": 46, "target": "gente", "source": "people", "gender": "f", "type": "noun"},
-    {"id": 47, "target": "señor", "source": "mr./sir", "gender": "m", "type": "noun"},
-    {"id": 48, "target": "señora", "source": "mrs./madam", "gender": "f", "type": "noun"},
-    {"id": 49, "target": "señorita", "source": "miss/mrsgo", "gender": "f", "type": "noun"},
-    {"id": 50, "target": "favor", "source": "favor", "gender": "m", "type": "noun"},
-    {"id": 51, "target": "saludo", "source": "greeting", "gender": "m", "type": "noun"},
-    {"id": 52, "target": "cariño", "source": "affection", "gender": "m", "type": "noun"},
-    {"id": 53, "target": "respeto", "source": "respect", "gender": "m", "type": "noun"},
-    {"id": 54, "target": "simpatía", "source": "friendliness/kindness", "gender": "f", "type": "noun"},
-    {"id": 55, "target": "vergüenza", "source": "embarrassment/shyness", "gender": "f", "type": "noun"},
-    {"id": 56, "target": "gustar", "source": "to like", "gender": "m", "type": "verb"},
-    {"id": 57, "target": "encantar", "source": "to love/adore", "gender": "m", "type": "verb"},
-    {"id": 58, "target": "parecer", "source": "to seem/appear", "gender": "m", "type": "verb"},
-    {"id": 59, "target": "llamar", "source": "to call/name", "gender": "m", "type": "verb"},
-    {"id": 60, "target": "conocer", "source": "to know (a person/place)", "gender": "m", "type": "verb"},
-    {"id": 61, "target": "saludar", "source": "to greet", "gender": "m", "type": "verb"},
-    {"id": 62, "target": "presentar", "source": "to introduce", "gender": "m", "type": "verb"},
-    {"id": 63, "target": "invitar", "source": "to invite", "gender": "m", "type": "verb"},
-    {"id": 64, "target": "visitar", "source": "to visit", "gender": "m", "type": "verb"},
-    {"id": 65, "target": "hablar", "source": "to speak/talk", "gender": "m", "type": "verb"},
-    {"id": 66, "target": "escuchar", "source": "to listen", "gender": "m", "type": "verb"},
-    {"id": 67, "target": "mirar", "source": "to look at/watch", "gender": "m", "type": "verb"},
-    {"id": 68, "target": "esperar", "source": "to wait/expect", "gender": "m", "type": "verb"},
-    {"id": 69, "target": "recordar", "source": "to remember", "gender": "m", "type": "verb"},
-    {"id": 70, "target": "olvidar", "source": "to forget", "gender": "m", "type": "verb"},
-    {"id": 71, "target": "aprender", "source": "to learn", "gender": "m", "type": "verb"},
-    {"id": 72, "target": "entender", "source": "to understand", "gender": "m", "type": "verb"},
-    {"id": 73, "target": "querer", "source": "to want/love", "gender": "m", "type": "verb"},
-    {"id": 74, "target": "necesitar", "source": "to need", "gender": "m", "type": "verb"},
-    {"id": 75, "target": "agradecer", "source": "to thank/grateful", "gender": "m", "type": "verb"},
-    {"id": 76, "target": "pedir", "source": "to ask for/request", "gender": "m", "type": "verb"},
-    {"id": 77, "target": "amable", "source": "kind/nice", "gender": "m", "type": "adjective"},
-    {"id": 78, "target": "simpático/a", "source": "nice/friendly (m/f)", "gender": "m", "type": "adjective"},
-    {"id": 79, "target": "educado/a", "source": "polite (m/f)", "gender": "m", "type": "adjective"},
-    {"id": 80, "target": "cariñoso/a", "source": "affectionate (m/f)", "gender": "m", "type": "adjective"},
-    {"id": 81, "target": "respetuoso/a", "source": "respectful (m/f)", "gender": "m", "type": "adjective"},
-    {"id": 82, "target": "tímido/a", "source": "shy (m/f)", "gender": "m", "type": "adjective"},
-    {"id": 83, "target": "contento/a", "source": "happy (m/f)", "gender": "m", "type": "adjective"},
-    {"id": 84, "target": "triste", "source": "sad", "gender": "m", "type": "adjective"},
-    {"id": 85, "target": "rudo/a", "source": "rude (m/f)", "gender": "m", "type": "adjective"},
-    {"id": 86, "target": "nervioso/a", "source": "nervous (m/f)", "gender": "m", "type": "adjective"},
-    {"id": 87, "target": "aquí", "source": "here", "gender": "m", "type": "adverb"},
-    {"id": 88, "target": "allí/allá", "source": "there", "gender": "m", "type": "adverb"},
-    {"id": 89, "target": "ahora", "source": "now", "gender": "m", "type": "adverb"},
-    {"id": 90, "target": "después", "source": "after/afterwards", "gender": "m", "type": "adverb"},
-    {"id": 91, "target": "también", "source": "also/too", "gender": "m", "type": "adverb"},
-    {"id": 92, "target": "sí", "source": "yes", "gender": "m", "type": "adverb"},
-    {"id": 93, "target": "no", "source": "no/not", "gender": "m", "type": "adverb"},
-    {"id": 94, "target": "claramente", "source": "clearly", "gender": "m", "type": "adverb"},
-    {"id": 95, "target": "siempre", "source": "always", "gender": "m", "type": "adverb"},
-    {"id": 96, "target": "nunca", "source": "never", "gender": "m", "type": "adverb"},
-    {"id": 97, "target": "alguna vez", "source": "ever/once", "gender": "f", "type": "phrase"},
-    {"id": 98, "target": "una vez", "source": "once", "gender": "f", "type": "phrase"},
-    {"id": 99, "target": "otra vez", "source": "again", "gender": "f", "type": "phrase"},
-    {"id": 100, "target": "por favor", "source": "please", "gender": "m", "type": "phrase"}
+    {
+      "id": 1,
+      "target": "hola",
+      "source": "hello/hi",
+      "gender": "m",
+      "type": "expression"
+    },
+    {
+      "id": 2,
+      "target": "buenos días",
+      "source": "good morning",
+      "gender": "m",
+      "type": "expression"
+    },
+    {
+      "id": 3,
+      "target": "buenas tardes",
+      "source": "good afternoon",
+      "gender": "f",
+      "type": "expression"
+    },
+    {
+      "id": 4,
+      "target": "buenas noches",
+      "source": "good evening/night",
+      "gender": "f",
+      "type": "expression"
+    },
+    {
+      "id": 5,
+      "target": "adiós",
+      "source": "goodbye",
+      "gender": "m",
+      "type": "expression"
+    },
+    {
+      "id": 6,
+      "target": "hasta luego",
+      "source": "see you later",
+      "gender": "m",
+      "type": "expression"
+    },
+    {
+      "id": 7,
+      "target": "hasta mañana",
+      "source": "see you tomorrow",
+      "gender": "m",
+      "type": "expression"
+    },
+    {
+      "id": 8,
+      "target": "hasta pronto",
+      "source": "see you soon",
+      "gender": "m",
+      "type": "expression"
+    },
+    {
+      "id": 9,
+      "target": "hasta siempre",
+      "source": "see you always",
+      "gender": "m",
+      "type": "expression"
+    },
+    {
+      "id": 10,
+      "target": "buenas noches",
+      "source": "good night (farewell)",
+      "gender": "f",
+      "type": "expression"
+    },
+    {
+      "id": 11,
+      "target": "por favor",
+      "source": "please",
+      "gender": "m",
+      "type": "expression"
+    },
+    {
+      "id": 12,
+      "target": "gracias",
+      "source": "thank you",
+      "gender": "m",
+      "type": "expression"
+    },
+    {
+      "id": 13,
+      "target": "muchas gracias",
+      "source": "thank you very much",
+      "gender": "m",
+      "type": "expression"
+    },
+    {
+      "id": 14,
+      "target": "de nada",
+      "source": "you're welcome",
+      "gender": "m",
+      "type": "expression"
+    },
+    {
+      "id": 15,
+      "target": "perdón",
+      "source": "sorry/pardon",
+      "gender": "m",
+      "type": "expression"
+    },
+    {
+      "id": 16,
+      "target": "disculpe",
+      "source": "excuse me (formal)",
+      "gender": "m",
+      "type": "expression"
+    },
+    {
+      "id": 17,
+      "target": "disculpa",
+      "source": "excuse me (informal)",
+      "gender": "m",
+      "type": "expression"
+    },
+    {
+      "id": 18,
+      "target": "lo siento",
+      "source": "I'm sorry",
+      "gender": "m",
+      "type": "expression"
+    },
+    {
+      "id": 19,
+      "target": "¿cómo estás?",
+      "source": "how are you? (informal)",
+      "gender": "m",
+      "type": "expression"
+    },
+    {
+      "id": 20,
+      "target": "¿cómo está usted?",
+      "source": "how are you? (formal)",
+      "gender": "m",
+      "type": "expression"
+    },
+    {
+      "id": 21,
+      "target": "¿cómo te llamas?",
+      "source": "what's your name? (informal)",
+      "gender": "m",
+      "type": "expression"
+    },
+    {
+      "id": 22,
+      "target": "¿cómo se llama usted?",
+      "source": "what's your name? (formal)",
+      "gender": "m",
+      "type": "expression"
+    },
+    {
+      "id": 23,
+      "target": "encantado/a",
+      "source": "nice to meet you (m/f)",
+      "gender": "m",
+      "type": "expression"
+    },
+    {
+      "id": 24,
+      "target": "mucho gusto",
+      "source": "nice to meet you",
+      "gender": "m",
+      "type": "expression"
+    },
+    {
+      "id": 25,
+      "target": "bien",
+      "source": "well/fine",
+      "gender": "m",
+      "type": "adverb"
+    },
+    {
+      "id": 26,
+      "target": "mal",
+      "source": "badly",
+      "gender": "m",
+      "type": "adverb"
+    },
+    {
+      "id": 27,
+      "target": "más o menos",
+      "source": "so-so/so-so",
+      "gender": "m",
+      "type": "expression"
+    },
+    {
+      "id": 28,
+      "target": "genial",
+      "source": "great/awesome",
+      "gender": "m",
+      "type": "adjective"
+    },
+    {
+      "id": 29,
+      "target": "fantástico",
+      "source": "fantastic",
+      "gender": "m",
+      "type": "adjective"
+    },
+    {
+      "id": 30,
+      "target": "cansado/a",
+      "source": "tired",
+      "gender": "m",
+      "type": "adjective"
+    },
+    {
+      "id": 31,
+      "target": "amigo",
+      "source": "friend (m)",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 32,
+      "target": "amiga",
+      "source": "friend (f)",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 33,
+      "target": "compañero",
+      "source": "companion/colleague (m)",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 34,
+      "target": "compañera",
+      "source": "companion/colleague (f)",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 35,
+      "target": "conocido/a",
+      "source": "acquaintance",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 36,
+      "target": "vecino",
+      "source": "neighbor (m)",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 37,
+      "target": "vecina",
+      "source": "neighbor (f)",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 38,
+      "target": "familia",
+      "source": "family",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 39,
+      "target": "pareja",
+      "source": "partner/spouse",
+      "gender": "m/f",
+      "type": "noun"
+    },
+    {
+      "id": 40,
+      "target": "padre",
+      "source": "father",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 41,
+      "target": "madre",
+      "source": "mother",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 42,
+      "target": "hermano",
+      "source": "brother",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 43,
+      "target": "hermana",
+      "source": "sister",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 44,
+      "target": "niño/a",
+      "source": "child/boy/girl",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 45,
+      "target": "persona",
+      "source": "person",
+      "gender": "m/f",
+      "type": "noun"
+    },
+    {
+      "id": 46,
+      "target": "gente",
+      "source": "people",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 47,
+      "target": "señor",
+      "source": "mr./sir",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 48,
+      "target": "señora",
+      "source": "mrs./madam",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 49,
+      "target": "señorita",
+      "source": "miss/mrsgo",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 50,
+      "target": "favor",
+      "source": "favor",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 51,
+      "target": "saludo",
+      "source": "greeting",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 52,
+      "target": "cariño",
+      "source": "affection",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 53,
+      "target": "respeto",
+      "source": "respect",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 54,
+      "target": "simpatía",
+      "source": "friendliness/kindness",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 55,
+      "target": "vergüenza",
+      "source": "embarrassment/shyness",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 56,
+      "target": "gustar",
+      "source": "to like",
+      "gender": "m",
+      "type": "verb"
+    },
+    {
+      "id": 57,
+      "target": "encantar",
+      "source": "to love/adore",
+      "gender": "m",
+      "type": "verb"
+    },
+    {
+      "id": 58,
+      "target": "parecer",
+      "source": "to seem/appear",
+      "gender": "m",
+      "type": "verb"
+    },
+    {
+      "id": 59,
+      "target": "llamar",
+      "source": "to call/name",
+      "gender": "m",
+      "type": "verb"
+    },
+    {
+      "id": 60,
+      "target": "conocer",
+      "source": "to know (a person/place)",
+      "gender": "m",
+      "type": "verb"
+    },
+    {
+      "id": 61,
+      "target": "saludar",
+      "source": "to greet",
+      "gender": "m",
+      "type": "verb"
+    },
+    {
+      "id": 62,
+      "target": "presentar",
+      "source": "to introduce",
+      "gender": "m",
+      "type": "verb"
+    },
+    {
+      "id": 63,
+      "target": "invitar",
+      "source": "to invite",
+      "gender": "m",
+      "type": "verb"
+    },
+    {
+      "id": 64,
+      "target": "visitar",
+      "source": "to visit",
+      "gender": "m",
+      "type": "verb"
+    },
+    {
+      "id": 65,
+      "target": "hablar",
+      "source": "to speak/talk",
+      "gender": "m",
+      "type": "verb"
+    },
+    {
+      "id": 66,
+      "target": "escuchar",
+      "source": "to listen",
+      "gender": "m",
+      "type": "verb"
+    },
+    {
+      "id": 67,
+      "target": "mirar",
+      "source": "to look at/watch",
+      "gender": "m",
+      "type": "verb"
+    },
+    {
+      "id": 68,
+      "target": "esperar",
+      "source": "to wait/expect",
+      "gender": "m",
+      "type": "verb"
+    },
+    {
+      "id": 69,
+      "target": "recordar",
+      "source": "to remember",
+      "gender": "m",
+      "type": "verb"
+    },
+    {
+      "id": 70,
+      "target": "olvidar",
+      "source": "to forget",
+      "gender": "m",
+      "type": "verb"
+    },
+    {
+      "id": 71,
+      "target": "aprender",
+      "source": "to learn",
+      "gender": "m",
+      "type": "verb"
+    },
+    {
+      "id": 72,
+      "target": "entender",
+      "source": "to understand",
+      "gender": "m",
+      "type": "verb"
+    },
+    {
+      "id": 73,
+      "target": "querer",
+      "source": "to want/love",
+      "gender": "m",
+      "type": "verb"
+    },
+    {
+      "id": 74,
+      "target": "necesitar",
+      "source": "to need",
+      "gender": "m",
+      "type": "verb"
+    },
+    {
+      "id": 75,
+      "target": "agradecer",
+      "source": "to thank/grateful",
+      "gender": "m",
+      "type": "verb"
+    },
+    {
+      "id": 76,
+      "target": "pedir",
+      "source": "to ask for/request",
+      "gender": "m",
+      "type": "verb"
+    },
+    {
+      "id": 77,
+      "target": "amable",
+      "source": "kind/nice",
+      "gender": "m",
+      "type": "adjective"
+    },
+    {
+      "id": 78,
+      "target": "simpático/a",
+      "source": "nice/friendly (m/f)",
+      "gender": "m",
+      "type": "adjective"
+    },
+    {
+      "id": 79,
+      "target": "educado/a",
+      "source": "polite (m/f)",
+      "gender": "m",
+      "type": "adjective"
+    },
+    {
+      "id": 80,
+      "target": "cariñoso/a",
+      "source": "affectionate (m/f)",
+      "gender": "m",
+      "type": "adjective"
+    },
+    {
+      "id": 81,
+      "target": "respetuoso/a",
+      "source": "respectful (m/f)",
+      "gender": "m",
+      "type": "adjective"
+    },
+    {
+      "id": 82,
+      "target": "tímido/a",
+      "source": "shy (m/f)",
+      "gender": "m",
+      "type": "adjective"
+    },
+    {
+      "id": 83,
+      "target": "contento/a",
+      "source": "happy (m/f)",
+      "gender": "m",
+      "type": "adjective"
+    },
+    {
+      "id": 84,
+      "target": "triste",
+      "source": "sad",
+      "gender": "m",
+      "type": "adjective"
+    },
+    {
+      "id": 85,
+      "target": "rudo/a",
+      "source": "rude (m/f)",
+      "gender": "m",
+      "type": "adjective"
+    },
+    {
+      "id": 86,
+      "target": "nervioso/a",
+      "source": "nervous (m/f)",
+      "gender": "m",
+      "type": "adjective"
+    },
+    {
+      "id": 87,
+      "target": "aquí",
+      "source": "here",
+      "gender": "m",
+      "type": "adverb"
+    },
+    {
+      "id": 88,
+      "target": "allí/allá",
+      "source": "there",
+      "gender": "m",
+      "type": "adverb"
+    },
+    {
+      "id": 89,
+      "target": "ahora",
+      "source": "now",
+      "gender": "m",
+      "type": "adverb"
+    },
+    {
+      "id": 90,
+      "target": "después",
+      "source": "after/afterwards",
+      "gender": "m",
+      "type": "adverb"
+    },
+    {
+      "id": 91,
+      "target": "también",
+      "source": "also/too",
+      "gender": "m",
+      "type": "adverb"
+    },
+    {
+      "id": 92,
+      "target": "sí",
+      "source": "yes",
+      "gender": "m",
+      "type": "adverb"
+    },
+    {
+      "id": 93,
+      "target": "no",
+      "source": "no/not",
+      "gender": "m",
+      "type": "adverb"
+    },
+    {
+      "id": 94,
+      "target": "claramente",
+      "source": "clearly",
+      "gender": "m",
+      "type": "adverb"
+    },
+    {
+      "id": 95,
+      "target": "siempre",
+      "source": "always",
+      "gender": "m",
+      "type": "adverb"
+    },
+    {
+      "id": 96,
+      "target": "nunca",
+      "source": "never",
+      "gender": "m",
+      "type": "adverb"
+    },
+    {
+      "id": 97,
+      "target": "alguna vez",
+      "source": "ever/once",
+      "gender": "f",
+      "type": "phrase"
+    },
+    {
+      "id": 98,
+      "target": "una vez",
+      "source": "once",
+      "gender": "f",
+      "type": "phrase"
+    },
+    {
+      "id": 99,
+      "target": "otra vez",
+      "source": "again",
+      "gender": "f",
+      "type": "phrase"
+    },
+    {
+      "id": 100,
+      "target": "por favor",
+      "source": "please",
+      "gender": "m",
+      "type": "phrase"
+    }
   ],
   "grammar": [
     {
@@ -196,14 +796,24 @@
     {
       "type": "multiple-choice",
       "question": "How do you say 'good morning' in Spanish?",
-      "options": ["Buenas noches", "Buenos días", "Buenas tardes", "Adiós"],
+      "options": [
+        "Buenas noches",
+        "Buenos días",
+        "Buenas tardes",
+        "Adiós"
+      ],
       "correct": 1,
       "explanation": "Buenos días = good morning. Buenas noches = good night. Buenas tardes = good afternoon. Adiós = goodbye."
     },
     {
       "type": "multiple-choice",
       "question": "What does 'gracias' mean?",
-      "options": ["sorry", "please", "thank you", "you're welcome"],
+      "options": [
+        "sorry",
+        "please",
+        "thank you",
+        "you're welcome"
+      ],
       "correct": 2,
       "explanation": "Gracias = thank you. Perdón/lo siento = sorry. Por favor = please. De nada = you're welcome."
     },
@@ -216,7 +826,12 @@
     {
       "type": "multiple-choice",
       "question": "How do you respond to 'gracias' in Spanish?",
-      "options": ["Por favor", "Perdón", "De nada", "Lo siento"],
+      "options": [
+        "Por favor",
+        "Perdón",
+        "De nada",
+        "Lo siento"
+      ],
       "correct": 2,
       "explanation": "De nada = you're welcome. Por favor = please. Perdón = sorry/excuse me. Lo siento = I'm sorry."
     },
@@ -229,7 +844,12 @@
     {
       "type": "multiple-choice",
       "question": "What does 'mucho gusto' mean?",
-      "options": ["see you later", "nice to meet you", "thank you", "good morning"],
+      "options": [
+        "see you later",
+        "nice to meet you",
+        "thank you",
+        "good morning"
+      ],
       "correct": 1,
       "explanation": "Mucho gusto = nice to meet you. Hasta luego = see you later. Gracias = thank you. Buenos días = good morning."
     },
@@ -242,14 +862,24 @@
     {
       "type": "multiple-choice",
       "question": "What is the informal way to say 'thank you very much'?",
-      "options": ["Se lo agradezco", "Mil gracias", "No hay de qué", "Perdón"],
+      "options": [
+        "Se lo agradezco",
+        "Mil gracias",
+        "No hay de qué",
+        "Perdón"
+      ],
       "correct": 1,
       "explanation": "Mil gracias = a thousand thanks (very informal, very grateful). Se lo agradezco is formal. No hay de qué = you're welcome."
     },
     {
       "type": "multiple-choice",
       "question": "Which expression means 'excuse me' (formal)?",
-      "options": ["disculpa", "perdón", "disculpe", "lo siento"],
+      "options": [
+        "disculpa",
+        "perdón",
+        "disculpe",
+        "lo siento"
+      ],
       "correct": 2,
       "explanation": "Disculpe = excuse me (formal). Disculpa = excuse me (informal). Perdón = sorry/pardon. Lo siento = I'm sorry."
     },
@@ -262,7 +892,12 @@
     {
       "type": "multiple-choice",
       "question": "How do you say 'I'm kind' in Spanish?",
-      "options": ["Soy amable", "Estoy amable", "Soy cansado", "Estoy cansado"],
+      "options": [
+        "Soy amable",
+        "Estoy amable",
+        "Soy cansado",
+        "Estoy cansado"
+      ],
       "correct": 0,
       "explanation": "Soy amable = I'm kind. Use SER for personality traits. 'Estoy' would be temporary state."
     },
@@ -275,7 +910,12 @@
     {
       "type": "multiple-choice",
       "question": "What does 'encantar' mean?",
-      "options": ["to hate", "to love (in a strong way)", "to learn", "to remember"],
+      "options": [
+        "to hate",
+        "to love (in a strong way)",
+        "to learn",
+        "to remember"
+      ],
       "correct": 1,
       "explanation": "Encantar = to love / to be delightful. Me encanta = I love it. It works like gustar (to be pleasing to)."
     },
@@ -288,7 +928,12 @@
     {
       "type": "multiple-choice",
       "question": "What is 'neighbor' in Spanish?",
-      "options": ["amigo", "compañero", "vecino", "conocido"],
+      "options": [
+        "amigo",
+        "compañero",
+        "vecino",
+        "conocido"
+      ],
       "correct": 2,
       "explanation": "Vecino/a = neighbor. Amigo/a = friend. Compañero/a = companion/colleague. Conocido/a = acquaintance."
     },
@@ -301,14 +946,24 @@
     {
       "type": "multiple-choice",
       "question": "How do you say 'see you tomorrow' in Spanish?",
-      "options": ["Hasta luego", "Hasta mañana", "Hasta pronto", "Hasta siempre"],
+      "options": [
+        "Hasta luego",
+        "Hasta mañana",
+        "Hasta pronto",
+        "Hasta siempre"
+      ],
       "correct": 1,
       "explanation": "Hasta mañana = see you tomorrow. Hasta luego = see you later. Hasta pronto = see you soon. Hasta siempre = see you always."
     },
     {
       "type": "multiple-choice",
       "question": "What is the feminine form of 'simpático'?",
-      "options": ["simpática", "simpáticos", "simpáticas", "simpaticosa"],
+      "options": [
+        "simpática",
+        "simpáticos",
+        "simpáticas",
+        "simpaticosa"
+      ],
       "correct": 0,
       "explanation": "Simpática = nice/friendly (feminine). The -o changes to -a for feminine. Simpáticos = masculine plural."
     },
@@ -321,7 +976,12 @@
     {
       "type": "multiple-choice",
       "question": "Which verb means 'to introduce oneself'?",
-      "options": ["presentar", "presentarse", "llamar", "saludar"],
+      "options": [
+        "presentar",
+        "presentarse",
+        "llamar",
+        "saludar"
+      ],
       "correct": 1,
       "explanation": "Presentarse = to introduce oneself (reflexive). Presentar = to introduce someone else. Llamar = to call. Saludar = to greet."
     },
@@ -334,7 +994,12 @@
     {
       "type": "multiple-choice",
       "question": "What does 'cariñoso/a' mean?",
-      "options": ["shy", "affectionate", "rude", "respectful"],
+      "options": [
+        "shy",
+        "affectionate",
+        "rude",
+        "respectful"
+      ],
       "correct": 1,
       "explanation": "Cariñoso/a = affectionate. Tímido/a = shy. Rudo/a = rude. Respetuoso/a = respectful."
     },
@@ -347,7 +1012,12 @@
     {
       "type": "multiple-choice",
       "question": "How do you say 'I'm sorry' in a formal context?",
-      "options": ["disculpa", "perdón", "lo siento", "both 'disculpe' and 'lo siento'"],
+      "options": [
+        "disculpa",
+        "perdón",
+        "lo siento",
+        "both 'disculpe' and 'lo siento'"
+      ],
       "correct": 3,
       "explanation": "Both 'disculpe' (excuse me — formal) and 'lo siento' (I'm sorry) can be used formally. 'Disculpa' is informal."
     },

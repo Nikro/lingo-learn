@@ -13,115 +13,1158 @@
   "vocabulary": {
     "total_count": 103,
     "nouns": [
-      {"word": "la narrativa", "english": "narrative", "category": "literatura", "example": "La narrativa latinoamericana ha influido en la literatura mundial."},
-      {"word": "la trama", "english": "plot", "category": "literatura", "example": "La trama se torció inesperadamente en el tercer acto."},
-      {"word": "el argumento", "english": "plot / argument", "category": "literatura", "example": "El argumento del libro gira en torno a la identidad."},
-      {"word": "el personaje", "english": "character", "category": "literatura", "example": "El personaje principal evoluciona a lo largo de la historia."},
-      {"word": "el protagonista", "english": "protagonist", "category": "literatura", "example": "El protagonista enfrenta un conflicto interno profundo."},
-      {"word": "el antagonista", "english": "antagonist", "category": "literatura", "example": "El antagonista representa la fuerza opuesta al protagonista."},
-      {"word": "el narrador", "english": "narrator", "category": "literatura", "example": "El narrador en primera persona revela sus propios pensamientos."},
-      {"word": "el punto de vista", "english": "point of view", "category": "literatura", "example": "Cada capítulo está contado desde un punto de vista diferente."},
-      {"word": "la atmósfera", "english": "atmosphere / mood", "category": "literatura", "example": "La atmósfera del cuento es melancólica y envolvente."},
-      {"word": "el conflicto", "english": "conflict", "category": "literatura", "example": "El conflicto central impulsa toda la trama."},
-      {"word": "el clímax", "english": "climax", "category": "literatura", "example": "El clímax de la novela ocurre cuando se revela el secreto."},
-      {"word": "el desenlace", "english": "resolution / denouement", "category": "literatura", "example": "El desenlace dejó a los lectores con mucho que reflexionar."},
-      {"word": "el relato corto", "english": "short story", "category": "literatura", "example": "El relato corto requiere concentración de efectos."},
-      {"word": "la crónica", "english": "chronicle / news report", "category": "literatura", "example": "La crónica periodística mezcla hechos y opinión."},
-      {"word": "el ensayo literario", "english": "literary essay", "category": "literatura", "example": "El ensayo literario explora ideas a través de la reflexión."},
-      {"word": "la metáfora", "english": "metaphor", "category": "retórica", "example": "La metáfora del río como símbolo del tiempo es poderosa."},
-      {"word": "la sinécdoque", "english": "synecdoche", "category": "retórica", "example": "La sinécdoque utiliza la parte para representar el todo."},
-      {"word": "la prosa poética", "english": "poetic prose", "category": "literatura", "example": "La prosa poética borra los límites entre narrativa y poesía."},
-      {"word": "el monólogo interior", "english": "stream of consciousness", "category": "literatura", "example": "El monólogo interior permite acceder a los pensamientos del personaje."},
-      {"word": "el flashback / la escena retrospectiva", "english": "flashback / retrospective scene", "category": "literatura", "example": "Los flashbacks revelan el pasado del protagonista gradualmente."},
-      {"word": "el estilo indirecto libre", "english": "free indirect discourse", "category": "literatura", "example": "El estilo indirecto libre fusiona la voz del narrador con la del personaje."},
-      {"word": "el ritmo narrativo", "english": "narrative pacing", "category": "literatura", "example": "El ritmo narrativo se acelera en los momentos de tensión."},
-      {"word": "la descripción sensorial", "english": "sensory description", "category": "literatura", "example": "La descripción sensorial transporta al lector al escenario."},
-      {"word": "el símbolo", "english": "symbol", "category": "literatura", "example": "El mar funciona como símbolo de libertad en la obra."},
-      {"word": "la alegoría", "english": "allegory", "category": "literatura", "example": "La alegoría permite leer múltiples niveles de significado."},
-      {"word": "la ironía dramática", "english": "dramatic irony", "category": "literatura", "example": "La ironía dramática crea tensión cuando el público sabe más que los personajes."},
-      {"word": "el foreshadowing / la presagiación", "english": "foreshadowing", "category": "literatura", "example": "El foreshadowing prepara al lector para el giro final."},
-      {"word": "la voz narrativa", "english": "narrative voice", "category": "literatura", "example": "La voz narrativa es irreverente y cargada de humor negro."},
-      {"word": "el subtexto", "english": "subtext", "category": "literatura", "example": "El subtexto de la conversación revela los verdaderos sentimientos."},
-      {"word": "el arco del personaje", "english": "character arc", "category": "literatura", "example": "El arco del personaje muestra una transformación radical."},
-      {"word": "el universo narrativo", "english": "narrative universe", "category": "literatura", "example": "El universo narrativo es rico en detalles históricos."},
-      {"word": "el worldbuilding / la construcción del mundo", "english": "world-building", "category": "literatura", "example": "El worldbuilding es fundamental en la literatura de fantasía."},
-      {"word": "el realismo mágico", "english": "magical realism", "category": "literatura", "example": "El realismo mágico fusiona lo cotidiano con lo sobrenatural."},
-      {"word": "la vanguardia literaria", "english": "literary avant-garde", "category": "literatura", "example": "La vanguardia literaria rompió con las convenciones del siglo XX."},
-      {"word": "el experimento literario", "english": "literary experiment", "category": "literatura", "example": "El experimento literario desafía las estructuras tradicionales."},
-      {"word": "la inspiración creativa", "english": "creative inspiration", "category": "creatividad", "example": "La inspiración creativa llega en los momentos más inesperados."},
-      {"word": "el proceso creativo", "english": "creative process", "category": "creatividad", "example": "El proceso creativo incluye borradores, revisiones y reescrituras."},
-      {"word": "la expresión artística", "english": "artistic expression", "category": "arte", "example": "La expresión artística trasciende las barreras del lenguaje."},
-      {"word": "la sensibilidad literaria", "english": "literary sensitivity", "category": "literatura", "example": "La sensibilidad literaria se desarrolla con la lectura constante."},
-      {"word": "la creatividad", "english": "creativity", "category": "creatividad", "example": "La creatividad fluye cuando se eliminan las restricciones internas."},
-      {"word": "la obra", "english": "work (artistic/literary)", "category": "literatura", "example": "La obra de García Márquez transformó la literatura latinoamericana."},
-      {"word": "el género literario", "english": "literary genre", "category": "literatura", "example": "El género narrativo incluye novelas, relatos y cuentos."},
-      {"word": "el texto", "english": "text", "category": "literatura", "example": "El texto se presta a múltiples interpretaciones."},
-      {"word": "la interpretación", "english": "interpretation", "category": "literatura", "example": "Cada lector construye su propia interpretación del texto."},
-      {"word": "la ficción", "english": "fiction", "category": "literatura", "example": "La ficción permite explorar verdades que la realidad no muestra."},
-      {"word": "la realidad", "english": "reality", "category": "literatura", "example": "La novela difumina los límites entre ficción y realidad."},
-      {"word": "la fantasía", "english": "fantasy", "category": "literatura", "example": "La fantasía abre las puertas a mundos imposibles."},
-      {"word": "la memoria", "english": "memory", "category": "literatura", "example": "La memoria es el motor de casi toda la gran narrativa."},
-      {"word": "el sueño", "english": "dream", "category": "literatura", "example": "El sueño funciona como eje del relato onírico."},
-      {"word": "el mito", "english": "myth", "category": "literatura", "example": "El mito de Prometeo ha inspirado innumerables obras."},
-      {"word": "la leyenda", "english": "legend", "category": "literatura", "example": "La leyenda local se transmite de generación en generación."},
-      {"word": "el cuento", "english": "short story", "category": "literatura", "example": "El cuento breve exige economía expresiva."},
-      {"word": "la novela", "english": "novel", "category": "literatura", "example": "La novela permite un desarrollo extenso de personajes y tramas."},
-      {"word": "la poesía", "english": "poetry", "category": "literatura", "example": "La poesía condensa emociones en versos breves."},
-      {"word": "el verso", "english": "verse", "category": "literatura", "example": "El verso libre rompe con las métricas tradicionales."}
+      {
+        "word": "la narrativa",
+        "english": "narrative",
+        "category": "literatura",
+        "example": "La narrativa latinoamericana ha influido en la literatura mundial."
+      },
+      {
+        "word": "la trama",
+        "english": "plot",
+        "category": "literatura",
+        "example": "La trama se torció inesperadamente en el tercer acto."
+      },
+      {
+        "word": "el argumento",
+        "english": "plot / argument",
+        "category": "literatura",
+        "example": "El argumento del libro gira en torno a la identidad."
+      },
+      {
+        "word": "el personaje",
+        "english": "character",
+        "category": "literatura",
+        "example": "El personaje principal evoluciona a lo largo de la historia."
+      },
+      {
+        "word": "el protagonista",
+        "english": "protagonist",
+        "category": "literatura",
+        "example": "El protagonista enfrenta un conflicto interno profundo."
+      },
+      {
+        "word": "el antagonista",
+        "english": "antagonist",
+        "category": "literatura",
+        "example": "El antagonista representa la fuerza opuesta al protagonista."
+      },
+      {
+        "word": "el narrador",
+        "english": "narrator",
+        "category": "literatura",
+        "example": "El narrador en primera persona revela sus propios pensamientos."
+      },
+      {
+        "word": "el punto de vista",
+        "english": "point of view",
+        "category": "literatura",
+        "example": "Cada capítulo está contado desde un punto de vista diferente."
+      },
+      {
+        "word": "la atmósfera",
+        "english": "atmosphere / mood",
+        "category": "literatura",
+        "example": "La atmósfera del cuento es melancólica y envolvente."
+      },
+      {
+        "word": "el conflicto",
+        "english": "conflict",
+        "category": "literatura",
+        "example": "El conflicto central impulsa toda la trama."
+      },
+      {
+        "word": "el clímax",
+        "english": "climax",
+        "category": "literatura",
+        "example": "El clímax de la novela ocurre cuando se revela el secreto."
+      },
+      {
+        "word": "el desenlace",
+        "english": "resolution / denouement",
+        "category": "literatura",
+        "example": "El desenlace dejó a los lectores con mucho que reflexionar."
+      },
+      {
+        "word": "el relato corto",
+        "english": "short story",
+        "category": "literatura",
+        "example": "El relato corto requiere concentración de efectos."
+      },
+      {
+        "word": "la crónica",
+        "english": "chronicle / news report",
+        "category": "literatura",
+        "example": "La crónica periodística mezcla hechos y opinión."
+      },
+      {
+        "word": "el ensayo literario",
+        "english": "literary essay",
+        "category": "literatura",
+        "example": "El ensayo literario explora ideas a través de la reflexión."
+      },
+      {
+        "word": "la metáfora",
+        "english": "metaphor",
+        "category": "retórica",
+        "example": "La metáfora del río como símbolo del tiempo es poderosa."
+      },
+      {
+        "word": "la sinécdoque",
+        "english": "synecdoche",
+        "category": "retórica",
+        "example": "La sinécdoque utiliza la parte para representar el todo."
+      },
+      {
+        "word": "la prosa poética",
+        "english": "poetic prose",
+        "category": "literatura",
+        "example": "La prosa poética borra los límites entre narrativa y poesía."
+      },
+      {
+        "word": "el monólogo interior",
+        "english": "stream of consciousness",
+        "category": "literatura",
+        "example": "El monólogo interior permite acceder a los pensamientos del personaje."
+      },
+      {
+        "word": "el flashback / la escena retrospectiva",
+        "english": "flashback / retrospective scene",
+        "category": "literatura",
+        "example": "Los flashbacks revelan el pasado del protagonista gradualmente."
+      },
+      {
+        "word": "el estilo indirecto libre",
+        "english": "free indirect discourse",
+        "category": "literatura",
+        "example": "El estilo indirecto libre fusiona la voz del narrador con la del personaje."
+      },
+      {
+        "word": "el ritmo narrativo",
+        "english": "narrative pacing",
+        "category": "literatura",
+        "example": "El ritmo narrativo se acelera en los momentos de tensión."
+      },
+      {
+        "word": "la descripción sensorial",
+        "english": "sensory description",
+        "category": "literatura",
+        "example": "La descripción sensorial transporta al lector al escenario."
+      },
+      {
+        "word": "el símbolo",
+        "english": "symbol",
+        "category": "literatura",
+        "example": "El mar funciona como símbolo de libertad en la obra."
+      },
+      {
+        "word": "la alegoría",
+        "english": "allegory",
+        "category": "literatura",
+        "example": "La alegoría permite leer múltiples niveles de significado."
+      },
+      {
+        "word": "la ironía dramática",
+        "english": "dramatic irony",
+        "category": "literatura",
+        "example": "La ironía dramática crea tensión cuando el público sabe más que los personajes."
+      },
+      {
+        "word": "el foreshadowing / la presagiación",
+        "english": "foreshadowing",
+        "category": "literatura",
+        "example": "El foreshadowing prepara al lector para el giro final."
+      },
+      {
+        "word": "la voz narrativa",
+        "english": "narrative voice",
+        "category": "literatura",
+        "example": "La voz narrativa es irreverente y cargada de humor negro."
+      },
+      {
+        "word": "el subtexto",
+        "english": "subtext",
+        "category": "literatura",
+        "example": "El subtexto de la conversación revela los verdaderos sentimientos."
+      },
+      {
+        "word": "el arco del personaje",
+        "english": "character arc",
+        "category": "literatura",
+        "example": "El arco del personaje muestra una transformación radical."
+      },
+      {
+        "word": "el universo narrativo",
+        "english": "narrative universe",
+        "category": "literatura",
+        "example": "El universo narrativo es rico en detalles históricos."
+      },
+      {
+        "word": "el worldbuilding / la construcción del mundo",
+        "english": "world-building",
+        "category": "literatura",
+        "example": "El worldbuilding es fundamental en la literatura de fantasía."
+      },
+      {
+        "word": "el realismo mágico",
+        "english": "magical realism",
+        "category": "literatura",
+        "example": "El realismo mágico fusiona lo cotidiano con lo sobrenatural."
+      },
+      {
+        "word": "la vanguardia literaria",
+        "english": "literary avant-garde",
+        "category": "literatura",
+        "example": "La vanguardia literaria rompió con las convenciones del siglo XX."
+      },
+      {
+        "word": "el experimento literario",
+        "english": "literary experiment",
+        "category": "literatura",
+        "example": "El experimento literario desafía las estructuras tradicionales."
+      },
+      {
+        "word": "la inspiración creativa",
+        "english": "creative inspiration",
+        "category": "creatividad",
+        "example": "La inspiración creativa llega en los momentos más inesperados."
+      },
+      {
+        "word": "el proceso creativo",
+        "english": "creative process",
+        "category": "creatividad",
+        "example": "El proceso creativo incluye borradores, revisiones y reescrituras."
+      },
+      {
+        "word": "la expresión artística",
+        "english": "artistic expression",
+        "category": "arte",
+        "example": "La expresión artística trasciende las barreras del lenguaje."
+      },
+      {
+        "word": "la sensibilidad literaria",
+        "english": "literary sensitivity",
+        "category": "literatura",
+        "example": "La sensibilidad literaria se desarrolla con la lectura constante."
+      },
+      {
+        "word": "la creatividad",
+        "english": "creativity",
+        "category": "creatividad",
+        "example": "La creatividad fluye cuando se eliminan las restricciones internas."
+      },
+      {
+        "word": "la obra",
+        "english": "work (artistic/literary)",
+        "category": "literatura",
+        "example": "La obra de García Márquez transformó la literatura latinoamericana."
+      },
+      {
+        "word": "el género literario",
+        "english": "literary genre",
+        "category": "literatura",
+        "example": "El género narrativo incluye novelas, relatos y cuentos."
+      },
+      {
+        "word": "el texto",
+        "english": "text",
+        "category": "literatura",
+        "example": "El texto se presta a múltiples interpretaciones."
+      },
+      {
+        "word": "la interpretación",
+        "english": "interpretation",
+        "category": "literatura",
+        "example": "Cada lector construye su propia interpretación del texto."
+      },
+      {
+        "word": "la ficción",
+        "english": "fiction",
+        "category": "literatura",
+        "example": "La ficción permite explorar verdades que la realidad no muestra."
+      },
+      {
+        "word": "la realidad",
+        "english": "reality",
+        "category": "literatura",
+        "example": "La novela difumina los límites entre ficción y realidad."
+      },
+      {
+        "word": "la fantasía",
+        "english": "fantasy",
+        "category": "literatura",
+        "example": "La fantasía abre las puertas a mundos imposibles."
+      },
+      {
+        "word": "la memoria",
+        "english": "memory",
+        "category": "literatura",
+        "example": "La memoria es el motor de casi toda la gran narrativa."
+      },
+      {
+        "word": "el sueño",
+        "english": "dream",
+        "category": "literatura",
+        "example": "El sueño funciona como eje del relato onírico."
+      },
+      {
+        "word": "el mito",
+        "english": "myth",
+        "category": "literatura",
+        "example": "El mito de Prometeo ha inspirado innumerables obras."
+      },
+      {
+        "word": "la leyenda",
+        "english": "legend",
+        "category": "literatura",
+        "example": "La leyenda local se transmite de generación en generación."
+      },
+      {
+        "word": "el cuento",
+        "english": "short story",
+        "category": "literatura",
+        "example": "El cuento breve exige economía expresiva."
+      },
+      {
+        "word": "la novela",
+        "english": "novel",
+        "category": "literatura",
+        "example": "La novela permite un desarrollo extenso de personajes y tramas."
+      },
+      {
+        "word": "la poesía",
+        "english": "poetry",
+        "category": "literatura",
+        "example": "La poesía condensa emociones en versos breves."
+      },
+      {
+        "word": "el verso",
+        "english": "verse",
+        "category": "literatura",
+        "example": "El verso libre rompe con las métricas tradicionales."
+      },
+      {
+        "word": "la figura retórica",
+        "english": "rhetorical figure",
+        "category": "retórica",
+        "example": "La metáfora es la figura retórica más común en la poesía."
+      },
+      {
+        "word": "la hipérbole",
+        "english": "hyperbole",
+        "category": "retórica",
+        "example": "La hipérbole exagera la realidad para crear un efecto dramático."
+      },
+      {
+        "word": "la personificación",
+        "english": "personification",
+        "category": "retórica",
+        "example": "La personificación otorga cualidades humanas a objetos inertes."
+      },
+      {
+        "word": "el símil / la comparación",
+        "english": "simile / comparison",
+        "category": "retórica",
+        "example": "El símil utiliza 'como' para establecer paralelismos."
+      },
+      {
+        "word": "la aliteración",
+        "english": "alliteration",
+        "category": "retórica",
+        "example": "La aliteración crea musicalidad mediante la repetición de consonantes."
+      },
+      {
+        "word": "la repetición",
+        "english": "repetition",
+        "category": "retórica",
+        "example": "La repetición enfatiza las ideas centrales del poema."
+      },
+      {
+        "word": "la paradoja",
+        "english": "paradox",
+        "category": "retórica",
+        "example": "La paradoja une ideas aparentemente contradictorias para revelar una verdad más profunda."
+      },
+      {
+        "word": "el oxímoron",
+        "english": "oxymoron",
+        "category": "retórica",
+        "example": "El oxímoron combina términos opuestos como 'silencio ensordecedor'."
+      },
+      {
+        "word": "la anáfora",
+        "english": "anaphora",
+        "category": "retórica",
+        "example": "La anáfora repite una palabra al inicio de versos consecutivos."
+      },
+      {
+        "word": "el encabalgamiento",
+        "english": "enjambment",
+        "category": "retórica",
+        "example": "El encabalgamiento separa una sintaxis entre dos versos."
+      },
+      {
+        "word": "el verso blanco",
+        "english": "blank verse",
+        "category": "poesía",
+        "example": "El verso blanco no tiene rima pero mantiene la métrica."
+      },
+      {
+        "word": "el soneto",
+        "english": "sonnet",
+        "category": "poesía",
+        "example": "El soneto tiene catorce versos organizados en dos cuartetos y dos tercetos."
+      },
+      {
+        "word": "la oda",
+        "english": "ode",
+        "category": "poesía",
+        "example": "La oda celebra un tema o personaje con elevación lírica."
+      },
+      {
+        "word": "el haiku",
+        "english": "haiku",
+        "category": "poesía",
+        "example": "El haiku japoneso ha inspirado poetas de todo el mundo."
+      },
+      {
+        "word": "el poema en prosa",
+        "english": "prose poem",
+        "category": "poesía",
+        "example": "El poema en prosa combina la fluidez de la prosa con la intensidad de la poesía."
+      },
+      {
+        "word": "el epígrafe",
+        "english": "epigraph",
+        "category": "literatura",
+        "example": "El epígrafe del capítulo anticipa el tema del texto."
+      },
+      {
+        "word": "el prólogo",
+        "english": "foreword / preface",
+        "category": "literatura",
+        "example": "El prólogo presenta al lector al contexto de la obra."
+      },
+      {
+        "word": "el índice",
+        "english": "table of contents",
+        "category": "literatura",
+        "example": "El índice revela la estructura temática de la obra."
+      },
+      {
+        "word": "la nota del autor",
+        "english": "author's note",
+        "category": "literatura",
+        "example": "La nota del autor explica las fuentes de inspiración de la obra."
+      },
+      {
+        "word": "la dedicatoria",
+        "english": "dedication",
+        "category": "literatura",
+        "example": "La dedicatoria revela a quién el autor dedica su trabajo."
+      },
+      {
+        "word": "el capítulo",
+        "english": "chapter",
+        "category": "literatura",
+        "example": "Cada capítulo explora una faceta diferente del conflicto."
+      },
+      {
+        "word": "la escena",
+        "english": "scene",
+        "category": "literatura",
+        "example": "La escena del tribunal es el clímax de la obra."
+      },
+      {
+        "word": "el diálogo",
+        "english": "dialogue",
+        "category": "literatura",
+        "example": "El diálogo revela las personalidades de los personajes."
+      },
+      {
+        "word": "el monólogo",
+        "english": "monologue",
+        "category": "literatura",
+        "example": "El monólogo permite conocer los pensamientos íntimos del personaje."
+      },
+      {
+        "word": "la narración en primera persona",
+        "english": "first-person narration",
+        "category": "literatura",
+        "example": "La narración en primera persona crea intimidad con el lector."
+      },
+      {
+        "word": "la narración en tercera persona",
+        "english": "third-person narration",
+        "category": "literatura",
+        "example": "La narración en tercera persona ofrece una visión más objetiva de los hechos."
+      },
+      {
+        "word": "el narrador omnisciente",
+        "english": "omniscient narrator",
+        "category": "literatura",
+        "example": "El narrador omnisciente conoce los pensamientos de todos los personajes."
+      },
+      {
+        "word": "el narrador testigo",
+        "english": "witness narrator",
+        "category": "literatura",
+        "example": "El narrador testigo relata los hechos desde su propia experiencia."
+      },
+      {
+        "word": "el narrador protagonista",
+        "english": "protagonist narrator",
+        "category": "literatura",
+        "example": "El narrador protagonista es también el centro de la acción."
+      },
+      {
+        "word": "el narrador en segunda persona",
+        "english": "second-person narrator",
+        "category": "literatura",
+        "example": "El narrador en segunda persona dirige la atención directamente al lector."
+      },
+      {
+        "word": "la estructura circular",
+        "english": "circular structure",
+        "category": "literatura",
+        "example": "La estructura circular cierra el ciclo donde comenzó la historia."
+      },
+      {
+        "word": "la estructura lineal",
+        "english": "linear structure",
+        "category": "literatura",
+        "example": "La estructura lineal sigue un orden cronológico de acontecimientos."
+      },
+      {
+        "word": "la estructura no lineal",
+        "english": "non-linear structure",
+        "category": "literatura",
+        "example": "La estructura no lineal rompe la cronología para crear suspense."
+      },
+      {
+        "word": "el fragmento",
+        "english": "fragment",
+        "category": "literatura",
+        "example": "El fragmento literario sugiere un mundo más amplio."
+      },
+      {
+        "word": "el borrador",
+        "english": "draft",
+        "category": "creatividad",
+        "example": "Todo gran libro pasa por numerosos borradores antes de su publicación."
+      },
+      {
+        "word": "la reescritura",
+        "english": "rewriting",
+        "category": "creatividad",
+        "example": "La reescritura es donde verdaderamente se construye una obra."
+      },
+      {
+        "word": "la revisión",
+        "english": "revision",
+        "category": "creatividad",
+        "example": "La revisión es esencial para pulir el estilo y corregir errores."
+      },
+      {
+        "word": "el boceto",
+        "english": "sketch",
+        "category": "creatividad",
+        "example": "El boceto inicial contiene la semilla de la obra terminada."
+      },
+      {
+        "word": "el manuscrito",
+        "english": "manuscript",
+        "category": "literatura",
+        "example": "El manuscrito original fue publicado póstumamente."
+      },
+      {
+        "word": "la publicación",
+        "english": "publication",
+        "category": "literatura",
+        "example": "La publicación del libro marcó un hito en la literatura del país."
+      },
+      {
+        "word": "el manifiesto literario",
+        "english": "literary manifesto",
+        "category": "literatura",
+        "example": "El manifiesto literario proclamaba la ruptura con la tradición."
+      },
+      {
+        "word": "la escuela literaria",
+        "english": "literary school / movement",
+        "category": "literatura",
+        "example": "La Generación del 27 fue una escuela literaria fundamental."
+      },
+      {
+        "word": "el movimiento literario",
+        "english": "literary movement",
+        "category": "literatura",
+        "example": "El modernismo fue el movimiento literario más influyente de finales del XIX."
+      },
+      {
+        "word": "la corriente literaria",
+        "english": "literary current / trend",
+        "category": "literatura",
+        "example": "La corriente del realismo mágico dominó la literatura latinoamericana."
+      },
+      {
+        "word": "el canon literario",
+        "english": "literary canon",
+        "category": "literatura",
+        "example": "El canon literario ha sido cuestionado por su exclusión de voces minoritarias."
+      }
     ],
     "verbs": [
-      {"word": "narrar", "english": "to narrate", "category": "literatura", "example": "La novela narra la historia de una familia durante tres generaciones."},
-      {"word": "relatar", "english": "to relate / recount", "category": "literatura", "example": "El testigo relató los hechos con gran precisión."},
-      {"word": "describir", "english": "to describe", "category": "literatura", "example": "La autora describe el paisaje con detalle exquisito."},
-      {"word": "evocar", "english": "to evoke", "category": "literatura", "example": "El poema evoca recuerdos de la infancia."},
-      {"word": "imaginar", "english": "to imagine", "category": "creatividad", "example": "Un buen escritor debe saber imaginar mundos distintos."},
-      {"word": "crear", "english": "to create", "category": "creatividad", "example": "La autora creó personajes que resonaron con millones de lectores."},
-      {"word": "construir (una historia)", "english": "to build (a story)", "category": "literatura", "example": "El autor construyó la historia pieza por pieza."},
-      {"word": "entrelazar", "english": "to interweave / intertwine", "category": "literatura", "example": "El autor entrelazó las tramas de tres personajes diferentes."},
-      {"word": "transcender", "english": "to transcend", "category": "literatura", "example": "La obra trasciende las fronteras del género literario."},
-      {"word": "profundizar en", "english": "to delve into", "category": "literatura", "example": "El ensayo profundiza en la condición humana."},
-      {"word": "reinterpretar", "english": "to reinterpret", "category": "literatura", "example": "La película reinterpretó el clásico desde una perspectiva moderna."},
-      {"word": "transformar", "english": "to transform", "category": "literatura", "example": "La autora transformó sus experiencias personales en ficción."},
-      {"word": "desdibujar", "english": "to blur", "category": "literatura", "example": "El autor desdibuja la línea entre realidad y ficción."},
-      {"word": "encarnar", "english": "to embody", "category": "literatura", "example": "El personaje encarna los ideales de resistencia."},
-      {"word": "gestar", "english": "to gestate / conceive", "category": "literatura", "example": "La idea del libro se gestó durante años de reflexión."},
-      {"word": "dar vida a", "english": "to bring to life", "category": "literatura", "example": "La escritora dio vida a personajes que parecen reales."},
-      {"word": "tejer (una trama)", "english": "to weave (a plot)", "category": "literatura", "example": "El autor teje una trama densa y compleja."},
-      {"word": "desglosar", "english": "to break down", "category": "literatura", "example": "El ensayo desglosa las capas de significado del texto."},
-      {"word": "conectar con", "english": "to connect with", "category": "literatura", "example": "La obra conecta con el lector a un nivel emocional profundo."},
-      {"word": "susurrar", "english": "to whisper", "category": "literatura", "example": "El narrador susurra confidencias al lector como un confidente."}
+      {
+        "word": "narrar",
+        "english": "to narrate",
+        "category": "literatura",
+        "example": "La novela narra la historia de una familia durante tres generaciones."
+      },
+      {
+        "word": "relatar",
+        "english": "to relate / recount",
+        "category": "literatura",
+        "example": "El testigo relató los hechos con gran precisión."
+      },
+      {
+        "word": "describir",
+        "english": "to describe",
+        "category": "literatura",
+        "example": "La autora describe el paisaje con detalle exquisito."
+      },
+      {
+        "word": "evocar",
+        "english": "to evoke",
+        "category": "literatura",
+        "example": "El poema evoca recuerdos de la infancia."
+      },
+      {
+        "word": "imaginar",
+        "english": "to imagine",
+        "category": "creatividad",
+        "example": "Un buen escritor debe saber imaginar mundos distintos."
+      },
+      {
+        "word": "crear",
+        "english": "to create",
+        "category": "creatividad",
+        "example": "La autora creó personajes que resonaron con millones de lectores."
+      },
+      {
+        "word": "construir (una historia)",
+        "english": "to build (a story)",
+        "category": "literatura",
+        "example": "El autor construyó la historia pieza por pieza."
+      },
+      {
+        "word": "entrelazar",
+        "english": "to interweave / intertwine",
+        "category": "literatura",
+        "example": "El autor entrelazó las tramas de tres personajes diferentes."
+      },
+      {
+        "word": "transcender",
+        "english": "to transcend",
+        "category": "literatura",
+        "example": "La obra trasciende las fronteras del género literario."
+      },
+      {
+        "word": "profundizar en",
+        "english": "to delve into",
+        "category": "literatura",
+        "example": "El ensayo profundiza en la condición humana."
+      },
+      {
+        "word": "reinterpretar",
+        "english": "to reinterpret",
+        "category": "literatura",
+        "example": "La película reinterpretó el clásico desde una perspectiva moderna."
+      },
+      {
+        "word": "transformar",
+        "english": "to transform",
+        "category": "literatura",
+        "example": "La autora transformó sus experiencias personales en ficción."
+      },
+      {
+        "word": "desdibujar",
+        "english": "to blur",
+        "category": "literatura",
+        "example": "El autor desdibuja la línea entre realidad y ficción."
+      },
+      {
+        "word": "encarnar",
+        "english": "to embody",
+        "category": "literatura",
+        "example": "El personaje encarna los ideales de resistencia."
+      },
+      {
+        "word": "gestar",
+        "english": "to gestate / conceive",
+        "category": "literatura",
+        "example": "La idea del libro se gestó durante años de reflexión."
+      },
+      {
+        "word": "dar vida a",
+        "english": "to bring to life",
+        "category": "literatura",
+        "example": "La escritora dio vida a personajes que parecen reales."
+      },
+      {
+        "word": "tejer (una trama)",
+        "english": "to weave (a plot)",
+        "category": "literatura",
+        "example": "El autor teje una trama densa y compleja."
+      },
+      {
+        "word": "desglosar",
+        "english": "to break down",
+        "category": "literatura",
+        "example": "El ensayo desglosa las capas de significado del texto."
+      },
+      {
+        "word": "conectar con",
+        "english": "to connect with",
+        "category": "literatura",
+        "example": "La obra conecta con el lector a un nivel emocional profundo."
+      },
+      {
+        "word": "susurrar",
+        "english": "to whisper",
+        "category": "literatura",
+        "example": "El narrador susurra confidencias al lector como un confidente."
+      },
+      {
+        "word": "metforizar",
+        "english": "to metaphorize",
+        "category": "retórica",
+        "example": "El poeta metforiza la ciudad como un organismo vivo."
+      },
+      {
+        "word": "simbolizar",
+        "english": "to symbolize",
+        "category": "literatura",
+        "example": "El reloj simboliza el paso implacable del tiempo."
+      },
+      {
+        "word": "aludir a",
+        "english": "to allude to",
+        "category": "literatura",
+        "example": "El texto alude a eventos históricos sin nombrarlos directamente."
+      },
+      {
+        "word": "insinuar",
+        "english": "to insinuate",
+        "category": "literatura",
+        "example": "El narrador insinúa la verdad sin revelarla explícitamente."
+      },
+      {
+        "word": "sugerir",
+        "english": "to suggest",
+        "category": "literatura",
+        "example": "La imagen sugiere una lectura simbólica del texto."
+      },
+      {
+        "word": "interpetar",
+        "english": "to interpret",
+        "category": "literatura",
+        "example": "Cada generación interpreta las obras clásicas de manera diferente."
+      },
+      {
+        "word": "deconstruir",
+        "english": "to deconstruct",
+        "category": "literatura",
+        "example": "El autor deconstruye los géneros narrativos tradicionales."
+      },
+      {
+        "word": "subvertir",
+        "english": "to subvert",
+        "category": "literatura",
+        "example": "La novela subvierte las convenciones del género policiaco."
+      },
+      {
+        "word": "parodiar",
+        "english": "to parody",
+        "category": "literatura",
+        "example": "El relato parodia las novelas de caballeros andantes."
+      },
+      {
+        "word": "reinterpretar",
+        "english": "to reinterpret",
+        "category": "literatura",
+        "example": "La obra reinterpreta el mito clásico desde una perspectiva feminista."
+      },
+      {
+        "word": "entrelazar",
+        "english": "to interweave",
+        "category": "literatura",
+        "example": "El autor entrelaza la ficción con datos históricos."
+      },
+      {
+        "word": "superponer",
+        "english": "to superimpose",
+        "category": "literatura",
+        "example": "Las capas de significado se superponen como en un palimpsesto."
+      },
+      {
+        "word": "evocar",
+        "english": "to evoke",
+        "category": "literatura",
+        "example": "El poema evoca la nostalgia de un hogar perdido."
+      },
+      {
+        "word": "capturar",
+        "english": "to capture",
+        "category": "literatura",
+        "example": "La autora captura la esencia de la experiencia migratoria."
+      },
+      {
+        "word": "transmutar",
+        "english": "to transmute",
+        "category": "creatividad",
+        "example": "El artista transmuta el dolor en belleza a través de su obra."
+      }
     ],
     "adjectives": [
-      {"word": "creativo / creativa", "english": "creative", "category": "creatividad", "example": "El ejercicio creativo invitaba a experimentar con formas narrativas."},
-      {"word": "narrativo / narrativa", "english": "narrative", "category": "literatura", "example": "El dispositivo narrativo era innovador."},
-      {"word": "descriptivo / descriptiva", "english": "descriptive", "category": "literatura", "example": "Los pasajes descriptivos son de una belleza extraordinaria."},
-      {"word": "evocador / evocadora", "english": "evocative", "category": "literatura", "example": "Las imágenes evocadoras transportan al lector a otra época."},
-      {"word": "poético / poética", "english": "poetic", "category": "literatura", "example": "El lenguaje poético enriquece la experiencia de lectura."},
-      {"word": "imaginativo / imaginativa", "english": "imaginative", "category": "creatividad", "example": "La propuesta imaginativa sorprendió a todos los jueces."},
-      {"word": "intrincado / intrincada", "english": "intricate", "category": "literatura", "example": "La trama intrincada recompensa la lectura atenta."},
-      {"word": "sutil / sutiles", "english": "subtle", "category": "literatura", "example": "La ironía sutil se revela en la relectura."},
-      {"word": "expresivo / expresiva", "english": "expressive", "category": "literatura", "example": "La prosa expresiva transmite la intensidad emocional."},
-      {"word": "innovador / innovadora", "english": "innovative", "category": "literatura", "example": "El enfoque innovador renovó el género narrativo."},
-      {"word": "fragmentario / fragmentaria", "english": "fragmentary", "category": "literatura", "example": "La estructura fragmentaria refleja la dispersión de la memoria."},
-      {"word": "lírico / lírica", "english": "lyrical", "category": "literatura", "example": "La prosa lírica se acerca a la poesía en su musicalidad."},
-      {"word": "simbólico / simbólica", "english": "symbolic", "category": "literatura", "example": "Cada elemento de la escena tiene un valor simbólico."},
-      {"word": "vanguardista", "english": "avant-garde", "category": "literatura", "example": "La novela vanguardista desafía las expectativas del lector."},
-      {"word": "contemplativo / contemplativa", "english": "contemplative", "category": "literatura", "example": "El tono contemplativo invita a la reflexión profunda."},
-      {"word": "onírico / onírica", "english": "dreamlike", "category": "literatura", "example": "El relato onírico sumerge al lector en un mundo de sueños."},
-      {"word": "reflexivo / reflexiva", "english": "reflective", "category": "literatura", "example": "Los párrafos reflexivos dan ritmo al relato."},
-      {"word": "sensitivo / sensitiva", "english": "sensitive", "category": "literatura", "example": "La mirada sensitiva capta los matices del mundo cotidiano."}
+      {
+        "word": "creativo / creativa",
+        "english": "creative",
+        "category": "creatividad",
+        "example": "El ejercicio creativo invitaba a experimentar con formas narrativas."
+      },
+      {
+        "word": "narrativo / narrativa",
+        "english": "narrative",
+        "category": "literatura",
+        "example": "El dispositivo narrativo era innovador."
+      },
+      {
+        "word": "descriptivo / descriptiva",
+        "english": "descriptive",
+        "category": "literatura",
+        "example": "Los pasajes descriptivos son de una belleza extraordinaria."
+      },
+      {
+        "word": "evocador / evocadora",
+        "english": "evocative",
+        "category": "literatura",
+        "example": "Las imágenes evocadoras transportan al lector a otra época."
+      },
+      {
+        "word": "poético / poética",
+        "english": "poetic",
+        "category": "literatura",
+        "example": "El lenguaje poético enriquece la experiencia de lectura."
+      },
+      {
+        "word": "imaginativo / imaginativa",
+        "english": "imaginative",
+        "category": "creatividad",
+        "example": "La propuesta imaginativa sorprendió a todos los jueces."
+      },
+      {
+        "word": "intrincado / intrincada",
+        "english": "intricate",
+        "category": "literatura",
+        "example": "La trama intrincada recompensa la lectura atenta."
+      },
+      {
+        "word": "sutil / sutiles",
+        "english": "subtle",
+        "category": "literatura",
+        "example": "La ironía sutil se revela en la relectura."
+      },
+      {
+        "word": "expresivo / expresiva",
+        "english": "expressive",
+        "category": "literatura",
+        "example": "La prosa expresiva transmite la intensidad emocional."
+      },
+      {
+        "word": "innovador / innovadora",
+        "english": "innovative",
+        "category": "literatura",
+        "example": "El enfoque innovador renovó el género narrativo."
+      },
+      {
+        "word": "fragmentario / fragmentaria",
+        "english": "fragmentary",
+        "category": "literatura",
+        "example": "La estructura fragmentaria refleja la dispersión de la memoria."
+      },
+      {
+        "word": "lírico / lírica",
+        "english": "lyrical",
+        "category": "literatura",
+        "example": "La prosa lírica se acerca a la poesía en su musicalidad."
+      },
+      {
+        "word": "simbólico / simbólica",
+        "english": "symbolic",
+        "category": "literatura",
+        "example": "Cada elemento de la escena tiene un valor simbólico."
+      },
+      {
+        "word": "vanguardista",
+        "english": "avant-garde",
+        "category": "literatura",
+        "example": "La novela vanguardista desafía las expectativas del lector."
+      },
+      {
+        "word": "contemplativo / contemplativa",
+        "english": "contemplative",
+        "category": "literatura",
+        "example": "El tono contemplativo invita a la reflexión profunda."
+      },
+      {
+        "word": "onírico / onírica",
+        "english": "dreamlike",
+        "category": "literatura",
+        "example": "El relato onírico sumerge al lector en un mundo de sueños."
+      },
+      {
+        "word": "reflexivo / reflexiva",
+        "english": "reflective",
+        "category": "literatura",
+        "example": "Los párrafos reflexivos dan ritmo al relato."
+      },
+      {
+        "word": "sensitivo / sensitiva",
+        "english": "sensitive",
+        "category": "literatura",
+        "example": "La mirada sensitiva capta los matices del mundo cotidiano."
+      },
+      {
+        "word": "retórico / retórica",
+        "english": "rhetorical",
+        "category": "retórica",
+        "example": "El uso retórico del silencio es tan potente como las palabras."
+      },
+      {
+        "word": "simbólico / simbólica",
+        "english": "symbolic",
+        "category": "literatura",
+        "example": "Los gestos simbólicos dominan la escena final."
+      },
+      {
+        "word": "alegórico / alegórica",
+        "english": "allegorical",
+        "category": "literatura",
+        "example": "La historia tiene un lectura alegórica sobre la opresión."
+      },
+      {
+        "word": "surrealista",
+        "english": "surrealist",
+        "category": "literatura",
+        "example": "El relato surrealista desafía la lógica convencional."
+      },
+      {
+        "word": "experimenta / experimental",
+        "english": "experimental",
+        "category": "literatura",
+        "example": "La obra experimental rompe todas las normas del género."
+      },
+      {
+        "word": "contemplativo / contemplativa",
+        "english": "contemplative",
+        "category": "literatura",
+        "example": "El tono contemplativo invita a la meditación."
+      },
+      {
+        "word": "introspectivo / introspectiva",
+        "english": "introspective",
+        "category": "literatura",
+        "example": "La obra introspectiva explora las profundidades del alma humana."
+      },
+      {
+        "word": "onírico / onírica",
+        "english": "dreamlike",
+        "category": "literatura",
+        "example": "La atmósfera onírica envuelve todo el relato."
+      },
+      {
+        "word": "fragmentario / fragmentaria",
+        "english": "fragmentary",
+        "category": "literatura",
+        "example": "El texto fragmentario refleja la naturaleza dispersa de la memoria."
+      },
+      {
+        "word": "lírico / lírica",
+        "english": "lyrical",
+        "category": "literatura",
+        "example": "La prosa lírica del autor recuerda a Juan Ramón Jiménez."
+      },
+      {
+        "word": "minimalista",
+        "english": "minimalist",
+        "category": "literatura",
+        "example": "El estilo minimalista de Hemingway influyó en toda una generación."
+      },
+      {
+        "word": "barroco / barroca",
+        "english": "baroque",
+        "category": "literatura",
+        "example": "La prosa barroca abunda en metáforas complejas y estructuras intrincadas."
+      },
+      {
+        "word": "clasicista",
+        "english": "classicist",
+        "category": "literatura",
+        "example": "El enfoque clasicista prioriza la armonía y el equilibrio."
+      },
+      {
+        "word": "vanguardista",
+        "english": "avant-garde",
+        "category": "literatura",
+        "example": "La revista vanguardista publicaba textos revolucionarios."
+      },
+      {
+        "word": "polifónico",
+        "english": "polyphonic",
+        "category": "literatura",
+        "example": "La novela polifónica presenta múltiples voces sin jerarquía."
+      },
+      {
+        "word": "autoral",
+        "english": "authorial / unique to the author",
+        "category": "literatura",
+        "example": "La voz autoral del escritor es inconfundible."
+      },
+      {
+        "word": "efímero / efímera",
+        "english": "ephemeral",
+        "category": "literatura",
+        "example": "La belleza efímera del momento queda inmortalizada en el poema."
+      },
+      {
+        "word": "perenne",
+        "english": "perennial / enduring",
+        "category": "literatura",
+        "example": "Los temas perennes de la literatura trascienden el tiempo."
+      }
     ],
     "phrases_and_connectors": [
-      {"phrase": "a modo de introducción", "english": "by way of introduction", "category": "narrativa", "example": "A modo de introducción, el autor nos presenta al escenario principal."},
-      {"phrase": "en el transcurso de la narración", "english": "throughout the narrative", "category": "narrativa", "example": "En el transcurso de la narración, el tono cambia radicalmente."},
-      {"phrase": "bajo la superficie del texto", "english": "beneath the surface of the text", "category": "narrativa", "example": "Bajo la superficie del texto se esconde una crítica social."},
-      {"phrase": "en clave de", "english": "in the key of / in terms of", "category": "literatura", "example": "El libro se lee en clave de aventura y descubrimiento."},
-      {"phrase": "a través de los ojos de", "english": "through the eyes of", "category": "narrativa", "example": "La historia se cuenta a través de los ojos de un niño."},
-      {"phrase": "más allá de lo literal", "english": "beyond the literal", "category": "narrativa", "example": "La obra opera más allá de lo literal, en el plano simbólico."},
-      {"phrase": "en un registro de", "english": "in a register of", "category": "literatura", "example": "El narrador adopta un registro de ironía y desdén."},
-      {"phrase": "en un tono que evoca", "english": "in a tone that evokes", "category": "literatura", "example": "El texto adopta un tono que evoca la nostalgia y la pérdida."},
-      {"phrase": "con una prosa que se desliza como", "english": "with prose that flows like", "category": "literatura", "example": "Con una prosa que se desliza como un río, la autora nos lleva por su mundo."},
-      {"phrase": "en el umbral de", "english": "on the threshold of", "category": "literatura", "example": "La novela se sitúa en el umbral entre lo real y lo fantástico."}
+      {
+        "phrase": "a modo de introducción",
+        "english": "by way of introduction",
+        "category": "narrativa",
+        "example": "A modo de introducción, el autor nos presenta al escenario principal."
+      },
+      {
+        "phrase": "en el transcurso de la narración",
+        "english": "throughout the narrative",
+        "category": "narrativa",
+        "example": "En el transcurso de la narración, el tono cambia radicalmente."
+      },
+      {
+        "phrase": "bajo la superficie del texto",
+        "english": "beneath the surface of the text",
+        "category": "narrativa",
+        "example": "Bajo la superficie del texto se esconde una crítica social."
+      },
+      {
+        "phrase": "en clave de",
+        "english": "in the key of / in terms of",
+        "category": "literatura",
+        "example": "El libro se lee en clave de aventura y descubrimiento."
+      },
+      {
+        "phrase": "a través de los ojos de",
+        "english": "through the eyes of",
+        "category": "narrativa",
+        "example": "La historia se cuenta a través de los ojos de un niño."
+      },
+      {
+        "phrase": "más allá de lo literal",
+        "english": "beyond the literal",
+        "category": "narrativa",
+        "example": "La obra opera más allá de lo literal, en el plano simbólico."
+      },
+      {
+        "phrase": "en un registro de",
+        "english": "in a register of",
+        "category": "literatura",
+        "example": "El narrador adopta un registro de ironía y desdén."
+      },
+      {
+        "phrase": "en un tono que evoca",
+        "english": "in a tone that evokes",
+        "category": "literatura",
+        "example": "El texto adopta un tono que evoca la nostalgia y la pérdida."
+      },
+      {
+        "phrase": "con una prosa que se desliza como",
+        "english": "with prose that flows like",
+        "category": "literatura",
+        "example": "Con una prosa que se desliza como un río, la autora nos lleva por su mundo."
+      },
+      {
+        "phrase": "en el umbral de",
+        "english": "on the threshold of",
+        "category": "literatura",
+        "example": "La novela se sitúa en el umbral entre lo real y lo fantástico."
+      },
+      {
+        "phrase": "en el ámbito de",
+        "english": "in the realm of",
+        "category": "literatura",
+        "example": "En el ámbito de la narrativa contemporánea, la frontera entre géneros se difumina."
+      },
+      {
+        "phrase": "desde una perspectiva",
+        "english": "from a perspective",
+        "category": "literatura",
+        "example": "Desde una perspectiva feminista, la obra adquiere nuevas capas de significado."
+      },
+      {
+        "phrase": "en términos de",
+        "english": "in terms of",
+        "category": "literatura",
+        "example": "En términos de innovación formal, la novela es pionera."
+      },
+      {
+        "phrase": "a nivel de",
+        "english": "at the level of",
+        "category": "literatura",
+        "example": "A nivel simbólico, el jardín representa el paraíso perdido."
+      },
+      {
+        "phrase": "en el plano de",
+        "english": "on the plane of",
+        "category": "literatura",
+        "example": "En el plano onírico, los límites de la realidad se disuelven."
+      },
+      {
+        "phrase": "con miras a",
+        "english": "with a view to",
+        "category": "literatura",
+        "example": "El autor escribió la obra con miras a cuestionar las convenciones literarias."
+      },
+      {
+        "phrase": "a tenor de",
+        "english": "in accordance with",
+        "category": "literatura",
+        "example": "A tenor de la crítica recibida, el libro se ha convertido en un clásico."
+      },
+      {
+        "phrase": "por vía de",
+        "english": "by way of",
+        "category": "literatura",
+        "example": "La autora recurre por vía de la alegoría para criticar la sociedad."
+      },
+      {
+        "phrase": "en el orden de",
+        "english": "in the order of",
+        "category": "literatura",
+        "example": "En el orden narrativo, los hechos se presentan de forma cronológica."
+      },
+      {
+        "phrase": "a ras de",
+        "english": "at ground level / in close-up",
+        "category": "literatura",
+        "example": "A ras de suelo, la ciudad se presenta como un laberinto de contrastes."
+      }
     ]
   },
   "grammar": [
@@ -196,11 +1239,26 @@
       "instructions": "Asocia cada término narrativo con su definición correcta.",
       "instructions_en": "Match each narrative term with its correct definition.",
       "items": [
-        {"term": "el estilo indirecto libre", "definition": "Técnica narrativa que fusiona la voz del narrador con los pensamientos del personaje sin marcas de citado"},
-        {"term": "el foreshadowing", "definition": "Técnica que prepara al lector para eventos futuros mediante pistas sutiles"},
-        {"term": "la ironía dramática", "definition": "Situación en la que el público conoce información que los personajes ignoran"},
-        {"term": "el monólogo interior", "definition": "Técnica que reproduce el flujo de pensamientos de un personaje"},
-        {"term": "el realismo mágico", "definition": "Género que presenta eventos sobrenaturales como parte de la vida cotidiana"}
+        {
+          "term": "el estilo indirecto libre",
+          "definition": "Técnica narrativa que fusiona la voz del narrador con los pensamientos del personaje sin marcas de citado"
+        },
+        {
+          "term": "el foreshadowing",
+          "definition": "Técnica que prepara al lector para eventos futuros mediante pistas sutiles"
+        },
+        {
+          "term": "la ironía dramática",
+          "definition": "Situación en la que el público conoce información que los personajes ignoran"
+        },
+        {
+          "term": "el monólogo interior",
+          "definition": "Técnica que reproduce el flujo de pensamientos de un personaje"
+        },
+        {
+          "term": "el realismo mágico",
+          "definition": "Género que presenta eventos sobrenaturales como parte de la vida cotidiana"
+        }
       ]
     },
     {
@@ -211,11 +1269,26 @@
       "instructions": "Completa las oraciones con el conector narrativo adecuado: De pronto, Mientras tanto, A medida que, Para entonces, No bien.",
       "instructions_en": "Complete the sentences with the appropriate narrative connector.",
       "items": [
-        {"sentence": "______, la puerta se abrió sin que nadie la empujara.", "answer": "De pronto"},
-        {"sentence": "______, en el jardín, las flores se mecían con la brisa.", "answer": "Mientras tanto"},
-        {"sentence": "______ avanzaba por el bosque, los sonidos se volvían más intensos.", "answer": "A medida que"},
-        {"sentence": "______, ya no quedaba duda de lo que había sucedido.", "answer": "Para entonces"},
-        {"sentence": "______ cruzó el umbral, supo que no volvería atrás.", "answer": "No bien"}
+        {
+          "sentence": "______, la puerta se abrió sin que nadie la empujara.",
+          "answer": "De pronto"
+        },
+        {
+          "sentence": "______, en el jardín, las flores se mecían con la brisa.",
+          "answer": "Mientras tanto"
+        },
+        {
+          "sentence": "______ avanzaba por el bosque, los sonidos se volvían más intensos.",
+          "answer": "A medida que"
+        },
+        {
+          "sentence": "______, ya no quedaba duda de lo que había sucedido.",
+          "answer": "Para entonces"
+        },
+        {
+          "sentence": "______ cruzó el umbral, supo que no volvería atrás.",
+          "answer": "No bien"
+        }
       ]
     },
     {
@@ -226,7 +1299,10 @@
       "instructions": "Escribe un párrafo (80-120 palabras) describiendo una escena retrospectiva usando el pluscuamperfecto de indicativo y al menos tres conectores narrativos.",
       "instructions_en": "Write a paragraph (80-120 words) describing a retrospective scene using the past perfect indicative and at least three narrative connectors.",
       "items": [
-        {"prompt": "Describe un momento en que un personaje regresa a un lugar que ya no reconoce.", "expected_guidance": "Usa había + participio (había cambiado, había desaparecido, había sido) y conectores como mientras tanto, para entonces, a medida que."}
+        {
+          "prompt": "Describe un momento en que un personaje regresa a un lugar que ya no reconoce.",
+          "expected_guidance": "Usa había + participio (había cambiado, había desaparecido, había sido) y conectores como mientras tanto, para entonces, a medida que."
+        }
       ]
     }
   ]

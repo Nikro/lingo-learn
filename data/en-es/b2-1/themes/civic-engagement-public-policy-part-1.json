@@ -12,72 +12,744 @@
   "vocabulary": {
     "total_count": 60,
     "nouns": [
-      {"word": "la participación ciudadana", "english": "civic participation", "category": "gobernanza", "example": "La participación ciudadana fortalece la democracia local."},
-      {"word": "la política pública", "english": "public policy", "category": "gobierno", "example": "La política pública de vivienda requiere coordinación entre niveles de gobierno."},
-      {"word": "la gobernanza", "english": "governance", "category": "gobierno", "example": "La buena gobernanza es esencial para el desarrollo sostenible."},
-      {"word": "la democracia participativa", "english": "participatory democracy", "category": "gobernanza", "example": "La democracia participativa permite a los ciudadanos influir directamente en las decisiones."},
-      {"word": "el presupuesto participativo", "english": "participatory budget", "category": "gobernanza", "example": "El presupuesto participativo asigna recursos según las prioridades ciudadanas."},
-      {"word": "la administración pública", "english": "public administration", "category": "gobierno", "example": "La reforma de la administración pública mejoró la eficiencia del servicio."},
-      {"word": "el bien común", "english": "common good", "category": "sociedad", "example": "Toda decisión de política debe priorizar el bien común."},
-      {"word": "el interés público", "english": "public interest", "category": "sociedad", "example": "La transparencia es fundamental para el interés público."},
-      {"word": "la opinión pública", "english": "public opinion", "category": "sociedad", "example": "La opinión pública influye en las decisiones legislativas."},
-      {"word": "el debate parlamentario", "english": "parliamentary debate", "category": "gobierno", "example": "El debate parlamentario sobre la reforma educativa duró tres días."},
-      {"word": "la legislación", "english": "legislation", "category": "gobierno", "example": "La nueva legislación protege los derechos de los consumidores."},
-      {"word": "el reglamento", "english": "regulation", "category": "gobierno", "example": "El reglamento municipal establece normas para el uso del espacio público."},
-      {"word": "el parlamento / las cortes", "english": "parliament / congress", "category": "gobierno", "example": "El parlamento aprobó la ley con una mayoría calificada."},
-      {"word": "la cámara baja / alta", "english": "lower / upper house", "category": "gobierno", "example": "La cámara alta revisó el proyecto de ley antes de la votación final."},
-      {"word": "la iniciativa popular", "english": "popular initiative", "category": "gobernanza", "example": "La iniciativa popular permitió recoger firmas para un referéndum."},
-      {"word": "el referéndum", "english": "referendum", "category": "gobernanza", "example": "El referéndum sobre la autonomía regional tuvo una participación del 72%."},
-      {"word": "la consulta ciudadana", "english": "citizen consultation", "category": "gobernanza", "example": "La consulta ciudadana fue el primer paso de la reforma urbanística."},
-      {"word": "la movilización social", "english": "social mobilization", "category": "sociedad", "example": "La movilización social logró cambios en la política ambiental."},
-      {"word": "el movimiento social", "english": "social movement", "category": "sociedad", "example": "El movimiento social por la justicia climática ganó reconocimiento internacional."},
-      {"word": "la protesta pacífica", "english": "peaceful protest", "category": "sociedad", "example": "La protesta pacífica fue un derecho fundamental reconocido por la Constitución."},
-      {"word": "la ONG / la organización no gubernamental", "english": "NGO / non-governmental organization", "category": "sociedad", "example": "La ONG trabaja en la defensa de los derechos humanos."},
-      {"word": "la sociedad civil", "english": "civil society", "category": "sociedad", "example": "La sociedad civil juega un rol clave en la vigilancia del gobierno."},
-      {"word": "el voluntariado", "english": "volunteer work", "category": "sociedad", "example": "El voluntariado comunitario fortalece los lazos vecinales."},
-      {"word": "la asociación vecinal", "english": "neighborhood association", "category": "sociedad", "example": "La asociación vecinal organizó una jornada de limpieza del parque."},
-      {"word": "la autoridad local", "english": "local authority", "category": "gobierno", "example": "La autoridad local es responsable de los servicios básicos del municipio."}
+      {
+        "word": "la participación ciudadana",
+        "english": "civic participation",
+        "category": "gobernanza",
+        "example": "La participación ciudadana fortalece la democracia local."
+      },
+      {
+        "word": "la política pública",
+        "english": "public policy",
+        "category": "gobierno",
+        "example": "La política pública de vivienda requiere coordinación entre niveles de gobierno."
+      },
+      {
+        "word": "la gobernanza",
+        "english": "governance",
+        "category": "gobierno",
+        "example": "La buena gobernanza es esencial para el desarrollo sostenible."
+      },
+      {
+        "word": "la democracia participativa",
+        "english": "participatory democracy",
+        "category": "gobernanza",
+        "example": "La democracia participativa permite a los ciudadanos influir directamente en las decisiones."
+      },
+      {
+        "word": "el presupuesto participativo",
+        "english": "participatory budget",
+        "category": "gobernanza",
+        "example": "El presupuesto participativo asigna recursos según las prioridades ciudadanas."
+      },
+      {
+        "word": "la administración pública",
+        "english": "public administration",
+        "category": "gobierno",
+        "example": "La reforma de la administración pública mejoró la eficiencia del servicio."
+      },
+      {
+        "word": "el bien común",
+        "english": "common good",
+        "category": "sociedad",
+        "example": "Toda decisión de política debe priorizar el bien común."
+      },
+      {
+        "word": "el interés público",
+        "english": "public interest",
+        "category": "sociedad",
+        "example": "La transparencia es fundamental para el interés público."
+      },
+      {
+        "word": "la opinión pública",
+        "english": "public opinion",
+        "category": "sociedad",
+        "example": "La opinión pública influye en las decisiones legislativas."
+      },
+      {
+        "word": "el debate parlamentario",
+        "english": "parliamentary debate",
+        "category": "gobierno",
+        "example": "El debate parlamentario sobre la reforma educativa duró tres días."
+      },
+      {
+        "word": "la legislación",
+        "english": "legislation",
+        "category": "gobierno",
+        "example": "La nueva legislación protege los derechos de los consumidores."
+      },
+      {
+        "word": "el reglamento",
+        "english": "regulation",
+        "category": "gobierno",
+        "example": "El reglamento municipal establece normas para el uso del espacio público."
+      },
+      {
+        "word": "el parlamento / las cortes",
+        "english": "parliament / congress",
+        "category": "gobierno",
+        "example": "El parlamento aprobó la ley con una mayoría calificada."
+      },
+      {
+        "word": "la cámara baja / alta",
+        "english": "lower / upper house",
+        "category": "gobierno",
+        "example": "La cámara alta revisó el proyecto de ley antes de la votación final."
+      },
+      {
+        "word": "la iniciativa popular",
+        "english": "popular initiative",
+        "category": "gobernanza",
+        "example": "La iniciativa popular permitió recoger firmas para un referéndum."
+      },
+      {
+        "word": "el referéndum",
+        "english": "referendum",
+        "category": "gobernanza",
+        "example": "El referéndum sobre la autonomía regional tuvo una participación del 72%."
+      },
+      {
+        "word": "la consulta ciudadana",
+        "english": "citizen consultation",
+        "category": "gobernanza",
+        "example": "La consulta ciudadana fue el primer paso de la reforma urbanística."
+      },
+      {
+        "word": "la movilización social",
+        "english": "social mobilization",
+        "category": "sociedad",
+        "example": "La movilización social logró cambios en la política ambiental."
+      },
+      {
+        "word": "el movimiento social",
+        "english": "social movement",
+        "category": "sociedad",
+        "example": "El movimiento social por la justicia climática ganó reconocimiento internacional."
+      },
+      {
+        "word": "la protesta pacífica",
+        "english": "peaceful protest",
+        "category": "sociedad",
+        "example": "La protesta pacífica fue un derecho fundamental reconocido por la Constitución."
+      },
+      {
+        "word": "la ONG / la organización no gubernamental",
+        "english": "NGO / non-governmental organization",
+        "category": "sociedad",
+        "example": "La ONG trabaja en la defensa de los derechos humanos."
+      },
+      {
+        "word": "la sociedad civil",
+        "english": "civil society",
+        "category": "sociedad",
+        "example": "La sociedad civil juega un rol clave en la vigilancia del gobierno."
+      },
+      {
+        "word": "el voluntariado",
+        "english": "volunteer work",
+        "category": "sociedad",
+        "example": "El voluntariado comunitario fortalece los lazos vecinales."
+      },
+      {
+        "word": "la asociación vecinal",
+        "english": "neighborhood association",
+        "category": "sociedad",
+        "example": "La asociación vecinal organizó una jornada de limpieza del parque."
+      },
+      {
+        "word": "la autoridad local",
+        "english": "local authority",
+        "category": "gobierno",
+        "example": "La autoridad local es responsable de los servicios básicos del municipio."
+      },
+      {
+        "word": "el diputado / la diputada",
+        "english": "member of parliament / representative",
+        "category": "gobierno",
+        "example": "La diputada presentó una enmienda al proyecto de ley de vivienda."
+      },
+      {
+        "word": "el senador / la senadora",
+        "english": "senator",
+        "category": "gobierno",
+        "example": "El senador defendió la postura del partido durante el debate."
+      },
+      {
+        "word": "el alcalde / la alcaldesa",
+        "english": "mayor",
+        "category": "gobierno",
+        "example": "La alcaldesa inauguró el nuevo centro comunitario."
+      },
+      {
+        "word": "el concejal / la concejala",
+        "english": "city councilor",
+        "category": "gobierno",
+        "example": "Los concejales votaron a favor de la nueva ordenanza."
+      },
+      {
+        "word": "el ministerio",
+        "english": "ministry",
+        "category": "gobierno",
+        "example": "El Ministerio de Educación anunció nuevas medidas."
+      },
+      {
+        "word": "el departamento",
+        "english": "department",
+        "category": "gobierno",
+        "example": "El departamento de urbanismo aprobó el plan general."
+      },
+      {
+        "word": "la agencia gubernamental",
+        "english": "government agency",
+        "category": "gobierno",
+        "example": "La agencia reguladora supervisa el sector energético."
+      },
+      {
+        "word": "la junta electoral",
+        "english": "election board",
+        "category": "gobernanza",
+        "example": "La junta electoral certificó los resultados de las elecciones."
+      },
+      {
+        "word": "el cabildo abierto",
+        "english": "open town hall",
+        "category": "gobernanza",
+        "example": "El cabildo abierto fue convocado para debatir el plan urbanístico."
+      },
+      {
+        "word": "el cabildo municipal",
+        "english": "city council",
+        "category": "gobierno",
+        "example": "El cabildo municipal aprobó el presupuesto anual."
+      },
+      {
+        "word": "la alcaldía",
+        "english": "mayor's office / city hall",
+        "category": "gobierno",
+        "example": "La alcaldía presentó el plan de movilidad sostenible."
+      },
+      {
+        "word": "la concejalía",
+        "english": "city council department",
+        "category": "gobierno",
+        "example": "La concejalía de Medio Ambiente lanzó una campaña de reciclaje."
+      },
+      {
+        "word": "la corporación local",
+        "english": "local government body",
+        "category": "gobierno",
+        "example": "La corporación local coordinó la respuesta ante la emergencia."
+      },
+      {
+        "word": "el órgano de participación",
+        "english": "participatory body",
+        "category": "gobernanza",
+        "example": "El órgano de participación reunió a representantes de la comunidad."
+      },
+      {
+        "word": "la asamblea ciudadana",
+        "english": "citizen assembly",
+        "category": "gobernanza",
+        "example": "La asamblea ciudadana formuló recomendaciones sobre la política de vivienda."
+      },
+      {
+        "word": "el consejo consultivo",
+        "english": "advisory council",
+        "category": "gobierno",
+        "example": "El consejo consultivo emitió un dictamen favorable."
+      },
+      {
+        "word": "el síndico de agravios",
+        "english": "ombudsman",
+        "category": "gobierno",
+        "example": "El síndico de agravios investigó las quejas de los ciudadanos."
+      },
+      {
+        "word": "la veeduría ciudadana",
+        "english": "citizen oversight board",
+        "category": "gobernanza",
+        "example": "La veeduría ciudadana monitoreó la ejecución del proyecto."
+      },
+      {
+        "word": "el comité de ética",
+        "english": "ethics committee",
+        "category": "gobierno",
+        "example": "El comité de ética evaluó la conducta de los funcionarios."
+      },
+      {
+        "word": "el fondo social",
+        "english": "social fund",
+        "category": "sociedad",
+        "example": "El fondo social financia proyectos comunitarios en barrios desfavorecidos."
+      },
+      {
+        "word": "la subvención",
+        "english": "subsidy / grant",
+        "category": "gobierno",
+        "example": "La subvención permitió que la ONG ampliara sus programas."
+      },
+      {
+        "word": "el impuesto",
+        "english": "tax",
+        "category": "gobierno",
+        "example": "El impuesto sobre la renta financia los servicios públicos."
+      },
+      {
+        "word": "la recaudación fiscal",
+        "english": "tax collection",
+        "category": "gobierno",
+        "example": "La recaudación fiscal aumentó un 5% respecto al año anterior."
+      },
+      {
+        "word": "el déficit presupuestario",
+        "english": "budget deficit",
+        "category": "gobierno",
+        "example": "El déficit presupuestario obligó a recortar gastos."
+      },
+      {
+        "word": "la deuda pública",
+        "english": "public debt",
+        "category": "gobierno",
+        "example": "La deuda pública del país aumentó durante la crisis económica."
+      }
     ],
     "verbs": [
-      {"word": "participar", "english": "to participate", "category": "gobernanza", "example": "Los ciudadanos deben participar activamente en las decisiones del municipio."},
-      {"word": "debatir", "english": "to debate", "category": "gobierno", "example": "El consejo municipal debatió la propuesta durante dos horas."},
-      {"word": "proponer", "english": "to propose", "category": "gobierno", "example": "Los ciudadanos propusieron alternativas para el transporte público."},
-      {"word": "argumentar", "english": "to argue", "category": "sociedad", "example": "Es necesario argumentar con datos sólidos en un debate de política."},
-      {"word": "legislar", "english": "to legislate", "category": "gobierno", "example": "El parlamento tiene la responsabilidad de legislar en materia de salud."},
-      {"word": "votar", "english": "to vote", "category": "gobernanza", "example": "Los ciudadanos votaron a favor de la nueva ley de vivienda."},
-      {"word": "manifestarse", "english": "to demonstrate / protest", "category": "sociedad", "example": "Miles de personas se manifestaron por las calles exigiendo cambios."},
-      {"word": "fiscalizar", "english": "to oversee / monitor", "category": "gobierno", "example": "Los ciudadanos deben fiscalizar el uso de los fondos públicos."},
-      {"word": "consultar", "english": "to consult", "category": "gobernanza", "example": "El gobierno consultó a la población antes de tomar la decisión."},
-      {"word": "impulsar", "english": "to promote / drive", "category": "gobierno", "example": "La alcaldesa impulsó una campaña de reciclaje a nivel municipal."},
-      {"word": "reformar", "english": "to reform", "category": "gobierno", "example": "Es necesario reformar el sistema de educación pública."},
-      {"word": "promover", "english": "to promote", "category": "sociedad", "example": "La ONG promueve la participación juvenil en la política local."},
-      {"word": "exigir", "english": "to demand", "category": "sociedad", "example": "Los ciudadanos exigen mayor transparencia en la gestión pública."},
-      {"word": "deliberar", "english": "to deliberate", "category": "gobierno", "example": "El comité deliberó sobre las posibles alternativas de la política."},
-      {"word": "cooperar", "english": "to cooperate", "category": "gobernanza", "example": "Los municipios deben cooperar para resolver problemas transfronterizos."}
+      {
+        "word": "participar",
+        "english": "to participate",
+        "category": "gobernanza",
+        "example": "Los ciudadanos deben participar activamente en las decisiones del municipio."
+      },
+      {
+        "word": "debatir",
+        "english": "to debate",
+        "category": "gobierno",
+        "example": "El consejo municipal debatió la propuesta durante dos horas."
+      },
+      {
+        "word": "proponer",
+        "english": "to propose",
+        "category": "gobierno",
+        "example": "Los ciudadanos propusieron alternativas para el transporte público."
+      },
+      {
+        "word": "argumentar",
+        "english": "to argue",
+        "category": "sociedad",
+        "example": "Es necesario argumentar con datos sólidos en un debate de política."
+      },
+      {
+        "word": "legislar",
+        "english": "to legislate",
+        "category": "gobierno",
+        "example": "El parlamento tiene la responsabilidad de legislar en materia de salud."
+      },
+      {
+        "word": "votar",
+        "english": "to vote",
+        "category": "gobernanza",
+        "example": "Los ciudadanos votaron a favor de la nueva ley de vivienda."
+      },
+      {
+        "word": "manifestarse",
+        "english": "to demonstrate / protest",
+        "category": "sociedad",
+        "example": "Miles de personas se manifestaron por las calles exigiendo cambios."
+      },
+      {
+        "word": "fiscalizar",
+        "english": "to oversee / monitor",
+        "category": "gobierno",
+        "example": "Los ciudadanos deben fiscalizar el uso de los fondos públicos."
+      },
+      {
+        "word": "consultar",
+        "english": "to consult",
+        "category": "gobernanza",
+        "example": "El gobierno consultó a la población antes de tomar la decisión."
+      },
+      {
+        "word": "impulsar",
+        "english": "to promote / drive",
+        "category": "gobierno",
+        "example": "La alcaldesa impulsó una campaña de reciclaje a nivel municipal."
+      },
+      {
+        "word": "reformar",
+        "english": "to reform",
+        "category": "gobierno",
+        "example": "Es necesario reformar el sistema de educación pública."
+      },
+      {
+        "word": "promover",
+        "english": "to promote",
+        "category": "sociedad",
+        "example": "La ONG promueve la participación juvenil en la política local."
+      },
+      {
+        "word": "exigir",
+        "english": "to demand",
+        "category": "sociedad",
+        "example": "Los ciudadanos exigen mayor transparencia en la gestión pública."
+      },
+      {
+        "word": "deliberar",
+        "english": "to deliberate",
+        "category": "gobierno",
+        "example": "El comité deliberó sobre las posibles alternativas de la política."
+      },
+      {
+        "word": "cooperar",
+        "english": "to cooperate",
+        "category": "gobernanza",
+        "example": "Los municipios deben cooperar para resolver problemas transfronterizos."
+      },
+      {
+        "word": "votar",
+        "english": "to vote",
+        "category": "gobernanza",
+        "example": "Los ciudadanos votaron por mayoría en el referéndum."
+      },
+      {
+        "word": "candidatar",
+        "english": "to run for office",
+        "category": "gobernanza",
+        "example": "La candidata se presentó a las elecciones municipales."
+      },
+      {
+        "word": "gobernar",
+        "english": "to govern",
+        "category": "gobierno",
+        "example": "Gobernar requiere equilibrio entre diferentes intereses."
+      },
+      {
+        "word": "administrar",
+        "english": "to administer",
+        "category": "gobierno",
+        "example": "La nueva administración administró los recursos con eficiencia."
+      },
+      {
+        "word": "delegar",
+        "english": "to delegate",
+        "category": "gobierno",
+        "example": "El alcalde delegó competencias en los concejales."
+      },
+      {
+        "word": "rendir cuentas",
+        "english": "to account for / report",
+        "category": "gobierno",
+        "example": "Los funcionarios deben rendir cuentas sobre el uso de los fondos."
+      },
+      {
+        "word": "impugnar",
+        "english": "to challenge / contest",
+        "category": "gobierno",
+        "example": "La oposición impugnó la constitucionalidad de la ley."
+      },
+      {
+        "word": "aplicar",
+        "english": "to apply / implement",
+        "category": "gobierno",
+        "example": "Es necesario aplicar las nuevas normas de forma uniforme."
+      },
+      {
+        "word": "suplir",
+        "english": "to supplement / fill in",
+        "category": "gobierno",
+        "example": "La comunidad debe suplir las carencias del servicio público."
+      },
+      {
+        "word": "abogar por",
+        "english": "to advocate for",
+        "category": "sociedad",
+        "example": "Las ONG abogan por una política social más inclusiva."
+      },
+      {
+        "word": "denunciar",
+        "english": "to denounce / report",
+        "category": "sociedad",
+        "example": "Los ciudadanos denunciaron irregularidades en la contratación pública."
+      },
+      {
+        "word": "proponer",
+        "english": "to propose",
+        "category": "gobierno",
+        "example": "La asociación propuso mejoras para el transporte público."
+      },
+      {
+        "word": "convocar",
+        "english": "to call / convene",
+        "category": "gobernanza",
+        "example": "La alcaldesa convocó una reunión extraordinaria del consejo."
+      },
+      {
+        "word": "ratificar",
+        "english": "to ratify",
+        "category": "gobierno",
+        "example": "El parlamento ratificó el acuerdo internacional sobre el clima."
+      },
+      {
+        "word": "derogar",
+        "english": "to repeal",
+        "category": "gobierno",
+        "example": "La oposición presentó una moción para derogar la ley de vivienda."
+      }
     ],
     "adjectives": [
-      {"word": "participativo / participativa", "english": "participatory", "category": "gobernanza", "example": "El proceso participativo incluyó a más de mil ciudadanos."},
-      {"word": "transparente", "english": "transparent", "category": "gobierno", "example": "La transparencia en la gestión pública es un derecho de los ciudadanos."},
-      {"word": "legítimo / legítima", "english": "legitimate", "category": "gobierno", "example": "El gobierno legítimo debe representar la voluntad popular."},
-      {"word": "inclusivo / inclusiva", "english": "inclusive", "category": "sociedad", "example": "La política pública debe ser inclusiva con todos los grupos."},
-      {"word": "eficaz / eficaz", "english": "effective", "category": "gobierno", "example": "Se necesitan políticas más eficaces para combatir la pobreza."},
-      {"word": "eficiente", "english": "efficient", "category": "gobierno", "example": "La administración pública necesita ser más eficiente con los recursos."},
-      {"word": "democrático / democrática", "english": "democratic", "category": "gobernanza", "example": "El proceso democrático garantiza la participación de todos."},
-      {"word": "responsable", "english": "responsible", "category": "sociedad", "example": "Los ciudadanos responsables participan en las elecciones."},
-      {"word": "objetivo / objetiva", "english": "objective", "category": "sociedad", "example": "El informe debe mantenerse objetivo y basado en evidencia."},
-      {"word": "controversial", "english": "controversial", "category": "sociedad", "example": "La reforma fiscal es un tema muy controversial en el parlamento."}
+      {
+        "word": "participativo / participativa",
+        "english": "participatory",
+        "category": "gobernanza",
+        "example": "El proceso participativo incluyó a más de mil ciudadanos."
+      },
+      {
+        "word": "transparente",
+        "english": "transparent",
+        "category": "gobierno",
+        "example": "La transparencia en la gestión pública es un derecho de los ciudadanos."
+      },
+      {
+        "word": "legítimo / legítima",
+        "english": "legitimate",
+        "category": "gobierno",
+        "example": "El gobierno legítimo debe representar la voluntad popular."
+      },
+      {
+        "word": "inclusivo / inclusiva",
+        "english": "inclusive",
+        "category": "sociedad",
+        "example": "La política pública debe ser inclusiva con todos los grupos."
+      },
+      {
+        "word": "eficaz / eficaz",
+        "english": "effective",
+        "category": "gobierno",
+        "example": "Se necesitan políticas más eficaces para combatir la pobreza."
+      },
+      {
+        "word": "eficiente",
+        "english": "efficient",
+        "category": "gobierno",
+        "example": "La administración pública necesita ser más eficiente con los recursos."
+      },
+      {
+        "word": "democrático / democrática",
+        "english": "democratic",
+        "category": "gobernanza",
+        "example": "El proceso democrático garantiza la participación de todos."
+      },
+      {
+        "word": "responsable",
+        "english": "responsible",
+        "category": "sociedad",
+        "example": "Los ciudadanos responsables participan en las elecciones."
+      },
+      {
+        "word": "objetivo / objetiva",
+        "english": "objective",
+        "category": "sociedad",
+        "example": "El informe debe mantenerse objetivo y basado en evidencia."
+      },
+      {
+        "word": "controversial",
+        "english": "controversial",
+        "category": "sociedad",
+        "example": "La reforma fiscal es un tema muy controversial en el parlamento."
+      },
+      {
+        "word": "constitucional / constitucional",
+        "english": "constitutional",
+        "category": "gobierno",
+        "example": "El Tribunal Constitucional declaró la ley inconstitucional."
+      },
+      {
+        "word": "electoral",
+        "english": "electoral",
+        "category": "gobernanza",
+        "example": "La campaña electoral fue muy intensa en las redes sociales."
+      },
+      {
+        "word": "legislativo / legislativa",
+        "english": "legislative",
+        "category": "gobierno",
+        "example": "La sesión legislativa duró toda la tarde."
+      },
+      {
+        "word": "ejecutivo / ejecutiva",
+        "english": "executive",
+        "category": "gobierno",
+        "example": "El poder ejecutivo presentó el presupuesto anual."
+      },
+      {
+        "word": "judicial",
+        "english": "judicial",
+        "category": "gobierno",
+        "example": "El poder judicial es independiente del ejecutivo."
+      },
+      {
+        "word": "autónomo / autónoma",
+        "english": "autonomous",
+        "category": "gobierno",
+        "example": "La comunidad autónoma tiene competencias en educación."
+      },
+      {
+        "word": "descentralizado / descentralizada",
+        "english": "decentralized",
+        "category": "gobierno",
+        "example": "El proceso descentralizado acerca la administración a los ciudadanos."
+      },
+      {
+        "word": "corrupto / corrupta",
+        "english": "corrupt",
+        "category": "gobierno",
+        "example": "El escándalo corrupto sacudió la confianza pública."
+      },
+      {
+        "word": "transparente",
+        "english": "transparent",
+        "category": "gobierno",
+        "example": "La gestión transparente fortalece la democracia."
+      },
+      {
+        "word": "participativo / participativa",
+        "english": "participatory",
+        "category": "gobernanza",
+        "example": "El modelo participativo integra a la comunidad en la toma de decisiones."
+      },
+      {
+        "word": "rendidor / rendidora",
+        "english": "accountable",
+        "category": "gobierno",
+        "example": "La administración rendidora responde ante la ciudadanía."
+      },
+      {
+        "word": "eficaz / eficaz",
+        "english": "effective",
+        "category": "gobierno",
+        "example": "Las políticas eficaces requieren planificación a largo plazo."
+      }
     ],
     "phrases_and_connectors": [
-      {"phrase": "en materia de", "english": "in the matter of / regarding", "category": "gobierno", "example": "En materia de educación, es necesaria una reforma profunda."},
-      {"phrase": "en beneficio de", "english": "for the benefit of", "category": "sociedad", "example": "La nueva ley fue aprobada en beneficio de los trabajadores."},
-      {"phrase": "en contra de", "english": "against", "category": "sociedad", "example": "Muchos ciudadanos se manifestaron en contra de la reforma."},
-      {"phrase": "a favor de", "english": "in favor of", "category": "sociedad", "example": "El partido presentó una moción a favor de la transparencia."},
-      {"phrase": "desde la perspectiva ciudadana", "english": "from the citizen's perspective", "category": "sociedad", "example": "Desde la perspectiva ciudadana, la reforma mejora el acceso a los servicios."},
-      {"phrase": "en el ámbito local", "english": "at the local level", "category": "gobierno", "example": "Las soluciones deben implementarse en el ámbito local."},
-      {"phrase": "a nivel nacional", "english": "at the national level", "category": "gobierno", "example": "La política de vivienda se está debatido a nivel nacional."},
-      {"phrase": "en aras de", "english": "in the interest of", "category": "sociedad", "example": "Se tomaron medidas en aras de la seguridad pública."},
-      {"phrase": "teniendo en cuenta que", "english": "considering that / bearing in mind", "category": "conectores", "example": "Teniendo en cuenta que la población aumenta, es necesario invertir en infraestructura."},
-      {"phrase": "aunque sea necesario", "english": "even if it is necessary", "category": "conectores", "example": "La reforma avanzará, aunque sea necesario hacer ajustes."}
+      {
+        "phrase": "en materia de",
+        "english": "in the matter of / regarding",
+        "category": "gobierno",
+        "example": "En materia de educación, es necesaria una reforma profunda."
+      },
+      {
+        "phrase": "en beneficio de",
+        "english": "for the benefit of",
+        "category": "sociedad",
+        "example": "La nueva ley fue aprobada en beneficio de los trabajadores."
+      },
+      {
+        "phrase": "en contra de",
+        "english": "against",
+        "category": "sociedad",
+        "example": "Muchos ciudadanos se manifestaron en contra de la reforma."
+      },
+      {
+        "phrase": "a favor de",
+        "english": "in favor of",
+        "category": "sociedad",
+        "example": "El partido presentó una moción a favor de la transparencia."
+      },
+      {
+        "phrase": "desde la perspectiva ciudadana",
+        "english": "from the citizen's perspective",
+        "category": "sociedad",
+        "example": "Desde la perspectiva ciudadana, la reforma mejora el acceso a los servicios."
+      },
+      {
+        "phrase": "en el ámbito local",
+        "english": "at the local level",
+        "category": "gobierno",
+        "example": "Las soluciones deben implementarse en el ámbito local."
+      },
+      {
+        "phrase": "a nivel nacional",
+        "english": "at the national level",
+        "category": "gobierno",
+        "example": "La política de vivienda se está debatido a nivel nacional."
+      },
+      {
+        "phrase": "en aras de",
+        "english": "in the interest of",
+        "category": "sociedad",
+        "example": "Se tomaron medidas en aras de la seguridad pública."
+      },
+      {
+        "phrase": "teniendo en cuenta que",
+        "english": "considering that / bearing in mind",
+        "category": "conectores",
+        "example": "Teniendo en cuenta que la población aumenta, es necesario invertir en infraestructura."
+      },
+      {
+        "phrase": "aunque sea necesario",
+        "english": "even if it is necessary",
+        "category": "conectores",
+        "example": "La reforma avanzará, aunque sea necesario hacer ajustes."
+      },
+      {
+        "phrase": "en el ejercicio de",
+        "english": "in the exercise of",
+        "category": "gobierno",
+        "example": "En el ejercicio de su mandato, el diputado presentó una enmienda."
+      },
+      {
+        "phrase": "en virtud de",
+        "english": "by virtue of",
+        "category": "gobierno",
+        "example": "En virtud de la Constitución, el rey es el jefe del Estado."
+      },
+      {
+        "phrase": "en caso de que",
+        "english": "in case that / if",
+        "category": "conectores",
+        "example": "En caso de que no se apruebe la ley, habrá que buscar otra vía."
+      },
+      {
+        "phrase": "por cuanto",
+        "english": "since / given that",
+        "category": "conectores",
+        "example": "La propuesta fue retirada, por cuanto no reunía los requisitos."
+      },
+      {
+        "phrase": "sin perjuicio de",
+        "english": "without prejudice to",
+        "category": "gobierno",
+        "example": "Se aprobaron las enmiendas, sin perjuicio del informe del comité."
+      },
+      {
+        "phrase": "de acuerdo con",
+        "english": "in accordance with",
+        "category": "gobierno",
+        "example": "El procedimiento se realizó de acuerdo con la legislación vigente."
+      },
+      {
+        "phrase": "a tenor de",
+        "english": "in light of / according to",
+        "category": "gobierno",
+        "example": "A tenor de los resultados, se propone una modificación de la ley."
+      },
+      {
+        "phrase": "bajo la responsabilidad de",
+        "english": "under the responsibility of",
+        "category": "gobierno",
+        "example": "La ejecución del proyecto quedó bajo la responsabilidad del departamento."
+      },
+      {
+        "phrase": "en cumplimiento de",
+        "english": "in compliance with",
+        "category": "gobierno",
+        "example": "En cumplimiento de la ley, se publicó el acta en el diario oficial."
+      },
+      {
+        "phrase": "a sabiendas de que",
+        "english": "knowing that",
+        "category": "conectores",
+        "example": "A sabiendas de que los fondos son limitados, se priorizó la inversión social."
+      }
     ]
   },
   "grammar": [
@@ -152,11 +824,26 @@
       "instructions": "Asocia cada término cívico con su definición correcta.",
       "instructions_en": "Match each civic term with its correct definition.",
       "items": [
-        {"term": "el presupuesto participativo", "definition": "Mecanismo de democracia directa donde los ciudadanos deciden cómo gastar parte del presupuesto público"},
-        {"term": "la iniciativa popular", "definition": "Derecho de los ciudadanos de proponer leyes mediante la recolección de firmas"},
-        {"term": "la sociedad civil", "definition": "Conjunto de organizaciones y ciudadanos que operan fuera del gobierno"},
-        {"term": "la fiscalización", "definition": "Supervisión y control del uso de los recursos públicos"},
-        {"term": "el referéndum", "definition": "Votación directa de la población sobre un tema específico"}
+        {
+          "term": "el presupuesto participativo",
+          "definition": "Mecanismo de democracia directa donde los ciudadanos deciden cómo gastar parte del presupuesto público"
+        },
+        {
+          "term": "la iniciativa popular",
+          "definition": "Derecho de los ciudadanos de proponer leyes mediante la recolección de firmas"
+        },
+        {
+          "term": "la sociedad civil",
+          "definition": "Conjunto de organizaciones y ciudadanos que operan fuera del gobierno"
+        },
+        {
+          "term": "la fiscalización",
+          "definition": "Supervisión y control del uso de los recursos públicos"
+        },
+        {
+          "term": "el referéndum",
+          "definition": "Votación directa de la población sobre un tema específico"
+        }
       ]
     },
     {
@@ -167,10 +854,22 @@
       "instructions": "Completa las oraciones con el conector adecuado: aunque, a pesar de que, si bien, no obstante.",
       "instructions_en": "Complete the sentences with the appropriate connector.",
       "items": [
-        {"sentence": "______ la reforma es necesaria, muchos ciudadanos temen sus efectos.", "answer": "Aunque"},
-        {"sentence": "______ hubo consenso, la votación fue muy reñida.", "answer": "A pesar de que"},
-        {"sentence": "______ los datos son positivos, aún queda mucho por hacer.", "answer": "Si bien"},
-        {"sentence": "El proyecto fue aprobado; ______, se hicieron modificaciones importantes.", "answer": "No obstante"}
+        {
+          "sentence": "______ la reforma es necesaria, muchos ciudadanos temen sus efectos.",
+          "answer": "Aunque"
+        },
+        {
+          "sentence": "______ hubo consenso, la votación fue muy reñida.",
+          "answer": "A pesar de que"
+        },
+        {
+          "sentence": "______ los datos son positivos, aún queda mucho por hacer.",
+          "answer": "Si bien"
+        },
+        {
+          "sentence": "El proyecto fue aprobado; ______, se hicieron modificaciones importantes.",
+          "answer": "No obstante"
+        }
       ]
     },
     {
@@ -181,10 +880,20 @@
       "instructions": "Traduce al español las siguientes opiniones sobre políticas públicas.",
       "instructions_en": "Translate the following opinions on public policy into Spanish.",
       "items": [
-        {"english": "I am in favor of policies that promote equal opportunity.", "expected": "Estoy a favor de las políticas que promueven la igualdad de oportunidades."},
-        {"english": "In my opinion, citizen participation should be expanded to more levels of government.", "expected": "En mi opinión, la participación ciudadana debe ampliarse a más niveles de gobierno."},
-        {"english": "Even though the reform is necessary, it must be implemented gradually.", "expected": "Aunque la reforma es necesaria, debe implementarse gradualmente."}
+        {
+          "english": "I am in favor of policies that promote equal opportunity.",
+          "expected": "Estoy a favor de las políticas que promueven la igualdad de oportunidades."
+        },
+        {
+          "english": "In my opinion, citizen participation should be expanded to more levels of government.",
+          "expected": "En mi opinión, la participación ciudadana debe ampliarse a más niveles de gobierno."
+        },
+        {
+          "english": "Even though the reform is necessary, it must be implemented gradually.",
+          "expected": "Aunque la reforma es necesaria, debe implementarse gradualmente."
+        }
       ]
     }
-  ]
+  ],
+  "part": 1
 }

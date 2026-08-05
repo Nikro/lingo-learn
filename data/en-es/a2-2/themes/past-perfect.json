@@ -3,50 +3,755 @@
   "title": "Past Perfect (Pluscuamperfecto)",
   "description": "Describe actions that happened before another past action using había + past participle.",
   "vocabulary": [
-    { "id": 1, "target": "ya", "source": "already", "gender": "—", "type": "adverb" },
-    { "id": 2, "target": "aún no", "source": "not yet", "gender": "—", "type": "adverb" },
-    { "id": 3, "target": "recién", "source": "just / newly", "gender": "—", "type": "adverb" },
-    { "id": 4, "target": "nunca", "source": "never", "gender": "—", "type": "adverb" },
-    { "id": 5, "target": "cuando llegué", "source": "when I arrived", "gender": "—", "type": "phrase" },
-    { "id": 6, "target": "la película", "source": "the movie", "gender": "f.", "type": "noun" },
-    { "id": 7, "target": "el cine", "source": "the cinema", "gender": "m.", "type": "noun" },
-    { "id": 8, "target": "había empezado", "source": "had started", "gender": "v.", "type": "verb" },
-    { "id": 9, "target": "los platos", "source": "the dishes", "gender": "m.", "type": "noun" },
-    { "id": 10, "target": "había lavado", "source": "had washed", "gender": "v.", "type": "verb" },
-    { "id": 11, "target": "la tarea", "source": "the homework", "gender": "f.", "type": "noun" },
-    { "id": 12, "target": "había terminado", "source": "had finished", "gender": "v.", "type": "verb" },
-    { "id": 13, "target": "algo tan bonito", "source": "something so beautiful", "gender": "—", "type": "phrase" },
-    { "id": 14, "target": "antes", "source": "before", "gender": "—", "type": "adverb" },
-    { "id": 15, "target": "después", "source": "after", "gender": "—", "type": "adverb" },
-    { "id": 16, "target": "mientras", "source": "while", "gender": "—", "type": "conjunction" },
-    { "id": 17, "target": "estudiaba", "source": "I was studying", "gender": "v.", "type": "verb" },
-    { "id": 18, "target": "mi hermano", "source": "my brother", "gender": "m.", "type": "phrase" },
-    { "id": 19, "target": "se habían ido", "source": "they had left", "gender": "v.", "type": "verb" },
-    { "id": 20, "target": "llegaste", "source": "you arrived", "gender": "v.", "type": "verb" },
-    { "id": 21, "target": "hablar", "source": "to speak", "gender": "v.", "type": "verb" },
-    { "id": 22, "target": "comer", "source": "to eat", "gender": "v.", "type": "verb" },
-    { "id": 23, "target": "vivir", "source": "to live", "gender": "v.", "type": "verb" },
-    { "id": 24, "target": "hacer", "source": "to do / to make", "gender": "v.", "type": "verb" },
-    { "id": 25, "target": "decir", "source": "to say / to tell", "gender": "v.", "type": "verb" },
-    { "id": 26, "target": "escribir", "source": "to write", "gender": "v.", "type": "verb" },
-    { "id": 27, "target": "ver", "source": "to see", "gender": "v.", "type": "verb" },
-    { "id": 28, "target": "abrir", "source": "to open", "gender": "v.", "type": "verb" },
-    { "id": 29, "target": "romper", "source": "to break", "gender": "v.", "type": "verb" },
-    { "id": 30, "target": "volver", "source": "to return", "gender": "v.", "type": "verb" }
+    {
+      "id": 1,
+      "target": "ya",
+      "source": "already",
+      "gender": "—",
+      "type": "adverb"
+    },
+    {
+      "id": 2,
+      "target": "aún no",
+      "source": "not yet",
+      "gender": "—",
+      "type": "adverb"
+    },
+    {
+      "id": 3,
+      "target": "recién",
+      "source": "just / newly",
+      "gender": "—",
+      "type": "adverb"
+    },
+    {
+      "id": 4,
+      "target": "nunca",
+      "source": "never",
+      "gender": "—",
+      "type": "adverb"
+    },
+    {
+      "id": 5,
+      "target": "cuando llegué",
+      "source": "when I arrived",
+      "gender": "—",
+      "type": "phrase"
+    },
+    {
+      "id": 6,
+      "target": "la película",
+      "source": "the movie",
+      "gender": "f.",
+      "type": "noun"
+    },
+    {
+      "id": 7,
+      "target": "el cine",
+      "source": "the cinema",
+      "gender": "m.",
+      "type": "noun"
+    },
+    {
+      "id": 8,
+      "target": "había empezado",
+      "source": "had started",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 9,
+      "target": "los platos",
+      "source": "the dishes",
+      "gender": "m.",
+      "type": "noun"
+    },
+    {
+      "id": 10,
+      "target": "había lavado",
+      "source": "had washed",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 11,
+      "target": "la tarea",
+      "source": "the homework",
+      "gender": "f.",
+      "type": "noun"
+    },
+    {
+      "id": 12,
+      "target": "había terminado",
+      "source": "had finished",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 13,
+      "target": "algo tan bonito",
+      "source": "something so beautiful",
+      "gender": "—",
+      "type": "phrase"
+    },
+    {
+      "id": 14,
+      "target": "antes",
+      "source": "before",
+      "gender": "—",
+      "type": "adverb"
+    },
+    {
+      "id": 15,
+      "target": "después",
+      "source": "after",
+      "gender": "—",
+      "type": "adverb"
+    },
+    {
+      "id": 16,
+      "target": "mientras",
+      "source": "while",
+      "gender": "—",
+      "type": "conjunction"
+    },
+    {
+      "id": 17,
+      "target": "estudiaba",
+      "source": "I was studying",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 18,
+      "target": "mi hermano",
+      "source": "my brother",
+      "gender": "m.",
+      "type": "phrase"
+    },
+    {
+      "id": 19,
+      "target": "se habían ido",
+      "source": "they had left",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 20,
+      "target": "llegaste",
+      "source": "you arrived",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 21,
+      "target": "hablar",
+      "source": "to speak",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 22,
+      "target": "comer",
+      "source": "to eat",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 23,
+      "target": "vivir",
+      "source": "to live",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 24,
+      "target": "hacer",
+      "source": "to do / to make",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 25,
+      "target": "decir",
+      "source": "to say / to tell",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 26,
+      "target": "escribir",
+      "source": "to write",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 27,
+      "target": "ver",
+      "source": "to see",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 28,
+      "target": "abrir",
+      "source": "to open",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 29,
+      "target": "romper",
+      "source": "to break",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 30,
+      "target": "volver",
+      "source": "to return",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 31,
+      "target": "hubieran",
+      "source": "they had (subj)",
+      "gender": "v",
+      "type": "verb"
+    },
+    {
+      "id": 32,
+      "target": "hablado",
+      "source": "spoken",
+      "gender": "adj",
+      "type": "participle"
+    },
+    {
+      "id": 33,
+      "target": "comido",
+      "source": "eaten",
+      "gender": "adj",
+      "type": "participle"
+    },
+    {
+      "id": 34,
+      "target": "vivido",
+      "source": "lived",
+      "gender": "adj",
+      "type": "participle"
+    },
+    {
+      "id": 35,
+      "target": "ido",
+      "source": "gone",
+      "gender": "adj",
+      "type": "participle"
+    },
+    {
+      "id": 36,
+      "target": "tenido",
+      "source": "had",
+      "gender": "adj",
+      "type": "participle"
+    },
+    {
+      "id": 37,
+      "target": "hecho",
+      "source": "done/made",
+      "gender": "adj",
+      "type": "participle"
+    },
+    {
+      "id": 38,
+      "target": "dicho",
+      "source": "said",
+      "gender": "adj",
+      "type": "participle"
+    },
+    {
+      "id": 39,
+      "target": "visto",
+      "source": "seen",
+      "gender": "adj",
+      "type": "participle"
+    },
+    {
+      "id": 40,
+      "target": "escrito",
+      "source": "written",
+      "gender": "adj",
+      "type": "participle"
+    },
+    {
+      "id": 41,
+      "target": "leido",
+      "source": "read",
+      "gender": "adj",
+      "type": "participle"
+    },
+    {
+      "id": 42,
+      "target": "trabajado",
+      "source": "worked",
+      "gender": "adj",
+      "type": "participle"
+    },
+    {
+      "id": 43,
+      "target": "estudiado",
+      "source": "studied",
+      "gender": "adj",
+      "type": "participle"
+    },
+    {
+      "id": 44,
+      "target": "comprado",
+      "source": "bought",
+      "gender": "adj",
+      "type": "participle"
+    },
+    {
+      "id": 45,
+      "target": "vendido",
+      "source": "sold",
+      "gender": "adj",
+      "type": "participle"
+    },
+    {
+      "id": 46,
+      "target": "querido",
+      "source": "wanted/loved",
+      "gender": "adj",
+      "type": "participle"
+    },
+    {
+      "id": 47,
+      "target": "podido",
+      "source": "been able",
+      "gender": "adj",
+      "type": "participle"
+    },
+    {
+      "id": 48,
+      "target": "sabido",
+      "source": "known",
+      "gender": "adj",
+      "type": "participle"
+    },
+    {
+      "id": 49,
+      "target": "venido",
+      "source": "come",
+      "gender": "adj",
+      "type": "participle"
+    },
+    {
+      "id": 50,
+      "target": "puesto",
+      "source": "put",
+      "gender": "adj",
+      "type": "participle"
+    },
+    {
+      "id": 51,
+      "target": "roto",
+      "source": "broken",
+      "gender": "adj",
+      "type": "participle"
+    },
+    {
+      "id": 52,
+      "target": "muerto",
+      "source": "dead",
+      "gender": "adj",
+      "type": "participle"
+    },
+    {
+      "id": 53,
+      "target": "abierto",
+      "source": "opened",
+      "gender": "adj",
+      "type": "participle"
+    },
+    {
+      "id": 54,
+      "target": "cubierto",
+      "source": "covered",
+      "gender": "adj",
+      "type": "participle"
+    },
+    {
+      "id": 55,
+      "target": "descubierto",
+      "source": "discovered",
+      "gender": "adj",
+      "type": "participle"
+    },
+    {
+      "id": 56,
+      "target": "escrito",
+      "source": "written",
+      "gender": "adj",
+      "type": "participle"
+    },
+    {
+      "id": 57,
+      "target": "impreso",
+      "source": "printed",
+      "gender": "adj",
+      "type": "participle"
+    },
+    {
+      "id": 58,
+      "target": "hecho",
+      "source": "made",
+      "gender": "adj",
+      "type": "participle"
+    },
+    {
+      "id": 59,
+      "target": "abierto",
+      "source": "open",
+      "gender": "adj",
+      "type": "participle"
+    },
+    {
+      "id": 60,
+      "target": "cerrado",
+      "source": "closed",
+      "gender": "adj",
+      "type": "participle"
+    },
+    {
+      "id": 61,
+      "target": "terminado",
+      "source": "finished",
+      "gender": "adj",
+      "type": "participle"
+    },
+    {
+      "id": 62,
+      "target": "empezado",
+      "source": "started",
+      "gender": "adj",
+      "type": "participle"
+    },
+    {
+      "id": 63,
+      "target": "perdido",
+      "source": "lost",
+      "gender": "adj",
+      "type": "participle"
+    },
+    {
+      "id": 64,
+      "target": "encontrado",
+      "source": "found",
+      "gender": "adj",
+      "type": "participle"
+    },
+    {
+      "id": 65,
+      "target": "llamado",
+      "source": "called",
+      "gender": "adj",
+      "type": "participle"
+    },
+    {
+      "id": 66,
+      "target": "dado",
+      "source": "given",
+      "gender": "adj",
+      "type": "participle"
+    },
+    {
+      "id": 67,
+      "target": "mostrado",
+      "source": "shown",
+      "gender": "adj",
+      "type": "participle"
+    },
+    {
+      "id": 68,
+      "target": "llevado",
+      "source": "carried/taken",
+      "gender": "adj",
+      "type": "participle"
+    },
+    {
+      "id": 69,
+      "target": "traido",
+      "source": "brought",
+      "gender": "adj",
+      "type": "participle"
+    },
+    {
+      "id": 70,
+      "target": "vivido",
+      "source": "lived",
+      "gender": "adj",
+      "type": "participle"
+    },
+    {
+      "id": 71,
+      "target": "estado",
+      "source": "been",
+      "gender": "adj",
+      "type": "participle"
+    },
+    {
+      "id": 72,
+      "target": "ido",
+      "source": "gone",
+      "gender": "adj",
+      "type": "participle"
+    },
+    {
+      "id": 73,
+      "target": "sido",
+      "source": "been",
+      "gender": "adj",
+      "type": "participle"
+    },
+    {
+      "id": 74,
+      "target": "estado",
+      "source": "been",
+      "gender": "adj",
+      "type": "participle"
+    },
+    {
+      "id": 75,
+      "target": "llegado",
+      "source": "arrived",
+      "gender": "adj",
+      "type": "participle"
+    },
+    {
+      "id": 76,
+      "target": "salido",
+      "source": "left",
+      "gender": "adj",
+      "type": "participle"
+    },
+    {
+      "id": 77,
+      "target": "quedado",
+      "source": "stayed",
+      "gender": "adj",
+      "type": "participle"
+    },
+    {
+      "id": 78,
+      "target": "pasado",
+      "source": "passed/happened",
+      "gender": "adj",
+      "type": "participle"
+    },
+    {
+      "id": 79,
+      "target": "ocurrido",
+      "source": "occurred",
+      "gender": "adj",
+      "type": "participle"
+    },
+    {
+      "id": 80,
+      "target": "sufrido",
+      "source": "suffered",
+      "gender": "adj",
+      "type": "participle"
+    },
+    {
+      "id": 81,
+      "target": "decidido",
+      "source": "decided",
+      "gender": "adj",
+      "type": "participle"
+    },
+    {
+      "id": 82,
+      "target": "intentado",
+      "source": "attempted",
+      "gender": "adj",
+      "type": "participle"
+    },
+    {
+      "id": 83,
+      "target": "conseguido",
+      "source": "achieved",
+      "gender": "adj",
+      "type": "participle"
+    },
+    {
+      "id": 84,
+      "target": "necesitado",
+      "source": "needed",
+      "gender": "adj",
+      "type": "participle"
+    },
+    {
+      "id": 85,
+      "target": "preferido",
+      "source": "preferred",
+      "gender": "adj",
+      "type": "participle"
+    },
+    {
+      "id": 86,
+      "target": "servido",
+      "source": "served",
+      "gender": "adj",
+      "type": "participle"
+    },
+    {
+      "id": 87,
+      "target": "cocinado",
+      "source": "cooked",
+      "gender": "adj",
+      "type": "participle"
+    },
+    {
+      "id": 88,
+      "target": "lavado",
+      "source": "washed",
+      "gender": "adj",
+      "type": "participle"
+    },
+    {
+      "id": 89,
+      "target": "bailado",
+      "source": "danced",
+      "gender": "adj",
+      "type": "participle"
+    },
+    {
+      "id": 90,
+      "target": "caminado",
+      "source": "walked",
+      "gender": "adj",
+      "type": "participle"
+    },
+    {
+      "id": 91,
+      "target": "viajado",
+      "source": "traveled",
+      "gender": "adj",
+      "type": "participle"
+    },
+    {
+      "id": 92,
+      "target": "celebrado",
+      "source": "celebrated",
+      "gender": "adj",
+      "type": "participle"
+    },
+    {
+      "id": 93,
+      "target": "resuelto",
+      "source": "solved",
+      "gender": "adj",
+      "type": "participle"
+    },
+    {
+      "id": 94,
+      "target": "desarrollado",
+      "source": "developed",
+      "gender": "adj",
+      "type": "participle"
+    },
+    {
+      "id": 95,
+      "target": "producido",
+      "source": "produced",
+      "gender": "adj",
+      "type": "participle"
+    },
+    {
+      "id": 96,
+      "target": "introducido",
+      "source": "introduced",
+      "gender": "adj",
+      "type": "participle"
+    },
+    {
+      "id": 97,
+      "target": "construido",
+      "source": "built",
+      "gender": "adj",
+      "type": "participle"
+    },
+    {
+      "id": 98,
+      "target": "destruido",
+      "source": "destroyed",
+      "gender": "adj",
+      "type": "participle"
+    },
+    {
+      "id": 99,
+      "target": "traducido",
+      "source": "translated",
+      "gender": "adj",
+      "type": "participle"
+    },
+    {
+      "id": 100,
+      "target": "reducido",
+      "source": "reduced",
+      "gender": "adj",
+      "type": "participle"
+    }
   ],
   "grammar": [
     {
       "title": "Past Perfect (Pretérito Pluscuamperfecto)",
       "content": "The past perfect describes an action that happened BEFORE another past action. It's the 'past of the past.' You form it using the IMPERFECT of HABER + a past participle.\n\nImperfect of HABER:\n- yo: había\n- tú: habías\n- él/ella/usted: había\n- nosotros: habíamos\n- vosotros: habíais\n- ellos/ellas/ustedes: habían\n\nPast participles:\n- -AR → -ado (hablado)\n- -ER → -ido (comido)\n- -IR → -ido (vivido)\n- Irregulars: hacer→hecho, decir→dicho, escribir→escrito, ver→visto, abrir→abierto, romper→roto, volver→vuelto, cubrir→cubierto",
       "table": {
-        "headers": ["Pronoun", "HABER (imperfect)", "Ejemplo (-ado)", "Ejemplo (-ido)"],
+        "headers": [
+          "Pronoun",
+          "HABER (imperfect)",
+          "Ejemplo (-ado)",
+          "Ejemplo (-ido)"
+        ],
         "rows": [
-          ["yo", "había", "había hablado", "había comido"],
-          ["tú", "habías", "habías hablado", "habías comido"],
-          ["él/ella/usted", "había", "había hablado", "había comido"],
-          ["nosotros", "habíamos", "habíamos hablado", "habíamos comido"],
-          ["vosotros", "habíais", "habíais hablado", "habíais comido"],
-          ["ellos/ellas/ustedes", "habían", "habían hablado", "habían comido"]
+          [
+            "yo",
+            "había",
+            "había hablado",
+            "había comido"
+          ],
+          [
+            "tú",
+            "habías",
+            "habías hablado",
+            "habías comido"
+          ],
+          [
+            "él/ella/usted",
+            "había",
+            "había hablado",
+            "había comido"
+          ],
+          [
+            "nosotros",
+            "habíamos",
+            "habíamos hablado",
+            "habíamos comido"
+          ],
+          [
+            "vosotros",
+            "habíais",
+            "habíais hablado",
+            "habíais comido"
+          ],
+          [
+            "ellos/ellas/ustedes",
+            "habían",
+            "habían hablado",
+            "habían comido"
+          ]
         ]
       },
       "examples": [
@@ -56,6 +761,36 @@
         "Ellos se habían ido antes de que yo llegara. (They had left before I arrived.)"
       ],
       "aid_note": "Romanian uses a similar structure: 'avusese' (had) + past participle. The Romanian past perfect (mai mult ca perfectul) is more complex with its own set of endings, but the concept is identical. The Spanish 'había + participle' is much simpler to conjugate."
+    },
+    {
+      "title": "Present Perfect",
+      "content": "Present Perfect = haber (present) + past participle\n\nFormation:\nHe hablado (I have spoken)\nHas comido (You have eaten)\nHa vivido (He/She has lived)\nHemos terminado (We have finished)\nHan llegado (They have arrived)\n\nPast participles:\n-AR verbs → -ado (hablado, comido, vivido)\n-ER/-IR verbs → -ido (tenido, hecho, dicho)\n\nIrregular past participles:\nhacer → hecho\ndecir → dicho\nver → visto\nescribir → escrito\nleer → leido\nabrir → abierto\ncerrar → cerrado\nromper → roto\nmorir → muerto\nponer → puesto\nvolver → vuelto\nresolver → resuelto\ncubrir → cubierto\ndescubrir → descubierto\nimprimir → impreso\n\nUses:\n1. Actions that happened at an unspecified time:\nHe estado en Espana tres veces. (I have been in Spain three times.)\n\n2. Actions that started in the past and continue to present:\nHe vivido aqui desde 2010. (I have lived here since 2010.)\n\n3. Actions just completed:\nAcabo de llegar. (I have just arrived.)",
+      "examples": [
+        "He terminado la tarea. (I have finished the homework.)",
+        "Hemos comido en ese restaurante antes. (We have eaten at that restaurant before.)",
+        "Nunca he ido a Mexico. (I have never been to Mexico.)",
+        "Ya he leido el libro. (I have already read the book.)"
+      ]
+    },
+    {
+      "title": "Past Perfect and Future Perfect",
+      "content": "PAST PERFECT (Pluscuamperfecto):\nHaber (imperfect) + past participle\n\nHabia hablado (I had spoken)\nHabias comido (You had eaten)\nHabia vivido (He/She had lived)\nHabianos terminado (We had finished)\nHabian llegado (They had arrived)\n\nUses: An action that happened BEFORE another past action:\nCuando llegue, el ya se habia ido. (When I arrived, he had already left.)\n\nFUTURE PERFECT:\nHabra + past participle\n\nHabre terminado para manana. (I will have finished by tomorrow.)\nPara 2030, habre viajado por 50 paises. (By 2030, I will have traveled to 50 countries.)\n\nCONDITIONAL PERFECT:\nHabria + past participle\n\nHabria venido si me hubieras avisado. (I would have come if you had warned me.)",
+      "examples": [
+        "Cuando llegue, ella ya habia salido. (When I arrived, she had already left.)",
+        "Si hubiera estudiado, habria aprobado. (If I had studied, I would have passed.)",
+        "Para el ano que viene, habre aprendido espanol. (By next year, I will have learned Spanish.)",
+        "Habria venido si me hubieras invitado. (I would have come if you had invited me.)"
+      ]
+    },
+    {
+      "title": "Subjunctive in Compound Tenses",
+      "content": "PRESENT PERFECT SUBJUNCTIVE:\nHaya + past participle\n\nHaya hablado (I have spoken)\nHayas comido (You have eaten)\nHaya vivido (He/She has lived)\nHayamos terminado (We have finished)\nHayan llegado (They have arrived)\n\nUses: After expressions of doubt/will in present:\nDudo que haya llegado. (I doubt he has arrived.)\nEspero que hayas terminado. (I hope you have finished.)\n\nPAST PERFECT SUBJUNCTIVE:\nHubiera/Hubiese + past participle\n\nUses: Unreal past conditions/wishes:\nSi hubiera sabido, te hubiera avisado. (If I had known, I would have warned you.)\nOjalia hubiera estudiado mas. (I wish I had studied more.)\n\nSequence of tenses with subjunctive:\nMAIN CLAUSE → SUBJUNCTIVE CLAUSE\nPresent/Future → Present Perfect\nPast → Past Perfect\n\nEspero que hayas venido (present/future main)\nEsperaba que hubieras venido (past main)",
+      "examples": [
+        "Dudo que haya terminado. (I doubt he has finished.)",
+        "Es probable que haya llovido. (It's probable that it has rained.)",
+        "Si hubiera llegado a tiempo, me hubiera tocado. (If I had arrived on time, it would have been my turn.)",
+        "No crei que hubieras hecho la tarea. (I didn't think you had done the homework.)"
+      ]
     }
   ],
   "pronunciation": [
@@ -63,10 +798,22 @@
       "title": "Stress in Past Perfect Forms",
       "content": "The imperfect of haber carries stress on the second-to-last syllable:\n\n- había (ha-BÍ-a) — stress on the í\n- habías (ha-BÍ-as) — stress on the í\n- había (ha-BÍ-a) — stress on the í\n- habíamos (ha-bí-A-mos) — stress on the á\n- habíais (ha-bí-A-is) — stress on the á\n- habían (ha-BÍ-an) — stress on the í\n\nThe accent marks on había/habías/habían show where the stress falls. The nosotros and vosotros forms have no accent because the stress falls naturally on the second-to-last syllable.",
       "examples": [
-        { "target": "había", "source": "ha-BÍ-a (3 syllables)" },
-        { "target": "habíamos", "source": "ha-bí-A-mos (stress on á)" },
-        { "target": "habían comido", "source": "ha-BÍ-an co-MÍ-do" },
-        { "target": "había empezado", "source": "ha-BÍ-a e-mpé-Za-do" }
+        {
+          "target": "había",
+          "source": "ha-BÍ-a (3 syllables)"
+        },
+        {
+          "target": "habíamos",
+          "source": "ha-bí-A-mos (stress on á)"
+        },
+        {
+          "target": "habían comido",
+          "source": "ha-BÍ-an co-MÍ-do"
+        },
+        {
+          "target": "había empezado",
+          "source": "ha-BÍ-a e-mpé-Za-do"
+        }
       ],
       "aid_note": "Romanian stress patterns are similar — the auxiliary 'avuse' carries stress on the last syllable, but the concept of marking stress with accent marks is the same in both languages."
     }
@@ -75,7 +822,12 @@
     {
       "type": "exercise",
       "question": "The past perfect is formed with:",
-      "options": ["estar + past participle", "haber (imperfect) + past participle", "haber (present) + past participle", "tener + past participle"],
+      "options": [
+        "estar + past participle",
+        "haber (imperfect) + past participle",
+        "haber (present) + past participle",
+        "tener + past participle"
+      ],
       "correct": 1,
       "explanation": "The past perfect uses the IMPERFECT of haber (había, habías, había...) + past participle (hablado, comido, vivido)."
     },
@@ -88,7 +840,12 @@
     {
       "type": "exercise",
       "question": "What is the past participle of 'hacer'?",
-      "options": ["hacido", "hecho", "hacado", "hacio"],
+      "options": [
+        "hacido",
+        "hecho",
+        "hacado",
+        "hacio"
+      ],
       "correct": 1,
       "explanation": "'Hecho' is the irregular past participle of hacer. Used in past perfect: había hecho."
     },
@@ -107,7 +864,12 @@
     {
       "type": "exercise",
       "question": "What is the past participle of 'decir'?",
-      "options": ["decido", "dicho", "decado", "decio"],
+      "options": [
+        "decido",
+        "dicho",
+        "decado",
+        "decio"
+      ],
       "correct": 1,
       "explanation": "'Dicho' is the irregular past participle of decir. Used in past perfect: había dicho (had said)."
     }

@@ -3,5 +3,50 @@
   "title": "B1.2",
   "description": "Stage b1-2 content.",
   "estimated_weeks": 6,
-  "themes": []
+  "themes": [
+    {
+      "id": "academic-research",
+      "title": "Academic Research",
+      "description": "Conduct and discuss academic research in Spanish. Learn to describe research methods, write thesis statements, use citations and references, and participate in academic discourse. This theme equips you with the formal language needed for university-level writing and presentations in Spanish."
+    },
+    {
+      "id": "advanced-argumentation",
+      "title": "Advanced Argumentation",
+      "description": "Master the art of debate and persuasion in Spanish. Learn to construct logical arguments, present counterarguments, use rhetorical devices, and engage in sophisticated discussions on complex topics. This theme equips you with the language tools needed for formal debate, persuasive writing, and nuanced opinion expression."
+    },
+    {
+      "id": "economic-analysis",
+      "title": "Economic Analysis",
+      "description": "Analyze and discuss economic phenomena in Spanish. Learn to describe economic theories, interpret market data, make financial forecasts, and debate economic policies. This theme equips you with the formal language needed for economics discussions in professional and academic settings."
+    },
+    {
+      "id": "literary-analysis",
+      "title": "Literary Analysis",
+      "description": "Read and discuss literary texts in Spanish. Learn literary analysis terminology, interpret meaning and authorial intent, identify genres and narrative techniques, and express informed opinions about literature. This theme equips you to engage with novels, short stories, poetry, and theater in Spanish."
+    },
+    {
+      "id": "media-literacy",
+      "title": "Media Literacy",
+      "description": "Analyze and critically evaluate media content in Spanish — news, social media, advertising, and digital communication. Learn to detect fake news, evaluate sources, understand media bias, and navigate the digital information landscape with ethical awareness. This theme equips you to be an informed, critical consumer of media in Spanish."
+    },
+    {
+      "id": "political-discourse",
+      "title": "Political Discourse",
+      "description": "Navigate political analysis, policy debate, and international relations in Spanish. Learn the language of governance, diplomacy, and civic participation. This theme equips you to discuss political systems, evaluate policies, and engage with international affairs in Spanish."
+    },
+    {
+      "id": "professional-negotiation-part-1",
+      "title": "Professional Negotiation (Part 1)"
+    },
+    {
+      "id": "scientific-communication",
+      "title": "Scientific Communication",
+      "description": "Communicate scientific concepts in Spanish. Learn to describe research processes, present data findings, write about scientific topics, and discuss research with precision. This theme covers the language of science from laboratory to publication."
+    },
+    {
+      "id": "social-commentary",
+      "title": "Social Commentary",
+      "description": "Discuss and critique social issues in Spanish. Learn vocabulary related to inequality, justice, human rights, and activism. Develop the ability to express opinions on social topics, analyze causes and effects, and propose solutions. This theme equips you to engage thoughtfully with current social debates."
+    }
+  ]
 }

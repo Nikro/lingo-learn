@@ -3,63 +3,279 @@
   "title": "Preterite — Irregular Verbs",
   "description": "Learn the high-frequency irregular preterite verbs: ESTAR, IR, HACER, TENER, and DECIR.",
   "vocabulary": [
-    { "id": 1, "target": "ir", "source": "to go", "gender": "v.", "type": "verb" },
-    { "id": 2, "target": "estar", "source": "to be (temporary)", "gender": "v.", "type": "verb" },
-    { "id": 3, "target": "hacer", "source": "to do / to make", "gender": "v.", "type": "verb" },
-    { "id": 4, "target": "tener", "source": "to have", "gender": "v.", "type": "verb" },
-    { "id": 5, "target": "decir", "source": "to say / to tell", "gender": "v.", "type": "verb" },
-    { "id": 6, "target": "poner", "source": "to put", "gender": "v.", "type": "verb" },
-    { "id": 7, "target": "salir", "source": "to leave / to go out", "gender": "v.", "type": "verb" },
-    { "id": 8, "target": "venir", "source": "to come", "gender": "v.", "type": "verb" },
-    { "id": 9, "target": "saber", "source": "to know (facts)", "gender": "v.", "type": "verb" },
-    { "id": 10, "target": "querer", "source": "to want / to love", "gender": "v.", "type": "verb" },
-    { "id": 11, "target": "dormir", "source": "to sleep", "gender": "v.", "type": "verb" },
-    { "id": 12, "target": "poder", "source": "to be able to / can", "gender": "v.", "type": "verb" },
-    { "id": 13, "target": "el año pasado", "source": "last year", "gender": "m.", "type": "time" },
-    { "id": 14, "target": "hace una semana", "source": "a week ago", "gender": "—", "type": "time" },
-    { "id": 15, "target": "la semana pasada", "source": "last week", "gender": "—", "type": "time" },
-    { "id": 16, "target": "la noche anterior", "source": "the previous night", "gender": "f.", "type": "time" },
-    { "id": 17, "target": "ayer por la noche", "source": "last night", "gender": "—", "type": "time" },
-    { "id": 18, "target": "el fin de semana pasado", "source": "last weekend", "gender": "m.", "type": "time" },
-    { "id": 19, "target": "hace un mes", "source": "a month ago", "gender": "—", "type": "time" },
-    { "id": 20, "target": "en ese momento", "source": "at that moment", "gender": "—", "type": "time" }
+    {
+      "id": 1,
+      "target": "ir",
+      "source": "to go",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 2,
+      "target": "estar",
+      "source": "to be (temporary)",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 3,
+      "target": "hacer",
+      "source": "to do / to make",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 4,
+      "target": "tener",
+      "source": "to have",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 5,
+      "target": "decir",
+      "source": "to say / to tell",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 6,
+      "target": "poner",
+      "source": "to put",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 7,
+      "target": "salir",
+      "source": "to leave / to go out",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 8,
+      "target": "venir",
+      "source": "to come",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 9,
+      "target": "saber",
+      "source": "to know (facts)",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 10,
+      "target": "querer",
+      "source": "to want / to love",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 11,
+      "target": "dormir",
+      "source": "to sleep",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 12,
+      "target": "poder",
+      "source": "to be able to / can",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 13,
+      "target": "el año pasado",
+      "source": "last year",
+      "gender": "m.",
+      "type": "time"
+    },
+    {
+      "id": 14,
+      "target": "hace una semana",
+      "source": "a week ago",
+      "gender": "—",
+      "type": "time"
+    },
+    {
+      "id": 15,
+      "target": "la semana pasada",
+      "source": "last week",
+      "gender": "—",
+      "type": "time"
+    },
+    {
+      "id": 16,
+      "target": "la noche anterior",
+      "source": "the previous night",
+      "gender": "f.",
+      "type": "time"
+    },
+    {
+      "id": 17,
+      "target": "ayer por la noche",
+      "source": "last night",
+      "gender": "—",
+      "type": "time"
+    },
+    {
+      "id": 18,
+      "target": "el fin de semana pasado",
+      "source": "last weekend",
+      "gender": "m.",
+      "type": "time"
+    },
+    {
+      "id": 19,
+      "target": "hace un mes",
+      "source": "a month ago",
+      "gender": "—",
+      "type": "time"
+    },
+    {
+      "id": 20,
+      "target": "en ese momento",
+      "source": "at that moment",
+      "gender": "—",
+      "type": "time"
+    }
   ],
   "grammar": [
     {
-      "title": "Preterite — High-Frequency Irregular Verbs (ESTAR, IR, HACER, TENER, DECIR)",
-      "content": "These five verbs share the same irregular stem in the preterite: tuv-, estuv-, hic-, dij-. IR has its own pattern (fui-, fuiste-...). They all drop the accent on nosotros.\n\nThe shared irregular endings (for ESTAR, HACER, TENER, DECIR) are:\n- yo: -e\n- tú: -iste\n- él/ella/usted: -o\n- nosotros: -imos (no accent)\n- vosotros: -isteis\n- ellos/ellas/ustedes: -ieron\n\nIR uses the same endings but with its own unique stems:\n- yo: fui\n- tú: fuiste\n- él/ella/usted: fue\n- nosotros: fuimos\n- vosotros: fuisteis\n- ellos/ellas/ustedes: fueron",
+      "title": "Irregular Past Participles",
+      "content": "Several common verbs have irregular past participles that must be memorized:\n\n- abrir → abierto (opened)\n- cubrir → cubierto (covered)\n- devolver → devuelto (returned)\n- escribir → escrito (written)\n- hacer → hecho (done/made)\n- morir → muerto (died)\n- poner → puesto (put/placed)\n- romper → roto (broken)\n- resolver → resuelto (resolved)\n- ver → visto (seen)\n- volver → vuelto (returned)\n- disolver → disuelto (dissolved)",
       "table": {
-        "headers": ["Pronoun", "ESTAR (estuv-)", "IR (fui-)", "HACER (hic-)", "TENER (tuv-)", "DECIR (dij-)"],
+        "headers": [
+          "Infinitive",
+          "Past Participle",
+          "English"
+        ],
         "rows": [
-          ["yo", "estuve", "fui", "hice", "tuve", "dije"],
-          ["tú", "estuviste", "fuiste", "hiciste", "tuviste", "dijiste"],
-          ["él/ella/usted", "estuvo", "fue", "hizo", "tuvo", "dijo"],
-          ["nosotros", "estuvimos", "fuimos", "hicimos", "tuvimos", "dijimos"],
-          ["vosotros", "estuvisteis", "fuisteis", "hicisteis", "tuvisteis", "dijisteis"],
-          ["ellos/ellas/ustedes", "estuvieron", "fueron", "hicieron", "tuvieron", "dijeron"]
+          [
+            "abrir",
+            "abierto",
+            "opened"
+          ],
+          [
+            "cubrir",
+            "cubierto",
+            "covered"
+          ],
+          [
+            "devolver",
+            "devuelto",
+            "returned"
+          ],
+          [
+            "escribir",
+            "escrito",
+            "written"
+          ],
+          [
+            "hacer",
+            "hecho",
+            "done/made"
+          ],
+          [
+            "morir",
+            "muerto",
+            "died"
+          ],
+          [
+            "poner",
+            "puesto",
+            "put"
+          ],
+          [
+            "romper",
+            "roto",
+            "broken"
+          ],
+          [
+            "ver",
+            "visto",
+            "seen"
+          ],
+          [
+            "volver",
+            "vuelto",
+            "returned"
+          ]
         ]
       },
       "examples": [
-        "Ayer estuve en el parque. (Yesterday I was at the park.)",
-        "El año pasado fui a Italia. (Last year I went to Italy.)",
-        "Ella hizo la cena. (She made dinner.)",
-        "Tuvimos un buen día. (We had a good day.)",
-        "Juan dijo la verdad. (Juan told the truth.)"
+        "He abierto la ventana. (I have opened the window.)",
+        "¿Has escrito el correo? (Have you written the email?)",
+        "Ya he hecho la tarea. (I've already done the homework.)",
+        "Ella ha visto esa película. (She has seen that movie.)"
       ],
-      "aid_note": "IR (to go) and ESTAR (to be) have the SAME preterite forms. Context determines meaning: 'Ayer fui al cine' (I went to the cinema) vs 'Ayer estuve en el cine' (I was at the cinema). Both are correct but slightly different meanings."
+      "aid_note": "Note that irregular participles follow the same grammar rules as regular ones when combined with haber: 'He hecho' (I have done), 'He visto' (I have seen). The irregularity is only in the participle form itself."
     },
     {
       "title": "Other Common Irregulars: DORMIR, PODER, SABER, QUERER, VENIR",
       "content": "These verbs have stem changes in the preterite (third person only), similar to the present tense stem changes but applied differently:\n\n- DORMIR (o→ue): durmió, durmieron\n- PODER (o→ue): pudo, pudieron\n- SABER (regular stem but irregular meaning): supe, supiste, supo, supimos, supisteis, supieron\n- QUERER (e→ie): quiso, quisieron\n- VENIR (vino, vinieron):\n\nThese only change in the third person (él/ella/usted and ellos/ellas/ustedes). The first and second persons follow regular patterns.",
       "table": {
-        "headers": ["Pronoun", "DORMIR (durmi-)", "PODER (pudo-)", "SABER (sup-)", "QUERER (quis-)", "VENIR (vin-)"],
+        "headers": [
+          "Pronoun",
+          "DORMIR (durmi-)",
+          "PODER (pudo-)",
+          "SABER (sup-)",
+          "QUERER (quis-)",
+          "VENIR (vin-)"
+        ],
         "rows": [
-          ["yo", "dormí", "pude", "supe", "quise", "vine"],
-          ["tú", "dormiste", "pudiste", "supiste", "quisiste", "viniste"],
-          ["él/ella/usted", "durmió", "pudo", "supo", "quiso", "vino"],
-          ["nosotros", "dormimos", "pudimos", "supimos", "quisimos", "vinimos"],
-          ["vosotros", "dormisteis", "pudisteis", "supisteis", "quisisteis", "vinisteis"],
-          ["ellos/ellas/ustedes", "durmieron", "pudieron", "supieron", "quisieron", "vinieron"]
+          [
+            "yo",
+            "dormí",
+            "pude",
+            "supe",
+            "quise",
+            "vine"
+          ],
+          [
+            "tú",
+            "dormiste",
+            "pudiste",
+            "supiste",
+            "quisiste",
+            "viniste"
+          ],
+          [
+            "él/ella/usted",
+            "durmió",
+            "pudo",
+            "supo",
+            "quiso",
+            "vino"
+          ],
+          [
+            "nosotros",
+            "dormimos",
+            "pudimos",
+            "supimos",
+            "quisimos",
+            "vinimos"
+          ],
+          [
+            "vosotros",
+            "dormisteis",
+            "pudisteis",
+            "supisteis",
+            "quisisteis",
+            "vinisteis"
+          ],
+          [
+            "ellos/ellas/ustedes",
+            "durmieron",
+            "pudieron",
+            "supieron",
+            "quisieron",
+            "vinieron"
+          ]
         ]
       },
       "examples": [
@@ -70,6 +286,199 @@
         "Ellos vinieron a visitarnos. (They came to visit us.)"
       ],
       "aid_note": "DORMIR has an additional twist: the 'i' in durmió/durmieron sounds like a 'y' — 'durmió' is pronounced 'durió'. This is a common feature in Spanish when 'i' follows another vowel: 'viene' (comes) → 'vino' (came), pronounced 'vin-o'."
+    },
+    {
+      "title": "Present Perfect — Haber + Past Participle",
+      "content": "The present perfect is formed with the present tense of haber + a past participle. It's used to talk about actions that happened in the recent past or that have relevance to the present.\n\nHaber conjugation (present tense):\n- yo: he\n- tú: has\n- él/ella/usted: ha\n- nosotros: hemos\n- vosotros: habéis\n- ellos/ellas/ustedes: han\n\nThe past participle is formed by:\n- -AR verbs: drop -ar, add -ado (hablar → hablado)\n- -ER verbs: drop -er, add -ido (comer → comido)\n- -IR verbs: drop -ir, add -ido (vivir → vivido)",
+      "table": {
+        "headers": [
+          "Pronoun",
+          "Haber",
+          "hablar",
+          "comer",
+          "vivir"
+        ],
+        "rows": [
+          [
+            "yo",
+            "he",
+            "he hablado",
+            "he comido",
+            "he vivido"
+          ],
+          [
+            "tú",
+            "has",
+            "has hablado",
+            "has comido",
+            "has vivido"
+          ],
+          [
+            "él/ella/usted",
+            "ha",
+            "ha hablado",
+            "ha comido",
+            "ha vivido"
+          ],
+          [
+            "nosotros",
+            "hemos",
+            "hemos hablado",
+            "hemos comido",
+            "hemos vivido"
+          ],
+          [
+            "vosotros",
+            "habéis",
+            "habéis hablado",
+            "habéis comido",
+            "habéis vivido"
+          ],
+          [
+            "ellos/ellas/ustedes",
+            "han",
+            "han hablado",
+            "han comido",
+            "han vivido"
+          ]
+        ]
+      },
+      "examples": [
+        "Hoy he comido paella. (Today I have eaten paella.)",
+        "¿Has visto la televisión esta semana? (Have you watched TV this week?)",
+        "Hemos vivido aquí dos años. (We have lived here for two years.)",
+        "Mi amigo ha trabajado mucho. (My friend has worked a lot.)"
+      ],
+      "aid_note": "In most of Spain, the present perfect is used for recent past (today, this week, this month). In Latin America, the simple preterite is often preferred even for recent events. Both are correct — the regional usage differs. Think of 'he comido' as 'I have eaten' vs 'comí' as 'I ate.'"
+    },
+    {
+      "title": "Preterite (Pretérito Indefinido) — Regular Verbs",
+      "content": "The preterite tense is used to talk about completed actions in the past with a clear beginning or end. Think of it as the 'storytelling' tense — you're telling someone what happened.\n\nFor regular -AR verbs (like hablar), the endings are:\n- yo: -é\n- tú: -aste\n- él/ella/usted: -ó\n- nosotros: -amos\n- vosotros: -asteis\n- ellos/ellas/ustedes: -aron\n\nFor regular -ER/-IR verbs (like comer, vivir), the endings are:\n- yo: -í\n- tú: -iste\n- él/ella/usted: -ió\n- nosotros: -imos\n- vosotros: -isteis\n- ellos/ellas/ustedes: -ieron",
+      "table": {
+        "headers": [
+          "Pronoun",
+          "-AR (hablar)",
+          "-ER (comer)",
+          "-IR (vivir)"
+        ],
+        "rows": [
+          [
+            "yo",
+            "hablé",
+            "comí",
+            "viví"
+          ],
+          [
+            "tú",
+            "hablaste",
+            "comiste",
+            "viviste"
+          ],
+          [
+            "él/ella/usted",
+            "habló",
+            "comió",
+            "vivió"
+          ],
+          [
+            "nosotros",
+            "hablamos",
+            "comimos",
+            "vivimos"
+          ],
+          [
+            "vosotros",
+            "hablasteis",
+            "comisteis",
+            "vivisteis"
+          ],
+          [
+            "ellos/ellas/ustedes",
+            "hablaron",
+            "comieron",
+            "vivieron"
+          ]
+        ]
+      },
+      "examples": [
+        "Ayer hablé con mi amigo. (Yesterday I talked with my friend.)",
+        "Ellos comieron pizza anoche. (They ate pizza last night.)",
+        "Nosotros vivimos en Madrid dos años. (We lived in Madrid for two years.)",
+        "¿Estudiaste para el examen? (Did you study for the exam?)"
+      ],
+      "aid_note": "Watch out: 'nosotros' form looks the same for -AR preterite and present! Context tells you which: 'hablamos' in present = we speak; 'hablamos' in preterite = we spoke. Look for time words like 'ayer' (yesterday), 'la semana pasada' (last week)."
+    },
+    {
+      "title": "Preterite — High-Frequency Irregular Verbs (ESTAR, IR, HACER, TENER, DECIR)",
+      "content": "These five verbs share the same irregular stem in the preterite: tuv-, estuv-, hic-, dij-. IR has its own pattern (fui-, fuiste-...). They all drop the accent on nosotros.\n\nThe shared irregular endings (for ESTAR, HACER, TENER, DECIR) are:\n- yo: -e\n- tú: -iste\n- él/ella/usted: -o\n- nosotros: -imos (no accent)\n- vosotros: -isteis\n- ellos/ellas/ustedes: -ieron\n\nIR uses the same endings but with its own unique stems:\n- yo: fui\n- tú: fuiste\n- él/ella/usted: fue\n- nosotros: fuimos\n- vosotros: fuisteis\n- ellos/ellas/ustedes: fueron",
+      "table": {
+        "headers": [
+          "Pronoun",
+          "ESTAR (estuv-)",
+          "IR (fui-)",
+          "HACER (hic-)",
+          "TENER (tuv-)",
+          "DECIR (dij-)"
+        ],
+        "rows": [
+          [
+            "yo",
+            "estuve",
+            "fui",
+            "hice",
+            "tuve",
+            "dije"
+          ],
+          [
+            "tú",
+            "estuviste",
+            "fuiste",
+            "hiciste",
+            "tuviste",
+            "dijiste"
+          ],
+          [
+            "él/ella/usted",
+            "estuvo",
+            "fue",
+            "hizo",
+            "tuvo",
+            "dijo"
+          ],
+          [
+            "nosotros",
+            "estuvimos",
+            "fuimos",
+            "hicimos",
+            "tuvimos",
+            "dijimos"
+          ],
+          [
+            "vosotros",
+            "estuvisteis",
+            "fuisteis",
+            "hicisteis",
+            "tuvisteis",
+            "dijisteis"
+          ],
+          [
+            "ellos/ellas/ustedes",
+            "estuvieron",
+            "fueron",
+            "hicieron",
+            "tuvieron",
+            "dijeron"
+          ]
+        ]
+      },
+      "examples": [
+        "Ayer estuve en el parque. (Yesterday I was at the park.)",
+        "El año pasado fui a Italia. (Last year I went to Italy.)",
+        "Ella hizo la cena. (She made dinner.)",
+        "Tuvimos un buen día. (We had a good day.)",
+        "Juan dijo la verdad. (Juan told the truth.)"
+      ],
+      "aid_note": "IR (to go) and ESTAR (to be) have the SAME preterite forms. Context determines meaning: 'Ayer fui al cine' (I went to the cinema) vs 'Ayer estuve en el cine' (I was at the cinema). Both are correct but slightly different meanings."
     }
   ],
   "pronunciation": [],
@@ -77,7 +486,12 @@
     {
       "type": "exercise",
       "question": "What is the preterite of 'estar' for 'yo'?",
-      "options": ["estaba", "estuve", "estoy", "estuve"],
+      "options": [
+        "estaba",
+        "estuve",
+        "estoy",
+        "estuve"
+      ],
       "correct": 1,
       "explanation": "'Estuve' is the irregular preterite of estar for yo. The stem changes to estuv-."
     },
@@ -96,7 +510,12 @@
     {
       "type": "exercise",
       "question": "Which sentence uses the correct preterite irregular?",
-      "options": ["Ayer tenió una reunión.", "Ayer tuvo una reunión.", "Ayer teníó una reunión.", "Ayer tuvo una reunión."],
+      "options": [
+        "Ayer tenió una reunión.",
+        "Ayer tuvo una reunión.",
+        "Ayer teníó una reunión.",
+        "Ayer tuvo una reunión."
+      ],
       "correct": 1,
       "explanation": "'Tuvo' is the correct preterite form. Note the accent on the o — it follows the rule for words ending in a vowel (stress on 2nd-to-last by default)."
     },
@@ -109,7 +528,12 @@
     {
       "type": "exercise",
       "question": "What is the irregular past participle of 'hacer'?",
-      "options": ["hacido", "hecho", "hacado", "hacio"],
+      "options": [
+        "hacido",
+        "hecho",
+        "hacado",
+        "hacio"
+      ],
       "correct": 1,
       "explanation": "'Hecho' is the irregular past participle of hacer. Used in present perfect: 'He hecho' (I have done)."
     },
@@ -117,7 +541,9 @@
       "type": "conjugation-matrix",
       "question": "Complete the preterite tense conjugation table for the irregular verb HACER:",
       "verb": "HACER",
-      "tenses": ["preterite"],
+      "tenses": [
+        "preterite"
+      ],
       "explanation": "Hacer is irregular in the preterite (hic- stem): hice, hiciste, hizo, hicimos, hicisteis, hicieron."
     }
   ]

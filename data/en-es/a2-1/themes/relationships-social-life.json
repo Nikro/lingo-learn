@@ -4,108 +4,733 @@
   "title": "Relationships & Social Life",
   "description": "Talk about friendships, dating, family dynamics, social events, and interpersonal relationships in Spanish. Learn vocabulary for describing relationships, social interactions, and personal connections.",
   "vocabulary": [
-    {"id": 1, "target": "amigo", "source": "friend (m)", "gender": "m", "type": "family"},
-    {"id": 2, "target": "amiga", "source": "friend (f)", "gender": "f", "type": "family"},
-    {"id": 3, "target": "mejor amigo", "source": "best friend (m)", "gender": "m", "type": "family"},
-    {"id": 4, "target": "mejor amiga", "source": "best friend (f)", "gender": "f", "type": "family"},
-    {"id": 5, "target": "conocer", "source": "to meet / to know (a person)", "gender": "v", "type": "verb"},
-    {"id": 6, "target": "quedar", "source": "to meet up / to arrange", "gender": "v", "type": "verb"},
-    {"id": 7, "target": "verse", "source": "to see each other", "gender": "v", "type": "verb"},
-    {"id": 8, "target": "citas", "source": "dates (plural)", "gender": "f", "type": "noun"},
-    {"id": 9, "target": "cita", "source": "date (meeting/romantic)", "gender": "f", "type": "noun"},
-    {"id": 10, "target": "novio", "source": "boyfriend", "gender": "m", "type": "family"},
-    {"id": 11, "target": "novia", "source": "girlfriend", "gender": "f", "type": "family"},
-    {"id": 12, "target": "pareja", "source": "partner/spouse", "gender": "f", "type": "family"},
-    {"id": 13, "target": "relacion", "source": "relationship", "gender": "f", "type": "noun"},
-    {"id": 14, "target": "romper", "source": "to break up", "gender": "v", "type": "verb"},
-    {"id": 15, "target": "salir", "source": "to go out / to date", "gender": "v", "type": "verb"},
-    {"id": 16, "target": "enamorarse", "source": "to fall in love", "gender": "v", "type": "verb"},
-    {"id": 17, "target": "amar", "source": "to love (deep love)", "gender": "v", "type": "verb"},
-    {"id": 18, "target": "querer", "source": "to love / to want", "gender": "v", "type": "verb"},
-    {"id": 19, "target": "fiel", "source": "faithful/loyal", "gender": "m", "type": "adjective"},
-    {"id": 20, "target": "celoso", "source": "jealous (m)", "gender": "m", "type": "adjective"},
-    {"id": 21, "target": "celosa", "source": "jealous (f)", "gender": "f", "type": "adjective"},
-    {"id": 22, "target": "confianza", "source": "trust", "gender": "f", "type": "noun"},
-    {"id": 23, "target": "respetar", "source": "to respect", "gender": "v", "type": "verb"},
-    {"id": 24, "target": "entender", "source": "to understand", "gender": "v", "type": "verb"},
-    {"id": 25, "target": "discutir", "source": "to argue / to discuss", "gender": "v", "type": "verb"},
-    {"id": 26, "target": "pelear", "source": "to fight/argue", "gender": "v", "type": "verb"},
-    {"id": 27, "target": "pedir perdón", "source": "to apologize", "gender": "m", "type": "phrase"},
-    {"id": 28, "target": "perdonar", "source": "to forgive", "gender": "v", "type": "verb"},
-    {"id": 29, "target": "ayudar", "source": "to help", "gender": "v", "type": "verb"},
-    {"id": 30, "target": "acompanar", "source": "to accompany", "gender": "v", "type": "verb"},
-    {"id": 31, "target": "invitar", "source": "to invite", "gender": "v", "type": "verb"},
-    {"id": 32, "target": "celebrar", "source": "to celebrate", "gender": "v", "type": "verb"},
-    {"id": 33, "target": "cumpleaños", "source": "birthday", "gender": "m", "type": "noun"},
-    {"id": 34, "target": "fiesta", "source": "party", "gender": "f", "type": "noun"},
-    {"id": 35, "target": "reunion", "source": "get-together / meeting", "gender": "f", "type": "noun"},
-    {"id": 36, "target": "salir con alguien", "source": "to go out with someone", "gender": "m", "type": "phrase"},
-    {"id": 37, "target": "casarse con", "source": "to marry (someone)", "gender": "m", "type": "phrase"},
-    {"id": 38, "target": "divorciarse", "source": "to get divorced", "gender": "v", "type": "verb"},
-    {"id": 39, "target": "separarse", "source": "to separate", "gender": "v", "type": "verb"},
-    {"id": 40, "target": "soltero", "source": "single (m)", "gender": "m", "type": "adjective"},
-    {"id": 41, "target": "soltera", "source": "single (f)", "gender": "f", "type": "adjective"},
-    {"id": 42, "target": "comprometido", "source": "engaged (m)", "gender": "m", "type": "adjective"},
-    {"id": 43, "target": "comprometida", "source": "engaged (f)", "gender": "f", "type": "adjective"},
-    {"id": 44, "target": "enfermar", "source": "to get sick", "gender": "v", "type": "verb"},
-    {"id": 45, "target": "hermano mayor", "source": "older brother", "gender": "m", "type": "family"},
-    {"id": 46, "target": "hermana mayor", "source": "older sister", "gender": "f", "type": "family"},
-    {"id": 47, "target": "hermano menor", "source": "younger brother", "gender": "m", "type": "family"},
-    {"id": 48, "target": "hermana menor", "source": "younger sister", "gender": "f", "type": "family"},
-    {"id": 49, "target": "primos", "source": "cousins (plural)", "gender": "m", "type": "family"},
-    {"id": 50, "target": "tios", "source": "uncles/aunts (plural)", "gender": "m", "type": "family"},
-    {"id": 51, "target": "sobrinos", "source": "nieces/nephews (plural)", "gender": "m", "type": "family"},
-    {"id": 52, "target": "abuelos", "source": "grandparents (plural)", "gender": "m", "type": "family"},
-    {"id": 53, "target": "padrinos", "source": "godparents (plural)", "gender": "m", "type": "family"},
-    {"id": 54, "target": "cuñados", "source": "in-laws (plural)", "gender": "m", "type": "family"},
-    {"id": 55, "target": "desconfiar", "source": "to distrust", "gender": "v", "type": "verb"},
-    {"id": 56, "target": "mentir", "source": "to lie", "gender": "v", "type": "verb"},
-    {"id": 57, "target": "confiar en", "source": "to trust (someone)", "gender": "m", "type": "phrase"},
-    {"id": 58, "target": "querer mucho", "source": "to love very much", "gender": "m", "type": "phrase"},
-    {"id": 59, "target": "extrañar", "source": "to miss (someone)", "gender": "v", "type": "verb"},
-    {"id": 60, "target": "echar de menos", "source": "to miss (someone)", "gender": "m", "type": "phrase"},
-    {"id": 61, "target": "escuchar", "source": "to listen", "gender": "v", "type": "verb"},
-    {"id": 62, "target": "hablar", "source": "to talk/speak", "gender": "v", "type": "verb"},
-    {"id": 63, "target": "explicar", "source": "to explain", "gender": "v", "type": "verb"},
-    {"id": 64, "target": "comunicar", "source": "to communicate", "gender": "v", "type": "verb"},
-    {"id": 65, "target": "apoyar", "source": "to support", "gender": "v", "type": "verb"},
-    {"id": 66, "target": "cuidar", "source": "to take care of", "gender": "v", "type": "verb"},
-    {"id": 67, "target": "proteger", "source": "to protect", "gender": "v", "type": "verb"},
-    {"id": 68, "target": "sentirse", "source": "to feel (oneself)", "gender": "v", "type": "verb"},
-    {"id": 69, "target": "preocuparse", "source": "to worry", "gender": "v", "type": "verb"},
-    {"id": 70, "target": "disfrutar", "source": "to enjoy", "gender": "v", "type": "verb"},
-    {"id": 71, "target": "divertirse", "source": "to have fun", "gender": "v", "type": "verb"},
-    {"id": 72, "target": "juntos", "source": "together (m)", "gender": "m", "type": "adverb"},
-    {"id": 73, "target": "solos", "source": "alone (m)", "gender": "m", "type": "adverb"},
-    {"id": 74, "target": "lejos", "source": "far away", "gender": "m", "type": "adverb"},
-    {"id": 75, "target": "cerca", "source": "near/close by", "gender": "m", "type": "adverb"},
-    {"id": 76, "target": "joven", "source": "young person", "gender": "m", "type": "adjective"},
-    {"id": 77, "target": "maduro", "source": "mature", "gender": "m", "type": "adjective"},
-    {"id": 78, "target": "generoso", "source": "generous", "gender": "m", "type": "adjective"},
-    {"id": 79, "target": "generosa", "source": "generous (f)", "gender": "f", "type": "adjective"},
-    {"id": 80, "target": "simpatico", "source": "nice/pleasant (m)", "gender": "m", "type": "adjective"},
-    {"id": 81, "target": "simpatica", "source": "nice/pleasant (f)", "gender": "f", "type": "adjective"},
-    {"id": 82, "target": "sincero", "source": "sincere (m)", "gender": "m", "type": "adjective"},
-    {"id": 83, "target": "sincera", "source": "sincere (f)", "gender": "f", "type": "adjective"},
-    {"id": 84, "target": "tradiciones", "source": "traditions", "gender": "f", "type": "noun"},
-    {"id": 85, "target": "valores", "source": "values", "gender": "m", "type": "noun"},
-    {"id": 86, "target": "amistad", "source": "friendship", "gender": "f", "type": "noun"},
-    {"id": 87, "target": "boda", "source": "wedding", "gender": "f", "type": "noun"},
-    {"id": 88, "target": "compromiso", "source": "engagement/commitment", "gender": "m", "type": "noun"},
-    {"id": 89, "target": "enemigo", "source": "enemy (m)", "gender": "m", "type": "person"},
-    {"id": 90, "target": "enemiga", "source": "enemy (f)", "gender": "f", "type": "person"},
-    {"id": 91, "target": "desconocido", "source": "stranger (m)", "gender": "m", "type": "person"},
-    {"id": 92, "target": "desconocida", "source": "stranger (f)", "gender": "f", "type": "person"},
-    {"id": 93, "target": "vecinos", "source": "neighbors (plural)", "gender": "m", "type": "person"},
-    {"id": 94, "target": "compañeros", "source": "classmates/coworkers (plural)", "gender": "m", "type": "person"},
-    {"id": 95, "target": "chico", "source": "boy/boyfriend (m)", "gender": "m", "type": "person"},
-    {"id": 96, "target": "chica", "source": "girl/girlfriend (f)", "gender": "f", "type": "person"},
-    {"id": 97, "target": "crush", "source": "crush (unrequited love)", "gender": "m", "type": "noun"},
-    {"id": 98, "target": "amistoso", "source": "friendly", "gender": "m", "type": "adjective"},
-    {"id": 99, "target": "sociable", "source": "sociable", "gender": "m", "type": "adjective"},
-    {"id": 100, "target": "introvertido", "source": "introverted (m)", "gender": "m", "type": "adjective"}
+    {
+      "id": 1,
+      "target": "amigo",
+      "source": "friend (m)",
+      "gender": "m",
+      "type": "family"
+    },
+    {
+      "id": 2,
+      "target": "amiga",
+      "source": "friend (f)",
+      "gender": "f",
+      "type": "family"
+    },
+    {
+      "id": 3,
+      "target": "mejor amigo",
+      "source": "best friend (m)",
+      "gender": "m",
+      "type": "family"
+    },
+    {
+      "id": 4,
+      "target": "mejor amiga",
+      "source": "best friend (f)",
+      "gender": "f",
+      "type": "family"
+    },
+    {
+      "id": 5,
+      "target": "conocer",
+      "source": "to meet / to know (a person)",
+      "gender": "v",
+      "type": "verb"
+    },
+    {
+      "id": 6,
+      "target": "quedar",
+      "source": "to meet up / to arrange",
+      "gender": "v",
+      "type": "verb"
+    },
+    {
+      "id": 7,
+      "target": "verse",
+      "source": "to see each other",
+      "gender": "v",
+      "type": "verb"
+    },
+    {
+      "id": 8,
+      "target": "citas",
+      "source": "dates (plural)",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 9,
+      "target": "cita",
+      "source": "date (meeting/romantic)",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 10,
+      "target": "novio",
+      "source": "boyfriend",
+      "gender": "m",
+      "type": "family"
+    },
+    {
+      "id": 11,
+      "target": "novia",
+      "source": "girlfriend",
+      "gender": "f",
+      "type": "family"
+    },
+    {
+      "id": 12,
+      "target": "pareja",
+      "source": "partner/spouse",
+      "gender": "f",
+      "type": "family"
+    },
+    {
+      "id": 13,
+      "target": "relacion",
+      "source": "relationship",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 14,
+      "target": "romper",
+      "source": "to break up",
+      "gender": "v",
+      "type": "verb"
+    },
+    {
+      "id": 15,
+      "target": "salir",
+      "source": "to go out / to date",
+      "gender": "v",
+      "type": "verb"
+    },
+    {
+      "id": 16,
+      "target": "enamorarse",
+      "source": "to fall in love",
+      "gender": "v",
+      "type": "verb"
+    },
+    {
+      "id": 17,
+      "target": "amar",
+      "source": "to love (deep love)",
+      "gender": "v",
+      "type": "verb"
+    },
+    {
+      "id": 18,
+      "target": "querer",
+      "source": "to love / to want",
+      "gender": "v",
+      "type": "verb"
+    },
+    {
+      "id": 19,
+      "target": "fiel",
+      "source": "faithful/loyal",
+      "gender": "m",
+      "type": "adjective"
+    },
+    {
+      "id": 20,
+      "target": "celoso",
+      "source": "jealous (m)",
+      "gender": "m",
+      "type": "adjective"
+    },
+    {
+      "id": 21,
+      "target": "celosa",
+      "source": "jealous (f)",
+      "gender": "f",
+      "type": "adjective"
+    },
+    {
+      "id": 22,
+      "target": "confianza",
+      "source": "trust",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 23,
+      "target": "respetar",
+      "source": "to respect",
+      "gender": "v",
+      "type": "verb"
+    },
+    {
+      "id": 24,
+      "target": "entender",
+      "source": "to understand",
+      "gender": "v",
+      "type": "verb"
+    },
+    {
+      "id": 25,
+      "target": "discutir",
+      "source": "to argue / to discuss",
+      "gender": "v",
+      "type": "verb"
+    },
+    {
+      "id": 26,
+      "target": "pelear",
+      "source": "to fight/argue",
+      "gender": "v",
+      "type": "verb"
+    },
+    {
+      "id": 27,
+      "target": "pedir perdón",
+      "source": "to apologize",
+      "gender": "m",
+      "type": "phrase"
+    },
+    {
+      "id": 28,
+      "target": "perdonar",
+      "source": "to forgive",
+      "gender": "v",
+      "type": "verb"
+    },
+    {
+      "id": 29,
+      "target": "ayudar",
+      "source": "to help",
+      "gender": "v",
+      "type": "verb"
+    },
+    {
+      "id": 30,
+      "target": "acompanar",
+      "source": "to accompany",
+      "gender": "v",
+      "type": "verb"
+    },
+    {
+      "id": 31,
+      "target": "invitar",
+      "source": "to invite",
+      "gender": "v",
+      "type": "verb"
+    },
+    {
+      "id": 32,
+      "target": "celebrar",
+      "source": "to celebrate",
+      "gender": "v",
+      "type": "verb"
+    },
+    {
+      "id": 33,
+      "target": "cumpleaños",
+      "source": "birthday",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 34,
+      "target": "fiesta",
+      "source": "party",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 35,
+      "target": "reunion",
+      "source": "get-together / meeting",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 36,
+      "target": "salir con alguien",
+      "source": "to go out with someone",
+      "gender": "m",
+      "type": "phrase"
+    },
+    {
+      "id": 37,
+      "target": "casarse con",
+      "source": "to marry (someone)",
+      "gender": "m",
+      "type": "phrase"
+    },
+    {
+      "id": 38,
+      "target": "divorciarse",
+      "source": "to get divorced",
+      "gender": "v",
+      "type": "verb"
+    },
+    {
+      "id": 39,
+      "target": "separarse",
+      "source": "to separate",
+      "gender": "v",
+      "type": "verb"
+    },
+    {
+      "id": 40,
+      "target": "soltero",
+      "source": "single (m)",
+      "gender": "m",
+      "type": "adjective"
+    },
+    {
+      "id": 41,
+      "target": "soltera",
+      "source": "single (f)",
+      "gender": "f",
+      "type": "adjective"
+    },
+    {
+      "id": 42,
+      "target": "comprometido",
+      "source": "engaged (m)",
+      "gender": "m",
+      "type": "adjective"
+    },
+    {
+      "id": 43,
+      "target": "comprometida",
+      "source": "engaged (f)",
+      "gender": "f",
+      "type": "adjective"
+    },
+    {
+      "id": 44,
+      "target": "enfermar",
+      "source": "to get sick",
+      "gender": "v",
+      "type": "verb"
+    },
+    {
+      "id": 45,
+      "target": "hermano mayor",
+      "source": "older brother",
+      "gender": "m",
+      "type": "family"
+    },
+    {
+      "id": 46,
+      "target": "hermana mayor",
+      "source": "older sister",
+      "gender": "f",
+      "type": "family"
+    },
+    {
+      "id": 47,
+      "target": "hermano menor",
+      "source": "younger brother",
+      "gender": "m",
+      "type": "family"
+    },
+    {
+      "id": 48,
+      "target": "hermana menor",
+      "source": "younger sister",
+      "gender": "f",
+      "type": "family"
+    },
+    {
+      "id": 49,
+      "target": "primos",
+      "source": "cousins (plural)",
+      "gender": "m",
+      "type": "family"
+    },
+    {
+      "id": 50,
+      "target": "tios",
+      "source": "uncles/aunts (plural)",
+      "gender": "m",
+      "type": "family"
+    },
+    {
+      "id": 51,
+      "target": "sobrinos",
+      "source": "nieces/nephews (plural)",
+      "gender": "m",
+      "type": "family"
+    },
+    {
+      "id": 52,
+      "target": "abuelos",
+      "source": "grandparents (plural)",
+      "gender": "m",
+      "type": "family"
+    },
+    {
+      "id": 53,
+      "target": "padrinos",
+      "source": "godparents (plural)",
+      "gender": "m",
+      "type": "family"
+    },
+    {
+      "id": 54,
+      "target": "cuñados",
+      "source": "in-laws (plural)",
+      "gender": "m",
+      "type": "family"
+    },
+    {
+      "id": 55,
+      "target": "desconfiar",
+      "source": "to distrust",
+      "gender": "v",
+      "type": "verb"
+    },
+    {
+      "id": 56,
+      "target": "mentir",
+      "source": "to lie",
+      "gender": "v",
+      "type": "verb"
+    },
+    {
+      "id": 57,
+      "target": "confiar en",
+      "source": "to trust (someone)",
+      "gender": "m",
+      "type": "phrase"
+    },
+    {
+      "id": 58,
+      "target": "querer mucho",
+      "source": "to love very much",
+      "gender": "m",
+      "type": "phrase"
+    },
+    {
+      "id": 59,
+      "target": "extrañar",
+      "source": "to miss (someone)",
+      "gender": "v",
+      "type": "verb"
+    },
+    {
+      "id": 60,
+      "target": "echar de menos",
+      "source": "to miss (someone)",
+      "gender": "m",
+      "type": "phrase"
+    },
+    {
+      "id": 61,
+      "target": "escuchar",
+      "source": "to listen",
+      "gender": "v",
+      "type": "verb"
+    },
+    {
+      "id": 62,
+      "target": "hablar",
+      "source": "to talk/speak",
+      "gender": "v",
+      "type": "verb"
+    },
+    {
+      "id": 63,
+      "target": "explicar",
+      "source": "to explain",
+      "gender": "v",
+      "type": "verb"
+    },
+    {
+      "id": 64,
+      "target": "comunicar",
+      "source": "to communicate",
+      "gender": "v",
+      "type": "verb"
+    },
+    {
+      "id": 65,
+      "target": "apoyar",
+      "source": "to support",
+      "gender": "v",
+      "type": "verb"
+    },
+    {
+      "id": 66,
+      "target": "cuidar",
+      "source": "to take care of",
+      "gender": "v",
+      "type": "verb"
+    },
+    {
+      "id": 67,
+      "target": "proteger",
+      "source": "to protect",
+      "gender": "v",
+      "type": "verb"
+    },
+    {
+      "id": 68,
+      "target": "sentirse",
+      "source": "to feel (oneself)",
+      "gender": "v",
+      "type": "verb"
+    },
+    {
+      "id": 69,
+      "target": "preocuparse",
+      "source": "to worry",
+      "gender": "v",
+      "type": "verb"
+    },
+    {
+      "id": 70,
+      "target": "disfrutar",
+      "source": "to enjoy",
+      "gender": "v",
+      "type": "verb"
+    },
+    {
+      "id": 71,
+      "target": "divertirse",
+      "source": "to have fun",
+      "gender": "v",
+      "type": "verb"
+    },
+    {
+      "id": 72,
+      "target": "juntos",
+      "source": "together (m)",
+      "gender": "m",
+      "type": "adverb"
+    },
+    {
+      "id": 73,
+      "target": "solos",
+      "source": "alone (m)",
+      "gender": "m",
+      "type": "adverb"
+    },
+    {
+      "id": 74,
+      "target": "lejos",
+      "source": "far away",
+      "gender": "m",
+      "type": "adverb"
+    },
+    {
+      "id": 75,
+      "target": "cerca",
+      "source": "near/close by",
+      "gender": "m",
+      "type": "adverb"
+    },
+    {
+      "id": 76,
+      "target": "joven",
+      "source": "young person",
+      "gender": "m",
+      "type": "adjective"
+    },
+    {
+      "id": 77,
+      "target": "maduro",
+      "source": "mature",
+      "gender": "m",
+      "type": "adjective"
+    },
+    {
+      "id": 78,
+      "target": "generoso",
+      "source": "generous",
+      "gender": "m",
+      "type": "adjective"
+    },
+    {
+      "id": 79,
+      "target": "generosa",
+      "source": "generous (f)",
+      "gender": "f",
+      "type": "adjective"
+    },
+    {
+      "id": 80,
+      "target": "simpatico",
+      "source": "nice/pleasant (m)",
+      "gender": "m",
+      "type": "adjective"
+    },
+    {
+      "id": 81,
+      "target": "simpatica",
+      "source": "nice/pleasant (f)",
+      "gender": "f",
+      "type": "adjective"
+    },
+    {
+      "id": 82,
+      "target": "sincero",
+      "source": "sincere (m)",
+      "gender": "m",
+      "type": "adjective"
+    },
+    {
+      "id": 83,
+      "target": "sincera",
+      "source": "sincere (f)",
+      "gender": "f",
+      "type": "adjective"
+    },
+    {
+      "id": 84,
+      "target": "tradiciones",
+      "source": "traditions",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 85,
+      "target": "valores",
+      "source": "values",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 86,
+      "target": "amistad",
+      "source": "friendship",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 87,
+      "target": "boda",
+      "source": "wedding",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 88,
+      "target": "compromiso",
+      "source": "engagement/commitment",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 89,
+      "target": "enemigo",
+      "source": "enemy (m)",
+      "gender": "m",
+      "type": "person"
+    },
+    {
+      "id": 90,
+      "target": "enemiga",
+      "source": "enemy (f)",
+      "gender": "f",
+      "type": "person"
+    },
+    {
+      "id": 91,
+      "target": "desconocido",
+      "source": "stranger (m)",
+      "gender": "m",
+      "type": "person"
+    },
+    {
+      "id": 92,
+      "target": "desconocida",
+      "source": "stranger (f)",
+      "gender": "f",
+      "type": "person"
+    },
+    {
+      "id": 93,
+      "target": "vecinos",
+      "source": "neighbors (plural)",
+      "gender": "m",
+      "type": "person"
+    },
+    {
+      "id": 94,
+      "target": "compañeros",
+      "source": "classmates/coworkers (plural)",
+      "gender": "m",
+      "type": "person"
+    },
+    {
+      "id": 95,
+      "target": "chico",
+      "source": "boy/boyfriend (m)",
+      "gender": "m",
+      "type": "person"
+    },
+    {
+      "id": 96,
+      "target": "chica",
+      "source": "girl/girlfriend (f)",
+      "gender": "f",
+      "type": "person"
+    },
+    {
+      "id": 97,
+      "target": "crush",
+      "source": "crush (unrequited love)",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 98,
+      "target": "amistoso",
+      "source": "friendly",
+      "gender": "m",
+      "type": "adjective"
+    },
+    {
+      "id": 99,
+      "target": "sociable",
+      "source": "sociable",
+      "gender": "m",
+      "type": "adjective"
+    },
+    {
+      "id": 100,
+      "target": "introvertido",
+      "source": "introverted (m)",
+      "gender": "m",
+      "type": "adjective"
+    }
   ],
   "grammar": [
+    {
+      "title": "Basic Subjunctive — Expressing Environmental Hopes and Concerns",
+      "content": "The present subjunctive is used to express wishes, hopes, doubts, and concerns — all very relevant when discussing environmental issues.\n\nPresent subjunctive formation:\n- -AR verbs: take -ER endings → hablar → hable, hables, hable, hablemos, habléis, hablen\n- -ER verbs: take -AR endings → llover → llovía → llueva, lluevas, llueva, lluviamos, lluveis, lluevan\n- -IR verbs: take -AR endings → nevar → nevamos → nevemos (stem change e→ie: nieva → nieve)\n\nIrregular present subjunctive:\n- ser: sea, seas, sea, seamos, seáis, sean\n- estar: esté, estés, esté, estemos, estéis, estén\n- tener: tenga, tengas, tenga, tengamos, tengáis, tengan\n- ir: vaya, vayas, vaya, vayamos, vayáis, vayan\n- poder: pueda, puedas, pueda, podamos, podáis, puedan\n- hacer: haga, hagás, haga, hagamos, hagáis, hagan\n- saber: sepa, sepas, sepa, sepamos, sepáis, sepan\n\nTriggers for subjunctive:\n- Ojalá (que) + subjunctive: Ojalá que no llueva. (Hopefully it doesn't rain.)\n- Esperar que + subjunctive: Espero que protejamos la naturaleza. (I hope we protect nature.)\n- Querer que + subjunctive: Quiero que reciclen más. (I want them to recycle more.)\n- Necesitar que + subjunctive: Necesito que limpien el río. (I need them to clean the river.)\n- Es importante que + subjunctive: Es importante que cuidemos el medio ambiente. (It's important that we take care of the environment.)\n- Es necesario que + subjunctive: Es necesario que reduzcan la contaminación. (It's necessary that they reduce pollution.)\n- Me preocupa que + subjunctive: Me preocupa que el clima cambie. (I'm worried that the climate is changing.)\n\nEnvironmental subjunctive examples:\n- Ojalá que no se acabe el agua. (I hope water doesn't run out.)\n- Espero que llueva mañana. (I hope it rains tomorrow.)\n- Es necesario que protejamos el bosque. (It's necessary that we protect the forest.)\n- Quiero que reciclen el plástico. (I want them to recycle the plastic.)\n- Me preocupa que las plantas se sequen. (I'm worried that the plants are drying up.)",
+      "examples": [
+        "Ojalá que no haga tanto calor este verano. (I hope it's not so hot this summer.)",
+        "Esperamos que protejan el medio ambiente. (We hope they protect the environment.)",
+        "Es importante que limpiemos la playa. (It's important that we clean the beach.)",
+        "Quiero que reduzcan la contaminación. (I want them to reduce pollution.)",
+        "Me preocupa que los animales estén en peligro. (I'm worried that the animals are in danger.)",
+        "Necesitamos que todos reciclen más. (We need everyone to recycle more.)"
+      ],
+      "aid_note": "Romanian uses the subjunctive less frequently than Spanish. The closest Romanian equivalent is 'să' + present tense: 'Sper să plouă' (I hope it rains), 'E important să protejăm' (It's important to protect). The Spanish subjunctive works similarly but is grammatically mandatory after many expressions that Romanian would use with 'să.' For Romanian speakers: the subjunctive in Spanish is often triggered by expressions like 'esperar que,' 'querer que,' 'es importante que' — these all correspond to Romanian 'să' constructions. The key insight is: whenever you'd use 'să' in Romanian after a main clause, check if you need subjunctive in Spanish."
+    },
+    {
+      "title": "Conditional and 'Si' Clauses for Legal Hypotheticals",
+      "content": "The conditional tense and 'si' clauses are used to discuss what would happen under certain legal or bureaucratic conditions.\n\nConditional tense formation:\n- Take the full infinitive + endings: -ía, -ías, -ía, -íamos, -íais, -ían\n  pagar → pagaría, pagarías, pagaría, pagaríamos, pagaríais, pagarían\n  firmar → firmaría, firmarías, firmaría, firmaríamos, firmaríais, firmarían\n  cumplir → cumpliría, cumplirías, cumpliría, cumpliríamos, cumpliríais, cumplirían\n- Irregulars: tener → tendría, poder → podría, deber → debería, salir → saldría\n\nConditional uses in legal contexts:\n\n1. RIGHTS AND POSSIBILITIES:\n   - Los ciudadanos podrían votar si se registraran. (Citizens could vote if they registered.)\n   - Tendría derecho a la protección si presentara los documentos. (You would have the right to protection if you submitted the documents.)\n   - Se aplicaría una multa si no cumpliera la ley. (A fine would be applied if you didn't comply with the law.)\n\n2. 'SI' CLAUSES (present unreal):\n   - SI + present indicative → conditional\n   - Si paga la multa, no habrá problemas. (If you pay the fine, there will be no problems.)\n   - Si presenta los documentos, el trámite será más rápido. (If you submit the documents, the process will be faster.)\n   - Si respeta las normas, no recibirá sanciones. (If you follow the rules, you won't receive penalties.)\n\n3. LEGAL CONDITIONS:\n   - En caso de que + subjunctive (In case that)\n     - En caso de que haya un problema, llame al abogado. (In case there's a problem, call the lawyer.)\n   - A menos que + subjunctive (Unless)\n     - No se aprobará el contrato a menos que lo firme. (The contract won't be approved unless you sign it.)\n   - Siempre que + subjunctive (As long as)\n     - Se aprobará siempre que cumpla los requisitos. (It will be approved as long as you meet the requirements.)\n\nCommon conditional legal phrases:\n  - Usted podría... (You could...)\n  - Tendría derecho a... (You would have the right to...)\n  - Se aplicaría... (A [penalty] would be applied...)\n  - Sería necesario... (It would be necessary...)\n  - Se consideraría... (It would be considered...)",
+      "examples": [
+        "Si presenta todos los documentos, el trámite será rápido. (If you submit all the documents, the process will be quick.)",
+        "Los ciudadanos tendrían más derechos si participaran. (Citizens would have more rights if they participated.)",
+        "Se aplicaría una sanción si no cumpliera el plazo. (A sanction would be applied if you didn't meet the deadline.)",
+        "En caso de que necesite ayuda, llame al funcionario. (In case you need help, call the clerk.)",
+        "No se aprobará la solicitud a menos que firme el contrato. (The application won't be approved unless you sign the contract.)"
+      ],
+      "aid_note": "Romanian conditional uses 'aș + infinitive' (aș putea, aș avea, aș plăti) — similar to Spanish conditional (podría, tendría, pagaría). Romanian 'si' clauses work the same way: 'Dacă plătești amenda, nu va fi probleme' = 'Si paga la multa, no habrá problemas.' The conditional tense and si-clause patterns are nearly identical in structure between Romanian and Spanish."
+    },
     {
       "title": "Conocer vs. Saber — Knowing People vs. Facts",
       "content": "CONOCER is used for knowing people, places, or being familiar with something:\\n\\n1. KNOWING PEOPLE:\\nConozco a tu hermana. (I know your sister.)\\n¿Conoces a Maria? (Do you know Maria?)\\nLa conozco desde hace anos. (I've known her for years.)\\n\\n2. BEING FAMILIAR WITH (places, things):\\nConozco Madrid bien. (I know Madrid well.)\\nConoces este restaurante? (Do you know this restaurant?)\\nNo conozco esa ciudad. (I don't know that city.)\\n\\n3. MEETING SOMEONE FOR THE FIRST TIME:\\nMe llamo Carlos, mucho gusto. Conocerte es un placer. (My name is Carlos, nice to meet you. Meeting you is a pleasure.)\\n\\nIMPORTANT: When the direct object is a person, use the personal 'a':\\nConozco a Pedro. (NOT: Conozco Pedro.)\\n\\nSABER is used for knowing facts, information, or how to do something:\\n\\n1. KNOWING FACTS/INFORMATION:\\nSabe la respuesta. (He/She knows the answer.)\\n¿Sabes la hora? (Do you know the time?)\\nNo sé su número de telefono. (I don't know his/her phone number.)\\n\\n2. KNOWING HOW TO DO SOMETHING (followed by infinitive):\\nSé cocinar. (I know how to cook.)\\n¿Sabes nadar? (Do you know how to swim?)\\nNo sé hablar francés. (I don't know how to speak French.)\\n\\n3. KNOWING (learned/realized):\\nSupimos la verdad ayer. (We found out the truth yesterday.)\\nNo sé qué decir. (I don't know what to say.)",
@@ -115,6 +740,78 @@
         "Conozco la respuesta, pero no sé explicarla. (I know the answer, but I don't know how to explain it.)",
         "Mi madre conoce a todos los vecinos. (My mother knows all the neighbors.)"
       ]
+    },
+    {
+      "title": "Describing People and Relationships — Adjectives and Expressions",
+      "content": "Spanish has many adjectives for describing personality traits and relationship qualities. These often need to agree in gender and number:\\n\\n1. POSITIVE TRAITS:\\nSincero/a — sincere\\nGeneroso/a — generous\\nSimpatico/a — nice/pleasant\\nAmistoso/a — friendly\\nSociable — sociable\\nLeal — loyal\\nResponsable — responsible\\nTrabajador/a — hardworking\\nDiverso/a — fun/entertaining\\nComprensivo/a — understanding\\n\\n2. NEGATIVE TRAITS:\\nCeloso/a — jealous\\nPerezoso/a — lazy\\nEgoista — selfish\\nTacaño/a — stingy\\nMentiroso/a — liar\\nArrogante — arrogant\\n\\n3. RELATIONSHIP STATUS:\\nSoltero/a — single\\nComprometido/a — engaged\\nCasado/a — married\\nDivorciado/a — divorced\\nSeparado/a — separated\\nViudo/a — widowed\\n\\n4. AGREEMENT RULES:\\nAdjectives must match the gender and number of the noun they describe:\\nMi amigo es simpatico. (My friend is nice — masculine)\\nMi amiga es simpatica. (My friend is nice — feminine)\\nMis amigos son simpaticos. (My friends are nice — masculine plural)\\nMis amigas son simpaticas. (My friends are nice — feminine plural)\\n\\n5. USING MUCHO/POCO:\\nEs muy simpatico. (He is very nice.)\\nEs bastante generoso. (He is quite generous.)\\nEs poco sociable. (He is not very sociable.)\\nEs demasiado celoso. (He is too jealous.)",
+      "examples": [
+        "Mi mejor amigo es muy sincero y generoso. (My best friend is very sincere and generous.)",
+        "Ella es una persona muy sociable y divertida. (She is a very sociable and fun person.)",
+        "Son solteros y disfrutan de su libertad. (They are single and enjoy their freedom.)",
+        "Mi hermano es un poco celoso, pero es muy leal. (My brother is a bit jealous, but he is very loyal.)"
+      ]
+    },
+    {
+      "title": "Direct & Indirect Object Pronouns — Talking About Environmental Actions",
+      "content": "Object pronouns replace nouns to avoid repetition. This is essential when discussing environmental actions and practices.\n\nDirect Object Pronouns (replaces the thing being acted upon):\n- lo / la (him / her / it — masculine / feminine)\n- los / las (them — masculine / feminine)\n\nIndirect Object Pronouns (replaces the person receiving the action):\n- me (to me)\n- te (to you — informal)\n- le (to him / her / you formal)\n- nos (to us)\n- les (to them / you all)\n\nWhere they go:\n1. Before conjugated verb: Lo protejo. (I protect it.)\n2. Attached to infinitive: Voy a reciclarlo. (I'm going to recycle it.)\n3. Attached to gerund: Estoy reciclándolo. (I'm recycling it.)\n\nKey examples with environment:\n- ¿Reciclamos el papel? Sí, lo reciclamos. (Do we recycle paper? Yes, we recycle it.)\n- No contaminamos el río. (We don't pollute the river.)\n- Le damos el agua a los niños. (We give the water to the children.)\n- Les damos comida a los animales. (We give food to the animals.)\n- Protejo la naturaleza porque es importante. (I protect nature because it's important.)\n- La protejo todos los días. (I protect it every day.)\n\nLo/La → Los/Las agreement:\n- El plástico lo tiramos al contenedor. (We throw the plastic in the bin.) — 'el plástico' → 'lo'\n- Las botellas las reciclamos. (We recycle the bottles.) — 'las botellas' → 'las'\n\nDouble object pronouns (indirect + direct):\n- Le lo → Se lo (when both are 3rd person)\n- Les lo → Se lo\nExample: Le doy el libro → Se lo doy. (I give him the book → I give it to him.)\nEnvironmental example: Le damos agua a las plantas → Se la damos. (We give water to the plants → We give it to them.)",
+      "examples": [
+        "¿Reciclamos el vidrio? Sí, lo reciclamos todos los días. (Do we recycle glass? Yes, we recycle it every day.)",
+        "No contaminamos el océano. (We don't pollute the ocean.)",
+        "Les protegemos la fauna. (We protect the wildlife for them.)",
+        "Le damos agua a las plantas. Se la damos todos los días. (We give water to the plants. We give it to them every day.)",
+        "Protejo la reserva natural porque es importante. La protejo todos los años. (I protect the nature reserve because it's important. I protect it every year.)"
+      ],
+      "aid_note": "Romanian also has object pronouns (îl/îi, le, îi), but the placement is similar to Spanish — before the verb. The key difference is Spanish uses 'lo/la/los/las' which agree in gender and number, while Romanian uses 'îl/îi' (masc.) and 'o/le' (fem.). Spanish double object pronouns merge 'le lo' → 'se lo', which is a unique Spanish feature. For Romanian speakers: remember that Spanish object pronouns are placed BEFORE the conjugated verb, similar to Romanian (îl protej = lo protejo), but can attach to infinitives (protejarlo), which Romanian doesn't do."
+    },
+    {
+      "title": "Formal Commands (Usted/Ustedes) for Official Situations",
+      "content": "Formal commands (usted/ustedes) are used when speaking to officials, in offices, and in legal contexts.\n\nFormation — AFIRMATIVO:\n- -AR verbs: take yo form, drop -o, add -e (singular) / -en (plural)\n  hablar → hable / hablen\n  firmar → firme / firmen\n  pagar → pague / paguen\n- -ER/-IR verbs: take yo form, drop -o, add -a (singular) / -an (plural)\n  presentar → presente / presenten\n  cumplir → cumpla / cumplan\n  denunciar → denuncie / denuncien\n\nFormation — NEGATIVO:\n- -AR verbs: add -e (singular) / -en (plural)\n- -ER/-IR verbs: add -a (singular) / -an (plural)\n  No hable. / No hablen. (Don't speak.)\n  No firme. / No firmen. (Don't sign.)\n\nImportant formal commands for bureaucracy:\n  - Presente su documento. (Present your document.)\n  - firme aquí, por favor. (Sign here, please.)\n  - Pague la multa. (Pay the fine.)\n  - Espere su turno. (Wait for your turn.)\n  - Espere un momento. (Wait a moment.)\n  - Espere en la fila. (Wait in line.)\n  - Llame al funcionario. (Call the clerk.)\n  - Cumpla las normas. (Follow the rules.)\n\nIrregular formal commands:\n  estar → esté / estén (wait, be here)\n  tener → tenga / tengan (have, hold)\n  poner → ponga / pongan (put, place)\n  salir → salga / salgan (leave, go out)\n  hacer → haga / hagan (do, make)\n  venir → venga / vengan (come)\n  decir → diga / digan (say, tell)\n  ir → vaya / vayan (go)\n\nOffice dialogue:\n  Funcionario: ¿Tiene su documento de identidad?\n  Ciudadano: Sí, aquí lo tiene.\n  Funcionario: Firme aquí, por favor.\n  Ciudadano: ¿Dónde?\n  Funcionario: Aquí, al lado de su nombre.",
+      "examples": [
+        "Presente su pasaporte al funcionario. (Present your passport to the clerk.)",
+        "Firme en la línea inferior del formulario. (Sign on the bottom line of the form.)",
+        "No firmen hasta que les expliquen todo. (Don't sign until they explain everything to you.)",
+        "Por favor, espere en la sala. (Please wait in the room.)",
+        "Cumpla con los requisitos necesarios. (Meet the necessary requirements.)",
+        "No tenga miedo de preguntar. (Don't be afraid to ask.)"
+      ],
+      "aid_note": "Romanian formal commands use 'să + conjugated verb' (să vorbiți, să semnați, să așteptați). The pattern is very similar to Spanish usted commands. Key similarity: both languages use a formal form for addressing officials. 'Firme aquí' = 'Semnați aici', 'Espere' = 'Așteptați', 'Presente' = 'Prezentați.' The Romanian 'să' form and Spanish subjunctive-based commands are conceptually parallel."
+    },
+    {
+      "title": "Imperfect Tense — Describing Past Weather and Nature",
+      "content": "The imperfect is essential for describing what the weather was like in the past, setting the scene, and talking about past habits related to nature.\n\nImperfect conjugations:\n\n-AR verbs (caminar, plantar):\nYo caminaba, tú caminabas, él/ella caminaba, nosotros caminábamos, vosotros caminabais, ellos caminaban\n-ER verbs (lllover → llover): llover is regular\n-IR verbs (nevar): Yo nevaba, tú nevabas, él/ella nevaba, nosotros nevábamos, vosotros nevabais, ellos nevaban\n\nSpecial: The verb llover (to rain) in imperfect\n- Yo llovía — but in practice, impersonal: Llovía (It was raining)\n\nImpersonal weather expressions in imperfect (always 3rd person singular):\n- Hacía sol (The sun was shining)\n- Hacía calor (It was hot)\n- Hacía frío (It was cold)\n- Hacía viento (It was windy)\n- Hacía buen/mal tiempo (The weather was good/bad)\n- Llovía (It was raining)\n- Nevaba (It was snowing)\n- Había niebla (There was fog)\n- Había nubes (There were clouds)\n\nUse the imperfect for:\n- Describing past weather: Ayer hacía mucho frío. (Yesterday it was very cold.)\n- Setting the scene in a story: Era un día nublado y hacía viento. (It was a cloudy day and it was windy.)\n- Repeated/habitual weather patterns: En mi país, en invierno siempre nevaba. (In my country, it always snowed in winter.)\n\nExamples:\n- Cuando era niño, en verano siempre hacía calor. (When I was a child, it was always hot in summer.)\n- Ayer por la mañana hacía sol, pero por la tarde llovía. (Yesterday morning it was sunny, but in the afternoon it was raining.)\n- En las montañas, en invierno siempre nevaba mucho. (In the mountains, it always snowed a lot in winter.)",
+      "examples": [
+        "Cuando era niño, en verano siempre hacía sol y hacíamos excursiones. (When I was a child, it was always sunny in summer and we went on outings.)",
+        "Ayer llovía todo el día. (Yesterday it rained all day.)",
+        "En otoño, hacía viento y las hojas caían de los árboles. (In autumn, it was windy and the leaves fell from the trees.)",
+        "En mi ciudad, en invierno siempre hacía frío. (In my city, it was always cold in winter.)"
+      ],
+      "aid_note": "Romanian uses the imperfect ('mergeam', 'plouam') for repeated past actions, similar to Spanish. The key difference is Spanish uses the imperfect much more broadly — for descriptions, atmosphere, and setting scenes. For Romanian speakers: HACÍA (impersonal weather) has no direct Romanian equivalent; Romanian uses 'era' (era cald, era frig). Think of Spanish HACÍA for weather as Romanian ERA + context. Both llovía and nevaba are regular — similar to Romanian 'plouam' / 'ningea'."
+    },
+    {
+      "title": "Passive 'Se' for Official and Bureaucratic Language",
+      "content": "The passive 'se' is used extensively in bureaucratic and legal language to describe what happens in official settings — without specifying who does it.\n\nFormation:\n- Singular subject: se + verb (3rd person singular)\n- Plural subject: se + verb (3rd person plural)\n\nExamples in official contexts:\n\n1. DOCUMENTS AND PAPERWORK:\n   - Se presentan los formularios en la oficina. (The forms are submitted at the office.)\n   - Se firma el contrato en presencia del funcionario. (The contract is signed in the presence of the clerk.)\n   - Se aceptan las solicitudes por correo. (Applications are accepted by mail.)\n\n2. RULES AND LAWS:\n   - Se establece que todos deben cumplir la ley. (It's established that everyone must comply with the law.)\n   - Se prohíbe fumar en las oficinas. (Smoking is prohibited in the offices.)\n   - Se exige la identificación en la entrada. (Identification is required at the entrance.)\n\n3. OFFICE PROCEDURES:\n   - Se atiende al público de nueve a cinco. (The public is served from nine to five.)\n   - Se procesan los trámites en cinco días. (Paperwork is processed in five days.)\n   - Se publican las nuevas regulaciones en el diario oficial. (New regulations are published in the official journal.)\n\nKey bureaucratic verbs in passive se:\n  - se requiere = it's required\n  - se necesita = it's needed\n  - se permite = it's allowed\n  - se prohíbe = it's prohibited\n  - se recomienda = it's recommended\n  - se acepta = it's accepted\n  - se rechaza = it's rejected\n  - se notifica = it's notified\n\nImportant: The verb MUST agree with the subject in number.\n  Se publica la norma. (singular — the rule is published)\n  Se publican las normas. (plural — the rules are published)\n  Se requiere el documento. (singular — the document is required)\n  Se requieren los documentos. (plural — the documents are required)",
+      "examples": [
+        "Se presenta la solicitud en la oficina de registro. (The application is submitted at the registry office.)",
+        "Se exigen los documentos originales. (Original documents are required.)",
+        "Se permite el acceso solo con identificación. (Access is allowed only with identification.)",
+        "Se publican las nuevas leyes en el diario oficial. (New laws are published in the official journal.)",
+        "Se notificará la decisión por correo. (The decision will be notified by mail.)",
+        "Se procesarán los trámites en dos semanas. (Paperwork will be processed in two weeks.)"
+      ],
+      "aid_note": "Romanian uses 'se' in a very similar way: 'se cere documentul' (the document is required), 'se publică' (it is published), 'se permite' (it is allowed). Romanian and Spanish passive 'se' are almost identical in structure and usage. The key difference is: Spanish requires the verb to agree with the subject in number (se publican las normas), while Romanian 'se' is often used in singular even for plural subjects (se publică normele). For Romanian speakers: the pattern is nearly the same — just remember to match verb number to subject number in Spanish."
+    },
+    {
+      "title": "Present Subjunctive for Rights and Obligations",
+      "content": "The present subjunctive is essential for discussing rights, duties, and legal situations in Spanish.\n\nFormation:\n- Start with yo form of present indicative\n- Remove -o\n- Add opposite vowel endings\n\nFor -AR verbs (cumplir, pagar, firmar):\n  yo form: cumplo → cump- → cumppla, cumpplas, cumppla, cumpplamos, cumpplais, cumpplan\n\nFor -ER/-IR verbs (exigir, votar, denunciar):\n  yo form: exigo → exig- → exija, exijas, exija, exijamos, exijais, exijan\n\nKey expressions with subjunctive:\n\n1. ES NECESARIO QUE — It's necessary that\n   - Es necesario que los ciudadanos cumplan la ley. (It's necessary that citizens comply with the law.)\n   - Es necesario que presente los documentos. (It's necessary that you submit the documents.)\n\n2. ES OBLIGATORIO QUE — It's mandatory that\n   - Es obligatorio que todos paguen los impuestos. (It's mandatory that everyone pays taxes.)\n   - Es obligatorio que firme el contrato. (It's mandatory that you sign the contract.)\n\n3. TIENE DERECHO A QUE — Has the right to\n   - Todo ciudadano tiene derecho a que se le trate con respeto. (Every citizen has the right to be treated with respect.)\n   - Tiene derecho a que le expliquen sus derechos. (You have the right to have your rights explained to you.)\n\n4. SE ESTABLECE QUE — It's established that\n   - La constitución establece que todos tienen derecho a la educación. (The constitution establishes that everyone has the right to education.)\n\n5. ES IMPORTANTE QUE — It's important that\n   - Es importante que informarse sobre sus derechos. (It's important to get informed about your rights.)\n\nIrregular subjunctive forms you need:\n  ser → sea, seas, sea, seamos, seáis, sean\n  estar → esté, estés, esté, estemos, estéis, estén\n  haber → haya, hayas, haya, hayamos, hayáis, hayan\n  tener → tenga, tengas, tenga, tengamos, tengáis, tengan\n  ir → vaya, vayas, vaya, vayamos, vayáis, vayan",
+      "examples": [
+        "Es necesario que los ciudadanos respeten las leyes. (It's necessary that citizens respect the laws.)",
+        "Todo ciudadano tiene derecho a que le den información. (Every citizen has the right to be given information.)",
+        "Es obligatorio que firme todos los documentos. (It's mandatory that you sign all the documents.)",
+        "La constitución garantiza que se protejan los derechos. (The constitution guarantees that rights are protected.)",
+        "Es importante que se cumplan los plazos. (It's important that deadlines are met.)",
+        "Todos tienen derecho a que se les escuche. (Everyone has the right to be heard.)"
+      ],
+      "aid_note": "Romanian uses 'să + conjugated verb' for subjunctive, just like Spanish uses subjunctive after 'es necesario que': 'Es necesario que cumpla' = 'Este necesar să cumpăr.' Spanish subjunctive endings (-a for -AR verbs, -a for -ER/-IR verbs) correspond roughly to Romanian subjunctive forms. Key difference: Spanish subjunctive is triggered by specific expressions of necessity, rights, and obligation, just like Romanian 'să' after similar expressions."
     },
     {
       "title": "Quedar — Making Plans and Arranging Meetings",
@@ -137,14 +834,16 @@
       ]
     },
     {
-      "title": "Describing People and Relationships — Adjectives and Expressions",
-      "content": "Spanish has many adjectives for describing personality traits and relationship qualities. These often need to agree in gender and number:\\n\\n1. POSITIVE TRAITS:\\nSincero/a — sincere\\nGeneroso/a — generous\\nSimpatico/a — nice/pleasant\\nAmistoso/a — friendly\\nSociable — sociable\\nLeal — loyal\\nResponsable — responsible\\nTrabajador/a — hardworking\\nDiverso/a — fun/entertaining\\nComprensivo/a — understanding\\n\\n2. NEGATIVE TRAITS:\\nCeloso/a — jealous\\nPerezoso/a — lazy\\nEgoista — selfish\\nTacaño/a — stingy\\nMentiroso/a — liar\\nArrogante — arrogant\\n\\n3. RELATIONSHIP STATUS:\\nSoltero/a — single\\nComprometido/a — engaged\\nCasado/a — married\\nDivorciado/a — divorced\\nSeparado/a — separated\\nViudo/a — widowed\\n\\n4. AGREEMENT RULES:\\nAdjectives must match the gender and number of the noun they describe:\\nMi amigo es simpatico. (My friend is nice — masculine)\\nMi amiga es simpatica. (My friend is nice — feminine)\\nMis amigos son simpaticos. (My friends are nice — masculine plural)\\nMis amigas son simpaticas. (My friends are nice — feminine plural)\\n\\n5. USING MUCHO/POCO:\\nEs muy simpatico. (He is very nice.)\\nEs bastante generoso. (He is quite generous.)\\nEs poco sociable. (He is not very sociable.)\\nEs demasiado celoso. (He is too jealous.)",
+      "title": "Reflexive Verbs — Nature Activities and Daily Routines",
+      "content": "Reflexive verbs are used for activities done to oneself, including daily routines and nature-related activities.\n\nFormation: reflexive pronoun + conjugated verb\nMe (I) - Te (you informal) - Se (he/she/you formal)\nNos (we) - Os (you all — Spain) - Se (they/you all)\n\nCommon nature and activity reflexive verbs:\n- levantarse (to get up) — Me levanto temprano para caminar.\n- acostarse (to go to bed) — Me acuesto tarde cuando hago senderismo.\n- divertirse (to have fun) — Nos divertimos en la playa. (e→ie stem change)\n- relajarse (to relax) — Me relajo en el bosque.\n- preparar (se) (to prepare oneself) — Nos preparamos para la excursión.\n- bañarse (to swim / bathe) — Se baña en el lago.\n- descalzarse (to take off one's shoes) — Me descalzo en la playa.\n\nStem-changing reflexive verbs:\n- e → ie: divertirse (me divierto, te diviertes, se divierte, nos divertimos)\n- o → ue: acostarse (me acuesto, te acuestas, se acuesta, nos acostamos)\n\nPosition of reflexive pronouns:\n1. Before conjugated verb: Me levanto temprano.\n2. Attached to infinitive: Voy a bañarme.\n3. Attached to gerund: Estoy relajándome.\n\nExamples:\n- Los domingos nos levantamos temprano para acampar. (On Sundays we get up early to camp.)\n- Me gusta bañarme en el río cuando hace calor. (I like to swim in the river when it's hot.)\n- En vacaciones nos divertimos mucho en la playa. (On vacation we have a lot of fun at the beach.)\n- Se bañó en el lago ayer. (He/she swam in the lake yesterday.)",
       "examples": [
-        "Mi mejor amigo es muy sincero y generoso. (My best friend is very sincere and generous.)",
-        "Ella es una persona muy sociable y divertida. (She is a very sociable and fun person.)",
-        "Son solteros y disfrutan de su libertad. (They are single and enjoy their freedom.)",
-        "Mi hermano es un poco celoso, pero es muy leal. (My brother is a bit jealous, but he is very loyal.)"
-      ]
+        "Los sábados me levanto temprano para hacer senderismo. (On Saturdays I get up early to go hiking.)",
+        "Nos divertimos mucho en el parque natural. (We have a lot of fun at the nature park.)",
+        "Mi familia se acuesta tarde en verano. (My family goes to bed late in summer.)",
+        "¿Te relajas en la playa? (Do you relax at the beach?)",
+        "Ellos se bañaron en el mar ayer. (They swam in the sea yesterday.)"
+      ],
+      "aid_note": "Romanian reflexive verbs use the particle 'se' attached to the verb: 'mă trezesc' (I wake up), 'ne distram' (we have fun). This is very similar to Spanish. The key differences: 1) Spanish can attach the reflexive pronoun to infinitives and gerunds (me levanto = voy a levantarme), which Romanian doesn't do the same way. 2) Spanish reflexive verbs often have stem changes (divertirse: e→ie). The concept is the same — actions done to oneself. For Romanian speakers: divertirse = 'ne distram', bañarse = 'ne scăldăm', levantarse = 'ne trezim'."
     }
   ],
   "pronunciation": [
@@ -152,24 +851,60 @@
       "title": "Relationship Vocabulary — Key Sounds and Stress",
       "content": "Spanish pronunciation in relationship contexts:\\n\\n1. THE LETTER 'Ñ' (eñe) — unique Spanish sound:\\n- amigo NO es 'amigno' — it's a-mi-go (with soft g like 'h')\\n- amigo NO tiene 'ñ' — the 'ñ' sound is like 'ny' in 'onion'\\n- words with ñ: amigo (no ñ), hermano (has ñ) -> her-MAH-no\\n\\n2. STRESS IN RELATIONSHIP WORDS:\\n- rela-cion (stress on last syllable: re-la-CEON)\\n- amigo (stress on last syllable: a-MI-go)\\n- novio (stress on last syllable: NO-vyo)\\n- novia (stress on first syllable: NO-vya)\\n- pareja (stress on second syllable: pa-RE-ha)\\n\\n3. THE 'G' SOUND (hard vs soft):\\nHard G (like English 'g'): gusto, gente, regalo\\nSoft G (like English 'h'): amigo, amigo, ligero, enemigo\\n\\n4. THE 'LL' AND 'Y' SOUND (yeísmo):\\nIn most Spanish dialects, ll and y sound the same:\\n- llama -> YAH-ma\\n- yo -> yoh\\n- llamar -> yah-MAHR\\n- llamar -> to call\\n\\n5. COMMON PHRASES — FULL SENTENCES:\\n- Me llamo Carlos y soy de Mexico. -> meh YAH-moh KAH-lohs y soys deh meh-KSEE-koh\\n- Quiero mucho a mi familia. -> KYEH-ro MOO-choh ah mee fah-MEE-lyah\\n- Nos vemos mañana. -> nohs BEH-moh mah-nyAH-nah",
       "examples": [
-        {"target": "amigo", "source": "ah-MEE-go — stress on second syllable"},
-        {"target": "relación", "source": "reh-lah-see-OWN — stress on last syllable, accent on ó"},
-        {"target": "pareja", "source": "pah-REH-hah — j sounds like English 'h'"},
-        {"target": "querer", "source": "keh-REHR — q always followed by u"},
-        {"target": "enamorarse", "source": "eh-nah-moh-RAHR-seh — stress on third syllable"},
-        {"target": "sinceramente", "source": "sin-seh-RAH-men-teh — five syllables"},
-        {"target": "disfrutar", "source": "dees-froo-TAHR — stress on third syllable"},
-        {"target": "compañeros", "source": "com-pah-YEH-rohs — ñ = ny sound"}
+        {
+          "target": "amigo",
+          "source": "ah-MEE-go — stress on second syllable"
+        },
+        {
+          "target": "relación",
+          "source": "reh-lah-see-OWN — stress on last syllable, accent on ó"
+        },
+        {
+          "target": "pareja",
+          "source": "pah-REH-hah — j sounds like English 'h'"
+        },
+        {
+          "target": "querer",
+          "source": "keh-REHR — q always followed by u"
+        },
+        {
+          "target": "enamorarse",
+          "source": "eh-nah-moh-RAHR-seh — stress on third syllable"
+        },
+        {
+          "target": "sinceramente",
+          "source": "sin-seh-RAH-men-teh — five syllables"
+        },
+        {
+          "target": "disfrutar",
+          "source": "dees-froo-TAHR — stress on third syllable"
+        },
+        {
+          "target": "compañeros",
+          "source": "com-pah-YEH-rohs — ñ = ny sound"
+        }
       ]
     },
     {
       "title": "Intonation in Questions About Relationships",
       "content": "Spanish questions about relationships follow specific intonation patterns:\\n\\n1. YES/NO QUESTIONS (rising intonation):\\n¿Conoces a Maria? (Do you know Maria?) — voice goes up at the end\\n¿Salen juntos? (Do they go out together?) — voice goes up at the end\\n¿Están comprometidos? (Are they engaged?) — voice goes up at the end\\n\\n2. QUESTIONS WITH QUESTION WORDS (falling intonation):\\n¿Quién es tu mejor amigo? (Who is your best friend?) — voice falls at the end\\n¿Dónde quedan? (Where do they meet?) — voice falls at the end\\n¿Cuándo se conocieron? (When did they meet?) — voice falls at the end\\n¿Por qué se pelearon? (Why did they fight?) — voice falls at the end\\n\\n3. EXPRESSING EMOTION IN SPEECH:\\n- When expressing love: softer tone, slower pace\\n- When talking about a fight: sharper, faster pace\\n- When asking about someone: curious, rising intonation\\n\\n4. COMMON QUESTION PATTERNS:\\n¿Cómo se llaman? (What are their names?)\\n¿De dónde son? (Where are they from?)\\n¿Desde cuándo se conocen? (How long have they known each other?)",
       "examples": [
-        {"target": "¿Conoces a tu pareja?", "source": "Do you know your partner? (rising intonation)"},
-        {"target": "¿Quién es tu amigo favorito?", "source": "Who is your favorite friend? (falling intonation)"},
-        {"target": "¿Desde cuándo están juntos?", "source": "How long have they been together? (falling intonation)"},
-        {"target": "¿Por qué se pelearon?", "source": "Why did they fight? (falling intonation)"}
+        {
+          "target": "¿Conoces a tu pareja?",
+          "source": "Do you know your partner? (rising intonation)"
+        },
+        {
+          "target": "¿Quién es tu amigo favorito?",
+          "source": "Who is your favorite friend? (falling intonation)"
+        },
+        {
+          "target": "¿Desde cuándo están juntos?",
+          "source": "How long have they been together? (falling intonation)"
+        },
+        {
+          "target": "¿Por qué se pelearon?",
+          "source": "Why did they fight? (falling intonation)"
+        }
       ]
     }
   ],
@@ -177,7 +912,12 @@
     {
       "type": "multiple-choice",
       "question": "Which verb should you use for 'I know Maria' (I am familiar with Maria as a person)?",
-      "options": ["Sé Maria", "Conozco a Maria", "Soy Maria", "Estoy a Maria"],
+      "options": [
+        "Sé Maria",
+        "Conozco a Maria",
+        "Soy Maria",
+        "Estoy a Maria"
+      ],
       "correct": 1,
       "explanation": "Conocer is used for knowing people. Always use the personal 'a' before a specific person: 'Conozco a Maria.'"
     },
@@ -190,14 +930,24 @@
     {
       "type": "multiple-choice",
       "question": "How do you say 'We meet at eight' in Spanish?",
-      "options": ["Nos quedamos a las ocho", "Nos vamos a las ocho", "Nos sentimos a las ocho", "Nos conocemos a las ocho"],
+      "options": [
+        "Nos quedamos a las ocho",
+        "Nos vamos a las ocho",
+        "Nos sentimos a las ocho",
+        "Nos conocemos a las ocho"
+      ],
       "correct": 0,
       "explanation": "Quedamos = we meet up (from quedar). 'Quedamos a las ocho' = We meet at eight o'clock."
     },
     {
       "type": "multiple-choice",
       "question": "Which adjective means 'friendly' in Spanish?",
-      "options": ["Celoso", "Simpático", "Amistoso", "Responsable"],
+      "options": [
+        "Celoso",
+        "Simpático",
+        "Amistoso",
+        "Responsable"
+      ],
       "correct": 2,
       "explanation": "Amistoso/a = friendly. Celoso = jealous, simpático = nice/pleasant, responsable = responsible."
     },
@@ -210,7 +960,12 @@
     {
       "type": "multiple-choice",
       "question": "What does 'soltero/a' mean?",
-      "options": ["married", "engaged", "single", "divorced"],
+      "options": [
+        "married",
+        "engaged",
+        "single",
+        "divorced"
+      ],
       "correct": 2,
       "explanation": "Soltero/a = single. Married = casado/a, engaged = comprometido/a, divorced = divorciado/a."
     },
@@ -223,7 +978,12 @@
     {
       "type": "multiple-choice",
       "question": "Which sentence is correct for 'I worry about my children'?",
-      "options": ["Me preocupo por mis hijos", "Me preocupo a mis hijos", "Me preocupo de mis hijos", "Me preocupan mis hijos"],
+      "options": [
+        "Me preocupo por mis hijos",
+        "Me preocupo a mis hijos",
+        "Me preocupo de mis hijos",
+        "Me preocupan mis hijos"
+      ],
       "correct": 0,
       "explanation": "Preocuparse de/con + por = to worry about. 'Me preocupo por mis hijos' = I worry about my children."
     },
@@ -236,7 +996,12 @@
     {
       "type": "multiple-choice",
       "question": "Which is correct for 'Do you know how to swim?'",
-      "options": ["¿Conoces nadar?", "¿Sabes nadar?", "¿Soy nadar?", "¿Estás nadar?"],
+      "options": [
+        "¿Conoces nadar?",
+        "¿Sabes nadar?",
+        "¿Soy nadar?",
+        "¿Estás nadar?"
+      ],
       "correct": 1,
       "explanation": "Saber + infinitive = to know how to do something. '¿Sabes nadar?' = Do you know how to swim?"
     },
@@ -249,7 +1014,12 @@
     {
       "type": "multiple-choice",
       "question": "Which is correct for 'They are engaged'?",
-      "options": ["Están solteros", "Están comprometidos", "Están divorciados", "Están separados"],
+      "options": [
+        "Están solteros",
+        "Están comprometidos",
+        "Están divorciados",
+        "Están separados"
+      ],
       "correct": 1,
       "explanation": "Comprometido/a = engaged. 'Están comprometidos' = They are engaged (masculine or mixed group)."
     },
@@ -262,7 +1032,12 @@
     {
       "type": "multiple-choice",
       "question": "How do you say 'My best friend is very sincere' in Spanish?",
-      "options": ["Mi mejor amigo es muy sincero", "Mi mejor amigo es muy sincera", "Mi mejor amiga es muy sincero", "Mejor amigo es muy sincero"],
+      "options": [
+        "Mi mejor amigo es muy sincero",
+        "Mi mejor amigo es muy sincera",
+        "Mi mejor amiga es muy sincero",
+        "Mejor amigo es muy sincero"
+      ],
       "correct": 0,
       "explanation": "The adjective must match the noun. 'Amigo' is masculine, so 'sincero' (not 'sincera'). 'Mi mejor amigo es muy sincero.'"
     },

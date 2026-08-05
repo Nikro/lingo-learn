@@ -4,106 +4,706 @@
   "title": "Indefinite Expressions",
   "description": "Learn algo, alguien, alguno, nada, nadie, nunca, siempre and other indefinite expressions in Spanish.",
   "vocabulary": [
-    {"id": 1, "target": "algo", "source": "something/anything", "gender": "pron", "type": "indefinite"},
-    {"id": 2, "target": "alguien", "source": "someone/somebody", "gender": "pron", "type": "indefinite"},
-    {"id": 3, "target": "alguno", "source": "some/any (masc)", "gender": "adj", "type": "indefinite"},
-    {"id": 4, "target": "algunos", "source": "some (masc pl)", "gender": "adj", "type": "indefinite"},
-    {"id": 5, "target": "alguna", "source": "some/any (fem)", "gender": "adj", "type": "indefinite"},
-    {"id": 6, "target": "algunas", "source": "some (fem pl)", "gender": "adj", "type": "indefinite"},
-    {"id": 7, "target": "nada", "source": "nothing/anything", "gender": "pron", "type": "indefinite"},
-    {"id": 8, "target": "nadie", "source": "no one/nobody", "gender": "pron", "type": "indefinite"},
-    {"id": 9, "target": "ninguno", "source": "none/no one (masc)", "gender": "adj", "type": "indefinite"},
-    {"id": 10, "target": "ningun", "source": "no/not any (masc before noun)", "gender": "adj", "type": "indefinite"},
-    {"id": 11, "target": "ninguna", "source": "none/no one (fem)", "gender": "adj", "type": "indefinite"},
-    {"id": 12, "target": "todo", "source": "all/every/everything", "gender": "adj/pron", "type": "indefinite"},
-    {"id": 13, "target": "todos", "source": "all/everyone (masc)", "gender": "adj/pron", "type": "indefinite"},
-    {"id": 14, "target": "toda", "source": "all/every (fem)", "gender": "adj/pron", "type": "indefinite"},
-    {"id": 15, "target": "todas", "source": "all (fem pl)", "gender": "adj/pron", "type": "indefinite"},
-    {"id": 16, "target": "siempre", "source": "always", "gender": "adv", "type": "time"},
-    {"id": 17, "target": "nunca", "source": "never", "gender": "adv", "type": "time"},
-    {"id": 18, "target": "jamas", "source": "never/ever", "gender": "adv", "type": "time"},
-    {"id": 19, "target": "ya", "source": "already/yet", "gender": "adv", "type": "time"},
-    {"id": 20, "target": "aun", "source": "still/yet", "gender": "adv", "type": "time"},
-    {"id": 21, "target": "tambien", "source": "also/too", "gender": "adv", "type": "adverb"},
-    {"id": 22, "target": "tampoco", "source": "neither/not either", "gender": "adv", "type": "adverb"},
-    {"id": 23, "target": "solamente", "source": "only/just", "gender": "adv", "type": "adverb"},
-    {"id": 24, "target": "solamente", "source": "only", "gender": "adv", "type": "adverb"},
-    {"id": 25, "target": "solo", "source": "only/just", "gender": "adv", "type": "adverb"},
-    {"id": 26, "target": "solamente", "source": "only", "gender": "adv", "type": "adverb"},
-    {"id": 27, "target": "solamente", "source": "just", "gender": "adv", "type": "adverb"},
-    {"id": 28, "target": "cada", "source": "each/every", "gender": "adj", "type": "indefinite"},
-    {"id": 29, "target": "cualquiera", "source": "any/whoever", "gender": "pron", "type": "indefinite"},
-    {"id": 30, "target": "cualquier", "source": "any (before noun)", "gender": "adj", "type": "indefinite"},
-    {"id": 31, "target": "demas", "source": "the rest/others", "gender": "pron", "type": "indefinite"},
-    {"id": 32, "target": "los demas", "source": "the others/the rest", "gender": "pron", "type": "indefinite"},
-    {"id": 33, "target": "otro", "source": "another/other", "gender": "adj", "type": "indefinite"},
-    {"id": 34, "target": "otra", "source": "another/other (fem)", "gender": "adj", "type": "indefinite"},
-    {"id": 35, "target": "otros", "source": "others (masc)", "gender": "adj", "type": "indefinite"},
-    {"id": 36, "target": "otras", "source": "others (fem)", "gender": "adj", "type": "indefinite"},
-    {"id": 37, "target": "mucho", "source": "much/a lot", "gender": "adj", "type": "quantity"},
-    {"id": 38, "target": "mucha", "source": "much/a lot (fem)", "gender": "adj", "type": "quantity"},
-    {"id": 39, "target": "muchos", "source": "many (masc)", "gender": "adj", "type": "quantity"},
-    {"id": 40, "target": "muchas", "source": "many (fem)", "gender": "adj", "type": "quantity"},
-    {"id": 41, "target": "poco", "source": "little/few", "gender": "adj", "type": "quantity"},
-    {"id": 42, "target": "poca", "source": "little/few (fem)", "gender": "adj", "type": "quantity"},
-    {"id": 43, "target": "pocos", "source": "few (masc)", "gender": "adj", "type": "quantity"},
-    {"id": 44, "target": "pocas", "source": "few (fem)", "gender": "adj", "type": "quantity"},
-    {"id": 45, "target": "bastante", "source": "enough/quite", "gender": "adj", "type": "quantity"},
-    {"id": 46, "target": "bastantes", "source": "enough (pl)", "gender": "adj", "type": "quantity"},
-    {"id": 47, "target": "demasiado", "source": "too much", "gender": "adj", "type": "quantity"},
-    {"id": 48, "target": "demasiada", "source": "too much (fem)", "gender": "adj", "type": "quantity"},
-    {"id": 49, "target": "mas", "source": "more", "gender": "adj/adv", "type": "quantity"},
-    {"id": 50, "target": "menos", "source": "less/fewer", "gender": "adj/adv", "type": "quantity"},
-    {"id": 51, "target": "tanto", "source": "so much", "gender": "adj", "type": "quantity"},
-    {"id": 52, "target": "tanta", "source": "so much (fem)", "gender": "adj", "type": "quantity"},
-    {"id": 53, "target": "tantos", "source": "so many (masc)", "gender": "adj", "type": "quantity"},
-    {"id": 54, "target": "tantas", "source": "so many (fem)", "gender": "adj", "type": "quantity"},
-    {"id": 55, "target": "alguien mas", "source": "someone else", "gender": "pron", "type": "phrase"},
-    {"id": 56, "target": "nadie mas", "source": "no one else", "gender": "pron", "type": "phrase"},
-    {"id": 57, "target": "algo mas", "source": "something else", "gender": "pron", "type": "phrase"},
-    {"id": 58, "target": "nada mas", "source": "nothing else/only", "gender": "pron", "type": "phrase"},
-    {"id": 59, "target": "todo el mundo", "source": "everyone/everybody", "gender": "pron", "type": "phrase"},
-    {"id": 60, "target": "todas las personas", "source": "all the people", "gender": "pron", "type": "phrase"},
-    {"id": 61, "target": "a veces", "source": "sometimes", "gender": "adv", "type": "time"},
-    {"id": 62, "target": "de vez en cuando", "source": "from time to time", "gender": "adv", "type": "time"},
-    {"id": 63, "target": "casi siempre", "source": "almost always", "gender": "adv", "type": "time"},
-    {"id": 64, "target": "casi nunca", "source": "almost never", "gender": "adv", "type": "time"},
-    {"id": 65, "target": "una vez", "source": "once/one time", "gender": "adv", "type": "time"},
-    {"id": 66, "target": "dos veces", "source": "twice/two times", "gender": "adv", "type": "time"},
-    {"id": 67, "target": "tres veces", "source": "three times", "gender": "adv", "type": "time"},
-    {"id": 68, "target": "la mayoria", "source": "the majority/most", "gender": "pron", "type": "quantity"},
-    {"id": 69, "target": "la mayoria de", "source": "most of", "gender": "pron", "type": "quantity"},
-    {"id": 70, "target": "un poco", "source": "a little", "gender": "m", "type": "phrase"},
-    {"id": 71, "target": "un poco de", "source": "a little bit of", "gender": "m", "type": "phrase"},
-    {"id": 72, "target": "un monton", "source": "a lot/ton", "gender": "m", "type": "phrase"},
-    {"id": 73, "target": "un monton de", "source": "a lot of", "gender": "m", "type": "phrase"},
-    {"id": 74, "target": "la mitad", "source": "half", "gender": "f", "type": "quantity"},
-    {"id": 75, "target": "la mayoria de", "source": "most of", "gender": "f", "type": "phrase"},
-    {"id": 76, "target": "menos de", "source": "less than/fewer than", "gender": "adv", "type": "phrase"},
-    {"id": 77, "target": "mas de", "source": "more than", "gender": "adv", "type": "phrase"},
-    {"id": 78, "target": "cerca de", "source": "about/approximately", "gender": "adv", "type": "phrase"},
-    {"id": 79, "target": "alrededor de", "source": "around/about", "gender": "adv", "type": "phrase"},
-    {"id": 80, "target": "aproximadamente", "source": "approximately", "gender": "adv", "type": "adverb"},
-    {"id": 81, "target": "exactamente", "source": "exactly", "gender": "adv", "type": "adverb"},
-    {"id": 82, "target": "solamente", "source": "only/just", "gender": "adv", "type": "adverb"},
-    {"id": 83, "target": "solamente", "source": "only", "gender": "adv", "type": "adverb"},
-    {"id": 84, "target": "ni", "source": "neither/nor/not even", "gender": "conj", "type": "conjunction"},
-    {"id": 85, "target": "ni uno", "source": "not one/none", "gender": "pron", "type": "phrase"},
-    {"id": 86, "target": "quizas", "source": "perhaps/maybe", "gender": "adv", "type": "adverb"},
-    {"id": 87, "target": "quizas", "source": "perhaps", "gender": "adv", "type": "adverb"},
-    {"id": 88, "target": "tal vez", "source": "perhaps/maybe", "gender": "adv", "type": "adverb"},
-    {"id": 89, "target": "probablemente", "source": "probably", "gender": "adv", "type": "adverb"},
-    {"id": 90, "target": "es posible que", "source": "it's possible that", "gender": "phrase", "type": "expression"},
-    {"id": 91, "target": "es probable que", "source": "it's probable that", "gender": "phrase", "type": "expression"},
-    {"id": 92, "target": "es verdad que", "source": "it's true that", "gender": "phrase", "type": "expression"},
-    {"id": 93, "target": "no es verdad que", "source": "it's not true that", "gender": "phrase", "type": "expression"},
-    {"id": 94, "target": "parece que", "source": "it seems that", "gender": "phrase", "type": "expression"},
-    {"id": 95, "target": "es evidente que", "source": "it's evident that", "gender": "phrase", "type": "expression"},
-    {"id": 96, "target": "sin duda", "source": "without doubt", "gender": "phrase", "type": "expression"},
-    {"id": 97, "target": "por supuesto", "source": "of course", "gender": "phrase", "type": "expression"},
-    {"id": 98, "target": "desde luego", "source": "of course/certainly", "gender": "phrase", "type": "expression"},
-    {"id": 99, "target": "en general", "source": "in general", "gender": "phrase", "type": "expression"},
-    {"id": 100, "target": "por lo general", "source": "generally/usually", "gender": "phrase", "type": "expression"}
+    {
+      "id": 1,
+      "target": "algo",
+      "source": "something/anything",
+      "gender": "pron",
+      "type": "indefinite"
+    },
+    {
+      "id": 2,
+      "target": "alguien",
+      "source": "someone/somebody",
+      "gender": "pron",
+      "type": "indefinite"
+    },
+    {
+      "id": 3,
+      "target": "alguno",
+      "source": "some/any (masc)",
+      "gender": "adj",
+      "type": "indefinite"
+    },
+    {
+      "id": 4,
+      "target": "algunos",
+      "source": "some (masc pl)",
+      "gender": "adj",
+      "type": "indefinite"
+    },
+    {
+      "id": 5,
+      "target": "alguna",
+      "source": "some/any (fem)",
+      "gender": "adj",
+      "type": "indefinite"
+    },
+    {
+      "id": 6,
+      "target": "algunas",
+      "source": "some (fem pl)",
+      "gender": "adj",
+      "type": "indefinite"
+    },
+    {
+      "id": 7,
+      "target": "nada",
+      "source": "nothing/anything",
+      "gender": "pron",
+      "type": "indefinite"
+    },
+    {
+      "id": 8,
+      "target": "nadie",
+      "source": "no one/nobody",
+      "gender": "pron",
+      "type": "indefinite"
+    },
+    {
+      "id": 9,
+      "target": "ninguno",
+      "source": "none/no one (masc)",
+      "gender": "adj",
+      "type": "indefinite"
+    },
+    {
+      "id": 10,
+      "target": "ningun",
+      "source": "no/not any (masc before noun)",
+      "gender": "adj",
+      "type": "indefinite"
+    },
+    {
+      "id": 11,
+      "target": "ninguna",
+      "source": "none/no one (fem)",
+      "gender": "adj",
+      "type": "indefinite"
+    },
+    {
+      "id": 12,
+      "target": "todo",
+      "source": "all/every/everything",
+      "gender": "adj/pron",
+      "type": "indefinite"
+    },
+    {
+      "id": 13,
+      "target": "todos",
+      "source": "all/everyone (masc)",
+      "gender": "adj/pron",
+      "type": "indefinite"
+    },
+    {
+      "id": 14,
+      "target": "toda",
+      "source": "all/every (fem)",
+      "gender": "adj/pron",
+      "type": "indefinite"
+    },
+    {
+      "id": 15,
+      "target": "todas",
+      "source": "all (fem pl)",
+      "gender": "adj/pron",
+      "type": "indefinite"
+    },
+    {
+      "id": 16,
+      "target": "siempre",
+      "source": "always",
+      "gender": "adv",
+      "type": "time"
+    },
+    {
+      "id": 17,
+      "target": "nunca",
+      "source": "never",
+      "gender": "adv",
+      "type": "time"
+    },
+    {
+      "id": 18,
+      "target": "jamas",
+      "source": "never/ever",
+      "gender": "adv",
+      "type": "time"
+    },
+    {
+      "id": 19,
+      "target": "ya",
+      "source": "already/yet",
+      "gender": "adv",
+      "type": "time"
+    },
+    {
+      "id": 20,
+      "target": "aun",
+      "source": "still/yet",
+      "gender": "adv",
+      "type": "time"
+    },
+    {
+      "id": 21,
+      "target": "tambien",
+      "source": "also/too",
+      "gender": "adv",
+      "type": "adverb"
+    },
+    {
+      "id": 22,
+      "target": "tampoco",
+      "source": "neither/not either",
+      "gender": "adv",
+      "type": "adverb"
+    },
+    {
+      "id": 23,
+      "target": "solamente",
+      "source": "only/just",
+      "gender": "adv",
+      "type": "adverb"
+    },
+    {
+      "id": 24,
+      "target": "solamente",
+      "source": "only",
+      "gender": "adv",
+      "type": "adverb"
+    },
+    {
+      "id": 25,
+      "target": "solo",
+      "source": "only/just",
+      "gender": "adv",
+      "type": "adverb"
+    },
+    {
+      "id": 26,
+      "target": "solamente",
+      "source": "only",
+      "gender": "adv",
+      "type": "adverb"
+    },
+    {
+      "id": 27,
+      "target": "solamente",
+      "source": "just",
+      "gender": "adv",
+      "type": "adverb"
+    },
+    {
+      "id": 28,
+      "target": "cada",
+      "source": "each/every",
+      "gender": "adj",
+      "type": "indefinite"
+    },
+    {
+      "id": 29,
+      "target": "cualquiera",
+      "source": "any/whoever",
+      "gender": "pron",
+      "type": "indefinite"
+    },
+    {
+      "id": 30,
+      "target": "cualquier",
+      "source": "any (before noun)",
+      "gender": "adj",
+      "type": "indefinite"
+    },
+    {
+      "id": 31,
+      "target": "demas",
+      "source": "the rest/others",
+      "gender": "pron",
+      "type": "indefinite"
+    },
+    {
+      "id": 32,
+      "target": "los demas",
+      "source": "the others/the rest",
+      "gender": "pron",
+      "type": "indefinite"
+    },
+    {
+      "id": 33,
+      "target": "otro",
+      "source": "another/other",
+      "gender": "adj",
+      "type": "indefinite"
+    },
+    {
+      "id": 34,
+      "target": "otra",
+      "source": "another/other (fem)",
+      "gender": "adj",
+      "type": "indefinite"
+    },
+    {
+      "id": 35,
+      "target": "otros",
+      "source": "others (masc)",
+      "gender": "adj",
+      "type": "indefinite"
+    },
+    {
+      "id": 36,
+      "target": "otras",
+      "source": "others (fem)",
+      "gender": "adj",
+      "type": "indefinite"
+    },
+    {
+      "id": 37,
+      "target": "mucho",
+      "source": "much/a lot",
+      "gender": "adj",
+      "type": "quantity"
+    },
+    {
+      "id": 38,
+      "target": "mucha",
+      "source": "much/a lot (fem)",
+      "gender": "adj",
+      "type": "quantity"
+    },
+    {
+      "id": 39,
+      "target": "muchos",
+      "source": "many (masc)",
+      "gender": "adj",
+      "type": "quantity"
+    },
+    {
+      "id": 40,
+      "target": "muchas",
+      "source": "many (fem)",
+      "gender": "adj",
+      "type": "quantity"
+    },
+    {
+      "id": 41,
+      "target": "poco",
+      "source": "little/few",
+      "gender": "adj",
+      "type": "quantity"
+    },
+    {
+      "id": 42,
+      "target": "poca",
+      "source": "little/few (fem)",
+      "gender": "adj",
+      "type": "quantity"
+    },
+    {
+      "id": 43,
+      "target": "pocos",
+      "source": "few (masc)",
+      "gender": "adj",
+      "type": "quantity"
+    },
+    {
+      "id": 44,
+      "target": "pocas",
+      "source": "few (fem)",
+      "gender": "adj",
+      "type": "quantity"
+    },
+    {
+      "id": 45,
+      "target": "bastante",
+      "source": "enough/quite",
+      "gender": "adj",
+      "type": "quantity"
+    },
+    {
+      "id": 46,
+      "target": "bastantes",
+      "source": "enough (pl)",
+      "gender": "adj",
+      "type": "quantity"
+    },
+    {
+      "id": 47,
+      "target": "demasiado",
+      "source": "too much",
+      "gender": "adj",
+      "type": "quantity"
+    },
+    {
+      "id": 48,
+      "target": "demasiada",
+      "source": "too much (fem)",
+      "gender": "adj",
+      "type": "quantity"
+    },
+    {
+      "id": 49,
+      "target": "mas",
+      "source": "more",
+      "gender": "adj/adv",
+      "type": "quantity"
+    },
+    {
+      "id": 50,
+      "target": "menos",
+      "source": "less/fewer",
+      "gender": "adj/adv",
+      "type": "quantity"
+    },
+    {
+      "id": 51,
+      "target": "tanto",
+      "source": "so much",
+      "gender": "adj",
+      "type": "quantity"
+    },
+    {
+      "id": 52,
+      "target": "tanta",
+      "source": "so much (fem)",
+      "gender": "adj",
+      "type": "quantity"
+    },
+    {
+      "id": 53,
+      "target": "tantos",
+      "source": "so many (masc)",
+      "gender": "adj",
+      "type": "quantity"
+    },
+    {
+      "id": 54,
+      "target": "tantas",
+      "source": "so many (fem)",
+      "gender": "adj",
+      "type": "quantity"
+    },
+    {
+      "id": 55,
+      "target": "alguien mas",
+      "source": "someone else",
+      "gender": "pron",
+      "type": "phrase"
+    },
+    {
+      "id": 56,
+      "target": "nadie mas",
+      "source": "no one else",
+      "gender": "pron",
+      "type": "phrase"
+    },
+    {
+      "id": 57,
+      "target": "algo mas",
+      "source": "something else",
+      "gender": "pron",
+      "type": "phrase"
+    },
+    {
+      "id": 58,
+      "target": "nada mas",
+      "source": "nothing else/only",
+      "gender": "pron",
+      "type": "phrase"
+    },
+    {
+      "id": 59,
+      "target": "todo el mundo",
+      "source": "everyone/everybody",
+      "gender": "pron",
+      "type": "phrase"
+    },
+    {
+      "id": 60,
+      "target": "todas las personas",
+      "source": "all the people",
+      "gender": "pron",
+      "type": "phrase"
+    },
+    {
+      "id": 61,
+      "target": "a veces",
+      "source": "sometimes",
+      "gender": "adv",
+      "type": "time"
+    },
+    {
+      "id": 62,
+      "target": "de vez en cuando",
+      "source": "from time to time",
+      "gender": "adv",
+      "type": "time"
+    },
+    {
+      "id": 63,
+      "target": "casi siempre",
+      "source": "almost always",
+      "gender": "adv",
+      "type": "time"
+    },
+    {
+      "id": 64,
+      "target": "casi nunca",
+      "source": "almost never",
+      "gender": "adv",
+      "type": "time"
+    },
+    {
+      "id": 65,
+      "target": "una vez",
+      "source": "once/one time",
+      "gender": "adv",
+      "type": "time"
+    },
+    {
+      "id": 66,
+      "target": "dos veces",
+      "source": "twice/two times",
+      "gender": "adv",
+      "type": "time"
+    },
+    {
+      "id": 67,
+      "target": "tres veces",
+      "source": "three times",
+      "gender": "adv",
+      "type": "time"
+    },
+    {
+      "id": 68,
+      "target": "la mayoria",
+      "source": "the majority/most",
+      "gender": "pron",
+      "type": "quantity"
+    },
+    {
+      "id": 69,
+      "target": "la mayoria de",
+      "source": "most of",
+      "gender": "pron",
+      "type": "quantity"
+    },
+    {
+      "id": 70,
+      "target": "un poco",
+      "source": "a little",
+      "gender": "m",
+      "type": "phrase"
+    },
+    {
+      "id": 71,
+      "target": "un poco de",
+      "source": "a little bit of",
+      "gender": "m",
+      "type": "phrase"
+    },
+    {
+      "id": 72,
+      "target": "un monton",
+      "source": "a lot/ton",
+      "gender": "m",
+      "type": "phrase"
+    },
+    {
+      "id": 73,
+      "target": "un monton de",
+      "source": "a lot of",
+      "gender": "m",
+      "type": "phrase"
+    },
+    {
+      "id": 74,
+      "target": "la mitad",
+      "source": "half",
+      "gender": "f",
+      "type": "quantity"
+    },
+    {
+      "id": 75,
+      "target": "la mayoria de",
+      "source": "most of",
+      "gender": "f",
+      "type": "phrase"
+    },
+    {
+      "id": 76,
+      "target": "menos de",
+      "source": "less than/fewer than",
+      "gender": "adv",
+      "type": "phrase"
+    },
+    {
+      "id": 77,
+      "target": "mas de",
+      "source": "more than",
+      "gender": "adv",
+      "type": "phrase"
+    },
+    {
+      "id": 78,
+      "target": "cerca de",
+      "source": "about/approximately",
+      "gender": "adv",
+      "type": "phrase"
+    },
+    {
+      "id": 79,
+      "target": "alrededor de",
+      "source": "around/about",
+      "gender": "adv",
+      "type": "phrase"
+    },
+    {
+      "id": 80,
+      "target": "aproximadamente",
+      "source": "approximately",
+      "gender": "adv",
+      "type": "adverb"
+    },
+    {
+      "id": 81,
+      "target": "exactamente",
+      "source": "exactly",
+      "gender": "adv",
+      "type": "adverb"
+    },
+    {
+      "id": 82,
+      "target": "solamente",
+      "source": "only/just",
+      "gender": "adv",
+      "type": "adverb"
+    },
+    {
+      "id": 83,
+      "target": "solamente",
+      "source": "only",
+      "gender": "adv",
+      "type": "adverb"
+    },
+    {
+      "id": 84,
+      "target": "ni",
+      "source": "neither/nor/not even",
+      "gender": "conj",
+      "type": "conjunction"
+    },
+    {
+      "id": 85,
+      "target": "ni uno",
+      "source": "not one/none",
+      "gender": "pron",
+      "type": "phrase"
+    },
+    {
+      "id": 86,
+      "target": "quizas",
+      "source": "perhaps/maybe",
+      "gender": "adv",
+      "type": "adverb"
+    },
+    {
+      "id": 87,
+      "target": "quizas",
+      "source": "perhaps",
+      "gender": "adv",
+      "type": "adverb"
+    },
+    {
+      "id": 88,
+      "target": "tal vez",
+      "source": "perhaps/maybe",
+      "gender": "adv",
+      "type": "adverb"
+    },
+    {
+      "id": 89,
+      "target": "probablemente",
+      "source": "probably",
+      "gender": "adv",
+      "type": "adverb"
+    },
+    {
+      "id": 90,
+      "target": "es posible que",
+      "source": "it's possible that",
+      "gender": "phrase",
+      "type": "expression"
+    },
+    {
+      "id": 91,
+      "target": "es probable que",
+      "source": "it's probable that",
+      "gender": "phrase",
+      "type": "expression"
+    },
+    {
+      "id": 92,
+      "target": "es verdad que",
+      "source": "it's true that",
+      "gender": "phrase",
+      "type": "expression"
+    },
+    {
+      "id": 93,
+      "target": "no es verdad que",
+      "source": "it's not true that",
+      "gender": "phrase",
+      "type": "expression"
+    },
+    {
+      "id": 94,
+      "target": "parece que",
+      "source": "it seems that",
+      "gender": "phrase",
+      "type": "expression"
+    },
+    {
+      "id": 95,
+      "target": "es evidente que",
+      "source": "it's evident that",
+      "gender": "phrase",
+      "type": "expression"
+    },
+    {
+      "id": 96,
+      "target": "sin duda",
+      "source": "without doubt",
+      "gender": "phrase",
+      "type": "expression"
+    },
+    {
+      "id": 97,
+      "target": "por supuesto",
+      "source": "of course",
+      "gender": "phrase",
+      "type": "expression"
+    },
+    {
+      "id": 98,
+      "target": "desde luego",
+      "source": "of course/certainly",
+      "gender": "phrase",
+      "type": "expression"
+    },
+    {
+      "id": 99,
+      "target": "en general",
+      "source": "in general",
+      "gender": "phrase",
+      "type": "expression"
+    },
+    {
+      "id": 100,
+      "target": "por lo general",
+      "source": "generally/usually",
+      "gender": "phrase",
+      "type": "expression"
+    }
   ],
   "grammar": [
     {
@@ -115,6 +715,69 @@
         "Tengo algunas ideas. (I have some ideas.)",
         "Ningún problema, todo esta bien. (No problem, everything is fine.)"
       ]
+    },
+    {
+      "title": "Direct and Indirect Object Pronouns",
+      "content": "Object pronouns replace nouns to avoid repetition. There are two types.\n\nDirect Object Pronouns (replaces the DIRECT object — the person/thing directly affected by the verb):\n- me (me)\n- te (you, informal)\n- lo/la (him/her/it — masculine/feminine)\n- nos (us)\n- los/las (them — masculine/feminine)\n\nIndirect Object Pronouns (replaces the INDIRECT object — the person FOR WHOM the action is done):\n- me (to/for me)\n- te (to/for you, informal)\n- le (to/for him/her/you formal)\n- nos (to/for us)\n- les (to/for them/you formal plural)\n- os (to/for you plural, Spain informal)\n\nPronoun placement: BEFORE the conjugated verb, or attached to the END of an infinitive/gerund.\n\nExample: 'Veo la película' → 'La veo.' (I see the movie → I see it.)\n'Le doy el libro a María' → 'Le doy el libro.' (I give the book to María → I give her the book.)",
+      "table": {
+        "headers": [
+          "Pronoun",
+          "Type",
+          "English",
+          "Example"
+        ],
+        "rows": [
+          [
+            "me",
+            "Direct & Indirect",
+            "me / to me",
+            "Me veo. / Me da el libro."
+          ],
+          [
+            "te",
+            "Direct & Indirect",
+            "you / to you",
+            "Te veo. / Te da el libro."
+          ],
+          [
+            "lo/la",
+            "Direct",
+            "him/her/it",
+            "Lo veo. / La veo."
+          ],
+          [
+            "nos",
+            "Direct & Indirect",
+            "us / to us",
+            "Nos vemos. / Nos da el libro."
+          ],
+          [
+            "los/las",
+            "Direct",
+            "them (m/f)",
+            "Los veo. / Las veo."
+          ],
+          [
+            "le/les",
+            "Indirect",
+            "to him/her/them",
+            "Le doy el libro."
+          ],
+          [
+            "os",
+            "Direct & Indirect",
+            "you all (Spain)",
+            "Os veo. / Os da el libro."
+          ]
+        ]
+      },
+      "examples": [
+        "¿Ves a tu hermano? — Sí, lo veo. (Do you see your brother? — Yes, I see him.)",
+        "María me llama cada día. (María calls me every day.)",
+        "Le di un regalo a mi madre. (I gave a gift to my mother.)",
+        "¿Puedes ayudarme? (Can you help me?)"
+      ],
+      "aid_note": "Romanian has a similar system: 'mă/te/îl/îi/ne/vă/îi' for object pronouns. The Spanish lo/la distinction (masculine/feminine) is similar to Romanian îl/îi. Romanian speakers should find object pronouns much easier than English speakers."
     },
     {
       "title": "Nada, Nadie, Ninguno — Nothing, No One, None",
@@ -152,7 +815,12 @@
     {
       "type": "multiple-choice",
       "question": "Which is correct for 'Someone is calling'?",
-      "options": ["Algo llama", "Alguien llama", "Nada llama", "Nadie llama"],
+      "options": [
+        "Algo llama",
+        "Alguien llama",
+        "Nada llama",
+        "Nadie llama"
+      ],
       "correct": 1,
       "explanation": "Alguien = someone/somebody. Algo = something. Nada = nothing. Nadie = no one."
     },
@@ -165,7 +833,12 @@
     {
       "type": "multiple-choice",
       "question": "How do you say 'I have no idea' in Spanish?",
-      "options": ["No tengo alguna idea", "No tengo ninguna idea", "Tengo ninguna idea", "No tengo idea"],
+      "options": [
+        "No tengo alguna idea",
+        "No tengo ninguna idea",
+        "Tengo ninguna idea",
+        "No tengo idea"
+      ],
       "correct": 1,
       "explanation": "Ninguna idea = no idea. With negation, use 'ninguna' (not 'alguna')."
     },
@@ -178,7 +851,12 @@
     {
       "type": "multiple-choice",
       "question": "Which is correct for 'I will always love you'?",
-      "options": ["Siempre te amare", "Nunca te amare", "A veces te amare", "Siempre te amo"],
+      "options": [
+        "Siempre te amare",
+        "Nunca te amare",
+        "A veces te amare",
+        "Siempre te amo"
+      ],
       "correct": 0,
       "explanation": "Siempre = always. Future tense: 'Te amare' = I will love you."
     },
@@ -191,7 +869,12 @@
     {
       "type": "multiple-choice",
       "question": "How do you say 'I also want to go' in Spanish?",
-      "options": ["Yo tampoco quiero ir", "Yo también quiero ir", "Yo siempre quiero ir", "Yo nunca quiero ir"],
+      "options": [
+        "Yo tampoco quiero ir",
+        "Yo también quiero ir",
+        "Yo siempre quiero ir",
+        "Yo nunca quiero ir"
+      ],
       "correct": 1,
       "explanation": "También = also/too. 'Yo también quiero ir' = I also want to go."
     },
@@ -204,7 +887,12 @@
     {
       "type": "multiple-choice",
       "question": "Which is NOT a negative indefinite expression?",
-      "options": ["nada", "nadie", "alguno", "ninguno"],
+      "options": [
+        "nada",
+        "nadie",
+        "alguno",
+        "ninguno"
+      ],
       "correct": 2,
       "explanation": "Alguno is positive (some/any). Nada, nadie, and ningun are all negative."
     },

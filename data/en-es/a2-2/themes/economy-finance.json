@@ -4,106 +4,706 @@
   "title": "Economy & Finance",
   "description": "Talk about personal finance, banking, shopping, budgeting, investments, taxes, and economic systems. Discuss money management, describe financial goals, and understand basic economic concepts. Master the subjunctive for wishes and preferences, the imperfect for past financial situations, and 'saber' vs 'conocer' when talking about financial knowledge.",
   "vocabulary": [
-    {"id": 1, "target": "el dinero", "source": "money", "gender": "m", "type": "noun"},
-    {"id": 2, "target": "la moneda", "source": "currency / coin", "gender": "f", "type": "noun"},
-    {"id": 3, "target": "el euro", "source": "euro", "gender": "m", "type": "noun"},
-    {"id": 4, "target": "el dólar", "source": "dollar", "gender": "m", "type": "noun"},
-    {"id": 5, "target": "el peso", "source": "peso", "gender": "m", "type": "noun"},
-    {"id": 6, "target": "la moneda", "source": "currency", "gender": "f", "type": "noun"},
-    {"id": 7, "target": "el banco", "source": "bank", "gender": "m", "type": "noun"},
-    {"id": 8, "target": "la cuenta bancaria", "source": "bank account", "gender": "f", "type": "phrase"},
-    {"id": 9, "target": "la cuenta corriente", "source": "checking account", "gender": "f", "type": "phrase"},
-    {"id": 10, "target": "la cuenta de ahorros", "source": "savings account", "gender": "f", "type": "phrase"},
-    {"id": 11, "target": "la tarjeta de débito", "source": "debit card", "gender": "f", "type": "phrase"},
-    {"id": 12, "target": "la tarjeta de crédito", "source": "credit card", "gender": "f", "type": "phrase"},
-    {"id": 13, "target": "el efectivo", "source": "cash", "gender": "m", "type": "noun"},
-    {"id": 14, "target": "el billete", "source": "banknote", "gender": "m", "type": "noun"},
-    {"id": 15, "target": "la moneda (moneda física)", "source": "coin", "gender": "f", "type": "noun"},
-    {"id": 16, "target": "el cajero automático", "source": "ATM", "gender": "m", "type": "phrase"},
-    {"id": 17, "target": "el dinero en efectivo", "source": "cash money", "gender": "m", "type": "phrase"},
-    {"id": 18, "target": "pagar", "source": "to pay", "gender": "v", "type": "verb"},
-    {"id": 19, "target": "cobrar", "source": "to charge / to collect payment", "gender": "v", "type": "verb"},
-    {"id": 20, "target": "ahorrar", "source": "to save (money)", "gender": "v", "type": "verb"},
-    {"id": 21, "target": "invertir", "source": "to invest", "gender": "v", "type": "verb"},
-    {"id": 22, "target": "gastar", "source": "to spend", "gender": "v", "type": "verb"},
-    {"id": 23, "target": "ganar dinero", "source": "to earn money", "gender": "—", "type": "phrase"},
-    {"id": 24, "target": "ahorrador / ahorradora", "source": "saver (someone who saves)", "gender": "m/f", "type": "noun"},
-    {"id": 25, "target": "el presupuesto", "source": "budget", "gender": "m", "type": "noun"},
-    {"id": 26, "target": "presupuestar", "source": "to budget", "gender": "v", "type": "verb"},
-    {"id": 27, "target": "los ingresos", "source": "income / earnings", "gender": "m", "type": "noun"},
-    {"id": 28, "target": "los gastos", "source": "expenses", "gender": "m", "type": "noun"},
-    {"id": 29, "target": "el gasto fijo", "source": "fixed expense", "gender": "m", "type": "phrase"},
-    {"id": 30, "target": "el gasto variable", "source": "variable expense", "gender": "m", "type": "phrase"},
-    {"id": 31, "target": "el ahorro", "source": "savings", "gender": "m", "type": "noun"},
-    {"id": 32, "target": "el beneficio", "source": "profit / benefit", "gender": "m", "type": "noun"},
-    {"id": 33, "target": "la pérdida", "source": "loss", "gender": "f", "type": "noun"},
-    {"id": 34, "target": "el coste / el costo", "source": "cost", "gender": "m", "type": "noun"},
-    {"id": 35, "target": "el precio", "source": "price", "gender": "m", "type": "noun"},
-    {"id": 36, "target": "la oferta", "source": "sale / offer / deal", "gender": "f", "type": "noun"},
-    {"id": 37, "target": "la rebaja", "source": "discount / sale", "gender": "f", "type": "noun"},
-    {"id": 38, "target": "descuento", "source": "discount", "gender": "m", "type": "noun"},
-    {"id": 39, "target": "caro / cara", "source": "expensive", "gender": "m/f", "type": "adj"},
-    {"id": 40, "target": "barato / barata", "source": "cheap", "gender": "m/f", "type": "adj"},
-    {"id": 41, "target": "accesible", "source": "affordable", "gender": "m/f", "type": "adj"},
-    {"id": 42, "target": "la compra", "source": "shopping / purchase", "gender": "f", "type": "noun"},
-    {"id": 43, "target": "comprar", "source": "to buy / to shop", "gender": "v", "type": "verb"},
-    {"id": 44, "target": "el supermercado", "source": "supermarket", "gender": "m", "type": "noun"},
-    {"id": 45, "target": "la tienda", "source": "store / shop", "gender": "f", "type": "noun"},
-    {"id": 46, "target": "el carrito de compras", "source": "shopping cart", "gender": "m", "type": "phrase"},
-    {"id": 47, "target": "la cesta de la compra", "source": "shopping basket", "gender": "f", "type": "phrase"},
-    {"id": 48, "target": "la lista de compras", "source": "shopping list", "gender": "f", "type": "phrase"},
-    {"id": 49, "target": "el recibo", "source": "receipt", "gender": "m", "type": "noun"},
-    {"id": 50, "target": "la factura", "source": "invoice / bill", "gender": "f", "type": "noun"},
-    {"id": 51, "target": "la deuda", "source": "debt", "gender": "f", "type": "noun"},
-    {"id": 52, "target": "deuda", "source": "debt / owing", "gender": "f", "type": "noun"},
-    {"id": 53, "target": "el préstamo", "source": "loan", "gender": "m", "type": "noun"},
-    {"id": 54, "target": "el crédito", "source": "credit", "gender": "m", "type": "noun"},
-    {"id": 55, "target": "el interés", "source": "interest", "gender": "m", "type": "noun"},
-    {"id": 56, "target": "la tasa de interés", "source": "interest rate", "gender": "f", "type": "phrase"},
-    {"id": 57, "target": "la tasa de interés", "source": "interest rate", "gender": "f", "type": "phrase"},
-    {"id": 58, "target": "la hipoteca", "source": "mortgage", "gender": "f", "type": "noun"},
-    {"id": 59, "target": "la inversión", "source": "investment", "gender": "f", "type": "noun"},
-    {"id": 60, "target": "el inversor / la inversora", "source": "investor", "gender": "m/f", "type": "noun"},
-    {"id": 61, "target": "la bolsa", "source": "stock market", "gender": "f", "type": "noun"},
-    {"id": 62, "target": "la acción", "source": "share / stock", "gender": "f", "type": "noun"},
-    {"id": 63, "target": "el valor bursátil", "source": "stock", "gender": "m", "type": "phrase"},
-    {"id": 64, "target": "el fondo de inversión", "source": "investment fund", "gender": "m", "type": "phrase"},
-    {"id": 65, "target": "el tipo de cambio", "source": "exchange rate", "gender": "m", "type": "phrase"},
-    {"id": 66, "target": "el impuesto", "source": "tax", "gender": "m", "type": "noun"},
-    {"id": 67, "target": "los impuestos", "source": "taxes", "gender": "m", "type": "noun"},
-    {"id": 68, "target": "la declaración de impuestos", "source": "tax return", "gender": "f", "type": "phrase"},
-    {"id": 69, "target": "el IVA", "source": "VAT (value-added tax)", "gender": "m", "type": "noun"},
-    {"id": 70, "target": "el salario", "source": "salary", "gender": "m", "type": "noun"},
-    {"id": 71, "target": "el sueldo", "source": "salary / wage", "gender": "m", "type": "noun"},
-    {"id": 72, "target": "la nómina", "source": "paycheck / pay stub", "gender": "f", "type": "noun"},
-    {"id": 73, "target": "el trabajador / la trabajadora", "source": "worker", "gender": "m/f", "type": "noun"},
-    {"id": 74, "target": "el autónomo / la autónoma", "source": "self-employed person", "gender": "m/f", "type": "noun"},
-    {"id": 75, "target": "la inflación", "source": "inflation", "gender": "f", "type": "noun"},
-    {"id": 76, "target": "la deflación", "source": "deflation", "gender": "f", "type": "noun"},
-    {"id": 77, "target": "el sistema económico", "source": "economic system", "gender": "m", "type": "phrase"},
-    {"id": 78, "target": "la economía", "source": "economy", "gender": "f", "type": "noun"},
-    {"id": 79, "target": "la economía global", "source": "global economy", "gender": "f", "type": "phrase"},
-    {"id": 80, "target": "el mercado", "source": "market", "gender": "m", "type": "noun"},
-    {"id": 81, "target": "la oferta y la demanda", "source": "supply and demand", "gender": "f", "type": "phrase"},
-    {"id": 82, "target": "la competencia", "source": "competition", "gender": "f", "type": "noun"},
-    {"id": 83, "target": "el consumidor / la consumidora", "source": "consumer", "gender": "m/f", "type": "noun"},
-    {"id": 84, "target": "el producto", "source": "product", "gender": "m", "type": "noun"},
-    {"id": 85, "target": "el servicio", "source": "service", "gender": "m", "type": "noun"},
-    {"id": 86, "target": "la empresa", "source": "company / business", "gender": "f", "type": "noun"},
-    {"id": 87, "target": "el negocio", "source": "business", "gender": "m", "type": "noun"},
-    {"id": 88, "target": "el emprendedor / la emprendedora", "source": "entrepreneur", "gender": "m/f", "type": "noun"},
-    {"id": 89, "target": "la economía compartida", "source": "sharing economy", "gender": "f", "type": "phrase"},
-    {"id": 90, "target": "la economía digital", "source": "digital economy", "gender": "f", "type": "phrase"},
-    {"id": 91, "target": "el PIB (producto interior bruto)", "source": "GDP (gross domestic product)", "gender": "m", "type": "phrase"},
-    {"id": 92, "target": "el desempleo", "source": "unemployment", "gender": "m", "type": "noun"},
-    {"id": 93, "target": "el empleo", "source": "employment / job", "gender": "m", "type": "noun"},
-    {"id": 94, "target": "desempleado / desempleada", "source": "unemployed", "gender": "m/f", "type": "adj"},
-    {"id": 95, "target": "la pobreza", "source": "poverty", "gender": "f", "type": "noun"},
-    {"id": 96, "target": "la riqueza", "source": "wealth", "gender": "f", "type": "noun"},
-    {"id": 97, "target": "rico / rica", "source": "rich", "gender": "m/f", "type": "adj"},
-    {"id": 98, "target": "pobre", "source": "poor", "gender": "m/f", "type": "adj"},
-    {"id": 99, "target": "el ahorro a largo plazo", "source": "long-term savings", "gender": "m", "type": "phrase"},
-    {"id": 100, "target": "la meta financiera", "source": "financial goal", "gender": "f", "type": "phrase"}
+    {
+      "id": 1,
+      "target": "el dinero",
+      "source": "money",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 2,
+      "target": "la moneda",
+      "source": "currency / coin",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 3,
+      "target": "el euro",
+      "source": "euro",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 4,
+      "target": "el dólar",
+      "source": "dollar",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 5,
+      "target": "el peso",
+      "source": "peso",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 6,
+      "target": "la moneda",
+      "source": "currency",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 7,
+      "target": "el banco",
+      "source": "bank",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 8,
+      "target": "la cuenta bancaria",
+      "source": "bank account",
+      "gender": "f",
+      "type": "phrase"
+    },
+    {
+      "id": 9,
+      "target": "la cuenta corriente",
+      "source": "checking account",
+      "gender": "f",
+      "type": "phrase"
+    },
+    {
+      "id": 10,
+      "target": "la cuenta de ahorros",
+      "source": "savings account",
+      "gender": "f",
+      "type": "phrase"
+    },
+    {
+      "id": 11,
+      "target": "la tarjeta de débito",
+      "source": "debit card",
+      "gender": "f",
+      "type": "phrase"
+    },
+    {
+      "id": 12,
+      "target": "la tarjeta de crédito",
+      "source": "credit card",
+      "gender": "f",
+      "type": "phrase"
+    },
+    {
+      "id": 13,
+      "target": "el efectivo",
+      "source": "cash",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 14,
+      "target": "el billete",
+      "source": "banknote",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 15,
+      "target": "la moneda (moneda física)",
+      "source": "coin",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 16,
+      "target": "el cajero automático",
+      "source": "ATM",
+      "gender": "m",
+      "type": "phrase"
+    },
+    {
+      "id": 17,
+      "target": "el dinero en efectivo",
+      "source": "cash money",
+      "gender": "m",
+      "type": "phrase"
+    },
+    {
+      "id": 18,
+      "target": "pagar",
+      "source": "to pay",
+      "gender": "v",
+      "type": "verb"
+    },
+    {
+      "id": 19,
+      "target": "cobrar",
+      "source": "to charge / to collect payment",
+      "gender": "v",
+      "type": "verb"
+    },
+    {
+      "id": 20,
+      "target": "ahorrar",
+      "source": "to save (money)",
+      "gender": "v",
+      "type": "verb"
+    },
+    {
+      "id": 21,
+      "target": "invertir",
+      "source": "to invest",
+      "gender": "v",
+      "type": "verb"
+    },
+    {
+      "id": 22,
+      "target": "gastar",
+      "source": "to spend",
+      "gender": "v",
+      "type": "verb"
+    },
+    {
+      "id": 23,
+      "target": "ganar dinero",
+      "source": "to earn money",
+      "gender": "—",
+      "type": "phrase"
+    },
+    {
+      "id": 24,
+      "target": "ahorrador / ahorradora",
+      "source": "saver (someone who saves)",
+      "gender": "m/f",
+      "type": "noun"
+    },
+    {
+      "id": 25,
+      "target": "el presupuesto",
+      "source": "budget",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 26,
+      "target": "presupuestar",
+      "source": "to budget",
+      "gender": "v",
+      "type": "verb"
+    },
+    {
+      "id": 27,
+      "target": "los ingresos",
+      "source": "income / earnings",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 28,
+      "target": "los gastos",
+      "source": "expenses",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 29,
+      "target": "el gasto fijo",
+      "source": "fixed expense",
+      "gender": "m",
+      "type": "phrase"
+    },
+    {
+      "id": 30,
+      "target": "el gasto variable",
+      "source": "variable expense",
+      "gender": "m",
+      "type": "phrase"
+    },
+    {
+      "id": 31,
+      "target": "el ahorro",
+      "source": "savings",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 32,
+      "target": "el beneficio",
+      "source": "profit / benefit",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 33,
+      "target": "la pérdida",
+      "source": "loss",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 34,
+      "target": "el coste / el costo",
+      "source": "cost",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 35,
+      "target": "el precio",
+      "source": "price",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 36,
+      "target": "la oferta",
+      "source": "sale / offer / deal",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 37,
+      "target": "la rebaja",
+      "source": "discount / sale",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 38,
+      "target": "descuento",
+      "source": "discount",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 39,
+      "target": "caro / cara",
+      "source": "expensive",
+      "gender": "m/f",
+      "type": "adj"
+    },
+    {
+      "id": 40,
+      "target": "barato / barata",
+      "source": "cheap",
+      "gender": "m/f",
+      "type": "adj"
+    },
+    {
+      "id": 41,
+      "target": "accesible",
+      "source": "affordable",
+      "gender": "m/f",
+      "type": "adj"
+    },
+    {
+      "id": 42,
+      "target": "la compra",
+      "source": "shopping / purchase",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 43,
+      "target": "comprar",
+      "source": "to buy / to shop",
+      "gender": "v",
+      "type": "verb"
+    },
+    {
+      "id": 44,
+      "target": "el supermercado",
+      "source": "supermarket",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 45,
+      "target": "la tienda",
+      "source": "store / shop",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 46,
+      "target": "el carrito de compras",
+      "source": "shopping cart",
+      "gender": "m",
+      "type": "phrase"
+    },
+    {
+      "id": 47,
+      "target": "la cesta de la compra",
+      "source": "shopping basket",
+      "gender": "f",
+      "type": "phrase"
+    },
+    {
+      "id": 48,
+      "target": "la lista de compras",
+      "source": "shopping list",
+      "gender": "f",
+      "type": "phrase"
+    },
+    {
+      "id": 49,
+      "target": "el recibo",
+      "source": "receipt",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 50,
+      "target": "la factura",
+      "source": "invoice / bill",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 51,
+      "target": "la deuda",
+      "source": "debt",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 52,
+      "target": "deuda",
+      "source": "debt / owing",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 53,
+      "target": "el préstamo",
+      "source": "loan",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 54,
+      "target": "el crédito",
+      "source": "credit",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 55,
+      "target": "el interés",
+      "source": "interest",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 56,
+      "target": "la tasa de interés",
+      "source": "interest rate",
+      "gender": "f",
+      "type": "phrase"
+    },
+    {
+      "id": 57,
+      "target": "la tasa de interés",
+      "source": "interest rate",
+      "gender": "f",
+      "type": "phrase"
+    },
+    {
+      "id": 58,
+      "target": "la hipoteca",
+      "source": "mortgage",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 59,
+      "target": "la inversión",
+      "source": "investment",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 60,
+      "target": "el inversor / la inversora",
+      "source": "investor",
+      "gender": "m/f",
+      "type": "noun"
+    },
+    {
+      "id": 61,
+      "target": "la bolsa",
+      "source": "stock market",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 62,
+      "target": "la acción",
+      "source": "share / stock",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 63,
+      "target": "el valor bursátil",
+      "source": "stock",
+      "gender": "m",
+      "type": "phrase"
+    },
+    {
+      "id": 64,
+      "target": "el fondo de inversión",
+      "source": "investment fund",
+      "gender": "m",
+      "type": "phrase"
+    },
+    {
+      "id": 65,
+      "target": "el tipo de cambio",
+      "source": "exchange rate",
+      "gender": "m",
+      "type": "phrase"
+    },
+    {
+      "id": 66,
+      "target": "el impuesto",
+      "source": "tax",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 67,
+      "target": "los impuestos",
+      "source": "taxes",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 68,
+      "target": "la declaración de impuestos",
+      "source": "tax return",
+      "gender": "f",
+      "type": "phrase"
+    },
+    {
+      "id": 69,
+      "target": "el IVA",
+      "source": "VAT (value-added tax)",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 70,
+      "target": "el salario",
+      "source": "salary",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 71,
+      "target": "el sueldo",
+      "source": "salary / wage",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 72,
+      "target": "la nómina",
+      "source": "paycheck / pay stub",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 73,
+      "target": "el trabajador / la trabajadora",
+      "source": "worker",
+      "gender": "m/f",
+      "type": "noun"
+    },
+    {
+      "id": 74,
+      "target": "el autónomo / la autónoma",
+      "source": "self-employed person",
+      "gender": "m/f",
+      "type": "noun"
+    },
+    {
+      "id": 75,
+      "target": "la inflación",
+      "source": "inflation",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 76,
+      "target": "la deflación",
+      "source": "deflation",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 77,
+      "target": "el sistema económico",
+      "source": "economic system",
+      "gender": "m",
+      "type": "phrase"
+    },
+    {
+      "id": 78,
+      "target": "la economía",
+      "source": "economy",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 79,
+      "target": "la economía global",
+      "source": "global economy",
+      "gender": "f",
+      "type": "phrase"
+    },
+    {
+      "id": 80,
+      "target": "el mercado",
+      "source": "market",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 81,
+      "target": "la oferta y la demanda",
+      "source": "supply and demand",
+      "gender": "f",
+      "type": "phrase"
+    },
+    {
+      "id": 82,
+      "target": "la competencia",
+      "source": "competition",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 83,
+      "target": "el consumidor / la consumidora",
+      "source": "consumer",
+      "gender": "m/f",
+      "type": "noun"
+    },
+    {
+      "id": 84,
+      "target": "el producto",
+      "source": "product",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 85,
+      "target": "el servicio",
+      "source": "service",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 86,
+      "target": "la empresa",
+      "source": "company / business",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 87,
+      "target": "el negocio",
+      "source": "business",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 88,
+      "target": "el emprendedor / la emprendedora",
+      "source": "entrepreneur",
+      "gender": "m/f",
+      "type": "noun"
+    },
+    {
+      "id": 89,
+      "target": "la economía compartida",
+      "source": "sharing economy",
+      "gender": "f",
+      "type": "phrase"
+    },
+    {
+      "id": 90,
+      "target": "la economía digital",
+      "source": "digital economy",
+      "gender": "f",
+      "type": "phrase"
+    },
+    {
+      "id": 91,
+      "target": "el PIB (producto interior bruto)",
+      "source": "GDP (gross domestic product)",
+      "gender": "m",
+      "type": "phrase"
+    },
+    {
+      "id": 92,
+      "target": "el desempleo",
+      "source": "unemployment",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 93,
+      "target": "el empleo",
+      "source": "employment / job",
+      "gender": "m",
+      "type": "noun"
+    },
+    {
+      "id": 94,
+      "target": "desempleado / desempleada",
+      "source": "unemployed",
+      "gender": "m/f",
+      "type": "adj"
+    },
+    {
+      "id": 95,
+      "target": "la pobreza",
+      "source": "poverty",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 96,
+      "target": "la riqueza",
+      "source": "wealth",
+      "gender": "f",
+      "type": "noun"
+    },
+    {
+      "id": 97,
+      "target": "rico / rica",
+      "source": "rich",
+      "gender": "m/f",
+      "type": "adj"
+    },
+    {
+      "id": 98,
+      "target": "pobre",
+      "source": "poor",
+      "gender": "m/f",
+      "type": "adj"
+    },
+    {
+      "id": 99,
+      "target": "el ahorro a largo plazo",
+      "source": "long-term savings",
+      "gender": "m",
+      "type": "phrase"
+    },
+    {
+      "id": 100,
+      "target": "la meta financiera",
+      "source": "financial goal",
+      "gender": "f",
+      "type": "phrase"
+    }
   ],
   "grammar": [
     {
@@ -137,6 +737,39 @@
         "No sé cómo funciona la bolsa, pero quiero aprender. (I don't know how the stock market works, but I want to learn.)",
         "¿Conoces al gerente del banco? (Do you know the bank manager?)",
         "Mi hermano sabe mucho sobre economía y finanzas. (My brother knows a lot about economics and finance.)"
+      ]
+    },
+    {
+      "title": "Imperfect Subjunctive for Hypothetical Career Situations",
+      "content": "The imperfect subjunctive expresses hypothetical situations, wishes, and polite suggestions — very useful for career discussions:\\n\\nFormation (two forms, both correct — -ra form is more common in speech):\\n- Take the 3rd person plural preterite (ellos/ellas form), drop -ron, add:\\n  -ra form: -ra, -ras, -ra, -ramos, -rais, -ran\\n  -se form: -se, -ses, -se, -semos, -seis, -sen\\n\\nCommon irregular preterite stems for imperfect subjunctive:\\n- ser → fuera / fuese\\n- ir → fuera / fuese\\n- tener → tuviera / tuviese\\n- poder → pudiera / pudiese\\n- hacer → hiciera / hiciera\\n- saber → supiera / supiese\\n- ser → fuera / fuese\\n- haber → hubiera / hubiese\\n\\nUsage contexts:\\n- If clauses (hypotheticals): Si tuviera más experiencia, pediría un ascenso. (If I had more experience, I would ask for a promotion.)\\n- Wishes: Ojalá pudiera estudiar un máster. (I wish I could study a master's.)\\n- Polite requests: Me gustaría que me ayudaran con el currículum. (I would like you to help me with the CV.)\\n- Suggestions: Sería bueno que aprendieras programación. (It would be good if you learned to program.)",
+      "examples": [
+        "Si tuviera más experiencia, solicitaría ese puesto. (If I had more experience, I would apply for that position.)",
+        "Ojalá pudiera cambiar de carrera. (I wish I could change careers.)",
+        "Sería ideal que me contrataran como desarrollador. (It would be ideal if they hired me as a developer.)",
+        "Me encantaría que me financiara la universidad. (I would love it if they funded my university education.)",
+        "Si hubiera ganado la beca, habría estudiado en Madrid. (If I had won the scholarship, I would have studied in Madrid.)"
+      ]
+    },
+    {
+      "title": "Conditional Tense for Career Advice & Hypotheticals",
+      "content": "The conditional tense expresses what would happen under certain conditions — essential for career discussions and giving advice:\\n\\nFormation: infinitive + endings\\n-ía, -ías, -ía, -íamos, -íais, -ían\\n\\nRegular examples:\\n- trabajar → trabajaría (I would work)\\n- estudiar → estudiaría (I would study)\\n- conseguir → conseguiría (I would achieve)\\n- necesitar → necesitaría (I would need)\\n\\nIrregular stems (same as future tense):\\n- poder → podría (I could)\\n- tener → tendría (I would have)\\n- salir → saldría (I would leave)\\n- poner → pondría (I would put)\\n- hacer → haría (I would do)\\n- saber → sabría (I would know)\\n- querer → querría (I would want)\\n- decir → diría (I would say)\\n- venir → vendría (I would come)\\n- haber → habría (I would have)\\n- necesitar → necesitaría (I would need)\\n\\nUsage contexts:\\n- Conditional sentences (si + imperfect subjunctive): Si estudiara más, tendría mejores notas. (If I studied more, I would have better grades.)\\n- Career advice: Sería mejor que hicieras un curso de formación. (It would be better if you took a training course.)\\n- Polite requests: ¿Podría ayudarme con mi carta de presentación? (Could you help me with my cover letter?)\\n- Future in the past: Dijo que conseguiría el empleo. (He said he would get the job.)",
+      "examples": [
+        "Con más experiencia, conseguiría un mejor salario. (With more experience, I would get a better salary.)",
+        "Si aprendiera un segundo idioma, trabajaría en una empresa internacional. (If I learned a second language, I would work at an international company.)",
+        "Te sugeriría que actualizaras tu currículum. (I would suggest you update your résumé.)",
+        "¿Podría asistir a la entrevista mañana? (Could I attend the interview tomorrow?)",
+        "Sería útil capacitarse en línea. (It would be useful to train online.)"
+      ]
+    },
+    {
+      "title": "Ser vs. Estar in Professional Contexts",
+      "content": "Knowing when to use 'ser' and 'estar' is crucial in professional Spanish:\\n\\n'Ser' for professional identity and permanent/defining characteristics:\\n- Ser + profession: Soy ingeniero. (I am an engineer.)\\n- Ser + company: Trabajo en Google / Soy de Google. (I work at Google / I'm from Google.)\\n- Ser + characteristics of the job: Es un trabajo difícil. (It's a difficult job.)\\n- Ser + time: Son las nueve de la mañana. (It's 9 AM.)\\n\\n'Estar' for temporary states and job locations:\\n- Estar + adjectives (temporary state): Estoy cansado/a del trabajo. (I'm tired of work.)\\n- Estar + employed: Estoy trabajando en una startup. (I'm working at a startup.)\\n- Estar + location: Estoy en la oficina. (I'm at the office.)\\n- Estar + doing (gerund): Estoy buscando empleo. (I'm looking for a job.)\\n\\nCommon expressions:\\n- Estoy employed/unemployed: Estoy empleado / estoy desempleado/a\\n- I'm busy with work: Estoy ocupado con el trabajo\\n- I'm in charge of: Estoy a cargo de\\n- I'm responsible for: Soy responsable de / Estoy encargado de\\n- I'm on vacation: Estoy de vacaciones\\n- I'm on sick leave: Estoy de baja / Estoy enfermo/a\\n\\nKey distinction:\\n- Soy médico. = I am a doctor (profession — permanent identity)\\n- Estoy médico de guardia. = I'm on doctor duty (temporary assignment)",
+      "examples": [
+        "Soy profesor de matemáticas. (I am a math teacher.)",
+        "Estoy buscando un nuevo empleo. (I am looking for a new job.)",
+        "Es una empresa muy importante. (It is a very important company.)",
+        "Estoy a cargo del departamento de marketing. (I am in charge of the marketing department.)",
+        "Soy responsable de las ventas en Latinoamérica. (I am responsible for sales in Latin America.)"
       ]
     }
   ],

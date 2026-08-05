@@ -3,53 +3,273 @@
   "title": "Object Pronouns with Gerundio and Infinitivo",
   "description": "Master pronoun placement and attachment rules with non-finite verb forms.",
   "vocabulary": [
-    { "id": 1, "target": "lo estoy buscando", "source": "I'm looking for it", "gender": "—", "type": "phrase" },
-    { "id": 2, "target": "voy a comprárselo", "source": "I'm going to buy it for him/her", "gender": "—", "type": "phrase" },
-    { "id": 3, "target": "se lo voy a comprar", "source": "I'm going to buy it for him/her", "gender": "—", "type": "phrase" },
-    { "id": 4, "target": "¿me lo puedes pasar?", "source": "can you pass it to me?", "gender": "—", "type": "phrase" },
-    { "id": 5, "target": "está contándomelo todo", "source": "he/she is telling it all to me", "gender": "—", "type": "phrase" },
-    { "id": 6, "target": "no sé cómo decírselo", "source": "I don't know how to tell it to him/her", "gender": "—", "type": "phrase" },
-    { "id": 7, "target": "deja de llamarme así", "source": "stop calling me that", "gender": "—", "type": "phrase" },
-    { "id": 8, "target": "hablándolo", "source": "talking about it", "gender": "—", "type": "gerund" },
-    { "id": 9, "target": "haciéndolo", "source": "doing it", "gender": "—", "type": "gerund" },
-    { "id": 10, "target": "dándolo", "source": "giving it", "gender": "—", "type": "gerund" },
-    { "id": 11, "target": "decírtelo", "source": "to tell it to you", "gender": "—", "type": "infinitive" },
-    { "id": 12, "target": "dárselos", "source": "to give them to him/her", "gender": "—", "type": "infinitive" },
-    { "id": 13, "target": "entregársela", "source": "to hand it to him/her", "gender": "—", "type": "infinitive" },
-    { "id": 14, "target": "preparándomelo", "source": "preparing it for me", "gender": "—", "type": "gerund" },
-    { "id": 15, "target": "leyéndolo", "source": "reading it", "gender": "—", "type": "gerund" },
-    { "id": 16, "target": "contándome", "source": "telling me", "gender": "—", "type": "gerund" },
-    { "id": 17, "target": "buscándolo", "source": "looking for it", "gender": "—", "type": "gerund" },
-    { "id": 18, "target": "hacerlo", "source": "to do it", "gender": "—", "type": "infinitive" },
-    { "id": 19, "target": "decirlo", "source": "to say it", "gender": "—", "type": "infinitive" },
-    { "id": 20, "target": "dárlo", "source": "to give it to him/her", "gender": "—", "type": "infinitive" },
-    { "id": 21, "target": "lo", "source": "it (masc. direct object)", "gender": "—", "type": "pronoun" },
-    { "id": 22, "target": "la", "source": "it (fem. direct object)", "gender": "—", "type": "pronoun" },
-    { "id": 23, "target": "los", "source": "them (masc.)", "gender": "—", "type": "pronoun" },
-    { "id": 24, "target": "las", "source": "them (fem.)", "gender": "—", "type": "pronoun" },
-    { "id": 25, "target": "me", "source": "to me", "gender": "—", "type": "pronoun" },
-    { "id": 26, "target": "te", "source": "to you (informal)", "gender": "—", "type": "pronoun" },
-    { "id": 27, "target": "se", "source": "to him/her/you(formal)/them", "gender": "—", "type": "pronoun" },
-    { "id": 28, "target": "nos", "source": "to us", "gender": "—", "type": "pronoun" },
-    { "id": 29, "target": "le", "source": "to him/her/you(formal)", "gender": "—", "type": "pronoun" },
-    { "id": 30, "target": "les", "source": "to them/you(pl.)", "gender": "—", "type": "pronoun" }
+    {
+      "id": 1,
+      "target": "lo estoy buscando",
+      "source": "I'm looking for it",
+      "gender": "—",
+      "type": "phrase"
+    },
+    {
+      "id": 2,
+      "target": "voy a comprárselo",
+      "source": "I'm going to buy it for him/her",
+      "gender": "—",
+      "type": "phrase"
+    },
+    {
+      "id": 3,
+      "target": "se lo voy a comprar",
+      "source": "I'm going to buy it for him/her",
+      "gender": "—",
+      "type": "phrase"
+    },
+    {
+      "id": 4,
+      "target": "¿me lo puedes pasar?",
+      "source": "can you pass it to me?",
+      "gender": "—",
+      "type": "phrase"
+    },
+    {
+      "id": 5,
+      "target": "está contándomelo todo",
+      "source": "he/she is telling it all to me",
+      "gender": "—",
+      "type": "phrase"
+    },
+    {
+      "id": 6,
+      "target": "no sé cómo decírselo",
+      "source": "I don't know how to tell it to him/her",
+      "gender": "—",
+      "type": "phrase"
+    },
+    {
+      "id": 7,
+      "target": "deja de llamarme así",
+      "source": "stop calling me that",
+      "gender": "—",
+      "type": "phrase"
+    },
+    {
+      "id": 8,
+      "target": "hablándolo",
+      "source": "talking about it",
+      "gender": "—",
+      "type": "gerund"
+    },
+    {
+      "id": 9,
+      "target": "haciéndolo",
+      "source": "doing it",
+      "gender": "—",
+      "type": "gerund"
+    },
+    {
+      "id": 10,
+      "target": "dándolo",
+      "source": "giving it",
+      "gender": "—",
+      "type": "gerund"
+    },
+    {
+      "id": 11,
+      "target": "decírtelo",
+      "source": "to tell it to you",
+      "gender": "—",
+      "type": "infinitive"
+    },
+    {
+      "id": 12,
+      "target": "dárselos",
+      "source": "to give them to him/her",
+      "gender": "—",
+      "type": "infinitive"
+    },
+    {
+      "id": 13,
+      "target": "entregársela",
+      "source": "to hand it to him/her",
+      "gender": "—",
+      "type": "infinitive"
+    },
+    {
+      "id": 14,
+      "target": "preparándomelo",
+      "source": "preparing it for me",
+      "gender": "—",
+      "type": "gerund"
+    },
+    {
+      "id": 15,
+      "target": "leyéndolo",
+      "source": "reading it",
+      "gender": "—",
+      "type": "gerund"
+    },
+    {
+      "id": 16,
+      "target": "contándome",
+      "source": "telling me",
+      "gender": "—",
+      "type": "gerund"
+    },
+    {
+      "id": 17,
+      "target": "buscándolo",
+      "source": "looking for it",
+      "gender": "—",
+      "type": "gerund"
+    },
+    {
+      "id": 18,
+      "target": "hacerlo",
+      "source": "to do it",
+      "gender": "—",
+      "type": "infinitive"
+    },
+    {
+      "id": 19,
+      "target": "decirlo",
+      "source": "to say it",
+      "gender": "—",
+      "type": "infinitive"
+    },
+    {
+      "id": 20,
+      "target": "dárlo",
+      "source": "to give it to him/her",
+      "gender": "—",
+      "type": "infinitive"
+    },
+    {
+      "id": 21,
+      "target": "lo",
+      "source": "it (masc. direct object)",
+      "gender": "—",
+      "type": "pronoun"
+    },
+    {
+      "id": 22,
+      "target": "la",
+      "source": "it (fem. direct object)",
+      "gender": "—",
+      "type": "pronoun"
+    },
+    {
+      "id": 23,
+      "target": "los",
+      "source": "them (masc.)",
+      "gender": "—",
+      "type": "pronoun"
+    },
+    {
+      "id": 24,
+      "target": "las",
+      "source": "them (fem.)",
+      "gender": "—",
+      "type": "pronoun"
+    },
+    {
+      "id": 25,
+      "target": "me",
+      "source": "to me",
+      "gender": "—",
+      "type": "pronoun"
+    },
+    {
+      "id": 26,
+      "target": "te",
+      "source": "to you (informal)",
+      "gender": "—",
+      "type": "pronoun"
+    },
+    {
+      "id": 27,
+      "target": "se",
+      "source": "to him/her/you(formal)/them",
+      "gender": "—",
+      "type": "pronoun"
+    },
+    {
+      "id": 28,
+      "target": "nos",
+      "source": "to us",
+      "gender": "—",
+      "type": "pronoun"
+    },
+    {
+      "id": 29,
+      "target": "le",
+      "source": "to him/her/you(formal)",
+      "gender": "—",
+      "type": "pronoun"
+    },
+    {
+      "id": 30,
+      "target": "les",
+      "source": "to them/you(pl.)",
+      "gender": "—",
+      "type": "pronoun"
+    }
   ],
   "grammar": [
     {
       "title": "Object Pronouns with Gerundio and Infinitivo",
       "content": "At B2, you need to master the placement of clitic pronouns (me, te, lo, la, le, nos, os, los, las, les, se) when combined with non-finite verb forms — gerundio and infinitivo.\n\nWith conjugated verbs, pronouns go BEFORE the verb: 'Lo veo.'\nWith gerundio and infinitivo, pronouns can go in TWO positions:\n\n1. **Attached to the end** (most common in speech):\n   - Gerundio: 'estoy haciéndolo' / 'haciéndomelo'\n   - Infinitivo: 'voy a hacerlo' / 'voy a dárselos'\n\n2. **Before the conjugated auxiliary**:\n   - Gerundio: 'lo estoy haciendo'\n   - Infinitivo: 'lo voy a hacer' (also: 'voy a hacerlo')\n\n⚠️ DOUBLE PRONOUN RULE: When there are TWO pronouns (OD + OI) with a gerundio or infinitivo:\n- They can BOTH attach to the end: 'dándomelo'\n- OR both go before the conjugated verb: 'me lo está dando'\n- They CANNOT be split!\n\n⚠️ ACCENT RULE: When attaching pronouns to gerundio or infinitivo, check if the accent needs to be added:\n- 'hablando' + 'lo' → 'hablándolo' (accent to maintain stress on 'lan')\n- 'hacer' + 'lo' → 'hacerlo' (no accent needed — stress already on 'ce')\n- 'estudio' + 'lo' → 'estudiándolo' (accent needed)\n\n⚠️ LE/LI → SE change: When le/les is combined with lo/la/los/las, 'le' becomes 'se': 'se lo di', NOT 'le lo di'.",
       "table": {
-        "headers": ["Form", "Structure", "Example"],
+        "headers": [
+          "Form",
+          "Structure",
+          "Example"
+        ],
         "rows": [
-          ["Gerundio + 1 pronoun", "estoy + pronoun + gerundio", "Lo estoy leyendo."],
-          ["Gerundio + 1 pronoun", "estar + gerundio + pronoun", "Estoy leyéndolo."],
-          ["Infinitivo + 1 pronoun", "voy a + pronoun + inf.", "Lo voy a leer."],
-          ["Infinitivo + 1 pronoun", "voy a + infinitivo + pron.", "Voy a leerlo."],
-          ["Gerundio + 2 pronouns", "me lo + gerundio", "Me lo está contando."],
-          ["Gerundio + 2 pronouns", "gerundio + me lo", "Está contándomelo."],
-          ["Double pronoun", "le/les + lo/la → se", "Se lo di (NOT le lo di)"],
-          ["Infinitivo + 2 pronouns", "voy a + pronouns + inf.", "Se los voy a dar."],
-          ["Infinitivo + 2 pronouns", "voy a + inf. + pronouns", "Voy a dárselos."]
+          [
+            "Gerundio + 1 pronoun",
+            "estoy + pronoun + gerundio",
+            "Lo estoy leyendo."
+          ],
+          [
+            "Gerundio + 1 pronoun",
+            "estar + gerundio + pronoun",
+            "Estoy leyéndolo."
+          ],
+          [
+            "Infinitivo + 1 pronoun",
+            "voy a + pronoun + inf.",
+            "Lo voy a leer."
+          ],
+          [
+            "Infinitivo + 1 pronoun",
+            "voy a + infinitivo + pron.",
+            "Voy a leerlo."
+          ],
+          [
+            "Gerundio + 2 pronouns",
+            "me lo + gerundio",
+            "Me lo está contando."
+          ],
+          [
+            "Gerundio + 2 pronouns",
+            "gerundio + me lo",
+            "Está contándomelo."
+          ],
+          [
+            "Double pronoun",
+            "le/les + lo/la → se",
+            "Se lo di (NOT le lo di)"
+          ],
+          [
+            "Infinitivo + 2 pronouns",
+            "voy a + pronouns + inf.",
+            "Se los voy a dar."
+          ],
+          [
+            "Infinitivo + 2 pronouns",
+            "voy a + inf. + pronouns",
+            "Voy a dárselos."
+          ]
         ]
       },
       "examples": [
@@ -68,10 +288,22 @@
       "title": "Stress in Attached Pronouns",
       "content": "When pronouns are attached to gerundio or infinitivo, the stress pattern changes. An accent mark is often needed to maintain the original stress:\n\nGERUNDIO + PRONOUNS:\n- hablando + lo → hablándolo (ha-BLAN-do-lo) — accent on 'lan' to maintain stress\n- comiendo + lo → comiéndolo (ko-MYE-n-do-lo) — accent on 'ie'\n- yendo + lo → yéndolo (YEN-do-lo) — accent on 'ye'\n- contándomelo (con-TÁN-do-me-lo) — accent on 'tan'\n\nINFINITIVO + PRONOUNS:\n- hacer + lo → hacerlo (ah-SEH-loh) — NO accent (stress on 'ce' already correct)\n- dar + lo → dárselo (DAR-seh-loh) — accent on 'dar' to maintain stress\n- decir + te + lo → decírtelo (de-SEER-teh-loh) — accent on 'ci'\n- entregar + se + la → entregársela (en-tre-GAR-seh-la) — accent on 'gar'\n\nRULE: If the natural stress after attaching pronouns is on a different syllable than before, add an accent mark to restore it.",
       "examples": [
-        { "target": "hablándolo", "source": "ha-BLAN-do-lo (stress on BLAN)" },
-        { "target": "contándomelo", "source": "con-TÁN-do-me-lo (stress on TÁN)" },
-        { "target": "decírtelo", "source": "de-SEE-AR-teh-loh (stress on SEE)" },
-        { "target": "dárselos", "source": "DAR-seh-los (stress on DAR)" }
+        {
+          "target": "hablándolo",
+          "source": "ha-BLAN-do-lo (stress on BLAN)"
+        },
+        {
+          "target": "contándomelo",
+          "source": "con-TÁN-do-me-lo (stress on TÁN)"
+        },
+        {
+          "target": "decírtelo",
+          "source": "de-SEE-AR-teh-loh (stress on SEE)"
+        },
+        {
+          "target": "dárselos",
+          "source": "DAR-seh-los (stress on DAR)"
+        }
       ],
       "aid_note": "Romanian pronouns never attach to infinitives — they always precede the verb: 'să-l fac' (to do it) vs Spanish 'hacerlo'. The accent mark rules in Spanish are more complex due to the fused form."
     }
@@ -80,14 +312,24 @@
     {
       "type": "exercise",
       "question": "Where do object pronouns go with a conjugated verb?",
-      "options": ["After the verb", "Before the conjugated verb", "At the end of the sentence", "They don't go with conjugated verbs"],
+      "options": [
+        "After the verb",
+        "Before the conjugated verb",
+        "At the end of the sentence",
+        "They don't go with conjugated verbs"
+      ],
       "correct": 1,
       "explanation": "Object pronouns go BEFORE the conjugated verb: 'Lo veo' (I see it)."
     },
     {
       "type": "exercise",
       "question": "What happens when 'le' or 'les' is combined with 'lo/la/los/las'?",
-      "options": ["They stay the same", "'Le/les' changes to 'se'", "They are dropped", "'Lo/la/los/las' changes to 'se'"],
+      "options": [
+        "They stay the same",
+        "'Le/les' changes to 'se'",
+        "They are dropped",
+        "'Lo/la/los/las' changes to 'se'"
+      ],
       "correct": 1,
       "explanation": "When 'le/les' is combined with 'lo/la/los/las', 'le' changes to 'se': 'se lo di' (I gave it to him), NOT 'le lo di'."
     },
@@ -100,7 +342,12 @@
     {
       "type": "exercise",
       "question": "Which sentence is correct?",
-      "options": ["Estoy leyéndolo.", "Lo estoy leyendo.", "Both are correct.", "Neither is correct."],
+      "options": [
+        "Estoy leyéndolo.",
+        "Lo estoy leyendo.",
+        "Both are correct.",
+        "Neither is correct."
+      ],
       "correct": 2,
       "explanation": "Both are correct! Pronouns can go before the conjugated verb ('Lo estoy leyendo') or attached to the gerundio ('Estoy leyéndolo'). Both mean the same thing."
     },
@@ -113,7 +360,12 @@
     {
       "type": "exercise",
       "question": "What is 'deja de llamarme así' in English?",
-      "options": ["Stop calling me that!", "Don't call me that!", "You're calling me that!", "I'm calling you that!"],
+      "options": [
+        "Stop calling me that!",
+        "Don't call me that!",
+        "You're calling me that!",
+        "I'm calling you that!"
+      ],
       "correct": 0,
       "explanation": "'Deja de llamarme así' = 'Stop calling me that!' — Imperative + 'de' + infinitive + attached pronoun 'me'. The pronoun is attached to 'llamar'."
     }

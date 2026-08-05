@@ -21,28 +21,28 @@
       "id": 3,
       "target": "hace sol",
       "source": "it's sunny",
-      "gender": "\u2014",
+      "gender": "—",
       "type": "weather"
     },
     {
       "id": 4,
-      "target": "est\u00e1 soleado",
+      "target": "está soleado",
       "source": "it's sunny",
-      "gender": "\u2014",
+      "gender": "—",
       "type": "weather"
     },
     {
       "id": 5,
       "target": "llueve",
       "source": "it's raining",
-      "gender": "\u2014",
+      "gender": "—",
       "type": "weather"
     },
     {
       "id": 6,
-      "target": "est\u00e1 lloviendo",
+      "target": "está lloviendo",
       "source": "it's raining",
-      "gender": "\u2014",
+      "gender": "—",
       "type": "weather"
     },
     {
@@ -63,7 +63,7 @@
       "id": 9,
       "target": "nevar",
       "source": "to snow",
-      "gender": "\u2014",
+      "gender": "—",
       "type": "verb"
     },
     {
@@ -110,7 +110,7 @@
     },
     {
       "id": 16,
-      "target": "rel\u00e1mpago",
+      "target": "relámpago",
       "source": "lightning",
       "gender": "m",
       "type": "weather"
@@ -124,7 +124,7 @@
     },
     {
       "id": 18,
-      "target": "arco\u00edris",
+      "target": "arcoíris",
       "source": "rainbow",
       "gender": "m",
       "type": "weather"
@@ -152,7 +152,7 @@
     },
     {
       "id": 22,
-      "target": "fr\u00edo",
+      "target": "frío",
       "source": "cold",
       "gender": "m",
       "type": "weather"
@@ -166,30 +166,30 @@
     },
     {
       "id": 24,
-      "target": "hace fr\u00edo",
+      "target": "hace frío",
       "source": "it's cold",
-      "gender": "\u2014",
+      "gender": "—",
       "type": "weather"
     },
     {
       "id": 25,
       "target": "hace calor",
       "source": "it's hot",
-      "gender": "\u2014",
+      "gender": "—",
       "type": "weather"
     },
     {
       "id": 26,
       "target": "hace viento",
       "source": "it's windy",
-      "gender": "\u2014",
+      "gender": "—",
       "type": "weather"
     },
     {
       "id": 27,
       "target": "hace fresco",
       "source": "it's cool",
-      "gender": "\u2014",
+      "gender": "—",
       "type": "weather"
     },
     {
@@ -222,7 +222,7 @@
     },
     {
       "id": 32,
-      "target": "ola de fr\u00edo",
+      "target": "ola de frío",
       "source": "cold wave",
       "gender": "f",
       "type": "weather"
@@ -243,7 +243,7 @@
     },
     {
       "id": 35,
-      "target": "oto\u00f1o",
+      "target": "otoño",
       "source": "autumn/fall",
       "gender": "m",
       "type": "season"
@@ -257,14 +257,14 @@
     },
     {
       "id": 37,
-      "target": "monta\u00f1a",
+      "target": "montaña",
       "source": "mountain",
       "gender": "f",
       "type": "nature"
     },
     {
       "id": 38,
-      "target": "r\u00edo",
+      "target": "río",
       "source": "river",
       "gender": "m",
       "type": "nature"
@@ -299,7 +299,7 @@
     },
     {
       "id": 43,
-      "target": "\u00e1rboles",
+      "target": "árboles",
       "source": "trees",
       "gender": "m",
       "type": "nature"
@@ -348,7 +348,7 @@
     },
     {
       "id": 50,
-      "target": "volc\u00e1n",
+      "target": "volcán",
       "source": "volcano",
       "gender": "m",
       "type": "nature"
@@ -488,7 +488,7 @@
     },
     {
       "id": 70,
-      "target": "p\u00e1jaro",
+      "target": "pájaro",
       "source": "bird",
       "gender": "m",
       "type": "nature"
@@ -544,7 +544,7 @@
     },
     {
       "id": 78,
-      "target": "le\u00f3n",
+      "target": "león",
       "source": "lion",
       "gender": "m",
       "type": "nature"
@@ -565,7 +565,7 @@
     },
     {
       "id": 81,
-      "target": "\u00e1guila",
+      "target": "águila",
       "source": "eagle",
       "gender": "f",
       "type": "nature"
@@ -607,7 +607,7 @@
     },
     {
       "id": 87,
-      "target": "delf\u00edn",
+      "target": "delfín",
       "source": "dolphin",
       "gender": "m",
       "type": "nature"
@@ -621,7 +621,7 @@
     },
     {
       "id": 89,
-      "target": "tibur\u00f3n",
+      "target": "tiburón",
       "source": "shark",
       "gender": "m",
       "type": "nature"
@@ -637,49 +637,49 @@
       "id": 91,
       "target": "caminar",
       "source": "to walk/hike",
-      "gender": "\u2014",
+      "gender": "—",
       "type": "activity"
     },
     {
       "id": 92,
       "target": "escalar",
       "source": "to climb",
-      "gender": "\u2014",
+      "gender": "—",
       "type": "activity"
     },
     {
       "id": 93,
       "target": "nadar",
       "source": "to swim",
-      "gender": "\u2014",
+      "gender": "—",
       "type": "activity"
     },
     {
       "id": 94,
       "target": "patinar",
       "source": "to skate",
-      "gender": "\u2014",
+      "gender": "—",
       "type": "activity"
     },
     {
       "id": 95,
       "target": "esquiar",
       "source": "to ski",
-      "gender": "\u2014",
+      "gender": "—",
       "type": "activity"
     },
     {
       "id": 96,
       "target": "bucear",
       "source": "to scuba dive",
-      "gender": "\u2014",
+      "gender": "—",
       "type": "activity"
     },
     {
       "id": 97,
       "target": "correr",
       "source": "to run",
-      "gender": "\u2014",
+      "gender": "—",
       "type": "activity"
     },
     {
@@ -691,7 +691,7 @@
     },
     {
       "id": 99,
-      "target": "monta\u00f1ismo",
+      "target": "montañismo",
       "source": "mountaineering",
       "gender": "m",
       "type": "activity"
@@ -700,30 +700,30 @@
       "id": 100,
       "target": "observar aves",
       "source": "birdwatching",
-      "gender": "\u2014",
+      "gender": "—",
       "type": "activity"
     }
   ],
   "grammar": [
     {
-      "title": "Hacer + Weather \u2014 The Go-To Structure",
-      "content": "In Spanish, weather expressions use HACER (to make/do):\n\n- Hace sol. (It's sunny.)\n- Hace fr\u00edo. (It's cold.)\n- Hace calor. (It's hot.)\n- Hace viento. (It's windy.)\n- Hace fresco. (It's cool.)\n- Hace buen tiempo. (It's good weather.)\n- Hace mal tiempo. (It's bad weather.)\n\nFor rain/snow, use the verb directly:\n- Llueve. (It's raining.)\n- Nieva. (It's snowing.)\n- Graniza. (It's hailing.)\n\nTo describe current weather:\n- Est\u00e1 lloviendo. (It's raining right now.)\n- Est\u00e1 nublado. (It's cloudy.)\n- Est\u00e1 despejado. (It's clear.)",
+      "title": "Hacer + Weather — The Go-To Structure",
+      "content": "In Spanish, weather expressions use HACER (to make/do):\n\n- Hace sol. (It's sunny.)\n- Hace frío. (It's cold.)\n- Hace calor. (It's hot.)\n- Hace viento. (It's windy.)\n- Hace fresco. (It's cool.)\n- Hace buen tiempo. (It's good weather.)\n- Hace mal tiempo. (It's bad weather.)\n\nFor rain/snow, use the verb directly:\n- Llueve. (It's raining.)\n- Nieva. (It's snowing.)\n- Graniza. (It's hailing.)\n\nTo describe current weather:\n- Está lloviendo. (It's raining right now.)\n- Está nublado. (It's cloudy.)\n- Está despejado. (It's clear.)",
       "examples": [
-        "Hace calor en verano. (It's hot in summer.)\nHace fr\u00edo en invierno. (It's cold in winter.)\n\u00bfQu\u00e9 tiempo hace hoy? (What's the weather like today?)"
+        "Hace calor en verano. (It's hot in summer.)\nHace frío en invierno. (It's cold in winter.)\n¿Qué tiempo hace hoy? (What's the weather like today?)"
       ]
     },
     {
       "title": "Seasons and Weather Expressions",
-      "content": "Seasons in Spanish:\n- La primavera (spring)\n- El verano (summer)\n- El oto\u00f1o (autumn/fall)\n- El invierno (winter)\n\nWeather by season:\n- En primavera hace buen tiempo. (In spring it's good weather.)\n- En verano hace mucho calor. (In summer it's very hot.)\n- En oto\u00f1o llueve mucho. (In autumn it rains a lot.)\n- En invierno hace fr\u00edo y puede nevar. (In winter it's cold and it may snow.)\n\n'Puede' = it may/might (from poder)",
+      "content": "Seasons in Spanish:\n- La primavera (spring)\n- El verano (summer)\n- El otoño (autumn/fall)\n- El invierno (winter)\n\nWeather by season:\n- En primavera hace buen tiempo. (In spring it's good weather.)\n- En verano hace mucho calor. (In summer it's very hot.)\n- En otoño llueve mucho. (In autumn it rains a lot.)\n- En invierno hace frío y puede nevar. (In winter it's cold and it may snow.)\n\n'Puede' = it may/might (from poder)",
       "examples": [
-        "En verano voy a la playa. (In summer I go to the beach.)\nEn oto\u00f1o las hojas caen. (In autumn the leaves fall.)"
+        "En verano voy a la playa. (In summer I go to the beach.)\nEn otoño las hojas caen. (In autumn the leaves fall.)"
       ]
     }
   ],
   "pronunciation": [
     {
       "title": "Vowel Length and Consistency",
-      "content": "Spanish vowels are always the same length \u2014 no diphthongs unless marked.\n\na = ah, e = eh, i = ee, o = oh, u = oo\n\nThis is different from English where 'a' can be 'ay' (cake) or 'ah' (cat). In Spanish:\n- agua = AH-gwah (always 'ah')\n- cielo = SYEH-loh (always 'eh')\n- libro = LEE-broh (always 'ee')\n- sol = SOH (always 'oh')\n- luna = LOO-nah (always 'oo')",
+      "content": "Spanish vowels are always the same length — no diphthongs unless marked.\n\na = ah, e = eh, i = ee, o = oh, u = oo\n\nThis is different from English where 'a' can be 'ay' (cake) or 'ah' (cat). In Spanish:\n- agua = AH-gwah (always 'ah')\n- cielo = SYEH-loh (always 'eh')\n- libro = LEE-broh (always 'ee')\n- sol = SOH (always 'oh')\n- luna = LOO-nah (always 'oo')",
       "examples": [
         "lluvia (YOO-vee-ah)\nverano (beh-RAH-noh)\nnieve (NYEH-veh)"
       ]
@@ -734,13 +734,13 @@
       "type": "multiple-choice",
       "question": "How do you say 'It's cold' in Spanish?",
       "options": [
-        "Soy fr\u00edo",
-        "Estoy fr\u00edo",
-        "Hace fr\u00edo",
-        "Tengo fr\u00edo"
+        "Soy frío",
+        "Estoy frío",
+        "Hace frío",
+        "Tengo frío"
       ],
       "correct": 2,
-      "explanation": "'Hace fr\u00edo' uses HACER for weather conditions."
+      "explanation": "'Hace frío' uses HACER for weather conditions."
     },
     {
       "type": "multiple-choice",
