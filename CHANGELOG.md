@@ -24,6 +24,20 @@ All notable changes to this project will be documented in this file.
 - Stale cache behavior: old cache versions no longer persist after updates.
 - Inconsistent fetch strategy: HTML now correctly cache-first (offline-available).
 
+## Unreleased (Recent)
+
+### Fixed
+- **Mobile sidebar** — Auto-closes when navigating to a theme (`loadThemeDirectly()`, `loadTheme()`).
+- **Mobile sidebar** — Escape key now dismisses the sidebar overlay.
+- **Mobile header z-index** — Raised from z-10 to z-60 so the header always sits above the z-50 sidebar.
+- **Viewport transition** — Sidebar state resets when moving from mobile to desktop (prevents pre-opened sidebar on re-entry).
+- **Sidebar animation** — Slide-in duration increased from 200ms to 300ms for smoother feel.
+- **Quiz engine** — Restricted theme-detail quiz to theme-level exercises only; respects pillar selection; added exit button.
+
+### Changed
+- **Service worker** — Cache version bumped from `v7` to `v8`.
+- **Cache busting** — `app.js` version bumped to `v=48`.
+
 ## [v1.0.0] — 2026-08-01
 
 ### Added
