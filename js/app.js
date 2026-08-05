@@ -1511,13 +1511,13 @@ function app() {
             });
             if (!q.options || !Array.isArray(q.options)) {
               var targets = vocabItems
-                .filter(function(v) { return v.spanish !== item.spanish; })
-                .map(function(v) { return v.english || v.source; });
+                .filter(function(v) { return v.target !== item.target; })
+                .map(function(v) { return v.source; });
               targets = self.shuffleArray(targets).slice(0, 3);
-              q.options = [item.english || item.target].concat(targets);
+              q.options = [item.source].concat(targets);
               q.options = self.shuffleArray(q.options);
-              q.correct = q.options.indexOf(item.english || item.target);
-              q.question = 'What does "' + (item.spanish || item.target) + '" mean?';
+              q.correct = q.options.indexOf(item.source);
+              q.question = 'What does "' + item.target + '" mean?';
             }
             self.quizQuestions.push(q);
           });
