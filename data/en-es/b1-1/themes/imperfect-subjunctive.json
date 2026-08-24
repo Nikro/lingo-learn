@@ -3,54 +3,440 @@
   "title": "Imperfect Subjunctive (Pretérito Imperfecto de Subjuntivo)",
   "description": "Express hypothetical actions, wishes, or conditions in the past using the imperfect subjunctive (-ra/-se forms).",
   "vocabulary": [
-    { "id": 1, "target": "si tuviera dinero", "source": "if I had money", "gender": "—", "type": "phrase" },
-    { "id": 2, "target": "viajaría", "source": "I would travel", "gender": "v.", "type": "verb" },
-    { "id": 3, "target": "Sudamérica", "source": "South America", "gender": "f.", "type": "place" },
-    { "id": 4, "target": "la fiesta", "source": "the party", "gender": "f.", "type": "noun" },
-    { "id": 5, "target": "la regla", "source": "the rule", "gender": "f.", "type": "noun" },
-    { "id": 6, "target": "explicar", "source": "to explain", "gender": "v.", "type": "verb" },
-    { "id": 7, "target": "más tiempo", "source": "more time", "gender": "—", "type": "phrase" },
-    { "id": 8, "target": "más paciente", "source": "more patient", "gender": "—", "type": "phrase" },
-    { "id": 9, "target": "disponibles", "source": "available", "gender": "—", "type": "adjective" },
-    { "id": 10, "target": "necesario", "source": "necessary", "gender": "m.", "type": "adjective" },
-    { "id": 11, "target": "tener", "source": "to have", "gender": "v.", "type": "verb" },
-    { "id": 12, "target": "ser", "source": "to be (permanent)", "gender": "v.", "type": "verb" },
-    { "id": 13, "target": "estar", "source": "to be (temporary)", "gender": "v.", "type": "verb" },
-    { "id": 14, "target": "ir", "source": "to go", "gender": "v.", "type": "verb" },
-    { "id": 15, "target": "poder", "source": "to be able to / can", "gender": "v.", "type": "verb" },
-    { "id": 16, "target": "saber", "source": "to know (facts)", "gender": "v.", "type": "verb" },
-    { "id": 17, "target": "poder", "source": "to be able to / can", "gender": "v.", "type": "verb" },
-    { "id": 18, "target": "venir", "source": "to come", "gender": "v.", "type": "verb" },
-    { "id": 19, "target": "hacer", "source": "to do / to make", "gender": "v.", "type": "verb" },
-    { "id": 20, "target": "decir", "source": "to say / to tell", "gender": "v.", "type": "verb" },
-    { "id": 21, "target": "querer", "source": "to want", "gender": "v.", "type": "verb" },
-    { "id": 22, "target": "hablar", "source": "to speak", "gender": "v.", "type": "verb" },
-    { "id": 23, "target": "comer", "source": "to eat", "gender": "v.", "type": "verb" },
-    { "id": 24, "target": "vivir", "source": "to live", "gender": "v.", "type": "verb" },
-    { "id": 25, "target": "llegar", "source": "to arrive", "gender": "v.", "type": "verb" },
-    { "id": 26, "target": "esperar", "source": "to hope / to wait", "gender": "v.", "type": "verb" },
-    { "id": 27, "target": "querer", "source": "to want", "gender": "v.", "type": "verb" },
-    { "id": 28, "target": "necesitar", "source": "to need", "gender": "v.", "type": "verb" },
-    { "id": 29, "target": "estudiar", "source": "to study", "gender": "v.", "type": "verb" },
-    { "id": 30, "target": "reprobar", "source": "to fail (a test)", "gender": "v.", "type": "verb" }
+    {
+      "id": 1,
+      "target": "si tuviera dinero",
+      "source": "if I had money",
+      "gender": "—",
+      "type": "phrase"
+    },
+    {
+      "id": 2,
+      "target": "viajaría",
+      "source": "I would travel",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 3,
+      "target": "Sudamérica",
+      "source": "South America",
+      "gender": "f.",
+      "type": "place"
+    },
+    {
+      "id": 4,
+      "target": "la fiesta",
+      "source": "the party",
+      "gender": "f.",
+      "type": "noun"
+    },
+    {
+      "id": 5,
+      "target": "la regla",
+      "source": "the rule",
+      "gender": "f.",
+      "type": "noun"
+    },
+    {
+      "id": 6,
+      "target": "explicar",
+      "source": "to explain",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 7,
+      "target": "más tiempo",
+      "source": "more time",
+      "gender": "—",
+      "type": "phrase"
+    },
+    {
+      "id": 8,
+      "target": "más paciente",
+      "source": "more patient",
+      "gender": "—",
+      "type": "phrase"
+    },
+    {
+      "id": 9,
+      "target": "disponibles",
+      "source": "available",
+      "gender": "—",
+      "type": "adjective"
+    },
+    {
+      "id": 10,
+      "target": "necesario",
+      "source": "necessary",
+      "gender": "m.",
+      "type": "adjective"
+    },
+    {
+      "id": 11,
+      "target": "tener",
+      "source": "to have",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 12,
+      "target": "ser",
+      "source": "to be (permanent)",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 13,
+      "target": "estar",
+      "source": "to be (temporary)",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 14,
+      "target": "ir",
+      "source": "to go",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 15,
+      "target": "poder",
+      "source": "to be able to / can",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 16,
+      "target": "saber",
+      "source": "to know (facts)",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 17,
+      "target": "poder",
+      "source": "to be able to / can",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 18,
+      "target": "venir",
+      "source": "to come",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 19,
+      "target": "hacer",
+      "source": "to do / to make",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 20,
+      "target": "decir",
+      "source": "to say / to tell",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 21,
+      "target": "querer",
+      "source": "to want",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 22,
+      "target": "hablar",
+      "source": "to speak",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 23,
+      "target": "comer",
+      "source": "to eat",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 24,
+      "target": "vivir",
+      "source": "to live",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 25,
+      "target": "llegar",
+      "source": "to arrive",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 26,
+      "target": "esperar",
+      "source": "to hope / to wait",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 27,
+      "target": "querer",
+      "source": "to want",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 28,
+      "target": "necesitar",
+      "source": "to need",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 29,
+      "target": "estudiar",
+      "source": "to study",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 30,
+      "target": "reprobar",
+      "source": "to fail (a test)",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "target": "hablara",
+      "source": "(he/she) would speak",
+      "type": "verb",
+      "example": "Si hablara, lo diría.",
+      "id": 31
+    },
+    {
+      "target": "hablase",
+      "source": "(he/she) would speak",
+      "type": "verb",
+      "example": "Ojalá hablase conmigo.",
+      "id": 32
+    },
+    {
+      "target": "comiera",
+      "source": "(he/she) would eat",
+      "type": "verb",
+      "example": "Si comiera menos, estaría mejor.",
+      "id": 33
+    },
+    {
+      "target": "comiese",
+      "source": "(he/she) would eat",
+      "type": "verb",
+      "example": "Ojalá comiese más verduras.",
+      "id": 34
+    },
+    {
+      "target": "viviera",
+      "source": "(he/she) would live",
+      "type": "verb",
+      "example": "Si viviera aquí, vendría.",
+      "id": 35
+    },
+    {
+      "target": "viviese",
+      "source": "(he/she) would live",
+      "type": "verb",
+      "example": "Ojalá viviese en el campo.",
+      "id": 36
+    },
+    {
+      "target": "fuera",
+      "source": "(he/she) were",
+      "type": "verb",
+      "example": "Si fuera rico, viajaría.",
+      "id": 37
+    },
+    {
+      "target": "fuese",
+      "source": "(he/she) were",
+      "type": "verb",
+      "example": "Ojalá fuese más amable.",
+      "id": 38
+    },
+    {
+      "target": "tuviera",
+      "source": "(he/she) would have",
+      "type": "verb",
+      "example": "Si tuviera tiempo, iría.",
+      "id": 39
+    },
+    {
+      "target": "tuviese",
+      "source": "(he/she) would have",
+      "type": "verb",
+      "example": "Ojalá tuviese paciencia.",
+      "id": 40
+    },
+    {
+      "target": "quisiera",
+      "source": "(he/she) would want",
+      "type": "verb",
+      "example": "Quisiera un café, por favor.",
+      "id": 41
+    },
+    {
+      "target": "pudiera",
+      "source": "(he/she) could",
+      "type": "verb",
+      "example": "Si pudiera, lo haría.",
+      "id": 42
+    },
+    {
+      "target": "supiera",
+      "source": "(he/she) would know",
+      "type": "verb",
+      "example": "Ojalá supiera la respuesta.",
+      "id": 43
+    },
+    {
+      "target": "hiciera",
+      "source": "(he/she) would do",
+      "type": "verb",
+      "example": "Si hiciera el examen, aprobaría.",
+      "id": 44
+    },
+    {
+      "target": "diera",
+      "source": "(he/she) would give",
+      "type": "verb",
+      "example": "Si diera consejos, tomaría uno.",
+      "id": 45
+    },
+    {
+      "target": "viniera",
+      "source": "(he/she) would come",
+      "type": "verb",
+      "example": "Me alegro de que viniera.",
+      "id": 46
+    },
+    {
+      "target": "saldría",
+      "source": "(he/she) would leave",
+      "type": "verb",
+      "example": "Si saldría tarde, avisaría.",
+      "id": 47
+    },
+    {
+      "target": "pondría",
+      "source": "(he/she) would put",
+      "type": "verb",
+      "example": "Si pondría la mesa, cenaríamos.",
+      "id": 48
+    },
+    {
+      "target": "iría",
+      "source": "(he/she) would go",
+      "type": "verb",
+      "example": "Si iría, me gustaría.",
+      "id": 49
+    },
+    {
+      "target": "necesitara",
+      "source": "(he/she) would need",
+      "type": "verb",
+      "example": "Si necesitara ayuda, la pediría.",
+      "id": 50
+    }
   ],
   "grammar": [
     {
       "title": "Imperfect Subjunctive (Pretérito Imperfecto de Subjuntivo)",
       "content": "The imperfect subjunctive expresses hypothetical actions, wishes, or conditions in the past. There are two valid sets of endings (-ra and -se) that are interchangeable in meaning; the -ra forms are more common in speech.\n\nHow to form it:\n1. Start with the 3rd-person plural preterite (ellos/ellas/Uds.)\n2. Drop the -ron ending\n3. Add -ra or -se endings\n\n-RA endings (more common):\n- yo: -ra\n- tú: -ras\n- él/ella/usted: -ra\n- nosotros: -ramos\n- vosotros: -rais\n- ellos/ellas/ustedes: -ran\n\n-SE endings (alternative, more formal):\n- yo: -se\n- tú: -ses\n- él/ella/usted: -se\n- nosotros: -semos\n- vosotros: -seis\n- ellos/ellas/ustedes: -sen\n\nExamples:\n- caminaron → camin- → caminara/caminase\n- hablaron → habl- → hablara/hablase\n- comieron → comie- → comiera/comiese\n- vivieron → vivie- → viviera/viviese\n\nKey irregulars:\n- tener → tuvieron → tuviera/tuviese\n- ser/ir → fueron → fuera/fuese\n- estar → estuvieron → estuviera/estuviese\n- poder → pudo → pudiera/pudiese\n- saber → supo → supiera/supiese\n- hacer → hizo → hiciera/hiciese",
       "table": {
-        "headers": ["Infinitive", "Preterite ellos", "Stem", "-ra (yo)", "-se (yo)"],
+        "headers": [
+          "Infinitive",
+          "Preterite ellos",
+          "Stem",
+          "-ra (yo)",
+          "-se (yo)"
+        ],
         "rows": [
-          ["hablar", "hablaron", "habla-", "hablara", "hablase"],
-          ["comer", "comieron", "comie-", "comiera", "comiese"],
-          ["vivir", "vivieron", "vivie-", "viviera", "viviese"],
-          ["tener", "tuvieron", "tuvie-", "tuviera", "tuviese"],
-          ["ser", "fueron", "fue-", "fuera", "fuese"],
-          ["estar", "estuvieron", "estuvie-", "estuviera", "estuviese"],
-          ["poder", "pudieron", "pudie-", "pudiera", "pudiese"],
-          ["saber", "supieron", "supie-", "supiera", "supiese"],
-          ["hacer", "hicieron", "hicie-", "hiciera", "hiciese"],
-          ["ir", "fueron", "fue-", "fuera", "fuese"]
+          [
+            "hablar",
+            "hablaron",
+            "habla-",
+            "hablara",
+            "hablase"
+          ],
+          [
+            "comer",
+            "comieron",
+            "comie-",
+            "comiera",
+            "comiese"
+          ],
+          [
+            "vivir",
+            "vivieron",
+            "vivie-",
+            "viviera",
+            "viviese"
+          ],
+          [
+            "tener",
+            "tuvieron",
+            "tuvie-",
+            "tuviera",
+            "tuviese"
+          ],
+          [
+            "ser",
+            "fueron",
+            "fue-",
+            "fuera",
+            "fuese"
+          ],
+          [
+            "estar",
+            "estuvieron",
+            "estuvie-",
+            "estuviera",
+            "estuviese"
+          ],
+          [
+            "poder",
+            "pudieron",
+            "pudie-",
+            "pudiera",
+            "pudiese"
+          ],
+          [
+            "saber",
+            "supieron",
+            "supie-",
+            "supiera",
+            "supiese"
+          ],
+          [
+            "hacer",
+            "hicieron",
+            "hicie-",
+            "hiciera",
+            "hiciese"
+          ],
+          [
+            "ir",
+            "fueron",
+            "fue-",
+            "fuera",
+            "fuese"
+          ]
         ]
       },
       "examples": [
@@ -68,11 +454,26 @@
       "title": "Stress in Imperfect Subjunctive Forms",
       "content": "All imperfect subjunctive forms carry stress on the ending syllable:\n\n-RA forms:\n- yo: hablara (ha-BLA-ra) — stress on 'ra'\n- tú: hablaras (ha-BLA-raz) — stress on 'ra'\n- él/ella/usted: hablara (ha-BLA-ra) — stress on 'ra'\n- nosotros: habláramos (ha-BLA-za-MOS) — stress on 'á'\n- vosotros: hablarais (ha-BLA-ra-is) — stress on 'ra'\n- ellos: hablaran (ha-BLA-ran) — stress on 'ra'\n\nThe nosotros and vosotros forms carry accent marks because the stress falls on the syllable before the ending.\n\nThe -se forms follow the same stress pattern but use -se/-ses/-se/-semos/-seis/-sen endings.\n\nCritical: Spanish 'comiera' is pronounced 'ko-MYE-ra' (three distinct syllables), NOT 'ko-MIRA' as English speakers might assume. The 'ie' is a diphthong but the 'a' at the end is a separate syllable.",
       "examples": [
-        { "target": "hablara", "source": "ha-BLA-ra (3 syllables)" },
-        { "target": "comiéramos", "source": "ko-MYE-za-mos (stress on é)" },
-        { "target": "vivieras", "source": "bi-BYE-raz (stress on ie)" },
-        { "target": "estuvieran", "source": "es-too-BYE-ran (stress on ie)" },
-        { "target": "fuéramos", "source": "fweh-BYE-mos (stress on é)" }
+        {
+          "target": "hablara",
+          "source": "ha-BLA-ra (3 syllables)"
+        },
+        {
+          "target": "comiéramos",
+          "source": "ko-MYE-za-mos (stress on é)"
+        },
+        {
+          "target": "vivieras",
+          "source": "bi-BYE-raz (stress on ie)"
+        },
+        {
+          "target": "estuvieran",
+          "source": "es-too-BYE-ran (stress on ie)"
+        },
+        {
+          "target": "fuéramos",
+          "source": "fweh-BYE-mos (stress on é)"
+        }
       ],
       "aid_note": "Romanian vowel pronunciation is very similar to Spanish — pure vowels without diphthongs. The main challenge is the Spanish imperfect subjunctive stress patterns. Romanian has similar stress patterns on verb endings."
     }
@@ -93,7 +494,12 @@
     {
       "type": "exercise",
       "question": "Which sentence uses the imperfect subjunctive correctly?",
-      "options": ["Si yo tenia dinero, viajaría.", "Si yo tuviera dinero, viajaría.", "Si yo tuve dinero, viajaría.", "Si yo tengo dinero, viajaría."],
+      "options": [
+        "Si yo tenia dinero, viajaría.",
+        "Si yo tuviera dinero, viajaría.",
+        "Si yo tuve dinero, viajaría.",
+        "Si yo tengo dinero, viajaría."
+      ],
       "correct": 1,
       "explanation": "Hypothetical 'if' clauses in the past require the imperfect subjunctive: 'Si yo tuviera dinero, viajaría.' The -ra form is the standard for hypotheticals."
     },
@@ -113,7 +519,9 @@
       "type": "conjugation-matrix",
       "question": "Conjugate TENER in the imperfect subjunctive (-ra form):",
       "verb": "TENER",
-      "tenses": ["imperfect_subjunctive_ra"],
+      "tenses": [
+        "imperfect_subjunctive_ra"
+      ],
       "explanation": "TENER is irregular in the preterite (tuvieron), which is the stem source for the imperfect subjunctive. From 'tuvieron' → 'tuvie-' + endings."
     }
   ]

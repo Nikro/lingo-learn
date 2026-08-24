@@ -3,52 +3,408 @@
   "title": "Advanced Connectors (Conectores Avanzados)",
   "description": "Master discourse markers for contrast, cause, addition, clarification, and conclusion.",
   "vocabulary": [
-    { "id": 1, "target": "sin embargo", "source": "however", "gender": "—", "type": "connector" },
-    { "id": 2, "target": "no obstante", "source": "nevertheless", "gender": "—", "type": "connector" },
-    { "id": 3, "target": "a pesar de que", "source": "despite / even though", "gender": "—", "type": "connector" },
-    { "id": 4, "target": "aunque", "source": "although / even though", "gender": "—", "type": "conjunction" },
-    { "id": 5, "target": "por el contrario", "source": "on the contrary", "gender": "—", "type": "connector" },
-    { "id": 6, "target": "porque", "source": "because", "gender": "—", "type": "conjunction" },
-    { "id": 7, "target": "ya que", "source": "since / because", "gender": "—", "type": "conjunction" },
-    { "id": 8, "target": "debido a", "source": "due to / because of", "gender": "—", "type": "connector" },
-    { "id": 9, "target": "por lo tanto", "source": "therefore", "gender": "—", "type": "connector" },
-    { "id": 10, "target": "por eso", "source": "that's why", "gender": "—", "type": "connector" },
-    { "id": 11, "target": "en consecuencia", "source": "consequently", "gender": "—", "type": "connector" },
-    { "id": 12, "target": "además", "source": "furthermore / in addition", "gender": "—", "type": "connector" },
-    { "id": 13, "target": "asimismo", "source": "likewise", "gender": "—", "type": "connector" },
-    { "id": 14, "target": "también", "source": "also", "gender": "—", "type": "adverb" },
-    { "id": 15, "target": "es decir", "source": "that is / in other words", "gender": "—", "type": "connector" },
-    { "id": 16, "target": "por ejemplo", "source": "for example", "gender": "—", "type": "connector" },
-    { "id": 17, "target": "en particular", "source": "in particular", "gender": "—", "type": "connector" },
-    { "id": 18, "target": "en resumen", "source": "in summary", "gender": "—", "type": "connector" },
-    { "id": 19, "target": "en conclusión", "source": "in conclusion", "gender": "—", "type": "connector" },
-    { "id": 20, "target": "finalmente", "source": "finally", "gender": "—", "type": "adverb" },
-    { "id": 21, "target": "en definitiva", "source": "ultimately", "gender": "—", "type": "connector" },
-    { "id": 22, "target": "por consiguiente", "source": "consequently", "gender": "—", "type": "connector" },
-    { "id": 23, "target": "el proyecto", "source": "the project", "gender": "m.", "type": "noun" },
-    { "id": 24, "target": "ambicioso", "source": "ambitious", "gender": "m.", "type": "adjective" },
-    { "id": 25, "target": "las ventajas", "source": "the advantages", "gender": "f.", "type": "noun" },
-    { "id": 26, "target": "el examen", "source": "the exam", "gender": "m.", "type": "noun" },
-    { "id": 27, "target": "suspender", "source": "to fail (a test)", "gender": "v.", "type": "verb" },
-    { "id": 28, "target": "la crisis económica", "source": "the economic crisis", "gender": "f.", "type": "phrase" },
-    { "id": 29, "target": "cerrar", "source": "to close", "gender": "v.", "type": "verb" },
-    { "id": 30, "target": "los negocios", "source": "the businesses", "gender": "m.", "type": "noun" }
+    {
+      "id": 1,
+      "target": "sin embargo",
+      "source": "however",
+      "gender": "—",
+      "type": "connector"
+    },
+    {
+      "id": 2,
+      "target": "no obstante",
+      "source": "nevertheless",
+      "gender": "—",
+      "type": "connector"
+    },
+    {
+      "id": 3,
+      "target": "a pesar de que",
+      "source": "despite / even though",
+      "gender": "—",
+      "type": "connector"
+    },
+    {
+      "id": 4,
+      "target": "aunque",
+      "source": "although / even though",
+      "gender": "—",
+      "type": "conjunction"
+    },
+    {
+      "id": 5,
+      "target": "por el contrario",
+      "source": "on the contrary",
+      "gender": "—",
+      "type": "connector"
+    },
+    {
+      "id": 6,
+      "target": "porque",
+      "source": "because",
+      "gender": "—",
+      "type": "conjunction"
+    },
+    {
+      "id": 7,
+      "target": "ya que",
+      "source": "since / because",
+      "gender": "—",
+      "type": "conjunction"
+    },
+    {
+      "id": 8,
+      "target": "debido a",
+      "source": "due to / because of",
+      "gender": "—",
+      "type": "connector"
+    },
+    {
+      "id": 9,
+      "target": "por lo tanto",
+      "source": "therefore",
+      "gender": "—",
+      "type": "connector"
+    },
+    {
+      "id": 10,
+      "target": "por eso",
+      "source": "that's why",
+      "gender": "—",
+      "type": "connector"
+    },
+    {
+      "id": 11,
+      "target": "en consecuencia",
+      "source": "consequently",
+      "gender": "—",
+      "type": "connector"
+    },
+    {
+      "id": 12,
+      "target": "además",
+      "source": "furthermore / in addition",
+      "gender": "—",
+      "type": "connector"
+    },
+    {
+      "id": 13,
+      "target": "asimismo",
+      "source": "likewise",
+      "gender": "—",
+      "type": "connector"
+    },
+    {
+      "id": 14,
+      "target": "también",
+      "source": "also",
+      "gender": "—",
+      "type": "adverb"
+    },
+    {
+      "id": 15,
+      "target": "es decir",
+      "source": "that is / in other words",
+      "gender": "—",
+      "type": "connector"
+    },
+    {
+      "id": 16,
+      "target": "por ejemplo",
+      "source": "for example",
+      "gender": "—",
+      "type": "connector"
+    },
+    {
+      "id": 17,
+      "target": "en particular",
+      "source": "in particular",
+      "gender": "—",
+      "type": "connector"
+    },
+    {
+      "id": 18,
+      "target": "en resumen",
+      "source": "in summary",
+      "gender": "—",
+      "type": "connector"
+    },
+    {
+      "id": 19,
+      "target": "en conclusión",
+      "source": "in conclusion",
+      "gender": "—",
+      "type": "connector"
+    },
+    {
+      "id": 20,
+      "target": "finalmente",
+      "source": "finally",
+      "gender": "—",
+      "type": "adverb"
+    },
+    {
+      "id": 21,
+      "target": "en definitiva",
+      "source": "ultimately",
+      "gender": "—",
+      "type": "connector"
+    },
+    {
+      "id": 22,
+      "target": "por consiguiente",
+      "source": "consequently",
+      "gender": "—",
+      "type": "connector"
+    },
+    {
+      "id": 23,
+      "target": "el proyecto",
+      "source": "the project",
+      "gender": "m.",
+      "type": "noun"
+    },
+    {
+      "id": 24,
+      "target": "ambicioso",
+      "source": "ambitious",
+      "gender": "m.",
+      "type": "adjective"
+    },
+    {
+      "id": 25,
+      "target": "las ventajas",
+      "source": "the advantages",
+      "gender": "f.",
+      "type": "noun"
+    },
+    {
+      "id": 26,
+      "target": "el examen",
+      "source": "the exam",
+      "gender": "m.",
+      "type": "noun"
+    },
+    {
+      "id": 27,
+      "target": "suspender",
+      "source": "to fail (a test)",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 28,
+      "target": "la crisis económica",
+      "source": "the economic crisis",
+      "gender": "f.",
+      "type": "phrase"
+    },
+    {
+      "id": 29,
+      "target": "cerrar",
+      "source": "to close",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 30,
+      "target": "los negocios",
+      "source": "the businesses",
+      "gender": "m.",
+      "type": "noun"
+    },
+    {
+      "target": "a fin de cuentas",
+      "source": "after all",
+      "type": "connector",
+      "example": "A fin de cuentas, todo quedó bien.",
+      "id": 31
+    },
+    {
+      "target": "en otras palabras",
+      "source": "in other words",
+      "type": "connector",
+      "example": "En otras palabras, no hay salida.",
+      "id": 32
+    },
+    {
+      "target": "por lo general",
+      "source": "generally",
+      "type": "connector",
+      "example": "Por lo general, llueve en octubre.",
+      "id": 33
+    },
+    {
+      "target": "de hecho",
+      "source": "in fact",
+      "type": "connector",
+      "example": "De hecho, no lo sabía.",
+      "id": 34
+    },
+    {
+      "target": "por otra parte",
+      "source": "on the other hand",
+      "type": "connector",
+      "example": "Por otra parte, el precio es alto.",
+      "id": 35
+    },
+    {
+      "target": "en cambio",
+      "source": "instead / on the contrary",
+      "type": "connector",
+      "example": "Yo, en cambio, prefiero el té.",
+      "id": 36
+    },
+    {
+      "target": "no en vano",
+      "source": "not for nothing",
+      "type": "connector",
+      "example": "No en vano lleva veinte años en esto.",
+      "id": 37
+    },
+    {
+      "target": "con tal de que",
+      "source": "as long as",
+      "type": "connector",
+      "example": "Con tal de que llegues, no me importa.",
+      "id": 38
+    },
+    {
+      "target": "aunque sea",
+      "source": "even if",
+      "type": "connector",
+      "example": "Aunque sea un poco, ayuda.",
+      "id": 39
+    },
+    {
+      "target": "así sea",
+      "source": "so be it",
+      "type": "connector",
+      "example": "Así sea, lo intentaremos.",
+      "id": 40
+    },
+    {
+      "target": "dicho esto",
+      "source": "that said",
+      "type": "connector",
+      "example": "Dicho esto, hay alternativas.",
+      "id": 41
+    },
+    {
+      "target": "hecho esto",
+      "source": "having done that",
+      "type": "connector",
+      "example": "Hecho esto, podemos irnos.",
+      "id": 42
+    },
+    {
+      "target": "por si acaso",
+      "source": "just in case",
+      "type": "connector",
+      "example": "Lleva paraguas por si acaso.",
+      "id": 43
+    },
+    {
+      "target": "a propósito",
+      "source": "by the way",
+      "type": "connector",
+      "example": "A propósito, ¿viste la noticia?",
+      "id": 44
+    },
+    {
+      "target": "en efecto",
+      "source": "indeed",
+      "type": "connector",
+      "example": "En efecto, la cifra es mayor.",
+      "id": 45
+    },
+    {
+      "target": "es más",
+      "source": "what is more",
+      "type": "connector",
+      "example": "Es más, es gratis.",
+      "id": 46
+    },
+    {
+      "target": "con todo",
+      "source": "nevertheless",
+      "type": "connector",
+      "example": "Con todo, seguiré adelante.",
+      "id": 47
+    },
+    {
+      "target": "aunque no lo parezca",
+      "source": "although it may not seem so",
+      "type": "connector",
+      "example": "Aunque no lo parezca, es fácil.",
+      "id": 48
+    },
+    {
+      "target": "hasta cierto punto",
+      "source": "to some extent",
+      "type": "connector",
+      "example": "Hasta cierto punto, tiene razón.",
+      "id": 49
+    },
+    {
+      "target": "por consiguiente, por tanto, así que",
+      "source": "consequently, therefore, so",
+      "type": "connector",
+      "example": "Por consiguiente, debemos actuar.",
+      "id": 50
+    }
   ],
   "grammar": [
     {
       "title": "Advanced Connectors (Conectores Avanzados)",
       "content": "Advanced connectors (discourse markers) allow you to link ideas cohesively and express logical relationships. These are essential for B1-level fluency and formal writing.\n\n**Contrast / Opposition:**\n- sin embargo = however (stronger than 'pero')\n- no obstante = nevertheless (formal)\n- a pesar de (que) = despite (that)\n- aunque = although/even though\n- por el contrario = on the contrary\n\n**Cause / Reason:**\n- porque / pues / ya que = because\n- debido a (que) = due to (that)\n- por lo tanto / por eso = therefore\n- en consecuencia = consequently\n\n**Addition:**\n- además = furthermore/in addition\n- asimismo = likewise\n- también = also\n\n**Clarification / Example:**\n- es decir = that is / in other words\n- por ejemplo = for example\n- en particular = in particular\n\n**Conclusion:**\n- en resumen = in summary\n- en conclusión = in conclusion\n- finalmente = finally\n- en definitiva = ultimately",
       "table": {
-        "headers": ["Connector", "Function", "Example"],
+        "headers": [
+          "Connector",
+          "Function",
+          "Example"
+        ],
         "rows": [
-          ["sin embargo", "contrast", "Estudié mucho; sin embargo, reprobé."],
-          ["a pesar de que", "concession", "Fuimos a pesar de que llovía."],
-          ["por lo tanto", "conclusion", "No tenía dinero, por lo tanto no compré."],
-          ["debido a", "cause", "El vuelo se canceló debido a la tormenta."],
-          ["además", "addition", "Es inteligente; además, es amable."],
-          ["en conclusión", "summary", "En conclusión, recomiendo este libro."],
-          ["aun cuando", "concession", "Iré aun cuando esté cansado."],
-          ["por consiguiente", "consequence", "Llovió todo el día; por consiguiente, no salimos."]
+          [
+            "sin embargo",
+            "contrast",
+            "Estudié mucho; sin embargo, reprobé."
+          ],
+          [
+            "a pesar de que",
+            "concession",
+            "Fuimos a pesar de que llovía."
+          ],
+          [
+            "por lo tanto",
+            "conclusion",
+            "No tenía dinero, por lo tanto no compré."
+          ],
+          [
+            "debido a",
+            "cause",
+            "El vuelo se canceló debido a la tormenta."
+          ],
+          [
+            "además",
+            "addition",
+            "Es inteligente; además, es amable."
+          ],
+          [
+            "en conclusión",
+            "summary",
+            "En conclusión, recomiendo este libro."
+          ],
+          [
+            "aun cuando",
+            "concession",
+            "Iré aun cuando esté cansado."
+          ],
+          [
+            "por consiguiente",
+            "consequence",
+            "Llovió todo el día; por consiguiente, no salimos."
+          ]
         ]
       },
       "examples": [
@@ -66,11 +422,26 @@
       "title": "Stress in Connector Phrases",
       "content": "Most connectors are stressed on the penultimate (2nd-to-last) syllable:\n\n- sin embargo (sin em-BAR-go) — stress on 'bar'\n- no obstante (no ob-SER-tah) — stress on 'cer'\n- a pesar de (ah peh-Spah deh) — stress on 'pah'\n- por lo tanto (por lo TAR-toh) — stress on 'tar'\n- debido a (de-BEE-do ah) — stress on 'bee'\n- además (ah-deh-MAS) — stress on 'mas'\n- en conclusión (en con-kloo-SYOHN) — stress on 'syohn'\n- sin embargo — stress on 'bar' (default: ends in -o, so stress on 2nd-to-last)\n\nMulti-word connectors have the stress on the most important word in the phrase.\n\nCritical: 'a pesar de' is stressed on the 'pe': ah peh-SPAH deh. Don't confuse with 'esperar' (to hope).",
       "examples": [
-        { "target": "sin embargo", "source": "sin em-BAR-go (stress on bar)" },
-        { "target": "por lo tanto", "source": "por lo TAR-toh (stress on tar)" },
-        { "target": "además", "source": "ah-deh-MAS (stress on mas)" },
-        { "target": "debido a", "source": "de-BEE-do ah (stress on bee)" },
-        { "target": "en conclusión", "source": "en con-kloo-SYOHN (stress on syohn)" }
+        {
+          "target": "sin embargo",
+          "source": "sin em-BAR-go (stress on bar)"
+        },
+        {
+          "target": "por lo tanto",
+          "source": "por lo TAR-toh (stress on tar)"
+        },
+        {
+          "target": "además",
+          "source": "ah-deh-MAS (stress on mas)"
+        },
+        {
+          "target": "debido a",
+          "source": "de-BEE-do ah (stress on bee)"
+        },
+        {
+          "target": "en conclusión",
+          "source": "en con-kloo-SYOHN (stress on syohn)"
+        }
       ],
       "aid_note": "Romanian stress patterns are similar — most words are stressed on the penultimate syllable by default. Spanish accent marks make the stress pattern more explicit."
     }
@@ -85,7 +456,12 @@
     {
       "type": "exercise",
       "question": "Choose the correct connector: '____ de que llovía, fuimos a caminar.' (Despite)",
-      "options": ["A pesar", "Por lo tanto", "Debido a", "Además"],
+      "options": [
+        "A pesar",
+        "Por lo tanto",
+        "Debido a",
+        "Además"
+      ],
       "correct": 0,
       "explanation": "'A pesar de que' = 'Despite the fact that' or 'Even though'. It introduces a concession/contrast."
     },
@@ -98,21 +474,36 @@
     {
       "type": "exercise",
       "question": "What does 'debido a' mean in context?",
-      "options": ["Despite", "Because of", "Therefore", "In addition"],
+      "options": [
+        "Despite",
+        "Because of",
+        "Therefore",
+        "In addition"
+      ],
       "correct": 1,
       "explanation": "'Debido a' = 'due to' or 'because of'. It introduces a cause or reason."
     },
     {
       "type": "exercise",
       "question": "Which connector shows ADDITION?",
-      "options": ["sin embargo", "por lo tanto", "además", "debido a"],
+      "options": [
+        "sin embargo",
+        "por lo tanto",
+        "además",
+        "debido a"
+      ],
       "correct": 2,
       "explanation": "'Además' means 'furthermore' or 'in addition'. It adds information to what was just said."
     },
     {
       "type": "exercise",
       "question": "Choose the best connector: 'El proyecto es costoso; ____ , traerá grandes beneficios.'",
-      "options": ["por lo tanto", "sin embargo", "además", "debido a"],
+      "options": [
+        "por lo tanto",
+        "sin embargo",
+        "además",
+        "debido a"
+      ],
       "correct": 1,
       "explanation": "'Sin embargo' (however) contrasts the cost with the anticipated benefits."
     }

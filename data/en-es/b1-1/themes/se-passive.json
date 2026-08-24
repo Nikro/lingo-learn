@@ -3,48 +3,388 @@
   "title": "Se Passive (Pasiva Refleja)",
   "description": "The most common way to express passive ideas in everyday Spanish — use 'se' + verb + subject.",
   "vocabulary": [
-    { "id": 1, "target": "se vende", "source": "for sale", "gender": "—", "type": "phrase" },
-    { "id": 2, "target": "se alquila", "source": "for rent", "gender": "—", "type": "phrase" },
-    { "id": 3, "target": "la casa", "source": "the house", "gender": "f.", "type": "noun" },
-    { "id": 4, "target": "los apartamentos", "source": "the apartments", "gender": "m.", "type": "noun" },
-    { "id": 5, "target": "las habitaciones", "source": "the rooms", "gender": "f.", "type": "noun" },
-    { "id": 6, "target": "el personal", "source": "the staff", "gender": "m.", "type": "noun" },
-    { "id": 7, "target": "la ropa", "source": "clothing", "gender": "f.", "type": "noun" },
-    { "id": 8, "target": "la tienda", "source": "the store", "gender": "f.", "type": "noun" },
-    { "id": 9, "target": "el profesor", "source": "the teacher", "gender": "m.", "type": "noun" },
-    { "id": 10, "target": "de español", "source": "of Spanish", "gender": "—", "type": "phrase" },
-    { "id": 11, "target": "busca", "source": "is looking for / wanted", "gender": "v.", "type": "verb" },
-    { "id": 12, "target": "necesita", "source": "is needed / needs", "gender": "v.", "type": "verb" },
-    { "id": 13, "target": "vender", "source": "to sell", "gender": "v.", "type": "verb" },
-    { "id": 14, "target": "alquilar", "source": "to rent", "gender": "v.", "type": "verb" },
-    { "id": 15, "target": "buscar", "source": "to look for", "gender": "v.", "type": "verb" },
-    { "id": 16, "target": "necesitar", "source": "to need", "gender": "v.", "type": "verb" },
-    { "id": 17, "target": "comer", "source": "to eat", "gender": "v.", "type": "verb" },
-    { "id": 18, "target": "celebrar", "source": "to celebrate", "gender": "v.", "type": "verb" },
-    { "id": 19, "target": "aceptar", "source": "to accept", "gender": "v.", "type": "verb" },
-    { "id": 20, "target": "devolución", "source": "return / refund", "gender": "f.", "type": "noun" },
-    { "id": 21, "target": "el problema", "source": "the problem", "gender": "m.", "type": "noun" },
-    { "id": 22, "target": "resolver", "source": "to resolve / solve", "gender": "v.", "type": "verb" },
-    { "id": 23, "target": "pronto", "source": "soon", "gender": "—", "type": "adverb" },
-    { "id": 24, "target": "estimar", "source": "to estimate", "gender": "v.", "type": "verb" },
-    { "id": 25, "target": "decir", "source": "to say / to tell", "gender": "v.", "type": "verb" },
-    { "id": 26, "target": "llover", "source": "to rain", "gender": "v.", "type": "verb" },
-    { "id": 27, "target": "ser", "source": "to be", "gender": "v.", "type": "verb" },
-    { "id": 28, "target": "haber", "source": "to have (auxiliary)", "gender": "v.", "type": "verb" },
-    { "id": 29, "target": "tener", "source": "to have", "gender": "v.", "type": "verb" },
-    { "id": 30, "target": "estar", "source": "to be (temporary)", "gender": "v.", "type": "verb" }
+    {
+      "id": 1,
+      "target": "se vende",
+      "source": "for sale",
+      "gender": "—",
+      "type": "phrase"
+    },
+    {
+      "id": 2,
+      "target": "se alquila",
+      "source": "for rent",
+      "gender": "—",
+      "type": "phrase"
+    },
+    {
+      "id": 3,
+      "target": "la casa",
+      "source": "the house",
+      "gender": "f.",
+      "type": "noun"
+    },
+    {
+      "id": 4,
+      "target": "los apartamentos",
+      "source": "the apartments",
+      "gender": "m.",
+      "type": "noun"
+    },
+    {
+      "id": 5,
+      "target": "las habitaciones",
+      "source": "the rooms",
+      "gender": "f.",
+      "type": "noun"
+    },
+    {
+      "id": 6,
+      "target": "el personal",
+      "source": "the staff",
+      "gender": "m.",
+      "type": "noun"
+    },
+    {
+      "id": 7,
+      "target": "la ropa",
+      "source": "clothing",
+      "gender": "f.",
+      "type": "noun"
+    },
+    {
+      "id": 8,
+      "target": "la tienda",
+      "source": "the store",
+      "gender": "f.",
+      "type": "noun"
+    },
+    {
+      "id": 9,
+      "target": "el profesor",
+      "source": "the teacher",
+      "gender": "m.",
+      "type": "noun"
+    },
+    {
+      "id": 10,
+      "target": "de español",
+      "source": "of Spanish",
+      "gender": "—",
+      "type": "phrase"
+    },
+    {
+      "id": 11,
+      "target": "busca",
+      "source": "is looking for / wanted",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 12,
+      "target": "necesita",
+      "source": "is needed / needs",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 13,
+      "target": "vender",
+      "source": "to sell",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 14,
+      "target": "alquilar",
+      "source": "to rent",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 15,
+      "target": "buscar",
+      "source": "to look for",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 16,
+      "target": "necesitar",
+      "source": "to need",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 17,
+      "target": "comer",
+      "source": "to eat",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 18,
+      "target": "celebrar",
+      "source": "to celebrate",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 19,
+      "target": "aceptar",
+      "source": "to accept",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 20,
+      "target": "devolución",
+      "source": "return / refund",
+      "gender": "f.",
+      "type": "noun"
+    },
+    {
+      "id": 21,
+      "target": "el problema",
+      "source": "the problem",
+      "gender": "m.",
+      "type": "noun"
+    },
+    {
+      "id": 22,
+      "target": "resolver",
+      "source": "to resolve / solve",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 23,
+      "target": "pronto",
+      "source": "soon",
+      "gender": "—",
+      "type": "adverb"
+    },
+    {
+      "id": 24,
+      "target": "estimar",
+      "source": "to estimate",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 25,
+      "target": "decir",
+      "source": "to say / to tell",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 26,
+      "target": "llover",
+      "source": "to rain",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 27,
+      "target": "ser",
+      "source": "to be",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 28,
+      "target": "haber",
+      "source": "to have (auxiliary)",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 29,
+      "target": "tener",
+      "source": "to have",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 30,
+      "target": "estar",
+      "source": "to be (temporary)",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "target": "se busca",
+      "source": "(one) is looking for",
+      "type": "phrase",
+      "example": "Se busca personal para el restaurante.",
+      "id": 31
+    },
+    {
+      "target": "se necesita",
+      "source": "(one) needs",
+      "type": "phrase",
+      "example": "Se necesita ayuda con la mudanza.",
+      "id": 32
+    },
+    {
+      "target": "se come",
+      "source": "(one) eats",
+      "type": "phrase",
+      "example": "En esta región se come mucho pescado.",
+      "id": 33
+    },
+    {
+      "target": "se celebra",
+      "source": "(it) is celebrated",
+      "type": "phrase",
+      "example": "Se celebra la fiesta el sábado.",
+      "id": 34
+    },
+    {
+      "target": "se acepta",
+      "source": "(it) is accepted",
+      "type": "phrase",
+      "example": "Se acepta la devolución en treinta días.",
+      "id": 35
+    },
+    {
+      "target": "se resuelve",
+      "source": "(it) is solved",
+      "type": "phrase",
+      "example": "El problema se resuelve con paciencia.",
+      "id": 36
+    },
+    {
+      "target": "se estima",
+      "source": "(it) is estimated",
+      "type": "phrase",
+      "example": "Se estima que vendrá pronto.",
+      "id": 37
+    },
+    {
+      "target": "se dice",
+      "source": "(it) is said",
+      "type": "phrase",
+      "example": "Se dice que va a llover.",
+      "id": 38
+    },
+    {
+      "target": "se vive",
+      "source": "(one) lives",
+      "type": "phrase",
+      "example": "Aquí se vive bien.",
+      "id": 39
+    },
+    {
+      "target": "se trabaja",
+      "source": "(one) works",
+      "type": "phrase",
+      "example": "En esta empresa se trabaja mucho.",
+      "id": 40
+    },
+    {
+      "target": "se estudia",
+      "source": "(one) studies",
+      "type": "phrase",
+      "example": "En la universidad se estudia mucho.",
+      "id": 41
+    },
+    {
+      "target": "se aprende",
+      "source": "(one) learns",
+      "type": "phrase",
+      "example": "Se aprende más con la práctica.",
+      "id": 42
+    },
+    {
+      "target": "se habla",
+      "source": "(one) speaks",
+      "type": "phrase",
+      "example": "En el sur se habla un dialecto.",
+      "id": 43
+    },
+    {
+      "target": "se come bien",
+      "source": "(one) eats well",
+      "type": "phrase",
+      "example": "En este restaurante se come bien.",
+      "id": 44
+    },
+    {
+      "target": "se vive tranquilo",
+      "source": "(one) lives peacefully",
+      "type": "phrase",
+      "example": "En el pueblo se vive tranquilo.",
+      "id": 45
+    },
+    {
+      "target": "se trabaja de noche",
+      "source": "(one) works at night",
+      "type": "phrase",
+      "example": "En el hospital se trabaja de noche.",
+      "id": 46
+    },
+    {
+      "target": "se aprende rápido",
+      "source": "(one) learns quickly",
+      "type": "phrase",
+      "example": "Los niños se aprende rápido.",
+      "id": 47
+    },
+    {
+      "target": "se habla español",
+      "source": "(one) speaks Spanish",
+      "type": "phrase",
+      "example": "En todo el país se habla español.",
+      "id": 48
+    },
+    {
+      "target": "se prohibe",
+      "source": "(it) is forbidden",
+      "type": "phrase",
+      "example": "Se prohibe fumar aquí.",
+      "id": 49
+    },
+    {
+      "target": "se anuncia",
+      "source": "(it) is announced",
+      "type": "phrase",
+      "example": "Se anuncia una huelga el lunes.",
+      "id": 50
+    }
   ],
   "grammar": [
     {
       "title": "Se Passive (Pasiva Refleja)",
       "content": "The 'se passive' (also called 'impersonal se' with passive meaning) is the MOST COMMON way to express passive ideas in everyday Spanish. It's used when the agent is unknown or unimportant.\n\nFormula: se + verb (3rd person singular/plural) + subject\n\nThe verb agrees in number with the subject that follows it.\n\nSingular subject → verb in singular: Se vende la casa\nPlural subject → verb in plural: Se venden casas\n\nCommon situations:\n- Real estate signs: Se vende / Se alquila\n- Store announcements: Se aceptan devoluciones\n- General rules: Se dice que… (It is said that…)\n- Food quality: Aquí se come muy bien (The food is very good here)\n- Impersonal statements: Se estima que… (It is estimated that…)\n\nWhen there is NO subject (just an action in general), the verb stays singular:\n- Se necesita personal (Staff is needed — no specific subject)\n- Se dice que… (It is said that…)",
       "table": {
-        "headers": ["Sentence", "Type", "Note"],
+        "headers": [
+          "Sentence",
+          "Type",
+          "Note"
+        ],
         "rows": [
-          ["Se vende la casa.", "se + singular subject", "The house is for sale"],
-          ["Se alquilan habitaciones.", "se + plural subject", "Rooms are for rent"],
-          ["Se necesita personal.", "impersonal (no subject)", "Staff is needed"],
-          ["Se dice que va a llover.", "impersonal + clause", "It is said that it's going to rain"]
+          [
+            "Se vende la casa.",
+            "se + singular subject",
+            "The house is for sale"
+          ],
+          [
+            "Se alquilan habitaciones.",
+            "se + plural subject",
+            "Rooms are for rent"
+          ],
+          [
+            "Se necesita personal.",
+            "impersonal (no subject)",
+            "Staff is needed"
+          ],
+          [
+            "Se dice que va a llover.",
+            "impersonal + clause",
+            "It is said that it's going to rain"
+          ]
         ]
       },
       "examples": [
@@ -61,10 +401,22 @@
       "title": "Se + Consonant Clusters",
       "content": "When 'se' is followed by a verb starting with a consonant, the two sounds blend smoothly:\n\n- se vende: 'seh-BEN-de' (the 's' of 'se' and the 'v' of 'vende' are distinct)\n- se alquila: 'seh-al-KÍ-la'\n- se busca: 'seh-BOO-kah'\n- se necesita: 'seh-neh-seh-TAH'\n\nNote: In rapid speech, 'se' can sound very short — almost like 's'. Don't elongate it.\n\nAlso note: 'se' before a vowel is completely separate: 'se alquila' = 'seh-al-KÍ-la' (se and alquila are two separate words).\n\nIn 'se vende', 'se' and 'vende' are two words but sound like they flow together.\n\nImportant pronunciation tip: Never add an 'e' before the 's' in 'se' — it's NOT 'es-vende'!",
       "examples": [
-        { "target": "se vende", "source": "seh-BEN-de (2 separate words)" },
-        { "target": "se alquila", "source": "seh-al-KÍ-la (2 separate words)" },
-        { "target": "se busca", "source": "seh-BOO-kah (2 separate words)" },
-        { "target": "se venden", "source": "seh-BEN-dohn (2 separate words)" }
+        {
+          "target": "se vende",
+          "source": "seh-BEN-de (2 separate words)"
+        },
+        {
+          "target": "se alquila",
+          "source": "seh-al-KÍ-la (2 separate words)"
+        },
+        {
+          "target": "se busca",
+          "source": "seh-BOO-kah (2 separate words)"
+        },
+        {
+          "target": "se venden",
+          "source": "seh-BEN-dohn (2 separate words)"
+        }
       ],
       "aid_note": "Romanian 'se' has the same pronunciation — a short, unstressed 'seh' sound before consonants. The transition from 'se' to the next word is identical in both languages."
     }
@@ -73,21 +425,36 @@
     {
       "type": "exercise",
       "question": "Which construction is the 'se passive' (pasiva refleja)?",
-      "options": ["La casa es vendida por el agente.", "Se vende la casa.", "El agente vende la casa.", "La casa está vendida."],
+      "options": [
+        "La casa es vendida por el agente.",
+        "Se vende la casa.",
+        "El agente vende la casa.",
+        "La casa está vendida."
+      ],
       "correct": 1,
       "explanation": "'Se vende la casa' is the pasiva refleja. The verb agrees with the subject 'la casa' (singular)."
     },
     {
       "type": "exercise",
       "question": "Choose the correct 'se passive': 'Se ____ apartamentos en esta calle.' (sell)",
-      "options": ["vende", "venden", "vendieron", "vendía"],
+      "options": [
+        "vende",
+        "venden",
+        "vendieron",
+        "vendía"
+      ],
       "correct": 1,
       "explanation": "'Apartamentos' is plural, so the verb must be plural: 'Se venden apartamentos.' The verb always agrees with the subject in se-passive constructions."
     },
     {
       "type": "exercise",
       "question": "Choose the correct 'se passive': 'En esta tienda se ____ ropa.' (sell)",
-      "options": ["vende", "venden", "vendía", "vendrán"],
+      "options": [
+        "vende",
+        "venden",
+        "vendía",
+        "vendrán"
+      ],
       "correct": 0,
       "explanation": "'Ropa' is a singular mass noun: 'Se vende ropa' = Clothes are sold here. Singular verb because 'ropa' is singular."
     },
@@ -106,7 +473,12 @@
     {
       "type": "exercise",
       "question": "When there is NO subject (general statement), what form of the verb is used in se-passive?",
-      "options": ["Plural", "Singular", "Infinitive", "Imperative"],
+      "options": [
+        "Plural",
+        "Singular",
+        "Infinitive",
+        "Imperative"
+      ],
       "correct": 1,
       "explanation": "When there is no subject (just an action in general), the verb stays singular: 'Se necesita personal' (Staff is needed)."
     }

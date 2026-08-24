@@ -3,54 +3,418 @@
   "title": "Subjunctive vs. Indicative in Complex Clauses",
   "description": "Understand when subordinate clauses require the subjunctive vs. indicative based on the main clause verb.",
   "vocabulary": [
-    { "id": 1, "target": "creer que", "source": "to believe that", "gender": "—", "type": "verb" },
-    { "id": 2, "target": "no creer que", "source": "to not believe that", "gender": "—", "type": "verb" },
-    { "id": 3, "target": "es cierto que", "source": "it's certain that", "gender": "—", "type": "phrase" },
-    { "id": 4, "target": "es posible que", "source": "it's possible that", "gender": "—", "type": "phrase" },
-    { "id": 5, "target": "esperar que", "source": "to hope that", "gender": "—", "type": "verb" },
-    { "id": 6, "target": "sé que", "source": "I know that", "gender": "—", "type": "phrase" },
-    { "id": 7, "target": "temer que", "source": "to fear that", "gender": "—", "type": "verb" },
-    { "id": 8, "target": "es verdad que", "source": "it's true that", "gender": "—", "type": "phrase" },
-    { "id": 9, "target": "dudar que", "source": "to doubt that", "gender": "—", "type": "verb" },
-    { "id": 10, "target": "querer que", "source": "to want that", "gender": "—", "type": "verb" },
-    { "id": 11, "target": "es importante que", "source": "it's important that", "gender": "—", "type": "phrase" },
-    { "id": 12, "target": "la verdad", "source": "the truth", "gender": "f.", "type": "noun" },
-    { "id": 13, "target": "mañana", "source": "tomorrow", "gender": "—", "type": "time" },
-    { "id": 14, "target": "venir", "source": "to come", "gender": "v.", "type": "verb" },
-    { "id": 15, "target": "lluvia", "source": "rain", "gender": "f.", "type": "noun" },
-    { "id": 16, "target": "tener razón", "source": "to be right", "gender": "—", "type": "phrase" },
-    { "id": 17, "target": "estudiar", "source": "to study", "gender": "v.", "type": "verb" },
-    { "id": 18, "target": "saber", "source": "to know (facts)", "gender": "v.", "type": "verb" },
-    { "id": 19, "target": "poder", "source": "to be able to / can", "gender": "v.", "type": "verb" },
-    { "id": 20, "target": "venir", "source": "to come", "gender": "v.", "type": "verb" },
-    { "id": 21, "target": "llover", "source": "to rain", "gender": "v.", "type": "verb" },
-    { "id": 22, "target": "querer", "source": "to want", "gender": "v.", "type": "verb" },
-    { "id": 23, "target": "esperar", "source": "to hope / to wait", "gender": "v.", "type": "verb" },
-    { "id": 24, "target": "temer", "source": "to fear", "gender": "v.", "type": "verb" },
-    { "id": 25, "target": "dudar", "source": "to doubt", "gender": "v.", "type": "verb" },
-    { "id": 26, "target": "ser", "source": "to be (permanent)", "gender": "v.", "type": "verb" },
-    { "id": 27, "target": "estar", "source": "to be (temporary)", "gender": "v.", "type": "verb" },
-    { "id": 28, "target": "tener", "source": "to have", "gender": "v.", "type": "verb" },
-    { "id": 29, "target": "haber", "source": "to have (auxiliary)", "gender": "v.", "type": "verb" },
-    { "id": 30, "target": "decir", "source": "to say / to tell", "gender": "v.", "type": "verb" }
+    {
+      "id": 1,
+      "target": "creer que",
+      "source": "to believe that",
+      "gender": "—",
+      "type": "verb"
+    },
+    {
+      "id": 2,
+      "target": "no creer que",
+      "source": "to not believe that",
+      "gender": "—",
+      "type": "verb"
+    },
+    {
+      "id": 3,
+      "target": "es cierto que",
+      "source": "it's certain that",
+      "gender": "—",
+      "type": "phrase"
+    },
+    {
+      "id": 4,
+      "target": "es posible que",
+      "source": "it's possible that",
+      "gender": "—",
+      "type": "phrase"
+    },
+    {
+      "id": 5,
+      "target": "esperar que",
+      "source": "to hope that",
+      "gender": "—",
+      "type": "verb"
+    },
+    {
+      "id": 6,
+      "target": "sé que",
+      "source": "I know that",
+      "gender": "—",
+      "type": "phrase"
+    },
+    {
+      "id": 7,
+      "target": "temer que",
+      "source": "to fear that",
+      "gender": "—",
+      "type": "verb"
+    },
+    {
+      "id": 8,
+      "target": "es verdad que",
+      "source": "it's true that",
+      "gender": "—",
+      "type": "phrase"
+    },
+    {
+      "id": 9,
+      "target": "dudar que",
+      "source": "to doubt that",
+      "gender": "—",
+      "type": "verb"
+    },
+    {
+      "id": 10,
+      "target": "querer que",
+      "source": "to want that",
+      "gender": "—",
+      "type": "verb"
+    },
+    {
+      "id": 11,
+      "target": "es importante que",
+      "source": "it's important that",
+      "gender": "—",
+      "type": "phrase"
+    },
+    {
+      "id": 12,
+      "target": "la verdad",
+      "source": "the truth",
+      "gender": "f.",
+      "type": "noun"
+    },
+    {
+      "id": 13,
+      "target": "mañana",
+      "source": "tomorrow",
+      "gender": "—",
+      "type": "time"
+    },
+    {
+      "id": 14,
+      "target": "venir",
+      "source": "to come",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 15,
+      "target": "lluvia",
+      "source": "rain",
+      "gender": "f.",
+      "type": "noun"
+    },
+    {
+      "id": 16,
+      "target": "tener razón",
+      "source": "to be right",
+      "gender": "—",
+      "type": "phrase"
+    },
+    {
+      "id": 17,
+      "target": "estudiar",
+      "source": "to study",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 18,
+      "target": "saber",
+      "source": "to know (facts)",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 19,
+      "target": "poder",
+      "source": "to be able to / can",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 20,
+      "target": "venir",
+      "source": "to come",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 21,
+      "target": "llover",
+      "source": "to rain",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 22,
+      "target": "querer",
+      "source": "to want",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 23,
+      "target": "esperar",
+      "source": "to hope / to wait",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 24,
+      "target": "temer",
+      "source": "to fear",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 25,
+      "target": "dudar",
+      "source": "to doubt",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 26,
+      "target": "ser",
+      "source": "to be (permanent)",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 27,
+      "target": "estar",
+      "source": "to be (temporary)",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 28,
+      "target": "tener",
+      "source": "to have",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 29,
+      "target": "haber",
+      "source": "to have (auxiliary)",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 30,
+      "target": "decir",
+      "source": "to say / to tell",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "target": "creo que",
+      "source": "I think that (indicative)",
+      "type": "phrase",
+      "example": "Creo que va a llover.",
+      "id": 31
+    },
+    {
+      "target": "no creo que",
+      "source": "I do not think that (subjunctive)",
+      "type": "phrase",
+      "example": "No creo que vaya a llover.",
+      "id": 32
+    },
+    {
+      "target": "es probable que",
+      "source": "it is probable that (subjunctive)",
+      "type": "phrase",
+      "example": "Es probable que venga tarde.",
+      "id": 33
+    },
+    {
+      "target": "espero que",
+      "source": "I hope that (subjunctive)",
+      "type": "phrase",
+      "example": "Espero que te vaya bien.",
+      "id": 34
+    },
+    {
+      "target": "temo que",
+      "source": "I fear that (subjunctive)",
+      "type": "phrase",
+      "example": "Temo que sea demasiado caro.",
+      "id": 35
+    },
+    {
+      "target": "dudo que",
+      "source": "I doubt that (subjunctive)",
+      "type": "phrase",
+      "example": "Dudo que llegue a tiempo.",
+      "id": 36
+    },
+    {
+      "target": "quiero que",
+      "source": "I want that (subjunctive)",
+      "type": "phrase",
+      "example": "Quiero que vengas conmigo.",
+      "id": 37
+    },
+    {
+      "target": "es necesario que",
+      "source": "it is necessary that (subjunctive)",
+      "type": "phrase",
+      "example": "Es necesario que llames.",
+      "id": 38
+    },
+    {
+      "target": "es urgente que",
+      "source": "it is urgent that (subjunctive)",
+      "type": "phrase",
+      "example": "Es urgente que actúes.",
+      "id": 39
+    },
+    {
+      "target": "ojalá",
+      "source": "I hope (that) (subjunctive)",
+      "type": "phrase",
+      "example": "Ojalá pueda ayudarte.",
+      "id": 40
+    },
+    {
+      "target": "me gustaría que",
+      "source": "I would like that (subjunctive)",
+      "type": "phrase",
+      "example": "Me gustaría que vinieras.",
+      "id": 41
+    },
+    {
+      "target": "aunque",
+      "source": "although (subjunctive if unreal)",
+      "type": "phrase",
+      "example": "Aunque tuviera dinero, no iría.",
+      "id": 42
+    },
+    {
+      "target": "a menos que",
+      "source": "unless (subjunctive)",
+      "type": "phrase",
+      "example": "No iré a menos que vengas.",
+      "id": 43
+    },
+    {
+      "target": "antes de que",
+      "source": "before (subjunctive)",
+      "type": "phrase",
+      "example": "Llama antes de que lleguen.",
+      "id": 44
+    },
+    {
+      "target": "hasta que",
+      "source": "until (indicative if real)",
+      "type": "phrase",
+      "example": "Espera hasta que se vaya.",
+      "id": 45
+    },
+    {
+      "target": "cuando",
+      "source": "when (indicative if real)",
+      "type": "phrase",
+      "example": "Cuando llego, llamo.",
+      "id": 46
+    },
+    {
+      "target": "prefiero que",
+      "source": "I prefer that (subjunctive)",
+      "type": "phrase",
+      "example": "Prefiero que vengas temprano.",
+      "id": 47
+    },
+    {
+      "target": "exijo que",
+      "source": "I demand that (subjunctive)",
+      "type": "phrase",
+      "example": "Exijo que me devuelvan el dinero.",
+      "id": 48
+    },
+    {
+      "target": "da igual que",
+      "source": "it does not matter that",
+      "type": "phrase",
+      "example": "Da igual que llueva o no.",
+      "id": 49
+    },
+    {
+      "target": "no importa que",
+      "source": "it is no matter that",
+      "type": "phrase",
+      "example": "No importa que sea caro.",
+      "id": 50
+    }
   ],
   "grammar": [
     {
       "title": "Subjunctive vs. Indicative in Complex Clauses",
       "content": "At B1 level, you need to understand when subordinate clauses require the subjunctive vs. the indicative. This depends on the MAIN clause expressing CERTAINTY (indicative) vs. DOUBT, DESIRE, EMOTION, or POSSIBILITY (subjunctive).\n\nKey trigger categories:\n\n**CERTAINTY → INDICATIVE:**\n- creer que (to believe that)\n- es cierto que (it's certain that)\n- es verdad que (it's true that)\n- sé que (I know that)\n- es evidente que (it's evident that)\n\n**DOUBT/NEGATION → SUBJUNCTIVE:**\n- no creer que (to not believe that)\n- dudar que (to doubt that)\n- no es cierto que (it's not certain that)\n- negar que (to deny that)\n\n**DESIRE → SUBJUNCTIVE:**\n- querer que (to want that)\n- desear que (to desire that)\n- pedir que (to ask that)\n- esperar que (to hope that)\n\n**EMOTION → SUBJUNCTIVE:**\n- alegrarse de que (to be happy that)\n- temer que (to fear that)\n- sentir que (to regret that)\n- es importante que (it's important that)\n\n**POSSIBILITY → SUBJUNCTIVE:**\n- es posible que (it's possible that)\n- es probable que (it's probable that)\n\nRule of thumb: If the main clause expresses something SUBJECTIVE (desire, doubt, emotion), the subordinate clause needs subjunctive. If it expresses something OBJECTIVE/FACTUAL, use indicative.\n\nNote: 'es posible que' and 'es probable que' always take subjunctive. 'Es seguro que' takes indicative (certainty) — but 'No es seguro que' takes subjunctive.",
       "table": {
-        "headers": ["Main Clause", "Meaning", "Mood"],
+        "headers": [
+          "Main Clause",
+          "Meaning",
+          "Mood"
+        ],
         "rows": [
-          ["creer que", "to believe that", "indicative"],
-          ["no creer que", "to not believe that", "subjunctive"],
-          ["es cierto que", "it's certain that", "indicative"],
-          ["es posible que", "it's possible that", "subjunctive"],
-          ["quiero que", "I want that", "subjunctive"],
-          ["sé que", "I know that", "indicative"],
-          ["temo que", "I fear that", "subjunctive"],
-          ["es verdad que", "it's true that", "indicative"],
-          ["dudo que", "I doubt that", "subjunctive"],
-          ["es importante que", "it's important that", "subjunctive"]
+          [
+            "creer que",
+            "to believe that",
+            "indicative"
+          ],
+          [
+            "no creer que",
+            "to not believe that",
+            "subjunctive"
+          ],
+          [
+            "es cierto que",
+            "it's certain that",
+            "indicative"
+          ],
+          [
+            "es posible que",
+            "it's possible that",
+            "subjunctive"
+          ],
+          [
+            "quiero que",
+            "I want that",
+            "subjunctive"
+          ],
+          [
+            "sé que",
+            "I know that",
+            "indicative"
+          ],
+          [
+            "temo que",
+            "I fear that",
+            "subjunctive"
+          ],
+          [
+            "es verdad que",
+            "it's true that",
+            "indicative"
+          ],
+          [
+            "dudo que",
+            "I doubt that",
+            "subjunctive"
+          ],
+          [
+            "es importante que",
+            "it's important that",
+            "subjunctive"
+          ]
         ]
       },
       "examples": [
@@ -70,7 +434,12 @@
     {
       "type": "exercise",
       "question": "Choose the correct mood: 'Dudo que ella ____ (venir) mañana.'",
-      "options": ["viene", "venga", "viniera", "vendrá"],
+      "options": [
+        "viene",
+        "venga",
+        "viniera",
+        "vendrá"
+      ],
       "correct": 1,
       "explanation": "'Dudo que' (I doubt that) triggers the subjunctive. 'Venga' is the present subjunctive of venir."
     },
@@ -95,7 +464,12 @@
     {
       "type": "exercise",
       "question": "Choose the correct sentence (subjunctive vs indicative):",
-      "options": ["Es cierto que ella viene.", "Es cierto que ella venga.", "Es posible que ella viene.", "Es seguro que ella venga."],
+      "options": [
+        "Es cierto que ella viene.",
+        "Es cierto que ella venga.",
+        "Es posible que ella viene.",
+        "Es seguro que ella venga."
+      ],
       "correct": 0,
       "explanation": "'Es cierto que' = certainty = indicative: 'viene'. 'Es posible que' = possibility = subjunctive: 'venga'. 'Es seguro que' = certainty = indicative: 'viene'. Only option 0 is correct."
     }
