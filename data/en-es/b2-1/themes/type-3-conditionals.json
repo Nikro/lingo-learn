@@ -212,6 +212,146 @@
       "source": "to do / to make",
       "gender": "v.",
       "type": "verb"
+    },
+    {
+      "target": "si + past perfect subjunctive, conditional perfect",
+      "source": "if I had, I would have",
+      "type": "phrase",
+      "example": "Si hubiera estudiado, habría aprobado.",
+      "id": 31
+    },
+    {
+      "target": "si hubiera + participio",
+      "source": "if I had (past)",
+      "type": "phrase",
+      "example": "Si hubiera visto el correo, habría respondido.",
+      "id": 32
+    },
+    {
+      "target": "habría + participio",
+      "source": "I would have",
+      "type": "phrase",
+      "example": "Habría ido, pero no pude.",
+      "id": 33
+    },
+    {
+      "target": "si no hubiera + participio",
+      "source": "if I had not",
+      "type": "phrase",
+      "example": "Si no hubiera llovido, habríamos salido.",
+      "id": 34
+    },
+    {
+      "target": "si me lo hubiera dicho",
+      "source": "if you had told me",
+      "type": "phrase",
+      "example": "Si me lo hubiera dicho, habría venido.",
+      "id": 35
+    },
+    {
+      "target": "habría visto",
+      "source": "I would have seen",
+      "type": "phrase",
+      "example": "Habría visto el correo, si hubiera trabajado.",
+      "id": 36
+    },
+    {
+      "target": "habríamos comido",
+      "source": "we would have eaten",
+      "type": "phrase",
+      "example": "Habríamos comido juntos, si hubieras venido.",
+      "id": 37
+    },
+    {
+      "target": "habría descansado",
+      "source": "I would have rested",
+      "type": "phrase",
+      "example": "Habría descansado, si no hubiera trabajado.",
+      "id": 38
+    },
+    {
+      "target": "habríamos terminado",
+      "source": "we would have finished",
+      "type": "phrase",
+      "example": "Habríamos terminado antes de las diez.",
+      "id": 39
+    },
+    {
+      "target": "no habría venido",
+      "source": "I would not have come",
+      "type": "phrase",
+      "example": "No habría venido, si hubiera sabido.",
+      "id": 40
+    },
+    {
+      "target": "habrás aceptado",
+      "source": "you will have accepted",
+      "type": "phrase",
+      "example": "Supongo que habrás aceptado el trabajo.",
+      "id": 41
+    },
+    {
+      "target": "si hubiera tenido",
+      "source": "if I had had",
+      "type": "phrase",
+      "example": "Si hubiera tenido dinero, habría viajado.",
+      "id": 42
+    },
+    {
+      "target": "si hubiera podido",
+      "source": "if I had been able",
+      "type": "phrase",
+      "example": "Si hubiera podido, habría asistido.",
+      "id": 43
+    },
+    {
+      "target": "habría terminado",
+      "source": "I would have finished",
+      "type": "phrase",
+      "example": "Habría terminado antes de las diez.",
+      "id": 44
+    },
+    {
+      "target": "si no hubiera trabajado",
+      "source": "if I had not worked",
+      "type": "phrase",
+      "example": "Si no hubiera trabajado, habría descansado.",
+      "id": 45
+    },
+    {
+      "target": "habríamos salido a tiempo",
+      "source": "we would have left on time",
+      "type": "phrase",
+      "example": "Habríamos salido a tiempo, si no hubiera llovido.",
+      "id": 46
+    },
+    {
+      "target": "si me hubieras avisado",
+      "source": "if you had warned me",
+      "type": "phrase",
+      "example": "Si me hubieras avisado, habría llegado antes.",
+      "id": 47
+    },
+    {
+      "target": "habría sido fácil",
+      "source": "it would have been easy",
+      "type": "phrase",
+      "example": "Habría sido fácil, con más tiempo.",
+      "id": 48
+    },
+    {
+      "target": "no lo habríamos hecho",
+      "source": "we would not have done it",
+      "type": "phrase",
+      "example": "Sin tu ayuda, no lo habríamos hecho.",
+      "id": 49
+    },
+    {
+      "id": 50,
+      "target": "no lo habríamos sabido",
+      "source": "we would not have known",
+      "type": "phrase",
+      "example": "No lo habríamos sabido, si no nos lo hubieras contado."
     }
   ],
   "grammar": [

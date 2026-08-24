@@ -212,6 +212,146 @@
       "source": "to them/you(pl.)",
       "gender": "—",
       "type": "pronoun"
+    },
+    {
+      "target": "dejar de + infinitive",
+      "source": "to stop doing",
+      "type": "phrase",
+      "example": "Deja de hablar mientras trabajo.",
+      "id": 31
+    },
+    {
+      "target": "dejar + infinitive",
+      "source": "to let / to stop",
+      "type": "phrase",
+      "example": "No me dejes esperar más.",
+      "id": 32
+    },
+    {
+      "target": "seguir + infinitive",
+      "source": "to keep doing",
+      "type": "phrase",
+      "example": "Sigue trabajando, no pares.",
+      "id": 33
+    },
+    {
+      "target": "empezar a + infinitive",
+      "source": "to start doing",
+      "type": "phrase",
+      "example": "Empecé a estudiar español el año pasado.",
+      "id": 34
+    },
+    {
+      "target": "acabar de + infinitive",
+      "source": "to have just done",
+      "type": "phrase",
+      "example": "Acabo de comer.",
+      "id": 35
+    },
+    {
+      "target": "aprender a + infinitive",
+      "source": "to learn how to",
+      "type": "phrase",
+      "example": "Aprendí a conducir en verano.",
+      "id": 36
+    },
+    {
+      "target": "ayudar a + infinitive",
+      "source": "to help (to)",
+      "type": "phrase",
+      "example": "Te ayudo a llevar las maletas.",
+      "id": 37
+    },
+    {
+      "target": "acostumbrarse a + infinitive",
+      "source": "to get used to",
+      "type": "phrase",
+      "example": "Me estoy acostumbrando a levantarme temprano.",
+      "id": 38
+    },
+    {
+      "target": "tener que + infinitive",
+      "source": "to have to",
+      "type": "phrase",
+      "example": "Tengo que terminar este informe.",
+      "id": 39
+    },
+    {
+      "target": "ir a + infinitive",
+      "source": "to be going to",
+      "type": "phrase",
+      "example": "Voy a comprar pan.",
+      "id": 40
+    },
+    {
+      "target": "ponerse a + infinitive",
+      "source": "to start on",
+      "type": "phrase",
+      "example": "Me puse a estudiar a las nueve.",
+      "id": 41
+    },
+    {
+      "target": "echarse a + infinitive",
+      "source": "to suddenly start",
+      "type": "phrase",
+      "example": "Se echó a llorar de la alegría.",
+      "id": 42
+    },
+    {
+      "target": "consistir en + infinitive",
+      "source": "to consist in",
+      "type": "phrase",
+      "example": "El trabajo consiste en revisar documentos.",
+      "id": 43
+    },
+    {
+      "target": "dedicarse a + infinitive",
+      "source": "to devote to",
+      "type": "phrase",
+      "example": "Se dedica a enseñar matemáticas.",
+      "id": 44
+    },
+    {
+      "target": "limitarse a + infinitive",
+      "source": "to limit oneself to",
+      "type": "phrase",
+      "example": "No se limitó a mirar: participó.",
+      "id": 45
+    },
+    {
+      "target": "soler + infinitive",
+      "source": "to usually",
+      "type": "phrase",
+      "example": "Soleo desayunar a las ocho.",
+      "id": 46
+    },
+    {
+      "target": "saber + infinitive",
+      "source": "to know how to",
+      "type": "phrase",
+      "example": "Sabe cocinar muy bien.",
+      "id": 47
+    },
+    {
+      "target": "poder + infinitive",
+      "source": "to be able to",
+      "type": "phrase",
+      "example": "Puedo ayudarte si quieres.",
+      "id": 48
+    },
+    {
+      "target": "deber + infinitive",
+      "source": "to owe / should",
+      "type": "phrase",
+      "example": "Debes estudiar más.",
+      "id": 49
+    },
+    {
+      "target": "querer + infinitive",
+      "source": "to want to",
+      "type": "phrase",
+      "example": "Quiero viajar este verano.",
+      "id": 50
     }
   ],
   "grammar": [

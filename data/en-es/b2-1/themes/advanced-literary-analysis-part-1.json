@@ -29,508 +29,638 @@
     "created_at": "2026-08-03T00:00:00Z",
     "version": "1.0"
   },
-  "vocabulary": {
-    "total_count": 70,
-    "categories": {
-      "nouns": [
-        {
-          "spanish": "el análisis literario",
-          "english": "literary analysis",
-          "phonetic": "/el aˈna.lis.li.teˈɾa.ɾjo/",
-          "gender": "masculine",
-          "example": "El análisis literario revela capas de significado."
-        },
-        {
-          "spanish": "la narrativa",
-          "english": "narrative, storytelling",
-          "phonetic": "/la na.ɾaˈti.βa/",
-          "gender": "feminine",
-          "example": "La narrativa latinoamericana ha revolucionado la literatura."
-        },
-        {
-          "spanish": "el narrador",
-          "english": "narrator",
-          "phonetic": "/el naɾ.ɾaˈðoɾ/",
-          "gender": "masculine",
-          "example": "El narrador omnisciente conoce todos los pensamientos."
-        },
-        {
-          "spanish": "la narradora",
-          "english": "narrator (female)",
-          "phonetic": "/la naɾ.ɾaˈðoɾa/",
-          "gender": "feminine",
-          "example": "La narradora eligió contar la historia desde su perspectiva."
-        },
-        {
-          "spanish": "el narrador omnisciente",
-          "english": "omniscient narrator",
-          "phonetic": "/el naɾ.ɾaˈðoɾ om.niˈsjjen.te/",
-          "gender": "masculine",
-          "example": "El narrador omnisciente describe lo que piensan todos los personajes."
-        },
-        {
-          "spanish": "el narrador protagonista",
-          "english": "protagonist narrator",
-          "phonetic": "/el naɾ.ɾaˈðoɾ pɾo.taˈɰi.ta/",
-          "gender": "masculine",
-          "example": "El narrador protagonista vive los acontecimientos en primera persona."
-        },
-        {
-          "spanish": "el narrador testigo",
-          "english": "witness narrator",
-          "phonetic": "/el naɾ.ɾaˈðoɾ ˈtes.βo/",
-          "gender": "masculine",
-          "example": "El narrador testigo observa pero no controla la trama."
-        },
-        {
-          "spanish": "la voz narrativa",
-          "english": "narrative voice",
-          "phonetic": "/la βoθ na.ɾaˈti.βa/",
-          "gender": "feminine",
-          "example": "La voz narrativa de Bolaño es irreconocible."
-        },
-        {
-          "spanish": "el punto de vista",
-          "english": "point of view",
-          "phonetic": "/el ˈpunto ðe ˈβista/",
-          "gender": "masculine",
-          "example": "El relato cambia de punto de vista en cada capítulo."
-        },
-        {
-          "spanish": "el protagonista",
-          "english": "protagonist, main character",
-          "phonetic": "/el pɾo.taˈɰi.ta/",
-          "gender": "masculine",
-          "example": "El protagonista enfrenta un conflicto moral."
-        },
-        {
-          "spanish": "el antagonista",
-          "english": "antagonist",
-          "phonetic": "/el an.taˈɰi.ta/",
-          "gender": "masculine",
-          "example": "El antagonista representa la fuerza que se opone al héroe."
-        },
-        {
-          "spanish": "el conflicto",
-          "english": "conflict",
-          "phonetic": "/el konˈflik.to/",
-          "gender": "masculine",
-          "example": "El conflicto interno del personaje es más profundo que el externo."
-        },
-        {
-          "spanish": "el clímax",
-          "english": "climax",
-          "phonetic": "/el ˈkli.maks/",
-          "gender": "masculine",
-          "example": "El clímax de la novela ocurre en el último capítulo."
-        },
-        {
-          "spanish": "el desenlace",
-          "english": "resolution, denouement",
-          "phonetic": "/el des.enˈla.θe/",
-          "gender": "masculine",
-          "example": "El desenlace sorprende al lector."
-        },
-        {
-          "spanish": "el flashback",
-          "english": "flashback",
-          "phonetic": "/el ˈflaʃ.bak/",
-          "gender": "masculine",
-          "note": "anglicismo aceptado",
-          "example": "El flashback revela el pasado del personaje."
-        },
-        {
-          "spanish": "la retrospectiva",
-          "english": "retrospective, flashback",
-          "phonetic": "/la ɾet.ro.spekˈti.βa/",
-          "gender": "feminine",
-          "example": "La retrospectiva sitúa la historia en su contexto."
-        },
-        {
-          "spanish": "el simbolismo",
-          "english": "symbolism",
-          "phonetic": "/el sim.boˈlis.mo/",
-          "gender": "masculine",
-          "example": "El simbolismo de Borges es denso y multifacético."
-        },
-        {
-          "spanish": "el símbolo",
-          "english": "symbol",
-          "phonetic": "/el ˈsim.bo.lo/",
-          "gender": "masculine",
-          "example": "El mar simboliza la libertad en la poesía de Neruda."
-        },
-        {
-          "spanish": "la metáfora",
-          "english": "metaphor",
-          "phonetic": "/la me.taˈfo.ɾa/",
-          "gender": "feminine",
-          "example": "La metáfora 'el tiempo es un ladrón' es muy utilizada."
-        },
-        {
-          "spanish": "la comparación",
-          "english": "simile, comparison",
-          "phonetic": "/la kom.pa.ɾaˈθjon/",
-          "gender": "feminine",
-          "example": "A diferencia de la metáfora, la comparación usa 'como' o 'cual'."
-        },
-        {
-          "spanish": "la ironía",
-          "english": "irony",
-          "phonetic": "/la i.ɾoˈnja/",
-          "gender": "feminine",
-          "example": "La ironía socrática consiste en fingir ignorancia."
-        },
-        {
-          "spanish": "el sarcasmo",
-          "english": "sarcasm",
-          "phonetic": "/el saɾ.kaˈsmo/",
-          "gender": "masculine",
-          "example": "El sarcasmo de Cervantes es afilado y mordaz."
-        },
-        {
-          "spanish": "la hipérbole",
-          "english": "hyperbole",
-          "phonetic": "/la i.peɾˈBo.le/",
-          "gender": "feminine",
-          "example": "La hipérbole exagera para enfatizar un punto."
-        },
-        {
-          "spanish": "la alusión",
-          "english": "allusion",
-          "phonetic": "/la aˈlu.sjon/",
-          "gender": "feminine",
-          "example": "La alusión mitológica enriquece el texto."
-        },
-        {
-          "spanish": "el intertexto",
-          "english": "intertext",
-          "phonetic": "/el in.teɾˈtek.to/",
-          "gender": "masculine",
-          "note": "término literario",
-          "example": "El intertexto dialoga con obras clásicas."
-        },
-        {
-          "spanish": "la parodia",
-          "english": "parody",
-          "phonetic": "/la pa.ɾoˈðja/",
-          "gender": "feminine",
-          "example": "La parodia imita el estilo de otra obra con intención cómica."
-        },
-        {
-          "spanish": "la sátira",
-          "english": "satire",
-          "phonetic": "/la ˈsa.ti.ɾa/",
-          "gender": "feminine",
-          "example": "La sátira social de Quevedo es feroz."
-        },
-        {
-          "spanish": "el subtexto",
-          "english": "subtext",
-          "phonetic": "/el subˈteksto/",
-          "gender": "masculine",
-          "example": "El subtexto revela lo que los personajes no dicen."
-        },
-        {
-          "spanish": "el tono",
-          "english": "tone",
-          "phonetic": "/el ˈto.no/",
-          "gender": "masculine",
-          "example": "El tono irónico del autor se percibe en cada página."
-        },
-        {
-          "spanish": "el estilo",
-          "english": "style",
-          "phonetic": "/el ˈes.ti.lo/",
-          "gender": "masculine",
-          "example": "El estilo de García Márquez es reconocible al instante."
-        },
-        {
-          "spanish": "la prosa",
-          "english": "prose",
-          "phonetic": "/la ˈpɾo.sa/",
-          "gender": "feminine",
-          "example": "La prosa poética de Rubén Darío es luminosa."
-        },
-        {
-          "spanish": "el verso",
-          "english": "verse, line of poetry",
-          "phonetic": "/el ˈbeɾ.so/",
-          "gender": "masculine",
-          "example": "Cada verso de este poema es una imagen completa."
-        },
-        {
-          "spanish": "la estrofa",
-          "english": "stanza",
-          "phonetic": "/la ˈes.tɾo.fa/",
-          "gender": "feminine",
-          "example": "La estrofa tiene una estructura de cuatro versos."
-        },
-        {
-          "spanish": "el ritmo",
-          "english": "rhythm",
-          "phonetic": "/el ˈrit.mo/",
-          "gender": "masculine",
-          "example": "El ritmo del poema imita el latido del corazón."
-        },
-        {
-          "spanish": "la rima",
-          "english": "rhyme",
-          "phonetic": "/la ˈri.ma/",
-          "gender": "feminine",
-          "example": "La rima consonante es más estricta que la asonante."
-        },
-        {
-          "spanish": "el poema",
-          "english": "poem",
-          "phonetic": "/el poˈe.ma/",
-          "gender": "masculine",
-          "example": "El poema de Lorca tiene una musicalidad extraordinaria."
-        },
-        {
-          "spanish": "la poesía",
-          "english": "poetry",
-          "phonetic": "/la poˈe.sja/",
-          "gender": "feminine",
-          "example": "La poesía española del siglo XX es rica y diversa."
-        },
-        {
-          "spanish": "el poema épico",
-          "english": "epic poem",
-          "phonetic": "/el poˈe.ma ˈe.piko/",
-          "gender": "masculine",
-          "example": "El Poema del Mio Cid es un poema épico medieval."
-        },
-        {
-          "spanish": "el soneto",
-          "english": "sonnet",
-          "phonetic": "/el soˈne.to/",
-          "gender": "masculine",
-          "example": "El soneto tiene catorce versos de arte mayor."
-        },
-        {
-          "spanish": "la oda",
-          "english": "ode",
-          "phonetic": "/la ˈo.ða/",
-          "gender": "feminine",
-          "example": "La oda a la vida sencilla es una obra de Darío."
-        },
-        {
-          "spanish": "el elegía",
-          "english": "elegy, lament",
-          "phonetic": "/e.ˈle.xja/",
-          "gender": "feminine",
-          "note": "femenino: la elegía",
-          "example": "La elegía expresa dolor y nostalgia."
-        },
-        {
-          "spanish": "la fábula",
-          "english": "fable",
-          "phonetic": "/la ˈfa.βu.la/",
-          "gender": "feminine",
-          "example": "La fábula transmite una moraleja a través de animales."
-        },
-        {
-          "spanish": "el mito",
-          "english": "myth",
-          "phonetic": "/el ˈmi.to/",
-          "gender": "masculine",
-          "example": "El mito de Prometeo alude al sacrificio por la humanidad."
-        },
-        {
-          "spanish": "la alegoría",
-          "english": "allegory",
-          "phonetic": "/la a.leˈxo.ɾja/",
-          "gender": "feminine",
-          "example": "La alegoría permite leer un segundo nivel de significado."
-        },
-        {
-          "spanish": "el realismo mágico",
-          "english": "magical realism",
-          "phonetic": "/el ɾe.aˈlis.mo ˈma.xi.ko/",
-          "gender": "masculine",
-          "example": "El realismo mágico funde lo cotidiano con lo fantástico."
-        },
-        {
-          "spanish": "el boom latinoamericano",
-          "english": "Latin American Boom",
-          "phonetic": "/el bum la.tino.a.me.ɾiˈka.no/",
-          "gender": "masculine",
-          "example": "El boom latinoamericano transformó la literatura mundial."
-        },
-        {
-          "spanish": "la literatura fantástica",
-          "english": "fantasy literature",
-          "phonetic": "/la li.te.ɾaˈtu.ɾa fanˈtas.ti.ka/",
-          "gender": "feminine",
-          "example": "La literatura fantástica explora mundos alternativos."
-        },
-        {
-          "spanish": "la obra literaria",
-          "english": "literary work",
-          "phonetic": "/la ˈobɾa li.teˈɾa.ɾja/",
-          "gender": "feminine",
-          "example": "Esta obra literaria cambió la percepción de su época."
-        },
-        {
-          "spanish": "el género literario",
-          "english": "literary genre",
-          "phonetic": "/el ˈxene.ɾo li.teˈɾa.ɾjo/",
-          "gender": "masculine",
-          "example": "El género de la novela negra tiene raíces antiguas."
-        },
-        {
-          "spanish": "el cuento corto",
-          "english": "short story",
-          "phonetic": "/el ˈkwen.to ˈkoɾ.to/",
-          "gender": "masculine",
-          "example": "El cuento corto exige economía narrativa."
-        },
-        {
-          "spanish": "la novela",
-          "english": "novel",
-          "phonetic": "/la noˈβe.la/",
-          "gender": "feminine",
-          "example": "La novela contemporánea desdibuja los géneros."
-        },
-        {
-          "spanish": "la trama",
-          "english": "plot",
-          "phonetic": "/la ˈtɾa.ma/",
-          "gender": "feminine",
-          "example": "La trama se entrelaza con la historia del personaje."
-        },
-        {
-          "spanish": "el argumento",
-          "english": "plot, storyline",
-          "phonetic": "/el aɾ.ɰuˈmen.to/",
-          "gender": "masculine",
-          "example": "El argumento se desarrolla en tres tiempos narrativos."
-        },
-        {
-          "spanish": "el escenario",
-          "english": "setting",
-          "phonetic": "/el es.kaˈɾjo.no/",
-          "gender": "masculine",
-          "example": "El escenario urbano es un personaje en sí mismo."
-        },
-        {
-          "spanish": "la caracterización",
-          "english": "characterization",
-          "phonetic": "/la ka.ɾakte.ɾi.θaˈθjon/",
-          "gender": "feminine",
-          "example": "La caracterización psicológica del villano es profunda."
-        },
-        {
-          "spanish": "el tema central",
-          "english": "central theme",
-          "phonetic": "/el ˈte.ma θenˈtɾal/",
-          "gender": "masculine",
-          "example": "El tema central es la identidad cultural."
-        },
-        {
-          "spanish": "el mensaje",
-          "english": "message, theme",
-          "phonetic": "/el ˈme.na.xe/",
-          "gender": "masculine",
-          "example": "El mensaje de la obra es universal."
-        },
-        {
-          "spanish": "el contexto histórico",
-          "english": "historical context",
-          "phonetic": "/el konˈteksto isˈtɾoɾi.ko/",
-          "gender": "masculine",
-          "example": "El contexto histórico es clave para entender la obra."
-        },
-        {
-          "spanish": "la interpretación",
-          "english": "interpretation",
-          "phonetic": "/la in.teɾ.peɾ.taˈθjon/",
-          "gender": "feminine",
-          "example": "Cada interpretación revela algo nuevo sobre el texto."
-        },
-        {
-          "spanish": "el crítico literario",
-          "english": "literary critic",
-          "phonetic": "/el ˈkɾi.ti.ko li.teˈɾa.ɾjo/",
-          "gender": "masculine",
-          "example": "El crítico literario analiza las capas de significado."
-        },
-        {
-          "spanish": "la crítica",
-          "english": "critique, literary criticism",
-          "phonetic": "/la ˈkɾi.ti.ka/",
-          "gender": "feminine",
-          "example": "La crítica feminista reveló nuevas lecturas posibles."
-        },
-        {
-          "spanish": "la hermenéutica",
-          "english": "hermeneutics",
-          "phonetic": "/la eɾ.meˈne.utika/",
-          "gender": "feminine",
-          "note": "término académico",
-          "example": "La hermenéutica estudia los principios de la interpretación."
-        },
-        {
-          "spanish": "el ensayo",
-          "english": "essay",
-          "phonetic": "/el enˈsa.ʝo/",
-          "gender": "masculine",
-          "example": "El ensayo de Borges fusiona ficción y filosofía."
-        },
-        {
-          "spanish": "el diálogo",
-          "english": "dialogue",
-          "phonetic": "/el ˈðja.lo.xo/",
-          "gender": "masculine",
-          "example": "El diálogo revela las tensiones entre los personajes."
-        },
-        {
-          "spanish": "el monólogo",
-          "english": "monologue",
-          "phonetic": "/el moˈno.lo.ɣo/",
-          "gender": "masculine",
-          "example": "El monólogo interior explora la conciencia del personaje."
-        },
-        {
-          "spanish": "el flujo de conciencia",
-          "english": "stream of consciousness",
-          "phonetic": "/el ˈflu.xo ðe konˈsjjen.θja/",
-          "gender": "masculine",
-          "example": "El flujo de conciencia imita el pensamiento humano."
-        },
-        {
-          "spanish": "el tiempo narrativo",
-          "english": "narrative time",
-          "phonetic": "/el ˈtmpe.no na.ɾaˈti.βo/",
-          "gender": "masculine",
-          "example": "El tiempo narrativo puede diferir del tiempo real."
-        },
-        {
-          "spanish": "el espacio literario",
-          "english": "literary space",
-          "phonetic": "/el esˈpa.θjo li.teˈɾa.ɾjo/",
-          "gender": "masculine",
-          "example": "El espacio literario construye el mundo de la historia."
-        },
-        {
-          "spanish": "el lector",
-          "english": "reader",
-          "phonetic": "/el leˈkoɾ/",
-          "gender": "masculine",
-          "example": "El lector completa el significado del texto."
-        },
-        {
-          "spanish": "el autor",
-          "english": "author",
-          "phonetic": "/el auˈtoɾ/",
-          "gender": "masculine",
-          "note": "feminine: la autora",
-          "example": "El autor intencional no es la única fuente de significado."
-        }
-      ]
+  "vocabulary": [
+    {
+      "id": 1,
+      "target": "el análisis literario",
+      "source": "literary analysis",
+      "gender": "m.",
+      "type": "noun",
+      "example": "El análisis literario revela capas de significado.",
+      "aid_note": "/el aˈna.lis.li.teˈɾa.ɾjo/"
+    },
+    {
+      "id": 2,
+      "target": "la narrativa",
+      "source": "narrative, storytelling",
+      "gender": "f.",
+      "type": "noun",
+      "example": "La narrativa latinoamericana ha revolucionado la literatura.",
+      "aid_note": "/la na.ɾaˈti.βa/"
+    },
+    {
+      "id": 3,
+      "target": "el narrador",
+      "source": "narrator",
+      "gender": "m.",
+      "type": "noun",
+      "example": "El narrador omnisciente conoce todos los pensamientos.",
+      "aid_note": "/el naɾ.ɾaˈðoɾ/"
+    },
+    {
+      "id": 4,
+      "target": "la narradora",
+      "source": "narrator (female)",
+      "gender": "f.",
+      "type": "noun",
+      "example": "La narradora eligió contar la historia desde su perspectiva.",
+      "aid_note": "/la naɾ.ɾaˈðoɾa/"
+    },
+    {
+      "id": 5,
+      "target": "el narrador omnisciente",
+      "source": "omniscient narrator",
+      "gender": "m.",
+      "type": "noun",
+      "example": "El narrador omnisciente describe lo que piensan todos los personajes.",
+      "aid_note": "/el naɾ.ɾaˈðoɾ om.niˈsjjen.te/"
+    },
+    {
+      "id": 6,
+      "target": "el narrador protagonista",
+      "source": "protagonist narrator",
+      "gender": "m.",
+      "type": "noun",
+      "example": "El narrador protagonista vive los acontecimientos en primera persona.",
+      "aid_note": "/el naɾ.ɾaˈðoɾ pɾo.taˈɰi.ta/"
+    },
+    {
+      "id": 7,
+      "target": "el narrador testigo",
+      "source": "witness narrator",
+      "gender": "m.",
+      "type": "noun",
+      "example": "El narrador testigo observa pero no controla la trama.",
+      "aid_note": "/el naɾ.ɾaˈðoɾ ˈtes.βo/"
+    },
+    {
+      "id": 8,
+      "target": "la voz narrativa",
+      "source": "narrative voice",
+      "gender": "f.",
+      "type": "noun",
+      "example": "La voz narrativa de Bolaño es irreconocible.",
+      "aid_note": "/la βoθ na.ɾaˈti.βa/"
+    },
+    {
+      "id": 9,
+      "target": "el punto de vista",
+      "source": "point of view",
+      "gender": "m.",
+      "type": "noun",
+      "example": "El relato cambia de punto de vista en cada capítulo.",
+      "aid_note": "/el ˈpunto ðe ˈβista/"
+    },
+    {
+      "id": 10,
+      "target": "el protagonista",
+      "source": "protagonist, main character",
+      "gender": "m.",
+      "type": "noun",
+      "example": "El protagonista enfrenta un conflicto moral.",
+      "aid_note": "/el pɾo.taˈɰi.ta/"
+    },
+    {
+      "id": 11,
+      "target": "el antagonista",
+      "source": "antagonist",
+      "gender": "m.",
+      "type": "noun",
+      "example": "El antagonista representa la fuerza que se opone al héroe.",
+      "aid_note": "/el an.taˈɰi.ta/"
+    },
+    {
+      "id": 12,
+      "target": "el conflicto",
+      "source": "conflict",
+      "gender": "m.",
+      "type": "noun",
+      "example": "El conflicto interno del personaje es más profundo que el externo.",
+      "aid_note": "/el konˈflik.to/"
+    },
+    {
+      "id": 13,
+      "target": "el clímax",
+      "source": "climax",
+      "gender": "m.",
+      "type": "noun",
+      "example": "El clímax de la novela ocurre en el último capítulo.",
+      "aid_note": "/el ˈkli.maks/"
+    },
+    {
+      "id": 14,
+      "target": "el desenlace",
+      "source": "resolution, denouement",
+      "gender": "m.",
+      "type": "noun",
+      "example": "El desenlace sorprende al lector.",
+      "aid_note": "/el des.enˈla.θe/"
+    },
+    {
+      "id": 15,
+      "target": "el flashback",
+      "source": "flashback",
+      "gender": "m.",
+      "type": "noun",
+      "example": "El flashback revela el pasado del personaje.",
+      "aid_note": "/el ˈflaʃ.bak/"
+    },
+    {
+      "id": 16,
+      "target": "la retrospectiva",
+      "source": "retrospective, flashback",
+      "gender": "f.",
+      "type": "noun",
+      "example": "La retrospectiva sitúa la historia en su contexto.",
+      "aid_note": "/la ɾet.ro.spekˈti.βa/"
+    },
+    {
+      "id": 17,
+      "target": "el simbolismo",
+      "source": "symbolism",
+      "gender": "m.",
+      "type": "noun",
+      "example": "El simbolismo de Borges es denso y multifacético.",
+      "aid_note": "/el sim.boˈlis.mo/"
+    },
+    {
+      "id": 18,
+      "target": "el símbolo",
+      "source": "symbol",
+      "gender": "m.",
+      "type": "noun",
+      "example": "El mar simboliza la libertad en la poesía de Neruda.",
+      "aid_note": "/el ˈsim.bo.lo/"
+    },
+    {
+      "id": 19,
+      "target": "la metáfora",
+      "source": "metaphor",
+      "gender": "f.",
+      "type": "noun",
+      "example": "La metáfora 'el tiempo es un ladrón' es muy utilizada.",
+      "aid_note": "/la me.taˈfo.ɾa/"
+    },
+    {
+      "id": 20,
+      "target": "la comparación",
+      "source": "simile, comparison",
+      "gender": "f.",
+      "type": "noun",
+      "example": "A diferencia de la metáfora, la comparación usa 'como' o 'cual'.",
+      "aid_note": "/la kom.pa.ɾaˈθjon/"
+    },
+    {
+      "id": 21,
+      "target": "la ironía",
+      "source": "irony",
+      "gender": "f.",
+      "type": "noun",
+      "example": "La ironía socrática consiste en fingir ignorancia.",
+      "aid_note": "/la i.ɾoˈnja/"
+    },
+    {
+      "id": 22,
+      "target": "el sarcasmo",
+      "source": "sarcasm",
+      "gender": "m.",
+      "type": "noun",
+      "example": "El sarcasmo de Cervantes es afilado y mordaz.",
+      "aid_note": "/el saɾ.kaˈsmo/"
+    },
+    {
+      "id": 23,
+      "target": "la hipérbole",
+      "source": "hyperbole",
+      "gender": "f.",
+      "type": "noun",
+      "example": "La hipérbole exagera para enfatizar un punto.",
+      "aid_note": "/la i.peɾˈBo.le/"
+    },
+    {
+      "id": 24,
+      "target": "la alusión",
+      "source": "allusion",
+      "gender": "f.",
+      "type": "noun",
+      "example": "La alusión mitológica enriquece el texto.",
+      "aid_note": "/la aˈlu.sjon/"
+    },
+    {
+      "id": 25,
+      "target": "el intertexto",
+      "source": "intertext",
+      "gender": "m.",
+      "type": "noun",
+      "example": "El intertexto dialoga con obras clásicas.",
+      "aid_note": "/el in.teɾˈtek.to/"
+    },
+    {
+      "id": 26,
+      "target": "la parodia",
+      "source": "parody",
+      "gender": "f.",
+      "type": "noun",
+      "example": "La parodia imita el estilo de otra obra con intención cómica.",
+      "aid_note": "/la pa.ɾoˈðja/"
+    },
+    {
+      "id": 27,
+      "target": "la sátira",
+      "source": "satire",
+      "gender": "f.",
+      "type": "noun",
+      "example": "La sátira social de Quevedo es feroz.",
+      "aid_note": "/la ˈsa.ti.ɾa/"
+    },
+    {
+      "id": 28,
+      "target": "el subtexto",
+      "source": "subtext",
+      "gender": "m.",
+      "type": "noun",
+      "example": "El subtexto revela lo que los personajes no dicen.",
+      "aid_note": "/el subˈteksto/"
+    },
+    {
+      "id": 29,
+      "target": "el tono",
+      "source": "tone",
+      "gender": "m.",
+      "type": "noun",
+      "example": "El tono irónico del autor se percibe en cada página.",
+      "aid_note": "/el ˈto.no/"
+    },
+    {
+      "id": 30,
+      "target": "el estilo",
+      "source": "style",
+      "gender": "m.",
+      "type": "noun",
+      "example": "El estilo de García Márquez es reconocible al instante.",
+      "aid_note": "/el ˈes.ti.lo/"
+    },
+    {
+      "id": 31,
+      "target": "la prosa",
+      "source": "prose",
+      "gender": "f.",
+      "type": "noun",
+      "example": "La prosa poética de Rubén Darío es luminosa.",
+      "aid_note": "/la ˈpɾo.sa/"
+    },
+    {
+      "id": 32,
+      "target": "el verso",
+      "source": "verse, line of poetry",
+      "gender": "m.",
+      "type": "noun",
+      "example": "Cada verso de este poema es una imagen completa.",
+      "aid_note": "/el ˈbeɾ.so/"
+    },
+    {
+      "id": 33,
+      "target": "la estrofa",
+      "source": "stanza",
+      "gender": "f.",
+      "type": "noun",
+      "example": "La estrofa tiene una estructura de cuatro versos.",
+      "aid_note": "/la ˈes.tɾo.fa/"
+    },
+    {
+      "id": 34,
+      "target": "el ritmo",
+      "source": "rhythm",
+      "gender": "m.",
+      "type": "noun",
+      "example": "El ritmo del poema imita el latido del corazón.",
+      "aid_note": "/el ˈrit.mo/"
+    },
+    {
+      "id": 35,
+      "target": "la rima",
+      "source": "rhyme",
+      "gender": "f.",
+      "type": "noun",
+      "example": "La rima consonante es más estricta que la asonante.",
+      "aid_note": "/la ˈri.ma/"
+    },
+    {
+      "id": 36,
+      "target": "el poema",
+      "source": "poem",
+      "gender": "m.",
+      "type": "noun",
+      "example": "El poema de Lorca tiene una musicalidad extraordinaria.",
+      "aid_note": "/el poˈe.ma/"
+    },
+    {
+      "id": 37,
+      "target": "la poesía",
+      "source": "poetry",
+      "gender": "f.",
+      "type": "noun",
+      "example": "La poesía española del siglo XX es rica y diversa.",
+      "aid_note": "/la poˈe.sja/"
+    },
+    {
+      "id": 38,
+      "target": "el poema épico",
+      "source": "epic poem",
+      "gender": "m.",
+      "type": "noun",
+      "example": "El Poema del Mio Cid es un poema épico medieval.",
+      "aid_note": "/el poˈe.ma ˈe.piko/"
+    },
+    {
+      "id": 39,
+      "target": "el soneto",
+      "source": "sonnet",
+      "gender": "m.",
+      "type": "noun",
+      "example": "El soneto tiene catorce versos de arte mayor.",
+      "aid_note": "/el soˈne.to/"
+    },
+    {
+      "id": 40,
+      "target": "la oda",
+      "source": "ode",
+      "gender": "f.",
+      "type": "noun",
+      "example": "La oda a la vida sencilla es una obra de Darío.",
+      "aid_note": "/la ˈo.ða/"
+    },
+    {
+      "id": 41,
+      "target": "el elegía",
+      "source": "elegy, lament",
+      "gender": "f.",
+      "type": "noun",
+      "example": "La elegía expresa dolor y nostalgia.",
+      "aid_note": "/e.ˈle.xja/"
+    },
+    {
+      "id": 42,
+      "target": "la fábula",
+      "source": "fable",
+      "gender": "f.",
+      "type": "noun",
+      "example": "La fábula transmite una moraleja a través de animales.",
+      "aid_note": "/la ˈfa.βu.la/"
+    },
+    {
+      "id": 43,
+      "target": "el mito",
+      "source": "myth",
+      "gender": "m.",
+      "type": "noun",
+      "example": "El mito de Prometeo alude al sacrificio por la humanidad.",
+      "aid_note": "/el ˈmi.to/"
+    },
+    {
+      "id": 44,
+      "target": "la alegoría",
+      "source": "allegory",
+      "gender": "f.",
+      "type": "noun",
+      "example": "La alegoría permite leer un segundo nivel de significado.",
+      "aid_note": "/la a.leˈxo.ɾja/"
+    },
+    {
+      "id": 45,
+      "target": "el realismo mágico",
+      "source": "magical realism",
+      "gender": "m.",
+      "type": "noun",
+      "example": "El realismo mágico funde lo cotidiano con lo fantástico.",
+      "aid_note": "/el ɾe.aˈlis.mo ˈma.xi.ko/"
+    },
+    {
+      "id": 46,
+      "target": "el boom latinoamericano",
+      "source": "Latin American Boom",
+      "gender": "m.",
+      "type": "noun",
+      "example": "El boom latinoamericano transformó la literatura mundial.",
+      "aid_note": "/el bum la.tino.a.me.ɾiˈka.no/"
+    },
+    {
+      "id": 47,
+      "target": "la literatura fantástica",
+      "source": "fantasy literature",
+      "gender": "f.",
+      "type": "noun",
+      "example": "La literatura fantástica explora mundos alternativos.",
+      "aid_note": "/la li.te.ɾaˈtu.ɾa fanˈtas.ti.ka/"
+    },
+    {
+      "id": 48,
+      "target": "la obra literaria",
+      "source": "literary work",
+      "gender": "f.",
+      "type": "noun",
+      "example": "Esta obra literaria cambió la percepción de su época.",
+      "aid_note": "/la ˈobɾa li.teˈɾa.ɾja/"
+    },
+    {
+      "id": 49,
+      "target": "el género literario",
+      "source": "literary genre",
+      "gender": "m.",
+      "type": "noun",
+      "example": "El género de la novela negra tiene raíces antiguas.",
+      "aid_note": "/el ˈxene.ɾo li.teˈɾa.ɾjo/"
+    },
+    {
+      "id": 50,
+      "target": "el cuento corto",
+      "source": "short story",
+      "gender": "m.",
+      "type": "noun",
+      "example": "El cuento corto exige economía narrativa.",
+      "aid_note": "/el ˈkwen.to ˈkoɾ.to/"
+    },
+    {
+      "id": 51,
+      "target": "la novela",
+      "source": "novel",
+      "gender": "f.",
+      "type": "noun",
+      "example": "La novela contemporánea desdibuja los géneros.",
+      "aid_note": "/la noˈβe.la/"
+    },
+    {
+      "id": 52,
+      "target": "la trama",
+      "source": "plot",
+      "gender": "f.",
+      "type": "noun",
+      "example": "La trama se entrelaza con la historia del personaje.",
+      "aid_note": "/la ˈtɾa.ma/"
+    },
+    {
+      "id": 53,
+      "target": "el argumento",
+      "source": "plot, storyline",
+      "gender": "m.",
+      "type": "noun",
+      "example": "El argumento se desarrolla en tres tiempos narrativos.",
+      "aid_note": "/el aɾ.ɰuˈmen.to/"
+    },
+    {
+      "id": 54,
+      "target": "el escenario",
+      "source": "setting",
+      "gender": "m.",
+      "type": "noun",
+      "example": "El escenario urbano es un personaje en sí mismo.",
+      "aid_note": "/el es.kaˈɾjo.no/"
+    },
+    {
+      "id": 55,
+      "target": "la caracterización",
+      "source": "characterization",
+      "gender": "f.",
+      "type": "noun",
+      "example": "La caracterización psicológica del villano es profunda.",
+      "aid_note": "/la ka.ɾakte.ɾi.θaˈθjon/"
+    },
+    {
+      "id": 56,
+      "target": "el tema central",
+      "source": "central theme",
+      "gender": "m.",
+      "type": "noun",
+      "example": "El tema central es la identidad cultural.",
+      "aid_note": "/el ˈte.ma θenˈtɾal/"
+    },
+    {
+      "id": 57,
+      "target": "el mensaje",
+      "source": "message, theme",
+      "gender": "m.",
+      "type": "noun",
+      "example": "El mensaje de la obra es universal.",
+      "aid_note": "/el ˈme.na.xe/"
+    },
+    {
+      "id": 58,
+      "target": "el contexto histórico",
+      "source": "historical context",
+      "gender": "m.",
+      "type": "noun",
+      "example": "El contexto histórico es clave para entender la obra.",
+      "aid_note": "/el konˈteksto isˈtɾoɾi.ko/"
+    },
+    {
+      "id": 59,
+      "target": "la interpretación",
+      "source": "interpretation",
+      "gender": "f.",
+      "type": "noun",
+      "example": "Cada interpretación revela algo nuevo sobre el texto.",
+      "aid_note": "/la in.teɾ.peɾ.taˈθjon/"
+    },
+    {
+      "id": 60,
+      "target": "el crítico literario",
+      "source": "literary critic",
+      "gender": "m.",
+      "type": "noun",
+      "example": "El crítico literario analiza las capas de significado.",
+      "aid_note": "/el ˈkɾi.ti.ko li.teˈɾa.ɾjo/"
+    },
+    {
+      "id": 61,
+      "target": "la crítica",
+      "source": "critique, literary criticism",
+      "gender": "f.",
+      "type": "noun",
+      "example": "La crítica feminista reveló nuevas lecturas posibles.",
+      "aid_note": "/la ˈkɾi.ti.ka/"
+    },
+    {
+      "id": 62,
+      "target": "la hermenéutica",
+      "source": "hermeneutics",
+      "gender": "f.",
+      "type": "noun",
+      "example": "La hermenéutica estudia los principios de la interpretación.",
+      "aid_note": "/la eɾ.meˈne.utika/"
+    },
+    {
+      "id": 63,
+      "target": "el ensayo",
+      "source": "essay",
+      "gender": "m.",
+      "type": "noun",
+      "example": "El ensayo de Borges fusiona ficción y filosofía.",
+      "aid_note": "/el enˈsa.ʝo/"
+    },
+    {
+      "id": 64,
+      "target": "el diálogo",
+      "source": "dialogue",
+      "gender": "m.",
+      "type": "noun",
+      "example": "El diálogo revela las tensiones entre los personajes.",
+      "aid_note": "/el ˈðja.lo.xo/"
+    },
+    {
+      "id": 65,
+      "target": "el monólogo",
+      "source": "monologue",
+      "gender": "m.",
+      "type": "noun",
+      "example": "El monólogo interior explora la conciencia del personaje.",
+      "aid_note": "/el moˈno.lo.ɣo/"
+    },
+    {
+      "id": 66,
+      "target": "el flujo de conciencia",
+      "source": "stream of consciousness",
+      "gender": "m.",
+      "type": "noun",
+      "example": "El flujo de conciencia imita el pensamiento humano.",
+      "aid_note": "/el ˈflu.xo ðe konˈsjjen.θja/"
+    },
+    {
+      "id": 67,
+      "target": "el tiempo narrativo",
+      "source": "narrative time",
+      "gender": "m.",
+      "type": "noun",
+      "example": "El tiempo narrativo puede diferir del tiempo real.",
+      "aid_note": "/el ˈtmpe.no na.ɾaˈti.βo/"
+    },
+    {
+      "id": 68,
+      "target": "el espacio literario",
+      "source": "literary space",
+      "gender": "m.",
+      "type": "noun",
+      "example": "El espacio literario construye el mundo de la historia.",
+      "aid_note": "/el esˈpa.θjo li.teˈɾa.ɾjo/"
+    },
+    {
+      "id": 69,
+      "target": "el lector",
+      "source": "reader",
+      "gender": "m.",
+      "type": "noun",
+      "example": "El lector completa el significado del texto.",
+      "aid_note": "/el leˈkoɾ/"
+    },
+    {
+      "id": 70,
+      "target": "el autor",
+      "source": "author",
+      "gender": "m.",
+      "type": "noun",
+      "example": "El autor intencional no es la única fuente de significado.",
+      "aid_note": "/el auˈtoɾ/"
     }
-  },
+  ],
   "grammar": [
     {
       "title": "Imperfect Subjunctive in Literary Analysis",

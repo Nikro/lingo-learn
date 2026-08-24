@@ -3,46 +3,434 @@
   "title": "Professional & Business Spanish Vocabulary",
   "description": "Core vocabulary for workplace communication, job applications, meetings, and professional correspondence.",
   "vocabulary": [
-    { "id": 1, "target": "currículum vitae", "source": "CV / resume", "gender": "m.", "type": "noun" },
-    { "id": 2, "target": "candidatura", "source": "job application", "gender": "f.", "type": "noun" },
-    { "id": 3, "target": "entrevista de trabajo", "source": "job interview", "gender": "f.", "type": "noun" },
-    { "id": 4, "target": "oferta de empleo", "source": "job offer", "gender": "f.", "type": "noun" },
-    { "id": 5, "target": "despedido/a", "source": "fired / dismissed", "gender": "m./f.", "type": "adjective" },
-    { "id": 6, "target": "dimisión", "source": "resignation", "gender": "f.", "type": "noun" },
-    { "id": 7, "target": "nómina", "source": "payslip", "gender": "f.", "type": "noun" },
-    { "id": 8, "target": "contrato indefinido", "source": "permanent contract", "gender": "m.", "type": "noun" },
-    { "id": 9, "target": "contrato temporal", "source": "temporary contract", "gender": "m.", "type": "noun" },
-    { "id": 10, "target": "periodo de prueba", "source": "probationary period", "gender": "m.", "type": "noun" },
-    { "id": 11, "target": "ascenso", "source": "promotion", "gender": "m.", "type": "noun" },
-    { "id": 12, "target": "sueldo / salario", "source": "salary / wage", "gender": "m.", "type": "noun" },
-    { "id": 13, "target": "la reunión", "source": "meeting", "gender": "f.", "type": "noun" },
-    { "id": 14, "target": "el informe", "source": "report", "gender": "m.", "type": "noun" },
-    { "id": 15, "target": "el presupuesto", "source": "budget", "gender": "m.", "type": "noun" },
-    { "id": 16, "target": "los beneficios", "source": "profits / benefits", "gender": "m.pl.", "type": "noun" },
-    { "id": 17, "target": "las pérdidas", "source": "losses", "gender": "f.pl.", "type": "noun" },
-    { "id": 18, "target": "la cuota de mercado", "source": "market share", "gender": "f.", "type": "noun" },
-    { "id": 19, "target": "la competencia", "source": "competition", "gender": "f.", "type": "noun" },
-    { "id": 20, "target": "el cliente", "source": "client / customer", "gender": "m.", "type": "noun" },
-    { "id": 21, "target": "el jefe / la jefa", "source": "boss / manager", "gender": "m./f.", "type": "noun" },
-    { "id": 22, "target": "el colega / el compañero", "source": "colleague", "gender": "m.", "type": "noun" },
-    { "id": 23, "target": "la beca", "source": "scholarship", "gender": "f.", "type": "noun" },
-    { "id": 24, "target": "la tesis", "source": "thesis", "gender": "f.", "type": "noun" },
-    { "id": 25, "target": "el artículo científico", "source": "scientific paper", "gender": "m.", "type": "noun" },
-    { "id": 26, "target": "hipótesis", "source": "hypothesis", "gender": "f.", "type": "noun" },
-    { "id": 27, "target": "el máster / el posgrado", "source": "master's degree / postgraduate", "gender": "m.", "type": "noun" },
-    { "id": 28, "target": "la investigación", "source": "research", "gender": "f.", "type": "noun" },
-    { "id": 29, "target": "estimado/a Sr./Sra.", "source": "Dear Mr./Ms.", "gender": "—", "type": "phrase" },
-    { "id": 30, "target": "atentamente", "source": "sincerely (formal closing)", "gender": "—", "type": "adverb" },
-    { "id": 31, "target": "le escribo para...", "source": "I am writing to...", "gender": "—", "type": "phrase" },
-    { "id": 32, "target": "queda a su disposición", "source": "I remain at your disposal", "gender": "—", "type": "phrase" },
-    { "id": 33, "target": "agradeciendo de antemano", "source": "thanking you in advance", "gender": "—", "type": "phrase" },
-    { "id": 34, "target": "en respuesta a su correo", "source": "in response to your email", "gender": "—", "type": "phrase" },
-    { "id": 35, "target": "el sueldo fijo", "source": "fixed salary", "gender": "m.", "type": "phrase" },
-    { "id": 36, "target": "los ingresos", "source": "revenue / income", "gender": "m.pl.", "type": "noun" },
-    { "id": 37, "target": "la reunión de equipo", "source": "team meeting", "gender": "f.", "type": "phrase" },
-    { "id": 38, "target": "ocupar el puesto vacante", "source": "to fill the vacant position", "gender": "—", "type": "phrase" },
-    { "id": 39, "target": "enviar mi candidatura", "source": "to send my application", "gender": "—", "type": "phrase" },
-    { "id": 40, "target": "solicitar información", "source": "to request information", "gender": "—", "type": "phrase" }
+    {
+      "id": 1,
+      "target": "currículum vitae",
+      "source": "CV / resume",
+      "gender": "m.",
+      "type": "noun"
+    },
+    {
+      "id": 2,
+      "target": "candidatura",
+      "source": "job application",
+      "gender": "f.",
+      "type": "noun"
+    },
+    {
+      "id": 3,
+      "target": "entrevista de trabajo",
+      "source": "job interview",
+      "gender": "f.",
+      "type": "noun"
+    },
+    {
+      "id": 4,
+      "target": "oferta de empleo",
+      "source": "job offer",
+      "gender": "f.",
+      "type": "noun"
+    },
+    {
+      "id": 5,
+      "target": "despedido/a",
+      "source": "fired / dismissed",
+      "gender": "m./f.",
+      "type": "adjective"
+    },
+    {
+      "id": 6,
+      "target": "dimisión",
+      "source": "resignation",
+      "gender": "f.",
+      "type": "noun"
+    },
+    {
+      "id": 7,
+      "target": "nómina",
+      "source": "payslip",
+      "gender": "f.",
+      "type": "noun"
+    },
+    {
+      "id": 8,
+      "target": "contrato indefinido",
+      "source": "permanent contract",
+      "gender": "m.",
+      "type": "noun"
+    },
+    {
+      "id": 9,
+      "target": "contrato temporal",
+      "source": "temporary contract",
+      "gender": "m.",
+      "type": "noun"
+    },
+    {
+      "id": 10,
+      "target": "periodo de prueba",
+      "source": "probationary period",
+      "gender": "m.",
+      "type": "noun"
+    },
+    {
+      "id": 11,
+      "target": "ascenso",
+      "source": "promotion",
+      "gender": "m.",
+      "type": "noun"
+    },
+    {
+      "id": 12,
+      "target": "sueldo / salario",
+      "source": "salary / wage",
+      "gender": "m.",
+      "type": "noun"
+    },
+    {
+      "id": 13,
+      "target": "la reunión",
+      "source": "meeting",
+      "gender": "f.",
+      "type": "noun"
+    },
+    {
+      "id": 14,
+      "target": "el informe",
+      "source": "report",
+      "gender": "m.",
+      "type": "noun"
+    },
+    {
+      "id": 15,
+      "target": "el presupuesto",
+      "source": "budget",
+      "gender": "m.",
+      "type": "noun"
+    },
+    {
+      "id": 16,
+      "target": "los beneficios",
+      "source": "profits / benefits",
+      "gender": "m.pl.",
+      "type": "noun"
+    },
+    {
+      "id": 17,
+      "target": "las pérdidas",
+      "source": "losses",
+      "gender": "f.pl.",
+      "type": "noun"
+    },
+    {
+      "id": 18,
+      "target": "la cuota de mercado",
+      "source": "market share",
+      "gender": "f.",
+      "type": "noun"
+    },
+    {
+      "id": 19,
+      "target": "la competencia",
+      "source": "competition",
+      "gender": "f.",
+      "type": "noun"
+    },
+    {
+      "id": 20,
+      "target": "el cliente",
+      "source": "client / customer",
+      "gender": "m.",
+      "type": "noun"
+    },
+    {
+      "id": 21,
+      "target": "el jefe / la jefa",
+      "source": "boss / manager",
+      "gender": "m./f.",
+      "type": "noun"
+    },
+    {
+      "id": 22,
+      "target": "el colega / el compañero",
+      "source": "colleague",
+      "gender": "m.",
+      "type": "noun"
+    },
+    {
+      "id": 23,
+      "target": "la beca",
+      "source": "scholarship",
+      "gender": "f.",
+      "type": "noun"
+    },
+    {
+      "id": 24,
+      "target": "la tesis",
+      "source": "thesis",
+      "gender": "f.",
+      "type": "noun"
+    },
+    {
+      "id": 25,
+      "target": "el artículo científico",
+      "source": "scientific paper",
+      "gender": "m.",
+      "type": "noun"
+    },
+    {
+      "id": 26,
+      "target": "hipótesis",
+      "source": "hypothesis",
+      "gender": "f.",
+      "type": "noun"
+    },
+    {
+      "id": 27,
+      "target": "el máster / el posgrado",
+      "source": "master's degree / postgraduate",
+      "gender": "m.",
+      "type": "noun"
+    },
+    {
+      "id": 28,
+      "target": "la investigación",
+      "source": "research",
+      "gender": "f.",
+      "type": "noun"
+    },
+    {
+      "id": 29,
+      "target": "estimado/a Sr./Sra.",
+      "source": "Dear Mr./Ms.",
+      "gender": "—",
+      "type": "phrase"
+    },
+    {
+      "id": 30,
+      "target": "atentamente",
+      "source": "sincerely (formal closing)",
+      "gender": "—",
+      "type": "adverb"
+    },
+    {
+      "id": 31,
+      "target": "le escribo para...",
+      "source": "I am writing to...",
+      "gender": "—",
+      "type": "phrase"
+    },
+    {
+      "id": 32,
+      "target": "queda a su disposición",
+      "source": "I remain at your disposal",
+      "gender": "—",
+      "type": "phrase"
+    },
+    {
+      "id": 33,
+      "target": "agradeciendo de antemano",
+      "source": "thanking you in advance",
+      "gender": "—",
+      "type": "phrase"
+    },
+    {
+      "id": 34,
+      "target": "en respuesta a su correo",
+      "source": "in response to your email",
+      "gender": "—",
+      "type": "phrase"
+    },
+    {
+      "id": 35,
+      "target": "el sueldo fijo",
+      "source": "fixed salary",
+      "gender": "m.",
+      "type": "phrase"
+    },
+    {
+      "id": 36,
+      "target": "los ingresos",
+      "source": "revenue / income",
+      "gender": "m.pl.",
+      "type": "noun"
+    },
+    {
+      "id": 37,
+      "target": "la reunión de equipo",
+      "source": "team meeting",
+      "gender": "f.",
+      "type": "phrase"
+    },
+    {
+      "id": 38,
+      "target": "ocupar el puesto vacante",
+      "source": "to fill the vacant position",
+      "gender": "—",
+      "type": "phrase"
+    },
+    {
+      "id": 39,
+      "target": "enviar mi candidatura",
+      "source": "to send my application",
+      "gender": "—",
+      "type": "phrase"
+    },
+    {
+      "id": 40,
+      "target": "solicitar información",
+      "source": "to request information",
+      "gender": "—",
+      "type": "phrase"
+    },
+    {
+      "target": "la carta de presentación",
+      "source": "the cover letter",
+      "type": "noun",
+      "gender": "f.",
+      "example": "Envié mi currículum y la carta de presentación.",
+      "id": 41
+    },
+    {
+      "target": "la vacante",
+      "source": "the vacancy",
+      "type": "noun",
+      "gender": "f.",
+      "example": "He visto una vacante en la empresa.",
+      "id": 42
+    },
+    {
+      "target": "el puesto vacante",
+      "source": "the empty position",
+      "type": "noun",
+      "gender": "m.",
+      "example": "Quiero ocupar el puesto vacante.",
+      "id": 43
+    },
+    {
+      "target": "la jornada laboral",
+      "source": "the working day",
+      "type": "noun",
+      "gender": "f.",
+      "example": "La jornada laboral es de ocho horas.",
+      "id": 44
+    },
+    {
+      "target": "el teletrabajo",
+      "source": "remote work",
+      "type": "noun",
+      "gender": "m.",
+      "example": "El teletrabajo es cada vez más común.",
+      "id": 45
+    },
+    {
+      "target": "la negociación salarial",
+      "source": "salary negotiation",
+      "type": "noun",
+      "gender": "f.",
+      "example": "La negociación salarial fue dura.",
+      "id": 46
+    },
+    {
+      "target": "las vacaciones",
+      "source": "the holidays",
+      "type": "noun",
+      "gender": "f.",
+      "example": "Tengo dos semanas de vacaciones.",
+      "id": 47
+    },
+    {
+      "target": "el día libre",
+      "source": "the day off",
+      "type": "noun",
+      "gender": "m.",
+      "example": "Mañana tengo día libre.",
+      "id": 48
+    },
+    {
+      "target": "renunciar al puesto",
+      "source": "to resign from the post",
+      "type": "phrase",
+      "example": "Decidió renunciar al puesto.",
+      "id": 49
+    },
+    {
+      "target": "ser despedido",
+      "source": "to be fired",
+      "type": "phrase",
+      "example": "Le despidieron sin aviso.",
+      "id": 50
+    },
+    {
+      "target": "pedir una prórroga",
+      "source": "to ask for an extension",
+      "type": "phrase",
+      "example": "Pedí una prórroga para entregar el informe.",
+      "id": 51
+    },
+    {
+      "target": "quedar en...",
+      "source": "to agree on / to meet at",
+      "type": "phrase",
+      "example": "Quedamos en enviar el informe mañana.",
+      "id": 52
+    },
+    {
+      "target": "dar parte de",
+      "source": "to report on",
+      "type": "phrase",
+      "example": "Daré parte de la reunión al equipo.",
+      "id": 53
+    },
+    {
+      "target": "atender al cliente",
+      "source": "to attend to the customer",
+      "type": "phrase",
+      "example": "Hay que atender al cliente con paciencia.",
+      "id": 54
+    },
+    {
+      "target": "plantear un problema",
+      "source": "to raise a problem",
+      "type": "phrase",
+      "example": "Quiero plantear un problema con el proyecto.",
+      "id": 55
+    },
+    {
+      "target": "resolver un conflicto",
+      "source": "to resolve a conflict",
+      "type": "phrase",
+      "example": "El jefe resolvió el conflicto rápidamente.",
+      "id": 56
+    },
+    {
+      "target": "alcanzar un objetivo",
+      "source": "to reach a goal",
+      "type": "phrase",
+      "example": "La empresa alcanzó el objetivo de ventas.",
+      "id": 57
+    },
+    {
+      "target": "superar las expectativas",
+      "source": "to exceed expectations",
+      "type": "phrase",
+      "example": "Los resultados superaron las expectativas.",
+      "id": 58
+    },
+    {
+      "target": "a disposición de",
+      "source": "at the disposal of",
+      "type": "phrase",
+      "example": "Quedo a su disposición para cualquier duda.",
+      "id": 59
+    },
+    {
+      "target": "quedar a su disposición",
+      "source": "to be at your disposal",
+      "type": "phrase",
+      "example": "Quedo a su disposición.",
+      "id": 60
+    }
   ],
   "grammar": [],
   "pronunciation": [],
@@ -50,14 +438,24 @@
     {
       "type": "exercise",
       "question": "What does 'currículum vitae' mean in English?",
-      "options": ["Curriculum", "CV / resume", "Study plan", "Course schedule"],
+      "options": [
+        "Curriculum",
+        "CV / resume",
+        "Study plan",
+        "Course schedule"
+      ],
       "correct": 1,
       "explanation": "'Currículum vitae' (often abbreviated as CV) = 'resume' — a document summarizing your work experience and qualifications."
     },
     {
       "type": "exercise",
       "question": "What does 'contrato indefinido' mean?",
-      "options": ["Temporary contract", "Permanent contract", "Trial contract", "Part-time contract"],
+      "options": [
+        "Temporary contract",
+        "Permanent contract",
+        "Trial contract",
+        "Part-time contract"
+      ],
       "correct": 1,
       "explanation": "'Contrato indefinido' = permanent contract — no fixed end date, as opposed to 'contrato temporal' (temporary contract)."
     },
@@ -70,7 +468,12 @@
     {
       "type": "exercise",
       "question": "What does 'periodo de prueba' mean?",
-      "options": ["Trial period / probationary period", "Testing time", "Evaluation period", "Training period"],
+      "options": [
+        "Trial period / probationary period",
+        "Testing time",
+        "Evaluation period",
+        "Training period"
+      ],
       "correct": 0,
       "explanation": "'Periodo de prueba' = probationary period — the initial period of employment where both parties evaluate the fit."
     },
@@ -83,7 +486,12 @@
     {
       "type": "exercise",
       "question": "What does 'la cuota de mercado' mean?",
-      "options": ["Market rate", "Market share", "Market price", "Market size"],
+      "options": [
+        "Market rate",
+        "Market share",
+        "Market price",
+        "Market size"
+      ],
       "correct": 1,
       "explanation": "'Cuota de mercado' = market share — the percentage of a market controlled by a particular company or product."
     }

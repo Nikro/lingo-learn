@@ -3,52 +3,408 @@
   "title": "Advanced Idioms & Fixed Expressions",
   "description": "Learn B2-level idiomatic expressions for work, social situations, opinions, and daily life.",
   "vocabulary": [
-    { "id": 1, "target": "poner las cartas sobre la mesa", "source": "to lay cards on the table (to be direct)", "gender": "—", "type": "idiom" },
-    { "id": 2, "target": "echar de menos", "source": "to miss someone (emotionally)", "gender": "—", "type": "idiom" },
-    { "id": 3, "target": "salirse con la suya", "source": "to get one's way", "gender": "—", "type": "idiom" },
-    { "id": 4, "target": "hacer la vista gorda", "source": "to turn a blind eye", "gender": "—", "type": "idiom" },
-    { "id": 5, "target": "ir de capa caída", "source": "to be in decline / doing badly", "gender": "—", "type": "idiom" },
-    { "id": 6, "target": "costar un ojo de la cara", "source": "to cost an arm and a leg", "gender": "—", "type": "idiom" },
-    { "id": 7, "target": "estar en las nubes", "source": "to be absent-minded / daydreaming", "gender": "—", "type": "idiom" },
-    { "id": 8, "target": "por si fuera poco", "source": "to make matters worse / on top of that", "gender": "—", "type": "idiom" },
-    { "id": 9, "target": "llevarse bien/mal con alguien", "source": "to get along well/poorly with someone", "gender": "—", "type": "idiom" },
-    { "id": 10, "target": "tomar las riendas", "source": "to take the reins / take charge", "gender": "—", "type": "idiom" },
-    { "id": 11, "target": "no estar de acuerdo", "source": "to disagree", "gender": "—", "type": "phrase" },
-    { "id": 12, "target": "poner que...", "source": "let's say... (hypothetically)", "gender": "—", "type": "phrase" },
-    { "id": 13, "target": "en mi opinión", "source": "in my opinion", "gender": "—", "type": "phrase" },
-    { "id": 14, "target": "desde mi punto de vista", "source": "from my point of view", "gender": "—", "type": "phrase" },
-    { "id": 15, "target": "por un lado... por otro lado...", "source": "on one hand... on the other hand...", "gender": "—", "type": "connector" },
-    { "id": 16, "target": "a fin de cuentas", "source": "after all / at the end of the day", "gender": "—", "type": "phrase" },
-    { "id": 17, "target": "en última instancia", "source": "ultimately / in the last instance", "gender": "—", "type": "phrase" },
-    { "id": 18, "target": "el gobierno", "source": "the government", "gender": "m.", "type": "noun" },
-    { "id": 19, "target": "la corrupción", "source": "corruption", "gender": "f.", "type": "noun" },
-    { "id": 20, "target": "la empresa", "source": "the company", "gender": "f.", "type": "noun" },
-    { "id": 21, "target": "la crisis", "source": "the crisis", "gender": "f.", "type": "noun" },
-    { "id": 22, "target": "el jefe", "source": "the boss", "gender": "m.", "type": "noun" },
-    { "id": 23, "target": "mudar", "source": "to move (house)", "gender": "v.", "type": "verb" },
-    { "id": 24, "target": "seguir así", "source": "to keep going like this", "gender": "—", "type": "phrase" },
-    { "id": 25, "target": "ver", "source": "to see", "gender": "v.", "type": "verb" },
-    { "id": 26, "target": "la obra de teatro", "source": "the play", "gender": "f.", "type": "phrase" },
-    { "id": 27, "target": "encantar", "source": "to love / to delight", "gender": "v.", "type": "verb" },
-    { "id": 28, "target": "pasar", "source": "to pass", "gender": "v.", "type": "verb" },
-    { "id": 29, "target": "llamar", "source": "to call", "gender": "v.", "type": "verb" },
-    { "id": 30, "target": "dejar", "source": "to stop / to leave", "gender": "v.", "type": "verb" }
+    {
+      "id": 1,
+      "target": "poner las cartas sobre la mesa",
+      "source": "to lay cards on the table (to be direct)",
+      "gender": "—",
+      "type": "idiom"
+    },
+    {
+      "id": 2,
+      "target": "echar de menos",
+      "source": "to miss someone (emotionally)",
+      "gender": "—",
+      "type": "idiom"
+    },
+    {
+      "id": 3,
+      "target": "salirse con la suya",
+      "source": "to get one's way",
+      "gender": "—",
+      "type": "idiom"
+    },
+    {
+      "id": 4,
+      "target": "hacer la vista gorda",
+      "source": "to turn a blind eye",
+      "gender": "—",
+      "type": "idiom"
+    },
+    {
+      "id": 5,
+      "target": "ir de capa caída",
+      "source": "to be in decline / doing badly",
+      "gender": "—",
+      "type": "idiom"
+    },
+    {
+      "id": 6,
+      "target": "costar un ojo de la cara",
+      "source": "to cost an arm and a leg",
+      "gender": "—",
+      "type": "idiom"
+    },
+    {
+      "id": 7,
+      "target": "estar en las nubes",
+      "source": "to be absent-minded / daydreaming",
+      "gender": "—",
+      "type": "idiom"
+    },
+    {
+      "id": 8,
+      "target": "por si fuera poco",
+      "source": "to make matters worse / on top of that",
+      "gender": "—",
+      "type": "idiom"
+    },
+    {
+      "id": 9,
+      "target": "llevarse bien/mal con alguien",
+      "source": "to get along well/poorly with someone",
+      "gender": "—",
+      "type": "idiom"
+    },
+    {
+      "id": 10,
+      "target": "tomar las riendas",
+      "source": "to take the reins / take charge",
+      "gender": "—",
+      "type": "idiom"
+    },
+    {
+      "id": 11,
+      "target": "no estar de acuerdo",
+      "source": "to disagree",
+      "gender": "—",
+      "type": "phrase"
+    },
+    {
+      "id": 12,
+      "target": "poner que...",
+      "source": "let's say... (hypothetically)",
+      "gender": "—",
+      "type": "phrase"
+    },
+    {
+      "id": 13,
+      "target": "en mi opinión",
+      "source": "in my opinion",
+      "gender": "—",
+      "type": "phrase"
+    },
+    {
+      "id": 14,
+      "target": "desde mi punto de vista",
+      "source": "from my point of view",
+      "gender": "—",
+      "type": "phrase"
+    },
+    {
+      "id": 15,
+      "target": "por un lado... por otro lado...",
+      "source": "on one hand... on the other hand...",
+      "gender": "—",
+      "type": "connector"
+    },
+    {
+      "id": 16,
+      "target": "a fin de cuentas",
+      "source": "after all / at the end of the day",
+      "gender": "—",
+      "type": "phrase"
+    },
+    {
+      "id": 17,
+      "target": "en última instancia",
+      "source": "ultimately / in the last instance",
+      "gender": "—",
+      "type": "phrase"
+    },
+    {
+      "id": 18,
+      "target": "el gobierno",
+      "source": "the government",
+      "gender": "m.",
+      "type": "noun"
+    },
+    {
+      "id": 19,
+      "target": "la corrupción",
+      "source": "corruption",
+      "gender": "f.",
+      "type": "noun"
+    },
+    {
+      "id": 20,
+      "target": "la empresa",
+      "source": "the company",
+      "gender": "f.",
+      "type": "noun"
+    },
+    {
+      "id": 21,
+      "target": "la crisis",
+      "source": "the crisis",
+      "gender": "f.",
+      "type": "noun"
+    },
+    {
+      "id": 22,
+      "target": "el jefe",
+      "source": "the boss",
+      "gender": "m.",
+      "type": "noun"
+    },
+    {
+      "id": 23,
+      "target": "mudar",
+      "source": "to move (house)",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 24,
+      "target": "seguir así",
+      "source": "to keep going like this",
+      "gender": "—",
+      "type": "phrase"
+    },
+    {
+      "id": 25,
+      "target": "ver",
+      "source": "to see",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 26,
+      "target": "la obra de teatro",
+      "source": "the play",
+      "gender": "f.",
+      "type": "phrase"
+    },
+    {
+      "id": 27,
+      "target": "encantar",
+      "source": "to love / to delight",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 28,
+      "target": "pasar",
+      "source": "to pass",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 29,
+      "target": "llamar",
+      "source": "to call",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 30,
+      "target": "dejar",
+      "source": "to stop / to leave",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "target": "quedar bien",
+      "source": "to look good / to be on good terms",
+      "type": "idiom",
+      "example": "Quedó bien con el jefe.",
+      "id": 31
+    },
+    {
+      "target": "quedar mal",
+      "source": "to look bad",
+      "type": "idiom",
+      "example": "No quiero quedar mal en la reunión.",
+      "id": 32
+    },
+    {
+      "target": "dar en el clavo",
+      "source": "to hit the nail on the head",
+      "type": "idiom",
+      "example": "En eso has dado en el clavo.",
+      "id": 33
+    },
+    {
+      "target": "llevar la de ganar",
+      "source": "to have the upper hand",
+      "type": "idiom",
+      "example": "En la negociación, llevamos la de ganar.",
+      "id": 34
+    },
+    {
+      "target": "estar como una cabra",
+      "source": "to be crazy",
+      "type": "idiom",
+      "example": "Estás como una cabra, no lo hagas.",
+      "id": 35
+    },
+    {
+      "target": "tener la sartén por el mango",
+      "source": "to have the upper hand",
+      "type": "idiom",
+      "example": "Ahora tengo la sartén por el mango.",
+      "id": 36
+    },
+    {
+      "target": "caer en la cuenta",
+      "source": "to realize",
+      "type": "idiom",
+      "example": "Al final cayó en la cuenta de su error.",
+      "id": 37
+    },
+    {
+      "target": "darse cuenta",
+      "source": "to notice",
+      "type": "idiom",
+      "example": "Me di cuenta de que se había ido.",
+      "id": 38
+    },
+    {
+      "target": "ponerse de los nervios",
+      "source": "to get on your nerves",
+      "type": "idiom",
+      "example": "El ruido se me pone de los nervios.",
+      "id": 39
+    },
+    {
+      "target": "llevarse los guantes",
+      "source": "to steal (the show)",
+      "type": "idiom",
+      "example": "Con ese discurso, se llevó todos los guantes.",
+      "id": 40
+    },
+    {
+      "target": "costar sangre y lágrimas",
+      "source": "to cost blood and tears",
+      "type": "idiom",
+      "example": "Ese proyecto costó sangre y lágrimas.",
+      "id": 41
+    },
+    {
+      "target": "estar al día",
+      "source": "to be up to date",
+      "type": "idiom",
+      "example": "Estoy al día con las noticias.",
+      "id": 42
+    },
+    {
+      "target": "ponerse al día",
+      "source": "to catch up",
+      "type": "idiom",
+      "example": "Necesito ponerme al día con los correos.",
+      "id": 43
+    },
+    {
+      "target": "echar una mano",
+      "source": "to give a hand",
+      "type": "idiom",
+      "example": "Puedo echarte una mano con la mudanza.",
+      "id": 44
+    },
+    {
+      "target": "dar la talla",
+      "source": "to be up to the task",
+      "type": "idiom",
+      "example": "No sé si daré la talla en ese puesto.",
+      "id": 45
+    },
+    {
+      "target": "estar a la altura",
+      "source": "to measure up",
+      "type": "idiom",
+      "example": "Estuvo a la altura de las circunstancias.",
+      "id": 46
+    },
+    {
+      "target": "salir bien",
+      "source": "to work out well",
+      "type": "idiom",
+      "example": "Ojalá que todo salga bien.",
+      "id": 47
+    },
+    {
+      "target": "salir mal",
+      "source": "to go wrong",
+      "type": "idiom",
+      "example": "Si sale mal, tendremos un plan B.",
+      "id": 48
+    },
+    {
+      "target": "estar en las mismas",
+      "source": "to be in the same boat",
+      "type": "idiom",
+      "example": "Todos estamos en las mismas.",
+      "id": 49
+    },
+    {
+      "target": "hacer agua por todas partes",
+      "source": "to leak from everywhere",
+      "type": "idiom",
+      "example": "Este barco hace agua por todas partes.",
+      "id": 50
+    }
   ],
   "grammar": [
     {
       "title": "Advanced Idioms & Fixed Expressions",
       "content": "B2 learners are expected to use idiomatic expressions naturally in conversation. These fixed phrases cannot be translated literally — they must be learned as whole units.\n\n**Opinion & Agreement:**\n- 'No estoy de acuerdo contigo' — I disagree with you\n- 'Pongamos que... (hipotéticamente)' — Let's say... (hypothetically)\n- 'En mi opinión / En mi concepto' — In my opinion\n- 'Desde mi punto de vista' — From my point of view\n\n**Cause & Consequence:**\n- 'Por un lado... por otro lado...' — On one hand... on the other hand...\n- 'A fin de cuentas' — After all / At the end of the day\n- 'En última instancia' — Ultimately / In the last instance\n- 'Por si fuera poco' — To make matters worse / On top of that\n\n**Social & Professional:**\n- 'Llevarse bien/mal con alguien' — To get along well/poorly with someone\n- 'Echar de menos' — To miss someone (different from 'extrañar' — more emotional)\n- 'Poner las cartas sobre la mesa' — To lay cards on the table (be direct)\n- 'Tomar las riendas' — To take the reins (take charge)\n\n**Common B2 Idioms:**\n- 'Salirse con la suya' — To get one's way\n- 'Hacer la vista gorda' — To turn a blind eye\n- 'Ir de capa caída' — To be doing badly / to be in decline\n- 'Estar en las nubes' — To be absent-minded / daydreaming\n- 'Costar un ojo de la cara' — To cost an arm and a leg",
       "table": {
-        "headers": ["Idiom", "Literal Translation", "Actual Meaning"],
+        "headers": [
+          "Idiom",
+          "Literal Translation",
+          "Actual Meaning"
+        ],
         "rows": [
-          ["Poner las cartas sobre la mesa", "To put the cards on the table", "To be direct / reveal your position"],
-          ["Echar de menos", "To throw to miss", "To miss someone emotionally"],
-          ["Salirse con la suya", "To get out with his/hers", "To get one's way / succeed"],
-          ["Hacer la vista gorda", "To make the eye fat", "To turn a blind eye / ignore wrong"],
-          ["Ir de capa caída", "To go with the cape fallen", "To be in decline / doing badly"],
-          ["Costar un ojo de la cara", "To cost an eye of the face", "To be very expensive"],
-          ["Estar en las nubes", "To be in the clouds", "To be absent-minded / distracted"],
-          ["Por si fuera poco", "If that weren't enough", "To make matters worse / on top of that"]
+          [
+            "Poner las cartas sobre la mesa",
+            "To put the cards on the table",
+            "To be direct / reveal your position"
+          ],
+          [
+            "Echar de menos",
+            "To throw to miss",
+            "To miss someone emotionally"
+          ],
+          [
+            "Salirse con la suya",
+            "To get out with his/hers",
+            "To get one's way / succeed"
+          ],
+          [
+            "Hacer la vista gorda",
+            "To make the eye fat",
+            "To turn a blind eye / ignore wrong"
+          ],
+          [
+            "Ir de capa caída",
+            "To go with the cape fallen",
+            "To be in decline / doing badly"
+          ],
+          [
+            "Costar un ojo de la cara",
+            "To cost an eye of the face",
+            "To be very expensive"
+          ],
+          [
+            "Estar en las nubes",
+            "To be in the clouds",
+            "To be absent-minded / distracted"
+          ],
+          [
+            "Por si fuera poco",
+            "If that weren't enough",
+            "To make matters worse / on top of that"
+          ]
         ]
       },
       "examples": [
@@ -66,28 +422,48 @@
     {
       "type": "exercise",
       "question": "What does 'poner las cartas sobre la mesa' mean?",
-      "options": ["To hide your feelings", "To be direct / reveal your position", "To throw cards on the table", "To play cards"],
+      "options": [
+        "To hide your feelings",
+        "To be direct / reveal your position",
+        "To throw cards on the table",
+        "To play cards"
+      ],
       "correct": 1,
       "explanation": "'Poner las cartas sobre la mesa' means 'to lay cards on the table' — to be direct and honest about your position."
     },
     {
       "type": "exercise",
       "question": "What does 'echar de menos' mean?",
-      "options": ["To throw away", "To miss someone emotionally", "To look for", "To forget about"],
+      "options": [
+        "To throw away",
+        "To miss someone emotionally",
+        "To look for",
+        "To forget about"
+      ],
       "correct": 1,
       "explanation": "'Echar de menos' = 'to miss someone emotionally.' It's different from 'extrañar' — it expresses a deeper emotional connection."
     },
     {
       "type": "exercise",
       "question": "What does 'salirse con la suya' mean?",
-      "options": ["To get lost", "To get one's way", "To succeed in life", "To be wrong"],
+      "options": [
+        "To get lost",
+        "To get one's way",
+        "To succeed in life",
+        "To be wrong"
+      ],
       "correct": 1,
       "explanation": "'Salirse con la suya' = 'to get one's way' — to succeed in doing what one wants."
     },
     {
       "type": "exercise",
       "question": "What does 'ir de capa caída' mean?",
-      "options": ["To wear a cape", "To be in decline / doing badly", "To go to a party", "To dress elegantly"],
+      "options": [
+        "To wear a cape",
+        "To be in decline / doing badly",
+        "To go to a party",
+        "To dress elegantly"
+      ],
       "correct": 1,
       "explanation": "'Ir de capa caída' = 'to be in decline / doing badly.' The imagery is of someone walking with a drooping cape."
     },
@@ -100,7 +476,12 @@
     {
       "type": "exercise",
       "question": "What does 'costar un ojo de la cara' mean?",
-      "options": ["To be free", "To cost an arm and a leg (very expensive)", "To see clearly", "To be cheap"],
+      "options": [
+        "To be free",
+        "To cost an arm and a leg (very expensive)",
+        "To see clearly",
+        "To be cheap"
+      ],
       "correct": 1,
       "explanation": "'Costar un ojo de la cara' = 'to cost an arm and a leg' — to be very expensive."
     }
