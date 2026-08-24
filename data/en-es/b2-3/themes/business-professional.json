@@ -356,11 +356,11 @@
       "id": 49
     },
     {
-      "target": "la cadena de valor",
-      "source": "the value chain",
+      "target": "la hoja de ruta",
+      "source": "the roadmap",
       "type": "noun",
       "gender": "f.",
-      "example": "Optimizaron la cadena de valor.",
+      "example": "La empresa presentó su hoja de ruta para el próximo año.",
       "id": 50
     }
   ],

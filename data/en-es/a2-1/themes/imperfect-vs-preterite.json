@@ -347,10 +347,10 @@
       "type": "phrase"
     },
     {
-      "target": "mientras tanto",
-      "source": "meanwhile",
-      "type": "connector",
-      "example": "Mientras tanto, ella leía un libro.",
+      "target": "recién",
+      "source": "just / only (a moment ago)",
+      "type": "adverb",
+      "example": "Recién me lo he enterado, todavía no me lo creía.",
       "id": 50
     }
   ],

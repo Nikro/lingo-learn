@@ -138,8 +138,8 @@
     },
     {
       "id": 20,
-      "target": "venir",
-      "source": "to come",
+      "target": "hacer",
+      "source": "to do / to make",
       "gender": "v.",
       "type": "verb"
     },

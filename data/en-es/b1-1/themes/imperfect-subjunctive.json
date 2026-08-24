@@ -117,8 +117,8 @@
     },
     {
       "id": 17,
-      "target": "poder",
-      "source": "to be able to / can",
+      "target": "deber",
+      "source": "to have to / to owe",
       "gender": "v.",
       "type": "verb"
     },
@@ -187,8 +187,8 @@
     },
     {
       "id": 27,
-      "target": "querer",
-      "source": "to want",
+      "target": "parecer",
+      "source": "to seem / to appear",
       "gender": "v.",
       "type": "verb"
     },

@@ -131,8 +131,8 @@
     },
     {
       "id": 19,
-      "target": "venir",
-      "source": "to come",
+      "target": "deber",
+      "source": "to have to / to owe",
       "gender": "v.",
       "type": "verb"
     },
