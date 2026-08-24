@@ -3,46 +3,366 @@
   "title": "Environment & Climate Change",
   "description": "Discuss sustainability, pollution, biodiversity, and climate policy with advanced vocabulary and argumentative structures.",
   "vocabulary": [
-    { "id": 1, "target": "el cambio climático", "source": "climate change", "gender": "m.", "type": "noun" },
-    { "id": 2, "target": "el calentamiento global", "source": "global warming", "gender": "m.", "type": "noun" },
-    { "id": 3, "target": "la emisión de gases", "source": "emission of gases", "gender": "f.", "type": "noun" },
-    { "id": 4, "target": "los gases de efecto invernadero", "source": "greenhouse gases", "gender": "m.pl.", "type": "noun" },
-    { "id": 5, "target": "el carbono", "source": "carbon", "gender": "m.", "type": "noun" },
-    { "id": 6, "target": "la huella de carbono", "source": "carbon footprint", "gender": "f.", "type": "noun" },
-    { "id": 7, "target": "la energía renovable", "source": "renewable energy", "gender": "f.", "type": "noun" },
-    { "id": 8, "target": "la energía solar", "source": "solar energy", "gender": "f.", "type": "noun" },
-    { "id": 9, "target": "la energía eólica", "source": "wind energy", "gender": "f.", "type": "noun" },
-    { "id": 10, "target": "la energía hidroeléctrica", "source": "hydroelectric energy", "gender": "f.", "type": "noun" },
-    { "id": 11, "target": "el combustóleo / el combustible fósil", "source": "fossil fuel", "gender": "m.", "type": "noun" },
-    { "id": 12, "target": "la contaminación", "source": "pollution", "gender": "f.", "type": "noun" },
-    { "id": 13, "target": "la contaminación del aire", "source": "air pollution", "gender": "f.", "type": "noun" },
-    { "id": 14, "target": "la contaminación del agua", "source": "water pollution", "gender": "f.", "type": "noun" },
-    { "id": 15, "target": "la contaminación acústica", "source": "noise pollution", "gender": "f.", "type": "noun" },
-    { "id": 16, "target": "la biodiversidad", "source": "biodiversity", "gender": "f.", "type": "noun" },
-    { "id": 17, "target": "la deforestación", "source": "deforestation", "gender": "f.", "type": "noun" },
-    { "id": 18, "target": "la erosión", "source": "erosion", "gender": "f.", "type": "noun" },
-    { "id": 19, "target": "la extinción", "source": "extinction", "gender": "f.", "type": "noun" },
-    { "id": 20, "target": "la especie en peligro", "source": "endangered species", "gender": "f.", "type": "noun" },
-    { "id": 21, "target": "el ecosistema", "source": "ecosystem", "gender": "m.", "type": "noun" },
-    { "id": 22, "target": "el océano", "source": "ocean", "gender": "m.", "type": "noun" },
-    { "id": 23, "target": "la capa de ozono", "source": "ozone layer", "gender": "f.", "type": "noun" },
-    { "id": 24, "target": "el deshielo", "source": "melting of ice", "gender": "m.", "type": "noun" },
-    { "id": 25, "target": "el nivel del mar", "source": "sea level", "gender": "m.", "type": "noun" },
-    { "id": 26, "target": "el vertido de plástico", "source": "plastic dumping", "gender": "m.", "type": "noun" },
-    { "id": 27, "target": "la sostenibilidad", "source": "sustainability", "gender": "f.", "type": "noun" },
-    { "id": 28, "target": "sostenible", "source": "sustainable", "gender": "m./f.", "type": "adjective" },
-    { "id": 29, "target": "reciclaje", "source": "recycling", "gender": "m.", "type": "noun" },
-    { "id": 30, "target": "el consumo responsable", "source": "responsible consumption", "gender": "m.", "type": "noun" },
-    { "id": 31, "target": "el compromiso medioambiental", "source": "environmental commitment", "gender": "m.", "type": "noun" },
-    { "id": 32, "target": "la cumbre climática", "source": "climate summit", "gender": "f.", "type": "noun" },
-    { "id": 33, "target": "el acuerdo de París", "source": "Paris Agreement", "gender": "m.", "type": "noun" },
-    { "id": 34, "target": "la transición energética", "source": "energy transition", "gender": "f.", "type": "noun" },
-    { "id": 35, "target": "el impacto ambiental", "source": "environmental impact", "gender": "m.", "type": "noun" },
-    { "id": 36, "target": "conservar", "source": "to conserve", "gender": "v.", "type": "verb" },
-    { "id": 37, "target": "proteger", "source": "to protect", "gender": "v.", "type": "verb" },
-    { "id": 38, "target": "destruir", "source": "to destroy", "gender": "v.", "type": "verb" },
-    { "id": 39, "target": "reciclar", "source": "to recycle", "gender": "v.", "type": "verb" },
-    { "id": 40, "target": "reducir / reutilizar / reciclar", "source": "reduce / reuse / recycle", "gender": "—", "type": "phrase" }
+    {
+      "id": 1,
+      "target": "el cambio climático",
+      "source": "climate change",
+      "gender": "m.",
+      "type": "noun"
+    },
+    {
+      "id": 2,
+      "target": "el calentamiento global",
+      "source": "global warming",
+      "gender": "m.",
+      "type": "noun"
+    },
+    {
+      "id": 3,
+      "target": "la emisión de gases",
+      "source": "emission of gases",
+      "gender": "f.",
+      "type": "noun"
+    },
+    {
+      "id": 4,
+      "target": "los gases de efecto invernadero",
+      "source": "greenhouse gases",
+      "gender": "m.pl.",
+      "type": "noun"
+    },
+    {
+      "id": 5,
+      "target": "el carbono",
+      "source": "carbon",
+      "gender": "m.",
+      "type": "noun"
+    },
+    {
+      "id": 6,
+      "target": "la huella de carbono",
+      "source": "carbon footprint",
+      "gender": "f.",
+      "type": "noun"
+    },
+    {
+      "id": 7,
+      "target": "la energía renovable",
+      "source": "renewable energy",
+      "gender": "f.",
+      "type": "noun"
+    },
+    {
+      "id": 8,
+      "target": "la energía solar",
+      "source": "solar energy",
+      "gender": "f.",
+      "type": "noun"
+    },
+    {
+      "id": 9,
+      "target": "la energía eólica",
+      "source": "wind energy",
+      "gender": "f.",
+      "type": "noun"
+    },
+    {
+      "id": 10,
+      "target": "la energía hidroeléctrica",
+      "source": "hydroelectric energy",
+      "gender": "f.",
+      "type": "noun"
+    },
+    {
+      "id": 11,
+      "target": "el combustóleo / el combustible fósil",
+      "source": "fossil fuel",
+      "gender": "m.",
+      "type": "noun"
+    },
+    {
+      "id": 12,
+      "target": "la contaminación",
+      "source": "pollution",
+      "gender": "f.",
+      "type": "noun"
+    },
+    {
+      "id": 13,
+      "target": "la contaminación del aire",
+      "source": "air pollution",
+      "gender": "f.",
+      "type": "noun"
+    },
+    {
+      "id": 14,
+      "target": "la contaminación del agua",
+      "source": "water pollution",
+      "gender": "f.",
+      "type": "noun"
+    },
+    {
+      "id": 15,
+      "target": "la contaminación acústica",
+      "source": "noise pollution",
+      "gender": "f.",
+      "type": "noun"
+    },
+    {
+      "id": 16,
+      "target": "la biodiversidad",
+      "source": "biodiversity",
+      "gender": "f.",
+      "type": "noun"
+    },
+    {
+      "id": 17,
+      "target": "la deforestación",
+      "source": "deforestation",
+      "gender": "f.",
+      "type": "noun"
+    },
+    {
+      "id": 18,
+      "target": "la erosión",
+      "source": "erosion",
+      "gender": "f.",
+      "type": "noun"
+    },
+    {
+      "id": 19,
+      "target": "la extinción",
+      "source": "extinction",
+      "gender": "f.",
+      "type": "noun"
+    },
+    {
+      "id": 20,
+      "target": "la especie en peligro",
+      "source": "endangered species",
+      "gender": "f.",
+      "type": "noun"
+    },
+    {
+      "id": 21,
+      "target": "el ecosistema",
+      "source": "ecosystem",
+      "gender": "m.",
+      "type": "noun"
+    },
+    {
+      "id": 22,
+      "target": "el océano",
+      "source": "ocean",
+      "gender": "m.",
+      "type": "noun"
+    },
+    {
+      "id": 23,
+      "target": "la capa de ozono",
+      "source": "ozone layer",
+      "gender": "f.",
+      "type": "noun"
+    },
+    {
+      "id": 24,
+      "target": "el deshielo",
+      "source": "melting of ice",
+      "gender": "m.",
+      "type": "noun"
+    },
+    {
+      "id": 25,
+      "target": "el nivel del mar",
+      "source": "sea level",
+      "gender": "m.",
+      "type": "noun"
+    },
+    {
+      "id": 26,
+      "target": "el vertido de plástico",
+      "source": "plastic dumping",
+      "gender": "m.",
+      "type": "noun"
+    },
+    {
+      "id": 27,
+      "target": "la sostenibilidad",
+      "source": "sustainability",
+      "gender": "f.",
+      "type": "noun"
+    },
+    {
+      "id": 28,
+      "target": "sostenible",
+      "source": "sustainable",
+      "gender": "m./f.",
+      "type": "adjective"
+    },
+    {
+      "id": 29,
+      "target": "reciclaje",
+      "source": "recycling",
+      "gender": "m.",
+      "type": "noun"
+    },
+    {
+      "id": 30,
+      "target": "el consumo responsable",
+      "source": "responsible consumption",
+      "gender": "m.",
+      "type": "noun"
+    },
+    {
+      "id": 31,
+      "target": "el compromiso medioambiental",
+      "source": "environmental commitment",
+      "gender": "m.",
+      "type": "noun"
+    },
+    {
+      "id": 32,
+      "target": "la cumbre climática",
+      "source": "climate summit",
+      "gender": "f.",
+      "type": "noun"
+    },
+    {
+      "id": 33,
+      "target": "el acuerdo de París",
+      "source": "Paris Agreement",
+      "gender": "m.",
+      "type": "noun"
+    },
+    {
+      "id": 34,
+      "target": "la transición energética",
+      "source": "energy transition",
+      "gender": "f.",
+      "type": "noun"
+    },
+    {
+      "id": 35,
+      "target": "el impacto ambiental",
+      "source": "environmental impact",
+      "gender": "m.",
+      "type": "noun"
+    },
+    {
+      "id": 36,
+      "target": "conservar",
+      "source": "to conserve",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 37,
+      "target": "proteger",
+      "source": "to protect",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 38,
+      "target": "destruir",
+      "source": "to destroy",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 39,
+      "target": "reciclar",
+      "source": "to recycle",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 40,
+      "target": "reducir / reutilizar / reciclar",
+      "source": "reduce / reuse / recycle",
+      "gender": "—",
+      "type": "phrase"
+    },
+    {
+      "target": "la gestión de residuos",
+      "source": "waste management",
+      "type": "noun",
+      "gender": "f.",
+      "example": "La gestión de residuos mejora.",
+      "id": 41
+    },
+    {
+      "target": "la reforestación",
+      "source": "reforestation",
+      "type": "noun",
+      "gender": "f.",
+      "example": "La reforestación recupera bosques.",
+      "id": 42
+    },
+    {
+      "target": "la pérdida de hábitat",
+      "source": "habitat loss",
+      "type": "noun",
+      "gender": "f.",
+      "example": "La pérdida de hábitat es grave.",
+      "id": 43
+    },
+    {
+      "target": "la sobreexplotación",
+      "source": "overexploitation",
+      "type": "noun",
+      "gender": "f.",
+      "example": "La sobreexplotación agota los peces.",
+      "id": 44
+    },
+    {
+      "target": "la acidificación de los océanos",
+      "source": "ocean acidification",
+      "type": "noun",
+      "gender": "f.",
+      "example": "La acidificación de los océanos avanza.",
+      "id": 45
+    },
+    {
+      "target": "la contaminación lumínica",
+      "source": "light pollution",
+      "type": "noun",
+      "gender": "f.",
+      "example": "La contaminación lumínica borra las estrellas.",
+      "id": 46
+    },
+    {
+      "target": "la degradación del suelo",
+      "source": "soil degradation",
+      "type": "noun",
+      "gender": "f.",
+      "example": "La degradación del suelo reduce cosechas.",
+      "id": 47
+    },
+    {
+      "target": "la conservación de especies",
+      "source": "species conservation",
+      "type": "noun",
+      "gender": "f.",
+      "example": "La conservación de especies es vital.",
+      "id": 48
+    },
+    {
+      "target": "el agotamiento de recursos",
+      "source": "resource depletion",
+      "type": "noun",
+      "gender": "m.",
+      "example": "El agotamiento de recursos preocupa.",
+      "id": 49
+    },
+    {
+      "target": "la producción limpia",
+      "source": "clean production",
+      "type": "noun",
+      "gender": "f.",
+      "example": "La producción limpia es rentable.",
+      "id": 50
+    }
   ],
   "grammar": [
     {
@@ -73,9 +393,18 @@
       "title": "Stress Patterns in Environmental Vocabulary",
       "content": "Environmental terms in Spanish often carry stress on the penultimate syllable (graves) or antepenultimate (esdrújulas).\n\nKey patterns:\n- Esdrújulas (stress on antepenultimate): 'biodiversidad' (bi-o-di-ver-si-DAD) — always carries accent\n- 'climático' (kli-ma-TI-co) — stress on -TI-\n- 'renovable' (re-no-VA-ble) — stress on -VA-\n- Graves (stress on penultimate): 'contaminación' (kon-ta-mi-na-TEE-on) — carries accent\n- 'sostenible' (sos-te-NE-ble) — stress on -NE-\n- 'efectivo' (e-fek-TI-vo) — stress on -TI-\n\nPractice:\n- 'La biodiversidad es fundamental para el ecosistema.'\n- 'El cambio climático afecta a todo el planeta.'\n- 'La energía renovable es la solución más sostenible.'\n\nTip: Spanish esdrújulas always carry an accent mark. This is a reliable rule — if you see an accent on the antepenultimate syllable, it's always stressed.",
       "examples": [
-        { "target": "biodiversidad", "source": "bi-o-di-ver-si-DAD (esdrújula)" },
-        { "target": "climático", "source": "kli-ma-TI-co (esdrújula)" },
-        { "target": "contaminación", "source": "kon-ta-mi-na-TEE-on (grave)" }
+        {
+          "target": "biodiversidad",
+          "source": "bi-o-di-ver-si-DAD (esdrújula)"
+        },
+        {
+          "target": "climático",
+          "source": "kli-ma-TI-co (esdrújula)"
+        },
+        {
+          "target": "contaminación",
+          "source": "kon-ta-mi-na-TEE-on (grave)"
+        }
       ],
       "aid_note": "Romanian stress falls on the last syllable of most environmental terms: 'biodiversitate' (bi-o-di-ver-si-TA-te), 'climatic' (kli-MA-tik). Spanish stress patterns differ significantly."
     }
@@ -96,7 +425,12 @@
     {
       "type": "exercise",
       "question": "What does 'la deforestación' mean?",
-      "options": ["Reforestation", "Deforestation", "Deforestation", "Landscaping"],
+      "options": [
+        "Reforestation",
+        "Deforestation",
+        "Deforestation",
+        "Landscaping"
+      ],
       "correct": 1,
       "explanation": "'La deforestación' = deforestation — the clearing or thinning of forests by humans."
     },
@@ -104,17 +438,34 @@
       "type": "matching",
       "question": "Match the environmental term:",
       "pairs": [
-        { "target": "la huella de carbono", "source": "carbon footprint" },
-        { "target": "la capa de ozono", "source": "ozone layer" },
-        { "target": "la biodiversidad", "source": "biodiversity" },
-        { "target": "la energía eólica", "source": "wind energy" }
+        {
+          "target": "la huella de carbono",
+          "source": "carbon footprint"
+        },
+        {
+          "target": "la capa de ozono",
+          "source": "ozone layer"
+        },
+        {
+          "target": "la biodiversidad",
+          "source": "biodiversity"
+        },
+        {
+          "target": "la energía eólica",
+          "source": "wind energy"
+        }
       ],
       "explanation": "These are essential terms for discussing environmental issues."
     },
     {
       "type": "exercise",
       "question": "Which word means 'sustainable'?",
-      "options": ["contaminante", "sostenible", "renovable", "efectivo"],
+      "options": [
+        "contaminante",
+        "sostenible",
+        "renovable",
+        "efectivo"
+      ],
       "correct": 1,
       "explanation": "'Sostenible' = sustainable. 'Renovable' = renewable (energy can be renewable without being sustainable)."
     },
@@ -133,7 +484,12 @@
     {
       "type": "exercise",
       "question": "What is the 3R principle in Spanish?",
-      "options": ["Reducir, reutilizar, reciclar", "Reciclar, reforestar, renovar", "Reemplazar, reciclar, reducir", "Renovar, reutilizar, reformar"],
+      "options": [
+        "Reducir, reutilizar, reciclar",
+        "Reciclar, reforestar, renovar",
+        "Reemplazar, reciclar, reducir",
+        "Renovar, reutilizar, reformar"
+      ],
       "correct": 0,
       "explanation": "The 3R principle is 'Reducir, reutilizar, reciclar' — reduce, reuse, recycle. This is a fundamental concept in environmental awareness."
     }

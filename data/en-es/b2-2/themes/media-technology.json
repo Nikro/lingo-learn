@@ -3,46 +3,366 @@
   "title": "Media, Technology & Society",
   "description": "Analyze the impact of technology, social media, and AI on society, culture, and human behavior.",
   "vocabulary": [
-    { "id": 1, "target": "la inteligencia artificial", "source": "artificial intelligence", "gender": "f.", "type": "noun" },
-    { "id": 2, "target": "el algoritmo", "source": "algorithm", "gender": "m.", "type": "noun" },
-    { "id": 3, "target": "la red social", "source": "social network", "gender": "f.", "type": "noun" },
-    { "id": 4, "target": "el contenido digital", "source": "digital content", "gender": "m.", "type": "noun" },
-    { "id": 5, "target": "la plataforma", "source": "platform", "gender": "f.", "type": "noun" },
-    { "id": 6, "target": "la pantalla", "source": "screen", "gender": "f.", "type": "noun" },
-    { "id": 7, "target": "el dispositivo", "source": "device", "gender": "m.", "type": "noun" },
-    { "id": 8, "target": "la conexión a internet", "source": "internet connection", "gender": "f.", "type": "noun" },
-    { "id": 9, "target": "la brecha digital", "source": "digital divide", "gender": "f.", "type": "noun" },
-    { "id": 10, "target": "la privacidad", "source": "privacy", "gender": "f.", "type": "noun" },
-    { "id": 11, "target": "la seguridad informática", "source": "cybersecurity", "gender": "f.", "type": "noun" },
-    { "id": 12, "target": "el ciberacoso", "source": "cyberbullying", "gender": "m.", "type": "noun" },
-    { "id": 13, "target": "la desinformación", "source": "disinformation", "gender": "f.", "type": "noun" },
-    { "id": 14, "target": "las fake news", "source": "fake news", "gender": "f.pl.", "type": "noun" },
-    { "id": 15, "target": "el sesgo algorítmico", "source": "algorithmic bias", "gender": "m.", "type": "noun" },
-    { "id": 16, "target": "la automatización", "source": "automation", "gender": "f.", "type": "noun" },
-    { "id": 17, "target": "el teletrabajo", "source": "remote work", "gender": "m.", "type": "noun" },
-    { "id": 18, "target": "la realidad virtual", "source": "virtual reality", "gender": "f.", "type": "noun" },
-    { "id": 19, "target": "la realidad aumentada", "source": "augmented reality", "gender": "f.", "type": "noun" },
-    { "id": 20, "target": "la economía digital", "source": "digital economy", "gender": "f.", "type": "noun" },
-    { "id": 21, "target": "la industria tecnológica", "source": "tech industry", "gender": "f.", "type": "noun" },
-    { "id": 22, "target": "la innovación", "source": "innovation", "gender": "f.", "type": "noun" },
-    { "id": 23, "target": "obsoleto/a", "source": "obsolete / outdated", "gender": "m./f.", "type": "adjective" },
-    { "id": 24, "target": "interconectado/a", "source": "interconnected", "gender": "m./f.", "type": "adjective" },
-    { "id": 25, "target": "transparente", "source": "transparent", "gender": "m./f.", "type": "adjective" },
-    { "id": 26, "target": "ético/a", "source": "ethical", "gender": "m./f.", "type": "adjective" },
-    { "id": 27, "target": "ético/a", "source": "ethical", "gender": "m./f.", "type": "adjective" },
-    { "id": 28, "target": "dependiente de", "source": "dependent on", "gender": "—", "type": "phrase" },
-    { "id": 29, "target": "adicto/a", "source": "addicted", "gender": "m./f.", "type": "adjective" },
-    { "id": 30, "target": "desconectar", "source": "to disconnect", "gender": "v.", "type": "verb" },
-    { "id": 31, "target": "actualizar", "source": "to update", "gender": "v.", "type": "verb" },
-    { "id": 32, "target": "compartir", "source": "to share", "gender": "v.", "type": "verb" },
-    { "id": 33, "target": "rastrear", "source": "to track", "gender": "v.", "type": "verb" },
-    { "id": 34, "target": "el seguimiento de datos", "source": "data tracking", "gender": "m.", "type": "noun" },
-    { "id": 35, "target": "la huella digital", "source": "digital footprint", "gender": "f.", "type": "noun" },
-    { "id": 36, "target": "el consentimiento", "source": "consent", "gender": "m.", "type": "noun" },
-    { "id": 37, "target": "regulación", "source": "regulation", "gender": "f.", "type": "noun" },
-    { "id": 38, "target": "la censura", "source": "censorship", "gender": "f.", "type": "noun" },
-    { "id": 39, "target": "la libertad de prensa", "source": "freedom of the press", "gender": "f.", "type": "noun" },
-    { "id": 40, "target": "el periodismo digital", "source": "digital journalism", "gender": "m.", "type": "noun" }
+    {
+      "id": 1,
+      "target": "la inteligencia artificial",
+      "source": "artificial intelligence",
+      "gender": "f.",
+      "type": "noun"
+    },
+    {
+      "id": 2,
+      "target": "el algoritmo",
+      "source": "algorithm",
+      "gender": "m.",
+      "type": "noun"
+    },
+    {
+      "id": 3,
+      "target": "la red social",
+      "source": "social network",
+      "gender": "f.",
+      "type": "noun"
+    },
+    {
+      "id": 4,
+      "target": "el contenido digital",
+      "source": "digital content",
+      "gender": "m.",
+      "type": "noun"
+    },
+    {
+      "id": 5,
+      "target": "la plataforma",
+      "source": "platform",
+      "gender": "f.",
+      "type": "noun"
+    },
+    {
+      "id": 6,
+      "target": "la pantalla",
+      "source": "screen",
+      "gender": "f.",
+      "type": "noun"
+    },
+    {
+      "id": 7,
+      "target": "el dispositivo",
+      "source": "device",
+      "gender": "m.",
+      "type": "noun"
+    },
+    {
+      "id": 8,
+      "target": "la conexión a internet",
+      "source": "internet connection",
+      "gender": "f.",
+      "type": "noun"
+    },
+    {
+      "id": 9,
+      "target": "la brecha digital",
+      "source": "digital divide",
+      "gender": "f.",
+      "type": "noun"
+    },
+    {
+      "id": 10,
+      "target": "la privacidad",
+      "source": "privacy",
+      "gender": "f.",
+      "type": "noun"
+    },
+    {
+      "id": 11,
+      "target": "la seguridad informática",
+      "source": "cybersecurity",
+      "gender": "f.",
+      "type": "noun"
+    },
+    {
+      "id": 12,
+      "target": "el ciberacoso",
+      "source": "cyberbullying",
+      "gender": "m.",
+      "type": "noun"
+    },
+    {
+      "id": 13,
+      "target": "la desinformación",
+      "source": "disinformation",
+      "gender": "f.",
+      "type": "noun"
+    },
+    {
+      "id": 14,
+      "target": "las fake news",
+      "source": "fake news",
+      "gender": "f.pl.",
+      "type": "noun"
+    },
+    {
+      "id": 15,
+      "target": "el sesgo algorítmico",
+      "source": "algorithmic bias",
+      "gender": "m.",
+      "type": "noun"
+    },
+    {
+      "id": 16,
+      "target": "la automatización",
+      "source": "automation",
+      "gender": "f.",
+      "type": "noun"
+    },
+    {
+      "id": 17,
+      "target": "el teletrabajo",
+      "source": "remote work",
+      "gender": "m.",
+      "type": "noun"
+    },
+    {
+      "id": 18,
+      "target": "la realidad virtual",
+      "source": "virtual reality",
+      "gender": "f.",
+      "type": "noun"
+    },
+    {
+      "id": 19,
+      "target": "la realidad aumentada",
+      "source": "augmented reality",
+      "gender": "f.",
+      "type": "noun"
+    },
+    {
+      "id": 20,
+      "target": "la economía digital",
+      "source": "digital economy",
+      "gender": "f.",
+      "type": "noun"
+    },
+    {
+      "id": 21,
+      "target": "la industria tecnológica",
+      "source": "tech industry",
+      "gender": "f.",
+      "type": "noun"
+    },
+    {
+      "id": 22,
+      "target": "la innovación",
+      "source": "innovation",
+      "gender": "f.",
+      "type": "noun"
+    },
+    {
+      "id": 23,
+      "target": "obsoleto/a",
+      "source": "obsolete / outdated",
+      "gender": "m./f.",
+      "type": "adjective"
+    },
+    {
+      "id": 24,
+      "target": "interconectado/a",
+      "source": "interconnected",
+      "gender": "m./f.",
+      "type": "adjective"
+    },
+    {
+      "id": 25,
+      "target": "transparente",
+      "source": "transparent",
+      "gender": "m./f.",
+      "type": "adjective"
+    },
+    {
+      "id": 26,
+      "target": "ético/a",
+      "source": "ethical",
+      "gender": "m./f.",
+      "type": "adjective"
+    },
+    {
+      "id": 27,
+      "target": "ético/a",
+      "source": "ethical",
+      "gender": "m./f.",
+      "type": "adjective"
+    },
+    {
+      "id": 28,
+      "target": "dependiente de",
+      "source": "dependent on",
+      "gender": "—",
+      "type": "phrase"
+    },
+    {
+      "id": 29,
+      "target": "adicto/a",
+      "source": "addicted",
+      "gender": "m./f.",
+      "type": "adjective"
+    },
+    {
+      "id": 30,
+      "target": "desconectar",
+      "source": "to disconnect",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 31,
+      "target": "actualizar",
+      "source": "to update",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 32,
+      "target": "compartir",
+      "source": "to share",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 33,
+      "target": "rastrear",
+      "source": "to track",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 34,
+      "target": "el seguimiento de datos",
+      "source": "data tracking",
+      "gender": "m.",
+      "type": "noun"
+    },
+    {
+      "id": 35,
+      "target": "la huella digital",
+      "source": "digital footprint",
+      "gender": "f.",
+      "type": "noun"
+    },
+    {
+      "id": 36,
+      "target": "el consentimiento",
+      "source": "consent",
+      "gender": "m.",
+      "type": "noun"
+    },
+    {
+      "id": 37,
+      "target": "regulación",
+      "source": "regulation",
+      "gender": "f.",
+      "type": "noun"
+    },
+    {
+      "id": 38,
+      "target": "la censura",
+      "source": "censorship",
+      "gender": "f.",
+      "type": "noun"
+    },
+    {
+      "id": 39,
+      "target": "la libertad de prensa",
+      "source": "freedom of the press",
+      "gender": "f.",
+      "type": "noun"
+    },
+    {
+      "id": 40,
+      "target": "el periodismo digital",
+      "source": "digital journalism",
+      "gender": "m.",
+      "type": "noun"
+    },
+    {
+      "target": "el ciberespacio",
+      "source": "cyberspace",
+      "type": "noun",
+      "gender": "m.",
+      "example": "El ciberespacio no tiene fronteras.",
+      "id": 41
+    },
+    {
+      "target": "la nube",
+      "source": "the cloud",
+      "type": "noun",
+      "gender": "f.",
+      "example": "Guardo los archivos en la nube.",
+      "id": 42
+    },
+    {
+      "target": "el big data",
+      "source": "big data",
+      "type": "noun",
+      "gender": "m.",
+      "example": "El big data transforma el marketing.",
+      "id": 43
+    },
+    {
+      "target": "la ciberdelincuencia",
+      "source": "cybercrime",
+      "type": "noun",
+      "gender": "f.",
+      "example": "La ciberdelincuencia crece cada año.",
+      "id": 44
+    },
+    {
+      "target": "el streaming",
+      "source": "streaming",
+      "type": "noun",
+      "gender": "m.",
+      "example": "El streaming cambió la industria.",
+      "id": 45
+    },
+    {
+      "target": "el código abierto",
+      "source": "open source",
+      "type": "noun",
+      "gender": "m.",
+      "example": "El código abierto impulsa la innovación.",
+      "id": 46
+    },
+    {
+      "target": "el filtro burbuja",
+      "source": "the filter bubble",
+      "type": "noun",
+      "gender": "m.",
+      "example": "El filtro burbuja nos aisla.",
+      "id": 47
+    },
+    {
+      "target": "la dependencia tecnológica",
+      "source": "technology dependence",
+      "type": "noun",
+      "gender": "f.",
+      "example": "La dependencia tecnológica crece.",
+      "id": 48
+    },
+    {
+      "target": "el software",
+      "source": "the software",
+      "type": "noun",
+      "gender": "m.",
+      "example": "El software necesita actualizaciones.",
+      "id": 49
+    },
+    {
+      "target": "la ciberseguridad",
+      "source": "cybersecurity",
+      "type": "noun",
+      "gender": "f.",
+      "example": "La ciberseguridad es prioritaria.",
+      "id": 50
+    }
   ],
   "grammar": [
     {
@@ -73,9 +393,18 @@
       "title": "Technical Terms — Stress & Syllable Count",
       "content": "Technical terms in Spanish have predictable stress patterns that follow standard Spanish rules.\n\nCommon patterns:\n- Palabras esdrújulas (stress on antepenultimate): 'algoritmo' (al-go-RIT-mo) — always carries an accent mark\n- Palabras graves (stress on penultimate): 'tecnología' (tek-no-lo-GÍ-ah) — carries accent\n- Palabras agudas (stress on final syllable): 'datos' (DAH-tos) — no accent, ends in consonant\n- Palabras esdrújulas: 'inteligencia' (in-te-li-GEN-see-ah) — carries accent\n\nTechnical terms to practice:\n- 'La inteligencia artificial está cambiando el mundo.' — stress on -GEN-\n- 'Los algoritmos son complejos pero necesarios.' — stress on -RIT-\n- 'La brecha digital afecta a millones de personas.' — stress on -CH-\n\nTip: Spanish syllable boundaries are clear. Never split vowels in a diphthong. 'Tecnología' = tec-no-lo-gí-a (5 syllables), not 'tecno-lo-gía' (4).",
       "examples": [
-        { "target": "inteligencia", "source": "IN-te-li-GEN-see-ah (esdrújula)" },
-        { "target": "algoritmo", "source": "al-go-RIT-mo (esdrújula)" },
-        { "target": "tecnología", "source": "tek-no-lo-GÍ-ah (grave)" }
+        {
+          "target": "inteligencia",
+          "source": "IN-te-li-GEN-see-ah (esdrújula)"
+        },
+        {
+          "target": "algoritmo",
+          "source": "al-go-RIT-mo (esdrújula)"
+        },
+        {
+          "target": "tecnología",
+          "source": "tek-no-lo-GÍ-ah (grave)"
+        }
       ],
       "aid_note": "Romanian also has predictable stress patterns but they differ. Romanian 'inteligență' (IN-te-li-gen-ță) has stress on the first syllable, while Spanish puts it on the penultimate."
     }
@@ -90,7 +419,12 @@
     {
       "type": "exercise",
       "question": "What does 'la brecha digital' mean?",
-      "options": ["The digital divide", "The digital screen", "The digital budget", "The digital bridge"],
+      "options": [
+        "The digital divide",
+        "The digital screen",
+        "The digital budget",
+        "The digital bridge"
+      ],
       "correct": 0,
       "explanation": "'La brecha digital' = the digital divide — the gap between those with and without access to technology."
     },
@@ -98,11 +432,26 @@
       "type": "matching",
       "question": "Match the tech term with its meaning:",
       "pairs": [
-        { "target": "la desinformación", "source": "disinformation" },
-        { "target": "el ciberacoso", "source": "cyberbullying" },
-        { "target": "la huella digital", "source": "digital footprint" },
-        { "target": "la automatización", "source": "automation" },
-        { "target": "el teletrabajo", "source": "remote work" }
+        {
+          "target": "la desinformación",
+          "source": "disinformation"
+        },
+        {
+          "target": "el ciberacoso",
+          "source": "cyberbullying"
+        },
+        {
+          "target": "la huella digital",
+          "source": "digital footprint"
+        },
+        {
+          "target": "la automatización",
+          "source": "automation"
+        },
+        {
+          "target": "el teletrabajo",
+          "source": "remote work"
+        }
       ],
       "explanation": "These terms are essential for discussing technology's impact on society."
     },
@@ -115,7 +464,12 @@
     {
       "type": "exercise",
       "question": "Which word means 'cybersecurity'?",
-      "options": ["la privacidad", "la seguridad informática", "la censura", "la regulación"],
+      "options": [
+        "la privacidad",
+        "la seguridad informática",
+        "la censura",
+        "la regulación"
+      ],
       "correct": 1,
       "explanation": "'La seguridad informática' = cybersecurity. 'La privacidad' = privacy, 'la censura' = censorship."
     },
@@ -128,7 +482,12 @@
     {
       "type": "exercise",
       "question": "What does 'obsoleto/a' mean?",
-      "options": ["Innovative", "Obsolete", "Transparent", "Connected"],
+      "options": [
+        "Innovative",
+        "Obsolete",
+        "Transparent",
+        "Connected"
+      ],
       "correct": 1,
       "explanation": "'Obsoleto' = obsolete / outdated. It's the opposite of 'innovador' (innovative)."
     },

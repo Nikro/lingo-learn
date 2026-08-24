@@ -3,46 +3,366 @@
   "title": "Health, Wellness & Ethics",
   "description": "Discuss healthcare systems, medical ethics, lifestyle choices, and public health policy.",
   "vocabulary": [
-    { "id": 1, "target": "el sistema de salud", "source": "healthcare system", "gender": "m.", "type": "noun" },
-    { "id": 2, "target": "la salud pública", "source": "public health", "gender": "f.", "type": "noun" },
-    { "id": 3, "target": "la salud mental", "source": "mental health", "gender": "f.", "type": "noun" },
-    { "id": 4, "target": "la salud física", "source": "physical health", "gender": "f.", "type": "noun" },
-    { "id": 5, "target": "el hospital", "source": "hospital", "gender": "m.", "type": "noun" },
-    { "id": 6, "target": "la clínica", "source": "clinic", "gender": "f.", "type": "noun" },
-    { "id": 7, "target": "el médico / la médica", "source": "doctor", "gender": "m./f.", "type": "noun" },
-    { "id": 8, "target": "la enfermera", "source": "nurse (f.)", "gender": "f.", "type": "noun" },
-    { "id": 9, "target": "la receta médica", "source": "prescription", "gender": "f.", "type": "noun" },
-    { "id": 10, "target": "la vacuna", "source": "vaccine", "gender": "f.", "type": "noun" },
-    { "id": 11, "target": "la vacunación", "source": "vaccination", "gender": "f.", "type": "noun" },
-    { "id": 12, "target": "el tratamiento", "source": "treatment", "gender": "m.", "type": "noun" },
-    { "id": 13, "target": "la enfermedad crónica", "source": "chronic illness", "gender": "f.", "type": "noun" },
-    { "id": 14, "target": "la epidemia", "source": "epidemic", "gender": "f.", "type": "noun" },
-    { "id": 15, "target": "la pandemia", "source": "pandemic", "gender": "f.", "type": "noun" },
-    { "id": 16, "target": "el brote", "source": "outbreak", "gender": "m.", "type": "noun" },
-    { "id": 17, "target": "la prevención", "source": "prevention", "gender": "f.", "type": "noun" },
-    { "id": 18, "target": "la obesidad", "source": "obesity", "gender": "f.", "type": "noun" },
-    { "id": 19, "target": "la depresión", "source": "depression", "gender": "f.", "type": "noun" },
-    { "id": 20, "target": "la ansiedad", "source": "anxiety", "gender": "f.", "type": "noun" },
-    { "id": 21, "target": "el estrés", "source": "stress", "gender": "m.", "type": "noun" },
-    { "id": 22, "target": "el bienestar", "source": "wellness / well-being", "gender": "m.", "type": "noun" },
-    { "id": 23, "target": "el ejercicio físico", "source": "physical exercise", "gender": "m.", "type": "noun" },
-    { "id": 24, "target": "la dieta equilibrada", "source": "balanced diet", "gender": "f.", "type": "noun" },
-    { "id": 25, "target": "el sueño reparador", "source": "restorative sleep", "gender": "m.", "type": "noun" },
-    { "id": 26, "target": "la ética médica", "source": "medical ethics", "gender": "f.", "type": "noun" },
-    { "id": 27, "target": "el consentimiento informado", "source": "informed consent", "gender": "m.", "type": "noun" },
-    { "id": 28, "target": "la eutanasia", "source": "euthanasia", "gender": "f.", "type": "noun" },
-    { "id": 29, "target": "la clonación", "source": "cloning", "gender": "f.", "type": "noun" },
-    { "id": 30, "target": "la investigación médica", "source": "medical research", "gender": "f.", "type": "noun" },
-    { "id": 31, "target": "el ensayo clínico", "source": "clinical trial", "gender": "m.", "type": "noun" },
-    { "id": 32, "target": "el seguro de salud", "source": "health insurance", "gender": "m.", "type": "noun" },
-    { "id": 33, "target": "gratuito/a", "source": "free (no cost)", "gender": "m./f.", "type": "adjective" },
-    { "id": 34, "target": "universal", "source": "universal", "gender": "m./f.", "type": "adjective" },
-    { "id": 35, "target": "accesible", "source": "accessible", "gender": "m./f.", "type": "adjective" },
-    { "id": 36, "target": "inaccesible", "source": "inaccessible", "gender": "m./f.", "type": "adjective" },
-    { "id": 37, "target": "la alimentación", "source": "nutrition / feeding", "gender": "f.", "type": "noun" },
-    { "id": 38, "target": "el sedentarismo", "source": "sedentary lifestyle", "gender": "m.", "type": "noun" },
-    { "id": 39, "target": "el tabaquismo", "source": "smoking addiction", "gender": "m.", "type": "noun" },
-    { "id": 40, "target": "el alcoholismo", "source": "alcoholism", "gender": "m.", "type": "noun" }
+    {
+      "id": 1,
+      "target": "el sistema de salud",
+      "source": "healthcare system",
+      "gender": "m.",
+      "type": "noun"
+    },
+    {
+      "id": 2,
+      "target": "la salud pública",
+      "source": "public health",
+      "gender": "f.",
+      "type": "noun"
+    },
+    {
+      "id": 3,
+      "target": "la salud mental",
+      "source": "mental health",
+      "gender": "f.",
+      "type": "noun"
+    },
+    {
+      "id": 4,
+      "target": "la salud física",
+      "source": "physical health",
+      "gender": "f.",
+      "type": "noun"
+    },
+    {
+      "id": 5,
+      "target": "el hospital",
+      "source": "hospital",
+      "gender": "m.",
+      "type": "noun"
+    },
+    {
+      "id": 6,
+      "target": "la clínica",
+      "source": "clinic",
+      "gender": "f.",
+      "type": "noun"
+    },
+    {
+      "id": 7,
+      "target": "el médico / la médica",
+      "source": "doctor",
+      "gender": "m./f.",
+      "type": "noun"
+    },
+    {
+      "id": 8,
+      "target": "la enfermera",
+      "source": "nurse (f.)",
+      "gender": "f.",
+      "type": "noun"
+    },
+    {
+      "id": 9,
+      "target": "la receta médica",
+      "source": "prescription",
+      "gender": "f.",
+      "type": "noun"
+    },
+    {
+      "id": 10,
+      "target": "la vacuna",
+      "source": "vaccine",
+      "gender": "f.",
+      "type": "noun"
+    },
+    {
+      "id": 11,
+      "target": "la vacunación",
+      "source": "vaccination",
+      "gender": "f.",
+      "type": "noun"
+    },
+    {
+      "id": 12,
+      "target": "el tratamiento",
+      "source": "treatment",
+      "gender": "m.",
+      "type": "noun"
+    },
+    {
+      "id": 13,
+      "target": "la enfermedad crónica",
+      "source": "chronic illness",
+      "gender": "f.",
+      "type": "noun"
+    },
+    {
+      "id": 14,
+      "target": "la epidemia",
+      "source": "epidemic",
+      "gender": "f.",
+      "type": "noun"
+    },
+    {
+      "id": 15,
+      "target": "la pandemia",
+      "source": "pandemic",
+      "gender": "f.",
+      "type": "noun"
+    },
+    {
+      "id": 16,
+      "target": "el brote",
+      "source": "outbreak",
+      "gender": "m.",
+      "type": "noun"
+    },
+    {
+      "id": 17,
+      "target": "la prevención",
+      "source": "prevention",
+      "gender": "f.",
+      "type": "noun"
+    },
+    {
+      "id": 18,
+      "target": "la obesidad",
+      "source": "obesity",
+      "gender": "f.",
+      "type": "noun"
+    },
+    {
+      "id": 19,
+      "target": "la depresión",
+      "source": "depression",
+      "gender": "f.",
+      "type": "noun"
+    },
+    {
+      "id": 20,
+      "target": "la ansiedad",
+      "source": "anxiety",
+      "gender": "f.",
+      "type": "noun"
+    },
+    {
+      "id": 21,
+      "target": "el estrés",
+      "source": "stress",
+      "gender": "m.",
+      "type": "noun"
+    },
+    {
+      "id": 22,
+      "target": "el bienestar",
+      "source": "wellness / well-being",
+      "gender": "m.",
+      "type": "noun"
+    },
+    {
+      "id": 23,
+      "target": "el ejercicio físico",
+      "source": "physical exercise",
+      "gender": "m.",
+      "type": "noun"
+    },
+    {
+      "id": 24,
+      "target": "la dieta equilibrada",
+      "source": "balanced diet",
+      "gender": "f.",
+      "type": "noun"
+    },
+    {
+      "id": 25,
+      "target": "el sueño reparador",
+      "source": "restorative sleep",
+      "gender": "m.",
+      "type": "noun"
+    },
+    {
+      "id": 26,
+      "target": "la ética médica",
+      "source": "medical ethics",
+      "gender": "f.",
+      "type": "noun"
+    },
+    {
+      "id": 27,
+      "target": "el consentimiento informado",
+      "source": "informed consent",
+      "gender": "m.",
+      "type": "noun"
+    },
+    {
+      "id": 28,
+      "target": "la eutanasia",
+      "source": "euthanasia",
+      "gender": "f.",
+      "type": "noun"
+    },
+    {
+      "id": 29,
+      "target": "la clonación",
+      "source": "cloning",
+      "gender": "f.",
+      "type": "noun"
+    },
+    {
+      "id": 30,
+      "target": "la investigación médica",
+      "source": "medical research",
+      "gender": "f.",
+      "type": "noun"
+    },
+    {
+      "id": 31,
+      "target": "el ensayo clínico",
+      "source": "clinical trial",
+      "gender": "m.",
+      "type": "noun"
+    },
+    {
+      "id": 32,
+      "target": "el seguro de salud",
+      "source": "health insurance",
+      "gender": "m.",
+      "type": "noun"
+    },
+    {
+      "id": 33,
+      "target": "gratuito/a",
+      "source": "free (no cost)",
+      "gender": "m./f.",
+      "type": "adjective"
+    },
+    {
+      "id": 34,
+      "target": "universal",
+      "source": "universal",
+      "gender": "m./f.",
+      "type": "adjective"
+    },
+    {
+      "id": 35,
+      "target": "accesible",
+      "source": "accessible",
+      "gender": "m./f.",
+      "type": "adjective"
+    },
+    {
+      "id": 36,
+      "target": "inaccesible",
+      "source": "inaccessible",
+      "gender": "m./f.",
+      "type": "adjective"
+    },
+    {
+      "id": 37,
+      "target": "la alimentación",
+      "source": "nutrition / feeding",
+      "gender": "f.",
+      "type": "noun"
+    },
+    {
+      "id": 38,
+      "target": "el sedentarismo",
+      "source": "sedentary lifestyle",
+      "gender": "m.",
+      "type": "noun"
+    },
+    {
+      "id": 39,
+      "target": "el tabaquismo",
+      "source": "smoking addiction",
+      "gender": "m.",
+      "type": "noun"
+    },
+    {
+      "id": 40,
+      "target": "el alcoholismo",
+      "source": "alcoholism",
+      "gender": "m.",
+      "type": "noun"
+    },
+    {
+      "target": "la dieta mediterránea",
+      "source": "the Mediterranean diet",
+      "type": "noun",
+      "gender": "f.",
+      "example": "La dieta mediterránea es saludable.",
+      "id": 41
+    },
+    {
+      "target": "el deporte",
+      "source": "sports / exercise",
+      "type": "noun",
+      "gender": "m.",
+      "example": "El deporte forma carácter.",
+      "id": 42
+    },
+    {
+      "target": "la rehabilitación",
+      "source": "rehabilitation",
+      "type": "noun",
+      "gender": "f.",
+      "example": "La rehabilitación es larga pero eficaz.",
+      "id": 43
+    },
+    {
+      "target": "el fisioterapeuta / la fisioterapeuta",
+      "source": "the physiotherapist",
+      "type": "noun",
+      "gender": "m./f.",
+      "example": "El fisioterapeuta le mejoró la rodilla.",
+      "id": 44
+    },
+    {
+      "target": "la cirugía",
+      "source": "surgery",
+      "type": "noun",
+      "gender": "f.",
+      "example": "La cirugía fue un éxito.",
+      "id": 45
+    },
+    {
+      "target": "el diagnóstico",
+      "source": "the diagnosis",
+      "type": "noun",
+      "gender": "m.",
+      "example": "El diagnóstico fue temprano.",
+      "id": 46
+    },
+    {
+      "target": "la terapia ocupacional",
+      "source": "occupational therapy",
+      "type": "noun",
+      "gender": "f.",
+      "example": "La terapia ocupacional ayuda a recuperar.",
+      "id": 47
+    },
+    {
+      "target": "el ejercicio regular",
+      "source": "regular exercise",
+      "type": "noun",
+      "gender": "m.",
+      "example": "El ejercicio regular alarga la vida.",
+      "id": 48
+    },
+    {
+      "target": "la salud cardiovascular",
+      "source": "cardiovascular health",
+      "type": "noun",
+      "gender": "f.",
+      "example": "La salud cardiovascular es prioritaria.",
+      "id": 49
+    },
+    {
+      "target": "la medicina preventiva",
+      "source": "preventive medicine",
+      "type": "noun",
+      "gender": "f.",
+      "example": "La medicina preventiva ahorra vidas.",
+      "id": 50
+    }
   ],
   "grammar": [
     {
@@ -73,9 +393,18 @@
       "title": "Medical Vocabulary — Stress Patterns",
       "content": "Medical terms in Spanish often have predictable stress patterns that help with both pronunciation and spelling.\n\nKey patterns:\n- Esdrújulas (always accented): 'antibiótico' (an-ti-bi-O-ti-ko), 'vacunación' (va-ku-na-TEE-on), 'anestesia' (a-ne-ste-SEE-ah)\n- Graves ending in -ción, -sión (always accented): 'explicación' (ek-spli-ka-TEE-on), 'presión' (pre-EE-on), 'complicación' (kom-pli-ka-TEE-on)\n- Agudas ending in -s, -n, -r (always accented): 'análisis' (a-NA-li-sis), 'tratamiento' (tra-ta-MIEN-to)\n\nPractice:\n- 'El tratamiento es necesario para la recuperación.'\n- 'La vacunación previene enfermedades graves.'\n- 'La ética médica es fundamental en la práctica clínica.'\n\nTip: Words ending in -ción/-sión always carry stress on the antepenultimate syllable and always carry an accent mark. This is a reliable rule.",
       "examples": [
-        { "target": "antibiótico", "source": "an-ti-bi-O-ti-ko (esdrújula)" },
-        { "target": "vacunación", "source": "va-ku-na-TEE-on (grave with -ción)" },
-        { "target": "tratamiento", "source": "tra-ta-MIEN-to (aguda with -to)" }
+        {
+          "target": "antibiótico",
+          "source": "an-ti-bi-O-ti-ko (esdrújula)"
+        },
+        {
+          "target": "vacunación",
+          "source": "va-ku-na-TEE-on (grave with -ción)"
+        },
+        {
+          "target": "tratamiento",
+          "source": "tra-ta-MIEN-to (aguda with -to)"
+        }
       ],
       "aid_note": "Romanian medical terms follow Romanian stress rules, typically on the penultimate syllable. Spanish stress patterns for -ción/-sión words have no equivalent in Romanian."
     }
@@ -84,7 +413,12 @@
     {
       "type": "exercise",
       "question": "Which is correct: 'Ella es enferma' or 'Ella está enferma'?",
-      "options": ["Ella es enferma", "Ella está enferma", "Both are correct", "Neither is correct"],
+      "options": [
+        "Ella es enferma",
+        "Ella está enferma",
+        "Both are correct",
+        "Neither is correct"
+      ],
       "correct": 1,
       "explanation": "'Ella está enferma' (She is sick) — 'enferma' is a temporary state. 'Ella es enfermera' (She is a nurse) — profession uses 'ser'."
     },
@@ -97,7 +431,12 @@
     {
       "type": "exercise",
       "question": "What does 'la eutanasia' mean?",
-      "options": ["Vaccination", "Euthanasia", "Cloning", "Genetics"],
+      "options": [
+        "Vaccination",
+        "Euthanasia",
+        "Cloning",
+        "Genetics"
+      ],
       "correct": 1,
       "explanation": "'La eutanasia' = euthanasia — the practice of ending a life to relieve suffering. It's a key term in medical ethics."
     },
@@ -105,10 +444,22 @@
       "type": "matching",
       "question": "Match the health terms:",
       "pairs": [
-        { "target": "la pandemia", "source": "pandemic" },
-        { "target": "el sedentarismo", "source": "sedentary lifestyle" },
-        { "target": "el ensayo clínico", "source": "clinical trial" },
-        { "target": "la prevención", "source": "prevention" }
+        {
+          "target": "la pandemia",
+          "source": "pandemic"
+        },
+        {
+          "target": "el sedentarismo",
+          "source": "sedentary lifestyle"
+        },
+        {
+          "target": "el ensayo clínico",
+          "source": "clinical trial"
+        },
+        {
+          "target": "la prevención",
+          "source": "prevention"
+        }
       ],
       "explanation": "These terms are essential for discussing public health and medical ethics."
     },
@@ -121,7 +472,12 @@
     {
       "type": "exercise",
       "question": "What does 'gratuito/a' mean in healthcare?",
-      "options": ["Free (no cost)", "Mandatory", "Emergency", "Experimental"],
+      "options": [
+        "Free (no cost)",
+        "Mandatory",
+        "Emergency",
+        "Experimental"
+      ],
       "correct": 0,
       "explanation": "'Gratuito' = free of charge. In healthcare, it means accessible without cost to the patient."
     },
@@ -134,7 +490,12 @@
     {
       "type": "exercise",
       "question": "Which word means 'chronic illness'?",
-      "options": ["la epidemia", "la enfermedad crónica", "la pandemia", "el brote"],
+      "options": [
+        "la epidemia",
+        "la enfermedad crónica",
+        "la pandemia",
+        "el brote"
+      ],
       "correct": 1,
       "explanation": "'La enfermedad crónica' = chronic illness. 'Epidemia' = epidemic, 'pandemia' = pandemic, 'brote' = outbreak."
     }

@@ -3,46 +3,356 @@
   "title": "Expressing Nuanced Opinions",
   "description": "Go beyond 'creo que' — master hedging, emphasis, and persuasive language for academic and professional discourse.",
   "vocabulary": [
-    { "id": 1, "target": "en mi opinión", "source": "in my opinion", "gender": "—", "type": "phrase" },
-    { "id": 2, "target": "a mi juicio", "source": "in my judgment", "gender": "—", "type": "phrase" },
-    { "id": 3, "target": "desde mi punto de vista", "source": "from my point of view", "gender": "—", "type": "phrase" },
-    { "id": 4, "target": "personalmente", "source": "personally", "gender": "—", "type": "adverb" },
-    { "id": 5, "target": "en lo que a mí respecta", "source": "as far as I'm concerned", "gender": "—", "type": "phrase" },
-    { "id": 6, "target": "creo firmemente", "source": "I firmly believe", "gender": "—", "type": "phrase" },
-    { "id": 7, "target": "estoy convencido/a", "source": "I'm convinced", "gender": "m./f.", "type": "phrase" },
-    { "id": 8, "target": "me inclino a pensar", "source": "I tend to think", "gender": "—", "type": "phrase" },
-    { "id": 9, "target": "sostengo que", "source": "I maintain that", "gender": "—", "type": "phrase" },
-    { "id": 10, "target": "argumento que", "source": "I argue that", "gender": "—", "type": "phrase" },
-    { "id": 11, "target": "cuestionar", "source": "to question", "gender": "v.", "type": "verb" },
-    { "id": 12, "target": "cuestionar la validez", "source": "to question the validity", "gender": "—", "type": "phrase" },
-    { "id": 13, "target": "refutar", "source": "to refute", "gender": "v.", "type": "verb" },
-    { "id": 14, "target": "desmentir", "source": "to debunk / disprove", "gender": "v.", "type": "verb" },
-    { "id": 15, "target": "matizar", "source": "to nuance / to add detail", "gender": "v.", "type": "verb" },
-    { "id": 16, "target": "matiz", "source": "nuance", "gender": "m.", "type": "noun" },
-    { "id": 17, "target": "reservarse la opinión", "source": "to reserve one's opinion", "gender": "—", "type": "phrase" },
-    { "id": 18, "target": "ser partidario de", "source": "to be in favor of", "gender": "—", "type": "phrase" },
-    { "id": 19, "target": "ser contrario a", "source": "to be opposed to", "gender": "—", "type": "phrase" },
-    { "id": 20, "target": "pro y contra", "source": "pros and cons", "gender": "m.pl.", "type": "noun" },
-    { "id": 21, "target": "ponderar los aspectos", "source": "to weigh the aspects", "gender": "—", "type": "phrase" },
-    { "id": 22, "target": "equilibrado/a", "source": "balanced", "gender": "m./f.", "type": "adjective" },
-    { "id": 23, "target": "subjetivo/a", "source": "subjective", "gender": "m./f.", "type": "adjective" },
-    { "id": 24, "target": "objetivo/a", "source": "objective", "gender": "m./f.", "type": "adjective" },
-    { "id": 25, "target": "sesgado/a", "source": "biased", "gender": "m./f.", "type": "adjective" },
-    { "id": 26, "target": "perspectiva", "source": "perspective", "gender": "f.", "type": "noun" },
-    { "id": 27, "target": "punto de vista", "source": "point of view", "gender": "m.", "type": "noun" },
-    { "id": 28, "target": "postura", "source": "stance / position", "gender": "f.", "type": "noun" },
-    { "id": 29, "target": "imprescindible", "source": "essential / indispensable", "gender": "m./f.", "type": "adjective" },
-    { "id": 30, "target": "fundamental", "source": "fundamental", "gender": "m./f.", "type": "adjective" },
-    { "id": 31, "target": "trascendental", "source": "profound / consequential", "gender": "m./f.", "type": "adjective" },
-    { "id": 32, "target": "debatir", "source": "to debate", "gender": "v.", "type": "verb" },
-    { "id": 33, "target": "discutir", "source": "to discuss / to argue", "gender": "v.", "type": "verb" },
-    { "id": 34, "target": "alcanzar un consenso", "source": "to reach a consensus", "gender": "—", "type": "phrase" },
-    { "id": 35, "target": "estar en desacuerdo", "source": "to disagree", "gender": "—", "type": "phrase" },
-    { "id": 36, "target": "estar de acuerdo", "source": "to agree", "gender": "—", "type": "phrase" },
-    { "id": 37, "target": "coincidir con", "source": "to coincide with", "gender": "—", "type": "phrase" },
-    { "id": 38, "target": "discrepar de", "source": "to differ from", "gender": "—", "type": "phrase" },
-    { "id": 39, "target": "tener en cuenta", "source": "to take into account", "gender": "—", "type": "phrase" },
-    { "id": 40, "target": "considerar que", "source": "to consider that", "gender": "—", "type": "phrase" }
+    {
+      "id": 1,
+      "target": "en mi opinión",
+      "source": "in my opinion",
+      "gender": "—",
+      "type": "phrase"
+    },
+    {
+      "id": 2,
+      "target": "a mi juicio",
+      "source": "in my judgment",
+      "gender": "—",
+      "type": "phrase"
+    },
+    {
+      "id": 3,
+      "target": "desde mi punto de vista",
+      "source": "from my point of view",
+      "gender": "—",
+      "type": "phrase"
+    },
+    {
+      "id": 4,
+      "target": "personalmente",
+      "source": "personally",
+      "gender": "—",
+      "type": "adverb"
+    },
+    {
+      "id": 5,
+      "target": "en lo que a mí respecta",
+      "source": "as far as I'm concerned",
+      "gender": "—",
+      "type": "phrase"
+    },
+    {
+      "id": 6,
+      "target": "creo firmemente",
+      "source": "I firmly believe",
+      "gender": "—",
+      "type": "phrase"
+    },
+    {
+      "id": 7,
+      "target": "estoy convencido/a",
+      "source": "I'm convinced",
+      "gender": "m./f.",
+      "type": "phrase"
+    },
+    {
+      "id": 8,
+      "target": "me inclino a pensar",
+      "source": "I tend to think",
+      "gender": "—",
+      "type": "phrase"
+    },
+    {
+      "id": 9,
+      "target": "sostengo que",
+      "source": "I maintain that",
+      "gender": "—",
+      "type": "phrase"
+    },
+    {
+      "id": 10,
+      "target": "argumento que",
+      "source": "I argue that",
+      "gender": "—",
+      "type": "phrase"
+    },
+    {
+      "id": 11,
+      "target": "cuestionar",
+      "source": "to question",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 12,
+      "target": "cuestionar la validez",
+      "source": "to question the validity",
+      "gender": "—",
+      "type": "phrase"
+    },
+    {
+      "id": 13,
+      "target": "refutar",
+      "source": "to refute",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 14,
+      "target": "desmentir",
+      "source": "to debunk / disprove",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 15,
+      "target": "matizar",
+      "source": "to nuance / to add detail",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 16,
+      "target": "matiz",
+      "source": "nuance",
+      "gender": "m.",
+      "type": "noun"
+    },
+    {
+      "id": 17,
+      "target": "reservarse la opinión",
+      "source": "to reserve one's opinion",
+      "gender": "—",
+      "type": "phrase"
+    },
+    {
+      "id": 18,
+      "target": "ser partidario de",
+      "source": "to be in favor of",
+      "gender": "—",
+      "type": "phrase"
+    },
+    {
+      "id": 19,
+      "target": "ser contrario a",
+      "source": "to be opposed to",
+      "gender": "—",
+      "type": "phrase"
+    },
+    {
+      "id": 20,
+      "target": "pro y contra",
+      "source": "pros and cons",
+      "gender": "m.pl.",
+      "type": "noun"
+    },
+    {
+      "id": 21,
+      "target": "ponderar los aspectos",
+      "source": "to weigh the aspects",
+      "gender": "—",
+      "type": "phrase"
+    },
+    {
+      "id": 22,
+      "target": "equilibrado/a",
+      "source": "balanced",
+      "gender": "m./f.",
+      "type": "adjective"
+    },
+    {
+      "id": 23,
+      "target": "subjetivo/a",
+      "source": "subjective",
+      "gender": "m./f.",
+      "type": "adjective"
+    },
+    {
+      "id": 24,
+      "target": "objetivo/a",
+      "source": "objective",
+      "gender": "m./f.",
+      "type": "adjective"
+    },
+    {
+      "id": 25,
+      "target": "sesgado/a",
+      "source": "biased",
+      "gender": "m./f.",
+      "type": "adjective"
+    },
+    {
+      "id": 26,
+      "target": "perspectiva",
+      "source": "perspective",
+      "gender": "f.",
+      "type": "noun"
+    },
+    {
+      "id": 27,
+      "target": "punto de vista",
+      "source": "point of view",
+      "gender": "m.",
+      "type": "noun"
+    },
+    {
+      "id": 28,
+      "target": "postura",
+      "source": "stance / position",
+      "gender": "f.",
+      "type": "noun"
+    },
+    {
+      "id": 29,
+      "target": "imprescindible",
+      "source": "essential / indispensable",
+      "gender": "m./f.",
+      "type": "adjective"
+    },
+    {
+      "id": 30,
+      "target": "fundamental",
+      "source": "fundamental",
+      "gender": "m./f.",
+      "type": "adjective"
+    },
+    {
+      "id": 31,
+      "target": "trascendental",
+      "source": "profound / consequential",
+      "gender": "m./f.",
+      "type": "adjective"
+    },
+    {
+      "id": 32,
+      "target": "debatir",
+      "source": "to debate",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 33,
+      "target": "discutir",
+      "source": "to discuss / to argue",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 34,
+      "target": "alcanzar un consenso",
+      "source": "to reach a consensus",
+      "gender": "—",
+      "type": "phrase"
+    },
+    {
+      "id": 35,
+      "target": "estar en desacuerdo",
+      "source": "to disagree",
+      "gender": "—",
+      "type": "phrase"
+    },
+    {
+      "id": 36,
+      "target": "estar de acuerdo",
+      "source": "to agree",
+      "gender": "—",
+      "type": "phrase"
+    },
+    {
+      "id": 37,
+      "target": "coincidir con",
+      "source": "to coincide with",
+      "gender": "—",
+      "type": "phrase"
+    },
+    {
+      "id": 38,
+      "target": "discrepar de",
+      "source": "to differ from",
+      "gender": "—",
+      "type": "phrase"
+    },
+    {
+      "id": 39,
+      "target": "tener en cuenta",
+      "source": "to take into account",
+      "gender": "—",
+      "type": "phrase"
+    },
+    {
+      "id": 40,
+      "target": "considerar que",
+      "source": "to consider that",
+      "gender": "—",
+      "type": "phrase"
+    },
+    {
+      "target": "a mi parecer",
+      "source": "in my view",
+      "type": "phrase",
+      "example": "A mi parecer, es la mejor solución.",
+      "id": 41
+    },
+    {
+      "target": "me parece que",
+      "source": "I think that",
+      "type": "phrase",
+      "example": "Me parece que exageras.",
+      "id": 42
+    },
+    {
+      "target": "cabe destacar que",
+      "source": "it is worth noting that",
+      "type": "phrase",
+      "example": "Cabe destacar que el resultado fue positivo.",
+      "id": 43
+    },
+    {
+      "target": "es innegable que",
+      "source": "it is undeniable that",
+      "type": "phrase",
+      "example": "Es innegable que el cambio es necesario.",
+      "id": 44
+    },
+    {
+      "target": "resulta evidente que",
+      "source": "it turns out that (clearly)",
+      "type": "phrase",
+      "example": "Resulta evidente que hay errores.",
+      "id": 45
+    },
+    {
+      "target": "a todas luces",
+      "source": "plainly / at first sight",
+      "type": "phrase",
+      "example": "El error es a todas luces visible.",
+      "id": 46
+    },
+    {
+      "target": "sin lugar a dudas",
+      "source": "without a doubt",
+      "type": "phrase",
+      "example": "Sin lugar a dudas, fue un acierto.",
+      "id": 47
+    },
+    {
+      "target": "en definitiva",
+      "source": "in the end / all in all",
+      "type": "phrase",
+      "example": "En definitiva, no cambió nada.",
+      "id": 48
+    },
+    {
+      "target": "mi convicción es que",
+      "source": "my conviction is that",
+      "type": "phrase",
+      "example": "Mi convicción es que se puede mejorar.",
+      "id": 49
+    },
+    {
+      "target": "la objeción principal es que",
+      "source": "the main objection is that",
+      "type": "phrase",
+      "example": "La objeción principal es que falta dinero.",
+      "id": 50
+    }
   ],
   "grammar": [
     {
@@ -84,9 +394,18 @@
       "title": "Intonation Patterns in Debate",
       "content": "Spanish debate discourse uses specific intonation patterns to signal agreement, disagreement, emphasis, and rhetorical questions.\n\nKey patterns:\n- Rising-fall on key claims: 'Eso es INcorrecto ↘' — The pitch rises on the stressed syllable and falls sharply, signaling a definitive claim.\n- Rising tone on concessions: 'Aunque es cierto que... ↗' — A slight upward inflection signals you're setting up a contrast.\n- Falling tone on refutations: 'pero en realidad... ↘' — The pitch drops, signaling the real point.\n- Extended vowels on emphasis: 'Es fundamental... no meramente opcional' — Prolonging the final vowel of 'fundamental' adds weight.\n\nPractice:\n- 'Aunque la tecnología tiene ventajas, sus efectos negativos son innegables.' — Note the pitch drop on 'innegables'.\n- 'Lo que realmente importa es la calidad, no la cantidad.' — Note the emphasis on 'realmente' and 'calidad'.\n\nTip: Spanish speakers use a wider intonation range than English speakers in formal speech. Don't be afraid to project your pitch.",
       "examples": [
-        { "target": "Aunque la tecnología tiene ventajas...", "source": "Set-up tone: slightly rising" },
-        { "target": "...sus efectos negativos son INNnegables.", "source": "Refutation tone: falling pitch on stress" },
-        { "target": "Lo que REALMENTE importa...", "source": "Emphatic tone: extended vowel" }
+        {
+          "target": "Aunque la tecnología tiene ventajas...",
+          "source": "Set-up tone: slightly rising"
+        },
+        {
+          "target": "...sus efectos negativos son INNnegables.",
+          "source": "Refutation tone: falling pitch on stress"
+        },
+        {
+          "target": "Lo que REALMENTE importa...",
+          "source": "Emphatic tone: extended vowel"
+        }
       ],
       "aid_note": "Romanian also uses rising-fall patterns in debate. The main difference is that Spanish has more pronounced pitch movement on stressed syllables, while Romanian stress is more fixed."
     }
@@ -107,7 +426,12 @@
     {
       "type": "exercise",
       "question": "Which is the best hedging phrase for academic writing?",
-      "options": ["Es seguro que...", "Parece ser que...", "Definitivamente...", "Sin duda..."],
+      "options": [
+        "Es seguro que...",
+        "Parece ser que...",
+        "Definitivamente...",
+        "Sin duda..."
+      ],
       "correct": 1,
       "explanation": "'Parece ser que' (It seems to be that) is a hedge. In academic writing, hedges show intellectual caution, unlike definitive phrases like 'Es seguro que' (It's certain that)."
     },
@@ -120,7 +444,12 @@
     {
       "type": "exercise",
       "question": "Which structure expresses 'to be in favor of'?",
-      "options": ["ser contrario a", "ser partidario de", "reservarse la opinión", "cuestionar"],
+      "options": [
+        "ser contrario a",
+        "ser partidario de",
+        "reservarse la opinión",
+        "cuestionar"
+      ],
       "correct": 1,
       "explanation": "'Ser partidario de' means 'to be in favor of.' 'Ser contrario a' means 'to be opposed to.'"
     },
@@ -128,11 +457,26 @@
       "type": "matching",
       "question": "Match the opinion expression with its function:",
       "pairs": [
-        { "target": "matizar", "source": "to add nuance" },
-        { "target": "refutar", "source": "to contradict" },
-        { "target": "concordar", "source": "to agree" },
-        { "target": "discrepar", "source": "to disagree" },
-        { "target": "ponderar", "source": "to weigh carefully" }
+        {
+          "target": "matizar",
+          "source": "to add nuance"
+        },
+        {
+          "target": "refutar",
+          "source": "to contradict"
+        },
+        {
+          "target": "concordar",
+          "source": "to agree"
+        },
+        {
+          "target": "discrepar",
+          "source": "to disagree"
+        },
+        {
+          "target": "ponderar",
+          "source": "to weigh carefully"
+        }
       ],
       "explanation": "These are key verbs for nuanced argumentation. 'Matizar' adds detail to an opinion, while 'refutar' directly contradicts."
     },
@@ -145,7 +489,12 @@
     {
       "type": "exercise",
       "question": "Which word means 'bias / biased'?",
-      "options": ["objetivo", "equilibrado", "sesgado", "fundamental"],
+      "options": [
+        "objetivo",
+        "equilibrado",
+        "sesgado",
+        "fundamental"
+      ],
       "correct": 2,
       "explanation": "'Sesgado' means biased. 'Objetivo' = objective, 'equilibrado' = balanced, 'fundamental' = fundamental."
     }

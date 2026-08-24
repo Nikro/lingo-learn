@@ -3,46 +3,366 @@
   "title": "Politics & Society",
   "description": "Discuss governance, rights, social movements, and civic participation with precision and nuance.",
   "vocabulary": [
-    { "id": 1, "target": "el gobierno", "source": "the government", "gender": "m.", "type": "noun" },
-    { "id": 2, "target": "el gobierno central", "source": "the central government", "gender": "m.", "type": "phrase" },
-    { "id": 3, "target": "el gobierno local", "source": "the local government", "gender": "m.", "type": "phrase" },
-    { "id": 4, "target": "la oposición", "source": "the opposition", "gender": "f.", "type": "noun" },
-    { "id": 5, "target": "la coalición", "source": "the coalition", "gender": "f.", "type": "noun" },
-    { "id": 6, "target": "el parlamento", "source": "parliament / congress", "gender": "m.", "type": "noun" },
-    { "id": 7, "target": "la constitución", "source": "the constitution", "gender": "f.", "type": "noun" },
-    { "id": 8, "target": "los derechos civiles", "source": "civil rights", "gender": "m.pl.", "type": "noun" },
-    { "id": 9, "target": "los derechos humanos", "source": "human rights", "gender": "m.pl.", "type": "noun" },
-    { "id": 10, "target": "la igualdad de género", "source": "gender equality", "gender": "f.", "type": "noun" },
-    { "id": 11, "target": "la libertad de expresión", "source": "freedom of speech", "gender": "f.", "type": "noun" },
-    { "id": 12, "target": "la democracia", "source": "democracy", "gender": "f.", "type": "noun" },
-    { "id": 13, "target": "el régimen autoritario", "source": "authoritarian regime", "gender": "m.", "type": "noun" },
-    { "id": 14, "target": "el totalitarismo", "source": "totalitarianism", "gender": "m.", "type": "noun" },
-    { "id": 15, "target": "la dictadura", "source": "dictatorship", "gender": "f.", "type": "noun" },
-    { "id": 16, "target": "la democracia liberal", "source": "liberal democracy", "gender": "f.", "type": "noun" },
-    { "id": 17, "target": "el sufragio universal", "source": "universal suffrage", "gender": "m.", "type": "noun" },
-    { "id": 18, "target": "el voto", "source": "the vote", "gender": "m.", "type": "noun" },
-    { "id": 19, "target": "votar", "source": "to vote", "gender": "v.", "type": "verb" },
-    { "id": 20, "target": "las elecciones", "source": "elections", "gender": "f.pl.", "type": "noun" },
-    { "id": 21, "target": "el candidato/a", "source": "candidate", "gender": "m./f.", "type": "noun" },
-    { "id": 22, "target": "el partido político", "source": "political party", "gender": "m.", "type": "noun" },
-    { "id": 23, "target": "la campaña electoral", "source": "election campaign", "gender": "f.", "type": "noun" },
-    { "id": 24, "target": "la legislación", "source": "legislation", "gender": "f.", "type": "noun" },
-    { "id": 25, "target": "la reforma", "source": "reform", "gender": "f.", "type": "noun" },
-    { "id": 26, "target": "el impuesto / el tributo", "source": "tax / levy", "gender": "m.", "type": "noun" },
-    { "id": 27, "target": "la financiación pública", "source": "public funding", "gender": "f.", "type": "noun" },
-    { "id": 28, "target": "el bienestar social", "source": "social welfare", "gender": "m.", "type": "noun" },
-    { "id": 29, "target": "la seguridad social", "source": "social security", "gender": "f.", "type": "noun" },
-    { "id": 30, "target": "la migración", "source": "migration", "gender": "f.", "type": "noun" },
-    { "id": 31, "target": "el refugiado/a", "source": "refugee", "gender": "m./f.", "type": "noun" },
-    { "id": 32, "target": "la integración", "source": "integration", "gender": "f.", "type": "noun" },
-    { "id": 33, "target": "la exclusión social", "source": "social exclusion", "gender": "f.", "type": "noun" },
-    { "id": 34, "target": "la desigualdad", "source": "inequality", "gender": "f.", "type": "noun" },
-    { "id": 35, "target": "la pobreza", "source": "poverty", "gender": "f.", "type": "noun" },
-    { "id": 36, "target": "la clase media", "source": "middle class", "gender": "f.", "type": "noun" },
-    { "id": 37, "target": "el movimiento social", "source": "social movement", "gender": "m.", "type": "noun" },
-    { "id": 38, "target": "la manifestación", "source": "demonstration / protest", "gender": "f.", "type": "noun" },
-    { "id": 39, "target": "protestar", "source": "to protest", "gender": "v.", "type": "verb" },
-    { "id": 40, "target": "la huelga", "source": "strike", "gender": "f.", "type": "noun" }
+    {
+      "id": 1,
+      "target": "el gobierno",
+      "source": "the government",
+      "gender": "m.",
+      "type": "noun"
+    },
+    {
+      "id": 2,
+      "target": "el gobierno central",
+      "source": "the central government",
+      "gender": "m.",
+      "type": "phrase"
+    },
+    {
+      "id": 3,
+      "target": "el gobierno local",
+      "source": "the local government",
+      "gender": "m.",
+      "type": "phrase"
+    },
+    {
+      "id": 4,
+      "target": "la oposición",
+      "source": "the opposition",
+      "gender": "f.",
+      "type": "noun"
+    },
+    {
+      "id": 5,
+      "target": "la coalición",
+      "source": "the coalition",
+      "gender": "f.",
+      "type": "noun"
+    },
+    {
+      "id": 6,
+      "target": "el parlamento",
+      "source": "parliament / congress",
+      "gender": "m.",
+      "type": "noun"
+    },
+    {
+      "id": 7,
+      "target": "la constitución",
+      "source": "the constitution",
+      "gender": "f.",
+      "type": "noun"
+    },
+    {
+      "id": 8,
+      "target": "los derechos civiles",
+      "source": "civil rights",
+      "gender": "m.pl.",
+      "type": "noun"
+    },
+    {
+      "id": 9,
+      "target": "los derechos humanos",
+      "source": "human rights",
+      "gender": "m.pl.",
+      "type": "noun"
+    },
+    {
+      "id": 10,
+      "target": "la igualdad de género",
+      "source": "gender equality",
+      "gender": "f.",
+      "type": "noun"
+    },
+    {
+      "id": 11,
+      "target": "la libertad de expresión",
+      "source": "freedom of speech",
+      "gender": "f.",
+      "type": "noun"
+    },
+    {
+      "id": 12,
+      "target": "la democracia",
+      "source": "democracy",
+      "gender": "f.",
+      "type": "noun"
+    },
+    {
+      "id": 13,
+      "target": "el régimen autoritario",
+      "source": "authoritarian regime",
+      "gender": "m.",
+      "type": "noun"
+    },
+    {
+      "id": 14,
+      "target": "el totalitarismo",
+      "source": "totalitarianism",
+      "gender": "m.",
+      "type": "noun"
+    },
+    {
+      "id": 15,
+      "target": "la dictadura",
+      "source": "dictatorship",
+      "gender": "f.",
+      "type": "noun"
+    },
+    {
+      "id": 16,
+      "target": "la democracia liberal",
+      "source": "liberal democracy",
+      "gender": "f.",
+      "type": "noun"
+    },
+    {
+      "id": 17,
+      "target": "el sufragio universal",
+      "source": "universal suffrage",
+      "gender": "m.",
+      "type": "noun"
+    },
+    {
+      "id": 18,
+      "target": "el voto",
+      "source": "the vote",
+      "gender": "m.",
+      "type": "noun"
+    },
+    {
+      "id": 19,
+      "target": "votar",
+      "source": "to vote",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 20,
+      "target": "las elecciones",
+      "source": "elections",
+      "gender": "f.pl.",
+      "type": "noun"
+    },
+    {
+      "id": 21,
+      "target": "el candidato/a",
+      "source": "candidate",
+      "gender": "m./f.",
+      "type": "noun"
+    },
+    {
+      "id": 22,
+      "target": "el partido político",
+      "source": "political party",
+      "gender": "m.",
+      "type": "noun"
+    },
+    {
+      "id": 23,
+      "target": "la campaña electoral",
+      "source": "election campaign",
+      "gender": "f.",
+      "type": "noun"
+    },
+    {
+      "id": 24,
+      "target": "la legislación",
+      "source": "legislation",
+      "gender": "f.",
+      "type": "noun"
+    },
+    {
+      "id": 25,
+      "target": "la reforma",
+      "source": "reform",
+      "gender": "f.",
+      "type": "noun"
+    },
+    {
+      "id": 26,
+      "target": "el impuesto / el tributo",
+      "source": "tax / levy",
+      "gender": "m.",
+      "type": "noun"
+    },
+    {
+      "id": 27,
+      "target": "la financiación pública",
+      "source": "public funding",
+      "gender": "f.",
+      "type": "noun"
+    },
+    {
+      "id": 28,
+      "target": "el bienestar social",
+      "source": "social welfare",
+      "gender": "m.",
+      "type": "noun"
+    },
+    {
+      "id": 29,
+      "target": "la seguridad social",
+      "source": "social security",
+      "gender": "f.",
+      "type": "noun"
+    },
+    {
+      "id": 30,
+      "target": "la migración",
+      "source": "migration",
+      "gender": "f.",
+      "type": "noun"
+    },
+    {
+      "id": 31,
+      "target": "el refugiado/a",
+      "source": "refugee",
+      "gender": "m./f.",
+      "type": "noun"
+    },
+    {
+      "id": 32,
+      "target": "la integración",
+      "source": "integration",
+      "gender": "f.",
+      "type": "noun"
+    },
+    {
+      "id": 33,
+      "target": "la exclusión social",
+      "source": "social exclusion",
+      "gender": "f.",
+      "type": "noun"
+    },
+    {
+      "id": 34,
+      "target": "la desigualdad",
+      "source": "inequality",
+      "gender": "f.",
+      "type": "noun"
+    },
+    {
+      "id": 35,
+      "target": "la pobreza",
+      "source": "poverty",
+      "gender": "f.",
+      "type": "noun"
+    },
+    {
+      "id": 36,
+      "target": "la clase media",
+      "source": "middle class",
+      "gender": "f.",
+      "type": "noun"
+    },
+    {
+      "id": 37,
+      "target": "el movimiento social",
+      "source": "social movement",
+      "gender": "m.",
+      "type": "noun"
+    },
+    {
+      "id": 38,
+      "target": "la manifestación",
+      "source": "demonstration / protest",
+      "gender": "f.",
+      "type": "noun"
+    },
+    {
+      "id": 39,
+      "target": "protestar",
+      "source": "to protest",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 40,
+      "target": "la huelga",
+      "source": "strike",
+      "gender": "f.",
+      "type": "noun"
+    },
+    {
+      "target": "la gobernanza",
+      "source": "governance",
+      "type": "noun",
+      "gender": "f.",
+      "example": "La gobernanza internacional se reformará.",
+      "id": 41
+    },
+    {
+      "target": "la transparencia",
+      "source": "transparency",
+      "type": "noun",
+      "gender": "f.",
+      "example": "Exigen transparencia en las cuentas.",
+      "id": 42
+    },
+    {
+      "target": "la corrupción",
+      "source": "corruption",
+      "type": "noun",
+      "gender": "f.",
+      "example": "La corrupción debilita las instituciones.",
+      "id": 43
+    },
+    {
+      "target": "el activismo",
+      "source": "activism",
+      "type": "noun",
+      "gender": "m.",
+      "example": "El activismo digital crece.",
+      "id": 44
+    },
+    {
+      "target": "la justicia social",
+      "source": "social justice",
+      "type": "noun",
+      "gender": "f.",
+      "example": "La justicia social es un objetivo.",
+      "id": 45
+    },
+    {
+      "target": "la soberanía",
+      "source": "sovereignty",
+      "type": "noun",
+      "gender": "f.",
+      "example": "La soberanía alimentaria se debate.",
+      "id": 46
+    },
+    {
+      "target": "el estado de derecho",
+      "source": "the rule of law",
+      "type": "noun",
+      "gender": "m.",
+      "example": "El estado de derecho protege a todos.",
+      "id": 47
+    },
+    {
+      "target": "la descentralización",
+      "source": "devolution / decentralization",
+      "type": "noun",
+      "gender": "f.",
+      "example": "La descentralización reparte el poder.",
+      "id": 48
+    },
+    {
+      "target": "el gasto público",
+      "source": "public spending",
+      "type": "noun",
+      "gender": "m.",
+      "example": "El gasto público se vigila.",
+      "id": 49
+    },
+    {
+      "target": "la austeridad",
+      "source": "austerity",
+      "type": "noun",
+      "gender": "f.",
+      "example": "La austeridad divide al país.",
+      "id": 50
+    }
   ],
   "grammar": [
     {
@@ -73,9 +393,18 @@
       "title": "Rhotics in Political Speech",
       "content": "Political discourse in Spanish is marked by precise articulation of rhotic sounds, which carry weight and authority.\n\nThe rolled R is especially prominent in words like:\n- 'gobierno' (GOH-byer-noh) — the single tap between vowels\n- 'derechos' (deh-REH-chos) — the rolled R at the start\n- 'democracia' (deh-moh-KRAH-see-ah) — the rolled R between vowels\n- 'reforma' (reh-FOR-mah) — the rolled R at the start\n- 'protesta' (proh-TEST-ah) — the single tap\n\nPractice sentences:\n- 'Los derechos humanos son fundamentales para la democracia.'\n- 'La reforma del gobierno es necesaria para la igualdad.'\n\nTip: Spanish speakers emphasize the R in formal speech. Don't tap it — produce a clear trill for words starting with R or with RR.",
       "examples": [
-        { "target": "derechos humanos", "source": "Rolled R at start" },
-        { "target": "democracia", "source": "Rolled R between vowels" },
-        { "target": "reforma", "source": "Rolled R at start" }
+        {
+          "target": "derechos humanos",
+          "source": "Rolled R at start"
+        },
+        {
+          "target": "democracia",
+          "source": "Rolled R between vowels"
+        },
+        {
+          "target": "reforma",
+          "source": "Rolled R at start"
+        }
       ],
       "aid_note": "Romanian R is always rolled (trilled), so this is more about precision. Spanish political speech tends to emphasize R sounds more than conversational speech."
     }
@@ -96,7 +425,12 @@
     {
       "type": "exercise",
       "question": "Which word means 'inequality'?",
-      "options": ["igualdad", "desigualdad", "integración", "libertad"],
+      "options": [
+        "igualdad",
+        "desigualdad",
+        "integración",
+        "libertad"
+      ],
       "correct": 1,
       "explanation": "'Desigualdad' means inequality. 'Igualdad' means equality — the prefix 'des-' negates it."
     },
@@ -104,17 +438,34 @@
       "type": "matching",
       "question": "Match the political term with its meaning:",
       "pairs": [
-        { "target": "la oposición", "source": "the political opposition" },
-        { "target": "el sufragio universal", "source": "universal right to vote" },
-        { "target": "la huelga", "source": "work stoppage / strike" },
-        { "target": "la manifestación", "source": "public demonstration" }
+        {
+          "target": "la oposición",
+          "source": "the political opposition"
+        },
+        {
+          "target": "el sufragio universal",
+          "source": "universal right to vote"
+        },
+        {
+          "target": "la huelga",
+          "source": "work stoppage / strike"
+        },
+        {
+          "target": "la manifestación",
+          "source": "public demonstration"
+        }
       ],
       "explanation": "These are essential terms for discussing politics and civic participation."
     },
     {
       "type": "exercise",
       "question": "What does 'la coalición' mean?",
-      "options": ["The dictatorship", "The coalition", "The legislation", "The constitution"],
+      "options": [
+        "The dictatorship",
+        "The coalition",
+        "The legislation",
+        "The constitution"
+      ],
       "correct": 1,
       "explanation": "'La coalición' means the coalition — a partnership between two or more political parties."
     },
@@ -127,7 +478,12 @@
     {
       "type": "exercise",
       "question": "Which is the correct translation for 'social welfare'?",
-      "options": ["la seguridad social", "el bienestar social", "la clase media", "el sistema público"],
+      "options": [
+        "la seguridad social",
+        "el bienestar social",
+        "la clase media",
+        "el sistema público"
+      ],
       "correct": 1,
       "explanation": "'El bienestar social' = social welfare. 'La seguridad social' = social security (pensions, benefits system)."
     },

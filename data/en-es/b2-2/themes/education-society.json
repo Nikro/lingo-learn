@@ -3,46 +3,366 @@
   "title": "Education & Social Mobility",
   "description": "Discuss educational systems, inequality, and lifelong learning as tools for social change.",
   "vocabulary": [
-    { "id": 1, "target": "el sistema educativo", "source": "the education system", "gender": "m.", "type": "noun" },
-    { "id": 2, "target": "la educación primaria", "source": "primary education", "gender": "f.", "type": "noun" },
-    { "id": 3, "target": "la educación secundaria", "source": "secondary education", "gender": "f.", "type": "noun" },
-    { "id": 4, "target": "la educación superior", "source": "higher education", "gender": "f.", "type": "noun" },
-    { "id": 5, "target": "la universidad", "source": "university", "gender": "f.", "type": "noun" },
-    { "id": 6, "target": "el colegio / el instituto", "source": "school / high school", "gender": "m.", "type": "noun" },
-    { "id": 7, "target": "el profesor / la profesora", "source": "teacher", "gender": "m./f.", "type": "noun" },
-    { "id": 8, "target": "el estudiante", "source": "student", "gender": "m./f.", "type": "noun" },
-    { "id": 9, "target": "el aula", "source": "classroom", "gender": "f.", "type": "noun" },
-    { "id": 10, "target": "el currículum", "source": "curriculum", "gender": "m.", "type": "noun" },
-    { "id": 11, "target": "la asignatura", "source": "subject (course)", "gender": "f.", "type": "noun" },
-    { "id": 12, "target": "el examen", "source": "exam", "gender": "m.", "type": "noun" },
-    { "id": 13, "target": "la nota / la calificación", "source": "grade / mark", "gender": "f.", "type": "noun" },
-    { "id": 14, "target": "la beca", "source": "scholarship", "gender": "f.", "type": "noun" },
-    { "id": 15, "target": "la matrícula", "source": "tuition / enrollment", "gender": "f.", "type": "noun" },
-    { "id": 16, "target": "el título universitario", "source": "university degree", "gender": "m.", "type": "noun" },
-    { "id": 17, "target": "el máster", "source": "master's degree", "gender": "m.", "type": "noun" },
-    { "id": 18, "target": "el doctorado / el PhD", "source": "doctorate / PhD", "gender": "m.", "type": "noun" },
-    { "id": 19, "target": "la alfabetización", "source": "literacy", "gender": "f.", "type": "noun" },
-    { "id": 20, "target": "la brecha educativa", "source": "education gap", "gender": "f.", "type": "noun" },
-    { "id": 21, "target": "la desigualdad educativa", "source": "educational inequality", "gender": "f.", "type": "noun" },
-    { "id": 22, "target": "la movilidad social", "source": "social mobility", "gender": "f.", "type": "noun" },
-    { "id": 23, "target": "la inclusión educativa", "source": "educational inclusion", "gender": "f.", "type": "noun" },
-    { "id": 24, "target": "la educación continua", "source": "continuous / lifelong learning", "gender": "f.", "type": "noun" },
-    { "id": 25, "target": "la formación profesional", "source": "vocational training", "gender": "f.", "type": "noun" },
-    { "id": 26, "target": "el abandono escolar", "source": "school dropout", "gender": "m.", "type": "noun" },
-    { "id": 27, "target": "el rendimiento académico", "source": "academic performance", "gender": "m.", "type": "noun" },
-    { "id": 28, "target": "aprender", "source": "to learn", "gender": "v.", "type": "verb" },
-    { "id": 29, "target": "enseñar", "source": "to teach", "gender": "v.", "type": "verb" },
-    { "id": 30, "target": "evaluar", "source": "to evaluate", "gender": "v.", "type": "verb" },
-    { "id": 31, "target": "graduarse", "source": "to graduate", "gender": "v.", "type": "verb" },
-    { "id": 32, "target": "repetir curso", "source": "to repeat a year", "gender": "—", "type": "phrase" },
-    { "id": 33, "target": "aprobar", "source": "to pass (a course/exam)", "gender": "v.", "type": "verb" },
-    { "id": 34, "target": "reprobar / suspender", "source": "to fail (a course/exam)", "gender": "v.", "type": "verb" },
-    { "id": 35, "target": "acceder a la universidad", "source": "to enter university", "gender": "—", "type": "phrase" },
-    { "id": 36, "target": "el acceso a la educación", "source": "access to education", "gender": "m.", "type": "noun" },
-    { "id": 37, "target": "la inversión en educación", "source": "investment in education", "gender": "f.", "type": "noun" },
-    { "id": 38, "target": "la educación gratuita", "source": "free education", "gender": "f.", "type": "noun" },
-    { "id": 39, "target": "la educación pública", "source": "public education", "gender": "f.", "type": "noun" },
-    { "id": 40, "target": "la educación privada", "source": "private education", "gender": "f.", "type": "noun" }
+    {
+      "id": 1,
+      "target": "el sistema educativo",
+      "source": "the education system",
+      "gender": "m.",
+      "type": "noun"
+    },
+    {
+      "id": 2,
+      "target": "la educación primaria",
+      "source": "primary education",
+      "gender": "f.",
+      "type": "noun"
+    },
+    {
+      "id": 3,
+      "target": "la educación secundaria",
+      "source": "secondary education",
+      "gender": "f.",
+      "type": "noun"
+    },
+    {
+      "id": 4,
+      "target": "la educación superior",
+      "source": "higher education",
+      "gender": "f.",
+      "type": "noun"
+    },
+    {
+      "id": 5,
+      "target": "la universidad",
+      "source": "university",
+      "gender": "f.",
+      "type": "noun"
+    },
+    {
+      "id": 6,
+      "target": "el colegio / el instituto",
+      "source": "school / high school",
+      "gender": "m.",
+      "type": "noun"
+    },
+    {
+      "id": 7,
+      "target": "el profesor / la profesora",
+      "source": "teacher",
+      "gender": "m./f.",
+      "type": "noun"
+    },
+    {
+      "id": 8,
+      "target": "el estudiante",
+      "source": "student",
+      "gender": "m./f.",
+      "type": "noun"
+    },
+    {
+      "id": 9,
+      "target": "el aula",
+      "source": "classroom",
+      "gender": "f.",
+      "type": "noun"
+    },
+    {
+      "id": 10,
+      "target": "el currículum",
+      "source": "curriculum",
+      "gender": "m.",
+      "type": "noun"
+    },
+    {
+      "id": 11,
+      "target": "la asignatura",
+      "source": "subject (course)",
+      "gender": "f.",
+      "type": "noun"
+    },
+    {
+      "id": 12,
+      "target": "el examen",
+      "source": "exam",
+      "gender": "m.",
+      "type": "noun"
+    },
+    {
+      "id": 13,
+      "target": "la nota / la calificación",
+      "source": "grade / mark",
+      "gender": "f.",
+      "type": "noun"
+    },
+    {
+      "id": 14,
+      "target": "la beca",
+      "source": "scholarship",
+      "gender": "f.",
+      "type": "noun"
+    },
+    {
+      "id": 15,
+      "target": "la matrícula",
+      "source": "tuition / enrollment",
+      "gender": "f.",
+      "type": "noun"
+    },
+    {
+      "id": 16,
+      "target": "el título universitario",
+      "source": "university degree",
+      "gender": "m.",
+      "type": "noun"
+    },
+    {
+      "id": 17,
+      "target": "el máster",
+      "source": "master's degree",
+      "gender": "m.",
+      "type": "noun"
+    },
+    {
+      "id": 18,
+      "target": "el doctorado / el PhD",
+      "source": "doctorate / PhD",
+      "gender": "m.",
+      "type": "noun"
+    },
+    {
+      "id": 19,
+      "target": "la alfabetización",
+      "source": "literacy",
+      "gender": "f.",
+      "type": "noun"
+    },
+    {
+      "id": 20,
+      "target": "la brecha educativa",
+      "source": "education gap",
+      "gender": "f.",
+      "type": "noun"
+    },
+    {
+      "id": 21,
+      "target": "la desigualdad educativa",
+      "source": "educational inequality",
+      "gender": "f.",
+      "type": "noun"
+    },
+    {
+      "id": 22,
+      "target": "la movilidad social",
+      "source": "social mobility",
+      "gender": "f.",
+      "type": "noun"
+    },
+    {
+      "id": 23,
+      "target": "la inclusión educativa",
+      "source": "educational inclusion",
+      "gender": "f.",
+      "type": "noun"
+    },
+    {
+      "id": 24,
+      "target": "la educación continua",
+      "source": "continuous / lifelong learning",
+      "gender": "f.",
+      "type": "noun"
+    },
+    {
+      "id": 25,
+      "target": "la formación profesional",
+      "source": "vocational training",
+      "gender": "f.",
+      "type": "noun"
+    },
+    {
+      "id": 26,
+      "target": "el abandono escolar",
+      "source": "school dropout",
+      "gender": "m.",
+      "type": "noun"
+    },
+    {
+      "id": 27,
+      "target": "el rendimiento académico",
+      "source": "academic performance",
+      "gender": "m.",
+      "type": "noun"
+    },
+    {
+      "id": 28,
+      "target": "aprender",
+      "source": "to learn",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 29,
+      "target": "enseñar",
+      "source": "to teach",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 30,
+      "target": "evaluar",
+      "source": "to evaluate",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 31,
+      "target": "graduarse",
+      "source": "to graduate",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 32,
+      "target": "repetir curso",
+      "source": "to repeat a year",
+      "gender": "—",
+      "type": "phrase"
+    },
+    {
+      "id": 33,
+      "target": "aprobar",
+      "source": "to pass (a course/exam)",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 34,
+      "target": "reprobar / suspender",
+      "source": "to fail (a course/exam)",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 35,
+      "target": "acceder a la universidad",
+      "source": "to enter university",
+      "gender": "—",
+      "type": "phrase"
+    },
+    {
+      "id": 36,
+      "target": "el acceso a la educación",
+      "source": "access to education",
+      "gender": "m.",
+      "type": "noun"
+    },
+    {
+      "id": 37,
+      "target": "la inversión en educación",
+      "source": "investment in education",
+      "gender": "f.",
+      "type": "noun"
+    },
+    {
+      "id": 38,
+      "target": "la educación gratuita",
+      "source": "free education",
+      "gender": "f.",
+      "type": "noun"
+    },
+    {
+      "id": 39,
+      "target": "la educación pública",
+      "source": "public education",
+      "gender": "f.",
+      "type": "noun"
+    },
+    {
+      "id": 40,
+      "target": "la educación privada",
+      "source": "private education",
+      "gender": "f.",
+      "type": "noun"
+    },
+    {
+      "target": "el bachillerato",
+      "source": "high school (pre-university)",
+      "type": "noun",
+      "gender": "m.",
+      "example": "Acabó el bachillerato el año pasado.",
+      "id": 41
+    },
+    {
+      "target": "la orientación vocacional",
+      "source": "career guidance",
+      "type": "noun",
+      "gender": "f.",
+      "example": "La orientación vocacional ayuda a elegir.",
+      "id": 42
+    },
+    {
+      "target": "el aprendizaje a distancia",
+      "source": "distance learning",
+      "type": "noun",
+      "gender": "m.",
+      "example": "El aprendizaje a distancia crece.",
+      "id": 43
+    },
+    {
+      "target": "la tutoría",
+      "source": "the tutoring session / academic advising",
+      "type": "noun",
+      "gender": "f.",
+      "example": "Tengo tutoría los martes.",
+      "id": 44
+    },
+    {
+      "target": "el aula virtual",
+      "source": "the virtual classroom",
+      "type": "noun",
+      "gender": "m.",
+      "example": "El aula virtual está abierta 24 horas.",
+      "id": 45
+    },
+    {
+      "target": "el analfabetismo",
+      "source": "illiteracy",
+      "type": "noun",
+      "gender": "m.",
+      "example": "El analfabetismo se reduce poco a poco.",
+      "id": 46
+    },
+    {
+      "target": "la enseñanza bilingüe",
+      "source": "bilingual education",
+      "type": "noun",
+      "gender": "f.",
+      "example": "La enseñanza bilingüe es popular.",
+      "id": 47
+    },
+    {
+      "target": "el aprendizaje significativo",
+      "source": "meaningful learning",
+      "type": "noun",
+      "gender": "m.",
+      "example": "Busca el aprendizaje significativo.",
+      "id": 48
+    },
+    {
+      "target": "la titulación",
+      "source": "the degree / the qualification",
+      "type": "noun",
+      "gender": "f.",
+      "example": "La titulación es un requisito.",
+      "id": 49
+    },
+    {
+      "target": "la formación a distancia",
+      "source": "distance training",
+      "type": "noun",
+      "gender": "f.",
+      "example": "La formación a distancia se expande.",
+      "id": 50
+    }
   ],
   "grammar": [
     {
@@ -73,9 +393,18 @@
       "title": "Academic Vocabulary Stress Patterns",
       "content": "Academic and educational terms in Spanish follow standard stress rules with some distinctive patterns.\n\nKey patterns:\n- Esdrújulas: 'currículum' (kur-ri-KU-lum), 'académico' (a-ka-DE-mi-ko), 'universidad' (u-ni-ver-si-DAD)\n- Graves with -ción: 'educación' (e-du-ka-TEE-on), 'formación' (for-ma-TEE-on), 'calificación' (ka-li-fi-ka-TEE-on)\n- Agudas: 'estudiante' (es-tu-DIAN-te), 'examen' (ek-SA-men), 'asignatura' (a-si-gna-TOO-ra)\n\nPractice:\n- 'La educación es la herramienta más poderosa para el cambio social.'\n- 'El acceso a la universidad depende de muchos factores.'\n- 'La formación profesional es una alternativa válida al bachillerato.'\n\nTip: 'Estudiante' is an aguda (stress on final syllable) ending in -e, so it doesn't carry an accent. This is a common trap for learners — remember: agudas ending in -n, -s, or vowel carry accent; -e is not included.",
       "examples": [
-        { "target": "currículum", "source": "kur-ri-KU-lum (esdrújula)" },
-        { "target": "educación", "source": "e-du-ka-TEE-on (grave con -ción)" },
-        { "target": "estudiante", "source": "es-tu-DIAN-te (aguda)" }
+        {
+          "target": "currículum",
+          "source": "kur-ri-KU-lum (esdrújula)"
+        },
+        {
+          "target": "educación",
+          "source": "e-du-ka-TEE-on (grave con -ción)"
+        },
+        {
+          "target": "estudiante",
+          "source": "es-tu-DIAN-te (aguda)"
+        }
       ],
       "aid_note": "Romanian academic terms: 'educație' (e-du-ka-TEE), 'universitate' (u-ni-ver-si-TA-te). Spanish has more variety in stress patterns due to the esdrújula category."
     }
@@ -84,7 +413,12 @@
     {
       "type": "exercise",
       "question": "What does 'la movilidad social' mean?",
-      "options": ["Social mobility", "Social media", "Social security", "Social work"],
+      "options": [
+        "Social mobility",
+        "Social media",
+        "Social security",
+        "Social work"
+      ],
       "correct": 0,
       "explanation": "'La movilidad social' = social mobility — the ability to move between social classes, often through education."
     },
@@ -98,17 +432,34 @@
       "type": "matching",
       "question": "Match the education terms:",
       "pairs": [
-        { "target": "el abandono escolar", "source": "school dropout" },
-        { "target": "la beca", "source": "scholarship" },
-        { "target": "la matrícula", "source": "tuition / enrollment" },
-        { "target": "el currículum", "source": "curriculum" }
+        {
+          "target": "el abandono escolar",
+          "source": "school dropout"
+        },
+        {
+          "target": "la beca",
+          "source": "scholarship"
+        },
+        {
+          "target": "la matrícula",
+          "source": "tuition / enrollment"
+        },
+        {
+          "target": "el currículum",
+          "source": "curriculum"
+        }
       ],
       "explanation": "These terms are essential for discussing the education system."
     },
     {
       "type": "exercise",
       "question": "Which means 'to fail a course/exam'?",
-      "options": ["aprobar", "reprobar", "graduarse", "inscribirse"],
+      "options": [
+        "aprobar",
+        "reprobar",
+        "graduarse",
+        "inscribirse"
+      ],
       "correct": 1,
       "explanation": "'Reprobar' or 'suspender' means to fail a course or exam. 'Aprobar' means to pass."
     },
@@ -127,14 +478,24 @@
     {
       "type": "exercise",
       "question": "What does 'el currículum' mean?",
-      "options": ["Curriculum (courses of study)", "CV/resume", "Both are correct", "Neither"],
+      "options": [
+        "Curriculum (courses of study)",
+        "CV/resume",
+        "Both are correct",
+        "Neither"
+      ],
       "correct": 2,
       "explanation": "'Currículum' means both the curriculum (courses of study) and the CV/resume, depending on context."
     },
     {
       "type": "exercise",
       "question": "What is 'la brecha educativa'?",
-      "options": ["The education gap", "The education reform", "The education budget", "The education system"],
+      "options": [
+        "The education gap",
+        "The education reform",
+        "The education budget",
+        "The education system"
+      ],
       "correct": 0,
       "explanation": "'La brecha educativa' = the education gap — the disparity in educational opportunities between different social groups."
     }
