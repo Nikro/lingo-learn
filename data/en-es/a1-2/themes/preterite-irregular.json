@@ -142,6 +142,216 @@
       "source": "at that moment",
       "gender": "—",
       "type": "time"
+    },
+    {
+      "id": 21,
+      "target": "ser",
+      "source": "to be / to exist",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 22,
+      "target": "dar",
+      "source": "to give",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 23,
+      "target": "ver",
+      "source": "to see",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 24,
+      "target": "caer",
+      "source": "to fall",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 25,
+      "target": "traer",
+      "source": "to bring",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 26,
+      "target": "el mes pasado",
+      "source": "last month",
+      "gender": "—",
+      "type": "phrase"
+    },
+    {
+      "id": 27,
+      "target": "el día anterior",
+      "source": "the day before",
+      "gender": "—",
+      "type": "phrase"
+    },
+    {
+      "id": 28,
+      "target": "el otro día",
+      "source": "the other day",
+      "gender": "—",
+      "type": "phrase"
+    },
+    {
+      "id": 29,
+      "target": "al día siguiente",
+      "source": "the next day",
+      "gender": "—",
+      "type": "phrase"
+    },
+    {
+      "id": 30,
+      "target": "la semana siguiente",
+      "source": "the following week",
+      "gender": "—",
+      "type": "phrase"
+    },
+    {
+      "id": 31,
+      "target": "mientras tanto",
+      "source": "meanwhile",
+      "gender": "—",
+      "type": "phrase"
+    },
+    {
+      "id": 32,
+      "target": "entonces",
+      "source": "then / at that time",
+      "gender": "—",
+      "type": "adverb"
+    },
+    {
+      "id": 33,
+      "target": "después",
+      "source": "afterward",
+      "gender": "—",
+      "type": "adverb"
+    },
+    {
+      "id": 34,
+      "target": "luego",
+      "source": "then / afterward",
+      "gender": "—",
+      "type": "adverb"
+    },
+    {
+      "id": 35,
+      "target": "primero",
+      "source": "first",
+      "gender": "—",
+      "type": "adverb"
+    },
+    {
+      "id": 36,
+      "target": "por fin",
+      "source": "finally",
+      "gender": "—",
+      "type": "phrase"
+    },
+    {
+      "id": 37,
+      "target": "de repente",
+      "source": "suddenly",
+      "gender": "—",
+      "type": "phrase"
+    },
+    {
+      "id": 38,
+      "target": "mientras",
+      "source": "while",
+      "gender": "—",
+      "type": "preposition"
+    },
+    {
+      "id": 39,
+      "target": "hasta que",
+      "source": "until",
+      "gender": "—",
+      "type": "connector"
+    },
+    {
+      "id": 40,
+      "target": "hace mucho tiempo",
+      "source": "a long time ago",
+      "gender": "—",
+      "type": "phrase"
+    },
+    {
+      "id": 41,
+      "target": "cuando era niño/a",
+      "source": "when I was a child",
+      "gender": "—",
+      "type": "phrase"
+    },
+    {
+      "id": 42,
+      "target": "por la mañana",
+      "source": "in the morning",
+      "gender": "—",
+      "type": "phrase"
+    },
+    {
+      "id": 43,
+      "target": "por la tarde",
+      "source": "in the afternoon",
+      "gender": "—",
+      "type": "phrase"
+    },
+    {
+      "id": 44,
+      "target": "por la noche",
+      "source": "at night",
+      "gender": "—",
+      "type": "phrase"
+    },
+    {
+      "id": 45,
+      "target": "durante",
+      "source": "during",
+      "gender": "—",
+      "type": "preposition"
+    },
+    {
+      "id": 46,
+      "target": "justo entonces",
+      "source": "right at that moment",
+      "gender": "—",
+      "type": "phrase"
+    },
+    {
+      "id": 47,
+      "target": "en cambio",
+      "source": "on the other hand",
+      "gender": "—",
+      "type": "connector"
+    },
+    {
+      "id": 48,
+      "target": "después de",
+      "source": "after",
+      "gender": "—",
+      "type": "preposition"
+    },
+    {
+      "id": 49,
+      "target": "antes de",
+      "source": "before",
+      "gender": "—",
+      "type": "preposition"
+    },
+    {
+      "id": 50,
+      "target": "por eso",
+      "source": "because of that / that's why",
+      "gender": "—",
+      "type": "phrase"
     }
   ],
   "grammar": [
