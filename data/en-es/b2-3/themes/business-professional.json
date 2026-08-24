@@ -3,46 +3,366 @@
   "title": "Business & Professional Correspondence",
   "description": "Formal business communication, professional vocabulary, and correspondence.",
   "vocabulary": [
-    { "id": 1, "target": "el correo electrónico", "source": "email", "gender": "m.", "type": "noun" },
-    { "id": 2, "target": "la reunión", "source": "meeting", "gender": "f.", "type": "noun" },
-    { "id": 3, "target": "la agenda", "source": "agenda", "gender": "f.", "type": "noun" },
-    { "id": 4, "target": "el informe", "source": "report", "gender": "m.", "type": "noun" },
-    { "id": 5, "target": "el presupuesto", "source": "budget", "gender": "m.", "type": "noun" },
-    { "id": 6, "target": "la estrategia", "source": "strategy", "gender": "f.", "type": "noun" },
-    { "id": 7, "target": "la planificación", "source": "planning", "gender": "f.", "type": "noun" },
-    { "id": 8, "target": "el objetivo", "source": "objective", "gender": "m.", "type": "noun" },
-    { "id": 9, "target": "la meta", "source": "goal", "gender": "f.", "type": "noun" },
-    { "id": 10, "target": "el plazo", "source": "deadline", "gender": "m.", "type": "noun" },
-    { "id": 11, "target": "el entregable", "source": "deliverable", "gender": "m.", "type": "noun" },
-    { "id": 12, "target": "el cliente", "source": "client", "gender": "m.", "type": "noun" },
-    { "id": 13, "target": "el proveedor", "source": "supplier", "gender": "m.", "type": "noun" },
-    { "id": 14, "target": "el socio", "source": "partner", "gender": "m.", "type": "noun" },
-    { "id": 15, "target": "el accionista", "source": "shareholder", "gender": "m.", "type": "noun" },
-    { "id": 16, "target": "el director", "source": "director", "gender": "m.", "type": "noun" },
-    { "id": 17, "target": "el gerente", "source": "manager", "gender": "m.", "type": "noun" },
-    { "id": 18, "target": "el empleado", "source": "employee", "gender": "m.", "type": "noun" },
-    { "id": 19, "target": "la empresa", "source": "company / business", "gender": "f.", "type": "noun" },
-    { "id": 20, "target": "la corporación", "source": "corporation", "gender": "f.", "type": "noun" },
-    { "id": 21, "target": "la startup", "source": "startup", "gender": "f.", "type": "noun" },
-    { "id": 22, "target": "la facturación", "source": "invoicing / billing", "gender": "f.", "type": "noun" },
-    { "id": 23, "target": "los ingresos", "source": "revenue / income", "gender": "m.pl.", "type": "noun" },
-    { "id": 24, "target": "los gastos", "source": "expenses", "gender": "m.pl.", "type": "noun" },
-    { "id": 25, "target": "los beneficios", "source": "profits", "gender": "m.pl.", "type": "noun" },
-    { "id": 26, "target": "la inversión", "source": "investment", "gender": "f.", "type": "noun" },
-    { "id": 27, "target": "la pérdida", "source": "loss", "gender": "f.", "type": "noun" },
-    { "id": 28, "target": "la cuota de mercado", "source": "market share", "gender": "f.", "type": "noun" },
-    { "id": 29, "target": "la competencia", "source": "competition", "gender": "f.", "type": "noun" },
-    { "id": 30, "target": "el mercado", "source": "market", "gender": "m.", "type": "noun" },
-    { "id": 31, "target": "formal / formalmente", "source": "formal", "gender": "m./f. / adv.", "type": "adjective" },
-    { "id": 32, "target": "profesional", "source": "professional", "gender": "m./f.", "type": "adjective" },
-    { "id": 33, "target": "eficiente", "source": "efficient", "gender": "m./f.", "type": "adjective" },
-    { "id": 34, "target": "productivo/a", "source": "productive", "gender": "m./f.", "type": "adjective" },
-    { "id": 35, "target": "creíble", "source": "credible", "gender": "m./f.", "type": "adjective" },
-    { "id": 36, "target": "el saludo formal", "source": "formal greeting", "gender": "m.", "type": "noun" },
-    { "id": 37, "target": "el cierre formal", "source": "formal closing", "gender": "m.", "type": "noun" },
-    { "id": 38, "target": "estimado/a", "source": "dear (formal)", "gender": "m./f.", "type": "adjective" },
-    { "id": 39, "target": "atentamente", "source": "sincerely (formal closing)", "gender": "—", "type": "adverb" },
-    { "id": 40, "target": "quedo a su disposición", "source": "I remain at your disposal", "gender": "—", "type": "phrase" }
+    {
+      "id": 1,
+      "target": "el correo electrónico",
+      "source": "email",
+      "gender": "m.",
+      "type": "noun"
+    },
+    {
+      "id": 2,
+      "target": "la reunión",
+      "source": "meeting",
+      "gender": "f.",
+      "type": "noun"
+    },
+    {
+      "id": 3,
+      "target": "la agenda",
+      "source": "agenda",
+      "gender": "f.",
+      "type": "noun"
+    },
+    {
+      "id": 4,
+      "target": "el informe",
+      "source": "report",
+      "gender": "m.",
+      "type": "noun"
+    },
+    {
+      "id": 5,
+      "target": "el presupuesto",
+      "source": "budget",
+      "gender": "m.",
+      "type": "noun"
+    },
+    {
+      "id": 6,
+      "target": "la estrategia",
+      "source": "strategy",
+      "gender": "f.",
+      "type": "noun"
+    },
+    {
+      "id": 7,
+      "target": "la planificación",
+      "source": "planning",
+      "gender": "f.",
+      "type": "noun"
+    },
+    {
+      "id": 8,
+      "target": "el objetivo",
+      "source": "objective",
+      "gender": "m.",
+      "type": "noun"
+    },
+    {
+      "id": 9,
+      "target": "la meta",
+      "source": "goal",
+      "gender": "f.",
+      "type": "noun"
+    },
+    {
+      "id": 10,
+      "target": "el plazo",
+      "source": "deadline",
+      "gender": "m.",
+      "type": "noun"
+    },
+    {
+      "id": 11,
+      "target": "el entregable",
+      "source": "deliverable",
+      "gender": "m.",
+      "type": "noun"
+    },
+    {
+      "id": 12,
+      "target": "el cliente",
+      "source": "client",
+      "gender": "m.",
+      "type": "noun"
+    },
+    {
+      "id": 13,
+      "target": "el proveedor",
+      "source": "supplier",
+      "gender": "m.",
+      "type": "noun"
+    },
+    {
+      "id": 14,
+      "target": "el socio",
+      "source": "partner",
+      "gender": "m.",
+      "type": "noun"
+    },
+    {
+      "id": 15,
+      "target": "el accionista",
+      "source": "shareholder",
+      "gender": "m.",
+      "type": "noun"
+    },
+    {
+      "id": 16,
+      "target": "el director",
+      "source": "director",
+      "gender": "m.",
+      "type": "noun"
+    },
+    {
+      "id": 17,
+      "target": "el gerente",
+      "source": "manager",
+      "gender": "m.",
+      "type": "noun"
+    },
+    {
+      "id": 18,
+      "target": "el empleado",
+      "source": "employee",
+      "gender": "m.",
+      "type": "noun"
+    },
+    {
+      "id": 19,
+      "target": "la empresa",
+      "source": "company / business",
+      "gender": "f.",
+      "type": "noun"
+    },
+    {
+      "id": 20,
+      "target": "la corporación",
+      "source": "corporation",
+      "gender": "f.",
+      "type": "noun"
+    },
+    {
+      "id": 21,
+      "target": "la startup",
+      "source": "startup",
+      "gender": "f.",
+      "type": "noun"
+    },
+    {
+      "id": 22,
+      "target": "la facturación",
+      "source": "invoicing / billing",
+      "gender": "f.",
+      "type": "noun"
+    },
+    {
+      "id": 23,
+      "target": "los ingresos",
+      "source": "revenue / income",
+      "gender": "m.pl.",
+      "type": "noun"
+    },
+    {
+      "id": 24,
+      "target": "los gastos",
+      "source": "expenses",
+      "gender": "m.pl.",
+      "type": "noun"
+    },
+    {
+      "id": 25,
+      "target": "los beneficios",
+      "source": "profits",
+      "gender": "m.pl.",
+      "type": "noun"
+    },
+    {
+      "id": 26,
+      "target": "la inversión",
+      "source": "investment",
+      "gender": "f.",
+      "type": "noun"
+    },
+    {
+      "id": 27,
+      "target": "la pérdida",
+      "source": "loss",
+      "gender": "f.",
+      "type": "noun"
+    },
+    {
+      "id": 28,
+      "target": "la cuota de mercado",
+      "source": "market share",
+      "gender": "f.",
+      "type": "noun"
+    },
+    {
+      "id": 29,
+      "target": "la competencia",
+      "source": "competition",
+      "gender": "f.",
+      "type": "noun"
+    },
+    {
+      "id": 30,
+      "target": "el mercado",
+      "source": "market",
+      "gender": "m.",
+      "type": "noun"
+    },
+    {
+      "id": 31,
+      "target": "formal / formalmente",
+      "source": "formal",
+      "gender": "m./f. / adv.",
+      "type": "adjective"
+    },
+    {
+      "id": 32,
+      "target": "profesional",
+      "source": "professional",
+      "gender": "m./f.",
+      "type": "adjective"
+    },
+    {
+      "id": 33,
+      "target": "eficiente",
+      "source": "efficient",
+      "gender": "m./f.",
+      "type": "adjective"
+    },
+    {
+      "id": 34,
+      "target": "productivo/a",
+      "source": "productive",
+      "gender": "m./f.",
+      "type": "adjective"
+    },
+    {
+      "id": 35,
+      "target": "creíble",
+      "source": "credible",
+      "gender": "m./f.",
+      "type": "adjective"
+    },
+    {
+      "id": 36,
+      "target": "el saludo formal",
+      "source": "formal greeting",
+      "gender": "m.",
+      "type": "noun"
+    },
+    {
+      "id": 37,
+      "target": "el cierre formal",
+      "source": "formal closing",
+      "gender": "m.",
+      "type": "noun"
+    },
+    {
+      "id": 38,
+      "target": "estimado/a",
+      "source": "dear (formal)",
+      "gender": "m./f.",
+      "type": "adjective"
+    },
+    {
+      "id": 39,
+      "target": "atentamente",
+      "source": "sincerely (formal closing)",
+      "gender": "—",
+      "type": "adverb"
+    },
+    {
+      "id": 40,
+      "target": "quedo a su disposición",
+      "source": "I remain at your disposal",
+      "gender": "—",
+      "type": "phrase"
+    },
+    {
+      "target": "la cadena de suministro",
+      "source": "the supply chain",
+      "type": "noun",
+      "gender": "f.",
+      "example": "La cadena de suministro se ha roto.",
+      "id": 41
+    },
+    {
+      "target": "el punto de rentabilidad",
+      "source": "the break-even point",
+      "type": "noun",
+      "gender": "m.",
+      "example": "Llegamos al punto de rentabilidad en junio.",
+      "id": 42
+    },
+    {
+      "target": "la auditoría",
+      "source": "the audit",
+      "type": "noun",
+      "gender": "f.",
+      "example": "La auditoría encontró irregularidades.",
+      "id": 43
+    },
+    {
+      "target": "la cadena de valor",
+      "source": "the value chain",
+      "type": "noun",
+      "gender": "f.",
+      "example": "Optimizaron la cadena de valor.",
+      "id": 44
+    },
+    {
+      "target": "la propuesta de valor",
+      "source": "the value proposition",
+      "type": "noun",
+      "gender": "f.",
+      "example": "La propuesta de valor es clara.",
+      "id": 45
+    },
+    {
+      "target": "el informe financiero",
+      "source": "the financial report",
+      "type": "noun",
+      "gender": "m.",
+      "example": "El informe financiero será público.",
+      "id": 46
+    },
+    {
+      "target": "la negociación",
+      "source": "the negotiation",
+      "type": "noun",
+      "gender": "f.",
+      "example": "La negociación duró tres horas.",
+      "id": 47
+    },
+    {
+      "target": "la gestión de riesgos",
+      "source": "risk management",
+      "type": "noun",
+      "gender": "f.",
+      "example": "La gestión de riesgos es parte del puesto.",
+      "id": 48
+    },
+    {
+      "target": "el capital social",
+      "source": "the share capital",
+      "type": "noun",
+      "gender": "m.",
+      "example": "El capital social se amplió.",
+      "id": 49
+    },
+    {
+      "target": "la cadena de valor",
+      "source": "the value chain",
+      "type": "noun",
+      "gender": "f.",
+      "example": "Optimizaron la cadena de valor.",
+      "id": 50
+    }
   ],
   "grammar": [
     {
@@ -72,9 +392,18 @@
       "title": "Business Vocabulary — Formal Register",
       "content": "Business terms in Spanish are typically pronounced with clear, measured delivery in formal contexts.\n\nKey patterns:\n- 'presupuesto' (pre-su-PUES-to) — stress on penultimate syllable\n- 'estrategia' (es-tra-TE-gi-ah) — esdrújula, stress on -TE-\n- 'eficiente' (e-fi-CIEN-te) — stress on -CIEN-\n- 'independiente' (in-de-pen-DIEN-te) — stress on -DIEN-\n\nPractice:\n- 'El presupuesto trimestral debe revisarse antes de la reunión.'\n- 'La estrategia de mercado necesita ser más eficiente.'\n- 'El equipo independiente entregará los resultados para el viernes.'\n\nTip: Business Spanish is typically spoken more slowly and deliberately than conversational Spanish. Enunciate the final consonants clearly, especially in formal contexts.",
       "examples": [
-        { "target": "estrategia", "source": "es-tra-TE-gi-ah (esdrújula)" },
-        { "target": "presupuesto", "source": "pre-su-PUES-to (grave)" },
-        { "target": "eficiente", "source": "e-fi-CIEN-te (aguda con -nte)" }
+        {
+          "target": "estrategia",
+          "source": "es-tra-TE-gi-ah (esdrújula)"
+        },
+        {
+          "target": "presupuesto",
+          "source": "pre-su-PUES-to (grave)"
+        },
+        {
+          "target": "eficiente",
+          "source": "e-fi-CIEN-te (aguda con -nte)"
+        }
       ],
       "aid_note": "Romanian business terms: 'buget' (BU-get), 'strategie' (stra-TE-gie), 'eficient' (e-fi-CI-ent). Spanish has more varied stress patterns in business vocabulary."
     }
@@ -84,10 +413,22 @@
       "type": "matching",
       "question": "Match the business terms:",
       "pairs": [
-        { "target": "el presupuesto", "source": "budget" },
-        { "target": "la cuota de mercado", "source": "market share" },
-        { "target": "el entregable", "source": "deliverable" },
-        { "target": "la facturación", "source": "invoicing" }
+        {
+          "target": "el presupuesto",
+          "source": "budget"
+        },
+        {
+          "target": "la cuota de mercado",
+          "source": "market share"
+        },
+        {
+          "target": "el entregable",
+          "source": "deliverable"
+        },
+        {
+          "target": "la facturación",
+          "source": "invoicing"
+        }
       ],
       "explanation": "These terms are essential for business communication."
     },

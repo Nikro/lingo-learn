@@ -3,46 +3,366 @@
   "title": "Literature & Literary Analysis",
   "description": "Literary vocabulary, genres, and analysis concepts.",
   "vocabulary": [
-    { "id": 1, "target": "el género literario", "source": "literary genre", "gender": "m.", "type": "noun" },
-    { "id": 2, "target": "la novela", "source": "novel", "gender": "f.", "type": "noun" },
-    { "id": 3, "target": "el cuento", "source": "short story", "gender": "m.", "type": "noun" },
-    { "id": 4, "target": "la poesía", "source": "poetry", "gender": "f.", "type": "noun" },
-    { "id": 5, "target": "el poema", "source": "poem", "gender": "m.", "type": "noun" },
-    { "id": 6, "target": "la dramaturgia", "source": "drama / playwriting", "gender": "f.", "type": "noun" },
-    { "id": 7, "target": "la obra de teatro", "source": "theater play", "gender": "f.", "type": "noun" },
-    { "id": 8, "target": "el prólogo", "source": "prologue / preface", "gender": "m.", "type": "noun" },
-    { "id": 9, "target": "el epílogo", "source": "epilogue", "gender": "m.", "type": "noun" },
-    { "id": 10, "target": "el capítulo", "source": "chapter", "gender": "m.", "type": "noun" },
-    { "id": 11, "target": "el narrador", "source": "narrator", "gender": "m.", "type": "noun" },
-    { "id": 12, "target": "el protagonista", "source": "protagonist", "gender": "m./f.", "type": "noun" },
-    { "id": 13, "target": "el antagonista", "source": "antagonist", "gender": "m./f.", "type": "noun" },
-    { "id": 14, "target": "el personaje secundario", "source": "secondary character", "gender": "m.", "type": "noun" },
-    { "id": 15, "target": "el arco del personaje", "source": "character arc", "gender": "m.", "type": "noun" },
-    { "id": 16, "target": "la trama", "source": "plot", "gender": "f.", "type": "noun" },
-    { "id": 17, "target": "el conflicto", "source": "conflict", "gender": "m.", "type": "noun" },
-    { "id": 18, "target": "el desenlace", "source": "resolution / outcome", "gender": "m.", "type": "noun" },
-    { "id": 19, "target": "el clímax", "source": "climax", "gender": "m.", "type": "noun" },
-    { "id": 20, "target": "el escenario", "source": "setting", "gender": "m.", "type": "noun" },
-    { "id": 21, "target": "la ambientación", "source": "atmosphere / setting", "gender": "f.", "type": "noun" },
-    { "id": 22, "target": "el símbolo", "source": "symbol", "gender": "m.", "type": "noun" },
-    { "id": 23, "target": "la metáfora", "source": "metaphor", "gender": "f.", "type": "noun" },
-    { "id": 24, "target": "el símil", "source": "simile", "gender": "m.", "type": "noun" },
-    { "id": 25, "target": "la alegoría", "source": "allegory", "gender": "f.", "type": "noun" },
-    { "id": 26, "target": "el monólogo interior", "source": "interior monologue", "gender": "m.", "type": "noun" },
-    { "id": 27, "target": "el flujo de conciencia", "source": "stream of consciousness", "gender": "m.", "type": "noun" },
-    { "id": 28, "target": "el realismo mágico", "source": "magical realism", "gender": "m.", "type": "noun" },
-    { "id": 29, "target": "la vanguardia", "source": "avant-garde", "gender": "f.", "type": "noun" },
-    { "id": 30, "target": "la posmodernidad", "source": "postmodernity", "gender": "f.", "type": "noun" },
-    { "id": 31, "target": "el modernismo", "source": "modernism", "gender": "m.", "type": "noun" },
-    { "id": 32, "target": "la generación del 27", "source": "Generation of '27", "gender": "f.", "type": "noun" },
-    { "id": 33, "target": "el Boom latinoamericano", "source": "Latin American Boom", "gender": "m.", "type": "noun" },
-    { "id": 34, "target": "la obra completa", "source": "complete works", "gender": "f.", "type": "noun" },
-    { "id": 35, "target": "la adaptación", "source": "adaptation", "gender": "f.", "type": "noun" },
-    { "id": 36, "target": "interpretar", "source": "to interpret / to interpret a role", "gender": "v.", "type": "verb" },
-    { "id": 37, "target": "analizar", "source": "to analyze", "gender": "v.", "type": "verb" },
-    { "id": 38, "target": "interpretar simbólicamente", "source": "to interpret symbolically", "gender": "—", "type": "phrase" },
-    { "id": 39, "target": "la crítica literaria", "source": "literary criticism", "gender": "f.", "type": "noun" },
-    { "id": 40, "target": "el canon literario", "source": "literary canon", "gender": "m.", "type": "noun" }
+    {
+      "id": 1,
+      "target": "el género literario",
+      "source": "literary genre",
+      "gender": "m.",
+      "type": "noun"
+    },
+    {
+      "id": 2,
+      "target": "la novela",
+      "source": "novel",
+      "gender": "f.",
+      "type": "noun"
+    },
+    {
+      "id": 3,
+      "target": "el cuento",
+      "source": "short story",
+      "gender": "m.",
+      "type": "noun"
+    },
+    {
+      "id": 4,
+      "target": "la poesía",
+      "source": "poetry",
+      "gender": "f.",
+      "type": "noun"
+    },
+    {
+      "id": 5,
+      "target": "el poema",
+      "source": "poem",
+      "gender": "m.",
+      "type": "noun"
+    },
+    {
+      "id": 6,
+      "target": "la dramaturgia",
+      "source": "drama / playwriting",
+      "gender": "f.",
+      "type": "noun"
+    },
+    {
+      "id": 7,
+      "target": "la obra de teatro",
+      "source": "theater play",
+      "gender": "f.",
+      "type": "noun"
+    },
+    {
+      "id": 8,
+      "target": "el prólogo",
+      "source": "prologue / preface",
+      "gender": "m.",
+      "type": "noun"
+    },
+    {
+      "id": 9,
+      "target": "el epílogo",
+      "source": "epilogue",
+      "gender": "m.",
+      "type": "noun"
+    },
+    {
+      "id": 10,
+      "target": "el capítulo",
+      "source": "chapter",
+      "gender": "m.",
+      "type": "noun"
+    },
+    {
+      "id": 11,
+      "target": "el narrador",
+      "source": "narrator",
+      "gender": "m.",
+      "type": "noun"
+    },
+    {
+      "id": 12,
+      "target": "el protagonista",
+      "source": "protagonist",
+      "gender": "m./f.",
+      "type": "noun"
+    },
+    {
+      "id": 13,
+      "target": "el antagonista",
+      "source": "antagonist",
+      "gender": "m./f.",
+      "type": "noun"
+    },
+    {
+      "id": 14,
+      "target": "el personaje secundario",
+      "source": "secondary character",
+      "gender": "m.",
+      "type": "noun"
+    },
+    {
+      "id": 15,
+      "target": "el arco del personaje",
+      "source": "character arc",
+      "gender": "m.",
+      "type": "noun"
+    },
+    {
+      "id": 16,
+      "target": "la trama",
+      "source": "plot",
+      "gender": "f.",
+      "type": "noun"
+    },
+    {
+      "id": 17,
+      "target": "el conflicto",
+      "source": "conflict",
+      "gender": "m.",
+      "type": "noun"
+    },
+    {
+      "id": 18,
+      "target": "el desenlace",
+      "source": "resolution / outcome",
+      "gender": "m.",
+      "type": "noun"
+    },
+    {
+      "id": 19,
+      "target": "el clímax",
+      "source": "climax",
+      "gender": "m.",
+      "type": "noun"
+    },
+    {
+      "id": 20,
+      "target": "el escenario",
+      "source": "setting",
+      "gender": "m.",
+      "type": "noun"
+    },
+    {
+      "id": 21,
+      "target": "la ambientación",
+      "source": "atmosphere / setting",
+      "gender": "f.",
+      "type": "noun"
+    },
+    {
+      "id": 22,
+      "target": "el símbolo",
+      "source": "symbol",
+      "gender": "m.",
+      "type": "noun"
+    },
+    {
+      "id": 23,
+      "target": "la metáfora",
+      "source": "metaphor",
+      "gender": "f.",
+      "type": "noun"
+    },
+    {
+      "id": 24,
+      "target": "el símil",
+      "source": "simile",
+      "gender": "m.",
+      "type": "noun"
+    },
+    {
+      "id": 25,
+      "target": "la alegoría",
+      "source": "allegory",
+      "gender": "f.",
+      "type": "noun"
+    },
+    {
+      "id": 26,
+      "target": "el monólogo interior",
+      "source": "interior monologue",
+      "gender": "m.",
+      "type": "noun"
+    },
+    {
+      "id": 27,
+      "target": "el flujo de conciencia",
+      "source": "stream of consciousness",
+      "gender": "m.",
+      "type": "noun"
+    },
+    {
+      "id": 28,
+      "target": "el realismo mágico",
+      "source": "magical realism",
+      "gender": "m.",
+      "type": "noun"
+    },
+    {
+      "id": 29,
+      "target": "la vanguardia",
+      "source": "avant-garde",
+      "gender": "f.",
+      "type": "noun"
+    },
+    {
+      "id": 30,
+      "target": "la posmodernidad",
+      "source": "postmodernity",
+      "gender": "f.",
+      "type": "noun"
+    },
+    {
+      "id": 31,
+      "target": "el modernismo",
+      "source": "modernism",
+      "gender": "m.",
+      "type": "noun"
+    },
+    {
+      "id": 32,
+      "target": "la generación del 27",
+      "source": "Generation of '27",
+      "gender": "f.",
+      "type": "noun"
+    },
+    {
+      "id": 33,
+      "target": "el Boom latinoamericano",
+      "source": "Latin American Boom",
+      "gender": "m.",
+      "type": "noun"
+    },
+    {
+      "id": 34,
+      "target": "la obra completa",
+      "source": "complete works",
+      "gender": "f.",
+      "type": "noun"
+    },
+    {
+      "id": 35,
+      "target": "la adaptación",
+      "source": "adaptation",
+      "gender": "f.",
+      "type": "noun"
+    },
+    {
+      "id": 36,
+      "target": "interpretar",
+      "source": "to interpret / to interpret a role",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 37,
+      "target": "analizar",
+      "source": "to analyze",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 38,
+      "target": "interpretar simbólicamente",
+      "source": "to interpret symbolically",
+      "gender": "—",
+      "type": "phrase"
+    },
+    {
+      "id": 39,
+      "target": "la crítica literaria",
+      "source": "literary criticism",
+      "gender": "f.",
+      "type": "noun"
+    },
+    {
+      "id": 40,
+      "target": "el canon literario",
+      "source": "literary canon",
+      "gender": "m.",
+      "type": "noun"
+    },
+    {
+      "target": "el narrador omnisciente",
+      "source": "the omniscient narrator",
+      "type": "noun",
+      "gender": "m.",
+      "example": "El narrador omnisciente sabe todo.",
+      "id": 41
+    },
+    {
+      "target": "el narrador en primera persona",
+      "source": "the first-person narrator",
+      "type": "noun",
+      "gender": "m.",
+      "example": "El narrador en primera persona es protagonista.",
+      "id": 42
+    },
+    {
+      "target": "la estructura narrativa",
+      "source": "the narrative structure",
+      "type": "noun",
+      "gender": "f.",
+      "example": "La estructura narrativa es no lineal.",
+      "id": 43
+    },
+    {
+      "target": "el punto de vista",
+      "source": "the point of view",
+      "type": "noun",
+      "gender": "m.",
+      "example": "El punto de vista cambia con cada capítulo.",
+      "id": 44
+    },
+    {
+      "target": "la voz narrativa",
+      "source": "the narrative voice",
+      "type": "noun",
+      "gender": "f.",
+      "example": "La voz narrativa es irónica.",
+      "id": 45
+    },
+    {
+      "target": "el nudo",
+      "source": "the knot / the rising action",
+      "type": "noun",
+      "gender": "m.",
+      "example": "El nudo complica la trama.",
+      "id": 46
+    },
+    {
+      "target": "el planteamiento",
+      "source": "the setup / the exposition",
+      "type": "noun",
+      "gender": "m.",
+      "example": "El planteamiento introduce los personajes.",
+      "id": 47
+    },
+    {
+      "target": "la interpretación simbólica",
+      "source": "the symbolic interpretation",
+      "type": "noun",
+      "gender": "f.",
+      "example": "La interpretación simbólica abre el texto.",
+      "id": 48
+    },
+    {
+      "target": "el narrador en primera persona",
+      "source": "the first-person narrator",
+      "type": "noun",
+      "gender": "m.",
+      "example": "El narrador en primera persona es protagonista.",
+      "id": 49
+    },
+    {
+      "target": "el punto de vista",
+      "source": "the point of view",
+      "type": "noun",
+      "gender": "m.",
+      "example": "El punto de vista cambia con cada capítulo.",
+      "id": 50
+    }
   ],
   "grammar": [
     {
@@ -72,9 +392,18 @@
       "title": "Literary Terms — Stress & Rhythm",
       "content": "Literary vocabulary in Spanish follows standard stress rules with some distinctive patterns.\n\nKey patterns:\n- Esdrújulas: 'poesía' (po-e-SÍ-ah), 'narrador' (na-rra-DO-r), 'metáfora' (me-ta-FOR-ah)\n- Graves with -ción: 'novela' (no-VE-la), 'cuento' (CUEN-to), 'poema' (po-E-ma)\n- Graves ending in -ma (Greek loanwords): 'tema' (TE-ma), 'problema' (pro-BLE-ma), 'enigma' (e-NI-gma)\n\nPractice:\n- 'La obra de García Márquez es un ejemplo de realismo mágico.'\n- 'El narrador de esta novela es un personaje secundario.'\n- 'La metáfora del río simboliza el paso del tiempo.'\n\nTip: Greek loanwords ending in -ma, -ma, -ma are always stressed on the penultimate syllable. This includes 'tema', 'problema', 'enigma', 'dogma', 'carisma'.",
       "examples": [
-        { "target": "metáfora", "source": "me-ta-FOR-ah (esdrújula)" },
-        { "target": "enigma", "source": "e-NI-gma (grave con -ma)" },
-        { "target": "novela", "source": "no-VE-la (grave)" }
+        {
+          "target": "metáfora",
+          "source": "me-ta-FOR-ah (esdrújula)"
+        },
+        {
+          "target": "enigma",
+          "source": "e-NI-gma (grave con -ma)"
+        },
+        {
+          "target": "novela",
+          "source": "no-VE-la (grave)"
+        }
       ],
       "aid_note": "Romanian literary terms: 'poesie' (po-e-SIE), 'narator' (na-RA-tor), 'metaforă' (me-ta-FO-ră). Greek loanwords in Romanian also follow similar stress patterns."
     }
@@ -96,11 +425,26 @@
       "type": "matching",
       "question": "Match the literary terms:",
       "pairs": [
-        { "target": "el protagonista", "source": "main character" },
-        { "target": "el antagonista", "source": "opposing character" },
-        { "target": "la trama", "source": "plot" },
-        { "target": "el clímax", "source": "highest point of tension" },
-        { "target": "el narrador", "source": "story teller" }
+        {
+          "target": "el protagonista",
+          "source": "main character"
+        },
+        {
+          "target": "el antagonista",
+          "source": "opposing character"
+        },
+        {
+          "target": "la trama",
+          "source": "plot"
+        },
+        {
+          "target": "el clímax",
+          "source": "highest point of tension"
+        },
+        {
+          "target": "el narrador",
+          "source": "story teller"
+        }
       ],
       "explanation": "These terms are essential for literary analysis."
     },
@@ -149,7 +493,12 @@
     {
       "type": "exercise",
       "question": "Which word is an esdrújula?",
-      "options": ["novela", "metáfora", "cuento", "poema"],
+      "options": [
+        "novela",
+        "metáfora",
+        "cuento",
+        "poema"
+      ],
       "correct": 1,
       "explanation": "'Metáfora' (me-ta-FOR-ah) is an esdrújula — stress on the antepenultimate syllable, always carrying an accent mark."
     }

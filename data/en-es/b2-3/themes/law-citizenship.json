@@ -3,46 +3,366 @@
   "title": "Law & Civic Engagement",
   "description": "Legal vocabulary, civic terminology, and democratic participation.",
   "vocabulary": [
-    { "id": 1, "target": "la ley", "source": "law", "gender": "f.", "type": "noun" },
-    { "id": 2, "target": "el derecho", "source": "right / law", "gender": "m.", "type": "noun" },
-    { "id": 3, "target": "la constitución", "source": "constitution", "gender": "f.", "type": "noun" },
-    { "id": 4, "target": "el ciudadano", "source": "citizen", "gender": "m.", "type": "noun" },
-    { "id": 5, "target": "la ciudadanía", "source": "citizenship", "gender": "f.", "type": "noun" },
-    { "id": 6, "target": "el voto", "source": "vote", "gender": "m.", "type": "noun" },
-    { "id": 7, "target": "el juez", "source": "judge", "gender": "m.", "type": "noun" },
-    { "id": 8, "target": "la corte", "source": "court", "gender": "f.", "type": "noun" },
-    { "id": 9, "target": "el tribunal", "source": "tribunal", "gender": "m.", "type": "noun" },
-    { "id": 10, "target": "el abogado", "source": "lawyer", "gender": "m.", "type": "noun" },
-    { "id": 11, "target": "la abogada", "source": "lawyer (f.)", "gender": "f.", "type": "noun" },
-    { "id": 12, "target": "la sentencia", "source": "sentence / ruling", "gender": "f.", "type": "noun" },
-    { "id": 13, "target": "la pena", "source": "penalty", "gender": "f.", "type": "noun" },
-    { "id": 14, "target": "la multa", "source": "fine", "gender": "f.", "type": "noun" },
-    { "id": 15, "target": "la prisión", "source": "prison", "gender": "f.", "type": "noun" },
-    { "id": 16, "target": "el delito", "source": "crime", "gender": "m.", "type": "noun" },
-    { "id": 17, "target": "la infracción", "source": "offense", "gender": "f.", "type": "noun" },
-    { "id": 18, "target": "el delito penal", "source": "criminal offense", "gender": "m.", "type": "noun" },
-    { "id": 19, "target": "la responsabilidad civil", "source": "civil liability", "gender": "f.", "type": "noun" },
-    { "id": 20, "target": "el contrato", "source": "contract", "gender": "m.", "type": "noun" },
-    { "id": 21, "target": "la obligación", "source": "obligation", "gender": "f.", "type": "noun" },
-    { "id": 22, "target": "el privilegio", "source": "privilege", "gender": "m.", "type": "noun" },
-    { "id": 23, "target": "la inmunidad", "source": "immunity", "gender": "f.", "type": "noun" },
-    { "id": 24, "target": "la democracia", "source": "democracy", "gender": "f.", "type": "noun" },
-    { "id": 25, "target": "el gobierno", "source": "government", "gender": "m.", "type": "noun" },
-    { "id": 26, "target": "el parlamento", "source": "parliament", "gender": "m.", "type": "noun" },
-    { "id": 27, "target": "la legislatura", "source": "legislature", "gender": "f.", "type": "noun" },
-    { "id": 28, "target": "la autoridad", "source": "authority", "gender": "f.", "type": "noun" },
-    { "id": 29, "target": "el reglamento", "source": "regulation", "gender": "m.", "type": "noun" },
-    { "id": 30, "target": "la protección", "source": "protection", "gender": "f.", "type": "noun" },
-    { "id": 31, "target": "el deber", "source": "duty", "gender": "m.", "type": "noun" },
-    { "id": 32, "target": "la igualdad", "source": "equality", "gender": "f.", "type": "noun" },
-    { "id": 33, "target": "la justicia", "source": "justice", "gender": "f.", "type": "noun" },
-    { "id": 34, "target": "defender", "source": "to defend", "gender": "v.", "type": "verb" },
-    { "id": 35, "target": "cumplir la ley", "source": "to comply with the law", "gender": "v.", "type": "verb" },
-    { "id": 36, "target": "votar", "source": "to vote", "gender": "v.", "type": "verb" },
-    { "id": 37, "target": "legislar", "source": "to legislate", "gender": "v.", "type": "verb" },
-    { "id": 38, "target": "impugnar", "source": "to challenge / appeal", "gender": "v.", "type": "verb" },
-    { "id": 39, "target": "proteger los derechos", "source": "to protect rights", "gender": "v.", "type": "verb" },
-    { "id": 40, "target": "el recurso", "source": "appeal / legal recourse", "gender": "m.", "type": "noun" }
+    {
+      "id": 1,
+      "target": "la ley",
+      "source": "law",
+      "gender": "f.",
+      "type": "noun"
+    },
+    {
+      "id": 2,
+      "target": "el derecho",
+      "source": "right / law",
+      "gender": "m.",
+      "type": "noun"
+    },
+    {
+      "id": 3,
+      "target": "la constitución",
+      "source": "constitution",
+      "gender": "f.",
+      "type": "noun"
+    },
+    {
+      "id": 4,
+      "target": "el ciudadano",
+      "source": "citizen",
+      "gender": "m.",
+      "type": "noun"
+    },
+    {
+      "id": 5,
+      "target": "la ciudadanía",
+      "source": "citizenship",
+      "gender": "f.",
+      "type": "noun"
+    },
+    {
+      "id": 6,
+      "target": "el voto",
+      "source": "vote",
+      "gender": "m.",
+      "type": "noun"
+    },
+    {
+      "id": 7,
+      "target": "el juez",
+      "source": "judge",
+      "gender": "m.",
+      "type": "noun"
+    },
+    {
+      "id": 8,
+      "target": "la corte",
+      "source": "court",
+      "gender": "f.",
+      "type": "noun"
+    },
+    {
+      "id": 9,
+      "target": "el tribunal",
+      "source": "tribunal",
+      "gender": "m.",
+      "type": "noun"
+    },
+    {
+      "id": 10,
+      "target": "el abogado",
+      "source": "lawyer",
+      "gender": "m.",
+      "type": "noun"
+    },
+    {
+      "id": 11,
+      "target": "la abogada",
+      "source": "lawyer (f.)",
+      "gender": "f.",
+      "type": "noun"
+    },
+    {
+      "id": 12,
+      "target": "la sentencia",
+      "source": "sentence / ruling",
+      "gender": "f.",
+      "type": "noun"
+    },
+    {
+      "id": 13,
+      "target": "la pena",
+      "source": "penalty",
+      "gender": "f.",
+      "type": "noun"
+    },
+    {
+      "id": 14,
+      "target": "la multa",
+      "source": "fine",
+      "gender": "f.",
+      "type": "noun"
+    },
+    {
+      "id": 15,
+      "target": "la prisión",
+      "source": "prison",
+      "gender": "f.",
+      "type": "noun"
+    },
+    {
+      "id": 16,
+      "target": "el delito",
+      "source": "crime",
+      "gender": "m.",
+      "type": "noun"
+    },
+    {
+      "id": 17,
+      "target": "la infracción",
+      "source": "offense",
+      "gender": "f.",
+      "type": "noun"
+    },
+    {
+      "id": 18,
+      "target": "el delito penal",
+      "source": "criminal offense",
+      "gender": "m.",
+      "type": "noun"
+    },
+    {
+      "id": 19,
+      "target": "la responsabilidad civil",
+      "source": "civil liability",
+      "gender": "f.",
+      "type": "noun"
+    },
+    {
+      "id": 20,
+      "target": "el contrato",
+      "source": "contract",
+      "gender": "m.",
+      "type": "noun"
+    },
+    {
+      "id": 21,
+      "target": "la obligación",
+      "source": "obligation",
+      "gender": "f.",
+      "type": "noun"
+    },
+    {
+      "id": 22,
+      "target": "el privilegio",
+      "source": "privilege",
+      "gender": "m.",
+      "type": "noun"
+    },
+    {
+      "id": 23,
+      "target": "la inmunidad",
+      "source": "immunity",
+      "gender": "f.",
+      "type": "noun"
+    },
+    {
+      "id": 24,
+      "target": "la democracia",
+      "source": "democracy",
+      "gender": "f.",
+      "type": "noun"
+    },
+    {
+      "id": 25,
+      "target": "el gobierno",
+      "source": "government",
+      "gender": "m.",
+      "type": "noun"
+    },
+    {
+      "id": 26,
+      "target": "el parlamento",
+      "source": "parliament",
+      "gender": "m.",
+      "type": "noun"
+    },
+    {
+      "id": 27,
+      "target": "la legislatura",
+      "source": "legislature",
+      "gender": "f.",
+      "type": "noun"
+    },
+    {
+      "id": 28,
+      "target": "la autoridad",
+      "source": "authority",
+      "gender": "f.",
+      "type": "noun"
+    },
+    {
+      "id": 29,
+      "target": "el reglamento",
+      "source": "regulation",
+      "gender": "m.",
+      "type": "noun"
+    },
+    {
+      "id": 30,
+      "target": "la protección",
+      "source": "protection",
+      "gender": "f.",
+      "type": "noun"
+    },
+    {
+      "id": 31,
+      "target": "el deber",
+      "source": "duty",
+      "gender": "m.",
+      "type": "noun"
+    },
+    {
+      "id": 32,
+      "target": "la igualdad",
+      "source": "equality",
+      "gender": "f.",
+      "type": "noun"
+    },
+    {
+      "id": 33,
+      "target": "la justicia",
+      "source": "justice",
+      "gender": "f.",
+      "type": "noun"
+    },
+    {
+      "id": 34,
+      "target": "defender",
+      "source": "to defend",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 35,
+      "target": "cumplir la ley",
+      "source": "to comply with the law",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 36,
+      "target": "votar",
+      "source": "to vote",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 37,
+      "target": "legislar",
+      "source": "to legislate",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 38,
+      "target": "impugnar",
+      "source": "to challenge / appeal",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 39,
+      "target": "proteger los derechos",
+      "source": "to protect rights",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 40,
+      "target": "el recurso",
+      "source": "appeal / legal recourse",
+      "gender": "m.",
+      "type": "noun"
+    },
+    {
+      "target": "la acusación",
+      "source": "the prosecution / the charge",
+      "type": "noun",
+      "gender": "f.",
+      "example": "La acusación presentó pruebas.",
+      "id": 41
+    },
+    {
+      "target": "la defensa",
+      "source": "the defense",
+      "type": "noun",
+      "gender": "f.",
+      "example": "La defensa pidió la absolución.",
+      "id": 42
+    },
+    {
+      "target": "el jurado",
+      "source": "the jury",
+      "type": "noun",
+      "gender": "m.",
+      "example": "El jurado deliberó durante horas.",
+      "id": 43
+    },
+    {
+      "target": "la absolución",
+      "source": "the acquittal",
+      "type": "noun",
+      "gender": "f.",
+      "example": "Hubo absolución por falta de pruebas.",
+      "id": 44
+    },
+    {
+      "target": "la condena",
+      "source": "the conviction / the sentence",
+      "type": "noun",
+      "gender": "f.",
+      "example": "La condena fue de cinco años.",
+      "id": 45
+    },
+    {
+      "target": "el testimonio",
+      "source": "the testimony",
+      "type": "noun",
+      "gender": "m.",
+      "example": "El testimonio del testigo era clave.",
+      "id": 46
+    },
+    {
+      "target": "la fianza",
+      "source": "the bail",
+      "type": "noun",
+      "gender": "f.",
+      "example": "Pagó la fianza y salió en libertad.",
+      "id": 47
+    },
+    {
+      "target": "el arresto",
+      "source": "the arrest",
+      "type": "noun",
+      "gender": "m.",
+      "example": "El arresto fue sin incidentes.",
+      "id": 48
+    },
+    {
+      "target": "el juicio oral",
+      "source": "the oral trial",
+      "type": "noun",
+      "gender": "m.",
+      "example": "El juicio oral se celebrará en octubre.",
+      "id": 49
+    },
+    {
+      "target": "la apelación",
+      "source": "the appeal",
+      "type": "noun",
+      "gender": "f.",
+      "example": "Presentó la apelación a tiempo.",
+      "id": 50
+    }
   ],
   "grammar": [
     {
@@ -71,9 +391,18 @@
       "title": "Legal Terms — Formal Register",
       "content": "Legal terms require clear, formal pronunciation.\n\nKey terms:\n- constitución (con-sti-tu-SY-on)\n- responsabilidad (re-spon-sa-bi-li-DAD)\n- inmunidad (i-mu-ni-DAD)\n\nPractice:\n- La constitución garantiza los derechos fundamentales.\n- Es obligatorio que los ciudadanos cumplan con la ley.\n\nTip: Legal Spanish uses measured, formal delivery. Emphasize syllable boundaries for complex terms.",
       "examples": [
-        { "target": "constitución", "source": "con-sti-tu-SY-on" },
-        { "target": "responsabilidad", "source": "re-spon-sa-bi-li-DAD" },
-        { "target": "inmunidad", "source": "i-mu-ni-DAD" }
+        {
+          "target": "constitución",
+          "source": "con-sti-tu-SY-on"
+        },
+        {
+          "target": "responsabilidad",
+          "source": "re-spon-sa-bi-li-DAD"
+        },
+        {
+          "target": "inmunidad",
+          "source": "i-mu-ni-DAD"
+        }
       ],
       "aid_note": "Romanian: 'constituție', 'responsabilitate', 'imunitate' — similar vocabulary, different stress."
     }
@@ -83,10 +412,22 @@
       "type": "matching",
       "question": "Match the legal terms:",
       "pairs": [
-        { "target": "la constitución", "source": "constitution" },
-        { "target": "la sentencia", "source": "sentence / ruling" },
-        { "target": "la infracción", "source": "offense" },
-        { "target": "el recurso", "source": "appeal" }
+        {
+          "target": "la constitución",
+          "source": "constitution"
+        },
+        {
+          "target": "la sentencia",
+          "source": "sentence / ruling"
+        },
+        {
+          "target": "la infracción",
+          "source": "offense"
+        },
+        {
+          "target": "el recurso",
+          "source": "appeal"
+        }
       ],
       "explanation": "These terms are essential for legal discourse."
     },

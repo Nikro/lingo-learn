@@ -3,46 +3,366 @@
   "title": "Science & Research Terminology",
   "description": "Scientific vocabulary, research methods, and academic terminology.",
   "vocabulary": [
-    { "id": 1, "target": "la ciencia", "source": "science", "gender": "f.", "type": "noun" },
-    { "id": 2, "target": "el experimento", "source": "experiment", "gender": "m.", "type": "noun" },
-    { "id": 3, "target": "la hipótesis", "source": "hypothesis", "gender": "f.", "type": "noun" },
-    { "id": 4, "target": "la variable", "source": "variable", "gender": "f.", "type": "noun" },
-    { "id": 5, "target": "el control", "source": "control", "gender": "m.", "type": "noun" },
-    { "id": 6, "target": "la muestra", "source": "sample", "gender": "f.", "type": "noun" },
-    { "id": 7, "target": "el resultado", "source": "result", "gender": "m.", "type": "noun" },
-    { "id": 8, "target": "el dato", "source": "data point", "gender": "m.", "type": "noun" },
-    { "id": 9, "target": "la evidencia", "source": "evidence", "gender": "f.", "type": "noun" },
-    { "id": 10, "target": "la conclusión", "source": "conclusion", "gender": "f.", "type": "noun" },
-    { "id": 11, "target": "la teoría", "source": "theory", "gender": "f.", "type": "noun" },
-    { "id": 12, "target": "la ley científica", "source": "scientific law", "gender": "f.", "type": "noun" },
-    { "id": 13, "target": "el descubrimiento", "source": "discovery", "gender": "m.", "type": "noun" },
-    { "id": 14, "target": "la innovación", "source": "innovation", "gender": "f.", "type": "noun" },
-    { "id": 15, "target": "la tecnología", "source": "technology", "gender": "f.", "type": "noun" },
-    { "id": 16, "target": "el método científico", "source": "scientific method", "gender": "m.", "type": "noun" },
-    { "id": 17, "target": "la observación", "source": "observation", "gender": "f.", "type": "noun" },
-    { "id": 18, "target": "la medición", "source": "measurement", "gender": "f.", "type": "noun" },
-    { "id": 19, "target": "el análisis", "source": "analysis", "gender": "m.", "type": "noun" },
-    { "id": 20, "target": "la correlación", "source": "correlation", "gender": "f.", "type": "noun" },
-    { "id": 21, "target": "la causalidad", "source": "causality", "gender": "f.", "type": "noun" },
-    { "id": 22, "target": "la reproducibilidad", "source": "reproducibility", "gender": "f.", "type": "noun" },
-    { "id": 23, "target": "la validez", "source": "validity", "gender": "f.", "type": "noun" },
-    { "id": 24, "target": "la fiabilidad", "source": "reliability", "gender": "f.", "type": "noun" },
-    { "id": 25, "target": "el sesgo", "source": "bias", "gender": "m.", "type": "noun" },
-    { "id": 26, "target": "la estadística", "source": "statistics", "gender": "f.", "type": "noun" },
-    { "id": 27, "target": "el porcentaje", "source": "percentage", "gender": "m.", "type": "noun" },
-    { "id": 28, "target": "el promedio", "source": "average / mean", "gender": "m.", "type": "noun" },
-    { "id": 29, "target": "la desviación estándar", "source": "standard deviation", "gender": "f.", "type": "noun" },
-    { "id": 30, "target": "la muestra aleatoria", "source": "random sample", "gender": "f.", "type": "noun" },
-    { "id": 31, "target": "la muestra representativa", "source": "representative sample", "gender": "f.", "type": "noun" },
-    { "id": 32, "target": "la replicación", "source": "replication", "gender": "f.", "type": "noun" },
-    { "id": 33, "target": "el laboratorio", "source": "laboratory", "gender": "m.", "type": "noun" },
-    { "id": 34, "target": "el instrumento", "source": "instrument", "gender": "m.", "type": "noun" },
-    { "id": 35, "target": "el protocolo", "source": "protocol", "gender": "m.", "type": "noun" },
-    { "id": 36, "target": "validar", "source": "to validate", "gender": "v.", "type": "verb" },
-    { "id": 37, "target": "hipotetizar", "source": "to hypothesize", "gender": "v.", "type": "verb" },
-    { "id": 38, "target": "medir", "source": "to measure", "gender": "v.", "type": "verb" },
-    { "id": 39, "target": "reproducir", "source": "to reproduce", "gender": "v.", "type": "verb" },
-    { "id": 40, "target": "generalizar", "source": "to generalize", "gender": "v.", "type": "verb" }
+    {
+      "id": 1,
+      "target": "la ciencia",
+      "source": "science",
+      "gender": "f.",
+      "type": "noun"
+    },
+    {
+      "id": 2,
+      "target": "el experimento",
+      "source": "experiment",
+      "gender": "m.",
+      "type": "noun"
+    },
+    {
+      "id": 3,
+      "target": "la hipótesis",
+      "source": "hypothesis",
+      "gender": "f.",
+      "type": "noun"
+    },
+    {
+      "id": 4,
+      "target": "la variable",
+      "source": "variable",
+      "gender": "f.",
+      "type": "noun"
+    },
+    {
+      "id": 5,
+      "target": "el control",
+      "source": "control",
+      "gender": "m.",
+      "type": "noun"
+    },
+    {
+      "id": 6,
+      "target": "la muestra",
+      "source": "sample",
+      "gender": "f.",
+      "type": "noun"
+    },
+    {
+      "id": 7,
+      "target": "el resultado",
+      "source": "result",
+      "gender": "m.",
+      "type": "noun"
+    },
+    {
+      "id": 8,
+      "target": "el dato",
+      "source": "data point",
+      "gender": "m.",
+      "type": "noun"
+    },
+    {
+      "id": 9,
+      "target": "la evidencia",
+      "source": "evidence",
+      "gender": "f.",
+      "type": "noun"
+    },
+    {
+      "id": 10,
+      "target": "la conclusión",
+      "source": "conclusion",
+      "gender": "f.",
+      "type": "noun"
+    },
+    {
+      "id": 11,
+      "target": "la teoría",
+      "source": "theory",
+      "gender": "f.",
+      "type": "noun"
+    },
+    {
+      "id": 12,
+      "target": "la ley científica",
+      "source": "scientific law",
+      "gender": "f.",
+      "type": "noun"
+    },
+    {
+      "id": 13,
+      "target": "el descubrimiento",
+      "source": "discovery",
+      "gender": "m.",
+      "type": "noun"
+    },
+    {
+      "id": 14,
+      "target": "la innovación",
+      "source": "innovation",
+      "gender": "f.",
+      "type": "noun"
+    },
+    {
+      "id": 15,
+      "target": "la tecnología",
+      "source": "technology",
+      "gender": "f.",
+      "type": "noun"
+    },
+    {
+      "id": 16,
+      "target": "el método científico",
+      "source": "scientific method",
+      "gender": "m.",
+      "type": "noun"
+    },
+    {
+      "id": 17,
+      "target": "la observación",
+      "source": "observation",
+      "gender": "f.",
+      "type": "noun"
+    },
+    {
+      "id": 18,
+      "target": "la medición",
+      "source": "measurement",
+      "gender": "f.",
+      "type": "noun"
+    },
+    {
+      "id": 19,
+      "target": "el análisis",
+      "source": "analysis",
+      "gender": "m.",
+      "type": "noun"
+    },
+    {
+      "id": 20,
+      "target": "la correlación",
+      "source": "correlation",
+      "gender": "f.",
+      "type": "noun"
+    },
+    {
+      "id": 21,
+      "target": "la causalidad",
+      "source": "causality",
+      "gender": "f.",
+      "type": "noun"
+    },
+    {
+      "id": 22,
+      "target": "la reproducibilidad",
+      "source": "reproducibility",
+      "gender": "f.",
+      "type": "noun"
+    },
+    {
+      "id": 23,
+      "target": "la validez",
+      "source": "validity",
+      "gender": "f.",
+      "type": "noun"
+    },
+    {
+      "id": 24,
+      "target": "la fiabilidad",
+      "source": "reliability",
+      "gender": "f.",
+      "type": "noun"
+    },
+    {
+      "id": 25,
+      "target": "el sesgo",
+      "source": "bias",
+      "gender": "m.",
+      "type": "noun"
+    },
+    {
+      "id": 26,
+      "target": "la estadística",
+      "source": "statistics",
+      "gender": "f.",
+      "type": "noun"
+    },
+    {
+      "id": 27,
+      "target": "el porcentaje",
+      "source": "percentage",
+      "gender": "m.",
+      "type": "noun"
+    },
+    {
+      "id": 28,
+      "target": "el promedio",
+      "source": "average / mean",
+      "gender": "m.",
+      "type": "noun"
+    },
+    {
+      "id": 29,
+      "target": "la desviación estándar",
+      "source": "standard deviation",
+      "gender": "f.",
+      "type": "noun"
+    },
+    {
+      "id": 30,
+      "target": "la muestra aleatoria",
+      "source": "random sample",
+      "gender": "f.",
+      "type": "noun"
+    },
+    {
+      "id": 31,
+      "target": "la muestra representativa",
+      "source": "representative sample",
+      "gender": "f.",
+      "type": "noun"
+    },
+    {
+      "id": 32,
+      "target": "la replicación",
+      "source": "replication",
+      "gender": "f.",
+      "type": "noun"
+    },
+    {
+      "id": 33,
+      "target": "el laboratorio",
+      "source": "laboratory",
+      "gender": "m.",
+      "type": "noun"
+    },
+    {
+      "id": 34,
+      "target": "el instrumento",
+      "source": "instrument",
+      "gender": "m.",
+      "type": "noun"
+    },
+    {
+      "id": 35,
+      "target": "el protocolo",
+      "source": "protocol",
+      "gender": "m.",
+      "type": "noun"
+    },
+    {
+      "id": 36,
+      "target": "validar",
+      "source": "to validate",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 37,
+      "target": "hipotetizar",
+      "source": "to hypothesize",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 38,
+      "target": "medir",
+      "source": "to measure",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 39,
+      "target": "reproducir",
+      "source": "to reproduce",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 40,
+      "target": "generalizar",
+      "source": "to generalize",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "target": "la variable dependiente",
+      "source": "the dependent variable",
+      "type": "noun",
+      "gender": "f.",
+      "example": "La variable dependiente es el tiempo de reacción.",
+      "id": 41
+    },
+    {
+      "target": "la variable independiente",
+      "source": "the independent variable",
+      "type": "noun",
+      "gender": "f.",
+      "example": "La variable independiente es la dosis.",
+      "id": 42
+    },
+    {
+      "target": "la hipótesis nula",
+      "source": "the null hypothesis",
+      "type": "noun",
+      "gender": "f.",
+      "example": "La hipótesis nula se rechazó.",
+      "id": 43
+    },
+    {
+      "target": "el nivel de significación",
+      "source": "the significance level",
+      "type": "noun",
+      "gender": "m.",
+      "example": "El nivel de significación es del cinco por ciento.",
+      "id": 44
+    },
+    {
+      "target": "el valor p",
+      "source": "the p-value",
+      "type": "noun",
+      "gender": "m.",
+      "example": "El valor p indica la probabilidad del error.",
+      "id": 45
+    },
+    {
+      "target": "el efecto placebo",
+      "source": "the placebo effect",
+      "type": "noun",
+      "gender": "m.",
+      "example": "El efecto placebo influyó en el grupo control.",
+      "id": 46
+    },
+    {
+      "target": "el doble ciego",
+      "source": "the double-blind (trial)",
+      "type": "noun",
+      "gender": "m.",
+      "example": "El ensayo fue a doble ciego.",
+      "id": 47
+    },
+    {
+      "target": "la población",
+      "source": "the population (statistics)",
+      "type": "noun",
+      "gender": "f.",
+      "example": "La población es de un millón de habitantes.",
+      "id": 48
+    },
+    {
+      "target": "el muestreo estratificado",
+      "source": "stratified sampling",
+      "type": "noun",
+      "gender": "m.",
+      "example": "El muestreo estratificado reduce el sesgo.",
+      "id": 49
+    },
+    {
+      "target": "el error sistemático",
+      "source": "systematic error",
+      "type": "noun",
+      "gender": "m.",
+      "example": "El error sistemático vino del instrumento.",
+      "id": 50
+    }
   ],
   "grammar": [
     {
@@ -73,9 +393,18 @@
       "title": "Scientific Terms — Stress & Syllables",
       "content": "Scientific vocabulary has predictable stress patterns.\n\nEsdrújulas (stress on antepenultimate):\n- hipótesis (i-PO-te-sis), estadística (es-ta-tis-TI-ka), metodología (me-to-do-lo-GÍ-ah)\n\nGraves with -ción:\n- correlación (ko-re-la-TEE-on), causalidad (kaus-a-li-DAD), reproducibilidad (re-pro-du-ci-bi-li-DAD)\n\nWords ending in -sis are always stressed on the antepenultimate syllable:\nanálisis, síntesis, hipótesis, catálisis, crisis.\n\nPractice: 'El análisis estadístico revela una correlación significativa.'",
       "examples": [
-        { "target": "hipótesis", "source": "i-PO-te-sis (esdrújula)" },
-        { "target": "estadística", "source": "es-ta-tis-TI-ka (esdrújula)" },
-        { "target": "análisis", "source": "a-NA-li-sis (esdrújula, -sis ending)" }
+        {
+          "target": "hipótesis",
+          "source": "i-PO-te-sis (esdrújula)"
+        },
+        {
+          "target": "estadística",
+          "source": "es-ta-tis-TI-ka (esdrújula)"
+        },
+        {
+          "target": "análisis",
+          "source": "a-NA-li-sis (esdrújula, -sis ending)"
+        }
       ],
       "aid_note": "Romanian: 'ipoteză', 'statistică', 'analiză' — stress patterns differ; Spanish -sis words are always esdrújulas."
     }
@@ -85,10 +414,22 @@
       "type": "matching",
       "question": "Match the scientific terms:",
       "pairs": [
-        { "target": "la hipótesis", "source": "hypothesis" },
-        { "target": "la correlación", "source": "correlation" },
-        { "target": "la validez", "source": "validity" },
-        { "target": "el sesgo", "source": "bias" }
+        {
+          "target": "la hipótesis",
+          "source": "hypothesis"
+        },
+        {
+          "target": "la correlación",
+          "source": "correlation"
+        },
+        {
+          "target": "la validez",
+          "source": "validity"
+        },
+        {
+          "target": "el sesgo",
+          "source": "bias"
+        }
       ],
       "explanation": "These terms are essential for scientific discourse."
     },

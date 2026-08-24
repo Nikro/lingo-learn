@@ -3,46 +3,356 @@
   "title": "Advanced Idioms & Figurative Language",
   "description": "B2-level idiomatic expressions, metaphors, and figurative language for natural, expressive communication.",
   "vocabulary": [
-    { "id": 1, "target": "costar un ojo de la cara", "source": "to cost an arm and a leg", "gender": "—", "type": "idiom" },
-    { "id": 2, "target": "echar leña al fuego", "source": "to add fuel to the fire", "gender": "—", "type": "idiom" },
-    { "id": 3, "target": "meter el pie", "source": "to make a mistake / slip up", "gender": "—", "type": "idiom" },
-    { "id": 4, "target": "salir con la pata atrás", "source": "to come out on the short end", "gender": "—", "type": "idiom" },
-    { "id": 5, "target": "ponerse las pilas", "source": "to step up / get moving", "gender": "—", "type": "idiom" },
-    { "id": 6, "target": "llevarse las manos a la cabeza", "source": "to throw one's hands to one's head (in disbelief)", "gender": "—", "type": "idiom" },
-    { "id": 7, "target": "irse de las manos", "source": "to get out of hand", "gender": "—", "type": "idiom" },
-    { "id": 8, "target": "coger el toro por los cuernos", "source": "to take the bull by the horns", "gender": "—", "type": "idiom" },
-    { "id": 9, "target": "tener la última palabra", "source": "to have the last word", "gender": "—", "type": "idiom" },
-    { "id": 10, "target": "dar en el clavo", "source": "to hit the nail on the head", "gender": "—", "type": "idiom" },
-    { "id": 11, "target": "ir a la deriva", "source": "to drift / go nowhere", "gender": "—", "type": "idiom" },
-    { "id": 12, "target": "estar en la calle de la amargura", "source": "to be at the end of one's rope", "gender": "—", "type": "idiom" },
-    { "id": 13, "target": "hacer la vista gorda", "source": "to turn a blind eye", "gender": "—", "type": "idiom" },
-    { "id": 14, "target": "romper el hielo", "source": "to break the ice", "gender": "—", "type": "idiom" },
-    { "id": 15, "target": "perder el norte", "source": "to lose one's bearings", "gender": "—", "type": "idiom" },
-    { "id": 16, "target": "meter la pata", "source": "to mess up", "gender": "—", "type": "idiom" },
-    { "id": 17, "target": "estar en la mira", "source": "to be in the crosshairs / under scrutiny", "gender": "—", "type": "idiom" },
-    { "id": 18, "target": "sacar a relucir", "source": "to bring up / air", "gender": "—", "type": "idiom" },
-    { "id": 19, "target": "ponerse las cosas fáciles", "source": "to make things easy (for someone)", "gender": "—", "type": "idiom" },
-    { "id": 20, "target": "ir con pies de plomo", "source": "to tread carefully", "gender": "—", "type": "idiom" },
-    { "id": 21, "target": "caer en la cuenta", "source": "to realize", "gender": "—", "type": "idiom" },
-    { "id": 22, "target": "dar una mano", "source": "to lend a hand / help", "gender": "—", "type": "idiom" },
-    { "id": 23, "target": "tirar la toalla", "source": "to throw in the towel / give up", "gender": "—", "type": "idiom" },
-    { "id": 24, "target": "volver a la carga", "source": "to get back at it / renew effort", "gender": "—", "type": "idiom" },
-    { "id": 25, "target": "ponerse la camiseta", "source": "to give one's all / be fully committed", "gender": "—", "type": "idiom" },
-    { "id": 26, "target": "estar en la cuerda floja", "source": "to be on a tightrope / in a precarious situation", "gender": "—", "type": "idiom" },
-    { "id": 27, "target": "tener mucho carajo", "source": "to have a lot of energy / be lively", "gender": "—", "type": "idiom" },
-    { "id": 28, "target": "irse por los cerros de Úbeda", "source": "to go off on a tangent", "gender": "—", "type": "idiom" },
-    { "id": 29, "target": "meter el gato en el tarro", "source": "to let the cat out of the bag", "gender": "—", "type": "idiom" },
-    { "id": 30, "target": "no hay dos sin cuatro", "source": "there's no smoke without fire", "gender": "—", "type": "idiom" },
-    { "id": 31, "target": "a buen paso se llega lejos", "source": "slow and steady wins the race", "gender": "—", "type": "idiom" },
-    { "id": 32, "target": "donde hubo fuego, ceniza queda", "source": "where there's fire, ashes remain (old habits die hard)", "gender": "—", "type": "idiom" },
-    { "id": 33, "target": "la culpa es del pescado", "source": "the fish is always to blame (scapegoating)", "gender": "—", "type": "idiom" },
-    { "id": 34, "target": "ni fu ni fa", "source": "so-so / neither one way nor another", "gender": "—", "type": "idiom" },
-    { "id": 35, "target": "en serio y en broma", "source": "seriously and jokingly", "gender": "—", "type": "idiom" },
-    { "id": 36, "target": "a primera vista", "source": "at first sight", "gender": "—", "type": "idiom" },
-    { "id": 37, "target": "a partir de ahora", "source": "from now on", "gender": "—", "type": "idiom" },
-    { "id": 38, "target": "por las buenas o por las malas", "source": "by fair means or foul", "gender": "—", "type": "idiom" },
-    { "id": 39, "target": "de mala gana", "source": "reluctantly", "gender": "—", "type": "idiom" },
-    { "id": 40, "target": "con los ojos bien abiertos", "source": "with eyes wide open", "gender": "—", "type": "idiom" }
+    {
+      "id": 1,
+      "target": "costar un ojo de la cara",
+      "source": "to cost an arm and a leg",
+      "gender": "—",
+      "type": "idiom"
+    },
+    {
+      "id": 2,
+      "target": "echar leña al fuego",
+      "source": "to add fuel to the fire",
+      "gender": "—",
+      "type": "idiom"
+    },
+    {
+      "id": 3,
+      "target": "meter el pie",
+      "source": "to make a mistake / slip up",
+      "gender": "—",
+      "type": "idiom"
+    },
+    {
+      "id": 4,
+      "target": "salir con la pata atrás",
+      "source": "to come out on the short end",
+      "gender": "—",
+      "type": "idiom"
+    },
+    {
+      "id": 5,
+      "target": "ponerse las pilas",
+      "source": "to step up / get moving",
+      "gender": "—",
+      "type": "idiom"
+    },
+    {
+      "id": 6,
+      "target": "llevarse las manos a la cabeza",
+      "source": "to throw one's hands to one's head (in disbelief)",
+      "gender": "—",
+      "type": "idiom"
+    },
+    {
+      "id": 7,
+      "target": "irse de las manos",
+      "source": "to get out of hand",
+      "gender": "—",
+      "type": "idiom"
+    },
+    {
+      "id": 8,
+      "target": "coger el toro por los cuernos",
+      "source": "to take the bull by the horns",
+      "gender": "—",
+      "type": "idiom"
+    },
+    {
+      "id": 9,
+      "target": "tener la última palabra",
+      "source": "to have the last word",
+      "gender": "—",
+      "type": "idiom"
+    },
+    {
+      "id": 10,
+      "target": "dar en el clavo",
+      "source": "to hit the nail on the head",
+      "gender": "—",
+      "type": "idiom"
+    },
+    {
+      "id": 11,
+      "target": "ir a la deriva",
+      "source": "to drift / go nowhere",
+      "gender": "—",
+      "type": "idiom"
+    },
+    {
+      "id": 12,
+      "target": "estar en la calle de la amargura",
+      "source": "to be at the end of one's rope",
+      "gender": "—",
+      "type": "idiom"
+    },
+    {
+      "id": 13,
+      "target": "hacer la vista gorda",
+      "source": "to turn a blind eye",
+      "gender": "—",
+      "type": "idiom"
+    },
+    {
+      "id": 14,
+      "target": "romper el hielo",
+      "source": "to break the ice",
+      "gender": "—",
+      "type": "idiom"
+    },
+    {
+      "id": 15,
+      "target": "perder el norte",
+      "source": "to lose one's bearings",
+      "gender": "—",
+      "type": "idiom"
+    },
+    {
+      "id": 16,
+      "target": "meter la pata",
+      "source": "to mess up",
+      "gender": "—",
+      "type": "idiom"
+    },
+    {
+      "id": 17,
+      "target": "estar en la mira",
+      "source": "to be in the crosshairs / under scrutiny",
+      "gender": "—",
+      "type": "idiom"
+    },
+    {
+      "id": 18,
+      "target": "sacar a relucir",
+      "source": "to bring up / air",
+      "gender": "—",
+      "type": "idiom"
+    },
+    {
+      "id": 19,
+      "target": "ponerse las cosas fáciles",
+      "source": "to make things easy (for someone)",
+      "gender": "—",
+      "type": "idiom"
+    },
+    {
+      "id": 20,
+      "target": "ir con pies de plomo",
+      "source": "to tread carefully",
+      "gender": "—",
+      "type": "idiom"
+    },
+    {
+      "id": 21,
+      "target": "caer en la cuenta",
+      "source": "to realize",
+      "gender": "—",
+      "type": "idiom"
+    },
+    {
+      "id": 22,
+      "target": "dar una mano",
+      "source": "to lend a hand / help",
+      "gender": "—",
+      "type": "idiom"
+    },
+    {
+      "id": 23,
+      "target": "tirar la toalla",
+      "source": "to throw in the towel / give up",
+      "gender": "—",
+      "type": "idiom"
+    },
+    {
+      "id": 24,
+      "target": "volver a la carga",
+      "source": "to get back at it / renew effort",
+      "gender": "—",
+      "type": "idiom"
+    },
+    {
+      "id": 25,
+      "target": "ponerse la camiseta",
+      "source": "to give one's all / be fully committed",
+      "gender": "—",
+      "type": "idiom"
+    },
+    {
+      "id": 26,
+      "target": "estar en la cuerda floja",
+      "source": "to be on a tightrope / in a precarious situation",
+      "gender": "—",
+      "type": "idiom"
+    },
+    {
+      "id": 27,
+      "target": "tener mucho carajo",
+      "source": "to have a lot of energy / be lively",
+      "gender": "—",
+      "type": "idiom"
+    },
+    {
+      "id": 28,
+      "target": "irse por los cerros de Úbeda",
+      "source": "to go off on a tangent",
+      "gender": "—",
+      "type": "idiom"
+    },
+    {
+      "id": 29,
+      "target": "meter el gato en el tarro",
+      "source": "to let the cat out of the bag",
+      "gender": "—",
+      "type": "idiom"
+    },
+    {
+      "id": 30,
+      "target": "no hay dos sin cuatro",
+      "source": "there's no smoke without fire",
+      "gender": "—",
+      "type": "idiom"
+    },
+    {
+      "id": 31,
+      "target": "a buen paso se llega lejos",
+      "source": "slow and steady wins the race",
+      "gender": "—",
+      "type": "idiom"
+    },
+    {
+      "id": 32,
+      "target": "donde hubo fuego, ceniza queda",
+      "source": "where there's fire, ashes remain (old habits die hard)",
+      "gender": "—",
+      "type": "idiom"
+    },
+    {
+      "id": 33,
+      "target": "la culpa es del pescado",
+      "source": "the fish is always to blame (scapegoating)",
+      "gender": "—",
+      "type": "idiom"
+    },
+    {
+      "id": 34,
+      "target": "ni fu ni fa",
+      "source": "so-so / neither one way nor another",
+      "gender": "—",
+      "type": "idiom"
+    },
+    {
+      "id": 35,
+      "target": "en serio y en broma",
+      "source": "seriously and jokingly",
+      "gender": "—",
+      "type": "idiom"
+    },
+    {
+      "id": 36,
+      "target": "a primera vista",
+      "source": "at first sight",
+      "gender": "—",
+      "type": "idiom"
+    },
+    {
+      "id": 37,
+      "target": "a partir de ahora",
+      "source": "from now on",
+      "gender": "—",
+      "type": "idiom"
+    },
+    {
+      "id": 38,
+      "target": "por las buenas o por las malas",
+      "source": "by fair means or foul",
+      "gender": "—",
+      "type": "idiom"
+    },
+    {
+      "id": 39,
+      "target": "de mala gana",
+      "source": "reluctantly",
+      "gender": "—",
+      "type": "idiom"
+    },
+    {
+      "id": 40,
+      "target": "con los ojos bien abiertos",
+      "source": "with eyes wide open",
+      "gender": "—",
+      "type": "idiom"
+    },
+    {
+      "target": "poner los puntos sobre las íes",
+      "source": "to dot the i's",
+      "type": "idiom",
+      "example": "Vamos a poner los puntos sobre las íes.",
+      "id": 41
+    },
+    {
+      "target": "echar la casa por la ventana",
+      "source": "to throw money around",
+      "type": "idiom",
+      "example": "En las fiestas, echó la casa por la ventana.",
+      "id": 42
+    },
+    {
+      "target": "estar a las órdenes de alguien",
+      "source": "to be at someone's disposal",
+      "type": "idiom",
+      "example": "Estoy a sus órdenes.",
+      "id": 43
+    },
+    {
+      "target": "dejar a alguien en cuadro",
+      "source": "to leave someone stranded",
+      "type": "idiom",
+      "example": "Lo dejó en cuadro sin explicaciones.",
+      "id": 44
+    },
+    {
+      "target": "tener la mosca detrás de la oreja",
+      "source": "to be suspicious",
+      "type": "idiom",
+      "example": "Tiene la mosca detrás de la oreja.",
+      "id": 45
+    },
+    {
+      "target": "ponerse de longuis",
+      "source": "to get upset / to grumble",
+      "type": "idiom",
+      "example": "No te pongas de longuis por nada.",
+      "id": 46
+    },
+    {
+      "target": "dar al traste con",
+      "source": "to ruin",
+      "type": "idiom",
+      "example": "El imprevisto dio al traste con el plan.",
+      "id": 47
+    },
+    {
+      "target": "echar la toalla",
+      "source": "to throw in the towel",
+      "type": "idiom",
+      "example": "Tras tres intentos, echó la toalla.",
+      "id": 48
+    },
+    {
+      "target": "no estar para tropezos",
+      "source": "to not be in the mood for jokes",
+      "type": "idiom",
+      "example": "Hoy no estoy para tropezos.",
+      "id": 49
+    },
+    {
+      "target": "sacar la casta",
+      "source": "to show one's mettle",
+      "type": "idiom",
+      "example": "En la crisis, sacó la casta.",
+      "id": 50
+    }
   ],
   "grammar": [
     {
@@ -73,9 +383,18 @@
       "title": "Idioms — Stress & Flow",
       "content": "Idiomatic expressions in Spanish need natural flow and rhythm to sound authentic.\n\nKey pronunciation tips:\n- Link words smoothly: 'echar-le-ña-al-fue-go' (not e-char le nya al fue-go)\n- Reduce unstressed vowels: 'poner-se-las-pi-las' sounds like 'po-nar-las-pi-las'\n- Emphasize the action verb: 'ECHAR leña al fuego' not 'echar LE-ña al fue-go'\n\nIdiom pronunciation practice:\n- 'Cada vez que meto el pie, me arrepiento.'\n- 'Hay que coger el toro por los cuernos y actuar.'\n- 'Si no pones las pilas, vas a tirar la toalla.'\n- 'Cuando cayó en la cuenta, ya era tarde.'\n\nTip: Spanish idioms flow as single rhythmic units. Don't pause between words unless there's a comma or conjunction. The stress should fall naturally on the content words.",
       "examples": [
-        { "target": "coger el toro por los cuernos", "source": "ko-HER el TO-ro por los CUER-nos" },
-        { "target": "ponerse las pilas", "source": "po-NAR-se las PI-las" },
-        { "target": "tirar la toalla", "source": "ti-RAR la to-YA-ya" }
+        {
+          "target": "coger el toro por los cuernos",
+          "source": "ko-HER el TO-ro por los CUER-nos"
+        },
+        {
+          "target": "ponerse las pilas",
+          "source": "po-NAR-se las PI-las"
+        },
+        {
+          "target": "tirar la toalla",
+          "source": "ti-RAR la to-YA-ya"
+        }
       ],
       "aid_note": "Romanian idioms have similar rhythm but different stress patterns. Spanish flows more smoothly due to syllable-timed rhythm, while Romanian is more stress-timed."
     }
@@ -103,11 +422,26 @@
       "type": "matching",
       "question": "Match the idiom to its meaning:",
       "pairs": [
-        { "target": "coger el toro por los cuernos", "source": "to face a problem directly" },
-        { "target": "meter el pie", "source": "to make a mistake" },
-        { "target": "tirar la toalla", "source": "to give up" },
-        { "target": "romper el hielo", "source": "to break the ice" },
-        { "target": "caer en la cuenta", "source": "to realize" }
+        {
+          "target": "coger el toro por los cuernos",
+          "source": "to face a problem directly"
+        },
+        {
+          "target": "meter el pie",
+          "source": "to make a mistake"
+        },
+        {
+          "target": "tirar la toalla",
+          "source": "to give up"
+        },
+        {
+          "target": "romper el hielo",
+          "source": "to break the ice"
+        },
+        {
+          "target": "caer en la cuenta",
+          "source": "to realize"
+        }
       ],
       "explanation": "These idioms are essential for natural Spanish communication."
     },
