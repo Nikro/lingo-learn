@@ -212,6 +212,146 @@
       "source": "to live / to inhabit",
       "gender": "v.",
       "type": "verb"
+    },
+    {
+      "id": 31,
+      "target": "hablaba",
+      "source": "I used to speak",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 32,
+      "target": "hablaba mucho",
+      "source": "I used to talk a lot",
+      "gender": "—",
+      "type": "phrase"
+    },
+    {
+      "id": 33,
+      "target": "comía",
+      "source": "I used to eat",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 34,
+      "target": "comía con frecuencia",
+      "source": "I used to eat often",
+      "gender": "—",
+      "type": "phrase"
+    },
+    {
+      "id": 35,
+      "target": "vivía",
+      "source": "I used to live",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 36,
+      "target": "vivía en el campo",
+      "source": "I used to live in the countryside",
+      "gender": "—",
+      "type": "phrase"
+    },
+    {
+      "id": 37,
+      "target": "trabajaba",
+      "source": "I used to work",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 38,
+      "target": "trabajaba en la oficina",
+      "source": "I used to work in the office",
+      "gender": "—",
+      "type": "phrase"
+    },
+    {
+      "id": 39,
+      "target": "caminaba",
+      "source": "I used to walk",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 40,
+      "target": "caminaba despacio",
+      "source": "I used to walk slowly",
+      "gender": "—",
+      "type": "phrase"
+    },
+    {
+      "id": 41,
+      "target": "cocinaba",
+      "source": "I used to cook",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 42,
+      "target": "cocinaba para la familia",
+      "source": "I used to cook for the family",
+      "gender": "—",
+      "type": "phrase"
+    },
+    {
+      "id": 43,
+      "target": "jugaba",
+      "source": "I used to play",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 44,
+      "target": "jugaba con mis primos",
+      "source": "I used to play with my cousins",
+      "gender": "—",
+      "type": "phrase"
+    },
+    {
+      "id": 45,
+      "target": "leía",
+      "source": "I used to read",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 46,
+      "target": "leía por las noches",
+      "source": "I used to read at night",
+      "gender": "—",
+      "type": "phrase"
+    },
+    {
+      "id": 47,
+      "target": "escuchaba",
+      "source": "I used to listen",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 48,
+      "target": "escuchaba música",
+      "source": "I used to listen to music",
+      "gender": "—",
+      "type": "phrase"
+    },
+    {
+      "id": 49,
+      "target": "miraba",
+      "source": "I used to watch / look",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 50,
+      "target": "pensaba",
+      "source": "I used to think",
+      "gender": "v.",
+      "type": "verb"
     }
   ],
   "grammar": [

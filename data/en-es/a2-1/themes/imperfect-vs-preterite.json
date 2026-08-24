@@ -3,40 +3,398 @@
   "title": "Imperfect vs. Preterite",
   "description": "Understand when to use the imperfect versus the preterite — the key decision point for Spanish past tenses.",
   "vocabulary": [
-    { "id": 1, "target": "mientras", "source": "while", "gender": "—", "type": "conjunction" },
-    { "id": 2, "target": "de repente", "source": "suddenly", "gender": "—", "type": "adverb" },
-    { "id": 3, "target": "ayer", "source": "yesterday", "gender": "—", "type": "time" },
-    { "id": 4, "target": "la semana pasada", "source": "last week", "gender": "—", "type": "time" },
-    { "id": 5, "target": "cada verano", "source": "every summer", "gender": "—", "type": "time" },
-    { "id": 6, "target": "solía", "source": "used to (formal)", "gender": "v.", "type": "verb" },
-    { "id": 7, "target": "una vez", "source": "once / one time", "gender": "—", "type": "time" },
-    { "id": 8, "target": "el año pasado", "source": "last year", "gender": "m.", "type": "time" },
-    { "id": 9, "target": "en ese momento", "source": "at that moment", "gender": "—", "type": "time" },
-    { "id": 10, "target": "hacía sol", "source": "it was sunny", "gender": "—", "type": "phrase" },
-    { "id": 11, "target": "llovía", "source": "it was raining", "gender": "v.", "type": "verb" },
-    { "id": 12, "target": "sonó el teléfono", "source": "the phone rang", "gender": "—", "type": "phrase" },
-    { "id": 13, "target": "tenía 20 años", "source": "I was 20 years old", "gender": "—", "type": "phrase" },
-    { "id": 14, "target": "eran las tres", "source": "it was three o'clock", "gender": "—", "type": "phrase" },
-    { "id": 15, "target": "era feliz", "source": "I was happy", "gender": "—", "type": "phrase" },
-    { "id": 16, "target": "estaba cansado", "source": "I was tired", "gender": "—", "type": "phrase" },
-    { "id": 17, "target": "estaba lloviendo", "source": "it was raining", "gender": "—", "type": "phrase" },
-    { "id": 18, "target": "estudiaba", "source": "I was studying / used to study", "gender": "v.", "type": "verb" },
-    { "id": 19, "target": "trabajaba", "source": "I was working / used to work", "gender": "v.", "type": "verb" },
-    { "id": 20, "target": "viajábamos", "source": "we used to travel", "gender": "v.", "type": "verb" }
+    {
+      "id": 1,
+      "target": "mientras",
+      "source": "while",
+      "gender": "—",
+      "type": "conjunction"
+    },
+    {
+      "id": 2,
+      "target": "de repente",
+      "source": "suddenly",
+      "gender": "—",
+      "type": "adverb"
+    },
+    {
+      "id": 3,
+      "target": "ayer",
+      "source": "yesterday",
+      "gender": "—",
+      "type": "time"
+    },
+    {
+      "id": 4,
+      "target": "la semana pasada",
+      "source": "last week",
+      "gender": "—",
+      "type": "time"
+    },
+    {
+      "id": 5,
+      "target": "cada verano",
+      "source": "every summer",
+      "gender": "—",
+      "type": "time"
+    },
+    {
+      "id": 6,
+      "target": "solía",
+      "source": "used to (formal)",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 7,
+      "target": "una vez",
+      "source": "once / one time",
+      "gender": "—",
+      "type": "time"
+    },
+    {
+      "id": 8,
+      "target": "el año pasado",
+      "source": "last year",
+      "gender": "m.",
+      "type": "time"
+    },
+    {
+      "id": 9,
+      "target": "en ese momento",
+      "source": "at that moment",
+      "gender": "—",
+      "type": "time"
+    },
+    {
+      "id": 10,
+      "target": "hacía sol",
+      "source": "it was sunny",
+      "gender": "—",
+      "type": "phrase"
+    },
+    {
+      "id": 11,
+      "target": "llovía",
+      "source": "it was raining",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 12,
+      "target": "sonó el teléfono",
+      "source": "the phone rang",
+      "gender": "—",
+      "type": "phrase"
+    },
+    {
+      "id": 13,
+      "target": "tenía 20 años",
+      "source": "I was 20 years old",
+      "gender": "—",
+      "type": "phrase"
+    },
+    {
+      "id": 14,
+      "target": "eran las tres",
+      "source": "it was three o'clock",
+      "gender": "—",
+      "type": "phrase"
+    },
+    {
+      "id": 15,
+      "target": "era feliz",
+      "source": "I was happy",
+      "gender": "—",
+      "type": "phrase"
+    },
+    {
+      "id": 16,
+      "target": "estaba cansado",
+      "source": "I was tired",
+      "gender": "—",
+      "type": "phrase"
+    },
+    {
+      "id": 17,
+      "target": "estaba lloviendo",
+      "source": "it was raining",
+      "gender": "—",
+      "type": "phrase"
+    },
+    {
+      "id": 18,
+      "target": "estudiaba",
+      "source": "I was studying / used to study",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 19,
+      "target": "trabajaba",
+      "source": "I was working / used to work",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 20,
+      "target": "viajábamos",
+      "source": "we used to travel",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 21,
+      "target": "mientras tanto",
+      "source": "meanwhile",
+      "gender": "—",
+      "type": "phrase"
+    },
+    {
+      "id": 22,
+      "target": "de pronto",
+      "source": "suddenly",
+      "gender": "—",
+      "type": "phrase"
+    },
+    {
+      "id": 23,
+      "target": "entonces",
+      "source": "then",
+      "gender": "—",
+      "type": "adverb"
+    },
+    {
+      "id": 24,
+      "target": "después",
+      "source": "afterward",
+      "gender": "—",
+      "type": "adverb"
+    },
+    {
+      "id": 25,
+      "target": "durante",
+      "source": "during",
+      "gender": "—",
+      "type": "preposition"
+    },
+    {
+      "id": 26,
+      "target": "por lo general",
+      "source": "generally",
+      "gender": "—",
+      "type": "phrase"
+    },
+    {
+      "id": 27,
+      "target": "jugaba",
+      "source": "I used to play",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 28,
+      "target": "jugaba al fútbol",
+      "source": "I used to play football",
+      "gender": "—",
+      "type": "phrase"
+    },
+    {
+      "id": 29,
+      "target": "comía",
+      "source": "I used to eat",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 30,
+      "target": "comía con frecuencia",
+      "source": "I used to eat often",
+      "gender": "—",
+      "type": "phrase"
+    },
+    {
+      "id": 31,
+      "target": "leía",
+      "source": "I used to read",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 32,
+      "target": "leía novelas",
+      "source": "I used to read novels",
+      "gender": "—",
+      "type": "phrase"
+    },
+    {
+      "id": 33,
+      "target": "dormía",
+      "source": "I used to sleep",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 34,
+      "target": "dormía tarde",
+      "source": "I used to sleep late",
+      "gender": "—",
+      "type": "phrase"
+    },
+    {
+      "id": 35,
+      "target": "trabajaba mucho",
+      "source": "I used to work a lot",
+      "gender": "—",
+      "type": "phrase"
+    },
+    {
+      "id": 36,
+      "target": "vivía",
+      "source": "I used to live",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 37,
+      "target": "vivía en Madrid",
+      "source": "I used to live in Madrid",
+      "gender": "—",
+      "type": "phrase"
+    },
+    {
+      "id": 38,
+      "target": "bailaba",
+      "source": "I used to dance",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 39,
+      "target": "bailaba de noche",
+      "source": "I used to dance at night",
+      "gender": "—",
+      "type": "phrase"
+    },
+    {
+      "id": 40,
+      "target": "caminaba",
+      "source": "I used to walk",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 41,
+      "target": "caminaba todos los días",
+      "source": "I used to walk every day",
+      "gender": "—",
+      "type": "phrase"
+    },
+    {
+      "id": 42,
+      "target": "jugué",
+      "source": "I played (completed)",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 43,
+      "target": "comí",
+      "source": "I ate (completed)",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 44,
+      "target": "leí",
+      "source": "I read (completed)",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 45,
+      "target": "leí un libro",
+      "source": "I read a book (once)",
+      "gender": "—",
+      "type": "phrase"
+    },
+    {
+      "id": 46,
+      "target": "dormí",
+      "source": "I slept (completed)",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 47,
+      "target": "dormí mal",
+      "source": "I slept badly (last night)",
+      "gender": "—",
+      "type": "phrase"
+    },
+    {
+      "id": 48,
+      "target": "trabajé",
+      "source": "I worked (completed)",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 49,
+      "target": "trabajé todo el día",
+      "source": "I worked all day",
+      "gender": "—",
+      "type": "phrase"
+    },
+    {
+      "target": "mientras tanto",
+      "source": "meanwhile",
+      "type": "connector",
+      "example": "Mientras tanto, ella leía un libro.",
+      "id": 50
+    }
   ],
   "grammar": [
     {
       "title": "Imperfect vs. Preterite: When to Use Which",
       "content": "This is the key decision point for A2.1 learners. The preterite (from A1.2) and imperfect both describe the past, but differently.\n\nUse IMPERFECT for:\n- Habitual/repeated actions: 'De niño, nadaba todos los días.' (As a kid, I swam every day.)\n- Ongoing background descriptions: 'Era una noche oscura y tormentosa.' (It was a dark and stormy night.)\n- Age, time, weather in the past: 'Tenía 20 años. Eran las tres. Llovía.' (I was 20. It was three o'clock. It was raining.)\n- Feelings and emotions in the past: 'Era feliz. Estaba cansado.' (I was happy. I was tired.)\n\nUse PRETERITE for:\n- Completed actions with a start/end: 'Ayer hablé con mi jefe.' (Yesterday I talked with my boss.)\n- A series of completed actions: 'Me levanté, me duché y salí.' (I got up, showered, and left.)\n- One-time specific past events: 'El año pasado fui a Italia.' (Last year I went to Italy.)",
       "table": {
-        "headers": ["Context", "Imperfect", "Preterite"],
+        "headers": [
+          "Context",
+          "Imperfect",
+          "Preterite"
+        ],
         "rows": [
-          ["Repeated past action", "Cada verano viajábamos a Italia.", "Ayer viajamos a Italia."],
-          ["Background description", "Era alto y rubio.", "Fue alto y rubio (described him as such)"],
-          ["Specific time reference", "Solía llamar a las ocho.", "Llamó a las ocho."],
-          ["Age in the past", "Tenía 25 años.", "Tuve 25 años en 2020."],
-          ["Weather in the past", "Hacía sol.", "Hizo sol ayer."],
-          ["Interrupting action", "Mientras comía…", "De repente, sonó el teléfono."]
+          [
+            "Repeated past action",
+            "Cada verano viajábamos a Italia.",
+            "Ayer viajamos a Italia."
+          ],
+          [
+            "Background description",
+            "Era alto y rubio.",
+            "Fue alto y rubio (described him as such)"
+          ],
+          [
+            "Specific time reference",
+            "Solía llamar a las ocho.",
+            "Llamó a las ocho."
+          ],
+          [
+            "Age in the past",
+            "Tenía 25 años.",
+            "Tuve 25 años en 2020."
+          ],
+          [
+            "Weather in the past",
+            "Hacía sol.",
+            "Hizo sol ayer."
+          ],
+          [
+            "Interrupting action",
+            "Mientras comía…",
+            "De repente, sonó el teléfono."
+          ]
         ]
       },
       "examples": [
@@ -52,14 +410,24 @@
     {
       "type": "exercise",
       "question": "Which tense would you use for a repeated past action?",
-      "options": ["Preterite", "Imperfect", "Future", "Conditional"],
+      "options": [
+        "Preterite",
+        "Imperfect",
+        "Future",
+        "Conditional"
+      ],
       "correct": 1,
       "explanation": "The imperfect is used for repeated/habitual past actions: 'Cada verano viajábamos a Italia.'"
     },
     {
       "type": "exercise",
       "question": "Which tense would you use for a one-time completed action?",
-      "options": ["Imperfect", "Preterite", "Present perfect", "Conditional"],
+      "options": [
+        "Imperfect",
+        "Preterite",
+        "Present perfect",
+        "Conditional"
+      ],
       "correct": 1,
       "explanation": "The preterite is used for completed actions: 'Ayer viajamos a Italia.'"
     },

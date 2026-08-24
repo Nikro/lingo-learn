@@ -32,7 +32,27 @@
     { "id": 27, "target": "mi hermano", "source": "my brother", "gender": "m.", "type": "phrase" },
     { "id": 28, "target": "ella", "source": "she / her", "gender": "f.", "type": "pronoun" },
     { "id": 29, "target": "todos", "source": "all / everyone", "gender": "m.", "type": "pronoun" },
-    { "id": 30, "target": "de la clase", "source": "of the class", "gender": "—", "type": "phrase" }
+    { "id": 30, "target": "de la clase", "source": "of the class", "gender": "—", "type": "phrase" },
+    { "id": 31, "target": "joven", "source": "young", "gender": "m.", "type": "adjective" },
+    { "id": 32, "target": "feo", "source": "ugly", "gender": "m.", "type": "adjective" },
+    { "id": 33, "target": "rápido", "source": "fast", "gender": "m.", "type": "adjective" },
+    { "id": 34, "target": "lento", "source": "slow", "gender": "m.", "type": "adjective" },
+    { "id": 35, "target": "divertido", "source": "fun", "gender": "m.", "type": "adjective" },
+    { "id": 36, "target": "aburrido", "source": "boring", "gender": "m.", "type": "adjective" },
+    { "id": 37, "target": "cómodo", "source": "comfortable", "gender": "m.", "type": "adjective" },
+    { "id": 38, "target": "antiguo", "source": "old (building, object)", "gender": "m.", "type": "adjective" },
+    { "id": 39, "target": "moderno", "source": "modern", "gender": "m.", "type": "adjective" },
+    { "id": 40, "target": "limpio", "source": "clean", "gender": "m.", "type": "adjective" },
+    { "id": 41, "target": "sucio", "source": "dirty", "gender": "m.", "type": "adjective" },
+    { "id": 42, "target": "cálido", "source": "warm", "gender": "m.", "type": "adjective" },
+    { "id": 43, "target": "frío", "source": "cold", "gender": "m.", "type": "adjective" },
+    { "id": 44, "target": "tranquilo", "source": "calm / quiet", "gender": "m.", "type": "adjective" },
+    { "id": 45, "target": "ruidoso", "source": "noisy", "gender": "m.", "type": "adjective" },
+    { "id": 46, "target": "más... que", "source": "more... than", "gender": "—", "type": "phrase" },
+    { "id": 47, "target": "tan... como", "source": "as... as", "gender": "—", "type": "phrase" },
+    { "id": 48, "target": "así de...", "source": "this (very)...", "gender": "—", "type": "phrase" },
+    { "id": 49, "target": "más o menos", "source": "more or less", "gender": "—", "type": "phrase" },
+    { "id": 50, "target": "sin embargo", "source": "however", "gender": "—", "type": "connector" }
   ],
   "grammar": [
     {

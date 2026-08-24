@@ -32,7 +32,27 @@
     { "id": 27, "target": "necesitar", "source": "to need", "gender": "v.", "type": "verb" },
     { "id": 28, "target": "entender", "source": "to understand", "gender": "v.", "type": "verb" },
     { "id": 29, "target": "conocer", "source": "to know (a person)", "gender": "v.", "type": "verb" },
-    { "id": 30, "target": "enseñar", "source": "to teach / to show", "gender": "v.", "type": "verb" }
+    { "id": 30, "target": "enseñar", "source": "to teach / to show", "gender": "v.", "type": "verb" },
+    { "id": 31, "target": "decir", "source": "to say / to tell", "gender": "v.", "type": "verb" },
+    { "id": 32, "target": "escribir", "source": "to write", "gender": "v.", "type": "verb" },
+    { "id": 33, "target": "pedir", "source": "to ask for / to order", "gender": "v.", "type": "verb" },
+    { "id": 34, "target": "llevar", "source": "to carry / to take (with)", "gender": "v.", "type": "verb" },
+    { "id": 35, "target": "encontrar", "source": "to find", "gender": "v.", "type": "verb" },
+    { "id": 36, "target": "traer", "source": "to bring", "gender": "v.", "type": "verb" },
+    { "id": 37, "target": "poner", "source": "to put", "gender": "v.", "type": "verb" },
+    { "id": 38, "target": "quitar", "source": "to take away / to remove", "gender": "v.", "type": "verb" },
+    { "id": 39, "target": "abrir", "source": "to open", "gender": "v.", "type": "verb" },
+    { "id": 40, "target": "cerrar", "source": "to close", "gender": "v.", "type": "verb" },
+    { "id": 41, "target": "comprar", "source": "to buy", "gender": "v.", "type": "verb" },
+    { "id": 42, "target": "vender", "source": "to sell", "gender": "v.", "type": "verb" },
+    { "id": 43, "target": "regalar", "source": "to give (as a gift)", "gender": "v.", "type": "verb" },
+    { "id": 44, "target": "prestar", "source": "to lend", "gender": "v.", "type": "verb" },
+    { "id": 45, "target": "recomendar", "source": "to recommend", "gender": "v.", "type": "verb" },
+    { "id": 46, "target": "pedirle", "source": "to ask him / her / you", "gender": "v.", "type": "verb" },
+    { "id": 47, "target": "escribirle", "source": "to write to him / her / you", "gender": "v.", "type": "verb" },
+    { "id": 48, "target": "llevarlo", "source": "to take it", "gender": "v.", "type": "verb" },
+    { "id": 49, "target": "encontrarla", "source": "to find her / it (f.)", "gender": "v.", "type": "verb" },
+    { "id": 50, "target": "ponerlo", "source": "to put it", "gender": "v.", "type": "verb" }
   ],
   "grammar": [
     {

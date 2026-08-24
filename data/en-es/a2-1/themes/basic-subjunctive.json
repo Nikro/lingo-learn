@@ -3,50 +3,398 @@
   "title": "Basic Subjunctive",
   "description": "Use the present subjunctive in fixed expressions: wishes, hopes, and Ojalá.",
   "vocabulary": [
-    { "id": 1, "target": "¡Que tengas un buen día!", "source": "Have a good day!", "gender": "—", "type": "phrase" },
-    { "id": 2, "target": "¡Que te vaya bien!", "source": "Good luck!", "gender": "—", "type": "phrase" },
-    { "id": 3, "target": "¡Que descanses!", "source": "Rest well!", "gender": "—", "type": "phrase" },
-    { "id": 4, "target": "Ojalá", "source": "I hope that / God willing", "gender": "—", "type": "interjection" },
-    { "id": 5, "target": "Ojalá llueva mañana", "source": "I hope it rains tomorrow", "gender": "—", "type": "phrase" },
-    { "id": 6, "target": "Es importante que", "source": "It's important that", "gender": "—", "type": "phrase" },
-    { "id": 7, "target": "Mejor que", "source": "Better if", "gender": "—", "type": "phrase" },
-    { "id": 8, "target": "Quiero que", "source": "I want that", "gender": "—", "type": "phrase" },
-    { "id": 9, "target": "Espero que", "source": "I hope that", "gender": "—", "type": "phrase" },
-    { "id": 10, "target": "sé", "source": "be (subjunctive of ser)", "gender": "v.", "type": "verb" },
-    { "id": 11, "target": "tengas", "source": "you have (subjunctive of tener)", "gender": "v.", "type": "verb" },
-    { "id": 12, "target": "llueva", "source": "it rains (subjunctive of llover)", "gender": "v.", "type": "verb" },
-    { "id": 13, "target": "vengas", "source": "you come (subjunctive of venir)", "gender": "v.", "type": "verb" },
-    { "id": 14, "target": "esté", "source": "he/she/you are (subjunctive of estar)", "gender": "v.", "type": "verb" },
-    { "id": 15, "target": "tenga", "source": "he/she/you have (subjunctive of tener)", "gender": "v.", "type": "verb" },
-    { "id": 16, "target": "descanses", "source": "you rest (subjunctive of descansar)", "gender": "v.", "type": "verb" },
-    { "id": 17, "target": "vaya", "source": "I go / you go (subjunctive of ir)", "gender": "v.", "type": "verb" },
-    { "id": 18, "target": "hable", "source": "I/you speak (subjunctive of hablar)", "gender": "v.", "type": "verb" },
-    { "id": 19, "target": "coma", "source": "I/you eat (subjunctive of comer)", "gender": "v.", "type": "verb" },
-    { "id": 20, "target": "viva", "source": "I/you live (subjunctive of vivir)", "gender": "v.", "type": "verb" },
-    { "id": 21, "target": "sea", "source": "be (subjunctive of ser)", "gender": "v.", "type": "verb" },
-    { "id": 22, "target": "estés", "source": "you are (subjunctive of estar)", "gender": "v.", "type": "verb" },
-    { "id": 23, "target": "bueno", "source": "good", "gender": "m.", "type": "adjective" },
-    { "id": 24, "target": "feliz", "source": "happy", "gender": "—", "type": "adjective" },
-    { "id": 25, "target": "bien", "source": "well / good", "gender": "—", "type": "adverb" },
-    { "id": 26, "target": "la fiesta", "source": "the party", "gender": "f.", "type": "noun" },
-    { "id": 27, "target": "mañana", "source": "tomorrow", "gender": "—", "type": "time" },
-    { "id": 28, "target": "excellent", "source": "excellent", "gender": "—", "type": "adjective" },
-    { "id": 29, "target": "el día", "source": "the day", "gender": "m.", "type": "noun" },
-    { "id": 30, "target": "tu", "source": "your (informal)", "gender": "—", "type": "pronoun" }
+    {
+      "id": 1,
+      "target": "¡Que tengas un buen día!",
+      "source": "Have a good day!",
+      "gender": "—",
+      "type": "phrase"
+    },
+    {
+      "id": 2,
+      "target": "¡Que te vaya bien!",
+      "source": "Good luck!",
+      "gender": "—",
+      "type": "phrase"
+    },
+    {
+      "id": 3,
+      "target": "¡Que descanses!",
+      "source": "Rest well!",
+      "gender": "—",
+      "type": "phrase"
+    },
+    {
+      "id": 4,
+      "target": "Ojalá",
+      "source": "I hope that / God willing",
+      "gender": "—",
+      "type": "interjection"
+    },
+    {
+      "id": 5,
+      "target": "Ojalá llueva mañana",
+      "source": "I hope it rains tomorrow",
+      "gender": "—",
+      "type": "phrase"
+    },
+    {
+      "id": 6,
+      "target": "Es importante que",
+      "source": "It's important that",
+      "gender": "—",
+      "type": "phrase"
+    },
+    {
+      "id": 7,
+      "target": "Mejor que",
+      "source": "Better if",
+      "gender": "—",
+      "type": "phrase"
+    },
+    {
+      "id": 8,
+      "target": "Quiero que",
+      "source": "I want that",
+      "gender": "—",
+      "type": "phrase"
+    },
+    {
+      "id": 9,
+      "target": "Espero que",
+      "source": "I hope that",
+      "gender": "—",
+      "type": "phrase"
+    },
+    {
+      "id": 10,
+      "target": "sé",
+      "source": "be (subjunctive of ser)",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 11,
+      "target": "tengas",
+      "source": "you have (subjunctive of tener)",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 12,
+      "target": "llueva",
+      "source": "it rains (subjunctive of llover)",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 13,
+      "target": "vengas",
+      "source": "you come (subjunctive of venir)",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 14,
+      "target": "esté",
+      "source": "he/she/you are (subjunctive of estar)",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 15,
+      "target": "tenga",
+      "source": "he/she/you have (subjunctive of tener)",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 16,
+      "target": "descanses",
+      "source": "you rest (subjunctive of descansar)",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 17,
+      "target": "vaya",
+      "source": "I go / you go (subjunctive of ir)",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 18,
+      "target": "hable",
+      "source": "I/you speak (subjunctive of hablar)",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 19,
+      "target": "coma",
+      "source": "I/you eat (subjunctive of comer)",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 20,
+      "target": "viva",
+      "source": "I/you live (subjunctive of vivir)",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 21,
+      "target": "sea",
+      "source": "be (subjunctive of ser)",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 22,
+      "target": "estés",
+      "source": "you are (subjunctive of estar)",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 23,
+      "target": "bueno",
+      "source": "good",
+      "gender": "m.",
+      "type": "adjective"
+    },
+    {
+      "id": 24,
+      "target": "feliz",
+      "source": "happy",
+      "gender": "—",
+      "type": "adjective"
+    },
+    {
+      "id": 25,
+      "target": "bien",
+      "source": "well / good",
+      "gender": "—",
+      "type": "adverb"
+    },
+    {
+      "id": 26,
+      "target": "la fiesta",
+      "source": "the party",
+      "gender": "f.",
+      "type": "noun"
+    },
+    {
+      "id": 27,
+      "target": "mañana",
+      "source": "tomorrow",
+      "gender": "—",
+      "type": "time"
+    },
+    {
+      "id": 28,
+      "target": "excellent",
+      "source": "excellent",
+      "gender": "—",
+      "type": "adjective"
+    },
+    {
+      "id": 29,
+      "target": "el día",
+      "source": "the day",
+      "gender": "m.",
+      "type": "noun"
+    },
+    {
+      "id": 30,
+      "target": "tu",
+      "source": "your (informal)",
+      "gender": "—",
+      "type": "pronoun"
+    },
+    {
+      "id": 31,
+      "target": "Ojalá tengas tiempo",
+      "source": "I hope you have time",
+      "gender": "—",
+      "type": "phrase"
+    },
+    {
+      "id": 32,
+      "target": "Ojalá pueda venir",
+      "source": "I hope (s)he can come",
+      "gender": "—",
+      "type": "phrase"
+    },
+    {
+      "id": 33,
+      "target": "Ojalá haga sol",
+      "source": "I hope it's sunny",
+      "gender": "—",
+      "type": "phrase"
+    },
+    {
+      "id": 34,
+      "target": "Ojalá no llueva",
+      "source": "I hope it doesn't rain",
+      "gender": "—",
+      "type": "phrase"
+    },
+    {
+      "id": 35,
+      "target": "Ojalá me escuches",
+      "source": "I hope you listen to me",
+      "gender": "—",
+      "type": "phrase"
+    },
+    {
+      "id": 36,
+      "target": "Es necesario que",
+      "source": "It is necessary that",
+      "gender": "—",
+      "type": "phrase"
+    },
+    {
+      "id": 37,
+      "target": "Es mejor que",
+      "source": "It is better that",
+      "gender": "—",
+      "type": "phrase"
+    },
+    {
+      "id": 38,
+      "target": "Es probable que",
+      "source": "It is probable that",
+      "gender": "—",
+      "type": "phrase"
+    },
+    {
+      "id": 39,
+      "target": "Es posible que",
+      "source": "It is possible that",
+      "gender": "—",
+      "type": "phrase"
+    },
+    {
+      "id": 40,
+      "target": "Deseo que",
+      "source": "I wish that",
+      "gender": "—",
+      "type": "phrase"
+    },
+    {
+      "id": 41,
+      "target": "Quisiera que",
+      "source": "I would like (it) that",
+      "gender": "—",
+      "type": "phrase"
+    },
+    {
+      "id": 42,
+      "target": "hagas",
+      "source": "you do / make (subj.)",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 43,
+      "target": "hagas la tarea",
+      "source": "you do the homework",
+      "gender": "—",
+      "type": "phrase"
+    },
+    {
+      "id": 44,
+      "target": "comas",
+      "source": "you eat (subj.)",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 45,
+      "target": "duermas",
+      "source": "you sleep (subj.)",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 46,
+      "target": "duermas bien",
+      "source": "you sleep well",
+      "gender": "—",
+      "type": "phrase"
+    },
+    {
+      "id": 47,
+      "target": "tenga paciencia",
+      "source": "he / she has patience",
+      "gender": "—",
+      "type": "phrase"
+    },
+    {
+      "id": 48,
+      "target": "sepa",
+      "source": "he / she knows (subj.)",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 49,
+      "target": "diga",
+      "source": "he / she says (subj.)",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "target": "de cualquier modo",
+      "source": "in any case",
+      "type": "phrase",
+      "example": "De cualquier modo, que vengas mañana.",
+      "id": 50
+    }
   ],
   "grammar": [
     {
       "title": "Present Subjunctive in Fixed Expressions",
       "content": "The subjunctive (subjuntivo) is a mood used to express wishes, doubts, emotions, and hypothetical situations. At A2.1, you'll mainly encounter it in fixed expressions — set phrases where the subjunctive is mandatory.\n\nWishes and blessings:\n- ¡Que tengas un buen día! = Have a good day!\n- ¡Que te vaya bien! = Good luck! (literally: may it go well for you)\n- ¡Que descanses! = Rest well!\n\nWith querer/esperar + que (when the subject changes):\n- Quiero que seas feliz. = I want you to be happy.\n- Espero que llueva. = I hope it rains.\n\nCommon fixed expressions:\n- Ojalá (que)... = I hope that... / God willing...\n- Es importante que... = It's important that...\n- Mejor que... = Better if...\n\nThe present subjunctive yo form is built by taking the yo present indicative form and switching the ending: -o → -e for -AR, -o → -a for -ER/-IR:\n- hablar → hablo → hable\n- comer → como → coma\n- vivir → vivo → viva",
       "table": {
-        "headers": ["Infinitive", "Yo Present Indicative", "Present Subjunctive Yo"],
+        "headers": [
+          "Infinitive",
+          "Yo Present Indicative",
+          "Present Subjunctive Yo"
+        ],
         "rows": [
-          ["hablar", "hablo", "hable"],
-          ["comer", "como", "coma"],
-          ["vivir", "vivo", "viva"],
-          ["tener", "tengo", "tenga"],
-          ["estar", "estoy", "esté"],
-          ["ir", "voy", "vaya"]
+          [
+            "hablar",
+            "hablo",
+            "hable"
+          ],
+          [
+            "comer",
+            "como",
+            "coma"
+          ],
+          [
+            "vivir",
+            "vivo",
+            "viva"
+          ],
+          [
+            "tener",
+            "tengo",
+            "tenga"
+          ],
+          [
+            "estar",
+            "estoy",
+            "esté"
+          ],
+          [
+            "ir",
+            "voy",
+            "vaya"
+          ]
         ]
       },
       "examples": [
@@ -63,7 +411,12 @@
     {
       "type": "exercise",
       "question": "Which of these uses the subjunctive correctly?",
-      "options": ["Quiero que tú vienes.", "Ojalá llueva mañana.", "Espero que tú comes.", "Quiero que tú comes."],
+      "options": [
+        "Quiero que tú vienes.",
+        "Ojalá llueva mañana.",
+        "Espero que tú comes.",
+        "Quiero que tú comes."
+      ],
       "correct": 1,
       "explanation": "'Ojalá llueva mañana' uses the subjunctive correctly. 'Ojalá' always triggers the subjunctive."
     },
@@ -76,7 +429,12 @@
     {
       "type": "exercise",
       "question": "What is the subjunctive yo form of 'tener'?",
-      "options": ["tengo", "tuviera", "tenga", "tenía"],
+      "options": [
+        "tengo",
+        "tuviera",
+        "tenga",
+        "tenía"
+      ],
       "correct": 2,
       "explanation": "'Tenga' is the present subjunctive yo form: take the yo indicative (tengo), drop the -o, add -a for -ER verbs."
     },
@@ -95,7 +453,12 @@
     {
       "type": "exercise",
       "question": "What triggers the subjunctive after 'ojalá'?",
-      "options": ["No trigger", "The subjunctive mood", "The infinitive", "The indicative"],
+      "options": [
+        "No trigger",
+        "The subjunctive mood",
+        "The infinitive",
+        "The indicative"
+      ],
       "correct": 1,
       "explanation": "'Ojalá' always triggers the subjunctive: Ojalá llueva, Ojalá venga, etc."
     }
