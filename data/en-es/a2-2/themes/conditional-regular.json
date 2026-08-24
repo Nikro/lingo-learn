@@ -212,6 +212,146 @@
       "source": "she told me she would come",
       "gender": "—",
       "type": "phrase"
+    },
+    {
+      "target": "hablaría",
+      "source": "(he/she) would talk",
+      "type": "verb",
+      "example": "Hablaría con ella.",
+      "id": 31
+    },
+    {
+      "target": "comería",
+      "source": "(he/she) would eat",
+      "type": "verb",
+      "example": "Comería cualquier cosa.",
+      "id": 32
+    },
+    {
+      "target": "viviría",
+      "source": "(he/she) would live",
+      "type": "verb",
+      "example": "Viviría en el campo.",
+      "id": 33
+    },
+    {
+      "target": "estudiaría",
+      "source": "(he/she) would study",
+      "type": "verb",
+      "example": "Estudiaría medicina.",
+      "id": 34
+    },
+    {
+      "target": "trabajaría",
+      "source": "(he/she) would work",
+      "type": "verb",
+      "example": "Trabajaría en otra ciudad.",
+      "id": 35
+    },
+    {
+      "target": "viajaría",
+      "source": "(he/she) would travel",
+      "type": "verb",
+      "example": "Viajaría mañana.",
+      "id": 36
+    },
+    {
+      "target": "compraría",
+      "source": "(he/she) would buy",
+      "type": "verb",
+      "example": "Compraría la casa.",
+      "id": 37
+    },
+    {
+      "target": "ayudaría",
+      "source": "(he/she) would help",
+      "type": "verb",
+      "example": "Ayudaría sin dudarlo.",
+      "id": 38
+    },
+    {
+      "target": "abriría",
+      "source": "(he/she) would open",
+      "type": "verb",
+      "example": "Abriría la ventana.",
+      "id": 39
+    },
+    {
+      "target": "pediría",
+      "source": "(he/she) would ask",
+      "type": "verb",
+      "example": "Pediría la cuenta.",
+      "id": 40
+    },
+    {
+      "target": "respondería",
+      "source": "(he/she) would answer",
+      "type": "verb",
+      "example": "Respondería por teléfono.",
+      "id": 41
+    },
+    {
+      "target": "necesitaría",
+      "source": "(he/she) would need",
+      "type": "verb",
+      "example": "Necesitaría un mapa.",
+      "id": 42
+    },
+    {
+      "target": "usaría",
+      "source": "(he/she) would use",
+      "type": "verb",
+      "example": "Usaría el metro.",
+      "id": 43
+    },
+    {
+      "target": "llamaría",
+      "source": "(he/she) would call",
+      "type": "verb",
+      "example": "Llamaría a sus amigos.",
+      "id": 44
+    },
+    {
+      "target": "escribiría",
+      "source": "(he/she) would write",
+      "type": "verb",
+      "example": "Escribiría una carta.",
+      "id": 45
+    },
+    {
+      "target": "leería",
+      "source": "(he/she) would read",
+      "type": "verb",
+      "example": "Leería el libro entero.",
+      "id": 46
+    },
+    {
+      "target": "escucharía",
+      "source": "(he/she) would listen",
+      "type": "verb",
+      "example": "Escucharía esa canción.",
+      "id": 47
+    },
+    {
+      "target": "vería",
+      "source": "(he/she) would see",
+      "type": "verb",
+      "example": "Vería la película.",
+      "id": 48
+    },
+    {
+      "target": "cambiaría",
+      "source": "(he/she) would change",
+      "type": "verb",
+      "example": "Cambiaría de opinión.",
+      "id": 49
+    },
+    {
+      "target": "aprendería",
+      "source": "(he/she) would learn",
+      "type": "verb",
+      "example": "Aprendería otro idioma.",
+      "id": 50
     }
   ],
   "grammar": [

@@ -3,55 +3,435 @@
   "title": "Verbs + Prepositions",
   "description": "Master fixed verb+preposition combinations: pensar en, salir con, depender de, soñar con.",
   "vocabulary": [
-    { "id": 1, "target": "pensar en", "source": "to think about", "gender": "—", "type": "verb" },
-    { "id": 2, "target": "salir con", "source": "to go out with / date", "gender": "—", "type": "verb" },
-    { "id": 3, "target": "acostarse con", "source": "to sleep with", "gender": "—", "type": "verb" },
-    { "id": 4, "target": "empezar a", "source": "to start to", "gender": "—", "type": "verb" },
-    { "id": 5, "target": "soñar con/en", "source": "to dream about", "gender": "—", "type": "verb" },
-    { "id": 6, "target": "depender de", "source": "to depend on", "gender": "—", "type": "verb" },
-    { "id": 7, "target": "llamar a", "source": "to call", "gender": "—", "type": "verb" },
-    { "id": 8, "target": "acabar de", "source": "to have just", "gender": "—", "type": "verb" },
-    { "id": 9, "target": "aprender a", "source": "to learn to", "gender": "—", "type": "verb" },
-    { "id": 10, "target": "ayudar a", "source": "to help", "gender": "—", "type": "verb" },
-    { "id": 11, "target": "creer en", "source": "to believe in", "gender": "—", "type": "verb" },
-    { "id": 12, "target": "olvidarse de", "source": "to forget about", "gender": "—", "type": "verb" },
-    { "id": 13, "target": "el futuro", "source": "the future", "gender": "m.", "type": "noun" },
-    { "id": 14, "target": "las vacaciones", "source": "the vacation", "gender": "f.", "type": "noun" },
-    { "id": 15, "target": "el novio", "source": "the boyfriend", "gender": "m.", "type": "noun" },
-    { "id": 16, "target": "la clase", "source": "the class", "gender": "f.", "type": "noun" },
-    { "id": 17, "target": "el chico", "source": "the guy", "gender": "m.", "type": "noun" },
-    { "id": 18, "target": "la paz", "source": "peace", "gender": "f.", "type": "noun" },
-    { "id": 19, "target": "el clima", "source": "the climate/weather", "gender": "m.", "type": "noun" },
-    { "id": 20, "target": "el doctor", "source": "the doctor", "gender": "m.", "type": "noun" },
-    { "id": 21, "target": "con quién", "source": "with whom / who", "gender": "—", "type": "pronoun" },
-    { "id": 22, "target": "en ti", "source": "about you / in you", "gender": "—", "type": "phrase" },
-    { "id": 23, "target": "llover", "source": "to rain", "gender": "v.", "type": "verb" },
-    { "id": 24, "target": "viajar a Japón", "source": "to travel to Japan", "gender": "—", "type": "phrase" },
-    { "id": 25, "target": "cocinar", "source": "to cook", "gender": "v.", "type": "verb" },
-    { "id": 26, "target": "llegar", "source": "to arrive", "gender": "v.", "type": "verb" },
-    { "id": 27, "target": "amar", "source": "to love", "gender": "v.", "type": "verb" },
-    { "id": 28, "target": "la verdad", "source": "the truth", "gender": "f.", "type": "noun" },
-    { "id": 29, "target": "la política", "source": "politics", "gender": "f.", "type": "noun" },
-    { "id": 30, "target": "de algo", "source": "about something", "gender": "—", "type": "phrase" }
+    {
+      "id": 1,
+      "target": "pensar en",
+      "source": "to think about",
+      "gender": "—",
+      "type": "verb"
+    },
+    {
+      "id": 2,
+      "target": "salir con",
+      "source": "to go out with / date",
+      "gender": "—",
+      "type": "verb"
+    },
+    {
+      "id": 3,
+      "target": "acostarse con",
+      "source": "to sleep with",
+      "gender": "—",
+      "type": "verb"
+    },
+    {
+      "id": 4,
+      "target": "empezar a",
+      "source": "to start to",
+      "gender": "—",
+      "type": "verb"
+    },
+    {
+      "id": 5,
+      "target": "soñar con/en",
+      "source": "to dream about",
+      "gender": "—",
+      "type": "verb"
+    },
+    {
+      "id": 6,
+      "target": "depender de",
+      "source": "to depend on",
+      "gender": "—",
+      "type": "verb"
+    },
+    {
+      "id": 7,
+      "target": "llamar a",
+      "source": "to call",
+      "gender": "—",
+      "type": "verb"
+    },
+    {
+      "id": 8,
+      "target": "acabar de",
+      "source": "to have just",
+      "gender": "—",
+      "type": "verb"
+    },
+    {
+      "id": 9,
+      "target": "aprender a",
+      "source": "to learn to",
+      "gender": "—",
+      "type": "verb"
+    },
+    {
+      "id": 10,
+      "target": "ayudar a",
+      "source": "to help",
+      "gender": "—",
+      "type": "verb"
+    },
+    {
+      "id": 11,
+      "target": "creer en",
+      "source": "to believe in",
+      "gender": "—",
+      "type": "verb"
+    },
+    {
+      "id": 12,
+      "target": "olvidarse de",
+      "source": "to forget about",
+      "gender": "—",
+      "type": "verb"
+    },
+    {
+      "id": 13,
+      "target": "el futuro",
+      "source": "the future",
+      "gender": "m.",
+      "type": "noun"
+    },
+    {
+      "id": 14,
+      "target": "las vacaciones",
+      "source": "the vacation",
+      "gender": "f.",
+      "type": "noun"
+    },
+    {
+      "id": 15,
+      "target": "el novio",
+      "source": "the boyfriend",
+      "gender": "m.",
+      "type": "noun"
+    },
+    {
+      "id": 16,
+      "target": "la clase",
+      "source": "the class",
+      "gender": "f.",
+      "type": "noun"
+    },
+    {
+      "id": 17,
+      "target": "el chico",
+      "source": "the guy",
+      "gender": "m.",
+      "type": "noun"
+    },
+    {
+      "id": 18,
+      "target": "la paz",
+      "source": "peace",
+      "gender": "f.",
+      "type": "noun"
+    },
+    {
+      "id": 19,
+      "target": "el clima",
+      "source": "the climate/weather",
+      "gender": "m.",
+      "type": "noun"
+    },
+    {
+      "id": 20,
+      "target": "el doctor",
+      "source": "the doctor",
+      "gender": "m.",
+      "type": "noun"
+    },
+    {
+      "id": 21,
+      "target": "con quién",
+      "source": "with whom / who",
+      "gender": "—",
+      "type": "pronoun"
+    },
+    {
+      "id": 22,
+      "target": "en ti",
+      "source": "about you / in you",
+      "gender": "—",
+      "type": "phrase"
+    },
+    {
+      "id": 23,
+      "target": "llover",
+      "source": "to rain",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 24,
+      "target": "viajar a Japón",
+      "source": "to travel to Japan",
+      "gender": "—",
+      "type": "phrase"
+    },
+    {
+      "id": 25,
+      "target": "cocinar",
+      "source": "to cook",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 26,
+      "target": "llegar",
+      "source": "to arrive",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 27,
+      "target": "amar",
+      "source": "to love",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 28,
+      "target": "la verdad",
+      "source": "the truth",
+      "gender": "f.",
+      "type": "noun"
+    },
+    {
+      "id": 29,
+      "target": "la política",
+      "source": "politics",
+      "gender": "f.",
+      "type": "noun"
+    },
+    {
+      "id": 30,
+      "target": "de algo",
+      "source": "about something",
+      "gender": "—",
+      "type": "phrase"
+    },
+    {
+      "target": "consistir en",
+      "source": "to consist in",
+      "type": "phrase",
+      "example": "El problema consiste en la falta de tiempo.",
+      "id": 31
+    },
+    {
+      "target": "confiar en",
+      "source": "to trust in",
+      "type": "phrase",
+      "example": "Confío en mis amigos.",
+      "id": 32
+    },
+    {
+      "target": "esperar a",
+      "source": "to wait for",
+      "type": "phrase",
+      "example": "Espero a mi hermano en la puerta.",
+      "id": 33
+    },
+    {
+      "target": "buscar a",
+      "source": "to look for (person)",
+      "type": "phrase",
+      "example": "Busco a mi hija por todo el barrio.",
+      "id": 34
+    },
+    {
+      "target": "tratar de",
+      "source": "to try to / to be about",
+      "type": "phrase",
+      "example": "Trato de llegar antes de las nueve.",
+      "id": 35
+    },
+    {
+      "target": "referirse a",
+      "source": "to refer to",
+      "type": "phrase",
+      "example": "¿A qué te refieres?",
+      "id": 36
+    },
+    {
+      "target": "casarse con",
+      "source": "to marry",
+      "type": "phrase",
+      "example": "Se casó con su mejor amigo.",
+      "id": 37
+    },
+    {
+      "target": "morir de",
+      "source": "to die of",
+      "type": "phrase",
+      "example": "Murió de una enfermedad rara.",
+      "id": 38
+    },
+    {
+      "target": "reírse de",
+      "source": "to laugh at",
+      "type": "phrase",
+      "example": "No te rías de mí.",
+      "id": 39
+    },
+    {
+      "target": "divertirse con",
+      "source": "to have fun with",
+      "type": "phrase",
+      "example": "Me divertí mucho con mis primos.",
+      "id": 40
+    },
+    {
+      "target": "acordarse de",
+      "source": "to remember",
+      "type": "phrase",
+      "example": "No me acuerdo de su nombre.",
+      "id": 41
+    },
+    {
+      "target": "preocuparse por",
+      "source": "to worry about",
+      "type": "phrase",
+      "example": "No te preocupes por mí.",
+      "id": 42
+    },
+    {
+      "target": "hablar de",
+      "source": "to talk about",
+      "type": "phrase",
+      "example": "Vamos a hablar de tu proyecto.",
+      "id": 43
+    },
+    {
+      "target": "hablar con",
+      "source": "to talk with",
+      "type": "phrase",
+      "example": "Necesito hablar con el director.",
+      "id": 44
+    },
+    {
+      "target": "concentrarse en",
+      "source": "to concentrate on",
+      "type": "phrase",
+      "example": "No puedo concentrarme en el examen.",
+      "id": 45
+    },
+    {
+      "target": "insistir en",
+      "source": "to insist on",
+      "type": "phrase",
+      "example": "Insisto en pagar yo.",
+      "id": 46
+    },
+    {
+      "target": "acostumbrarse a",
+      "source": "to get used to",
+      "type": "phrase",
+      "example": "Me estoy acostumbrando al clima.",
+      "id": 47
+    },
+    {
+      "target": "fijarse en",
+      "source": "to pay attention to",
+      "type": "phrase",
+      "example": "Fíjate en la pizarra.",
+      "id": 48
+    },
+    {
+      "target": "basarse en",
+      "source": "to be based on",
+      "type": "phrase",
+      "example": "La película se basa en hechos reales.",
+      "id": 49
+    },
+    {
+      "target": "dedicarse a",
+      "source": "to devote to",
+      "type": "phrase",
+      "example": "Se dedica a la fotografía.",
+      "id": 50
+    }
   ],
   "grammar": [
     {
       "title": "Verbs + Prepositions (Verbos + Preposiciones)",
       "content": "Many Spanish verbs require a specific preposition before the next verb or noun. Unlike English, where prepositions are often intuitive, Spanish verbs lock onto their prepositions rigidly.\n\nMost important A2.2 verb+preposition combinations:\n- pensar EN (to think about) — 'Pienso en mi futuro.' (I'm thinking about my future.)\n- salir CON (to go out with / to date) — 'Ella sale con su novio.' (She goes out with her boyfriend.)\n- empezar A (to start to) — 'Empieza a llover.' (It starts to rain.)\n- soñar CON/EN (to dream about) — 'Sueño con viajar a Japón.' (I dream of traveling to Japan.)\n- depender DE (to depend on) — 'Depende de ti.' (It depends on you.)\n- llamar A (to call) — 'Llamo a mi madre.' (I call my mother.)\n- acabar de (to have just) — 'Acabo de llegar.' (I just arrived.)\n- aprender A (to learn to) — 'Aprendo a cocinar.' (I'm learning to cook.)\n- ayudar A (to help) — 'Ayudo a mi madre.' (I help my mother.)\n- creer EN (to believe in) — 'Creo en la paz.' (I believe in peace.)\n- olvidarse DE (to forget about) — 'Se olvida de todo.' (He/She forgets about everything.)",
       "table": {
-        "headers": ["Spanish Verb", "Preposition", "English", "Example"],
+        "headers": [
+          "Spanish Verb",
+          "Preposition",
+          "English",
+          "Example"
+        ],
         "rows": [
-          ["pensar", "en", "to think about", "Pienso en ti."],
-          ["salir", "con", "to go out with", "Sale con amigos."],
-          ["empezar", "a", "to start to", "Empieza a llover."],
-          ["soñar", "con/en", "to dream about", "Sueño con la paz."],
-          ["depender", "de", "to depend on", "Depende del clima."],
-          ["llamar", "a", "to call", "Llamo al doctor."],
-          ["acabar", "de", "to have just", "Acabo de llegar."],
-          ["aprender", "a", "to learn to", "Aprendo a cocinar."],
-          ["ayudar", "a", "to help", "Ayudo a mi madre."],
-          ["creer", "en", "to believe in", "Creo en ti."],
-          ["olvidarse", "de", "to forget about", "Se olvida de todo."]
+          [
+            "pensar",
+            "en",
+            "to think about",
+            "Pienso en ti."
+          ],
+          [
+            "salir",
+            "con",
+            "to go out with",
+            "Sale con amigos."
+          ],
+          [
+            "empezar",
+            "a",
+            "to start to",
+            "Empieza a llover."
+          ],
+          [
+            "soñar",
+            "con/en",
+            "to dream about",
+            "Sueño con la paz."
+          ],
+          [
+            "depender",
+            "de",
+            "to depend on",
+            "Depende del clima."
+          ],
+          [
+            "llamar",
+            "a",
+            "to call",
+            "Llamo al doctor."
+          ],
+          [
+            "acabar",
+            "de",
+            "to have just",
+            "Acabo de llegar."
+          ],
+          [
+            "aprender",
+            "a",
+            "to learn to",
+            "Aprendo a cocinar."
+          ],
+          [
+            "ayudar",
+            "a",
+            "to help",
+            "Ayudo a mi madre."
+          ],
+          [
+            "creer",
+            "en",
+            "to believe in",
+            "Creo en ti."
+          ],
+          [
+            "olvidarse",
+            "de",
+            "to forget about",
+            "Se olvida de todo."
+          ]
         ]
       },
       "examples": [
@@ -68,14 +448,24 @@
     {
       "type": "exercise",
       "question": "What preposition follows 'pensar' when meaning 'to think about'?",
-      "options": ["de", "en", "a", "con"],
+      "options": [
+        "de",
+        "en",
+        "a",
+        "con"
+      ],
       "correct": 1,
       "explanation": "'Pensar en' means 'to think about.' 'Pienso en ti' = I think about you."
     },
     {
       "type": "exercise",
       "question": "What does 'salir con' mean?",
-      "options": ["to leave with", "to go out with / date", "to go out to", "to go out of"],
+      "options": [
+        "to leave with",
+        "to go out with / date",
+        "to go out to",
+        "to go out of"
+      ],
       "correct": 1,
       "explanation": "'Salir con' means 'to go out with' or 'to date.' 'Ella sale con un chico' = She is dating a guy."
     },
@@ -88,14 +478,24 @@
     {
       "type": "exercise",
       "question": "What does 'acabar de + infinitive' mean?",
-      "options": ["to end to", "to have just done something", "to start to", "to forget to"],
+      "options": [
+        "to end to",
+        "to have just done something",
+        "to start to",
+        "to forget to"
+      ],
       "correct": 1,
       "explanation": "'Acabar de + infinitive' means 'to have just done something': Acabo de llegar = I just arrived."
     },
     {
       "type": "exercise",
       "question": "Which verb requires the preposition 'de' after it?",
-      "options": ["pensar", "salir", "depender", "soñar"],
+      "options": [
+        "pensar",
+        "salir",
+        "depender",
+        "soñar"
+      ],
       "correct": 2,
       "explanation": "'Depender de' = to depend on. 'Depende de ti' = It depends on you."
     },

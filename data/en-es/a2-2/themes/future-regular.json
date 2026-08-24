@@ -7,217 +7,358 @@
       "target": "tener",
       "source": "to have",
       "gender": "v.",
-      "type": "verb"
+      "type": "verb",
+      "id": 1
     },
     {
-      "id": 1,
+      "id": 2,
       "target": "el futuro",
       "source": "the future",
       "gender": "m.",
       "type": "noun"
     },
     {
-      "id": 2,
+      "id": 3,
       "target": "el plan",
       "source": "the plan",
       "gender": "m.",
       "type": "noun"
     },
     {
-      "id": 3,
+      "id": 4,
       "target": "el sueño",
       "source": "the dream",
       "gender": "m.",
       "type": "noun"
     },
     {
-      "id": 4,
+      "id": 5,
       "target": "la previsión",
       "source": "the forecast",
       "gender": "f.",
       "type": "noun"
     },
     {
-      "id": 5,
+      "id": 6,
       "target": "el medio ambiente",
       "source": "the environment",
       "gender": "m.",
       "type": "noun"
     },
     {
-      "id": 6,
+      "id": 7,
       "target": "el planeta",
       "source": "the planet",
       "gender": "m.",
       "type": "noun"
     },
     {
-      "id": 7,
+      "id": 8,
       "target": "la contaminación",
       "source": "pollution",
       "gender": "f.",
       "type": "noun"
     },
     {
-      "id": 8,
+      "id": 9,
       "target": "el reciclaje",
       "source": "recycling",
       "gender": "m.",
       "type": "noun"
     },
     {
-      "id": 9,
+      "id": 10,
       "target": "la energía solar",
       "source": "solar energy",
       "gender": "f.",
       "type": "noun"
     },
     {
-      "id": 10,
+      "id": 11,
       "target": "el cambio climático",
       "source": "climate change",
       "gender": "m.",
       "type": "noun"
     },
     {
-      "id": 11,
+      "id": 12,
       "target": "viajar",
       "source": "to travel",
       "gender": "v.",
       "type": "verb"
     },
     {
-      "id": 12,
+      "id": 13,
       "target": "comprar",
       "source": "to buy",
       "gender": "v.",
       "type": "verb"
     },
     {
-      "id": 13,
+      "id": 14,
       "target": "vivir",
       "source": "to live",
       "gender": "v.",
       "type": "verb"
     },
     {
-      "id": 14,
+      "id": 15,
       "target": "estudiar",
       "source": "to study",
       "gender": "v.",
       "type": "verb"
     },
     {
-      "id": 15,
+      "id": 16,
       "target": "trabajar",
       "source": "to work",
       "gender": "v.",
       "type": "verb"
     },
     {
-      "id": 16,
+      "id": 17,
       "target": "llover",
       "source": "to rain",
       "gender": "v.",
       "type": "verb"
     },
     {
-      "id": 17,
+      "id": 18,
       "target": "proteger",
       "source": "to protect",
       "gender": "v.",
       "type": "verb"
     },
     {
-      "id": 18,
+      "id": 19,
       "target": "reciclar",
       "source": "to recycle",
       "gender": "v.",
       "type": "verb"
     },
     {
-      "id": 19,
+      "id": 20,
       "target": "enviar",
       "source": "to send",
       "gender": "v.",
       "type": "verb"
     },
     {
-      "id": 20,
+      "id": 21,
       "target": "recibir",
       "source": "to receive",
       "gender": "v.",
       "type": "verb"
     },
     {
-      "id": 21,
+      "id": 22,
       "target": "mañana",
       "source": "tomorrow",
       "gender": "—",
       "type": "time"
     },
     {
-      "id": 22,
+      "id": 23,
       "target": "pronto",
       "source": "soon",
       "gender": "—",
       "type": "time"
     },
     {
-      "id": 23,
+      "id": 24,
       "target": "después",
       "source": "later / after",
       "gender": "—",
       "type": "time"
     },
     {
-      "id": 24,
+      "id": 25,
       "target": "dentro de...",
       "source": "within... (time)",
       "gender": "—",
       "type": "time"
     },
     {
-      "id": 25,
+      "id": 26,
       "target": "en un futuro",
       "source": "in the future",
       "gender": "—",
       "type": "time"
     },
     {
-      "id": 26,
+      "id": 27,
       "target": "el año que viene",
       "source": "next year",
       "gender": "—",
       "type": "time"
     },
     {
-      "id": 27,
+      "id": 28,
       "target": "el próximo año",
       "source": "next year",
       "gender": "m.",
       "type": "time"
     },
     {
-      "id": 28,
+      "id": 29,
       "target": "la semana próxima",
       "source": "next week",
       "gender": "f.",
       "type": "time"
     },
     {
-      "id": 29,
+      "id": 30,
       "target": "posiblemente",
       "source": "possibly",
       "gender": "—",
       "type": "adverb"
     },
     {
-      "id": 30,
+      "id": 31,
       "target": "probablemente",
       "source": "probably",
       "gender": "—",
       "type": "adverb"
+    },
+    {
+      "target": "hablaré",
+      "source": "I will speak",
+      "type": "verb",
+      "example": "Hablaré con el profesor.",
+      "id": 32
+    },
+    {
+      "target": "comeré",
+      "source": "I will eat",
+      "type": "verb",
+      "example": "Comeré en casa.",
+      "id": 33
+    },
+    {
+      "target": "viviré",
+      "source": "I will live",
+      "type": "verb",
+      "example": "Viviré en Madrid.",
+      "id": 34
+    },
+    {
+      "target": "estudiaré",
+      "source": "I will study",
+      "type": "verb",
+      "example": "Estudiaré toda la noche.",
+      "id": 35
+    },
+    {
+      "target": "trabajaré",
+      "source": "I will work",
+      "type": "verb",
+      "example": "Trabajaré desde casa.",
+      "id": 36
+    },
+    {
+      "target": "viajaré",
+      "source": "I will travel",
+      "type": "verb",
+      "example": "Viajaré el verano que viene.",
+      "id": 37
+    },
+    {
+      "target": "compraré",
+      "source": "I will buy",
+      "type": "verb",
+      "example": "Compraré la entrada.",
+      "id": 38
+    },
+    {
+      "target": "ayudaré",
+      "source": "I will help",
+      "type": "verb",
+      "example": "Ayudaré con la mudanza.",
+      "id": 39
+    },
+    {
+      "target": "abriré",
+      "source": "I will open",
+      "type": "verb",
+      "example": "Abriré la tienda mañana.",
+      "id": 40
+    },
+    {
+      "target": "pediré",
+      "source": "I will ask",
+      "type": "verb",
+      "example": "Pediré la pizza.",
+      "id": 41
+    },
+    {
+      "target": "responderé",
+      "source": "I will answer",
+      "type": "verb",
+      "example": "Responderé al correo.",
+      "id": 42
+    },
+    {
+      "target": "necesitaré",
+      "source": "I will need",
+      "type": "verb",
+      "example": "Necesitaré tiempo.",
+      "id": 43
+    },
+    {
+      "target": "usaré",
+      "source": "I will use",
+      "type": "verb",
+      "example": "Usaré la bicicleta.",
+      "id": 44
+    },
+    {
+      "target": "llamaré",
+      "source": "I will call",
+      "type": "verb",
+      "example": "Llamaré a mi madre.",
+      "id": 45
+    },
+    {
+      "target": "escribiré",
+      "source": "I will write",
+      "type": "verb",
+      "example": "Escribiré mi nombre.",
+      "id": 46
+    },
+    {
+      "target": "leeré",
+      "source": "I will read",
+      "type": "verb",
+      "example": "Leeré un libro nuevo.",
+      "id": 47
+    },
+    {
+      "target": "escucharé",
+      "source": "I will listen",
+      "type": "verb",
+      "example": "Escucharé música.",
+      "id": 48
+    },
+    {
+      "target": "veré",
+      "source": "I will see",
+      "type": "verb",
+      "example": "Veré a mis amigos.",
+      "id": 49
+    },
+    {
+      "target": "cambiaré",
+      "source": "I will change",
+      "type": "verb",
+      "example": "Cambiaré de trabajo.",
+      "id": 50
+    },
+    {
+      "target": "aprenderé",
+      "source": "I will learn",
+      "type": "verb",
+      "example": "Aprenderé japonés.",
+      "id": 51
     }
   ],
   "grammar": [

@@ -3,50 +3,405 @@
   "title": "Object Pronoun Combinations",
   "description": "Combine direct and indirect object pronouns into single words (se lo, te lo, me la).",
   "vocabulary": [
-    { "id": 1, "target": "te lo", "source": "it to you (informal)", "gender": "—", "type": "pronoun" },
-    { "id": 2, "target": "se lo", "source": "it to him/her/you (formal)", "gender": "—", "type": "pronoun" },
-    { "id": 3, "target": "me lo", "source": "it to me", "gender": "—", "type": "pronoun" },
-    { "id": 4, "target": "se los", "source": "them to him/her/you (formal)", "gender": "—", "type": "pronoun" },
-    { "id": 5, "target": "me la", "source": "it (feminine) to me", "gender": "—", "type": "pronoun" },
-    { "id": 6, "target": "te la", "source": "it (feminine) to you (informal)", "gender": "—", "type": "pronoun" },
-    { "id": 7, "target": "nos lo", "source": "it to us", "gender": "—", "type": "pronoun" },
-    { "id": 8, "target": "se las", "source": "them (feminine) to him/her/you (formal)", "gender": "—", "type": "pronoun" },
-    { "id": 9, "target": "te las", "source": "them (feminine) to you (informal)", "gender": "—", "type": "pronoun" },
-    { "id": 10, "target": "nos las", "source": "them (feminine) to us", "gender": "—", "type": "pronoun" },
-    { "id": 11, "target": "el libro", "source": "the book", "gender": "m.", "type": "noun" },
-    { "id": 12, "target": "la película", "source": "the movie", "gender": "f.", "type": "noun" },
-    { "id": 13, "target": "los libros", "source": "the books", "gender": "m.", "type": "noun" },
-    { "id": 14, "target": "las películas", "source": "the movies", "gender": "f.", "type": "noun" },
-    { "id": 15, "target": "el regalo", "source": "the gift", "gender": "m.", "type": "noun" },
-    { "id": 16, "target": "la receta", "source": "the recipe", "gender": "f.", "type": "noun" },
-    { "id": 17, "target": "la verdad", "source": "the truth", "gender": "f.", "type": "noun" },
-    { "id": 18, "target": "maría", "source": "María (name)", "gender": "f.", "type": "name" },
-    { "id": 19, "target": "el médico", "source": "the doctor", "gender": "m.", "type": "noun" },
-    { "id": 20, "target": "el mercado", "source": "the market", "gender": "m.", "type": "noun" },
-    { "id": 21, "target": "prestar", "source": "to lend", "gender": "v.", "type": "verb" },
-    { "id": 22, "target": "dar", "source": "to give", "gender": "v.", "type": "verb" },
-    { "id": 23, "target": "decir", "source": "to say / to tell", "gender": "v.", "type": "verb" },
-    { "id": 24, "target": "recomendar", "source": "to recommend", "gender": "v.", "type": "verb" },
-    { "id": 25, "target": "enviar", "source": "to send", "gender": "v.", "type": "verb" },
-    { "id": 26, "target": "comprar", "source": "to buy", "gender": "v.", "type": "verb" },
-    { "id": 27, "target": "explicar", "source": "to explain", "gender": "v.", "type": "verb" },
-    { "id": 28, "target": "poder", "source": "to be able to / can", "gender": "v.", "type": "verb" },
-    { "id": 29, "target": "ahora mismo", "source": "right now", "gender": "—", "type": "time" },
-    { "id": 30, "target": "voy a", "source": "I'm going to", "gender": "—", "type": "phrase" }
+    {
+      "id": 1,
+      "target": "te lo",
+      "source": "it to you (informal)",
+      "gender": "—",
+      "type": "pronoun"
+    },
+    {
+      "id": 2,
+      "target": "se lo",
+      "source": "it to him/her/you (formal)",
+      "gender": "—",
+      "type": "pronoun"
+    },
+    {
+      "id": 3,
+      "target": "me lo",
+      "source": "it to me",
+      "gender": "—",
+      "type": "pronoun"
+    },
+    {
+      "id": 4,
+      "target": "se los",
+      "source": "them to him/her/you (formal)",
+      "gender": "—",
+      "type": "pronoun"
+    },
+    {
+      "id": 5,
+      "target": "me la",
+      "source": "it (feminine) to me",
+      "gender": "—",
+      "type": "pronoun"
+    },
+    {
+      "id": 6,
+      "target": "te la",
+      "source": "it (feminine) to you (informal)",
+      "gender": "—",
+      "type": "pronoun"
+    },
+    {
+      "id": 7,
+      "target": "nos lo",
+      "source": "it to us",
+      "gender": "—",
+      "type": "pronoun"
+    },
+    {
+      "id": 8,
+      "target": "se las",
+      "source": "them (feminine) to him/her/you (formal)",
+      "gender": "—",
+      "type": "pronoun"
+    },
+    {
+      "id": 9,
+      "target": "te las",
+      "source": "them (feminine) to you (informal)",
+      "gender": "—",
+      "type": "pronoun"
+    },
+    {
+      "id": 10,
+      "target": "nos las",
+      "source": "them (feminine) to us",
+      "gender": "—",
+      "type": "pronoun"
+    },
+    {
+      "id": 11,
+      "target": "el libro",
+      "source": "the book",
+      "gender": "m.",
+      "type": "noun"
+    },
+    {
+      "id": 12,
+      "target": "la película",
+      "source": "the movie",
+      "gender": "f.",
+      "type": "noun"
+    },
+    {
+      "id": 13,
+      "target": "los libros",
+      "source": "the books",
+      "gender": "m.",
+      "type": "noun"
+    },
+    {
+      "id": 14,
+      "target": "las películas",
+      "source": "the movies",
+      "gender": "f.",
+      "type": "noun"
+    },
+    {
+      "id": 15,
+      "target": "el regalo",
+      "source": "the gift",
+      "gender": "m.",
+      "type": "noun"
+    },
+    {
+      "id": 16,
+      "target": "la receta",
+      "source": "the recipe",
+      "gender": "f.",
+      "type": "noun"
+    },
+    {
+      "id": 17,
+      "target": "la verdad",
+      "source": "the truth",
+      "gender": "f.",
+      "type": "noun"
+    },
+    {
+      "id": 18,
+      "target": "maría",
+      "source": "María (name)",
+      "gender": "f.",
+      "type": "name"
+    },
+    {
+      "id": 19,
+      "target": "el médico",
+      "source": "the doctor",
+      "gender": "m.",
+      "type": "noun"
+    },
+    {
+      "id": 20,
+      "target": "el mercado",
+      "source": "the market",
+      "gender": "m.",
+      "type": "noun"
+    },
+    {
+      "id": 21,
+      "target": "prestar",
+      "source": "to lend",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 22,
+      "target": "dar",
+      "source": "to give",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 23,
+      "target": "decir",
+      "source": "to say / to tell",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 24,
+      "target": "recomendar",
+      "source": "to recommend",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 25,
+      "target": "enviar",
+      "source": "to send",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 26,
+      "target": "comprar",
+      "source": "to buy",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 27,
+      "target": "explicar",
+      "source": "to explain",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 28,
+      "target": "poder",
+      "source": "to be able to / can",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 29,
+      "target": "ahora mismo",
+      "source": "right now",
+      "gender": "—",
+      "type": "time"
+    },
+    {
+      "id": 30,
+      "target": "voy a",
+      "source": "I'm going to",
+      "gender": "—",
+      "type": "phrase"
+    },
+    {
+      "target": "me los",
+      "source": "them (m.pl.) to me",
+      "type": "pronoun",
+      "example": "Dámelos, por favor.",
+      "id": 31
+    },
+    {
+      "target": "me las",
+      "source": "them (f.pl.) to me",
+      "type": "pronoun",
+      "example": "Enséñamelas mañana.",
+      "id": 32
+    },
+    {
+      "target": "te los",
+      "source": "them (m.pl.) to you",
+      "type": "pronoun",
+      "example": "Te los envió ayer.",
+      "id": 33
+    },
+    {
+      "target": "se la",
+      "source": "it (f.) to him/her/you",
+      "type": "pronoun",
+      "example": "Se la dije anoche.",
+      "id": 34
+    },
+    {
+      "target": "os lo",
+      "source": "it (m.) to you (pl., Spain)",
+      "type": "pronoun",
+      "example": "Os lo conté antes.",
+      "id": 35
+    },
+    {
+      "target": "os la",
+      "source": "it (f.) to you (pl., Spain)",
+      "type": "pronoun",
+      "example": "Os la envié por correo.",
+      "id": 36
+    },
+    {
+      "target": "os los",
+      "source": "them (m.pl.) to you (pl., Spain)",
+      "type": "pronoun",
+      "example": "Os los presté la semana pasada.",
+      "id": 37
+    },
+    {
+      "target": "os las",
+      "source": "them (f.pl.) to you (pl., Spain)",
+      "type": "pronoun",
+      "example": "Os las leí en voz alta.",
+      "id": 38
+    },
+    {
+      "target": "nos la",
+      "source": "it (f.) to us",
+      "type": "pronoun",
+      "example": "Nos la explicó el profesor.",
+      "id": 39
+    },
+    {
+      "target": "nos los",
+      "source": "them (m.pl.) to us",
+      "type": "pronoun",
+      "example": "Nos los mostró en clase.",
+      "id": 40
+    },
+    {
+      "target": "dámelo",
+      "source": "give it to me",
+      "type": "phrase",
+      "example": "Dámelo, por favor.",
+      "id": 41
+    },
+    {
+      "target": "díselo",
+      "source": "tell him/her that",
+      "type": "phrase",
+      "example": "Díselo tú mismo.",
+      "id": 42
+    },
+    {
+      "target": "díselas",
+      "source": "tell them (f.pl.) that",
+      "type": "phrase",
+      "example": "Díselas que venga.",
+      "id": 43
+    },
+    {
+      "target": "envíamelo",
+      "source": "send it to me",
+      "type": "phrase",
+      "example": "Envíamelo por correo electrónico.",
+      "id": 44
+    },
+    {
+      "target": "comprármelo",
+      "source": "buy it for me",
+      "type": "phrase",
+      "example": "Podrías comprármelo?",
+      "id": 45
+    },
+    {
+      "target": "pregúntale",
+      "source": "ask him/her",
+      "type": "phrase",
+      "example": "Pregúntale al recepcionista.",
+      "id": 46
+    },
+    {
+      "target": "dáselo",
+      "source": "give it to him/her",
+      "type": "phrase",
+      "example": "Dáselo a tu hermana.",
+      "id": 47
+    },
+    {
+      "target": "llévalo",
+      "source": "take it (with you)",
+      "type": "phrase",
+      "example": "Llévalo al médico.",
+      "id": 48
+    },
+    {
+      "target": "tráemelo",
+      "source": "bring it to me",
+      "type": "phrase",
+      "example": "Tráemelo esta tarde.",
+      "id": 49
+    },
+    {
+      "id": 50,
+      "target": "guárdamelo",
+      "source": "keep it for me",
+      "type": "phrase",
+      "example": "Guárdamelo, por favor."
+    }
   ],
   "grammar": [
     {
       "title": "Object Pronoun Combinations (DO + IO in One Word)",
       "content": "When you want to replace BOTH a direct and indirect object with pronouns, they combine into a SINGLE word. The indirect object pronoun (le/les) ALWAYS comes first, followed by the direct object pronoun (lo/la/los/las).\n\nWhen le or les is followed by lo, la, los, or las, they change to SE + DO pronoun. This is one of the most important rules in Spanish pronoun usage.\n\nCombinations:\n- me + lo = melo\n- me + la = mela\n- te + lo = telo\n- te + la = tela\n- le + lo → se lo\n- le + la → se la\n- les + lo → se lo\n- les + la → se la\n- nos + lo = noslo\n- os + lo = oslo (Spain only)\n\nPlacement rules:\n- BEFORE conjugated verb: 'Te lo doy.' (I give it to you.)\n- ATTACHED to infinitive: 'Voy a dártelo.' (I'm going to give it to you.)\n- ATTACHED to gerund: 'Estoy preparándolo.' (I'm preparing it.)\n\nWhen attached to an infinitive or gerund, add an accent mark to maintain proper stress.",
       "table": {
-        "headers": ["IO + DO", "Combined Form", "Example", "Translation"],
+        "headers": [
+          "IO + DO",
+          "Combined Form",
+          "Example",
+          "Translation"
+        ],
         "rows": [
-          ["te + lo", "te lo", "Te lo digo.", "I tell it to you."],
-          ["le + la", "se la", "Se la di.", "I gave it to him/her."],
-          ["me + lo", "me lo", "Me lo compró.", "He bought it for me."],
-          ["les + los", "se los", "Se los envié.", "I sent them to them."],
-          ["te + las", "te las", "Te las pondré.", "I'll put them on you."],
-          ["nos + lo", "nos lo", "Nos lo explica.", "He explains it to us."]
+          [
+            "te + lo",
+            "te lo",
+            "Te lo digo.",
+            "I tell it to you."
+          ],
+          [
+            "le + la",
+            "se la",
+            "Se la di.",
+            "I gave it to him/her."
+          ],
+          [
+            "me + lo",
+            "me lo",
+            "Me lo compró.",
+            "He bought it for me."
+          ],
+          [
+            "les + los",
+            "se los",
+            "Se los envié.",
+            "I sent them to them."
+          ],
+          [
+            "te + las",
+            "te las",
+            "Te las pondré.",
+            "I'll put them on you."
+          ],
+          [
+            "nos + lo",
+            "nos lo",
+            "Nos lo explica.",
+            "He explains it to us."
+          ]
         ]
       },
       "examples": [
@@ -63,10 +418,22 @@
       "title": "Accent Marks with Attached Pronouns",
       "content": "When object pronouns are attached to an infinitive or gerund, an accent mark is often needed to maintain the original stress:\n\n- dar + lo = darlo (2 syllables, stress on da) — no accent needed\n- dar + te + lo = dártelo (3 syllables) — accent on the 'a' to maintain stress\n- explicar + lo = explicarlo (4 syllables, stress on pa) — no accent needed\n- explicando + lo = explicándolo (5 syllables) — accent on the 'a' to maintain stress\n- preparar + lo = prepararlo (4 syllables, stress on pa) — no accent needed\n- preparando + lo = preparándolo (5 syllables) — accent on the 'a'\n\nThe rule: if attaching pronouns pushes the stress to break the natural pattern, add an accent mark.",
       "examples": [
-        { "target": "decírtelo", "source": "de- CIR-te-lo (stress on CIR)" },
-        { "target": "explicándolo", "source": "ex-pli-CÁN-do-lo (stress on CÁN)" },
-        { "target": "dártelo", "source": "DÁR-te-lo (stress on DÁR)" },
-        { "target": "preparándolo", "source": "pre-pa-RÁN-do-lo (stress on RÁN)" }
+        {
+          "target": "decírtelo",
+          "source": "de- CIR-te-lo (stress on CIR)"
+        },
+        {
+          "target": "explicándolo",
+          "source": "ex-pli-CÁN-do-lo (stress on CÁN)"
+        },
+        {
+          "target": "dártelo",
+          "source": "DÁR-te-lo (stress on DÁR)"
+        },
+        {
+          "target": "preparándolo",
+          "source": "pre-pa-RÁN-do-lo (stress on RÁN)"
+        }
       ],
       "aid_note": "Romanian pronouns are separated by a hyphen (mi-l, îți-l), while Spanish fuses them into a single word. The accent mark rules in Spanish are more complex due to the fused form."
     }
@@ -75,7 +442,12 @@
     {
       "type": "exercise",
       "question": "What does 'se lo' replace in Spanish?",
-      "options": ["me + lo", "le + lo", "te + lo", "nos + lo"],
+      "options": [
+        "me + lo",
+        "le + lo",
+        "te + lo",
+        "nos + lo"
+      ],
       "correct": 1,
       "explanation": "'Se lo' replaces 'le/les + lo/la/los/las'. When le/les comes before lo/la/los/las, it changes to 'se'."
     },
@@ -94,7 +466,12 @@
     {
       "type": "exercise",
       "question": "Where do object pronouns go with a conjugated verb?",
-      "options": ["After the verb", "Before the conjugated verb", "At the end of the sentence", "They don't go with conjugated verbs"],
+      "options": [
+        "After the verb",
+        "Before the conjugated verb",
+        "At the end of the sentence",
+        "They don't go with conjugated verbs"
+      ],
       "correct": 1,
       "explanation": "Object pronouns go BEFORE the conjugated verb: 'Te lo doy' (I give it to you)."
     },
@@ -108,11 +485,26 @@
       "type": "matching",
       "question": "Match each object pronoun combination with its English meaning:",
       "pairs": [
-        { "target": "te lo", "source": "it to you (informal)" },
-        { "target": "se lo", "source": "it to him/her/you(formal)" },
-        { "target": "me la", "source": "it (feminine) to me" },
-        { "target": "se los", "source": "them (masculine) to them/you(pl.)" },
-        { "target": "nos las", "source": "them (feminine) to us" }
+        {
+          "target": "te lo",
+          "source": "it to you (informal)"
+        },
+        {
+          "target": "se lo",
+          "source": "it to him/her/you(formal)"
+        },
+        {
+          "target": "me la",
+          "source": "it (feminine) to me"
+        },
+        {
+          "target": "se los",
+          "source": "them (masculine) to them/you(pl.)"
+        },
+        {
+          "target": "nos las",
+          "source": "them (feminine) to us"
+        }
       ],
       "explanation": "Pronoun combinations: IO comes first, then DO. When le/les is before lo/la/los/las, it changes to 'se'."
     }

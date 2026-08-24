@@ -3,53 +3,423 @@
   "title": "Conditional — Irregular Stems",
   "description": "Learn conditional irregulars using the same stems as the future (tendr-, dir-, pondr-, etc.).",
   "vocabulary": [
-    { "id": 1, "target": "tendría", "source": "I would have", "gender": "v.", "type": "verb" },
-    { "id": 2, "target": "pondría", "source": "I would put", "gender": "v.", "type": "verb" },
-    { "id": 3, "target": "saldría", "source": "I would leave", "gender": "v.", "type": "verb" },
-    { "id": 4, "target": "podría", "source": "I would be able to / could", "gender": "v.", "type": "verb" },
-    { "id": 5, "target": "querría", "source": "I would want", "gender": "v.", "type": "verb" },
-    { "id": 6, "target": "diría", "source": "I would say", "gender": "v.", "type": "verb" },
-    { "id": 7, "target": "haría", "source": "I would do/make", "gender": "v.", "type": "verb" },
-    { "id": 8, "target": "sabría", "source": "I would know", "gender": "v.", "type": "verb" },
-    { "id": 9, "target": "vendría", "source": "I would come", "gender": "v.", "type": "verb" },
-    { "id": 10, "target": "cabría", "source": "I would fit", "gender": "v.", "type": "verb" },
-    { "id": 11, "target": "pedirle un favor", "source": "to ask you a favor", "gender": "—", "type": "phrase" },
-    { "id": 12, "target": "la verdad", "source": "the truth", "gender": "f.", "type": "noun" },
-    { "id": 13, "target": "viajar a Japón", "source": "to travel to Japan", "gender": "—", "type": "phrase" },
-    { "id": 14, "target": "responder", "source": "to answer", "gender": "v.", "type": "verb" },
-    { "id": 15, "target": "esa pregunta", "source": "that question", "gender": "f.", "type": "phrase" },
-    { "id": 16, "target": "si pudiera", "source": "if I could", "gender": "—", "type": "phrase" },
-    { "id": 17, "target": "la respuesta", "source": "the answer", "gender": "f.", "type": "noun" },
-    { "id": 18, "target": "ayudar", "source": "to help", "gender": "v.", "type": "verb" },
-    { "id": 19, "target": "poder", "source": "to be able to / can", "gender": "v.", "type": "verb" },
-    { "id": 20, "target": "decir", "source": "to say / to tell", "gender": "v.", "type": "verb" },
-    { "id": 21, "target": "tener", "source": "to have", "gender": "v.", "type": "verb" },
-    { "id": 22, "target": "poner", "source": "to put", "gender": "v.", "type": "verb" },
-    { "id": 23, "target": "salir", "source": "to leave / to go out", "gender": "v.", "type": "verb" },
-    { "id": 24, "target": "querer", "source": "to want", "gender": "v.", "type": "verb" },
-    { "id": 25, "target": "hacer", "source": "to do / to make", "gender": "v.", "type": "verb" },
-    { "id": 26, "target": "saber", "source": "to know (facts)", "gender": "v.", "type": "verb" },
-    { "id": 27, "target": "venir", "source": "to come", "gender": "v.", "type": "verb" },
-    { "id": 28, "target": "caber", "source": "to fit", "gender": "v.", "type": "verb" },
-    { "id": 29, "target": "un problema", "source": "a problem", "gender": "m.", "type": "noun" },
-    { "id": 30, "target": "la solución", "source": "the solution", "gender": "f.", "type": "noun" }
+    {
+      "id": 1,
+      "target": "tendría",
+      "source": "I would have",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 2,
+      "target": "pondría",
+      "source": "I would put",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 3,
+      "target": "saldría",
+      "source": "I would leave",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 4,
+      "target": "podría",
+      "source": "I would be able to / could",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 5,
+      "target": "querría",
+      "source": "I would want",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 6,
+      "target": "diría",
+      "source": "I would say",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 7,
+      "target": "haría",
+      "source": "I would do/make",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 8,
+      "target": "sabría",
+      "source": "I would know",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 9,
+      "target": "vendría",
+      "source": "I would come",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 10,
+      "target": "cabría",
+      "source": "I would fit",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 11,
+      "target": "pedirle un favor",
+      "source": "to ask you a favor",
+      "gender": "—",
+      "type": "phrase"
+    },
+    {
+      "id": 12,
+      "target": "la verdad",
+      "source": "the truth",
+      "gender": "f.",
+      "type": "noun"
+    },
+    {
+      "id": 13,
+      "target": "viajar a Japón",
+      "source": "to travel to Japan",
+      "gender": "—",
+      "type": "phrase"
+    },
+    {
+      "id": 14,
+      "target": "responder",
+      "source": "to answer",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 15,
+      "target": "esa pregunta",
+      "source": "that question",
+      "gender": "f.",
+      "type": "phrase"
+    },
+    {
+      "id": 16,
+      "target": "si pudiera",
+      "source": "if I could",
+      "gender": "—",
+      "type": "phrase"
+    },
+    {
+      "id": 17,
+      "target": "la respuesta",
+      "source": "the answer",
+      "gender": "f.",
+      "type": "noun"
+    },
+    {
+      "id": 18,
+      "target": "ayudar",
+      "source": "to help",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 19,
+      "target": "poder",
+      "source": "to be able to / can",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 20,
+      "target": "decir",
+      "source": "to say / to tell",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 21,
+      "target": "tener",
+      "source": "to have",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 22,
+      "target": "poner",
+      "source": "to put",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 23,
+      "target": "salir",
+      "source": "to leave / to go out",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 24,
+      "target": "querer",
+      "source": "to want",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 25,
+      "target": "hacer",
+      "source": "to do / to make",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 26,
+      "target": "saber",
+      "source": "to know (facts)",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 27,
+      "target": "venir",
+      "source": "to come",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 28,
+      "target": "caber",
+      "source": "to fit",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 29,
+      "target": "un problema",
+      "source": "a problem",
+      "gender": "m.",
+      "type": "noun"
+    },
+    {
+      "id": 30,
+      "target": "la solución",
+      "source": "the solution",
+      "gender": "f.",
+      "type": "noun"
+    },
+    {
+      "target": "tendría que",
+      "source": "I would have to",
+      "type": "phrase",
+      "example": "Tendría que salir antes.",
+      "id": 31
+    },
+    {
+      "target": "haría falta",
+      "source": "it would be necessary",
+      "type": "phrase",
+      "example": "Haría falta más tiempo.",
+      "id": 32
+    },
+    {
+      "target": "diría que",
+      "source": "I would say that",
+      "type": "phrase",
+      "example": "Diría que sí.",
+      "id": 33
+    },
+    {
+      "target": "podría ser",
+      "source": "it could be",
+      "type": "phrase",
+      "example": "Podría ser una solución.",
+      "id": 34
+    },
+    {
+      "target": "si tuviera",
+      "source": "if I had",
+      "type": "phrase",
+      "example": "Si tuviera dinero, viajaría.",
+      "id": 35
+    },
+    {
+      "target": "si fuera",
+      "source": "if I were",
+      "type": "phrase",
+      "example": "Si fuera yo, aceptaría.",
+      "id": 36
+    },
+    {
+      "target": "si supiera",
+      "source": "if I knew",
+      "type": "phrase",
+      "example": "Si supiera, te diría.",
+      "id": 37
+    },
+    {
+      "target": "si quisiera",
+      "source": "if I wanted",
+      "type": "phrase",
+      "example": "Si quisiera, iría.",
+      "id": 38
+    },
+    {
+      "target": "si viniera",
+      "source": "if he/she/it came",
+      "type": "phrase",
+      "example": "Si viniera, lo avisaríamos.",
+      "id": 39
+    },
+    {
+      "target": "si hiciera",
+      "source": "if I did/made",
+      "type": "phrase",
+      "example": "Si hiciera el esfuerzo, mejoraría.",
+      "id": 40
+    },
+    {
+      "target": "dijera",
+      "source": "(he/she) would say",
+      "type": "verb",
+      "example": "Ojalá dijera la verdad.",
+      "id": 41
+    },
+    {
+      "target": "hiciera",
+      "source": "(he/she) would do",
+      "type": "verb",
+      "example": "Si hiciera más, aprendería.",
+      "id": 42
+    },
+    {
+      "target": "supiera",
+      "source": "(he/she) would know",
+      "type": "verb",
+      "example": "Ojalá supiera la respuesta.",
+      "id": 43
+    },
+    {
+      "target": "quisiera",
+      "source": "(he/she) would want",
+      "type": "verb",
+      "example": "Quisiera un café, por favor.",
+      "id": 44
+    },
+    {
+      "target": "viniera",
+      "source": "(he/she) would come",
+      "type": "verb",
+      "example": "Me gustaría que viniera.",
+      "id": 45
+    },
+    {
+      "target": "llevaría",
+      "source": "(he/she) would carry",
+      "type": "verb",
+      "example": "Llevaría una chaqueta.",
+      "id": 46
+    },
+    {
+      "target": "traería",
+      "source": "(he/she) would bring",
+      "type": "verb",
+      "example": "Traería mi pasaporte.",
+      "id": 47
+    },
+    {
+      "target": "encontraría",
+      "source": "(he/she) would find",
+      "type": "verb",
+      "example": "Encontraría el camino.",
+      "id": 48
+    },
+    {
+      "target": "conocería",
+      "source": "(he/she) would know/meet",
+      "type": "verb",
+      "example": "Conocería a sus padres.",
+      "id": 49
+    },
+    {
+      "target": "necesitaría",
+      "source": "(he/she) would need",
+      "type": "verb",
+      "example": "Necesitaría ayuda.",
+      "id": 50
+    }
   ],
   "grammar": [
     {
       "title": "Conditional — Irregular Stems (Same as Future)",
       "content": "The conditional shares the same irregular stems as the future tense, but uses the conditional endings (-ía, -ías, etc.) instead. This means the stem changes are memorized once and applied to both tenses:\n\n- tener → tendría (I would have)\n- poner → pondría (I would put)\n- salir → saldría (I would leave)\n- poder → podría (I would be able to)\n- querer → querría (I would want)\n- decir → diría (I would say)\n- hacer → haría (I would do/make)\n- saber → sabría (I would know)\n- venir → vendría (I would come)\n- caber → cabría (I would fit)",
       "table": {
-        "headers": ["Infinitive", "Irregular Stem", "Yo Form", "English"],
+        "headers": [
+          "Infinitive",
+          "Irregular Stem",
+          "Yo Form",
+          "English"
+        ],
         "rows": [
-          ["tener", "tendr-", "tendría", "I would have"],
-          ["poner", "pondr-", "pondría", "I would put"],
-          ["salir", "saldr-", "saldría", "I would leave"],
-          ["poder", "podr-", "podría", "I would be able to"],
-          ["querer", "querr-", "querría", "I would want"],
-          ["decir", "dir-", "diría", "I would say"],
-          ["hacer", "har-", "haría", "I would do/make"],
-          ["saber", "sab-", "sabría", "I would know"],
-          ["venir", "vendr-", "vendría", "I would come"]
+          [
+            "tener",
+            "tendr-",
+            "tendría",
+            "I would have"
+          ],
+          [
+            "poner",
+            "pondr-",
+            "pondría",
+            "I would put"
+          ],
+          [
+            "salir",
+            "saldr-",
+            "saldría",
+            "I would leave"
+          ],
+          [
+            "poder",
+            "podr-",
+            "podría",
+            "I would be able to"
+          ],
+          [
+            "querer",
+            "querr-",
+            "querría",
+            "I would want"
+          ],
+          [
+            "decir",
+            "dir-",
+            "diría",
+            "I would say"
+          ],
+          [
+            "hacer",
+            "har-",
+            "haría",
+            "I would do/make"
+          ],
+          [
+            "saber",
+            "sab-",
+            "sabría",
+            "I would know"
+          ],
+          [
+            "venir",
+            "vendr-",
+            "vendría",
+            "I would come"
+          ]
         ]
       },
       "examples": [
@@ -66,14 +436,24 @@
     {
       "type": "exercise",
       "question": "What is the conditional of 'poder' for 'yo'?",
-      "options": ["podría", "podría", "podaría", "podría"],
+      "options": [
+        "podría",
+        "podría",
+        "podaría",
+        "podría"
+      ],
       "correct": 0,
       "explanation": "'Podría' — poder has the irregular stem podr- in the conditional: podr + ía = podría."
     },
     {
       "type": "exercise",
       "question": "What is the conditional of 'salir' for 'nosotros'?",
-      "options": ["saldriamos", "saldríamos", "saliríamos", "saldríamos"],
+      "options": [
+        "saldriamos",
+        "saldríamos",
+        "saliríamos",
+        "saldríamos"
+      ],
       "correct": 1,
       "explanation": "'Saldríamos' — salir uses the irregular stem saldr- + conditional ending -íamos = saldríamos."
     },
@@ -93,7 +473,9 @@
       "type": "conjugation-matrix",
       "question": "Complete the conditional tense conjugation table for the irregular verb PODER:",
       "verb": "PODER",
-      "tenses": ["conditional"],
+      "tenses": [
+        "conditional"
+      ],
       "explanation": "PODER uses the irregular stem podr- in the conditional: podría, podrías, podría, podríamos, podríais, podrían."
     },
     {
