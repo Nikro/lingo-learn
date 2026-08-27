@@ -1104,6 +1104,7 @@ function app() {
       }
       
       var html = '<div class="space-y-4">';
+      var self = this;
       this.themeData.grammar.forEach(function(item, i) {
         html += '<div class="bg-base-200 rounded-lg p-5 border border-base-300">';
         html += '<div class="flex items-center gap-2 mb-3">';

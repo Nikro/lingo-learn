@@ -14,12 +14,14 @@ All notable changes to this project will be documented in this file.
 - **ADR 0003** — PWA caching strategy with version bumping and old-cache cleanup.
 
 ### Changed
+- **Cache busting** — `app.js` version bumped to `v=53` in `index.html`; service worker `CACHE_VERSION` bumped `10` → `11` for the grammar-pillar fix deploy.
 - **Service worker** — Rewrite: strategic cache separation, network-first for JS/data, cache-first for HTML, activation-time cache cleanup. Cache version bumped to `v7`.
 - **Cache busting** — `app.js` version bumped to `v=48` in `index.html`.
 - **Data validator** — Updated to skip root stage manifest files (no exercises/grammar/pronunciation expected).
 - **Schema** — Added `stage_manifest` type, `aid_note` field for grammar exercises. Fixed double-escaped regex for stage identifiers.
 
 ### Fixed
+- **Grammar pillar crash** — `renderThemeGrammar` referenced `self.escapeHtml(...)` inside `forEach` callbacks without declaring `var self = this;`, throwing `self.escapeHtml is not a function` for any theme with non-empty grammar `examples` (134 of 139 themes crashed on the Grammar tab). Fixed by capturing `self` like `renderThemeExercises` does. Verified in browser across all 9 stages (a1-1 to b2-3): grammar examples render, no console errors.
 - Double-escaped regex pattern in `schema.json` (`^[a-z]\\d-\\d+$` corrected).
 - Stale cache behavior: old cache versions no longer persist after updates.
 - Inconsistent fetch strategy: HTML now correctly cache-first (offline-available).
