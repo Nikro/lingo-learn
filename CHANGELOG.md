@@ -12,8 +12,15 @@ All notable changes to this project will be documented in this file.
 - **Stage manifest architecture** — Root stage files (`a1-1.json` … `b2-3.json`) serve as metadata manifests (`stage_manifest` type), separate from theme content. `stage_manifest` type added to `data/schema.json`.
 - **CI/CD pipeline** — GitHub Actions workflow (`deploy.yml`) with content validation, concurrency controls, and automatic deploy.
 - **ADR 0003** — PWA caching strategy with version bumping and old-cache cleanup.
+- **ADR 0005** — Subpath-safe PWA: pre-cached shell at install, query-stripped (normalized) cache keys, opaque CDN caching, SPA navigation fallback, relative manifest.
+- **PWA icons** — `icon-192.png`, `icon-512.png`, `maskable-512.png` committed to repo root for manifest installability.
+- **PWA meta tags** — `theme-color`, `mobile-web-app-capable`, and `apple-mobile-web-app-*` tags in `index.html`.
 
 ### Changed
+- **Service worker rewrite (subpath-safe)** — All cache keys and the shell list are now relative so `sw.js` works at any GitHub Pages subpath (previously absolute paths 404'd under `/lingo-learn/`). Shell is pre-cached at install time so the first offline reload works; `normKey()` strips `?v=` query strings so version-busted URLs match cached entries; CDN responses (type `opaque`) are now cached; navigations fall back to cached `index.html` for offline deep links. `CACHE_VERSION` bumped to `14`.
+- **Service worker registration enabled** in `index.html` with a subpath-aware path.
+- **`manifest.json`** — `start_url: "./"` and `scope: "./"` (relative) so installability holds on a subpath; `id: "lingolearn"`; relative icon paths.
+- **`app.js` `hardReload()`** — now unregisters the service worker and clears all caches before reloading.
 - **Cache busting** — `app.js` version bumped to `v=53` in `index.html`; service worker `CACHE_VERSION` bumped `10` → `11` for the grammar-pillar fix deploy.
 - **Service worker** — Rewrite: strategic cache separation, network-first for JS/data, cache-first for HTML, activation-time cache cleanup. Cache version bumped to `v7`.
 - **Cache busting** — `app.js` version bumped to `v=48` in `index.html`.
@@ -21,6 +28,9 @@ All notable changes to this project will be documented in this file.
 - **Schema** — Added `stage_manifest` type, `aid_note` field for grammar exercises. Fixed double-escaped regex for stage identifiers.
 
 ### Fixed
+- **Offline mode** — The app previously could not work offline at all on GitHub Pages: absolute cache paths 404'd under the `/lingo-learn/` subpath, the lazy cache-on-first-use left the cache empty on the first offline reload, `?v=`-busted URLs never matched cached entries, and CDN responses were never cached. All four defects fixed (see ADR 0005); verified offline in headless Chromium for both root and subpath.
+- **Installability** — `manifest.json` absolute `start_url` of `/` replaced with relative `./` so the install prompt criteria hold on a subpath; missing icon assets added.
+- **`no-store`/`no-cache` meta tags** removed from `index.html` — they conflicted with the stale-while-revalidate strategy.
 - **Grammar pillar crash** — `renderThemeGrammar` referenced `self.escapeHtml(...)` inside `forEach` callbacks without declaring `var self = this;`, throwing `self.escapeHtml is not a function` for any theme with non-empty grammar `examples` (134 of 139 themes crashed on the Grammar tab). Fixed by capturing `self` like `renderThemeExercises` does. Verified in browser across all 9 stages (a1-1 to b2-3): grammar examples render, no console errors.
 - Double-escaped regex pattern in `schema.json` (`^[a-z]\\d-\\d+$` corrected).
 - Stale cache behavior: old cache versions no longer persist after updates.

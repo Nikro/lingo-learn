@@ -1,127 +1,188 @@
 // LingoLearn Service Worker
-// CACHE_VERSION: auto-incremented on each deploy. Bump manually if needed.
-// Every distinct value creates a new cache name and triggers old-cache cleanup on activation.
-// For static GitHub Pages: the version is bumped by editing this number (or auto-incrementing
-// via CI script). The cache cleanup on activate ensures stale caches are always removed.
-const CACHE_VERSION = '12';
+//
+// CACHE_VERSION: bump on every deploy. Each distinct value creates a new cache
+// name and triggers old-cache cleanup on activation (see activate handler).
+// For a zero-build static deploy the version is bumped manually in this file.
+const CACHE_VERSION = '14';
 const CACHE_NAME = `lingolearn-${CACHE_VERSION}`;
 
-// Core app shell — files needed to load the app offline.
-// Update this list whenever you add or remove top-level static files.
-const APP_SHELL = [
-  '/',
-  '/index.html',
-  '/manifest.json',
-  '/js/app.js',
-  '/js/storage.js',
+// ─── App shell ───
+// Files needed to boot the app offline. All RELATIVE so they resolve against
+// the SW's own base URL — which is the deploy root, whether that is "/" or a
+// GitHub Pages subpath like "/lingo-learn/". Never use absolute "/" paths here;
+// they 404 under a subpath and would break install.
+//
+// The shell is PRE-CACHED at install time (see install handler). That is what
+// guarantees the first offline reload works: a lazy "cache on first fetch"
+// approach fails, because the initial page load happens before the SW controls
+// the page, so the cache would still be empty on the first offline reload.
+//
+// data/registry.json is included (small, first data fetch) so the offline app
+// can render the locale list. The ~139 stage/theme JSON files are NOT
+// pre-cached; they are cached on first load by the fetch handler and
+// invalidated wholesale by the CACHE_VERSION bump.
+const SHELL = [
+  'index.html',
+  'js/app.js',
+  'js/storage.js',
+  'manifest.json',
+  'favicon.ico',
+  'icon-192.png',
+  'icon-512.png',
+  'maskable-512.png',
+  'data/registry.json',
 ];
 
-// Data files — cached aggressively, invalidated via CACHE_VERSION bump.
-// Includes locale registry, schema, and stage data for all CEFR levels.
-// NOTE: Theme-specific data files (data/<locale>/<stage>/themes/<stage>.json) are fetched
-// and cached on first load by the app, so they don't need to be in this list.
-const DATA_ASSETS = [
-  '/data/registry.json',
-  '/data/schema.json',
-  '/data/validate.js',
-  '/data/en-es/a1-1.json',
-  '/data/en-es/a1-2.json',
-  '/data/en-es/a2-1.json',
-  '/data/en-es/a2-2.json',
-  '/data/en-es/b1-1.json',
-  '/data/en-es/b1-2.json',
-  '/data/en-es/b2-1.json',
-  '/data/en-es/b2-2.json',
-  '/data/en-es/b2-3.json',
-];
+// CDN origins the app loads. Their responses carry
+// Access-Control-Allow-Origin: * so they can be cached for offline use.
+const CDN_HOSTS = new Set([
+  'cdn.jsdelivr.net',
+  'cdn.tailwindcss.com',
+]);
 
-// Install — cache the app shell immediately
+// Resolve a relative path against the SW base and strip any query string.
+// Stripping the query is what makes version-busted URLs (js/app.js?v=56) match
+// the unversioned cache key (js/app.js), so cache-busting deploys keep working
+// offline instead of missing.
+function normKey(relOrUrl) {
+  const u = new URL(relOrUrl, self.location.href);
+  u.search = '';
+  return u.toString();
+}
+
+const INDEX_KEY = normKey('index.html');
+
+function cachePut(key, response) {
+  return caches.open(CACHE_NAME).then((cache) => cache.put(key, response));
+}
+
+// Install — pre-cache the app shell. Per-URL resilience: one missing file
+// logs a warning instead of failing the whole install (a hard addAll failure
+// would leave the user with NO service worker at all).
 self.addEventListener('install', (event) => {
   event.waitUntil(
-    caches.open(CACHE_NAME).then((cache) => {
-      return cache.addAll(APP_SHELL);
-    })
+    (async () => {
+      await Promise.all(
+        SHELL.map(async (rel) => {
+          const key = new Request(normKey(rel));
+          try {
+            const res = await fetch(key, { cache: 'no-cache' });
+            if (res && res.ok) {
+              await cachePut(key, res);
+            } else {
+              console.warn('[SW] install: skipping', rel, res ? res.status : 'no response');
+            }
+          } catch (err) {
+            console.warn('[SW] install: could not cache', rel, err.message);
+          }
+        })
+      );
+      await self.skipWaiting();
+    })()
   );
-  self.skipWaiting();
 });
 
-// Activate — clean all old caches from previous versions
+// Activate — delete every old lingolearn-* cache, then claim open clients so
+// the page is controlled immediately (app.js reloads on controllerchange).
 self.addEventListener('activate', (event) => {
   event.waitUntil(
-    caches.keys().then((cacheNames) => {
-      return Promise.all(
-        cacheNames
+    caches.keys().then((names) =>
+      Promise.all(
+        names
           .filter((name) => name.startsWith('lingolearn-') && name !== CACHE_NAME)
           .map((name) => caches.delete(name))
-      );
-    })
+      )
+    ).then(() => self.clients.claim())
   );
-  self.clients.claim();
 });
 
-// Fetch — strategy by resource type:
-//   HTML    → cache-first (offline availability), then network to refresh
-//   JS      → network-first (always get latest), cache for offline fallback
-//   Data    → network-first (data updates), cache for offline fallback
-//   Other   → cache-first (CDN resources, images)
+// Fetch — strategy by resource type (same-origin keys normalized, i.e. query
+// stripped, so version-busted URLs match the cached copies):
+//   HTML / navigation → stale-while-revalidate: cached copy instantly, refresh
+//                       in background; navigations fall back to the cached
+//                       index.html (hash routing keeps all content in the shell).
+//   JS / data JSON    → network-first: always try fresh, cache on success,
+//                       fall back to cache when offline.
+//   Same-origin other → cache-first, then network (icons, future assets).
+//   Cross-origin CDN  → network-first, cache on success (opaque responses
+//                       included), fall back to cache when offline.
 self.addEventListener('fetch', (event) => {
-  const url = new URL(event.request.url);
-  const isHTML = event.request.headers.get('accept')?.includes('text/html');
-  const isJS = url.pathname.endsWith('.js');
-  const isData = url.pathname.startsWith('/data/') && url.pathname.endsWith('.json');
+  const request = event.request;
+  if (request.method !== 'GET') return;
 
-  if (isHTML) {
-    // Cache-first for HTML: serve stale cache immediately, refresh in background
-    event.respondWith(
-      caches.match(event.request).then((cached) => {
-        const fetchPromise = fetch(event.request).then((networkResponse) => {
-          if (networkResponse.ok) {
-            const clone = networkResponse.clone();
-            caches.open(CACHE_NAME).then((cache) => cache.put(event.request, clone));
-          }
-          return networkResponse;
-        }).catch(() => cached); // network failure → fall back to cache
+  const url = new URL(request.url);
+  const isShell = SHELL.some((rel) => normKey(rel) === normKey(request.url));
+  const isNavigation = request.mode === 'navigate';
+  const isData = url.pathname.startsWith('data/') && url.pathname.endsWith('.json');
+  const isJs = url.pathname.endsWith('.js');
+  const isSameOrigin = url.origin === self.location.origin;
 
-        // Return cached if available, otherwise wait for network
-        return cached || fetchPromise;
-      })
-    );
-  } else if (isJS || isData) {
-    // Network-first for JS and data: always try fresh, cache for offline fallback
+  if (isShell || isNavigation) {
+    // Stale-while-revalidate for the HTML shell.
     event.respondWith(
-      fetch(event.request)
-        .then((networkResponse) => {
-          if (!networkResponse || networkResponse.status !== 200) {
-            return networkResponse;
-          }
-          const clone = networkResponse.clone();
-          caches.open(CACHE_NAME).then((cache) => cache.put(event.request, clone));
-          return networkResponse;
+      caches.match(normKey(request.url))
+        .then((cached) => cached || (isNavigation ? caches.match(INDEX_KEY) : undefined))
+        .then((cached) => {
+          const network = fetch(request)
+            .then((response) => {
+              if (response && response.status === 200 && response.type === 'basic') {
+                cachePut(new Request(normKey(request.url)), response.clone());
+              }
+              return response;
+            })
+            .catch(() =>
+              isNavigation
+                ? new Response('offline', { status: 503, statusText: 'Offline' })
+                : null
+            );
+          return cached || network;
         })
-        .catch(() => caches.match(event.request))
     );
-  } else {
-    // Cache-first for everything else (CDN CSS, images, etc.)
+  } else if (isData || isJs) {
+    // Network-first for JS and data JSON, with normalized cache keys.
     event.respondWith(
-      caches.match(event.request).then((cached) => {
-        if (cached) return cached;
-        return fetch(event.request).then((response) => {
-          if (!response || response.status !== 200 || response.type !== 'basic') {
-            return response;
+      fetch(request)
+        .then((response) => {
+          if (response && response.status === 200) {
+            cachePut(new Request(normKey(request.url)), response.clone());
           }
-          const clone = response.clone();
-          caches.open(CACHE_NAME).then((cache) => cache.put(event.request, clone));
           return response;
-        }).catch(() => {
-          // Offline fallback for HTML
-          if (isHTML) return caches.match('/index.html');
+        })
+        .catch(() => caches.match(normKey(request.url)))
+    );
+  } else if (isSameOrigin) {
+    // Cache-first for other same-origin assets (icons, etc.).
+    event.respondWith(
+      caches.match(normKey(request.url)).then((cached) => {
+        if (cached) return cached;
+        return fetch(request).then((response) => {
+          if (response && response.status === 200 && response.type === 'basic') {
+            cachePut(new Request(normKey(request.url)), response.clone());
+          }
+          return response;
         });
       })
     );
+  } else if (CDN_HOSTS.has(url.hostname)) {
+    // Network-first for known CDNs; cache opaque responses too so the shell
+    // still loads offline (browser serves the cached opaque body).
+    event.respondWith(
+      fetch(request)
+        .then((response) => {
+          if (response && (response.status === 200 || response.type === 'opaque')) {
+            cachePut(request, response.clone());
+          }
+          return response;
+        })
+        .catch(() => caches.match(request))
+    );
   }
+  // Anything else: let the browser handle it (no interception).
 });
 
-// Handle messages from the app
+// Handle messages from the app (update flow: app.js posts SKIP_WAITING to a
+// waiting worker; it then activates and clients.claim() triggers the
+// controllerchange reload).
 self.addEventListener('message', (event) => {
   if (event.data && event.data.type === 'SKIP_WAITING') {
     self.skipWaiting();

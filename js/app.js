@@ -2363,8 +2363,30 @@ function app() {
     // Hard reload: clears cache and forces fresh fetch
     hardReload: function() {
       if (confirm('Flush cache and reload? This will refresh all data from the server.')) {
-        // Bypass browser cache by loading with a fresh URL
-        location.href = window.location.origin + window.location.pathname + '?nocache=' + Date.now();
+        var reload = function() {
+          // Bypass browser cache by loading with a fresh URL
+          location.href = window.location.origin + window.location.pathname + '?nocache=' + Date.now();
+        };
+        // Also flush the service worker cache so the next load re-primes it
+        // with fresh content. Unregister first, then reload.
+        if ('serviceWorker' in navigator) {
+          navigator.serviceWorker.getRegistration().then(function(reg) {
+            if (reg) {
+              return reg.unregister().then(function() {
+                if (window.caches) {
+                  return caches.keys().then(function(names) {
+                    return Promise.all(
+                      names.filter(function(n) { return n.indexOf('lingolearn-') === 0; })
+                           .map(function(n) { return caches.delete(n); })
+                    );
+                  });
+                }
+              });
+            }
+          }).catch(function() {}).then(reload);
+          return;
+        }
+        reload();
       }
     },
 

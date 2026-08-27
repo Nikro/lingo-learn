@@ -3,10 +3,14 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="Cache-Control" content="no-store, no-cache, must-revalidate, max-age=0">
-  <meta http-equiv="Pragma" content="no-cache">
+  <meta name="theme-color" content="#6366f1">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <meta name="apple-mobile-web-app-title" content="LingoLearn">
   <title>LingoLearn</title>
   <link rel="icon" href="favicon.ico" type="image/x-icon">
+  <link rel="apple-touch-icon" href="icon-192.png">
   <link rel="manifest" href="manifest.json">
   <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.14/dist/full.min.css" rel="stylesheet" type="text/css" />
   <script src="https://cdn.tailwindcss.com"></script>
@@ -915,18 +919,19 @@
   </div>
 
   <script src="js/storage.js?v=27"></script>
-  <script src="js/app.js?v=55"></script>
+  <script src="js/app.js?v=56"></script>
   <script>
-    // Service Worker: Disabled during development to prevent stale caching issues.
-    // To enable for production (GitHub Pages), uncomment the block below.
-    // Before enabling, ensure CACHE_VERSION in sw.js is updated.
-    // if ('serviceWorker' in navigator) {
-    //   window.addEventListener('load', () => {
-    //     navigator.serviceWorker.register('/sw.js')
-    //       .then(reg => console.log('SW registered:', reg.scope))
-    //       .catch(err => console.error('SW registration failed:', err));
-    //   });
-    // }
+    // Service Worker: enabled for production (GitHub Pages subpath /lingo-learn/).
+    // Registration is relative so it resolves inside the subpath scope.
+    // sw.js bumps CACHE_VERSION on every deploy; the activate handler deletes
+    // old lingolearn-* caches, and app.js reloads on controllerchange.
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', () => {
+        navigator.serviceWorker.register('sw.js')
+          .then(reg => console.log('SW registered:', reg.scope))
+          .catch(err => console.error('SW registration failed:', err));
+      });
+    }
   </script>
 </body>
 </html>
