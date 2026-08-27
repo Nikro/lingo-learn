@@ -652,5 +652,161 @@
       ]
     }
   ],
-  "exercises": []
+  "exercises": [
+    {
+      "type": "exercise",
+      "question": "What does \"subyacente\" mean in literary analysis?",
+      "options": [
+        "Explicit and obvious",
+        "Underlying / implicit",
+        "Superficial and decorative",
+        "Historical and factual"
+      ],
+      "correct": 1,
+      "explanation": "\"Subyacente\" = underlying or implicit — the layer of meaning beneath the surface text."
+    },
+    {
+      "type": "exercise",
+      "question": "Which literary term describes a comparison without using \"como\" or \"como si\"?",
+      "options": [
+        "La metáfora (metaphor)",
+        "La comparación (simile)",
+        "La símil (analogy)",
+        "La personificación (personification)"
+      ],
+      "correct": 0,
+      "explanation": "\"La metáfora\" directly equates two things without \"como\" — e.g., \"el tiempo es oro\" (time is gold)."
+    },
+    {
+      "type": "exercise",
+      "question": "In \"el narrador omnisciente sabe lo que piensa cada personaje\", what perspective is used?",
+      "options": [
+        "Narrador protagonista (first-person narrator)",
+        "Narrador omnisciente (omniscient narrator)",
+        "Narrador testigo (witness narrator)",
+        "Narrador en segunda persona (second-person narrator)"
+      ],
+      "correct": 1,
+      "explanation": "An omniscient narrator knows all characters' thoughts and feelings — \"sabe lo que piensa cada personaje\"."
+    },
+    {
+      "type": "exercise",
+      "question": "What does \"evocar\" mean in the context of literary analysis?",
+      "options": [
+        "To erase or remove",
+        "To bring back to mind / summon",
+        "To contradict or deny",
+        "To simplify or clarify"
+      ],
+      "correct": 1,
+      "explanation": "\"Evocar\" = to evoke — to bring a memory, feeling, or image back to mind through language."
+    },
+    {
+      "type": "exercise",
+      "question": "Which sentence correctly uses reported speech with subjunctive?",
+      "options": [
+        "El autor dice que el tema es importante.",
+        "El autor afirma que el tema sea importante.",
+        "El autor sugiere que el tema es importante.",
+        "El autor piensa que el tema sea importante."
+      ],
+      "correct": 1,
+      "explanation": "Verbs of assertion + \"que\" often trigger subjunctive for nuance: \"El autor afirma que el tema sea...\" (subjunctive after \"afirmar que\" in literary context)."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: \"El autor utiliza el simbolismo para _____ una idea más profunda.\" (The author uses symbolism to ______ a deeper idea.)",
+      "correct": "transmitir",
+      "explanation": "\"Transmitir\" = to transmit/convey — symbolism transmits ideas that cannot be stated directly."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: \"_____ que el protagonista fuera un símbolo de la sociedad.\" (The author suggests that the protagonist was a symbol of society.)",
+      "correct": "Sugiere",
+      "explanation": "\"Sugiere que...\" triggers the subjunctive: \"Sugiere que el protagonista fuera...\""
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: \"La obra _____ una crítica social velada.\" (The work ______ a veiled social critique.)",
+      "correct": "refleja",
+      "explanation": "\"Reflejar\" = to reflect — the work \"reflects\" (refleja) a social critique beneath the surface."
+    },
+    {
+      "type": "matching",
+      "question": "Match the literary term with its definition:",
+      "pairs": [
+        {
+          "target": "El simbolismo",
+          "source": "Using objects to represent deeper ideas"
+        },
+        {
+          "target": "La ironía",
+          "source": "Saying the opposite of what is meant"
+        },
+        {
+          "target": "El arquetipo",
+          "source": "A universal character type found across cultures"
+        },
+        {
+          "target": "Elipsis",
+          "source": "Omitting words that are understood from context"
+        }
+      ],
+      "explanation": "These are key literary analysis terms: symbolism, irony, archetype, and ellipsis."
+    },
+    {
+      "type": "exercise",
+      "question": "What does \"intrincado\" mean when describing a narrative?",
+      "options": [
+        "Simple and straightforward",
+        "Intricate / complex",
+        "Boring and repetitive",
+        "Short and concise"
+      ],
+      "correct": 1,
+      "explanation": "\"Intrincado\" = intricate or complex — describing a narrative with many interconnected plot lines or layers."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: \"El narrador en primera persona _____ la historia desde su propia experiencia.\" (The first-person narrator ______ the story from his own experience.)",
+      "correct": "narra",
+      "explanation": "\"Narrar\" = to narrate — the first-person narrator \"narra\" (narrates) the story from their perspective."
+    },
+    {
+      "type": "exercise",
+      "question": "Which word means \"to reinterpret\" or \"to give a new reading of\" a text?",
+      "options": [
+        "Reinterpretar",
+        "Repetir",
+        "Repasar",
+        "Revisar"
+      ],
+      "correct": 0,
+      "explanation": "\"Reinterpretar\" = to reinterpret — to analyze or explain a text from a new perspective."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: \"La obra no es _____; tiene múltiples capas de significado.\" (The work is not ______; it has multiple layers of meaning.)",
+      "correct": "literal",
+      "explanation": "\"Literal\" = literal/surface-level. If a work has multiple layers, it is NOT literal — it is figurative."
+    },
+    {
+      "type": "fill-in-blank",
+      "question": "Complete: \"El uso de la voz pasiva refleja en \"se dice que...\" _____ el foco de la acción a la acción misma.\" (The use of passive \"se dice que\" ______ the focus to the action itself.)",
+      "correct": "desplaza",
+      "explanation": "\"Desplazar\" = to shift/move — passive voice shifts focus away from the actor to the action."
+    },
+    {
+      "type": "exercise",
+      "question": "In literary analysis, what does \"contextualizar\" mean?",
+      "options": [
+        "To summarize the plot",
+        "To place within a broader context",
+        "To criticize the author",
+        "To translate the text"
+      ],
+      "correct": 1,
+      "explanation": "\"Contextualizar\" = to contextualize — placing a work within its historical, cultural, or biographical context."
+    }
+  ]
 }
