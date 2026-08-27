@@ -442,6 +442,24 @@
           "source": "deh-SEH-oh keh (I wish/desire that)"
         }
       ]
+    },
+    {
+      "title": "Present Subjunctive — Accent Patterns in Endings",
+      "content": "Present subjunctive endings follow a predictable stress pattern that differs from the indicative:\n\n1. **-AR verbs (hablar → hable)**: ha-BLEH — stress on the last syllable for ALL persons\n   - hable, hables, hable, hablemos, habléis, hablen\n   - Note: **habléis** = ah-BLAY-eese (accent on 'blay'!) — this is the ONLY form with written accent\n2. **-ER/-IR verbs (comer → coma)**: KOH-mah — stress on the vowel before the ending consonant\n   - coma, comas, coma, comamos, comáis, coman\n   - Note: **comáis** = koh-MYEE-eese (accent on 'myee'!)\n\nKey stress pattern: The subjunctive puts stress on the **vowel** before the final consonant group, while the indicative often puts stress earlier.\n\nContrast: yo hablo (EH-bloh, indicative) vs. yo hable (AH-bleh, subjunctive) — notice the vowel change AND stress shift.",
+      "examples": [
+        {
+          "target": "habléis",
+          "source": "ah-BLAY-eese (ONLY subjunctive form with written accent)"
+        },
+        {
+          "target": "comáis",
+          "source": "koh-MYEE-eese (same accent pattern for -ER/-IR)"
+        },
+        {
+          "target": "hable",
+          "source": "AH-bleh (stress on 'ah', not on the 'ble' like indicative)"
+        }
+      ]
     }
   ],
   "exercises": [

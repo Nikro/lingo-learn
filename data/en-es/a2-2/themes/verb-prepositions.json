@@ -461,6 +461,38 @@
           "source": "de-PEN-deh deh (depends on — stress on 'pen')"
         }
       ]
+    },
+    {
+      "title": "Infinitive + Preposition — Vowel Linking",
+      "content": "When an infinitive verb follows a preposition, the vowel sounds link smoothly:\n\n1. **pensar en** = PEN-sar en — the 'r' connects to 'en': 'PEN-sar-en' (not 'PEN-sar en' with pause)\n2. **salir con** = sah-LEER kon — 'con' is unstressed: 'sah-LEER-kon'\n3. **soñar con** = so-NYAR kon — 'con' after 'r' flows: 'so-NYAR-kon'\n4. **depender de** = de-PEN-deh deh — 'de' before consonant = full 'deh'\n5. **acabar de** = ah-kah-BAR deh — stress on 'bar', 'de' unstressed\n6. **empezar a** = em-peh-SAR ah — 'a' after 'r' flows: 'em-peh-sar-ah'\n\nKey pattern: Spanish prepositions (en, con, de, a, por) are **never reduced** like English 'to' → 'tuh'. They maintain their full vowel sound, creating a rhythmic flow.\n\nCommon mistake: English speakers often say 'pensar IN' (reduced vowel). In Spanish, 'en' has a clear 'eh' sound.",
+      "examples": [
+        {
+          "target": "pensar en",
+          "source": "PEN-sar-en (linked, no pause, 'en' = 'eh-n')"
+        },
+        {
+          "target": "acabar de",
+          "source": "ah-kah-BAR-deh (stress on 'bar', 'de' = 'deh')"
+        },
+        {
+          "target": "empezar a",
+          "source": "em-peh-SAR-ah (linked, 'a' = 'ah')"
+        }
+      ]
+    },
+    {
+      "title": "Verb + Preposition — Linking Consonant Vowels",
+      "content": "When a verb ending in a consonant is followed by a preposition, the sounds link:\n\n1. **pensar en** = PEN-sar en → PEN-sar-en (no pause)\n2. **salir con** = sah-LEER kon → sah-LEER-kon (no pause)\n3. **depende de** = de-PEN-deh deh → de-PEN-deh-deh (consonant cluster 'h'd')\n4. **acabar de** = ah-kah-BAR deh → ah-kah-BAR-deh (rolled 'r' before 'd')\n5. **empezar a** = em-peh-SAR ah → em-peh-SAR-ah (linking 'r' to 'a')\n\nKey pattern: Spanish prepositions are **full vowels**, not reduced. 'en' = 'eh-n', not 'in'. 'de' = 'deh', not 'duh'.\n\nCommon mistake for English speakers: 'pensar IN' (reduced to schwa). In Spanish, 'en' has a clear, distinct 'eh' sound.\n\nTip: The linking is so smooth that in rapid speech it sounds almost like a single word:\n'pensaren' → pen-sah-REN (the 'r' flows into 'en')",
+      "examples": [
+        {
+          "target": "empezar a",
+          "source": "em-peh-SAR-ah (smooth linking, no pause)"
+        },
+        {
+          "target": "depende de",
+          "source": "de-PEN-deh-deh ('de' before consonant = full 'deh')"
+        }
+      ]
     }
   ],
   "exercises": [

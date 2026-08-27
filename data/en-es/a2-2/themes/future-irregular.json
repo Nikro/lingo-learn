@@ -449,6 +449,34 @@
           "source": "sa-BRAHN (they will know — stress on 'ahn')"
         }
       ]
+    },
+    {
+      "title": "Future Irregular Stems — Stress on the Ending",
+      "content": "Future tense irregular forms follow a predictable pattern:\n\n1. **tendré** = ten-DREH (I will have) — stress on 'dreh'\n2. **pondré** = pon-DREH (I will put) — stress on 'dreh'\n3. **saldré** = sal-DREH (I will go out) — stress on 'dreh'\n4. **podré** = poh-DREH (I will be able) — stress on 'dreh'\n5. **querré** = kehr-REH (I will want) — stress on 'reh'\n6. **diré** = dehr-REH (I will say) — stress on 'reh'\n7. **haré** = ah-REH (I will do) — stress on 'reh'\n8. **sabré** = sah-BREH (I will know) — stress on 'breh'\n9. **vendré** = ben-DREH (I will come) — stress on 'dreh'\n10. **habré** = ah-BREH (I will have — auxiliary) — stress on 'breh'\n\nThe stress pattern is the same for ALL future irregulars: the stress falls on the **last syllable** because of the accent marks (-é, -ás, -á, -emos, -éis, -án).\n\nNote: The 'rr' in 'querré' is rolled/trilled — it's a strong 'r' sound.",
+      "examples": [
+        {
+          "target": "tendré",
+          "source": "ten-DREH (stress on 'dreh', accent mark)"
+        },
+        {
+          "target": "querré",
+          "source": "kehr-REH (rolled 'rr' between vowels)"
+        }
+      ]
+    },
+    {
+      "title": "Future Tense — Accent Marks on Every Form",
+      "content": "The future tense has accent marks on ALL conjugations, making stress very clear:\n\n1. **tendré** = ten-DREH (I will have)\n2. **tendrás** = ten-DRAHS (you will have) — stress on 'drah'\n3. **tendrá** = ten-DREH (he/she will have) — accent on 'eh'\n4. **tendremos** = ten-DREH-mohs (we will have) — stress on 'dreh'\n5. **tendréis** = ten-DREH-eese (you all will have) — accent on 'eh'\n6. **tendrán** = ten-DRAHN (they will have) — stress on 'drahn'\n\nKey pattern: The accent marks on future forms (é, ás, á, emos, éis, án) make every form distinctly stressed on the last syllable.\n\nThe irregular stems are identical to conditional:\n- tener → tendr- (I will have)\n- decir → dir- (I will say) → diré = dehr-REH\n- hacer → har- (I will do) → haré = ah-REH\n- saber → sabr- (I will know) → sabré = sah-BREH",
+      "examples": [
+        {
+          "target": "tendrá",
+          "source": "ten-DREH (accent on 'eh' marks stress on last syllable)"
+        },
+        {
+          "target": "diré",
+          "source": "dehr-REH (short 'e', stress on 'reh')"
+        }
+      ]
     }
   ],
   "exercises": [

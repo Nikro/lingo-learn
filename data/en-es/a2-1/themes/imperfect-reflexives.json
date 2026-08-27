@@ -431,6 +431,38 @@
           "source": "nohs bah-NAH-mohs (we used to bathe — accent on 'nah')"
         }
       ]
+    },
+    {
+      "title": "Imperfect Reflexive — Stress and Clitic Placement",
+      "content": "Reflexive verbs in the imperfect follow consistent patterns:\n\n1. **me despertaba** = meh deh-spehr-TAH-bah (I used to wake up) — stress on 'tah'\n2. **te levantabas** = teh leh-bahn-TAH-bahs (you used to get up) — stress on 'tah'\n3. **se duchaba** = seh doo-CHAH-bah (he/she used to shower) — stress on 'chah'\n4. **me vestía** = meh behs-TEE-ah (I used to get dressed) — stress on 'tee'\n5. **nos levantábamos** = noh leh-bahn-TAH-mohs (we used to get up) — stress on 'tah'\n\nThe key pattern: The imperfect endings for -AR verbs end in **-ba, -bas, -ba, -bamos, -bais, -ban**.\nFor -ER/-IR verbs, the endings are **-ía, -ías, -ía, -íamos, -íais, -ían**.\n\nImportant: The reflexive pronoun (me, te, se, nos, os, se) is placed **BEFORE** the verb, not attached like in commands:\n- Correct: me vestía (not vestíame)\n- Correct: nos levantábamos (not levantábamosnos)",
+      "examples": [
+        {
+          "target": "despertaba",
+          "source": "deh-spehr-TAH-bah (stress on 'tah')"
+        },
+        {
+          "target": "vestía",
+          "source": "beh-STEE-ah (stress on 'tee', accent mark)"
+        },
+        {
+          "target": "levantábamos",
+          "source": "leh-bahn-TAH-mohs (stress on 'tah')"
+        }
+      ]
+    },
+    {
+      "title": "Reflexive Pronoun Position — Before Conjugated Verb",
+      "content": "Reflexive pronouns (me, te, se, nos, os, se) always go **before** the conjugated verb in the imperfect:\n\n1. **me levantaba** = meh leh-bahn-TAH-bah (I used to get up)\n2. **te duchabas** = teh doo-CHAH-bahs (you used to shower)\n3. **se vestía** = seh behs-TEE-ah (he/she used to get dressed)\n4. **nos despertábamos** = noh deh-spehr-TAH-mohs (we used to wake up)\n5. **os levantabais** = ohs leh-bahn-TAH-bees (y'all used to get up)\n6. **se acostaban** = seh ah-koh-TAH-bahn (they used to go to bed)\n\nKey stress pattern: The stress always falls on the imperfect ending, never on the pronoun:\n- 'me' = meh (unstressed)\n- 'levantaba' = leh-bahn-TAH-bah (stress on 'tah')\n\nTip: In rapid speech, the pronoun merges with the verb:\n'melelevantaba' → meh-leh-bahn-TAH-bah (the 'eh' between 'me' and 'le' is very short)",
+      "examples": [
+        {
+          "target": "se vestía",
+          "source": "seh behs-TEE-ah (stress on 'tee', not 'seh')"
+        },
+        {
+          "target": "nos despertábamos",
+          "source": "noh-deh-spehr-TAH-mohs (stress on 'tah')"
+        }
+      ]
     }
   ],
   "exercises": [

@@ -439,6 +439,24 @@
           "source": "ro-DEE-yah (knee — 'll' = 'y')"
         }
       ]
+    },
+    {
+      "title": "Weather Expressions — Impersonal Form Patterns",
+      "content": "Weather expressions in Spanish use impersonal forms that follow consistent rules:\n\n1. **hace sol** = AH-keh sol (it's sunny) — 'h' silent, 'ce' = 's' sound\n2. **hace frío** = AH-keh FREE-oh (it's cold) — stress on 'free'\n3. **hace calor** = AH-keh kah-LOOR (it's hot) — stress on 'lor'\n4. **llueve** = YWEH-veh (it's raining) — 'll' = 'y' sound, 'ue' diphthong\n5. **nieva** = nyEH-vah (it's snowing) — 'ñ' = 'ny' like 'canyon'\n6. **hay viento** = ah yeh-NTOH (there's wind) — stress on 'nto'\n7. **está nublado** = eh-TAH noo-BLAH-doh (it's cloudy) — stress on 'ta'\n\nTip: All these are **3rd person singular** forms. Never use 'hacen sol' — it's always 'hace' regardless of weather type.",
+      "examples": [
+        {
+          "target": "llueve",
+          "source": "YWEH-veh ('ll' = English 'y' sound, 'ue' = one syllable)"
+        },
+        {
+          "target": "nieva",
+          "source": "nyEH-vah ('ñ' = 'ny' like 'canyon')"
+        },
+        {
+          "target": "hace calor",
+          "source": "AH-keh kah-LOOR (stress on 'lor' in 'calor')"
+        }
+      ]
     }
   ],
   "exercises": [

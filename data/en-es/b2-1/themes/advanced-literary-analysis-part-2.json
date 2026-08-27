@@ -618,6 +618,38 @@
           "source": "soob-yah-SEN-teh (underlying — stress on 'sen')"
         }
       ]
+    },
+    {
+      "title": "Literary Terms — Multi-Syllable Word Stress",
+      "content": "Literary analysis vocabulary features complex multi-syllable words with predictable stress:\n\n1. **interpretar** = een-tehr-peh-TAHR (to interpret) — stress on last syllable\n2. **simbolizar** = seem-boh-lee-SAHR (to symbolize) — stress on last syllable\n3. **evocar** = eh-VOH-kar (to evoke) — stress on 'vo'\n4. **contextualizar** = kon-tehk-stoo-ah-llee-SAHR (to contextualize) — stress on last syllable\n5. **subyacente** = soob-yah-SEN-teh (subtle/underlying) — stress on 'sen'\n6. **intrincado** = een-trin-KAH-doh (intricate) — stress on 'kah'\n7. **multifacético** = mool-tee-fah-seh-TEE-koh (multifaceted) — stress on 'tee' (accent mark!)\n8. **alegórico** = ah-leh-GOR-ee-koh (allegorical) — stress on 'gor' (accent mark!)\n9. **intertextual** = een-tehr-tehk-soo-AL (intertextual) — stress on 'al'\n\nThe stress rule: Words ending in '-ar', '-ir', '-er' (consonants) are stressed on the last syllable. Words ending in '-o', '-a', '-e', '-n', '-s' follow the natural accent rules.\n\nKey: '-ar', '-ir', '-er' infinitives always stress the last syllable. Accent marks override this.",
+      "examples": [
+        {
+          "target": "multifacético",
+          "source": "mool-tee-fah-seh-TEE-koh (stress on 'tee', accent mark)"
+        },
+        {
+          "target": "alegórico",
+          "source": "ah-leh-GOR-ee-koh (stress on 'gor', accent mark)"
+        },
+        {
+          "target": "subyacente",
+          "source": "soob-yah-SEN-teh (stress on 'sen', breaks diphthong)"
+        }
+      ]
+    },
+    {
+      "title": "Narrative Voice — Pronunciation of Literary Register",
+      "content": "Literary analysis vocabulary uses a more formal stress pattern than everyday speech:\n\n1. **narrativo/a** = nah-rah-TEE-voh/ah (narrative) — stress on 'tee'\n2. **poético/a** = po-ET-ee-koh/ah (poetic) — stress on 'et'\n3. **alegórico/a** = ah-leh-GOR-ee-koh/ah (allegorical) — stress on 'gor'\n4. **simbólico/a** = seem-boh-LEE-koh/ah (symbolic) — stress on 'lee'\n5. **contextual** = kon-tehk-stoo-AHL (contextual) — stress on 'al'\n6. **intertextual** = een-tehr-tehk-soo-AHL (intertextual) — stress on 'al'\n7. **subyacente** = soob-yah-SEN-teh (underlying) — stress on 'sen'\n8. **multifacético** = mool-tee-fah-seh-TEE-koh (multifaceted) — stress on 'tee'\n\nKey pattern: Literary terms follow the same stress rules as all Spanish words. The accent marks (in -ico, -ética, -ético) make stress explicit.\n\nTip: '-ico' words always stress the 'e': 'po-ET-ee-koh', 'sim-bo-LEET-ee-koh'. The '-ico' is two syllables, not one.",
+      "examples": [
+        {
+          "target": "poético",
+          "source": "po-ET-ee-koh (stress on 'et', '-ico' = 'ee-koh')"
+        },
+        {
+          "target": "subyacente",
+          "source": "soob-yah-SEN-teh (stress on 'sen', 'ya' = 'yah')"
+        }
+      ]
     }
   ],
   "exercises": []

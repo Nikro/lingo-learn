@@ -419,6 +419,38 @@
           "source": "tahn een-teh-LIH-gen-teh KOH-moh (as intelligent as)"
         }
       ]
+    },
+    {
+      "title": "Comparative Words — Stress on 'más' and 'menos'",
+      "content": "Comparative and superlative constructions follow clear stress rules:\n\n1. **más** = maas (more) — stress on the only syllable\n2. **menos** = MEH-nohs (less) — stress on 'me'\n3. **tan...como** = tahn KOH-moh (as...as) — stress on 'tahn' and 'koh'\n4. **tan inteligente** = tahn een-teh-LIHN-teh (as intelligent) — stress on 'LIHN'\n5. **el más** = ehl MAAS (the most) — stress on 'maas'\n6. **la más** = lah MAAS (the most, fem.) — same pattern\n\nIrregular comparatives have unique stress:\n- **mejor** = meh-HOR (better) — NOT 'mey-HOR', the 'e' is short\n- **peor** = peh-OR (worse) — stress on 'pe'\n- **mayor** = mah-YOR (older/greater) — stress on 'yor'\n- **menor** = meh-NOR (younger/lesser) — stress on 'me'\n\nTip: Spanish comparative 'más' never changes — it's always 'más', never 'mas' (without accent). The accent mark is critical.",
+      "examples": [
+        {
+          "target": "más",
+          "source": "MAAS (with accent — never write 'mas' without it)"
+        },
+        {
+          "target": "mejor",
+          "source": "meh-HOR (short 'e', stress on 'hor')"
+        },
+        {
+          "target": "menos",
+          "source": "MEH-nohs (stress on 'me', not 'noh')"
+        }
+      ]
+    },
+    {
+      "title": "Superlative Article — Gender and Number Agreement",
+      "content": "Superlative forms use the definite article (el/la/los/las) which must agree with the noun:\n\n1. **el más alto** = ehl maas AH-toh (the tallest, masc.)\n2. **la más alta** = lah maas AH-tah (the tallest, fem.)\n3. **los más altos** = los maas AH-tohs (the tallest, masc. pl.)\n4. **las más altas** = lahs maas AH-tahs (the tallest, fem. pl.)\n\nKey stress pattern: The article (el/la/los/las) is unstressed and flows into 'más':\n- 'el más alto' = ehl-maas-AH-toh (stress only on 'AH')\n- 'la más alta' = lah-maas-AH-tah (same pattern)\n\nImportant: 'más' always has an accent mark. Writing 'mas' (without accent) means 'but/and' (conjunction) — completely different word.",
+      "examples": [
+        {
+          "target": "el más alto",
+          "source": "ehl-maas-AH-toh (stress only on 'ah')"
+        },
+        {
+          "target": "la más alta",
+          "source": "lah-maas-AH-tah (same pattern, feminine)"
+        }
+      ]
     }
   ],
   "exercises": [

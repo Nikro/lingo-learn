@@ -3,7 +3,7 @@
 // Every distinct value creates a new cache name and triggers old-cache cleanup on activation.
 // For static GitHub Pages: the version is bumped by editing this number (or auto-incrementing
 // via CI script). The cache cleanup on activate ensures stale caches are always removed.
-const CACHE_VERSION = '11';
+const CACHE_VERSION = '12';
 const CACHE_NAME = `lingolearn-${CACHE_VERSION}`;
 
 // Core app shell — files needed to load the app offline.

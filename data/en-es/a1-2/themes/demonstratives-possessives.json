@@ -496,6 +496,24 @@
           "source": "SOO-yah (his/hers — stress on 'su')"
         }
       ]
+    },
+    {
+      "title": "Demonstrative Accent Patterns — Three-Degree System",
+      "content": "Spanish demonstratives use a three-degree distance system that mirrors stress patterns:\n\n1. **este/esta** (this) — close to speaker: EH-steh / EHS-tah\n2. **ese/esa** (that) — close to listener: EHS-eh / EHS-ah\n3. **ese/aquel** (that over there) — far from both: ah-KWEHL / ah-KWEH-rah\n\nStress rule: All demonstrative adjectives stress the **last syllable** in the final vowel:\n- és-te → es-TAY (no, it's es-TEH — stress on the vowel)\n- Correction: es-TEH, es-TAH, es-TOS, es-TAS\n- é-se → e-SEH (stress on the E)\n- a-QUÉL → ah-KWEHL (stress on the É)\n- a-QUE-LLA → ah-kweh-YAH (stress on the LLAH)\n\nKey contrast: este (this) vs. ese (that) differ only in the initial vowel — 'eh' vs. 'eh' with a longer, more emphatic quality.",
+      "examples": [
+        {
+          "target": "ese",
+          "source": "EH-say (not 'eh-see' — the E is long and emphatic)"
+        },
+        {
+          "target": "aquel",
+          "source": "ah-KWEHL (stress on QUE, not A-quel)"
+        },
+        {
+          "target": "esta",
+          "source": "EHS-tah (short 'eh' vs. the longer 'eh' in 'ese')"
+        }
+      ]
     }
   ],
   "exercises": [

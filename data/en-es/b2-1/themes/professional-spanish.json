@@ -496,6 +496,38 @@
           "source": "hor-NAH-dah lah-boh-RAHL (workday — stress on 'lah' and 'rahl')"
         }
       ]
+    },
+    {
+      "title": "Formal Register — Pronunciation Markers",
+      "content": "Formal professional Spanish has distinctive pronunciation markers that signal register:\n\n1. **currículum vitae** = kur-ree-KOO-lohm bee-AH-teh (CV/resume)\n   - The accent on 'cur' and 'cu' marks formal register\n2. **estimado/a** = ees-tee-MAH-doh/ah (esteemed) — stress on 'mah'\n3. **atentamente** = ah-tehn-tah-MEN-teh (sincerely) — stress on 'men'\n4. **candidatura** = can-dee-dah-TOOH-rah (application) — stress on 'tooh'\n5. **reunión** = reh-yoo-NEE-on (meeting) — stress on 'nee' (accent mark!)\n6. **presupuesto** = preh-soo-PWEHS-toh (budget) — stress on 'pwehs'\n7. **beneficios** = beh-neh-fee-SEE-ohs (benefits) — stress on 'see'\n8. **competencia** = kom-peh-ten-SEE-ah (competition) — stress on 'see'\n9. **interview** = een-ter-VYEH-sah (interview) — stress on 'vyeh'\n\nKey pattern: Formal vocabulary tends to have more syllables and more accent marks than everyday speech. The stress is more deliberate and measured.\n\nTip: In 'reunión', the 'u' is part of a diphthong with 'o' — 'yoo' is one syllable, not two.",
+      "examples": [
+        {
+          "target": "reunión",
+          "source": "reh-yoo-NEE-on (stress on 'nee', accent mark)"
+        },
+        {
+          "target": "currículum",
+          "source": "kur-ree-KOO-lohm (accent marks on 'cur' and 'cu')"
+        },
+        {
+          "target": "atentamente",
+          "source": "ah-tehn-tah-MEN-teh (stress on 'men', not 'ten')"
+        }
+      ]
+    },
+    {
+      "title": "Email Phrases — Formal Pronunciation Patterns",
+      "content": "Formal email/correspondence phrases have distinctive stress patterns that mark register:\n\n1. **le escribo para** = leh ehs-KEE-boh PAH-rah (I'm writing to you for) — stress on 'kee' and 'pah'\n2. **queda a su disposición** = KWAH-dah ah sooh dee-s poh-see-SEE-on (at your disposal) — stress on 'kwa', 'see', 'see'\n3. **agradeciendo de antemano** = ah-grah-deh-SEE-en-doh deh ahn-teh-MAH-noh (thank you in advance) — stress on 'see' and 'mah'\n4. **en respuesta a su correo** = en reh-SPWEHS-tah ah sooh keh-REH-oh (in response to your email) — stress on 'spwehs' and 'reh'\n5. **candidatura** = can-dee-dah-TOOH-rah (application) — stress on 'tooh'\n6. **periodo de prueba** = peh-REE-doh deh PWEH-vah (trial period) — stress on 'ree' and 'pweh'\n\nKey pattern: Formal register words tend to have more syllables and more deliberate pacing. The stress is more evenly distributed than in casual speech.\n\nTip: In 'disposición', the 's' before 'p' is clear (not softened), and 'ción' = 'thee-yohn' (Spain) or 'see-yohn' (LatAm).",
+      "examples": [
+        {
+          "target": "disposición",
+          "source": "dee-s poh-see-SEE-on (stress on 'see', 'ción' = 'thee-yohn')"
+        },
+        {
+          "target": "agradeciendo",
+          "source": "ah-grah-deh-SEE-en-doh (stress on 'see', 6 syllables)"
+        }
+      ]
     }
   ],
   "exercises": [

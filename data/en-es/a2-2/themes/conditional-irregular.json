@@ -449,6 +449,34 @@
           "source": "ah-RREE-ah FAHL-tah (it would be necessary)"
         }
       ]
+    },
+    {
+      "title": "Conditional Irregular Stems — Stress on the Accent",
+      "content": "Conditional irregular forms keep the same irregular stems as the future tense, with consistent stress:\n\n1. **tendría** = ten-DREE-ah (I would have) — stress on 'dree'\n2. **pondría** = pon-DREE-ah (I would put) — stress on 'dree'\n3. **saldría** = sal-DREE-ah (I would go out) — stress on 'dree'\n4. **podría** = poh-DREE-ah (I would be able) — stress on 'dree'\n5. **querría** = kehr-REE-ah (I would want) — stress on 'ree'\n6. **diría** = deer-REE-ah (I would say) — stress on 'ree'\n7. **haría** = ah-REE-ah (I would do) — stress on 'ree'\n8. **sabría** = sah-BREE-ah (I would know) — stress on 'bree'\n9. **vendría** = ben-DREE-ah (I would come) — stress on 'dree'\n10. **cabría** = cah-BREE-ah (I would fit) — stress on 'bree'\n\nPattern: ALL conditional irregular forms stress the **-ría** ending. The irregular stem is always unstressed.\n\nImportant: The 'rr' in 'querría' is a rolled/trilled 'r' — stronger than a single 'r' in 'tendría'.",
+      "examples": [
+        {
+          "target": "tendría",
+          "source": "ten-DREE-ah (stress on 'dree', not 'ten')"
+        },
+        {
+          "target": "querría",
+          "source": "kehr-REE-ah (rolled 'rr' between vowels)"
+        }
+      ]
+    },
+    {
+      "title": "Conditional — Soft 'r' vs Rolled 'rr' Contrast",
+      "content": "The conditional uses both single 'r' and double 'rr', which have distinct sounds:\n\n1. **tendría** = ten-DREE-ah — single 'r' after vowel = soft tap\n2. **querría** = kehr-REE-ah — double 'rr' = rolled/trilled (stronger)\n3. **sabría** = sah-BREE-ah — single 'r' after vowel = soft tap\n4. **vendría** = ben-DREE-ah — single 'r' after vowel = soft tap\n5. **haría** = ah-REE-ah — single 'r' after vowel = soft tap\n\nThe rolled 'rr' in 'querría' is the only form with double 'r'. It's a stronger trill:\n- 'querría' = keh-RRR-REE-ah (the 'rr' at start is rolled)\n- 'tendría' = ten-DREE-ah (the 'r' after 'n' is a soft tap)\n\nTip: In all conditional forms, the stress is on the **-ría** ending. The 'í' has an accent mark, creating a distinct 2-syllable ending: 'REE-ah'.",
+      "examples": [
+        {
+          "target": "querría",
+          "source": "kehr-REE-ah (rolled 'rr' — only conditional with double r)"
+        },
+        {
+          "target": "tendría",
+          "source": "ten-DREE-ah (soft single 'r' after vowel)"
+        }
+      ]
     }
   ],
   "exercises": [

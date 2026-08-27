@@ -423,6 +423,38 @@
           "source": "KAH-dah ber-AH-noh (every summer — stress on 'ka' and 'bah')"
         }
       ]
+    },
+    {
+      "title": "Imperfect vs Preterite — Stress Contrast for Same Verb",
+      "content": "The same verb has very different stress patterns in imperfect vs preterite:\n\n1. **vivía** (used to live) = bee-VEE-ah (imperfect) vs. **viví** (lived) = bee-VEE-ee (preterite)\n   - The imperfect stresses 'vee'; the preterite also stresses 'vee' but the 'í' is shorter\n2. **estudiaba** (used to study) = eh-stoo-DEE-ah-bah vs. **estudié** (studied) = eh-stoo-DEE-eh\n3. **trabajaba** (used to work) = trah-bah-HAH-bah vs. **trabajé** (worked) = trah-bah-HAY-eh\n4. **comía** (used to eat) = ko-MEE-ah vs. **comí** (ate) = ko-MEE-ee\n\nKey stress pattern: The imperfect forms have **longer, more drawn-out** vowels because of the extra syllable (-ba/-ía). The preterite is more compact.\n\nThe preterite forms with accent marks (like **comí**, **estudié**, **trabajé**) always stress the accented syllable, which creates a sharp contrast with the imperfect.",
+      "examples": [
+        {
+          "target": "vivía vs. viví",
+          "source": "bee-VEE-ah (imperfect, 4 syllables) vs bee-VEE-ee (preterite, 3 syllables)"
+        },
+        {
+          "target": "comí",
+          "source": "ko-MEE-ee (accent on 'í', sharp and short)"
+        },
+        {
+          "target": "estudié",
+          "source": "eh-stoo-DEE-eh (accent on 'dee', not 'stu')"
+        }
+      ]
+    },
+    {
+      "title": "Time Markers — Pronunciation Cues for Imperfect vs Preterite",
+      "content": "Time expressions often help signal which tense to use, and they have consistent stress:\n\n1. **ayer** = AH-yer (yesterday) — stress on first syllable\n2. **año pasado** = AH-nyoh pah-SAHL-doh (last year) — stress on 'pah'\n3. **cada verano** = KAH-dah beh-RAH-moh (every summer) — stress on 'ka' and 'beh'\n4. **solía** = soh-LEE-ah (used to) — stress on 'lee'\n5. **una vez** = OO-nah behs (once) — stress on 'oo' and 'behs'\n6. **hacía sol** = AH-SEE-ah sol (it was sunny — imperfect) — stress on 'see'\n7. **sonó** = SOH-noh (it rang — preterite) — stress on 'so'\n\nKey contrast: 'hacía sol' (imperfect, ongoing weather) vs. 'hizo sol' (preterite, specific sunny day):\n- hacía = ah-SEE-ah (3 syllables, stress on 'see')\n- hizo = EES-oh (2 syllables, stress on 'ee')\n\nTip: Words ending in '-ía' (imperfect ending) have a clear 'yah' sound: 'ah-see-YAH'.",
+      "examples": [
+        {
+          "target": "solía",
+          "source": "soh-LEE-ah (stress on 'lee', imperfect marker)"
+        },
+        {
+          "target": "sonó",
+          "source": "SOH-noh (stress on 'so', preterite, 2 syllables)"
+        }
+      ]
     }
   ],
   "exercises": [

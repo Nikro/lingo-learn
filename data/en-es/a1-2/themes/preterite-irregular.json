@@ -727,6 +727,24 @@
           "source": "VEEN-eh-ron (they came — 'v' = soft 'b')"
         }
       ]
+    },
+    {
+      "title": "Irregular Preterite — Vowel Harmony in Stems",
+      "content": "Many irregular preterite verbs have stem vowels that follow patterns:\n\n1. **-IR verbs with stem change (dormir → durmió)**: O → U in 3rd person singular\n   - durmió = door-MEE-oh (stress on 'mee', not 'dor')\n2. **-ER/-IR verbs with 'yo' form ending in -je**: decir → dije = DEE-heh\n3. **tener/tener → tuve**: stress on 'tu' — TOOH-veh (not TOOH-vee)\n4. **estar/estar → estuve**: es-TU-veh (stress on 'tu')\n5. **hacer/hacer → hice**: EES-eh (the 'c' before 'e' = 's' sound)\n\nKey pronunciation pattern: The 3rd person singular (él/ella/usted) of -IR stem-changing verbs drops the 'i' and adds an accent:\n- dormir → durmió = door-MEE-oh (not door-MEE-roh)\n- servir → sirvió = seer-VEE-oh\n- pedir → pidió = peh-DEE-oh",
+      "examples": [
+        {
+          "target": "durmió",
+          "source": "door-MEE-oh (stress on 'mee', accent breaks diphthong)"
+        },
+        {
+          "target": "dijo",
+          "source": "DEE-hoh (the 'j' = strong 'h' sound, not 'j' like English)"
+        },
+        {
+          "target": "hice",
+          "source": "EES-eh (soft 'c' before 'e' = 's' sound)"
+        }
+      ]
     }
   ],
   "exercises": [

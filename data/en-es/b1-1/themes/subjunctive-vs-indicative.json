@@ -447,6 +447,34 @@
           "source": "DOO-doh keh (I doubt that — stress on 'doo')"
         }
       ]
+    },
+    {
+      "title": "Subjunctive Triggers — Stress Contrast with Indicative",
+      "content": "The subjunctive vs indicative distinction is often audible through stress and vowel quality:\n\n1. **creo que viene** (I believe he comes) = kreh-oh keh VYEH-neh — stress on 'kreh' and 'vyeh'\n2. **no creo que venga** (I don't believe he comes) = no kreh-oh keh BEN-gah — stress on 'kreh' and 'ben'\n3. **es cierto que llueve** (it's certain that it rains) = ehs syehr-toh keh YWEH-veh\n4. **es posible que llueva** (it's possible that it rains) = ehs poh-SEE-bleh keh YWEH-vah\n5. **dudo que venga** (I doubt he comes) = DOOH-doh keh BEN-gah — stress on 'doh' and 'ben'\n\nKey stress pattern: The subjunctive often has a **shorter, more compressed** vowel in the stressed syllable compared to the indicative.\n\nTip: Listen for the vowel quality change. In 'viene' (indicative), the 'ie' is a clear diphthong: 'VYEH-neh'. In 'venga' (subjunctive), the 'e' is pure and short: 'BEN-gah'.",
+      "examples": [
+        {
+          "target": "creo que viene vs. no creo que venga",
+          "source": "kreh-oh keh VYEH-neh (indicative) vs. no kreh-oh keh BEN-gah (subjunctive)"
+        },
+        {
+          "target": "dudo que",
+          "source": "DOOH-doh keh (stress on first syllable of 'dudo')"
+        }
+      ]
+    },
+    {
+      "title": "Wish Expressions — Ojalá Stress and Subjunctive",
+      "content": "The word 'ojalá' (I wish) is always followed by subjunctive and has a distinctive stress:\n\n1. **ojalá** = oh-hah-LAH (I wish — from Arabic 'inshallah')\n2. **ojalá llueva** = oh-hah-LAH YWEH-vah (I wish it would rain)\n3. **ojalá tenga** = oh-hah-LAH TEN-gah (I wish (he) has)\n4. **ojalá pueda** = oh-hah-LAH PWEH-dah (I wish (he) can)\n5. **ojalá venga** = oh-hah-LAH BEN-gah (I wish (he) comes)\n\nKey stress: 'ojalá' itself always stresses the last syllable: 'oh-hah-LAH'. This is one of the few words that keeps its Arabic-origin stress pattern.\n\nThe subjunctive that follows has its own stress:\n- 'llueva' = YWEH-vah (stress on 'yeh')\n- 'tenga' = TEN-gah (stress on 'ten')\n- 'venga' = BEN-gah (stress on 'ben')\n\nTip: 'Ojalá' is NEVER followed by indicative. Always subjunctive. The combination signals hope/uncertainty.",
+      "examples": [
+        {
+          "target": "ojalá",
+          "source": "oh-hah-LAH (Arabic origin, stress on last syllable)"
+        },
+        {
+          "target": "ojalá llueva",
+          "source": "oh-hah-LAH YWEH-vah ('ll' = 'y' sound, 'ue' = diphthong)"
+        }
+      ]
     }
   ],
   "exercises": [

@@ -526,6 +526,24 @@
           "source": "EH-choh (irregular past participle of 'hacer')"
         }
       ]
+    },
+    {
+      "title": "Past Participles — The -ado/-ido Stress Pattern",
+      "content": "Spanish past participles follow predictable stress rules based on the verb ending:\n\n1. **-AR verbs → -ADO** (hablado) = ah-BLAH-doh — stress on 'ah' (the middle syllable)\n2. **-ER verbs → -IDO** (comido) = co-MEE-doh — stress on 'mee' (the second syllable)\n3. **-IR verbs → -IDO** (vivido) = bee-BEE-doh — same pattern as -ER\n\nThe accent pattern: The stress ALWAYS falls on the syllable **before** the '-do' ending:\n- hab-LAH-doh → ah-BLAH-doh (stress shifts to 'ah' before 'do')\n- co-MEE-doh → co-MEE-doh (already stressed on 'mee')\n- vi-BEE-doh → bee-BEE-doh\n\nImportant: If the past participle has an accent mark, it overrides the natural stress:\n- leído (read) = leh-EH-doh — the accent keeps stress on 'eh' even though it would naturally fall on 'leh'\n- oído (heard) = oy-EH-doh — same rule",
+      "examples": [
+        {
+          "target": "hablado",
+          "source": "ah-BLAH-doh (stress on 'ah' before 'do')"
+        },
+        {
+          "target": "leído",
+          "source": "leh-EH-doh (accent keeps stress on 'eh')"
+        },
+        {
+          "target": "vivido",
+          "source": "bee-BEE-doh (stress on 'bee')"
+        }
+      ]
     }
   ],
   "exercises": [

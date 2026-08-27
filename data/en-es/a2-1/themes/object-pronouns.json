@@ -437,6 +437,38 @@
           "source": "BEH-oh (I see — 'v' = soft 'b', not English 'v')"
         }
       ]
+    },
+    {
+      "title": "Direct vs Indirect Object — Pronunciation Contrast",
+      "content": "Direct and indirect object pronouns sound very similar but follow different stress rules:\n\n1. **me** = meh (me) — short, unstressed\n2. **te** = teh (you) — short, unstressed\n3. **lo** = loh (him/it) — stress on the only vowel\n4. **la** = lah (her/it fem.) — stress on the only vowel\n5. **le** = leh (to him/her) — stress on the only vowel\n6. **nos** = nohs (us) — stress on the only vowel\n7. **les** = lehs (to them) — stress on the only vowel\n\nWhen pronouns combine (lo + le → se lo, le + lo → se lo), the 's' sound changes:\n- **se lo** = seh loh (give it to him) — the 's' is the only consonant\n- **se la** = seh lah (give it to her)\n\nTip: In rapid speech, these pronouns are often unstressed and flow together with the verb:\n- dáselo = DAH-seh-loh (give it to him) — stress on 'da', not 'se' or 'lo'",
+      "examples": [
+        {
+          "target": "lo",
+          "source": "loh (stress on the only vowel, not 'low')"
+        },
+        {
+          "target": "se lo",
+          "source": "seh loh (combined pronoun, stress on 'seh')"
+        },
+        {
+          "target": "dáselo",
+          "source": "DAH-seh-loh (3-word phrase, stress on first syllable)"
+        }
+      ]
+    },
+    {
+      "title": "Pronoun Clusters — Double Object Pronoun Stress",
+      "content": "When two pronouns combine (indirect + direct), the stress falls on the **verb**, not the pronouns:\n\n1. **dámelo** = DAH-meh-loh (give it to me) — stress on 'da'\n2. **dásela** = DAH-seh-lah (give it to her) — stress on 'da'\n3. **dígamelo** = DEE-gah-meh-loh (tell it to me) — stress on 'dee'\n4. **díganmele** = DEE-gahn-meh-leh (tell it to us — formal) — stress on 'dee'\n5. **dámela** = DAH-meh-lah (give it to me, fem.) — stress on 'da'\n\nKey pattern: The pronoun cluster is **unstressed** relative to the verb:\n- 'dámelo' → DAH-meh-loh (stress on first syllable 'da')\n- 'dígamelo' → DEE-gah-meh-loh (stress on first syllable 'dee')\n\nImportant: When adding a pronoun to an affirmative command, the pronouns are attached to the end of the verb, and an accent mark is often added to preserve the original stress:\n- dar → dá (stress on 'da')\n- dar + me + lo → dá**melo** (accent keeps stress on 'da')",
+      "examples": [
+        {
+          "target": "dámelo",
+          "source": "DAH-meh-loh (accent keeps stress on 'da')"
+        },
+        {
+          "target": "dásela",
+          "source": "DAH-seh-lah (stress on 'da', not 'se')"
+        }
+      ]
     }
   ],
   "exercises": [
