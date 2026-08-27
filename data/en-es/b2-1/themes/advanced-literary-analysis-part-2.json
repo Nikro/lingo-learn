@@ -600,6 +600,25 @@
       "note": "The conditional + subjunctive combination is essential for advanced literary discussion. It allows you to explore alternative interpretations and hypothetical readings."
     }
   ],
-  "pronunciation": [],
+  "pronunciation": [
+    {
+      "title": "Literary Terms — Stress on Multi-Syllable Words",
+      "content": "Literary analysis vocabulary often uses longer words with complex stress:\n\n1. **interpretar** = een-tehr-preh-TAR (to interpret — stress on 'tar')\n2. **simbolizar** = seem-boh-lee-SAR (to symbolize — stress on 'sar')\n3. **evocar** = eh-VOH-kar (to evoke — stress on 'vo')\n4. **alegórico/a** = ah-leh-GOR-ee-oh/ah (allegorical — stress on 'gor')\n5. **subyacente** = soob-yah-SEN-teh (underlying — stress on 'sen')\n6. **ambiguo/a** = am-BEE-gwah/ah (ambiguous — stress on 'bee')\n7. **multifacético/a** = mool-tee-fah-seh-TEE-koh/ah (multifaceted — stress on 'tee')\n8. **intrincado** = een-treen-KAH-doh (intricate — stress on 'kah')\n\nKey: Most academic suffixes don't change stress:\n- '-ar' verbs: stress on penultimate (in-ter-pre-TAR)\n- '-ico/-ica' adjectives: stress on antepenultimate (ah-leh-GOR-ee-oh)",
+      "examples": [
+        {
+          "target": "simbolizar",
+          "source": "see-mboh-lee-SAR (to symbolize — stress on 'sar')"
+        },
+        {
+          "target": "multifacético",
+          "source": "mool-tee-fah-seh-TEE-koh (multifaceted — stress on 'tee')"
+        },
+        {
+          "target": "subyacente",
+          "source": "soob-yah-SEN-teh (underlying — stress on 'sen')"
+        }
+      ]
+    }
+  ],
   "exercises": []
 }

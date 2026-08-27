@@ -431,7 +431,26 @@
       "aid_note": "Romanian irregular future stems work similarly — they change the stem before adding the future marker. Spanish irregulars are limited to about 12 common verbs, and they all drop the final vowel of the infinitive before adding -r."
     }
   ],
-  "pronunciation": [],
+  "pronunciation": [
+    {
+      "title": "Future Tense Irregular — Key Sounds",
+      "content": "Irregular future stems are the same as conditional, plus the future endings:\n\n1. **tendré** = ten-DREH (I will have — stress on 'dreh', accent mark!)\n2. **pondré** = pon-DREH (I will put — accent on 'dre')\n3. **saldré** = sal-DREH (I will leave — accent on 'dre')\n4. **podré** = po-DREH (I will be able — accent on 'dre')\n5. **querré** = keh-DRREH (I will want — accent on 'dre')\n6. **diré** = deh-DREH (I will say — accent on 'dre')\n7. **haré** = ah-DREH (I will do — accent on 'dre')\n8. **sabrán** = sa-BRAHN (they will know — accent on 'ahn')\n9. **vendrán** = ben-DRAHN (they will come — accent on 'ahn')\n\nKey difference from conditional:\n- Future: stressed final syllable (-ré, -rás, -rá, -remos, -réis, -rán)\n- Conditional: stressed penultimate syllable (-ría, -rías, -ría, -ríamos, -ríais, -rían)\n\nThe 'll' cluster doesn't appear in these forms, but in related vocabulary:\n- **llamaré** = YAH-mah-reh (I will call — 'll' = 'y')",
+      "examples": [
+        {
+          "target": "tendré",
+          "source": "ten-DREH (I will have — accent on 'dreh')"
+        },
+        {
+          "target": "podré ayudar",
+          "source": "po-DREH ah-yoo-DAR (I will be able to help)"
+        },
+        {
+          "target": "sabrán",
+          "source": "sa-BRAHN (they will know — stress on 'ahn')"
+        }
+      ]
+    }
+  ],
   "exercises": [
     {
       "type": "exercise",

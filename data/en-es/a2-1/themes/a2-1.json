@@ -1,6 +1,6 @@
 {
   "stage_id": "a2-1",
-  "title": "A2.1 \u2014 Imperfect, Reflexives, & Basic Subjunctive",
+  "title": "A2.1 — Imperfect, Reflexives, & Basic Subjunctive",
   "description": "Describe past habits and ongoing situations, talk about daily routines, make comparisons, and express wishes and commands using basic subjunctive.",
   "themes": [
     {
@@ -30,23 +30,25 @@
     {
       "id": "basic-subjunctive",
       "title": "Basic Subjunctive",
-      "description": "Use the present subjunctive in fixed expressions: wishes, hopes, and Ojal\u00e1.",
+      "description": "Use the present subjunctive in fixed expressions: wishes, hopes, and Ojalá.",
       "estimated_hours": 2,
       "sections": [
         "Vocabulary",
         "Grammar",
-        "Exercises"
+        "Exercises",
+        "Pronunciation"
       ]
     },
     {
       "id": "comparatives-superlatives",
       "title": "Comparatives and Superlatives",
-      "description": "Compare people, things, and ideas using m\u00e1s/menos/tan and el/la m\u00e1s/el/la menos.",
+      "description": "Compare people, things, and ideas using más/menos/tan and el/la más/el/la menos.",
       "estimated_hours": 2,
       "sections": [
         "Vocabulary",
         "Grammar",
-        "Exercises"
+        "Exercises",
+        "Pronunciation"
       ]
     },
     {
@@ -99,8 +101,8 @@
     },
     {
       "id": "imperfect-irregular",
-      "title": "Imperfect \u2014 The Three Irregulars",
-      "description": "Learn the three imperfect irregulars: IR (iba), VER (ve\u00eda), and SER (era).",
+      "title": "Imperfect — The Three Irregulars",
+      "description": "Learn the three imperfect irregulars: IR (iba), VER (veía), and SER (era).",
       "estimated_hours": 2,
       "sections": [
         "Vocabulary",
@@ -117,12 +119,13 @@
       "sections": [
         "Vocabulary",
         "Grammar",
-        "Exercises"
+        "Exercises",
+        "Pronunciation"
       ]
     },
     {
       "id": "imperfect-regular",
-      "title": "Imperfect \u2014 Regular Verbs",
+      "title": "Imperfect — Regular Verbs",
       "description": "Master regular imperfect conjugations for -AR, -ER, and -IR verbs to describe ongoing and habitual past actions.",
       "estimated_hours": 2,
       "sections": [
@@ -135,12 +138,13 @@
     {
       "id": "imperfect-vs-preterite",
       "title": "Imperfect vs. Preterite",
-      "description": "Understand when to use the imperfect versus the preterite \u2014 the key decision point for Spanish past tenses.",
+      "description": "Understand when to use the imperfect versus the preterite — the key decision point for Spanish past tenses.",
       "estimated_hours": 2,
       "sections": [
         "Vocabulary",
         "Grammar",
-        "Exercises"
+        "Exercises",
+        "Pronunciation"
       ]
     },
     {
@@ -187,7 +191,8 @@
       "sections": [
         "Vocabulary",
         "Grammar",
-        "Exercises"
+        "Exercises",
+        "Pronunciation"
       ]
     },
     {
@@ -217,7 +222,7 @@
     {
       "id": "por-para-usage",
       "title": "Por vs. Para",
-      "description": "Master the difference between 'por' and 'para' \u2014 two of the most challenging Spanish prepositions for learners.",
+      "description": "Master the difference between 'por' and 'para' — two of the most challenging Spanish prepositions for learners.",
       "estimated_hours": 5,
       "sections": [
         "Vocabulary",
@@ -289,7 +294,7 @@
     {
       "id": "ser-estar",
       "title": "Ser vs. Estar",
-      "description": "Master the crucial difference between ser and estar \u2014 two forms of 'to be' in Spanish.",
+      "description": "Master the crucial difference between ser and estar — two forms of 'to be' in Spanish.",
       "estimated_hours": 5,
       "sections": [
         "Vocabulary",

@@ -3,70 +3,405 @@
   "title": "Reflexives in the Imperfect",
   "description": "Describe past daily routines using reflexive verbs in the imperfect tense.",
   "vocabulary": [
-    { "id": 1, "target": "despertarse", "source": "to wake up", "gender": "v.", "type": "verb" },
-    { "id": 2, "target": "levantarse", "source": "to get up", "gender": "v.", "type": "verb" },
-    { "id": 3, "target": "ducharse", "source": "to shower", "gender": "v.", "type": "verb" },
-    { "id": 4, "target": "afeitarse", "source": "to shave", "gender": "v.", "type": "verb" },
-    { "id": 5, "target": "peinarse", "source": "to comb one's hair", "gender": "v.", "type": "verb" },
-    { "id": 6, "target": "vestirse", "source": "to get dressed", "gender": "v.", "type": "verb" },
-    { "id": 7, "target": "acostarse", "source": "to go to bed", "gender": "v.", "type": "verb" },
-    { "id": 8, "target": "bañarse", "source": "to bathe", "gender": "v.", "type": "verb" },
-    { "id": 9, "target": "maquillarse", "source": "to put on makeup", "gender": "v.", "type": "verb" },
-    { "id": 10, "target": "secarse", "source": "to dry oneself", "gender": "v.", "type": "verb" },
-    { "id": 11, "target": "cepillarse los dientes", "source": "to brush one's teeth", "gender": "v.", "type": "verb" },
-    { "id": 12, "target": "almorzar", "source": "to have lunch", "gender": "v.", "type": "verb" },
-    { "id": 13, "target": "cena", "source": "dinner", "gender": "f.", "type": "noun" },
-    { "id": 14, "target": "el desayuno", "source": "breakfast", "gender": "m.", "type": "noun" },
-    { "id": 15, "target": "las seis de la mañana", "source": "six in the morning", "gender": "—", "type": "time" },
-    { "id": 16, "target": "las siete", "source": "seven o'clock", "gender": "—", "type": "time" },
-    { "id": 17, "target": "las diez", "source": "ten o'clock", "gender": "—", "type": "time" },
-    { "id": 18, "target": "los fines de semana", "source": "on weekends", "gender": "—", "type": "time" },
-    { "id": 19, "target": "después de entrenar", "source": "after training", "gender": "—", "type": "phrase" },
-    { "id": 20, "target": "por la noche", "source": "at night / in the evening", "gender": "—", "type": "phrase" },
-    { "id": 21, "target": "me despertaba", "source": "I used to wake up", "gender": "v.", "type": "verb" },
-    { "id": 22, "target": "me levantaba", "source": "I used to get up", "gender": "v.", "type": "verb" },
-    { "id": 23, "target": "me duchaba", "source": "I used to shower", "gender": "v.", "type": "verb" },
-    { "id": 24, "target": "me afeitaba", "source": "I used to shave", "gender": "v.", "type": "verb" },
-    { "id": 25, "target": "me peinaba", "source": "I used to comb my hair", "gender": "v.", "type": "verb" },
-    { "id": 26, "target": "me vestía", "source": "I used to get dressed", "gender": "v.", "type": "verb" },
-    { "id": 27, "target": "me acostaba", "source": "I used to go to bed", "gender": "v.", "type": "verb" },
-    { "id": 28, "target": "me bañaba", "source": "I used to take a bath", "gender": "v.", "type": "verb" },
-    { "id": 29, "target": "me maquillaba", "source": "I used to put on makeup", "gender": "v.", "type": "verb" },
-    { "id": 30, "target": "me secaba", "source": "I used to dry myself", "gender": "v.", "type": "verb" },
-    { "id": 31, "target": "me cepillaba los dientes", "source": "I used to brush my teeth", "gender": "v.", "type": "verb" },
-    { "id": 32, "target": "te levantabas", "source": "you used to get up", "gender": "v.", "type": "verb" },
-    { "id": 33, "target": "te peinabas", "source": "you used to comb your hair", "gender": "v.", "type": "verb" },
-    { "id": 34, "target": "se levantaba", "source": "he / she used to get up", "gender": "v.", "type": "verb" },
-    { "id": 35, "target": "se duchaba", "source": "he / she used to shower", "gender": "v.", "type": "verb" },
-    { "id": 36, "target": "nos levantábamos", "source": "we used to get up", "gender": "v.", "type": "verb" },
-    { "id": 37, "target": "nos duchábamos", "source": "we used to shower", "gender": "v.", "type": "verb" },
-    { "id": 38, "target": "se acostaban", "source": "they used to go to bed", "gender": "v.", "type": "verb" },
-    { "id": 39, "target": "te maquillabas", "source": "you used to put on makeup", "gender": "v.", "type": "verb" },
-    { "id": 40, "target": "se vestía", "source": "he / she used to get dressed", "gender": "v.", "type": "verb" },
-    { "id": 41, "target": "se maquillaba", "source": "she used to put on makeup", "gender": "v.", "type": "verb" },
-    { "id": 42, "target": "nos bañábamos", "source": "we used to take a bath", "gender": "v.", "type": "verb" },
-    { "id": 43, "target": "cada mañana", "source": "every morning", "gender": "—", "type": "phrase" },
-    { "id": 44, "target": "de costumbre", "source": "as usual", "gender": "—", "type": "phrase" },
-    { "id": 45, "target": "habitualmente", "source": "usually / habitually", "gender": "—", "type": "adverb" },
-    { "id": 46, "target": "de vez en cuando", "source": "from time to time", "gender": "—", "type": "phrase" },
-    { "id": 47, "target": "a menudo", "source": "often", "gender": "—", "type": "adverb" },
-    { "id": 48, "target": "generalmente", "source": "generally", "gender": "—", "type": "adverb" },
-    { "id": 49, "target": "casi todos los días", "source": "almost every day", "gender": "—", "type": "phrase" },
-    { "id": 50, "target": "todos los veranos", "source": "every summer", "gender": "—", "type": "phrase" }
+    {
+      "id": 1,
+      "target": "despertarse",
+      "source": "to wake up",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 2,
+      "target": "levantarse",
+      "source": "to get up",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 3,
+      "target": "ducharse",
+      "source": "to shower",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 4,
+      "target": "afeitarse",
+      "source": "to shave",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 5,
+      "target": "peinarse",
+      "source": "to comb one's hair",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 6,
+      "target": "vestirse",
+      "source": "to get dressed",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 7,
+      "target": "acostarse",
+      "source": "to go to bed",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 8,
+      "target": "bañarse",
+      "source": "to bathe",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 9,
+      "target": "maquillarse",
+      "source": "to put on makeup",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 10,
+      "target": "secarse",
+      "source": "to dry oneself",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 11,
+      "target": "cepillarse los dientes",
+      "source": "to brush one's teeth",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 12,
+      "target": "almorzar",
+      "source": "to have lunch",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 13,
+      "target": "cena",
+      "source": "dinner",
+      "gender": "f.",
+      "type": "noun"
+    },
+    {
+      "id": 14,
+      "target": "el desayuno",
+      "source": "breakfast",
+      "gender": "m.",
+      "type": "noun"
+    },
+    {
+      "id": 15,
+      "target": "las seis de la mañana",
+      "source": "six in the morning",
+      "gender": "—",
+      "type": "time"
+    },
+    {
+      "id": 16,
+      "target": "las siete",
+      "source": "seven o'clock",
+      "gender": "—",
+      "type": "time"
+    },
+    {
+      "id": 17,
+      "target": "las diez",
+      "source": "ten o'clock",
+      "gender": "—",
+      "type": "time"
+    },
+    {
+      "id": 18,
+      "target": "los fines de semana",
+      "source": "on weekends",
+      "gender": "—",
+      "type": "time"
+    },
+    {
+      "id": 19,
+      "target": "después de entrenar",
+      "source": "after training",
+      "gender": "—",
+      "type": "phrase"
+    },
+    {
+      "id": 20,
+      "target": "por la noche",
+      "source": "at night / in the evening",
+      "gender": "—",
+      "type": "phrase"
+    },
+    {
+      "id": 21,
+      "target": "me despertaba",
+      "source": "I used to wake up",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 22,
+      "target": "me levantaba",
+      "source": "I used to get up",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 23,
+      "target": "me duchaba",
+      "source": "I used to shower",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 24,
+      "target": "me afeitaba",
+      "source": "I used to shave",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 25,
+      "target": "me peinaba",
+      "source": "I used to comb my hair",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 26,
+      "target": "me vestía",
+      "source": "I used to get dressed",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 27,
+      "target": "me acostaba",
+      "source": "I used to go to bed",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 28,
+      "target": "me bañaba",
+      "source": "I used to take a bath",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 29,
+      "target": "me maquillaba",
+      "source": "I used to put on makeup",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 30,
+      "target": "me secaba",
+      "source": "I used to dry myself",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 31,
+      "target": "me cepillaba los dientes",
+      "source": "I used to brush my teeth",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 32,
+      "target": "te levantabas",
+      "source": "you used to get up",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 33,
+      "target": "te peinabas",
+      "source": "you used to comb your hair",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 34,
+      "target": "se levantaba",
+      "source": "he / she used to get up",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 35,
+      "target": "se duchaba",
+      "source": "he / she used to shower",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 36,
+      "target": "nos levantábamos",
+      "source": "we used to get up",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 37,
+      "target": "nos duchábamos",
+      "source": "we used to shower",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 38,
+      "target": "se acostaban",
+      "source": "they used to go to bed",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 39,
+      "target": "te maquillabas",
+      "source": "you used to put on makeup",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 40,
+      "target": "se vestía",
+      "source": "he / she used to get dressed",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 41,
+      "target": "se maquillaba",
+      "source": "she used to put on makeup",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 42,
+      "target": "nos bañábamos",
+      "source": "we used to take a bath",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 43,
+      "target": "cada mañana",
+      "source": "every morning",
+      "gender": "—",
+      "type": "phrase"
+    },
+    {
+      "id": 44,
+      "target": "de costumbre",
+      "source": "as usual",
+      "gender": "—",
+      "type": "phrase"
+    },
+    {
+      "id": 45,
+      "target": "habitualmente",
+      "source": "usually / habitually",
+      "gender": "—",
+      "type": "adverb"
+    },
+    {
+      "id": 46,
+      "target": "de vez en cuando",
+      "source": "from time to time",
+      "gender": "—",
+      "type": "phrase"
+    },
+    {
+      "id": 47,
+      "target": "a menudo",
+      "source": "often",
+      "gender": "—",
+      "type": "adverb"
+    },
+    {
+      "id": 48,
+      "target": "generalmente",
+      "source": "generally",
+      "gender": "—",
+      "type": "adverb"
+    },
+    {
+      "id": 49,
+      "target": "casi todos los días",
+      "source": "almost every day",
+      "gender": "—",
+      "type": "phrase"
+    },
+    {
+      "id": 50,
+      "target": "todos los veranos",
+      "source": "every summer",
+      "gender": "—",
+      "type": "phrase"
+    }
   ],
   "grammar": [
     {
       "title": "Reflexive Verbs in the Imperfect (Daily Routines in the Past)",
       "content": "Combine reflexive pronouns (me, te, se, nos, os, se) with imperfect conjugations to describe past daily routines. Reflexive pronouns stay BEFORE the conjugated verb (or attached to the infinitive when using a compound verb form).\n\nReflexive pronouns:\n- me (myself)\n- te (yourself, informal)\n- se (himself/herself/itself/yourselves formal)\n- nos (ourselves)\n- os (yourselves, Spain informal)\n- se (themselves/yourselves formal)",
       "table": {
-        "headers": ["Pronoun", "Despertarse", "Levantarse", "Ducharse"],
+        "headers": [
+          "Pronoun",
+          "Despertarse",
+          "Levantarse",
+          "Ducharse"
+        ],
         "rows": [
-          ["yo", "me despertaba", "me levantaba", "me duchaba"],
-          ["tú", "te despertabas", "te levantabas", "te duchabas"],
-          ["él/ella/usted", "se despertaba", "se levantaba", "se duchaba"],
-          ["nosotros", "nos despertábamos", "nos levantábamos", "nos duchábamos"],
-          ["vosotros", "os despertabais", "os levantabais", "os duchabais"],
-          ["ellos/ellas/ustedes", "se despertaban", "se levantaban", "se duchaban"]
+          [
+            "yo",
+            "me despertaba",
+            "me levantaba",
+            "me duchaba"
+          ],
+          [
+            "tú",
+            "te despertabas",
+            "te levantabas",
+            "te duchabas"
+          ],
+          [
+            "él/ella/usted",
+            "se despertaba",
+            "se levantaba",
+            "se duchaba"
+          ],
+          [
+            "nosotros",
+            "nos despertábamos",
+            "nos levantábamos",
+            "nos duchábamos"
+          ],
+          [
+            "vosotros",
+            "os despertabais",
+            "os levantabais",
+            "os duchabais"
+          ],
+          [
+            "ellos/ellas/ustedes",
+            "se despertaban",
+            "se levantaban",
+            "se duchaban"
+          ]
         ]
       },
       "examples": [
@@ -78,7 +413,26 @@
       "aid_note": "Romanian reflexive verbs also use pronouns (mă, te, se, ne, vă, se) before the verb: 'mă trezeam' = 'me despertaba'. The structure is the same — just swap the verb conjugation."
     }
   ],
-  "pronunciation": [],
+  "pronunciation": [
+    {
+      "title": "Imperfect Reflexive Verbs — Stress",
+      "content": "Imperfect reflexive forms follow predictable stress:\n\n-ar reflexive: me despertaba, te despertabas, se despertaba, nos despertábamos, os despertabais, se despertaban\n\n1. **me despertaba** = meh deh-spehr-TAH-bah (stress on 'tAH')\n2. **te levantabas** = teh leh-van-TAH-bah (stress on 'tAH')\n3. **se vestía** = seh behs-TEE-ah (stress on 'TEE' — accent mark!)\n4. **nos acostábamos** = nohs ah-koh-TAH-mohs (stress on 'tAH')\n5. **te acostabas** = teh ah-koh-TAH-bah (stress on 'tAH')\n6. **se bañaba** = seh bah-NAH-bah (stress on 'NAH')\n\nKey pattern: In imperfect -ar reflexive, the accent on '-ábamos' marks stress. In -er/-ir reflexive, the accent on the stem vowel marks stress.\n\nThe reflexive pronouns (me, te, se, nos, os, se) are unstressed and blend with the verb.",
+      "examples": [
+        {
+          "target": "me despertaba",
+          "source": "meh deh-spehr-TAH-bah (I used to wake up)"
+        },
+        {
+          "target": "se vestía",
+          "source": "seh behs-TEE-ah (she used to get dressed — accent on 'tee')"
+        },
+        {
+          "target": "nos bañábamos",
+          "source": "nohs bah-NAH-mohs (we used to bathe — accent on 'nah')"
+        }
+      ]
+    }
+  ],
   "exercises": [
     {
       "type": "fill-in-blank",
@@ -89,7 +443,12 @@
     {
       "type": "exercise",
       "question": "Where does the reflexive pronoun go with the imperfect?",
-      "options": ["Attached to the end", "Before the conjugated verb", "After the verb", "It's optional"],
+      "options": [
+        "Attached to the end",
+        "Before the conjugated verb",
+        "After the verb",
+        "It's optional"
+      ],
       "correct": 1,
       "explanation": "Reflexive pronouns go BEFORE the conjugated verb: 'me despertaba', 'te duchabas', 'se acostaba'."
     },
@@ -102,7 +461,12 @@
     {
       "type": "exercise",
       "question": "What is the imperfect of 'acostarse' for 'él'?",
-      "options": ["se acostaba", "se acosté", "se acostó", "se acosta"],
+      "options": [
+        "se acostaba",
+        "se acosté",
+        "se acostó",
+        "se acosta"
+      ],
       "correct": 0,
       "explanation": "'Se acostaba' — se (reflexive) + imperfect of acostar (-aba ending for él/ella)."
     },

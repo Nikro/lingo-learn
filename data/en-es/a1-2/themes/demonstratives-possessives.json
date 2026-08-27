@@ -3,67 +3,391 @@
   "title": "Demonstratives and Possessives",
   "description": "Learn to point things out and show ownership — este/ese/aquel and mi/tu/su.",
   "vocabulary": [
-    { "id": 1, "target": "este", "source": "this (near me)", "gender": "m.", "type": "demonstrative" },
-    { "id": 2, "target": "esta", "source": "this (near me)", "gender": "f.", "type": "demonstrative" },
-    { "id": 3, "target": "estos", "source": "these (near me)", "gender": "m.", "type": "demonstrative" },
-    { "id": 4, "target": "estas", "source": "these (near me)", "gender": "f.", "type": "demonstrative" },
-    { "id": 5, "target": "ese", "source": "that (near you)", "gender": "m.", "type": "demonstrative" },
-    { "id": 6, "target": "esa", "source": "that (near you)", "gender": "f.", "type": "demonstrative" },
-    { "id": 7, "target": "esos", "source": "those (near you)", "gender": "m.", "type": "demonstrative" },
-    { "id": 8, "target": "esas", "source": "those (near you)", "gender": "f.", "type": "demonstrative" },
-    { "id": 9, "target": "aquel", "source": "that (far from both)", "gender": "m.", "type": "demonstrative" },
-    { "id": 10, "target": "aquella", "source": "that (far from both)", "gender": "f.", "type": "demonstrative" },
-    { "id": 11, "target": "aquellos", "source": "those (far from both)", "gender": "m.", "type": "demonstrative" },
-    { "id": 12, "target": "aquellas", "source": "those (far from both)", "gender": "f.", "type": "demonstrative" },
-    { "id": 13, "target": "mi", "source": "my", "gender": "—", "type": "possessive" },
-    { "id": 14, "target": "tu", "source": "your (informal)", "gender": "—", "type": "possessive" },
-    { "id": 15, "target": "su", "source": "his/her/your formal their", "gender": "—", "type": "possessive" },
-    { "id": 16, "target": "nuestro", "source": "our (m.)", "gender": "m.", "type": "possessive" },
-    { "id": 17, "target": "nuestra", "source": "our (f.)", "gender": "f.", "type": "possessive" },
-    { "id": 18, "target": "vuestro", "source": "your all (Spain, m.)", "gender": "m.", "type": "possessive" },
-    { "id": 19, "target": "vuestra", "source": "your all (Spain, f.)", "gender": "f.", "type": "possessive" },
-    { "id": 20, "target": "ese libro", "source": "that book", "gender": "m.", "type": "phrase" },
-    { "id": 21, "target": "esta casa", "source": "this house", "gender": "f.", "type": "phrase" },
-    { "id": 22, "target": "aquel día", "source": "that day (far)", "gender": "m.", "type": "phrase" },
-    { "id": 23, "target": "mi casa", "source": "my house", "gender": "f.", "type": "phrase" },
-    { "id": 24, "target": "tu amigo", "source": "your friend (informal)", "gender": "m.", "type": "phrase" },
-    { "id": 25, "target": "su coche", "source": "his/her/your car", "gender": "m.", "type": "phrase" },
-    { "id": 26, "target": "nuestro hogar", "source": "our home", "gender": "m.", "type": "phrase" },
-    { "id": 27, "target": "aquello", "source": "that (thing, unspecified)", "gender": "n.", "type": "demonstrative" },
-    { "id": 29, "target": "cerca", "source": "near / close", "gender": "—", "type": "adverb" },
-    { "id": 30, "target": "lejos", "source": "far / far away", "gender": "—", "type": "adverb" },
-    { "id": 31, "target": "mis", "source": "my (plural)", "gender": "—", "type": "other" },
-    { "id": 32, "target": "tus", "source": "your (plural)", "gender": "—", "type": "other" },
-    { "id": 33, "target": "sus", "source": "his / her / their (plural)", "gender": "—", "type": "other" },
-    { "id": 34, "target": "nuestros", "source": "our (masculine plural)", "gender": "—", "type": "other" },
-    { "id": 35, "target": "nuestras", "source": "our (feminine plural)", "gender": "—", "type": "other" },
-    { "id": 36, "target": "vuestros", "source": "your (plural, masculine)", "gender": "—", "type": "other" },
-    { "id": 37, "target": "vuestras", "source": "your (plural, feminine)", "gender": "—", "type": "other" },
-    { "id": 38, "target": "mío", "source": "mine (masculine)", "gender": "m.", "type": "other" },
-    { "id": 39, "target": "mía", "source": "mine (feminine)", "gender": "f.", "type": "other" },
-    { "id": 40, "target": "tuyo", "source": "yours (masculine)", "gender": "m.", "type": "other" },
-    { "id": 41, "target": "tuya", "source": "yours (feminine)", "gender": "f.", "type": "other" },
-    { "id": 42, "target": "suyo", "source": "his / her / theirs (masculine)", "gender": "m.", "type": "other" },
-    { "id": 43, "target": "suya", "source": "his / her / theirs (feminine)", "gender": "f.", "type": "other" },
-    { "id": 44, "target": "esto", "source": "this (thing)", "gender": "—", "type": "other" },
-    { "id": 45, "target": "eso", "source": "that (thing)", "gender": "—", "type": "other" },
-    { "id": 46, "target": "aquí", "source": "here", "gender": "—", "type": "adverb" },
-    { "id": 47, "target": "allí", "source": "there", "gender": "—", "type": "adverb" },
-    { "id": 48, "target": "allá", "source": "over there", "gender": "—", "type": "adverb" },
-    { "id": 49, "target": "el mismo", "source": "the same", "gender": "m.", "type": "phrase" },
-    { "id": 50, "target": "lo mismo", "source": "the same thing", "gender": "—", "type": "phrase" },
-    { "id": 51, "target": "el mismo mismo", "source": "the very same", "gender": "m.", "type": "phrase" }
+    {
+      "id": 1,
+      "target": "este",
+      "source": "this (near me)",
+      "gender": "m.",
+      "type": "demonstrative"
+    },
+    {
+      "id": 2,
+      "target": "esta",
+      "source": "this (near me)",
+      "gender": "f.",
+      "type": "demonstrative"
+    },
+    {
+      "id": 3,
+      "target": "estos",
+      "source": "these (near me)",
+      "gender": "m.",
+      "type": "demonstrative"
+    },
+    {
+      "id": 4,
+      "target": "estas",
+      "source": "these (near me)",
+      "gender": "f.",
+      "type": "demonstrative"
+    },
+    {
+      "id": 5,
+      "target": "ese",
+      "source": "that (near you)",
+      "gender": "m.",
+      "type": "demonstrative"
+    },
+    {
+      "id": 6,
+      "target": "esa",
+      "source": "that (near you)",
+      "gender": "f.",
+      "type": "demonstrative"
+    },
+    {
+      "id": 7,
+      "target": "esos",
+      "source": "those (near you)",
+      "gender": "m.",
+      "type": "demonstrative"
+    },
+    {
+      "id": 8,
+      "target": "esas",
+      "source": "those (near you)",
+      "gender": "f.",
+      "type": "demonstrative"
+    },
+    {
+      "id": 9,
+      "target": "aquel",
+      "source": "that (far from both)",
+      "gender": "m.",
+      "type": "demonstrative"
+    },
+    {
+      "id": 10,
+      "target": "aquella",
+      "source": "that (far from both)",
+      "gender": "f.",
+      "type": "demonstrative"
+    },
+    {
+      "id": 11,
+      "target": "aquellos",
+      "source": "those (far from both)",
+      "gender": "m.",
+      "type": "demonstrative"
+    },
+    {
+      "id": 12,
+      "target": "aquellas",
+      "source": "those (far from both)",
+      "gender": "f.",
+      "type": "demonstrative"
+    },
+    {
+      "id": 13,
+      "target": "mi",
+      "source": "my",
+      "gender": "—",
+      "type": "possessive"
+    },
+    {
+      "id": 14,
+      "target": "tu",
+      "source": "your (informal)",
+      "gender": "—",
+      "type": "possessive"
+    },
+    {
+      "id": 15,
+      "target": "su",
+      "source": "his/her/your formal their",
+      "gender": "—",
+      "type": "possessive"
+    },
+    {
+      "id": 16,
+      "target": "nuestro",
+      "source": "our (m.)",
+      "gender": "m.",
+      "type": "possessive"
+    },
+    {
+      "id": 17,
+      "target": "nuestra",
+      "source": "our (f.)",
+      "gender": "f.",
+      "type": "possessive"
+    },
+    {
+      "id": 18,
+      "target": "vuestro",
+      "source": "your all (Spain, m.)",
+      "gender": "m.",
+      "type": "possessive"
+    },
+    {
+      "id": 19,
+      "target": "vuestra",
+      "source": "your all (Spain, f.)",
+      "gender": "f.",
+      "type": "possessive"
+    },
+    {
+      "id": 20,
+      "target": "ese libro",
+      "source": "that book",
+      "gender": "m.",
+      "type": "phrase"
+    },
+    {
+      "id": 21,
+      "target": "esta casa",
+      "source": "this house",
+      "gender": "f.",
+      "type": "phrase"
+    },
+    {
+      "id": 22,
+      "target": "aquel día",
+      "source": "that day (far)",
+      "gender": "m.",
+      "type": "phrase"
+    },
+    {
+      "id": 23,
+      "target": "mi casa",
+      "source": "my house",
+      "gender": "f.",
+      "type": "phrase"
+    },
+    {
+      "id": 24,
+      "target": "tu amigo",
+      "source": "your friend (informal)",
+      "gender": "m.",
+      "type": "phrase"
+    },
+    {
+      "id": 25,
+      "target": "su coche",
+      "source": "his/her/your car",
+      "gender": "m.",
+      "type": "phrase"
+    },
+    {
+      "id": 26,
+      "target": "nuestro hogar",
+      "source": "our home",
+      "gender": "m.",
+      "type": "phrase"
+    },
+    {
+      "id": 27,
+      "target": "aquello",
+      "source": "that (thing, unspecified)",
+      "gender": "n.",
+      "type": "demonstrative"
+    },
+    {
+      "id": 29,
+      "target": "cerca",
+      "source": "near / close",
+      "gender": "—",
+      "type": "adverb"
+    },
+    {
+      "id": 30,
+      "target": "lejos",
+      "source": "far / far away",
+      "gender": "—",
+      "type": "adverb"
+    },
+    {
+      "id": 31,
+      "target": "mis",
+      "source": "my (plural)",
+      "gender": "—",
+      "type": "other"
+    },
+    {
+      "id": 32,
+      "target": "tus",
+      "source": "your (plural)",
+      "gender": "—",
+      "type": "other"
+    },
+    {
+      "id": 33,
+      "target": "sus",
+      "source": "his / her / their (plural)",
+      "gender": "—",
+      "type": "other"
+    },
+    {
+      "id": 34,
+      "target": "nuestros",
+      "source": "our (masculine plural)",
+      "gender": "—",
+      "type": "other"
+    },
+    {
+      "id": 35,
+      "target": "nuestras",
+      "source": "our (feminine plural)",
+      "gender": "—",
+      "type": "other"
+    },
+    {
+      "id": 36,
+      "target": "vuestros",
+      "source": "your (plural, masculine)",
+      "gender": "—",
+      "type": "other"
+    },
+    {
+      "id": 37,
+      "target": "vuestras",
+      "source": "your (plural, feminine)",
+      "gender": "—",
+      "type": "other"
+    },
+    {
+      "id": 38,
+      "target": "mío",
+      "source": "mine (masculine)",
+      "gender": "m.",
+      "type": "other"
+    },
+    {
+      "id": 39,
+      "target": "mía",
+      "source": "mine (feminine)",
+      "gender": "f.",
+      "type": "other"
+    },
+    {
+      "id": 40,
+      "target": "tuyo",
+      "source": "yours (masculine)",
+      "gender": "m.",
+      "type": "other"
+    },
+    {
+      "id": 41,
+      "target": "tuya",
+      "source": "yours (feminine)",
+      "gender": "f.",
+      "type": "other"
+    },
+    {
+      "id": 42,
+      "target": "suyo",
+      "source": "his / her / theirs (masculine)",
+      "gender": "m.",
+      "type": "other"
+    },
+    {
+      "id": 43,
+      "target": "suya",
+      "source": "his / her / theirs (feminine)",
+      "gender": "f.",
+      "type": "other"
+    },
+    {
+      "id": 44,
+      "target": "esto",
+      "source": "this (thing)",
+      "gender": "—",
+      "type": "other"
+    },
+    {
+      "id": 45,
+      "target": "eso",
+      "source": "that (thing)",
+      "gender": "—",
+      "type": "other"
+    },
+    {
+      "id": 46,
+      "target": "aquí",
+      "source": "here",
+      "gender": "—",
+      "type": "adverb"
+    },
+    {
+      "id": 47,
+      "target": "allí",
+      "source": "there",
+      "gender": "—",
+      "type": "adverb"
+    },
+    {
+      "id": 48,
+      "target": "allá",
+      "source": "over there",
+      "gender": "—",
+      "type": "adverb"
+    },
+    {
+      "id": 49,
+      "target": "el mismo",
+      "source": "the same",
+      "gender": "m.",
+      "type": "phrase"
+    },
+    {
+      "id": 50,
+      "target": "lo mismo",
+      "source": "the same thing",
+      "gender": "—",
+      "type": "phrase"
+    },
+    {
+      "id": 51,
+      "target": "el mismo mismo",
+      "source": "the very same",
+      "gender": "m.",
+      "type": "phrase"
+    }
   ],
   "grammar": [
     {
       "title": "Demonstrative Adjectives — este, ese, aquel",
       "content": "Demonstrative adjectives point to things based on distance from the speaker:\n\n- ESTE/ESTA (this/these): near the speaker (this book, this house)\n- ESE/ESA (that/those): near the listener (that book, that house)\n- AQUEL/AQUELLA (that/those over there): far from both speaker and listener (that book over there)\n\nThey agree in gender (masculine/feminine) and number (singular/plural) with the noun they modify.\n\nNote: In formal writing, demonstratives above the noun should carry an accent mark (éste, ése, aquél) to avoid ambiguity, though the RAE now considers this optional and often unnecessary in practice.",
       "table": {
-        "headers": ["Distance", "Masculine", "Feminine", "Plural Masc.", "Plural Fem."],
+        "headers": [
+          "Distance",
+          "Masculine",
+          "Feminine",
+          "Plural Masc.",
+          "Plural Fem."
+        ],
         "rows": [
-          ["Near speaker (this)", "este", "esta", "estos", "estas"],
-          ["Near listener (that)", "ese", "esa", "esos", "esas"],
-          ["Far from both (that over there)", "aquel", "aquella", "aquellos", "aquellas"]
+          [
+            "Near speaker (this)",
+            "este",
+            "esta",
+            "estos",
+            "estas"
+          ],
+          [
+            "Near listener (that)",
+            "ese",
+            "esa",
+            "esos",
+            "esas"
+          ],
+          [
+            "Far from both (that over there)",
+            "aquel",
+            "aquella",
+            "aquellos",
+            "aquellas"
+          ]
         ]
       },
       "examples": [
@@ -80,13 +404,49 @@
       "title": "Possessive Adjectives — mi, tu, su, nuestro, vuestro",
       "content": "Possessive adjectives show ownership. They must agree in gender and number with the thing possessed (not the owner):\n\nShort forms (most common, placed before the noun):\n- mi/mis (my) — no gender agreement\n- tu/tus (your informal) — no gender agreement\n- su/sus (his/her/your formal/their) — no gender agreement\n- nuestro/nuestra/nuestros/nuestras (our) — agrees with the noun\n- vuestro/vuestra/vuestros/vuestras (your all, Spain) — agrees with the noun\n\nThe long forms exist too (placed AFTER the noun) and are used for emphasis or ambiguity:\nel mío/la mía (mine), el tuyo/la tuya (yours), el suyo/la suya (his/hers/yours/theirs), nuestro/a (ours), vuestro/a (yours all).\n\nNote: 'su/sus' is ambiguous — it can mean his, her, your (formal), or their. Use 'de él/de ella/de usted/de ellos' to clarify.",
       "table": {
-        "headers": ["Owner", "Short Form (m.)", "Short Form (f.)", "Long Form (m.)", "Long Form (f.)"],
+        "headers": [
+          "Owner",
+          "Short Form (m.)",
+          "Short Form (f.)",
+          "Long Form (m.)",
+          "Long Form (f.)"
+        ],
         "rows": [
-          ["mi (my)", "mi casa", "mis casas", "la casa mía", "las casas mías"],
-          ["tu (your, informal)", "tu libro", "tus libros", "el libro tuyo", "los libros tuyos"],
-          ["su (his/her/your formal/their)", "su coche", "sus coches", "el coche suyo", "los coches suyos"],
-          ["nuestro (our)", "nuestro hijo", "nuestra hija", "el hijo nuestro", "la hija nuestra"],
-          ["vuestro (your all, Spain)", "vuestro libro", "vuestra casa", "el libro vuestro", "la casa vuestra"]
+          [
+            "mi (my)",
+            "mi casa",
+            "mis casas",
+            "la casa mía",
+            "las casas mías"
+          ],
+          [
+            "tu (your, informal)",
+            "tu libro",
+            "tus libros",
+            "el libro tuyo",
+            "los libros tuyos"
+          ],
+          [
+            "su (his/her/your formal/their)",
+            "su coche",
+            "sus coches",
+            "el coche suyo",
+            "los coches suyos"
+          ],
+          [
+            "nuestro (our)",
+            "nuestro hijo",
+            "nuestra hija",
+            "el hijo nuestro",
+            "la hija nuestra"
+          ],
+          [
+            "vuestro (your all, Spain)",
+            "vuestro libro",
+            "vuestra casa",
+            "el libro vuestro",
+            "la casa vuestra"
+          ]
         ]
       },
       "examples": [
@@ -100,12 +460,54 @@
       "aid_note": "This is where Romanian is your friend: 'casa mea' (my house), 'casa ta' (your house), 'casa lui' (his house). Spanish mi casa is like Romanian casa mea but placed before the noun. The long form el libro tuyo is closer to the Romanian structure."
     }
   ],
-  "pronunciation": [],
+  "pronunciation": [
+    {
+      "title": "Stress Patterns in Demonstratives",
+      "content": "Demonstrative words are **llanas** with natural stress:\n\ndemonstrative stress patterns:\n- **é**ste, é**sa**, es**tós**, es**tás** — stress on first syllable\n- **á**quel, **á**quella, **á**quellos, **á**quellas — stress on first syllable\n\nUnlike English, Spanish vowels never change. The 'e' in 'este' is always 'eh', never 'ay' as in 'the'.\n\nTip: Spanish demonstratives end in -o/-a/-os/-as, always pronounced clearly. The final vowel is never silent.",
+      "examples": [
+        {
+          "target": "ésta",
+          "source": "ESS-tah (stress on first syllable)"
+        },
+        {
+          "target": "aquél",
+          "source": "ah-KAYL (accent mark = stress on 'a')"
+        },
+        {
+          "target": "nuestra",
+          "source": "NWEHS-tah (stress on 'nweh')"
+        }
+      ]
+    },
+    {
+      "title": "Possessive Pronouns — Clear Vowels",
+      "content": "Possessive forms in Spanish have consistent stress:\n\n- **mío**, **tuyo**, **suyo**, **nuestro**, **vuestro** — strong forms with accent marks\n- The accent marks are critical: they show the stressed syllable\n- All vowels are clear — no diphthong compression like in English\n\nExamples:\n- mío = MEE-oh (stress on 'mí')\n- tuyo = TOO-yoh (stress on 'tu')\n- suyo = SOO-yoh (stress on 'su')",
+      "examples": [
+        {
+          "target": "mía",
+          "source": "MEE-ah (feminine 'mine' — stress on 'mí')"
+        },
+        {
+          "target": "vuestro",
+          "source": "BWEHS-troh (your plural Spain — stress on 'BWEHS')"
+        },
+        {
+          "target": "suya",
+          "source": "SOO-yah (his/hers — stress on 'su')"
+        }
+      ]
+    }
+  ],
   "exercises": [
     {
       "type": "exercise",
       "question": "Which demonstrative means 'this' (near the speaker)?",
-      "options": ["ese", "aquel", "este", "aquel"],
+      "options": [
+        "ese",
+        "aquel",
+        "este",
+        "aquel"
+      ],
       "correct": 2,
       "explanation": "'Este' means 'this' — it refers to something near the speaker."
     },
@@ -124,7 +526,12 @@
     {
       "type": "exercise",
       "question": "What is the feminine plural of 'ese'?",
-      "options": ["esas", "esos", "aquellas", "estas"],
+      "options": [
+        "esas",
+        "esos",
+        "aquellas",
+        "estas"
+      ],
       "correct": 0,
       "explanation": "'Esas' is the feminine plural of 'ese'. That (those) near you, feminine."
     },
@@ -143,7 +550,12 @@
     {
       "type": "exercise",
       "question": "Which possessive form agrees in gender with the noun?",
-      "options": ["mi", "tu", "su", "nuestro"],
+      "options": [
+        "mi",
+        "tu",
+        "su",
+        "nuestro"
+      ],
       "correct": 3,
       "explanation": "'Nuestro' changes to nuestra/nuestros/nuestras to match the noun's gender and number. Mi, tu, and su don't change."
     },

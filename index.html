@@ -376,6 +376,7 @@
             <a role="tab" :class="isPillarActive('vocabulary') ? 'tab-active' : ''" @click="setPillar('vocabulary')" class="tab">🗣️ Vocabulary</a>
             <a role="tab" :class="isPillarActive('grammar') ? 'tab-active' : ''" @click="setPillar('grammar')" class="tab">📖 Grammar</a>
             <a role="tab" :class="isPillarActive('verbs') ? 'tab-active' : ''" @click="setPillar('verbs')" class="tab">📝 Exercises</a>
+            <a role="tab" :class="isPillarActive('pronunciation') ? 'tab-active' : ''" @click="setPillar('pronunciation')" class="tab">🔊 Pronunciation</a>
           </div>
 
           <!-- Theme Pillar Content -->
@@ -420,6 +421,12 @@
               <div x-show="currentPillar === 'verbs'" class="pillar-content">
                 <h3 class="text-xl font-bold mb-4">Exercises</h3>
                 <div x-html="pillarContent.verbs"></div>
+              </div>
+
+              <!-- Pronunciation Pillar -->
+              <div x-show="currentPillar === 'pronunciation'" class="pillar-content">
+                <h3 class="text-xl font-bold mb-4">Pronunciation</h3>
+                <div x-html="pillarContent.pronunciation"></div>
               </div>
             </div>
           </div>
@@ -908,7 +915,7 @@
   </div>
 
   <script src="js/storage.js?v=27"></script>
-  <script src="js/app.js?v=53"></script>
+  <script src="js/app.js?v=54"></script>
   <script>
     // Service Worker: Disabled during development to prevent stale caching issues.
     // To enable for production (GitHub Pages), uncomment the block below.

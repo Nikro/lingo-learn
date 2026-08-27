@@ -406,7 +406,44 @@
       "aid_note": "Romanian uses a similar 'optative' mood for wishes: 'Să ai o zi bună!' = '¡Que tengas un buen día!' The 'să' particle marks the subjunctive optative. This makes the Spanish subjunctive much more natural for Romanian speakers than for English speakers."
     }
   ],
-  "pronunciation": [],
+  "pronunciation": [
+    {
+      "title": "Present Subjunctive — Stress and Endings",
+      "content": "Present subjunctive verbs have distinctive stress patterns:\n\n-AR verbs: -e, -es, -e, -emos, -éis, -en\n-ER verbs: -a, -as, -a, -amos, -áis, -an\n-IR verbs: -a, -as, -a, -amos, -áis, -an\n\nStress patterns:\n- **hable** = AH-beh (stress on first syllable)\n- **hables** = AH-behs (stress on first syllable)\n- **hablemos** = ah-BLEH-mohs (stress on second syllable)\n- **habléis** = ah-BLAYS (stress on second syllable — accent mark!)\n- **hable** = AH-beh (stress on first)\n- **hablen** = AH-behn (stress on first)\n\nThe accent marks on '-éis' and '-áis' are critical — they mark the stressed syllable.\n\n'Ojalá' = oh-HAH-lah (stress on second syllable, the accent mark guides this).",
+      "examples": [
+        {
+          "target": "ojalá",
+          "source": "oh-HAH-lah (I hope! — stress on second syllable)"
+        },
+        {
+          "target": "hablemos",
+          "source": "ah-BLEH-mohs (let's speak — stress on 'leh')"
+        },
+        {
+          "target": "estéis",
+          "source": "es-TAYS (you all are [subj.] — accent on 'tays')"
+        }
+      ]
+    },
+    {
+      "title": "Key Subjunctive Triggers — Pronunciation",
+      "content": "Common subjunctive trigger phrases:\n\n1. **Es importante que** = es im-por-TAHN-teh keh\n   - 'te' at the end is a separate syllable, not blended\n2. **Quiero que** = KYEH-roh keh\n   - 'ue' in 'quiero' is a diphthong, one syllable\n3. **Es necesario que** = es neh-SES-ah-ree-oh keh\n   - Stress falls on 'SES' in 'necesario'\n4. **Es posible que** = es po-SEE-leh keh\n   - Stress on 'SEE' in 'posible'\n5. **Es urgente que** = es oor-GEHn-teh keh\n   - Stress on 'geh' in 'urgente'\n6. **Es mejor que** = es me-HOR keh\n   - Stress on 'hor' in 'mejor'\n\nThe 'que' is always pronounced 'keh' with a hard 'k' sound.",
+      "examples": [
+        {
+          "target": "es importante que",
+          "source": "es im-por-TAHN-teh keh (it's important that)"
+        },
+        {
+          "target": "ojalá llueva",
+          "source": "oh-HAH-lah YOO-beh (I hope it rains)"
+        },
+        {
+          "target": "deseo que",
+          "source": "deh-SEH-oh keh (I wish/desire that)"
+        }
+      ]
+    }
+  ],
   "exercises": [
     {
       "type": "exercise",

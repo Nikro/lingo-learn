@@ -1092,7 +1092,7 @@ function app() {
           this.pillarContent.verbs = this.renderThemeExercises();
           break;
         case 'pronunciation':
-          this.pillarContent.pronunciation = this.renderThemeExercises();
+          this.pillarContent.pronunciation = this.renderThemePronunciation();
           break;
       }
     },
@@ -1226,10 +1226,48 @@ function app() {
       html += '</div>';
       return html;
     },
-    
+
+    // Render theme pronunciation content
+    renderThemePronunciation: function() {
+      if (!this.themeData.pronunciation || this.themeData.pronunciation.length === 0) {
+        return '<div class="alert alert-neutral"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" class="stroke-current shrink-0 w-6 h-6"><path stroke-linecap="round" stroke-linejoin="round" width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg><div><h3 class="font-bold">No pronunciation content yet</h3><p class="text-sm">Pronunciation guides are coming soon \u2014 check back later!</p></div></div>';
+      }
+
+      var html = '<div class="space-y-4">';
+      var self = this;
+      this.themeData.pronunciation.forEach(function(item, i) {
+        html += '<div class="bg-base-200 rounded-lg p-5 border border-base-300">';
+        html += '<div class="flex items-center gap-2 mb-3">';
+        html += '<span class="badge badge-secondary badge-sm">🔊 ' + (i + 1) + '</span>';
+        html += '<h4 class="font-bold text-lg">' + (item.title || 'Pronunciation') + '</h4>';
+        html += '</div>';
+        if (item.content) html += '<div class="prose prose-sm max-w-none mb-3"><p class="whitespace-pre-wrap">' + item.content + '</p></div>';
+        if (item.examples && item.examples.length > 0) {
+          html += '<div class="bg-base-100 rounded-lg p-3 mt-3">';
+          html += '<h5 class="text-sm font-semibold opacity-70 mb-2 uppercase tracking-wide">Practice</h5>';
+          html += '<div class="grid grid-cols-1 md:grid-cols-2 gap-2">';
+          item.examples.forEach(function(e) {
+            var target = e.target || e;
+            var source = e.source || '';
+            if (typeof target === 'string' && typeof source === 'string') {
+              html += '<div class="bg-base-200 rounded p-2">';
+              html += '<div class="font-bold">' + self.escapeHtml(target) + '</div>';
+              html += '<div class="text-sm opacity-70">' + self.escapeHtml(source) + '</div>';
+              html += '</div>';
+            } else {
+              html += '<div class="bg-base-200 rounded p-2 text-sm">' + self.escapeHtml(target) + '</div>';
+            }
+          });
+          html += '</div></div>';
+        }
+        html += '</div>';
+      });
+      html += '</div>';
+      return html;
+    },
 
 
-    // ═══════════════════════════════════════════
+    // ═══════════════════════=════════════════════
     // ─── Rendering ───
     // ═══════════════════════════════════════════
     

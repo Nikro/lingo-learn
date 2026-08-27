@@ -403,7 +403,44 @@
       "note": "The verb 'doler' follows the same pattern as 'gustar': the thing that hurts is the subject, and the person feeling it is the indirect object."
     }
   ],
-  "pronunciation": [],
+  "pronunciation": [
+    {
+      "title": "Weather Vocabulary — Key Patterns",
+      "content": "Weather words follow predictable pronunciation:\n\n1. **hace** = AH-keh (silent 'h', hard 'c' before 'a')\n2. **sol** = sohl (one syllable, final 'l')\n3. **llueve** = YOO-beh ('ll' = 'y', 'v' = soft 'b')\n4. **nieva** = NEE-bah ('v' = soft 'b', like 'b')\n5. **frío** = FREE-oh (accent mark = stress on 'free')\n6. **calor** = kah-LOOR (stress on second syllable)\n7. **lluvia** = YOO-bee-ah ('ll' = 'y', 'v' = soft 'b')\n\nNote: The 'v' in Spanish is NOT like English 'v' — it's a soft bilabial, identical to 'b'. So 'nieva' sounds like 'NIE-bah'.",
+      "examples": [
+        {
+          "target": "llueve",
+          "source": "YOO-beh (it rains — 'll' = 'y', 'v' = soft 'b')"
+        },
+        {
+          "target": "nieve",
+          "source": "NEE-bah (snow — 'v' = soft 'b', not 'v')"
+        },
+        {
+          "target": "temperatura",
+          "source": "tem-peh-rah-TOH-rah (temperature — stress on 'tohh')"
+        }
+      ]
+    },
+    {
+      "title": "Body Parts and Pain Expressions",
+      "content": "Medical vocabulary has several key sounds:\n\n1. **dolor** = DOH-loh (pain — stress on first syllable)\n2. **cabeza** = ah-BEH-sah (head — stress on 'beh')\n3. **garganta** = gar-GAHN-tah (throat — stress on 'gan')\n4. **estómago** = es-TOH-mah-go (stomach — accent on 'o')\n5. **espalda** = es-PAHL-dah (back — stress on 'pahl')\n6. **rodilla** = ro-DEE-yah (knee — 'll' = 'y')\n7. **diente** = DYEN-teh (tooth — 'ie' = diphthong)\n\nThe 'g' before 'e' or 'i' is a guttural 'h' sound:\n- garganta = gar-GAHN-tah (g before 'a' = hard 'g')\n- diente = DYEN-teh (soft 'g' before 'i' = 'y' sound)",
+      "examples": [
+        {
+          "target": "dolor de cabeza",
+          "source": "DOH-loh deh ah-BEH-sah (headache)"
+        },
+        {
+          "target": "estómago",
+          "source": "es-TOH-mah-go (stomach — accent on 'tohh')"
+        },
+        {
+          "target": "rodilla",
+          "source": "ro-DEE-yah (knee — 'll' = 'y')"
+        }
+      ]
+    }
+  ],
   "exercises": [
     {
       "type": "matching",

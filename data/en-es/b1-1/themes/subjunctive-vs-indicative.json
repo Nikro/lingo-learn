@@ -429,7 +429,26 @@
       "aid_note": "This pattern mirrors Romanian exactly: 'crede că (+indicativ)' vs 'nu cred că (+conjunctiv)'. Use this parallel to your advantage! Romanian speakers already have the conceptual framework — they just need to learn the Spanish trigger verbs."
     }
   ],
-  "pronunciation": [],
+  "pronunciation": [
+    {
+      "title": "Subjunctive vs Indicative — Stress Contrast",
+      "content": "The same verb in subjunctive vs indicative shows stress shifts:\n\n1. **creo que viene** (indic) = KREH-oh keh VYEH-neh vs **no creo que venga** (subj)\n   - viene = VYEH-neh (indicative, stress on 'yeh')\n   - venga = VEN-gah (subjunctive, stress on 'ven')\n2. **sé que es** (indic) = seh keh ES vs **no sé que sea** (subj)\n   - es = ES (indicative, one syllable)\n   - sea = SEH-ah (subjunctive, two syllables, stress on 'seh')\n3. **espero que viene** (wrong — should be subj) vs **espero que venga**\n   - After 'espero que', the subjunctive is required: 'venga'\n\n4. **dudo que** = DOO-doh keh (I doubt that — the 'u' in 'dudo' = 'oo')\n5. **temo que** = TEH-moh keh (I fear that)\n6. **quiero que** = KYEH-roh keh (I want that)\n\nKey: The subjunctive often shifts stress because vowel changes create different syllable counts.",
+      "examples": [
+        {
+          "target": "no creo que",
+          "source": "noh KREH-oh keh (I don't believe that — 'qu' = 'k')"
+        },
+        {
+          "target": "es posible que",
+          "source": "es po-SEE-leh keh (it's possible that — stress on 'see')"
+        },
+        {
+          "target": "dudo que",
+          "source": "DOO-doh keh (I doubt that — stress on 'doo')"
+        }
+      ]
+    }
+  ],
   "exercises": [
     {
       "type": "exercise",

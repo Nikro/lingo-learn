@@ -417,7 +417,26 @@
       "aid_note": "Romanian has equivalent idioms for most of these: 'a pune cărțile pe masă' = poner las cartas sobre la mesa (identical!), 'a ieși cu a ta' = salirse con la suya, 'a face ochiul orb' = hacer la vista gorda. The Romanian 'a da cu părerea' is similar to 'poner las cartas sobre la mesa' in informal contexts."
     }
   ],
-  "pronunciation": [],
+  "pronunciation": [
+    {
+      "title": "Idioms — Fixed Expressions and Stress",
+      "content": "Idiomatic expressions have fixed stress patterns:\n\n1. **poner las cartas sobre la mesa** = poh-NEHR lahs KAR-tahs SOH-breh lah MEH-sah\n   - The stress is on 'NEHR' in 'poner', 'KAR' in 'cartas', 'SOH' in 'sobre', 'MEH' in 'mesa'\n2. **echar de menos** = eh-CHAR deh MEH-nohs (to miss someone)\n   - 'echar' = eh-CHAR (stress on 'char')\n   - 'menos' = MEH-nohs (stress on 'meh')\n3. **salirse con la suya** = sah-LEE-reh kon lah SOO-yah (to get one's way)\n   - 'suya' = SOO-yah (stress on 'su')\n4. **costar un ojo de la cara** = kos-TAR oon OH-hoh deh lah KAH-rah\n   - 'costar' = kos-TAR (stress on 'tar')\n5. **por si fuera poco** = por see FWEH-rah POH-koh\n   - 'poco' = POH-koh (stress on 'poh')\n\nKey: Idioms preserve the stress pattern of each individual word — they don't change when used in a phrase.",
+      "examples": [
+        {
+          "target": "echar de menos",
+          "source": "eh-CHAR deh MEH-nohs (to miss someone)"
+        },
+        {
+          "target": "costar un ojo de la cara",
+          "source": "kos-TAR oon OH-hoh deh lah KAH-rah (cost an eye of the face = very expensive)"
+        },
+        {
+          "target": "por si fuera poco",
+          "source": "por see FWEH-rah POH-koh (to make matters worse)"
+        }
+      ]
+    }
+  ],
   "exercises": [
     {
       "type": "exercise",

@@ -443,7 +443,26 @@
       "aid_note": "Romanian also uses verb+preposition combinations, but the pairings are often different. For example, Romanian 'a gândi LA' (think at) vs Spanish 'pensar EN'. There's no reliable cross-language mapping — each verb+preposition pair must be memorized individually. However, Romanian speakers should note that Spanish prepositions (en, con, a, de) are the same words used in Romanian."
     }
   ],
-  "pronunciation": [],
+  "pronunciation": [
+    {
+      "title": "Preposition + Infinitive — Elision and Stress",
+      "content": "Verb + preposition + infinitive creates flowing phrases with elision:\n\n1. **pensar en** = PEN-sar en (to think about)\n   - 'en' is a separate word, unstressed: 'PEN-sar en'\n2. **salir con** = sah-LEER kon (to go out with)\n   - 'con' is unstressed: 'sah-LEER kon'\n3. **soñar con** = so-NYAR kon (to dream about)\n   - 'ñar' = NYAH (the 'ñ' = 'ny')\n4. **depende de** = de-PEN-deh deh (depends on)\n   - 'de' before consonant = 'deh', before vowel = 'deh' (never elided in Spanish)\n5. **acabar de** = ah-kah-BAR deh (to have just — 'bar' has rolled r)\n6. **empezar a** = em-peh-SAR ah (to start to)\n\nKey: Spanish prepositions (en, con, de, a, por) are always pronounced fully — no reduction like English 'to' → 'tuh'.",
+      "examples": [
+        {
+          "target": "soñar con",
+          "source": "so-NYAR kon (to dream about — 'ñ' = 'ny')"
+        },
+        {
+          "target": "acabar de",
+          "source": "ah-kah-BAR deh (to have just — rolled 'r')"
+        },
+        {
+          "target": "depende de",
+          "source": "de-PEN-deh deh (depends on — stress on 'pen')"
+        }
+      ]
+    }
+  ],
   "exercises": [
     {
       "type": "exercise",

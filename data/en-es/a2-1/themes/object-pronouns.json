@@ -3,71 +3,411 @@
   "title": "Object Pronouns",
   "description": "Learn direct and indirect object pronouns (me, te, lo, la, le, nos, los, las, les).",
   "vocabulary": [
-    { "id": 1, "target": "me", "source": "me / to me", "gender": "—", "type": "pronoun" },
-    { "id": 2, "target": "te", "source": "you / to you (informal)", "gender": "—", "type": "pronoun" },
-    { "id": 3, "target": "lo", "source": "him / it (masc.)", "gender": "m.", "type": "pronoun" },
-    { "id": 4, "target": "la", "source": "her / it (fem.)", "gender": "f.", "type": "pronoun" },
-    { "id": 5, "target": "nos", "source": "us / to us", "gender": "—", "type": "pronoun" },
-    { "id": 6, "target": "los", "source": "them (masc.)", "gender": "m.", "type": "pronoun" },
-    { "id": 7, "target": "las", "source": "them (fem.)", "gender": "f.", "type": "pronoun" },
-    { "id": 8, "target": "le", "source": "to him / to her / to you (formal)", "gender": "—", "type": "pronoun" },
-    { "id": 9, "target": "les", "source": "to them / to you (formal plural)", "gender": "—", "type": "pronoun" },
-    { "id": 10, "target": "os", "source": "you all (Spain)", "gender": "—", "type": "pronoun" },
-    { "id": 11, "target": "Juan", "source": "Juan (name)", "gender": "m.", "type": "name" },
-    { "id": 12, "target": "María", "source": "María (name)", "gender": "f.", "type": "name" },
-    { "id": 13, "target": "mi madre", "source": "my mother", "gender": "f.", "type": "phrase" },
-    { "id": 14, "target": "tu hermano", "source": "your brother", "gender": "m.", "type": "phrase" },
-    { "id": 15, "target": "el libro", "source": "the book", "gender": "m.", "type": "noun" },
-    { "id": 16, "target": "la película", "source": "the movie", "gender": "f.", "type": "noun" },
-    { "id": 17, "target": "un regalo", "source": "a gift", "gender": "m.", "type": "noun" },
-    { "id": 18, "target": "el correo", "source": "the email / mail", "gender": "m.", "type": "noun" },
-    { "id": 19, "target": "cada día", "source": "every day", "gender": "—", "type": "phrase" },
-    { "id": 20, "target": "la tarea", "source": "the homework", "gender": "f.", "type": "noun" },
-    { "id": 21, "target": "el amigo", "source": "the friend (male)", "gender": "m.", "type": "noun" },
-    { "id": 22, "target": "la amiga", "source": "the friend (female)", "gender": "f.", "type": "noun" },
-    { "id": 23, "target": "ver", "source": "to see", "gender": "v.", "type": "verb" },
-    { "id": 24, "target": "llamar", "source": "to call", "gender": "v.", "type": "verb" },
-    { "id": 25, "target": "dar", "source": "to give", "gender": "v.", "type": "verb" },
-    { "id": 26, "target": "ayudar", "source": "to help", "gender": "v.", "type": "verb" },
-    { "id": 27, "target": "necesitar", "source": "to need", "gender": "v.", "type": "verb" },
-    { "id": 28, "target": "entender", "source": "to understand", "gender": "v.", "type": "verb" },
-    { "id": 29, "target": "conocer", "source": "to know (a person)", "gender": "v.", "type": "verb" },
-    { "id": 30, "target": "enseñar", "source": "to teach / to show", "gender": "v.", "type": "verb" },
-    { "id": 31, "target": "decir", "source": "to say / to tell", "gender": "v.", "type": "verb" },
-    { "id": 32, "target": "escribir", "source": "to write", "gender": "v.", "type": "verb" },
-    { "id": 33, "target": "pedir", "source": "to ask for / to order", "gender": "v.", "type": "verb" },
-    { "id": 34, "target": "llevar", "source": "to carry / to take (with)", "gender": "v.", "type": "verb" },
-    { "id": 35, "target": "encontrar", "source": "to find", "gender": "v.", "type": "verb" },
-    { "id": 36, "target": "traer", "source": "to bring", "gender": "v.", "type": "verb" },
-    { "id": 37, "target": "poner", "source": "to put", "gender": "v.", "type": "verb" },
-    { "id": 38, "target": "quitar", "source": "to take away / to remove", "gender": "v.", "type": "verb" },
-    { "id": 39, "target": "abrir", "source": "to open", "gender": "v.", "type": "verb" },
-    { "id": 40, "target": "cerrar", "source": "to close", "gender": "v.", "type": "verb" },
-    { "id": 41, "target": "comprar", "source": "to buy", "gender": "v.", "type": "verb" },
-    { "id": 42, "target": "vender", "source": "to sell", "gender": "v.", "type": "verb" },
-    { "id": 43, "target": "regalar", "source": "to give (as a gift)", "gender": "v.", "type": "verb" },
-    { "id": 44, "target": "prestar", "source": "to lend", "gender": "v.", "type": "verb" },
-    { "id": 45, "target": "recomendar", "source": "to recommend", "gender": "v.", "type": "verb" },
-    { "id": 46, "target": "pedirle", "source": "to ask him / her / you", "gender": "v.", "type": "verb" },
-    { "id": 47, "target": "escribirle", "source": "to write to him / her / you", "gender": "v.", "type": "verb" },
-    { "id": 48, "target": "llevarlo", "source": "to take it", "gender": "v.", "type": "verb" },
-    { "id": 49, "target": "encontrarla", "source": "to find her / it (f.)", "gender": "v.", "type": "verb" },
-    { "id": 50, "target": "ponerlo", "source": "to put it", "gender": "v.", "type": "verb" }
+    {
+      "id": 1,
+      "target": "me",
+      "source": "me / to me",
+      "gender": "—",
+      "type": "pronoun"
+    },
+    {
+      "id": 2,
+      "target": "te",
+      "source": "you / to you (informal)",
+      "gender": "—",
+      "type": "pronoun"
+    },
+    {
+      "id": 3,
+      "target": "lo",
+      "source": "him / it (masc.)",
+      "gender": "m.",
+      "type": "pronoun"
+    },
+    {
+      "id": 4,
+      "target": "la",
+      "source": "her / it (fem.)",
+      "gender": "f.",
+      "type": "pronoun"
+    },
+    {
+      "id": 5,
+      "target": "nos",
+      "source": "us / to us",
+      "gender": "—",
+      "type": "pronoun"
+    },
+    {
+      "id": 6,
+      "target": "los",
+      "source": "them (masc.)",
+      "gender": "m.",
+      "type": "pronoun"
+    },
+    {
+      "id": 7,
+      "target": "las",
+      "source": "them (fem.)",
+      "gender": "f.",
+      "type": "pronoun"
+    },
+    {
+      "id": 8,
+      "target": "le",
+      "source": "to him / to her / to you (formal)",
+      "gender": "—",
+      "type": "pronoun"
+    },
+    {
+      "id": 9,
+      "target": "les",
+      "source": "to them / to you (formal plural)",
+      "gender": "—",
+      "type": "pronoun"
+    },
+    {
+      "id": 10,
+      "target": "os",
+      "source": "you all (Spain)",
+      "gender": "—",
+      "type": "pronoun"
+    },
+    {
+      "id": 11,
+      "target": "Juan",
+      "source": "Juan (name)",
+      "gender": "m.",
+      "type": "name"
+    },
+    {
+      "id": 12,
+      "target": "María",
+      "source": "María (name)",
+      "gender": "f.",
+      "type": "name"
+    },
+    {
+      "id": 13,
+      "target": "mi madre",
+      "source": "my mother",
+      "gender": "f.",
+      "type": "phrase"
+    },
+    {
+      "id": 14,
+      "target": "tu hermano",
+      "source": "your brother",
+      "gender": "m.",
+      "type": "phrase"
+    },
+    {
+      "id": 15,
+      "target": "el libro",
+      "source": "the book",
+      "gender": "m.",
+      "type": "noun"
+    },
+    {
+      "id": 16,
+      "target": "la película",
+      "source": "the movie",
+      "gender": "f.",
+      "type": "noun"
+    },
+    {
+      "id": 17,
+      "target": "un regalo",
+      "source": "a gift",
+      "gender": "m.",
+      "type": "noun"
+    },
+    {
+      "id": 18,
+      "target": "el correo",
+      "source": "the email / mail",
+      "gender": "m.",
+      "type": "noun"
+    },
+    {
+      "id": 19,
+      "target": "cada día",
+      "source": "every day",
+      "gender": "—",
+      "type": "phrase"
+    },
+    {
+      "id": 20,
+      "target": "la tarea",
+      "source": "the homework",
+      "gender": "f.",
+      "type": "noun"
+    },
+    {
+      "id": 21,
+      "target": "el amigo",
+      "source": "the friend (male)",
+      "gender": "m.",
+      "type": "noun"
+    },
+    {
+      "id": 22,
+      "target": "la amiga",
+      "source": "the friend (female)",
+      "gender": "f.",
+      "type": "noun"
+    },
+    {
+      "id": 23,
+      "target": "ver",
+      "source": "to see",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 24,
+      "target": "llamar",
+      "source": "to call",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 25,
+      "target": "dar",
+      "source": "to give",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 26,
+      "target": "ayudar",
+      "source": "to help",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 27,
+      "target": "necesitar",
+      "source": "to need",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 28,
+      "target": "entender",
+      "source": "to understand",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 29,
+      "target": "conocer",
+      "source": "to know (a person)",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 30,
+      "target": "enseñar",
+      "source": "to teach / to show",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 31,
+      "target": "decir",
+      "source": "to say / to tell",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 32,
+      "target": "escribir",
+      "source": "to write",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 33,
+      "target": "pedir",
+      "source": "to ask for / to order",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 34,
+      "target": "llevar",
+      "source": "to carry / to take (with)",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 35,
+      "target": "encontrar",
+      "source": "to find",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 36,
+      "target": "traer",
+      "source": "to bring",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 37,
+      "target": "poner",
+      "source": "to put",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 38,
+      "target": "quitar",
+      "source": "to take away / to remove",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 39,
+      "target": "abrir",
+      "source": "to open",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 40,
+      "target": "cerrar",
+      "source": "to close",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 41,
+      "target": "comprar",
+      "source": "to buy",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 42,
+      "target": "vender",
+      "source": "to sell",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 43,
+      "target": "regalar",
+      "source": "to give (as a gift)",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 44,
+      "target": "prestar",
+      "source": "to lend",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 45,
+      "target": "recomendar",
+      "source": "to recommend",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 46,
+      "target": "pedirle",
+      "source": "to ask him / her / you",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 47,
+      "target": "escribirle",
+      "source": "to write to him / her / you",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 48,
+      "target": "llevarlo",
+      "source": "to take it",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 49,
+      "target": "encontrarla",
+      "source": "to find her / it (f.)",
+      "gender": "v.",
+      "type": "verb"
+    },
+    {
+      "id": 50,
+      "target": "ponerlo",
+      "source": "to put it",
+      "gender": "v.",
+      "type": "verb"
+    }
   ],
   "grammar": [
     {
       "title": "Direct and Indirect Object Pronouns",
       "content": "Object pronouns replace nouns to avoid repetition. There are two types.\n\nDirect Object Pronouns (replaces the DIRECT object — the person/thing directly affected by the verb):\n- me (me)\n- te (you, informal)\n- lo/la (him/her/it — masculine/feminine)\n- nos (us)\n- los/las (them — masculine/feminine)\n\nIndirect Object Pronouns (replaces the INDIRECT object — the person FOR WHOM the action is done):\n- me (to/for me)\n- te (to/for you, informal)\n- le (to/for him/her/you formal)\n- nos (to/for us)\n- les (to/for them/you formal plural)\n- os (to/for you plural, Spain informal)\n\nPronoun placement: BEFORE the conjugated verb, or attached to the END of an infinitive/gerund.\n\nExample: 'Veo la película' → 'La veo.' (I see the movie → I see it.)\n'Le doy el libro a María' → 'Le doy el libro.' (I give the book to María → I give her the book.)",
       "table": {
-        "headers": ["Pronoun", "Type", "English", "Example"],
+        "headers": [
+          "Pronoun",
+          "Type",
+          "English",
+          "Example"
+        ],
         "rows": [
-          ["me", "Direct & Indirect", "me / to me", "Me veo. / Me da el libro."],
-          ["te", "Direct & Indirect", "you / to you", "Te veo. / Te da el libro."],
-          ["lo/la", "Direct", "him/her/it", "Lo veo. / La veo."],
-          ["nos", "Direct & Indirect", "us / to us", "Nos vemos. / Nos da el libro."],
-          ["los/las", "Direct", "them (m/f)", "Los veo. / Las veo."],
-          ["le/les", "Indirect", "to him/her/them", "Le doy el libro."],
-          ["os", "Direct & Indirect", "you all (Spain)", "Os veo. / Os da el libro."]
+          [
+            "me",
+            "Direct & Indirect",
+            "me / to me",
+            "Me veo. / Me da el libro."
+          ],
+          [
+            "te",
+            "Direct & Indirect",
+            "you / to you",
+            "Te veo. / Te da el libro."
+          ],
+          [
+            "lo/la",
+            "Direct",
+            "him/her/it",
+            "Lo veo. / La veo."
+          ],
+          [
+            "nos",
+            "Direct & Indirect",
+            "us / to us",
+            "Nos vemos. / Nos da el libro."
+          ],
+          [
+            "los/las",
+            "Direct",
+            "them (m/f)",
+            "Los veo. / Las veo."
+          ],
+          [
+            "le/les",
+            "Indirect",
+            "to him/her/them",
+            "Le doy el libro."
+          ],
+          [
+            "os",
+            "Direct & Indirect",
+            "you all (Spain)",
+            "Os veo. / Os da el libro."
+          ]
         ]
       },
       "examples": [
@@ -79,12 +419,36 @@
       "aid_note": "Romanian has a similar system: 'mă/te/îl/îi/ne/vă/îi' for object pronouns. The Spanish lo/la distinction (masculine/feminine) is similar to Romanian îl/îi. Romanian speakers should find object pronouns much easier than English speakers."
     }
   ],
-  "pronunciation": [],
+  "pronunciation": [
+    {
+      "title": "Object Pronouns — Position and Stress",
+      "content": "Spanish object pronouns are unstressed syllables that attach to verbs:\n\nStandalone pronouns (always unstressed):\n- **me** = meh (me)\n- **te** = teh (you informal)\n- **lo/la** = loh/lah (him/her/it)\n- **nos** = nohs (us)\n- **los/las** = lohss/lahs (them)\n- **le/les** = leh/lehs (him/her formal)\n- **os** = ohs (you all — Spain)\n\nAttached to verbs (enclitic = after, proclitic = before):\n- **dámelo** = DAH-meh-loh (give it to me — accent when attached!)\n- **llámalo** = YAH-mah-loh (call him)\n- **envíamelo** = en-BEE-ah-meh-loh (send it to me)\n\nWhen an extra syllable is added (dár + lo = darlo), an accent mark is added to maintain original stress: dármelo, llamalo → llámalo.\n\nKey: The 'll' in 'llamar' = 'y' sound: YAH-mah.",
+      "examples": [
+        {
+          "target": "dámelo",
+          "source": "DAH-meh-loh (give it to me — accent on 'da')"
+        },
+        {
+          "target": "llámalo",
+          "source": "YAH-mah-loh (call him — 'll' = 'y')"
+        },
+        {
+          "target": "veo",
+          "source": "BEH-oh (I see — 'v' = soft 'b', not English 'v')"
+        }
+      ]
+    }
+  ],
   "exercises": [
     {
       "type": "exercise",
       "question": "What does the direct object pronoun 'lo' replace?",
-      "options": ["A feminine singular noun", "A masculine singular noun", "An indirect object", "A plural noun"],
+      "options": [
+        "A feminine singular noun",
+        "A masculine singular noun",
+        "An indirect object",
+        "A plural noun"
+      ],
       "correct": 1,
       "explanation": "'Lo' replaces a masculine singular direct object: 'Veo el libro → Lo veo.'"
     },
@@ -97,7 +461,12 @@
     {
       "type": "exercise",
       "question": "Which pronoun is an INDIRECT object pronoun?",
-      "options": ["lo", "la", "le", "los"],
+      "options": [
+        "lo",
+        "la",
+        "le",
+        "los"
+      ],
       "correct": 2,
       "explanation": "'Le' is an indirect object pronoun (to him/her/you formal). Lo/la/los are direct."
     },
@@ -116,7 +485,12 @@
     {
       "type": "exercise",
       "question": "Where does the object pronoun go with a conjugated verb?",
-      "options": ["After the verb", "Before the conjugated verb", "At the end of the sentence", "It's optional"],
+      "options": [
+        "After the verb",
+        "Before the conjugated verb",
+        "At the end of the sentence",
+        "It's optional"
+      ],
       "correct": 1,
       "explanation": "Object pronouns go BEFORE the conjugated verb: 'Lo veo', 'La llamo', 'Me da el libro.'"
     },

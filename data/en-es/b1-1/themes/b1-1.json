@@ -1,12 +1,12 @@
 {
   "stage_id": "b1-1",
-  "title": "B1.1 \u2014 Advanced Subjunctive, Passives, & Complex Narratives",
+  "title": "B1.1 — Advanced Subjunctive, Passives, & Complex Narratives",
   "description": "Master the imperfect subjunctive, passive constructions, relative pronouns, and advanced connectors. Transition from basic narratives to complex, nuanced Spanish.",
   "themes": [
     {
       "id": "abstract-thinking-opinions",
       "title": "Abstract Thinking & Opinions",
-      "description": "Express opinions, hypotheses, and thoughts on abstract concepts. Discuss ideas beyond the concrete and immediate, using the subjunctive to express doubt, possibility, and subjectivity. Master connectors for argumentation and vocabulary for abstract thinking \u2014 a hallmark of B1 competence.",
+      "description": "Express opinions, hypotheses, and thoughts on abstract concepts. Discuss ideas beyond the concrete and immediate, using the subjunctive to express doubt, possibility, and subjectivity. Master connectors for argumentation and vocabulary for abstract thinking — a hallmark of B1 competence.",
       "estimated_hours": 4,
       "sections": [
         "Vocabulary",
@@ -41,7 +41,7 @@
     },
     {
       "id": "imperfect-subjunctive",
-      "title": "Imperfect Subjunctive (Pret\u00e9rito Imperfecto de Subjuntivo)",
+      "title": "Imperfect Subjunctive (Pretérito Imperfecto de Subjuntivo)",
       "description": "Express hypothetical actions, wishes, or conditions in the past using the imperfect subjunctive (-ra/-se forms).",
       "estimated_hours": 2,
       "sections": [
@@ -102,7 +102,7 @@
     {
       "id": "se-passive",
       "title": "Se Passive (Pasiva Refleja)",
-      "description": "The most common way to express passive ideas in everyday Spanish \u2014 use 'se' + verb + subject.",
+      "description": "The most common way to express passive ideas in everyday Spanish — use 'se' + verb + subject.",
       "estimated_hours": 2,
       "sections": [
         "Vocabulary",
@@ -119,7 +119,8 @@
       "sections": [
         "Vocabulary",
         "Grammar",
-        "Exercises"
+        "Exercises",
+        "Pronunciation"
       ]
     }
   ]

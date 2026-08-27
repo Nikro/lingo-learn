@@ -1,6 +1,6 @@
 {
   "stage_id": "a1-2",
-  "title": "A1.2 \u2014 Past Tenses, Present Perfect, & Daily Life",
+  "title": "A1.2 — Past Tenses, Present Perfect, & Daily Life",
   "description": "Talk about your past experiences, daily routines, and handle everyday situations like shopping, dining, and describing the weather.",
   "themes": [
     {
@@ -18,12 +18,13 @@
     {
       "id": "demonstratives-possessives",
       "title": "Demonstratives and Possessives",
-      "description": "Learn to point things out and show ownership \u2014 este/ese/aquel and mi/tu/su.",
+      "description": "Learn to point things out and show ownership — este/ese/aquel and mi/tu/su.",
       "estimated_hours": 2,
       "sections": [
         "Vocabulary",
         "Grammar",
-        "Exercises"
+        "Exercises",
+        "Pronunciation"
       ]
     },
     {
@@ -57,7 +58,8 @@
       "estimated_hours": 2,
       "sections": [
         "Vocabulary",
-        "Exercises"
+        "Exercises",
+        "Pronunciation"
       ]
     },
     {
@@ -74,29 +76,31 @@
     },
     {
       "id": "present-perfect",
-      "title": "Present Perfect (Pret\u00e9rito Perfecto)",
+      "title": "Present Perfect (Pretérito Perfecto)",
       "description": "Learn to talk about recent past experiences using haber + past participle.",
       "estimated_hours": 2,
       "sections": [
         "Vocabulary",
         "Grammar",
-        "Exercises"
+        "Exercises",
+        "Pronunciation"
       ]
     },
     {
       "id": "preterite-irregular",
-      "title": "Preterite \u2014 Irregular Verbs",
+      "title": "Preterite — Irregular Verbs",
       "description": "Learn the high-frequency irregular preterite verbs: ESTAR, IR, HACER, TENER, and DECIR.",
       "estimated_hours": 2,
       "sections": [
         "Vocabulary",
         "Grammar",
-        "Exercises"
+        "Exercises",
+        "Pronunciation"
       ]
     },
     {
       "id": "preterite-regular",
-      "title": "Preterite \u2014 Regular Verbs",
+      "title": "Preterite — Regular Verbs",
       "description": "Master regular preterite conjugations for -AR, -ER, and -IR verbs to tell stories about the past.",
       "estimated_hours": 2,
       "sections": [
@@ -185,7 +189,8 @@
       "estimated_hours": 2,
       "sections": [
         "Vocabulary",
-        "Exercises"
+        "Exercises",
+        "Pronunciation"
       ]
     },
     {

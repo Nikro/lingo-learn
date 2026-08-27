@@ -744,7 +744,26 @@
       "aid_note": "Romanian conditional structures are nearly identical to Spanish: 'Dacă + present → viitor' = 'Si + present → futuro'; 'Dacă ar fi + subjunctive → condițional' = 'Si + imperfect subjunctive → condicional'. This makes conditional negotiation language much easier for Romanian speakers."
     }
   ],
-  "pronunciation": [],
+  "pronunciation": [
+    {
+      "title": "Business Vocabulary — Key Stress Patterns",
+      "content": "Professional negotiation vocabulary has many stress shifts:\n\n1. **la negociación** = lah neh-oh-syah-SYOHN (stress on 'syoh')\n2. **el contrato** = ehl kon-TRAH-toh (stress on 'tra')\n3. **la cláusula** = lah KLAH-zoo-lah (stress on 'kla')\n4. **la remuneración** = lah reh-moo-neh-rah-SYOHN (stress on 'syoh')\n5. **la indemnización** = lah een-deh-mnee-rah-see-OHN (stress on 'see')\n6. **el beneficio** = ehl beh-neh-SEE-oh (stress on 'see')\n7. **la compensación** = lah kom-pehn-sah-SYOHN (stress on 'syoh')\n8. **la propuesta** = lah pro-PWEHS-tah (stress on 'pweh')\n\nKey: Many business terms end in '-ción' = 'see-OHN' (stress on the 'o'). This is a consistent pattern.\n\nThe 'll' in 'calle' = 'y', but 'll' in 'célula' = 'y': 'KLAH-zoo-lah'.",
+      "examples": [
+        {
+          "target": "negociación",
+          "source": "neh-oh-syah-SYOHN (negotiation — stress on 'syoh')"
+        },
+        {
+          "target": "contrapartida",
+          "source": "kon-tah-par-TEE-dah (counterparty — stress on 'tee')"
+        },
+        {
+          "target": "mediación",
+          "source": "meh-dee-ah-SYOHN (mediation — stress on 'syoh')"
+        }
+      ]
+    }
+  ],
   "exercises": [
     {
       "type": "multiple-choice",

@@ -691,7 +691,44 @@
       "aid_note": "IR (to go) and ESTAR (to be) have the SAME preterite forms. Context determines meaning: 'Ayer fui al cine' (I went to the cinema) vs 'Ayer estuve en el cine' (I was at the cinema). Both are correct but slightly different meanings."
     }
   ],
-  "pronunciation": [],
+  "pronunciation": [
+    {
+      "title": "Irregular Preterite — Stress Patterns",
+      "content": "Irregular preterite verbs (estar, ir, hacer, tener, decir, poner, salir, venir, saber, querer, dormir, poder) have **accented endings**:\n\n1. **Yo form** always has an accent mark:\n   - estuve = es-TOO-veh (stress on 'tooh')\n   - fui = fwee (one syllable)\n   - hice = EE-seh (stress on 'ee')\n   - tuve = TOO-veh (stress on 'tuu')\n   - dije = DEE-heh (stress on 'dee')\n   - puse = POOS-eh (stress on 'poo')\n   - salí = sah-LEE (stress on 'lee')\n   - vine = VEEN-eh (stress on 'veen')\n   - supe = SOO-peh (stress on 'suu')\n   - quise = KEES-eh (stress on 'kee')\n   - dormí = dor-MEE (stress on 'mee')\n   - pude = POO-deh (stress on 'poo')\n\nThe accent marks are the key — they always mark the stressed syllable in these irregular forms.",
+      "examples": [
+        {
+          "target": "estuve",
+          "source": "es-TOO-veh (I was — stress on 'tooh')"
+        },
+        {
+          "target": "hice",
+          "source": "EE-seh (I did — stress on 'ee')"
+        },
+        {
+          "target": "dijeron",
+          "source": "dee-HEH-ron (they said — stress on 'heh')"
+        }
+      ]
+    },
+    {
+      "title": "Stem Vowel Changes",
+      "content": "Irregular preterites often change their stem vowel:\n\n1. **e → i** (stem change): decir → dije, pedir → pedí\n   - The 'i' is always a clear 'ee' sound\n2. **o → u** (stem change): poder → pude, dormir → dormí\n   - The 'u' is always 'oo' as in 'food'\n3. **u → u** (no change): poner → puse\n   - The 'u' is always 'oo'\n\nIn the third person plural (ellos/ellas):\n- estuvieron = es-too-VEH-ron (stress on 'VEH')\n- estuvieron = es-too-VEH-ron (stress on 'VEH')\n- hicieron = ee-see-EH-ron (stress on 'EH')\n- tuvieron = too-vee-EH-ron (stress on 'EH')\n- dijeron = dee-HEH-ron (stress on 'HEH')",
+      "examples": [
+        {
+          "target": "dijeron",
+          "source": "dee-HEH-ron (they said — 'j' = harsh 'h')"
+        },
+        {
+          "target": "quisieron",
+          "source": "kee-see-EH-ron (they wanted — 'qu' = 'k')"
+        },
+        {
+          "target": "vinieron",
+          "source": "VEEN-eh-ron (they came — 'v' = soft 'b')"
+        }
+      ]
+    }
+  ],
   "exercises": [
     {
       "type": "exercise",

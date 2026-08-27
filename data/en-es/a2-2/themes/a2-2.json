@@ -1,6 +1,6 @@
 {
   "stage_id": "a2-2",
-  "title": "A2.2 \u2014 Future, Conditional, & Object Pronouns",
+  "title": "A2.2 — Future, Conditional, & Object Pronouns",
   "description": "Talk about future plans, make predictions and requests, express what you would do in hypothetical situations, and use object pronouns to avoid repetition.",
   "themes": [
     {
@@ -53,18 +53,19 @@
     },
     {
       "id": "conditional-irregular",
-      "title": "Conditional \u2014 Irregular Stems",
+      "title": "Conditional — Irregular Stems",
       "description": "Learn conditional irregulars using the same stems as the future (tendr-, dir-, pondr-, etc.).",
       "estimated_hours": 2,
       "sections": [
         "Vocabulary",
         "Grammar",
-        "Exercises"
+        "Exercises",
+        "Pronunciation"
       ]
     },
     {
       "id": "conditional-regular",
-      "title": "Conditional \u2014 Regular Conjugation",
+      "title": "Conditional — Regular Conjugation",
       "description": "Express hypothetical situations and polite requests using the conditional tense.",
       "estimated_hours": 2,
       "sections": [
@@ -124,18 +125,19 @@
     },
     {
       "id": "future-irregular",
-      "title": "Future \u2014 Irregular Stems",
+      "title": "Future — Irregular Stems",
       "description": "Learn the irregular future stems: tendr-, dir-, pondr-, podr-, querr-, har-, sabr-, vendr-, saldr-.",
       "estimated_hours": 2,
       "sections": [
         "Vocabulary",
         "Grammar",
-        "Exercises"
+        "Exercises",
+        "Pronunciation"
       ]
     },
     {
       "id": "future-regular",
-      "title": "Simple Future \u2014 Regular Conjugation",
+      "title": "Simple Future — Regular Conjugation",
       "description": "Add future endings to the full infinitive to express actions that will happen.",
       "estimated_hours": 2,
       "sections": [
@@ -160,7 +162,7 @@
     {
       "id": "past-perfect",
       "title": "Past Perfect (Pluscuamperfecto)",
-      "description": "Describe actions that happened before another past action using hab\u00eda + past participle.",
+      "description": "Describe actions that happened before another past action using había + past participle.",
       "estimated_hours": 2,
       "sections": [
         "Vocabulary",
@@ -244,12 +246,13 @@
     {
       "id": "verb-prepositions",
       "title": "Verbs + Prepositions",
-      "description": "Master fixed verb+preposition combinations: pensar en, salir con, depender de, so\u00f1ar con.",
+      "description": "Master fixed verb+preposition combinations: pensar en, salir con, depender de, soñar con.",
       "estimated_hours": 2,
       "sections": [
         "Vocabulary",
         "Grammar",
-        "Exercises"
+        "Exercises",
+        "Pronunciation"
       ]
     }
   ]

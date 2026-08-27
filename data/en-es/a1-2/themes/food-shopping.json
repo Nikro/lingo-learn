@@ -403,7 +403,66 @@
       "note": "Article agreement is essential — mismatching gender or number is one of the most common errors for English speakers."
     }
   ],
-  "pronunciation": [],
+  "pronunciation": [
+    {
+      "title": "Food Vocabulary — Key Sounds",
+      "content": "Food vocabulary has several recurring pronunciation patterns:\n\n1. **La** (feminine articles) — always 'lah' with a clear 'l', never 'la' as in English 'la-la-la'\n2. **El** (masculine) — 'ehl', the 'e' is always 'eh'\n3. Trailing '-ura' — 'ver-DU-rah', not 'ver-jer-ah' (no 'j' sound)\n4. **rr** (double r) — rolled/trilled 'r' at the start of words\n\nKey food words:\n- carne = KAR-neh (hard 'c' before 'a')\n- pescado = pes-KAH-doh (soft 'c' before 'e' = 's' sound in Latin America)\n- verdura = ber-DU-rah (the 'r' at start is rolled)",
+      "examples": [
+        {
+          "target": "carne",
+          "source": "KAR-neh (hard 'c' = 'k' sound)"
+        },
+        {
+          "target": "pescado",
+          "source": "pes-KAH-doh (soft 'c' = 's' or 'th')"
+        },
+        {
+          "target": "pollo",
+          "source": "PO-yoh ('ll' = 'y' sound)"
+        },
+        {
+          "target": "queso",
+          "source": "KEHS-oh ('qu' = hard 'k', 'u' silent)"
+        }
+      ]
+    },
+    {
+      "title": "Numbers and Prices",
+      "content": "Price vocabulary uses numbers with specific patterns:\n\n1. **cuánto** = KWAHN-toh (the 'c' before 'u' = hard 'k')\n2. **cuesta** = KWEHS-tah ('c' before 'u' = hard 'k')\n3. The 'll' in words like 'calle' = 'y' sound\n4. Spanish numbers 11-15 end in '-ce' = 'seh' or 'theh' in Spain:\n   - once = OHS-eh (11)\n   - doce = DOH-seh (12)\n   - trece = TREH-seh (13)\n   - catorce = kah-TOR-seh (14)\n   - quince = KEEN-seh (15)",
+      "examples": [
+        {
+          "target": "cuánto cuesta?",
+          "source": "KWAHN-toh KWEHS-tah? (how much does it cost?)"
+        },
+        {
+          "target": "ciento",
+          "source": "SYEN-toh (100 — 'c' before 'i' = 's' or 'th')"
+        },
+        {
+          "target": "precio",
+          "source": "PREH-see-oh (price — 'c' before 'i' = 's' or 'th')"
+        }
+      ]
+    },
+    {
+      "title": "Meal Names — Vowel Clarity",
+      "content": "Spanish meal names are straightforward with consistent vowels:\n\n- desayuno = de-sah-YOO-noh (breakfast — stress on 'yoo')\n- almuerzo = al-MWEHR-soh (lunch — the 'ue' is a diphthong, stressed on 'mweh')\n- cena = SEH-nah (dinner — two syllables, stress on first)\n- merienda = meh-ree-EHN-dah (snack — stress on 'eahn')\n- postre = POHS-treh (dessert — stress on first syllable)\n\nNote: The 'z' in 'desayuno' is pronounced 's' in Latin America and 'th' in Spain.",
+      "examples": [
+        {
+          "target": "almuerzo",
+          "source": "al-MWEHR-soh (lunch — 'ue' diphthong stressed on 'weh')"
+        },
+        {
+          "target": "desayuno",
+          "source": "de-sah-YOO-noh (breakfast — 'yoo' = two syllables)"
+        },
+        {
+          "target": "merienda",
+          "source": "meh-ree-EHN-dah (snack — stress on 'eahn')"
+        }
+      ]
+    }
+  ],
   "exercises": [
     {
       "type": "matching",

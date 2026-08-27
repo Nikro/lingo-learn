@@ -478,7 +478,26 @@
       "note": "The passive se (se + verb) is the most common formal construction in Spanish. It is used everywhere from job descriptions to official notices."
     }
   ],
-  "pronunciation": [],
+  "pronunciation": [
+    {
+      "title": "Professional Spanish — Formal Register Pronunciation",
+      "content": "Professional/business Spanish uses formal register with clear articulation:\n\n1. **currículum vitae** = kur-REE-koom bEE-tee-eh\n   - Accent on 'curri' and 'víte'\n2. **candidatura** = kan-dee-dah-TOH-rah (application — stress on 'tohh')\n3. **entrevista de trabajo** = een-treh-VEES-tah deh tra-HAH-bah-oh\n   - 'entrevista' = een-treh-VEES-tah (stress on 'veess')\n   - 'trabajo' = tra-HAH-bah-oh (stress on 'ha')\n4. **oferta de empleo** = oh-FEHR-tah deh em-PWEH-loh\n   - 'oferta' = oh-FEHR-tah (stress on 'feh')\n   - 'empleo' = em-PWEH-loh (stress on 'pweh')\n5. **jornada laboral** = hor-NAH-dah lah-boh-RAHL\n   - 'laboral' = lah-boh-RAHL (stress on 'rahl')\n\nKey: In formal register, each syllable is pronounced more clearly than in casual speech. Elision is reduced.",
+      "examples": [
+        {
+          "target": "currículum vitae",
+          "source": "kur-REE-koom bEE-tee-eh (CV/resume)"
+        },
+        {
+          "target": "entrevista de trabajo",
+          "source": "een-treh-VEES-tah deh tra-HAH-bah-oh (job interview)"
+        },
+        {
+          "target": "jornada laboral",
+          "source": "hor-NAH-dah lah-boh-RAHL (workday — stress on 'lah' and 'rahl')"
+        }
+      ]
+    }
+  ],
   "exercises": [
     {
       "type": "exercise",

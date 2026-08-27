@@ -405,7 +405,26 @@
       "aid_note": "Romanian also distinguishes between imperfect and aorist/preterite, but the distinction is less strictly taught in modern usage. The key intuition: imperfect = 'used to do / was doing', preterite = 'did (once, completed)'. In Romanian: 'făceam' (imperfect) vs 'făcei' (aorist/preterite)."
     }
   ],
-  "pronunciation": [],
+  "pronunciation": [
+    {
+      "title": "Imperfect vs Preterite — Contrastive Stress",
+      "content": "The same verb in imperfect vs preterite has different stress patterns:\n\n1. **hablaba** (imp) = ah-BLA-bah vs **hablé** (pret) = ah-BLÉ\n   - Imperfect: stress on middle syllable (blah)\n   - Preterite: stress on final syllable (BLÉ)\n2. **comía** (imp) = koh-MEE-ah vs **comí** (pret) = koh-MÍ\n   - Imperfect: stress on 'mee'\n   - Preterite: stress on 'mí' (accent on final 'i')\n3. **vivía** (imp) = bee-BEE-ah vs **viví** (pret) = bee-VÍ\n4. **estudiaba** (imp) = ees-too-DEE-bah vs **estudié** (pret) = ees-too-DYÉ\n\nKey: The accent marks on preterite endings (-é, -í) always mark stress on the last syllable.\n\nCommon adverbial contrasts:\n- **solía** = soh-LEE-ah (I used to — imperfect, accent on 'lee')\n- **ayer** = ah-YEH (yesterday — one word, stress on 'yeh')\n- **entonces** = en-TON-ces (then — stress on 'ton')",
+      "examples": [
+        {
+          "target": "hablaba / hablé",
+          "source": "ah-BLA-bah / ah-BLÉ (imperfect vs preterite — stress shifts)"
+        },
+        {
+          "target": "solía",
+          "source": "soh-LEE-ah (I used to — accent on 'lee')"
+        },
+        {
+          "target": "cada verano",
+          "source": "KAH-dah ber-AH-noh (every summer — stress on 'ka' and 'bah')"
+        }
+      ]
+    }
+  ],
   "exercises": [
     {
       "type": "exercise",

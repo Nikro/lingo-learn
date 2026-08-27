@@ -3,70 +3,412 @@
   "title": "Present Perfect (Pretérito Perfecto)",
   "description": "Learn to talk about recent past experiences using haber + past participle.",
   "vocabulary": [
-    { "id": 1, "target": "he", "source": "I have", "gender": "v.", "type": "auxiliary" },
-    { "id": 2, "target": "has", "source": "you have (informal)", "gender": "v.", "type": "auxiliary" },
-    { "id": 3, "target": "ha", "source": "he/she/you formal have", "gender": "v.", "type": "auxiliary" },
-    { "id": 4, "target": "hemos", "source": "we have", "gender": "v.", "type": "auxiliary" },
-    { "id": 5, "target": "habéis", "source": "you all have (Spain)", "gender": "v.", "type": "auxiliary" },
-    { "id": 6, "target": "han", "source": "they/you all have", "gender": "v.", "type": "auxiliary" },
-    { "id": 7, "target": "ayer", "source": "yesterday", "gender": "—", "type": "time" },
-    { "id": 8, "target": "esta semana", "source": "this week", "gender": "—", "type": "time" },
-    { "id": 9, "target": "hoy", "source": "today", "gender": "—", "type": "time" },
-    { "id": 10, "target": "en mi vida", "source": "in my life", "gender": "—", "type": "time" },
-    { "id": 11, "target": "ya", "source": "already / already done", "gender": "—", "type": "time" },
-    { "id": 12, "target": "aún no", "source": "not yet", "gender": "—", "type": "time" },
-    { "id": 13, "target": "recién", "source": "just / newly", "gender": "—", "type": "time" },
-    { "id": 14, "target": "hace poco", "source": "a little while ago", "gender": "—", "type": "time" },
-    { "id": 15, "target": "nunca", "source": "never", "gender": "—", "type": "time" },
-    { "id": 16, "target": "alguna vez", "source": "ever / at some point", "gender": "—", "type": "time" },
-    { "id": 17, "target": "esta mañana", "source": "this morning", "gender": "—", "type": "time" },
-    { "id": 18, "target": "este mes", "source": "this month", "gender": "m.", "type": "time" },
-    { "id": 19, "target": "este año", "source": "this year", "gender": "m.", "type": "time" },
-    { "id": 20, "target": "el fin de semana", "source": "the weekend", "gender": "m.", "type": "time" },
-    { "id": 21, "target": "todavía", "source": "still / yet", "gender": "—", "type": "adverb" },
-    { "id": 22, "target": "todavía no", "source": "not yet", "gender": "—", "type": "phrase" },
-    { "id": 23, "target": "por fin / al fin", "source": "finally", "gender": "—", "type": "phrase" },
-    { "id": 24, "target": "de nuevo", "source": "again", "gender": "—", "type": "phrase" },
-    { "id": 25, "target": "otra vez", "source": "one more time", "gender": "—", "type": "phrase" },
-    { "id": 26, "target": "muchas veces", "source": "many times", "gender": "—", "type": "phrase" },
-    { "id": 27, "target": "varias veces", "source": "several times", "gender": "—", "type": "phrase" },
-    { "id": 28, "target": "dos veces", "source": "two times", "gender": "—", "type": "phrase" },
-    { "id": 29, "target": "a veces", "source": "sometimes", "gender": "—", "type": "adverb" },
-    { "id": 30, "target": "casi siempre", "source": "almost always", "gender": "—", "type": "phrase" },
-    { "id": 31, "target": "normalmente", "source": "normally", "gender": "—", "type": "adverb" },
-    { "id": 32, "target": "por lo general", "source": "generally / usually", "gender": "—", "type": "phrase" },
-    { "id": 33, "target": "en general", "source": "in general", "gender": "—", "type": "phrase" },
-    { "id": 34, "target": "hasta ahora", "source": "up until now", "gender": "—", "type": "phrase" },
-    { "id": 35, "target": "hasta el momento", "source": "up until now", "gender": "—", "type": "phrase" },
-    { "id": 36, "target": "hasta hoy", "source": "up until today", "gender": "—", "type": "phrase" },
-    { "id": 37, "target": "desde entonces", "source": "since then", "gender": "—", "type": "phrase" },
-    { "id": 38, "target": "últimamente", "source": "lately", "gender": "—", "type": "adverb" },
-    { "id": 39, "target": "recientemente", "source": "recently", "gender": "—", "type": "adverb" },
-    { "id": 40, "target": "este último mes", "source": "this past month", "gender": "—", "type": "phrase" },
-    { "id": 41, "target": "este último año", "source": "this past year", "gender": "—", "type": "phrase" },
-    { "id": 42, "target": "esta última semana", "source": "this past week", "gender": "—", "type": "phrase" },
-    { "id": 43, "target": "esta tarde", "source": "this afternoon", "gender": "—", "type": "phrase" },
-    { "id": 44, "target": "esta noche", "source": "tonight", "gender": "—", "type": "phrase" },
-    { "id": 45, "target": "hace dos días", "source": "two days ago", "gender": "—", "type": "phrase" },
-    { "id": 46, "target": "hace un momento", "source": "a moment ago", "gender": "—", "type": "phrase" },
-    { "id": 47, "target": "hace unas horas", "source": "a few hours ago", "gender": "—", "type": "phrase" },
-    { "id": 48, "target": "hace unos días", "source": "a few days ago", "gender": "—", "type": "phrase" },
-    { "id": 49, "target": "desde hace una semana", "source": "for a week (now)", "gender": "—", "type": "phrase" },
-    { "id": 50, "target": "desde hace mucho tiempo", "source": "for a long time (now)", "gender": "—", "type": "phrase" }
+    {
+      "id": 1,
+      "target": "he",
+      "source": "I have",
+      "gender": "v.",
+      "type": "auxiliary"
+    },
+    {
+      "id": 2,
+      "target": "has",
+      "source": "you have (informal)",
+      "gender": "v.",
+      "type": "auxiliary"
+    },
+    {
+      "id": 3,
+      "target": "ha",
+      "source": "he/she/you formal have",
+      "gender": "v.",
+      "type": "auxiliary"
+    },
+    {
+      "id": 4,
+      "target": "hemos",
+      "source": "we have",
+      "gender": "v.",
+      "type": "auxiliary"
+    },
+    {
+      "id": 5,
+      "target": "habéis",
+      "source": "you all have (Spain)",
+      "gender": "v.",
+      "type": "auxiliary"
+    },
+    {
+      "id": 6,
+      "target": "han",
+      "source": "they/you all have",
+      "gender": "v.",
+      "type": "auxiliary"
+    },
+    {
+      "id": 7,
+      "target": "ayer",
+      "source": "yesterday",
+      "gender": "—",
+      "type": "time"
+    },
+    {
+      "id": 8,
+      "target": "esta semana",
+      "source": "this week",
+      "gender": "—",
+      "type": "time"
+    },
+    {
+      "id": 9,
+      "target": "hoy",
+      "source": "today",
+      "gender": "—",
+      "type": "time"
+    },
+    {
+      "id": 10,
+      "target": "en mi vida",
+      "source": "in my life",
+      "gender": "—",
+      "type": "time"
+    },
+    {
+      "id": 11,
+      "target": "ya",
+      "source": "already / already done",
+      "gender": "—",
+      "type": "time"
+    },
+    {
+      "id": 12,
+      "target": "aún no",
+      "source": "not yet",
+      "gender": "—",
+      "type": "time"
+    },
+    {
+      "id": 13,
+      "target": "recién",
+      "source": "just / newly",
+      "gender": "—",
+      "type": "time"
+    },
+    {
+      "id": 14,
+      "target": "hace poco",
+      "source": "a little while ago",
+      "gender": "—",
+      "type": "time"
+    },
+    {
+      "id": 15,
+      "target": "nunca",
+      "source": "never",
+      "gender": "—",
+      "type": "time"
+    },
+    {
+      "id": 16,
+      "target": "alguna vez",
+      "source": "ever / at some point",
+      "gender": "—",
+      "type": "time"
+    },
+    {
+      "id": 17,
+      "target": "esta mañana",
+      "source": "this morning",
+      "gender": "—",
+      "type": "time"
+    },
+    {
+      "id": 18,
+      "target": "este mes",
+      "source": "this month",
+      "gender": "m.",
+      "type": "time"
+    },
+    {
+      "id": 19,
+      "target": "este año",
+      "source": "this year",
+      "gender": "m.",
+      "type": "time"
+    },
+    {
+      "id": 20,
+      "target": "el fin de semana",
+      "source": "the weekend",
+      "gender": "m.",
+      "type": "time"
+    },
+    {
+      "id": 21,
+      "target": "todavía",
+      "source": "still / yet",
+      "gender": "—",
+      "type": "adverb"
+    },
+    {
+      "id": 22,
+      "target": "todavía no",
+      "source": "not yet",
+      "gender": "—",
+      "type": "phrase"
+    },
+    {
+      "id": 23,
+      "target": "por fin / al fin",
+      "source": "finally",
+      "gender": "—",
+      "type": "phrase"
+    },
+    {
+      "id": 24,
+      "target": "de nuevo",
+      "source": "again",
+      "gender": "—",
+      "type": "phrase"
+    },
+    {
+      "id": 25,
+      "target": "otra vez",
+      "source": "one more time",
+      "gender": "—",
+      "type": "phrase"
+    },
+    {
+      "id": 26,
+      "target": "muchas veces",
+      "source": "many times",
+      "gender": "—",
+      "type": "phrase"
+    },
+    {
+      "id": 27,
+      "target": "varias veces",
+      "source": "several times",
+      "gender": "—",
+      "type": "phrase"
+    },
+    {
+      "id": 28,
+      "target": "dos veces",
+      "source": "two times",
+      "gender": "—",
+      "type": "phrase"
+    },
+    {
+      "id": 29,
+      "target": "a veces",
+      "source": "sometimes",
+      "gender": "—",
+      "type": "adverb"
+    },
+    {
+      "id": 30,
+      "target": "casi siempre",
+      "source": "almost always",
+      "gender": "—",
+      "type": "phrase"
+    },
+    {
+      "id": 31,
+      "target": "normalmente",
+      "source": "normally",
+      "gender": "—",
+      "type": "adverb"
+    },
+    {
+      "id": 32,
+      "target": "por lo general",
+      "source": "generally / usually",
+      "gender": "—",
+      "type": "phrase"
+    },
+    {
+      "id": 33,
+      "target": "en general",
+      "source": "in general",
+      "gender": "—",
+      "type": "phrase"
+    },
+    {
+      "id": 34,
+      "target": "hasta ahora",
+      "source": "up until now",
+      "gender": "—",
+      "type": "phrase"
+    },
+    {
+      "id": 35,
+      "target": "hasta el momento",
+      "source": "up until now",
+      "gender": "—",
+      "type": "phrase"
+    },
+    {
+      "id": 36,
+      "target": "hasta hoy",
+      "source": "up until today",
+      "gender": "—",
+      "type": "phrase"
+    },
+    {
+      "id": 37,
+      "target": "desde entonces",
+      "source": "since then",
+      "gender": "—",
+      "type": "phrase"
+    },
+    {
+      "id": 38,
+      "target": "últimamente",
+      "source": "lately",
+      "gender": "—",
+      "type": "adverb"
+    },
+    {
+      "id": 39,
+      "target": "recientemente",
+      "source": "recently",
+      "gender": "—",
+      "type": "adverb"
+    },
+    {
+      "id": 40,
+      "target": "este último mes",
+      "source": "this past month",
+      "gender": "—",
+      "type": "phrase"
+    },
+    {
+      "id": 41,
+      "target": "este último año",
+      "source": "this past year",
+      "gender": "—",
+      "type": "phrase"
+    },
+    {
+      "id": 42,
+      "target": "esta última semana",
+      "source": "this past week",
+      "gender": "—",
+      "type": "phrase"
+    },
+    {
+      "id": 43,
+      "target": "esta tarde",
+      "source": "this afternoon",
+      "gender": "—",
+      "type": "phrase"
+    },
+    {
+      "id": 44,
+      "target": "esta noche",
+      "source": "tonight",
+      "gender": "—",
+      "type": "phrase"
+    },
+    {
+      "id": 45,
+      "target": "hace dos días",
+      "source": "two days ago",
+      "gender": "—",
+      "type": "phrase"
+    },
+    {
+      "id": 46,
+      "target": "hace un momento",
+      "source": "a moment ago",
+      "gender": "—",
+      "type": "phrase"
+    },
+    {
+      "id": 47,
+      "target": "hace unas horas",
+      "source": "a few hours ago",
+      "gender": "—",
+      "type": "phrase"
+    },
+    {
+      "id": 48,
+      "target": "hace unos días",
+      "source": "a few days ago",
+      "gender": "—",
+      "type": "phrase"
+    },
+    {
+      "id": 49,
+      "target": "desde hace una semana",
+      "source": "for a week (now)",
+      "gender": "—",
+      "type": "phrase"
+    },
+    {
+      "id": 50,
+      "target": "desde hace mucho tiempo",
+      "source": "for a long time (now)",
+      "gender": "—",
+      "type": "phrase"
+    }
   ],
   "grammar": [
     {
       "title": "Present Perfect — Haber + Past Participle",
       "content": "The present perfect is formed with the present tense of haber + a past participle. It's used to talk about actions that happened in the recent past or that have relevance to the present.\n\nHaber conjugation (present tense):\n- yo: he\n- tú: has\n- él/ella/usted: ha\n- nosotros: hemos\n- vosotros: habéis\n- ellos/ellas/ustedes: han\n\nThe past participle is formed by:\n- -AR verbs: drop -ar, add -ado (hablar → hablado)\n- -ER verbs: drop -er, add -ido (comer → comido)\n- -IR verbs: drop -ir, add -ido (vivir → vivido)",
       "table": {
-        "headers": ["Pronoun", "Haber", "hablar", "comer", "vivir"],
+        "headers": [
+          "Pronoun",
+          "Haber",
+          "hablar",
+          "comer",
+          "vivir"
+        ],
         "rows": [
-          ["yo", "he", "he hablado", "he comido", "he vivido"],
-          ["tú", "has", "has hablado", "has comido", "has vivido"],
-          ["él/ella/usted", "ha", "ha hablado", "ha comido", "ha vivido"],
-          ["nosotros", "hemos", "hemos hablado", "hemos comido", "hemos vivido"],
-          ["vosotros", "habéis", "habéis hablado", "habéis comido", "habéis vivido"],
-          ["ellos/ellas/ustedes", "han", "han hablado", "han comido", "han vivido"]
+          [
+            "yo",
+            "he",
+            "he hablado",
+            "he comido",
+            "he vivido"
+          ],
+          [
+            "tú",
+            "has",
+            "has hablado",
+            "has comido",
+            "has vivido"
+          ],
+          [
+            "él/ella/usted",
+            "ha",
+            "ha hablado",
+            "ha comido",
+            "ha vivido"
+          ],
+          [
+            "nosotros",
+            "hemos",
+            "hemos hablado",
+            "hemos comido",
+            "hemos vivido"
+          ],
+          [
+            "vosotros",
+            "habéis",
+            "habéis hablado",
+            "habéis comido",
+            "habéis vivido"
+          ],
+          [
+            "ellos/ellas/ustedes",
+            "han",
+            "han hablado",
+            "han comido",
+            "han vivido"
+          ]
         ]
       },
       "examples": [
@@ -81,18 +423,62 @@
       "title": "Irregular Past Participles",
       "content": "Several common verbs have irregular past participles that must be memorized:\n\n- abrir → abierto (opened)\n- cubrir → cubierto (covered)\n- devolver → devuelto (returned)\n- escribir → escrito (written)\n- hacer → hecho (done/made)\n- morir → muerto (died)\n- poner → puesto (put/placed)\n- romper → roto (broken)\n- resolver → resuelto (resolved)\n- ver → visto (seen)\n- volver → vuelto (returned)\n- disolver → disuelto (dissolved)",
       "table": {
-        "headers": ["Infinitive", "Past Participle", "English"],
+        "headers": [
+          "Infinitive",
+          "Past Participle",
+          "English"
+        ],
         "rows": [
-          ["abrir", "abierto", "opened"],
-          ["cubrir", "cubierto", "covered"],
-          ["devolver", "devuelto", "returned"],
-          ["escribir", "escrito", "written"],
-          ["hacer", "hecho", "done/made"],
-          ["morir", "muerto", "died"],
-          ["poner", "puesto", "put"],
-          ["romper", "roto", "broken"],
-          ["ver", "visto", "seen"],
-          ["volver", "vuelto", "returned"]
+          [
+            "abrir",
+            "abierto",
+            "opened"
+          ],
+          [
+            "cubrir",
+            "cubierto",
+            "covered"
+          ],
+          [
+            "devolver",
+            "devuelto",
+            "returned"
+          ],
+          [
+            "escribir",
+            "escrito",
+            "written"
+          ],
+          [
+            "hacer",
+            "hecho",
+            "done/made"
+          ],
+          [
+            "morir",
+            "muerto",
+            "died"
+          ],
+          [
+            "poner",
+            "puesto",
+            "put"
+          ],
+          [
+            "romper",
+            "roto",
+            "broken"
+          ],
+          [
+            "ver",
+            "visto",
+            "seen"
+          ],
+          [
+            "volver",
+            "vuelto",
+            "returned"
+          ]
         ]
       },
       "examples": [
@@ -104,7 +490,44 @@
       "aid_note": "Note that irregular participles follow the same grammar rules as regular ones when combined with haber: 'He hecho' (I have done), 'He visto' (I have seen). The irregularity is only in the participle form itself."
     }
   ],
-  "pronunciation": [],
+  "pronunciation": [
+    {
+      "title": "Haber Forms — Weak Forms",
+      "content": "The auxiliary verb 'haber' in present tense has distinct pronunciation patterns:\n\n1. **he** = eh (single syllable, stress on the only vowel)\n2. **has** = ahs (single syllable, final 's' is pronounced clearly)\n3. **ha** = ah (single syllable, same as 'h' in English but stronger)\n4. **hemos** = EH-mohs (stress on first syllable)\n5. **habéis** = ah-BAYS (stress on second syllable — the accent mark!) \n6. **han** = ahn (single syllable, nasal 'n')\n\nCritical: Spanish 'h' is ALWAYS silent. 'He' sounds like 'eh' (like English 'eh'), not like English 'he' with an 'h' sound.\n\nThe 'b' in 'haber' is a soft bilabial — like 'v' in Spanish, both sound identical.",
+      "examples": [
+        {
+          "target": "he",
+          "source": "eh (silent 'h', one syllable)"
+        },
+        {
+          "target": "habéis",
+          "source": "ah-BAYS (stress on second syllable — accent mark!)"
+        },
+        {
+          "target": "han",
+          "source": "ahn (silent 'h', nasal ending)"
+        }
+      ]
+    },
+    {
+      "title": "Past Participles — -do endings",
+      "content": "Past participles end in -ado (for -ar verbs) or -ido (for -er/-ir verbs):\n\n1. **-ado** endings — stress on the 'a': habl-ADO, trabaj-ADO\n   - hablado = ah-BLAH-doh (stress on 'a')\n   - comido = koh-MEE-doh (stress on 'i')\n   - vivido = bee-BEE-doh (stress on first 'i')\n\n2. **-ido** endings — stress on the 'i': com-IDO, viv-IDO\n   - comido = koh-MEE-doh (stress on 'mEE')\n   - vivido = bee-BEE-doh (stress on 'bee')\n\n3. Accented forms (irregulars like 'hecho', 'escrito', 'visto'):\n   - hecho = EH-choh (acute accent on 'e')\n   - escrito = ehs-KREE-toh (stress on 'kree')\n   - visto = BEE-stoh (stress on 'bee')",
+      "examples": [
+        {
+          "target": "hablado",
+          "source": "ah-BLAH-doh (past participle of 'hablar')"
+        },
+        {
+          "target": "comido",
+          "source": "koh-MEE-doh (past participle of 'comer')"
+        },
+        {
+          "target": "hecho",
+          "source": "EH-choh (irregular past participle of 'hacer')"
+        }
+      ]
+    }
+  ],
   "exercises": [
     {
       "type": "fill-in-blank",
@@ -115,7 +538,12 @@
     {
       "type": "exercise",
       "question": "Which form of 'haber' goes with 'nosotros'?",
-      "options": ["has", "ha", "hemos", "han"],
+      "options": [
+        "has",
+        "ha",
+        "hemos",
+        "han"
+      ],
       "correct": 2,
       "explanation": "'Hemos' is the nosotros form of haber. We: hemos hablado, hemos comido, etc."
     },
@@ -128,7 +556,12 @@
     {
       "type": "exercise",
       "question": "What is the past participle of 'hacer'?",
-      "options": ["hacido", "hecho", "hacio", "hacado"],
+      "options": [
+        "hacido",
+        "hecho",
+        "hacio",
+        "hacado"
+      ],
       "correct": 1,
       "explanation": "'Hecho' is the irregular past participle of hacer. Used in: 'He hecho la tarea' (I've done the homework)."
     },
@@ -147,7 +580,12 @@
     {
       "type": "exercise",
       "question": "Which sentence is in the present perfect?",
-      "options": ["Ayer comí paella.", "Hoy he comido paella.", "Comeré paella.", "Comía paella."],
+      "options": [
+        "Ayer comí paella.",
+        "Hoy he comido paella.",
+        "Comeré paella.",
+        "Comía paella."
+      ],
       "correct": 1,
       "explanation": "'Hoy he comido paella' uses the present perfect (he + comido) with a time marker for the current period (hoy = today)."
     },

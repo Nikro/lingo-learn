@@ -431,7 +431,26 @@
       "aid_note": "Romanian conditional also uses the same irregular stem change: 'aș avea' (I would have) uses 'avea' as the stem. Spanish 'tendría' uses 'tendr-' as the stem. The Romanian 'aș' + infinitive is two words where Spanish uses one."
     }
   ],
-  "pronunciation": [],
+  "pronunciation": [
+    {
+      "title": "Conditional Irregular Stems — Key Sounds",
+      "content": "Irregular conditional uses the same stem as irregular future, plus '-ía' ending:\n\nIrregular stems (same for both future and conditional):\ntendr-, pondr-, saldr-, podr-, querr-, dir-, har-, sabr-, vendr-, cabr-\n\n1. **tendría** = ten-DREE-ah (I would have — stress on 'dree')\n2. **pondría** = pon-DREE-ah (I would put — stress on 'dree')\n3. **saldría** = sal-DREE-ah (I would leave — stress on 'dree')\n4. **podría** = po-DREE-ah (I could — stress on 'dree')\n5. **querría** = keh-RREE-ah (I would want — stress on 'dree')\n6. **diría** = deh-RREE-ah (I would say — stress on 'dree')\n7. **haría** = ah-RREE-ah (I would do — stress on 'dree')\n8. **sabría** = sa-BREE-ah (I would know — stress on 'bree')\n9. **vendría** = ben-DREE-ah (I would come — stress on 'dree')\n\nThe 'dr' cluster is pronounced clearly — each consonant is distinct: 'dree', not 'dree' blended.\n\nThe 'rr' in these forms is a double trill — the strongest 'r' in Spanish.",
+      "examples": [
+        {
+          "target": "tendría",
+          "source": "ten-DREE-ah (I would have — stress on 'dree')"
+        },
+        {
+          "target": "podría ser",
+          "source": "po-DREE-ah sehr (it could be — 'dree' = strong stress)"
+        },
+        {
+          "target": "haría falta",
+          "source": "ah-RREE-ah FAHL-tah (it would be necessary)"
+        }
+      ]
+    }
+  ],
   "exercises": [
     {
       "type": "exercise",
