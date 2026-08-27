@@ -2,191 +2,181 @@
   "theme_id": "a1-1-animals-nature",
   "level": "A1.1",
   "theme_name": "Animals & Nature",
-  "description": "Vocabulary and grammar for talking about animals, nature elements, outdoor spaces, and basic nature-related expressions.",
+  "description": "Talk about animals, describe their characteristics, and talk about nature and the environment.",
   "vocabulary": [
-    {"spanish": "el perro", "english": "the dog", "gender": "m", "type": "noun"},
-    {"spanish": "la gata", "english": "the cat (female)", "gender": "f", "type": "noun"},
-    {"spanish": "el pájaro", "english": "the bird", "gender": "m", "type": "noun"},
-    {"spanish": "el pez", "english": "the fish", "gender": "m", "type": "noun"},
-    {"spanish": "el caballo", "english": "the horse", "gender": "m", "type": "noun"},
-    {"spanish": "la vaca", "english": "the cow", "gender": "f", "type": "noun"},
-    {"spanish": "el cerdo", "english": "the pig", "gender": "m", "type": "noun"},
-    {"spanish": "la oveja", "english": "the sheep", "gender": "f", "type": "noun"},
-    {"spanish": "el conejo", "english": "the rabbit", "gender": "m", "type": "noun"},
-    {"spanish": "la gallina", "english": "the hen", "gender": "f", "type": "noun"},
-    {"spanish": "el águila", "english": "the eagle", "gender": "m", "type": "noun"},
-    {"spanish": "la mariposa", "english": "the butterfly", "gender": "f", "type": "noun"},
-    {"spanish": "el elefante", "english": "the elephant", "gender": "m", "type": "noun"},
-    {"spanish": "el león", "english": "the lion", "gender": "m", "type": "noun"},
-    {"spanish": "el tigre", "english": "the tiger", "gender": "m", "type": "noun"},
-    {"spanish": "el oso", "english": "the bear", "gender": "m", "type": "noun"},
-    {"spanish": "la rana", "english": "the frog", "gender": "f", "type": "noun"},
-    {"spanish": "la serpiente", "english": "the snake", "gender": "f", "type": "noun"},
-    {"spanish": "la araña", "english": "the spider", "gender": "f", "type": "noun"},
-    {"spanish": "la abeja", "english": "the bee", "gender": "f", "type": "noun"},
-    {"spanish": "el lobo", "english": "the wolf", "gender": "m", "type": "noun"},
-    {"spanish": "el zorro", "english": "the fox", "gender": "m", "type": "noun"},
-    {"spanish": "la ballena", "english": "the whale", "gender": "f", "type": "noun"},
-    {"spanish": "el delfín", "english": "the dolphin", "gender": "m", "type": "noun"},
-    {"spanish": "el búfalo", "english": "the buffalo", "gender": "m", "type": "noun"},
-    {"spanish": "el mono", "english": "the monkey", "gender": "m", "type": "noun"},
-    {"spanish": "la jirafa", "english": "the giraffe", "gender": "f", "type": "noun"},
-    {"spanish": "el rinoceronte", "english": "the rhinoceros", "gender": "m", "type": "noun"},
-    {"spanish": "la tortuga", "english": "the turtle", "gender": "f", "type": "noun"},
-    {"spanish": "el cocodrilo", "english": "the crocodile", "gender": "m", "type": "noun"},
-    {"spanish": "el sol", "english": "the sun", "gender": "m", "type": "noun"},
-    {"spanish": "la luna", "english": "the moon", "gender": "f", "type": "noun"},
-    {"spanish": "la estrella", "english": "the star", "gender": "f", "type": "noun"},
-    {"spanish": "la montaña", "english": "the mountain", "gender": "f", "type": "noun"},
-    {"spanish": "el río", "english": "the river", "gender": "m", "type": "noun"},
-    {"spanish": "el lago", "english": "the lake", "gender": "m", "type": "noun"},
-    {"spanish": "el mar", "english": "the sea", "gender": "m", "type": "noun"},
-    {"spanish": "la playa", "english": "the beach", "gender": "f", "type": "noun"},
-    {"spanish": "el bosque", "english": "the forest", "gender": "m", "type": "noun"},
-    {"spanish": "el árbol", "english": "the tree", "gender": "m", "type": "noun"},
-    {"spanish": "la flor", "english": "the flower", "gender": "f", "type": "noun"},
-    {"spanish": "el prado", "english": "the meadow", "gender": "m", "type": "noun"},
-    {"spanish": "el campo", "english": "the countryside", "gender": "m", "type": "noun"},
-    {"spanish": "la roca", "english": "the rock", "gender": "f", "type": "noun"},
-    {"spanish": "el lago", "english": "the lake", "gender": "m", "type": "noun"},
-    {"spanish": "la cascada", "english": "the waterfall", "gender": "f", "type": "noun"},
-    {"spanish": "el viento", "english": "the wind", "gender": "m", "type": "noun"},
-    {"spanish": "la nube", "english": "the cloud", "gender": "f", "type": "noun"},
-    {"spanish": "la lluvia", "english": "the rain", "gender": "f", "type": "noun"},
-    {"spanish": "el arcoíris", "english": "the rainbow", "gender": "m", "type": "noun"},
-    {"spanish": "el pasto", "english": "the grass", "gender": "m", "type": "noun"},
-    {"spanish": "la tierra", "english": "the earth / soil", "gender": "f", "type": "noun"},
-    {"spanish": "la nieve", "english": "the snow", "gender": "f", "type": "noun"},
-    {"spanish": "el hielo", "english": "the ice", "gender": "m", "type": "noun"},
-    {"spanish": "la isla", "english": "the island", "gender": "f", "type": "noun"},
-    {"spanish": "el desierto", "english": "the desert", "gender": "m", "type": "noun"},
-    {"spanish": "el volcán", "english": "the volcano", "gender": "m", "type": "noun"},
-    {"spanish": "la selva", "english": "the jungle", "gender": "f", "type": "noun"},
-    {"spanish": "el cactus", "english": "the cactus", "gender": "m", "type": "noun"},
-    {"spanish": "la hierba", "english": "the herb / grass", "gender": "f", "type": "noun"},
-    {"spanish": "el sendero", "english": "the path / trail", "gender": "m", "type": "noun"},
-    {"spanish": "la cueva", "english": "the cave", "gender": "f", "type": "noun"},
-    {"spanish": "el bosque", "english": "the wood / forest", "gender": "m", "type": "noun"},
-    {"spanish": "la pradera", "english": "the prairie", "gender": "f", "type": "noun"},
-    {"spanish": "el arroyo", "english": "the stream", "gender": "m", "type": "noun"},
-    {"spanish": "el cielo", "english": "the sky", "gender": "m", "type": "noun"},
-    {"spanish": "el fuego", "english": "the fire", "gender": "m", "type": "noun"},
-    {"spanish": "la hoja", "english": "the leaf", "gender": "f", "type": "noun"},
-    {"spanish": "el tronco", "english": "the trunk", "gender": "m", "type": "noun"},
-    {"spanish": "la rama", "english": "the branch", "gender": "f", "type": "noun"},
-    {"spanish": "el jardín", "english": "the garden", "gender": "m", "type": "noun"},
-    {"spanish": "la semilla", "english": "the seed", "gender": "f", "type": "noun"},
-    {"spanish": "el pasto", "english": "the pasture", "gender": "m", "type": "noun"},
-    {"spanish": "la hormiga", "english": "the ant", "gender": "f", "type": "noun"},
-    {"spanish": "el caracol", "english": "the snail", "gender": "m", "type": "noun"},
-    {"spanish": "el pato", "english": "the duck", "gender": "m", "type": "noun"},
-    {"spanish": "la paloma", "english": "the dove", "gender": "f", "type": "noun"},
-    {"spanish": "el búho", "english": "the owl", "gender": "m", "type": "noun"},
-    {"spanish": "el loro", "english": "the parrot", "gender": "m", "type": "noun"},
-    {"spanish": "la gallina", "english": "the chicken (female)", "gender": "f", "type": "noun"},
-    {"spanish": "el pato", "english": "the duck", "gender": "m", "type": "noun"},
-    {"spanish": "grande", "english": "big / large", "gender": "adj", "type": "adjective"},
-    {"spanish": "pequeño", "english": "small", "gender": "adj", "type": "adjective"},
-    {"spanish": "bonito", "english": "beautiful / pretty", "gender": "adj", "type": "adjective"},
-    {"spanish": "salvaje", "english": "wild", "gender": "adj", "type": "adjective"},
-    {"spanish": "dulce", "english": "sweet", "gender": "adj", "type": "adjective"},
-    {"spanish": "rápido", "english": "fast", "gender": "adj", "type": "adjective"},
-    {"spanish": "lento", "english": "slow", "gender": "adj", "type": "adjective"},
-    {"spanish": "verde", "english": "green", "gender": "adj", "type": "adjective"},
-    {"spanish": "alto", "english": "tall / high", "gender": "adj", "type": "adjective"},
-    {"spanish": "profundo", "english": "deep", "gender": "adj", "type": "adjective"},
-    {"spanish": "caminar", "english": "to walk", "gender": "verb", "type": "verb"},
-    {"spanish": "volar", "english": "to fly", "gender": "verb", "type": "verb"},
-    {"spanish": "nadar", "english": "to swim", "gender": "verb", "type": "verb"},
-    {"spanish": "saltar", "english": "to jump", "gender": "verb", "type": "verb"},
-    {"spanish": "correr", "english": "to run", "gender": "verb", "type": "verb"},
-    {"spanish": "mirar", "english": "to look at / watch", "gender": "verb", "type": "verb"},
-    {"spanish": "escuchar", "english": "to listen / hear", "gender": "verb", "type": "verb"},
-    {"spanish": "gustar", "english": "to like", "gender": "verb", "type": "verb"},
-    {"spanish": "vivir", "english": "to live", "gender": "verb", "type": "verb"},
-    {"spanish": "jugar", "english": "to play", "gender": "verb", "type": "verb"},
-    {"spanish": "mirar", "english": "to look", "gender": "verb", "type": "verb"},
-    {"spanish": "comer", "english": "to eat", "gender": "verb", "type": "verb"},
-    {"spanish": "beber", "english": "to drink", "gender": "verb", "type": "verb"},
-    {"spanish": "hablar", "english": "to speak / talk", "gender": "verb", "type": "verb"},
-    {"spanish": "escuchar", "english": "to listen", "gender": "verb", "type": "verb"},
-    {"spanish": "jugar", "english": "to play", "gender": "verb", "type": "verb"},
-    {"spanish": "correr", "english": "to run", "gender": "verb", "type": "verb"},
-    {"spanish": "caminar", "english": "to walk", "gender": "verb", "type": "verb"},
-    {"spanish": "nacer", "english": "to be born", "gender": "verb", "type": "verb"},
-    {"spanish": "crecer", "english": "to grow", "gender": "verb", "type": "verb"}
+    { "id": 1, "target": "el perro", "source": "dog", "gender": "m.", "type": "animal" },
+    { "id": 2, "target": "el gato", "source": "cat", "gender": "m.", "type": "animal" },
+    { "id": 3, "target": "el pájaro", "source": "bird", "gender": "m.", "type": "animal" },
+    { "id": 4, "target": "el pez", "source": "fish", "gender": "m.", "type": "animal" },
+    { "id": 5, "target": "el árbol", "source": "tree", "gender": "m.", "type": "nature" },
+    { "id": 6, "target": "la flor", "source": "flower", "gender": "f.", "type": "nature" },
+    { "id": 7, "target": "el río", "source": "river", "gender": "m.", "type": "nature" },
+    { "id": 8, "target": "la montaña", "source": "mountain", "gender": "f.", "type": "nature" },
+    { "id": 9, "target": "el lago", "source": "lake", "gender": "m.", "type": "nature" },
+    { "id": 10, "target": "el mar", "source": "sea", "gender": "m.", "type": "nature" },
+    { "id": 11, "target": "la playa", "source": "beach", "gender": "f.", "type": "nature" },
+    { "id": 12, "target": "el bosque", "source": "forest", "gender": "m.", "type": "nature" },
+    { "id": 13, "target": "grande", "source": "big/large", "gender": "", "type": "adjective" },
+    { "id": 14, "target": "pequeño/a", "source": "small", "gender": "", "type": "adjective" },
+    { "id": 15, "target": "bonito/a", "source": "beautiful/nice", "gender": "", "type": "adjective" },
+    { "id": 16, "target": "alto/a", "source": "tall/high", "gender": "", "type": "adjective" },
+    { "id": 17, "target": "verde", "source": "green", "gender": "", "type": "adjective" },
+    { "id": 18, "target": "blanco/a", "source": "white", "gender": "", "type": "adjective" },
+    { "id": 19, "target": "negro/a", "source": "black", "gender": "", "type": "adjective" },
+    { "id": 20, "target": "rojo/a", "source": "red", "gender": "", "type": "adjective" },
+    { "id": 21, "target": "la casa", "source": "house", "gender": "f.", "type": "building" },
+    { "id": 22, "target": "el jardín", "source": "garden", "gender": "m.", "type": "nature" },
+    { "id": 23, "target": "la tierra", "source": "earth/ground", "gender": "f.", "type": "nature" },
+    { "id": 24, "target": "el agua", "source": "water", "gender": "f.", "type": "nature" },
+    { "id": 25, "target": "el cielo", "source": "sky", "gender": "m.", "type": "nature" },
+    { "id": 26, "target": "el sol", "source": "sun", "gender": "m.", "type": "nature" },
+    { "id": 27, "target": "la luna", "source": "moon", "gender": "f.", "type": "nature" },
+    { "id": 28, "target": "la estrella", "source": "star", "gender": "f.", "type": "nature" },
+    { "id": 29, "target": "el fuego", "source": "fire", "gender": "m.", "type": "nature" },
+    { "id": 30, "target": "el viento", "source": "wind", "gender": "m.", "type": "nature" },
+    { "id": 31, "target": "el león", "source": "lion", "gender": "m.", "type": "animal" },
+    { "id": 32, "target": "la rana", "source": "frog", "gender": "f.", "type": "animal" },
+    { "id": 33, "target": "el elefante", "source": "elephant", "gender": "m.", "type": "animal" },
+    { "id": 34, "target": "la mariposa", "source": "butterfly", "gender": "f.", "type": "animal" },
+    { "id": 35, "target": "la serpiente", "source": "snake", "gender": "f.", "type": "animal" },
+    { "id": 36, "target": "el oso", "source": "bear", "gender": "m.", "type": "animal" },
+    { "id": 37, "target": "el conejo", "source": "rabbit", "gender": "m.", "type": "animal" },
+    { "id": 38, "target": "el caballo", "source": "horse", "gender": "m.", "type": "animal" },
+    { "id": 39, "target": "la vaca", "source": "cow", "gender": "f.", "type": "animal" },
+    { "id": 40, "target": "la oveja", "source": "sheep", "gender": "f.", "type": "animal" },
+    { "id": 41, "target": "el pato", "source": "duck", "gender": "m.", "type": "animal" },
+    { "id": 42, "target": "el cerdo", "source": "pig", "gender": "m.", "type": "animal" },
+    { "id": 43, "target": "el águila", "source": "eagle", "gender": "f.", "type": "animal" },
+    { "id": 44, "target": "el lobo", "source": "wolf", "gender": "m.", "type": "animal" },
+    { "id": 45, "target": "la ballena", "source": "whale", "gender": "f.", "type": "animal" },
+    { "id": 46, "target": "el tigre", "source": "tiger", "gender": "m.", "type": "animal" },
+    { "id": 47, "target": "la tortuga", "source": "turtle", "gender": "f.", "type": "animal" },
+    { "id": 48, "target": "el mono", "source": "monkey", "gender": "m.", "type": "animal" },
+    { "id": 49, "target": "la gallina", "source": "hen/chicken", "gender": "f.", "type": "animal" },
+    { "id": 50, "target": "el gallo", "source": "rooster", "gender": "m.", "type": "animal" },
+    { "id": 51, "target": "la hierba", "source": "grass", "gender": "f.", "type": "nature" },
+    { "id": 52, "target": "el camino", "source": "path/road", "gender": "m.", "type": "nature" },
+    { "id": 53, "target": "la piedra", "source": "stone", "gender": "f.", "type": "nature" },
+    { "id": 54, "target": "la nieve", "source": "snow", "gender": "f.", "type": "nature" },
+    { "id": 55, "target": "la lluvia", "source": "rain", "gender": "f.", "type": "nature" },
+    { "id": 56, "target": "el arcoíris", "source": "rainbow", "gender": "m.", "type": "nature" },
+    { "id": 57, "target": "la nube", "source": "cloud", "gender": "f.", "type": "nature" },
+    { "id": 58, "target": "el suelo", "source": "floor/ground", "gender": "m.", "type": "nature" },
+    { "id": 59, "target": "el cielo", "source": "sky", "gender": "m.", "type": "nature" },
+    { "id": 60, "target": "la semilla", "source": "seed", "gender": "f.", "type": "nature" },
+    { "id": 61, "target": "el tronco", "source": "trunk", "gender": "m.", "type": "nature" },
+    { "id": 62, "target": "la rama", "source": "branch", "gender": "f.", "type": "nature" },
+    { "id": 63, "target": "la hoja", "source": "leaf", "gender": "f.", "type": "nature" },
+    { "id": 64, "target": "la raíz", "source": "root", "gender": "f.", "type": "nature" },
+    { "id": 65, "target": "la flor", "source": "flower", "gender": "f.", "type": "nature" },
+    { "id": 66, "target": "el fruto", "source": "fruit", "gender": "m.", "type": "nature" },
+    { "id": 67, "target": "la savia", "source": "sap", "gender": "f.", "type": "nature" },
+    { "id": 68, "target": "el barro", "source": "mud", "gender": "m.", "type": "nature" },
+    { "id": 69, "target": "la arena", "source": "sand", "gender": "f.", "type": "nature" },
+    { "id": 70, "target": "la roca", "source": "rock", "gender": "f.", "type": "nature" },
+    { "id": 71, "target": "el valle", "source": "valley", "gender": "m.", "type": "nature" },
+    { "id": 72, "target": "la colina", "source": "hill", "gender": "f.", "type": "nature" },
+    { "id": 73, "target": "la pradera", "source": "meadow", "gender": "f.", "type": "nature" },
+    { "id": 74, "target": "el desierto", "source": "desert", "gender": "m.", "type": "nature" },
+    { "id": 75, "target": "la jungla", "source": "jungle", "gender": "f.", "type": "nature" },
+    { "id": 76, "target": "el pantano", "source": "swamp", "gender": "m.", "type": "nature" },
+    { "id": 77, "target": "la cascada", "source": "waterfall", "gender": "f.", "type": "nature" },
+    { "id": 78, "target": "la cumbre", "source": "summit/peak", "gender": "f.", "type": "nature" },
+    { "id": 79, "target": "el volcán", "source": "volcano", "gender": "m.", "type": "nature" },
+    { "id": 80, "target": "la isla", "source": "island", "gender": "f.", "type": "nature" },
+    { "id": 81, "target": "el océano", "source": "ocean", "gender": "m.", "type": "nature" },
+    { "id": 82, "target": "la corriente", "source": "current/flow", "gender": "f.", "type": "nature" },
+    { "id": 83, "target": "la marea", "source": "tide", "gender": "f.", "type": "nature" },
+    { "id": 84, "target": "la ola", "source": "wave", "gender": "f.", "type": "nature" },
+    { "id": 85, "target": "el arrecife", "source": "reef", "gender": "m.", "type": "nature" },
+    { "id": 86, "target": "la playa", "source": "beach", "gender": "f.", "type": "nature" },
+    { "id": 87, "target": "el caracol", "source": "snail", "gender": "m.", "type": "animal" },
+    { "id": 88, "target": "la abeja", "source": "bee", "gender": "f.", "type": "animal" },
+    { "id": 89, "target": "la mariposa", "source": "butterfly", "gender": "f.", "type": "animal" },
+    { "id": 90, "target": "la hormiga", "source": "ant", "gender": "f.", "type": "animal" },
+    { "id": 91, "target": "la araña", "source": "spider", "gender": "f.", "type": "animal" },
+    { "id": 92, "target": "el pulpo", "source": "octopus", "gender": "m.", "type": "animal" },
+    { "id": 93, "target": "el delfín", "source": "dolphin", "gender": "m.", "type": "animal" },
+    { "id": 94, "target": "la foca", "source": "seal", "gender": "f.", "type": "animal" },
+    { "id": 95, "target": "el pingüino", "source": "penguin", "gender": "m.", "type": "animal" },
+    { "id": 96, "target": "el búho", "source": "owl", "gender": "m.", "type": "animal" },
+    { "id": 97, "target": "el ciervo", "source": "deer", "gender": "m.", "type": "animal" },
+    { "id": 98, "target": "la cabra", "source": "goat", "gender": "f.", "type": "animal" },
+    { "id": 99, "target": "el carnero", "source": "ram", "gender": "m.", "type": "animal" },
+    { "id": 100, "target": "el zorro", "source": "fox", "gender": "m.", "type": "animal" },
+    { "id": 101, "target": "el lobo", "source": "wolf", "gender": "m.", "type": "animal" },
+    { "id": 102, "target": "el murciélago", "source": "bat", "gender": "m.", "type": "animal" },
+    { "id": 103, "target": "la cebra", "source": "zebra", "gender": "f.", "type": "animal" },
+    { "id": 104, "target": "la jirafa", "source": "giraffe", "gender": "f.", "type": "animal" },
+    { "id": 105, "target": "el cocodrilo", "source": "crocodile", "gender": "m.", "type": "animal" },
+    { "id": 106, "target": "el camaleón", "source": "chameleon", "gender": "m.", "type": "animal" },
+    { "id": 107, "target": "el cangrejo", "source": "crab", "gender": "m.", "type": "animal" },
+    { "id": 108, "target": "la estrella de mar", "source": "starfish", "gender": "f.", "type": "animal" },
+    { "id": 109, "target": "la nutria", "source": "otter", "gender": "f.", "type": "animal" },
+    { "id": 110, "target": "el hipopótamo", "source": "hippopotamus", "gender": "m.", "type": "animal" },
+    { "id": 111, "target": "el rinoceronte", "source": "rhinoceros", "gender": "m.", "type": "animal" }
   ],
-  "grammar_topics": [
+  "grammar": [
     {
-      "name": "Ser for animal characteristics",
-      "description": "Using the verb SER to describe permanent characteristics of animals and nature.",
-      "rules": ["Ser is used to describe inherent, permanent qualities of animals and things in nature.", "Adjectives must agree in gender (masculine/feminine) and number (singular/plural) with the noun."],
+      "title": "SER for animal characteristics",
+      "content": "The verb **ser** is used to describe inherent, permanent qualities of animals and nature. Adjectives must agree in gender (masculine/feminine) and number (singular/plural) with the noun they describe.\n\nSingular:\n- el perro **es** grande\n- la rana **es** verde\n- el árbol **es** alto\n\nPlural:\n- los perros **son** grandes\n- las ranas **son** verdes\n- los árboles **son** altos\n\nSer is used for size, color, species, and inherent traits.",
       "examples": [
-        {"spanish": "El león es grande.", "english": "The lion is big."},
-        {"spanish": "La rana es verde.", "english": "The frog is green."},
-        {"spanish": "El perro es salvaje.", "english": "The dog is wild."},
-        {"spanish": "Las montañas son altas.", "english": "The mountains are tall."},
-        {"spanish": "El río es profundo.", "english": "The river is deep."}
+        "El león es grande. (The lion is big.)",
+        "La rana es verde. (The frog is green.)",
+        "Los perros son salvajes. (The dogs are wild.)",
+        "Las flores son bonitas. (The flowers are beautiful.)"
       ],
-      "explanation": "Ser describes what something IS — its essential nature. For animals and nature, use ser for size, color, species, and inherent traits."
+      "note": "Remember: 'es' is singular, 'son' is plural. Always match the adjective's gender and number to the animal or thing."
     },
     {
-      "name": "Tener for animal attributes",
-      "description": "Using the verb TENER to describe what animals or nature features have.",
-      "rules": ["Tener means 'to have' and is used to describe physical features or possessions.", "Structure: subject + tener + number + noun (pluralized if more than one)."],
+      "title": "TENER for physical features",
+      "content": "The verb **tener** means 'to have' and is used to describe physical features, parts, or what something possesses. The most common forms for A1 are:\n\n- yo **tengo** (I have)\n- él/ella **tiene** (he/she has)\n- nosotros **tenemos** (we have)\n- ellos **tienen** (they have)\n\nExample: 'El perro tiene cuatro patas.' (The dog has four paws.)\n\nNote: 'Tener' is irregular in the first person: 'tengo', not 'teno'.",
       "examples": [
-        {"spanish": "El perro tiene cuatro patas.", "english": "The dog has four paws."},
-        {"spanish": "La rana tiene los ojos grandes.", "english": "The frog has big eyes."},
-        {"spanish": "El árbol tiene muchas hojas.", "english": "The tree has many leaves."},
-        {"spanish": "El pájaro tiene plumas bonitas.", "english": "The bird has beautiful feathers."},
-        {"spanish": "La montaña tiene nieve en la cima.", "english": "The mountain has snow on top."}
+        "El perro tiene cuatro patas. (The dog has four paws.)",
+        "El árbol tiene muchas hojas. (The tree has many leaves.)",
+        "El pájaro tiene plumas bonitas. (The bird has beautiful feathers.)",
+        "La montaña tiene nieve en la cima. (The mountain has snow on top.)"
       ],
-      "explanation": "Tener describes physical features or what something possesses. It's one of the most common verbs in Spanish and essential for describing animals and nature."
+      "note": "Tener describes physical features or what something possesses. It is one of the most common verbs in Spanish and essential for describing animals and nature."
     },
     {
-      "name": "Hay for existence",
-      "description": "Using hay (from haber) to say 'there is' or 'there are' in nature contexts.",
-      "rules": ["Hay is invariable — it never changes form. It means 'there is' or 'there are'.", "Use 'un/una' for singular, no article needed for plural."],
+      "title": "HAY for existence",
+      "content": "**Hay** (from the verb 'haber') means 'there is' or 'there are'. It never changes — it is always 'hay' regardless of number.\n\n- **Hay** un pájaro en el árbol. (There is a bird in the tree.)\n- **Hay** muchos peces en el río. (There are many fish in the river.)\n- **No hay** agua en el lago. (There is no water in the lake.)\n\nUse 'un/una' for singular things and 'muchos/muchas' or no article for plural things.\n\nHay is invariable — it never changes form.",
       "examples": [
-        {"spanish": "Hay un pájaro en el árbol.", "english": "There is a bird in the tree."},
-        {"spanish": "Hay muchos peces en el río.", "english": "There are many fish in the river."},
-        {"spanish": "Hay una mariposa en la flor.", "english": "There is a butterfly on the flower."},
-        {"spanish": "Hay animales salvajes en la selva.", "english": "There are wild animals in the jungle."},
-        {"spanish": "No hay agua en el lago.", "english": "There is no water in the lake."}
+        "Hay un pájaro en el árbol. (There is a bird in the tree.)",
+        "Hay muchos peces en el río. (There are many fish in the river.)",
+        "No hay animales en la casa. (There are no animals in the house.)",
+        "Hay una mariposa en la flor. (There is a butterfly on the flower.)"
       ],
-      "explanation": "Hay is the go-to construction for pointing out things in nature. It's the simplest way to say 'there is/are' in any context."
+      "note": "Hay is the go-to construction for pointing out things in nature. It is the simplest way to say 'there is/are' in any context."
     },
     {
-      "name": "Gustar for preferences",
-      "description": "Using gustar to express liking or disliking animals, nature, and outdoor activities.",
-      "rules": ["Gustar works backwards from English: 'me gusta' = 'it pleases me'.", "Use 'gusta' for singular nouns/activities, 'gustan' for plural nouns."],
+      "title": "GUSTAR for preferences",
+      "content": "**Gustar** expresses what you like. The thing you like is the subject of the sentence, and you (the person) is the indirect object.\n\n- **Me gusta** el perro. (I like the dog.) — singular thing\n- **Me gustan** los pájaros. (I like birds.) — plural things\n- **Te gusta** la playa. (You like the beach.)\n- **Nos gusta** el bosque. (We like the forest.)\n\nThe form changes:\n- **gusta** = one thing or an activity\n- **gustan** = multiple things\n\nPeople: me (I), te (you), le (he/she), nos (we), les (they).",
       "examples": [
-        {"spanish": "Me gusta el perro.", "english": "I like the dog."},
-        {"spanish": "Me gustan los pájaros.", "english": "I like birds."},
-        {"spanish": "Nos gusta el bosque.", "english": "We like the forest."},
-        {"spanish": "Me gustan las montañas.", "english": "I like the mountains."},
-        {"spanish": "Le gusta nadar en el mar.", "english": "He/She likes to swim in the sea."}
+        "Me gusta el perro. (I like the dog.)",
+        "Me gustan los pájaros. (I like birds.)",
+        "Nos gusta el bosque. (We like the forest.)",
+        "Le gusta nadar en el mar. (He/She likes to swim in the sea.)"
       ],
-      "explanation": "Gustar expresses what you like. The thing you like is the subject of the sentence, and you (the person) is the indirect object. Very common for expressing preferences about animals and nature."
+      "note": "Gustar works backwards from English: the thing you like is the subject. 'Me gusta' literally means 'it pleases me.'"
     },
     {
-      "name": "Estar for location",
-      "description": "Using estar to describe where animals and nature features are located.",
-      "rules": ["Estar is used for location — where something is right now.", "Common prepositions: en (in/on), debajo de (under), encima de (on top of), cerca de (near), lejos de (far from)."],
+      "title": "ESTAR for location",
+      "content": "**Estar** is used for location — where something is right now. It is not about permanent characteristics.\n\n- El perro **está** en el jardín. (The dog is in the garden.)\n- La rana **está** en el lago. (The frog is in the lake.)\n- Las montañas **están** lejos de la ciudad. (The mountains are far from the city.)\n\nCommon prepositions for location:\n- **en** = in/on\n- **debajo de** = under\n- **encima de** = on top of\n- **cerca de** = near\n- **lejos de** = far from",
       "examples": [
-        {"spanish": "El perro está en el jardín.", "english": "The dog is in the garden."},
-        {"spanish": "La rana está en el lago.", "english": "The frog is in the lake."},
-        {"spanish": "La flor está debajo del árbol.", "english": "The flower is under the tree."},
-        {"spanish": "El pájaro está en el cielo.", "english": "The bird is in the sky."},
-        {"spanish": "Las montañas están lejos de la ciudad.", "english": "The mountains are far from the city."}
+        "El perro está en el jardín. (The dog is in the garden.)",
+        "La rana está en el lago. (The frog is in the lake.)",
+        "La flor está debajo del árbol. (The flower is under the tree.)",
+        "El pájaro está en el cielo. (The bird is in the sky.)"
       ],
-      "explanation": "Estar tells you WHERE something is. For animals in nature, this is one of the most useful structures for building simple descriptive sentences."
+      "note": "Estar tells you WHERE something is. Remember: 'ser' describes what something IS; 'estar' describes where something IS."
     }
   ],
   "pronunciation": {
     "tips": [
       "Vowels are always short and clear: a (ah), e (eh), i (ee), o (oh), u (oo). They never change sound.",
-      "The letter 'ñ' (eñe) makes the 'ny' sound, like in 'señor'. Practice: piña, mañana, niño.",
+      "The letter 'ñ' (eñe) makes the 'ny' sound, like in 'canyon'. Practice: piña, mañana, niño.",
       "The letter 'll' (elle) sounds like 'y' in most of Spain and Latin America. Practice: pollo, llave, llamar.",
       "The letter 'j' sounds like a harsh 'h' (air through throat). Practice: jirafa, Japón, lejos.",
       "The letter 'g' before 'e' or 'i' sounds like 'j'. Practice: gente, gigante, gimnasio.",
@@ -195,203 +185,142 @@
       "Stress falls on the second-to-last syllable unless there's an accent mark. Practice: pájaro, montaña, río."
     ],
     "tricky_sounds": [
-      {"sound": "ñ", "description": "Palatal nasal, like 'ny' in 'canyon'", "examples": ["niño", "señora", "peña"]},
-      {"sound": "ll", "description": "Palatal lateral, like 'y' in 'yes'", "examples": ["pollo", "lluvia", "calle"]},
-      {"sound": "j/g (before e/i)", "description": "Guttural fricative, like a strong 'h'", "examples": ["jirafa", "gente", "gimnasio"]},
-      {"sound": "r (single)", "description": "Tap, quick flap of tongue on palate", "examples": ["perro", "carne", "cerdo"]},
-      {"sound": "rr (double)", "description": "Trill, vibrating tongue", "examples": ["perro", "toro", "mariposa"]},
-      {"sound": "b/v", "description": "B and V sound identical — a soft bilabial sound", "examples": ["ballena", "vacas", "pez", "vaca"]}
+      { "sound": "ñ", "description": "Palatal nasal, like 'ny' in 'canyon'", "examples": ["niño", "señora", "peña", "mañana", "español"] },
+      { "sound": "j / g (before e/i)", "description": "Harsh throat 'h' sound, like air through the throat", "examples": ["jirafa", "gente", "gimnasio", "juego"] },
+      { "sound": "rr / r", "description": "Trilled 'r'. Single 'r' is light; double 'rr' is strong trill", "examples": ["perro", "mariposa", "pájaro", "terra"] },
+      { "sound": "ll", "description": "Sounds like 'y' in most regions", "examples": ["pollo", "llave", "llamar", "mariposa"] }
     ]
   },
-  "exercises": {
-    "multiple_choice": [
-      {
-        "question": "What is 'the dog' in Spanish?",
-        "options": ["la gata", "el perro", "el pájaro", "el pez"],
-        "correct": 1,
-        "explanation": "'El perro' means 'the dog'. 'La gata' is the cat, 'el pájaro' is the bird, 'el pez' is the fish."
-      },
-      {
-        "question": "Which verb is used to describe permanent characteristics of animals?",
-        "options": ["Estar", "Tener", "Ser", "Ir"],
-        "correct": 2,
-        "explanation": "Ser is used to describe permanent characteristics. 'El león es grande' (The lion is big)."
-      },
-      {
-        "question": "How do you say 'there are fish in the river'?",
-        "options": ["Son peces en el río.", "Hay peces en el río.", "Tienen peces en el río.", "Están peces en el río."],
-        "correct": 1,
-        "explanation": "Hay (from haber) means 'there is/are'. 'Hay peces en el río' = 'There are fish in the river.'"
-      },
-      {
-        "question": "What does 'Me gustan las montañas' mean?",
-        "options": ["I have the mountains.", "The mountains like me.", "I like the mountains.", "The mountains are near me."],
-        "correct": 2,
-        "explanation": "'Me gustan' means 'I like' (plural). 'Las montañas' = the mountains."
-      },
-      {
-        "question": "What is 'la rana'?",
-        "options": ["The rabbit", "The frog", "The snake", "The turtle"],
-        "correct": 1,
-        "explanation": "'La rana' means 'the frog'. El conejo = rabbit, la serpiente = snake, la tortuga = turtle."
-      },
-      {
-        "question": "Which preposition means 'near'?",
-        "options": ["lejos de", "debajo de", "cerca de", "encima de"],
-        "correct": 2,
-        "explanation": "'Cerca de' means 'near'. Lejos de = far from, debajo de = under, encima de = on top of."
-      },
-      {
-        "question": "What is the plural of 'el pájaro'?",
-        "options": ["los pájaros", "las pájaros", "el pájaros", "los pájaros"],
-        "correct": 0,
-        "explanation": "Masculine singular 'el pájaro' becomes masculine plural 'los pájaros'. Words ending in -o change to -os."
-      },
-      {
-        "question": "How do you say 'the bird flies'?",
-        "options": ["El pájaro vuela.", "El pájaro es vuela.", "El pájaro tiene vuela.", "El pájaro hay vuela."],
-        "correct": 0,
-        "explanation": "Volar (to fly) conjugated: 'el pájaro vuela' (the bird flies). Regular -ar verb ending."
-      }
-    ],
-    "fill_in_blank": [
-      {
-        "sentence": "El león ____ grande.",
-        "blank": "es",
-        "hint": "Ser (to be) — 3rd person singular",
-        "english": "The lion is big.",
-        "explanation": "Use 'es' (from ser) because size is a permanent characteristic."
-      },
-      {
-        "sentence": "Hay ____ pájaro en el árbol.",
-        "blank": "un",
-        "hint": "Indefinite article, masculine singular",
-        "english": "There is a bird in the tree.",
-        "explanation": "'Un' is the masculine indefinite article. 'Un pájaro' = 'a bird'."
-      },
-      {
-        "sentence": "Me ____ los perros.",
-        "blank": "gustan",
-        "hint": "Form of gustar for plural nouns",
-        "english": "I like dogs.",
-        "explanation": "Use 'gustan' because 'los perros' is plural. 'Me gustan' = 'I like (them).'"
-      },
-      {
-        "sentence": "La rana está ____ el lago.",
-        "blank": "en",
-        "hint": "Preposition meaning 'in' or 'on'",
-        "english": "The frog is in the lake.",
-        "explanation": "'En' is the most common preposition for location."
-      },
-      {
-        "sentence": "El perro tiene ____ patas.",
-        "blank": "cuatro",
-        "hint": "Number (1-10)",
-        "english": "The dog has four paws.",
-        "explanation": "Use 'tiene' (from tener) for what the dog has. 'Cuatro' = four."
-      },
-      {
-        "sentence": "La montaña tiene ____ en la cima.",
-        "blank": "nieve",
-        "hint": "Weather/nature element",
-        "english": "The mountain has snow on top.",
-        "explanation": "'La nieve' = snow. Mountains often have snow on their peaks."
-      },
-      {
-        "sentence": "El pájaro puede ____ en el cielo.",
-        "blank": "volar",
-        "hint": "Verb meaning 'to fly'",
-        "english": "The bird can fly in the sky.",
-        "explanation": "'Volar' = to fly. After 'puede' (can), use the infinitive."
-      },
-      {
-        "sentence": "No ____ agua en el río.",
-        "blank": "hay",
-        "hint": "There is/are (from haber)",
-        "english": "There is no water in the river.",
-        "explanation": "'No hay' = there is/are not. Invariable form."
-      }
-    ],
-    "translation": [
-      {
-        "english": "The lion is wild.",
-        "spanish": "El león es salvaje.",
-        "explanation": "Use 'es' (ser) for permanent characteristics. 'Salvaje' = wild."
-      },
-      {
-        "english": "There is a butterfly on the flower.",
-        "spanish": "Hay una mariposa en la flor.",
-        "explanation": "'Hay' for existence, 'una mariposa' = a butterfly, 'en la flor' = on the flower."
-      },
-      {
-        "english": "I like to swim in the sea.",
-        "spanish": "Me gusta nadar en el mar.",
-        "explanation": "'Me gusta' + infinitive for liking an activity. 'Nadar' = to swim, 'el mar' = the sea."
-      },
-      {
-        "english": "The dog has big ears.",
-        "spanish": "El perro tiene orejas grandes.",
-        "explanation": "'Tiene' (from tener) for what something has. 'Orejas' = ears (feminine plural), 'grandes' = big (agrees)."
-      },
-      {
-        "english": "The frogs are green.",
-        "spanish": "Las ranas son verdes.",
-        "explanation": "'Las ranas' = the frogs (feminine plural). 'Son' (ser) for characteristic. 'Verdes' agrees in gender and number."
-      },
-      {
-        "english": "There are many trees in the forest.",
-        "spanish": "Hay muchos árboles en el bosque.",
-        "explanation": "'Hay' = there are, 'muchos árboles' = many trees (masc. plural), 'en el bosque' = in the forest."
-      },
-      {
-        "english": "The cat is under the tree.",
-        "spanish": "La gata está debajo del árbol.",
-        "explanation": "'Está' (estar) for location. 'Debajo del árbol' = under the tree."
-      },
-      {
-        "english": "I like the mountains and the river.",
-        "spanish": "Me gustan las montañas y el río.",
-        "explanation": "'Me gustan' for plural nouns. 'Las montañas' = the mountains, 'y' = and, 'el río' = the river."
-      }
-    ]
-  },
+  "exercises": [
+    {
+      "id": "ex-001",
+      "type": "multiple-choice",
+      "pillar": "vocabulary",
+      "question": "What is 'el león' in English?",
+      "options": ["lion", "tiger", "bear", "wolf"],
+      "answer": "lion"
+    },
+    {
+      "id": "ex-002",
+      "type": "multiple-choice",
+      "pillar": "vocabulary",
+      "question": "What is 'la montaña' in English?",
+      "options": ["valley", "mountain", "hill", "beach"],
+      "answer": "mountain"
+    },
+    {
+      "id": "ex-003",
+      "type": "fill-in-blank",
+      "pillar": "vocabulary",
+      "question": "How do you say 'the dog' in Spanish?",
+      "answer": "el perro"
+    },
+    {
+      "id": "ex-004",
+      "type": "multiple-choice",
+      "pillar": "vocabulary",
+      "question": "What is 'verde' in English?",
+      "options": ["red", "blue", "green", "white"],
+      "answer": "green"
+    },
+    {
+      "id": "ex-005",
+      "type": "multiple-choice",
+      "pillar": "vocabulary",
+      "question": "What is 'el lago' in English?",
+      "options": ["river", "ocean", "lake", "beach"],
+      "answer": "lake"
+    },
+    {
+      "id": "ex-006",
+      "type": "fill-in-blank",
+      "pillar": "vocabulary",
+      "question": "How do you say 'the cat' in Spanish?",
+      "answer": "el gato"
+    },
+    {
+      "id": "ex-007",
+      "type": "multiple-choice",
+      "pillar": "grammar",
+      "question": "Which form of 'ser' is correct? 'El perro ___ grande.'",
+      "options": ["es", "son", "está", "tiene"],
+      "answer": "es"
+    },
+    {
+      "id": "ex-008",
+      "type": "multiple-choice",
+      "pillar": "grammar",
+      "question": "Which form of 'ser' is correct? 'Los perros ___ grandes.'",
+      "options": ["es", "son", "está", "tienen"],
+      "answer": "son"
+    },
+    {
+      "id": "ex-009",
+      "type": "multiple-choice",
+      "pillar": "grammar",
+      "question": "Which word means 'there is/are'?",
+      "options": ["hay", "ser", "estar", "tener"],
+      "answer": "hay"
+    },
+    {
+      "id": "ex-010",
+      "type": "multiple-choice",
+      "pillar": "grammar",
+      "question": "Which is correct? 'Me ___ gusta el mar.'",
+      "options": ["me", "te", "le", "nos"],
+      "answer": "me"
+    },
+    {
+      "id": "ex-011",
+      "type": "multiple-choice",
+      "pillar": "grammar",
+      "question": "Which is correct? 'Los pájaros ___ bonitos.'",
+      "options": ["son", "está", "tiene", "hay"],
+      "answer": "son"
+    },
+    {
+      "id": "ex-012",
+      "type": "multiple-choice",
+      "pillar": "grammar",
+      "question": "'El perro ___ en el jardín.' Which verb?",
+      "options": ["está", "es", "tiene", "hay"],
+      "answer": "está"
+    },
+    {
+      "id": "ex-013",
+      "type": "fill-in-blank",
+      "pillar": "vocabulary",
+      "question": "How do you say 'the tree' in Spanish?",
+      "answer": "el árbol"
+    },
+    {
+      "id": "ex-014",
+      "type": "multiple-choice",
+      "pillar": "vocabulary",
+      "question": "What is 'la rana' in English?",
+      "options": ["frog", "snake", "fish", "bird"],
+      "answer": "frog"
+    },
+    {
+      "id": "ex-015",
+      "type": "multiple-choice",
+      "pillar": "vocabulary",
+      "question": "What does 'alto/a' mean?",
+      "options": ["tall/high", "big/large", "beautiful", "small"],
+      "answer": "tall/high"
+    }
+  ],
   "cultural_notes": [
-    "Spanish-speaking countries have incredibly rich biodiversity. From the Amazon rainforest in South America to the Sahara's edge in North Africa.",
-    "'El perro es el mejor amigo del hombre' = 'The dog is man's best friend' — a common saying in Spanish.",
-    "In many Latin American cultures, the rooster ('el gallo') is a symbol of courage and pride.",
-    "The toucan ('el tucán') is a beloved bird in Central and South America and appears in many children's stories.",
-    "Bullfighting ('la corrida de toros') is a controversial tradition in Spain with deep cultural roots.",
-    "In Mexico, the golden eagle ('el águila dorada') is on the national flag, inspired by an Aztec prophecy.",
-    "Spanish has many expressions with animals: 'estar como una cabra' (to be crazy, lit. 'like a goat'), 'perro caliente' (hot dog).",
-    "Spain's 'Don Quixote' features the famous horse Rocinante ('Rocín'), a thin, old horse."
+    {
+      "title": "Animals in Spanish culture",
+      "content": "In Spanish-speaking cultures, animals feature prominently in proverbs and expressions. 'Estar como una cabra' means 'to be crazy' (literally: to be like a goat). 'Ganar el pan con el sudor de tu frente' (earning your bread with the sweat of your brow) uses animals indirectly through farming imagery. Many Spanish children learn animal names through songs like 'Bibidi-Bobidi-Bú' and nursery rhymes featuring farm animals."
+    }
   ],
   "dialogues": [
     {
-      "title": "En el parque — At the park",
-      "description": "Two people talking about animals they see in a park.",
-      "speaker_labels": ["Persona A", "Persona B"],
-      "lines": [
-        {"spanish": "¡Mira! Hay un pájaro en ese árbol.", "english": "Look! There's a bird in that tree."},
-        {"spanish": "Sí, es muy bonito. ¿Cómo es?", "english": "Yes, it's very pretty. What does it look like?"},
-        {"spanish": "Es pequeño y verde. Tiene plumas bonitas.", "english": "It's small and green. It has beautiful feathers."},
-        {"spanish": "¡Ah! Es un perico. Me gustan los pericos.", "english": "Oh! It's a parakeet. I like parakeets."},
-        {"spanish": "Mira también. Hay un perro en el pasto.", "english": "Look too. There's a dog in the grass."},
-        {"spanish": "El perro está corriendo. ¡Qué rápido es!", "english": "The dog is running. How fast it is!"}
-      ]
-    },
-    {
-      "title": "En la granja — At the farm",
-      "description": "A child visiting a farm and learning about farm animals.",
-      "speaker_labels": ["Niño", "Granjero"],
-      "lines": [
-        {"spanish": "¿Qué animales hay en la granja?", "english": "What animals are there on the farm?"},
-        {"spanish": "Hay vacas, caballos, cerdos y gallinas.", "english": "There are cows, horses, pigs, and chickens."},
-        {"spanish": "¡La vaca es grande! ¿Cómo se llama?", "english": "The cow is big! What's her name?"},
-        {"spanish": "Se llama Loba. Tiene leche para el queso.", "english": "Her name is Loba. She has milk for cheese."},
-        {"spanish": "¿El caballo puede correr muy rápido?", "english": "Can the horse run very fast?"},
-        {"spanish": "Sí, el caballo es muy rápido. ¡Es el más rápido!", "english": "Yes, the horse is very fast. It's the fastest!"}
-      ]
+      "title": "At the zoo",
+      "content": "Person A: ¿Qué animales hay en el zoológico?\nPerson B: Hay leones, tigres y elefantes.\nPerson A: ¿Qué animal te gusta más?\nPerson B: Me gusta el elefante. Es muy grande.\nPerson A: Sí, pero los tigres son bonitos también."
     }
   ],
-  "word_count": 96
+  "word_count": 111
 }

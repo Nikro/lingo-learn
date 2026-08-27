@@ -8,19 +8,19 @@
     { "id": 3, "target": "la verdura", "source": "vegetable", "gender": "f.", "type": "food" },
     { "id": 4, "target": "la ensalada", "source": "salad", "gender": "f.", "type": "food" },
     { "id": 5, "target": "el arroz", "source": "rice", "gender": "m.", "type": "food" },
-    { "id": 6, "target": "los huevos", "source": "eggs", "gender": "m. pl.", "type": "food" },
+    { "id": 6, "target": "los huevos", "source": "eggs", "gender": "m.", "type": "food" },
     { "id": 7, "target": "la sopa", "source": "soup", "gender": "f.", "type": "food" },
     { "id": 8, "target": "la cuenta", "source": "the bill", "gender": "f.", "type": "food" },
     { "id": 9, "target": "la propina", "source": "tip", "gender": "f.", "type": "food" },
-    { "id": 10, "target": "el super / el supermercado", "source": "supermarket", "gender": "m.", "type": "shopping" },
-    { "id": 11, "target": "la tienda", "source": "store / shop", "gender": "f.", "type": "shopping" },
-    { "id": 12, "target": "la compra", "source": "groceries / shopping", "gender": "f.", "type": "shopping" },
-    { "id": 13, "target": "pagar", "source": "to pay", "gender": "v.", "type": "shopping" },
-    { "id": 14, "target": "el precio", "source": "price", "gender": "m.", "type": "shopping" },
-    { "id": 15, "target": "barato / caro", "source": "cheap / expensive", "gender": "adj.", "type": "shopping" },
-    { "id": 16, "target": "la cesta", "source": "shopping basket", "gender": "f.", "type": "shopping" },
-    { "id": 17, "target": "el carrito", "source": "shopping cart", "gender": "m.", "type": "shopping" },
-    { "id": 18, "target": "el dinero", "source": "money", "gender": "m.", "type": "shopping" },
+    { "id": 10, "target": "el super / el supermercado", "source": "supermarket", "gender": "m.", "type": "place" },
+    { "id": 11, "target": "la tienda", "source": "store / shop", "gender": "f.", "type": "place" },
+    { "id": 12, "target": "la compra", "source": "groceries / shopping", "gender": "f.", "type": "food" },
+    { "id": 13, "target": "pagar", "source": "to pay", "gender": "", "type": "verb" },
+    { "id": 14, "target": "el precio", "source": "price", "gender": "m.", "type": "food" },
+    { "id": 15, "target": "barato / caro", "source": "cheap / expensive", "gender": "", "type": "adjective" },
+    { "id": 16, "target": "la cesta", "source": "shopping basket", "gender": "f.", "type": "object" },
+    { "id": 17, "target": "el carrito", "source": "shopping cart", "gender": "m.", "type": "object" },
+    { "id": 18, "target": "el dinero", "source": "money", "gender": "m.", "type": "object" },
     { "id": 19, "target": "el plato principal", "source": "main course", "gender": "m.", "type": "food" },
     { "id": 20, "target": "la entrada / el aperitivo", "source": "appetizer / starter", "gender": "f./m.", "type": "food" },
     { "id": 21, "target": "el postre", "source": "dessert", "gender": "m.", "type": "food" },
@@ -28,91 +28,105 @@
     { "id": 23, "target": "la cerveza", "source": "beer", "gender": "f.", "type": "food" },
     { "id": 24, "target": "el agua", "source": "water", "gender": "f.", "type": "food" },
     { "id": 25, "target": "el vino", "source": "wine", "gender": "m.", "type": "food" },
-    { "id": 26, "target": "cuánto cuesta?", "source": "how much does it cost?", "gender": "—", "type": "phrase" },
-    { "id": 27, "target": "me gustaría pedir...", "source": "I would like to order...", "gender": "—", "type": "phrase" },
-    { "id": 28, "target": "la cuenta, por favor", "source": "the bill, please", "gender": "—", "type": "phrase" },
-    { "id": 29, "target": "con hielo", "source": "with ice", "gender": "—", "type": "phrase" },
-    { "id": 30, "target": "sin azúcar", "source": "without sugar", "gender": "—", "type": "phrase" },
-    { "id": 31, "target": "la panadería", "source": "bakery", "gender": "f.", "type": "shopping" },
-    { "id": 32, "target": "la carnicería", "source": "butcher shop", "gender": "f.", "type": "shopping" },
-    { "id": 33, "target": "la frutería", "source": "fruit shop", "gender": "f.", "type": "shopping" },
-    { "id": 34, "target": "la pescadería", "source": "fishmonger", "gender": "f.", "type": "shopping" },
-    { "id": 35, "target": "una botella de agua", "source": "a bottle of water", "gender": "f.", "type": "food" },
-    { "id": 36, "target": "un kilo de manzanas", "source": "a kilo of apples", "gender": "m.", "type": "food" },
-    { "id": 37, "target": "cuesta mucho", "source": "it costs a lot / it's expensive", "gender": "—", "type": "phrase" },
-    { "id": 38, "target": "es muy barato", "source": "it's very cheap", "gender": "—", "type": "phrase" },
-    { "id": 39, "target": "¿tienen...?", "source": "do you have...?", "gender": "—", "type": "phrase" },
-    { "id": 40, "target": "el cajero", "source": "cash register / ATM", "gender": "m.", "type": "shopping" },
-    { "id": 41, "target": "la fruta", "source": "fruit", "gender": "f.", "type": "food" },
-    { "id": 42, "target": "el pan", "source": "bread", "gender": "m.", "type": "food" },
-    { "id": 43, "target": "la leche", "source": "milk", "gender": "f.", "type": "food" },
-    { "id": 44, "target": "el queso", "source": "cheese", "gender": "m.", "type": "food" },
-    { "id": 45, "target": "el pollo", "source": "chicken", "gender": "m.", "type": "food" },
-    { "id": 46, "target": "la manzana", "source": "apple", "gender": "f.", "type": "food" },
+    { "id": 26, "target": "cuánto cuesta?", "source": "how much does it cost?", "gender": "", "type": "phrase" },
+    { "id": 27, "target": "me gustaría pedir...", "source": "I would like to order...", "gender": "", "type": "phrase" },
+    { "id": 28, "target": "la cuenta, por favor", "source": "the bill, please", "gender": "", "type": "phrase" },
+    { "id": 29, "target": "con hielo", "source": "with ice", "gender": "", "type": "phrase" },
+    { "id": 30, "target": "sin azúcar", "source": "without sugar", "gender": "", "type": "phrase" },
+    { "id": 31, "target": "la panadería", "source": "bakery", "gender": "f.", "type": "place" },
+    { "id": 32, "target": "la carnicería", "source": "butcher shop", "gender": "f.", "type": "place" },
+    { "id": 33, "target": "la frutería", "source": "fruit shop", "gender": "f.", "type": "place" },
+    { "id": 34, "target": "la pescadería", "source": "fishmonger", "gender": "f.", "type": "place" },
+    { "id": 35, "target": "una botella de agua", "source": "a bottle of water", "gender": "", "type": "phrase" },
+    { "id": 36, "target": "un kilo de manzanas", "source": "a kilo of apples", "gender": "", "type": "phrase" },
+    { "id": 37, "target": "cuesta mucho", "source": "it costs a lot / it's expensive", "gender": "", "type": "phrase" },
+    { "id": 38, "target": "es muy barato", "source": "it's very cheap", "gender": "", "type": "phrase" },
+    { "id": 39, "target": "¿tienen...?", "source": "do you have...?", "gender": "", "type": "phrase" },
+    { "id": 40, "target": "el cajero", "source": "cash register / ATM", "gender": "m.", "type": "object" },
+    { "id": 41, "target": "el pan", "source": "bread", "gender": "m.", "type": "food" },
+    { "id": 42, "target": "la leche", "source": "milk", "gender": "f.", "type": "food" },
+    { "id": 43, "target": "el queso", "source": "cheese", "gender": "m.", "type": "food" },
+    { "id": 44, "target": "la manzana", "source": "apple", "gender": "f.", "type": "food" },
+    { "id": 45, "target": "el plátano / la banana", "source": "banana / plantain", "gender": "m./f.", "type": "food" },
+    { "id": 46, "target": "la naranja", "source": "orange", "gender": "f.", "type": "food" },
     { "id": 47, "target": "el tomate", "source": "tomato", "gender": "m.", "type": "food" },
-    { "id": 48, "target": "la sal", "source": "salt", "gender": "f.", "type": "food" },
-    { "id": 49, "target": "el azúcar", "source": "sugar", "gender": "m.", "type": "food" },
-    { "id": 50, "target": "la bolsa", "source": "bag", "gender": "f.", "type": "noun" },
-    { "id": 51, "target": "el descuento", "source": "discount", "gender": "m.", "type": "noun" },
-    { "id": 52, "target": "la oferta", "source": "sale / offer", "gender": "f.", "type": "noun" }
+    { "id": 48, "target": "la cebolla", "source": "onion", "gender": "f.", "type": "food" },
+    { "id": 49, "target": "la patata / la papa", "source": "potato", "gender": "f.", "type": "food" },
+    { "id": 50, "target": "el pollo", "source": "chicken", "gender": "m.", "type": "food" },
+    { "id": 51, "target": "el jamón", "source": "ham", "gender": "m.", "type": "food" },
+    { "id": 52, "target": "el café", "source": "coffee", "gender": "m.", "type": "food" }
   ],
-  "grammar": [],
-  "pronunciation": [],
+  "grammar": [
+    {
+      "title": "QUERER + infinitive — I want to",
+      "content": "The verb **querer** (to want) is one of the most common irregular verbs in Spanish. It follows a regular pattern in the present tense except for the first person singular.\n\nConjugation:\n- yo **quiero** (I want)\n- tú **quieres** (you want)\n- él/ella **quiere** (he/she wants)\n- nosotros **queremos** (we want)\n- vosotros **queréis** (you all want)\n- ellos **quieren** (they want)\n\nTo say 'I want to eat', you add the infinitive verb after 'quiero':\n- Quiero **comer** una manzana. (I want to eat an apple.)\n- Quiero **beber** agua. (I want to drink water.)\n- Quiero **pagar** la cuenta. (I want to pay the bill.)\n\nThe infinitive never changes — only 'querer' is conjugated.",
+      "examples": [
+        "Quiero comer una ensalada. (I want to eat a salad.)",
+        "Quiero beber un vaso de agua. (I want to drink a glass of water.)",
+        "Quiero pagar con tarjeta. (I want to pay with card.)",
+        "¿Quieres comprar pan? (Do you want to buy bread?)"
+      ],
+      "note": "Remember: 'querer' is stem-changing (e → ie). Only 'nosotros' and 'vosotros' keep the regular 'e'."
+    },
+    {
+      "title": "HAY vs ESTÁ — There is vs It is located",
+      "content": "Spanish has two ways to talk about presence and location:\n\n**HAY** (from 'haber') — used for existence: 'there is' or 'there are'\n- Hay pan en la tienda. (There is bread in the store.)\n- Hay muchos clientes aquí. (There are many customers here.)\n\n**ESTÁ** (from 'estar') — used for specific location of something known\n- El pan está en la tienda. (The bread is in the store.)\n\nKey difference:\n- Use **hay** when introducing something new or unknown\n- Use **está** when you already know what you're talking about and want to say where it is\n\nOther common expressions:\n- **Hay** que + infinitive = It is necessary to + ... (general obligation)\n- Hay que pagar. (One must pay / You have to pay.)",
+      "examples": [
+        "¿Hay leche en la nevera? (Is there milk in the fridge?)",
+        "La leche está en la nevera. (The milk is in the fridge.)",
+        "¿Hay queso en la tienda? (Is there cheese in the store?)",
+        "El queso está en la estantería. (The cheese is on the shelf.)"
+      ],
+      "note": "In a shop context, use 'hay' to ask about availability and 'está' to point to where something is."
+    },
+    {
+      "title": "EL / LA vs UN / UNA — definite and indefinite articles",
+      "content": "Spanish nouns have gender, and articles must match:\n\n**Definite articles** (the):\n- **el** pan (m. sing.)\n- **la** leche (f. sing.)\n- **los** huevos (m. pl.)\n- **las** manzanas (f. pl.)\n\n**Indefinite articles** (a / some):\n- **un** pan (m. sing.)\n- **una** leche (f. sing.)\n- **unos** huevos (m. pl.)\n- **unas** manzanas (f. pl.)\n\nIn the supermarket, you can use either:\n- Quiero **el** pan. = I want THE bread (specific)\n- Quiero **un** pan. = I want A loaf of bread (any loaf)\n- Quiero **dos** manzanas. = I want two apples (number replaces article)\n\nSome foods are always singular, some are always plural:\n- **la** pasta (always singular, even though it's many strands)\n- **los** huevos (always plural in Spanish)",
+      "examples": [
+        "Quiero una botella de agua. (I want a bottle of water.)",
+        "Necesito dos kilos de arroz. (I need two kilos of rice.)",
+        "El pan está fresco hoy. (The bread is fresh today.)",
+        "¿Tienes las manzanas rojas? (Do you have the red apples?)"
+      ],
+      "note": "Article agreement is essential — mismatching gender or number is one of the most common errors for English speakers."
+    }
+  ],
+  "pronunciation": {
+    "tips": [
+      "Spanish vowels are always short and clear — never diphthongized like in English. Practice: la manzana (not 'man-zuh-nuh').",
+      "The 'rr' is a strong trill. Place your tongue against the roof of your mouth and vibrate: el carretón, la carnicería.",
+      "'D' between vowels is soft, almost like an English 'th' or a gentle tap. Practice: la cuenta, el dinero.",
+      "'J' is a strong throat sound, like clearing your throat: la jalea, la jarra de agua.",
+      "'Ñ' is the 'ny' sound in 'canyon': la piña, el señor, mañana."
+    ],
+    "tricky_sounds": [
+      { "sound": "rr", "description": "Strong trilled 'r', must vibrate the tongue against the roof of mouth", "examples": ["carne", "carnicería", "carrito", "carro"] },
+      { "sound": "d (between vowels)", "description": "Soft 'd', almost like a gentle 'th' sound", "examples": ["cuenta", "dinero", "comida", "desayuno"] },
+      { "sound": "j", "description": "Strong throat 'h' sound", "examples": ["jamón", "jugo", "jarra", "jugo de naranja"] },
+      { "sound": "b/v", "description": "In Spanish, 'b' and 'v' sound the same — a soft lip-close, not a 'v' as in English", "examples": ["cebolla", "vaso", "cerveza", "vino"] }
+    ]
+  },
   "exercises": [
+    { "id": "ex-001", "type": "multiple-choice", "pillar": "vocabulary", "question": "What is 'el pescado' in English?", "options": ["chicken", "fish", "meat", "rice"], "answer": "fish" },
+    { "id": "ex-002", "type": "multiple-choice", "pillar": "vocabulary", "question": "What is 'la cuenta' in English?", "options": ["the bill", "the menu", "the drink", "the tip"], "answer": "the bill" },
+    { "id": "ex-003", "type": "fill-in-blank", "pillar": "vocabulary", "question": "How do you say 'bread' in Spanish?", "answer": "el pan" },
+    { "id": "ex-004", "type": "multiple-choice", "pillar": "vocabulary", "question": "What does 'barato' mean?", "options": ["expensive", "cheap", "fresh", "sweet"], "answer": "cheap" },
+    { "id": "ex-005", "type": "multiple-choice", "pillar": "grammar", "question": "Which is correct? 'Quiero ___ agua.'", "options": ["beber", "comer", "pagar", "comprar"], "answer": "beber" },
+    { "id": "ex-006", "type": "multiple-choice", "pillar": "grammar", "question": "Which article goes with 'leche'?", "options": ["la", "el", "los", "las"], "answer": "la" },
+    { "id": "ex-007", "type": "fill-in-blank", "pillar": "vocabulary", "question": "How do you say 'the soup' in Spanish?", "answer": "la sopa" },
+    { "id": "ex-008", "type": "multiple-choice", "pillar": "grammar", "question": "What does '¿Hay pan?' mean?", "options": ["Is there bread?", "Where is the bread?", "Is the bread fresh?", "Do you want bread?"], "answer": "Is there bread?" },
+    { "id": "ex-009", "type": "fill-in-blank", "pillar": "vocabulary", "question": "How do you say 'rice' in Spanish?", "answer": "el arroz" },
+    { "id": "ex-010", "type": "multiple-choice", "pillar": "grammar", "question": "'Yo ___ comer.' What is the correct form of 'querer'?", "options": ["quiero", "quiere", "queremos", "quieren"], "answer": "quiero" },
+    { "id": "ex-011", "type": "multiple-choice", "pillar": "vocabulary", "question": "What is 'la panadería'?", "options": ["bakery", "butcher shop", "fruit shop", "fishmonger"], "answer": "bakery" },
+    { "id": "ex-012", "type": "fill-in-blank", "pillar": "grammar", "question": "Complete: 'La leche ___ en la nevera.' (is located)", "answer": "está" },
+    { "id": "ex-013", "type": "multiple-choice", "pillar": "vocabulary", "question": "What is 'los huevos' in English?", "options": ["the eggs", "the ham", "the milk", "the cheese"], "answer": "the eggs" },
+    { "id": "ex-014", "type": "multiple-choice", "pillar": "grammar", "question": "Which is correct? 'Quiero ___ un kilo de manzanas.'", "options": ["comprar", "comer", "beber", "pagar"], "answer": "comprar" },
+    { "id": "ex-015", "type": "multiple-choice", "pillar": "vocabulary", "question": "What does 'cuánto cuesta?' mean?", "options": ["how much does it cost?", "what is this?", "where is it?", "is it good?"], "answer": "how much does it cost?" }
+  ],
+  "dialogues": [
     {
-      "type": "matching",
-      "question": "Match the food vocabulary:",
-      "pairs": [
-        { "target": "el pan", "source": "bread" },
-        { "target": "la fruta", "source": "fruit" },
-        { "target": "los huevos", "source": "eggs" },
-        { "target": "la sopa", "source": "soup" },
-        { "target": "el arroz", "source": "rice" }
-      ],
-      "explanation": "These are common food items you'll encounter at breakfast, lunch, or dinner."
-    },
-    {
-      "type": "matching",
-      "question": "Match the shopping vocabulary:",
-      "pairs": [
-        { "target": "el supermercado", "source": "supermarket" },
-        { "target": "la cuenta", "source": "the bill" },
-        { "target": "pagar", "source": "to pay" },
-        { "target": "el precio", "source": "price" }
-      ],
-      "explanation": "Essential vocabulary for shopping and dining out in Spanish."
-    },
-    {
-      "type": "exercise",
-      "question": "What does 'barato' mean?",
-      "options": ["Expensive", "Cheap", "Delicious", "Fresh"],
-      "correct": 1,
-      "explanation": "'Barato' means cheap. 'Caro' means expensive. 'Este producto es muy barato' (This product is very cheap)."
-    },
-    {
-      "type": "fill-in-blank",
-      "question": "Complete: '¿______ cuesta esto?' (How much does this cost?)",
-      "correct": "Cuánto",
-      "explanation": "'¿Cuánto cuesta?' is the standard way to ask for the price. The accent on 'Cuánto' is mandatory."
-    },
-    {
-      "type": "fill-in-blank",
-      "question": "Complete: 'La ______, por favor.' (The bill, please.)",
-      "correct": "cuenta",
-      "explanation": "'La cuenta, por favor' is how you ask for the bill at a restaurant. 'Cuenta' is a feminine noun."
-    },
-    {
-      "type": "exercise",
-      "question": "What does 'caro' mean?",
-      "options": ["Cheap", "Beautiful", "Expensive", "Small"],
-      "correct": 2,
-      "explanation": "'Caro' means expensive. 'Barato' means cheap. Remember: 'Ese vestido es muy caro' (That dress is very expensive)."
-    },
-    {
-      "type": "fill-in-blank",
-      "question": "Complete: 'Yo ______ la compra todos los sábados.' (I do the shopping every Saturday.)",
-      "correct": "hago",
-      "explanation": "'Hacer la compra' is the common expression for grocery shopping. It's an irregular verb: yo hago."
+      "title": "At the supermarket",
+      "content": "Person A: ¿Qué necesitamos para la cena?\nPerson B: Necesitamos arroz, pollo, verduras y agua.\nPerson A: ¿Hay pan en la tienda?\nPerson B: No, pero hay una panadería cerca. ¿Quieres ir?\nPerson A: Sí, quiero comprar pan y queso."
     }
   ]
 }

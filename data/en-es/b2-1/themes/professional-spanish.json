@@ -1,499 +1,151 @@
 {
   "id": "professional-spanish",
-  "title": "Professional & Business Spanish Vocabulary",
+  "title": "Professional Spanish",
   "description": "Core vocabulary for workplace communication, job applications, meetings, and professional correspondence.",
   "vocabulary": [
+    { "id": 1, "target": "currículum vitae", "source": "CV / resume", "gender": "m.", "type": "noun" },
+    { "id": 2, "target": "candidatura", "source": "job application", "gender": "f.", "type": "noun" },
+    { "id": 3, "target": "entrevista de trabajo", "source": "job interview", "gender": "f.", "type": "noun" },
+    { "id": 4, "target": "oferta de empleo", "source": "job offer", "gender": "f.", "type": "noun" },
+    { "id": 5, "target": "despedido/a", "source": "fired / dismissed", "gender": "m./f.", "type": "adjective" },
+    { "id": 6, "target": "dimisión", "source": "resignation", "gender": "f.", "type": "noun" },
+    { "id": 7, "target": "nómina", "source": "payslip", "gender": "f.", "type": "noun" },
+    { "id": 8, "target": "contrato indefinido", "source": "permanent contract", "gender": "m.", "type": "noun" },
+    { "id": 9, "target": "contrato temporal", "source": "temporary contract", "gender": "m.", "type": "noun" },
+    { "id": 10, "target": "periodo de prueba", "source": "probationary period", "gender": "m.", "type": "noun" },
+    { "id": 11, "target": "ascenso", "source": "promotion", "gender": "m.", "type": "noun" },
+    { "id": 12, "target": "sueldo / salario", "source": "salary / wage", "gender": "m.", "type": "noun" },
+    { "id": 13, "target": "la reunión", "source": "meeting", "gender": "f.", "type": "noun" },
+    { "id": 14, "target": "el informe", "source": "report", "gender": "m.", "type": "noun" },
+    { "id": 15, "target": "el presupuesto", "source": "budget", "gender": "m.", "type": "noun" },
+    { "id": 16, "target": "los beneficios", "source": "profits / benefits", "gender": "m.", "type": "noun" },
+    { "id": 17, "target": "las pérdidas", "source": "losses", "gender": "f.", "type": "noun" },
+    { "id": 18, "target": "la cuota de mercado", "source": "market share", "gender": "f.", "type": "noun" },
+    { "id": 19, "target": "la competencia", "source": "competition", "gender": "f.", "type": "noun" },
+    { "id": 20, "target": "el cliente", "source": "client / customer", "gender": "m.", "type": "noun" },
+    { "id": 21, "target": "el jefe / la jefa", "source": "boss / manager", "gender": "m./f.", "type": "noun" },
+    { "id": 22, "target": "el colega / el compañero", "source": "colleague", "gender": "m.", "type": "noun" },
+    { "id": 23, "target": "la beca", "source": "scholarship", "gender": "f.", "type": "noun" },
+    { "id": 24, "target": "la tesis", "source": "thesis", "gender": "f.", "type": "noun" },
+    { "id": 25, "target": "el artículo científico", "source": "scientific paper", "gender": "m.", "type": "noun" },
+    { "id": 26, "target": "hipótesis", "source": "hypothesis", "gender": "f.", "type": "noun" },
+    { "id": 27, "target": "el máster / el posgrado", "source": "master's degree / postgraduate", "gender": "m.", "type": "noun" },
+    { "id": 28, "target": "la investigación", "source": "research", "gender": "f.", "type": "noun" },
+    { "id": 29, "target": "estimado/a Sr./Sra.", "source": "Dear Mr./Ms.", "gender": "m./f.", "type": "phrase" },
+    { "id": 30, "target": "atentamente", "source": "sincerely (formal closing)", "gender": "", "type": "phrase" },
+    { "id": 31, "target": "le escribo para...", "source": "I am writing to...", "gender": "", "type": "phrase" },
+    { "id": 32, "target": "queda a su disposición", "source": "I remain at your disposal", "gender": "", "type": "phrase" },
+    { "id": 33, "target": "agradeciendo de antemano", "source": "thanking you in advance", "gender": "", "type": "phrase" },
+    { "id": 34, "target": "en respuesta a su correo", "source": "in response to your email", "gender": "", "type": "phrase" },
+    { "id": 35, "target": "el sueldo fijo", "source": "fixed salary", "gender": "m.", "type": "noun" },
+    { "id": 36, "target": "los ingresos", "source": "revenue / income", "gender": "m.", "type": "noun" },
+    { "id": 37, "target": "la reunión de equipo", "source": "team meeting", "gender": "f.", "type": "noun" },
+    { "id": 38, "target": "ocupar el puesto vacante", "source": "to fill the vacant position", "gender": "", "type": "phrase" },
+    { "id": 39, "target": "enviar mi candidatura", "source": "to send my application", "gender": "", "type": "phrase" },
+    { "id": 40, "target": "solicitar información", "source": "to request information", "gender": "", "type": "phrase" },
+    { "id": 41, "target": "la jubilación", "source": "retirement", "gender": "f.", "type": "noun" },
+    { "id": 42, "target": "el despido", "source": "dismissal / layoff", "gender": "m.", "type": "noun" },
+    { "id": 43, "target": "la indemnización", "source": "severance pay", "gender": "f.", "type": "noun" },
+    { "id": 44, "target": "la jornada laboral", "source": "working hours / shift", "gender": "f.", "type": "noun" },
+    { "id": 45, "target": "las vacaciones", "source": "vacation / holidays", "gender": "f.", "type": "noun" },
+    { "id": 46, "target": "el seguro de desempleo", "source": "unemployment insurance", "gender": "m.", "type": "noun" },
+    { "id": 47, "target": "la seguridad social", "source": "social security", "gender": "f.", "type": "noun" },
+    { "id": 48, "target": "el autónomo / el freelance", "source": "self-employed worker", "gender": "m.", "type": "noun" },
+    { "id": 49, "target": "la empresa", "source": "company / business", "gender": "f.", "type": "noun" },
+    { "id": 50, "target": "el departamento", "source": "department", "gender": "m.", "type": "noun" },
+    { "id": 51, "target": "la directiva", "source": "management / board", "gender": "f.", "type": "noun" },
+    { "id": 52, "target": "la productividad", "source": "productivity", "gender": "f.", "type": "noun" },
+    { "id": 53, "target": "la estrategia", "source": "strategy", "gender": "f.", "type": "noun" },
+    { "id": 54, "target": "el objetivo", "source": "goal / objective", "gender": "m.", "type": "noun" },
+    { "id": 55, "target": "el plazo", "source": "deadline / timeframe", "gender": "m.", "type": "noun" },
+    { "id": 56, "target": "el presupuesto", "source": "budget / estimate", "gender": "m.", "type": "noun" },
+    { "id": 57, "target": "el contrato", "source": "contract", "gender": "m.", "type": "noun" },
+    { "id": 58, "target": "la nómina", "source": "payroll / payslip", "gender": "f.", "type": "noun" },
+    { "id": 59, "target": "el sueldo neto", "source": "net salary", "gender": "m.", "type": "noun" },
+    { "id": 60, "target": "el sueldo bruto", "source": "gross salary", "gender": "m.", "type": "noun" }
+  ],
+  "grammar": [
     {
-      "id": 1,
-      "target": "currículum vitae",
-      "source": "CV / resume",
-      "gender": "m.",
-      "type": "noun"
+      "title": "FORMAL REGISTER — Usted vs. Tú",
+      "content": "Professional Spanish requires the formal register (**usted**) in almost all workplace communications. This changes verb conjugations and pronouns.\n\n**Usted conjugation** (3rd person singular, like él/ella):\n- yo hablo → usted **habla** (you speak)\n- yo escribo → usted **escribe** (you write)\n- yo tengo → usted **tiene** (you have)\n- yo voy → usted **va** (you go)\n- yo quiero → usted **quiere** (you want)\n\n**Tú conjugation** (informal):\n- tú hablas\n- tú escribes\n- tú tienes\n- tú vas\n- tú quieres\n\n**Key formal expressions**:\n- ¿**Qué tal le va?** (How are things going for you?) — formal\n- ¿**Qué tal te va?** (How are things going for you?) — informal\n- **Le agradezco** su tiempo. (I appreciate your time.) — formal\n- **Te agradezco** tu tiempo. — informal\n- **Me gustaría** solicitar... (I would like to request...) — always formal\n- **Quisiera** presentarle mi candidatura. (I would like to present you with my application.) — formal\n\n**Important**: Even when you know your boss informally, written communications (emails, cover letters) must always use usted.",
+      "examples": [
+        "Estimado Sr. García: Le escribo para solicitar información sobre la oferta de empleo.",
+        "Estimada Sra. López: Me gustaría presentar mi candidatura para el puesto de gerente.",
+        "Le agradecemos su interés en nuestra empresa. (We thank you for your interest in our company.)",
+        "Quedamos a su disposición para cualquier pregunta. (We remain at your disposal for any questions.)"
+      ],
+      "note": "When in doubt, always use the formal register. It is better to be too formal than too informal in professional contexts."
     },
     {
-      "id": 2,
-      "target": "candidatura",
-      "source": "job application",
-      "gender": "f.",
-      "type": "noun"
+      "title": "COVER LETTER STRUCTURE — Formal Writing Patterns",
+      "content": "Spanish cover letters (carta de presentación) follow a formal structure with set phrases. Master these formulaic expressions:\n\n**Opening**:\n- **Estimado/a Sr./Sra. [Apellido]:** (Dear Mr./Ms. [Last Name]:)\n- **A la atención del responsable de selección:** (Attention to the hiring manager:)\n- **Me dirijo a usted para...** (I am writing to you to...)\n- **Le escribo en referencia a la oferta de empleo...** (I am writing regarding the job offer...)\n\n**Body**:\n- **Cuento con [X] años de experiencia en...** (I have [X] years of experience in...)\n- **He trabajado en... donde he adquirido...** (I have worked at... where I have acquired...)\n- **Considero que mi perfil encaja bien con...** (I believe my profile fits well with...)\n- **Soy una persona organizada, responsable y...** (I am an organized, responsible and...)\n- **Me siento preparado/a para asumir...** (I feel prepared to take on...)\n\n**Closing**:\n- **Quedo a su disposición para una entrevista.** (I remain at your disposal for an interview.)\n- **Agradeciendo de antemano su atención.** (Thanking you in advance for your attention.)\n- **Le saluda atentamente,** (Yours faithfully,)\n- **Atentamente,** (Sincerely,)\n\n**Formal email phrases**:\n- **Le adjunto mi currículum vitae.** (I attach my CV.)\n- **Quedo a la espera de su respuesta.** (I await your response.)\n- **No dude en contactarme si necesita más información.** (Do not hesitate to contact me if you need more information.)",
+      "examples": [
+        "Estimada Sra. Martínez: Le escribo en referencia a la oferta de empleo publicada en su sitio web.",
+        "Cuento con cinco años de experiencia en marketing digital y me gustaría aportar mis conocimientos a su equipo.",
+        "Adjunto mi currículum vitae y mi carta de presentación.",
+        "Quedo a su entera disposición para concertar una entrevista. Le saluda atentamente."
+      ],
+      "note": "These formal expressions are formulaic and memorizable. They will make your cover letters sound professional and native-level."
     },
     {
-      "id": 3,
-      "target": "entrevista de trabajo",
-      "source": "job interview",
-      "gender": "f.",
-      "type": "noun"
+      "title": "JOB INTERVIEW — Question & Answer Patterns",
+      "content": "Job interviews in Spanish-speaking contexts follow predictable patterns. Knowing these structures will help you prepare.\n\n**Common interview questions**:\n- **¿Cuénteme sobre su experiencia?** (Tell me about your experience?)\n- **¿Por qué quiere trabajar en esta empresa?** (Why do you want to work at this company?)\n- **¿Cuáles son sus puntos fuertes y débiles?** (What are your strengths and weaknesses?)\n- **¿Dónde se ve dentro de cinco años?** (Where do you see yourself in five years?)\n- **¿Por qué dejó su último trabajo?** (Why did you leave your last job?)\n\n**Useful response patterns**:\n- **En mi trabajo anterior, me encargaba de...** (In my previous job, I was in charge of...)\n- **Una de mis principales responsabilidades era...** (One of my main responsibilities was...)\n- **Creo que mi mayor fortaleza es...** (I believe my greatest strength is...)\n- **Mi área de mejora es...** (My area for improvement is...)\n- **Estoy buscando una oportunidad para...** (I am looking for an opportunity to...)\n- **Me motiva especialmente...** (What motivates me especially is...)\n\n**Asking questions**:\n- **¿Podría describir las funciones del puesto?** (Could you describe the duties of the position?)\n- **¿Cuáles son las perspectivas de crecimiento?** (What are the growth prospects?)\n- **¿Cómo es el equipo con el que trabajaría?** (What is the team like that I would work with?)\n- **¿Qué tipo de formación ofrece la empresa?** (What kind of training does the company offer?)",
+      "examples": [
+        "En mi trabajo anterior, me encargaba de gestionar el equipo de ventas y aumentar la cuota de mercado en un 15%.",
+        "Creo que mi mayor fortaleza es la capacidad de trabajar bajo presión y cumplir los plazos.",
+        "Estoy buscando una oportunidad para crecer profesionalmente y contribuir a un equipo dinámico.",
+        "¿Podría describirme las funciones principales del puesto y las perspectivas de desarrollo?"
+      ],
+      "note": "Practice these response patterns aloud. The more familiar you are with them, the more confident you will sound in the interview."
     },
     {
-      "id": 4,
-      "target": "oferta de empleo",
-      "source": "job offer",
-      "gender": "f.",
-      "type": "noun"
-    },
-    {
-      "id": 5,
-      "target": "despedido/a",
-      "source": "fired / dismissed",
-      "gender": "m./f.",
-      "type": "adjective"
-    },
-    {
-      "id": 6,
-      "target": "dimisión",
-      "source": "resignation",
-      "gender": "f.",
-      "type": "noun"
-    },
-    {
-      "id": 7,
-      "target": "nómina",
-      "source": "payslip",
-      "gender": "f.",
-      "type": "noun"
-    },
-    {
-      "id": 8,
-      "target": "contrato indefinido",
-      "source": "permanent contract",
-      "gender": "m.",
-      "type": "noun"
-    },
-    {
-      "id": 9,
-      "target": "contrato temporal",
-      "source": "temporary contract",
-      "gender": "m.",
-      "type": "noun"
-    },
-    {
-      "id": 10,
-      "target": "periodo de prueba",
-      "source": "probationary period",
-      "gender": "m.",
-      "type": "noun"
-    },
-    {
-      "id": 11,
-      "target": "ascenso",
-      "source": "promotion",
-      "gender": "m.",
-      "type": "noun"
-    },
-    {
-      "id": 12,
-      "target": "sueldo / salario",
-      "source": "salary / wage",
-      "gender": "m.",
-      "type": "noun"
-    },
-    {
-      "id": 13,
-      "target": "la reunión",
-      "source": "meeting",
-      "gender": "f.",
-      "type": "noun"
-    },
-    {
-      "id": 14,
-      "target": "el informe",
-      "source": "report",
-      "gender": "m.",
-      "type": "noun"
-    },
-    {
-      "id": 15,
-      "target": "el presupuesto",
-      "source": "budget",
-      "gender": "m.",
-      "type": "noun"
-    },
-    {
-      "id": 16,
-      "target": "los beneficios",
-      "source": "profits / benefits",
-      "gender": "m.pl.",
-      "type": "noun"
-    },
-    {
-      "id": 17,
-      "target": "las pérdidas",
-      "source": "losses",
-      "gender": "f.pl.",
-      "type": "noun"
-    },
-    {
-      "id": 18,
-      "target": "la cuota de mercado",
-      "source": "market share",
-      "gender": "f.",
-      "type": "noun"
-    },
-    {
-      "id": 19,
-      "target": "la competencia",
-      "source": "competition",
-      "gender": "f.",
-      "type": "noun"
-    },
-    {
-      "id": 20,
-      "target": "el cliente",
-      "source": "client / customer",
-      "gender": "m.",
-      "type": "noun"
-    },
-    {
-      "id": 21,
-      "target": "el jefe / la jefa",
-      "source": "boss / manager",
-      "gender": "m./f.",
-      "type": "noun"
-    },
-    {
-      "id": 22,
-      "target": "el colega / el compañero",
-      "source": "colleague",
-      "gender": "m.",
-      "type": "noun"
-    },
-    {
-      "id": 23,
-      "target": "la beca",
-      "source": "scholarship",
-      "gender": "f.",
-      "type": "noun"
-    },
-    {
-      "id": 24,
-      "target": "la tesis",
-      "source": "thesis",
-      "gender": "f.",
-      "type": "noun"
-    },
-    {
-      "id": 25,
-      "target": "el artículo científico",
-      "source": "scientific paper",
-      "gender": "m.",
-      "type": "noun"
-    },
-    {
-      "id": 26,
-      "target": "hipótesis",
-      "source": "hypothesis",
-      "gender": "f.",
-      "type": "noun"
-    },
-    {
-      "id": 27,
-      "target": "el máster / el posgrado",
-      "source": "master's degree / postgraduate",
-      "gender": "m.",
-      "type": "noun"
-    },
-    {
-      "id": 28,
-      "target": "la investigación",
-      "source": "research",
-      "gender": "f.",
-      "type": "noun"
-    },
-    {
-      "id": 29,
-      "target": "estimado/a Sr./Sra.",
-      "source": "Dear Mr./Ms.",
-      "gender": "—",
-      "type": "phrase"
-    },
-    {
-      "id": 30,
-      "target": "atentamente",
-      "source": "sincerely (formal closing)",
-      "gender": "—",
-      "type": "adverb"
-    },
-    {
-      "id": 31,
-      "target": "le escribo para...",
-      "source": "I am writing to...",
-      "gender": "—",
-      "type": "phrase"
-    },
-    {
-      "id": 32,
-      "target": "queda a su disposición",
-      "source": "I remain at your disposal",
-      "gender": "—",
-      "type": "phrase"
-    },
-    {
-      "id": 33,
-      "target": "agradeciendo de antemano",
-      "source": "thanking you in advance",
-      "gender": "—",
-      "type": "phrase"
-    },
-    {
-      "id": 34,
-      "target": "en respuesta a su correo",
-      "source": "in response to your email",
-      "gender": "—",
-      "type": "phrase"
-    },
-    {
-      "id": 35,
-      "target": "el sueldo fijo",
-      "source": "fixed salary",
-      "gender": "m.",
-      "type": "phrase"
-    },
-    {
-      "id": 36,
-      "target": "los ingresos",
-      "source": "revenue / income",
-      "gender": "m.pl.",
-      "type": "noun"
-    },
-    {
-      "id": 37,
-      "target": "la reunión de equipo",
-      "source": "team meeting",
-      "gender": "f.",
-      "type": "phrase"
-    },
-    {
-      "id": 38,
-      "target": "ocupar el puesto vacante",
-      "source": "to fill the vacant position",
-      "gender": "—",
-      "type": "phrase"
-    },
-    {
-      "id": 39,
-      "target": "enviar mi candidatura",
-      "source": "to send my application",
-      "gender": "—",
-      "type": "phrase"
-    },
-    {
-      "id": 40,
-      "target": "solicitar información",
-      "source": "to request information",
-      "gender": "—",
-      "type": "phrase"
-    },
-    {
-      "target": "la carta de presentación",
-      "source": "the cover letter",
-      "type": "noun",
-      "gender": "f.",
-      "example": "Envié mi currículum y la carta de presentación.",
-      "id": 41
-    },
-    {
-      "target": "la vacante",
-      "source": "the vacancy",
-      "type": "noun",
-      "gender": "f.",
-      "example": "He visto una vacante en la empresa.",
-      "id": 42
-    },
-    {
-      "target": "el puesto vacante",
-      "source": "the empty position",
-      "type": "noun",
-      "gender": "m.",
-      "example": "Quiero ocupar el puesto vacante.",
-      "id": 43
-    },
-    {
-      "target": "la jornada laboral",
-      "source": "the working day",
-      "type": "noun",
-      "gender": "f.",
-      "example": "La jornada laboral es de ocho horas.",
-      "id": 44
-    },
-    {
-      "target": "el teletrabajo",
-      "source": "remote work",
-      "type": "noun",
-      "gender": "m.",
-      "example": "El teletrabajo es cada vez más común.",
-      "id": 45
-    },
-    {
-      "target": "la negociación salarial",
-      "source": "salary negotiation",
-      "type": "noun",
-      "gender": "f.",
-      "example": "La negociación salarial fue dura.",
-      "id": 46
-    },
-    {
-      "target": "las vacaciones",
-      "source": "the holidays",
-      "type": "noun",
-      "gender": "f.",
-      "example": "Tengo dos semanas de vacaciones.",
-      "id": 47
-    },
-    {
-      "target": "el día libre",
-      "source": "the day off",
-      "type": "noun",
-      "gender": "m.",
-      "example": "Mañana tengo día libre.",
-      "id": 48
-    },
-    {
-      "target": "renunciar al puesto",
-      "source": "to resign from the post",
-      "type": "phrase",
-      "example": "Decidió renunciar al puesto.",
-      "id": 49
-    },
-    {
-      "target": "ser despedido",
-      "source": "to be fired",
-      "type": "phrase",
-      "example": "Le despidieron sin aviso.",
-      "id": 50
-    },
-    {
-      "target": "pedir una prórroga",
-      "source": "to ask for an extension",
-      "type": "phrase",
-      "example": "Pedí una prórroga para entregar el informe.",
-      "id": 51
-    },
-    {
-      "target": "quedar en...",
-      "source": "to agree on / to meet at",
-      "type": "phrase",
-      "example": "Quedamos en enviar el informe mañana.",
-      "id": 52
-    },
-    {
-      "target": "dar parte de",
-      "source": "to report on",
-      "type": "phrase",
-      "example": "Daré parte de la reunión al equipo.",
-      "id": 53
-    },
-    {
-      "target": "atender al cliente",
-      "source": "to attend to the customer",
-      "type": "phrase",
-      "example": "Hay que atender al cliente con paciencia.",
-      "id": 54
-    },
-    {
-      "target": "plantear un problema",
-      "source": "to raise a problem",
-      "type": "phrase",
-      "example": "Quiero plantear un problema con el proyecto.",
-      "id": 55
-    },
-    {
-      "target": "resolver un conflicto",
-      "source": "to resolve a conflict",
-      "type": "phrase",
-      "example": "El jefe resolvió el conflicto rápidamente.",
-      "id": 56
-    },
-    {
-      "target": "alcanzar un objetivo",
-      "source": "to reach a goal",
-      "type": "phrase",
-      "example": "La empresa alcanzó el objetivo de ventas.",
-      "id": 57
-    },
-    {
-      "target": "superar las expectativas",
-      "source": "to exceed expectations",
-      "type": "phrase",
-      "example": "Los resultados superaron las expectativas.",
-      "id": 58
-    },
-    {
-      "target": "a disposición de",
-      "source": "at the disposal of",
-      "type": "phrase",
-      "example": "Quedo a su disposición para cualquier duda.",
-      "id": 59
-    },
-    {
-      "target": "quedar a su disposición",
-      "source": "to be at your disposal",
-      "type": "phrase",
-      "example": "Quedo a su disposición.",
-      "id": 60
+      "title": "PASSIVE VOICE & IMPERSONAL CONSTRUCTIONS",
+      "content": "Professional Spanish frequently uses passive and impersonal constructions, especially in reports, formal emails, and business writing. These create a formal, objective tone.\n\n**Se + verb (impersonal / passive se)**:\n- **Se requiere** un mínimo de 3 años de experiencia. (A minimum of 3 years of experience is required.)\n- **Se ofrece** formación continua. (Ongoing training is offered.)\n- **Se espera** una respuesta antes del viernes. (A response is expected before Friday.)\n\n**Passive with ser** (formal, written):\n- **El informe fue presentado** por el director. (The report was presented by the manager.)\n- **La oferta fue aceptada** sin reservas. (The offer was accepted without reservations.)\n- **Se han realizado** cambios significativos. (Significant changes have been made.) — present perfect passive\n\n**Formal reporting verbs**:\n- **Se informa de que...** (It is reported that...)\n- **Se comunica que...** (It is communicated that...)\n- **Se hace constar que...** (It is noted that...)\n\n**Using the infinitive for formal instructions**:\n- **Se ruega no fumar.** (Smoking is requested not to [i.e. No smoking please].)\n- **Para solicitar información, dirigirse a...** (To request information, go to...)\n- **Para más detalles, visitar la web.** (For more details, visit the website.)",
+      "examples": [
+        "Se requiere disponibilidad inmediata para incorporarse al equipo.",
+        "El contrato será firmado por ambas partes el próximo lunes.",
+        "Se informa de que las oficinas estarán cerradas durante las vacaciones de agosto.",
+        "Se ruega devolver la tarjeta de acceso al finalizar la jornada."
+      ],
+      "note": "The passive se (se + verb) is the most common formal construction in Spanish. It is used everywhere from job descriptions to official notices."
     }
   ],
-  "grammar": [],
-  "pronunciation": [],
+  "pronunciation": {
+    "tips": [
+      "Business Spanish uses many Latin-derived words with stress on the antepenultimate or penultimate syllable: 'candidatura' (can-di-da-TU-ra), 'productividad' (pro-duc-ti-vi-DAD), 'estrategia' (es-tra-te-ja).",
+      "'j' in 'jefe' and 'jornada' is a strong throat sound — not like English 'j'.",
+      "'rr' in 'informe' is light between vowels (single tap): in-FOR-meh.",
+      "The 'c' before 'e/i' sounds like 'th' in Spain (IN-for-me) and like 's' in Latin America (IN-for-meh).",
+      "Formal Spanish pronunciation is clearer and more deliberate than everyday speech — enunciate the ending of each word."
+    ],
+    "tricky_sounds": [
+      { "sound": "j", "description": "Strong throat 'h' sound, not like English 'j'", "examples": ["jefe", "jornada", "jubilación", "despedido"] },
+      { "sound": "rr (between vowels)", "description": "Light tap between vowels; trill at word start", "examples": ["informe", "empresa", "reporte", "cerrar"] },
+      { "sound": "c (before e/i)", "description": "'Th' in Spain, 's' in Latin America", "examples": ["candidatura", "competencia", "contrato", "cuenta"] },
+      { "sound": "v/b", "description": "Sound the same — soft lip-close, not English 'v'", "examples": ["vacaciones", "beneficios", "bruto", "neto"] }
+    ]
+  },
   "exercises": [
+    { "id": "ex-001", "type": "multiple-choice", "pillar": "vocabulary", "question": "What is 'la entrevista de trabajo'?", "options": ["job interview", "team meeting", "job offer", "training session"], "answer": "job interview" },
+    { "id": "ex-002", "type": "multiple-choice", "pillar": "vocabulary", "question": "What does 'despedido/a' mean?", "options": ["fired / dismissed", "promoted", "hired", "resigned"], "answer": "fired / dismissed" },
+    { "id": "ex-003", "type": "fill-in-blank", "pillar": "vocabulary", "question": "How do you say 'permanent contract' in Spanish?", "answer": "contrato indefinido" },
+    { "id": "ex-004", "type": "multiple-choice", "pillar": "vocabulary", "question": "What is 'la cuota de mercado'?", "options": ["market share", "sales target", "budget", "profit margin"], "answer": "market share" },
+    { "id": "ex-005", "type": "multiple-choice", "pillar": "grammar", "question": "Which verb form is formal? 'Usted ___ su candidatura.' (sends)", "options": ["envía", "envías", "enviamos", "envían"], "answer": "envía" },
+    { "id": "ex-006", "type": "multiple-choice", "pillar": "grammar", "question": "'Se ___ un mínimo de experiencia.' What verb completes this formal construction?", "options": ["requiere", "requiere", "requieren", "requiriendo"], "answer": "requiere" },
+    { "id": "ex-007", "type": "fill-in-blank", "pillar": "vocabulary", "question": "How do you say 'job offer' in Spanish?", "answer": "la oferta de empleo" },
+    { "id": "ex-008", "type": "multiple-choice", "pillar": "vocabulary", "question": "What does 'la nómina' mean?", "options": ["payslip", "resume", "contract", "benefits"], "answer": "payslip" },
+    { "id": "ex-009", "type": "multiple-choice", "pillar": "grammar", "question": "Which is the correct formal closing? '___, [nombre]'", "options": ["Atentamente", "Saludos", "Besos", "Chau"], "answer": "Atentamente" },
+    { "id": "ex-010", "type": "fill-in-blank", "pillar": "vocabulary", "question": "How do you say 'team meeting' in Spanish?", "answer": "la reunión de equipo" },
+    { "id": "ex-011", "type": "multiple-choice", "pillar": "grammar", "question": "'___ se ofrece formación continua.' Which impersonal form is correct?", "options": ["Se", "La", "El", "Lo"], "answer": "Se" },
+    { "id": "ex-012", "type": "multiple-choice", "pillar": "vocabulary", "question": "What is 'el periodo de prueba'?", "options": ["probationary period", "training period", "vacation", "working hours"], "answer": "probationary period" },
+    { "id": "ex-013", "type": "multiple-choice", "pillar": "grammar", "question": "Which sentence uses the correct formal register?", "options": ["Le agradecemos su interés.", "Te agradecemos tu interés.", "Le agradecemos tu interés.", "Te agradecemos su interés."], "answer": "Le agradecemos su interés." },
+    { "id": "ex-014", "type": "fill-in-blank", "pillar": "vocabulary", "question": "How do you say 'salary' in Spanish?", "answer": "sueldo" },
+    { "id": "ex-015", "type": "multiple-choice", "pillar": "grammar", "question": "Which sentence correctly uses the formal passive 'ser'?", "options": ["El contrato fue firmado por ambas partes.", "El contrato fue firmado por ambas partes.", "El contrato es firmado por ambas partes.", "El contrato siendo firmado por ambas partes."], "answer": "El contrato fue firmado por ambas partes." }
+  ],
+  "dialogues": [
     {
-      "type": "exercise",
-      "question": "What does 'currículum vitae' mean in English?",
-      "options": [
-        "Curriculum",
-        "CV / resume",
-        "Study plan",
-        "Course schedule"
-      ],
-      "correct": 1,
-      "explanation": "'Currículum vitae' (often abbreviated as CV) = 'resume' — a document summarizing your work experience and qualifications."
-    },
-    {
-      "type": "exercise",
-      "question": "What does 'contrato indefinido' mean?",
-      "options": [
-        "Temporary contract",
-        "Permanent contract",
-        "Trial contract",
-        "Part-time contract"
-      ],
-      "correct": 1,
-      "explanation": "'Contrato indefinido' = permanent contract — no fixed end date, as opposed to 'contrato temporal' (temporary contract)."
-    },
-    {
-      "type": "fill-in-blank",
-      "question": "Complete: 'Acabo de enviar mi ____ para el puesto de analista.' (I just sent my application for the analyst position.)",
-      "correct": "candidatura",
-      "explanation": "'Candidatura' = job application. 'Enviar mi candidatura' = to send my application."
-    },
-    {
-      "type": "exercise",
-      "question": "What does 'periodo de prueba' mean?",
-      "options": [
-        "Trial period / probationary period",
-        "Testing time",
-        "Evaluation period",
-        "Training period"
-      ],
-      "correct": 0,
-      "explanation": "'Periodo de prueba' = probationary period — the initial period of employment where both parties evaluate the fit."
-    },
-    {
-      "type": "fill-in-blank",
-      "question": "Complete: '____ (Sincerely), [Nombre]' — formal closing in a professional email.",
-      "correct": "Atentamente",
-      "explanation": "'Atentamente' = 'Sincerely' — the standard formal closing for professional emails and letters in Spanish."
-    },
-    {
-      "type": "exercise",
-      "question": "What does 'la cuota de mercado' mean?",
-      "options": [
-        "Market rate",
-        "Market share",
-        "Market price",
-        "Market size"
-      ],
-      "correct": 1,
-      "explanation": "'Cuota de mercado' = market share — the percentage of a market controlled by a particular company or product."
+      "title": "Job interview",
+      "content": "Entrevistador: Buenos días, ¿cuénteme sobre su experiencia profesional?\nCandidato: Buenos días. Cuento con cinco años de experiencia en marketing digital. En mi última empresa, me encargaba de gestionar las campañas online.\nEntrevistador: ¿Por qué quiere trabajar en nuestra empresa?\nCandidato: Me motiva especialmente su innovación en el sector y las perspectivas de crecimiento profesional que ofrecen.\nEntrevistador: ¿Cuáles son sus puntos fuertes?\nCandidato: Creo que mi mayor fortaleza es la capacidad de trabajar en equipo y cumplir los plazos establecidos.\nEntrevistador: Gracias por su interés. Quedamos a su disposición."
     }
   ]
 }

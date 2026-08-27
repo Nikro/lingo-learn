@@ -1,34 +1,13 @@
 {
   "metadata": {
+    "stage_id": "b2-1",
+    "theme_id": "advanced-literary-analysis-part-2",
     "level": "B2.1",
-    "theme_title": "Advanced Literary Analysis",
-    "theme_english": "Advanced Literary Analysis",
-    "theme_spanish": "Análisis Literario Avanzado",
-    "description": "Advanced vocabulary, grammar, pronunciation, and exercises for literary analysis, narrative techniques, poetic devices, and critical reading at the B2.1 CEFR level.",
-    "topics": [
-      "literary theory",
-      "narrative techniques",
-      "poetic analysis",
-      "textual interpretation",
-      "figure of speech",
-      "narrative voice",
-      "literary movements",
-      "critical reading"
-    ],
-    "cefr_alignment": {
-      "level": "B2.1",
-      "can_do_statements": [
-        "Comprender prosa literaria contemporánea y textos críticos sobre literatura",
-        "Analizar técnicas narrativas y su efecto en el lector",
-        "Interpretar simbolismo y metáfora en textos literarios",
-        "Expresar opiniones fundamentadas sobre obras literarias y movimientos culturales",
-        "Comparar diferentes perspectivas interpretativas de un mismo texto"
-      ]
-    },
-    "created_at": "2026-08-03T00:00:00Z",
-    "version": "1.0",
-    "part": 2,
-    "parent_theme": "Advanced Literary Analysis"
+    "theme_name": "Advanced Literary Analysis — Part 2",
+    "description": "Analyze narrative structure, interpret symbolism, and discuss literary themes with advanced vocabulary and grammar.",
+    "prerequisites": [
+      "advanced-literary-analysis-part-1"
+    ]
   },
   "vocabulary": [
     {
@@ -393,168 +372,447 @@
     },
     {
       "id": 41,
-      "target": "metaficcional",
-      "source": "metafictional",
-      "gender": "n.",
-      "type": "adjective",
-      "example": "La novela metaficcional juega con la relación autor-lector.",
-      "aid_note": "/meta.fiˈθjo.nal/"
+      "target": "el símbolo",
+      "source": "symbol",
+      "gender": "m.",
+      "type": "noun",
+      "example": "El símbolo del río representa el paso del tiempo.",
+      "aid_note": "/el ˈsim.bo.lo/"
     },
     {
       "id": 42,
-      "target": "experimentar",
-      "source": "to experiment",
-      "gender": "-",
-      "type": "adjective",
-      "example": "Los autores del Boom experimentaron con la narrativa.",
-      "aid_note": "/eks.peɾi.menˈtaɾ/"
+      "target": "la metáfora",
+      "source": "metaphor",
+      "gender": "f.",
+      "type": "noun",
+      "example": "La metáfora del espejo refleja la dualidad del ser.",
+      "aid_note": "/la meˈta.ɾo.ɾa/"
     },
     {
       "id": 43,
-      "target": "reconocible",
-      "source": "recognizable",
-      "gender": "n.",
-      "type": "adjective",
-      "example": "El estilo de Cortázar es inconfundible.",
-      "aid_note": "/ɾe.koniˈθi.ble/"
+      "target": "la alegoría",
+      "source": "allegory",
+      "gender": "f.",
+      "type": "noun",
+      "example": "La alegoría de la caverna de Platón influyó en la literatura.",
+      "aid_note": "/la a.leˈɰo.ɾi.a/"
     },
     {
       "id": 44,
-      "target": "leer entre líneas",
-      "source": "to read between the lines",
-      "gender": "-",
-      "type": "phrase",
-      "example": "Hay que leer entre líneas para captar el significado real.",
-      "aid_note": "/leˈɾaɾ en.tɾe ˈli.ɲas/"
+      "target": "el narrador",
+      "source": "the narrator",
+      "gender": "m.",
+      "type": "noun",
+      "example": "El narrador omnisciente sabe lo que piensa cada personaje.",
+      "aid_note": "/el na.ɾaˈðaɾ/"
     },
     {
       "id": 45,
-      "target": "dar en el clavo",
-      "source": "to hit the nail on the head",
-      "gender": "-",
-      "type": "phrase",
-      "example": "El crítico dio en el clavo al analizar el simbolismo.",
-      "aid_note": "/daɾ en el ˈkla.βo/"
+      "target": "el narrador omnisciente",
+      "source": "omniscient narrator",
+      "gender": "m.",
+      "type": "noun",
+      "example": "El narrador omnisciente revela los secretos de todos.",
+      "aid_note": "/el na.ɾaˈðaɾ om.niˈʃjen.te/"
     },
     {
       "id": 46,
-      "target": "cortar por lo sano",
-      "source": "to cut to the chase",
-      "gender": "-",
-      "type": "phrase",
-      "example": "El autor corta por lo sano y va directo al punto.",
-      "aid_note": "/koˈtaɾ por lo ˈsano/"
+      "target": "el narrador testigo",
+      "source": "witness narrator",
+      "gender": "m.",
+      "type": "noun",
+      "example": "El narrador testigo solo puede contar lo que observa.",
+      "aid_note": "/el na.ɾaˈðaɾ ˈtes.βo/"
     },
     {
       "id": 47,
-      "target": "bajo su mano",
-      "source": "under one's hand (understatement)",
-      "gender": "-",
-      "type": "phrase",
-      "example": "Es un pequeño error, bajo su mano.",
-      "aid_note": "/ˈβa.xo su ˈma.no/"
+      "target": "el protagonista",
+      "source": "the protagonist",
+      "gender": "m./f.",
+      "type": "noun",
+      "example": "El protagonista enfrenta una crisis existencial.",
+      "aid_note": "/el pɾo.ta.ˈɣo.ni.ta/"
     },
     {
       "id": 48,
-      "target": "hacerse eco de",
-      "source": "to echo, to take up (a theme)",
-      "gender": "-",
-      "type": "phrase",
-      "example": "Esta obra hace eco de los temas del realismo mágico.",
-      "aid_note": "/aˈθeɾ ˈe.ko ðe/"
+      "target": "el antagonista",
+      "source": "the antagonist",
+      "gender": "m./f.",
+      "type": "noun",
+      "example": "El antagonista no es simplemente malo: tiene motivos complejos.",
+      "aid_note": "/el an.ta.ˈɰo.nis.ta/"
     },
     {
       "id": 49,
-      "target": "basarse en",
-      "source": "to be based on",
-      "gender": "-",
-      "type": "phrase",
-      "example": "La novela se basa en hechos históricos reales.",
-      "aid_note": "/baˈsa.ɾe en/"
+      "target": "el tono",
+      "source": "tone",
+      "gender": "m.",
+      "type": "noun",
+      "example": "El tono irónico del autor genera distancia crítica.",
+      "aid_note": "/el ˈto.no/"
     },
     {
       "id": 50,
-      "target": "darse cuenta de",
-      "source": "to realize",
-      "gender": "-",
-      "type": "phrase",
-      "example": "El lector se da cuenta del giro al final.",
-      "aid_note": "/ˈdaɾ.se ˈkwen.ta ðe/"
+      "target": "la atmósfera",
+      "source": "atmosphere/mood",
+      "gender": "f.",
+      "type": "noun",
+      "example": "La atmósfera del relato es opresiva y claustrofóbica.",
+      "aid_note": "/la at.moˈsfe.ɾa/"
     },
     {
       "id": 51,
-      "target": "en primer lugar",
-      "source": "first of all, firstly",
-      "gender": "-",
-      "type": "phrase",
-      "example": "En primer lugar, analicemos la estructura narrativa.",
-      "aid_note": "/en ˈpɾi.meɾ lo.ˈɰaɾ/"
+      "target": "el conflicto",
+      "source": "conflict",
+      "gender": "m.",
+      "type": "noun",
+      "example": "El conflicto central es la lucha entre libertad y deber.",
+      "aid_note": "/el konˈflik.to/"
     },
     {
       "id": 52,
-      "target": "por otro lado",
-      "source": "on the other hand",
-      "gender": "-",
-      "type": "phrase",
-      "example": "Por otro lado, el simbolismo sugiere una lectura alternativa.",
-      "aid_note": "/poɾ ˈo.tɾo ˈla.ðo/"
+      "target": "el clímax",
+      "source": "climax",
+      "gender": "m.",
+      "type": "noun",
+      "example": "El clímax del relato ocurre cuando el protagonista descubre la verdad.",
+      "aid_note": "/el ˈkli.maks/"
     },
     {
       "id": 53,
-      "target": "en conclusión",
-      "source": "in conclusion",
-      "gender": "-",
-      "type": "phrase",
-      "example": "En conclusión, la obra trasciende su género.",
-      "aid_note": "/en kon.kluˈθjon/"
+      "target": "el desenlace",
+      "source": "the resolution/ending",
+      "gender": "m.",
+      "type": "noun",
+      "example": "El desenlace abierto invita al lector a imaginar.",
+      "aid_note": "/el de.senˈla.θe/"
     },
     {
       "id": 54,
-      "target": "a diferencia de",
-      "source": "unlike, as opposed to",
-      "gender": "-",
-      "type": "phrase",
-      "example": "A diferencia de la sátira, la parodia no es agresiva.",
-      "aid_note": "/a ði.feˈɾen.θja ðe/"
+      "target": "el argumento",
+      "source": "plot",
+      "gender": "m.",
+      "type": "noun",
+      "example": "El argumento gira en torno a la pérdida de la identidad.",
+      "aid_note": "/el ar.ɰuˈmen.to/"
     },
     {
       "id": 55,
-      "target": "en lugar de",
-      "source": "instead of",
-      "gender": "-",
-      "type": "phrase",
-      "example": "El autor usa la ironía en lugar de la descripción directa.",
-      "aid_note": "/en ˈlu.ɣaɾ ðe/"
+      "target": "la trama",
+      "source": "plot/structure",
+      "gender": "f.",
+      "type": "noun",
+      "example": "La trama entrelaza varias líneas temporales.",
+      "aid_note": "/la ˈtɾa.ma/"
     },
     {
       "id": 56,
-      "target": "no solo... sino también",
-      "source": "not only... but also",
-      "gender": "-",
-      "type": "phrase",
-      "example": "La obra no solo entretiene, sino que también cuestiona.",
-      "aid_note": "/no ˈsolo... ˈsino tamˈbjen/"
+      "target": "el simbolismo",
+      "source": "symbolism",
+      "gender": "m.",
+      "type": "noun",
+      "example": "El simbolismo de la obra se basa en la naturaleza.",
+      "aid_note": "/el sim.boˈlis.mo/"
     },
     {
       "id": 57,
-      "target": "a pesar de que",
-      "source": "despite the fact that",
-      "gender": "-",
-      "type": "phrase",
-      "example": "A pesar de que es breve, el cuento es profundo.",
-      "aid_note": "/a peˈsaɾ ðe ke/"
+      "target": "el subtexto",
+      "source": "subtext",
+      "gender": "m.",
+      "type": "noun",
+      "example": "El subtexto revela las tensiones de clase del relato.",
+      "aid_note": "/el ˈsub.tek.to/"
     },
     {
       "id": 58,
-      "target": "en cuanto a",
-      "source": "as for, regarding",
-      "gender": "-",
-      "type": "phrase",
-      "example": "En cuanto a la estructura, el poema sigue un patrón regular.",
-      "aid_note": "/en ˈkwan.to a/"
+      "target": "el contexto histórico",
+      "source": "historical context",
+      "gender": "m.",
+      "type": "noun",
+      "example": "El contexto histórico es clave para entender la obra.",
+      "aid_note": "/el konˈtek.to isˈtɔ.ɾi.ko/"
     }
   ],
-  "grammar": [],
-  "pronunciation": [],
-  "exercises": []
+  "grammar": [
+    {
+      "title": "The Subjunctive for Literary Evaluation",
+      "content": "At B2.1, the subjunctive is essential for expressing subjective literary opinions, evaluating artistic merit, and making hypotheses about a text. Use the subjunctive after expressions of judgment, emotion, doubt, and evaluation.\n\nCommon evaluative structures:\n\n**It is important that...**: Es importante que el autor **utilice**... (the author uses)\n**I doubt that...**: Dudo que la obra **transmita**... (the work transmits)\n**I don't believe that...**: No creo que el personaje **sea**... (the character is)\n**It is surprising that...**: Es sorprendente cómo **evoluciona** el narrador.\n**I prefer that...**: Prefiero que el final **sea** abierto.\n\nPast subjunctive for hypothetical literary analysis:\n- Si el autor **hubiera usado** una narración en primera persona, el texto habría sido más íntimo.\n  (If the author had used first-person narration, the text would have been more intimate.)\n\nThe subjunctive is also used after impersonal expressions of value:\n- **Es esencial que** se **contextualice** la obra en su época.\n  (It is essential that the work be contextualized in its era.)",
+      "examples": [
+        "Es fundamental que el lector interprete el símbolo de manera crítica. (It is fundamental that the reader interpret the symbol critically.)",
+        "Dudo que esta metáfora refleje la realidad del autor. (I doubt that this metaphor reflects the author's reality.)",
+        "Es increíble cómo el narrador logra evocar la atmósfera. (It is incredible how the narrator manages to evoke the atmosphere.)",
+        "No pienso que el personaje sea tan simple como parece. (I don't think the character is as simple as it seems.)"
+      ],
+      "note": "The subjunctive is the key to expressing your subjective response to literature. When you are evaluating, not just describing, use the subjunctive."
+    },
+    {
+      "title": "Narrative Voice — First Person vs. Third Person",
+      "content": "Understanding narrative voice is crucial for literary analysis. Spanish uses different grammatical structures to express different narrative perspectives.\n\n**First person (yo/nosotros)** — the narrator is a character in the story:\n- El narrador **dice que** experimenta el miedo.\n- Yo **soy** testigo de los acontecimientos.\n- Often uses present tense for immediacy, or preterite for retrospective narration.\n\n**Third person omniscient** — the narrator knows everything:\n- El narrador **sabe** que el protagonista oculta un secreto.\n- Se **describe** la motivación de todos los personajes.\n- Can shift between characters' internal thoughts.\n\n**Third person limited** — the narrator follows one character:\n- El narrador **se centra** en la perspectiva de Ana.\n- **Solo sabemos** lo que el protagonista ve y siente.\n\n**Second person (tú)** — rare but powerful in literary Spanish:\n- **Tú eres** el protagonista de tu propia historia.\n- Used for direct address, creating intimacy or distance.\n\nKey grammar for narrative analysis:\n- **Parece que** + indicative for objective observation: Parece que el autor quiere criticar la sociedad.\n- **Es posible que** + subjunctive for interpretation: Es posible que el autor esté aludiendo a un hecho histórico.",
+      "examples": [
+        "El narrador en primera persona dice: 'Yo vi todo lo que ocurrió.' (The first-person narrator says: 'I saw everything that happened.')",
+        "El narrador omnisciente sabe que el protagonista va a traicionar a su hermano. (The omniscient narrator knows that the protagonist is going to betray his brother.)",
+        "Es posible que el narrador no pueda ser confiable. (It is possible that the narrator cannot be trusted.)",
+        "Se observa que el autor utiliza un tono irónico. (One observes that the author uses an ironic tone.)"
+      ],
+      "note": "When analyzing, always specify the narrative voice and explain how it affects the reader's experience. This is a key skill for B2.1 literary analysis."
+    },
+    {
+      "title": "Reported Speech in Literary Analysis",
+      "content": "When quoting or paraphrasing literary texts, Spanish uses several structures for reported speech. These are essential for citing evidence in your analysis.\n\n**Direct quotation** (exact words):\n- El autor dice: 'La vida es un sueño.' (The author says: 'Life is a dream.')\n- El narrador afirma: «El mundo era un espejo de su tristeza.»\n\n**Indirect quotation** (paraphrasing):\n- El autor **afirma que** la vida es un sueño.\n- El narrador **sugiere que** el mundo refleja la tristeza.\n- El personaje **piensa que** su destino está escrito.\n\n**Verbs of saying/claiming**:\n- **decir** — to say\n- **afirmar** — to claim, to assert\n- **sugerir** — to suggest\n- **alegar** — to allege, to argue\n- **sostener** — to maintain, to hold (an opinion)\n- **señalar** — to point out\n- **indicar** — to indicate\n\n**Sequence of tenses**:\n- Present reporting verb + present subjunctive for ongoing relevance: El autor afirma que el personaje **sea** trágico.\n- Past reporting verb + imperfect subjunctive for past analysis: El crítico sostenía que la obra **fuera** una alegoría política.\n\n**Using passive/impersonal structures** for academic tone:\n- Se **argumenta** que... (It is argued that...)\n- Se **ha señalado** que... (It has been pointed out that...)\n- Se **puede observar** que... (One can observe that...)",
+      "examples": [
+        "El autor afirma que la metáfora refleja la dualidad del ser humano. (The author claims that the metaphor reflects the duality of the human being.)",
+        "Se puede observar que el narrador utiliza un lenguaje muy evocador. (One can observe that the narrator uses highly evocative language.)",
+        "El crítico sostiene que la obra sea una crítica social. (The critic maintains that the work is a social critique.)",
+        "El personaje piensa que su situación es insalvable. (The character thinks that his/her situation is hopeless.)"
+      ],
+      "note": "Reported speech is the backbone of literary analysis essays. Master these citation structures to sound academic and precise."
+    },
+    {
+      "title": "Conditional and Subjunctive in Literary Hypothesis",
+      "content": "At B2.1, you must be able to discuss literary works using hypothetical language — what if the author had chosen differently? What would the story have been like? This uses the conditional and the subjunctive together.\n\n**Conditional for literary speculation**:\n- El texto **sería** más potente si el autor hubiera cambiado el final.\n  (The text would be more powerful if the author had changed the ending.)\n- El personaje **habría actuado** de manera diferente en esas circunstancias.\n  (The character would have acted differently under those circumstances.)\n\n**If + pluperfect subjunctive + conditional** (third conditional):\n- Si el autor **hubiera escrito** en primera persona, el lector se sentiría más cerca del protagonista.\n  (If the author had written in first person, the reader would feel closer to the protagonist.)\n- Si la obra **hubiera sido** publicada en su época, habría sido muy polémica.\n  (If the work had been published in its time, it would have been very controversial.)\n\n**Conditional for literary interpretation**:\n- Esta metáfora **podría interpretarse** como una crítica al sistema.\n  (This metaphor could be interpreted as a critique of the system.)\n- El símbolo **parecería aludir** a la muerte.\n  (The symbol seems to allude to death.)\n\n**Should/would in analysis**:\n- El autor **debería haber** incluido más contexto histórico.\n  (The author should have included more historical context.)\n- El personaje **podría haber** tomado una decisión diferente.\n  (The character could have made a different decision.)",
+      "examples": [
+        "Si el autor hubiera utilizado un tono irónico, el texto habría sido más satírico. (If the author had used an ironic tone, the text would have been more satirical.)",
+        "El simbolismo podría interpretarse de varias maneras. (The symbolism could be interpreted in several ways.)",
+        "El protagonista habría cambiado su destino si hubiera tenido más información. (The protagonist would have changed his/her destiny if he/she had had more information.)",
+        "La obra parece reflejar las tensiones políticas de la época. (The work seems to reflect the political tensions of the era.)"
+      ],
+      "note": "The conditional + subjunctive combination is essential for advanced literary discussion. It allows you to explore alternative interpretations and hypothetical readings."
+    }
+  ],
+  "pronunciation": {
+    "tips": [
+      "B2 literary vocabulary contains many Latin-derived words with silent 'h' and stress on the antepenultimate syllable: 'análisis' (ah-NAY-lis), 'interpretar' (in-tar-preh-TAHr).",
+      "'ll' in words like 'alludir' sounds like 'y': a-LYU-dirr.",
+      "The 'rr' in 'multifacético' is light between vowels — a single tap, not a trill.",
+      "Stress on words ending in -ción, -sión, -dad, -tad always falls on the last syllable: 'alegoría', 'ambigüedad', 'narrativa'.",
+      "The 'g' before 'e/i' in 'alegórico', 'intertextual' is a strong throat sound."
+    ],
+    "tricky_sounds": [
+      {
+        "sound": "ñ / ll",
+        "description": "Palatal 'ny' and 'y' sounds, common in literary terms like 'allegory' and 'narrative'",
+        "examples": [
+          "alegoría",
+          "narrador",
+          "aludir",
+          "canción"
+        ]
+      },
+      {
+        "sound": "rr (between vowels)",
+        "description": "Single tap between vowels vs. trill at start of word",
+        "examples": [
+          "narrativo",
+          "perro",
+          "narrador",
+          "característica"
+        ]
+      },
+      {
+        "sound": "g before e/i",
+        "description": "Hard throat 'h' sound in Latin-derived words",
+        "examples": [
+          "alegórico",
+          "generar",
+          "género",
+          "grieta"
+        ]
+      },
+      {
+        "sound": "qu",
+        "description": "Always 'k' sound before 'e/i': 'interpretar', 'adquirir', 'adecuado'",
+        "examples": [
+          "interpretar",
+          "adquirir",
+          "adecuado",
+          "adecuadamente"
+        ]
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "ex-001",
+      "type": "multiple-choice",
+      "pillar": "vocabulary",
+      "question": "What does 'simbolizar' mean?",
+      "options": [
+        "to symbolize",
+        "to describe",
+        "to criticize",
+        "to reflect"
+      ],
+      "answer": "to symbolize"
+    },
+    {
+      "id": "ex-002",
+      "type": "multiple-choice",
+      "pillar": "vocabulary",
+      "question": "What is 'el narrador omnisciente'?",
+      "options": [
+        "omniscient narrator",
+        "witness narrator",
+        "protagonist",
+        "antagonist"
+      ],
+      "answer": "omniscient narrator"
+    },
+    {
+      "id": "ex-003",
+      "type": "fill-in-blank",
+      "pillar": "vocabulary",
+      "question": "How do you say 'to interpret' in Spanish?",
+      "answer": "interpretar"
+    },
+    {
+      "id": "ex-004",
+      "type": "multiple-choice",
+      "pillar": "vocabulary",
+      "question": "What does 'ambiguo/a' mean?",
+      "options": [
+        "ambiguous",
+        "explicit",
+        "implicit",
+        "vague"
+      ],
+      "answer": "ambiguous"
+    },
+    {
+      "id": "ex-005",
+      "type": "multiple-choice",
+      "pillar": "grammar",
+      "question": "Which is correct? 'Es importante que el autor ___ un tono irónico.' (uses)",
+      "options": [
+        "utilice",
+        "utiliza",
+        "utilizó",
+        "utilizando"
+      ],
+      "answer": "utilice"
+    },
+    {
+      "id": "ex-006",
+      "type": "multiple-choice",
+      "pillar": "grammar",
+      "question": "Dudo que la obra ___ una alegoría. Which is the correct subjunctive?",
+      "options": [
+        "sea",
+        "es",
+        "fue",
+        "era"
+      ],
+      "answer": "sea"
+    },
+    {
+      "id": "ex-007",
+      "type": "fill-in-blank",
+      "pillar": "vocabulary",
+      "question": "How do you say 'metaphor' in Spanish?",
+      "answer": "la metáfora"
+    },
+    {
+      "id": "ex-008",
+      "type": "multiple-choice",
+      "pillar": "grammar",
+      "question": "Which is correct? 'Es posible que el narrador ___ no sea confiable.'",
+      "options": [
+        "pueda",
+        "puede",
+        "podía",
+        "pudo"
+      ],
+      "answer": "pueda"
+    },
+    {
+      "id": "ex-009",
+      "type": "multiple-choice",
+      "pillar": "vocabulary",
+      "question": "What is 'el subtexto'?",
+      "options": [
+        "subtext",
+        "plot",
+        "tone",
+        "symbolism"
+      ],
+      "answer": "subtext"
+    },
+    {
+      "id": "ex-010",
+      "type": "multiple-choice",
+      "pillar": "grammar",
+      "question": "Which structure expresses literary hypothesis? 'Si el autor ___ usado..., el texto ___ diferente.'",
+      "options": [
+        "hubiera / habría",
+        "hubo / habría",
+        "hubiera / había",
+        "hubo / había"
+      ],
+      "answer": "hubiera / habría"
+    },
+    {
+      "id": "ex-011",
+      "type": "fill-in-blank",
+      "pillar": "vocabulary",
+      "question": "How do you say 'climax' in Spanish?",
+      "answer": "el clímax"
+    },
+    {
+      "id": "ex-012",
+      "type": "multiple-choice",
+      "pillar": "grammar",
+      "question": "The passive 'Se ___ que...' is used for academic writing. What verb completes 'it is argued that'?",
+      "options": [
+        "argumenta",
+        "arguye",
+        "argumentado",
+        "argumentar"
+      ],
+      "answer": "argumenta"
+    },
+    {
+      "id": "ex-013",
+      "type": "multiple-choice",
+      "pillar": "vocabulary",
+      "question": "What does 'intertextual' mean?",
+      "options": [
+        "intertextual",
+        "intrinsic",
+        "interior",
+        "intimate"
+      ],
+      "answer": "intertextual"
+    },
+    {
+      "id": "ex-014",
+      "type": "multiple-choice",
+      "pillar": "grammar",
+      "question": "Which sentence correctly uses the conditional for literary speculation?",
+      "options": [
+        "El texto sería más potente si el autor hubiera cambiado el final.",
+        "El texto sería más potente si el autor cambió el final.",
+        "El texto sería más potente si el autor cambiaba el final.",
+        "El texto sería más potente si el autor cambia el final."
+      ],
+      "answer": "El texto sería más potente si el autor hubiera cambiado el final."
+    },
+    {
+      "id": "ex-015",
+      "type": "multiple-choice",
+      "pillar": "vocabulary",
+      "question": "What is 'la trama'?",
+      "options": [
+        "plot/structure",
+        "atmosphere",
+        "conflict",
+        "ending"
+      ],
+      "answer": "plot/structure"
+    }
+  ],
+  "dialogues": [
+    {
+      "title": "Literary seminar discussion",
+      "content": "Estudiante A: ¿Qué opina usted del uso del narrador en esta obra?\nEstudiante B: Creo que el autor elige un narrador omnisciente para que el lector vea las motivaciones de todos los personajes.\nEstudiante A: Es interesante. También pienso que el simbolismo podría interpretarse como una crítica social.\nEstudiante B: De acuerdo. Es esencial que se contextualice la obra en su época para entender mejor el mensaje."
+    }
+  ]
 }
