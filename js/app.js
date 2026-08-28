@@ -58,6 +58,7 @@ function app() {
     aidLanguage: 'none',       // Aid language setting: none | english | spanish | bilingual
     xp: 0,                     // Total experience points earned (persisted to localStorage)
     streak: 0,                 // Current daily learning streak (days in a row)
+    progressVersion: 0,        // Reactivity trigger: bumped whenever progress is written to localStorage
 
     // ═══════════════════════════════════════════
     // ─── State: Quiz Lifecycle ───
@@ -372,6 +373,8 @@ function app() {
       Storage.setLocale(locale);
       this.xp = Storage.getXP();
       this.streak = Storage.getStreak();
+      // Progress is locale-keyed — re-read now that the locale changed
+      this.touchProgress();
       this.currentStage = null;
       this.currentLevel = null;
       window.location.hash = '/' + locale;
@@ -2316,6 +2319,9 @@ function app() {
       if (this.currentStage) {
         var pillar = this.quizQuestions[0] ? this.quizQuestions[0].pillar : 'grammar';
         Storage.saveProgress(this.currentStage, pillar, this.quizScore, this.quizQuestions.length);
+        // Bump the reactive version so the stage header progress re-evaluates
+        // immediately (the read path is a pure localStorage lookup).
+        this.progressVersion++;
       }
 
       Storage.recordActivity();
@@ -2370,6 +2376,7 @@ function app() {
         Storage.resetProgress();
         this.xp = 0;
         this.streak = 0;
+        this.touchProgress();
         this.settingsOpen = false;
         alert('Progress has been reset.');
       }
@@ -2492,7 +2499,18 @@ function app() {
     // ─── Helpers ───
     getProgress: function(levelId, stageId) {
       // stageId is already in the correct format (a1-1, a2-3, etc.)
+      // Reading progressVersion makes this expression depend on a reactive
+      // property: getStageProgress() is a pure localStorage read, so without
+      // this Alpine would never re-evaluate after saveProgress() (e.g. after
+      // quiz completion) and the stage header would keep showing "Not started".
+      void this.progressVersion;
       return Storage.getStageProgress(stageId);
+    },
+
+    // Bump the progress reactivity trigger. Call after any out-of-band write
+    // to progress storage (locale switch, reset) so displays re-read localStorage.
+    touchProgress: function() {
+      this.progressVersion++;
     },
 
     // Get stage-level progress (average of all pillars)
