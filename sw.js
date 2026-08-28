@@ -3,7 +3,7 @@
 // CACHE_VERSION: bump on every deploy. Each distinct value creates a new cache
 // name and triggers old-cache cleanup on activation (see activate handler).
 // For a zero-build static deploy the version is bumped manually in this file.
-const CACHE_VERSION = '14';
+const CACHE_VERSION = '15';
 const CACHE_NAME = `lingolearn-${CACHE_VERSION}`;
 
 // ─── App shell ───

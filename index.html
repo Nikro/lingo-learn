@@ -86,8 +86,8 @@
           <select class="select select-bordered select-sm w-full" 
                   x-model="currentLocale"
                   @change="switchLocale(currentLocale)">
-            <template x-for="locale in registry.locales" :key="locale.code">
-              <option :value="locale.code" :disabled="!locale.active" x-text="locale.name"></option>
+            <template x-for="locale in activeLocales" :key="locale.code">
+              <option :value="locale.code" x-text="locale.name"></option>
             </template>
           </select>
         </div>
@@ -919,7 +919,7 @@
   </div>
 
   <script src="js/storage.js?v=27"></script>
-  <script src="js/app.js?v=56"></script>
+  <script src="js/app.js?v=57"></script>
   <script>
     // Service Worker: enabled for production (GitHub Pages subpath /lingo-learn/).
     // Registration is relative so it resolves inside the subpath scope.

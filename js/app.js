@@ -225,11 +225,16 @@ function app() {
       this.updateTheme(this.theme);
       this.aidLanguage = settings.aidLanguage || 'none';
 
-      // Load locale
-      this.currentLocale = Storage.getLocale() || 'en-es';
-
-      // Load registry
+      // Load registry first — the stored locale is validated against it below
       await this.loadRegistry();
+
+      // Load locale; fall back to the default active locale when the stored
+      // value is stale (e.g., a non-active locale left in localStorage).
+      // Persist the resolved value so progress keys stay consistent with it.
+      this.currentLocale = this.resolveActiveLocale(Storage.getLocale());
+      if (Storage.getLocale() !== this.currentLocale) {
+        Storage.setLocale(this.currentLocale);
+      }
 
       // Load progress data
       this.xp = Storage.getXP();
@@ -318,6 +323,28 @@ function app() {
     // Computed: returns true if the app can be installed as a PWA
     get canInstallApp() {
       return !this.isInstalled && this.deferredPrompt !== null;
+    },
+
+    // Computed: registry locales that are active. The sidebar switcher
+    // renders only these; inactive pairs have no content yet (see ADR 0006).
+    get activeLocales() {
+      return (this.registry.locales || []).filter(function (l) { return l.active === true; });
+    },
+
+    // Resolve a stored/routed locale code to an active one. Returns the code
+    // itself when it is active; otherwise the default 'en-es', or the first
+    // active locale if the default is ever deactivated.
+    resolveActiveLocale(code) {
+      var active = this.activeLocales;
+      if (active.length === 0) return code || 'en-es';
+      var i;
+      for (i = 0; i < active.length; i++) {
+        if (active[i].code === code) return code;
+      }
+      for (i = 0; i < active.length; i++) {
+        if (active[i].code === 'en-es') return 'en-es';
+      }
+      return active[0].code;
     },
 
     // ═══════════════════════════════════════════
@@ -540,6 +567,19 @@ function app() {
       }
 
       if (parts.length >= 1) this.currentLocale = parts[0] || this.currentLocale;
+
+      // Redirect deep links that name an inactive locale to the default active
+      // one (stale bookmarks of unshipped pairs). Only when the registry
+      // loaded with at least one active locale, so a failed registry fetch
+      // cannot trigger a redirect loop.
+      var activeNow = this.activeLocales;
+      if (activeNow.length > 0 && activeNow.every(function (l) { return l.code !== this.currentLocale; }.bind(this))) {
+        var rest = parts.slice(1);
+        this.currentLocale = this.resolveActiveLocale(parts[0]);
+        window.location.hash = '/' + this.currentLocale + (rest.length ? '/' + rest.join('/') : '');
+        return;
+      }
+
       if (parts.length >= 2) this.currentLevel = parts[1];
       if (parts.length >= 3) this.currentStage = parts[2];
 
