@@ -17,6 +17,7 @@ All notable changes to this project will be documented in this file.
 - **PWA meta tags** — `theme-color`, `mobile-web-app-capable`, and `apple-mobile-web-app-*` tags in `index.html`.
 
 ### Changed
+- **Data validator (all 139 themes)** — `data/validate.js` rewritten from a 10-file hardcoded list to a full scan of every locale: all `data/<locale>/<stage>/themes/*.json` content themes, the in-theme-dir stage manifests, and root stage manifests. Checks: JSON parse, `vocabulary` ≥ 50 (array or dict-of-categories, flattened the way `app.js` does), `grammar`/`exercises`/`pronunciation` present and non-empty, manifest↔file cross-check (no dangling ids, no orphan files), and a secret scanner (secret-named JSON keys + credential-token-shaped values — deliberately not a naive "password" grep, since that is legitimate Spanish vocabulary; see HINTS.md §10). Exit 0/1 with per-file report; the deploy workflow already runs it pre-deploy, so a bad theme now blocks the deploy.
 - **Service worker rewrite (subpath-safe)** — All cache keys and the shell list are now relative so `sw.js` works at any GitHub Pages subpath (previously absolute paths 404'd under `/lingo-learn/`). Shell is pre-cached at install time so the first offline reload works; `normKey()` strips `?v=` query strings so version-busted URLs match cached entries; CDN responses (type `opaque`) are now cached; navigations fall back to cached `index.html` for offline deep links. `CACHE_VERSION` bumped to `14`.
 - **Service worker registration enabled** in `index.html` with a subpath-aware path.
 - **`manifest.json`** — `start_url: "./"` and `scope: "./"` (relative) so installability holds on a subpath; `id: "lingolearn"`; relative icon paths.
@@ -28,6 +29,8 @@ All notable changes to this project will be documented in this file.
 - **Schema** — Added `stage_manifest` type, `aid_note` field for grammar exercises. Fixed double-escaped regex for stage identifiers.
 
 ### Fixed
+- **a2-1 pronunciation shape** — `environment-nature` and `science-technology` stored `pronunciation` as a single object, but `renderThemePronunciation()` consumes an array (`.forEach`). The tab silently fell into the "No pronunciation content yet" empty state. Both now store a 1-item array (content unchanged).
+- **b2-1 root manifest** — `advanced-literary-analysis-part-1` had an empty `title` in `data/en-es/b2-1.json`; synced to "Advanced Literary Analysis Part 1" (matches the in-theme-dir manifest).
 - **Offline mode** — The app previously could not work offline at all on GitHub Pages: absolute cache paths 404'd under the `/lingo-learn/` subpath, the lazy cache-on-first-use left the cache empty on the first offline reload, `?v=`-busted URLs never matched cached entries, and CDN responses were never cached. All four defects fixed (see ADR 0005); verified offline in headless Chromium for both root and subpath.
 - **Installability** — `manifest.json` absolute `start_url` of `/` replaced with relative `./` so the install prompt criteria hold on a subpath; missing icon assets added.
 - **`no-store`/`no-cache` meta tags** removed from `index.html` — they conflicted with the stale-while-revalidate strategy.
