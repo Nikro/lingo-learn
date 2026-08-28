@@ -1,6 +1,6 @@
 # LingoLearn Tasks
 
-> Board is the source of truth — this file lags by design. (Kanban board `bippy-ears`; the 100% push cards created 2026-08-26 define the remaining work.)
+> Board is the source of truth — this file lags by design. (Kanban board `default`; the 100% push cards created 2026-08-26 define the remaining work.)
 
 ## Open
 
