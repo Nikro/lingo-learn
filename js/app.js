@@ -895,7 +895,24 @@ function app() {
       }
       try {
         var baseDir = 'data/' + this.currentLocale + '/' + this.currentStage + '/themes/';
-        // Check if chunked/partitioned files exist (e.g., themeId-part-1.json, themeId-part-2.json)
+        // Base file first: every theme ships as a single base JSON, so this is
+        // the common case. Only partitioned themes (no base file) need the
+        // -part-N probe, so try the base file and fall back to probing parts
+        // just when the base 404s. This removes the old 2x404 part-probe that
+        // fired on every non-chunked theme load.
+        var response = await fetch(baseDir + themeId + '.json');
+        if (response.ok) {
+          this.themeData = await response.json();
+          // Set theme title from JSON if available
+          if (this.themeData.title && typeof this.themeData.title === 'string') {
+            this.themeTitle = this.themeData.title;
+          }
+          this.currentPillar = 'vocabulary';
+          this.renderThemePillar();
+          this.loading = false;
+          return;
+        }
+        // Chunked/partitioned fallback (base file absent): probe -part-N
         var chunked = false;
         var partNum = 1;
         while (true) {
@@ -978,16 +995,9 @@ function app() {
           this.loading = false;
           return;
         }
-        // Fallback: single-file format for backward compatibility
-        var response = await fetch(baseDir + themeId + '.json');
-        if (!response.ok) throw new Error('HTTP ' + response.status);
-        this.themeData = await response.json();
-        // Set theme title from JSON if available
-        if (this.themeData.title && typeof this.themeData.title === 'string') {
-          this.themeTitle = this.themeData.title;
-        }
-        this.currentPillar = 'vocabulary';
-        this.renderThemePillar();
+        // Reached when the base file was absent and no -part-N chunk was found:
+        // this theme does not exist. Throw so the catch block shows the error state.
+        throw new Error('Theme not found: ' + themeId);
       } catch (e) {
         console.error('Failed to load theme data:', e);
         this.dataError = true;
