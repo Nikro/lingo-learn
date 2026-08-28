@@ -2,6 +2,48 @@
   "stage_id": "b2-1",
   "title": "B2.1 — Hypotheticals & Professional Communication",
   "description": "Master Type 2 and Type 3 conditionals (hypotheticals in present and past), advanced gerund uses, object pronoun placement with non-finite verbs, and professional/business vocabulary.",
+  "verbs": [
+    {
+      "id": "haber",
+      "infinitive": "HABER",
+      "translation": "to have (auxiliary)"
+    },
+    {
+      "id": "deber",
+      "infinitive": "DEBER",
+      "translation": "must / should / to owe"
+    },
+    {
+      "id": "poder",
+      "infinitive": "PODER",
+      "translation": "to be able to / can"
+    },
+    {
+      "id": "saber",
+      "infinitive": "SABER",
+      "translation": "to know / to find out"
+    },
+    {
+      "id": "querer",
+      "infinitive": "QUERER",
+      "translation": "to want / to love"
+    },
+    {
+      "id": "decir",
+      "infinitive": "DECIR",
+      "translation": "to say / to tell"
+    },
+    {
+      "id": "venir",
+      "infinitive": "VENIR",
+      "translation": "to come"
+    },
+    {
+      "id": "hacer",
+      "infinitive": "HACER",
+      "translation": "to do / to make"
+    }
+  ],
   "themes": [
     {
       "id": "advanced-creative-expression-part-1",

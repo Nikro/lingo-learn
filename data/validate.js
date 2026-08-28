@@ -5,7 +5,7 @@
  * Coverage (per locale pair, e.g. en-es):
  *   1. Content themes   data/<locale>/<stage>/themes/<theme>.json   (skips the stage manifest)
  *   2. Stage manifests  data/<locale>/<stage>/themes/<stage>.json   (drives the app's theme list)
- *   3. Root manifests   data/<locale>/<stage>.json                  (stage title/description)
+ *   3. Root manifests   data/<locale>/<stage>.json                  (MUST NOT exist — retired 2026-08-28, ADR 0007)
  *
  * Per-content-theme checks:
  *   - Valid JSON parse                                   -> ERROR
@@ -129,7 +129,7 @@ function checkTheme(data, label) {
   return { errors, warnings, vocabLen };
 }
 
-// ─── Per-manifest checks (root + in-theme-dir stage manifests) ───
+// ─── Per-manifest checks (canonical in-theme-dir stage manifests) ───
 // returns { errors: [], themeIds: [] }
 function checkManifest(data, label) {
   const errors = [];
@@ -267,26 +267,17 @@ for (const locale of localeFolders) {
       console.log('  ✅ ' + locale + '/' + stage + '/themes/' + manifestFile + ' [manifest]: valid (' + n + ' themes) ' + crossOk);
     }
 
-    // ── Root-level manifest data/<locale>/<stage>.json (title/description source) ──
+    // ── Guard: root-level stage manifests are retired (ADR 0007) ──
+    // The canonical manifest is themes/<stage>.json. A data/en-es/<stage>.json
+    // file is a stale duplicate that predates the themes/ layout — if it
+    // reappears, treat it as an error so the two sources of truth can't
+    // silently diverge again.
     const rootManifest = path.join(localeDir, stage + '.json');
     if (fs.existsSync(rootManifest)) {
       totalRootManifests++;
-      try {
-        const rd = JSON.parse(fs.readFileSync(rootManifest, 'utf8'));
-        const rerr = checkManifest(rd, locale + '/' + stage + '.json').errors;
-        if (rerr.length) {
-          console.error('  ❌ ' + locale + '/' + stage + '.json [root manifest]: ' + rerr.length + ' error(s)');
-          rerr.forEach(e => console.error('       → ' + e));
-          totalErrors += rerr.length;
-          failedFiles++;
-        } else {
-          console.log('  ✅ ' + locale + '/' + stage + '.json [root manifest]: valid');
-        }
-      } catch (e) {
-        console.error('  ❌ ' + locale + '/' + stage + '.json [root manifest]: invalid JSON — ' + e.message);
-        totalErrors++;
-        failedFiles++;
-      }
+      console.error('  ❌ ' + locale + '/' + stage + '.json [stale root manifest]: retired 2026-08-28 (ADR 0007) — the canonical manifest is themes/' + manifestFile + '. Delete the root file or move its data into the canonical one.');
+      totalErrors++;
+      failedFiles++;
     }
 
     console.log('');
@@ -297,7 +288,10 @@ for (const locale of localeFolders) {
 console.log('──────────────────────────────────────────────────');
 console.log('Summary:');
 console.log('  Content themes validated:  ' + totalContent);
-console.log('  Stage manifests validated: ' + (totalManifests + totalRootManifests));
+console.log('  Stage manifests validated: ' + totalManifests + ' (canonical, in themes/ dirs)');
+if (totalRootManifests > 0) {
+  console.log('  Stale root manifests found: ' + totalRootManifests + ' (ERROR — must be deleted, ADR 0007)');
+}
 console.log('──────────────────────────────────────────────────');
 
 if (totalErrors > 0) {

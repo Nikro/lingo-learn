@@ -380,7 +380,9 @@ function app() {
       window.location.hash = '/' + locale;
     },
 
-    // Fetch stage data from the locale-specific JSON file and render the current pillar.
+    // Fetch stage data and render the current pillar.
+    // The canonical stage manifest is data/<locale>/<stage>/themes/<stage>.json
+    // (the root-level data/<locale>/<stage>.json files were retired — see ADR 0007).
     // stageId is in filename format (a1-1, a2-3, b1-2, etc.)
     // onReady: optional callback invoked when data is loaded (for async route validation)
     // themeId: optional theme ID to validate against the manifest
@@ -388,83 +390,53 @@ function app() {
       var self = this;
       this.loading = true;
       this.dataError = false;
-      // Use a promise so the caller can optionally wait for completion
       var complete = function() {
         self.loading = false;
         if (onReady) onReady();
       };
-      // stageId is already in filename format (a1-1, a2-3, b1-2, etc.)
-      fetch('data/' + this.currentLocale + '/' + stageId + '.json')
+      var themesDir = 'data/' + this.currentLocale + '/' + stageId + '/themes';
+      fetch(themesDir + '/' + stageId + '.json')
         .then(function(response) {
           if (!response.ok) throw new Error('HTTP ' + response.status);
           return response.json();
         })
-        .then(function(data) {
-          self.stageData = data;
-          if (!self.stageData || Object.keys(self.stageData).length === 0) {
-            self.dataError = true;
-            complete();
-            return;
-          }
-          // Check if this stage has a themes directory (granular theme-based curriculum)
-          var themesDir = 'data/' + self.currentLocale + '/' + stageId + '/themes';
-          return fetch(themesDir + '/' + stageId + '.json')
-            .then(function(themesResponse) {
-              if (!themesResponse.ok) {
-                // No themes manifest — fall through to pillar view
-                self.renderPillar();
+        .then(function(manifest) {
+          if (manifest && manifest.themes && manifest.themes.length) {
+            // Stage has theme-based curriculum — the manifest IS the stage data
+            // (title/description/any stage-level verbs live here now).
+            self.stageData = manifest;
+            self.stageThemes = manifest.themes;
+            self.stageTitle = manifest.title;
+            self.stageDescription = manifest.description;
+
+            // Validate theme ID if one was provided
+            if (themeId) {
+              var themeFound = manifest.themes.some(function(t) { return t.id === themeId; });
+              if (!themeFound) {
+                self.invalidThemeId = true;
+                self.invalidThemeMessage = '"' + themeId + '" is not a valid theme for this stage.';
+                self.themeView = 'themes';
+                self.themeTitle = null;
+                self.themeData = null;
                 complete();
                 return;
               }
-              return themesResponse.json();
-            })
-            .then(function(manifest) {
-              if (manifest && manifest.themes) {
-                // Stage has theme-based curriculum — set theme data
-                self.stageThemes = manifest.themes;
-                self.stageTitle = manifest.title || self.stageData.title;
-                self.stageDescription = manifest.description || self.stageData.description;
-
-                // Validate theme ID if one was provided
-                if (themeId) {
-                  var themeFound = manifest.themes.some(function(t) { return t.id === themeId; });
-                  if (!themeFound) {
-                    self.invalidThemeId = true;
-                    self.invalidThemeMessage = '"' + themeId + '" is not a valid theme for this stage.';
-                    self.themeView = 'themes';
-                    self.themeTitle = null;
-                    self.themeData = null;
-                    complete();
-                    return;
-                  }
-                  // Theme valid — proceed to detail view
-                  self.themeView = 'theme-detail';
-                } else {
-                  // No theme requested — show themes list
-                  self.themeView = 'themes';
-                }
-              } else {
-                self.renderPillar();
-              }
-              complete();
-            })
-            .catch(function(e) {
-              // No themes found or manifest invalid — fall through to pillar view
-              self.renderPillar();
-              complete();
-            });
+              // Theme valid — proceed to detail view
+              self.themeView = 'theme-detail';
+            } else {
+              // No theme requested — show themes list
+              self.themeView = 'themes';
+            }
+            complete();
+          } else {
+            // Manifest without themes — fall through to pillar view
+            self.stageData = manifest || { id: stageId, title: 'Stage ' + stageId, description: '' };
+            self.renderPillar();
+            complete();
+          }
         })
         .catch(function(e) {
           console.error('Failed to load stage data:', e);
-          self.stageData = {
-            id: stageId,
-            title: 'Stage ' + stageId,
-            description: 'Content loading...',
-            grammar: [],
-            vocabulary: [],
-            verbs: [],
-            pronunciation: []
-          };
           self.dataError = true;
           complete();
         });
@@ -1248,7 +1220,7 @@ function app() {
               pronouns.forEach(function(p) {
                 html += '<tr><td class="font-medium">' + p + '</td>';
                 exercise.tenses.forEach(function(t) {
-                  var forms = verbObj.conjugations[t];
+                  var forms = verbObj.conjugations ? verbObj.conjugations[t] : null;
                   html += '<td>' + (forms && forms[p] ? forms[p] : '\u2014') + '</td>';
                 });
                 html += '</tr>';
@@ -1682,7 +1654,10 @@ function app() {
               var verbObj = verbs.find(function(v) {
                 return v.infinitive.toLowerCase() === item.verb.toLowerCase();
               });
-              if (verbObj) {
+              // Only attach verb data with real conjugation tables — stub verbs
+              // (id/infinitive/translation only) would render an empty grid and
+              // crash submitConjugationMatrix on the missing conjugations map.
+              if (verbObj && verbObj.conjugations) {
                 q.verbData = verbObj;
               }
             }
@@ -1734,7 +1709,9 @@ function app() {
               var verbObj = self.stageData.verbs.find(function(v) {
                 return v.infinitive.toLowerCase() === item.verb.toLowerCase();
               });
-              if (verbObj) {
+              // See theme-view branch above: stub verbs without conjugation tables
+              // are skipped so the quiz falls back to static display.
+              if (verbObj && verbObj.conjugations) {
                 q.verbData = verbObj;
               }
               // Initialize matrix state on question
@@ -2183,10 +2160,30 @@ function app() {
       if (this.quizAnswered) return;
 
       var question = this.quizQuestions[this.quizIndex];
-      if (!question || !question.verbData) return;
+      if (!question) return;
+
+      // Stub verbs (migrated from the retired root manifests, ADR 0007) have no
+      // conjugation tables — the grid can't be scored. Mark the question
+      // answered (0 points) so the user isn't stranded on a dead-end Submit.
+      if (!question.verbData) {
+        this.matrixCorrectAnswers = {};
+        this.matrixResults = {};
+        this.matrixCorrectCount = 0;
+        this.quizFeedback = {
+          correct: false,
+          explanation: 'No conjugation data available for ' + (question.verb || 'this verb') + ' yet — scored 0/' + this.matrixTotalCells + '.'
+        };
+        question._matrixAnswers = this.matrixAnswers;
+        question._matrixCorrectAnswers = this.matrixCorrectAnswers;
+        question._matrixResults = this.matrixResults;
+        question._matrixCorrectCount = 0;
+        this.quizAnswered = true;
+        return;
+      }
+
+      var verbData = question.verbData;
 
       var tenses = question.tenses || [];
-      var verbData = question.verbData;
 
       // Build correct answers map: "pIdx-tIdx" → correct form
       this.matrixCorrectAnswers = {};

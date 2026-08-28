@@ -8,12 +8,19 @@ This directory contains all curriculum content for the Spanish Learning App. Con
 data/
 ├── registry.json           # Locale registry — which language pairs are available
 ├── schema.json             # JSON Schema draft-07 — validates all stage files
-├── validate.js             # Runtime validator — run against a JSON file to check validity
+├── validate.js             # Runtime validator — run against a locale folder (or all)
 └── <locale>/               # One subdirectory per locale
-    ├── a1-1.json           # Stage A1.1 (e.g., Greetings & Introductions)
-    ├── a1-2.json           # Stage A1.2
-    └── …                   # More stages
+    └── <stage>/            # One subdirectory per stage (a1-1, a2-2, …)
+        └── themes/
+            ├── <stage>.json    # CANONICAL stage manifest (title, description, themes[];
+                                # optional stage-level verbs[]) — the app reads THIS
+            ├── <theme-a>.json  # Theme content (vocabulary, grammar, exercises, …)
+            └── <theme-b>.json
 ```
+
+NOTE: there are **no root-level stage files** (`data/<locale>/<stage>.json` was retired
+2026-08-28, see `ops/decisions/0007-canonical-stage-manifest.md`). The validator
+treats any resurrected root stage file as an error.
 
 ## Locale Registry (`registry.json`)
 
@@ -39,9 +46,10 @@ data/
 - **active**: Whether this locale is available in the app
 - **stages**: List of stage IDs available for this locale
 
-## Stage File Format (`a1-1.json`)
+## Stage Manifest Format (`themes/<stage>.json`)
 
-Each stage JSON file must conform to [schema.json](schema.json). Key sections:
+The canonical stage manifest lives at `data/<locale>/<stage>/themes/<stage>.json`.
+It conforms to [schema.json](schema.json) (`file_type: "manifest"`). Key sections:
 
 ### `id` (string, required)
 Stage identifier in kebab-case. Must match the pattern `^[a-z]\d-\d+$`.
@@ -226,16 +234,15 @@ User clicks a target term, then its English match. Right column items are shuffl
 
 ## Schema Validation
 
-Run `validate.js` against a stage file:
+Run `validate.js` against a locale folder (or all locales):
 
 ```bash
-node data/validate.js data/en-es/a1-1.json
+node data/validate.js          # all locales
+node data/validate.js en-es    # one locale
 ```
 
-Expected output on success:
-```
-✓ data/en-es/a1-1.json is valid (12 exercises, 55 vocabulary words)
-```
+Expected output on success: one `✅` line per content theme and per stage manifest,
+plus a summary. Any `❌` line is a blocking error (non-zero exit code).
 
 ## Best Practices for Adding Content
 
@@ -248,9 +255,12 @@ Expected output on success:
 
 ## Adding a New Stage
 
-1. Copy an existing stage file as a template
-2. Update the `id`, `title`, and `description`
-3. Replace the content arrays with new material
+1. Create `data/<locale>/<stage>/themes/`
+2. Create the stage manifest `data/<locale>/<stage>/themes/<stage>.json` (copy an existing one)
+3. Add the theme content files to `themes/`
 4. Update `registry.json` to add the stage ID to the locale's `stages` array
-5. Validate: `node data/validate.js data/<locale>/a1-x.json`
+5. Validate: `node data/validate.js <locale>`
 6. Commit with message: `Add stage A1.x — <topic>`
+
+Do NOT create a root-level `data/<locale>/<stage>.json` — root stage files were
+retired in 2026-08-28 and the validator now rejects them.

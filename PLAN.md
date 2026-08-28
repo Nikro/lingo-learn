@@ -12,19 +12,21 @@ Build a static, GitHub Pages deployable PWA for structured language learning. Th
 5. **Predictable UX states**: every screen must have explicit loading, loaded, empty, and error behavior.
 6. **No secrets**: the app must not require or store credentials, API keys, or private user data.
 
-## Desired information architecture
+## Information architecture (canonical as of 2026-08-28, ADR 0007)
 
 ```text
 data/
 ├── registry.json
 ├── schema.json
 └── <source>-<target>/
-    ├── master-structure.json
-    ├── <stage>.json
     └── <stage>/themes/
-        ├── <stage>.json
-        └── <theme>.json
+        ├── <stage>.json      # canonical stage manifest (title, description, themes[];
+        │                     # optional stage-level verbs[])
+        └── <theme>.json      # theme content
 ```
+
+Root-level stage files (`data/<locale>/<stage>.json`) were retired on 2026-08-28
+(ADR 0007). The validator rejects any resurrected root stage file as an error.
 
 A stage should aim for about 10 theme-topics. The current repository has more generated content than the original README described, so cleanup should focus on standardization, validation, and navigation reliability rather than merely adding volume.
 

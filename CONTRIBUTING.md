@@ -20,10 +20,10 @@ This is a content-first project. The most impactful contribution is adding lesso
 ### Quick Start
 
 1. **Pick a stage** — e.g., A1.2 (Numbers & Colors) or A2.1 (Daily Life)
-2. **Copy a template** — Start from `data/en-es/a1-1.json`
+2. **Copy a theme template** — Start from an existing file in `data/en-es/<stage>/themes/`
 3. **Edit the content** — Replace the arrays with your material
-4. **Register the stage** — Update `data/registry.json`
-5. **Validate** — Run `node data/validate.js data/en-es/a1-2.json`
+4. **Register the theme** — Add it to `themes[]` in the canonical manifest `data/en-es/<stage>/themes/<stage>.json`
+5. **Validate** — Run `node data/validate.js`
 6. **Submit a PR** — That's it!
 
 ### Content Guidelines
@@ -89,13 +89,13 @@ To add a new exercise type:
 To add a new language pair (e.g., French → Spanish):
 
 1. **Create the directory**: `data/fr-es/`
-2. **Create stage files** — Copy `data/en-es/a1-1.json`, translate content
+2. **Create stage dirs + manifests** — Copy `data/en-es/a1-1/` (including `themes/a1-1.json`), translate content. Do NOT create root-level stage files (`data/fr-es/a1-1.json`) — they were retired 2026-08-28 (ADR 0007).
 3. **Update registry** — Add to `data/registry.json`:
    ```json
    { "code": "fr-es", "name": "French → Spanish", "active": true, "stages": ["a1-1"] }
    ```
 4. **Test** — Open the app, select the new locale from the sidebar dropdown
-5. **Validate** — `node data/validate.js data/fr-es/a1-1.json`
+5. **Validate** — `node data/validate.js fr-es`
 
 ---
 

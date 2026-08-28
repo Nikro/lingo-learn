@@ -2,6 +2,43 @@
   "stage_id": "b1-1",
   "title": "B1.1 — Advanced Subjunctive, Passives, & Complex Narratives",
   "description": "Master the imperfect subjunctive, passive constructions, relative pronouns, and advanced connectors. Transition from basic narratives to complex, nuanced Spanish.",
+  "verbs": [
+    {
+      "id": "tener",
+      "infinitive": "TENER",
+      "translation": "to have"
+    },
+    {
+      "id": "ser",
+      "infinitive": "SER",
+      "translation": "to be (permanent)"
+    },
+    {
+      "id": "estar",
+      "infinitive": "ESTAR",
+      "translation": "to be (temporary)"
+    },
+    {
+      "id": "ir",
+      "infinitive": "IR",
+      "translation": "to go"
+    },
+    {
+      "id": "preferir",
+      "infinitive": "PREFERIR",
+      "translation": "to prefer"
+    },
+    {
+      "id": "conseguir",
+      "infinitive": "CONSEGUIR",
+      "translation": "to obtain / manage"
+    },
+    {
+      "id": "entender",
+      "infinitive": "ENTENDER",
+      "translation": "to understand"
+    }
+  ],
   "themes": [
     {
       "id": "abstract-thinking-opinions",
