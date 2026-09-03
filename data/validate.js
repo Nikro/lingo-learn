@@ -12,6 +12,10 @@
  *   - grammar / exercises / pronunciation present+non-empty -> ERROR (app pillar crash if missing)
  *   - vocabulary present (missing entirely)              -> ERROR
  *   - vocabulary >= 50 items (array OR dict-of-categories, flattened the way app.js does) -> WARNING (reports known gaps, does not block)
+ *   - vocabulary legacy shapes (dict-of-categories, items missing id, items
+ *     using word/spanish instead of target)              -> WARNING (normalized client-side by
+ *                                                          normalizeVocab in js/app.js; kept visible so the data
+ *                                                          can be migrated to the canonical flat-array shape)
  *   - no secret-named JSON key / credential token value  -> ERROR (real leak; see secret scanner note below)
  *   - explicit id (id/theme_id/stage_id) field           -> WARNING (app routes by FILENAME, so non-fatal)
  *   - display title (title/theme_name)                   -> WARNING
@@ -104,6 +108,30 @@ function checkTheme(data, label) {
     errors.push('missing vocabulary section');
   } else if (vocabLen < 50) {
     warnings.push('only ' + vocabLen + ' vocab items (need >=50)');
+  }
+
+  // vocabulary shape (defense in depth for the 2026-09-03 render bug):
+  // the canonical item shape is { id, target, source, gender, type } as a
+  // FLAT ARRAY. Legacy shapes still on disk (dict-of-categories, items with
+  // spanish/english keys, items without id) are normalized client-side by
+  // normalizeVocab() in js/app.js, so these are warnings, not errors — but
+  // they must stay visible so the data can be migrated to the canonical
+  // shape and the normalizer can eventually be deleted.
+  if (data.vocabulary != null) {
+    if (!Array.isArray(data.vocabulary) && typeof data.vocabulary === 'object') {
+      warnings.push('vocabulary is a dict-of-categories (legacy shape, ' + vocabLen +
+        ' items) — app normalizes it client-side (normalizeVocab); migrate to flat array with id/target/source');
+    } else if (Array.isArray(data.vocabulary)) {
+      let noId = 0;
+      let legacyKeys = 0;
+      for (const it of data.vocabulary) {
+        if (!it || typeof it !== 'object') continue;
+        if (it.id == null) noId++;
+        if (it.target == null && (it.word != null || it.spanish != null)) legacyKeys++;
+      }
+      if (noId) warnings.push(noId + ' vocab item(s) missing explicit id (app assigns ids client-side); add ids');
+      if (legacyKeys) warnings.push(legacyKeys + ' vocab item(s) use legacy word/spanish keys instead of target (app maps client-side); migrate keys');
+    }
   }
 
   // required pillars present + non-empty

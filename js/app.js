@@ -1,9 +1,52 @@
 // LingoLearn — Main Application
-// ═══════════════════════════════════════════════════════════
+// ═══════════════════════════════════════════════════════════════
 // ─── Application Structure ───
 // This file contains the main Alpine.js component for the LingoLearn app.
 // It is wrapped in `function app()` and exposed as `window.app`.
-// ═══════════════════════════════════════════════════════════
+// ═══════════════════════════════════════════════════════════════
+
+// ─── Vocabulary normalizer ───
+// Canonical vocab item shape: { id, target, source, gender, type }.
+// Normalizes any legacy shape into that:
+//   - dict-of-categories -> flat array (iterates ALL list-valued keys,
+//     plural and singular, skipping non-list values like total_count)
+//   - items with word/spanish keys -> target
+//   - items with english key -> source
+//   - missing id -> assigned sequentially from startId (grid binds :key="word.id")
+//   - missing gender -> '—', missing type -> category key (or 'word')
+function normalizeVocab(vocab, startId) {
+  var items = [];
+  if (vocab == null) {
+    return items;
+  } else if (Array.isArray(vocab)) {
+    items = vocab;
+  } else if (typeof vocab === 'object') {
+    // Dict-of-categories: flatten every list-valued key (plural AND singular).
+    // Remember the source category for items that don't carry their own type.
+    for (var cat in vocab) {
+      var bucket = vocab[cat];
+      if (Array.isArray(bucket)) {
+        bucket.forEach(function(it) {
+          if (it && typeof it === 'object') it._cat = cat;
+          items.push(it);
+        });
+      }
+      // non-list values (e.g. total_count) are metadata, not content
+    }
+  }
+  var nextId = startId || 1;
+  for (var i = 0; i < items.length; i++) {
+    var item = items[i];
+    if (!item || typeof item !== 'object') continue;
+    item.id = item.id || nextId++;
+    item.target = item.target || item.word || item.spanish || '';
+    item.source = item.source || item.english || '';
+    item.gender = item.gender || '—';
+    item.type = item.type || item._cat || 'word';
+    if (item._cat) delete item._cat;
+  }
+  return items;
+}
 
 function app() {
   return {
@@ -875,6 +918,13 @@ function app() {
         var response = await fetch(baseDir + themeId + '.json');
         if (response.ok) {
           this.themeData = await response.json();
+          // Normalize vocabulary to the canonical flat-array shape (id/target/source/gender/type).
+          // Handles legacy shapes that predate the canonical schema:
+          //   - dict-of-categories ({ nouns[], verbs[], adjectives[], phrases_and_connectors[], ... })
+          //   - array items using spanish/english keys without id
+          // Without this, the grid's x-for :key="word.id" breaks (0 cards + console errors)
+          // and the vocab quiz builds "undefined" questions.
+          this.themeData.vocabulary = normalizeVocab(this.themeData.vocabulary);
           // Set theme title from JSON if available
           if (this.themeData.title && typeof this.themeData.title === 'string') {
             this.themeTitle = this.themeData.title;
@@ -896,54 +946,24 @@ function app() {
           }
           if (!chunked) {
             this.themeData = await chunkResponse.json();
-            // Normalize vocabulary: if dict-based (categories), flatten into array
-            if (typeof this.themeData.vocabulary === 'object' && !Array.isArray(this.themeData.vocabulary)) {
-              var flatVocab = [];
-              var nextId = 1;
-              for (var cat in this.themeData.vocabulary) {
-                if (Array.isArray(this.themeData.vocabulary[cat])) {
-                  this.themeData.vocabulary[cat].forEach(function(item) {
-                    item.id = item.id || nextId++;
-                    item.target = item.target || item.word || '';
-                    item.source = item.source || item.english || '';
-                    item.gender = item.gender || '—';
-                    item.type = item.type || cat;
-                    flatVocab.push(item);
-                  });
-                }
-              }
-              this.themeData.vocabulary = flatVocab;
-              // Also set the theme title from JSON if not set
-              if (this.themeData.title && typeof this.themeData.title === 'string') {
-                this.themeTitle = this.themeData.title;
-              }
+            // Normalize vocabulary to the canonical flat-array shape
+            // (dict-of-categories -> flat array, ids/keys filled in).
+            this.themeData.vocabulary = normalizeVocab(this.themeData.vocabulary);
+            // Also set the theme title from JSON if not set
+            if (this.themeData.title && typeof this.themeData.title === 'string') {
+              this.themeTitle = this.themeData.title;
             }
             chunked = true;
             partNum++;
             continue;
           }
           var chunkData = await chunkResponse.json();
-          // Handle dict-based vocabulary (e.g., b2-1 themes with nouns/verbs categories)
-          var chunkVocab = chunkData.vocabulary;
-          if (Array.isArray(chunkVocab)) {
-            this.themeData.vocabulary.push(...chunkVocab);
-          } else if (typeof chunkVocab === 'object') {
-            // Merge category arrays into flat vocabulary array, adding IDs
-            var vocab = this.themeData.vocabulary;
-            var nextId = vocab.length + 1;
-            for (var cat in chunkVocab) {
-              if (Array.isArray(chunkVocab[cat])) {
-                chunkVocab[cat].forEach(function(item) {
-                  item.id = item.id || nextId++;
-                  item.target = item.target || item.word || '';
-                  item.source = item.source || item.english || '';
-                  item.gender = item.gender || '—';
-                  item.type = item.type || cat;
-                  vocab.push(item);
-                }.bind(this));
-              }
-            }
-          }
+          // Merge this chunk's vocabulary (array or dict-of-categories),
+          // continuing id assignment so keys stay unique across chunks.
+          this.themeData.vocabulary.push.apply(
+            this.themeData.vocabulary,
+            normalizeVocab(chunkData.vocabulary, this.themeData.vocabulary.length + 1)
+          );
           // Handle dict-based grammar/pronunciation/exercises
           var chunkGrammar = chunkData.grammar;
           if (Array.isArray(chunkGrammar)) {
