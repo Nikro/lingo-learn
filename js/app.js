@@ -16,11 +16,13 @@
 //   - missing gender -> '—', missing type -> category key (or 'word')
 function normalizeVocab(vocab, startId) {
   var items = [];
+  var wasDict = false;
   if (vocab == null) {
     return items;
   } else if (Array.isArray(vocab)) {
     items = vocab;
   } else if (typeof vocab === 'object') {
+    wasDict = true;
     // Dict-of-categories: flatten every list-valued key (plural AND singular).
     // Remember the source category for items that don't carry their own type.
     for (var cat in vocab) {
@@ -38,7 +40,15 @@ function normalizeVocab(vocab, startId) {
   for (var i = 0; i < items.length; i++) {
     var item = items[i];
     if (!item || typeof item !== 'object') continue;
-    item.id = item.id || nextId++;
+    if (wasDict) {
+      // Per-bucket local ids (each category restarts at 1) collide across
+      // buckets and break the grid's x-for :key="word.id". Reassign every id
+      // globally so keys stay unique.
+      item.id = nextId++;
+    } else {
+      // Flat array: existing ids are already global; fill only the gaps.
+      item.id = item.id || nextId++;
+    }
     item.target = item.target || item.word || item.spanish || '';
     item.source = item.source || item.english || '';
     item.gender = item.gender || '—';
@@ -1527,23 +1537,54 @@ function app() {
     normalizeExerciseType: function(item) {
       if (item.type) {
         var t = item.type.toLowerCase().replace(/_/g, '-');
-        // Direct matches
+        // Direct matches (already in canonical hyphen form)
         if (['multiple-choice', 'fill-in-blank', 'conjugation', 'matching', 'conjugation-matrix'].indexOf(t) !== -1) {
           return t;
         }
-        // Map common aliases
-        if (t === 'fill_in_the_blank' || t === 'sentence_completion') return 'fill-in-blank';
-        if (t === 'exercise' || t === 'grammar_application') {
+        // Map common aliases. NOTE: t is already hyphen-normalized, so the
+        // alias literals must also be hyphenated (the old code compared t
+        // against underscore forms and these branches were dead code).
+        if (t === 'fill-in-the-blank' || t === 'sentence-completion') return 'fill-in-blank';
+        if (t === 'exercise' || t === 'grammar-application') {
           return (item.options && Array.isArray(item.options)) ? 'multiple-choice' : 'fill-in-blank';
         }
         if (t === 'translation') return 'fill-in-blank';
-        if (t === 'vocabulary_matching') return 'matching';
+        if (t === 'vocabulary-matching') return 'matching';
       }
       // Fallback: infer from structure
       if (item.options && Array.isArray(item.options)) return 'multiple-choice';
       if (item.pairs && Array.isArray(item.pairs)) return 'matching';
       if (item.tenses && Array.isArray(item.tenses)) return 'conjugation-matrix';
       return item.type || 'fill-in-blank';
+    },
+
+    // Prepare a matching question object for the quiz UI: store the correct
+    // pairs, a shuffled list of right-column items, and reset per-question
+    // matching state. Shared by the theme-detail and stage quiz builders.
+    setupMatchingQuestion: function(q) {
+      q.matchPairs = q.matchPairs || q.pairs;
+      q.matchRightItems = q.matchPairs.map(function(p) { return p.source; });
+      // Shuffle right items
+      q.matchRightOriginalIndex = q.matchPairs.map(function(_, i) { return i; });
+      for (var s = q.matchRightOriginalIndex.length - 1; s > 0; s--) {
+        var r = Math.floor(Math.random() * (s + 1));
+        var tmp = q.matchRightOriginalIndex[s];
+        q.matchRightOriginalIndex[s] = q.matchRightOriginalIndex[r];
+        q.matchRightOriginalIndex[r] = tmp;
+      }
+      var originalPairs = q.matchPairs;
+      q.matchRightItems = q.matchRightOriginalIndex.map(function(origIdx) {
+        return originalPairs[origIdx].source;
+      });
+      // Reset matching state for this question
+      q._matchSelections = [];
+      q._matchRightMatched = [];
+      q._selectedLeft = null;
+      q._selectedRight = null;
+      q._userMatchAnswers = null;
+      q._matchResults = null;
+      q._matchAttempts = 0;
+      return q;
     },
 
     // Escape HTML special characters to prevent XSS in rendered content
@@ -1618,13 +1659,16 @@ function app() {
           });
         }
 
-        // Include theme grammar items as quiz questions (only if 'grammar' pillar selected)
+        // Include theme grammar items as quiz questions (only if 'grammar' pillar
+        // selected). Grammar reference entries (title/description/examples, no
+        // question) are NOT quiz-able — pushing them created blank broken
+        // questions, so only include items that carry real quiz fields.
         if (selectedPillars.includes('grammar') && this.themeData.grammar && Array.isArray(this.themeData.grammar)) {
-          this.themeData.grammar.forEach(function(item, index) {
+          this.themeData.grammar.forEach(function(item) {
+            if (item.question === undefined || item.question === null) return;
             var q = Object.assign({}, item, {
               pillar: 'grammar',
-              index: index,
-              type: item.type || 'fill-in-blank'
+              type: normalizeExerciseType(item)
             });
             self.quizQuestions.push(q);
           });
@@ -1633,7 +1677,10 @@ function app() {
         // Include theme exercises (only those matching selected pillars)
         var flatEx = this.flattenThemeExercises();
         flatEx.forEach(function(item, index) {
-          // Map exercise type to pillar for filtering
+          // item.type is normalized by flattenThemeExercises (vocabulary_matching
+          // -> matching, fill_in_the_blank -> fill-in-blank, ...). Use the
+          // normalized type so the quiz's render branches (which key off
+          // 'matching' / 'fill-in-blank') actually match and render.
           var exercisePillar = item.pillar || self.mapExerciseTypeToPillar(item.type);
           if (!selectedPillars.includes(exercisePillar)) return;
 
@@ -1643,28 +1690,105 @@ function app() {
             type: item.type
           });
 
-          // For matching exercises, store pairs and shuffled right items on the question object
-          if (q.type === 'matching' && item.pairs && Array.isArray(item.pairs)) {
-            q.matchPairs = item.pairs;
-            q.matchRightItems = item.pairs.map(function(p) { return p.source; });
-            q.matchRightOriginalIndex = item.pairs.map(function(_, i) { return i; });
-            for (var s = q.matchRightOriginalIndex.length - 1; s > 0; s--) {
-              var r = Math.floor(Math.random() * (s + 1));
-              var tmp = q.matchRightOriginalIndex[s];
-              q.matchRightOriginalIndex[s] = q.matchRightOriginalIndex[r];
-              q.matchRightOriginalIndex[r] = tmp;
+          // ---- Legacy "items"-shaped exercises ---------------------------------
+          // Newer theme JSONs use { id, type, title, instructions, items: [...] }
+          // instead of flat { question, options, correct }. Expand the ones that
+          // are auto-gradable; skip the rest (free-writing / open transformation
+          // tasks have no machine-checkable answer).
+          if (item.items && Array.isArray(item.items) && item.items.length > 0) {
+            if (q.type === 'matching') {
+              // term/definition items -> one matching question
+              var mp = item.items
+                .filter(function(i) { return i.term && i.definition; })
+                .map(function(i) { return { target: i.term, source: i.definition }; });
+              if (mp.length >= 2) {
+                q.matchPairs = mp;
+                q.question = q.question || item.title_en || item.title || 'Match the terms with their definitions';
+                self.setupMatchingQuestion(q);
+                self.quizQuestions.push(q);
+              }
+              return;
             }
-            var originalPairs = item.pairs;
-            q.matchRightItems = q.matchRightOriginalIndex.map(function(origIdx) {
-              return originalPairs[origIdx].source;
-            });
-            q._matchSelections = [];
-            q._matchRightMatched = [];
-            q._selectedLeft = null;
-            q._selectedRight = null;
-            q._userMatchAnswers = null;
-            q._matchResults = null;
-            q._matchAttempts = 0;
+            if (q.type === 'fill-in-blank') {
+              // sentence/answer items -> one fill-in question each
+              item.items.forEach(function(i, ii) {
+                if (i.sentence && i.answer !== undefined) {
+                  self.quizQuestions.push({
+                    pillar: exercisePillar,
+                    index: index * 100 + ii,
+                    type: 'fill-in-blank',
+                    question: i.sentence,
+                    correct: i.answer,
+                    explanation: item.instructions_en || item.instructions || '',
+                    title: item.title_en || item.title || ''
+                  });
+                } else if (i.question && i.correct !== undefined) {
+                  self.quizQuestions.push({
+                    pillar: exercisePillar,
+                    index: index * 100 + ii,
+                    type: 'fill-in-blank',
+                    question: i.question,
+                    correct: i.correct,
+                    explanation: i.explanation || item.instructions_en || item.instructions || ''
+                  });
+                }
+              });
+              return;
+            }
+            if (q.type === 'reading_comprehension' && item.questions && Array.isArray(item.questions)) {
+              // short-answer reading questions -> fill-in questions
+              item.questions.forEach(function(rq, ii) {
+                if (rq.question && rq.answer !== undefined) {
+                  self.quizQuestions.push({
+                    pillar: exercisePillar,
+                    index: index * 100 + ii,
+                    type: 'fill-in-blank',
+                    question: rq.question,
+                    correct: rq.answer,
+                    explanation: rq.explanation || item.instructions_en || item.instructions || ''
+                  });
+                }
+              });
+              return;
+            }
+            // creative_writing / grammar_application / sentence_completion and
+            // any other items-shape: not auto-gradable -> skip (no broken question)
+            return;
+          }
+
+          // ---- Flat-shape questions -------------------------------------------
+          // Legacy dict-based exercises (e.g. animals-nature) use sentence/blank
+          // or english/spanish keys instead of question/correct.
+          if (q.question === undefined || q.question === null) {
+            if (q.sentence && q.blank !== undefined) {
+              q.question = q.sentence;
+              q.correct = q.blank;
+              q.type = 'fill-in-blank';
+            } else if (q.english && q.spanish) {
+              q.question = 'How do you say "' + q.english + '" in Spanish?';
+              q.correct = q.spanish;
+              q.type = 'fill-in-blank';
+            } else {
+              return; // no question text at all -> nothing to render
+            }
+          }
+
+          // translation has no dedicated render branch -> reuse fill-in-blank
+          if (q.type === 'translation') q.type = 'fill-in-blank';
+
+          // Validate required fields per render branch; skip broken questions
+          if (q.type === 'multiple-choice') {
+            if (!q.options || !Array.isArray(q.options) || q.correct === undefined) return;
+          } else if (q.type === 'fill-in-blank' || q.type === 'conjugation') {
+            if (q.correct === undefined || q.correct === null) return;
+            if (q.type === 'conjugation' && !q.verb) return;
+          } else if (q.type === 'matching') {
+            if (!q.pairs || !Array.isArray(q.pairs) || q.pairs.length < 2) return;
+            self.setupMatchingQuestion(q);
+          } else if (q.type === 'conjugation-matrix') {
+            // verb data attached below; always renderable (grid + submit)
+          } else {
+            return; // unknown type -> skip
           }
 
           // For conjugation-matrix exercises, look up verb data from theme verbs
@@ -1700,28 +1824,7 @@ function app() {
 
             // For matching exercises, store pairs and shuffled right items on the question object
             if (item.type === 'matching' && item.pairs) {
-              q.matchPairs = item.pairs;
-              q.matchRightItems = item.pairs.map(function(p) { return p.source; });
-              // Shuffle right items
-              q.matchRightOriginalIndex = item.pairs.map(function(_, i) { return i; });
-              for (var s = q.matchRightOriginalIndex.length - 1; s > 0; s--) {
-                var r = Math.floor(Math.random() * (s + 1));
-                var tmp = q.matchRightOriginalIndex[s];
-                q.matchRightOriginalIndex[s] = q.matchRightOriginalIndex[r];
-                q.matchRightOriginalIndex[r] = tmp;
-              }
-              var originalPairs = item.pairs;
-              q.matchRightItems = q.matchRightOriginalIndex.map(function(origIdx) {
-                return originalPairs[origIdx].source;
-              });
-              // Reset matching state for this question
-              q._matchSelections = [];
-              q._matchRightMatched = [];
-              q._selectedLeft = null;
-              q._selectedRight = null;
-              q._userMatchAnswers = null;
-              q._matchResults = null;
-              q._matchAttempts = 0;
+              self.setupMatchingQuestion(q);
             }
 
             // For conjugation-matrix exercises, look up verb data
